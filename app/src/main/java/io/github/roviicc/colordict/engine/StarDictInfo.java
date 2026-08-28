@@ -48,7 +48,7 @@ public final class StarDictInfo {
             }
         }
         String text = new String(buf.toByteArray(), StandardCharsets.UTF_8);
-        if (text.startsWith("﻿")) {
+        if (text.startsWith("\uFEFF")) {
             text = text.substring(1);
         }
 
