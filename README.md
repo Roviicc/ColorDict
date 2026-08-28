@@ -71,14 +71,52 @@ startActivity(intent);
 Selected text in any app also gets a **Define** entry (Android's
 process-text menu), and plain text can be shared to the app.
 
-## Installing
+## Installing on a phone
 
 Grab the ready-to-install **debug APK** from the
 [Releases page](https://github.com/roviicc/colordict/releases) (or from any
 CI run's artifacts), allow installing from unknown sources, and open it.
 Pushing a `v*` tag builds and publishes a new release automatically.
 
-## Building
+## Trying it on a computer
+
+### With Android Studio (the full app)
+
+1. **File → Open** and select this folder, then let Gradle sync (it downloads
+   the Android Gradle Plugin and SDK pieces on first run).
+2. If it asks for an SDK, install **Android SDK Platform 35** via
+   *Tools → SDK Manager*.
+3. Create an emulator in *Tools → Device Manager* (any device image, API 24+),
+   then press **Run ▶**.
+4. To test the popup API that other apps use, run this against the emulator:
+
+   ```bash
+   adb shell am start -a colordict.intent.action.SEARCH -e EXTRA_QUERY serene
+   ```
+
+Hardware acceleration matters: on Linux the emulator needs KVM
+(`ls /dev/kvm`), and on Windows/macOS it uses the platform hypervisor. If the
+emulator will not start, plug in a real phone with USB debugging instead —
+`./gradlew installDebug` puts the app on it.
+
+### Without the Android SDK (desktop harness)
+
+`run-desktop.sh` runs the **same StarDict engine and color-coded renderer**
+the app uses, in a small Swing window. It needs nothing but a **JDK 17+** —
+no Android SDK, no Gradle, no emulator — so it is the quickest way to check
+dictionary parsing and lookups, or to try a dictionary file before copying it
+to your phone.
+
+```bash
+./run-desktop.sh                        # window, with the bundled sample glossary
+./run-desktop.sh --dict ~/my-dicts      # also load your own dictionaries
+./run-desktop.sh --lookup serene        # print one definition in the terminal
+./run-desktop.sh --list                 # list the dictionaries that loaded
+```
+
+Windows: use `run-desktop.bat` with the same options.
+
+## Building from the command line
 
 ```bash
 ./gradlew assembleDebug     # installable APK at app/build/outputs/apk/debug/
@@ -95,9 +133,11 @@ artifacts. Release builds are unsigned; sign with your own key to distribute.
 app/src/main/java/io/github/roviicc/colordict/
   engine/   Pure-Java StarDict engine (no Android imports, unit-tested):
             .ifo/.idx/.syn parsing, StarDict collation + binary search,
-            dictzip random access, article parsing and HTML rendering
+            dictzip random access, article parsing, and the color-coded
+            definition renderer shared with the desktop harness
   data/     Repository, registry (order/color/enabled), history store, prefs
   ui/       Activities and views (Android framework only, no libraries)
+desktop/    Swing harness that runs the engine on a PC with only a JDK
 tools/      Python utilities: build/verify StarDict files, generate the
             bundled sample glossary, test fixtures, and launcher icons
 ```

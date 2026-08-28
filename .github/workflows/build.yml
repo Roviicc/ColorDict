@@ -23,6 +23,9 @@ jobs:
       - name: Unit tests
         run: ./gradlew --no-daemon test
 
+      - name: Desktop harness (compiles and answers a lookup)
+        run: ./run-desktop.sh --lookup serene
+
       - name: Build APKs
         run: ./gradlew --no-daemon assembleDebug assembleRelease
 
