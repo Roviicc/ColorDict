@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ColorDict — offline multi-dictionary for Android</title>
+<meta name="description" content="A free, open-source, offline dictionary for Android. Search once, see color-coded results from every StarDict dictionary at the same time.">
+<meta property="og:title" content="ColorDict — offline multi-dictionary for Android">
+<meta property="og:description" content="Search once, see color-coded results from every dictionary at the same time. Free, offline, no ads, no tracking.">
+<meta property="og:type" content="website">
+<link rel="icon" href="icon.png" type="image/png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <img class="applogo" src="icon.png" width="96" height="96" alt="ColorDict icon">
+    <h1>ColorDict</h1>
+    <p class="tagline">Search once. See every dictionary answer at once — each in its own color.</p>
+
+    <div id="download" class="download">
+      <a id="primary-btn" class="btn btn-primary"
+         href="https://github.com/Roviicc/ColorDict/releases/latest">
+        Download the APK
+      </a>
+      <p id="release-meta" class="meta">Loading the latest release…</p>
+    </div>
+
+    <p class="sub">
+      Free and open source · No ads · No tracking · Works completely offline
+    </p>
+  </div>
+</header>
+
+<main>
+
+<section class="wrap">
+  <h2>What it does</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Every dictionary at once</h3>
+      <p>One search queries all your enabled dictionaries. Each answer arrives on
+         its own card, tagged with that dictionary's color, so you can see at a
+         glance who said what.</p>
+    </div>
+    <div class="card">
+      <h3>Real StarDict support</h3>
+      <p>Reads the standard free dictionary format: <code>.ifo</code>,
+         <code>.idx</code> (and <code>.idx.gz</code>), <code>.dict</code> and
+         dictzip-compressed <code>.dict.dz</code>, plus <code>.syn</code>
+         synonyms. Thousands of free dictionaries just work.</p>
+    </div>
+    <div class="card">
+      <h3>Fast, even when big</h3>
+      <p>A 150,000-word dictionary loads in well under a second and answers a
+         lookup in a fraction of a millisecond — including decompressing and
+         rendering the article.</p>
+    </div>
+    <div class="card">
+      <h3>Works inside other apps</h3>
+      <p>Select text anywhere and choose <em>Define</em>, or let your e-book
+         reader call ColorDict's popup directly through the standard
+         lookup intent.</p>
+    </div>
+    <div class="card">
+      <h3>History &amp; bookmarks</h3>
+      <p>Recent searches are one tap away, and any word can be starred.
+         Pronunciation uses your device's text-to-speech.</p>
+    </div>
+    <div class="card">
+      <h3>Private by construction</h3>
+      <p>The app has no network permission at all. Your lookups never leave the
+         device, because there is nowhere for them to go.</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Installing</h2>
+  <ol class="steps">
+    <li><strong>Download</strong> the APK using the button above.</li>
+    <li><strong>Allow the install.</strong> Android will ask permission to
+        install apps from this source — this is normal for apps distributed
+        outside the Play Store.</li>
+    <li><strong>Open it.</strong> A small sample glossary is built in, so search
+        works the moment it starts.</li>
+  </ol>
+  <p class="note">
+    Two builds are published. The <strong>debug</strong> APK is signed and
+    installs directly — take this one. The <strong>release</strong> APK is
+    unsigned and is meant for developers who want to sign it themselves.
+  </p>
+</section>
+
+<section class="wrap">
+  <h2>Adding dictionaries</h2>
+  <p>
+    ColorDict reads dictionaries in StarDict format, and plenty are free to
+    download — conversions of WordNet, FreeDict, Wiktionary and more.
+    In the app open <strong>⋮ → Dictionaries → Import dictionary files…</strong>
+    and pick the files, or import a whole folder at once.
+  </p>
+  <p class="linkrow">
+    <a href="https://freedict.org/downloads/" rel="noopener">FreeDict downloads</a>
+    <a href="https://tuxor1337.frama.io/firedict/dictionaries.html" rel="noopener">Free StarDict dictionaries</a>
+    <a href="https://en-word.net/" rel="noopener">Open English WordNet</a>
+  </p>
+</section>
+
+<section class="wrap">
+  <h2>For developers</h2>
+  <p>
+    The whole project is on GitHub under the MIT licence: a dependency-free
+    Android app plus a pure-Java StarDict engine that also runs on the desktop.
+  </p>
+  <pre><code>git clone -b main https://github.com/Roviicc/ColorDict.git
+cd ColorDict
+./gradlew assembleDebug   # build the APK
+./run-desktop.sh          # try the engine on a PC, JDK only</code></pre>
+  <p class="linkrow">
+    <a href="https://github.com/Roviicc/ColorDict" rel="noopener">Source code</a>
+    <a href="https://github.com/Roviicc/ColorDict/releases" rel="noopener">All releases</a>
+    <a href="https://github.com/Roviicc/ColorDict/blob/main/docs/DICTIONARY-DATA.md" rel="noopener">Dictionary data notes</a>
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>
+      MIT licensed. An independent open-source project inspired by the classic
+      ColorDict app — not affiliated with or endorsed by its authors.
+      "StarDict" refers to the open dictionary file format.
+    </p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

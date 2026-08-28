@@ -40,6 +40,11 @@ jobs:
              "colordict-${TAG}-debug.apk"
           cp app/build/outputs/apk/release/app-release-unsigned.apk \
              "colordict-${TAG}-release-unsigned.apk"
+          # Stable filenames too, so /releases/latest/download/colordict-debug.apk
+          # keeps working as versions change (used by the download site).
+          cp app/build/outputs/apk/debug/app-debug.apk colordict-debug.apk
+          cp app/build/outputs/apk/release/app-release-unsigned.apk \
+             colordict-release-unsigned.apk
 
       - name: Publish GitHub release with APKs
         env:
@@ -48,6 +53,8 @@ jobs:
           gh release create "${TAG}" \
             "colordict-${TAG}-debug.apk" \
             "colordict-${TAG}-release-unsigned.apk" \
+            "colordict-debug.apk" \
+            "colordict-release-unsigned.apk" \
             --target "${GITHUB_SHA}" \
             --title "ColorDict ${TAG}" \
             --notes "Ready-to-install **debug APK** (install this one directly on your device) and an unsigned release APK (sign it with your own key before distributing)." \
