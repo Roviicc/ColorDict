@@ -71,6 +71,13 @@ startActivity(intent);
 Selected text in any app also gets a **Define** entry (Android's
 process-text menu), and plain text can be shared to the app.
 
+## Installing
+
+Grab the ready-to-install **debug APK** from the
+[Releases page](https://github.com/roviicc/colordict/releases) (or from any
+CI run's artifacts), allow installing from unknown sources, and open it.
+Pushing a `v*` tag builds and publishes a new release automatically.
+
 ## Building
 
 ```bash

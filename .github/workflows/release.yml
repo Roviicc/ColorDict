@@ -1,0 +1,45 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Build and test
+        run: ./gradlew --no-daemon test assembleDebug assembleRelease
+
+      - name: Name the APKs after the tag
+        run: |
+          cp app/build/outputs/apk/debug/app-debug.apk \
+             "colordict-${GITHUB_REF_NAME}-debug.apk"
+          cp app/build/outputs/apk/release/app-release-unsigned.apk \
+             "colordict-${GITHUB_REF_NAME}-release-unsigned.apk"
+
+      - name: Publish GitHub release with APKs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" \
+            "colordict-${GITHUB_REF_NAME}-debug.apk" \
+            "colordict-${GITHUB_REF_NAME}-release-unsigned.apk" \
+            --title "ColorDict ${GITHUB_REF_NAME}" \
+            --notes "Ready-to-install **debug APK** (install this one directly on your device) and an unsigned release APK (sign it with your own key before distributing)." \
+            --repo "${GITHUB_REPOSITORY}"
