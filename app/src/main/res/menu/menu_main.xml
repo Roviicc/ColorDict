@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_dictionaries"
+        android:title="@string/dictionaries" />
+    <item
+        android:id="@+id/action_history"
+        android:title="@string/history_and_bookmarks" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings" />
+</menu>

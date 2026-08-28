@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="4dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/popupWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/popupExpandButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/open_full_app"
+            android:src="@drawable/ic_open_full"
+            android:tint="?android:attr/textColorSecondary" />
+
+        <ImageButton
+            android:id="@+id/popupCloseButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/close"
+            android:src="@drawable/ic_clear"
+            android:tint="?android:attr/textColorSecondary" />
+    </LinearLayout>
+
+    <io.github.roviicc.colordict.ui.DefinitionWebView
+        android:id="@+id/popupWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            style="@style/SettingsSection"
+            android:text="@string/section_display" />
+
+        <LinearLayout android:id="@+id/rowTheme" style="@style/SettingsRow">
+            <TextView style="@style/SettingsTitle" android:text="@string/pref_theme" />
+            <TextView android:id="@+id/summaryTheme" style="@style/SettingsSummary" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/rowTextSize" style="@style/SettingsRow">
+            <TextView style="@style/SettingsTitle" android:text="@string/pref_text_size" />
+            <TextView android:id="@+id/summaryTextSize" style="@style/SettingsSummary" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/SettingsSection"
+            android:text="@string/section_search" />
+
+        <LinearLayout android:id="@+id/rowSuggestions" style="@style/SettingsRow">
+            <TextView style="@style/SettingsTitle" android:text="@string/pref_max_suggestions" />
+            <TextView android:id="@+id/summarySuggestions" style="@style/SettingsSummary" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/SettingsSection"
+            android:text="@string/section_data" />
+
+        <LinearLayout android:id="@+id/rowHistoryLimit" style="@style/SettingsRow">
+            <TextView style="@style/SettingsTitle" android:text="@string/pref_history_limit" />
+            <TextView android:id="@+id/summaryHistoryLimit" style="@style/SettingsSummary" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/rowClearHistory" style="@style/SettingsRow">
+            <TextView style="@style/SettingsTitle" android:text="@string/pref_clear_history" />
+            <TextView style="@style/SettingsSummary" android:text="@string/pref_clear_history_summary" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/rowClearBookmarks" style="@style/SettingsRow">
+            <TextView style="@style/SettingsTitle" android:text="@string/pref_clear_bookmarks" />
+            <TextView style="@style/SettingsSummary" android:text="@string/pref_clear_bookmarks_summary" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/SettingsSection"
+            android:text="@string/section_about" />
+
+        <LinearLayout android:id="@+id/rowAbout" style="@style/SettingsRow">
+            <TextView style="@style/SettingsTitle" android:text="@string/about" />
+            <TextView android:id="@+id/summaryAbout" style="@style/SettingsSummary" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

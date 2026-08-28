@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ColorDict" parent="android:Theme.Material">
+        <item name="android:colorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:colorPrimaryDark">#000000</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+    <style name="Theme.ColorDict.NoActionBar" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:colorPrimaryDark">#000000</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:statusBarColor">#000000</item>
+    </style>
+
+    <style name="Theme.ColorDict.Popup" parent="android:Theme.Material.Dialog.NoActionBar">
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+</resources>

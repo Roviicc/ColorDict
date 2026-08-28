@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ColorDict</string>
+    <string name="lookup_label">Define</string>
+
+    <!-- Main screen -->
+    <string name="search_hint">Search all dictionaries</string>
+    <string name="recent_searches">Recent searches</string>
+    <string name="clear">Clear</string>
+    <string name="menu">Menu</string>
+    <string name="more_actions">More actions</string>
+    <string name="speak_word">Pronounce word</string>
+    <string name="empty_no_dicts">No dictionaries enabled.\n\nTap here to add or enable dictionaries.</string>
+    <string name="no_results_for">No results for “%s”.</string>
+    <string name="similar_words">Similar words:</string>
+    <string name="no_browser">No browser installed</string>
+    <string name="tts_unavailable">Text-to-speech is not available</string>
+
+    <!-- Definition actions -->
+    <string name="add_bookmark">Add bookmark</string>
+    <string name="remove_bookmark">Remove bookmark</string>
+    <string name="bookmark_added">Bookmark added</string>
+    <string name="bookmark_removed">Bookmark removed</string>
+    <string name="action_copy">Copy word</string>
+    <string name="copied">Copied</string>
+    <string name="action_share">Share word</string>
+    <string name="share_word">Share word</string>
+    <string name="action_wikipedia">Wikipedia</string>
+    <string name="action_wiktionary">Wiktionary</string>
+    <string name="action_web_search">Web search</string>
+
+    <!-- Menus -->
+    <string name="dictionaries">Dictionaries</string>
+    <string name="history">History</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="history_and_bookmarks">History &amp; bookmarks</string>
+    <string name="settings">Settings</string>
+
+    <!-- Dictionaries screen -->
+    <string name="action_import_files">Import dictionary files…</string>
+    <string name="action_import_folder">Import folder…</string>
+    <string name="action_rescan">Rescan storage</string>
+    <string name="action_add_help">How to add dictionaries</string>
+    <string name="rescanning">Rescanning…</string>
+    <string name="importing">Importing…</string>
+    <string name="dict_subtitle">%1$d words • %2$s</string>
+    <string name="load_failed">failed to load</string>
+    <string name="pick_color">Dictionary color</string>
+    <string name="action_move_up">Move up</string>
+    <string name="action_move_down">Move down</string>
+    <string name="action_details">Details</string>
+    <string name="action_delete">Delete</string>
+    <string name="delete_confirm">Delete “%s” and its files from app storage?</string>
+    <string name="detail_words">Words: %d</string>
+    <string name="detail_path">Path: %s</string>
+    <string name="detail_author">Author: %s</string>
+    <string name="detail_error">Error: %s</string>
+    <string name="dict_empty">No dictionaries found.\n\nUse the menu to import StarDict files\n(.ifo + .idx + .dict, optionally .syn).</string>
+    <string name="add_help_text">ColorDict reads dictionaries in StarDict format. Each dictionary consists of an .ifo, an .idx (or .idx.gz) and a .dict (or .dict.dz) file, plus an optional .syn file.\n\n• “Import dictionary files…” lets you pick the files with the system file picker.\n• “Import folder…” imports every dictionary found in a folder.\n• You can also copy dictionary folders to:\n%s\nand tap “Rescan storage”.</string>
+
+    <!-- History screen -->
+    <string name="show_history">Show history</string>
+    <string name="show_bookmarks">Show bookmarks</string>
+    <string name="no_history">No history yet</string>
+    <string name="no_bookmarks">No bookmarks yet</string>
+    <string name="action_clear">Clear</string>
+    <string name="clear_history_confirm">Clear the whole search history?</string>
+    <string name="clear_bookmarks_confirm">Remove all bookmarks?</string>
+    <string name="cleared">Cleared</string>
+
+    <!-- Settings screen -->
+    <string name="section_display">Display</string>
+    <string name="section_search">Search</string>
+    <string name="section_data">Data</string>
+    <string name="section_about">About</string>
+    <string name="pref_theme">Theme</string>
+    <string name="pref_text_size">Definition text size</string>
+    <string name="pref_max_suggestions">Maximum suggestions</string>
+    <string name="pref_history_limit">History size</string>
+    <string name="pref_clear_history">Clear history</string>
+    <string name="pref_clear_history_summary">Remove all recent searches</string>
+    <string name="pref_clear_bookmarks">Clear bookmarks</string>
+    <string name="pref_clear_bookmarks_summary">Remove all bookmarked words</string>
+    <string name="about">About</string>
+    <string name="percent_value">%d%%</string>
+    <string name="version_value">Version %s</string>
+    <string name="source_code">Source code</string>
+    <string name="about_text">ColorDict clone %s\n\nA free and open-source multi-dictionary viewer for StarDict dictionaries, with color-coded results from every enabled dictionary at once.\n\nThis is an independent open-source project inspired by the classic ColorDict app. It is not affiliated with or endorsed by the authors of the original application.</string>
+
+    <!-- Popup -->
+    <string name="open_full_app">Open in app</string>
+    <string name="close">Close</string>
+
+    <plurals name="imported_files">
+        <item quantity="one">Imported %d dictionary file</item>
+        <item quantity="other">Imported %d dictionary files</item>
+    </plurals>
+
+    <string-array name="theme_names">
+        <item>System default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+</resources>
