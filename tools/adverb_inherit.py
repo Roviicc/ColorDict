@@ -99,10 +99,22 @@ def main():
             patch["usage_labels"] = patch_from["usage_labels"]
         if not patch:
             continue
-        # Apply to every adverb sense; an adverb rarely has more than one.
-        out.append({"word": adverb,
-                    "senses": {s["id"]: dict(patch) for s in senses}})
-        inherited += len(senses)
+        # Every sense inherits the charge and the family, but the tone note
+        # goes on the first one only - it reads identically on each, and
+        # `genuinely` printed the same sentence twice. The later senses still
+        # carry the spectrum row, which shows the judgement without repeating
+        # the prose.
+        sense_patches = {}
+        for position, sense in enumerate(senses):
+            one = dict(patch)
+            if position:
+                one.pop("tone", None)
+            if one:
+                sense_patches[sense["id"]] = one
+        if not sense_patches:
+            continue
+        out.append({"word": adverb, "senses": sense_patches})
+        inherited += len(sense_patches)
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     with open(args.out, "w", encoding="utf-8", newline="\n") as fh:

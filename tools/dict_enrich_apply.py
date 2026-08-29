@@ -110,6 +110,27 @@ def prune_examples(entry):
     return dropped
 
 
+def strip_machine_labels(entry, authored_ids):
+    """On a reviewed entry, drop the machine label from senses nobody judged.
+
+    SentiWordNet is the source we rejected at this resolution, so an
+    unexplained "positive" sitting next to an authored judgement on the same
+    word borrows credibility it has not earned - chummy read *negative* on the
+    sense we wrote and *positive* on the one we did not. Derived entries keep
+    theirs: their footer still says the whole article is unreviewed."""
+    dropped = 0
+    for sense in entry["senses"]:
+        if sense["id"] in authored_ids:
+            continue
+        conn = sense.get("connotation") or {}
+        if conn.get("label") in ("positive", "negative"):
+            conn["label"] = "neutral"
+            conn.pop("score", None)
+            conn.pop("explanation", None)
+            dropped += 1
+    return dropped
+
+
 def is_authored(patch):
     """Did this patch add editorial content, as opposed to bookkeeping?"""
     return any(patch.get(k) for k in
@@ -119,6 +140,7 @@ def is_authored(patch):
 def apply_overlay(entry, rec, problems):
     word = entry["word"]
     authored = False
+    authored_ids = set()
     if "word_formation" in rec:
         entry["word_formation"] = rec["word_formation"]
     if rec.get("inflections"):
@@ -135,7 +157,9 @@ def apply_overlay(entry, rec, problems):
                                 "label", "family", "rank"}
         if unknown:
             problems.append(f"{word}/{sid}: overlay patch has unknown fields {sorted(unknown)}")
-        authored = authored or is_authored(patch)
+        if is_authored(patch):
+            authored = True
+            authored_ids.add(sid)
         conn = sense.setdefault("connotation", {"label": "neutral"})
         if patch.get("label"):
             # Editorial label override (a reviewed correction of the machine
@@ -180,6 +204,7 @@ def apply_overlay(entry, rec, problems):
     if authored and editorial.get("status") == "derived":
         editorial["status"] = "reviewed"
         entry["_pruned"] = prune_examples(entry)
+        entry["_unlabelled"] = strip_machine_labels(entry, authored_ids)
     return entry
 
 
@@ -214,12 +239,14 @@ def main():
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     pruned = sum(entry.pop("_pruned", 0) for entry in out)
+    unlabelled = sum(entry.pop("_unlabelled", 0) for entry in out)
     with open(args.out, "w", encoding="utf-8", newline="\n") as fh:
         for entry in out:
             fh.write(json.dumps(entry, ensure_ascii=False,
                                 separators=(",", ":")) + "\n")
     print(f"wrote {len(out)} enriched entries to {args.out} "
-          f"({pruned} off-target inherited examples pruned)")
+          f"({pruned} off-target inherited examples pruned, "
+          f"{unlabelled} unjudged machine labels dropped)")
     return 0
 
 
