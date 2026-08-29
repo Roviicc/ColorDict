@@ -1,0 +1,512 @@
+{
+ "batch": "003",
+ "note": "Stage 2 shard 1: verbs. Families come from hypernym siblings (troponyms) rather than the adjective-only 'similar' relation. Charge runs along each family's own axis - for dying that is bluntness, not approval.",
+ "families": [
+  {
+   "id": "dying",
+   "axis": "bluntest → gentlest",
+   "anchors": [
+    "croak",
+    "die",
+    "perish",
+    "pass away",
+    "slip away"
+   ],
+   "members": [
+    {
+     "word": "croak",
+     "synset": "oewn-00359085-v",
+     "charge": -3,
+     "usage": [
+      "slang",
+      "informal"
+     ],
+     "tone": "Crude and flippant - reduces a death to a joke. Said of enemies, never of the bereaved's family.",
+     "explanation": "Deliberately callous; offensive in almost any real conversation about a death.",
+     "examples": [
+      "The old villain finally croaked."
+     ]
+    },
+    {
+     "word": "snuff it",
+     "synset": "oewn-00359085-v",
+     "charge": -3,
+     "usage": [
+      "slang",
+      "regional"
+     ],
+     "tone": "British slang, jokey and dismissive."
+    },
+    {
+     "word": "kick the bucket",
+     "synset": "oewn-00359085-v",
+     "charge": -3,
+     "usage": [
+      "informal",
+      "humorous"
+     ],
+     "tone": "A comic idiom - keeps death at arm's length by making light of it."
+    },
+    {
+     "word": "drop dead",
+     "synset": "oewn-00359085-v",
+     "charge": -3,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Abrupt and unsentimental - emphasises the suddenness."
+    },
+    {
+     "word": "pop off",
+     "synset": "oewn-00359085-v",
+     "charge": -3,
+     "usage": [
+      "informal",
+      "humorous"
+     ],
+     "tone": "Casual to the point of dismissive."
+    },
+    {
+     "word": "buy the farm",
+     "synset": "oewn-00359085-v",
+     "charge": -3,
+     "usage": [
+      "slang",
+      "humorous"
+     ],
+     "tone": "Military slang - gallows humour rather than disrespect."
+    },
+    {
+     "word": "die",
+     "synset": "oewn-00359085-v",
+     "charge": -2,
+     "tone": "The plain, honest verb. Direct without being cruel; every other word in this family exists because people flinch from it.",
+     "examples": [
+      "He died at home, surrounded by his family."
+     ]
+    },
+    {
+     "word": "perish",
+     "synset": "oewn-00359085-v",
+     "charge": -1,
+     "usage": [
+      "formal",
+      "literary"
+     ],
+     "tone": "Grave and literary - deaths in numbers, or deaths that should not have happened.",
+     "explanation": "Carries a note of waste or catastrophe.",
+     "examples": [
+      "Hundreds perished in the flood."
+     ]
+    },
+    {
+     "word": "succumb",
+     "synset": "oewn-02626546-v",
+     "charge": -1,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Death framed as losing a long fight - respectful of the struggle.",
+     "examples": [
+      "She succumbed to the illness after two years."
+     ]
+    },
+    {
+     "word": "expire",
+     "synset": "oewn-00359085-v",
+     "charge": 0,
+     "usage": [
+      "formal",
+      "technical"
+     ],
+     "tone": "Clinical and detached - the word on a chart, not at a graveside."
+    },
+    {
+     "word": "decease",
+     "synset": "oewn-00359085-v",
+     "charge": 0,
+     "usage": [
+      "formal",
+      "technical"
+     ],
+     "tone": "Legal register; almost never spoken aloud."
+    },
+    {
+     "word": "fall",
+     "synset": "oewn-02626293-v",
+     "charge": 1,
+     "usage": [
+      "literary",
+      "euphemistic"
+     ],
+     "tone": "Death in battle, framed as honourable - the word on war memorials.",
+     "explanation": "Confers dignity on the death.",
+     "examples": [
+      "the men who fell at Gallipoli"
+     ]
+    },
+    {
+     "word": "pass away",
+     "synset": "oewn-00359085-v",
+     "charge": 2,
+     "usage": [
+      "euphemistic"
+     ],
+     "tone": "The standard gentle phrase - what you say to someone who has just lost a person.",
+     "explanation": "Softens the fact for the listener's sake.",
+     "examples": [
+      "I'm so sorry - when did she pass away?"
+     ]
+    },
+    {
+     "word": "pass",
+     "synset": "oewn-00359085-v",
+     "charge": 2,
+     "usage": [
+      "euphemistic"
+     ],
+     "tone": "Shorter and even softer than 'pass away'; common in American speech."
+    },
+    {
+     "word": "give-up the ghost",
+     "synset": "oewn-00359085-v",
+     "charge": 1,
+     "usage": [
+      "literary",
+      "dated"
+     ],
+     "tone": "Biblical in origin; now used more often of machines than of people."
+    }
+   ]
+  },
+  {
+   "id": "weeping",
+   "axis": "most contemptuous → most sympathetic",
+   "anchors": [
+    "blubber",
+    "snivel",
+    "bawl",
+    "cry",
+    "weep"
+   ],
+   "members": [
+    {
+     "word": "blubber",
+     "synset": "oewn-00067045-v",
+     "charge": -3,
+     "usage": [
+      "informal",
+      "derogatory"
+     ],
+     "tone": "Mocks the crying as ugly and self-indulgent.",
+     "explanation": "Denies the grief any dignity.",
+     "examples": [
+      "Stop blubbering and tell me what happened."
+     ]
+    },
+    {
+     "word": "snivel",
+     "synset": "oewn-00067045-v",
+     "charge": -3,
+     "usage": [
+      "derogatory"
+     ],
+     "tone": "Contemptuous - crying treated as whining, weakness rather than sorrow.",
+     "explanation": "Refuses sympathy to the person crying."
+    },
+    {
+     "word": "whimper",
+     "synset": "oewn-00065796-v",
+     "charge": -2,
+     "tone": "Small, weak crying - pitying of an animal or a child, belittling of an adult."
+    },
+    {
+     "word": "whine",
+     "synset": "oewn-01044403-v",
+     "charge": -2,
+     "usage": [
+      "derogatory"
+     ],
+     "tone": "Complaint dressed as distress - dismisses the cause as trivial."
+    },
+    {
+     "word": "bawl",
+     "synset": "oewn-00066633-v",
+     "charge": -1,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Loud and undignified, but not unkind - the word for a child's full-throated crying.",
+     "examples": [
+      "The baby bawled the entire flight."
+     ]
+    },
+    {
+     "word": "wail",
+     "synset": "oewn-00065796-v",
+     "charge": 0,
+     "tone": "Long and loud with grief - dramatic, and taken seriously."
+    },
+    {
+     "word": "cry",
+     "synset": "oewn-00065962-v",
+     "charge": 0,
+     "tone": "The plain, neutral verb - no judgement of the person or the cause.",
+     "examples": [
+      "She cried when she read the letter."
+     ]
+    },
+    {
+     "word": "sob",
+     "synset": "oewn-00066900-v",
+     "charge": 1,
+     "tone": "Crying that convulses the body - conveys the depth of the grief.",
+     "explanation": "The reader is meant to feel the weight of it.",
+     "examples": [
+      "He sobbed into his hands."
+     ]
+    },
+    {
+     "word": "weep",
+     "synset": "oewn-00065962-v",
+     "charge": 2,
+     "usage": [
+      "formal",
+      "literary"
+     ],
+     "tone": "Dignified and literary - grief that deserves respect.",
+     "explanation": "Elevates the crying rather than diminishing it.",
+     "examples": [
+      "The whole congregation wept."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "laughing",
+   "axis": "most unkind → warmest",
+   "anchors": [
+    "cackle",
+    "snigger",
+    "titter",
+    "laugh",
+    "chuckle"
+   ],
+   "members": [
+    {
+     "word": "cackle",
+     "synset": "oewn-00031411-v",
+     "charge": -3,
+     "tone": "Harsh and unpleasant - the laugh of a villain, never of a friend.",
+     "explanation": "The word itself passes judgement on the laugher.",
+     "examples": [
+      "She cackled at her own cruelty."
+     ]
+    },
+    {
+     "word": "snigger",
+     "synset": "oewn-00030003-v",
+     "charge": -3,
+     "usage": [
+      "regional"
+     ],
+     "tone": "Half-hidden laughter at someone's expense - sly and mean."
+    },
+    {
+     "word": "snicker",
+     "synset": "oewn-00030003-v",
+     "charge": -3,
+     "tone": "Quiet mocking laughter, usually at another's misfortune."
+    },
+    {
+     "word": "bray",
+     "synset": "oewn-00029623-v",
+     "charge": -2,
+     "tone": "Loud, harsh and donkey-like - unflattering to the point of insult."
+    },
+    {
+     "word": "titter",
+     "synset": "oewn-00030135-v",
+     "charge": -1,
+     "tone": "Nervous, suppressed laughter - faintly silly, often condescending when used of adults."
+    },
+    {
+     "word": "giggle",
+     "synset": "oewn-00030135-v",
+     "charge": 0,
+     "tone": "Light and childlike; affectionate of children, slightly diminishing of adults."
+    },
+    {
+     "word": "laugh",
+     "synset": "oewn-00031813-v",
+     "charge": 1,
+     "tone": "The plain, warm verb - no judgement attached.",
+     "examples": [
+      "We laughed until we cried."
+     ]
+    },
+    {
+     "word": "guffaw",
+     "synset": "oewn-00031533-v",
+     "charge": 1,
+     "tone": "Big, loud and unrestrained - hearty rather than refined."
+    },
+    {
+     "word": "chuckle",
+     "synset": "oewn-00031656-v",
+     "charge": 2,
+     "tone": "Low, private and contented - the warmest laugh in the family.",
+     "explanation": "Suggests quiet pleasure rather than display.",
+     "examples": [
+      "He chuckled at the memory."
+     ]
+    },
+    {
+     "word": "chortle",
+     "synset": "oewn-00031656-v",
+     "charge": 2,
+     "tone": "Gleeful and slightly comic - coined by Lewis Carroll."
+    },
+    {
+     "word": "roar",
+     "synset": "oewn-00029829-v",
+     "charge": 2,
+     "tone": "Wholehearted laughter - the room joins in."
+    }
+   ]
+  },
+  {
+   "id": "stealing",
+   "axis": "gravest → lightest",
+   "anchors": [
+    "pinch",
+    "pilfer",
+    "steal",
+    "rob",
+    "embezzle"
+   ],
+   "members": [
+    {
+     "word": "pinch",
+     "synset": "oewn-02281711-v",
+     "charge": -1,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Almost affectionate - taking something small and hardly worth the fuss.",
+     "explanation": "Downplays the theft to near-innocence.",
+     "examples": [
+      "Someone's pinched my pen again."
+     ]
+    },
+    {
+     "word": "swipe",
+     "synset": "oewn-02281711-v",
+     "charge": -1,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Casual and unserious - petty and quick."
+    },
+    {
+     "word": "pilfer",
+     "synset": "oewn-02281711-v",
+     "charge": -2,
+     "tone": "Repeated small thefts - the pettiness is part of the charge.",
+     "explanation": "Names a habit rather than an incident."
+    },
+    {
+     "word": "filch",
+     "synset": "oewn-02281711-v",
+     "charge": -2,
+     "tone": "Sneaky and small-scale, with a faintly comic ring."
+    },
+    {
+     "word": "purloin",
+     "synset": "oewn-02281711-v",
+     "charge": -2,
+     "usage": [
+      "formal",
+      "humorous"
+     ],
+     "tone": "Deliberately grand for a small crime - often used in jest."
+    },
+    {
+     "word": "shoplift",
+     "synset": "oewn-02282148-v",
+     "charge": -2,
+     "usage": [
+      "technical"
+     ],
+     "tone": "The specific, legal name for the act - factual rather than condemning."
+    },
+    {
+     "word": "steal",
+     "synset": "oewn-02326737-v",
+     "charge": -2,
+     "tone": "The plain word - direct, and heavy enough that lawyers prefer 'take'.",
+     "examples": [
+      "He stole from his own family."
+     ]
+    },
+    {
+     "word": "plagiarize",
+     "synset": "oewn-02282906-v",
+     "charge": -3,
+     "usage": [
+      "technical"
+     ],
+     "tone": "Theft of words and ideas - a career-ending accusation in academic and literary settings.",
+     "explanation": "Names dishonesty as well as theft."
+    },
+    {
+     "word": "rob",
+     "synset": "oewn-02326371-v",
+     "charge": -3,
+     "tone": "Theft with force or confrontation - a victim is present.",
+     "examples": [
+      "They robbed him at knifepoint."
+     ]
+    },
+    {
+     "word": "loot",
+     "synset": "oewn-02350284-v",
+     "charge": -3,
+     "tone": "Mass theft amid disorder - war, riot, disaster."
+    },
+    {
+     "word": "plunder",
+     "synset": "oewn-02350284-v",
+     "charge": -3,
+     "usage": [
+      "literary"
+     ],
+     "tone": "Systematic, large-scale robbery - the word of armies and empires."
+    },
+    {
+     "word": "embezzle",
+     "synset": "oewn-02297496-v",
+     "charge": -3,
+     "usage": [
+      "technical"
+     ],
+     "tone": "Theft by someone trusted with the money - the betrayal is what makes it grave.",
+     "explanation": "Compounds theft with breach of trust.",
+     "examples": [
+      "The treasurer embezzled from the charity for years."
+     ]
+    },
+    {
+     "word": "misappropriate",
+     "synset": "oewn-02297496-v",
+     "charge": -2,
+     "usage": [
+      "formal",
+      "euphemistic"
+     ],
+     "tone": "The bloodless official term - what an auditor writes instead of 'stole'."
+    }
+   ]
+  }
+ ]
+}

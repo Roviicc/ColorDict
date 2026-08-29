@@ -55,7 +55,7 @@ def parse(path):
                 elem.clear()
             elif tag == "Synset":
                 pos = elem.get("partOfSpeech") or ""
-                if pos not in ("a", "s"):
+                if pos not in ("a", "s", "v", "n"):
                     elem.clear()
                     continue
                 sid = elem.get("id")
@@ -68,6 +68,8 @@ def parse(path):
                                  if e.text and clean_text(e.text)],
                     "similar": [r.get("target") for r in elem.findall("SynsetRelation")
                                 if r.get("relType") == "similar" and r.get("target")],
+                    "hypernym": [r.get("target") for r in elem.findall("SynsetRelation")
+                                 if r.get("relType") == "hypernym" and r.get("target")],
                 }
                 elem.clear()
     return entries, sense_info, antonyms, synsets
@@ -86,6 +88,11 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--oewn", type=Path, required=True)
     ap.add_argument("--out", type=Path, required=True)
+    ap.add_argument("--pos", default="a", choices=("a", "v", "n"),
+                    help="a: adjective clusters via 'similar'; "
+                         "v/n: hypernym siblings (troponyms)")
+    ap.add_argument("--min-size", type=int, default=3,
+                    help="skip families smaller than this (verbs/nouns only)")
     args = ap.parse_args()
 
     entries, sense_info, antonyms, synsets = parse(args.oewn)
@@ -98,6 +105,72 @@ def main():
         if a and b and a[1] in synsets and b[1] in synsets:
             synset_antonyms.setdefault(a[1], set()).add(b[1])
 
+    if args.pos in ("v", "n"):
+        families, words_seen = troponym_families(
+            args.pos, synsets, synset_antonyms, entries, sense_info, args.min_size)
+    else:
+        families, words_seen = similar_families(
+            synsets, synset_antonyms, entries, sense_info)
+
+    families.sort(key=lambda f: (-f["size"], f["id"]))
+    linked = sum(1 for f in families if f["opposite"])
+    multi = sum(1 for f in families if f["size"] > 1)
+
+    args.out.parent.mkdir(parents=True, exist_ok=True)
+    with open(args.out, "w", encoding="utf-8", newline="\n") as fh:
+        json.dump({"pos": args.pos, "families": families}, fh,
+                  ensure_ascii=False, indent=1)
+
+    print(f"candidate families: {len(families)}")
+    print(f"  multi-member:     {multi}")
+    print(f"  antonym-linked:   {linked}")
+    print(f"  words covered:    {len(words_seen)}")
+    print(f"wrote {args.out}")
+    return 0
+
+
+def troponym_families(pos, synsets, synset_antonyms, entries, sense_info, min_size):
+    """Verbs and nouns have no 'similar' clusters - that relation is
+    adjective-only. Their families are hypernym siblings instead: every
+    synset sharing a parent is one way of doing (or being) the same thing,
+    which is exactly where the connotation lives - die / pass away / croak
+    are all troponyms of the same parent."""
+    children = {}
+    for sid, syn in synsets.items():
+        if syn["pos"] != pos:
+            continue
+        for parent in syn["hypernym"]:
+            children.setdefault(parent, []).append(sid)
+
+    families = []
+    words_seen = set()
+    for parent_id, kids in children.items():
+        parent = synsets.get(parent_id)
+        if parent is None or parent["pos"] != pos:
+            continue
+        members = []
+        for cid in [parent_id] + sorted(kids):
+            syn = synsets[cid]
+            for w in member_words(syn, entries, sense_info):
+                members.append({"word": w, "synset": cid,
+                                "definition": syn["definition"],
+                                "examples": syn["examples"]})
+        if len(members) < min_size:
+            continue
+        opposite = sorted(synset_antonyms.get(parent_id, ()))
+        words_seen.update(m["word"] for m in members)
+        families.append({
+            "id": parent_id,
+            "head_words": member_words(parent, entries, sense_info),
+            "definition": parent["definition"],
+            "size": len(members),
+            "opposite": opposite[0] if opposite else None,
+            "members": members,
+        })
+    return families, words_seen
+
+
+def similar_families(synsets, synset_antonyms, entries, sense_info):
     families = []
     words_seen = set()
     for head_id, head in synsets.items():
@@ -124,21 +197,7 @@ def main():
             "opposite": opposite[0] if opposite else None,
             "members": members,
         })
-
-    families.sort(key=lambda f: (-f["size"], f["id"]))
-    linked = sum(1 for f in families if f["opposite"])
-    multi = sum(1 for f in families if f["size"] > 1)
-
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    with open(args.out, "w", encoding="utf-8", newline="\n") as fh:
-        json.dump({"families": families}, fh, ensure_ascii=False, indent=1)
-
-    print(f"candidate families: {len(families)}")
-    print(f"  multi-member:     {multi}")
-    print(f"  antonym-linked:   {linked}")
-    print(f"  words covered:    {len(words_seen)}")
-    print(f"wrote {args.out}")
-    return 0
+    return families, words_seen
 
 
 if __name__ == "__main__":
