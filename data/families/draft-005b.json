@@ -1,0 +1,594 @@
+{
+ "batch": "draft-005b",
+ "families": [
+  {
+   "id": "family-00858506-v",
+   "axis": "condemning → praising",
+   "_head": [
+    "praise"
+   ],
+   "_definition": "express approval of",
+   "anchors": [
+    "praise",
+    "troll",
+    "salute",
+    "applaud",
+    "laud",
+    "extol"
+   ],
+   "members": [
+    {
+     "word": "praise",
+     "synset": "oewn-00858506-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "express approval of"
+    },
+    {
+     "word": "troll",
+     "synset": "oewn-00829262-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "praise or celebrate in song"
+    },
+    {
+     "word": "salute",
+     "synset": "oewn-00858952-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "express commendation of"
+    },
+    {
+     "word": "applaud",
+     "synset": "oewn-00861956-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "express that something is worthy of praise"
+    },
+    {
+     "word": "laud",
+     "synset": "oewn-00862284-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "praise, glorify, or honor"
+    },
+    {
+     "word": "extol",
+     "synset": "oewn-00862284-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "praise, glorify, or honor"
+    },
+    {
+     "word": "exalt",
+     "synset": "oewn-00862284-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "praise, glorify, or honor"
+    },
+    {
+     "word": "glorify",
+     "synset": "oewn-00862284-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "praise, glorify, or honor"
+    },
+    {
+     "word": "proclaim",
+     "synset": "oewn-00862284-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "praise, glorify, or honor"
+    },
+    {
+     "word": "flatter",
+     "synset": "oewn-00881748-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "praise somewhat dishonestly"
+    },
+    {
+     "word": "blandish",
+     "synset": "oewn-00881748-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "praise somewhat dishonestly"
+    },
+    {
+     "word": "eulogize",
+     "synset": "oewn-00882301-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "praise formally and eloquently"
+    },
+    {
+     "word": "eulogise",
+     "synset": "oewn-00882301-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "praise formally and eloquently"
+    },
+    {
+     "word": "compliment",
+     "synset": "oewn-00883182-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "say something to someone that expresses praise"
+    }
+   ]
+  },
+  {
+   "id": "family-00828170-v",
+   "axis": "condemning → praising",
+   "_head": [
+    "knock",
+    "criticize",
+    "criticise",
+    "pick apart"
+   ],
+   "_definition": "find fault with; express criticism of; point out real or perceived flaws",
+   "anchors": [
+    "knock",
+    "criticize",
+    "criticise",
+    "pick apart",
+    "reprimand",
+    "censure"
+   ],
+   "members": [
+    {
+     "word": "knock",
+     "synset": "oewn-00828170-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "find fault with; express criticism of; point out real or perceived flaws"
+    },
+    {
+     "word": "criticize",
+     "synset": "oewn-00828170-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "find fault with; express criticism of; point out real or perceived flaws"
+    },
+    {
+     "word": "criticise",
+     "synset": "oewn-00828170-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "find fault with; express criticism of; point out real or perceived flaws"
+    },
+    {
+     "word": "pick apart",
+     "synset": "oewn-00828170-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "find fault with; express criticism of; point out real or perceived flaws"
+    },
+    {
+     "word": "reprimand",
+     "synset": "oewn-00825330-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "rebuke formally"
+    },
+    {
+     "word": "censure",
+     "synset": "oewn-00825330-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "rebuke formally"
+    },
+    {
+     "word": "criminate",
+     "synset": "oewn-00825330-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "rebuke formally"
+    },
+    {
+     "word": "savage",
+     "synset": "oewn-00825488-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "criticize harshly or violently"
+    },
+    {
+     "word": "blast",
+     "synset": "oewn-00825488-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "criticize harshly or violently"
+    },
+    {
+     "word": "pillory",
+     "synset": "oewn-00825488-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "criticize harshly or violently"
+    },
+    {
+     "word": "crucify",
+     "synset": "oewn-00825488-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "criticize harshly or violently"
+    },
+    {
+     "word": "admonish",
+     "synset": "oewn-00825727-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "take to task"
+    },
+    {
+     "word": "reprove",
+     "synset": "oewn-00825727-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "take to task"
+    },
+    {
+     "word": "reproof",
+     "synset": "oewn-00825727-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "take to task"
+    }
+   ]
+  },
+  {
+   "id": "family-00884747-v",
+   "axis": "condemning → praising",
+   "_head": [
+    "boast",
+    "tout",
+    "swash",
+    "shoot a line"
+   ],
+   "_definition": "show off",
+   "anchors": [
+    "boast",
+    "tout",
+    "swash",
+    "shoot a line",
+    "brag",
+    "gas"
+   ],
+   "members": [
+    {
+     "word": "boast",
+     "synset": "oewn-00884747-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "show off"
+    },
+    {
+     "word": "tout",
+     "synset": "oewn-00884747-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "show off"
+    },
+    {
+     "word": "swash",
+     "synset": "oewn-00884747-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "show off"
+    },
+    {
+     "word": "shoot a line",
+     "synset": "oewn-00884747-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "show off"
+    },
+    {
+     "word": "brag",
+     "synset": "oewn-00884747-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "show off"
+    },
+    {
+     "word": "gas",
+     "synset": "oewn-00884747-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "show off"
+    },
+    {
+     "word": "blow",
+     "synset": "oewn-00884747-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "show off"
+    },
+    {
+     "word": "bluster",
+     "synset": "oewn-00884747-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "show off"
+    },
+    {
+     "word": "vaunt",
+     "synset": "oewn-00884747-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "show off"
+    },
+    {
+     "word": "gasconade",
+     "synset": "oewn-00884747-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "show off"
+    },
+    {
+     "word": "puff",
+     "synset": "oewn-00798965-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "speak in a blustering or scornful manner"
+    },
+    {
+     "word": "gloat",
+     "synset": "oewn-00885156-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "dwell on with satisfaction"
+    },
+    {
+     "word": "triumph",
+     "synset": "oewn-00885156-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "dwell on with satisfaction"
+    },
+    {
+     "word": "crow",
+     "synset": "oewn-00885156-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "dwell on with satisfaction"
+    }
+   ]
+  },
+  {
+   "id": "family-02134989-v",
+   "axis": "condemning → praising",
+   "_head": [
+    "look"
+   ],
+   "_definition": "perceive with attention; direct one's gaze towards; look",
+   "anchors": [
+    "look",
+    "stare",
+    "take a look",
+    "have a look",
+    "get a load",
+    "look back"
+   ],
+   "members": [
+    {
+     "word": "look",
+     "synset": "oewn-02134989-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "perceive with attention; direct one's gaze towards; look"
+    },
+    {
+     "word": "stare",
+     "synset": "oewn-00033399-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "fixate one's eyes"
+    },
+    {
+     "word": "take a look",
+     "synset": "oewn-02136242-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "look at with attention"
+    },
+    {
+     "word": "have a look",
+     "synset": "oewn-02136242-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "look at with attention"
+    },
+    {
+     "word": "get a load",
+     "synset": "oewn-02136242-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "look at with attention"
+    },
+    {
+     "word": "look back",
+     "synset": "oewn-02136564-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "look towards one's back"
+    },
+    {
+     "word": "look backward",
+     "synset": "oewn-02136564-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "look towards one's back"
+    },
+    {
+     "word": "look away",
+     "synset": "oewn-02136728-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "avert one's gaze"
+    },
+    {
+     "word": "look around",
+     "synset": "oewn-02136885-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "look about oneself"
+    },
+    {
+     "word": "gaze",
+     "synset": "oewn-02137210-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "look at with fixed eyes"
+    },
+    {
+     "word": "regard",
+     "synset": "oewn-02137650-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "look at attentively"
+    },
+    {
+     "word": "consider",
+     "synset": "oewn-02137650-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "look at attentively"
+    },
+    {
+     "word": "watch",
+     "synset": "oewn-02154940-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "look attentively"
+    },
+    {
+     "word": "ogle",
+     "synset": "oewn-02168498-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "look at with amorous intentions"
+    }
+   ]
+  },
+  {
+   "id": "family-00909100-v",
+   "axis": "condemning → praising",
+   "_head": [
+    "complain",
+    "kick",
+    "plain",
+    "sound off"
+   ],
+   "_definition": "express complaints, discontent, displeasure, or unhappiness",
+   "anchors": [
+    "complain",
+    "kick",
+    "plain",
+    "sound off",
+    "quetch",
+    "kvetch"
+   ],
+   "members": [
+    {
+     "word": "complain",
+     "synset": "oewn-00909100-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "express complaints, discontent, displeasure, or unhappiness"
+    },
+    {
+     "word": "kick",
+     "synset": "oewn-00909100-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "express complaints, discontent, displeasure, or unhappiness"
+    },
+    {
+     "word": "plain",
+     "synset": "oewn-00909100-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "express complaints, discontent, displeasure, or unhappiness"
+    },
+    {
+     "word": "sound off",
+     "synset": "oewn-00909100-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "express complaints, discontent, displeasure, or unhappiness"
+    },
+    {
+     "word": "quetch",
+     "synset": "oewn-00909100-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "express complaints, discontent, displeasure, or unhappiness"
+    },
+    {
+     "word": "kvetch",
+     "synset": "oewn-00909100-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "express complaints, discontent, displeasure, or unhappiness"
+    },
+    {
+     "word": "nag",
+     "synset": "oewn-00846620-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "bother persistently with trivial complaints"
+    },
+    {
+     "word": "peck",
+     "synset": "oewn-00846620-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "bother persistently with trivial complaints"
+    },
+    {
+     "word": "hen-peck",
+     "synset": "oewn-00846620-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "bother persistently with trivial complaints"
+    },
+    {
+     "word": "backbite",
+     "synset": "oewn-00909610-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "say mean things"
+    },
+    {
+     "word": "bitch",
+     "synset": "oewn-00909610-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "say mean things"
+    },
+    {
+     "word": "whine",
+     "synset": "oewn-00909883-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "complain whiningly"
+    },
+    {
+     "word": "grizzle",
+     "synset": "oewn-00909883-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "complain whiningly"
+    },
+    {
+     "word": "yammer",
+     "synset": "oewn-00909883-v",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "complain whiningly"
+    }
+   ]
+  }
+ ]
+}

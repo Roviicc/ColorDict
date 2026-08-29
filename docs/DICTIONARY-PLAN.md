@@ -363,11 +363,14 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-08-30 | **Feasibility shards.** Nouns work unchanged (9,359 families / 75,017 words). Adverbs cannot be grouped at all — solved by morphological inheritance instead (`adverb_inherit.py`) |
 | 2026-08-30 | **Worksheet tool.** `family_worksheet.py` does the clerical half: finds the family, resolves every sense id, leaves only charge and tone blank |
 | 2026-08-30 | **Shard 4.** dishonest, genuine, friendly (46 members); `*word*` now renders as italics in tone notes |
+| 2026-08-30 | **Reviewed entries stop carrying machine labels.** An unjudged sense on an authored entry no longer shows its SentiWordNet guess (318 dropped) |
+| 2026-08-30 | **Shard 5.** 12 families / 148 members: refined, angry, generous, stubborn, careless, idle, polite; praise, criticize, boast, look, complain |
+| 2026-08-30 | **`dict_pipeline.py`.** One command for the whole round; it discovers overlays instead of being handed them |
 
-**Current totals: 22 families, 401 reviewed entries, 0 validation errors** —
-including 93 adverbs / 143 senses inherited for free.
+**Current totals: 34 families, 573 reviewed entries, 0 validation errors** —
+including 125 adverbs inherited for free.
 
-Stage 1 (adjectives) is 18 of ~1,100 families; stage 2 (verbs) is 4 of ~2,495.
+Stage 1 (adjectives) is 25 of ~1,100 families; stage 2 (verbs) is 9 of ~2,495.
 The machinery is complete; what remains is authoring.
 
 ### Grouping strategy differs by part of speech

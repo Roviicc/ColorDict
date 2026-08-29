@@ -65,7 +65,13 @@ def main():
         hits = [f for f in families
                 if any(m["word"] == word for m in f["members"])]
         if hits:
-            picked.append(max(hits, key=lambda f: f["size"]))
+            # Prefer a family the word actually heads. Size alone is the wrong
+            # tiebreak: `lazy` appears as a satellite of *slow* ("moving slowly
+            # and gently") and `angry` as one of *unhealthy* ("an angry
+            # wound"), and both of those clusters are larger than the family
+            # anyone means. A head word names its cluster; a satellite does not.
+            picked.append(max(hits, key=lambda f: (word in f["head_words"],
+                                                   f["size"])))
         else:
             missing_ids.append(f"(word {word})")
 
