@@ -360,10 +360,14 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-08-30 | **Stage 1 shard 2.** 10 adjective families (good/bad, clever/stupid, beauty/ugliness, rich/poor, brave/cowardly) |
 | 2026-08-30 | **Tier + example fixes.** Authored entries promote `derived → reviewed`; 1,120 off-target inherited examples pruned |
 | 2026-08-30 | **Stage 2 opened.** Verb families via hypernym siblings: 2,495 families / 11,257 words; dying, weeping, laughing, stealing annotated |
+| 2026-08-30 | **Feasibility shards.** Nouns work unchanged (9,359 families / 75,017 words). Adverbs cannot be grouped at all — solved by morphological inheritance instead (`adverb_inherit.py`) |
+| 2026-08-30 | **Worksheet tool.** `family_worksheet.py` does the clerical half: finds the family, resolves every sense id, leaves only charge and tone blank |
+| 2026-08-30 | **Shard 4.** dishonest, genuine, friendly (46 members); `*word*` now renders as italics in tone notes |
 
-**Current totals: 19 families, 246 reviewed entries, 0 validation errors.**
+**Current totals: 22 families, 401 reviewed entries, 0 validation errors** —
+including 93 adverbs / 143 senses inherited for free.
 
-Stage 1 (adjectives) is 15 of ~1,100 families; stage 2 (verbs) is 4 of ~2,495.
+Stage 1 (adjectives) is 18 of ~1,100 families; stage 2 (verbs) is 4 of ~2,495.
 The machinery is complete; what remains is authoring.
 
 ### Grouping strategy differs by part of speech
@@ -372,7 +376,16 @@ The machinery is complete; what remains is authoring.
 satellite clusters. Verbs and nouns are grouped by **hypernym siblings**
 instead — every troponym of a parent is one way of doing the same thing, which
 is where the connotation lives (`family_extract.py --pos v --min-size 4`).
-Adverbs have not been tried and may need a third strategy.
+
+**Adverbs cannot be grouped by the graph at all.** They have no hypernyms, no
+`similar` clusters, and only nine adverb senses in OEWN 2024 carry a derivation
+link. Morphology solves them instead: English adverbs are overwhelmingly an
+adjective plus *-ly*, and 91.4% of the `-ly` adverbs in the corpus have their
+base adjective present, so `harshly` inherits whatever `harsh` was given
+(`adverb_inherit.py`). This turns adverbs from the hardest stage into a
+by-product — re-run it after every adjective shard and the count grows for
+free. Nothing is invented: an adverb whose adjective was never annotated is
+skipped.
 
 ### Lessons the shards have taught
 

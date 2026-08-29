@@ -54,6 +54,16 @@ def escape(text):
                 .replace("\\", "&#92;").replace("\t", " "))
 
 
+EMPHASIS = re.compile(r"\*([^*]+)\*")
+
+
+def prose_html(text):
+    """Escaped prose, with *word* rendered as italics - the only markup the
+    tone notes use. adverb_inherit.py writes it when it names the adjective an
+    adverb inherited from ("the adverb of *cordial*")."""
+    return EMPHASIS.sub(r"<i>\1</i>", escape(text))
+
+
 def bword(word):
     return ('<a href="bword://' + urllib.parse.quote(word, safe="") + '">'
             + escape(word) + "</a>")
@@ -138,7 +148,7 @@ def sense_html(word, sense, number):
             row.append(f' <span class="ul">{escape(ul)}</span>')
         prose = " ".join(p for p in (tone, explanation) if p)
         if prose:
-            row.append(f' <span class="cx">{escape(prose)}</span>')
+            row.append(f' <span class="cx">{prose_html(prose)}</span>')
         row.append("</div>")
         bits.append("".join(row))
 
