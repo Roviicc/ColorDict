@@ -315,7 +315,7 @@ Notes learned building B0:
 | 8 | B2/B3/B4 runs | compute | ~5 h wall clock |
 | 9 | B5 sensitive queue + sampled audit | human | ~4 h |
 
-**Total: 1–2 working days.** The long pole is now compute and prompt
+**Total: 1-2 working days for the tooling.** Authoring is the remaining clock - see 11.6. The long pole is now compute and prompt
 calibration, not review hours. The tooling cost is paid once and is independent
 of whether the dictionary ends at 1,000 enriched entries or 20,000.
 
@@ -350,6 +350,66 @@ register, note; overlay files, 200 families per batch, resumable) →
 existing validate/build gates. Order: adjectives, verbs, nouns, adverbs; stop
 after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 (worst tier omitted); SentiWordNet demoted to unlabeled-score prior only.
+
+## 11.6 Progress log
+
+| Date | Milestone |
+| --- | --- |
+| 2026-08-29 | **B0 shipped.** 111,466 headwords derived, validated, bundled, APK builds |
+| 2026-08-29 | **Tier-2 probe passed.** 4 families, 12/12 golden pairs, ~836 authored tokens per family |
+| 2026-08-30 | **Stage 1 shard 2.** 10 adjective families (good/bad, clever/stupid, beauty/ugliness, rich/poor, brave/cowardly) |
+| 2026-08-30 | **Tier + example fixes.** Authored entries promote `derived → reviewed`; 1,120 off-target inherited examples pruned |
+| 2026-08-30 | **Stage 2 opened.** Verb families via hypernym siblings: 2,495 families / 11,257 words; dying, weeping, laughing, stealing annotated |
+
+**Current totals: 19 families, 246 reviewed entries, 0 validation errors.**
+
+Stage 1 (adjectives) is 15 of ~1,100 families; stage 2 (verbs) is 4 of ~2,495.
+The machinery is complete; what remains is authoring.
+
+### Grouping strategy differs by part of speech
+
+`similar` is an **adjective-only** relation in WordNet, so only adjectives form
+satellite clusters. Verbs and nouns are grouped by **hypernym siblings**
+instead — every troponym of a parent is one way of doing the same thing, which
+is where the connotation lives (`family_extract.py --pos v --min-size 4`).
+Adverbs have not been tried and may need a third strategy.
+
+### Lessons the shards have taught
+
+- **A single-polarity family renders most-extreme-first**, because the spectrum
+  always sorts ascending by charge. Its axis label must therefore read
+  harshest → mildest. This was written backwards twice, so `family_apply.py`
+  now refuses to build such a family; all-positive families are exempt, as they
+  ascend mild → strong the way their labels already read.
+- **A family may need an axis other than condemning → praising.** Dying runs
+  bluntest → gentlest, stealing gravest → lightest, weeping most contemptuous →
+  most sympathetic.
+- **WordNet splits families that belong together.** stingy/thrifty, and
+  `excellent` sitting in the *superior* cluster rather than *good*. Annotation
+  repairs these merges by hand; it is one of the things the authored layer adds.
+- **Sense ids must be verified against the corpus, not assumed.** OEWN 2024 has
+  no "steal" sense of *nick*, and *frugal* is not in the cluster its definition
+  suggests. `dict_enrich_apply.py` fails loudly on an unknown id rather than
+  silently dropping the annotation.
+- **Authored entries must not keep inherited examples.** WordNet attaches
+  examples to the synset, so many illustrate a synonym ("a long scrawny neck"
+  under *skinny*). Pruning happens to the data, not just the render, so the
+  validator's rule stays honest.
+
+## 11.7 Possible later work — not scheduled
+
+Recorded so the options are not lost. None of these is committed to, and none
+requires a rewrite: the JSONL master takes new fields additively, and
+`sametypesequence=h` means a new article row is a builder change plus a CSS
+class, with no app code at all.
+
+| Idea | What it needs | Notes |
+| --- | --- | --- |
+| **Thesaurus view** | UI only | The data already beats a thesaurus — synonyms carry a charge. Needs a browse-by-family screen, not new data |
+| **Etymology / origin** | one schema field, one overlay pass | Wiktionary via kaikki.org has it (CC BY-SA — see DICTIONARY-DATA.md). `word_formation` is already a shallow version |
+| **Word trees** | turn on relations already parsed | WordNet ships 93,446 hypernym pairs and 74,646 derivations; `family_extract.py` currently discards both |
+| **Query by field** | SQLite migration | The only idea here that is *not* cheap. Display-only stays on StarDict; "all Latin-derived negative adjectives" does not |
+| **iOS port** | Swift engine + SwiftUI | Engine is 1,451 lines with **zero** Android imports (proven by the desktop harness); UI is 2,379 lines and needs a rewrite. ~3–4 weeks. Caveat: iOS has no equivalent of the Android lookup intent, so the popup becomes a share extension |
 
 ## 12. Risks
 
