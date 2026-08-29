@@ -11,14 +11,16 @@ repository's releases page, and the rest of the page is unaffected.
 
 ## Deploying to Vercel
 
-The site needs no build, so the whole job is pointing Vercel at this folder:
+The site needs no build. A `vercel.json` at the repository root already
+points Vercel's output directory at this folder, so importing the repo with
+default settings works:
 
 1. Go to [vercel.com/new](https://vercel.com/new) and import
    `Roviicc/ColorDict` (authorise the GitHub app if prompted).
-2. Set **Root Directory** to `web`.
-3. Leave **Framework Preset** as *Other* — build command and install command
-   stay empty, output directory is the root of `web`.
-4. Click **Deploy**.
+2. Leave every setting at its default and click **Deploy**.
+
+(Setting **Root Directory** to `web` in the project settings also works —
+this folder's own `vercel.json` then applies instead.)
 
 Vercel then rebuilds on every push. Check **Settings → Git → Production Branch**
 points at the branch you want live (`main` unless you decide otherwise).
