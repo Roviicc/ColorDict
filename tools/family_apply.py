@@ -113,6 +113,10 @@ def main():
         fam_common = {"id": family["id"], "spectrum": [list(p) for p in spectrum]}
         axis = family.get("axis")
         for m in family["members"]:
+            # Keys starting with "_" are worksheet hints (glosses, head words)
+            # meant for the person annotating; they never reach the entry.
+            if m.get("_skip"):
+                continue
             charge = m["charge"]
             if not isinstance(charge, int) or not -3 <= charge <= 3:
                 sys.exit(f"{family['id']}/{m['word']}: charge must be an int in [-3, 3]")
