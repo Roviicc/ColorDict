@@ -80,6 +80,30 @@ def formation_html(wf):
             + " + ".join(parts) + "</div>")
 
 
+def mentions_headword(word, example):
+    """True when the example actually uses the headword (or an inflection of
+    it). WordNet examples belong to the synset, so many illustrate a synonym
+    instead - 'a long scrawny neck' under 'skinny'."""
+    ex, wl = example.lower(), word.lower()
+    if wl in ex:
+        return True
+    if " " in wl:
+        return False
+    stem = wl[:-1] if len(wl) > 3 and wl[-1] in "ey" else wl
+    if len(stem) < 3:
+        return wl in set(re.findall(r"[a-z']+", ex))
+    return any(t.startswith(stem) for t in re.findall(r"[a-z']+", ex))
+
+
+def useful_examples(word, sense):
+    """Prefer examples that use the headword. Off-target inherited examples
+    are dropped only when on-target ones exist, so a purely derived sense
+    keeps whatever illustration it has."""
+    examples = sense.get("examples") or []
+    on_target = [e for e in examples if mentions_headword(word, e)]
+    return on_target if on_target else examples
+
+
 def bold_headword(word, escaped_example):
     """Bold the headword (or an inflection sharing its stem) in an example."""
     if " " in word:
@@ -120,7 +144,7 @@ def sense_html(word, sense, number):
     bits.append(f'<div class="fld"><span class="flk">Part of Speech:</span> '
                 f'<span class="pos">{escape(sense["part_of_speech"])}</span></div>')
 
-    examples = sense.get("examples") or []
+    examples = useful_examples(word, sense)
     if examples:
         bits.append('<div class="fld"><span class="flk">Examples:</span></div>')
         for i, ex in enumerate(examples, 1):

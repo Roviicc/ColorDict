@@ -26,6 +26,7 @@ Usage:
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -73,8 +74,51 @@ def extend_unique(target, extra):
     return target
 
 
+def mentions_headword(word, example, inflections=()):
+    """True when the example actually uses the headword or an inflection.
+    WordNet examples belong to the synset, so many illustrate a synonym
+    instead - 'a long scrawny neck' sits under 'skinny'."""
+    ex, wl = example.lower(), word.lower()
+    if wl in ex or any(i.lower() in ex for i in inflections):
+        return True
+    if " " in wl:
+        return False
+    stem = wl[:-1] if len(wl) > 3 and wl[-1] in "ey" else wl
+    tokens = re.findall(r"[a-z']+", ex)
+    if len(stem) < 3:
+        return wl in set(tokens)
+    return any(t.startswith(stem) for t in tokens)
+
+
+def prune_examples(entry):
+    """Drop inherited examples that illustrate a synonym rather than the
+    headword. Applied once an entry is authored: a wrong example is worse
+    than none, and the article would not have shown them anyway."""
+    word = entry["word"]
+    inflections = entry.get("inflections") or []
+    dropped = 0
+    for sense in entry["senses"]:
+        examples = sense.get("examples") or []
+        if not examples:
+            continue
+        kept = [e for e in examples if mentions_headword(word, e, inflections)]
+        dropped += len(examples) - len(kept)
+        if kept:
+            sense["examples"] = kept
+        else:
+            sense.pop("examples", None)
+    return dropped
+
+
+def is_authored(patch):
+    """Did this patch add editorial content, as opposed to bookkeeping?"""
+    return any(patch.get(k) for k in
+               ("explanation", "tone", "family", "examples", "usage_labels", "label"))
+
+
 def apply_overlay(entry, rec, problems):
     word = entry["word"]
+    authored = False
     if "word_formation" in rec:
         entry["word_formation"] = rec["word_formation"]
     if rec.get("inflections"):
@@ -91,6 +135,7 @@ def apply_overlay(entry, rec, problems):
                                 "label", "family"}
         if unknown:
             problems.append(f"{word}/{sid}: overlay patch has unknown fields {sorted(unknown)}")
+        authored = authored or is_authored(patch)
         conn = sense.setdefault("connotation", {"label": "neutral"})
         if patch.get("label"):
             # Editorial label override (a reviewed correction of the machine
@@ -128,6 +173,11 @@ def apply_overlay(entry, rec, problems):
     editorial["revision"] = int(editorial.get("revision", 1)) + 1
     if EDITORIAL_SOURCE not in editorial.get("sources", []):
         editorial.setdefault("sources", []).append(EDITORIAL_SOURCE)
+    # A hand-authored entry is no longer "auto-derived": promote the tier so
+    # the article footer stops calling it unreviewed.
+    if authored and editorial.get("status") == "derived":
+        editorial["status"] = "reviewed"
+        entry["_pruned"] = prune_examples(entry)
     return entry
 
 
@@ -161,11 +211,13 @@ def main():
         return 1
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
+    pruned = sum(entry.pop("_pruned", 0) for entry in out)
     with open(args.out, "w", encoding="utf-8", newline="\n") as fh:
         for entry in out:
             fh.write(json.dumps(entry, ensure_ascii=False,
                                 separators=(",", ":")) + "\n")
-    print(f"wrote {len(out)} enriched entries to {args.out}")
+    print(f"wrote {len(out)} enriched entries to {args.out} "
+          f"({pruned} off-target inherited examples pruned)")
     return 0
 
 
