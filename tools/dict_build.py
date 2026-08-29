@@ -140,8 +140,9 @@ def sense_html(word, sense, number):
                 parts.append(f'<b>{escape(fam_word)}</b> <span class="chg">{badge}</span>')
             else:
                 parts.append(f'{bword(fam_word)} <span class="chg">{badge}</span>')
-        bits.append('<div class="fld"><span class="flk">Family'
-                    ' (condemning → praising):</span> ' + " · ".join(parts) + "</div>")
+        axis = escape(family.get("axis") or "condemning → praising")
+        bits.append(f'<div class="fld"><span class="flk">Family ({axis}):</span> '
+                    + " · ".join(parts) + "</div>")
     return "".join(bits)
 
 

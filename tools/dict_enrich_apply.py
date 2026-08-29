@@ -32,20 +32,35 @@ from pathlib import Path
 EDITORIAL_SOURCE = "popup-editorial"
 
 
-def load_overlay(path):
+def load_overlays(paths):
+    """Merge several overlay files. Later files win field by field, so a
+    family annotation can add a charge to a word an earlier batch already
+    gave usage labels."""
     overlay = {}
-    with open(path, encoding="utf-8") as fh:
-        for lineno, line in enumerate(fh, 1):
-            line = line.strip()
-            if not line:
-                continue
-            rec = json.loads(line)
-            word = rec.get("word")
-            if not word:
-                sys.exit(f"{path}:{lineno}: overlay line has no 'word'")
-            if word in overlay:
-                sys.exit(f"{path}:{lineno}: duplicate overlay for {word!r}")
-            overlay[word] = rec
+    for path in paths:
+        seen_here = set()
+        with open(path, encoding="utf-8") as fh:
+            for lineno, line in enumerate(fh, 1):
+                line = line.strip()
+                if not line:
+                    continue
+                rec = json.loads(line)
+                word = rec.get("word")
+                if not word:
+                    sys.exit(f"{path}:{lineno}: overlay line has no 'word'")
+                if word in seen_here:
+                    sys.exit(f"{path}:{lineno}: duplicate overlay for {word!r}")
+                seen_here.add(word)
+                existing = overlay.get(word)
+                if existing is None:
+                    overlay[word] = rec
+                    continue
+                senses = existing.setdefault("senses", {})
+                for sid, patch in (rec.get("senses") or {}).items():
+                    senses.setdefault(sid, {}).update(patch)
+                for key, value in rec.items():
+                    if key not in ("word", "senses"):
+                        existing[key] = value
     return overlay
 
 
@@ -120,11 +135,12 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--bulk", type=Path, required=True,
                     help="derived entries to enrich (read-only)")
-    ap.add_argument("--overlay", type=Path, required=True)
+    ap.add_argument("--overlay", type=Path, required=True, action="append",
+                    help="overlay file; repeatable, later files win per field")
     ap.add_argument("--out", type=Path, required=True)
     args = ap.parse_args()
 
-    overlay = load_overlay(args.overlay)
+    overlay = load_overlays(args.overlay)
     problems = []
     out = []
     with open(args.bulk, encoding="utf-8") as fh:

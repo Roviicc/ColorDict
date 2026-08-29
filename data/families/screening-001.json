@@ -1,0 +1,2807 @@
+{
+ "screened": 200,
+ "kept": 112,
+ "dropped": 88,
+ "decisions": [
+  {
+   "id": "oewn-00367771-a",
+   "head": "chromatic",
+   "size": 267,
+   "keep": false,
+   "sample": [
+    "chromatic",
+    "amber",
+    "brownish-yellow",
+    "yellow-brown",
+    "amber-green",
+    "amethyst"
+   ]
+  },
+  {
+   "id": "oewn-02191250-a",
+   "head": "cardinal",
+   "size": 261,
+   "keep": false,
+   "sample": [
+    "cardinal",
+    "zero",
+    "non-zero",
+    "one",
+    "i",
+    "ane"
+   ]
+  },
+  {
+   "id": "oewn-00395623-a",
+   "head": "colored",
+   "size": 118,
+   "keep": false,
+   "sample": [
+    "colored",
+    "coloured",
+    "colorful",
+    "colourful",
+    "crimson",
+    "red"
+   ]
+  },
+  {
+   "id": "oewn-00387453-a",
+   "head": "achromatic",
+   "size": 116,
+   "keep": false,
+   "sample": [
+    "achromatic",
+    "neutral",
+    "argent",
+    "silver",
+    "silvery",
+    "silverish"
+   ]
+  },
+  {
+   "id": "oewn-02207704-a",
+   "head": "ordinal",
+   "size": 100,
+   "keep": false,
+   "sample": [
+    "ordinal",
+    "zero",
+    "zeroth",
+    "second",
+    "third",
+    "tertiary"
+   ]
+  },
+  {
+   "id": "oewn-01385012-a",
+   "head": "large",
+   "size": 89,
+   "keep": false,
+   "sample": [
+    "large",
+    "big",
+    "ample",
+    "sizable",
+    "sizeable",
+    "astronomic"
+   ]
+  },
+  {
+   "id": "oewn-02150471-a",
+   "head": "formed",
+   "size": 89,
+   "keep": false,
+   "sample": [
+    "formed",
+    "ductile",
+    "malleable",
+    "pliable",
+    "pliant",
+    "tensile"
+   ]
+  },
+  {
+   "id": "oewn-01138269-a",
+   "head": "ill-natured",
+   "size": 73,
+   "keep": true,
+   "sample": [
+    "ill-natured",
+    "atrabilious",
+    "bilious",
+    "dyspeptic",
+    "liverish",
+    "bristly"
+   ]
+  },
+  {
+   "id": "oewn-01790642-a",
+   "head": "patterned",
+   "size": 73,
+   "keep": false,
+   "sample": [
+    "patterned",
+    "banded",
+    "black-and-tan",
+    "black-barred",
+    "black-marked",
+    "blotched"
+   ]
+  },
+  {
+   "id": "oewn-02552072-a",
+   "head": "ill",
+   "size": 70,
+   "keep": false,
+   "sample": [
+    "ill",
+    "sick",
+    "afflicted",
+    "stricken",
+    "aguish",
+    "ailing"
+   ]
+  },
+  {
+   "id": "oewn-01176433-a",
+   "head": "unhealthy",
+   "size": 69,
+   "keep": false,
+   "sample": [
+    "unhealthy",
+    "angry",
+    "arthritic",
+    "creaky",
+    "rheumatic",
+    "rheumatoid"
+   ]
+  },
+  {
+   "id": "oewn-02081496-a",
+   "head": "insane",
+   "size": 64,
+   "keep": true,
+   "sample": [
+    "insane",
+    "balmy",
+    "barmy",
+    "bats",
+    "batty",
+    "bonkers"
+   ]
+  },
+  {
+   "id": "oewn-02246206-a",
+   "head": "rough",
+   "size": 63,
+   "keep": false,
+   "sample": [
+    "rough",
+    "unsmooth",
+    "abrasive",
+    "scratchy",
+    "alligatored",
+    "cracked"
+   ]
+  },
+  {
+   "id": "oewn-00279417-a",
+   "head": "bright",
+   "size": 62,
+   "keep": false,
+   "sample": [
+    "bright",
+    "agleam",
+    "gleaming",
+    "nitid",
+    "aglow",
+    "lambent"
+   ]
+  },
+  {
+   "id": "oewn-02051318-a",
+   "head": "rounded",
+   "size": 61,
+   "keep": false,
+   "sample": [
+    "rounded",
+    "allantoid",
+    "sausage-shaped",
+    "almond-shaped",
+    "amygdaliform",
+    "amygdaloid"
+   ]
+  },
+  {
+   "id": "oewn-02223646-a",
+   "head": "multiple",
+   "size": 60,
+   "keep": false,
+   "sample": [
+    "multiple",
+    "aggregate",
+    "bigeminal",
+    "binary",
+    "double",
+    "doubled"
+   ]
+  },
+  {
+   "id": "oewn-00991420-a",
+   "head": "thin",
+   "size": 57,
+   "keep": true,
+   "sample": [
+    "thin",
+    "lean",
+    "anorexic",
+    "anorectic",
+    "cadaverous",
+    "emaciated"
+   ]
+  },
+  {
+   "id": "oewn-00213765-a",
+   "head": "hairy",
+   "size": 56,
+   "keep": false,
+   "sample": [
+    "hairy",
+    "haired",
+    "hirsute",
+    "canescent",
+    "hoary",
+    "coarse-haired"
+   ]
+  },
+  {
+   "id": "oewn-02403682-a",
+   "head": "tasty",
+   "size": 56,
+   "keep": false,
+   "sample": [
+    "tasty",
+    "acid-tasting",
+    "sour-tasting",
+    "ambrosial",
+    "ambrosian",
+    "nectarous"
+   ]
+  },
+  {
+   "id": "oewn-01394303-a",
+   "head": "small",
+   "size": 55,
+   "keep": false,
+   "sample": [
+    "small",
+    "little",
+    "atomic",
+    "subatomic",
+    "bantam",
+    "diminutive"
+   ]
+  },
+  {
+   "id": "oewn-02173903-a",
+   "head": "simple",
+   "size": 55,
+   "keep": false,
+   "sample": [
+    "simple",
+    "unsubdivided",
+    "acerate",
+    "acerose",
+    "acicular",
+    "needle-shaped"
+   ]
+  },
+  {
+   "id": "oewn-00056242-a",
+   "head": "adorned",
+   "size": 52,
+   "keep": false,
+   "sample": [
+    "adorned",
+    "decorated",
+    "beady",
+    "gemmed",
+    "jeweled",
+    "jewelled"
+   ]
+  },
+  {
+   "id": "oewn-00194616-a",
+   "head": "alarming",
+   "size": 52,
+   "keep": true,
+   "sample": [
+    "alarming",
+    "appalling",
+    "dismaying",
+    "atrocious",
+    "frightful",
+    "horrifying"
+   ]
+  },
+  {
+   "id": "oewn-02349336-a",
+   "head": "superior",
+   "size": 51,
+   "keep": true,
+   "sample": [
+    "superior",
+    "ace",
+    "A-one",
+    "crack",
+    "first-rate",
+    "super"
+   ]
+  },
+  {
+   "id": "oewn-01895355-a",
+   "head": "proud",
+   "size": 50,
+   "keep": true,
+   "sample": [
+    "proud",
+    "arrogant",
+    "chesty",
+    "self-important",
+    "beaming",
+    "big"
+   ]
+  },
+  {
+   "id": "oewn-00800854-a",
+   "head": "intoxicated",
+   "size": 49,
+   "keep": true,
+   "sample": [
+    "intoxicated",
+    "drunk",
+    "inebriated",
+    "ripped",
+    "gone",
+    "bacchanalian"
+   ]
+  },
+  {
+   "id": "oewn-02138452-a",
+   "head": "sexy",
+   "size": 48,
+   "keep": true,
+   "sample": [
+    "sexy",
+    "aroused",
+    "horny",
+    "randy",
+    "ruttish",
+    "steamy"
+   ]
+  },
+  {
+   "id": "oewn-00459631-a",
+   "head": "unclothed",
+   "size": 47,
+   "keep": false,
+   "sample": [
+    "unclothed",
+    "bare",
+    "au naturel",
+    "naked",
+    "nude",
+    "bare-assed"
+   ]
+  },
+  {
+   "id": "oewn-00455759-a",
+   "head": "clothed",
+   "size": 44,
+   "keep": false,
+   "sample": [
+    "clothed",
+    "clad",
+    "appareled",
+    "attired",
+    "dressed",
+    "garbed"
+   ]
+  },
+  {
+   "id": "oewn-01698676-a",
+   "head": "covered",
+   "size": 44,
+   "keep": false,
+   "sample": [
+    "covered",
+    "ariled",
+    "arillate",
+    "awninged",
+    "beaded",
+    "blanketed"
+   ]
+  },
+  {
+   "id": "oewn-02488224-a",
+   "head": "divided",
+   "size": 44,
+   "keep": false,
+   "sample": [
+    "divided",
+    "bicameral",
+    "two-chambered",
+    "bifid",
+    "bifurcate",
+    "biramous"
+   ]
+  },
+  {
+   "id": "oewn-02590887-a",
+   "head": "worn",
+   "size": 44,
+   "keep": true,
+   "sample": [
+    "worn",
+    "aged",
+    "attrited",
+    "battered",
+    "clapped out",
+    "creaky"
+   ]
+  },
+  {
+   "id": "oewn-01440837-a",
+   "head": "long",
+   "size": 43,
+   "keep": false,
+   "sample": [
+    "long",
+    "agelong",
+    "bimestrial",
+    "chronic",
+    "continuing",
+    "daylong"
+   ]
+  },
+  {
+   "id": "oewn-01704867-a",
+   "head": "leafy",
+   "size": 43,
+   "keep": false,
+   "sample": [
+    "leafy",
+    "bifoliate",
+    "bowery",
+    "curly-leaved",
+    "curly-leafed",
+    "fan-leaved"
+   ]
+  },
+  {
+   "id": "oewn-02558087-a",
+   "head": "wet",
+   "size": 43,
+   "keep": false,
+   "sample": [
+    "wet",
+    "bedewed",
+    "dewy",
+    "besprent",
+    "boggy",
+    "marshy"
+   ]
+  },
+  {
+   "id": "oewn-00420808-a",
+   "head": "dirty",
+   "size": 42,
+   "keep": true,
+   "sample": [
+    "dirty",
+    "soiled",
+    "unclean",
+    "bedraggled",
+    "draggled",
+    "befouled"
+   ]
+  },
+  {
+   "id": "oewn-00441328-a",
+   "head": "stupid",
+   "size": 42,
+   "keep": true,
+   "sample": [
+    "stupid",
+    "anserine",
+    "dopy",
+    "dopey",
+    "foolish",
+    "goosey"
+   ]
+  },
+  {
+   "id": "oewn-01086845-a",
+   "head": "full",
+   "size": 42,
+   "keep": false,
+   "sample": [
+    "full",
+    "afloat",
+    "awash",
+    "flooded",
+    "inundated",
+    "overflowing"
+   ]
+  },
+  {
+   "id": "oewn-01129296-a",
+   "head": "bad",
+   "size": 42,
+   "keep": true,
+   "sample": [
+    "bad",
+    "atrocious",
+    "abominable",
+    "awful",
+    "dreadful",
+    "painful"
+   ]
+  },
+  {
+   "id": "oewn-01513206-a",
+   "head": "intense",
+   "size": 42,
+   "keep": true,
+   "sample": [
+    "intense",
+    "aggravated",
+    "bad",
+    "big",
+    "blood-and-guts",
+    "brutal"
+   ]
+  },
+  {
+   "id": "oewn-02178581-a",
+   "head": "compound",
+   "size": 42,
+   "keep": false,
+   "sample": [
+    "compound",
+    "bilobate",
+    "bilobated",
+    "bilobed",
+    "binate",
+    "bipartite"
+   ]
+  },
+  {
+   "id": "oewn-02440540-a",
+   "head": "tired",
+   "size": 42,
+   "keep": true,
+   "sample": [
+    "tired",
+    "all in",
+    "beat",
+    "bushed",
+    "dead",
+    "aweary"
+   ]
+  },
+  {
+   "id": "oewn-01285124-a",
+   "head": "impressive",
+   "size": 41,
+   "keep": true,
+   "sample": [
+    "impressive",
+    "amazing",
+    "awe-inspiring",
+    "awesome",
+    "awful",
+    "awing"
+   ]
+  },
+  {
+   "id": "oewn-02464331-a",
+   "head": "troubled",
+   "size": 41,
+   "keep": true,
+   "sample": [
+    "troubled",
+    "annoyed",
+    "harassed",
+    "harried",
+    "pestered",
+    "vexed"
+   ]
+  },
+  {
+   "id": "oewn-00737862-a",
+   "head": "destroyed",
+   "size": 40,
+   "keep": false,
+   "sample": [
+    "destroyed",
+    "annihilated",
+    "exterminated",
+    "wiped out",
+    "blighted",
+    "spoilt"
+   ]
+  },
+  {
+   "id": "oewn-01267446-a",
+   "head": "humorous",
+   "size": 40,
+   "keep": true,
+   "sample": [
+    "humorous",
+    "humourous",
+    "bantering",
+    "facetious",
+    "tongue-in-cheek",
+    "buffoonish"
+   ]
+  },
+  {
+   "id": "oewn-00618376-a",
+   "head": "cooked",
+   "size": 39,
+   "keep": false,
+   "sample": [
+    "cooked",
+    "au gratin",
+    "baked",
+    "barbecued",
+    "grilled",
+    "batter-fried"
+   ]
+  },
+  {
+   "id": "oewn-01648062-a",
+   "head": "old",
+   "size": 39,
+   "keep": true,
+   "sample": [
+    "old",
+    "aged",
+    "elderly",
+    "older",
+    "senior",
+    "aged"
+   ]
+  },
+  {
+   "id": "oewn-02353767-a",
+   "head": "inferior",
+   "size": 39,
+   "keep": true,
+   "sample": [
+    "inferior",
+    "bad",
+    "base",
+    "bum",
+    "cheap",
+    "cheesy"
+   ]
+  },
+  {
+   "id": "oewn-00527630-a",
+   "head": "comprehensive",
+   "size": 38,
+   "keep": false,
+   "sample": [
+    "comprehensive",
+    "across-the-board",
+    "all-embracing",
+    "all-encompassing",
+    "all-inclusive",
+    "blanket"
+   ]
+  },
+  {
+   "id": "oewn-00974254-a",
+   "head": "fashionable",
+   "size": 38,
+   "keep": true,
+   "sample": [
+    "fashionable",
+    "stylish",
+    "latest",
+    "a la mode",
+    "in style",
+    "in vogue"
+   ]
+  },
+  {
+   "id": "oewn-01021330-a",
+   "head": "unfit",
+   "size": 38,
+   "keep": true,
+   "sample": [
+    "unfit",
+    "afflicted",
+    "impaired",
+    "apractic",
+    "apraxic",
+    "bandy"
+   ]
+  },
+  {
+   "id": "oewn-01732158-a",
+   "head": "past",
+   "size": 38,
+   "keep": false,
+   "sample": [
+    "past",
+    "ago",
+    "agone",
+    "ancient",
+    "bygone",
+    "bypast"
+   ]
+  },
+  {
+   "id": "oewn-00078253-a",
+   "head": "afraid",
+   "size": 37,
+   "keep": true,
+   "sample": [
+    "afraid",
+    "acrophobic",
+    "afeard",
+    "afeared",
+    "aghast",
+    "appalled"
+   ]
+  },
+  {
+   "id": "oewn-01250274-a",
+   "head": "hot",
+   "size": 37,
+   "keep": false,
+   "sample": [
+    "hot",
+    "baking",
+    "baking hot",
+    "blistering",
+    "blistery",
+    "calefacient"
+   ]
+  },
+  {
+   "id": "oewn-01278672-a",
+   "head": "important",
+   "size": 37,
+   "keep": true,
+   "sample": [
+    "important",
+    "of import",
+    "all-important",
+    "all important",
+    "crucial",
+    "essential"
+   ]
+  },
+  {
+   "id": "oewn-01806732-a",
+   "head": "unpleasant",
+   "size": 37,
+   "keep": true,
+   "sample": [
+    "unpleasant",
+    "acerb",
+    "acerbic",
+    "acid",
+    "acrid",
+    "bitter"
+   ]
+  },
+  {
+   "id": "oewn-01974305-a",
+   "head": "periodic",
+   "size": 37,
+   "keep": false,
+   "sample": [
+    "periodic",
+    "periodical",
+    "cyclic",
+    "oscillatory",
+    "oscillating",
+    "diurnal"
+   ]
+  },
+  {
+   "id": "oewn-00238832-a",
+   "head": "multilateral",
+   "size": 36,
+   "keep": false,
+   "sample": [
+    "multilateral",
+    "many-sided",
+    "bilateral",
+    "two-sided",
+    "deep-lobed",
+    "two-lobed"
+   ]
+  },
+  {
+   "id": "oewn-00522139-a",
+   "head": "complete",
+   "size": 36,
+   "keep": false,
+   "sample": [
+    "complete",
+    "absolute",
+    "downright",
+    "out-and-out",
+    "rank",
+    "right-down"
+   ]
+  },
+  {
+   "id": "oewn-00856955-a",
+   "head": "emotional",
+   "size": 36,
+   "keep": true,
+   "sample": [
+    "emotional",
+    "affectional",
+    "affective",
+    "emotive",
+    "bathetic",
+    "drippy"
+   ]
+  },
+  {
+   "id": "oewn-01679784-a",
+   "head": "extraordinary",
+   "size": 36,
+   "keep": true,
+   "sample": [
+    "extraordinary",
+    "bonzer",
+    "exceeding",
+    "exceptional",
+    "olympian",
+    "prodigious"
+   ]
+  },
+  {
+   "id": "oewn-00748528-a",
+   "head": "difficult",
+   "size": 35,
+   "keep": true,
+   "sample": [
+    "difficult",
+    "hard",
+    "ambitious",
+    "challenging",
+    "arduous",
+    "awkward"
+   ]
+  },
+  {
+   "id": "oewn-02319224-a",
+   "head": "crooked",
+   "size": 35,
+   "keep": false,
+   "sample": [
+    "crooked",
+    "akimbo",
+    "anfractuous",
+    "aquiline",
+    "hooked",
+    "askew"
+   ]
+  },
+  {
+   "id": "oewn-01156249-a",
+   "head": "soft",
+   "size": 34,
+   "keep": false,
+   "sample": [
+    "soft",
+    "brushed",
+    "fleecy",
+    "napped",
+    "cheeselike",
+    "compressible"
+   ]
+  },
+  {
+   "id": "oewn-01628814-a",
+   "head": "offensive",
+   "size": 34,
+   "keep": true,
+   "sample": [
+    "offensive",
+    "abhorrent",
+    "detestable",
+    "obscene",
+    "repugnant",
+    "repulsive"
+   ]
+  },
+  {
+   "id": "oewn-02253147-a",
+   "head": "rough",
+   "size": 34,
+   "keep": false,
+   "sample": [
+    "rough",
+    "bidentate",
+    "biserrate",
+    "ciliate",
+    "ciliated",
+    "crenate"
+   ]
+  },
+  {
+   "id": "oewn-02420960-a",
+   "head": "thin",
+   "size": 34,
+   "keep": false,
+   "sample": [
+    "thin",
+    "bladed",
+    "capillary",
+    "hairlike",
+    "compressed",
+    "flat"
+   ]
+  },
+  {
+   "id": "oewn-02485330-a",
+   "head": "united",
+   "size": 34,
+   "keep": false,
+   "sample": [
+    "united",
+    "agreed",
+    "in agreement",
+    "allied",
+    "confederate",
+    "confederative"
+   ]
+  },
+  {
+   "id": "oewn-00448955-a",
+   "head": "close",
+   "size": 33,
+   "keep": false,
+   "sample": [
+    "close",
+    "adjacent",
+    "next",
+    "side by side",
+    "ambient",
+    "appressed"
+   ]
+  },
+  {
+   "id": "oewn-00496952-a",
+   "head": "communicative",
+   "size": 33,
+   "keep": true,
+   "sample": [
+    "communicative",
+    "communicatory",
+    "anecdotic",
+    "anecdotal",
+    "anecdotical",
+    "blabbermouthed"
+   ]
+  },
+  {
+   "id": "oewn-01134543-a",
+   "head": "evil",
+   "size": 33,
+   "keep": true,
+   "sample": [
+    "evil",
+    "atrocious",
+    "flagitious",
+    "grievous",
+    "monstrous",
+    "bad"
+   ]
+  },
+  {
+   "id": "oewn-01254201-a",
+   "head": "cold",
+   "size": 33,
+   "keep": false,
+   "sample": [
+    "cold",
+    "acold",
+    "algid",
+    "arctic",
+    "frigid",
+    "gelid"
+   ]
+  },
+  {
+   "id": "oewn-01578839-a",
+   "head": "supernatural",
+   "size": 33,
+   "keep": true,
+   "sample": [
+    "supernatural",
+    "apparitional",
+    "ghostlike",
+    "ghostly",
+    "phantasmal",
+    "spectral"
+   ]
+  },
+  {
+   "id": "oewn-01651383-a",
+   "head": "young",
+   "size": 33,
+   "keep": true,
+   "sample": [
+    "young",
+    "immature",
+    "one-year-old",
+    "two-year-old",
+    "three-year-old",
+    "four-year-old"
+   ]
+  },
+  {
+   "id": "oewn-02048059-a",
+   "head": "round",
+   "size": 33,
+   "keep": false,
+   "sample": [
+    "round",
+    "circular",
+    "apple-shaped",
+    "ball-shaped",
+    "global",
+    "globose"
+   ]
+  },
+  {
+   "id": "oewn-00405279-a",
+   "head": "colorless",
+   "size": 32,
+   "keep": false,
+   "sample": [
+    "colorless",
+    "colourless",
+    "ashen",
+    "blanched",
+    "bloodless",
+    "livid"
+   ]
+  },
+  {
+   "id": "oewn-00542013-a",
+   "head": "distributed",
+   "size": 32,
+   "keep": false,
+   "sample": [
+    "distributed",
+    "apportioned",
+    "dealt out",
+    "doled out",
+    "meted out",
+    "parceled out"
+   ]
+  },
+  {
+   "id": "oewn-01075111-a",
+   "head": "preserved",
+   "size": 32,
+   "keep": false,
+   "sample": [
+    "preserved",
+    "aged",
+    "cured",
+    "candied",
+    "crystalized",
+    "crystalised"
+   ]
+  },
+  {
+   "id": "oewn-01366924-a",
+   "head": "sorrowful",
+   "size": 32,
+   "keep": true,
+   "sample": [
+    "sorrowful",
+    "anguished",
+    "tormented",
+    "tortured",
+    "bereaved",
+    "bereft"
+   ]
+  },
+  {
+   "id": "oewn-02322682-a",
+   "head": "curved",
+   "size": 32,
+   "keep": false,
+   "sample": [
+    "curved",
+    "curving",
+    "arced",
+    "arched",
+    "arching",
+    "arciform"
+   ]
+  },
+  {
+   "id": "oewn-00979699-a",
+   "head": "fast",
+   "size": 31,
+   "keep": false,
+   "sample": [
+    "fast",
+    "accelerated",
+    "alacritous",
+    "blistering",
+    "hot",
+    "red-hot"
+   ]
+  },
+  {
+   "id": "oewn-00989218-a",
+   "head": "fat",
+   "size": 31,
+   "keep": true,
+   "sample": [
+    "fat",
+    "abdominous",
+    "paunchy",
+    "potbellied",
+    "blubbery",
+    "chubby"
+   ]
+  },
+  {
+   "id": "oewn-01056843-a",
+   "head": "malodorous",
+   "size": 31,
+   "keep": true,
+   "sample": [
+    "malodorous",
+    "malodourous",
+    "unpleasant-smelling",
+    "ill-smelling",
+    "stinky",
+    "bilgy"
+   ]
+  },
+  {
+   "id": "oewn-01126910-a",
+   "head": "good",
+   "size": 31,
+   "keep": true,
+   "sample": [
+    "good",
+    "bang-up",
+    "bully",
+    "corking",
+    "cracking",
+    "dandy"
+   ]
+  },
+  {
+   "id": "oewn-01163575-a",
+   "head": "harmful",
+   "size": 31,
+   "keep": true,
+   "sample": [
+    "harmful",
+    "abusive",
+    "bad",
+    "bruising",
+    "deleterious",
+    "hurtful"
+   ]
+  },
+  {
+   "id": "oewn-01404858-a",
+   "head": "illegal",
+   "size": 31,
+   "keep": true,
+   "sample": [
+    "illegal",
+    "amerciable",
+    "banned",
+    "prohibited",
+    "bootleg",
+    "black"
+   ]
+  },
+  {
+   "id": "oewn-01466898-a",
+   "head": "loving",
+   "size": 31,
+   "keep": true,
+   "sample": [
+    "loving",
+    "adoring",
+    "doting",
+    "fond",
+    "affectionate",
+    "fond"
+   ]
+  },
+  {
+   "id": "oewn-01575756-a",
+   "head": "artificial",
+   "size": 31,
+   "keep": true,
+   "sample": [
+    "artificial",
+    "unreal",
+    "arranged",
+    "staged",
+    "bionic",
+    "bleached"
+   ]
+  },
+  {
+   "id": "oewn-01941146-a",
+   "head": "unreal",
+   "size": 31,
+   "keep": true,
+   "sample": [
+    "unreal",
+    "dreamed",
+    "envisioned",
+    "pictured",
+    "visualized",
+    "visualised"
+   ]
+  },
+  {
+   "id": "oewn-02369003-a",
+   "head": "susceptible",
+   "size": 31,
+   "keep": false,
+   "sample": [
+    "susceptible",
+    "allergic",
+    "hypersensitive",
+    "hypersensitized",
+    "hypersensitised",
+    "sensitized"
+   ]
+  },
+  {
+   "id": "oewn-02414122-a",
+   "head": "tense",
+   "size": 31,
+   "keep": true,
+   "sample": [
+    "tense",
+    "aroused",
+    "wound up",
+    "cliff-hanging",
+    "suspenseful",
+    "suspensive"
+   ]
+  },
+  {
+   "id": "oewn-00096133-a",
+   "head": "dead",
+   "size": 30,
+   "keep": true,
+   "sample": [
+    "dead",
+    "asleep",
+    "at peace",
+    "at rest",
+    "deceased",
+    "departed"
+   ]
+  },
+  {
+   "id": "oewn-01710108-a",
+   "head": "covert",
+   "size": 30,
+   "keep": true,
+   "sample": [
+    "covert",
+    "backstair",
+    "backstairs",
+    "furtive",
+    "black",
+    "clandestine"
+   ]
+  },
+  {
+   "id": "oewn-01798849-a",
+   "head": "fancy",
+   "size": 30,
+   "keep": true,
+   "sample": [
+    "fancy",
+    "aureate",
+    "florid",
+    "flamboyant",
+    "baroque",
+    "churrigueresque"
+   ]
+  },
+  {
+   "id": "oewn-01955971-a",
+   "head": "unrefined",
+   "size": 30,
+   "keep": true,
+   "sample": [
+    "unrefined",
+    "agrestic",
+    "artless",
+    "uncultivated",
+    "uncultured",
+    "boorish"
+   ]
+  },
+  {
+   "id": "oewn-02433027-a",
+   "head": "untidy",
+   "size": 30,
+   "keep": true,
+   "sample": [
+    "untidy",
+    "blowsy",
+    "blowzy",
+    "slatternly",
+    "sluttish",
+    "cluttered"
+   ]
+  },
+  {
+   "id": "oewn-00219320-a",
+   "head": "beautiful",
+   "size": 29,
+   "keep": true,
+   "sample": [
+    "beautiful",
+    "beauteous",
+    "bonny",
+    "bonnie",
+    "comely",
+    "fair"
+   ]
+  },
+  {
+   "id": "oewn-01053161-a",
+   "head": "unfortunate",
+   "size": 29,
+   "keep": true,
+   "sample": [
+    "unfortunate",
+    "abject",
+    "black",
+    "calamitous",
+    "disastrous",
+    "fatal"
+   ]
+  },
+  {
+   "id": "oewn-01168307-a",
+   "head": "healthful",
+   "size": 29,
+   "keep": false,
+   "sample": [
+    "healthful",
+    "anthelmintic",
+    "anthelminthic",
+    "helminthic",
+    "parasiticidal",
+    "antimicrobial"
+   ]
+  },
+  {
+   "id": "oewn-02229911-a",
+   "head": "sized",
+   "size": 29,
+   "keep": false,
+   "sample": [
+    "sized",
+    "apple-sized",
+    "cherry-sized",
+    "cookie-sized",
+    "crow-sized",
+    "dog-sized"
+   ]
+  },
+  {
+   "id": "oewn-02286688-a",
+   "head": "spirited",
+   "size": 29,
+   "keep": true,
+   "sample": [
+    "spirited",
+    "boisterous",
+    "knockabout",
+    "con brio",
+    "dashing",
+    "gallant"
+   ]
+  },
+  {
+   "id": "oewn-02328781-a",
+   "head": "strong",
+   "size": 29,
+   "keep": true,
+   "sample": [
+    "strong",
+    "beardown",
+    "beefed-up",
+    "brawny",
+    "hefty",
+    "muscular"
+   ]
+  },
+  {
+   "id": "oewn-02341445-a",
+   "head": "unsuccessful",
+   "size": 29,
+   "keep": true,
+   "sample": [
+    "unsuccessful",
+    "attempted",
+    "defeated",
+    "disappointed",
+    "discomfited",
+    "foiled"
+   ]
+  },
+  {
+   "id": "oewn-02580838-a",
+   "head": "foolish",
+   "size": 29,
+   "keep": true,
+   "sample": [
+    "foolish",
+    "absurd",
+    "cockeyed",
+    "derisory",
+    "idiotic",
+    "laughable"
+   ]
+  },
+  {
+   "id": "oewn-00013906-a",
+   "head": "abundant",
+   "size": 28,
+   "keep": true,
+   "sample": [
+    "abundant",
+    "abounding",
+    "galore",
+    "ample",
+    "copious",
+    "plenteous"
+   ]
+  },
+  {
+   "id": "oewn-00052912-a",
+   "head": "adhesive",
+   "size": 28,
+   "keep": false,
+   "sample": [
+    "adhesive",
+    "adherent",
+    "agglutinate",
+    "agglutinative",
+    "bondable",
+    "coherent"
+   ]
+  },
+  {
+   "id": "oewn-00167408-a",
+   "head": "attractive",
+   "size": 28,
+   "keep": true,
+   "sample": [
+    "attractive",
+    "bewitching",
+    "captivating",
+    "enchanting",
+    "enthralling",
+    "entrancing"
+   ]
+  },
+  {
+   "id": "oewn-00273948-a",
+   "head": "dark",
+   "size": 28,
+   "keep": false,
+   "sample": [
+    "dark",
+    "aphotic",
+    "black",
+    "pitch-black",
+    "pitch-dark",
+    "caliginous"
+   ]
+  },
+  {
+   "id": "oewn-01058772-a",
+   "head": "odorous",
+   "size": 28,
+   "keep": false,
+   "sample": [
+    "odorous",
+    "alliaceous",
+    "almond-scented",
+    "anise-scented",
+    "apple-scented",
+    "balsam-scented"
+   ]
+  },
+  {
+   "id": "oewn-01240770-a",
+   "head": "unerect",
+   "size": 28,
+   "keep": false,
+   "sample": [
+    "unerect",
+    "accumbent",
+    "decumbent",
+    "recumbent",
+    "bended",
+    "bent"
+   ]
+  },
+  {
+   "id": "oewn-01996751-a",
+   "head": "resolute",
+   "size": 28,
+   "keep": true,
+   "sample": [
+    "resolute",
+    "bent",
+    "bent on",
+    "dead set",
+    "out to",
+    "determined"
+   ]
+  },
+  {
+   "id": "oewn-02146074-a",
+   "head": "shapely",
+   "size": 28,
+   "keep": true,
+   "sample": [
+    "shapely",
+    "bosomy",
+    "busty",
+    "buxom",
+    "curvaceous",
+    "curvy"
+   ]
+  },
+  {
+   "id": "oewn-02562150-a",
+   "head": "dry",
+   "size": 28,
+   "keep": false,
+   "sample": [
+    "dry",
+    "adust",
+    "baked",
+    "parched",
+    "scorched",
+    "sunbaked"
+   ]
+  },
+  {
+   "id": "oewn-00114629-a",
+   "head": "angry",
+   "size": 27,
+   "keep": true,
+   "sample": [
+    "angry",
+    "aggravated",
+    "provoked",
+    "angered",
+    "enraged",
+    "furious"
+   ]
+  },
+  {
+   "id": "oewn-01645077-a",
+   "head": "new",
+   "size": 27,
+   "keep": false,
+   "sample": [
+    "new",
+    "brand-new",
+    "bran-new",
+    "spic-and-span",
+    "spick-and-span",
+    "fresh"
+   ]
+  },
+  {
+   "id": "oewn-01864034-a",
+   "head": "private",
+   "size": 27,
+   "keep": true,
+   "sample": [
+    "private",
+    "clannish",
+    "cliquish",
+    "clubby",
+    "snobbish",
+    "snobby"
+   ]
+  },
+  {
+   "id": "oewn-01953883-a",
+   "head": "refined",
+   "size": 27,
+   "keep": true,
+   "sample": [
+    "refined",
+    "civilized",
+    "civilised",
+    "cultivated",
+    "cultured",
+    "genteel"
+   ]
+  },
+  {
+   "id": "oewn-02183738-a",
+   "head": "complex",
+   "size": 27,
+   "keep": false,
+   "sample": [
+    "complex",
+    "analyzable",
+    "decomposable",
+    "convoluted",
+    "involved",
+    "knotty"
+   ]
+  },
+  {
+   "id": "oewn-00270855-a",
+   "head": "light",
+   "size": 26,
+   "keep": false,
+   "sample": [
+    "light",
+    "ablaze",
+    "inflamed",
+    "reddened",
+    "autofluorescent",
+    "bioluminescent"
+   ]
+  },
+  {
+   "id": "oewn-00323355-a",
+   "head": "causative",
+   "size": 26,
+   "keep": false,
+   "sample": [
+    "causative",
+    "abortifacient",
+    "activating",
+    "actuating",
+    "anorectic",
+    "anorexigenic"
+   ]
+  },
+  {
+   "id": "oewn-00437207-a",
+   "head": "confused",
+   "size": 26,
+   "keep": true,
+   "sample": [
+    "confused",
+    "addlebrained",
+    "addlepated",
+    "puddingheaded",
+    "muddleheaded",
+    "addled"
+   ]
+  },
+  {
+   "id": "oewn-00839816-a",
+   "head": "effortful",
+   "size": 26,
+   "keep": false,
+   "sample": [
+    "effortful",
+    "arduous",
+    "backbreaking",
+    "grueling",
+    "gruelling",
+    "hard"
+   ]
+  },
+  {
+   "id": "oewn-01120122-a",
+   "head": "counterfeit",
+   "size": 26,
+   "keep": true,
+   "sample": [
+    "counterfeit",
+    "imitative",
+    "assumed",
+    "false",
+    "fictitious",
+    "fictive"
+   ]
+  },
+  {
+   "id": "oewn-01173787-a",
+   "head": "healthy",
+   "size": 26,
+   "keep": true,
+   "sample": [
+    "healthy",
+    "flushed",
+    "rose-cheeked",
+    "rosy",
+    "rosy-cheeked",
+    "bouncing"
+   ]
+  },
+  {
+   "id": "oewn-01523886-a",
+   "head": "unmitigated",
+   "size": 26,
+   "keep": true,
+   "sample": [
+    "unmitigated",
+    "arrant",
+    "complete",
+    "consummate",
+    "double-dyed",
+    "everlasting"
+   ]
+  },
+  {
+   "id": "oewn-01526495-a",
+   "head": "mobile",
+   "size": 26,
+   "keep": false,
+   "sample": [
+    "mobile",
+    "airborne",
+    "ambulant",
+    "ambulatory",
+    "floating",
+    "maneuverable"
+   ]
+  },
+  {
+   "id": "oewn-01537239-a",
+   "head": "immoderate",
+   "size": 26,
+   "keep": true,
+   "sample": [
+    "immoderate",
+    "abnormal",
+    "all-fired",
+    "exaggerated",
+    "overdone",
+    "overstated"
+   ]
+  },
+  {
+   "id": "oewn-01594522-a",
+   "head": "noble",
+   "size": 26,
+   "keep": true,
+   "sample": [
+    "noble",
+    "aristocratic",
+    "aristocratical",
+    "blue",
+    "blue-blooded",
+    "gentle"
+   ]
+  },
+  {
+   "id": "oewn-01715524-a",
+   "head": "painful",
+   "size": 26,
+   "keep": true,
+   "sample": [
+    "painful",
+    "aching",
+    "achy",
+    "agonized",
+    "agonised",
+    "agonizing"
+   ]
+  },
+  {
+   "id": "oewn-01884565-a",
+   "head": "proper",
+   "size": 26,
+   "keep": true,
+   "sample": [
+    "proper",
+    "becoming",
+    "comely",
+    "comme il faut",
+    "decorous",
+    "seemly"
+   ]
+  },
+  {
+   "id": "oewn-01887795-a",
+   "head": "prophetic",
+   "size": 26,
+   "keep": false,
+   "sample": [
+    "prophetic",
+    "prophetical",
+    "adumbrative",
+    "foreshadowing",
+    "prefigurative",
+    "apocalyptic"
+   ]
+  },
+  {
+   "id": "oewn-02129139-a",
+   "head": "playful",
+   "size": 26,
+   "keep": true,
+   "sample": [
+    "playful",
+    "coltish",
+    "frolicsome",
+    "frolicky",
+    "rollicking",
+    "sportive"
+   ]
+  },
+  {
+   "id": "oewn-02166241-a",
+   "head": "blind",
+   "size": 26,
+   "keep": false,
+   "sample": [
+    "blind",
+    "unsighted",
+    "blinded",
+    "blindfold",
+    "blindfolded",
+    "color-blind"
+   ]
+  },
+  {
+   "id": "oewn-00615691-a",
+   "head": "branchy",
+   "size": 25,
+   "keep": false,
+   "sample": [
+    "branchy",
+    "arboreal",
+    "arboreous",
+    "arborescent",
+    "arboresque",
+    "arboriform"
+   ]
+  },
+  {
+   "id": "oewn-00846685-a",
+   "head": "elastic",
+   "size": 25,
+   "keep": false,
+   "sample": [
+    "elastic",
+    "bouncy",
+    "live",
+    "lively",
+    "resilient",
+    "springy"
+   ]
+  },
+  {
+   "id": "oewn-00970318-a",
+   "head": "strange",
+   "size": 25,
+   "keep": true,
+   "sample": [
+    "strange",
+    "unusual",
+    "antic",
+    "fantastic",
+    "fantastical",
+    "grotesque"
+   ]
+  },
+  {
+   "id": "oewn-01677162-a",
+   "head": "ordinary",
+   "size": 25,
+   "keep": true,
+   "sample": [
+    "ordinary",
+    "average",
+    "fair",
+    "mediocre",
+    "middling",
+    "banausic"
+   ]
+  },
+  {
+   "id": "oewn-01753804-a",
+   "head": "perfect",
+   "size": 25,
+   "keep": true,
+   "sample": [
+    "perfect",
+    "clean",
+    "clear",
+    "cold",
+    "complete",
+    "consummate"
+   ]
+  },
+  {
+   "id": "oewn-01855216-a",
+   "head": "pretentious",
+   "size": 25,
+   "keep": true,
+   "sample": [
+    "pretentious",
+    "arty",
+    "artsy-craftsy",
+    "arty-crafty",
+    "grandiloquent",
+    "overblown"
+   ]
+  },
+  {
+   "id": "oewn-02310758-a",
+   "head": "unsteady",
+   "size": 25,
+   "keep": true,
+   "sample": [
+    "unsteady",
+    "arrhythmic",
+    "jerking",
+    "jerky",
+    "convulsive",
+    "spasmodic"
+   ]
+  },
+  {
+   "id": "oewn-02363093-a",
+   "head": "supportive",
+   "size": 25,
+   "keep": true,
+   "sample": [
+    "supportive",
+    "accessory",
+    "adjunct",
+    "ancillary",
+    "adjuvant",
+    "appurtenant"
+   ]
+  },
+  {
+   "id": "oewn-00304526-a",
+   "head": "stormy",
+   "size": 24,
+   "keep": true,
+   "sample": [
+    "stormy",
+    "angry",
+    "furious",
+    "raging",
+    "tempestuous",
+    "wild"
+   ]
+  },
+  {
+   "id": "oewn-00345024-a",
+   "head": "changeable",
+   "size": 24,
+   "keep": true,
+   "sample": [
+    "changeable",
+    "changeful",
+    "adjustable",
+    "astatic",
+    "checkered",
+    "distortable"
+   ]
+  },
+  {
+   "id": "oewn-00537672-a",
+   "head": "concave",
+   "size": 24,
+   "keep": false,
+   "sample": [
+    "concave",
+    "acetabular",
+    "cotyloid",
+    "cotyloidal",
+    "biconcave",
+    "concavo-concave"
+   ]
+  },
+  {
+   "id": "oewn-00610798-a",
+   "head": "unconventional",
+   "size": 24,
+   "keep": true,
+   "sample": [
+    "unconventional",
+    "alternative",
+    "bizarre",
+    "eccentric",
+    "freakish",
+    "freaky"
+   ]
+  },
+  {
+   "id": "oewn-01116284-a",
+   "head": "stingy",
+   "size": 24,
+   "keep": true,
+   "sample": [
+    "stingy",
+    "ungenerous",
+    "beggarly",
+    "mean",
+    "cheap",
+    "chinchy"
+   ]
+  },
+  {
+   "id": "oewn-01215869-a",
+   "head": "high",
+   "size": 24,
+   "keep": false,
+   "sample": [
+    "high",
+    "high-pitched",
+    "adenoidal",
+    "pinched",
+    "nasal",
+    "altissimo"
+   ]
+  },
+  {
+   "id": "oewn-01225555-a",
+   "head": "dishonest",
+   "size": 24,
+   "keep": true,
+   "sample": [
+    "dishonest",
+    "dishonorable",
+    "ambidextrous",
+    "deceitful",
+    "double-dealing",
+    "duplicitous"
+   ]
+  },
+  {
+   "id": "oewn-01356074-a",
+   "head": "protrusive",
+   "size": 24,
+   "keep": false,
+   "sample": [
+    "protrusive",
+    "beetle",
+    "beetling",
+    "bellied",
+    "bellying",
+    "bulbous"
+   ]
+  },
+  {
+   "id": "oewn-01457415-a",
+   "head": "soft",
+   "size": 24,
+   "keep": false,
+   "sample": [
+    "soft",
+    "dull",
+    "muffled",
+    "muted",
+    "softened",
+    "euphonious"
+   ]
+  },
+  {
+   "id": "oewn-01464744-a",
+   "head": "loved",
+   "size": 24,
+   "keep": true,
+   "sample": [
+    "loved",
+    "admired",
+    "adored",
+    "idolized",
+    "idolised",
+    "worshipped"
+   ]
+  },
+  {
+   "id": "oewn-01587448-a",
+   "head": "neurotic",
+   "size": 24,
+   "keep": true,
+   "sample": [
+    "neurotic",
+    "psychoneurotic",
+    "abulic",
+    "aboulic",
+    "compulsive",
+    "delusional"
+   ]
+  },
+  {
+   "id": "oewn-01811138-a",
+   "head": "displeased",
+   "size": 24,
+   "keep": true,
+   "sample": [
+    "displeased",
+    "annoyed",
+    "irritated",
+    "miffed",
+    "nettled",
+    "peeved"
+   ]
+  },
+  {
+   "id": "oewn-01814940-a",
+   "head": "pointed",
+   "size": 24,
+   "keep": false,
+   "sample": [
+    "pointed",
+    "acanthoid",
+    "acanthous",
+    "spinous",
+    "acuate",
+    "acute"
+   ]
+  },
+  {
+   "id": "oewn-02055227-a",
+   "head": "angular",
+   "size": 24,
+   "keep": false,
+   "sample": [
+    "angular",
+    "angulate",
+    "angled",
+    "asteroid",
+    "star-shaped",
+    "bicuspid"
+   ]
+  },
+  {
+   "id": "oewn-02134270-a",
+   "head": "unsettled",
+   "size": 24,
+   "keep": false,
+   "sample": [
+    "unsettled",
+    "aimless",
+    "drifting",
+    "floating",
+    "vagabond",
+    "vagrant"
+   ]
+  },
+  {
+   "id": "oewn-02334687-a",
+   "head": "stubborn",
+   "size": 24,
+   "keep": true,
+   "sample": [
+    "stubborn",
+    "obstinate",
+    "unregenerate",
+    "bloody-minded",
+    "cantankerous",
+    "bolshy"
+   ]
+  },
+  {
+   "id": "oewn-02424186-a",
+   "head": "thick",
+   "size": 24,
+   "keep": false,
+   "sample": [
+    "thick",
+    "clogged",
+    "clotted",
+    "coagulable",
+    "coagulate",
+    "coagulated"
+   ]
+  },
+  {
+   "id": "oewn-02512179-a",
+   "head": "worthless",
+   "size": 24,
+   "keep": true,
+   "sample": [
+    "worthless",
+    "chaffy",
+    "good-for-nothing",
+    "good-for-naught",
+    "meritless",
+    "no-account"
+   ]
+  },
+  {
+   "id": "oewn-00202946-a",
+   "head": "backward",
+   "size": 23,
+   "keep": false,
+   "sample": [
+    "backward",
+    "backswept",
+    "sweptback",
+    "cacuminal",
+    "retroflex",
+    "converse"
+   ]
+  },
+  {
+   "id": "oewn-00299633-a",
+   "head": "cacophonous",
+   "size": 23,
+   "keep": true,
+   "sample": [
+    "cacophonous",
+    "cacophonic",
+    "cackly",
+    "squawky",
+    "croaky",
+    "guttural"
+   ]
+  },
+  {
+   "id": "oewn-00463344-a",
+   "head": "cloudy",
+   "size": 23,
+   "keep": false,
+   "sample": [
+    "cloudy",
+    "brumous",
+    "foggy",
+    "hazy",
+    "misty",
+    "fogbound"
+   ]
+  },
+  {
+   "id": "oewn-00588876-a",
+   "head": "destructive",
+   "size": 23,
+   "keep": true,
+   "sample": [
+    "destructive",
+    "annihilative",
+    "annihilating",
+    "devastating",
+    "withering",
+    "blasting"
+   ]
+  },
+  {
+   "id": "oewn-00672714-a",
+   "head": "cursed",
+   "size": 23,
+   "keep": true,
+   "sample": [
+    "cursed",
+    "curst",
+    "accursed",
+    "accurst",
+    "maledict",
+    "blasted"
+   ]
+  },
+  {
+   "id": "oewn-00731008-a",
+   "head": "independent",
+   "size": 23,
+   "keep": true,
+   "sample": [
+    "independent",
+    "autarkic",
+    "autarkical",
+    "autonomous",
+    "self-directed",
+    "self-reliant"
+   ]
+  },
+  {
+   "id": "oewn-00767444-a",
+   "head": "direct",
+   "size": 23,
+   "keep": true,
+   "sample": [
+    "direct",
+    "bluff",
+    "blunt",
+    "candid",
+    "forthright",
+    "frank"
+   ]
+  },
+  {
+   "id": "oewn-00811761-a",
+   "head": "dynamic",
+   "size": 23,
+   "keep": true,
+   "sample": [
+    "dynamic",
+    "dynamical",
+    "can-do",
+    "changing",
+    "ever-changing",
+    "driving"
+   ]
+  },
+  {
+   "id": "oewn-00816521-a",
+   "head": "early",
+   "size": 23,
+   "keep": false,
+   "sample": [
+    "early",
+    "aboriginal",
+    "primal",
+    "primeval",
+    "primaeval",
+    "primordial"
+   ]
+  },
+  {
+   "id": "oewn-00893124-a",
+   "head": "equal",
+   "size": 23,
+   "keep": false,
+   "sample": [
+    "equal",
+    "equivalent",
+    "tantamount",
+    "close",
+    "tight",
+    "coequal"
+   ]
+  },
+  {
+   "id": "oewn-01065188-a",
+   "head": "free",
+   "size": 23,
+   "keep": true,
+   "sample": [
+    "free",
+    "at large",
+    "escaped",
+    "loose",
+    "on the loose",
+    "autonomous"
+   ]
+  },
+  {
+   "id": "oewn-01083985-a",
+   "head": "fruitful",
+   "size": 23,
+   "keep": false,
+   "sample": [
+    "fruitful",
+    "berried",
+    "baccate",
+    "bacciferous",
+    "blue-fruited",
+    "bountiful"
+   ]
+  },
+  {
+   "id": "oewn-01300436-a",
+   "head": "indulgent",
+   "size": 23,
+   "keep": true,
+   "sample": [
+    "indulgent",
+    "decadent",
+    "dissipated",
+    "betting",
+    "card-playing",
+    "sporting"
+   ]
+  },
+  {
+   "id": "oewn-01436368-a",
+   "head": "long",
+   "size": 23,
+   "keep": false,
+   "sample": [
+    "long",
+    "elongate",
+    "elongated",
+    "elongated",
+    "extended",
+    "lengthened"
+   ]
+  },
+  {
+   "id": "oewn-01692724-a",
+   "head": "unoriginal",
+   "size": 23,
+   "keep": true,
+   "sample": [
+    "unoriginal",
+    "banal",
+    "commonplace",
+    "hackneyed",
+    "old-hat",
+    "shopworn"
+   ]
+  },
+  {
+   "id": "oewn-01770155-a",
+   "head": "perplexed",
+   "size": 23,
+   "keep": true,
+   "sample": [
+    "perplexed",
+    "at a loss",
+    "nonplused",
+    "nonplussed",
+    "puzzled",
+    "baffled"
+   ]
+  },
+  {
+   "id": "oewn-01926330-a",
+   "head": "noisy",
+   "size": 23,
+   "keep": true,
+   "sample": [
+    "noisy",
+    "blatant",
+    "clamant",
+    "clamorous",
+    "strident",
+    "vociferous"
+   ]
+  },
+  {
+   "id": "oewn-02045115-a",
+   "head": "robust",
+   "size": 23,
+   "keep": true,
+   "sample": [
+    "robust",
+    "beefy",
+    "burly",
+    "husky",
+    "strapping",
+    "buirdly"
+   ]
+  },
+  {
+   "id": "oewn-02072149-a",
+   "head": "different",
+   "size": 23,
+   "keep": false,
+   "sample": [
+    "different",
+    "antithetic",
+    "antithetical",
+    "assorted",
+    "various",
+    "contrary"
+   ]
+  },
+  {
+   "id": "oewn-02332106-a",
+   "head": "weak",
+   "size": 23,
+   "keep": true,
+   "sample": [
+    "weak",
+    "anemic",
+    "anaemic",
+    "adynamic",
+    "asthenic",
+    "debilitated"
+   ]
+  },
+  {
+   "id": "oewn-00085733-a",
+   "head": "agitated",
+   "size": 22,
+   "keep": true,
+   "sample": [
+    "agitated",
+    "amuck",
+    "amok",
+    "berserk",
+    "aroused",
+    "emotional"
+   ]
+  },
+  {
+   "id": "oewn-00090040-a",
+   "head": "disagreeable",
+   "size": 22,
+   "keep": true,
+   "sample": [
+    "disagreeable",
+    "annoying",
+    "bothersome",
+    "galling",
+    "irritating",
+    "nettlesome"
+   ]
+  },
+  {
+   "id": "oewn-00265642-a",
+   "head": "cowardly",
+   "size": 22,
+   "keep": true,
+   "sample": [
+    "cowardly",
+    "fearful",
+    "caitiff",
+    "chicken",
+    "chickenhearted",
+    "lily-livered"
+   ]
+  },
+  {
+   "id": "oewn-00444378-a",
+   "head": "far",
+   "size": 22,
+   "keep": false,
+   "sample": [
+    "far",
+    "cold",
+    "distant",
+    "remote",
+    "distant",
+    "remote"
+   ]
+  },
+  {
+   "id": "oewn-00597095-a",
+   "head": "continuous",
+   "size": 22,
+   "keep": false,
+   "sample": [
+    "continuous",
+    "uninterrupted",
+    "around-the-clock",
+    "day-and-night",
+    "nonstop",
+    "round-the-clock"
+   ]
+  },
+  {
+   "id": "oewn-00682414-a",
+   "head": "damaged",
+   "size": 22,
+   "keep": true,
+   "sample": [
+    "damaged",
+    "battered",
+    "beat-up",
+    "beaten-up",
+    "bedraggled",
+    "broken-down"
+   ]
+  },
+  {
+   "id": "oewn-01045598-a",
+   "head": "formal",
+   "size": 22,
+   "keep": true,
+   "sample": [
+    "formal",
+    "ceremonial",
+    "ceremonious",
+    "conventional",
+    "dress",
+    "full-dress"
+   ]
+  },
+  {
+   "id": "oewn-01078338-a",
+   "head": "friendly",
+   "size": 22,
+   "keep": true,
+   "sample": [
+    "friendly",
+    "affable",
+    "amiable",
+    "cordial",
+    "genial",
+    "chummy"
+   ]
+  },
+  {
+   "id": "oewn-01154418-a",
+   "head": "hard",
+   "size": 22,
+   "keep": false,
+   "sample": [
+    "hard",
+    "adamantine",
+    "al dente",
+    "corneous",
+    "hornlike",
+    "horny"
+   ]
+  },
+  {
+   "id": "oewn-01566164-a",
+   "head": "moving",
+   "size": 22,
+   "keep": false,
+   "sample": [
+    "moving",
+    "afoot",
+    "ahorse",
+    "ahorseback",
+    "oncoming",
+    "automotive"
+   ]
+  },
+  {
+   "id": "oewn-01604915-a",
+   "head": "north",
+   "size": 22,
+   "keep": false,
+   "sample": [
+    "north",
+    "northbound",
+    "northward",
+    "north-central",
+    "northerly",
+    "northern"
+   ]
+  },
+  {
+   "id": "oewn-01606912-a",
+   "head": "south",
+   "size": 22,
+   "keep": false,
+   "sample": [
+    "south",
+    "southbound",
+    "southward",
+    "south-central",
+    "southerly",
+    "southern"
+   ]
+  },
+  {
+   "id": "oewn-01642580-a",
+   "head": "old",
+   "size": 22,
+   "keep": true,
+   "sample": [
+    "old",
+    "age-old",
+    "antique",
+    "antediluvian",
+    "antiquated",
+    "archaic"
+   ]
+  },
+  {
+   "id": "oewn-01760139-a",
+   "head": "impermanent",
+   "size": 22,
+   "keep": true,
+   "sample": [
+    "impermanent",
+    "temporary",
+    "acting",
+    "ephemeral",
+    "passing",
+    "short-lived"
+   ]
+  },
+  {
+   "id": "oewn-01911832-a",
+   "head": "pure",
+   "size": 22,
+   "keep": true,
+   "sample": [
+    "pure",
+    "axenic",
+    "clean",
+    "fresh",
+    "clean",
+    "clear"
+   ]
+  },
+  {
+   "id": "oewn-02066198-a",
+   "head": "dangerous",
+   "size": 22,
+   "keep": true,
+   "sample": [
+    "dangerous",
+    "unsafe",
+    "breakneck",
+    "chancy",
+    "chanceful",
+    "dicey"
+   ]
+  },
+  {
+   "id": "oewn-02147907-a",
+   "head": "unshapely",
+   "size": 22,
+   "keep": true,
+   "sample": [
+    "unshapely",
+    "acromegalic",
+    "chunky",
+    "lumpy",
+    "clubfooted",
+    "taliped"
+   ]
+  },
+  {
+   "id": "oewn-02168847-a",
+   "head": "significant",
+   "size": 22,
+   "keep": true,
+   "sample": [
+    "significant",
+    "important",
+    "momentous",
+    "epochal",
+    "epoch-making",
+    "earthshaking"
+   ]
+  },
+  {
+   "id": "oewn-02188427-a",
+   "head": "insincere",
+   "size": 22,
+   "keep": true,
+   "sample": [
+    "insincere",
+    "bootlicking",
+    "fawning",
+    "obsequious",
+    "sycophantic",
+    "toadyish"
+   ]
+  },
+  {
+   "id": "oewn-02236080-a",
+   "head": "unskilled",
+   "size": 22,
+   "keep": true,
+   "sample": [
+    "unskilled",
+    "artless",
+    "botchy",
+    "butcherly",
+    "unskillful",
+    "bungled"
+   ]
+  }
+ ]
+}

@@ -36,7 +36,7 @@ CONNOTATION_LABELS = {"positive", "negative", "neutral"}
 USAGE_LABELS = {
     "informal", "formal", "slang", "vulgar", "derogatory", "offensive",
     "humorous", "archaic", "dated", "literary", "technical", "dialect",
-    "euphemistic", "ironic",
+    "euphemistic", "ironic", "clinical", "poetic", "regional",
 }
 STATUS_VALUES = {"derived", "reviewed", "curated"}
 STATUS_RANK = {"derived": 0, "reviewed": 1, "curated": 2}
@@ -245,10 +245,17 @@ def check_entry(rep, where, entry, corpus):
     if not WORD_RE.match(word):
         rep.warn(where, f"word {word!r} has characters outside the headword policy")
 
-    if word in corpus["words"]:
-        rep.error(where, f"duplicate headword {word!r} (also in {corpus['words'][word]})")
-    else:
-        corpus["words"][word] = where
+    # A headword may legitimately appear in several files: batch files override
+    # derived-bulk, which is how enrichment ships (dict_build.py merges by
+    # tier). Only a repeat *within one file* is an error.
+    prior = corpus["words"].get(word)
+    if prior is not None:
+        prior_file = prior.rsplit(":", 1)[0]
+        if prior_file == where.rsplit(":", 1)[0]:
+            rep.error(where, f"duplicate headword {word!r} (also at {prior})")
+        else:
+            corpus["overrides"].add(word)
+    corpus["words"][word] = where
 
     rank = entry.get("rank")
     if rank is not None and (not isinstance(rank, int) or rank < 1):
@@ -301,10 +308,11 @@ def check_entry(rep, where, entry, corpus):
         if sid is not None:
             if not SENSE_ID_RE.match(sid):
                 rep.error(swhere, f"sense id {sid!r} does not match {SENSE_ID_RE.pattern}")
-            if sid in corpus["sense_ids"]:
-                rep.error(swhere, f"sense id {sid!r} already used in {corpus['sense_ids'][sid]}")
-            else:
-                corpus["sense_ids"][sid] = where
+            prior_sid = corpus["sense_ids"].get(sid)
+            if prior_sid is not None and \
+                    prior_sid.rsplit(":", 1)[0] == where.rsplit(":", 1)[0]:
+                rep.error(swhere, f"sense id {sid!r} already used at {prior_sid}")
+            corpus["sense_ids"][sid] = where
 
         definition = check_str(rep, swhere, sense, "definition")
         if definition is not None:
@@ -366,6 +374,12 @@ def check_entry(rep, where, entry, corpus):
                     or not family.get("id"):
                 rep.error(swhere, "family must be an object with a non-empty 'id'")
             else:
+                unknown = set(family) - {"id", "charge", "spectrum", "axis"}
+                if unknown:
+                    rep.error(swhere, f"family has unknown fields {sorted(unknown)}")
+                axis = family.get("axis")
+                if axis is not None and (not isinstance(axis, str) or not axis.strip()):
+                    rep.error(swhere, "family axis must be a non-empty string")
                 charge = family.get("charge")
                 if not isinstance(charge, int) or not -3 <= charge <= 3:
                     rep.error(swhere, f"family charge {charge!r} must be an integer in [-3, 3]")
@@ -417,7 +431,8 @@ def main():
         return 2
 
     rep = Report(args.max_report)
-    corpus = {"words": {}, "sense_ids": {}, "referenced": set(), "reviewed_defs": []}
+    corpus = {"words": {}, "sense_ids": {}, "referenced": set(),
+              "reviewed_defs": [], "overrides": set()}
     total = 0
     for f in files:
         n = validate_file(f, rep, corpus)
@@ -436,6 +451,10 @@ def main():
             if jaccard(ta, tb) > NEAR_DUP_JACCARD:
                 rep.warn(f"{wa} sense[{ia}]", f"near-duplicate of {wb} sense[{ib}]")
 
+    if corpus["overrides"]:
+        rep.info(f"{len(corpus['overrides'])} headwords appear in more than one file "
+                 f"(batch entries overriding derived ones - the build keeps the "
+                 f"highest tier)")
     dangling = {w for w in corpus["referenced"] if w not in corpus["words"]}
     if dangling:
         rep.info(f"{len(dangling)} synonym/antonym targets have no entry in the "
