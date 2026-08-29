@@ -1,0 +1,157 @@
+#!/usr/bin/env python3
+"""Apply an enrichment overlay to derived entries, producing a batch file.
+
+An overlay is JSONL keyed by headword and stable sense id — the format the
+future model-enrichment pass emits, and the format a human editor writes by
+hand. It never touches connotation labels or scores (the grounding rule,
+docs/DICTIONARY-PLAN.md 5.5): it may add explanations, examples, usage labels,
+word formation, and inflections. The validator remains the gate afterwards.
+
+Overlay line shape:
+    {"word": "cheap",
+     "word_formation": {...},          # replaces entry word_formation
+     "inflections": ["cheaper"],       # appended, deduped
+     "senses": {"cheap.oewn-00937468-a": {
+         "explanation": "...",         # only meaningful on non-neutral senses
+         "examples": ["..."],          # appended, deduped
+         "usage_labels": ["informal"]  # appended, deduped
+     }}}
+
+Usage:
+    python3 tools/dict_enrich_apply.py \
+        --bulk data/entries/derived-bulk.jsonl \
+        --overlay data/entries/overlays/batch-0001.overlay.jsonl \
+        --out data/entries/batch-0001.jsonl
+"""
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+EDITORIAL_SOURCE = "popup-editorial"
+
+
+def load_overlay(path):
+    overlay = {}
+    with open(path, encoding="utf-8") as fh:
+        for lineno, line in enumerate(fh, 1):
+            line = line.strip()
+            if not line:
+                continue
+            rec = json.loads(line)
+            word = rec.get("word")
+            if not word:
+                sys.exit(f"{path}:{lineno}: overlay line has no 'word'")
+            if word in overlay:
+                sys.exit(f"{path}:{lineno}: duplicate overlay for {word!r}")
+            overlay[word] = rec
+    return overlay
+
+
+def extend_unique(target, extra):
+    seen = {x.lower() for x in target}
+    for x in extra:
+        if x.lower() not in seen:
+            seen.add(x.lower())
+            target.append(x)
+    return target
+
+
+def apply_overlay(entry, rec, problems):
+    word = entry["word"]
+    if "word_formation" in rec:
+        entry["word_formation"] = rec["word_formation"]
+    if rec.get("inflections"):
+        entry["inflections"] = extend_unique(
+            list(entry.get("inflections") or []), rec["inflections"])
+
+    sense_by_id = {s["id"]: s for s in entry["senses"]}
+    for sid, patch in (rec.get("senses") or {}).items():
+        sense = sense_by_id.get(sid)
+        if sense is None:
+            problems.append(f"{word}: overlay names unknown sense id {sid}")
+            continue
+        unknown = set(patch) - {"explanation", "examples", "usage_labels", "tone",
+                                "label", "family"}
+        if unknown:
+            problems.append(f"{word}/{sid}: overlay patch has unknown fields {sorted(unknown)}")
+        conn = sense.setdefault("connotation", {"label": "neutral"})
+        if patch.get("label"):
+            # Editorial label override (a reviewed correction of the machine
+            # label). The SentiWordNet score is the machine's claim, so it is
+            # dropped: the entry no longer asserts what it now contradicts.
+            if patch["label"] not in ("positive", "negative", "neutral"):
+                problems.append(f"{word}/{sid}: bad label override {patch['label']!r}")
+            else:
+                conn["label"] = patch["label"]
+                conn.pop("score", None)
+                if patch["label"] == "neutral":
+                    conn.pop("explanation", None)
+        if patch.get("explanation"):
+            if conn.get("label") == "neutral":
+                # Fabrication rule: never attach an explanation to a neutral
+                # label. Flag it instead of silently dropping.
+                problems.append(f"{word}/{sid}: explanation given for a neutral sense")
+            else:
+                conn["explanation"] = patch["explanation"]
+        if patch.get("family"):
+            sense["family"] = patch["family"]
+        if patch.get("tone"):
+            # Register/association description — allowed on any label; unlike
+            # 'explanation' it makes no positive/negative claim.
+            conn["tone"] = patch["tone"]
+        if patch.get("usage_labels"):
+            conn["usage_labels"] = extend_unique(
+                list(conn.get("usage_labels") or []), patch["usage_labels"])
+        if patch.get("examples"):
+            sense["examples"] = extend_unique(
+                list(sense.get("examples") or []), patch["examples"])
+
+    editorial = entry.setdefault(
+        "editorial", {"status": "derived", "revision": 1, "sources": []})
+    editorial["revision"] = int(editorial.get("revision", 1)) + 1
+    if EDITORIAL_SOURCE not in editorial.get("sources", []):
+        editorial.setdefault("sources", []).append(EDITORIAL_SOURCE)
+    return entry
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("--bulk", type=Path, required=True,
+                    help="derived entries to enrich (read-only)")
+    ap.add_argument("--overlay", type=Path, required=True)
+    ap.add_argument("--out", type=Path, required=True)
+    args = ap.parse_args()
+
+    overlay = load_overlay(args.overlay)
+    problems = []
+    out = []
+    with open(args.bulk, encoding="utf-8") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line:
+                continue
+            entry = json.loads(line)
+            rec = overlay.pop(entry["word"], None)
+            if rec is not None:
+                out.append(apply_overlay(entry, rec, problems))
+
+    for word in overlay:
+        problems.append(f"overlay word {word!r} not found in {args.bulk.name}")
+    if problems:
+        for p in problems:
+            print(f"ERROR  {p}", file=sys.stderr)
+        return 1
+
+    args.out.parent.mkdir(parents=True, exist_ok=True)
+    with open(args.out, "w", encoding="utf-8", newline="\n") as fh:
+        for entry in out:
+            fh.write(json.dumps(entry, ensure_ascii=False,
+                                separators=(",", ":")) + "\n")
+    print(f"wrote {len(out)} enriched entries to {args.out}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

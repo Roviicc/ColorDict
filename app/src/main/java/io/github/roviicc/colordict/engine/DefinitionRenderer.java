@@ -64,6 +64,10 @@ public final class DefinitionRenderer {
         String link = night ? "#82B1FF" : "#1565C0";
         String muted = night ? "#9E9E9E" : "#6A6F75";
         String example = night ? "#A5D6A7" : "#2E7D32";
+        String posFg = night ? "#A5D6A7" : "#1B5E20";
+        String posBg = night ? "#1E3B24" : "#E8F5E9";
+        String negFg = night ? "#EF9A9A" : "#B71C1C";
+        String negBg = night ? "#3B1E1E" : "#FFEBEE";
         return "body{margin:8px;background:" + bg + ";color:" + fg
                 + ";font-family:sans-serif;word-wrap:break-word}"
                 + "a{color:" + link + ";text-decoration:none}"
@@ -84,7 +88,28 @@ public final class DefinitionRenderer {
                 + ".simword{display:inline-block;margin:4px 6px 4px 0;padding:6px 12px;"
                 + "background:" + card + ";border:1px solid " + line + ";border-radius:16px}"
                 + "img{max-width:100%;height:auto}"
-                + "pre{overflow-x:auto}";
+                + "pre{overflow-x:auto}"
+                // Structured articles from the Pop Up English Dictionary
+                // (tools/dict_build.py).
+                + ".ps{margin:10px 0 2px 0}"
+                + ".fld{margin:3px 0}"
+                + ".flk{font-weight:bold}"
+                + ".chg{font-size:78%;color:" + muted + "}"
+                + ".sn{font-weight:bold}"
+                + ".pos{font-size:80%;font-style:italic;color:" + muted + "}"
+                + ".cn{font-size:72%;font-weight:bold;letter-spacing:.04em;"
+                + "text-transform:uppercase;border-radius:8px;padding:1px 6px}"
+                + ".cnp{color:" + posFg + ";background:" + posBg + "}"
+                + ".cnn{color:" + negFg + ";background:" + negBg + "}"
+                + ".ul{font-size:72%;color:" + muted + ";border:1px solid " + line
+                + ";border-radius:8px;padding:1px 6px}"
+                + ".df{margin:2px 0}"
+                + ".cx{color:" + muted + ";font-size:92%;margin:1px 0 2px 0}"
+                + ".rl{font-size:92%;margin:2px 0}"
+                + ".rlk{font-size:80%;font-weight:bold;letter-spacing:.05em;"
+                + "text-transform:uppercase;color:" + muted + "}"
+                + ".wfm{color:" + muted + ";font-style:italic}"
+                + ".tier{color:" + muted + ";font-size:72%;margin-top:6px}";
     }
 
     /**

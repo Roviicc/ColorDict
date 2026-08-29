@@ -40,8 +40,9 @@ import io.github.roviicc.colordict.engine.StarDictInfo;
 public final class DictRepository {
 
     private static final String TAG = "DictRepository";
-    private static final String SAMPLE_ASSET_DIR = "dicts/sample-glossary";
-    private static final String SAMPLE_MARKER = ".sample-installed";
+    private static final String BUNDLED_ASSET_ROOT = "dicts";
+    /** Marker written by pre-popup-en builds; counts as sample-glossary installed. */
+    private static final String LEGACY_SAMPLE_MARKER = ".sample-installed";
 
     public interface Listener {
         void onDictionariesChanged();
@@ -174,7 +175,7 @@ public final class DictRepository {
     }
 
     private void scanNow() {
-        installSampleIfNeeded();
+        installBundledIfNeeded();
 
         List<InstalledDict> found = new ArrayList<>();
         scanRoot("int", internalDictDir(), "internal", found);
@@ -232,34 +233,52 @@ public final class DictRepository {
         }
     }
 
-    private void installSampleIfNeeded() {
-        File marker = new File(internalDictDir(), SAMPLE_MARKER);
-        if (marker.exists()) {
+    /** Copies every dictionary bundled under assets/dicts/ into internal
+     *  storage once, so new bundled dictionaries appear after an upgrade
+     *  without disturbing ones the user deleted or recolored. */
+    private void installBundledIfNeeded() {
+        AssetManager assets = app.getAssets();
+        String[] dirs;
+        try {
+            dirs = assets.list(BUNDLED_ASSET_ROOT);
+        } catch (IOException e) {
+            Log.w(TAG, "could not list bundled dictionaries", e);
             return;
         }
-        File target = new File(internalDictDir(), "sample-glossary");
-        //noinspection ResultOfMethodCallIgnored
-        target.mkdirs();
-        AssetManager assets = app.getAssets();
-        try {
-            String[] names = assets.list(SAMPLE_ASSET_DIR);
-            if (names != null) {
-                for (String name : names) {
-                    try (InputStream in = assets.open(SAMPLE_ASSET_DIR + "/" + name);
-                         OutputStream outStream = new FileOutputStream(new File(target, name))) {
-                        byte[] buf = new byte[16 * 1024];
-                        int n;
-                        while ((n = in.read(buf)) > 0) {
-                            outStream.write(buf, 0, n);
+        if (dirs == null) {
+            return;
+        }
+        boolean legacyMarker = new File(internalDictDir(), LEGACY_SAMPLE_MARKER).exists();
+        for (String dir : dirs) {
+            File marker = new File(internalDictDir(), ".installed-" + dir);
+            if (marker.exists() || (legacyMarker && "sample-glossary".equals(dir))) {
+                continue;
+            }
+            File target = new File(internalDictDir(), dir);
+            //noinspection ResultOfMethodCallIgnored
+            target.mkdirs();
+            try {
+                String[] names = assets.list(BUNDLED_ASSET_ROOT + "/" + dir);
+                if (names != null) {
+                    for (String name : names) {
+                        try (InputStream in = assets.open(
+                                BUNDLED_ASSET_ROOT + "/" + dir + "/" + name);
+                             OutputStream outStream = new FileOutputStream(
+                                     new File(target, name))) {
+                            byte[] buf = new byte[16 * 1024];
+                            int n;
+                            while ((n = in.read(buf)) > 0) {
+                                outStream.write(buf, 0, n);
+                            }
                         }
                     }
                 }
+                try (FileOutputStream m = new FileOutputStream(marker)) {
+                    m.write('1');
+                }
+            } catch (IOException e) {
+                Log.w(TAG, "could not install bundled dictionary " + dir, e);
             }
-            try (FileOutputStream m = new FileOutputStream(marker)) {
-                m.write('1');
-            }
-        } catch (IOException e) {
-            Log.w(TAG, "could not install sample glossary", e);
         }
     }
 

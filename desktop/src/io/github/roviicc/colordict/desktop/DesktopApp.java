@@ -395,7 +395,20 @@ public final class DesktopApp {
                 + ".xk{font-weight:bold}"
                 + ".res{color:#6A6F75;font-size:small}"
                 + ".note{color:#6A6F75;margin:12px 0}"
-                + ".simword{margin-right:8px}";
+                + ".simword{margin-right:8px}"
+                + ".fld{margin:2px 0}"
+                + ".flk{font-weight:bold}"
+                + ".pos{color:#6A6F75;font-style:italic}"
+                + ".cn{font-size:small;font-weight:bold}"
+                + ".cnp{color:#1B5E20}"
+                + ".cnn{color:#B71C1C}"
+                + ".ul{color:#6A6F75;font-size:small}"
+                + ".sn{font-weight:bold}"
+                + ".cx{color:#6A6F75}"
+                + ".rl{font-size:small}"
+                + ".rlk{color:#6A6F75;font-weight:bold}"
+                + ".wfm{color:#6A6F75;font-style:italic}"
+                + ".tier{color:#9E9E9E;font-size:small}";
     }
 
     private static String escapeHtml(String s) {

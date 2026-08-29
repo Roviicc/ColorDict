@@ -14,3 +14,9 @@ local.properties
 # Signing
 *.jks
 *.keystore
+
+# Dictionary pipeline: downloaded sources and regenerable bulk data
+data/source/
+data/entries/derived-bulk.jsonl
+tools/__pycache__/
+data/build/
