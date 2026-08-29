@@ -1,0 +1,1111 @@
+{
+ "batch": "002",
+ "note": "Stage 1 shard 2: ten high-frequency evaluative families. Charge is judgement on the family's axis; register lives in usage labels.",
+ "families": [
+  {
+   "id": "quality-good",
+   "axis": "faint praise → high praise",
+   "opposite": "quality-bad",
+   "anchors": [
+    "goodish",
+    "acceptable",
+    "good",
+    "great",
+    "superb"
+   ],
+   "members": [
+    {
+     "word": "goodish",
+     "synset": "oewn-01128140-s",
+     "charge": 0,
+     "tone": "Grudging - good, but only moderately, and the word admits it."
+    },
+    {
+     "word": "acceptable",
+     "synset": "oewn-01128566-s",
+     "charge": 0,
+     "tone": "Clears the bar and no more; in speech it often signals mild disappointment."
+    },
+    {
+     "word": "satisfactory",
+     "synset": "oewn-01128566-s",
+     "charge": 0,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Meets the requirement - the language of reports and inspections, not of praise."
+    },
+    {
+     "word": "decent",
+     "synset": "oewn-01128566-s",
+     "charge": 1,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Warm but modest - better than expected without being remarkable.",
+     "explanation": "Understated approval."
+    },
+    {
+     "word": "good",
+     "synset": "oewn-01126910-a",
+     "charge": 1,
+     "tone": "The plain word of approval - broad, safe, and unemphatic.",
+     "examples": [
+      "a good meal and good company"
+     ]
+    },
+    {
+     "word": "solid",
+     "synset": "oewn-01128873-s",
+     "charge": 1,
+     "tone": "Praises dependability rather than brilliance - built to last."
+    },
+    {
+     "word": "great",
+     "synset": "oewn-01127641-s",
+     "charge": 2,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Everyday enthusiasm - the common word for real approval.",
+     "examples": [
+      "That was a great film."
+     ]
+    },
+    {
+     "word": "excellent",
+     "synset": "oewn-02351216-s",
+     "charge": 3,
+     "tone": "Unqualified praise - at the top of its class.",
+     "explanation": "Leaves no room for reservation."
+    },
+    {
+     "word": "superb",
+     "synset": "oewn-01129021-s",
+     "charge": 3,
+     "tone": "Surpassing praise, with a note of polish and craft.",
+     "examples": [
+      "a superb performance from the whole cast"
+     ]
+    },
+    {
+     "word": "dandy",
+     "synset": "oewn-01127641-s",
+     "charge": 2,
+     "usage": [
+      "informal",
+      "dated"
+     ],
+     "tone": "Old-fashioned cheer - now often used ironically."
+    },
+    {
+     "word": "groovy",
+     "synset": "oewn-01127641-s",
+     "charge": 2,
+     "usage": [
+      "informal",
+      "dated"
+     ],
+     "tone": "Period slang; using it today reads as deliberately retro."
+    },
+    {
+     "word": "bang-up",
+     "synset": "oewn-01127641-s",
+     "charge": 2,
+     "usage": [
+      "informal",
+      "dated"
+     ],
+     "tone": "Hearty and old-fashioned approval."
+    }
+   ]
+  },
+  {
+   "id": "quality-bad",
+   "axis": "severest → mildest",
+   "opposite": "quality-good",
+   "anchors": [
+    "mediocre",
+    "lousy",
+    "bad",
+    "awful",
+    "atrocious"
+   ],
+   "members": [
+    {
+     "word": "mediocre",
+     "synset": "oewn-01132084-s",
+     "charge": -1,
+     "tone": "Damns by middling - not bad enough to condemn, not good enough to praise.",
+     "explanation": "The insult is the absence of merit, not the presence of fault.",
+     "examples": [
+      "a mediocre film that nobody remembers"
+     ]
+    },
+    {
+     "word": "bad",
+     "synset": "oewn-01129296-a",
+     "charge": -2,
+     "tone": "The plain word of disapproval - broad and unemphatic.",
+     "examples": [
+      "bad weather",
+      "a bad decision"
+     ]
+    },
+    {
+     "word": "lousy",
+     "synset": "oewn-01131613-s",
+     "charge": -2,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Casual disgust - everyday, forceful, and slightly coarse."
+    },
+    {
+     "word": "rotten",
+     "synset": "oewn-01131613-s",
+     "charge": -2,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Thoroughly bad, with a hint of moral distaste."
+    },
+    {
+     "word": "crappy",
+     "synset": "oewn-01131613-s",
+     "charge": -3,
+     "usage": [
+      "informal",
+      "vulgar"
+     ],
+     "tone": "Crude dismissal - fine among friends, out of place in writing."
+    },
+    {
+     "word": "awful",
+     "synset": "oewn-01130122-s",
+     "charge": -3,
+     "tone": "Strong condemnation, common enough to have lost some of its force.",
+     "examples": [
+      "an awful mistake"
+     ]
+    },
+    {
+     "word": "dreadful",
+     "synset": "oewn-01130122-s",
+     "charge": -3,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Emphatic disapproval with a formal, slightly literary edge."
+    },
+    {
+     "word": "terrible",
+     "synset": "oewn-01130122-s",
+     "charge": -3,
+     "tone": "Blunt and total - among the strongest everyday condemnations."
+    },
+    {
+     "word": "atrocious",
+     "synset": "oewn-01130122-s",
+     "charge": -3,
+     "tone": "Severe and formal - originally of cruelty, now also of quality.",
+     "explanation": "Carries a residue of moral horror even when used of a meal.",
+     "examples": [
+      "atrocious handwriting",
+      "atrocious treatment of prisoners"
+     ]
+    },
+    {
+     "word": "abominable",
+     "synset": "oewn-01130122-s",
+     "charge": -3,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Moral revulsion - condemns rather than criticises."
+    },
+    {
+     "word": "deplorable",
+     "synset": "oewn-01130672-s",
+     "charge": -3,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Formal censure, expecting the reader to share the judgement."
+    },
+    {
+     "word": "naughty",
+     "synset": "oewn-01132237-s",
+     "charge": -1,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Affectionate scolding, mostly of children - too light for real fault."
+    }
+   ]
+  },
+  {
+   "id": "intellect-low",
+   "axis": "cruellest → gentlest",
+   "opposite": "intellect-high",
+   "anchors": [
+    "slow",
+    "dim",
+    "stupid",
+    "dumb",
+    "boneheaded"
+   ],
+   "members": [
+    {
+     "word": "slow",
+     "synset": "oewn-00442596-s",
+     "charge": -1,
+     "usage": [
+      "euphemistic"
+     ],
+     "tone": "The softened word - avoids naming a deficit outright.",
+     "explanation": "Chosen precisely because 'stupid' would wound."
+    },
+    {
+     "word": "dense",
+     "synset": "oewn-00442596-s",
+     "charge": -2,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Mild and often jokey - failing to grasp what is plain."
+    },
+    {
+     "word": "dim",
+     "synset": "oewn-00442596-s",
+     "charge": -2,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Gently disparaging, common in British use."
+    },
+    {
+     "word": "obtuse",
+     "synset": "oewn-00442596-s",
+     "charge": -2,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Formal reproach - slow to understand, and perhaps unwilling to."
+    },
+    {
+     "word": "stupid",
+     "synset": "oewn-00441328-a",
+     "charge": -3,
+     "tone": "The blunt, wounding word - a flat verdict on someone's mind.",
+     "explanation": "Direct enough that most speakers reach for a softer term when they mean it kindly.",
+     "examples": [
+      "It was a stupid thing to say."
+     ]
+    },
+    {
+     "word": "dumb",
+     "synset": "oewn-00442596-s",
+     "charge": -3,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Harsh and casual; also an older, now offensive word for mute.",
+     "explanation": "Avoid of people - it insults rather than describes."
+    },
+    {
+     "word": "foolish",
+     "synset": "oewn-00441663-s",
+     "charge": -2,
+     "tone": "Faults the judgement rather than the intelligence - a wise person can act foolishly.",
+     "examples": [
+      "a foolish risk to take with someone else's money"
+     ]
+    },
+    {
+     "word": "asinine",
+     "synset": "oewn-00442050-s",
+     "charge": -3,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Withering - stupidity so complete it deserves contempt."
+    },
+    {
+     "word": "fatuous",
+     "synset": "oewn-00442050-s",
+     "charge": -3,
+     "usage": [
+      "formal",
+      "literary"
+     ],
+     "tone": "Silliness with self-satisfaction attached."
+    },
+    {
+     "word": "inane",
+     "synset": "oewn-00442050-s",
+     "charge": -3,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Empty of sense - condemns the content, not the person."
+    },
+    {
+     "word": "boneheaded",
+     "synset": "oewn-00442219-s",
+     "charge": -3,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Crude and mocking."
+    },
+    {
+     "word": "gormless",
+     "synset": "oewn-00443171-s",
+     "charge": -3,
+     "usage": [
+      "informal",
+      "regional"
+     ],
+     "tone": "British informal - vacant and hopeless with it."
+    }
+   ]
+  },
+  {
+   "id": "intellect-high",
+   "axis": "plain → dazzling",
+   "opposite": "intellect-low",
+   "anchors": [
+    "bright",
+    "clever",
+    "intelligent",
+    "brainy",
+    "brilliant"
+   ],
+   "members": [
+    {
+     "word": "bright",
+     "synset": "oewn-01338411-s",
+     "charge": 2,
+     "tone": "Warm and everyday - quick to learn, most often said of the young.",
+     "examples": [
+      "a bright student who asks good questions"
+     ]
+    },
+    {
+     "word": "smart",
+     "synset": "oewn-01338411-s",
+     "charge": 2,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Common approval of quickness; in some uses it edges toward cunning."
+    },
+    {
+     "word": "clever",
+     "synset": "oewn-01337910-s",
+     "charge": 2,
+     "tone": "Praises ingenuity - though 'too clever' turns it into a fault.",
+     "explanation": "Approving of resourcefulness, with a faint warning attached.",
+     "examples": [
+      "a clever solution nobody else saw"
+     ]
+    },
+    {
+     "word": "apt",
+     "synset": "oewn-01337910-s",
+     "charge": 2,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Quick to learn - formal and slightly old-fashioned."
+    },
+    {
+     "word": "intelligent",
+     "synset": "oewn-01337350-a",
+     "charge": 2,
+     "tone": "The neutral, respectable word - approving without flourish.",
+     "examples": [
+      "an intelligent reading of a difficult text"
+     ]
+    },
+    {
+     "word": "quick",
+     "synset": "oewn-01338856-s",
+     "charge": 2,
+     "tone": "Praises speed of understanding rather than depth."
+    },
+    {
+     "word": "brainy",
+     "synset": "oewn-01338108-s",
+     "charge": 2,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Affectionate and slightly teasing admiration."
+    },
+    {
+     "word": "brilliant",
+     "synset": "oewn-01338108-s",
+     "charge": 3,
+     "tone": "Exceptional intelligence - the strongest ordinary compliment.",
+     "explanation": "Marks someone out from the merely clever.",
+     "examples": [
+      "a brilliant mathematician"
+     ]
+    },
+    {
+     "word": "scintillating",
+     "synset": "oewn-01339184-s",
+     "charge": 3,
+     "usage": [
+      "formal",
+      "literary"
+     ],
+     "tone": "Cleverness that sparkles in company."
+    },
+    {
+     "word": "trenchant",
+     "synset": "oewn-01339324-s",
+     "charge": 3,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Sharp and penetrating - praise for incisive thought."
+    }
+   ]
+  },
+  {
+   "id": "beauty",
+   "axis": "mild → superlative",
+   "opposite": "ugliness",
+   "anchors": [
+    "pretty",
+    "good-looking",
+    "beautiful",
+    "gorgeous",
+    "ravishing"
+   ],
+   "members": [
+    {
+     "word": "pretty",
+     "synset": "oewn-00221674-s",
+     "charge": 1,
+     "tone": "Pleasing but slight - delicate rather than striking, and faintly diminishing when used of adults.",
+     "explanation": "Approving, though it implies charm rather than power.",
+     "examples": [
+      "a pretty little garden"
+     ]
+    },
+    {
+     "word": "comely",
+     "synset": "oewn-00220032-s",
+     "charge": 1,
+     "usage": [
+      "dated",
+      "literary"
+     ],
+     "tone": "Old-fashioned approval of pleasant looks."
+    },
+    {
+     "word": "bonny",
+     "synset": "oewn-00220032-s",
+     "charge": 1,
+     "usage": [
+      "regional",
+      "dated"
+     ],
+     "tone": "Scottish and northern English warmth - healthy and pleasing."
+    },
+    {
+     "word": "handsome",
+     "synset": "oewn-00220542-s",
+     "charge": 2,
+     "tone": "Praises strong, well-proportioned looks; used of men, and of women to suggest dignity over prettiness."
+    },
+    {
+     "word": "good-looking",
+     "synset": "oewn-00220542-s",
+     "charge": 2,
+     "tone": "Plain, unfussy approval - the everyday compliment."
+    },
+    {
+     "word": "lovely",
+     "synset": "oewn-00221401-s",
+     "charge": 2,
+     "tone": "Warm and affectionate - beauty that moves the feelings, not just the eye."
+    },
+    {
+     "word": "beautiful",
+     "synset": "oewn-00219320-a",
+     "charge": 3,
+     "tone": "The full word - unreserved and applicable to anything from a face to an argument.",
+     "examples": [
+      "a beautiful morning",
+      "a beautiful proof"
+     ]
+    },
+    {
+     "word": "exquisite",
+     "synset": "oewn-00220429-s",
+     "charge": 3,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Beauty of fine detail - praise for delicacy and craft."
+    },
+    {
+     "word": "gorgeous",
+     "synset": "oewn-00221297-s",
+     "charge": 3,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Dazzling and enthusiastic - beauty that stops you."
+    },
+    {
+     "word": "stunning",
+     "synset": "oewn-00222331-s",
+     "charge": 3,
+     "tone": "Striking enough to arrest attention."
+    },
+    {
+     "word": "ravishing",
+     "synset": "oewn-00222094-s",
+     "charge": 3,
+     "usage": [
+      "literary",
+      "dated"
+     ],
+     "tone": "Overwhelming beauty - lush and a little theatrical."
+    },
+    {
+     "word": "dishy",
+     "synset": "oewn-00220265-s",
+     "charge": 2,
+     "usage": [
+      "informal",
+      "regional",
+      "dated"
+     ],
+     "tone": "British slang for sexually attractive - casual and now somewhat dated."
+    }
+   ]
+  },
+  {
+   "id": "ugliness",
+   "axis": "cruellest → mildest",
+   "opposite": "beauty",
+   "anchors": [
+    "unlovely",
+    "unsightly",
+    "ugly",
+    "hideous",
+    "fugly"
+   ],
+   "members": [
+    {
+     "word": "unlovely",
+     "synset": "oewn-00224041-s",
+     "charge": -1,
+     "usage": [
+      "formal",
+      "literary"
+     ],
+     "tone": "Understated - withholds beauty rather than asserting ugliness.",
+     "explanation": "The gentlest way to say it."
+    },
+    {
+     "word": "plain",
+     "synset": "oewn-00170694-s",
+     "charge": -1,
+     "usage": [
+      "euphemistic"
+     ],
+     "tone": "Polite avoidance - unremarkable rather than unattractive."
+    },
+    {
+     "word": "unsightly",
+     "synset": "oewn-00224135-s",
+     "charge": -2,
+     "tone": "Offends the eye - used more comfortably of things than of people."
+    },
+    {
+     "word": "ugly",
+     "synset": "oewn-00222548-a",
+     "charge": -3,
+     "tone": "The blunt word, and a wounding one of a person.",
+     "explanation": "Passes flat judgement on appearance; most speakers soften it when they can.",
+     "examples": [
+      "an ugly concrete tower",
+      "There is no kind way to call someone ugly."
+     ]
+    },
+    {
+     "word": "grotesque",
+     "synset": "oewn-00223219-s",
+     "charge": -3,
+     "tone": "Distorted to the point of unsettling - beyond plain ugliness."
+    },
+    {
+     "word": "monstrous",
+     "synset": "oewn-00223219-s",
+     "charge": -3,
+     "tone": "Ugliness that frightens; also used of moral wrong."
+    },
+    {
+     "word": "hideous",
+     "synset": "oewn-00223526-s",
+     "charge": -3,
+     "tone": "Extreme and repellent - among the harshest words available.",
+     "examples": [
+      "a hideous scar left by the fire"
+     ]
+    },
+    {
+     "word": "repulsive",
+     "synset": "oewn-00223526-s",
+     "charge": -3,
+     "tone": "Ugliness that actively drives people away."
+    },
+    {
+     "word": "fugly",
+     "synset": "oewn-00223145-s",
+     "charge": -3,
+     "usage": [
+      "slang",
+      "vulgar",
+      "derogatory"
+     ],
+     "tone": "Crude insult built from an obscenity - offensive in any setting."
+    }
+   ]
+  },
+  {
+   "id": "poverty",
+   "axis": "severest → lightest",
+   "opposite": "wealth",
+   "anchors": [
+    "hard up",
+    "broke",
+    "poor",
+    "impoverished",
+    "destitute"
+   ],
+   "members": [
+    {
+     "word": "hard up",
+     "synset": "oewn-02030912-s",
+     "charge": -1,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Temporary and undramatic - short of money this month, not poor in life."
+    },
+    {
+     "word": "broke",
+     "synset": "oewn-02030538-s",
+     "charge": -1,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Casual and often self-applied - out of money right now.",
+     "examples": [
+      "I'm broke until payday."
+     ]
+    },
+    {
+     "word": "skint",
+     "synset": "oewn-02030538-s",
+     "charge": -1,
+     "usage": [
+      "informal",
+      "regional"
+     ],
+     "tone": "British slang, cheerfully blunt."
+    },
+    {
+     "word": "poor",
+     "synset": "oewn-02030204-a",
+     "charge": -2,
+     "tone": "The plain word for a lasting condition - factual, but heavy enough that officials avoid it.",
+     "examples": [
+      "a poor family in a rich country"
+     ]
+    },
+    {
+     "word": "impecunious",
+     "synset": "oewn-02030912-s",
+     "charge": -2,
+     "usage": [
+      "formal",
+      "literary"
+     ],
+     "tone": "Genteel and bookish - poverty at a polite distance."
+    },
+    {
+     "word": "penniless",
+     "synset": "oewn-02030912-s",
+     "charge": -2,
+     "tone": "Absolute and vivid - not a coin left."
+    },
+    {
+     "word": "needy",
+     "synset": "oewn-02030681-s",
+     "charge": -2,
+     "tone": "Frames poverty as requiring help; of a person's temperament it means something else entirely."
+    },
+    {
+     "word": "impoverished",
+     "synset": "oewn-02030681-s",
+     "charge": -3,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Made poor - the word implies something was taken away.",
+     "explanation": "Points at a cause rather than blaming the poor."
+    },
+    {
+     "word": "indigent",
+     "synset": "oewn-02030681-s",
+     "charge": -3,
+     "usage": [
+      "formal",
+      "technical"
+     ],
+     "tone": "The legal and administrative term for qualifying poverty."
+    },
+    {
+     "word": "destitute",
+     "synset": "oewn-02030681-s",
+     "charge": -3,
+     "tone": "Total and grave - without even the means to live.",
+     "examples": [
+      "The fire left them destitute."
+     ]
+    },
+    {
+     "word": "poverty-stricken",
+     "synset": "oewn-02030681-s",
+     "charge": -3,
+     "tone": "Poverty as an affliction that has struck, not a state chosen."
+    }
+   ]
+  },
+  {
+   "id": "wealth",
+   "axis": "comfortable → conspicuous",
+   "opposite": "poverty",
+   "anchors": [
+    "comfortable",
+    "well-off",
+    "affluent",
+    "rich",
+    "loaded"
+   ],
+   "members": [
+    {
+     "word": "comfortable",
+     "synset": "oewn-02029807-s",
+     "charge": 1,
+     "usage": [
+      "euphemistic"
+     ],
+     "tone": "The modest way to say it - enough money, and no wish to discuss it.",
+     "explanation": "Understates wealth deliberately."
+    },
+    {
+     "word": "well-off",
+     "synset": "oewn-02029807-s",
+     "charge": 1,
+     "tone": "Plainly better off than most, without ostentation."
+    },
+    {
+     "word": "prosperous",
+     "synset": "oewn-02029807-s",
+     "charge": 2,
+     "tone": "Wealth read as the reward of success - approving."
+    },
+    {
+     "word": "affluent",
+     "synset": "oewn-02029380-s",
+     "charge": 2,
+     "usage": [
+      "formal"
+     ],
+     "tone": "The neutral term of economists and estate agents."
+    },
+    {
+     "word": "wealthy",
+     "synset": "oewn-02029380-s",
+     "charge": 2,
+     "tone": "Substantial and settled money - more dignified than 'rich'."
+    },
+    {
+     "word": "rich",
+     "synset": "oewn-02029118-a",
+     "charge": 2,
+     "tone": "The plain word - direct, and sometimes faintly accusing depending on who says it.",
+     "examples": [
+      "rich enough never to check a price"
+     ]
+    },
+    {
+     "word": "moneyed",
+     "synset": "oewn-02029380-s",
+     "charge": 2,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Wealth as a class marker, often said with a raised eyebrow."
+    },
+    {
+     "word": "flush",
+     "synset": "oewn-02029380-s",
+     "charge": 1,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Temporarily well supplied - this week, not for life."
+    },
+    {
+     "word": "loaded",
+     "synset": "oewn-02029380-s",
+     "charge": 2,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Blunt and slightly envious - conspicuously rich.",
+     "examples": [
+      "Her family is absolutely loaded."
+     ]
+    },
+    {
+     "word": "well-heeled",
+     "synset": "oewn-02029807-s",
+     "charge": 2,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Comfortably moneyed, with a wry edge."
+    }
+   ]
+  },
+  {
+   "id": "courage",
+   "axis": "steady → heroic",
+   "opposite": "cowardice",
+   "anchors": [
+    "game",
+    "brave",
+    "courageous",
+    "valiant",
+    "lionhearted"
+   ],
+   "members": [
+    {
+     "word": "game",
+     "synset": "oewn-00264860-s",
+     "charge": 1,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Willing to try - courage as good sportsmanship rather than heroism."
+    },
+    {
+     "word": "gritty",
+     "synset": "oewn-00264860-s",
+     "charge": 2,
+     "tone": "Courage as endurance - staying in when it hurts."
+    },
+    {
+     "word": "spunky",
+     "synset": "oewn-00264860-s",
+     "charge": 2,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Affectionate praise for spirit, often of someone small taking on something large."
+    },
+    {
+     "word": "brave",
+     "synset": "oewn-00263658-a",
+     "charge": 2,
+     "tone": "The plain, universal praise - facing what frightens you.",
+     "examples": [
+      "a brave decision to speak up"
+     ]
+    },
+    {
+     "word": "courageous",
+     "synset": "oewn-00263658-a",
+     "charge": 3,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Weightier than 'brave' - implies moral choice, not just nerve."
+    },
+    {
+     "word": "gallant",
+     "synset": "oewn-00264706-s",
+     "charge": 3,
+     "usage": [
+      "dated",
+      "literary"
+     ],
+     "tone": "Chivalrous courage - noble and old-fashioned."
+    },
+    {
+     "word": "valiant",
+     "synset": "oewn-00265436-s",
+     "charge": 3,
+     "usage": [
+      "literary"
+     ],
+     "tone": "Heroic register, at home in battle and legend."
+    },
+    {
+     "word": "stouthearted",
+     "synset": "oewn-00265128-s",
+     "charge": 3,
+     "usage": [
+      "literary",
+      "dated"
+     ],
+     "tone": "Steadfast courage - praise with a Victorian ring."
+    },
+    {
+     "word": "undaunted",
+     "synset": "oewn-00265325-s",
+     "charge": 3,
+     "tone": "Courage defined by what failed to stop it."
+    },
+    {
+     "word": "lionhearted",
+     "synset": "oewn-00265044-s",
+     "charge": 3,
+     "usage": [
+      "literary"
+     ],
+     "tone": "The superlative - courage as legend."
+    },
+    {
+     "word": "heroic",
+     "synset": "oewn-00264329-s",
+     "charge": 3,
+     "tone": "Courage beyond what could be asked of anyone."
+    }
+   ]
+  },
+  {
+   "id": "cowardice",
+   "axis": "most contemptuous → most sympathetic",
+   "opposite": "courage",
+   "anchors": [
+    "timid",
+    "fainthearted",
+    "cowardly",
+    "chicken",
+    "craven"
+   ],
+   "members": [
+    {
+     "word": "timid",
+     "synset": "oewn-00266855-s",
+     "charge": -1,
+     "tone": "Gentle - shyness rather than failure of nerve, and rarely an accusation.",
+     "explanation": "Describes temperament without contempt."
+    },
+    {
+     "word": "fainthearted",
+     "synset": "oewn-00266855-s",
+     "charge": -1,
+     "tone": "Lacking boldness - mild, and often used of a task rather than a person."
+    },
+    {
+     "word": "fearful",
+     "synset": "oewn-00265642-a",
+     "charge": -1,
+     "tone": "Names the fear without judging the person for it."
+    },
+    {
+     "word": "cowardly",
+     "synset": "oewn-00265642-a",
+     "charge": -2,
+     "tone": "The plain accusation - fear that led to failing others.",
+     "explanation": "Condemns the choice, not the feeling.",
+     "examples": [
+      "a cowardly refusal to take responsibility"
+     ]
+    },
+    {
+     "word": "chicken",
+     "synset": "oewn-00266180-s",
+     "charge": -2,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Playground taunt - mocking rather than grave."
+    },
+    {
+     "word": "lily-livered",
+     "synset": "oewn-00266180-s",
+     "charge": -3,
+     "usage": [
+      "dated",
+      "literary"
+     ],
+     "tone": "Old-fashioned scorn from a theory that pale organs meant no courage."
+    },
+    {
+     "word": "yellow",
+     "synset": "oewn-00266180-s",
+     "charge": -3,
+     "usage": [
+      "informal",
+      "dated"
+     ],
+     "tone": "Blunt slang accusation of cowardice."
+    },
+    {
+     "word": "craven",
+     "synset": "oewn-00266362-s",
+     "charge": -3,
+     "usage": [
+      "formal",
+      "literary"
+     ],
+     "tone": "Abject cowardice - formal and thoroughly contemptuous."
+    },
+    {
+     "word": "dastardly",
+     "synset": "oewn-00266631-s",
+     "charge": -3,
+     "usage": [
+      "dated",
+      "literary"
+     ],
+     "tone": "Cowardice joined to malice; now often played for comedy."
+    },
+    {
+     "word": "pusillanimous",
+     "synset": "oewn-00267286-s",
+     "charge": -3,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Bookish contempt - small-spirited in the face of difficulty."
+    },
+    {
+     "word": "craven",
+     "synset": "oewn-00266362-s",
+     "charge": -3,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Abject cowardice - formal and thoroughly contemptuous."
+    }
+   ]
+  }
+ ]
+}

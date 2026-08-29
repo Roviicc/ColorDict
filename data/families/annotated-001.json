@@ -6,209 +6,571 @@
    "id": "thinness",
    "axis": "condemning → praising",
    "opposite": "fatness",
-   "anchors": ["emaciated", "scrawny", "skinny", "lanky", "thin", "lean", "slim", "slender", "svelte"],
+   "anchors": [
+    "emaciated",
+    "scrawny",
+    "skinny",
+    "lanky",
+    "thin",
+    "lean",
+    "slim",
+    "slender",
+    "svelte"
+   ],
    "members": [
-    {"word": "emaciated", "synset": "oewn-00992194-s", "charge": -3,
-     "usage": ["clinical"],
+    {
+     "word": "emaciated",
+     "synset": "oewn-00992194-s",
+     "charge": -3,
+     "usage": [
+      "clinical"
+     ],
      "tone": "Clinical and grave - thinness as the visible mark of illness or starvation.",
      "explanation": "Never a compliment; it names damage to the body.",
-     "examples": ["The rescued dogs were emaciated and barely able to stand."]},
-    {"word": "cadaverous", "synset": "oewn-00992194-s", "charge": -3,
-     "usage": ["literary"],
-     "tone": "Literary and grim - thin to the point of resembling a corpse."},
-    {"word": "skeletal", "synset": "oewn-00992194-s", "charge": -3,
-     "tone": "Stark and clinical - reduced to bone."},
-    {"word": "gaunt", "synset": "oewn-00992194-s", "charge": -2,
+     "examples": [
+      "The rescued dogs were emaciated and barely able to stand."
+     ]
+    },
+    {
+     "word": "cadaverous",
+     "synset": "oewn-00992194-s",
+     "charge": -3,
+     "usage": [
+      "literary"
+     ],
+     "tone": "Literary and grim - thin to the point of resembling a corpse."
+    },
+    {
+     "word": "skeletal",
+     "synset": "oewn-00992194-s",
+     "charge": -3,
+     "tone": "Stark and clinical - reduced to bone."
+    },
+    {
+     "word": "gaunt",
+     "synset": "oewn-00992194-s",
+     "charge": -2,
      "tone": "Suggests thinness carved by hardship, illness or grief - sombre rather than insulting.",
      "explanation": "Marks suffering written on the body.",
-     "examples": ["Months of worry had left him gaunt."]},
-    {"word": "haggard", "synset": "oewn-00992194-s", "charge": -2,
-     "tone": "Thin and worn out - exhaustion showing in the face."},
-    {"word": "scrawny", "synset": "oewn-00993331-s", "charge": -2,
+     "examples": [
+      "Months of worry had left him gaunt."
+     ]
+    },
+    {
+     "word": "haggard",
+     "synset": "oewn-00992194-s",
+     "charge": -2,
+     "tone": "Thin and worn out - exhaustion showing in the face."
+    },
+    {
+     "word": "scrawny",
+     "synset": "oewn-00993331-s",
+     "charge": -2,
      "tone": "Plainly unkind - thin in a weak, underfed way.",
      "explanation": "Disparages the body as feeble.",
-     "examples": ["a scrawny kitten found under the porch"]},
-    {"word": "bony", "synset": "oewn-00993331-s", "charge": -2,
-     "tone": "Unflattering - the skeleton showing through."},
-    {"word": "skinny", "synset": "oewn-00993331-s", "charge": -2,
-     "usage": ["informal"],
+     "examples": [
+      "a scrawny kitten found under the porch"
+     ]
+    },
+    {
+     "word": "bony",
+     "synset": "oewn-00993331-s",
+     "charge": -2,
+     "tone": "Unflattering - the skeleton showing through."
+    },
+    {
+     "word": "skinny",
+     "synset": "oewn-00993331-s",
+     "charge": -2,
+     "usage": [
+      "informal"
+     ],
      "tone": "Casual and usually unflattering - thin in a way that suggests too thin.",
      "explanation": "The blunt everyday word; 'slim' or 'slender' is what you say when you mean it kindly.",
-     "examples": ["He was a skinny kid who never filled out.", "Don't call her skinny - say slim."]},
-    {"word": "scraggy", "synset": "oewn-00993331-s", "charge": -2,
-     "tone": "Thin and rough-looking, with nothing graceful about it."},
-    {"word": "underweight", "synset": "oewn-00993331-s", "charge": -1,
-     "usage": ["technical"],
+     "examples": [
+      "He was a skinny kid who never filled out.",
+      "Don't call her skinny - say slim."
+     ]
+    },
+    {
+     "word": "scraggy",
+     "synset": "oewn-00993331-s",
+     "charge": -2,
+     "tone": "Thin and rough-looking, with nothing graceful about it."
+    },
+    {
+     "word": "underweight",
+     "synset": "oewn-00993331-s",
+     "charge": -1,
+     "usage": [
+      "technical"
+     ],
      "tone": "Measured against a medical standard rather than an opinion - the neutral clinical term.",
-     "explanation": "States a fact about weight, but names it as a shortfall."},
-    {"word": "lanky", "synset": "oewn-00992683-s", "charge": -1,
-     "usage": ["informal"],
+     "explanation": "States a fact about weight, but names it as a shortfall."
+    },
+    {
+     "word": "lanky",
+     "synset": "oewn-00992683-s",
+     "charge": -1,
+     "usage": [
+      "informal"
+     ],
      "tone": "Tall and thin with a hint of awkwardness - more affectionate than cruel.",
      "explanation": "Gently notes ungainliness.",
-     "examples": ["a lanky teenager all elbows and knees"]},
-    {"word": "gangly", "synset": "oewn-00992683-s", "charge": -1,
-     "usage": ["informal"],
-     "tone": "Loose-limbed and awkward with it."},
-    {"word": "thin", "synset": "oewn-00991420-a", "charge": 0,
+     "examples": [
+      "a lanky teenager all elbows and knees"
+     ]
+    },
+    {
+     "word": "gangly",
+     "synset": "oewn-00992683-s",
+     "charge": -1,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Loose-limbed and awkward with it."
+    },
+    {
+     "word": "thin",
+     "synset": "oewn-00991420-a",
+     "charge": 0,
      "tone": "The plain, unloaded word - it states the shape and passes no judgement.",
-     "examples": ["She was tall and thin.", "a thin man in a grey coat"]},
-    {"word": "lean", "synset": "oewn-00991420-a", "charge": 1,
+     "examples": [
+      "She was tall and thin.",
+      "a thin man in a grey coat"
+     ]
+    },
+    {
+     "word": "lean",
+     "synset": "oewn-00991420-a",
+     "charge": 1,
      "tone": "Approving - thin because there is muscle and no waste.",
      "explanation": "Implies fitness and discipline rather than deficiency.",
-     "examples": ["a lean runner built for distance"]},
-    {"word": "spare", "synset": "oewn-00994531-s", "charge": 1,
-     "tone": "Thin and fit, with nothing surplus - quietly approving."},
-    {"word": "trim", "synset": "oewn-00994531-s", "charge": 1,
-     "tone": "Neat and in good shape - credits effort."},
-    {"word": "wiry", "synset": "oewn-00994814-s", "charge": 1,
+     "examples": [
+      "a lean runner built for distance"
+     ]
+    },
+    {
+     "word": "spare",
+     "synset": "oewn-00994531-s",
+     "charge": 1,
+     "tone": "Thin and fit, with nothing surplus - quietly approving."
+    },
+    {
+     "word": "trim",
+     "synset": "oewn-00994531-s",
+     "charge": 1,
+     "tone": "Neat and in good shape - credits effort."
+    },
+    {
+     "word": "wiry",
+     "synset": "oewn-00994814-s",
+     "charge": 1,
      "tone": "Thin but strong - praises unexpected toughness.",
      "explanation": "Turns slightness into an asset.",
-     "examples": ["a wiry climber who could hang on all day"]},
-    {"word": "slight", "synset": "oewn-00994085-s", "charge": 1,
-     "tone": "Delicately built - descriptive and mild, with no sting."},
-    {"word": "slim", "synset": "oewn-00994085-s", "charge": 2,
+     "examples": [
+      "a wiry climber who could hang on all day"
+     ]
+    },
+    {
+     "word": "slight",
+     "synset": "oewn-00994085-s",
+     "charge": 1,
+     "tone": "Delicately built - descriptive and mild, with no sting."
+    },
+    {
+     "word": "slim",
+     "synset": "oewn-00994085-s",
+     "charge": 2,
      "tone": "The polite compliment - thin in a way people want to be.",
      "explanation": "Safe and flattering where 'skinny' would offend.",
-     "examples": ["She stayed slim into her seventies.", "a slim, well-cut jacket"]},
-    {"word": "slender", "synset": "oewn-00994085-s", "charge": 2,
+     "examples": [
+      "She stayed slim into her seventies.",
+      "a slim, well-cut jacket"
+     ]
+    },
+    {
+     "word": "slender",
+     "synset": "oewn-00994085-s",
+     "charge": 2,
      "tone": "Admiring - thinness with grace built into the word.",
      "explanation": "Implies elegance; the flattering counterpart of 'skinny'.",
-     "examples": ["long slender fingers", "a slender dancer crossing the stage"]},
-    {"word": "svelte", "synset": "oewn-00994085-s", "charge": 3,
-     "usage": ["formal", "literary"],
+     "examples": [
+      "long slender fingers",
+      "a slender dancer crossing the stage"
+     ]
+    },
+    {
+     "word": "svelte",
+     "synset": "oewn-00994085-s",
+     "charge": 3,
+     "usage": [
+      "formal",
+      "literary"
+     ],
      "tone": "High praise with a touch of glamour - slim, elegant and stylish at once.",
      "explanation": "The most flattering word in the family.",
-     "examples": ["svelte in a black evening dress"]},
-    {"word": "sylphlike", "synset": "oewn-00994908-s", "charge": 3,
-     "usage": ["literary"],
-     "tone": "Poetic praise - slender and light as a spirit."}
+     "examples": [
+      "svelte in a black evening dress"
+     ]
+    },
+    {
+     "word": "sylphlike",
+     "synset": "oewn-00994908-s",
+     "charge": 3,
+     "usage": [
+      "literary"
+     ],
+     "tone": "Poetic praise - slender and light as a spirit."
+    }
    ]
   },
   {
    "id": "self-regard",
    "axis": "condemning → praising",
-   "anchors": ["snotty", "arrogant", "conceited", "boastful", "proud", "pleased", "self-respecting", "dignified"],
+   "anchors": [
+    "snotty",
+    "arrogant",
+    "conceited",
+    "boastful",
+    "proud",
+    "pleased",
+    "self-respecting",
+    "dignified"
+   ],
    "members": [
-    {"word": "snotty", "synset": "oewn-01896449-s", "charge": -3,
-     "usage": ["informal", "derogatory"],
+    {
+     "word": "snotty",
+     "synset": "oewn-01896449-s",
+     "charge": -3,
+     "usage": [
+      "informal",
+      "derogatory"
+     ],
      "tone": "Crude and dismissive - looking down on people and showing it.",
      "explanation": "A blunt insult, not an assessment.",
-     "examples": ["a snotty remark about where we live"]},
-    {"word": "stuck-up", "synset": "oewn-01896449-s", "charge": -3,
-     "usage": ["informal"],
-     "tone": "Playground-plain accusation of thinking yourself above others."},
-    {"word": "supercilious", "synset": "oewn-01897176-s", "charge": -3,
-     "usage": ["formal"],
-     "tone": "Formal contempt - superiority worn openly, with a raised eyebrow."},
-    {"word": "arrogant", "synset": "oewn-01895886-s", "charge": -2,
+     "examples": [
+      "a snotty remark about where we live"
+     ]
+    },
+    {
+     "word": "stuck-up",
+     "synset": "oewn-01896449-s",
+     "charge": -3,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Playground-plain accusation of thinking yourself above others."
+    },
+    {
+     "word": "supercilious",
+     "synset": "oewn-01897176-s",
+     "charge": -3,
+     "usage": [
+      "formal"
+     ],
+     "tone": "Formal contempt - superiority worn openly, with a raised eyebrow."
+    },
+    {
+     "word": "arrogant",
+     "synset": "oewn-01895886-s",
+     "charge": -2,
      "tone": "Condemns self-importance as unearned - the confidence is real, the entitlement is not.",
      "explanation": "The standard reproach for overreaching self-regard; 'confident' praises what this condemns.",
-     "examples": ["Too arrogant to take advice from anyone.", "an arrogant assumption that the rules did not apply"]},
-    {"word": "haughty", "synset": "oewn-01897176-s", "charge": -2,
-     "usage": ["formal", "literary"],
-     "tone": "Cold, distant superiority - looking down from a height."},
-    {"word": "overbearing", "synset": "oewn-01897176-s", "charge": -2,
-     "tone": "Superiority that pushes other people around."},
-    {"word": "conceited", "synset": "oewn-01897840-s", "charge": -2,
+     "examples": [
+      "Too arrogant to take advice from anyone.",
+      "an arrogant assumption that the rules did not apply"
+     ]
+    },
+    {
+     "word": "haughty",
+     "synset": "oewn-01897176-s",
+     "charge": -2,
+     "usage": [
+      "formal",
+      "literary"
+     ],
+     "tone": "Cold, distant superiority - looking down from a height."
+    },
+    {
+     "word": "overbearing",
+     "synset": "oewn-01897176-s",
+     "charge": -2,
+     "tone": "Superiority that pushes other people around."
+    },
+    {
+     "word": "conceited",
+     "synset": "oewn-01897840-s",
+     "charge": -2,
      "tone": "Faults an inflated opinion of one's own qualities.",
      "explanation": "Names the self-image as false.",
-     "examples": ["He was clever, and conceited about it."]},
-    {"word": "vain", "synset": "oewn-01897840-s", "charge": -2,
-     "tone": "Excessive pride in appearance or achievement - shallow rather than dangerous."},
-    {"word": "boastful", "synset": "oewn-01896819-s", "charge": -2,
+     "examples": [
+      "He was clever, and conceited about it."
+     ]
+    },
+    {
+     "word": "vain",
+     "synset": "oewn-01897840-s",
+     "charge": -2,
+     "tone": "Excessive pride in appearance or achievement - shallow rather than dangerous."
+    },
+    {
+     "word": "boastful",
+     "synset": "oewn-01896819-s",
+     "charge": -2,
      "tone": "Faults the telling rather than the feeling - pride said out loud too often.",
-     "explanation": "Condemns the display, not the self-esteem behind it."},
-    {"word": "bigheaded", "synset": "oewn-01896449-s", "charge": -2,
-     "usage": ["informal"],
-     "tone": "Light, colloquial mockery of someone's swollen self-opinion."},
-    {"word": "proud", "synset": "oewn-01895355-a", "charge": 0,
+     "explanation": "Condemns the display, not the self-esteem behind it."
+    },
+    {
+     "word": "bigheaded",
+     "synset": "oewn-01896449-s",
+     "charge": -2,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Light, colloquial mockery of someone's swollen self-opinion."
+    },
+    {
+     "word": "proud",
+     "synset": "oewn-01895355-a",
+     "charge": 0,
      "tone": "Genuinely two-faced: proud of your children is warm, proud to a fault is a failing. Context decides.",
-     "examples": ["proud of what she had built", "too proud to ask for help"]},
-    {"word": "pleased", "synset": "oewn-01898573-s", "charge": 1,
-     "tone": "Quiet satisfaction in something you did - modest and unobjectionable."},
-    {"word": "self-respecting", "synset": "oewn-01897055-s", "charge": 2,
+     "examples": [
+      "proud of what she had built",
+      "too proud to ask for help"
+     ]
+    },
+    {
+     "word": "pleased",
+     "synset": "oewn-01898573-s",
+     "charge": 1,
+     "tone": "Quiet satisfaction in something you did - modest and unobjectionable."
+    },
+    {
+     "word": "self-respecting",
+     "synset": "oewn-01897055-s",
+     "charge": 2,
      "tone": "Approves of a proper regard for oneself - the healthy version of pride.",
-     "explanation": "Frames self-regard as a virtue, not a fault."},
-    {"word": "dignified", "synset": "oewn-01897055-s", "charge": 2,
+     "explanation": "Frames self-regard as a virtue, not a fault."
+    },
+    {
+     "word": "dignified",
+     "synset": "oewn-01897055-s",
+     "charge": 2,
      "tone": "Self-possession that earns respect - pride carried well.",
      "explanation": "Praises composure and self-worth together.",
-     "examples": ["a dignified reply to a rude question"]}
+     "examples": [
+      "a dignified reply to a rude question"
+     ]
+    }
    ]
   },
   {
    "id": "death",
-   "axis": "blunt → gentle",
-   "anchors": ["stone-dead", "dead", "lifeless", "deceased", "late", "departed", "at peace"],
+   "axis": "bluntest → gentlest",
+   "anchors": [
+    "stone-dead",
+    "dead",
+    "lifeless",
+    "deceased",
+    "late",
+    "departed",
+    "at peace"
+   ],
    "members": [
-    {"word": "stone-dead", "synset": "oewn-00099303-s", "charge": -3,
-     "usage": ["informal"],
-     "tone": "Maximally blunt - leaves no room for hope or softening."},
-    {"word": "dead", "synset": "oewn-00096133-a", "charge": -2,
+    {
+     "word": "stone-dead",
+     "synset": "oewn-00099303-s",
+     "charge": -3,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Maximally blunt - leaves no room for hope or softening."
+    },
+    {
+     "word": "dead",
+     "synset": "oewn-00096133-a",
+     "charge": -2,
      "tone": "The plain word. Direct and unsoftened; every other word in this family exists to avoid it.",
-     "examples": ["Her grandfather has been dead for ten years."]},
-    {"word": "lifeless", "synset": "oewn-00098621-s", "charge": -1,
-     "tone": "Clinical and detached - describes a body, not a person."},
-    {"word": "deceased", "synset": "oewn-00096726-s", "charge": 0,
-     "usage": ["formal", "technical"],
+     "examples": [
+      "Her grandfather has been dead for ten years."
+     ]
+    },
+    {
+     "word": "lifeless",
+     "synset": "oewn-00098621-s",
+     "charge": -1,
+     "tone": "Clinical and detached - describes a body, not a person."
+    },
+    {
+     "word": "deceased",
+     "synset": "oewn-00096726-s",
+     "charge": 0,
+     "usage": [
+      "formal",
+      "technical"
+     ],
      "tone": "The neutral official term - legal forms and medical records, no feeling either way.",
-     "examples": ["the estate of the deceased"]},
-    {"word": "late", "synset": "oewn-00098527-s", "charge": 1,
-     "usage": ["formal"],
+     "examples": [
+      "the estate of the deceased"
+     ]
+    },
+    {
+     "word": "late",
+     "synset": "oewn-00098527-s",
+     "charge": 1,
+     "usage": [
+      "formal"
+     ],
      "tone": "Respectful and gentle - names the death while keeping the person in view.",
      "explanation": "Softens the fact by putting the title before it.",
-     "examples": ["her late husband"]},
-    {"word": "departed", "synset": "oewn-00096726-s", "charge": 2,
-     "usage": ["formal", "euphemistic"],
-     "tone": "Gentle and slightly religious - death as a journey rather than an end."},
-    {"word": "gone", "synset": "oewn-00096726-s", "charge": 2,
-     "usage": ["euphemistic"],
+     "examples": [
+      "her late husband"
+     ]
+    },
+    {
+     "word": "departed",
+     "synset": "oewn-00096726-s",
+     "charge": 2,
+     "usage": [
+      "formal",
+      "euphemistic"
+     ],
+     "tone": "Gentle and slightly religious - death as a journey rather than an end."
+    },
+    {
+     "word": "gone",
+     "synset": "oewn-00096726-s",
+     "charge": 2,
+     "usage": [
+      "euphemistic"
+     ],
      "tone": "Soft and everyday - what people say when 'dead' is too hard to say.",
-     "examples": ["She's been gone three years now."]},
-    {"word": "at peace", "synset": "oewn-00096726-s", "charge": 3,
-     "usage": ["euphemistic"],
+     "examples": [
+      "She's been gone three years now."
+     ]
+    },
+    {
+     "word": "at peace",
+     "synset": "oewn-00096726-s",
+     "charge": 3,
+     "usage": [
+      "euphemistic"
+     ],
      "tone": "The most consoling form - reframes death as rest and the end of suffering.",
-     "examples": ["After a long illness, he is at peace."]},
-    {"word": "at rest", "synset": "oewn-00096726-s", "charge": 3,
-     "usage": ["euphemistic"],
-     "tone": "Gravestone language - comfort offered to the living."},
-    {"word": "asleep", "synset": "oewn-00096726-s", "charge": 3,
-     "usage": ["euphemistic", "literary"],
-     "tone": "The gentlest euphemism of all, and the one most used with children."}
+     "examples": [
+      "After a long illness, he is at peace."
+     ]
+    },
+    {
+     "word": "at rest",
+     "synset": "oewn-00096726-s",
+     "charge": 3,
+     "usage": [
+      "euphemistic"
+     ],
+     "tone": "Gravestone language - comfort offered to the living."
+    },
+    {
+     "word": "asleep",
+     "synset": "oewn-00096726-s",
+     "charge": 3,
+     "usage": [
+      "euphemistic",
+      "literary"
+     ],
+     "tone": "The gentlest euphemism of all, and the one most used with children."
+    }
    ]
   },
   {
    "id": "fatness",
    "axis": "condemning → praising",
    "opposite": "thinness",
-   "anchors": ["blubbery", "fat", "paunchy", "chubby", "plump", "buxom"],
+   "anchors": [
+    "blubbery",
+    "fat",
+    "paunchy",
+    "chubby",
+    "plump",
+    "buxom"
+   ],
    "members": [
-    {"word": "blubbery", "synset": "oewn-00989802-s", "charge": -3,
-     "usage": ["derogatory", "informal"],
+    {
+     "word": "blubbery",
+     "synset": "oewn-00989802-s",
+     "charge": -3,
+     "usage": [
+      "derogatory",
+      "informal"
+     ],
      "tone": "Openly insulting - likens a person's body to whale fat.",
-     "explanation": "Contemptuous; avoid of people."},
-    {"word": "paunchy", "synset": "oewn-00989648-s", "charge": -2,
-     "tone": "Unflattering and specific - the weight carried at the belly."},
-    {"word": "potbellied", "synset": "oewn-00989648-s", "charge": -2,
-     "tone": "Blunt and faintly comic - a protruding stomach."},
-    {"word": "fat", "synset": "oewn-00989218-a", "charge": -2,
+     "explanation": "Contemptuous; avoid of people."
+    },
+    {
+     "word": "paunchy",
+     "synset": "oewn-00989648-s",
+     "charge": -2,
+     "tone": "Unflattering and specific - the weight carried at the belly."
+    },
+    {
+     "word": "potbellied",
+     "synset": "oewn-00989648-s",
+     "charge": -2,
+     "tone": "Blunt and faintly comic - a protruding stomach."
+    },
+    {
+     "word": "fat",
+     "synset": "oewn-00989218-a",
+     "charge": -2,
      "tone": "The plain word, and a loaded one: neutral of a cut of meat, personal and often wounding of a person.",
      "explanation": "Applied to people it is usually heard as judgement, whatever the intent.",
-     "examples": ["a fat volume of poetry", "He was self-conscious about being fat."]},
-    {"word": "chubby", "synset": "oewn-00989957-s", "charge": 0,
-     "usage": ["informal"],
+     "examples": [
+      "a fat volume of poetry",
+      "He was self-conscious about being fat."
+     ]
+    },
+    {
+     "word": "chubby",
+     "synset": "oewn-00989957-s",
+     "charge": 0,
+     "usage": [
+      "informal"
+     ],
      "tone": "Mild and often affectionate, especially of children - the least loaded word here.",
-     "examples": ["a chubby baby with dimpled hands"]},
-    {"word": "plump", "synset": "oewn-00989957-s", "charge": 1,
+     "examples": [
+      "a chubby baby with dimpled hands"
+     ]
+    },
+    {
+     "word": "plump",
+     "synset": "oewn-00989957-s",
+     "charge": 1,
      "tone": "Kindly - fullness presented as pleasing rather than excessive.",
      "explanation": "The gentle alternative when 'fat' would sting.",
-     "examples": ["a plump, cheerful woman behind the counter"]},
-    {"word": "buxom", "synset": "oewn-00990165-s", "charge": 1,
-     "usage": ["dated"],
+     "examples": [
+      "a plump, cheerful woman behind the counter"
+     ]
+    },
+    {
+     "word": "buxom",
+     "synset": "oewn-00990165-s",
+     "charge": 1,
+     "usage": [
+      "dated"
+     ],
      "tone": "Old-fashioned approval of a full, healthy female figure - dated, and only used of women.",
-     "explanation": "Flattering in intent, but its narrow use makes it feel of another era."},
-    {"word": "zaftig", "synset": "oewn-00990165-s", "charge": 1,
-     "usage": ["informal"],
-     "tone": "Warm and admiring - full-figured in an attractive way."}
+     "explanation": "Flattering in intent, but its narrow use makes it feel of another era."
+    },
+    {
+     "word": "zaftig",
+     "synset": "oewn-00990165-s",
+     "charge": 1,
+     "usage": [
+      "informal"
+     ],
+     "tone": "Warm and admiring - full-figured in an attractive way."
+    }
    ]
   }
  ]
