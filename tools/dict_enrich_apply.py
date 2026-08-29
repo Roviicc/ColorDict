@@ -132,7 +132,7 @@ def apply_overlay(entry, rec, problems):
             problems.append(f"{word}: overlay names unknown sense id {sid}")
             continue
         unknown = set(patch) - {"explanation", "examples", "usage_labels", "tone",
-                                "label", "family"}
+                                "label", "family", "rank"}
         if unknown:
             problems.append(f"{word}/{sid}: overlay patch has unknown fields {sorted(unknown)}")
         authored = authored or is_authored(patch)
@@ -155,6 +155,8 @@ def apply_overlay(entry, rec, problems):
                 problems.append(f"{word}/{sid}: explanation given for a neutral sense")
             else:
                 conn["explanation"] = patch["explanation"]
+        if patch.get("rank"):
+            sense["rank"] = patch["rank"]
         if patch.get("family"):
             sense["family"] = patch["family"]
         if patch.get("tone"):

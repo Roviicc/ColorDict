@@ -408,7 +408,10 @@ public final class DesktopApp {
                 + ".rl{font-size:small}"
                 + ".rlk{color:#6A6F75;font-weight:bold}"
                 + ".wfm{color:#6A6F75;font-style:italic}"
-                + ".tier{color:#9E9E9E;font-size:small}";
+                + ".tier{color:#9E9E9E;font-size:small}"
+                // Swing's HTML renderer has no <details>; the summary shows as
+                // a plain line and the extra senses stay visible below it.
+                + "summary{color:#6A6F75;font-size:small}";
     }
 
     private static String escapeHtml(String s) {

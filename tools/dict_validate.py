@@ -300,7 +300,8 @@ def check_entry(rep, where, entry, corpus):
             rep.error(swhere, "sense is not an object")
             continue
         unknown = set(sense) - {"id", "definition", "part_of_speech", "connotation",
-                                "examples", "synonyms", "antonyms", "source", "family"}
+                                "examples", "synonyms", "antonyms", "source",
+                                "family", "rank"}
         if unknown:
             rep.error(swhere, f"sense has unknown fields {sorted(unknown)}")
 
@@ -367,6 +368,10 @@ def check_entry(rep, where, entry, corpus):
         source = sense.get("source")
         if source is not None and not isinstance(source, dict):
             rep.error(swhere, "'source' must be an object")
+
+        rank = sense.get("rank")
+        if rank is not None and (not isinstance(rank, int) or not 1 <= rank <= 99):
+            rep.error(swhere, f"sense rank {rank!r} must be an integer in [1, 99]")
 
         family = sense.get("family")
         if family is not None:

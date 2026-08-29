@@ -36,6 +36,9 @@ TIER_NOTE = {
     "curated": "curated",
 }
 
+# Senses shown before the rest fold into a "show N more" disclosure.
+SENSE_HEAD = 5
+
 BOOKNAME = "Pop Up English Dictionary"
 DESCRIPTION = (
     "Original open dictionary for the Pop Up Dictionary project.<br>"
@@ -170,14 +173,54 @@ def sense_html(word, sense, number):
     return "".join(bits)
 
 
+def sense_sort_key(sense, position):
+    """Order senses so the meaning a learner wants is first.
+
+    WordNet's synset order is not frequency order - it puts "a score in
+    baseball" first for `run` and buries "move fast on foot" at 17. Until
+    every common word carries an authored `rank`, three cheap signals do most
+    of the work: an explicit rank wins; then annotated senses, which are the
+    ones a human judged worth writing about; then senses carrying examples,
+    since WordNet illustrates its commoner meanings more often. Original
+    order breaks ties, so nothing is shuffled without reason.
+    """
+    rank = sense.get("rank")
+    annotated = bool(sense.get("family")) or bool(
+        (sense.get("connotation") or {}).get("tone")
+        or (sense.get("connotation") or {}).get("explanation"))
+    return (
+        0 if rank else 1,
+        rank or 0,
+        0 if annotated else 1,
+        0 if sense.get("examples") else 1,
+        position,
+    )
+
+
+def ordered_senses(entry):
+    return [s for _, s in sorted(
+        ((i, s) for i, s in enumerate(entry["senses"])),
+        key=lambda p: sense_sort_key(p[1], p[0]))]
+
+
 def entry_html(entry):
     bits = ['<div class="pe">']
     if entry.get("pronunciation"):
         bits.append(f'<div class="phon">/{escape(entry["pronunciation"])}/</div>')
-    senses = entry["senses"]
+    senses = ordered_senses(entry)
     numbered = len(senses) > 1
-    for i, sense in enumerate(senses, 1):
+    # A 57-sense wall of text is worse for a learner than any wrong charge, so
+    # the long tail folds away. <details> is plain HTML - the WebView opens it
+    # natively, and a renderer that ignores it simply shows every sense.
+    head, tail = senses[:SENSE_HEAD], senses[SENSE_HEAD:]
+    for i, sense in enumerate(head, 1):
         bits.append(sense_html(entry["word"], sense, i if numbered else 0))
+    if tail:
+        bits.append(f'<details class="more"><summary>show {len(tail)} more '
+                    f'{"sense" if len(tail) == 1 else "senses"}</summary>')
+        for i, sense in enumerate(tail, SENSE_HEAD + 1):
+            bits.append(sense_html(entry["word"], sense, i))
+        bits.append("</details>")
     bits.append(formation_html(entry.get("word_formation")))
     status = entry.get("editorial", {}).get("status", "derived")
     bits.append(f'<div class="tier">{TIER_NOTE.get(status, status)}</div>')

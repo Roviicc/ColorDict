@@ -95,6 +95,12 @@ public final class DefinitionRenderer {
                 + ".fld{margin:3px 0}"
                 + ".flk{font-weight:bold}"
                 + ".chg{font-size:78%;color:" + muted + "}"
+                + "details.more{margin-top:8px}"
+                + "details.more>summary{cursor:pointer;color:" + link
+                + ";font-size:92%;padding:4px 0;list-style:none}"
+                + "details.more>summary::-webkit-details-marker{display:none}"
+                + "details.more>summary::before{content:\"\\25B8 \"}"
+                + "details.more[open]>summary::before{content:\"\\25BE \"}"
                 + ".sn{font-weight:bold}"
                 + ".pos{font-size:80%;font-style:italic;color:" + muted + "}"
                 + ".cn{font-size:72%;font-weight:bold;letter-spacing:.04em;"
