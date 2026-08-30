@@ -705,7 +705,6 @@
    "anchors": [
     "befouled",
     "unclean",
-    "dingy",
     "dirty",
     "grimy",
     "grubby",
@@ -776,7 +775,8 @@
      "word": "dingy",
      "synset": "oewn-00422169-s",
      "charge": -2,
-     "tone": "Said of rooms and fabric, and the real complaint is that it is depressing."
+     "tone": "Said of rooms and fabric, and the real complaint is that it is depressing.",
+     "_skip": true
     },
     {
      "word": "grimy",

@@ -1,0 +1,607 @@
+{
+ "sample": "audit-002",
+ "read": 50,
+ "right": 42,
+ "wrong": 7,
+ "unsure": 1,
+ "error_rate_pct": 14.0,
+ "threshold_pct": 5.0,
+ "verdict": "FAIL",
+ "previous": {
+  "sample": "audit-001",
+  "error_rate_pct": 44.0
+ },
+ "by_shard": {
+  "adverbs-inherited": {
+   "ok": 10,
+   "no": 3
+  },
+  "annotated-001": {
+   "ok": 3
+  },
+  "annotated-002": {
+   "ok": 5
+  },
+  "annotated-003": {
+   "ok": 2
+  },
+  "annotated-004": {
+   "no": 1,
+   "ok": 1
+  },
+  "annotated-005": {
+   "ok": 6,
+   "no": 1
+  },
+  "annotated-006": {
+   "ok": 4,
+   "no": 1,
+   "hm": 1
+  },
+  "annotated-007": {
+   "ok": 6,
+   "no": 1
+  },
+  "annotated-008": {
+   "ok": 5
+  }
+ },
+ "by_category": {
+  "wrong-sense": 4,
+  "wrong-gloss": 2,
+  "note-scope": 1,
+  "unverifiable": 1
+ },
+ "entries": [
+  {
+   "n": 1,
+   "id": "superbly.oewn-00184576-r",
+   "word": "superbly",
+   "shard": "adverbs-inherited",
+   "label": "positive",
+   "charge": 3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 2,
+   "id": "plain.oewn-00170694-s",
+   "word": "plain",
+   "shard": "annotated-002",
+   "label": "negative",
+   "charge": -1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 3,
+   "id": "slightly.oewn-00036695-r",
+   "word": "slightly",
+   "shard": "adverbs-inherited",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "no",
+   "category": "wrong-sense",
+   "objection": "a degree adverb is polarity-neutral and takes its colour from what it modifies; the note glosses the body sense of *slight*"
+  },
+  {
+   "n": 4,
+   "id": "stone-dead.oewn-00099303-s",
+   "word": "stone-dead",
+   "shard": "annotated-001",
+   "label": "negative",
+   "charge": -3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 5,
+   "id": "smuttily.oewn-00461819-r",
+   "word": "smuttily",
+   "shard": "adverbs-inherited",
+   "label": "negative",
+   "charge": -1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 6,
+   "id": "ravenously.oewn-00361850-r",
+   "word": "ravenously",
+   "shard": "adverbs-inherited",
+   "label": "negative",
+   "charge": -1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 7,
+   "id": "thinly.oewn-00480070-r",
+   "word": "thinly",
+   "shard": "adverbs-inherited",
+   "label": "neutral",
+   "charge": 0,
+   "verdict": "no",
+   "category": "wrong-sense",
+   "objection": "the definition is the 'without force or sincere effort' sense but the note describes the shape sense; label and note are about different words"
+  },
+  {
+   "n": 8,
+   "id": "pitiless.oewn-01511765-s",
+   "word": "pitiless",
+   "shard": "annotated-007",
+   "label": "negative",
+   "charge": -3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 9,
+   "id": "civilised.oewn-01954376-s",
+   "word": "civilised",
+   "shard": "annotated-005",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 10,
+   "id": "benevolent.oewn-01115023-s",
+   "word": "benevolent",
+   "shard": "annotated-005",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 11,
+   "id": "questioning.oewn-02473075-s",
+   "word": "questioning",
+   "shard": "annotated-008",
+   "label": "neutral",
+   "charge": 0,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 12,
+   "id": "smug.oewn-00592141-s",
+   "word": "smug",
+   "shard": "annotated-007",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 13,
+   "id": "patient_of.oewn-01741132-s",
+   "word": "patient of",
+   "shard": "annotated-007",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 14,
+   "id": "inhuman.oewn-01267081-s",
+   "word": "inhuman",
+   "shard": "annotated-006",
+   "label": "negative",
+   "charge": -3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 15,
+   "id": "exquisite.oewn-00220429-s",
+   "word": "exquisite",
+   "shard": "annotated-002",
+   "label": "positive",
+   "charge": 3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 16,
+   "id": "self-respecting.oewn-01897055-s",
+   "word": "self-respecting",
+   "shard": "annotated-001",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 17,
+   "id": "dingy.oewn-00422169-s",
+   "word": "dingy",
+   "shard": "annotated-006",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "no",
+   "category": "wrong-gloss",
+   "objection": "'thickly covered with ingrained dirt or soot' is grimy; dingy is dull and drab, and a dingy room can be clean"
+  },
+  {
+   "n": 18,
+   "id": "raring.oewn-00815105-s",
+   "word": "raring",
+   "shard": "annotated-008",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 19,
+   "id": "beguiling.oewn-01226470-s",
+   "word": "beguiling",
+   "shard": "annotated-004",
+   "label": "negative",
+   "charge": -1,
+   "verdict": "no",
+   "category": "note-scope",
+   "objection": "'the one near-flattering word here' is a claim about the sample, not the word; also misses that beguiling is often simply charming"
+  },
+  {
+   "n": 20,
+   "id": "pillory.oewn-00825488-v",
+   "word": "pillory",
+   "shard": "annotated-005",
+   "label": "negative",
+   "charge": -3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 21,
+   "id": "picaresque.oewn-01227405-s",
+   "word": "picaresque",
+   "shard": "annotated-004",
+   "label": "neutral",
+   "charge": 0,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 22,
+   "id": "wonderingly.oewn-00359488-r",
+   "word": "wonderingly",
+   "shard": "adverbs-inherited",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 23,
+   "id": "extol.oewn-00862284-v",
+   "word": "extol",
+   "shard": "annotated-005",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 24,
+   "id": "nicely.oewn-00188540-r",
+   "word": "nicely",
+   "shard": "adverbs-inherited",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 25,
+   "id": "greedily.oewn-00277821-r",
+   "word": "greedily",
+   "shard": "adverbs-inherited",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 26,
+   "id": "inferior.oewn-02353767-a",
+   "word": "inferior",
+   "shard": "annotated-008",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 27,
+   "id": "unhurried.oewn-01741333-s",
+   "word": "unhurried",
+   "shard": "annotated-007",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "no",
+   "category": "wrong-gloss",
+   "objection": "'capable of accepting delay with equanimity' defines patient, not unhurried, which is about pace"
+  },
+  {
+   "n": 28,
+   "id": "buy_the_farm.oewn-00359085-v",
+   "word": "buy the farm",
+   "shard": "annotated-003",
+   "label": "negative",
+   "charge": -3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 29,
+   "id": "furiously.oewn-00225764-r",
+   "word": "furiously",
+   "shard": "adverbs-inherited",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "no",
+   "category": "wrong-sense",
+   "objection": "the sense chosen is the elements one - winds blowing furiously - but the note glosses human anger"
+  },
+  {
+   "n": 30,
+   "id": "courageous.oewn-00263658-a",
+   "word": "courageous",
+   "shard": "annotated-002",
+   "label": "positive",
+   "charge": 3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 31,
+   "id": "creaky.oewn-02591968-s",
+   "word": "creaky",
+   "shard": "annotated-008",
+   "label": "negative",
+   "charge": -1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 32,
+   "id": "punk.oewn-02354508-s",
+   "word": "punk",
+   "shard": "annotated-008",
+   "label": "negative",
+   "charge": -1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 33,
+   "id": "look_around.oewn-02136885-v",
+   "word": "look around",
+   "shard": "annotated-005",
+   "label": "neutral",
+   "charge": 0,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 34,
+   "id": "ravenous.oewn-00010745-s",
+   "word": "ravenous",
+   "shard": "annotated-006",
+   "label": "negative",
+   "charge": -1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 35,
+   "id": "cheerfully.oewn-00232365-r",
+   "word": "cheerfully",
+   "shard": "adverbs-inherited",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 36,
+   "id": "bestial.oewn-01266555-s",
+   "word": "bestial",
+   "shard": "annotated-006",
+   "label": "negative",
+   "charge": -3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 37,
+   "id": "gangly.oewn-00992683-s",
+   "word": "gangly",
+   "shard": "annotated-001",
+   "label": "negative",
+   "charge": -1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 38,
+   "id": "esurient.oewn-00010745-s",
+   "word": "esurient",
+   "shard": "annotated-006",
+   "label": "negative",
+   "charge": -1,
+   "verdict": "hm",
+   "category": "unverifiable",
+   "objection": "the usual figurative extension is greed and rapacity, not curiosity"
+  },
+  {
+   "n": 39,
+   "id": "gullible.oewn-02280235-s",
+   "word": "gullible",
+   "shard": "annotated-007",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 40,
+   "id": "gaze.oewn-02137210-v",
+   "word": "gaze",
+   "shard": "annotated-005",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "no",
+   "category": "wrong-sense",
+   "objection": "not literary and not positive; gazed blankly, gazed in horror"
+  },
+  {
+   "n": 41,
+   "id": "smiling.oewn-00364111-s",
+   "word": "smiling",
+   "shard": "annotated-006",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 42,
+   "id": "cry.oewn-00065962-v",
+   "word": "cry",
+   "shard": "annotated-003",
+   "label": "neutral",
+   "charge": 0,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 43,
+   "id": "patient.oewn-01739985-a",
+   "word": "patient",
+   "shard": "annotated-007",
+   "label": "positive",
+   "charge": 3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 44,
+   "id": "fearfully.oewn-00200994-r",
+   "word": "fearfully",
+   "shard": "adverbs-inherited",
+   "label": "negative",
+   "charge": -1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 45,
+   "id": "mercilessly.oewn-00402381-r",
+   "word": "mercilessly",
+   "shard": "adverbs-inherited",
+   "label": "negative",
+   "charge": -3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 46,
+   "id": "tigerish.oewn-01511999-s",
+   "word": "tigerish",
+   "shard": "annotated-007",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 47,
+   "id": "trenchant.oewn-01339324-s",
+   "word": "trenchant",
+   "shard": "annotated-002",
+   "label": "positive",
+   "charge": 3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 48,
+   "id": "reprimand.oewn-00825330-v",
+   "word": "reprimand",
+   "shard": "annotated-005",
+   "label": "negative",
+   "charge": -1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 49,
+   "id": "great.oewn-01127641-s",
+   "word": "great",
+   "shard": "annotated-002",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 50,
+   "id": "chirpily.oewn-00282160-r",
+   "word": "chirpily",
+   "shard": "adverbs-inherited",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  }
+ ]
+}

@@ -24,6 +24,7 @@ Usage:
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -41,6 +42,37 @@ def base_forms(adverb):
     if stem.endswith(("ab", "ib")):
         out.append(stem + "le")                    # ably->able
     return out
+
+
+def _common_prefix(a, b):
+    n = 0
+    for x, y in zip(a, b):
+        if x != y:
+            break
+        n += 1
+    return n
+
+
+def relates(base, definition):
+    """Does this adverb sense look like it is about the base adjective?
+
+    Audit 002 found the real failure in adverb inheritance: a multi-sense
+    adverb had its adjective's charge stamped on every sense, including the
+    ones that mean something else. *furiously* covers wind as well as anger,
+    *thinly* covers viscosity and insincerity, *slightly* is a bare degree
+    adverb - and all three carried a judgement belonging to a sense they do
+    not have.
+
+    A single-sense adverb is safe: morphology says whose adverb it is and
+    there is nowhere else for the charge to land. For a multi-sense adverb we
+    keep only the senses whose gloss is visibly about the adjective, matching
+    on a stem so that *angrily* "with anger" and *anxiously* "with anxiety"
+    still qualify. Where nothing matches, the adverb is skipped - the same
+    refusal to invent that governs the rest of this file.
+    """
+    need = max(4, len(base) - 2)
+    return any(_common_prefix(base, w) >= need
+               for w in re.findall(r"[a-z]+", definition.lower()))
 
 
 def adverbise(tone, adjective):
@@ -79,7 +111,7 @@ def main():
         if senses:
             adverb_senses[entry["word"]] = senses
 
-    out, inherited = [], 0
+    out, inherited, skipped_ambiguous = [], 0, 0
     for adverb, senses in sorted(adverb_senses.items()):
         source = next((b for b in base_forms(adverb) if b in annotated), None)
         if source is None:
@@ -99,13 +131,20 @@ def main():
             patch["usage_labels"] = patch_from["usage_labels"]
         if not patch:
             continue
-        # Every sense inherits the charge and the family, but the tone note
-        # goes on the first one only - it reads identically on each, and
-        # `genuinely` printed the same sentence twice. The later senses still
-        # carry the spectrum row, which shows the judgement without repeating
-        # the prose.
+        # A single-sense adverb takes the charge outright. A multi-sense one
+        # takes it only on the senses that are actually about the adjective -
+        # see relates().
+        eligible = (senses if len(senses) == 1
+                    else [s for s in senses if relates(source, s["definition"])])
+        if not eligible:
+            skipped_ambiguous += 1
+            continue
+        # The tone note goes on the first eligible sense only - it reads
+        # identically on each, and `genuinely` printed the same sentence twice.
+        # The later senses still carry the spectrum row, which shows the
+        # judgement without repeating the prose.
         sense_patches = {}
-        for position, sense in enumerate(senses):
+        for position, sense in enumerate(eligible):
             one = dict(patch)
             if position:
                 one.pop("tone", None)
@@ -123,6 +162,8 @@ def main():
                                 separators=(",", ":")) + "\n")
     print(f"{len(annotated)} annotated adjectives -> "
           f"{len(out)} adverbs, {inherited} senses")
+    if skipped_ambiguous:
+        print(f"{skipped_ambiguous} adverbs skipped - no sense clearly about the adjective")
     print(f"wrote {args.out}")
     return 0
 

@@ -371,6 +371,7 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 
 | 2026-08-30 | **Shard 8.** 9 families / 117 members: inferior, ill-natured, distrustful, strict, curious, noisy, worn, eager, grateful. **Reviewed entries cross 1,000** |
 
+| 2026-08-30 | **Audit 002: 14%, down from 44%.** The rewrite worked; the remainder is sense misalignment, not note scope. See 11.66 |
 | 2026-08-30 | **Audit 001 run — and failed.** 50 sampled senses, 44% wrong against a 5% threshold. Authoring paused; see 11.65 for the diagnosis and the tone-note rule it produced |
 
 **Current totals: 63 families, 1,058 reviewed entries, 0 validation errors** —
@@ -526,6 +527,53 @@ word and its neighbours, which is exactly what the family stage exists to know.
 referee**: *puritanical*'s "now used almost exclusively as an accusation" trips
 the distribution rule and was still marked right, because it happens to be
 true. The tool points at notes worth a second look; the test stays human.
+
+## 11.66 Audit 002 — the rewrite tested
+
+Read 2026-08-30 against fifty fresh senses, none of them seen in audit 001.
+
+**42 right, 7 wrong, 1 unsure. Error rate 14%, down from 44%.** Still over the
+5% threshold, so 5.5 still says method rather than batch — but the option-D
+rewrite did most of what it was supposed to do, and what remains is a different
+fault with a different fix.
+
+**Only one of the seven is a note-scope failure** of the kind audit 001 was
+about (*beguiling*, "the one near-flattering word here" — a claim about the
+sample, not the word). **Six are sense misalignment: the note annotates a
+different sense from the one the definition names.**
+
+| Word | What went wrong |
+| --- | --- |
+| *slightly* | a bare degree adverb given the body sense of *slight* |
+| *thinly* | glossed "without force or sincere effort", noted as if it meant shape |
+| *furiously* | the sense chosen is wind, the note is about human anger |
+| *gaze* | called literary and positive; *gazed blankly*, *gazed in horror* |
+| *dingy* | WordNet's synset glosses it as *grimy*; a dingy room can be clean |
+| *unhurried* | WordNet's synset glosses it as *patient*; the word is about pace |
+
+Three of those are inherited adverbs, and they share one cause:
+`adverb_inherit.py` stamped the adjective's charge on **every** sense of the
+adverb. *furiously* covers wind as well as anger; *thinly* covers viscosity.
+Fixed by inheriting onto a multi-sense adverb only where the gloss is visibly
+about the adjective — 34 adverbs are now skipped outright rather than guessed
+at, and the inherited count falls from 365 senses to 244.
+
+*dingy* and *unhurried* are the same fault one level up: WordNet placed the word
+in a synset whose gloss does not fit it. We cannot correct a gloss, so we
+decline to add a judgement to it and the sense stays `derived`.
+
+**The check this produces:** does the note's claim fit the definition printed
+directly above it on the card? That is mechanical enough for a person to do at a
+glance and is now the first question of any audit.
+
+### What surfaced underneath
+
+Removing a wrong inherited note does not leave a blank — it exposes whatever
+SentiWordNet said. *slightly* and *furiously* dropped out of the reviewed set
+entirely and are `derived` again, labelled unreviewed in the app, which is
+honest. But it is a reminder that **30,542 non-neutral labels still rest on
+SentiWordNet alone**, a source 11.5 demoted for being wrong at this resolution,
+and no audit has ever sampled them.
 
 ## 11.7 Possible later work — not scheduled
 
