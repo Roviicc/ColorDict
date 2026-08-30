@@ -8,6 +8,11 @@
  "threshold_pct": 5.0,
  "verdict": "FAIL",
  "by_shard": {
+  "adverbs-inherited": {
+   "ok": 5,
+   "no": 6,
+   "hm": 2
+  },
   "annotated-001": {
    "no": 2,
    "ok": 1
@@ -43,11 +48,6 @@
    "ok": 2,
    "hm": 1,
    "no": 2
-  },
-  "batch-0001": {
-   "ok": 5,
-   "no": 6,
-   "hm": 2
   }
  },
  "by_category": {
@@ -61,7 +61,7 @@
    "n": 1,
    "id": "obtusely.oewn-00324708-r",
    "word": "obtusely",
-   "shard": "batch-0001",
+   "shard": "adverbs-inherited",
    "label": "negative",
    "charge": null,
    "verdict": "ok",
@@ -160,7 +160,7 @@
    "n": 10,
    "id": "blithely.oewn-00050835-r",
    "word": "blithely",
-   "shard": "batch-0001",
+   "shard": "adverbs-inherited",
    "label": "positive",
    "charge": null,
    "verdict": "no",
@@ -182,7 +182,7 @@
    "n": 12,
    "id": "dourly.oewn-00243780-r",
    "word": "dourly",
-   "shard": "batch-0001",
+   "shard": "adverbs-inherited",
    "label": "negative",
    "charge": null,
    "verdict": "ok",
@@ -193,7 +193,7 @@
    "n": 13,
    "id": "cruelly.oewn-00234156-r",
    "word": "cruelly",
-   "shard": "batch-0001",
+   "shard": "adverbs-inherited",
    "label": "negative",
    "charge": null,
    "verdict": "no",
@@ -292,7 +292,7 @@
    "n": 22,
    "id": "lifelessly.oewn-00391203-r",
    "word": "lifelessly",
-   "shard": "batch-0001",
+   "shard": "adverbs-inherited",
    "label": "negative",
    "charge": null,
    "verdict": "no",
@@ -314,7 +314,7 @@
    "n": 24,
    "id": "grudgingly.oewn-00353559-r",
    "word": "grudgingly",
-   "shard": "batch-0001",
+   "shard": "adverbs-inherited",
    "label": "negative",
    "charge": null,
    "verdict": "ok",
@@ -325,7 +325,7 @@
    "n": 25,
    "id": "brutally.oewn-00202624-r",
    "word": "brutally",
-   "shard": "batch-0001",
+   "shard": "adverbs-inherited",
    "label": "negative",
    "charge": null,
    "verdict": "no",
@@ -358,7 +358,7 @@
    "n": 28,
    "id": "gluttonously.oewn-00351651-r",
    "word": "gluttonously",
-   "shard": "batch-0001",
+   "shard": "adverbs-inherited",
    "label": "negative",
    "charge": null,
    "verdict": "ok",
@@ -468,7 +468,7 @@
    "n": 38,
    "id": "dingily.oewn-00502424-r",
    "word": "dingily",
-   "shard": "batch-0001",
+   "shard": "adverbs-inherited",
    "label": "negative",
    "charge": null,
    "verdict": "no",
@@ -479,7 +479,7 @@
    "n": 39,
    "id": "sloppily.oewn-00460908-r",
    "word": "sloppily",
-   "shard": "batch-0001",
+   "shard": "adverbs-inherited",
    "label": "negative",
    "charge": null,
    "verdict": "hm",
@@ -512,7 +512,7 @@
    "n": 42,
    "id": "repulsively.oewn-00311025-r",
    "word": "repulsively",
-   "shard": "batch-0001",
+   "shard": "adverbs-inherited",
    "label": "negative",
    "charge": null,
    "verdict": "no",
@@ -534,7 +534,7 @@
    "n": 44,
    "id": "proudly.oewn-00191358-r",
    "word": "proudly",
-   "shard": "batch-0001",
+   "shard": "adverbs-inherited",
    "label": "neutral",
    "charge": null,
    "verdict": "ok",
@@ -578,7 +578,7 @@
    "n": 48,
    "id": "trimly.oewn-00466658-r",
    "word": "trimly",
-   "shard": "batch-0001",
+   "shard": "adverbs-inherited",
    "label": "positive",
    "charge": null,
    "verdict": "hm",
@@ -607,5 +607,6 @@
    "category": "over-narrow",
    "objection": "'harm is to a relationship, not to the truth' is false; double-dealing is duplicity and deception"
   }
- ]
+ ],
+ "attribution_note": "First read attributed inherited adverbs to batch-0001 by fallback. Corrected: no batch-0001 sense was drawn, so the sample says nothing about the hand-written pilot."
 }

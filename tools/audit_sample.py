@@ -23,15 +23,34 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def load_shard_map():
-    """sense id -> the annotated-NNN.json that gave it a charge."""
+    """sense id -> the source that gave it a charge.
+
+    Inherited adverbs must be attributed to `adverbs-inherited`, not folded into
+    the fallback. Audit 001 was first read with them defaulting to batch-0001,
+    which produced a false finding: it looked as though the hand-written pilot
+    scored as badly as the model-authored shards, when in fact the pilot was
+    never sampled at all. An adverb's note is its adjective's note, so it tests
+    the same authorship a second time and must be labelled that way.
+    """
     owner = {}
     for path in sorted((ROOT / "data/families").glob("annotated-*.json")):
         shard = path.stem
         data = json.loads(path.read_text(encoding="utf-8"))
         for family in data["families"]:
             for member in family["members"]:
-                word = member["word"].replace(" ", "_").replace("-", "-")
+                word = member["word"].replace(" ", "_")
                 owner[f"{word}.{member['synset']}"] = (shard, family["id"])
+
+    adverbs = ROOT / "data/entries/overlays/adverbs-001.overlay.jsonl"
+    if adverbs.exists():
+        with open(adverbs, encoding="utf-8") as fh:
+            for line in fh:
+                line = line.strip()
+                if not line:
+                    continue
+                entry = json.loads(line)
+                for sense_id in (entry.get("senses") or {}):
+                    owner.setdefault(sense_id, ("adverbs-inherited", None))
     return owner
 
 

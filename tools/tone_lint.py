@@ -1,0 +1,164 @@
+#!/usr/bin/env python3
+"""Check tone notes against the rule adopted in plan 11.65.
+
+Audit 001 measured 44% of tone notes wrong, and the failures fell into a small
+number of shapes. Every one of those shapes leaves a lexical trace, so the rule
+can be enforced mechanically instead of remembered:
+
+  1. no distributional claims   - "usually", "now mostly", "the commonest"
+  2. no narrowing beyond the gloss - "only ever", "always of", "never said of"
+  3. no unchecked etymology     - "from the Latin", "named for", "originally"
+  4. nothing undefendable from the gloss and the charge alone
+
+Rules 1-3 are checked here. Rule 4 is a judgement and stays with the person
+writing, but a note that clears the first three is usually short enough that
+rule 4 has little room to hide.
+
+Usage:
+    python3 tools/tone_lint.py data/families/annotated-*.json
+    python3 tools/tone_lint.py --overlay data/entries/overlays/batch-0001.overlay.jsonl
+    python3 tools/tone_lint.py --all --quiet      # counts only
+"""
+
+import argparse
+import glob
+import json
+import re
+import sys
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+# Each rule is (name, compiled pattern, what to do instead).
+RULES = [
+    ("distribution", re.compile(
+        r"\b("
+        r"usually|mostly|most often|more often than not|commonest|most common|"
+        r"nowadays|these days|now (?:used|said|aimed|mostly|almost|largely|"
+        r"chiefly|entirely)|frequently|typically|generally|as a rule|"
+        r"rarely used|hardly ever|almost always|almost never|"
+        r"far more often|much more often|equally likely|tends to be"
+        r")\b", re.I),
+     "state what the word does, not how often people do it"),
+
+    ("narrowing", re.compile(
+        r"\b("
+        r"only ever|only in|only of|never of|never said|not of people|"
+        r"describes? (?:a|the) \w+,? not|"
+        r"about \w+ rather than \w+,? not|"
+        r"exclusively|confined to|restricted to|nothing but"
+        r")\b", re.I),
+     "do not restrict the sense further than the gloss does"),
+
+    ("etymology", re.compile(
+        r"\b("
+        r"from the (?:latin|greek|french|old english|german|norse)|"
+        r"named (?:for|after)|comes from|derives? from|"
+        r"originally (?:meant|a|an|the)|in origin|the root is|"
+        r"latin for|greek for|french for"
+        r")\b", re.I),
+     "drop the origin story unless it has been checked against a source"),
+
+    ("hedge-claim", re.compile(
+        r"\b(everyone|nobody|no one|anybody) \w+", re.I),
+     "a claim about all speakers is a distribution claim in disguise"),
+]
+
+MAX_WORDS = 26
+
+
+def check(note):
+    """Return a list of (rule, matched text, advice) for one note."""
+    hits = []
+    for name, pattern, advice in RULES:
+        m = pattern.search(note or "")
+        if m:
+            hits.append((name, m.group(0), advice))
+    if note and len(note.split()) > MAX_WORDS:
+        hits.append(("too-long", f"{len(note.split())} words",
+                     f"a note over {MAX_WORDS} words is usually carrying a claim it cannot support"))
+    return hits
+
+
+def notes_from_family_file(path):
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    for fam in data["families"]:
+        for m in fam["members"]:
+            if m.get("tone"):
+                yield f"{fam['id']}/{m['word']}", m["tone"]
+
+
+def notes_from_overlay(path):
+    with open(path, encoding="utf-8") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line:
+                continue
+            entry = json.loads(line)
+            for sense_id, patch in (entry.get("senses") or {}).items():
+                tone = (patch or {}).get("tone")
+                if tone:
+                    yield sense_id, tone
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("paths", nargs="*", help="annotated-*.json files")
+    ap.add_argument("--overlay", action="append", default=[],
+                    help="an overlay .jsonl carrying tone notes")
+    ap.add_argument("--all", action="store_true",
+                    help="every annotated shard plus batch-0001's overlay")
+    ap.add_argument("--quiet", action="store_true", help="counts only")
+    ap.add_argument("--max-fail", type=int, default=None,
+                    help="exit non-zero if more than this many notes are flagged")
+    args = ap.parse_args()
+
+    paths, overlays = list(args.paths), list(args.overlay)
+    if args.all:
+        paths += sorted(glob.glob(str(ROOT / "data/families/annotated-*.json")))
+        overlays.append(str(ROOT / "data/entries/overlays/batch-0001.overlay.jsonl"))
+
+    sources = [(p, notes_from_family_file) for p in paths] + \
+              [(p, notes_from_overlay) for p in overlays]
+    if not sources:
+        sys.exit("nothing to check - pass files, --overlay, or --all")
+
+    total = flagged = 0
+    per_rule = Counter()
+    per_source = {}
+
+    for path, reader in sources:
+        n = bad = 0
+        for key, note in reader(path):
+            n += 1
+            hits = check(note)
+            if hits:
+                bad += 1
+                for rule, _, _ in hits:
+                    per_rule[rule] += 1
+                if not args.quiet:
+                    print(f"\n{Path(path).name}  {key}")
+                    print(f"  {note}")
+                    for rule, text, advice in hits:
+                        print(f"  -> {rule}: {text!r} - {advice}")
+        total += n
+        flagged += bad
+        per_source[Path(path).name] = (n, bad)
+
+    print()
+    print(f"{'source':34s} {'notes':>6s} {'flagged':>8s} {'rate':>6s}")
+    for name, (n, bad) in per_source.items():
+        print(f"{name:34s} {n:6d} {bad:8d} {100*bad/n if n else 0:5.0f}%")
+    print(f"{'TOTAL':34s} {total:6d} {flagged:8d} {100*flagged/total if total else 0:5.0f}%")
+    print()
+    for rule, k in per_rule.most_common():
+        print(f"  {rule:14s} {k}")
+
+    if args.max_fail is not None and flagged > args.max_fail:
+        sys.exit(f"\n{flagged} notes flagged, limit is {args.max_fail}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

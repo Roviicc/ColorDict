@@ -445,9 +445,18 @@ by shard, seed 20260830, read against Merriam-Webster and Cambridge.
 threshold. The sample fails, and by 5.5 that means the method is wrong, not
 the batch.**
 
-The rate is flat across every shard — batch-0001, the hand-written pilot,
-scores 46%; the model-authored shards score 40–50%. Nothing separates them.
-This is not a drift in care between rounds; **it is the format.**
+The rate is flat across all eight family shards — 29% to 67%, with no trend
+from the earliest to the latest. This is not a drift in care between rounds;
+**it is the format.**
+
+One correction on first reading. The sampler attributed inherited adverbs to
+`batch-0001` by fallback, which made it look as though the hand-written pilot
+scored the same 46% as the model-authored shards. It did not: **no batch-0001
+sense was drawn at all.** The thirteen rows in question are inherited adverbs,
+whose notes are their adjectives' notes, so they re-test the same authorship
+rather than a different one. The sample therefore says nothing about hand
+authorship, and the "human and model fail alike" reading is not supported by
+it. `audit_sample.py` now labels inherited adverbs as their own source.
 
 ### What actually failed
 
