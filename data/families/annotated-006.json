@@ -1,0 +1,1051 @@
+{
+ "batch": "annotated-006",
+ "families": [
+  {
+   "id": "family-01265721-a",
+   "anchors": [
+    "cannibalic",
+    "cruel",
+    "brutish",
+    "cold",
+    "roughshod",
+    "beastly"
+   ],
+   "members": [
+    {
+     "word": "inhumane",
+     "synset": "oewn-01265721-a",
+     "charge": -3,
+     "tone": "The institutional word - it is conditions, treatment and policies that get called inhumane."
+    },
+    {
+     "word": "barbarous",
+     "synset": "oewn-01266123-s",
+     "charge": -3,
+     "tone": "Condemns as a whole civilisation would: this is beneath what people owe each other."
+    },
+    {
+     "word": "brutal",
+     "synset": "oewn-01266123-s",
+     "charge": -3,
+     "tone": "Plain and physical. The commonest of the strong words, and the least ornamented."
+    },
+    {
+     "word": "cruel",
+     "synset": "oewn-01266123-s",
+     "charge": -3,
+     "tone": "The central moral charge: the suffering was known about and inflicted anyway."
+    },
+    {
+     "word": "fell",
+     "synset": "oewn-01266123-s",
+     "charge": -2,
+     "tone": "Survives almost only in *one fell swoop*; on its own it reads as deliberate archaism.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "roughshod",
+     "synset": "oewn-01266123-s",
+     "charge": -1,
+     "tone": "Only ever *ride roughshod over*, and it is about disregard rather than violence."
+    },
+    {
+     "word": "savage",
+     "synset": "oewn-01266123-s",
+     "charge": -3,
+     "tone": "Carries a colonial history of describing whole peoples; strongest when kept for acts."
+    },
+    {
+     "word": "vicious",
+     "synset": "oewn-01266123-s",
+     "charge": -3,
+     "tone": "Adds enjoyment to the harm - a vicious act is one the doer wanted to do."
+    },
+    {
+     "word": "beastly",
+     "synset": "oewn-01266555-s",
+     "charge": -1,
+     "tone": "British and largely trivial now (*beastly weather*); the cruelty has drained out of it.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "bestial",
+     "synset": "oewn-01266555-s",
+     "charge": -3,
+     "tone": "Denies the person's humanity outright, which is why it is reserved for atrocity.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "brute",
+     "synset": "oewn-01266555-s",
+     "charge": -2,
+     "tone": "Mostly attributive - *brute force* is unreasoning rather than wicked."
+    },
+    {
+     "word": "brutish",
+     "synset": "oewn-01266555-s",
+     "charge": -2,
+     "tone": "Coarse rather than violent: it says unrefined more than it says cruel."
+    },
+    {
+     "word": "cannibalic",
+     "synset": "oewn-01266942-s",
+     "charge": -3,
+     "tone": "The furthest word in the family, and rare enough to sound like an accusation of myth.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "cold",
+     "synset": "oewn-01267081-s",
+     "charge": -2,
+     "tone": "The absence of feeling, not its violence. A cold refusal need never raise its voice."
+    },
+    {
+     "word": "cold-blooded",
+     "synset": "oewn-01267081-s",
+     "charge": -3,
+     "tone": "Premeditation is the whole charge - the harm was planned while calm."
+    },
+    {
+     "word": "inhuman",
+     "synset": "oewn-01267081-s",
+     "charge": -3,
+     "tone": "Names what is missing rather than what was done; harsher than *inhumane*, which describes conditions."
+    }
+   ],
+   "axis": "monstrous → merely unfeeling"
+  },
+  {
+   "id": "family-01374976-a",
+   "anchors": [
+    "benign",
+    "gracious",
+    "kind",
+    "charitable",
+    "benevolent",
+    "kindhearted"
+   ],
+   "members": [
+    {
+     "word": "kind",
+     "synset": "oewn-01374976-a",
+     "charge": 2,
+     "tone": "The plain, unshowy word, and the one people most want said about them."
+    },
+    {
+     "word": "benignant",
+     "synset": "oewn-01375495-s",
+     "charge": 2,
+     "tone": "Literary and top-down - warmth extended by someone with the power not to bother.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "gracious",
+     "synset": "oewn-01375495-s",
+     "charge": 2,
+     "tone": "Courtesy from a position of advantage; graciousness costs the giver nothing."
+    },
+    {
+     "word": "benign",
+     "synset": "oewn-01375700-s",
+     "charge": 1,
+     "tone": "Weakened by medicine, where a benign growth is merely not malignant."
+    },
+    {
+     "word": "charitable",
+     "synset": "oewn-01375875-s",
+     "charge": 2,
+     "tone": "Splits in two: charitable giving is warm, a *charitable interpretation* is faintly condescending."
+    },
+    {
+     "word": "benevolent",
+     "synset": "oewn-01375875-s",
+     "charge": 3,
+     "tone": "Formal and settled - a disposition rather than a mood, which is why institutions claim it.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "kindly",
+     "synset": "oewn-01375875-s",
+     "charge": 2,
+     "tone": "Softer and older than *kind*, and now used mostly of the elderly."
+    },
+    {
+     "word": "sympathetic",
+     "synset": "oewn-01375875-s",
+     "charge": 2,
+     "tone": "Kindness aimed at someone in difficulty; it presumes there is trouble to meet."
+    },
+    {
+     "word": "good-hearted",
+     "synset": "oewn-01375875-s",
+     "charge": 3,
+     "tone": "Locates the kindness in the character, and forgives clumsiness in carrying it out."
+    },
+    {
+     "word": "openhearted",
+     "synset": "oewn-01375875-s",
+     "charge": 3,
+     "tone": "Kindness without self-protection - the giver is not holding anything back."
+    },
+    {
+     "word": "large-hearted",
+     "synset": "oewn-01375875-s",
+     "charge": 3,
+     "tone": "Capacity, not just intent: there is room in this person for more than their own concerns."
+    },
+    {
+     "word": "gentle",
+     "synset": "oewn-01376241-s",
+     "charge": 2,
+     "tone": "Kindness expressed as restraint - the force that was available was not used."
+    },
+    {
+     "word": "kindhearted",
+     "synset": "oewn-01376472-s",
+     "charge": 3,
+     "tone": "Innate rather than practised; the kindness precedes the occasion for it."
+    },
+    {
+     "word": "kind-hearted",
+     "synset": "oewn-01376472-s",
+     "charge": 3,
+     "tone": "The hyphenated spelling of the same word, equally warm."
+    }
+   ],
+   "axis": "civil warmth → deep kindness"
+  },
+  {
+   "id": "family-00009997-a",
+   "anchors": [
+    "gluttonous",
+    "hoggish",
+    "wolfish",
+    "greedy",
+    "porcine",
+    "ravenous",
+    "voracious"
+   ],
+   "members": [
+    {
+     "word": "gluttonous",
+     "synset": "oewn-00009997-a",
+     "charge": -3,
+     "tone": "Names one of the seven deadly sins; the excess is a moral failure, not an appetite."
+    },
+    {
+     "word": "crapulous",
+     "synset": "oewn-00010404-s",
+     "charge": -3,
+     "tone": "Formal and disgusted, and about drink as much as food.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "crapulent",
+     "synset": "oewn-00010556-s",
+     "charge": -2,
+     "tone": "Describes the sick aftermath rather than the appetite - more pitiable than blamed.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "edacious",
+     "synset": "oewn-00010745-s",
+     "charge": -1,
+     "tone": "Rare enough to sound playful; almost nobody is called this in earnest.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "esurient",
+     "synset": "oewn-00010745-s",
+     "charge": -1,
+     "tone": "Literary and dry, and often used of curiosity rather than food.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "rapacious",
+     "synset": "oewn-00010745-s",
+     "charge": -3,
+     "tone": "Has left the table entirely - it is now said of companies and landlords who take what they can."
+    },
+    {
+     "word": "ravening",
+     "synset": "oewn-00010745-s",
+     "charge": -3,
+     "tone": "Predatory and archaic-sounding, as of a beast that has not eaten.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "ravenous",
+     "synset": "oewn-00010745-s",
+     "charge": -1,
+     "tone": "Usually just very hungry, and often said cheerfully of oneself."
+    },
+    {
+     "word": "voracious",
+     "synset": "oewn-00010745-s",
+     "charge": -1,
+     "tone": "Frequently admiring - a *voracious reader* is being praised, not scolded."
+    },
+    {
+     "word": "wolfish",
+     "synset": "oewn-00010745-s",
+     "charge": -2,
+     "tone": "Adds hunger to the manner of eating; it watches the food the way a predator would."
+    },
+    {
+     "word": "greedy",
+     "synset": "oewn-00011179-s",
+     "charge": -2,
+     "tone": "The everyday charge, and one of the first moral words a child is taught."
+    },
+    {
+     "word": "hoggish",
+     "synset": "oewn-00011346-s",
+     "charge": -3,
+     "tone": "Compares the eater to a pig outright, with none of the softening *piggy* has.",
+     "usage": [
+      "derogatory"
+     ]
+    },
+    {
+     "word": "piggish",
+     "synset": "oewn-00011346-s",
+     "charge": -3,
+     "tone": "The same comparison, and the commoner of the two insults.",
+     "usage": [
+      "derogatory"
+     ]
+    },
+    {
+     "word": "piggy",
+     "synset": "oewn-00011346-s",
+     "charge": -2,
+     "tone": "Diminutive enough to be used of children without real anger.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "porcine",
+     "synset": "oewn-00011346-s",
+     "charge": -2,
+     "tone": "Formal, and usually about shape rather than appetite - which makes it a colder insult.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "swinish",
+     "synset": "oewn-00011346-s",
+     "charge": -3,
+     "tone": "Broader than eating: it condemns the whole manner of the person.",
+     "usage": [
+      "derogatory"
+     ]
+    }
+   ],
+   "axis": "swinish → merely hungry"
+  },
+  {
+   "id": "family-01116284-a",
+   "anchors": [
+    "cheap",
+    "beggarly",
+    "stingy",
+    "penny-pinching",
+    "close",
+    "skinny"
+   ],
+   "members": [
+    {
+     "word": "stingy",
+     "synset": "oewn-01116284-a",
+     "charge": -2,
+     "tone": "The plain word. Its mirror image is *thrifty*, which praises the identical behaviour."
+    },
+    {
+     "word": "ungenerous",
+     "synset": "oewn-01116284-a",
+     "charge": -2,
+     "tone": "Names the missing virtue rather than the present vice, which makes it the politer complaint."
+    },
+    {
+     "word": "beggarly",
+     "synset": "oewn-01116711-s",
+     "charge": -3,
+     "tone": "Said of the sum, not the person - an amount so small it insults whoever receives it."
+    },
+    {
+     "word": "mean",
+     "synset": "oewn-01116711-s",
+     "charge": -2,
+     "tone": "In British use this is the standard word for stingy; American readers hear *cruel* instead."
+    },
+    {
+     "word": "cheap",
+     "synset": "oewn-01116856-s",
+     "charge": -3,
+     "tone": "The gloss is *embarrassingly stingy* - the shame is the point, and it is public.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "chinchy",
+     "synset": "oewn-01116856-s",
+     "charge": -2,
+     "tone": "Regional American and dismissive.",
+     "usage": [
+      "informal",
+      "dialect"
+     ]
+    },
+    {
+     "word": "chintzy",
+     "synset": "oewn-01116856-s",
+     "charge": -2,
+     "tone": "Slides between stingy and shoddy; either way it is a sneer at what was provided.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "cheeseparing",
+     "synset": "oewn-01116967-s",
+     "charge": -2,
+     "tone": "Formal and disdainful, usually aimed at budgets rather than people.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "close",
+     "synset": "oewn-01116967-s",
+     "charge": -1,
+     "tone": "Euphemistic. *Close with money* is what you say when you do not want to say stingy.",
+     "usage": [
+      "euphemistic"
+     ]
+    },
+    {
+     "word": "near",
+     "synset": "oewn-01116967-s",
+     "charge": -1,
+     "tone": "The same euphemism, now dated and chiefly British.",
+     "usage": [
+      "dated",
+      "euphemistic"
+     ]
+    },
+    {
+     "word": "penny-pinching",
+     "synset": "oewn-01116967-s",
+     "charge": -2,
+     "tone": "Pictures the act, and the smallness of the coin does the condemning."
+    },
+    {
+     "word": "skinny",
+     "synset": "oewn-01116967-s",
+     "charge": -1,
+     "tone": "This sense is rare and easily missed - a reader will hear the body word first.",
+     "usage": [
+      "dated"
+     ]
+    },
+    {
+     "word": "closefisted",
+     "synset": "oewn-01117247-s",
+     "charge": -2,
+     "tone": "The hand that will not open; the oldest image in the family."
+    },
+    {
+     "word": "hardfisted",
+     "synset": "oewn-01117247-s",
+     "charge": -2,
+     "tone": "Harder than *closefisted* by a shade, and rarer."
+    },
+    {
+     "word": "tightfisted",
+     "synset": "oewn-01117247-s",
+     "charge": -2,
+     "tone": "The commonest of the three fists, and the most vivid."
+    },
+    {
+     "word": "grudging",
+     "synset": "oewn-01117378-s",
+     "charge": -2,
+     "tone": "The money was given - resentfully, which is what makes it worse than refusal for some."
+    }
+   ],
+   "axis": "contemptible → merely careful"
+  },
+  {
+   "id": "family-02105605-a",
+   "anchors": [
+    "self-serving",
+    "narcissistic",
+    "selfish",
+    "egotistical",
+    "self-absorbed"
+   ],
+   "members": [
+    {
+     "word": "selfish",
+     "synset": "oewn-02105605-a",
+     "charge": -2,
+     "tone": "The plain moral word, and the one that gets used in real arguments."
+    },
+    {
+     "word": "egoistic",
+     "synset": "oewn-02105605-a",
+     "charge": -2,
+     "tone": "Philosophical in origin; it names a doctrine as much as a habit.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "egoistical",
+     "synset": "oewn-02105605-a",
+     "charge": -2,
+     "tone": "The same word with an extra syllable, and no extra force.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "egocentric",
+     "synset": "oewn-02105605-a",
+     "charge": -2,
+     "tone": "Borrowed from developmental psychology, where it describes children without blaming them."
+    },
+    {
+     "word": "self-centered",
+     "synset": "oewn-02105605-a",
+     "charge": -2,
+     "tone": "Softer than *selfish* - it describes where attention sits rather than what was taken."
+    },
+    {
+     "word": "self-centred",
+     "synset": "oewn-02105605-a",
+     "charge": -2,
+     "tone": "The British spelling, identical in force."
+    },
+    {
+     "word": "self-serving",
+     "synset": "oewn-02105605-a",
+     "charge": -3,
+     "tone": "Adds calculation: the generous-looking act had a private purpose."
+    },
+    {
+     "word": "self-seeking",
+     "synset": "oewn-02105605-a",
+     "charge": -3,
+     "tone": "The same charge, aimed at a career rather than a single act."
+    },
+    {
+     "word": "egotistic",
+     "synset": "oewn-02105974-s",
+     "charge": -2,
+     "tone": "Vanity rather than greed - about talking of oneself, not taking for oneself.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "egotistical",
+     "synset": "oewn-02105974-s",
+     "charge": -2,
+     "tone": "The commoner spelling, and a staple of ordinary complaint."
+    },
+    {
+     "word": "narcissistic",
+     "synset": "oewn-02105974-s",
+     "charge": -3,
+     "tone": "A clinical diagnosis used as an insult, which is what makes it land so hard."
+    },
+    {
+     "word": "self-loving",
+     "synset": "oewn-02105974-s",
+     "charge": -1,
+     "tone": "The literal compound, and neutral enough to be reclaimed as self-care."
+    },
+    {
+     "word": "self-absorbed",
+     "synset": "oewn-00102878-s",
+     "charge": -1,
+     "tone": "Inattentive rather than grasping; the harm is what gets overlooked."
+    },
+    {
+     "word": "self-involved",
+     "synset": "oewn-00102878-s",
+     "charge": -1,
+     "tone": "The same forgivable fault, and the milder of the two phrasings."
+    }
+   ],
+   "axis": "calculating → merely inattentive"
+  },
+  {
+   "id": "family-01899020-a",
+   "anchors": [
+    "crushed",
+    "humiliated",
+    "low",
+    "humbled",
+    "humble",
+    "meek",
+    "modest"
+   ],
+   "members": [
+    {
+     "word": "humble",
+     "synset": "oewn-01899020-a",
+     "charge": 1,
+     "tone": "Praise when chosen, plain description when not - *humble origins* passes no judgement."
+    },
+    {
+     "word": "broken",
+     "synset": "oewn-01899370-s",
+     "charge": -3,
+     "tone": "Not modesty at all: something was done to this person and it worked."
+    },
+    {
+     "word": "crushed",
+     "synset": "oewn-01899370-s",
+     "charge": -3,
+     "tone": "The heaviest word here, and always about defeat rather than character."
+    },
+    {
+     "word": "humbled",
+     "synset": "oewn-01899370-s",
+     "charge": -1,
+     "tone": "Ambiguous by design. It can mean genuinely moved, or beaten and admitting it."
+    },
+    {
+     "word": "humiliated",
+     "synset": "oewn-01899370-s",
+     "charge": -3,
+     "tone": "Requires an audience - the lowering had to be seen to count."
+    },
+    {
+     "word": "low",
+     "synset": "oewn-01899370-s",
+     "charge": -2,
+     "tone": "Status, not disposition; the older sense that *humble origins* still carries."
+    },
+    {
+     "word": "meek",
+     "synset": "oewn-01899577-s",
+     "charge": 0,
+     "tone": "Praised in the Beatitudes and faintly disparaged everywhere else since."
+    },
+    {
+     "word": "mild",
+     "synset": "oewn-01899577-s",
+     "charge": 1,
+     "tone": "Gentleness of manner with no claim about the will behind it."
+    },
+    {
+     "word": "modest",
+     "synset": "oewn-01899577-s",
+     "charge": 2,
+     "tone": "The virtue the family is named for: an accurate view of oneself, held without fuss."
+    }
+   ],
+   "axis": "brought low → modest by choice"
+  },
+  {
+   "id": "family-00645747-a",
+   "anchors": [
+    "rude",
+    "uncivil"
+   ],
+   "members": [
+    {
+     "word": "uncivil",
+     "synset": "oewn-00645747-a",
+     "charge": -2,
+     "tone": "Formal and slightly distant - the complaint of someone invoking a standard.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "rude",
+     "synset": "oewn-00645747-a",
+     "charge": -2,
+     "tone": "The everyday word, learned early, and blunt enough to be used to a child's face."
+    }
+   ]
+  },
+  {
+   "id": "family-00420808-a",
+   "anchors": [
+    "befouled",
+    "unclean",
+    "dingy",
+    "dirty",
+    "grimy",
+    "grubby",
+    "soiled"
+   ],
+   "members": [
+    {
+     "word": "dirty",
+     "synset": "oewn-00420808-a",
+     "charge": -2,
+     "tone": "The plain word, and the one that carries a second, moral life (*a dirty trick*)."
+    },
+    {
+     "word": "soiled",
+     "synset": "oewn-00420808-a",
+     "charge": -1,
+     "tone": "Clinical and euphemistic - the word hospitals and laundries use to avoid *dirty*.",
+     "usage": [
+      "euphemistic"
+     ]
+    },
+    {
+     "word": "unclean",
+     "synset": "oewn-00420808-a",
+     "charge": -2,
+     "tone": "Religious in origin; it condemns the thing as unfit rather than merely dirty."
+    },
+    {
+     "word": "bedraggled",
+     "synset": "oewn-00421806-s",
+     "charge": -1,
+     "tone": "Pitiable rather than blamed - the rain did this, not the person."
+    },
+    {
+     "word": "draggled",
+     "synset": "oewn-00421806-s",
+     "charge": -1,
+     "tone": "The older and rarer half of *bedraggled*, with the same sympathy.",
+     "usage": [
+      "archaic"
+     ]
+    },
+    {
+     "word": "befouled",
+     "synset": "oewn-00421999-s",
+     "charge": -2,
+     "tone": "Formal and disgusted, and it implies an agent: someone fouled this.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "fouled",
+     "synset": "oewn-00421999-s",
+     "charge": -2,
+     "tone": "The plainer form, common in reports about water and air."
+    },
+    {
+     "word": "begrimed",
+     "synset": "oewn-00422169-s",
+     "charge": -1,
+     "tone": "Dirt from work, and often faintly admiring of the labour that caused it.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "dingy",
+     "synset": "oewn-00422169-s",
+     "charge": -2,
+     "tone": "Said of rooms and fabric, and the real complaint is that it is depressing."
+    },
+    {
+     "word": "grimy",
+     "synset": "oewn-00422169-s",
+     "charge": -1,
+     "tone": "Descriptive and physical; grime is a fact about a surface, not a fault."
+    },
+    {
+     "word": "grubby",
+     "synset": "oewn-00422169-s",
+     "charge": -1,
+     "tone": "Mild enough to be affectionate about a child, and mildly damning about a motive.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "grungy",
+     "synset": "oewn-00422169-s",
+     "charge": -2,
+     "tone": "Informal and unimpressed, though a whole music scene wore it as a badge.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "raunchy",
+     "synset": "oewn-00422169-s",
+     "charge": -1,
+     "tone": "This dirt sense is dated; a modern reader will hear the sexual one first.",
+     "usage": [
+      "dated"
+     ]
+    },
+    {
+     "word": "black",
+     "synset": "oewn-00422521-s",
+     "charge": -1,
+     "tone": "Literal soot in this sense, and one of a great many senses this word carries."
+    },
+    {
+     "word": "smutty",
+     "synset": "oewn-00422521-s",
+     "charge": -1,
+     "tone": "The soot sense has been almost entirely displaced by the obscene one.",
+     "usage": [
+      "dated"
+     ]
+    },
+    {
+     "word": "buggy",
+     "synset": "oewn-00422721-s",
+     "charge": -2,
+     "tone": "Infested rather than soiled, which most readers find the worse of the two."
+    }
+   ],
+   "axis": "foul → merely grubby"
+  },
+  {
+   "id": "family-00363547-a",
+   "anchors": [
+    "smiling",
+    "blithe",
+    "perky",
+    "cheerful",
+    "beaming",
+    "buoyant"
+   ],
+   "members": [
+    {
+     "word": "cheerful",
+     "synset": "oewn-00363547-a",
+     "charge": 2,
+     "tone": "The steady everyday word - a disposition rather than a burst of feeling."
+    },
+    {
+     "word": "beaming",
+     "synset": "oewn-00363972-s",
+     "charge": 2,
+     "tone": "The cheer has reached the face and is impossible to miss."
+    },
+    {
+     "word": "glad",
+     "synset": "oewn-00363972-s",
+     "charge": 2,
+     "tone": "Older and quieter than *happy*, and it usually points at a reason."
+    },
+    {
+     "word": "beamish",
+     "synset": "oewn-00364111-s",
+     "charge": 1,
+     "tone": "Kept alive almost entirely by *Jabberwocky*; it sounds invented, because it nearly is.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "smiling",
+     "synset": "oewn-00364111-s",
+     "charge": 1,
+     "tone": "Describes the evidence rather than the mood, which is why it can be worn falsely."
+    },
+    {
+     "word": "twinkly",
+     "synset": "oewn-00364111-s",
+     "charge": 1,
+     "tone": "Warm but faintly patronising - it is mostly said of older people's eyes.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "blithe",
+     "synset": "oewn-00364371-s",
+     "charge": 1,
+     "tone": "Splits sharply: blithe spirits are charming, *blithe disregard* is careless."
+    },
+    {
+     "word": "blithesome",
+     "synset": "oewn-00364371-s",
+     "charge": 1,
+     "tone": "The archaic-sounding form, and used now only when the writer wants that flavour.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "lighthearted",
+     "synset": "oewn-00364371-s",
+     "charge": 2,
+     "tone": "Free of weight rather than full of joy - the burden is what is missing."
+    },
+    {
+     "word": "lightsome",
+     "synset": "oewn-00364371-s",
+     "charge": 1,
+     "tone": "Rare, and pulled between light-of-heart and light-of-foot.",
+     "usage": [
+      "archaic"
+     ]
+    },
+    {
+     "word": "light-hearted",
+     "synset": "oewn-00364371-s",
+     "charge": 2,
+     "tone": "The hyphenated spelling, equally common and equally warm."
+    },
+    {
+     "word": "buoyant",
+     "synset": "oewn-00364701-s",
+     "charge": 2,
+     "tone": "Cheer that resists being pushed down; the metaphor is a thing that will not sink."
+    },
+    {
+     "word": "chirpy",
+     "synset": "oewn-00364701-s",
+     "charge": 1,
+     "tone": "British and small-scale, and grating if the hearer is not cheerful too.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "perky",
+     "synset": "oewn-00364701-s",
+     "charge": 1,
+     "tone": "Brisk and a little relentless - it can condescend when said of an adult.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "cheery",
+     "synset": "oewn-00365018-s",
+     "charge": 2,
+     "tone": "Outward-facing: a cheery greeting is aimed at somebody."
+    },
+    {
+     "word": "gay",
+     "synset": "oewn-00365018-s",
+     "charge": 1,
+     "tone": "This bright-and-pleasant sense is now thoroughly dated; the modern sense has replaced it.",
+     "usage": [
+      "dated"
+     ]
+    }
+   ],
+   "axis": "quietly glad → irrepressible"
+  },
+  {
+   "id": "family-00964581-a",
+   "anchors": [
+    "liege",
+    "allegiant",
+    "doglike",
+    "hard-core",
+    "true-blue",
+    "loyal"
+   ],
+   "members": [
+    {
+     "word": "loyal",
+     "synset": "oewn-00964581-a",
+     "charge": 3,
+     "tone": "The plain word and the strongest, because it needs no institution to make sense."
+    },
+    {
+     "word": "allegiant",
+     "synset": "oewn-00964856-s",
+     "charge": 1,
+     "tone": "Formal and rare - it names the duty rather than the feeling.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "doglike",
+     "synset": "oewn-00965097-s",
+     "charge": 1,
+     "tone": "Devotion with the dignity taken out; praise and belittlement in the same word."
+    },
+    {
+     "word": "hard-core",
+     "synset": "oewn-00965214-s",
+     "charge": 1,
+     "tone": "Intensity without direction, which is why it attaches as easily to extremists as to fans.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "hardcore",
+     "synset": "oewn-00965214-s",
+     "charge": 1,
+     "tone": "The unhyphenated spelling, commoner now than the hyphen.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "leal",
+     "synset": "oewn-00965324-s",
+     "charge": 1,
+     "tone": "Scottish and archaic, kept alive by *the land o' the leal*.",
+     "usage": [
+      "archaic",
+      "dialect"
+     ]
+    },
+    {
+     "word": "liege",
+     "synset": "oewn-00965495-s",
+     "charge": 1,
+     "tone": "Feudal and historical: allegiance owed by rank, not chosen.",
+     "usage": [
+      "archaic"
+     ]
+    },
+    {
+     "word": "true-blue",
+     "synset": "oewn-00965665-s",
+     "charge": 2,
+     "tone": "Loyalty proved over time, and in Britain it also means Conservative.",
+     "usage": [
+      "informal"
+     ]
+    }
+   ],
+   "axis": "formally bound → unshakeable"
+  }
+ ]
+}

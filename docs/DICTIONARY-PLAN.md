@@ -366,11 +366,12 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-08-30 | **Reviewed entries stop carrying machine labels.** An unjudged sense on an authored entry no longer shows its SentiWordNet guess (318 dropped) |
 | 2026-08-30 | **Shard 5.** 12 families / 148 members: refined, angry, generous, stubborn, careless, idle, polite; praise, criticize, boast, look, complain |
 | 2026-08-30 | **`dict_pipeline.py`.** One command for the whole round; it discovers overlays instead of being handed them |
+| 2026-08-30 | **Shard 6.** 10 families / 127 members: cruel, kind, greedy, stingy, selfish, humble, rude, dirty, cheerful, loyal |
 
-**Current totals: 34 families, 573 reviewed entries, 0 validation errors** —
-including 125 adverbs inherited for free.
+**Current totals: 43 families, 725 reviewed entries, 0 validation errors** —
+including 177 adverbs inherited for free.
 
-Stage 1 (adjectives) is 25 of ~1,100 families; stage 2 (verbs) is 9 of ~2,495.
+Stage 1 (adjectives) is 34 of ~1,100 families; stage 2 (verbs) is 9 of ~2,495.
 The machinery is complete; what remains is authoring.
 
 ### Grouping strategy differs by part of speech
@@ -407,6 +408,11 @@ skipped.
   no "steal" sense of *nick*, and *frugal* is not in the cluster its definition
   suggests. `dict_enrich_apply.py` fails loudly on an unknown id rather than
   silently dropping the annotation.
+- **A headword picks a family, not a meaning.** Asking the worksheet for
+  *harsh* returns the grainy-texture cluster, *gloomy* returns literal
+  darkness, and *gentle* returns the aristocracy. Reading the glosses before
+  annotating is the screening step, and it discarded 4 of 14 candidates in
+  shard 6.
 - **Authored entries must not keep inherited examples.** WordNet attaches
   examples to the synset, so many illustrate a synonym ("a long scrawny neck"
   under *skinny*). Pruning happens to the data, not just the render, so the
