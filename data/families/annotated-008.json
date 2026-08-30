@@ -1,0 +1,975 @@
+{
+ "batch": "annotated-008",
+ "families": [
+  {
+   "id": "family-01149996-a",
+   "anchors": [
+    "glad",
+    "appreciative",
+    "thankful",
+    "grateful"
+   ],
+   "members": [
+    {
+     "word": "grateful",
+     "synset": "oewn-01149996-a",
+     "charge": 3,
+     "tone": "The plain word, and one of the few virtues nobody argues about."
+    },
+    {
+     "word": "thankful",
+     "synset": "oewn-01149996-a",
+     "charge": 3,
+     "tone": "Carries a trace of prayer - thanks owed to providence as much as to a person."
+    },
+    {
+     "word": "appreciative",
+     "synset": "oewn-01150235-s",
+     "charge": 2,
+     "tone": "Cooler and more measured; it values the thing rather than feeling the debt."
+    },
+    {
+     "word": "glad",
+     "synset": "oewn-01150423-s",
+     "charge": 2,
+     "tone": "The weakest claim here, and the one most easily said out of politeness."
+    }
+   ],
+   "axis": "polite thanks → felt gratitude"
+  },
+  {
+   "id": "family-02472382-a",
+   "anchors": [
+    "misanthropic",
+    "cynical",
+    "jealous",
+    "suspicious",
+    "distrustful",
+    "wary",
+    "skeptical"
+   ],
+   "members": [
+    {
+     "word": "distrustful",
+     "synset": "oewn-02472382-a",
+     "charge": -1,
+     "tone": "States the position without explaining it - the trust is simply absent."
+    },
+    {
+     "word": "cynical",
+     "synset": "oewn-02472810-s",
+     "charge": -2,
+     "tone": "Assumes the worst motive as a general rule, which saves the trouble of looking."
+    },
+    {
+     "word": "misanthropic",
+     "synset": "oewn-02472810-s",
+     "charge": -3,
+     "tone": "The furthest word here: not distrust of a person but of the species.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "misanthropical",
+     "synset": "oewn-02472810-s",
+     "charge": -3,
+     "tone": "The longer form of the same judgement, and rarer.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "doubting",
+     "synset": "oewn-02473075-s",
+     "charge": 0,
+     "tone": "Describes a state of mind, and doubt is not a fault in itself."
+    },
+    {
+     "word": "questioning",
+     "synset": "oewn-02473075-s",
+     "charge": 0,
+     "tone": "Nearly neutral - in most contexts it is what a careful person does."
+    },
+    {
+     "word": "skeptical",
+     "synset": "oewn-02473075-s",
+     "charge": 0,
+     "tone": "A vice socially and a virtue scientifically; the field decides the charge."
+    },
+    {
+     "word": "sceptical",
+     "synset": "oewn-02473075-s",
+     "charge": 0,
+     "tone": "The British spelling, identical in force."
+    },
+    {
+     "word": "jealous",
+     "synset": "oewn-02473333-s",
+     "charge": -2,
+     "tone": "Fear of being displaced. The older sense - jealous of one's honour - was closer to vigilance."
+    },
+    {
+     "word": "green-eyed",
+     "synset": "oewn-02473333-s",
+     "charge": -2,
+     "tone": "Shakespeare's monster, and the phrase has outlived the play.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "overjealous",
+     "synset": "oewn-02473333-s",
+     "charge": -2,
+     "tone": "Marks the excess explicitly, which suggests some jealousy was warranted."
+    },
+    {
+     "word": "leery",
+     "synset": "oewn-02473505-s",
+     "charge": -1,
+     "tone": "Informal and wary rather than hostile; it expects a trick, not a betrayal.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "mistrustful",
+     "synset": "oewn-02473505-s",
+     "charge": -1,
+     "tone": "The plainer twin of *distrustful*, and a shade more tentative."
+    },
+    {
+     "word": "suspicious",
+     "synset": "oewn-02473505-s",
+     "charge": -1,
+     "tone": "Cuts both ways - a suspicious person and a suspicious package are opposite roles."
+    },
+    {
+     "word": "untrusting",
+     "synset": "oewn-02473505-s",
+     "charge": -1,
+     "tone": "Built as a plain negative, and it sounds like a diagnosis."
+    },
+    {
+     "word": "wary",
+     "synset": "oewn-02473505-s",
+     "charge": 0,
+     "tone": "Usually prudence rather than fault; wariness is what experience leaves behind."
+    }
+   ],
+   "axis": "misanthropic → merely watchful"
+  },
+  {
+   "id": "family-00814485-a",
+   "anchors": [
+    "impatient",
+    "overeager",
+    "anxious",
+    "dying",
+    "hot",
+    "raring",
+    "eager"
+   ],
+   "members": [
+    {
+     "word": "eager",
+     "synset": "oewn-00814485-a",
+     "charge": 2,
+     "tone": "Warm and forward-looking; the desire is presented as a credit to the person."
+    },
+    {
+     "word": "anxious",
+     "synset": "oewn-00814817-s",
+     "charge": 0,
+     "tone": "This sense means *eagerly desirous* - *anxious to help* - and is easily misread as worry."
+    },
+    {
+     "word": "dying",
+     "synset": "oewn-00814817-s",
+     "charge": 0,
+     "tone": "*Dying to know* - hyperbole so complete that no one hears the death in it.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "hot",
+     "synset": "oewn-00814990-s",
+     "charge": 1,
+     "tone": "Enthusiasm at temperature; usually about a thing rather than a task.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "impatient",
+     "synset": "oewn-00815105-s",
+     "charge": -1,
+     "tone": "The same energy with the waiting resented - eagerness that has turned on its object."
+    },
+    {
+     "word": "raring",
+     "synset": "oewn-00815105-s",
+     "charge": 1,
+     "tone": "Only in *raring to go*, and it is nearly always approving.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "overeager",
+     "synset": "oewn-00815276-s",
+     "charge": -1,
+     "tone": "Names the excess, and implies the eagerness spoiled what it wanted."
+    }
+   ],
+   "axis": "impatient → keen"
+  },
+  {
+   "id": "family-00667636-a",
+   "anchors": [
+    "prying",
+    "nosy",
+    "snoopy",
+    "overcurious",
+    "speculative",
+    "curious",
+    "inquisitive"
+   ],
+   "members": [
+    {
+     "word": "curious",
+     "synset": "oewn-00667636-a",
+     "charge": 1,
+     "tone": "Approving of the mind and faintly wary of the manner - the gloss admits both."
+    },
+    {
+     "word": "inquisitive",
+     "synset": "oewn-00668084-s",
+     "charge": 1,
+     "tone": "Praise for a child, and a hint of too many questions for an adult."
+    },
+    {
+     "word": "speculative",
+     "synset": "oewn-00668084-s",
+     "charge": 0,
+     "tone": "Curiosity aimed at ideas rather than people, and neutral for it."
+    },
+    {
+     "word": "questioning",
+     "synset": "oewn-00668084-s",
+     "charge": 0,
+     "tone": "The plainest form: the questions are being asked, and nothing is implied about why."
+    },
+    {
+     "word": "wondering",
+     "synset": "oewn-00668084-s",
+     "charge": 1,
+     "tone": "Curiosity with the wonder still in it, and no agenda attached."
+    },
+    {
+     "word": "nosy",
+     "synset": "oewn-00668361-s",
+     "charge": -2,
+     "tone": "The everyday accusation, and it is about other people's business specifically.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "nosey",
+     "synset": "oewn-00668361-s",
+     "charge": -2,
+     "tone": "The alternative spelling, equally common.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "prying",
+     "synset": "oewn-00668361-s",
+     "charge": -2,
+     "tone": "Names the act rather than the character - the person is doing it right now."
+    },
+    {
+     "word": "snoopy",
+     "synset": "oewn-00668361-s",
+     "charge": -2,
+     "tone": "Informal and slightly comic, which takes some of the sting out.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "overcurious",
+     "synset": "oewn-00668707-s",
+     "charge": -1,
+     "tone": "The formal way of saying nosy, and it grants that curiosity itself was fine.",
+     "usage": [
+      "formal"
+     ]
+    }
+   ],
+   "axis": "prying → genuinely interested"
+  },
+  {
+   "id": "family-01302836-a",
+   "anchors": [
+    "puritanical",
+    "austere",
+    "monkish",
+    "strict",
+    "corrective",
+    "self-denying",
+    "self-disciplined"
+   ],
+   "members": [
+    {
+     "word": "nonindulgent",
+     "synset": "oewn-01302836-a",
+     "charge": 0,
+     "tone": "A dictionary word rather than a spoken one; it names the absence and stops.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "strict",
+     "synset": "oewn-01302836-a",
+     "charge": 0,
+     "tone": "Neutral in the balance - a strict teacher is a complaint or a compliment depending on the year."
+    },
+    {
+     "word": "austere",
+     "synset": "oewn-01303135-s",
+     "charge": -1,
+     "tone": "Bare rather than harsh, and in architecture and prose it is often praise."
+    },
+    {
+     "word": "stern",
+     "synset": "oewn-01303135-s",
+     "charge": -1,
+     "tone": "The face more than the rule; sternness is something the other person can see."
+    },
+    {
+     "word": "blue",
+     "synset": "oewn-01303318-s",
+     "charge": -1,
+     "tone": "As in *blue laws* - Sabbath strictness, now almost entirely historical.",
+     "usage": [
+      "dated"
+     ]
+    },
+    {
+     "word": "puritanic",
+     "synset": "oewn-01303318-s",
+     "charge": -2,
+     "tone": "Borrows a whole religious movement to say *no pleasure allowed*."
+    },
+    {
+     "word": "puritanical",
+     "synset": "oewn-01303318-s",
+     "charge": -2,
+     "tone": "The commoner form, and now used almost exclusively as an accusation."
+    },
+    {
+     "word": "corrective",
+     "synset": "oewn-01303596-s",
+     "charge": 0,
+     "tone": "Institutional and euphemistic - it is what discipline is called in a report.",
+     "usage": [
+      "euphemistic"
+     ]
+    },
+    {
+     "word": "disciplinary",
+     "synset": "oewn-01303596-s",
+     "charge": 0,
+     "tone": "Purely procedural; the word belongs to committees.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "disciplinal",
+     "synset": "oewn-01303596-s",
+     "charge": 0,
+     "tone": "The rarer variant, and no less procedural.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "monkish",
+     "synset": "oewn-01303896-s",
+     "charge": -1,
+     "tone": "Self-denial by vocation, and slightly mocking when applied outside a monastery."
+    },
+    {
+     "word": "renunciant",
+     "synset": "oewn-01303991-s",
+     "charge": 0,
+     "tone": "Technical, and at home in writing about religion rather than character.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "renunciative",
+     "synset": "oewn-01303991-s",
+     "charge": 0,
+     "tone": "The adjectival twin, equally confined to the same writing.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "self-abnegating",
+     "synset": "oewn-01303991-s",
+     "charge": 0,
+     "tone": "Formal to the point of coldness - it describes the giving up, not the reason.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "self-denying",
+     "synset": "oewn-01303991-s",
+     "charge": 1,
+     "tone": "The same restraint, warmed by the suggestion that it was chosen."
+    },
+    {
+     "word": "self-disciplined",
+     "synset": "oewn-01304141-s",
+     "charge": 2,
+     "tone": "The virtue the family arrives at: restraint that answers to nobody else."
+    }
+   ],
+   "axis": "joyless → self-disciplined"
+  },
+  {
+   "id": "family-01138269-a",
+   "anchors": [
+    "irascible",
+    "waspish",
+    "ill-natured",
+    "cantankerous",
+    "ornery",
+    "prickly",
+    "liverish"
+   ],
+   "members": [
+    {
+     "word": "ill-natured",
+     "synset": "oewn-01138269-a",
+     "charge": -2,
+     "tone": "Places the fault in the nature, which leaves no room for a bad day."
+    },
+    {
+     "word": "atrabilious",
+     "synset": "oewn-01138769-s",
+     "charge": -2,
+     "tone": "Black bile, straight from the four humours; unusable now without irony.",
+     "usage": [
+      "archaic"
+     ]
+    },
+    {
+     "word": "bilious",
+     "synset": "oewn-01138769-s",
+     "charge": -2,
+     "tone": "The same medicine, still current, and it makes the temper sound like a symptom.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "dyspeptic",
+     "synset": "oewn-01138769-s",
+     "charge": -1,
+     "tone": "Now aimed mostly at critics and prose styles, where it is half a compliment."
+    },
+    {
+     "word": "liverish",
+     "synset": "oewn-01138769-s",
+     "charge": -1,
+     "tone": "British and dated - the liver as the seat of a bad mood.",
+     "usage": [
+      "dated"
+     ]
+    },
+    {
+     "word": "bristly",
+     "synset": "oewn-01138920-s",
+     "charge": -1,
+     "tone": "The animal image is doing the work: approach and something goes up."
+    },
+    {
+     "word": "prickly",
+     "synset": "oewn-01138920-s",
+     "charge": -1,
+     "tone": "Touchy about a particular subject rather than in general."
+    },
+    {
+     "word": "splenetic",
+     "synset": "oewn-01138920-s",
+     "charge": -2,
+     "tone": "Another organ, another temper, and the most literary of the set.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "waspish",
+     "synset": "oewn-01138920-s",
+     "charge": -2,
+     "tone": "Small, quick and stinging - it describes the remarks more than the mood."
+    },
+    {
+     "word": "cantankerous",
+     "synset": "oewn-01139173-s",
+     "charge": -1,
+     "tone": "Almost affectionate when said of the old, which no other word here manages."
+    },
+    {
+     "word": "crotchety",
+     "synset": "oewn-01139173-s",
+     "charge": -1,
+     "tone": "Difficulty over small things, and comic rather than frightening."
+    },
+    {
+     "word": "ornery",
+     "synset": "oewn-01139173-s",
+     "charge": -1,
+     "tone": "American and fond as often as not; an ornery mule is being described, not blamed.",
+     "usage": [
+      "dialect"
+     ]
+    },
+    {
+     "word": "choleric",
+     "synset": "oewn-01139414-s",
+     "charge": -2,
+     "tone": "The fourth humour. Anger arrives fast and is presented as constitutional.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "irascible",
+     "synset": "oewn-01139414-s",
+     "charge": -2,
+     "tone": "The formal word for a short fuse, and the most neutral in tone.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "hotheaded",
+     "synset": "oewn-01139414-s",
+     "charge": -2,
+     "tone": "Anger plus poor judgement - the heat is in the thinking."
+    },
+    {
+     "word": "hot-tempered",
+     "synset": "oewn-01139414-s",
+     "charge": -2,
+     "tone": "The plain compound, and the one most likely to be said out loud."
+    }
+   ],
+   "axis": "explosive → merely prickly"
+  },
+  {
+   "id": "family-02353767-a",
+   "anchors": [
+    "shoddy",
+    "tawdry",
+    "sleazy",
+    "crummy",
+    "cheap",
+    "inferior",
+    "tinny",
+    "base"
+   ],
+   "members": [
+    {
+     "word": "inferior",
+     "synset": "oewn-02353767-a",
+     "charge": -2,
+     "tone": "Comparative and cold - it needs something better to exist before it means anything."
+    },
+    {
+     "word": "bad",
+     "synset": "oewn-02354208-s",
+     "charge": -2,
+     "tone": "The broadest word in English doing narrow work: below average, and nothing more."
+    },
+    {
+     "word": "base",
+     "synset": "oewn-02354354-s",
+     "charge": -1,
+     "tone": "Of metals, where it is technical. The moral sense is a separate and much older word.",
+     "usage": [
+      "technical"
+     ]
+    },
+    {
+     "word": "bum",
+     "synset": "oewn-02354508-s",
+     "charge": -2,
+     "tone": "American and dismissive - *a bum deal*, *a bum knee*.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "cheap",
+     "synset": "oewn-02354508-s",
+     "charge": -2,
+     "tone": "Price used as a verdict on quality, which is the oldest trick in the word."
+    },
+    {
+     "word": "cheesy",
+     "synset": "oewn-02354508-s",
+     "charge": -2,
+     "tone": "Often affectionate about films and pop songs; the badness is part of the appeal.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "chintzy",
+     "synset": "oewn-02354508-s",
+     "charge": -2,
+     "tone": "Named for chintz fabric, and it still smells faintly of the furnishings.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "crummy",
+     "synset": "oewn-02354508-s",
+     "charge": -2,
+     "tone": "Plain and unliterary, and it complains about the thing rather than sneering at it.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "punk",
+     "synset": "oewn-02354508-s",
+     "charge": -1,
+     "tone": "Dated slang for poor quality, long since overtaken by the music.",
+     "usage": [
+      "dated"
+     ]
+    },
+    {
+     "word": "sleazy",
+     "synset": "oewn-02354508-s",
+     "charge": -3,
+     "tone": "Adds moral squalor to shoddiness - the thing is cheap and slightly corrupt."
+    },
+    {
+     "word": "tinny",
+     "synset": "oewn-02354508-s",
+     "charge": -1,
+     "tone": "Specific to sound, and precise enough to be almost neutral."
+    },
+    {
+     "word": "bush-league",
+     "synset": "oewn-02354737-s",
+     "charge": -2,
+     "tone": "From minor-league baseball, and the condescension is built in.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "bush",
+     "synset": "oewn-02354737-s",
+     "charge": -2,
+     "tone": "The clipped form, and rarer outside American speech.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "cheapjack",
+     "synset": "oewn-02354846-s",
+     "charge": -3,
+     "tone": "A cheapjack was a travelling seller of trash; the person came first."
+    },
+    {
+     "word": "shoddy",
+     "synset": "oewn-02354846-s",
+     "charge": -3,
+     "tone": "Shoddy was reclaimed wool sold as new, so the word began as a fraud."
+    },
+    {
+     "word": "tawdry",
+     "synset": "oewn-02354846-s",
+     "charge": -3,
+     "tone": "From St Audrey's lace, sold cheap at her fair - gaudiness and cheapness together."
+    }
+   ],
+   "axis": "worthless → merely second-rate"
+  },
+  {
+   "id": "family-01926330-a",
+   "anchors": [
+    "blatant",
+    "strident",
+    "noisy",
+    "clamorous",
+    "clattery",
+    "abuzz",
+    "rip-roaring"
+   ],
+   "members": [
+    {
+     "word": "noisy",
+     "synset": "oewn-01926330-a",
+     "charge": -1,
+     "tone": "The plain complaint, and a mild one - noise is expected in most places."
+    },
+    {
+     "word": "blatant",
+     "synset": "oewn-01926766-s",
+     "charge": -2,
+     "tone": "Has largely left sound behind; *blatant* now means flagrant, and the loudness is figurative."
+    },
+    {
+     "word": "clamant",
+     "synset": "oewn-01926766-s",
+     "charge": -1,
+     "tone": "Literary and rare, and usually about demands rather than volume.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "clamorous",
+     "synset": "oewn-01926766-s",
+     "charge": -1,
+     "tone": "A crowd word - many voices at once, insisting on something."
+    },
+    {
+     "word": "strident",
+     "synset": "oewn-01926766-s",
+     "charge": -2,
+     "tone": "Aimed at women's voices far more often than men's, which is worth knowing before using it."
+    },
+    {
+     "word": "vociferous",
+     "synset": "oewn-01926766-s",
+     "charge": -1,
+     "tone": "Frequently approving: vociferous support is a compliment to the supporter.",
+     "usage": [
+      "formal"
+     ]
+    },
+    {
+     "word": "abuzz",
+     "synset": "oewn-01927096-s",
+     "charge": 0,
+     "tone": "Pleasant far more often than not - a room abuzz is a room going well."
+    },
+    {
+     "word": "buzzing",
+     "synset": "oewn-01927096-s",
+     "charge": 0,
+     "tone": "The same sound, and equally likely to describe excitement as annoyance."
+    },
+    {
+     "word": "clangorous",
+     "synset": "oewn-01927233-s",
+     "charge": -1,
+     "tone": "Metallic and resonant; the word is mostly used to make prose sound loud.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "clanging",
+     "synset": "oewn-01927233-s",
+     "charge": -1,
+     "tone": "The plain form, and it names the sound without judging it much."
+    },
+    {
+     "word": "clanking",
+     "synset": "oewn-01927410-s",
+     "charge": -1,
+     "tone": "Harder and duller than clanging - chains and machinery rather than bells."
+    },
+    {
+     "word": "clattery",
+     "synset": "oewn-01927570-s",
+     "charge": -1,
+     "tone": "Small hard things in quantity; kitchens and typewriters."
+    },
+    {
+     "word": "creaky",
+     "synset": "oewn-01927734-s",
+     "charge": -1,
+     "tone": "Also used of arguments and institutions, where it means old and barely holding."
+    },
+    {
+     "word": "screaky",
+     "synset": "oewn-01927734-s",
+     "charge": -1,
+     "tone": "The rarer and shriller variant, and it sounds like what it means."
+    },
+    {
+     "word": "rackety",
+     "synset": "oewn-01927865-s",
+     "charge": -1,
+     "tone": "Old-fashioned and slightly fond, as of children.",
+     "usage": [
+      "dated"
+     ]
+    },
+    {
+     "word": "rip-roaring",
+     "synset": "oewn-01927865-s",
+     "charge": 0,
+     "tone": "Noise as a good time - *a rip-roaring success* has no complaint in it at all.",
+     "usage": [
+      "informal"
+     ]
+    }
+   ],
+   "axis": "offensive → merely audible"
+  },
+  {
+   "id": "family-02590887-a",
+   "anchors": [
+    "decrepit",
+    "derelict",
+    "battered",
+    "run-down",
+    "worn",
+    "dog-eared",
+    "frayed"
+   ],
+   "members": [
+    {
+     "word": "worn",
+     "synset": "oewn-02590887-a",
+     "charge": -1,
+     "tone": "Neutral and factual; use leaves marks, and the word says only that."
+    },
+    {
+     "word": "aged",
+     "synset": "oewn-02591485-s",
+     "charge": -1,
+     "tone": "The geological sense - a landscape at an advanced stage of erosion.",
+     "usage": [
+      "technical"
+     ]
+    },
+    {
+     "word": "attrited",
+     "synset": "oewn-02591610-s",
+     "charge": -1,
+     "tone": "Technical and rare, from the same root as *attrition*.",
+     "usage": [
+      "technical"
+     ]
+    },
+    {
+     "word": "battered",
+     "synset": "oewn-02591692-s",
+     "charge": -2,
+     "tone": "Implies force rather than time, and of a person it means something much worse."
+    },
+    {
+     "word": "clapped out",
+     "synset": "oewn-02591803-s",
+     "charge": -2,
+     "tone": "British, and it works equally on a car, a machine or a person - which is the joke.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "creaky",
+     "synset": "oewn-02591968-s",
+     "charge": -1,
+     "tone": "The sound stands in for the condition; it suggests one more use might be too many."
+    },
+    {
+     "word": "decrepit",
+     "synset": "oewn-02591968-s",
+     "charge": -3,
+     "tone": "Broken down past repair, and cruel when turned on a person."
+    },
+    {
+     "word": "derelict",
+     "synset": "oewn-02591968-s",
+     "charge": -3,
+     "tone": "Abandoned as well as ruined - nobody is coming back for it."
+    },
+    {
+     "word": "flea-bitten",
+     "synset": "oewn-02591968-s",
+     "charge": -3,
+     "tone": "Contemptuous and vivid; it adds squalor to mere wear.",
+     "usage": [
+      "informal"
+     ]
+    },
+    {
+     "word": "run-down",
+     "synset": "oewn-02591968-s",
+     "charge": -2,
+     "tone": "Of buildings and neighbourhoods mostly, where it carries an accusation about neglect."
+    },
+    {
+     "word": "woebegone",
+     "synset": "oewn-02591968-s",
+     "charge": -2,
+     "tone": "Describes the look of sorrow rather than the damage, which makes it oddly gentle.",
+     "usage": [
+      "literary"
+     ]
+    },
+    {
+     "word": "dog-eared",
+     "synset": "oewn-02592267-s",
+     "charge": -1,
+     "tone": "The one word here that is nearly affectionate - a dog-eared book was loved."
+    },
+    {
+     "word": "eared",
+     "synset": "oewn-02592267-s",
+     "charge": -1,
+     "tone": "The clipped form, and rare enough to be mistaken for the anatomy word."
+    },
+    {
+     "word": "eroded",
+     "synset": "oewn-02592502-s",
+     "charge": -1,
+     "tone": "Geological and neutral; erosion is a process, not a fault.",
+     "usage": [
+      "technical"
+     ]
+    },
+    {
+     "word": "scoured",
+     "synset": "oewn-02592502-s",
+     "charge": -1,
+     "tone": "Worn by water or wind, and the same word means thoroughly cleaned."
+    },
+    {
+     "word": "frayed",
+     "synset": "oewn-02592601-s",
+     "charge": -1,
+     "tone": "Edges only, and forgiving - *frayed nerves* borrows exactly that mildness."
+    }
+   ],
+   "axis": "derelict → merely frayed"
+  }
+ ]
+}

@@ -369,10 +369,12 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-08-30 | **Shard 6.** 10 families / 127 members: cruel, kind, greedy, stingy, selfish, humble, rude, dirty, cheerful, loyal |
 | 2026-08-30 | **Shard 7.** 11 families / 142 members: sly, merciless, contented, unrefined, naive, wise, domineering, elegant, untidy, sincere, patient. First use of the 5.3 exclusion in anger — one sensitive synset left `derived` |
 
-**Current totals: 54 families, 915 reviewed entries, 0 validation errors** —
-including 235 adverbs inherited for free.
+| 2026-08-30 | **Shard 8.** 9 families / 117 members: inferior, ill-natured, distrustful, strict, curious, noisy, worn, eager, grateful. **Reviewed entries cross 1,000** |
 
-Stage 1 (adjectives) is 45 of ~1,100 families; stage 2 (verbs) is 9 of ~2,495.
+**Current totals: 63 families, 1,058 reviewed entries, 0 validation errors** —
+including 270 adverbs inherited for free.
+
+Stage 1 (adjectives) is 54 of ~1,100 families; stage 2 (verbs) is 9 of ~2,495.
 The machinery is complete; what remains is authoring.
 
 ### Grouping strategy differs by part of speech
@@ -409,6 +411,12 @@ skipped.
   no "steal" sense of *nick*, and *frugal* is not in the cluster its definition
   suggests. `dict_enrich_apply.py` fails loudly on an unknown id rather than
   silently dropping the annotation.
+- **One word can belong to two families in the same shard.** *creaky* is worn
+  (`oewn-02591968-s`) and it is noisy (`oewn-01927734-s`); *questioning* is both
+  doubting and curious. The overlay is keyed by headword, so the two sense
+  patches merge under one word and both spectra render — which is why shard 8
+  reports 117 annotated senses but 115 overlay words. Nothing is lost; the
+  count simply stops matching.
 - **The sensitive exclusion lands on a synset, not a word.** The *untidy*
   family contains `oewn-02433489-s`, glossed "befitting a slut or slattern;
   used especially of women". All four of its members were left `derived` and
