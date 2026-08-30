@@ -367,11 +367,12 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-08-30 | **Shard 5.** 12 families / 148 members: refined, angry, generous, stubborn, careless, idle, polite; praise, criticize, boast, look, complain |
 | 2026-08-30 | **`dict_pipeline.py`.** One command for the whole round; it discovers overlays instead of being handed them |
 | 2026-08-30 | **Shard 6.** 10 families / 127 members: cruel, kind, greedy, stingy, selfish, humble, rude, dirty, cheerful, loyal |
+| 2026-08-30 | **Shard 7.** 11 families / 142 members: sly, merciless, contented, unrefined, naive, wise, domineering, elegant, untidy, sincere, patient. First use of the 5.3 exclusion in anger — one sensitive synset left `derived` |
 
-**Current totals: 43 families, 725 reviewed entries, 0 validation errors** —
-including 177 adverbs inherited for free.
+**Current totals: 54 families, 915 reviewed entries, 0 validation errors** —
+including 235 adverbs inherited for free.
 
-Stage 1 (adjectives) is 34 of ~1,100 families; stage 2 (verbs) is 9 of ~2,495.
+Stage 1 (adjectives) is 45 of ~1,100 families; stage 2 (verbs) is 9 of ~2,495.
 The machinery is complete; what remains is authoring.
 
 ### Grouping strategy differs by part of speech
@@ -408,6 +409,11 @@ skipped.
   no "steal" sense of *nick*, and *frugal* is not in the cluster its definition
   suggests. `dict_enrich_apply.py` fails loudly on an unknown id rather than
   silently dropping the annotation.
+- **The sensitive exclusion lands on a synset, not a word.** The *untidy*
+  family contains `oewn-02433489-s`, glossed "befitting a slut or slattern;
+  used especially of women". All four of its members were left `derived` and
+  unlabeled, not just the two most obvious ones — 5.3 applies to the sense, so
+  it takes the whole synset with it. The rest of the family annotates normally.
 - **A headword picks a family, not a meaning.** Asking the worksheet for
   *harsh* returns the grainy-texture cluster, *gloomy* returns literal
   darkness, and *gentle* returns the aristocracy. Reading the glosses before
