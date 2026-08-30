@@ -371,8 +371,11 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 
 | 2026-08-30 | **Shard 8.** 9 families / 117 members: inferior, ill-natured, distrustful, strict, curious, noisy, worn, eager, grateful. **Reviewed entries cross 1,000** |
 
+| 2026-08-30 | **Audit 001 run — and failed.** 50 sampled senses, 44% wrong against a 5% threshold. Authoring paused; see 11.65 for the diagnosis and the tone-note rule it produced |
+
 **Current totals: 63 families, 1,058 reviewed entries, 0 validation errors** —
-including 270 adverbs inherited for free.
+including 270 adverbs inherited for free. **The validator's zero errors mean
+well-formed, not correct: audit 001 measured 44% of tone notes wrong.**
 
 Stage 1 (adjectives) is 54 of ~1,100 families; stage 2 (verbs) is 9 of ~2,495.
 The machinery is complete; what remains is authoring.
@@ -431,6 +434,62 @@ skipped.
   examples to the synset, so many illustrate a synonym ("a long scrawny neck"
   under *skinny*). Pruning happens to the data, not just the render, so the
   validator's rule stays honest.
+
+## 11.65 Audit 001 — the sampled audit, and what it found
+
+Run 2026-08-30 at the moment reviewed entries crossed 1,000, per 5.5. Fifty
+senses drawn at random from the 1,064 carrying a connotation claim, stratified
+by shard, seed 20260830, read against Merriam-Webster and Cambridge.
+
+**Result: 18 right, 22 wrong, 10 unsure. Error rate 44% against a 5%
+threshold. The sample fails, and by 5.5 that means the method is wrong, not
+the batch.**
+
+The rate is flat across every shard — batch-0001, the hand-written pilot,
+scores 46%; the model-authored shards score 40–50%. Nothing separates them.
+This is not a drift in care between rounds; **it is the format.**
+
+### What actually failed
+
+| Category | Count | What it means |
+| --- | --- | --- |
+| Over-narrow | 16 | The note restricts the word to a context it does not own |
+| Unverifiable | 9 | A claim about frequency or distribution with no corpus behind it |
+| Mislabel | 5 | The connotation label or charge itself is wrong |
+| Bad etymology | 2 | A decorative origin story that is misleading or false |
+
+**Only 10% are genuine mislabels.** The charge layer — the spectrum, which is
+the differentiator — is right about 90% of the time. What fails is the prose
+written around it:
+
+- *lifelessly* "describes a body, not a person" — it describes speech, music and movement too.
+- *dingily* "of rooms and fabric" and "depressing" — neither restriction holds.
+- *kindly* "now used mostly of the elderly" — a distribution claim that is simply untrue.
+- *thankful* "carries a trace of prayer" and *laud* "Church Latin behind it" — invented provenance.
+- *hoggish* "about an eater" — it means greedy, coarse or selfish generally.
+
+The pattern is exact: **the note was written to be interesting, and interest
+required specificity, and the specificity is where the falsehood entered.** A
+vivid claim about a word is the most readable thing on the card and the most
+likely thing on it to be wrong.
+
+### The tone-note rule, adopted
+
+A tone note may explain the charge. It may not do any of the following:
+
+1. **No distributional claims.** Not "usually", "now mostly", "the commonest",
+   "more often than not" — nothing about how a word is distributed that we
+   have not measured. We have no corpus; therefore we have no such claims.
+2. **No narrowing beyond the gloss.** If WordNet's gloss does not restrict the
+   sense to a context, the note may not either. The note explains the sense; it
+   does not redefine it.
+3. **No etymology that has not been checked** against a real source. Origin is
+   decoration, and decoration is not worth a false statement.
+4. **Defensible from the gloss and the charge alone**, or not written. If the
+   claim needs evidence we do not have, the honest note is a shorter one.
+
+This is 5.4's fabrication rule applied one level up: we already refused to
+invent a connotation, and now we refuse to invent the reasoning about it.
 
 ## 11.7 Possible later work — not scheduled
 

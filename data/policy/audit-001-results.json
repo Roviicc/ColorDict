@@ -1,0 +1,611 @@
+{
+ "sample": "audit-001",
+ "read": 50,
+ "right": 18,
+ "wrong": 22,
+ "unsure": 10,
+ "error_rate_pct": 44.0,
+ "threshold_pct": 5.0,
+ "verdict": "FAIL",
+ "by_shard": {
+  "annotated-001": {
+   "no": 2,
+   "ok": 1
+  },
+  "annotated-002": {
+   "ok": 3,
+   "no": 2
+  },
+  "annotated-003": {
+   "no": 1,
+   "ok": 1
+  },
+  "annotated-004": {
+   "ok": 1,
+   "no": 1
+  },
+  "annotated-005": {
+   "hm": 4,
+   "ok": 1,
+   "no": 2
+  },
+  "annotated-006": {
+   "ok": 1,
+   "no": 3,
+   "hm": 2
+  },
+  "annotated-007": {
+   "ok": 3,
+   "no": 3,
+   "hm": 1
+  },
+  "annotated-008": {
+   "ok": 2,
+   "hm": 1,
+   "no": 2
+  },
+  "batch-0001": {
+   "ok": 5,
+   "no": 6,
+   "hm": 2
+  }
+ },
+ "by_category": {
+  "over-narrow": 16,
+  "unverifiable": 9,
+  "mislabel": 5,
+  "bad-etymology": 2
+ },
+ "entries": [
+  {
+   "n": 1,
+   "id": "obtusely.oewn-00324708-r",
+   "word": "obtusely",
+   "shard": "batch-0001",
+   "label": "negative",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 2,
+   "id": "disorderly.oewn-02434302-s",
+   "word": "disorderly",
+   "shard": "annotated-007",
+   "label": "negative",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 3,
+   "id": "clapped_out.oewn-02591803-s",
+   "word": "clapped out",
+   "shard": "annotated-008",
+   "label": "negative",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 4,
+   "id": "slapdash.oewn-00313416-s",
+   "word": "slapdash",
+   "shard": "annotated-005",
+   "label": "negative",
+   "charge": null,
+   "verdict": "hm",
+   "category": "unverifiable",
+   "objection": "'the sound of the word carries speedy, brisk contempt' is subjective and not establishable"
+  },
+  {
+   "n": 5,
+   "id": "high-handed.oewn-00791700-s",
+   "word": "high-handed",
+   "shard": "annotated-007",
+   "label": "negative",
+   "charge": null,
+   "verdict": "no",
+   "category": "over-narrow",
+   "objection": "'about a single act more often than a character' is too restrictive; it also describes a manner, policy or style"
+  },
+  {
+   "n": 6,
+   "id": "honest.oewn-01119768-s",
+   "word": "honest",
+   "shard": "annotated-004",
+   "label": "positive",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 7,
+   "id": "departed.oewn-00096726-s",
+   "word": "departed",
+   "shard": "annotated-001",
+   "label": "positive",
+   "charge": null,
+   "verdict": "no",
+   "category": "mislabel",
+   "objection": "formal/euphemistic but not positive; respectful or neutral is accurate, and it is not inherently religious"
+  },
+  {
+   "n": 8,
+   "id": "puritanical.oewn-01303318-s",
+   "word": "puritanical",
+   "shard": "annotated-008",
+   "label": "negative",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 9,
+   "id": "buzzing.oewn-01927096-s",
+   "word": "buzzing",
+   "shard": "annotated-008",
+   "label": "neutral",
+   "charge": null,
+   "verdict": "hm",
+   "category": "unverifiable",
+   "objection": "'equally likely to describe excitement as annoyance' is a frequency claim the card does not establish"
+  },
+  {
+   "n": 10,
+   "id": "blithely.oewn-00050835-r",
+   "word": "blithely",
+   "shard": "batch-0001",
+   "label": "positive",
+   "charge": null,
+   "verdict": "no",
+   "category": "mislabel",
+   "objection": "positive is misleading; blithely often implies cheerful lack of concern where concern is warranted"
+  },
+  {
+   "n": 11,
+   "id": "vaunt.oewn-00884747-v",
+   "word": "vaunt",
+   "shard": "annotated-005",
+   "label": "negative",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 12,
+   "id": "dourly.oewn-00243780-r",
+   "word": "dourly",
+   "shard": "batch-0001",
+   "label": "negative",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 13,
+   "id": "cruelly.oewn-00234156-r",
+   "word": "cruelly",
+   "shard": "batch-0001",
+   "label": "negative",
+   "charge": null,
+   "verdict": "no",
+   "category": "over-narrow",
+   "objection": "cruelly can mean extremely or severely with no knowing infliction - 'cruelly overcrowded'"
+  },
+  {
+   "n": 14,
+   "id": "disciplinary.oewn-01303596-s",
+   "word": "disciplinary",
+   "shard": "annotated-008",
+   "label": "neutral",
+   "charge": null,
+   "verdict": "no",
+   "category": "mislabel",
+   "objection": "'purely procedural' is wrong; disciplinary commonly means correcting or punishing misconduct"
+  },
+  {
+   "n": 15,
+   "id": "selfish.oewn-02105605-a",
+   "word": "selfish",
+   "shard": "annotated-006",
+   "label": "negative",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 16,
+   "id": "unclean.oewn-00420808-a",
+   "word": "unclean",
+   "shard": "annotated-006",
+   "label": "negative",
+   "charge": null,
+   "verdict": "no",
+   "category": "over-narrow",
+   "objection": "the religious framing is one sense; unclean also simply means dirty or filthy"
+  },
+  {
+   "n": 17,
+   "id": "guffaw.oewn-00031533-v",
+   "word": "guffaw",
+   "shard": "annotated-003",
+   "label": "positive",
+   "charge": null,
+   "verdict": "no",
+   "category": "mislabel",
+   "objection": "not inherently positive; a guffaw can be hearty, coarse, mocking or neutral"
+  },
+  {
+   "n": 18,
+   "id": "mild.oewn-01899577-s",
+   "word": "mild",
+   "shard": "annotated-006",
+   "label": "positive",
+   "charge": null,
+   "verdict": "hm",
+   "category": "over-narrow",
+   "objection": "mild can also imply weakness, passivity or lack of force; the positive reading is plausible, not universal"
+  },
+  {
+   "n": 19,
+   "id": "at_rest.oewn-00096726-s",
+   "word": "at rest",
+   "shard": "annotated-001",
+   "label": "positive",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 20,
+   "id": "brave.oewn-00263658-a",
+   "word": "brave",
+   "shard": "annotated-002",
+   "label": "positive",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 21,
+   "id": "pleased.oewn-01898573-s",
+   "word": "pleased",
+   "shard": "annotated-001",
+   "label": "positive",
+   "charge": null,
+   "verdict": "no",
+   "category": "over-narrow",
+   "objection": "positive is right but the explanation is too specific - pleased needs no self-worth or own action"
+  },
+  {
+   "n": 22,
+   "id": "lifelessly.oewn-00391203-r",
+   "word": "lifelessly",
+   "shard": "batch-0001",
+   "label": "negative",
+   "charge": null,
+   "verdict": "no",
+   "category": "over-narrow",
+   "objection": "'describes a body, not a person' is false; speech, music, movement and people are all described lifelessly"
+  },
+  {
+   "n": 23,
+   "id": "big.oewn-01115129-s",
+   "word": "big",
+   "shard": "annotated-005",
+   "label": "positive",
+   "charge": null,
+   "verdict": "hm",
+   "category": "over-narrow",
+   "objection": "the card mixes genuinely positive uses with the ironic 'big of you'"
+  },
+  {
+   "n": 24,
+   "id": "grudgingly.oewn-00353559-r",
+   "word": "grudgingly",
+   "shard": "batch-0001",
+   "label": "negative",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 25,
+   "id": "brutally.oewn-00202624-r",
+   "word": "brutally",
+   "shard": "batch-0001",
+   "label": "negative",
+   "charge": null,
+   "verdict": "no",
+   "category": "over-narrow",
+   "objection": "brutal is not inherently physical - brutal truth, brutal weather; 'commonest' also needs corpus evidence"
+  },
+  {
+   "n": 26,
+   "id": "earnest.oewn-02187588-s",
+   "word": "earnest",
+   "shard": "annotated-007",
+   "label": "positive",
+   "charge": null,
+   "verdict": "hm",
+   "category": "unverifiable",
+   "objection": "'shows its effort' and 'faintly comic' are interpretation, not a property of the word"
+  },
+  {
+   "n": 27,
+   "id": "loutish.oewn-01956681-s",
+   "word": "loutish",
+   "shard": "annotated-007",
+   "label": "negative",
+   "charge": null,
+   "verdict": "no",
+   "category": "over-narrow",
+   "objection": "'young, male and physical' overstates it; loutish is principally uncouth or boorish"
+  },
+  {
+   "n": 28,
+   "id": "gluttonously.oewn-00351651-r",
+   "word": "gluttonously",
+   "shard": "batch-0001",
+   "label": "negative",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 29,
+   "id": "flatter.oewn-00881748-v",
+   "word": "flatter",
+   "shard": "annotated-005",
+   "label": "negative",
+   "charge": null,
+   "verdict": "hm",
+   "category": "unverifiable",
+   "objection": "'both parties usually know it' is a frequency claim needing evidence"
+  },
+  {
+   "n": 30,
+   "id": "naif.oewn-02279294-a",
+   "word": "naif",
+   "shard": "annotated-007",
+   "label": "negative",
+   "charge": null,
+   "verdict": "no",
+   "category": "unverifiable",
+   "objection": "naif simply means naive; that writers pick the spelling for distance is not established"
+  },
+  {
+   "n": 31,
+   "id": "dishevelled.oewn-02433993-s",
+   "word": "dishevelled",
+   "shard": "annotated-007",
+   "label": "negative",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 32,
+   "id": "sound_off.oewn-00909100-v",
+   "word": "sound off",
+   "shard": "annotated-005",
+   "label": "negative",
+   "charge": null,
+   "verdict": "no",
+   "category": "over-narrow",
+   "objection": "sound off need not be unasked-for or lengthy, and is not inherently a complaint"
+  },
+  {
+   "n": 33,
+   "id": "superficial.oewn-00313032-s",
+   "word": "superficial",
+   "shard": "annotated-005",
+   "label": "negative",
+   "charge": null,
+   "verdict": "hm",
+   "category": "over-narrow",
+   "objection": "superficial can criticise only the analysis; 'often implies a shallow person' goes beyond the word"
+  },
+  {
+   "n": 34,
+   "id": "snivel.oewn-00067045-v",
+   "word": "snivel",
+   "shard": "annotated-003",
+   "label": "negative",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 35,
+   "id": "wholehearted.oewn-02188116-s",
+   "word": "wholehearted",
+   "shard": "annotated-007",
+   "label": "positive",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 36,
+   "id": "scintillating.oewn-01339184-s",
+   "word": "scintillating",
+   "shard": "annotated-002",
+   "label": "positive",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 37,
+   "id": "rotten.oewn-01131613-s",
+   "word": "rotten",
+   "shard": "annotated-002",
+   "label": "negative",
+   "charge": null,
+   "verdict": "no",
+   "category": "over-narrow",
+   "objection": "the 'hint of moral distaste' is not general - rotten weather, rotten luck, a rotten performance"
+  },
+  {
+   "n": 38,
+   "id": "dingily.oewn-00502424-r",
+   "word": "dingily",
+   "shard": "batch-0001",
+   "label": "negative",
+   "charge": null,
+   "verdict": "no",
+   "category": "over-narrow",
+   "objection": "dingy is about dirtiness and lack of brightness, not necessarily depressing, and not only rooms and fabric"
+  },
+  {
+   "n": 39,
+   "id": "sloppily.oewn-00460908-r",
+   "word": "sloppily",
+   "shard": "batch-0001",
+   "label": "negative",
+   "charge": null,
+   "verdict": "hm",
+   "category": "unverifiable",
+   "objection": "'mild enough to say to someone's face' is contextual rather than a stable lexical fact"
+  },
+  {
+   "n": 40,
+   "id": "laud.oewn-00862284-v",
+   "word": "laud",
+   "shard": "annotated-005",
+   "label": "positive",
+   "charge": null,
+   "verdict": "no",
+   "category": "bad-etymology",
+   "objection": "'Church Latin behind it' is misleading; from laudare, and modern use is not ceremonial or religious"
+  },
+  {
+   "n": 41,
+   "id": "thankful.oewn-01149996-a",
+   "word": "thankful",
+   "shard": "annotated-008",
+   "label": "positive",
+   "charge": null,
+   "verdict": "no",
+   "category": "bad-etymology",
+   "objection": "modern thankful does not inherently carry prayer or providence"
+  },
+  {
+   "n": 42,
+   "id": "repulsively.oewn-00311025-r",
+   "word": "repulsively",
+   "shard": "batch-0001",
+   "label": "negative",
+   "charge": null,
+   "verdict": "no",
+   "category": "over-narrow",
+   "objection": "'ugliness' is too narrow; repulsive covers behaviour, crimes, ideas, smells - anything producing disgust"
+  },
+  {
+   "n": 43,
+   "id": "hoggish.oewn-00011346-s",
+   "word": "hoggish",
+   "shard": "annotated-006",
+   "label": "negative",
+   "charge": null,
+   "verdict": "no",
+   "category": "over-narrow",
+   "objection": "not specifically about an eater; hoggish can mean greedy, selfish, coarse or swine-like generally"
+  },
+  {
+   "n": 44,
+   "id": "proudly.oewn-00191358-r",
+   "word": "proudly",
+   "shard": "batch-0001",
+   "label": "neutral",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 45,
+   "id": "cannibalic.oewn-01266942-s",
+   "word": "cannibalic",
+   "shard": "annotated-006",
+   "label": "negative",
+   "charge": null,
+   "verdict": "hm",
+   "category": "unverifiable",
+   "objection": "'furthest word in the family' and 'accusation of myth' are stylistic claims, not lexical properties"
+  },
+  {
+   "n": 46,
+   "id": "kindly.oewn-01375875-s",
+   "word": "kindly",
+   "shard": "annotated-006",
+   "label": "positive",
+   "charge": null,
+   "verdict": "no",
+   "category": "unverifiable",
+   "objection": "'now used mostly of the elderly' is not true as a general rule - kindly act, kindly manner, kindly criticism"
+  },
+  {
+   "n": 47,
+   "id": "asinine.oewn-00442050-s",
+   "word": "asinine",
+   "shard": "annotated-002",
+   "label": "negative",
+   "charge": null,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 48,
+   "id": "trimly.oewn-00466658-r",
+   "word": "trimly",
+   "shard": "batch-0001",
+   "label": "positive",
+   "charge": null,
+   "verdict": "hm",
+   "category": "unverifiable",
+   "objection": "'credits effort' is not inherent to the word"
+  },
+  {
+   "n": 49,
+   "id": "moneyed.oewn-02029380-s",
+   "word": "moneyed",
+   "shard": "annotated-002",
+   "label": "positive",
+   "charge": null,
+   "verdict": "no",
+   "category": "mislabel",
+   "objection": "moneyed means wealthy and can be neutral or critical - 'moneyed interests'; wealth alone is not positive"
+  },
+  {
+   "n": 50,
+   "id": "double-dealing.oewn-01225960-s",
+   "word": "double-dealing",
+   "shard": "annotated-004",
+   "label": "negative",
+   "charge": null,
+   "verdict": "no",
+   "category": "over-narrow",
+   "objection": "'harm is to a relationship, not to the truth' is false; double-dealing is duplicity and deception"
+  }
+ ]
+}
