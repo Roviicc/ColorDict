@@ -60,9 +60,17 @@ def main():
     ap.add_argument("--n", type=int, default=50)
     ap.add_argument("--seed", type=int, default=20260830)
     ap.add_argument("--out", type=Path, required=True)
+    ap.add_argument("--exclude", type=Path, action="append", default=[],
+                    help="an earlier audit-NNN.json whose senses to leave out, so a "
+                         "second reading is fresh material rather than a re-mark")
     args = ap.parse_args()
 
     owner = load_shard_map()
+
+    seen_before = set()
+    for path in args.exclude:
+        for entry in json.loads(path.read_text(encoding="utf-8"))["entries"]:
+            seen_before.add(entry["id"])
 
     # Only senses that actually make a connotation claim can be wrong in the way
     # the audit is looking for. A neutral sense with no tone note asserts nothing.
@@ -77,6 +85,8 @@ def main():
                 conn = sense.get("connotation") or {}
                 if not conn.get("tone"):
                     continue
+                if sense["id"] in seen_before:
+                    continue
                 shard, family = owner.get(sense["id"], ("batch-0001", None))
                 pool.append({
                     "id": sense["id"],
@@ -88,9 +98,8 @@ def main():
                     "tone": conn["tone"],
                     "usage_labels": conn.get("usage_labels", []),
                     "examples": sense.get("examples", [])[:2],
-                    "family": (sense.get("connotation", {}) or {}).get("family", {}).get("id")
-                              or family,
-                    "charge": (sense.get("connotation", {}) or {}).get("family", {}).get("charge"),
+                    "family": (sense.get("family") or {}).get("id") or family,
+                    "charge": (sense.get("family") or {}).get("charge"),
                     "shard": shard,
                 })
 
