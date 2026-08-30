@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
-"""Check tone notes against the rule adopted in plan 11.65.
+"""Flag tone notes that leave the word, per the rule in plan 11.65.
+
+A smoke alarm, not a referee. The rule is "say what the word does; do not say
+who uses it or where it came from", and the three shapes that break it leave a
+lexical trace. Some flagged notes are fine - *puritanical*'s "now used almost
+exclusively as an accusation" trips the distribution rule and was marked right
+in audit 001, because it is true. Read what it points at; do not obey it.
 
 Audit 001 measured 44% of tone notes wrong, and the failures fell into a small
 number of shapes. Every one of those shapes leaves a lexical trace, so the rule
 can be enforced mechanically instead of remembered:
 
-  1. no distributional claims   - "usually", "now mostly", "the commonest"
-  2. no narrowing beyond the gloss - "only ever", "always of", "never said of"
-  3. no unchecked etymology     - "from the Latin", "named for", "originally"
-  4. nothing undefendable from the gloss and the charge alone
-
-Rules 1-3 are checked here. Rule 4 is a judgement and stays with the person
-writing, but a note that clears the first three is usually short enough that
-rule 4 has little room to hide.
+  1. distribution - "usually", "now mostly", "the commonest"
+  2. provenance   - "from the Latin", "named for", "originally meant"
+  3. restriction  - "only ever", "describes a X, not a Y", "confined to"
 
 Usage:
     python3 tools/tone_lint.py data/families/annotated-*.json
@@ -63,9 +64,17 @@ RULES = [
     ("hedge-claim", re.compile(
         r"\b(everyone|nobody|no one|anybody) \w+", re.I),
      "a claim about all speakers is a distribution claim in disguise"),
+
+    ("speaker", re.compile(
+        r"\b(?:said|used|aimed|applied|addressed)\s+(?:of|to|at|by)\s+"
+        r"(?:the\s+)?(?:elderly|old|young|children|women|men|girls|boys|"
+        r"americans|the british|teenagers|adults)\b", re.I),
+     "who says a word is not something we can check - describe the word instead"),
 ]
 
-MAX_WORDS = 26
+# Length was tried as a proxy and does not predict failure: the *grudgingly*
+# note is long and correct, the *hoggish* note is short and wrong. What predicts
+# failure is leaving the word, which the rules above catch directly.
 
 
 def check(note):
@@ -75,9 +84,6 @@ def check(note):
         m = pattern.search(note or "")
         if m:
             hits.append((name, m.group(0), advice))
-    if note and len(note.split()) > MAX_WORDS:
-        hits.append(("too-long", f"{len(note.split())} words",
-                     f"a note over {MAX_WORDS} words is usually carrying a claim it cannot support"))
     return hits
 
 

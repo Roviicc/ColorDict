@@ -4,7 +4,15 @@
   {
    "id": "family-01225555-a",
    "axis": "damning → merely descriptive",
-   "anchors": ["fraudulent", "duplicitous", "dishonest", "deceitful", "deceptive", "misleading", "picaresque"],
+   "anchors": [
+    "fraudulent",
+    "duplicitous",
+    "dishonest",
+    "deceitful",
+    "deceptive",
+    "misleading",
+    "picaresque"
+   ],
    "members": [
     {
      "word": "dishonest",
@@ -23,7 +31,9 @@
      "synset": "oewn-01225960-s",
      "charge": -1,
      "tone": "A near-archaic use, and the pun softens it - the double-dealing sounds almost like a skill.",
-     "usage": ["dated"]
+     "usage": [
+      "dated"
+     ]
     },
     {
      "word": "deceitful",
@@ -42,14 +52,18 @@
      "synset": "oewn-01225960-s",
      "charge": -3,
      "tone": "The coldest word in the family; it implies a practised double life rather than a single deception.",
-     "usage": ["formal"]
+     "usage": [
+      "formal"
+     ]
     },
     {
      "word": "two-faced",
      "synset": "oewn-01225960-s",
      "charge": -3,
      "tone": "Blunt and personal - the accusation you make to someone's face, or behind their back.",
-     "usage": ["informal"]
+     "usage": [
+      "informal"
+     ]
     },
     {
      "word": "double-faced",
@@ -62,7 +76,9 @@
      "synset": "oewn-01225960-s",
      "charge": -2,
      "tone": "Biblical in flavour - it condemns the mouth rather than the man.",
-     "usage": ["literary"]
+     "usage": [
+      "literary"
+     ]
     },
     {
      "word": "beguiling",
@@ -75,7 +91,9 @@
      "synset": "oewn-01226630-s",
      "charge": -1,
      "tone": "Aims at the reasoning, not the character - an argument can be fallacious with nobody lying.",
-     "usage": ["formal"]
+     "usage": [
+      "formal"
+     ]
     },
     {
      "word": "fraudulent",
@@ -106,14 +124,23 @@
      "synset": "oewn-01227405-s",
      "charge": 0,
      "tone": "Not a judgement but a literary label, for the rogue-hero tradition where the trickery is the entertainment.",
-     "usage": ["literary"]
+     "usage": [
+      "literary"
+     ]
     }
    ]
   },
   {
    "id": "family-01119091-a",
    "axis": "verified → prized",
-   "anchors": ["documented", "attested", "veritable", "authentic", "genuine", "unquestionable"],
+   "anchors": [
+    "documented",
+    "attested",
+    "veritable",
+    "authentic",
+    "genuine",
+    "unquestionable"
+   ],
    "members": [
     {
      "word": "genuine",
@@ -126,7 +153,9 @@
      "synset": "oewn-01119091-a",
      "charge": 2,
      "tone": "Borrowed from German by critics; it praises the real thing while advertising the speaker's taste.",
-     "usage": ["literary"]
+     "usage": [
+      "literary"
+     ]
     },
     {
      "word": "authentic",
@@ -138,8 +167,10 @@
      "word": "bona fide",
      "synset": "oewn-01119377-s",
      "charge": 2,
-     "tone": "Legal in origin: it certifies good faith rather than admiring it.",
-     "usage": ["formal"]
+     "tone": "It certifies good faith rather than admiring it.",
+     "usage": [
+      "formal"
+     ]
     },
     {
      "word": "unquestionable",
@@ -151,8 +182,10 @@
      "word": "veritable",
      "synset": "oewn-01119377-s",
      "charge": 1,
-     "tone": "Almost always emphasis rather than proof; a veritable feast is not being authenticated.",
-     "usage": ["formal"]
+     "tone": "Emphasis rather than proof - a veritable feast is not being authenticated.",
+     "usage": [
+      "formal"
+     ]
     },
     {
      "word": "attested",
@@ -177,7 +210,9 @@
      "synset": "oewn-01119768-s",
      "charge": 1,
      "tone": "The plainest way to say a note or a passport is not forged; no compliment is intended.",
-     "usage": ["informal"]
+     "usage": [
+      "informal"
+     ]
     },
     {
      "word": "honest",
@@ -190,28 +225,42 @@
      "synset": "oewn-01119860-s",
      "charge": 1,
      "tone": "Emphatic and colloquial: it swears to the thing instead of proving it.",
-     "usage": ["informal"]
+     "usage": [
+      "informal"
+     ]
     },
     {
      "word": "honest-to-goodness",
      "synset": "oewn-01119860-s",
      "charge": 1,
      "tone": "The polite version, with the oath taken out.",
-     "usage": ["informal"]
+     "usage": [
+      "informal"
+     ]
     },
     {
      "word": "sure-enough",
      "synset": "oewn-01119860-s",
      "charge": 1,
      "tone": "Homely and regional; the emphasis of someone who expects to be doubted.",
-     "usage": ["informal", "regional"]
+     "usage": [
+      "informal",
+      "regional"
+     ]
     }
    ]
   },
   {
    "id": "family-01078338-a",
    "axis": "mocking → warm",
-   "anchors": ["palsy-walsy", "pally", "chummy", "cordial", "friendly", "genial"],
+   "anchors": [
+    "palsy-walsy",
+    "pally",
+    "chummy",
+    "cordial",
+    "friendly",
+    "genial"
+   ],
    "members": [
     {
      "word": "friendly",
@@ -224,7 +273,9 @@
      "synset": "oewn-01078866-s",
      "charge": 2,
      "tone": "Praises ease of manner in someone who need not have bothered - it fits people with standing.",
-     "usage": ["formal"]
+     "usage": [
+      "formal"
+     ]
     },
     {
      "word": "amiable",
@@ -242,42 +293,53 @@
      "word": "genial",
      "synset": "oewn-01078866-s",
      "charge": 2,
-     "tone": "Warmth that puts a room at ease; usually said of hosts."
+     "tone": "Warmth that puts a room at ease."
     },
     {
      "word": "chummy",
      "synset": "oewn-01079212-s",
      "charge": -1,
      "tone": "Faintly disapproving of other people's friendships - it hints the closeness came too fast or too conveniently.",
-     "usage": ["informal"]
+     "usage": [
+      "informal"
+     ]
     },
     {
      "word": "matey",
      "synset": "oewn-01079212-s",
      "charge": 1,
      "tone": "British and blokeish: friendly in a way that insists on being equals.",
-     "usage": ["informal", "regional"]
+     "usage": [
+      "informal",
+      "regional"
+     ]
     },
     {
      "word": "pally",
      "synset": "oewn-01079212-s",
      "charge": -1,
-     "tone": "Usually raises an eyebrow at a friendship that looks more like an arrangement.",
-     "usage": ["informal"]
+     "tone": "It raises an eyebrow at a friendship that looks more like an arrangement.",
+     "usage": [
+      "informal"
+     ]
     },
     {
      "word": "palsy-walsy",
      "synset": "oewn-01079212-s",
      "charge": -2,
      "tone": "Openly mocking - the reduplication does the sneering for you.",
-     "usage": ["informal"]
+     "usage": [
+      "informal"
+     ]
     },
     {
      "word": "companionate",
      "synset": "oewn-01079430-s",
      "charge": 1,
      "tone": "Technical and cool; used of marriages and arrangements rather than of feelings.",
-     "usage": ["formal"]
+     "usage": [
+      "formal"
+     ]
     },
     {
      "word": "comradely",
@@ -295,21 +357,25 @@
      "word": "hail-fellow-well-met",
      "synset": "oewn-01079552-s",
      "charge": -1,
-     "tone": "Backhanded: it describes someone friendly to everyone, and therefore to no one in particular."
+     "tone": "Backhanded: friendly to everyone, and so to no one in particular."
     },
     {
      "word": "couthie",
      "synset": "oewn-01079712-s",
      "charge": 2,
      "tone": "Scots for a cosy, unforced warmth; affectionate and close to untranslatable.",
-     "usage": ["regional"]
+     "usage": [
+      "regional"
+     ]
     },
     {
      "word": "couthy",
      "synset": "oewn-01079712-s",
      "charge": 2,
      "tone": "The commoner spelling of couthie, with the same Scots warmth.",
-     "usage": ["regional"]
+     "usage": [
+      "regional"
+     ]
     },
     {
      "word": "cozy",

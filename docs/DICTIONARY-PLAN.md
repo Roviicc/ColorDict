@@ -482,23 +482,50 @@ required specificity, and the specificity is where the falsehood entered.** A
 vivid claim about a word is the most readable thing on the card and the most
 likely thing on it to be wrong.
 
-### The tone-note rule, adopted
+### The tone-note rule, adopted: stay inside the word
 
-A tone note may explain the charge. It may not do any of the following:
+The first reading of this audit suggested the notes had to become duller. They
+do not. Sorting the sample by verdict shows something better: the eighteen
+notes that passed are among the most vivid in the corpus.
 
-1. **No distributional claims.** Not "usually", "now mostly", "the commonest",
-   "more often than not" — nothing about how a word is distributed that we
-   have not measured. We have no corpus; therefore we have no such claims.
-2. **No narrowing beyond the gloss.** If WordNet's gloss does not restrict the
-   sense to a context, the note may not either. The note explains the sense; it
-   does not redefine it.
-3. **No etymology that has not been checked** against a real source. Origin is
-   decoration, and decoration is not worth a false statement.
-4. **Defensible from the gloss and the charge alone**, or not written. If the
-   claim needs evidence we do not have, the honest note is a shorter one.
+> *snivel* — "Contemptuous - crying treated as whining, weakness rather than sorrow."
+> *at rest* — "Gravestone language - comfort offered to the living."
+> *asinine* — "Withering - stupidity so complete it deserves contempt."
+> *clapped out* — "British, and it works equally on a car, a machine or a person - which is the joke."
+
+And the ones that failed share a different shape entirely:
+
+> *kindly* — "now used mostly of **the elderly**"
+> *dingily* — "of **rooms and fabric**"
+> *laud* — "**Church Latin** behind it"
+> *hoggish* — "about **an eater**"
+
+**The notes that passed describe the word — its force, its register, how it
+differs from the word beside it on the spectrum. The notes that failed describe
+the world around the word — who says it, how often, where it came from, what it
+is limited to.**
+
+That is the rule, and it is a single line: **say what the word does; do not say
+who uses it or where it came from.** We have the gloss and we have the
+spectrum, so claims about the word are grounded. We have no corpus and no
+etymological source, so claims about its distribution and origin are guesses
+wearing the clothes of facts.
+
+Three shapes are therefore out:
+
+1. **Distribution** — "usually", "now mostly", "the commonest", "more often than not".
+2. **Provenance** — any origin story not checked against a source.
+3. **Restriction** — narrowing the sense past what the gloss says it covers.
 
 This is 5.4's fabrication rule applied one level up: we already refused to
-invent a connotation, and now we refuse to invent the reasoning about it.
+invent a connotation, and now we refuse to invent the reasoning about it. What
+we keep is the part that was always ours to write — the comparison between a
+word and its neighbours, which is exactly what the family stage exists to know.
+
+`tone_lint.py` checks the three shapes, but it is **a smoke alarm, not a
+referee**: *puritanical*'s "now used almost exclusively as an accusation" trips
+the distribution rule and was still marked right, because it happens to be
+true. The tool points at notes worth a second look; the test stays human.
 
 ## 11.7 Possible later work — not scheduled
 
