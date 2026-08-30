@@ -321,7 +321,6 @@
     "monkish",
     "strict",
     "corrective",
-    "self-denying",
     "self-disciplined"
    ],
    "members": [
@@ -394,8 +393,8 @@
     {
      "word": "disciplinal",
      "synset": "oewn-01303596-s",
-     "charge": 0,
-     "tone": "The rarer variant, and no less procedural.",
+     "charge": -1,
+     "tone": "The near-obsolete twin of *disciplinary*: measures meant to correct.",
      "usage": [
       "formal"
      ]
@@ -413,7 +412,8 @@
      "tone": "Technical, and at home in writing about religion rather than character.",
      "usage": [
       "formal"
-     ]
+     ],
+     "_skip": true
     },
     {
      "word": "renunciative",
@@ -422,7 +422,8 @@
      "tone": "The adjectival twin of *renunciant*, with the same formality.",
      "usage": [
       "formal"
-     ]
+     ],
+     "_skip": true
     },
     {
      "word": "self-abnegating",
@@ -431,13 +432,15 @@
      "tone": "Formal to the point of coldness - it describes the giving up, not the reason.",
      "usage": [
       "formal"
-     ]
+     ],
+     "_skip": true
     },
     {
      "word": "self-denying",
      "synset": "oewn-01303991-s",
      "charge": 1,
-     "tone": "The same restraint, warmed by the suggestion that it was chosen."
+     "tone": "The same restraint, warmed by the suggestion that it was chosen.",
+     "_skip": true
     },
     {
      "word": "self-disciplined",
@@ -764,8 +767,8 @@
     {
      "word": "vociferous",
      "synset": "oewn-01926766-s",
-     "charge": -1,
-     "tone": "Loud on purpose. The volume is the commitment, which is why it can be praise.",
+     "charge": -2,
+     "tone": "Loud to the point of offence - the outcry is itself the objection.",
      "usage": [
       "formal"
      ]
