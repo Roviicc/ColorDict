@@ -8,7 +8,9 @@ This does all of that and leaves exactly the parts a person has to decide -
 `charge`, `tone`, and the optional note and examples.
 
 Members whose sense id is absent from the corpus are dropped here rather than
-failing later in dict_enrich_apply.py, and the count is reported.
+failing later in dict_enrich_apply.py, and the count is reported. Members whose
+gloss is a usage restriction rather than a definition arrive pre-skipped: there
+is nothing there for a note to agree with (tools/gloss_lint.py).
 
 Usage:
     python3 tools/family_worksheet.py --families data/build/verb-families.json \
@@ -28,17 +30,19 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from family_apply import slug  # noqa: E402
+from gloss_lint import undefinable  # noqa: E402
 
 
-def load_corpus_sense_ids(path):
-    ids = set()
+def load_corpus_glosses(path):
+    """sense id -> definition, for every sense in the corpus."""
+    glosses = {}
     with open(path, encoding="utf-8") as fh:
         for line in fh:
             line = line.strip()
             if line:
                 for sense in json.loads(line)["senses"]:
-                    ids.add(sense["id"])
-    return ids
+                    glosses[sense["id"]] = sense.get("definition", "")
+    return glosses
 
 
 def main():
@@ -57,7 +61,7 @@ def main():
     data = json.loads(args.families.read_text(encoding="utf-8"))
     families = data["families"]
     by_id = {f["id"]: f for f in families}
-    valid = load_corpus_sense_ids(args.bulk)
+    glosses = load_corpus_glosses(args.bulk)
 
     picked = [by_id[i] for i in args.id if i in by_id]
     missing_ids = [i for i in args.id if i not in by_id]
@@ -75,34 +79,44 @@ def main():
         else:
             missing_ids.append(f"(word {word})")
 
-    out, dropped = [], 0
+    out, dropped, unjudgeable = [], 0, 0
     for fam in picked:
         members, seen = [], set()
         for m in fam["members"]:
             if m["word"] in seen:
                 continue
             sense_id = f"{slug(m['word'])}.{m['synset']}"
-            if sense_id not in valid:
+            if sense_id not in glosses:
                 dropped += 1
                 continue
             seen.add(m["word"])
-            members.append({
+            row = {
                 "word": m["word"],
                 "synset": m["synset"],
                 "charge": 0,
                 "tone": "",
                 "_gloss": m["definition"][:90],
-            })
+            }
+            # A gloss that only restricts where the word applies gives the note
+            # nothing to agree with, and audit 003 made that agreement the
+            # test. Pre-skip it rather than invite a note that cannot be
+            # checked - see tools/gloss_lint.py.
+            reason = undefinable(glosses[sense_id])
+            if reason:
+                row["_skip"] = True
+                row["_skip_reason"] = reason
+                unjudgeable += 1
+            members.append(row)
             if len(members) >= args.max_members:
                 break
-        if len(members) < 2:
+        if len([m for m in members if not m.get("_skip")]) < 2:
             continue
         out.append({
             "id": fam["id"].replace("oewn-", "family-"),
             "axis": "condemning → praising",
             "_head": fam["head_words"][:4],
             "_definition": fam["definition"][:100],
-            "anchors": [m["word"] for m in members[:6]],
+            "anchors": [m["word"] for m in members if not m.get("_skip")][:6],
             "members": members,
         })
 
@@ -115,11 +129,16 @@ def main():
           f"{sum(len(f['members']) for f in out)} members ready to annotate")
     if dropped:
         print(f"  {dropped} members dropped - sense id absent from the corpus")
+    if unjudgeable:
+        print(f"  {unjudgeable} members pre-skipped - the gloss is a usage "
+              f"restriction, not a definition")
     for m in missing_ids:
         print(f"  not found: {m}")
     print(f"wrote {args.out}")
     print("Fill in charge (-3..3) and tone, then run family_apply.py directly - "
           "the _gloss/_head hints are ignored, and \"_skip\": true drops a member.")
+    print("Every note must agree with the _gloss printed beside it; that is the "
+          "first question any audit asks.")
     return 0
 
 

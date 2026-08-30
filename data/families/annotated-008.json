@@ -320,8 +320,7 @@
     "austere",
     "monkish",
     "strict",
-    "corrective",
-    "self-disciplined"
+    "corrective"
    ],
    "members": [
     {
@@ -446,10 +445,11 @@
      "word": "self-disciplined",
      "synset": "oewn-01304141-s",
      "charge": 2,
-     "tone": "The virtue the family arrives at: restraint that answers to nobody else."
+     "tone": "The virtue the family arrives at: restraint that answers to nobody else.",
+     "_skip": true
     }
    ],
-   "axis": "joyless → self-disciplined"
+   "axis": "moralising severity → plain strictness"
   },
   {
    "id": "family-01138269-a",
@@ -684,7 +684,7 @@
      "word": "bush-league",
      "synset": "oewn-02354737-s",
      "charge": -2,
-     "tone": "From minor-league baseball, and the condescension is built in.",
+     "tone": "Condescension rather than anger - it rates the thing as small-time and leaves it there.",
      "usage": [
       "informal"
      ]
@@ -702,19 +702,19 @@
      "word": "cheapjack",
      "synset": "oewn-02354846-s",
      "charge": -3,
-     "tone": "A cheapjack was a travelling seller of trash; the person came first."
+     "tone": "Shoddy goods and the hard sell that moves them; it doubts the seller as much as the thing."
     },
     {
      "word": "shoddy",
      "synset": "oewn-02354846-s",
      "charge": -3,
-     "tone": "Shoddy was reclaimed wool sold as new, so the word began as a fraud."
+     "tone": "Poor work passed off as sound - the pretence is as much of the charge as the quality."
     },
     {
      "word": "tawdry",
      "synset": "oewn-02354846-s",
      "charge": -3,
-     "tone": "From St Audrey's lace, sold cheap at her fair - gaudiness and cheapness together."
+     "tone": "Cheapness trying to look showy, which is what makes it contemptible rather than merely poor."
     }
    ],
    "axis": "worthless → merely second-rate"
@@ -741,7 +741,7 @@
      "word": "blatant",
      "synset": "oewn-01926766-s",
      "charge": -2,
-     "tone": "Has largely left sound behind; *blatant* now means flagrant, and the loudness is figurative."
+     "tone": "Bellowing rather than merely loud - the sound is coarse as well as insistent."
     },
     {
      "word": "clamant",

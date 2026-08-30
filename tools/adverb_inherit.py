@@ -14,6 +14,13 @@ So an annotated adjective lends its charge, tone and register to its adverb,
 with the tone reworded from "X is ..." to "the adverb of X". Nothing is
 invented: an adverb whose adjective was never annotated is simply skipped.
 
+Morphology names the lemma, not the sense. WordNet's `pertainym` relation names
+the sense, so where it exists it decides: an adverb inherits only if the
+adjective synset the note was written against is the one the adverb actually
+points at. *vulgarly* is glossed "in a smutty manner" and points at *vulgar*
+"indecent", while the note we hold belongs to *vulgar* "lacking refinement", so
+it is not inherited (tools/pertainym_extract.py, audit 004).
+
 Usage:
     python3 tools/adverb_inherit.py \
         --bulk data/entries/derived-bulk.jsonl \
@@ -75,6 +82,23 @@ def relates(base, definition):
                for w in re.findall(r"[a-z]+", definition.lower()))
 
 
+def lend(patch_from, source):
+    """The part of an adjective's judgement an adverb can carry."""
+    patch = {}
+    family = patch_from.get("family")
+    if family:
+        # Same family, same charge - the adverb sits where its adjective does.
+        patch["family"] = family
+        patch["label"] = ("positive" if family["charge"] >= 1
+                          else "negative" if family["charge"] <= -1 else "neutral")
+    tone = adverbise(patch_from.get("tone"), source)
+    if tone:
+        patch["tone"] = tone
+    if patch_from.get("usage_labels"):
+        patch["usage_labels"] = patch_from["usage_labels"]
+    return patch
+
+
 def adverbise(tone, adjective):
     """Reword an adjective's note so it reads correctly of the adverb."""
     if not tone:
@@ -89,10 +113,25 @@ def main():
     ap.add_argument("--overlay", type=Path, required=True, action="append",
                     help="annotated adjective overlays to inherit from")
     ap.add_argument("--out", type=Path, required=True)
+    ap.add_argument("--pertainyms", type=Path,
+                    default=Path(__file__).resolve().parent.parent
+                    / "data/build/pertainyms.json",
+                    help="output of pertainym_extract.py; the sense-level check "
+                         "is skipped if it is absent")
     args = ap.parse_args()
 
-    # What has been said about each adjective, keyed by headword.
-    annotated = {}
+    pertainyms = {}
+    if args.pertainyms and args.pertainyms.exists():
+        pertainyms = json.loads(args.pertainyms.read_text(encoding="utf-8"))
+    else:
+        print(f"note: {args.pertainyms} absent - inheriting on morphology alone",
+              file=sys.stderr)
+
+    # What has been said about each adjective, keyed by headword, and then by
+    # the sense the judgement was written against - an adverb points at one
+    # sense of its adjective, and only that sense's note belongs to it.
+    annotated, source_synset = {}, {}
+    by_sense = {}
     for path in args.overlay:
         with open(path, encoding="utf-8") as fh:
             for line in fh:
@@ -102,7 +141,13 @@ def main():
                 rec = json.loads(line)
                 for sid, patch in (rec.get("senses") or {}).items():
                     if patch.get("family") or patch.get("tone"):
-                        annotated.setdefault(rec["word"], patch)
+                        synset = sid.rsplit(".", 1)[-1]
+                        by_sense.setdefault(rec["word"], {})[synset] = patch
+                        if rec["word"] not in annotated:
+                            annotated[rec["word"]] = patch
+                            # Which sense of the adjective the note was written
+                            # against - the pertainym check needs it.
+                            source_synset[rec["word"]] = synset
 
     adverb_senses = {}
     for line in open(args.bulk, encoding="utf-8"):
@@ -111,24 +156,14 @@ def main():
         if senses:
             adverb_senses[entry["word"]] = senses
 
-    out, inherited, skipped_ambiguous = [], 0, 0
+    out, inherited, skipped_ambiguous, wrong_sense = [], 0, 0, 0
     for adverb, senses in sorted(adverb_senses.items()):
         source = next((b for b in base_forms(adverb) if b in annotated), None)
         if source is None:
             continue
         patch_from = annotated[source]
-        family = patch_from.get("family")
-        patch = {}
-        if family:
-            # Same family, same charge - the adverb sits where its adjective does.
-            patch["family"] = family
-            patch["label"] = ("positive" if family["charge"] >= 1
-                              else "negative" if family["charge"] <= -1 else "neutral")
-        tone = adverbise(patch_from.get("tone"), source)
-        if tone:
-            patch["tone"] = tone
-        if patch_from.get("usage_labels"):
-            patch["usage_labels"] = patch_from["usage_labels"]
+        sense_note = {}
+        patch = lend(patch_from, source)
         if not patch:
             continue
         # A single-sense adverb takes the charge outright. A multi-sense one
@@ -136,6 +171,25 @@ def main():
         # see relates().
         eligible = (senses if len(senses) == 1
                     else [s for s in senses if relates(source, s["definition"])])
+        # Where WordNet names the adjective sense, it overrules morphology.
+        # *benignly* points at *benign* "pleasant and beneficial", not at the
+        # "kindness of disposition" sense we happened to annotate first, so it
+        # takes the note written for the sense it points at - and if we have no
+        # note for that sense, it takes none. Senses with no pertainym fall
+        # back to the morphological rule above.
+        want = source_synset.get(source)
+        notes = by_sense.get(source, {})
+        kept = []
+        for sense in eligible:
+            synset = (sense.get("source") or {}).get("synset", "")
+            target = pertainyms.get(synset, {}).get(adverb)
+            if target and target != want:
+                if target not in notes:
+                    wrong_sense += 1
+                    continue
+                sense_note[synset] = notes[target]
+            kept.append(sense)
+        eligible = kept
         if not eligible:
             skipped_ambiguous += 1
             continue
@@ -145,7 +199,11 @@ def main():
         # judgement without repeating the prose.
         sense_patches = {}
         for position, sense in enumerate(eligible):
-            one = dict(patch)
+            synset = (sense.get("source") or {}).get("synset", "")
+            # A sense with its own pertainym note takes that one, not the
+            # lemma's first.
+            one = (lend(sense_note[synset], source) if synset in sense_note
+                   else dict(patch))
             if position:
                 one.pop("tone", None)
             if one:
@@ -164,6 +222,9 @@ def main():
           f"{len(out)} adverbs, {inherited} senses")
     if skipped_ambiguous:
         print(f"{skipped_ambiguous} adverbs skipped - no sense clearly about the adjective")
+    if wrong_sense:
+        print(f"{wrong_sense} adverb senses declined - WordNet points them at a "
+              f"different sense of the adjective")
     print(f"wrote {args.out}")
     return 0
 

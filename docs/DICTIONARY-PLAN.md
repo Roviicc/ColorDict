@@ -373,10 +373,17 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 
 | 2026-08-30 | **Audit 002: 14%, down from 44%.** The rewrite worked; the remainder is sense misalignment, not note scope. See 11.66 |
 | 2026-08-30 | **Audit 001 run — and failed.** 50 sampled senses, 44% wrong against a 5% threshold. Authoring paused; see 11.65 for the diagnosis and the tone-note rule it produced |
+| 2026-08-30 | **Audit 003: 22%, a regression.** Seven of eleven failures were one fault — the note describing a different sense from the one its gloss names. The gloss is now binding; see 11.67 |
+| 2026-08-30 | **Undefinable glosses swept.** 8 reviewed senses whose OEWN gloss is a usage restriction, not a definition, dropped back to `derived`; `gloss_lint.py` added and the worksheet pre-skips the other 233 corpus-wide |
+| 2026-08-30 | **Audit 004: 20%.** The gloss-binding fix held where it was applied; two failures were the same synset fixed for one word only. Repairs are now synset-wide; see 11.68 |
+| 2026-08-30 | **Adverbs gated on WordNet's pertainym.** An adverb takes the note for the adjective *sense* it points at, or none at all: 244 inherited senses → 154, 90 declined |
 
-**Current totals: 63 families, 1,058 reviewed entries, 0 validation errors** —
-including 270 adverbs inherited for free. **The validator's zero errors mean
-well-formed, not correct: audit 001 measured 44% of tone notes wrong.**
+**Current totals: 63 families, 783 annotated senses, 931 reviewed entries,
+0 validation errors** — including 154 adverb senses inherited for free, and 9
+senses deliberately left `derived` because their gloss cannot carry a
+judgement. **The validator's zero errors mean well-formed, not correct: the
+sampled audit is the only thing that measures correct, and it stands at 20%
+wrong (audit 004).**
 
 Stage 1 (adjectives) is 54 of ~1,100 families; stage 2 (verbs) is 9 of ~2,495.
 The machinery is complete; what remains is authoring.
@@ -574,6 +581,132 @@ entirely and are `derived` again, labelled unreviewed in the app, which is
 honest. But it is a reminder that **30,542 non-neutral labels still rest on
 SentiWordNet alone**, a source 11.5 demoted for being wrong at this resolution,
 and no audit has ever sampled them.
+
+## 11.67 Audit 003 — the gloss is binding
+
+Read 2026-08-30 against fifty senses drawn with seed 20260901, excluding every
+sense seen in audits 001 and 002.
+
+**39 right, 11 wrong. Error rate 22% — a regression on 002's 14.** The sheet
+asked two questions of each card for the first time: does the note fit the
+definition printed above it, and is the claim true.
+
+Seven of the eleven are one fault, and it is the first question failing: the
+note annotates the right synset and then describes a different sense of the
+word. *fallacious* is glossed "involving deception" and noted "an argument can
+be fallacious with nobody lying". *vociferous* is glossed "conspicuously and
+offensively loud" and noted "which is why it can be praise". *voracious* is
+glossed on food and noted on reading.
+
+**The notes are stored per sense; they were being written per lemma.** The
+worksheet has always printed the gloss — it was simply not treated as binding.
+Fixed for *fearful*, *fallacious*, *voracious*, *cordial*, *disciplinal* and
+*vociferous*, with charges corrected where the gloss was stronger than the
+charge admitted.
+
+### Some glosses are not definitions
+
+Holding a note to its gloss only works when the gloss says something. OEWN 2024
+gives some synsets a bare usage restriction where the definition should be:
+`renunciant` is glossed "used especially of behavior", `stouthearted` "used
+especially of persons", `self-disciplined` "used of nonindulgent persons".
+There is nothing there for a note to agree with, so any note written against
+one is unfalsifiable — it cannot fail the check, which means the check cannot
+pass it either.
+
+**The rule, adopted:** a sense whose gloss is a usage restriction rather than a
+definition does not get a judgement. It stays `derived` and is marked
+`"_skip": true`, the same treatment 11.66 gave *dingy* and *unhurried*, and for
+the same reason — we cannot correct a gloss, so we decline to annotate it.
+
+Enforced mechanically rather than remembered:
+
+- **`tools/gloss_lint.py`** flags any annotated sense whose gloss carries no
+  definition. A restriction is only a defect when it stands alone: "used of a
+  knife or other blade; not sharp" and "(used of sums of money) so small in
+  amount as to deserve contempt" both restrict *and* define, and pass.
+- **`tools/family_worksheet.py`** pre-marks such members `"_skip": true` and
+  keeps them out of the anchors, so a future shard is never invited to write
+  the note in the first place.
+
+The sweep of the reviewed set found **eight** senses with the defect: four in
+`oewn-01303991-s` and *dingy* and *unhurried*, all skipped when 11.66 was
+written, plus *stouthearted* and *self-disciplined*, skipped now. Losing
+*self-disciplined* cost family-01302836-a its positive pole, and its axis was
+rewritten from "joyless → self-disciplined" to "moralising severity → plain
+strictness" to match what is left.
+
+Corpus-wide the defect is larger than the reviewed set has met so far:
+**137 synsets, 233 senses**, spread across every part of speech. Those are now
+unreachable by the worksheet, so the cost is paid once rather than per shard.
+
+## 11.68 Audit 004 — the fixes measured
+
+Read 2026-08-30 against fifty senses drawn with seed 20260904, excluding every
+sense seen in audits 001, 002 and 003. It is the first reading after both the
+gloss-binding fix and the undefinable-gloss sweep.
+
+**37 right, 10 wrong, 3 unsure. Error rate 20%, against 22% for audit 003.**
+Still four times the threshold. The fixes held where they were applied; the
+finding is *where they were applied*.
+
+| Category | Count | What it is |
+| --- | --- | --- |
+| wrong-sense | 4 | the note describes a different sense from the gloss above it |
+| unverifiable | 3 | a claim about speakers, frequency or origin that we cannot check |
+| note-scope | 2 | the note leaves the word — for the sample, or for a restriction the gloss does not make |
+| wrong-gloss | 1 | OEWN put the word in a synset that does not fit it |
+
+### The fix was applied per word, not per synset
+
+*blatant* is glossed "conspicuously and offensively loud" and was noted "has
+largely left sound behind" — the same fault, in the same synset, as
+*vociferous*, which 11.67 fixed. The synset was corrected for the audited word
+and left standing for its neighbour.
+
+**The rule that follows:** a note repaired for one word is repaired for every
+word in that synset. Two of audit 004's ten failures would not have been
+written down if 11.67's fixes had been made synset-wide.
+
+The same shape appears one level out. *bush-league* failed on "From
+minor-league baseball", and three of its family — *cheapjack*, *shoddy*,
+*tawdry* — carried the same origin story to a gloss that says only "made of
+inferior workmanship and materials". All four are rewritten here. Etymology is
+not banned because it is uninteresting; it is banned because 11.65 could not
+check it, and an unchecked origin is what an audit counts as wrong.
+
+### Adverbs: morphology names the lemma, WordNet names the sense
+
+The one inherited-adverb failure was *vulgarly*, glossed "in a smutty manner"
+and carrying the note written for *vulgar* "lacking refinement or cultivation
+or taste". 11.66 had already gated multi-sense adverbs on their glosses;
+*vulgarly* has one sense, and a single sense was assumed safe. It is not:
+morphology says which lemma an adverb belongs to and says nothing about which
+of that lemma's senses.
+
+WordNet does say. Every derived adverb carries a `pertainym` relation pointing
+at one adjective **sense**. `tools/pertainym_extract.py` pulls those 3,252
+pointers out of the source; `adverb_inherit.py` now uses them as the gate:
+
+- the adverb takes the note written for the sense it points at, when we have
+  one — *benignly* points at *benign* "pleasant and beneficial", not at the
+  "kindness of disposition" sense that happened to be annotated first;
+- it takes nothing when we have no note for that sense;
+- senses with no pertainym fall back to the gloss rule from 11.66.
+
+Inherited senses fall from 244 to 154 and 90 are declined outright. That is a
+third of the adverb shard given up to remove one measured failure, and it is
+the right trade only because the loss is recoverable: annotating the adjective
+sense an adverb points at restores it for free, with no new prose.
+
+### Where the error rate actually sits
+
+Two rounds of fixes have moved it 44 → 14 → 22 → 20. The first drop was real;
+the plateau since is three different faults arriving in turn, each smaller than
+the last, and each mechanically checkable only after an audit has named it.
+**5.5 still says method, not batch.** The next audit is the one that decides
+whether the per-synset rule and the pertainym gate did what 11.67's fix did for
+one word only.
 
 ## 11.7 Possible later work — not scheduled
 

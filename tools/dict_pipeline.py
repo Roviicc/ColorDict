@@ -29,6 +29,8 @@ OVERLAYS = ROOT / "data/entries/overlays"
 BULK = ROOT / "data/entries/derived-bulk.jsonl"
 BATCH = ROOT / "data/entries/batch-0001.jsonl"
 BUILD = ROOT / "data/build"
+PERTAINYMS = BUILD / "pertainyms.json"
+WORDNET = ROOT / "data/source/english-wordnet-2024.xml.gz"
 ASSETS = ROOT / "app/src/main/assets/dicts/popup-en"
 ASSET_FILES = ("popup-en.dict.dz", "popup-en.idx", "popup-en.ifo", "popup-en.syn")
 
@@ -54,6 +56,13 @@ def main():
     families = sorted(OVERLAYS.glob("families-*.overlay.jsonl"))
     if not families:
         sys.exit(f"no family overlays in {OVERLAYS}")
+
+    # Adverb inheritance checks each adverb against the adjective *sense* it
+    # points at, which lives in the WordNet source rather than in the bulk.
+    # Regenerable, so it is gitignored with the rest of data/build.
+    if not PERTAINYMS.exists() and WORDNET.exists():
+        run(ROOT / "tools/pertainym_extract.py", "--wordnet", WORDNET,
+            "--out", PERTAINYMS)
 
     # Adverbs are derived, not authored: rebuild them from every family so the
     # ones a new adjective shard unlocked are picked up automatically.

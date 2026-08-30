@@ -1,0 +1,610 @@
+{
+ "sample": "audit-004",
+ "read": 50,
+ "right": 37,
+ "wrong": 10,
+ "unsure": 3,
+ "error_rate_pct": 20.0,
+ "threshold_pct": 5.0,
+ "verdict": "FAIL",
+ "previous": {
+  "sample": "audit-003",
+  "error_rate_pct": 22.0
+ },
+ "by_shard": {
+  "adverbs-inherited": {
+   "ok": 11,
+   "no": 1
+  },
+  "annotated-001": {
+   "ok": 3
+  },
+  "annotated-002": {
+   "ok": 4,
+   "hm": 1
+  },
+  "annotated-003": {
+   "no": 1,
+   "ok": 1
+  },
+  "annotated-004": {
+   "ok": 1,
+   "no": 1
+  },
+  "annotated-005": {
+   "ok": 6,
+   "hm": 1
+  },
+  "annotated-006": {
+   "no": 3,
+   "ok": 2,
+   "hm": 1
+  },
+  "annotated-007": {
+   "ok": 6,
+   "no": 2
+  },
+  "annotated-008": {
+   "ok": 3,
+   "no": 2
+  }
+ },
+ "by_category": {
+  "wrong-sense": 4,
+  "unverifiable": 3,
+  "note-scope": 2,
+  "wrong-gloss": 1
+ },
+ "entries": [
+  {
+   "n": 1,
+   "id": "overbearing.oewn-00790912-s",
+   "word": "overbearing",
+   "shard": "annotated-007",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 2,
+   "id": "questioning.oewn-00668084-s",
+   "word": "questioning",
+   "shard": "annotated-008",
+   "label": "neutral",
+   "charge": 0,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 3,
+   "id": "beastly.oewn-01266555-s",
+   "word": "beastly",
+   "shard": "annotated-006",
+   "label": "negative",
+   "charge": -1,
+   "verdict": "no",
+   "category": "wrong-sense",
+   "objection": "glossed 'resembling a beast; showing lack of human sensibility'; the note is about the intensifier (*beastly weather*), a different sense"
+  },
+  {
+   "n": 4,
+   "id": "heedlessly.oewn-00165349-r",
+   "word": "heedlessly",
+   "shard": "adverbs-inherited",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 5,
+   "id": "slothful.oewn-00295445-s",
+   "word": "slothful",
+   "shard": "annotated-005",
+   "label": "negative",
+   "charge": -3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 6,
+   "id": "cheerily.oewn-00220805-r",
+   "word": "cheerily",
+   "shard": "adverbs-inherited",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 7,
+   "id": "pusillanimous.oewn-00267286-s",
+   "word": "pusillanimous",
+   "shard": "annotated-002",
+   "label": "negative",
+   "charge": -3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 8,
+   "id": "blatant.oewn-01926766-s",
+   "word": "blatant",
+   "shard": "annotated-008",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "no",
+   "category": "wrong-sense",
+   "objection": "glossed on offensive loudness; the note says the word has left sound behind - that is the flagrant sense, not this one. Same synset as *vociferous*, which was fixed in 9a69b2e; the fix was applied per word, not per synset"
+  },
+  {
+   "n": 9,
+   "id": "ill-natured.oewn-01138269-a",
+   "word": "ill-natured",
+   "shard": "annotated-008",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 10,
+   "id": "earnestly.oewn-00166233-r",
+   "word": "earnestly",
+   "shard": "adverbs-inherited",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 11,
+   "id": "cleverly.oewn-00188967-r",
+   "word": "cleverly",
+   "shard": "adverbs-inherited",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 12,
+   "id": "unregenerate.oewn-02334687-a",
+   "word": "unregenerate",
+   "shard": "annotated-005",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 13,
+   "id": "hen-peck.oewn-00846620-v",
+   "word": "hen-peck",
+   "shard": "annotated-005",
+   "label": "negative",
+   "charge": -3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 14,
+   "id": "innocent.oewn-02280420-s",
+   "word": "innocent",
+   "shard": "annotated-007",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 15,
+   "id": "vulgarly.oewn-00461819-r",
+   "word": "vulgarly",
+   "shard": "adverbs-inherited",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "no",
+   "category": "wrong-sense",
+   "objection": "the adverb is glossed 'in a smutty manner'; the inherited note is about *vulgar* 'lacking refinement or taste' - a different sense of the adjective"
+  },
+  {
+   "n": 16,
+   "id": "cunningly.oewn-00295240-r",
+   "word": "cunningly",
+   "shard": "adverbs-inherited",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 17,
+   "id": "cruel.oewn-01266123-s",
+   "word": "cruel",
+   "shard": "annotated-006",
+   "label": "negative",
+   "charge": -3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 18,
+   "id": "naughtily.oewn-00017140-r",
+   "word": "naughtily",
+   "shard": "adverbs-inherited",
+   "label": "negative",
+   "charge": -1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 19,
+   "id": "all-knowing.oewn-02580010-s",
+   "word": "all-knowing",
+   "shard": "annotated-007",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 20,
+   "id": "twinkly.oewn-00364111-s",
+   "word": "twinkly",
+   "shard": "annotated-006",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "hm",
+   "category": null,
+   "objection": "'faintly patronising' is defensible of *twinkly* but not visible in the gloss 'smiling with happiness or optimism'"
+  },
+  {
+   "n": 21,
+   "id": "flush.oewn-02029380-s",
+   "word": "flush",
+   "shard": "annotated-002",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 22,
+   "id": "misanthropic.oewn-02472810-s",
+   "word": "misanthropic",
+   "shard": "annotated-008",
+   "label": "negative",
+   "charge": -3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 23,
+   "id": "plump.oewn-00989957-s",
+   "word": "plump",
+   "shard": "annotated-001",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 24,
+   "id": "dreadfully.oewn-00056878-r",
+   "word": "dreadfully",
+   "shard": "adverbs-inherited",
+   "label": "negative",
+   "charge": -3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 25,
+   "id": "dogged.oewn-02335561-s",
+   "word": "dogged",
+   "shard": "annotated-005",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 26,
+   "id": "authenticated.oewn-01119662-s",
+   "word": "authenticated",
+   "shard": "annotated-004",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 27,
+   "id": "false.oewn-01227300-s",
+   "word": "false",
+   "shard": "annotated-004",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "no",
+   "category": "note-scope",
+   "objection": "'said of things rather than people' restricts further than the gloss does, and a false friend or false prophet is a person"
+  },
+  {
+   "n": 28,
+   "id": "die.oewn-00359085-v",
+   "word": "die",
+   "shard": "annotated-003",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "no",
+   "category": "note-scope",
+   "objection": "'every other word in this family exists because people flinch from it' is a claim about the sample, not the word - the fault audit 001 named"
+  },
+  {
+   "n": 29,
+   "id": "slender.oewn-00994085-s",
+   "word": "slender",
+   "shard": "annotated-001",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 30,
+   "id": "bush-league.oewn-02354737-s",
+   "word": "bush-league",
+   "shard": "annotated-008",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "no",
+   "category": "unverifiable",
+   "objection": "'From minor-league baseball' is an origin claim; 11.65 bans them unless checked against a source"
+  },
+  {
+   "n": 31,
+   "id": "dishy.oewn-00220265-s",
+   "word": "dishy",
+   "shard": "annotated-002",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 32,
+   "id": "greedy.oewn-00011179-s",
+   "word": "greedy",
+   "shard": "annotated-006",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "no",
+   "category": "unverifiable",
+   "objection": "'one of the first moral words a child is taught' is a claim about speakers, not about the word"
+  },
+  {
+   "n": 33,
+   "id": "modestly.oewn-00240942-r",
+   "word": "modestly",
+   "shard": "adverbs-inherited",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 34,
+   "id": "bitch.oewn-00909610-v",
+   "word": "bitch",
+   "shard": "annotated-005",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 35,
+   "id": "pretty.oewn-00221674-s",
+   "word": "pretty",
+   "shard": "annotated-002",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 36,
+   "id": "amiably.oewn-00221532-r",
+   "word": "amiably",
+   "shard": "adverbs-inherited",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 37,
+   "id": "unpitying.oewn-01511765-s",
+   "word": "unpitying",
+   "shard": "annotated-007",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "no",
+   "category": "unverifiable",
+   "objection": "'the rarer form' is a frequency claim we cannot check at this resolution"
+  },
+  {
+   "n": 38,
+   "id": "dodgy.oewn-00149346-s",
+   "word": "dodgy",
+   "shard": "annotated-007",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "no",
+   "category": "wrong-sense",
+   "objection": "glossed 'marked by skill in deception'; 'a dodgy knee' is the unreliable sense, and the note reaches for it"
+  },
+  {
+   "n": 39,
+   "id": "foolish.oewn-00441663-s",
+   "word": "foolish",
+   "shard": "annotated-002",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "hm",
+   "category": null,
+   "objection": "the note disputes its own gloss - 'having or revealing stupidity' against 'faults the judgement rather than the intelligence'. Good lexicography, uneasy fit"
+  },
+  {
+   "n": 40,
+   "id": "roughshod.oewn-01266123-s",
+   "word": "roughshod",
+   "shard": "annotated-006",
+   "label": "negative",
+   "charge": -1,
+   "verdict": "no",
+   "category": "wrong-gloss",
+   "objection": "OEWN puts *roughshod* in the cruel synset ('able or disposed to inflict pain'); the note answers with 'disregard rather than violence'. The gloss is wrong for the word, so the sense should carry no judgement"
+  },
+  {
+   "n": 41,
+   "id": "wiry.oewn-00994814-s",
+   "word": "wiry",
+   "shard": "annotated-001",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 42,
+   "id": "civilized.oewn-01954376-s",
+   "word": "civilized",
+   "shard": "annotated-005",
+   "label": "positive",
+   "charge": 1,
+   "verdict": "hm",
+   "category": null,
+   "objection": "'the compliment has a history' gestures at something it does not say; unfalsifiable as written"
+  },
+  {
+   "n": 43,
+   "id": "cackle.oewn-00031411-v",
+   "word": "cackle",
+   "shard": "annotated-003",
+   "label": "negative",
+   "charge": -3,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 44,
+   "id": "openhanded.oewn-01115129-s",
+   "word": "openhanded",
+   "shard": "annotated-005",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 45,
+   "id": "omniscient.oewn-02580010-s",
+   "word": "omniscient",
+   "shard": "annotated-007",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 46,
+   "id": "diligently.oewn-00313420-r",
+   "word": "diligently",
+   "shard": "adverbs-inherited",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 47,
+   "id": "vociferously.oewn-00155235-r",
+   "word": "vociferously",
+   "shard": "adverbs-inherited",
+   "label": "negative",
+   "charge": -2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 48,
+   "id": "ritzy.oewn-00854054-s",
+   "word": "ritzy",
+   "shard": "annotated-007",
+   "label": "neutral",
+   "charge": 0,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 49,
+   "id": "cheerful.oewn-00363547-a",
+   "word": "cheerful",
+   "shard": "annotated-006",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  },
+  {
+   "n": 50,
+   "id": "diligent.oewn-01740371-s",
+   "word": "diligent",
+   "shard": "annotated-007",
+   "label": "positive",
+   "charge": 2,
+   "verdict": "ok",
+   "category": null,
+   "objection": ""
+  }
+ ]
+}
