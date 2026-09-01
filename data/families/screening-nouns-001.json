@@ -1,0 +1,2927 @@
+{
+ "_comment": "Noun families screened for a connotation spread, not a taxonomy. family_extract.py --pos n --min-size 4 yields 11,484 families, but the largest are kinds-of-thing (herb 623, woman 603, tree 306) where the members differ in denotation, not in force. These 1,318 have at least four members SentiWordNet marks non-neutral. Screening is still owed: pneumonia and tranquilizer score high because disease and drugs read negative, not because the words differ in tone. See plan 11.69 and the adverb lesson - a note written for one part of speech may not transfer to another without checking the gloss.",
+ "generated": "2026-09-02",
+ "total_families": 11484,
+ "candidates": 1318,
+ "families": [
+  {
+   "id": "oewn-04819517-n",
+   "members": 31,
+   "charged": 31,
+   "fraction": 1.0,
+   "words": [
+    "elegance",
+    "dash",
+    "elan",
+    "flair",
+    "panache",
+    "style",
+    "daintiness",
+    "delicacy",
+    "fineness",
+    "courtliness",
+    "tastefulness",
+    "breeding"
+   ]
+  },
+  {
+   "id": "oewn-04477467-n",
+   "members": 22,
+   "charged": 22,
+   "fraction": 1.0,
+   "words": [
+    "tranquilizer",
+    "tranquillizer",
+    "tranquilliser",
+    "antianxiety agent",
+    "ataractic drug",
+    "ataractic agent",
+    "ataractic",
+    "major tranquilizer",
+    "major tranquillizer",
+    "major tranquilliser",
+    "antipsychotic drug",
+    "antipsychotic agent"
+   ]
+  },
+  {
+   "id": "oewn-05621958-n",
+   "members": 19,
+   "charged": 19,
+   "fraction": 1.0,
+   "words": [
+    "sagacity",
+    "sagaciousness",
+    "judgment",
+    "judgement",
+    "discernment",
+    "eye",
+    "common sense",
+    "good sense",
+    "gumption",
+    "horse sense",
+    "sense",
+    "mother wit"
+   ]
+  },
+  {
+   "id": "oewn-04910990-n",
+   "members": 15,
+   "charged": 15,
+   "fraction": 1.0,
+   "words": [
+    "composure",
+    "calm",
+    "calmness",
+    "equanimity",
+    "aplomb",
+    "assuredness",
+    "cool",
+    "poise",
+    "sang-froid",
+    "repose",
+    "quiet",
+    "placidity"
+   ]
+  },
+  {
+   "id": "oewn-07319470-n",
+   "members": 15,
+   "charged": 15,
+   "fraction": 1.0,
+   "words": [
+    "misfortune",
+    "bad luck",
+    "pity",
+    "shame",
+    "mishap",
+    "misadventure",
+    "mischance",
+    "calamity",
+    "catastrophe",
+    "disaster",
+    "tragedy",
+    "cataclysm"
+   ]
+  },
+  {
+   "id": "oewn-00855465-n",
+   "members": 13,
+   "charged": 13,
+   "fraction": 1.0,
+   "words": [
+    "foreplay",
+    "arousal",
+    "stimulation",
+    "caressing",
+    "cuddling",
+    "fondling",
+    "hugging",
+    "kissing",
+    "necking",
+    "petting",
+    "smooching",
+    "snuggling"
+   ]
+  },
+  {
+   "id": "oewn-04678103-n",
+   "members": 13,
+   "charged": 13,
+   "fraction": 1.0,
+   "words": [
+    "irresponsibility",
+    "irresponsibleness",
+    "undependability",
+    "undependableness",
+    "unreliability",
+    "unreliableness",
+    "flightiness",
+    "arbitrariness",
+    "whimsicality",
+    "whimsy",
+    "whimsey",
+    "capriciousness"
+   ]
+  },
+  {
+   "id": "oewn-04849544-n",
+   "members": 13,
+   "charged": 13,
+   "fraction": 1.0,
+   "words": [
+    "malevolence",
+    "malevolency",
+    "malice",
+    "cattiness",
+    "bitchiness",
+    "spite",
+    "spitefulness",
+    "nastiness",
+    "cruelty",
+    "cruelness",
+    "harshness",
+    "beastliness"
+   ]
+  },
+  {
+   "id": "oewn-06728162-n",
+   "members": 13,
+   "charged": 13,
+   "fraction": 1.0,
+   "words": [
+    "abuse",
+    "insult",
+    "revilement",
+    "contumely",
+    "vilification",
+    "low blow",
+    "scurrility",
+    "billingsgate",
+    "stinger",
+    "cut",
+    "vituperation",
+    "invective"
+   ]
+  },
+  {
+   "id": "oewn-07319852-n",
+   "members": 13,
+   "charged": 13,
+   "fraction": 1.0,
+   "words": [
+    "affliction",
+    "calvary",
+    "martyrdom",
+    "trial",
+    "tribulation",
+    "visitation",
+    "curse",
+    "torment",
+    "attack",
+    "bane",
+    "curse",
+    "scourge"
+   ]
+  },
+  {
+   "id": "oewn-07564444-n",
+   "members": 13,
+   "charged": 13,
+   "fraction": 1.0,
+   "words": [
+    "resentment",
+    "bitterness",
+    "gall",
+    "rancor",
+    "rancour",
+    "heartburning",
+    "sulkiness",
+    "huffishness",
+    "grudge",
+    "score",
+    "grievance",
+    "envy"
+   ]
+  },
+  {
+   "id": "oewn-07533500-n",
+   "members": 12,
+   "charged": 12,
+   "fraction": 1.0,
+   "words": [
+    "annoyance",
+    "chafe",
+    "vexation",
+    "pique",
+    "temper",
+    "irritation",
+    "frustration",
+    "aggravation",
+    "exasperation",
+    "harassment",
+    "torment",
+    "displeasure"
+   ]
+  },
+  {
+   "id": "oewn-10344909-n",
+   "members": 12,
+   "charged": 12,
+   "fraction": 1.0,
+   "words": [
+    "ideal",
+    "paragon",
+    "nonpareil",
+    "saint",
+    "apotheosis",
+    "nonesuch",
+    "nonsuch",
+    "jimdandy",
+    "jimhickey",
+    "crackerjack",
+    "class act",
+    "humdinger"
+   ]
+  },
+  {
+   "id": "oewn-14498989-n",
+   "members": 12,
+   "charged": 12,
+   "fraction": 1.0,
+   "words": [
+    "misfortune",
+    "bad luck",
+    "tough luck",
+    "ill luck",
+    "weakness",
+    "adversity",
+    "hardship",
+    "hard knocks",
+    "gutter",
+    "sewer",
+    "toilet",
+    "hard cheese"
+   ]
+  },
+  {
+   "id": "oewn-14570961-n",
+   "members": 12,
+   "charged": 12,
+   "fraction": 1.0,
+   "words": [
+    "unfitness",
+    "softness",
+    "infirmity",
+    "frailty",
+    "debility",
+    "feebleness",
+    "frailness",
+    "valetudinarianism",
+    "disability",
+    "disablement",
+    "handicap",
+    "impairment"
+   ]
+  },
+  {
+   "id": "oewn-07498762-n",
+   "members": 11,
+   "charged": 11,
+   "fraction": 1.0,
+   "words": [
+    "apathy",
+    "emotionlessness",
+    "impassivity",
+    "impassiveness",
+    "phlegm",
+    "indifference",
+    "stolidity",
+    "unemotionality",
+    "languor",
+    "lassitude",
+    "listlessness"
+   ]
+  },
+  {
+   "id": "oewn-07567553-n",
+   "members": 11,
+   "charged": 11,
+   "fraction": 1.0,
+   "words": [
+    "ill humor",
+    "ill humour",
+    "distemper",
+    "moodiness",
+    "irritability",
+    "crossness",
+    "fretfulness",
+    "fussiness",
+    "peevishness",
+    "petulance",
+    "choler"
+   ]
+  },
+  {
+   "id": "oewn-14171109-n",
+   "members": 11,
+   "charged": 11,
+   "fraction": 1.0,
+   "words": [
+    "pneumonia",
+    "bronchopneumonia",
+    "bronchial pneumonia",
+    "lobar pneumonia",
+    "pneumococcal pneumonia",
+    "pneumocytosis",
+    "pneumocystis pneumonia",
+    "pneumocystis carinii pneumonia",
+    "interstitial plasma cell pneumonia",
+    "pleuropneumonia",
+    "viral pneumonia"
+   ]
+  },
+  {
+   "id": "oewn-04639057-n",
+   "members": 10,
+   "charged": 10,
+   "fraction": 1.0,
+   "words": [
+    "animation",
+    "spiritedness",
+    "invigoration",
+    "brio",
+    "vivification",
+    "chirpiness",
+    "liveliness",
+    "life",
+    "spirit",
+    "sprightliness"
+   ]
+  },
+  {
+   "id": "oewn-04673170-n",
+   "members": 10,
+   "charged": 10,
+   "fraction": 1.0,
+   "words": [
+    "negligence",
+    "neglect",
+    "neglectfulness",
+    "delinquency",
+    "dereliction",
+    "willful neglect",
+    "laxness",
+    "laxity",
+    "remissness",
+    "slackness"
+   ]
+  },
+  {
+   "id": "oewn-04697545-n",
+   "members": 10,
+   "charged": 10,
+   "fraction": 1.0,
+   "words": [
+    "ugliness",
+    "unsightliness",
+    "grotesqueness",
+    "grotesquery",
+    "grotesquerie",
+    "garishness",
+    "gaudiness",
+    "hideousness",
+    "unattractiveness",
+    "eyesore"
+   ]
+  },
+  {
+   "id": "oewn-04704615-n",
+   "members": 10,
+   "charged": 10,
+   "fraction": 1.0,
+   "words": [
+    "plainness",
+    "chasteness",
+    "restraint",
+    "simplicity",
+    "simpleness",
+    "austereness",
+    "severity",
+    "severeness",
+    "bareness",
+    "starkness"
+   ]
+  },
+  {
+   "id": "oewn-05722841-n",
+   "members": 10,
+   "charged": 10,
+   "fraction": 1.0,
+   "words": [
+    "malodor",
+    "malodour",
+    "stench",
+    "stink",
+    "reek",
+    "fetor",
+    "foetor",
+    "mephitis",
+    "niff",
+    "pong"
+   ]
+  },
+  {
+   "id": "oewn-05776803-n",
+   "members": 10,
+   "charged": 10,
+   "fraction": 1.0,
+   "words": [
+    "dream",
+    "dreaming",
+    "reverie",
+    "revery",
+    "daydream",
+    "daydreaming",
+    "oneirism",
+    "air castle",
+    "castle in the air",
+    "woolgathering"
+   ]
+  },
+  {
+   "id": "oewn-06769768-n",
+   "members": 10,
+   "charged": 10,
+   "fraction": 1.0,
+   "words": [
+    "fib",
+    "story",
+    "tale",
+    "tarradiddle",
+    "taradiddle",
+    "fairytale",
+    "fairy tale",
+    "fairy story",
+    "cock-and-bull story",
+    "song and dance"
+   ]
+  },
+  {
+   "id": "oewn-07504199-n",
+   "members": 10,
+   "charged": 10,
+   "fraction": 1.0,
+   "words": [
+    "amorousness",
+    "eroticism",
+    "erotism",
+    "sexiness",
+    "amativeness",
+    "prurience",
+    "pruriency",
+    "lasciviousness",
+    "carnality",
+    "lubricity"
+   ]
+  },
+  {
+   "id": "oewn-07509503-n",
+   "members": 10,
+   "charged": 10,
+   "fraction": 1.0,
+   "words": [
+    "pain",
+    "painfulness",
+    "growing pains",
+    "unpleasantness",
+    "mental anguish",
+    "suffering",
+    "hurt",
+    "distress",
+    "hurt",
+    "suffering"
+   ]
+  },
+  {
+   "id": "oewn-07511603-n",
+   "members": 10,
+   "charged": 10,
+   "fraction": 1.0,
+   "words": [
+    "distress",
+    "hurt",
+    "suffering",
+    "anguish",
+    "torment",
+    "torture",
+    "self-torture",
+    "self-torment",
+    "tsoris",
+    "wound"
+   ]
+  },
+  {
+   "id": "oewn-07530207-n",
+   "members": 10,
+   "charged": 10,
+   "fraction": 1.0,
+   "words": [
+    "calmness",
+    "placidity",
+    "placidness",
+    "coolness",
+    "imperturbability",
+    "imperturbableness",
+    "tranquillity",
+    "tranquility",
+    "quietness",
+    "quietude"
+   ]
+  },
+  {
+   "id": "oewn-07549818-n",
+   "members": 10,
+   "charged": 10,
+   "fraction": 1.0,
+   "words": [
+    "sorrow",
+    "broken heart",
+    "grief",
+    "heartache",
+    "heartbreak",
+    "brokenheartedness",
+    "mournfulness",
+    "sorrowfulness",
+    "ruthfulness",
+    "self-pity"
+   ]
+  },
+  {
+   "id": "oewn-07551058-n",
+   "members": 10,
+   "charged": 10,
+   "fraction": 1.0,
+   "words": [
+    "sorrow",
+    "regret",
+    "rue",
+    "ruefulness",
+    "attrition",
+    "contrition",
+    "contriteness",
+    "compunction",
+    "remorse",
+    "self-reproach"
+   ]
+  },
+  {
+   "id": "oewn-07551462-n",
+   "members": 10,
+   "charged": 10,
+   "fraction": 1.0,
+   "words": [
+    "compunction",
+    "remorse",
+    "self-reproach",
+    "guilt",
+    "guilty conscience",
+    "guilt feelings",
+    "guilt trip",
+    "repentance",
+    "penitence",
+    "penance"
+   ]
+  },
+  {
+   "id": "oewn-00224850-n",
+   "members": 9,
+   "charged": 9,
+   "fraction": 1.0,
+   "words": [
+    "slaughter",
+    "massacre",
+    "mass murder",
+    "carnage",
+    "butchery",
+    "bloodbath",
+    "bloodletting",
+    "bloodshed",
+    "battue"
+   ]
+  },
+  {
+   "id": "oewn-04647533-n",
+   "members": 9,
+   "charged": 9,
+   "fraction": 1.0,
+   "words": [
+    "good nature",
+    "grace",
+    "good will",
+    "goodwill",
+    "patience",
+    "forbearance",
+    "longanimity",
+    "easygoingness",
+    "risibility"
+   ]
+  },
+  {
+   "id": "oewn-04664105-n",
+   "members": 9,
+   "charged": 9,
+   "fraction": 1.0,
+   "words": [
+    "unsociability",
+    "unsociableness",
+    "introversion",
+    "aloofness",
+    "remoteness",
+    "standoffishness",
+    "withdrawnness",
+    "closeness",
+    "secretiveness"
+   ]
+  },
+  {
+   "id": "oewn-04908503-n",
+   "members": 9,
+   "charged": 9,
+   "fraction": 1.0,
+   "words": [
+    "impropriety",
+    "improperness",
+    "incorrectness",
+    "inappropriateness",
+    "wrongness",
+    "indelicacy",
+    "indecorum",
+    "indecorousness",
+    "indecency"
+   ]
+  },
+  {
+   "id": "oewn-05622440-n",
+   "members": 9,
+   "charged": 9,
+   "fraction": 1.0,
+   "words": [
+    "common sense",
+    "good sense",
+    "gumption",
+    "horse sense",
+    "sense",
+    "mother wit",
+    "logic",
+    "nous",
+    "road sense"
+   ]
+  },
+  {
+   "id": "oewn-05630964-n",
+   "members": 9,
+   "charged": 9,
+   "fraction": 1.0,
+   "words": [
+    "capability",
+    "capableness",
+    "potentiality",
+    "perfectibility",
+    "compass",
+    "range",
+    "reach",
+    "grasp",
+    "imperfectibility"
+   ]
+  },
+  {
+   "id": "oewn-14379983-n",
+   "members": 9,
+   "charged": 9,
+   "fraction": 1.0,
+   "words": [
+    "tendinitis",
+    "tendonitis",
+    "tenonitis",
+    "tennis elbow",
+    "lateral epicondylitis",
+    "lateral humeral epicondylitis",
+    "tenosynovitis",
+    "tendosynovitis",
+    "tendonous synovitis"
+   ]
+  },
+  {
+   "id": "oewn-04638046-n",
+   "members": 8,
+   "charged": 8,
+   "fraction": 1.0,
+   "words": [
+    "cheerfulness",
+    "cheer",
+    "sunniness",
+    "sunshine",
+    "good-temperedness",
+    "good-humoredness",
+    "good-humouredness",
+    "good-naturedness"
+   ]
+  },
+  {
+   "id": "oewn-04648284-n",
+   "members": 8,
+   "charged": 8,
+   "fraction": 1.0,
+   "words": [
+    "agreeableness",
+    "agreeability",
+    "complaisance",
+    "compliance",
+    "compliancy",
+    "obligingness",
+    "deference",
+    "affirmativeness"
+   ]
+  },
+  {
+   "id": "oewn-04649615-n",
+   "members": 8,
+   "charged": 8,
+   "fraction": 1.0,
+   "words": [
+    "temper",
+    "biliousness",
+    "irritability",
+    "peevishness",
+    "pettishness",
+    "snappishness",
+    "surliness",
+    "querulousness"
+   ]
+  },
+  {
+   "id": "oewn-04654835-n",
+   "members": 8,
+   "charged": 8,
+   "fraction": 1.0,
+   "words": [
+    "graveness",
+    "gravity",
+    "sobriety",
+    "soberness",
+    "somberness",
+    "sombreness",
+    "stodginess",
+    "stuffiness"
+   ]
+  },
+  {
+   "id": "oewn-04672321-n",
+   "members": 8,
+   "charged": 8,
+   "fraction": 1.0,
+   "words": [
+    "carelessness",
+    "sloppiness",
+    "incaution",
+    "incautiousness",
+    "negligence",
+    "neglect",
+    "neglectfulness",
+    "unconscientiousness"
+   ]
+  },
+  {
+   "id": "oewn-04794758-n",
+   "members": 8,
+   "charged": 8,
+   "fraction": 1.0,
+   "words": [
+    "unnaturalness",
+    "affectedness",
+    "artificiality",
+    "pretentiousness",
+    "pretension",
+    "largeness",
+    "supernaturalism",
+    "supernaturalness"
+   ]
+  },
+  {
+   "id": "oewn-04806593-n",
+   "members": 8,
+   "charged": 8,
+   "fraction": 1.0,
+   "words": [
+    "foreignness",
+    "strangeness",
+    "curiousness",
+    "exoticism",
+    "exoticness",
+    "exotism",
+    "alienage",
+    "alienism"
+   ]
+  },
+  {
+   "id": "oewn-05153138-n",
+   "members": 8,
+   "charged": 8,
+   "fraction": 1.0,
+   "words": [
+    "expensiveness",
+    "costliness",
+    "dearness",
+    "preciousness",
+    "lavishness",
+    "luxury",
+    "sumptuosity",
+    "sumptuousness"
+   ]
+  },
+  {
+   "id": "oewn-05168179-n",
+   "members": 8,
+   "charged": 8,
+   "fraction": 1.0,
+   "words": [
+    "favorableness",
+    "favourableness",
+    "advantageousness",
+    "positivity",
+    "positiveness",
+    "profitableness",
+    "auspiciousness",
+    "propitiousness"
+   ]
+  },
+  {
+   "id": "oewn-09983941-n",
+   "members": 8,
+   "charged": 8,
+   "fraction": 1.0,
+   "words": [
+    "copycat",
+    "imitator",
+    "emulator",
+    "ape",
+    "aper",
+    "epigone",
+    "epigon",
+    "parrot"
+   ]
+  },
+  {
+   "id": "oewn-13178035-n",
+   "members": 8,
+   "charged": 8,
+   "fraction": 1.0,
+   "words": [
+    "pinnate leaf",
+    "bijugate leaf",
+    "bijugous leaf",
+    "twice-pinnate",
+    "bipinnate leaf",
+    "even-pinnate leaf",
+    "abruptly-pinnate leaf",
+    "odd-pinnate leaf"
+   ]
+  },
+  {
+   "id": "oewn-13962386-n",
+   "members": 8,
+   "charged": 8,
+   "fraction": 1.0,
+   "words": [
+    "wild",
+    "natural state",
+    "state of nature",
+    "crudeness",
+    "crudity",
+    "primitiveness",
+    "primitivism",
+    "rudeness"
+   ]
+  },
+  {
+   "id": "oewn-14089685-n",
+   "members": 8,
+   "charged": 8,
+   "fraction": 1.0,
+   "words": [
+    "collapse",
+    "prostration",
+    "breakdown",
+    "crack-up",
+    "shock",
+    "heatstroke",
+    "heat hyperpyrexia",
+    "algidity"
+   ]
+  },
+  {
+   "id": "oewn-14364496-n",
+   "members": 8,
+   "charged": 8,
+   "fraction": 1.0,
+   "words": [
+    "colitis",
+    "inflammatory bowel disease",
+    "regional enteritis",
+    "regional ileitis",
+    "irritable bowel syndrome",
+    "spastic colon",
+    "mucous colitis",
+    "ulcerative colitis"
+   ]
+  },
+  {
+   "id": "oewn-04640554-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "energy",
+    "muscularity",
+    "vigor",
+    "vigour",
+    "vim",
+    "vitality",
+    "verve"
+   ]
+  },
+  {
+   "id": "oewn-04651019-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "aggressiveness",
+    "belligerence",
+    "pugnacity",
+    "bellicosity",
+    "bellicoseness",
+    "truculence",
+    "truculency"
+   ]
+  },
+  {
+   "id": "oewn-04723223-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "appropriateness",
+    "felicity",
+    "felicitousness",
+    "aptness",
+    "appositeness",
+    "ticket",
+    "just the ticket"
+   ]
+  },
+  {
+   "id": "oewn-04735326-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "quality",
+    "caliber",
+    "calibre",
+    "superiority",
+    "high quality",
+    "inferiority",
+    "low quality"
+   ]
+  },
+  {
+   "id": "oewn-04785869-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "pleasantness",
+    "sweetness",
+    "pleasingness",
+    "agreeableness",
+    "amenity",
+    "enjoyableness",
+    "niceness"
+   ]
+  },
+  {
+   "id": "oewn-04794991-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "affectedness",
+    "airs",
+    "pose",
+    "coyness",
+    "demureness",
+    "preciosity",
+    "preciousness"
+   ]
+  },
+  {
+   "id": "oewn-04821469-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "magnificence",
+    "brilliance",
+    "splendor",
+    "splendour",
+    "grandeur",
+    "grandness",
+    "eclat"
+   ]
+  },
+  {
+   "id": "oewn-04839749-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "liberality",
+    "liberalness",
+    "munificence",
+    "largess",
+    "largesse",
+    "magnanimity",
+    "openhandedness"
+   ]
+  },
+  {
+   "id": "oewn-04878915-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "candor",
+    "candour",
+    "candidness",
+    "frankness",
+    "directness",
+    "forthrightness",
+    "ingenuousness"
+   ]
+  },
+  {
+   "id": "oewn-04917554-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "bearing",
+    "comportment",
+    "presence",
+    "mien",
+    "dignity",
+    "lordliness",
+    "gravitas"
+   ]
+  },
+  {
+   "id": "oewn-04987905-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "malodorousness",
+    "stinkiness",
+    "foulness",
+    "rankness",
+    "fetidness",
+    "body odor",
+    "body odour"
+   ]
+  },
+  {
+   "id": "oewn-05069146-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "slowness",
+    "deliberation",
+    "deliberateness",
+    "unhurriedness",
+    "leisureliness",
+    "dilatoriness",
+    "procrastination"
+   ]
+  },
+  {
+   "id": "oewn-05124253-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "scarcity",
+    "scarceness",
+    "dearth",
+    "paucity",
+    "rarity",
+    "rareness",
+    "infrequency"
+   ]
+  },
+  {
+   "id": "oewn-05164957-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "profit",
+    "gain",
+    "account",
+    "profitableness",
+    "profitability",
+    "gainfulness",
+    "lucrativeness"
+   ]
+  },
+  {
+   "id": "oewn-07189084-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "misinterpretation",
+    "misunderstanding",
+    "mistaking",
+    "imbroglio",
+    "misconstrual",
+    "misconstruction",
+    "misreading"
+   ]
+  },
+  {
+   "id": "oewn-07554899-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "dissatisfaction",
+    "boredom",
+    "ennui",
+    "tedium",
+    "displeasure",
+    "disappointment",
+    "letdown"
+   ]
+  },
+  {
+   "id": "oewn-07567157-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "good humor",
+    "good humour",
+    "good temper",
+    "amiability",
+    "jollity",
+    "jolliness",
+    "joviality"
+   ]
+  },
+  {
+   "id": "oewn-10011068-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "daredevil",
+    "madcap",
+    "hothead",
+    "swashbuckler",
+    "lunatic",
+    "harum-scarum",
+    "tearaway"
+   ]
+  },
+  {
+   "id": "oewn-10542352-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "rescuer",
+    "recoverer",
+    "saver",
+    "salvager",
+    "salvor",
+    "succorer",
+    "succourer"
+   ]
+  },
+  {
+   "id": "oewn-10737780-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "tourist",
+    "tourer",
+    "holidaymaker",
+    "sightseer",
+    "excursionist",
+    "tripper",
+    "rubberneck"
+   ]
+  },
+  {
+   "id": "oewn-13954798-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "sexual relationship",
+    "affair",
+    "affaire",
+    "intimacy",
+    "liaison",
+    "involvement",
+    "amour"
+   ]
+  },
+  {
+   "id": "oewn-13974662-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "inferiority",
+    "lower status",
+    "lower rank",
+    "backseat",
+    "shade",
+    "subordinateness",
+    "subsidiarity"
+   ]
+  },
+  {
+   "id": "oewn-14012536-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "sadness",
+    "sorrow",
+    "sorrowfulness",
+    "mourning",
+    "bereavement",
+    "poignance",
+    "poignancy"
+   ]
+  },
+  {
+   "id": "oewn-14411212-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "personality disorder",
+    "maladjustment",
+    "antisocial personality disorder",
+    "sociopathic personality",
+    "psychopathic personality",
+    "schizotypal personality",
+    "schizoid"
+   ]
+  },
+  {
+   "id": "oewn-14416044-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "bipolar disorder",
+    "manic depression",
+    "manic depressive illness",
+    "manic-depressive psychosis",
+    "cyclothymia",
+    "cyclothymic disorder",
+    "cyclic disorder"
+   ]
+  },
+  {
+   "id": "oewn-14432050-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "predicament",
+    "quandary",
+    "plight",
+    "care",
+    "corner",
+    "box",
+    "hot water"
+   ]
+  },
+  {
+   "id": "oewn-14497239-n",
+   "members": 7,
+   "charged": 7,
+   "fraction": 1.0,
+   "words": [
+    "good fortune",
+    "luckiness",
+    "good luck",
+    "prosperity",
+    "successfulness",
+    "blessing",
+    "boon"
+   ]
+  },
+  {
+   "id": "oewn-04628367-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "inwardness",
+    "internality",
+    "spirituality",
+    "spiritualism",
+    "spiritism",
+    "otherworldliness"
+   ]
+  },
+  {
+   "id": "oewn-04632316-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "nervousness",
+    "restlessness",
+    "uneasiness",
+    "queasiness",
+    "skittishness",
+    "restiveness"
+   ]
+  },
+  {
+   "id": "oewn-04640810-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "vitality",
+    "verve",
+    "sparkle",
+    "twinkle",
+    "spark",
+    "light"
+   ]
+  },
+  {
+   "id": "oewn-04694682-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "appeal",
+    "appealingness",
+    "charm",
+    "siren call",
+    "siren song",
+    "winsomeness"
+   ]
+  },
+  {
+   "id": "oewn-04709475-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "transparency",
+    "transparence",
+    "transparentness",
+    "pellucidness",
+    "pellucidity",
+    "limpidity"
+   ]
+  },
+  {
+   "id": "oewn-04722763-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "suitability",
+    "suitableness",
+    "appropriateness",
+    "fitness",
+    "fittingness",
+    "convenience"
+   ]
+  },
+  {
+   "id": "oewn-04792897-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "illogicality",
+    "illogicalness",
+    "illogic",
+    "inconsequence",
+    "invalidity",
+    "invalidness"
+   ]
+  },
+  {
+   "id": "oewn-04795722-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "artificiality",
+    "staginess",
+    "theatricality",
+    "pretension",
+    "pretense",
+    "pretence"
+   ]
+  },
+  {
+   "id": "oewn-04845741-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "audacity",
+    "audaciousness",
+    "presumption",
+    "presumptuousness",
+    "effrontery",
+    "assumption"
+   ]
+  },
+  {
+   "id": "oewn-04845958-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "presumption",
+    "presumptuousness",
+    "effrontery",
+    "assumption",
+    "uppityness",
+    "uppishness"
+   ]
+  },
+  {
+   "id": "oewn-04848589-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "consideration",
+    "considerateness",
+    "thoughtfulness",
+    "attentiveness",
+    "tact",
+    "tactfulness"
+   ]
+  },
+  {
+   "id": "oewn-04857348-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "justice",
+    "justness",
+    "fairness",
+    "equity",
+    "right",
+    "rightfulness"
+   ]
+  },
+  {
+   "id": "oewn-04884180-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "fidelity",
+    "faithfulness",
+    "constancy",
+    "dedication",
+    "loyalty",
+    "trueness"
+   ]
+  },
+  {
+   "id": "oewn-05177340-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "significance",
+    "historicalness",
+    "meaningfulness",
+    "consequence",
+    "import",
+    "moment"
+   ]
+  },
+  {
+   "id": "oewn-05837666-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "positive stimulus",
+    "bonus",
+    "fillip",
+    "joy",
+    "delight",
+    "pleasure"
+   ]
+  },
+  {
+   "id": "oewn-06322842-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "genitive",
+    "genitive case",
+    "possessive",
+    "possessive case",
+    "attributive genitive",
+    "attributive genitive case"
+   ]
+  },
+  {
+   "id": "oewn-06790633-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "banter",
+    "raillery",
+    "give-and-take",
+    "backchat",
+    "badinage",
+    "persiflage"
+   ]
+  },
+  {
+   "id": "oewn-07223590-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "complaint",
+    "exclamation",
+    "lament",
+    "lamentation",
+    "plaint",
+    "wail"
+   ]
+  },
+  {
+   "id": "oewn-07379624-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "flop",
+    "bust",
+    "fizzle",
+    "turkey",
+    "bomb",
+    "dud"
+   ]
+  },
+  {
+   "id": "oewn-07491010-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "reverse",
+    "reversal",
+    "setback",
+    "blow",
+    "black eye",
+    "whammy"
+   ]
+  },
+  {
+   "id": "oewn-07506848-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "enjoyment",
+    "joie de vivre",
+    "gusto",
+    "relish",
+    "zest",
+    "zestfulness"
+   ]
+  },
+  {
+   "id": "oewn-07507795-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "consolation",
+    "solace",
+    "solacement",
+    "cold comfort",
+    "silver lining",
+    "bright side"
+   ]
+  },
+  {
+   "id": "oewn-07550398-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "grief",
+    "heartache",
+    "heartbreak",
+    "brokenheartedness",
+    "dolor",
+    "dolour"
+   ]
+  },
+  {
+   "id": "oewn-07550597-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "mournfulness",
+    "sorrowfulness",
+    "ruthfulness",
+    "woe",
+    "woefulness",
+    "plaintiveness"
+   ]
+  },
+  {
+   "id": "oewn-10573233-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "savior",
+    "saviour",
+    "rescuer",
+    "deliverer",
+    "messiah",
+    "christ"
+   ]
+  },
+  {
+   "id": "oewn-14010908-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "happiness",
+    "felicity",
+    "blessedness",
+    "beatitude",
+    "beatification",
+    "radiance"
+   ]
+  },
+  {
+   "id": "oewn-14013549-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "purity",
+    "pureness",
+    "sinlessness",
+    "innocence",
+    "whiteness",
+    "cleanness"
+   ]
+  },
+  {
+   "id": "oewn-14106682-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "epileptic seizure",
+    "grand mal",
+    "generalized seizure",
+    "epilepsia major",
+    "petit mal",
+    "epilepsia minor"
+   ]
+  },
+  {
+   "id": "oewn-14114736-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "ataxia",
+    "ataxy",
+    "dyssynergia",
+    "motor ataxia",
+    "herediatry spinal ataxia",
+    "hereditary cerebellar ataxia"
+   ]
+  },
+  {
+   "id": "oewn-14195487-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "gastroenteritis",
+    "stomach flu",
+    "intestinal flu",
+    "cholera infantum",
+    "cholera morbus",
+    "collywobbles"
+   ]
+  },
+  {
+   "id": "oewn-14197107-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "angina",
+    "trench mouth",
+    "quinsy",
+    "peritonsillar abscess",
+    "croup",
+    "spasmodic laryngitis"
+   ]
+  },
+  {
+   "id": "oewn-14198647-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "amebiasis",
+    "amoebiasis",
+    "amebiosis",
+    "amoebiosis",
+    "amebic dysentery",
+    "amoebic dysentery"
+   ]
+  },
+  {
+   "id": "oewn-14302275-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "brown rot",
+    "brown rot gummosis",
+    "gummosis",
+    "ring rot",
+    "ring disease",
+    "tobacco wilt"
+   ]
+  },
+  {
+   "id": "oewn-14321372-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "sting",
+    "bite",
+    "insect bite",
+    "bee sting",
+    "flea bite",
+    "mosquito bite"
+   ]
+  },
+  {
+   "id": "oewn-14343111-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "jaundice",
+    "icterus",
+    "jaundice of the newborn",
+    "physiological jaundice of the newborn",
+    "icterus neonatorum",
+    "kernicterus"
+   ]
+  },
+  {
+   "id": "oewn-14362347-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "carditis",
+    "endocarditis",
+    "myocardial inflammation",
+    "myocarditis",
+    "pancarditis",
+    "pericarditis"
+   ]
+  },
+  {
+   "id": "oewn-14416566-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "neurosis",
+    "neuroticism",
+    "psychoneurosis",
+    "hysteria",
+    "hysterical neurosis",
+    "anxiety neurosis"
+   ]
+  },
+  {
+   "id": "oewn-14518300-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "sanitary condition",
+    "sanitariness",
+    "unsanitariness",
+    "cleanness",
+    "dirtiness",
+    "uncleanness"
+   ]
+  },
+  {
+   "id": "oewn-14519173-n",
+   "members": 6,
+   "charged": 6,
+   "fraction": 1.0,
+   "words": [
+    "unsanitariness",
+    "filth",
+    "filthiness",
+    "foulness",
+    "nastiness",
+    "dunghill"
+   ]
+  },
+  {
+   "id": "oewn-00062953-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "orgasm",
+    "climax",
+    "sexual climax",
+    "coming",
+    "male orgasm"
+   ]
+  },
+  {
+   "id": "oewn-00769315-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "assault",
+    "aggravated assault",
+    "battery",
+    "assault and battery",
+    "mugging"
+   ]
+  },
+  {
+   "id": "oewn-00949535-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "misuse",
+    "abuse",
+    "substance abuse",
+    "drug abuse",
+    "habit"
+   ]
+  },
+  {
+   "id": "oewn-02220215-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "chalcid fly",
+    "chalcidfly",
+    "chalcid",
+    "chalcid wasp",
+    "chalcis fly"
+   ]
+  },
+  {
+   "id": "oewn-04632641-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "restlessness",
+    "uneasiness",
+    "queasiness",
+    "jactitation",
+    "jactation"
+   ]
+  },
+  {
+   "id": "oewn-04664353-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "aloofness",
+    "remoteness",
+    "standoffishness",
+    "withdrawnness",
+    "unapproachability"
+   ]
+  },
+  {
+   "id": "oewn-04664764-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "closeness",
+    "secretiveness",
+    "furtiveness",
+    "sneakiness",
+    "stealthiness"
+   ]
+  },
+  {
+   "id": "oewn-04694284-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "sex appeal",
+    "desirability",
+    "desirableness",
+    "oomph",
+    "sultriness"
+   ]
+  },
+  {
+   "id": "oewn-04728926-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "inappropriateness",
+    "unworthiness",
+    "inaptness",
+    "inappositeness",
+    "infelicity"
+   ]
+  },
+  {
+   "id": "oewn-04775722-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "orderliness",
+    "methodicalness",
+    "organization",
+    "organisation",
+    "system"
+   ]
+  },
+  {
+   "id": "oewn-04818117-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "unlawfulness",
+    "illegality",
+    "illegitimacy",
+    "illicitness",
+    "shadiness"
+   ]
+  },
+  {
+   "id": "oewn-04823992-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "shabbiness",
+    "seediness",
+    "manginess",
+    "sleaziness",
+    "raggedness"
+   ]
+  },
+  {
+   "id": "oewn-04898205-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "discretion",
+    "discernment",
+    "circumspection",
+    "caution",
+    "prudence"
+   ]
+  },
+  {
+   "id": "oewn-04916195-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "contrariness",
+    "perversity",
+    "perverseness",
+    "cussedness",
+    "orneriness"
+   ]
+  },
+  {
+   "id": "oewn-04920745-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "graciousness",
+    "suavity",
+    "suaveness",
+    "blandness",
+    "smoothness"
+   ]
+  },
+  {
+   "id": "oewn-04995915-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "harshness",
+    "roughness",
+    "gruffness",
+    "hoarseness",
+    "huskiness"
+   ]
+  },
+  {
+   "id": "oewn-05148469-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "invaluableness",
+    "preciousness",
+    "pricelessness",
+    "valuableness",
+    "gold"
+   ]
+  },
+  {
+   "id": "oewn-05167331-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "wisdom",
+    "wiseness",
+    "soundness",
+    "advisability",
+    "reasonableness"
+   ]
+  },
+  {
+   "id": "oewn-05178101-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "consequence",
+    "import",
+    "moment",
+    "matter",
+    "hell to pay"
+   ]
+  },
+  {
+   "id": "oewn-05623156-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "judiciousness",
+    "caution",
+    "precaution",
+    "care",
+    "forethought"
+   ]
+  },
+  {
+   "id": "oewn-05722413-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "aroma",
+    "fragrance",
+    "perfume",
+    "scent",
+    "incense"
+   ]
+  },
+  {
+   "id": "oewn-06216535-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "respect",
+    "esteem",
+    "regard",
+    "estimate",
+    "estimation"
+   ]
+  },
+  {
+   "id": "oewn-06790526-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "repartee",
+    "banter",
+    "raillery",
+    "give-and-take",
+    "backchat"
+   ]
+  },
+  {
+   "id": "oewn-07220606-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "disavowal",
+    "disclaimer",
+    "retraction",
+    "abjuration",
+    "recantation"
+   ]
+  },
+  {
+   "id": "oewn-07520777-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "unconcern",
+    "indifference",
+    "heartlessness",
+    "coldheartedness",
+    "hardheartedness"
+   ]
+  },
+  {
+   "id": "oewn-07527386-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "gravity",
+    "solemnity",
+    "earnestness",
+    "seriousness",
+    "sincerity"
+   ]
+  },
+  {
+   "id": "oewn-07540296-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "edginess",
+    "uneasiness",
+    "inquietude",
+    "disquietude",
+    "willies"
+   ]
+  },
+  {
+   "id": "oewn-07543205-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "exultation",
+    "jubilance",
+    "jubilancy",
+    "jubilation",
+    "triumph"
+   ]
+  },
+  {
+   "id": "oewn-07551633-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "guilt",
+    "guilty conscience",
+    "guilt feelings",
+    "guilt trip",
+    "survivor guilt"
+   ]
+  },
+  {
+   "id": "oewn-07555178-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "boredom",
+    "ennui",
+    "tedium",
+    "blahs",
+    "fatigue"
+   ]
+  },
+  {
+   "id": "oewn-07797948-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "blowfish",
+    "sea squab",
+    "puffer",
+    "pufferfish",
+    "fugu"
+   ]
+  },
+  {
+   "id": "oewn-09202673-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "incentive",
+    "inducement",
+    "motivator",
+    "moral force",
+    "dynamic"
+   ]
+  },
+  {
+   "id": "oewn-10680441-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "stranger",
+    "alien",
+    "unknown",
+    "foreigner",
+    "outsider"
+   ]
+  },
+  {
+   "id": "oewn-13473520-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "convalescence",
+    "recuperation",
+    "recovery",
+    "lysis",
+    "rally"
+   ]
+  },
+  {
+   "id": "oewn-13959972-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "pass",
+    "strait",
+    "straits",
+    "desperate straits",
+    "dire straits"
+   ]
+  },
+  {
+   "id": "oewn-13973020-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "precedence",
+    "precedency",
+    "priority",
+    "back burner",
+    "front burner"
+   ]
+  },
+  {
+   "id": "oewn-14011204-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "blessedness",
+    "beatitude",
+    "beatification",
+    "nirvana",
+    "enlightenment"
+   ]
+  },
+  {
+   "id": "oewn-14066725-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "anoxia",
+    "anemic anoxia",
+    "anoxic anoxia",
+    "ischemic anoxia",
+    "stagnant anoxia"
+   ]
+  },
+  {
+   "id": "oewn-14094717-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "disease of the neuromuscular junction",
+    "myasthenia gravis",
+    "myasthenia",
+    "myasthenic syndrome",
+    "carcinomatous myopathy"
+   ]
+  },
+  {
+   "id": "oewn-14223182-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "malnutrition",
+    "avitaminosis",
+    "hypovitaminosis",
+    "kwashiorkor",
+    "marasmus"
+   ]
+  },
+  {
+   "id": "oewn-14338498-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "enlargement",
+    "pseudobulb",
+    "swelling",
+    "puffiness",
+    "lump"
+   ]
+  },
+  {
+   "id": "oewn-14352667-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "neuralgia",
+    "neuralgy",
+    "trigeminal neuralgia",
+    "tic douloureux",
+    "sciatica"
+   ]
+  },
+  {
+   "id": "oewn-14596741-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "uropathy",
+    "kidney disease",
+    "renal disorder",
+    "nephropathy",
+    "nephrosis"
+   ]
+  },
+  {
+   "id": "oewn-15145288-n",
+   "members": 5,
+   "charged": 5,
+   "fraction": 1.0,
+   "words": [
+    "times",
+    "modern times",
+    "present times",
+    "modern world",
+    "contemporary world"
+   ]
+  },
+  {
+   "id": "oewn-00625102-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "trouble",
+    "difficulty",
+    "the devil",
+    "tsuris"
+   ]
+  },
+  {
+   "id": "oewn-00701253-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "physical therapy",
+    "physiotherapy",
+    "physiatrics",
+    "rehabilitation"
+   ]
+  },
+  {
+   "id": "oewn-00738486-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "abnormality",
+    "irregularity",
+    "deviation",
+    "deviance"
+   ]
+  },
+  {
+   "id": "oewn-01341977-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "herpes zoster",
+    "herpes zoster virus",
+    "herpes varicella zoster",
+    "herpes varicella zoster virus"
+   ]
+  },
+  {
+   "id": "oewn-02264071-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "booklouse",
+    "book louse",
+    "deathwatch",
+    "common booklouse"
+   ]
+  },
+  {
+   "id": "oewn-02383397-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "bronco",
+    "bronc",
+    "broncho",
+    "bucking bronco"
+   ]
+  },
+  {
+   "id": "oewn-02745327-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "array",
+    "raiment",
+    "regalia",
+    "war paint"
+   ]
+  },
+  {
+   "id": "oewn-04630129-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "reclusiveness",
+    "privacy",
+    "privateness",
+    "seclusion"
+   ]
+  },
+  {
+   "id": "oewn-04638655-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "uncheerfulness",
+    "gloominess",
+    "lugubriousness",
+    "sadness"
+   ]
+  },
+  {
+   "id": "oewn-04645942-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "indulgence",
+    "lenience",
+    "leniency",
+    "softness"
+   ]
+  },
+  {
+   "id": "oewn-04655797-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "giddiness",
+    "silliness",
+    "lightsomeness",
+    "lightness"
+   ]
+  },
+  {
+   "id": "oewn-04665463-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "hostility",
+    "ill will",
+    "virulence",
+    "virulency"
+   ]
+  },
+  {
+   "id": "oewn-04667437-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "unadaptability",
+    "inflexibility",
+    "rigidity",
+    "rigidness"
+   ]
+  },
+  {
+   "id": "oewn-04677888-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "untrustworthiness",
+    "untrustiness",
+    "irresponsibility",
+    "irresponsibleness"
+   ]
+  },
+  {
+   "id": "oewn-04679567-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "carefreeness",
+    "nonchalance",
+    "unconcern",
+    "indifference"
+   ]
+  },
+  {
+   "id": "oewn-04692411-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "pulchritude",
+    "curvaceousness",
+    "shapeliness",
+    "voluptuousness"
+   ]
+  },
+  {
+   "id": "oewn-04715819-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "effortlessness",
+    "facility",
+    "readiness",
+    "smoothness"
+   ]
+  },
+  {
+   "id": "oewn-04742125-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "inconstancy",
+    "changefulness",
+    "capriciousness",
+    "unpredictability"
+   ]
+  },
+  {
+   "id": "oewn-04747172-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "invariability",
+    "invariableness",
+    "invariance",
+    "unvariedness"
+   ]
+  },
+  {
+   "id": "oewn-04747413-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "unvariedness",
+    "monotony",
+    "humdrum",
+    "sameness"
+   ]
+  },
+  {
+   "id": "oewn-04758195-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "nonuniformity",
+    "heterogeneity",
+    "heterogeneousness",
+    "inconsistency"
+   ]
+  },
+  {
+   "id": "oewn-04759476-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "inequality",
+    "nonequivalence",
+    "disparity",
+    "unevenness"
+   ]
+  },
+  {
+   "id": "oewn-04796210-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "pretentiousness",
+    "pretension",
+    "largeness",
+    "ostentation"
+   ]
+  },
+  {
+   "id": "oewn-04796917-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "wholesomeness",
+    "nutritiousness",
+    "nutritiveness",
+    "healthfulness"
+   ]
+  },
+  {
+   "id": "oewn-04801174-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "unacceptability",
+    "unacceptableness",
+    "inadmissibility",
+    "errancy"
+   ]
+  },
+  {
+   "id": "oewn-04809652-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "incorrectness",
+    "wrongness",
+    "erroneousness",
+    "error"
+   ]
+  },
+  {
+   "id": "oewn-04844846-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "combativeness",
+    "militance",
+    "militancy",
+    "scrappiness"
+   ]
+  },
+  {
+   "id": "oewn-04862369-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "holiness",
+    "sanctity",
+    "sanctitude",
+    "sacredness"
+   ]
+  },
+  {
+   "id": "oewn-04886853-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "treason",
+    "subversiveness",
+    "traitorousness",
+    "betrayal"
+   ]
+  },
+  {
+   "id": "oewn-04887159-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "perfidy",
+    "perfidiousness",
+    "treachery",
+    "insidiousness"
+   ]
+  },
+  {
+   "id": "oewn-04892012-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "dissoluteness",
+    "incontinence",
+    "self-gratification",
+    "rakishness"
+   ]
+  },
+  {
+   "id": "oewn-04902441-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "trust",
+    "trustingness",
+    "trustfulness",
+    "credulity"
+   ]
+  },
+  {
+   "id": "oewn-04903356-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "cleanliness",
+    "fastidiousness",
+    "tidiness",
+    "neatness"
+   ]
+  },
+  {
+   "id": "oewn-04904605-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "untidiness",
+    "messiness",
+    "disarray",
+    "disorderliness"
+   ]
+  },
+  {
+   "id": "oewn-04918597-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "formality",
+    "formalness",
+    "ceremoniousness",
+    "stateliness"
+   ]
+  },
+  {
+   "id": "oewn-04935185-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "staleness",
+    "mustiness",
+    "must",
+    "moldiness"
+   ]
+  },
+  {
+   "id": "oewn-05160402-n",
+   "members": 4,
+   "charged": 4,
+   "fraction": 1.0,
+   "words": [
+    "impracticability",
+    "impracticableness",
+    "infeasibility",
+    "unfeasibility"
+   ]
+  }
+ ]
+}
