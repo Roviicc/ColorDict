@@ -56,6 +56,6 @@ jobs:
             "colordict-debug.apk" \
             "colordict-release-unsigned.apk" \
             --target "${GITHUB_SHA}" \
-            --title "ColorDict ${TAG}" \
+            --title "Pop Up Dictionary ${TAG}" \
             --notes "Ready-to-install **debug APK** (install this one directly on your device) and an unsigned release APK (sign it with your own key before distributing)." \
             --repo "${GITHUB_REPOSITORY}"
