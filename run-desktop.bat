@@ -24,7 +24,7 @@ echo app\src\main\java\io\github\roviicc\colordict\data\Palette.java >> "%SOURCE
 dir /s /b desktop\src\*.java >> "%SOURCES%"
 
 echo Compiling the ColorDict engine and desktop harness...
-javac -nowarn -d "%OUT%" "@%SOURCES%"
+javac -encoding UTF-8 -nowarn -d "%OUT%" "@%SOURCES%"
 if errorlevel 1 exit /b 1
 
 java -cp "%OUT%" io.github.roviicc.colordict.desktop.DesktopApp %*

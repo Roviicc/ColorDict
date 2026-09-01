@@ -48,7 +48,7 @@ fi
 
 if [ "$NEEDS_BUILD" -eq 1 ]; then
     echo "Compiling the ColorDict engine and desktop harness…"
-    "$JAVAC" -nowarn -d "$OUT" \
+    "$JAVAC" -encoding UTF-8 -nowarn -d "$OUT" \
         $(find app/src/main/java/io/github/roviicc/colordict/engine -name '*.java') \
         app/src/main/java/io/github/roviicc/colordict/data/Palette.java \
         $(find desktop/src -name '*.java')
