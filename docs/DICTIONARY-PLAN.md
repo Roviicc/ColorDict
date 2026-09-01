@@ -377,13 +377,17 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-08-30 | **Undefinable glosses swept.** 8 reviewed senses whose OEWN gloss is a usage restriction, not a definition, dropped back to `derived`; `gloss_lint.py` added and the worksheet pre-skips the other 233 corpus-wide |
 | 2026-08-30 | **Audit 004: 20%.** The gloss-binding fix held where it was applied; two failures were the same synset fixed for one word only. Repairs are now synset-wide; see 11.68 |
 | 2026-08-30 | **Adverbs gated on WordNet's pertainym.** An adverb takes the note for the adjective *sense* it points at, or none at all: 244 inherited senses → 154, 90 declined |
+| 2026-09-02 | **Census 001: every unaudited sense read.** 767 senses, sixteen parallel readers, 25.8% wrong; 198 failures repaired synset-wide plus a 32-note sweep of their neighbours; see 11.69 |
+| 2026-09-02 | **Adverb deny list.** Nine adverbs whose own gloss does not match the adjective sense they point at — the fifth fault class; inherited senses 154 → 145 |
+| 2026-09-02 | **Audit 005: 0%, with a caveat.** 49 right, 1 unsure, drawn from the repaired corpus and read by the session that repaired it; a blind read is still owed before 5.5 unpauses. See 11.69 |
 
-**Current totals: 63 families, 783 annotated senses, 931 reviewed entries,
-0 validation errors** — including 154 adverb senses inherited for free, and 9
+**Current totals: 63 families, 781 annotated senses, 922 reviewed entries,
+0 validation errors** — including 145 adverb senses inherited for free, and 11
 senses deliberately left `derived` because their gloss cannot carry a
 judgement. **The validator's zero errors mean well-formed, not correct: the
-sampled audit is the only thing that measures correct, and it stands at 20%
-wrong (audit 004).**
+audit is the only thing that measures correct. Every claim-carrying sense has
+now been read once (census 001, 25.8% wrong, all repaired) and the sample drawn
+afterwards reads 0% — by a reader who made the repairs (audit 005).**
 
 Stage 1 (adjectives) is 54 of ~1,100 families; stage 2 (verbs) is 9 of ~2,495.
 The machinery is complete; what remains is authoring.
@@ -707,6 +711,97 @@ the last, and each mechanically checkable only after an audit has named it.
 **5.5 still says method, not batch.** The next audit is the one that decides
 whether the per-synset rule and the pertainym gate did what 11.67's fix did for
 one word only.
+
+## 11.69 Census 001 — every unaudited sense read, then audit 005
+
+Four sampled audits had moved the rate 44 → 14 → 22 → 20 and could no longer
+tell one round from the next: a 50-sense draw at 20% carries a 95% interval of
+roughly ±11 points, so 003 and 004 were the same number. And at 20% wrong on a
+corpus of ~1,000 claims there were ~200 defective notes, of which a sample
+finds ten a round. The arithmetic said census, not sample.
+
+**Read 2026-09-02: 767 senses — every claim-carrying sense not seen by audits
+001–004 — by sixteen parallel readers, 48 each, against a written rubric
+distilled from 11.65–11.68 (`data/policy/census-001-rubric.md`). 565 right,
+198 wrong, 4 unsure. Error rate 25.8%.** Higher than the samples, and the
+samples were within their interval of it.
+
+| Fault | Count | Shape |
+| --- | --- | --- |
+| unverifiable | 114 | frequency ("commoner", "rarer", "often", "equally common"), dating ("older", "now", "since the nineteenth century"), origin stories ("From Gascony", "the fourth humour", "back-formation from *uncouth*") |
+| wrong-sense | 47 | the note describes a different sense of the lemma from the gloss above it |
+| note-scope | 31 | the note leaves the word — "the one word here", "the same euphemism", "the least loaded word here" |
+| wrong-gloss | 2 | *wail* filed under "cry weakly or softly"; *loot* under "take illegally; of intellectual property" |
+| charge-sign | 2 | *aged* and *eroded*: neutral technical glosses carrying −1 |
+| other | 2 | *fat*, *luxe*: the note is right and an example belongs to another sense |
+
+A census is a repair pass, not a measurement — once every failure it finds is
+fixed, the rate it reports is 0% by construction. So the repairs were made
+first and a fresh sample drawn afterwards, below.
+
+### The repairs, made synset-wide
+
+Every failure was refereed centrally (`data/policy/census-001-decisions.json`,
+202 entries) so the per-synset rule from 11.68 held by construction: 159 notes
+rewritten, 4 charges changed (*shoplift* −2 → −1, *blithe* 0 → +1, *aged* and
+*eroded* −1 → 0), *wail* and *loot* declined for their glosses, one authored
+example dropped, and a further 32 notes rewritten in the unflagged members of
+repaired synsets (`census-001-decisions-sweep.json`) — among them *laud*
+"Church Latin behind it", the exhibit from 11.65 that had never actually been
+rewritten. `tools/census_apply.py` lands decisions on the shards;
+`tools/census_aggregate.py` merges the readers.
+
+The sixteen readers disagreed at one boundary and it is now settled: a bare
+register label (*British*, *formal*, *dated*, *literary*) and a register
+picture ("gravestone language", "the word on a chart, not at a graveside") are
+inside the word and stay, as *at rest* did in audit 001. A quantifier, a date
+or an origin is out, however plausible.
+
+### The fifth fault class: the adverb's own gloss
+
+Thirty-five inherited adverbs failed. Nineteen were the adjective's fault and
+re-derived correctly once the adjective was fixed; seven had the fault in an
+adjective note the census happened not to sample, fixed at source. The other
+nine are new: the pertainym gate passes — the note *was* written for the sense
+the adverb points at — and the adverb's own gloss still disagrees. *preciously*
+points at the affectation sense of *precious* and is glossed "very". *lately*
+carried the note for *late* "deceased" onto "in the recent past", in the
+*death* family at +1. Nothing mechanical can see this; they are listed by hand
+in `data/families/adverb-deny.json` and `adverb_inherit.py` refuses them.
+Inherited senses 154 → 145. As in 11.68 the loss is recoverable: annotating
+the adverb itself, or the sense that fits, lifts the denial.
+
+Two smaller findings. `adverbise()` lowercased the first word of every
+inherited note, so *chirpily* read "british and small-scale"; proper
+adjectives now keep their capital. And OEWN attaches examples to the synset,
+not the lemma, so "a deluxe car" prints under *luxe* and *de luxe* — the
+validator's 1,561 "example does not use the headword" warnings are this one
+artifact, and it is a builder decision, not an annotation one.
+
+### Audit 005 — the measurement, with a caveat
+
+Fifty senses, seed 20260905, drawn from the whole repaired population of 927
+with no exclusions, since every sense has now been read once and "fresh
+material" no longer exists — the freshness is in the reader. **49 right, 0
+wrong, 1 unsure. Error rate 0%.** The one *hm* is *noisy*, "noise is expected
+in most places", a claim about the world rather than the word.
+
+**The caveat is real: the reader was the session that made the repairs.** Twelve
+of the fifty senses were rewritten hours earlier by the same hand; on those the
+audit is self-review. The other thirty-eight were passed by a census reader and
+now by a second one, which is a genuine, if weaker, check. The rate is therefore
+"0% as read by a non-independent reader", not "0%". 5.5's threshold is met on
+the number and not yet on the method. The next audit should be drawn with a new
+seed and read blind — a fresh session, or the owner — before authoring resumes.
+
+### Where the error rate actually sits, revisited
+
+The plateau in 11.68 was never three faults arriving in turn; it was one large
+class — unverifiable claims about frequency, date and origin, 58% of every
+failure — that the sampled audits kept finding ten at a time and the rewrite in
+11.65 had addressed by rule but not by sweep. The census cleared it in one pass
+at roughly the cost of three sampled rounds. What the samples were good for was
+naming the fault classes; once named, a census is the cheaper instrument.
 
 ## 11.7 Possible later work — not scheduled
 

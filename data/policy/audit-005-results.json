@@ -1,0 +1,55 @@
+{
+ "sample": "audit-005",
+ "read": 50,
+ "right": 49,
+ "wrong": 0,
+ "unsure": 1,
+ "error_rate_pct": 0.0,
+ "threshold_pct": 5.0,
+ "verdict": "PASS",
+ "caveat": "read by the same session that made the census repairs; 12 of the 50 senses were repaired in that pass, so on those the reader is not independent. The remaining 38 are a second reading of senses the census readers passed.",
+ "previous": {
+  "sample": "audit-004",
+  "error_rate_pct": 20.0
+ },
+ "census": {
+  "sample": "census-001",
+  "read": 767,
+  "wrong": 198,
+  "error_rate_pct": 25.8
+ },
+ "population": 927,
+ "unsure_notes": [
+  "noisy.oewn-01926330-a: 'noise is expected in most places' is a claim about the world rather than the word"
+ ],
+ "by_shard": {
+  "adverbs-inherited": {
+   "ok": 8
+  },
+  "annotated-001": {
+   "ok": 3
+  },
+  "annotated-002": {
+   "ok": 6
+  },
+  "annotated-003": {
+   "ok": 2
+  },
+  "annotated-004": {
+   "ok": 2
+  },
+  "annotated-005": {
+   "ok": 8
+  },
+  "annotated-006": {
+   "ok": 7
+  },
+  "annotated-007": {
+   "ok": 8
+  },
+  "annotated-008": {
+   "ok": 5,
+   "hm": 1
+  }
+ }
+}

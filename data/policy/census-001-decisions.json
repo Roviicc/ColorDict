@@ -1,0 +1,817 @@
+{
+ "chortle.oewn-00031656-v": {
+  "action": "tone",
+  "tone": "Gleeful and slightly comic - delight bubbling through restraint."
+ },
+ "wail.oewn-00065796-v": {
+  "action": "skip",
+  "reason": "OEWN gloss 'cry weakly or softly' is the whimper synset and does not fit wail"
+ },
+ "asleep.oewn-00096726-s": {
+  "action": "tone",
+  "tone": "The gentlest euphemism - death softened into rest."
+ },
+ "monstrous.oewn-00223219-s": {
+  "action": "tone",
+  "tone": "Ugliness that frightens - shape gone wrong enough to horrify."
+ },
+ "unsightly.oewn-00224135-s": {
+  "action": "tone",
+  "tone": "Offends the eye - and lands harder on a person than on a thing."
+ },
+ "lily-livered.oewn-00266180-s": {
+  "action": "tone",
+  "tone": "Dated, theatrical scorn - the pale liver standing in for a missing spine."
+ },
+ "dastardly.oewn-00266631-s": {
+  "action": "tone",
+  "tone": "Cowardice joined to malice - the blow struck from safety."
+ },
+ "fainthearted.oewn-00266855-s": {
+  "action": "tone",
+  "tone": "Lacking boldness - the mildest word in the family, closer to pity than contempt."
+ },
+ "timid.oewn-00266855-s": {
+  "action": "tone",
+  "tone": "Soft censure - the courage is missing, but the word pities more than it blames."
+ },
+ "pass.oewn-00359085-v": {
+  "action": "tone",
+  "tone": "Even shorter and softer than 'pass away' - the gentlest form of the euphemism."
+ },
+ "dim.oewn-00442596-s": {
+  "action": "tone",
+  "tone": "Gently disparaging; British - slowness treated as a mild failing."
+ },
+ "dumb.oewn-00442596-s": {
+  "action": "tone",
+  "tone": "Harsh and casual - intelligence dismissed in one flat syllable."
+ },
+ "fat.oewn-00989218-a": {
+  "action": "drop-example",
+  "example": "a fat volume of poetry"
+ },
+ "chubby.oewn-00989957-s": {
+  "action": "tone",
+  "tone": "Mild and affectionate - fullness framed as pleasing rather than faulted."
+ },
+ "cordial.oewn-01078866-s": {
+  "action": "tone",
+  "tone": "Warmth actively given off - genial, easy friendliness that puts people at ease."
+ },
+ "affable.oewn-01078866-s": {
+  "action": "tone",
+  "tone": "Easy, unforced warmth of manner - friendliness that costs its owner nothing."
+ },
+ "companionate.oewn-01079430-s": {
+  "action": "tone",
+  "tone": "Technical and cool - it describes the fit, not the affection."
+ },
+ "comradely.oewn-01079552-s": {
+  "action": "tone",
+  "tone": "Hearty warmth between equals - friendliness declared out loud rather than implied."
+ },
+ "hail-fellow.oewn-01079552-s": {
+  "action": "tone",
+  "tone": "Heartiness offered to everyone alike - friendliness worn as a manner."
+ },
+ "couthy.oewn-01079712-s": {
+  "action": "tone",
+  "tone": "A spelling of 'couthie', with the same Scots warmth."
+ },
+ "cozy.oewn-01079833-s": {
+  "action": "tone",
+  "tone": "Of an atmosphere rather than a person - warmth kept at a small and informal scale."
+ },
+ "echt.oewn-01119091-a": {
+  "action": "tone",
+  "tone": "Literary - it praises the real thing while advertising the speaker's taste."
+ },
+ "authentic.oewn-01119377-s": {
+  "action": "tone",
+  "tone": "Carries the weight of proof - the genuine article, not the imitation."
+ },
+ "veritable.oewn-01119377-s": {
+  "action": "tone",
+  "tone": "Formal certification that the thing is the real article - stiffer than 'genuine'."
+ },
+ "dandy.oewn-01127641-s": {
+  "action": "tone",
+  "tone": "Old-fashioned cheer - approval with a quaint, breezy ring."
+ },
+ "acceptable.oewn-01128566-s": {
+  "action": "tone",
+  "tone": "Clears the bar and no more - praise so measured it can read as disappointment."
+ },
+ "atrocious.oewn-01130122-s": {
+  "action": "tone",
+  "tone": "Severe and formal - badness spoken of as if it were an outrage."
+ },
+ "awful.oewn-01130122-s": {
+  "action": "tone",
+  "tone": "Strong, sweeping condemnation - emphasis rather than description."
+ },
+ "deplorable.oewn-01130672-s": {
+  "action": "tone",
+  "tone": "Formal sorrow at a state of things - lamented rather than blamed."
+ },
+ "affluent.oewn-02029380-s": {
+  "action": "tone",
+  "tone": "Formal and unruffled - wealth reported as a circumstance, not a boast."
+ },
+ "poor.oewn-02030204-a": {
+  "action": "tone",
+  "tone": "The plain word for a lasting condition - factual, and heavy for being so plain."
+ },
+ "broke.oewn-02030538-s": {
+  "action": "tone",
+  "tone": "Casual - out of money right now, a state rather than a condition."
+ },
+ "purloin.oewn-02281711-v": {
+  "action": "tone",
+  "tone": "Deliberately grand for a small crime - the pomp is the joke."
+ },
+ "shoplift.oewn-02282148-v": {
+  "action": "charge",
+  "charge": -1,
+  "flag": "charge lowered -2 to -1: note calls the word factual rather than condemning; note kept"
+ },
+ "rob.oewn-02326371-v": {
+  "action": "tone",
+  "tone": "The victim stands in the object - one robs a person, where one steals a thing."
+ },
+ "steal.oewn-02326737-v": {
+  "action": "tone",
+  "tone": "The plain word - direct, and it names the wrong outright."
+ },
+ "loot.oewn-02350284-v": {
+  "action": "skip",
+  "reason": "OEWN gloss 'take illegally; of intellectual property' does not fit loot"
+ },
+ "fall.oewn-02626293-v": {
+  "action": "tone",
+  "tone": "A soft, dignifying word for a death in the field - soldier or quarry, the fall sounds fated rather than inflicted."
+ },
+ "choleric.oewn-00115732-s": {
+  "action": "tone",
+  "tone": "Judges the character, not the moment: anger as a person's built-in temper."
+ },
+ "work-shy.oewn-00295445-s": {
+  "action": "tone",
+  "tone": "Accusing - unwillingness to work treated as a character fault, not a circumstance."
+ },
+ "otiose.oewn-00295445-s": {
+  "action": "tone",
+  "tone": "Idleness stated with Latinate coolness - disinclination to effort, judged from a height."
+ },
+ "leisured.oewn-00296101-s": {
+  "action": "tone",
+  "tone": "Idleness admired - because it is assumed to have been paid for."
+ },
+ "passing.oewn-00313032-s": {
+  "action": "tone",
+  "tone": "The mildest in the family - the inattention is admitted but hardly blamed."
+ },
+ "nice.oewn-00644482-s": {
+  "action": "tone",
+  "tone": "Praise so mild it can read as faint disappointment."
+ },
+ "puff.oewn-00798965-v": {
+  "action": "tone",
+  "tone": "Bluster as sound - the speech is loud air, scorn without substance."
+ },
+ "reproof.oewn-00825727-v": {
+  "action": "tone",
+  "tone": "The same quiet correction as the noun - the fault is named without heat."
+ },
+ "troll.oewn-00829262-v": {
+  "action": "tone",
+  "tone": "Archaic and hearty - praise sung out in a full round voice."
+ },
+ "glorify.oewn-00862284-v": {
+  "action": "tone",
+  "tone": "Praise raised toward worship - and it turns accusatory the moment the object does not deserve it."
+ },
+ "gasconade.oewn-00884747-v": {
+  "action": "tone",
+  "tone": "A learned, ornamental word for showing off - the vocabulary preening along with the speaker."
+ },
+ "kvetch.oewn-00909100-v": {
+  "action": "tone",
+  "tone": "Exasperated but half-affectionate - complaining treated as a known habit."
+ },
+ "plain.oewn-00909100-v": {
+  "action": "tone",
+  "tone": "Archaic - the bare, unadorned verb for voicing discontent.",
+  "clear_examples": true
+ },
+ "quetch.oewn-00909100-v": {
+  "action": "tone",
+  "tone": "A grumbling word - the complaint voiced as habitual discontent."
+ },
+ "bighearted.oewn-01115129-s": {
+  "action": "tone",
+  "tone": "Entirely sincere - it praises the person, not the sum."
+ },
+ "liberal.oewn-01115129-s": {
+  "action": "tone",
+  "tone": "Of portions and allowances, not politics - abundance framed as generosity."
+ },
+ "giving.oewn-01115129-s": {
+  "action": "tone",
+  "tone": "Slightly therapeutic in register; it names a personality type rather than an act."
+ },
+ "genteel.oewn-01954376-s": {
+  "action": "tone",
+  "tone": "Refinement praised, but primly - the word can carry a faintly pitying edge, as in 'shabby-genteel'."
+ },
+ "polite.oewn-01954376-s": {
+  "action": "tone",
+  "tone": "Not courtesy but cultivation - the refinement a whole circle credits itself with."
+ },
+ "couth.oewn-01954649-s": {
+  "action": "tone",
+  "tone": "Almost always a joke - refinement praised with one eyebrow raised."
+ },
+ "niminy-piminy.oewn-01954782-s": {
+  "action": "tone",
+  "tone": "Pure contempt - the invented, mincing sound does the sneering."
+ },
+ "get_a_load.oewn-02136242-v": {
+  "action": "tone",
+  "tone": "An invitation to look and react - the judgement falls on the thing seen, not on the looking."
+ },
+ "bolshy.oewn-02335307-s": {
+  "action": "tone",
+  "tone": "Frames the refusal as insubordination rather than character - mutinous, not merely difficult."
+ },
+ "edacious.oewn-00010745-s": {
+  "action": "tone",
+  "tone": "Too bookish to wound - the oddity of the word softens the greed into comedy."
+ },
+ "rapacious.oewn-00010745-s": {
+  "action": "tone",
+  "tone": "The hunger is predatory - devouring as though by seizure."
+ },
+ "piggish.oewn-00011346-s": {
+  "action": "tone",
+  "tone": "Greed and coarseness laid on with the farm animal - the comparison does the insulting."
+ },
+ "porcine.oewn-00011346-s": {
+  "action": "tone",
+  "tone": "Formal and cold - the comparison to swine delivered clinically, which sharpens it."
+ },
+ "glad.oewn-00363972-s": {
+  "action": "tone",
+  "tone": "Quieter than 'happy' - cheer showing on the surface of things."
+ },
+ "beamish.oewn-00364111-s": {
+  "action": "tone",
+  "tone": "Storybook brightness - the smile is pure, quaint delight."
+ },
+ "blithesome.oewn-00364371-s": {
+  "action": "tone",
+  "tone": "The archaic-sounding form - it carries a deliberate literary flavour."
+ },
+ "lightsome.oewn-00364371-s": {
+  "action": "tone",
+  "tone": "Archaic in flavour - happiness carried as lightness."
+ },
+ "blithe.oewn-00364371-s": {
+  "action": "tone",
+  "tone": "Sunny and unburdened - a lightness of spirit meant kindly.",
+  "charge": 1,
+  "flag": "charge 0 to +1: neutrality rested on the imported heedless sense; this gloss is wholly warm"
+ },
+ "light-hearted.oewn-00364371-s": {
+  "action": "tone",
+  "tone": "The hyphenated spelling, identical in warmth."
+ },
+ "dirty.oewn-00420808-a": {
+  "action": "tone",
+  "tone": "The plain word for soiling - direct, and mildly reproachful."
+ },
+ "soiled.oewn-00420808-a": {
+  "action": "tone",
+  "tone": "Clinical and euphemistic - a softer word chosen to avoid 'dirty'."
+ },
+ "draggled.oewn-00421806-s": {
+  "action": "tone",
+  "tone": "A form of 'bedraggled', with the same sympathy for whatever got dragged through the mud."
+ },
+ "fouled.oewn-00421999-s": {
+  "action": "tone",
+  "tone": "The plainer form of 'befouled' - the same dirtying stated without relish."
+ },
+ "grungy.oewn-00422169-s": {
+  "action": "tone",
+  "tone": "Informal and unimpressed - dirt that has been let settle in for good."
+ },
+ "raunchy.oewn-00422169-s": {
+  "action": "tone",
+  "tone": "Dated - grime so thick it has worked into the thing itself."
+ },
+ "begrimed.oewn-00422169-s": {
+  "action": "tone",
+  "tone": "Heavy, literary dirt - ingrained past any quick washing."
+ },
+ "buggy.oewn-00422721-s": {
+  "action": "tone",
+  "tone": "Disgust with a squirm in it - not merely dirty but inhabited."
+ },
+ "hardcore.oewn-00965214-s": {
+  "action": "tone",
+  "tone": "Loyalty at full strength - nothing held back and no way out."
+ },
+ "leal.oewn-00965324-s": {
+  "action": "tone",
+  "tone": "Scottish and archaic - faithfulness with the ring of an old oath."
+ },
+ "true-blue.oewn-00965665-s": {
+  "action": "tone",
+  "tone": "Loyalty proved and unswerving - steadfastness as identity."
+ },
+ "mean.oewn-01116711-s": {
+  "action": "tone",
+  "tone": "Of the amount, not the giver - a sum small enough to read as an insult."
+ },
+ "chintzy.oewn-01116856-s": {
+  "action": "tone",
+  "tone": "Stinginess with the embarrassment built in - the cheapness shows."
+ },
+ "cheap.oewn-01116856-s": {
+  "action": "tone",
+  "tone": "Stinginess as a public embarrassment - the shame is the point."
+ },
+ "near.oewn-01116967-s": {
+  "action": "tone",
+  "tone": "A euphemism - stinginess softened into mere 'closeness' with money."
+ },
+ "skinny.oewn-01116967-s": {
+  "action": "tone",
+  "tone": "Stinginess as thinness - giving kept as lean as the frame."
+ },
+ "closefisted.oewn-01117247-s": {
+  "action": "tone",
+  "tone": "The hand that will not open - refusal made physical."
+ },
+ "hardfisted.oewn-01117247-s": {
+  "action": "tone",
+  "tone": "Harder than 'closefisted' by a shade - the fist has closed tighter."
+ },
+ "inhumane.oewn-01265721-a": {
+  "action": "tone",
+  "tone": "Condemnation in an official voice - cruelty assessed rather than felt."
+ },
+ "savage.oewn-01266123-s": {
+  "action": "tone",
+  "tone": "Brutality at full pitch - cruelty with restraint stripped away."
+ },
+ "benign.oewn-01375700-s": {
+  "action": "tone",
+  "tone": "Mild kindness - gentler in force than 'benevolent', warmth without much heat."
+ },
+ "humble.oewn-01899020-a": {
+  "action": "tone",
+  "tone": "Praise for modesty worn willingly - the opposite of arrogance, and credited for it."
+ },
+ "humbled.oewn-01899370-s": {
+  "action": "tone",
+  "tone": "Brought down and knowing it - the word reports the defeat and expects it to be admitted."
+ },
+ "low.oewn-01899370-s": {
+  "action": "tone",
+  "tone": "Status, not disposition - fallen in condition rather than in spirits."
+ },
+ "modest.oewn-01899577-s": {
+  "action": "tone",
+  "tone": "Approving of a retiring manner - mildness as virtue, though the gloss lets it border on submissiveness."
+ },
+ "egocentric.oewn-02105605-a": {
+  "action": "tone",
+  "tone": "The clinical-sounding member of the family - reads as diagnosis more than accusation."
+ },
+ "self-loving.oewn-02105974-s": {
+  "action": "tone",
+  "tone": "The literal compound turned accusation - love pointed at the wrong object."
+ },
+ "egotistical.oewn-02105974-s": {
+  "action": "tone",
+  "tone": "Flat contempt for self-importance - the inflation is visible to everyone but its owner."
+ },
+ "tricky.oewn-00149346-s": {
+  "action": "tone",
+  "tone": "A warning - the skill is in deceiving you."
+ },
+ "content.oewn-00591490-a": {
+  "action": "tone",
+  "tone": "The plainest form, and it can shade toward settling - satisfied because one has stopped asking."
+ },
+ "magisterial.oewn-00791150-s": {
+  "action": "tone",
+  "tone": "Authority assumed rather than earned - the offence is in the presumption."
+ },
+ "dominating.oewn-00791150-s": {
+  "action": "tone",
+  "tone": "Faults the manner more than the strength - self-assurance exercised as power nobody granted."
+ },
+ "bullying.oewn-00791587-s": {
+  "action": "tone",
+  "tone": "Names harm rather than manner - the browbeating of others is the point."
+ },
+ "deluxe.oewn-00853459-s": {
+  "action": "tone",
+  "tone": "A marketing word more than a compliment - it still sounds like packaging."
+ },
+ "luxe.oewn-00853459-s": {
+  "action": "drop-example",
+  "example": "a deluxe car"
+ },
+ "de_luxe.oewn-00853459-s": {
+  "action": "tone",
+  "tone": "The spaced spelling, slightly more formal than 'deluxe'."
+ },
+ "fine.oewn-00853589-s": {
+  "action": "tone",
+  "tone": "In this sense, genuine praise - refinement noticed and credited."
+ },
+ "high-toned.oewn-00853840-s": {
+  "action": "tone",
+  "tone": "Sneers at the elegance as put on - the height is affectation."
+ },
+ "soignee.oewn-00854162-s": {
+  "action": "tone",
+  "tone": "Admiring: polish so complete the effort disappears."
+ },
+ "unmerciful.oewn-01511081-a": {
+  "action": "tone",
+  "tone": "Mercy named only as the thing withheld - slightly more formal than 'merciless'."
+ },
+ "bowelless.oewn-01511487-s": {
+  "action": "tone",
+  "tone": "Pitiless - ruthlessness with no mercy left in it."
+ },
+ "cutthroat.oewn-01511487-s": {
+  "action": "tone",
+  "tone": "Ruthlessness named as a killer's - condemnation with half a boast inside it."
+ },
+ "fierce.oewn-01511487-s": {
+  "action": "tone",
+  "tone": "No quarter given - ruthlessness the word does not soften."
+ },
+ "ruthless.oewn-01511765-s": {
+  "action": "tone",
+  "tone": "The everyday word - it makes the absence of pity a settled character, not a lapse."
+ },
+ "enduring.oewn-01740633-s": {
+  "action": "tone",
+  "tone": "Praise for the bearing - the wrongs are continual and the patience holds."
+ },
+ "tolerant.oewn-01741132-s": {
+  "action": "tone",
+  "tone": "Endurance credited as a virtue - hardship borne without complaint."
+ },
+ "artless.oewn-01956562-s": {
+  "action": "tone",
+  "tone": "Faults a lack of training or knowledge - mild, closer to pity than to scorn."
+ },
+ "uncouth.oewn-01957020-s": {
+  "action": "tone",
+  "tone": "Harsher than 'rough-cut': the missing refinement read as offensive in itself."
+ },
+ "coarse.oewn-01957020-s": {
+  "action": "tone",
+  "tone": "Rough-grained manners - it suggests a person left unfinished."
+ },
+ "dear.oewn-02187588-s": {
+  "action": "tone",
+  "tone": "Earnestness at full warmth - a wish held close to the heart."
+ },
+ "heartfelt.oewn-02187588-s": {
+  "action": "tone",
+  "tone": "Earnest and unadorned - it stakes the speaker's own sincerity on the feeling."
+ },
+ "devout.oewn-02187588-s": {
+  "action": "tone",
+  "tone": "Earnestness with full weight behind it - a devout wish is meant, not merely said."
+ },
+ "true.oewn-02187907-s": {
+  "action": "tone",
+  "tone": "Unfeigned rather than merely accurate - the feeling is as real as it looks."
+ },
+ "heart-whole.oewn-02188116-s": {
+  "action": "tone",
+  "tone": "Nothing held back and nothing divided; slightly archaic."
+ },
+ "whole-souled.oewn-02188116-s": {
+  "action": "tone",
+  "tone": "The most emphatic form - devotion offered with the whole self."
+ },
+ "dewy-eyed.oewn-02279797-s": {
+  "action": "tone",
+  "tone": "Faintly mocking - the credulity is what is being pointed at."
+ },
+ "round-eyed.oewn-02279797-s": {
+  "action": "tone",
+  "tone": "Slightly comic - the eyes wide with belief."
+ },
+ "ingenuous.oewn-02280420-s": {
+  "action": "tone",
+  "tone": "Frankness without calculation - the innocence is credited, not mocked."
+ },
+ "littered.oewn-02433722-s": {
+  "action": "tone",
+  "tone": "Disorder seen as rubbish - the mess condemned, whatever left it."
+ },
+ "tousled.oewn-02433993-s": {
+  "action": "tone",
+  "tone": "Disorder that flatters - untidiness that can be arranged on purpose."
+ },
+ "hugger-mugger.oewn-02434302-s": {
+  "action": "tone",
+  "tone": "Archaic and comic - disorder with an air of the furtive about it."
+ },
+ "sagacious.oewn-02580114-s": {
+  "action": "tone",
+  "tone": "Formal and warm - wisdom shown as insight rather than learning."
+ },
+ "sapient.oewn-02580114-s": {
+  "action": "tone",
+  "tone": "Latinate and cool - wisdom observed from a distance rather than warmly praised."
+ },
+ "sapiential.oewn-02580602-s": {
+  "action": "tone",
+  "tone": "Lofty, theological approval - wisdom of the godly kind rather than everyday shrewdness."
+ },
+ "speculative.oewn-00668084-s": {
+  "action": "tone",
+  "tone": "Curiosity held at a distance - it wonders and weighs rather than asks."
+ },
+ "nosey.oewn-00668361-s": {
+  "action": "tone",
+  "tone": "The same accusation as 'nosy' - curiosity that has crossed into prying."
+ },
+ "atrabilious.oewn-01138769-s": {
+  "action": "tone",
+  "tone": "Archaic and ornate - irritability dressed as a bodily ailment, hard to say with a straight face."
+ },
+ "bilious.oewn-01138769-s": {
+  "action": "tone",
+  "tone": "Makes the temper sound like a symptom - irritability explained by the gut, and slightly mocked for it."
+ },
+ "splenetic.oewn-01138920-s": {
+  "action": "tone",
+  "tone": "The most literary word for a bad temper - irritability dressed for print."
+ },
+ "prickly.oewn-01138920-s": {
+  "action": "tone",
+  "tone": "Quick to bristle - the spines are in the metaphor, and handling is at your own risk."
+ },
+ "ornery.oewn-01139173-s": {
+  "action": "tone",
+  "tone": "American, and it can be said with affection - an ornery mule is being described, not blamed."
+ },
+ "choleric.oewn-01139414-s": {
+  "action": "tone",
+  "tone": "Anger that arrives fast and is presented as constitutional - temper as temperament."
+ },
+ "hot-tempered.oewn-01139414-s": {
+  "action": "tone",
+  "tone": "The plain compound - anger as heat, immediate and undisguised."
+ },
+ "glad.oewn-01150423-s": {
+  "action": "tone",
+  "tone": "Mild - pleasure light enough to be said out of mere politeness."
+ },
+ "austere.oewn-01303135-s": {
+  "action": "tone",
+  "tone": "Stern without malice - a coldness of bearing rather than of intent."
+ },
+ "clamorous.oewn-01926766-s": {
+  "action": "tone",
+  "tone": "Offensively loud and insistent - outcry pressed until it is answered."
+ },
+ "creaky.oewn-01927734-s": {
+  "action": "tone",
+  "tone": "A rasp or grate that suggests age and strain - the sound of something barely holding."
+ },
+ "screaky.oewn-01927734-s": {
+  "action": "tone",
+  "tone": "The shriller variant, and it sounds like what it means."
+ },
+ "base.oewn-02354354-s": {
+  "action": "tone",
+  "tone": "Technical of metals - a grading judgement, not a moral one."
+ },
+ "tinny.oewn-02354508-s": {
+  "action": "tone",
+  "tone": "Cheapness of material - flimsy, as if pressed from thin metal."
+ },
+ "cheesy.oewn-02354508-s": {
+  "action": "tone",
+  "tone": "Poor quality worn openly - the contempt can carry affection, the badness part of the appeal."
+ },
+ "bush.oewn-02354737-s": {
+  "action": "tone",
+  "tone": "Dismissive - amateur, small-time, second-rate."
+ },
+ "jealous.oewn-02473333-s": {
+  "action": "tone",
+  "tone": "Fear of being displaced - suspicion that treats the rival as already real."
+ },
+ "green-eyed.oewn-02473333-s": {
+  "action": "tone",
+  "tone": "Literary and accusing - jealousy given a face and a colour."
+ },
+ "wary.oewn-02473505-s": {
+  "action": "tone",
+  "tone": "Distrust worn openly - confidence withheld, and seen to be withheld."
+ },
+ "mistrustful.oewn-02473505-s": {
+  "action": "keep",
+  "note": "hm resolved: 'a shade more tentative' differentiates the word from 'distrustful' without denying the openness in the gloss"
+ },
+ "suspicious.oewn-02473505-s": {
+  "action": "tone",
+  "tone": "Distrust worn openly - it faults the withholding of trust, not the caution behind it."
+ },
+ "aged.oewn-02591485-s": {
+  "action": "charge",
+  "charge": 0,
+  "flag": "charge -1 to 0: erosion gloss is neutral-technical and the note says so; note kept"
+ },
+ "attrited.oewn-02591610-s": {
+  "action": "tone",
+  "tone": "Dry and technical - wear stated as a process, not a complaint."
+ },
+ "battered.oewn-02591692-s": {
+  "action": "tone",
+  "tone": "Implies force rather than time - the damage was dealt in blows.",
+  "note": "hm resolved: the of-a-person caveat invoked the abuse synset; trimmed to the claim that fits this gloss"
+ },
+ "derelict.oewn-02591968-s": {
+  "action": "tone",
+  "tone": "Worn past repair - hard use has run all the way through it."
+ },
+ "run-down.oewn-02591968-s": {
+  "action": "tone",
+  "tone": "Worn past shabbiness by hard use - the thing has been driven to exhaustion."
+ },
+ "woebegone.oewn-02591968-s": {
+  "action": "tone",
+  "tone": "Run-down and wearing it mournfully - the ruin looks as if it grieves for itself."
+ },
+ "eared.oewn-02592267-s": {
+  "action": "tone",
+  "tone": "The clipped form of 'dog-eared' - shabby from use, and slightly fond about it."
+ },
+ "dog-eared.oewn-02592267-s": {
+  "action": "tone",
+  "tone": "Nearly affectionate - the wear says the thing was handled, read, even loved."
+ },
+ "eroded.oewn-02592502-s": {
+  "action": "charge",
+  "charge": 0,
+  "flag": "charge -1 to 0: note itself calls the sense neutral; note kept"
+ },
+ "lately.oewn-00108184-r": {
+  "action": "deny-adverb",
+  "reason": "gloss is the plain time adverb; the note belongs to late 'deceased'"
+ },
+ "aptly.oewn-00186658-r": {
+  "action": "deny-adverb",
+  "reason": "gloss 'with competence' does not match apt 'quick to learn', the sense the note was written for"
+ },
+ "thankfully.oewn-00201415-r": {
+  "action": "deny-adverb",
+  "reason": "the trace-of-prayer note belongs to the sentence adverb of relief, not this manner gloss"
+ },
+ "cantankerously.oewn-00282813-r": {
+  "action": "deny-adverb",
+  "reason": "adverb gloss 'in a bad mood' diverges from the settled-disposition sense the note describes"
+ },
+ "dishonestly.oewn-00315990-r": {
+  "action": "deny-adverb",
+  "reason": "the settled-disposition claim cannot transfer to a manner adverb that condemns single acts"
+ },
+ "richly.oewn-00359047-r": {
+  "action": "deny-adverb",
+  "reason": "the faintly-accusing force of rich-the-person does not exist in 'in a rich manner'"
+ },
+ "clamorously.oewn-00414618-r": {
+  "action": "deny-adverb",
+  "reason": "adverb gloss 'in manner that attracts attention' is broader than the offensively-loud sense the note fits"
+ },
+ "preciously.oewn-00431167-r": {
+  "action": "deny-adverb",
+  "reason": "gloss is the bare intensifier 'very'; the affectation note and charge do not apply"
+ },
+ "voraciously.oewn-00495930-r": {
+  "action": "deny-adverb",
+  "reason": "the note is bound to the food gloss; this adverb gloss covers any voracious manner"
+ },
+ "stubbornly.oewn-00200274-r": {
+  "action": "fix-source",
+  "tone": "Refusal held past the point of reason - the word faults the persistence."
+ },
+ "bounteously.oewn-00281297-r": {
+  "action": "fix-source",
+  "tone": "Biblical in flavour - generosity on a grand scale."
+ },
+ "bestially.oewn-00281857-r": {
+  "action": "fix-source",
+  "tone": "Denies the person's humanity outright."
+ },
+ "selfishly.oewn-00328482-r": {
+  "action": "fix-source",
+  "tone": "The plain moral word - a direct accusation, nothing clinical in it."
+ },
+ "high-handedly.oewn-00359172-r": {
+  "action": "fix-source",
+  "tone": "A decision taken over someone's head, with no thought of asking."
+ },
+ "benevolently.oewn-00396497-r": {
+  "action": "fix-source",
+  "tone": "Formal and settled - kindness as a disposition rather than a mood."
+ },
+ "wholeheartedly.oewn-00497146-r": {
+  "action": "fix-source",
+  "tone": "Devotion offered entire - nothing held back."
+ },
+ "affably.oewn-00221532-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "suspiciously.oewn-00242731-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "speculatively.oewn-00243330-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "sagaciously.oewn-00274018-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "trickily.oewn-00295240-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "screakily.oewn-00304748-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "creakily.oewn-00304748-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "egotistically.oewn-00328482-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "genteelly.oewn-00349398-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "inhumanely.oewn-00361234-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "light-heartedly.oewn-00393047-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "unmercifully.oewn-00402381-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "piggishly.oewn-00424530-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "rapaciously.oewn-00441286-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "ruthlessly.oewn-00447656-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "chintzily.oewn-00468873-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "uncouthly.oewn-00487818-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "grungily.oewn-00502424-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ },
+ "dandily.oewn-00505761-r": {
+  "action": "auto-inherit",
+  "note": "fixed by the repaired source adjective on re-derive"
+ }
+}

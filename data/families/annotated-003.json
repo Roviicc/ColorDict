@@ -139,7 +139,7 @@
       "literary",
       "euphemistic"
      ],
-     "tone": "Death in battle, framed as honourable - the word on war memorials.",
+     "tone": "A soft, dignifying word for a death in the field - soldier or quarry, the fall sounds fated rather than inflicted.",
      "explanation": "Confers dignity on the death.",
      "examples": [
       "the men who fell at Gallipoli"
@@ -165,7 +165,7 @@
      "usage": [
       "euphemistic"
      ],
-     "tone": "Shorter and even softer than 'pass away'; common in American speech."
+     "tone": "Even shorter and softer than 'pass away' - the gentlest form of the euphemism."
     },
     {
      "word": "give-up the ghost",
@@ -245,7 +245,9 @@
      "word": "wail",
      "synset": "oewn-00065796-v",
      "charge": 0,
-     "tone": "Long and loud with grief - dramatic, and taken seriously."
+     "tone": "Long and loud with grief - dramatic, and taken seriously.",
+     "_skip": true,
+     "_skip_reason": "OEWN gloss 'cry weakly or softly' is the whimper synset and does not fit wail"
     },
     {
      "word": "cry",
@@ -365,7 +367,7 @@
      "word": "chortle",
      "synset": "oewn-00031656-v",
      "charge": 2,
-     "tone": "Gleeful and slightly comic - coined by Lewis Carroll."
+     "tone": "Gleeful and slightly comic - delight bubbling through restraint."
     },
     {
      "word": "roar",
@@ -429,12 +431,12 @@
       "formal",
       "humorous"
      ],
-     "tone": "Deliberately grand for a small crime - often used in jest."
+     "tone": "Deliberately grand for a small crime - the pomp is the joke."
     },
     {
      "word": "shoplift",
      "synset": "oewn-02282148-v",
-     "charge": -2,
+     "charge": -1,
      "usage": [
       "technical"
      ],
@@ -444,7 +446,7 @@
      "word": "steal",
      "synset": "oewn-02326737-v",
      "charge": -2,
-     "tone": "The plain word - direct, and heavy enough that lawyers prefer 'take'.",
+     "tone": "The plain word - direct, and it names the wrong outright.",
      "examples": [
       "He stole from his own family."
      ]
@@ -463,7 +465,7 @@
      "word": "rob",
      "synset": "oewn-02326371-v",
      "charge": -3,
-     "tone": "Theft with force or confrontation - a victim is present.",
+     "tone": "The victim stands in the object - one robs a person, where one steals a thing.",
      "examples": [
       "They robbed him at knifepoint."
      ]
@@ -472,7 +474,9 @@
      "word": "loot",
      "synset": "oewn-02350284-v",
      "charge": -3,
-     "tone": "Mass theft amid disorder - war, riot, disaster."
+     "tone": "Mass theft amid disorder - war, riot, disaster.",
+     "_skip": true,
+     "_skip_reason": "OEWN gloss 'take illegally; of intellectual property' does not fit loot"
     },
     {
      "word": "plunder",
@@ -481,7 +485,7 @@
      "usage": [
       "literary"
      ],
-     "tone": "Systematic, large-scale robbery - the word of armies and empires."
+     "tone": "Systematic, large-scale robbery - theft on the scale of armies."
     },
     {
      "word": "embezzle",

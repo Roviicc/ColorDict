@@ -1,0 +1,780 @@
+{
+ "batch": "input-05",
+ "count": 48,
+ "entries": [
+  {
+   "id": "decease.oewn-00359085-v",
+   "word": "decease",
+   "definition": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Legal register: the death is an event on a form.",
+   "usage_labels": [
+    "formal",
+    "technical"
+   ],
+   "examples": [],
+   "family": "dying",
+   "charge": 0,
+   "shard": "annotated-003"
+  },
+  {
+   "id": "cowardly.oewn-00265642-a",
+   "word": "cowardly",
+   "definition": "lacking courage; ignobly timid and faint-hearted",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain accusation - fear that led to failing others.",
+   "usage_labels": [],
+   "examples": [
+    "cowardly dogs, ye will not aid me then",
+    "a cowardly refusal to take responsibility"
+   ],
+   "family": "cowardice",
+   "charge": -2,
+   "shard": "annotated-002"
+  },
+  {
+   "id": "affably.oewn-00221532-r",
+   "word": "affably",
+   "definition": "in an affable manner",
+   "part_of_speech": "adverb",
+   "label": "positive",
+   "score": null,
+   "tone": "The adverb of *affable*: praises ease of manner in someone who need not have bothered - it fits people with standing.",
+   "usage_labels": [
+    "formal"
+   ],
+   "examples": [],
+   "family": "family-01078338-a",
+   "charge": 2,
+   "shard": "adverbs-inherited"
+  },
+  {
+   "id": "matey.oewn-01079212-s",
+   "word": "matey",
+   "definition": "(used colloquially) having the relationship of friends or pals",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "British and blokeish: friendly in a way that insists on being equals.",
+   "usage_labels": [
+    "informal",
+    "regional"
+   ],
+   "examples": [],
+   "family": "family-01078338-a",
+   "charge": 1,
+   "shard": "annotated-004"
+  },
+  {
+   "id": "sincere.oewn-02186899-a",
+   "word": "sincere",
+   "definition": "open and genuine; not deceitful",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain claim that there is no gap between what is felt and what is said.",
+   "usage_labels": [],
+   "examples": [
+    "he was a good man, decent and sincere",
+    "felt sincere regret that they were leaving"
+   ],
+   "family": "family-02186899-a",
+   "charge": 3,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "sob.oewn-00066900-v",
+   "word": "sob",
+   "definition": "weep convulsively",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Crying that convulses the body - conveys the depth of the grief.",
+   "usage_labels": [],
+   "examples": [
+    "He was sobbing inconsolably",
+    "He sobbed into his hands."
+   ],
+   "family": "weeping",
+   "charge": 1,
+   "shard": "annotated-003"
+  },
+  {
+   "id": "overjealous.oewn-02473333-s",
+   "word": "overjealous",
+   "definition": "suspicious or unduly suspicious or fearful of being displaced by a rival",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Marks the excess explicitly, which suggests some jealousy was warranted.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02472382-a",
+   "charge": -2,
+   "shard": "annotated-008"
+  },
+  {
+   "id": "polite.oewn-00644180-a",
+   "word": "polite",
+   "definition": "showing regard for others in manners, speech, behavior, etc.",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise for meeting the standard; it says nothing about warmth, and sometimes implies its absence.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00644180-a",
+   "charge": 2,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "bilious.oewn-01138769-s",
+   "word": "bilious",
+   "definition": "irritable as if suffering from indigestion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The same medicine, still current, and it makes the temper sound like a symptom.",
+   "usage_labels": [
+    "literary"
+   ],
+   "examples": [],
+   "family": "family-01138269-a",
+   "charge": -2,
+   "shard": "annotated-008"
+  },
+  {
+   "id": "chummy.oewn-01079212-s",
+   "word": "chummy",
+   "definition": "(used colloquially) having the relationship of friends or pals",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Faintly disapproving of other people's friendships - it hints the closeness came too fast or too conveniently.",
+   "usage_labels": [
+    "informal"
+   ],
+   "examples": [],
+   "family": "family-01078338-a",
+   "charge": -1,
+   "shard": "annotated-004"
+  },
+  {
+   "id": "chuckle.oewn-00031656-v",
+   "word": "chuckle",
+   "definition": "laugh quietly or with restraint",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Low, private and contented - the warmest laugh in the family.",
+   "usage_labels": [],
+   "examples": [
+    "He chuckled at the memory."
+   ],
+   "family": "laughing",
+   "charge": 2,
+   "shard": "annotated-003"
+  },
+  {
+   "id": "worn.oewn-02590887-a",
+   "word": "worn",
+   "definition": "affected by wear; damaged by long use",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Neutral and factual; use leaves marks, and the word says only that.",
+   "usage_labels": [],
+   "examples": [
+    "worn threads on the screw",
+    "a worn suit"
+   ],
+   "family": "family-02590887-a",
+   "charge": -1,
+   "shard": "annotated-008"
+  },
+  {
+   "id": "politely.oewn-00219959-r",
+   "word": "politely",
+   "definition": "in a polite manner",
+   "part_of_speech": "adverb",
+   "label": "positive",
+   "score": null,
+   "tone": "The adverb of *polite*: praise for meeting the standard; it says nothing about warmth, and sometimes implies its absence.",
+   "usage_labels": [],
+   "examples": [
+    "the policeman answered politely, ‘Now look here, lady … ’"
+   ],
+   "family": "family-00644180-a",
+   "charge": 2,
+   "shard": "adverbs-inherited"
+  },
+  {
+   "id": "faineant.oewn-00295445-s",
+   "word": "faineant",
+   "definition": "disinclined to work or exertion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A do-nothing word for a do-nothing; it condemns from a distance.",
+   "usage_labels": [
+    "literary"
+   ],
+   "examples": [
+    "faineant kings under whose rule the country languished"
+   ],
+   "family": "family-00295041-a",
+   "charge": -2,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "honest-to-god.oewn-01119860-s",
+   "word": "honest-to-god",
+   "definition": "(used informally especially for emphasis) real or genuine",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Emphatic and colloquial: it swears to the thing instead of proving it.",
+   "usage_labels": [
+    "informal"
+   ],
+   "examples": [
+    "a real honest-to-god live cowboy"
+   ],
+   "family": "family-01119091-a",
+   "charge": 1,
+   "shard": "annotated-004"
+  },
+  {
+   "id": "creaky.oewn-01927734-s",
+   "word": "creaky",
+   "definition": "having a rasping or grating sound",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Also used of arguments and institutions, where it means old and barely holding.",
+   "usage_labels": [],
+   "examples": [
+    "creaky stairs"
+   ],
+   "family": "family-01926330-a",
+   "charge": -1,
+   "shard": "annotated-008"
+  },
+  {
+   "id": "well-off.oewn-02029807-s",
+   "word": "well-off",
+   "definition": "in fortunate circumstances financially; moderately rich",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Plainly better off than most, without ostentation.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "wealth",
+   "charge": 1,
+   "shard": "annotated-002"
+  },
+  {
+   "id": "barbarous.oewn-01266123-s",
+   "word": "barbarous",
+   "definition": "(of persons or their actions) able or disposed to inflict pain or suffering",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Condemns as a whole civilisation would: this is beneath what people owe each other.",
+   "usage_labels": [],
+   "examples": [
+    "a barbarous crime"
+   ],
+   "family": "family-01265721-a",
+   "charge": -3,
+   "shard": "annotated-006"
+  },
+  {
+   "id": "courteously.oewn-00219959-r",
+   "word": "courteously",
+   "definition": "in a polite manner",
+   "part_of_speech": "adverb",
+   "label": "positive",
+   "score": null,
+   "tone": "The adverb of *courteous*: formal warmth, with a whiff of chivalry - it praises the manner as a kind of respect.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00644180-a",
+   "charge": 2,
+   "shard": "adverbs-inherited"
+  },
+  {
+   "id": "bossy.oewn-00791150-s",
+   "word": "bossy",
+   "definition": "offensively self-assured or given to exercising usually unwarranted power",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The mildest here - it belittles the manner rather than condemning the power.",
+   "usage_labels": [
+    "informal"
+   ],
+   "examples": [
+    "a bossy way of ordering others around"
+   ],
+   "family": "family-00790691-a",
+   "charge": -1,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "screakily.oewn-00304748-r",
+   "word": "screakily",
+   "definition": "in a creaky manner",
+   "part_of_speech": "adverb",
+   "label": "negative",
+   "score": null,
+   "tone": "The adverb of *screaky*: the rarer and shriller variant, and it sounds like what it means.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01926330-a",
+   "charge": -1,
+   "shard": "adverbs-inherited"
+  },
+  {
+   "id": "slyly.oewn-00295240-r",
+   "word": "slyly",
+   "definition": "in an subtle, cunning manner",
+   "part_of_speech": "adverb",
+   "label": "negative",
+   "score": null,
+   "tone": "The adverb of *sly*: the everyday word, and the one that emphasises secrecy over skill.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00149002-a",
+   "charge": -2,
+   "shard": "adverbs-inherited"
+  },
+  {
+   "id": "crappy.oewn-01131613-s",
+   "word": "crappy",
+   "definition": "very bad",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Crude dismissal - fine among friends, out of place in writing.",
+   "usage_labels": [
+    "informal",
+    "vulgar"
+   ],
+   "examples": [],
+   "family": "quality-bad",
+   "charge": -3,
+   "shard": "annotated-002"
+  },
+  {
+   "id": "bray.oewn-00029623-v",
+   "word": "bray",
+   "definition": "laugh loudly and harshly",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Loud, harsh and donkey-like - unflattering to the point of insult.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "laughing",
+   "charge": -2,
+   "shard": "annotated-003"
+  },
+  {
+   "id": "slimly.oewn-00460568-r",
+   "word": "slimly",
+   "definition": "in a slim or slender manner",
+   "part_of_speech": "adverb",
+   "label": "positive",
+   "score": null,
+   "tone": "The adverb of *slim*: the polite compliment - thin in a way people want to be.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "thinness",
+   "charge": 2,
+   "shard": "adverbs-inherited"
+  },
+  {
+   "id": "domineering.oewn-00790691-a",
+   "word": "domineering",
+   "definition": "tending to domineer",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A habit of overriding others, described from the outside.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00790691-a",
+   "charge": -2,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "comradely.oewn-01079552-s",
+   "word": "comradely",
+   "definition": "heartily friendly and congenial",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Carries political history: warmth between equals in a shared cause, and a faint whiff of the cause itself.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01078338-a",
+   "charge": 1,
+   "shard": "annotated-004"
+  },
+  {
+   "id": "bang-up.oewn-01127641-s",
+   "word": "bang-up",
+   "definition": "excellent",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Hearty and old-fashioned approval.",
+   "usage_labels": [
+    "informal",
+    "dated"
+   ],
+   "examples": [],
+   "family": "quality-good",
+   "charge": 2,
+   "shard": "annotated-002"
+  },
+  {
+   "id": "fainthearted.oewn-00266855-s",
+   "word": "fainthearted",
+   "definition": "lacking conviction or boldness or courage",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Lacking boldness - mild, and often used of a task rather than a person.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "cowardice",
+   "charge": -1,
+   "shard": "annotated-002"
+  },
+  {
+   "id": "genuine.oewn-01119091-a",
+   "word": "genuine",
+   "definition": "not fake or counterfeit",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warm without being showy: it says a thing is what it claims, and that this was worth saying.",
+   "usage_labels": [],
+   "examples": [
+    "a genuine Picasso",
+    "genuine leather"
+   ],
+   "family": "family-01119091-a",
+   "charge": 2,
+   "shard": "annotated-004"
+  },
+  {
+   "id": "skeletal.oewn-00992194-s",
+   "word": "skeletal",
+   "definition": "very thin especially from disease or hunger or cold",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Stark and clinical - reduced to bone.",
+   "usage_labels": [],
+   "examples": [
+    "a nightmare population of gaunt men and skeletal boys"
+   ],
+   "family": "thinness",
+   "charge": -3,
+   "shard": "annotated-001"
+  },
+  {
+   "id": "stupidly.oewn-00176830-r",
+   "word": "stupidly",
+   "definition": "in a stupid manner",
+   "part_of_speech": "adverb",
+   "label": "negative",
+   "score": null,
+   "tone": "The adverb of *stupid*: the blunt, wounding word - a flat verdict on someone's mind.",
+   "usage_labels": [],
+   "examples": [
+    "he had stupidly bought a one way ticket"
+   ],
+   "family": "intellect-low",
+   "charge": -3,
+   "shard": "adverbs-inherited"
+  },
+  {
+   "id": "perfunctorily.oewn-00261760-r",
+   "word": "perfunctorily",
+   "definition": "in a set manner without serious attention; as a formality",
+   "part_of_speech": "adverb",
+   "label": "negative",
+   "score": null,
+   "tone": "The adverb of *perfunctory*: the work was done to be seen to be done; it accuses the motive, not the skill.",
+   "usage_labels": [
+    "formal"
+   ],
+   "examples": [
+    "he kissed her cheek perfunctorily"
+   ],
+   "family": "family-00312461-a",
+   "charge": -2,
+   "shard": "adverbs-inherited"
+  },
+  {
+   "id": "nosey.oewn-00668361-s",
+   "word": "nosey",
+   "definition": "offensively curious or inquisitive",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The alternative spelling, equally common.",
+   "usage_labels": [
+    "informal"
+   ],
+   "examples": [],
+   "family": "family-00667636-a",
+   "charge": -2,
+   "shard": "annotated-008"
+  },
+  {
+   "id": "untidy.oewn-02433027-a",
+   "word": "untidy",
+   "definition": "not neat and tidy",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain word, and a small complaint - it expects the state to be temporary.",
+   "usage_labels": [],
+   "examples": [
+    "careless and untidy in her personal habits",
+    "an untidy living room"
+   ],
+   "family": "family-02433027-a",
+   "charge": -1,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "spare.oewn-00994531-s",
+   "word": "spare",
+   "definition": "thin and fit",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Thin and fit, with nothing surplus - quietly approving.",
+   "usage_labels": [],
+   "examples": [
+    "the spare figure of a marathon runner"
+   ],
+   "family": "thinness",
+   "charge": 1,
+   "shard": "annotated-001"
+  },
+  {
+   "id": "courteous.oewn-00644482-s",
+   "word": "courteous",
+   "definition": "exhibiting courtesy and politeness",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal warmth, with a whiff of chivalry - it praises the manner as a kind of respect.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00644180-a",
+   "charge": 2,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "peck.oewn-00846620-v",
+   "word": "peck",
+   "definition": "bother persistently with trivial complaints",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Small, repeated and birdlike; it makes the complaint sound trivial by design.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00909100-v",
+   "charge": -2,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "benevolently.oewn-00396497-r",
+   "word": "benevolently",
+   "definition": "in a benevolent manner",
+   "part_of_speech": "adverb",
+   "label": "positive",
+   "score": null,
+   "tone": "The adverb of *benevolent*: formal and settled - a disposition rather than a mood, which is why institutions claim it.",
+   "usage_labels": [
+    "formal"
+   ],
+   "examples": [
+    "she looked on benevolently"
+   ],
+   "family": "family-01374976-a",
+   "charge": 3,
+   "shard": "adverbs-inherited"
+  },
+  {
+   "id": "knock.oewn-00828170-v",
+   "word": "knock",
+   "definition": "find fault with; express criticism of; point out real or perceived flaws",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Casual and dismissive; it implies the criticism is cheap and possibly unfair.",
+   "usage_labels": [
+    "informal"
+   ],
+   "examples": [
+    "Don't knock the food — it's free"
+   ],
+   "family": "family-00828170-v",
+   "charge": -1,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "cutthroat.oewn-01511487-s",
+   "word": "cutthroat",
+   "definition": "ruthless in competition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Lives in business now, where it is half a boast about the market.",
+   "usage_labels": [],
+   "examples": [
+    "cutthroat competition"
+   ],
+   "family": "family-01511081-a",
+   "charge": -2,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "shoplift.oewn-02282148-v",
+   "word": "shoplift",
+   "definition": "steal in a store",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "The specific, legal name for the act - factual rather than condemning.",
+   "usage_labels": [
+    "technical"
+   ],
+   "examples": [],
+   "family": "stealing",
+   "charge": -2,
+   "shard": "annotated-003"
+  },
+  {
+   "id": "tricksy.oewn-00149346-s",
+   "word": "tricksy",
+   "definition": "marked by skill in deception",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Playful rather than dangerous: mischief with a literary air.",
+   "usage_labels": [
+    "literary"
+   ],
+   "examples": [],
+   "family": "family-00149002-a",
+   "charge": -1,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "idle.oewn-00295041-a",
+   "word": "idle",
+   "definition": "not in action or at work",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Describes the state, not the person - machinery and money are idle too.",
+   "usage_labels": [],
+   "examples": [
+    "an idle laborer",
+    "idle drifters"
+   ],
+   "family": "family-00295041-a",
+   "charge": -1,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "bolshy.oewn-02335307-s",
+   "word": "bolshy",
+   "definition": "obstreperous",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "From Bolshevik: it frames the refusal as insubordination rather than character.",
+   "usage_labels": [
+    "informal"
+   ],
+   "examples": [],
+   "family": "family-02334687-a",
+   "charge": -2,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "croak.oewn-00359085-v",
+   "word": "croak",
+   "definition": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Crude and flippant - it reduces a death to a joke.",
+   "usage_labels": [
+    "slang",
+    "informal"
+   ],
+   "examples": [
+    "The old villain finally croaked."
+   ],
+   "family": "dying",
+   "charge": -3,
+   "shard": "annotated-003"
+  },
+  {
+   "id": "deceased.oewn-00096726-s",
+   "word": "deceased",
+   "definition": "dead",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The neutral official term - legal forms and medical records, no feeling either way.",
+   "usage_labels": [
+    "formal",
+    "technical"
+   ],
+   "examples": [
+    "he is deceased",
+    "the estate of the deceased"
+   ],
+   "family": "death",
+   "charge": 0,
+   "shard": "annotated-001"
+  },
+  {
+   "id": "gorgeous.oewn-00221297-s",
+   "word": "gorgeous",
+   "definition": "dazzlingly beautiful",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Dazzling and enthusiastic - beauty that stops you.",
+   "usage_labels": [
+    "informal"
+   ],
+   "examples": [
+    "a gorgeous Victorian gown"
+   ],
+   "family": "beauty",
+   "charge": 3,
+   "shard": "annotated-002"
+  }
+ ]
+}

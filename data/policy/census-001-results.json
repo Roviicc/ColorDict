@@ -1,0 +1,64 @@
+{
+ "sample": "census-001",
+ "read": 767,
+ "right": 565,
+ "wrong": 198,
+ "unsure": 4,
+ "error_rate_pct": 25.8,
+ "threshold_pct": 5.0,
+ "note": "census repair pass, not a measurement - audit 005 measures",
+ "unread": [],
+ "missing_outputs": [],
+ "faults": {
+  "unverifiable": 114,
+  "wrong-sense": 47,
+  "note-scope": 31,
+  "other": 2,
+  "charge-sign": 2,
+  "wrong-gloss": 2
+ },
+ "by_shard": {
+  "adverbs-inherited": {
+   "ok": 94,
+   "no": 35
+  },
+  "annotated-001": {
+   "ok": 39,
+   "no": 3
+  },
+  "annotated-002": {
+   "ok": 72,
+   "no": 16
+  },
+  "annotated-003": {
+   "ok": 31,
+   "no": 8,
+   "hm": 1
+  },
+  "annotated-004": {
+   "ok": 28,
+   "no": 10
+  },
+  "annotated-005": {
+   "no": 22,
+   "ok": 97,
+   "hm": 1
+  },
+  "annotated-006": {
+   "ok": 65,
+   "no": 38
+  },
+  "annotated-007": {
+   "no": 36,
+   "ok": 77
+  },
+  "annotated-008": {
+   "ok": 59,
+   "no": 30,
+   "hm": 2
+  },
+  "batch-0001": {
+   "ok": 3
+  }
+ }
+}

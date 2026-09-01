@@ -1,0 +1,14 @@
+{
+ "_comment": "Adverb senses that must not inherit their adjective's note. The pertainym gate (audit 004) checks that the note was written for the sense the adverb points at; these are cases where that holds and the adverb's own gloss still does not match - census 001, plan 11.69. Recoverable: annotating the right sense, or the adverb itself, lifts the denial.",
+ "deny": {
+  "lately.oewn-00108184-r": "gloss is the plain time adverb; the note belongs to late 'deceased'",
+  "aptly.oewn-00186658-r": "gloss 'with competence' does not match apt 'quick to learn', the sense the note was written for",
+  "thankfully.oewn-00201415-r": "the trace-of-prayer note belongs to the sentence adverb of relief, not this manner gloss",
+  "cantankerously.oewn-00282813-r": "adverb gloss 'in a bad mood' diverges from the settled-disposition sense the note describes",
+  "dishonestly.oewn-00315990-r": "the settled-disposition claim cannot transfer to a manner adverb that condemns single acts",
+  "richly.oewn-00359047-r": "the faintly-accusing force of rich-the-person does not exist in 'in a rich manner'",
+  "clamorously.oewn-00414618-r": "adverb gloss 'in manner that attracts attention' is broader than the offensively-loud sense the note fits",
+  "preciously.oewn-00431167-r": "gloss is the bare intensifier 'very'; the affectation note and charge do not apply",
+  "voraciously.oewn-00495930-r": "the note is bound to the food gloss; this adverb gloss covers any voracious manner"
+ }
+}

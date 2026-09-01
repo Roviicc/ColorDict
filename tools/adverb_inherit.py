@@ -99,11 +99,19 @@ def lend(patch_from, source):
     return patch
 
 
+# Notes that open with a register label keep their capital: "The adverb of
+# *chirpy*: british and small-scale" is wrong, and audit 005 read it.
+PROPER = {"american", "australian", "biblical", "british", "church", "english",
+          "french", "german", "irish", "latin", "latinate", "scots", "scottish",
+          "shakespearean", "victorian", "yiddish"}
+
+
 def adverbise(tone, adjective):
     """Reword an adjective's note so it reads correctly of the adverb."""
     if not tone:
         return None
-    first = tone[0].lower() + tone[1:]
+    head = tone.split(None, 1)[0].rstrip(",.;:-").lower()
+    first = tone if head in PROPER else tone[0].lower() + tone[1:]
     return f"The adverb of *{adjective}*: {first}"
 
 
@@ -113,12 +121,22 @@ def main():
     ap.add_argument("--overlay", type=Path, required=True, action="append",
                     help="annotated adjective overlays to inherit from")
     ap.add_argument("--out", type=Path, required=True)
+    ap.add_argument("--deny", type=Path,
+                    default=Path(__file__).resolve().parent.parent
+                    / "data/families/adverb-deny.json",
+                    help="adverb senses that must not inherit, with reasons; "
+                         "census 001 found nine whose own gloss does not match "
+                         "the adjective sense they point at")
     ap.add_argument("--pertainyms", type=Path,
                     default=Path(__file__).resolve().parent.parent
                     / "data/build/pertainyms.json",
                     help="output of pertainym_extract.py; the sense-level check "
                          "is skipped if it is absent")
     args = ap.parse_args()
+
+    deny = {}
+    if args.deny and args.deny.exists():
+        deny = json.loads(args.deny.read_text(encoding="utf-8")).get("deny", {})
 
     pertainyms = {}
     if args.pertainyms and args.pertainyms.exists():
@@ -156,7 +174,7 @@ def main():
         if senses:
             adverb_senses[entry["word"]] = senses
 
-    out, inherited, skipped_ambiguous, wrong_sense = [], 0, 0, 0
+    out, inherited, skipped_ambiguous, wrong_sense, denied = [], 0, 0, 0, 0
     for adverb, senses in sorted(adverb_senses.items()):
         source = next((b for b in base_forms(adverb) if b in annotated), None)
         if source is None:
@@ -181,6 +199,13 @@ def main():
         notes = by_sense.get(source, {})
         kept = []
         for sense in eligible:
+            # The pertainym can be right and the adverb's own gloss still
+            # disagree with the sense it names - *preciously* points at the
+            # affectation sense of *precious* and is glossed "very". Those are
+            # listed by hand; nothing here can detect them.
+            if sense["id"] in deny:
+                denied += 1
+                continue
             synset = (sense.get("source") or {}).get("synset", "")
             target = pertainyms.get(synset, {}).get(adverb)
             if target and target != want:
@@ -225,6 +250,9 @@ def main():
     if wrong_sense:
         print(f"{wrong_sense} adverb senses declined - WordNet points them at a "
               f"different sense of the adjective")
+    if denied:
+        print(f"{denied} adverb senses denied by {args.deny.name} - their own "
+              f"gloss does not match the adjective sense they point at")
     print(f"wrote {args.out}")
     return 0
 

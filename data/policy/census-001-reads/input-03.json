@@ -1,0 +1,774 @@
+{
+ "batch": "input-03",
+ "count": 48,
+ "entries": [
+  {
+   "id": "humbled.oewn-01899370-s",
+   "word": "humbled",
+   "definition": "subdued or brought low in condition or status",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Ambiguous by design. It can mean genuinely moved, or beaten and admitting it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01899020-a",
+   "charge": -1,
+   "shard": "annotated-006"
+  },
+  {
+   "id": "uncultured.oewn-01956562-s",
+   "word": "uncultured",
+   "definition": "(of persons) lacking art or knowledge",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Sharper, because culture is treated as something the person declined to acquire.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01955971-a",
+   "charge": -2,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "good.oewn-01119768-s",
+   "word": "good",
+   "definition": "not forged",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plainest way to say a note or a passport is not forged; no compliment is intended.",
+   "usage_labels": [
+    "informal"
+   ],
+   "examples": [
+    "a good dollar bill"
+   ],
+   "family": "family-01119091-a",
+   "charge": 1,
+   "shard": "annotated-004"
+  },
+  {
+   "id": "superb.oewn-01129021-s",
+   "word": "superb",
+   "definition": "surpassingly good",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Surpassing praise, with a note of polish and craft.",
+   "usage_labels": [],
+   "examples": [
+    "a superb meal",
+    "a superb performance from the whole cast"
+   ],
+   "family": "quality-good",
+   "charge": 3,
+   "shard": "annotated-002"
+  },
+  {
+   "id": "giggle.oewn-00030135-v",
+   "word": "giggle",
+   "definition": "laugh nervously",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Light and childlike; affectionate of children, slightly diminishing of adults.",
+   "usage_labels": [],
+   "examples": [
+    "The girls giggled when the rock star came into the classroom"
+   ],
+   "family": "laughing",
+   "charge": 0,
+   "shard": "annotated-003"
+  },
+  {
+   "id": "speculative.oewn-00668084-s",
+   "word": "speculative",
+   "definition": "showing curiosity",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Curiosity aimed at ideas rather than people, and neutral for it.",
+   "usage_labels": [],
+   "examples": [
+    "raised a speculative eyebrow"
+   ],
+   "family": "family-00667636-a",
+   "charge": 0,
+   "shard": "annotated-008"
+  },
+  {
+   "id": "foxy.oewn-00149346-s",
+   "word": "foxy",
+   "definition": "marked by skill in deception",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The animal metaphor, and easily confused with the unrelated sense meaning attractive.",
+   "usage_labels": [],
+   "examples": [
+    "a foxy scheme",
+    "sly as a fox"
+   ],
+   "family": "family-00149002-a",
+   "charge": -1,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "handsome.oewn-01115129-s",
+   "word": "handsome",
+   "definition": "given or giving freely",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Of a sum or a gesture - it praises the scale, and implies it exceeded what was owed.",
+   "usage_labels": [],
+   "examples": [
+    "a handsome allowance"
+   ],
+   "family": "family-01114727-a",
+   "charge": 2,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "sylphlike.oewn-00994908-s",
+   "word": "sylphlike",
+   "definition": "(of a woman or girl) slender and graceful like a sylph",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Poetic praise - slender and light as a spirit.",
+   "usage_labels": [
+    "literary"
+   ],
+   "examples": [],
+   "family": "thinness",
+   "charge": 3,
+   "shard": "annotated-001"
+  },
+  {
+   "id": "repulsive.oewn-00223526-s",
+   "word": "repulsive",
+   "definition": "so extremely ugly as to be terrifying",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Ugliness that actively drives people away.",
+   "usage_labels": [],
+   "examples": [
+    "a repulsive mask"
+   ],
+   "family": "ugliness",
+   "charge": -3,
+   "shard": "annotated-002"
+  },
+  {
+   "id": "a_priori.oewn-00140180-a",
+   "word": "a priori",
+   "definition": "involving deductive reasoning from a general principle to a necessary effect; not supported by fact",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and academic - at home in philosophy, logic, and law; describes reasoning that comes before experience or evidence.",
+   "usage_labels": [
+    "formal",
+    "technical"
+   ],
+   "examples": [
+    "an a priori judgment",
+    "We cannot assume a priori that the plan will succeed."
+   ],
+   "family": null,
+   "charge": null,
+   "shard": "batch-0001"
+  },
+  {
+   "id": "content.oewn-00591490-a",
+   "word": "content",
+   "definition": "satisfied or showing satisfaction with things as they are",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plainest form, and often used of accepting less than one wanted.",
+   "usage_labels": [],
+   "examples": [
+    "a contented smile"
+   ],
+   "family": "family-00591490-a",
+   "charge": 2,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "boast.oewn-00884747-v",
+   "word": "boast",
+   "definition": "show off",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "The standard accusation: the speaker is impressed with themselves and has said so.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00884747-v",
+   "charge": -2,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "authoritarian.oewn-00790912-s",
+   "word": "authoritarian",
+   "definition": "expecting unquestioning obedience",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Political, and it scales from a parent to a state without changing meaning.",
+   "usage_labels": [],
+   "examples": [
+    "the timid child of authoritarian parents"
+   ],
+   "family": "family-00790691-a",
+   "charge": -3,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "mean.oewn-01116711-s",
+   "word": "mean",
+   "definition": "(used of sums of money) so small in amount as to deserve contempt",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "In British use this is the standard word for stingy; American readers hear *cruel* instead.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01116284-a",
+   "charge": -2,
+   "shard": "annotated-006"
+  },
+  {
+   "id": "aggravated.oewn-00115077-s",
+   "word": "aggravated",
+   "definition": "incited, especially deliberately, to anger",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Points at whoever caused it - the anger is presented as a reasonable response.",
+   "usage_labels": [],
+   "examples": [
+    "aggravated by passive resistance"
+   ],
+   "family": "family-00114629-a",
+   "charge": -1,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "dandified.oewn-00853318-s",
+   "word": "dandified",
+   "definition": "affecting extreme elegance in dress and manner",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Elegance turned into a project, and visibly so.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00852781-a",
+   "charge": -1,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "fraudulently.oewn-00346945-r",
+   "word": "fraudulently",
+   "definition": "in a dishonest and fraudulent manner",
+   "part_of_speech": "adverb",
+   "label": "negative",
+   "score": null,
+   "tone": "The adverb of *fraudulent*: the legal word: it implies a crime has been committed, not merely a lie told.",
+   "usage_labels": [],
+   "examples": [
+    "this money was fraudulently obtained"
+   ],
+   "family": "family-01225555-a",
+   "charge": -3,
+   "shard": "adverbs-inherited"
+  },
+  {
+   "id": "hardcore.oewn-00965214-s",
+   "word": "hardcore",
+   "definition": "intensely loyal",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The unhyphenated spelling, commoner now than the hyphen.",
+   "usage_labels": [
+    "informal"
+   ],
+   "examples": [],
+   "family": "family-00964581-a",
+   "charge": 1,
+   "shard": "annotated-006"
+  },
+  {
+   "id": "low.oewn-01899370-s",
+   "word": "low",
+   "definition": "subdued or brought low in condition or status",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Status, not disposition; the older sense that *humble origins* still carries.",
+   "usage_labels": [],
+   "examples": [
+    "brought low"
+   ],
+   "family": "family-01899020-a",
+   "charge": -2,
+   "shard": "annotated-006"
+  },
+  {
+   "id": "inane.oewn-00442050-s",
+   "word": "inane",
+   "definition": "extremely silly or stupid",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Empty of sense - condemns the content, not the person.",
+   "usage_labels": [
+    "formal"
+   ],
+   "examples": [],
+   "family": "intellect-low",
+   "charge": -3,
+   "shard": "annotated-002"
+  },
+  {
+   "id": "mincing.oewn-01954782-s",
+   "word": "mincing",
+   "definition": "affectedly dainty or refined",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Mocks refinement as performance - the word describes the walk, and means the person.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01953883-a",
+   "charge": -2,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "bighearted.oewn-01115129-s",
+   "word": "bighearted",
+   "definition": "given or giving freely",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Unfashionable and entirely sincere; it praises the person, not the sum.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01114727-a",
+   "charge": 2,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "chintzily.oewn-00468873-r",
+   "word": "chintzily",
+   "definition": "in a stingy manner",
+   "part_of_speech": "adverb",
+   "label": "negative",
+   "score": null,
+   "tone": "The adverb of *chintzy*: slides between stingy and shoddy; either way it is a sneer at what was provided.",
+   "usage_labels": [
+    "informal"
+   ],
+   "examples": [
+    "their rich uncle treated them rather chintzily"
+   ],
+   "family": "family-01116284-a",
+   "charge": -2,
+   "shard": "adverbs-inherited"
+  },
+  {
+   "id": "beggarly.oewn-01116711-s",
+   "word": "beggarly",
+   "definition": "(used of sums of money) so small in amount as to deserve contempt",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Said of the sum, not the person - an amount so small it insults whoever receives it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01116284-a",
+   "charge": -3,
+   "shard": "annotated-006"
+  },
+  {
+   "id": "exalt.oewn-00862284-v",
+   "word": "exalt",
+   "definition": "praise, glorify, or honor",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Raises the subject rather than merely approving of them; close to worship.",
+   "usage_labels": [
+    "literary"
+   ],
+   "examples": [],
+   "family": "family-00858506-v",
+   "charge": 2,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "eared.oewn-02592267-s",
+   "word": "eared",
+   "definition": "worn or shabby from overuse or (of pages) from having corners turned down",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The clipped form, and rare enough to be mistaken for the anatomy word.",
+   "usage_labels": [],
+   "examples": [
+    "a somewhat dog-eared duke … a bit run down",
+    "an old book with dog-eared pages"
+   ],
+   "family": "family-02590887-a",
+   "charge": -1,
+   "shard": "annotated-008"
+  },
+  {
+   "id": "bedraggled.oewn-00421806-s",
+   "word": "bedraggled",
+   "definition": "limp and soiled as if dragged in the mud",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Pitiable rather than blamed - the rain did this, not the person.",
+   "usage_labels": [],
+   "examples": [
+    "the beggar's bedraggled clothes"
+   ],
+   "family": "family-00420808-a",
+   "charge": -1,
+   "shard": "annotated-006"
+  },
+  {
+   "id": "preciously.oewn-00431167-r",
+   "word": "preciously",
+   "definition": "very",
+   "part_of_speech": "adverb",
+   "label": "negative",
+   "score": null,
+   "tone": "The adverb of *precious*: affectation as a whole manner - too studied to be trusted.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00149002-a",
+   "charge": -1,
+   "shard": "adverbs-inherited"
+  },
+  {
+   "id": "higgledy-piggledy.oewn-02434302-s",
+   "word": "higgledy-piggledy",
+   "definition": "in utter disorder",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The sound is the meaning, and it is far too cheerful to condemn much.",
+   "usage_labels": [
+    "informal"
+   ],
+   "examples": [],
+   "family": "family-02433027-a",
+   "charge": -1,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "angered.oewn-00115265-s",
+   "word": "angered",
+   "definition": "marked by extreme anger",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and slightly distant, as though reported rather than witnessed.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00114629-a",
+   "charge": -1,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "hideous.oewn-00223526-s",
+   "word": "hideous",
+   "definition": "so extremely ugly as to be terrifying",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Extreme and repellent - among the harshest words available.",
+   "usage_labels": [],
+   "examples": [
+    "a hideous scar",
+    "a hideous scar left by the fire"
+   ],
+   "family": "ugliness",
+   "charge": -3,
+   "shard": "annotated-002"
+  },
+  {
+   "id": "look.oewn-02134989-v",
+   "word": "look",
+   "definition": "perceive with attention; direct one's gaze towards; look",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "The neutral verb; everything else in the family adds a judgement to it.",
+   "usage_labels": [],
+   "examples": [
+    "She looked over the expanse of land",
+    "Look at your child!"
+   ],
+   "family": "family-02134989-v",
+   "charge": 0,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "overeager.oewn-00815276-s",
+   "word": "overeager",
+   "definition": "excessively eager",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the excess, and implies the eagerness spoiled what it wanted.",
+   "usage_labels": [],
+   "examples": [
+    "overeager in his pursuit of the girl"
+   ],
+   "family": "family-00814485-a",
+   "charge": -1,
+   "shard": "annotated-008"
+  },
+  {
+   "id": "companionate.oewn-01079430-s",
+   "word": "companionate",
+   "definition": "like a companion",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Technical and cool; used of marriages and arrangements rather than of feelings.",
+   "usage_labels": [
+    "formal"
+   ],
+   "examples": [
+    "companionate marriage",
+    "a companionate dog"
+   ],
+   "family": "family-01078338-a",
+   "charge": 1,
+   "shard": "annotated-004"
+  },
+  {
+   "id": "honest.oewn-02187787-s",
+   "word": "honest",
+   "definition": "without dissimulation; frank",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The broadest word in the family and the one with the most to lose.",
+   "usage_labels": [],
+   "examples": [
+    "my honest opinion"
+   ],
+   "family": "family-02186899-a",
+   "charge": 3,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "wolfish.oewn-00010745-s",
+   "word": "wolfish",
+   "definition": "devouring or craving food in great quantities",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Adds hunger to the manner of eating; it watches the food the way a predator would.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00009997-a",
+   "charge": -2,
+   "shard": "annotated-006"
+  },
+  {
+   "id": "dour.oewn-02335561-s",
+   "word": "dour",
+   "definition": "stubbornly unyielding",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Unyielding and unsmiling; it judges the manner as much as the will.",
+   "usage_labels": [],
+   "examples": [
+    "dour determination"
+   ],
+   "family": "family-02334687-a",
+   "charge": -1,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "unlovely.oewn-00224041-s",
+   "word": "unlovely",
+   "definition": "without beauty or charm",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Understated - withholds beauty rather than asserting ugliness.",
+   "usage_labels": [
+    "formal",
+    "literary"
+   ],
+   "examples": [],
+   "family": "ugliness",
+   "charge": -1,
+   "shard": "annotated-002"
+  },
+  {
+   "id": "cold.oewn-01267081-s",
+   "word": "cold",
+   "definition": "without compunction or human feeling",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The absence of feeling, not its violence. A cold refusal need never raise its voice.",
+   "usage_labels": [],
+   "examples": [
+    "in cold blood",
+    "cold-blooded killing"
+   ],
+   "family": "family-01265721-a",
+   "charge": -2,
+   "shard": "annotated-006"
+  },
+  {
+   "id": "sage.oewn-02580739-s",
+   "word": "sage",
+   "definition": "having wisdom that comes with age and experience",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Wisdom that came with age, and the noun stands just behind the adjective.",
+   "usage_labels": [
+    "literary"
+   ],
+   "examples": [],
+   "family": "family-02579686-a",
+   "charge": 3,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "misleading.oewn-01226942-s",
+   "word": "misleading",
+   "definition": "designed to deceive or mislead either deliberately or inadvertently",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Stops short of accusation: it reports the effect, and leaves the intent unstated.",
+   "usage_labels": [],
+   "examples": [
+    "a misleading similarity",
+    "statistics can be presented in ways that are misleading"
+   ],
+   "family": "family-01225555-a",
+   "charge": -1,
+   "shard": "annotated-004"
+  },
+  {
+   "id": "deluxe.oewn-00853459-s",
+   "word": "deluxe",
+   "definition": "elegant and sumptuous",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A marketing word before it was a compliment, and it still sounds like packaging.",
+   "usage_labels": [],
+   "examples": [
+    "a deluxe car"
+   ],
+   "family": "family-00852781-a",
+   "charge": 1,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "arrogantly.oewn-00267447-r",
+   "word": "arrogantly",
+   "definition": "in an arrogant manner",
+   "part_of_speech": "adverb",
+   "label": "negative",
+   "score": null,
+   "tone": "The adverb of *arrogant*: condemns self-importance as unearned - the confidence is real, the entitlement is not.",
+   "usage_labels": [],
+   "examples": [
+    "in the old days she had been harsh and stiff; afraid of her husband and yet arrogantly proud that she had a husband strong and fierce enough to make her afraid"
+   ],
+   "family": "self-regard",
+   "charge": -2,
+   "shard": "adverbs-inherited"
+  },
+  {
+   "id": "inhumane.oewn-01265721-a",
+   "word": "inhumane",
+   "definition": "lacking and reflecting lack of pity or compassion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The institutional word - it is conditions, treatment and policies that get called inhumane.",
+   "usage_labels": [],
+   "examples": [
+    "humans are innately inhumane; this explains much of the misery and suffering in the world",
+    "biological weapons are considered too inhumane to be used"
+   ],
+   "family": "family-01265721-a",
+   "charge": -3,
+   "shard": "annotated-006"
+  },
+  {
+   "id": "bone-idle.oewn-00295329-s",
+   "word": "bone-idle",
+   "definition": "constitutionally lazy or idle",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "British and total: the laziness is presented as going all the way through.",
+   "usage_labels": [
+    "informal"
+   ],
+   "examples": [],
+   "family": "family-00295041-a",
+   "charge": -3,
+   "shard": "annotated-005"
+  },
+  {
+   "id": "guileful.oewn-00149346-s",
+   "word": "guileful",
+   "definition": "marked by skill in deception",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and rare - the deceiving is deliberate and rather cold.",
+   "usage_labels": [
+    "literary"
+   ],
+   "examples": [],
+   "family": "family-00149002-a",
+   "charge": -2,
+   "shard": "annotated-007"
+  },
+  {
+   "id": "satisfactory.oewn-01128566-s",
+   "word": "satisfactory",
+   "definition": "meeting requirements",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Meets the requirement - the language of reports and inspections, not of praise.",
+   "usage_labels": [
+    "formal"
+   ],
+   "examples": [
+    "the step makes a satisfactory seat"
+   ],
+   "family": "quality-good",
+   "charge": 0,
+   "shard": "annotated-002"
+  }
+ ]
+}

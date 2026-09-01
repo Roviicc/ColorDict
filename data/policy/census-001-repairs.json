@@ -1,0 +1,2734 @@
+{
+ "synsets": {
+  "oewn-00010745-s": [
+   {
+    "id": "edacious.oewn-00010745-s",
+    "word": "edacious",
+    "shard": "annotated-006",
+    "definition": "devouring or craving food in great quantities",
+    "tone": "Rare enough to sound playful; too odd a word to land as a real charge.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "\"Rare enough\" is a frequency claim we cannot check without a corpus.",
+    "repair": "Too bookish to wound - the oddity of the word softens the greed into comedy."
+   },
+   {
+    "id": "rapacious.oewn-00010745-s",
+    "word": "rapacious",
+    "shard": "annotated-006",
+    "definition": "devouring or craving food in great quantities",
+    "tone": "Appetite as plunder - it has left the table and taken to taking.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is about devouring food, but \"it has left the table and taken to taking\" describes the plunder/greed sense instead.",
+    "repair": "The hunger is predatory - devouring as though by seizure."
+   }
+  ],
+  "oewn-00011346-s": [
+   {
+    "id": "piggish.oewn-00011346-s",
+    "word": "piggish",
+    "shard": "annotated-006",
+    "definition": "resembling swine; coarsely gluttonous or greedy",
+    "tone": "The same comparison, and the commoner of the two insults.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "Calling it 'the commoner of the two insults' is a frequency claim we have no corpus to check.",
+    "repair": "The same comparison - greed and coarseness laid on with the farm animal, and the comparison does the insulting."
+   },
+   {
+    "id": "porcine.oewn-00011346-s",
+    "word": "porcine",
+    "shard": "annotated-006",
+    "definition": "resembling swine; coarsely gluttonous or greedy",
+    "tone": "Formal, and about shape rather than appetite - a colder insult for it.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "The gloss includes 'coarsely gluttonous or greedy'; the note rules appetite out ('about shape rather than appetite'), restricting against half the gloss.",
+    "repair": "Formal and cold - the comparison to swine delivered clinically, which sharpens it."
+   }
+  ],
+  "oewn-00031656-v": [
+   {
+    "id": "chortle.oewn-00031656-v",
+    "word": "chortle",
+    "shard": "annotated-003",
+    "definition": "laugh quietly or with restraint",
+    "tone": "Gleeful and slightly comic - coined by Lewis Carroll.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "\"Coined by Lewis Carroll\" is an origin story - provenance we cannot source.",
+    "repair": "Gleeful and slightly comic - delight bubbling through restraint."
+   }
+  ],
+  "oewn-00065796-v": [
+   {
+    "id": "wail.oewn-00065796-v",
+    "word": "wail",
+    "shard": "annotated-003",
+    "definition": "cry weakly or softly",
+    "tone": "Long and loud with grief - dramatic, and taken seriously.",
+    "charge": 0,
+    "verdict": "no",
+    "fault": "wrong-gloss",
+    "why": "OEWN glosses wail 'cry weakly or softly' (the whimper synset), which does not fit the word - and the note, correctly describing loud grief, contradicts the gloss above it.",
+    "repair": "skip-gloss"
+   }
+  ],
+  "oewn-00096726-s": [
+   {
+    "id": "asleep.oewn-00096726-s",
+    "word": "asleep",
+    "shard": "annotated-001",
+    "definition": "dead",
+    "tone": "The gentlest euphemism of all, and the one most used with children.",
+    "charge": 3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The one most used with children' is a claim about speakers and frequency that we cannot check.",
+    "repair": "The gentlest euphemism - death softened into rest."
+   }
+  ],
+  "oewn-00108184-r": [
+   {
+    "id": "lately.oewn-00108184-r",
+    "word": "lately",
+    "shard": "adverbs-inherited",
+    "definition": "in the recent past",
+    "tone": "The adverb of *late*: respectful and gentle - names the death while keeping the person in view.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The note inherits the 'deceased' sense of *late*; this gloss is the plain time adverb 'in the recent past', which carries no death and no praise.",
+    "repair": "drop"
+   }
+  ],
+  "oewn-00115732-s": [
+   {
+    "id": "choleric.oewn-00115732-s",
+    "word": "choleric",
+    "shard": "annotated-005",
+    "definition": "characterized by anger",
+    "tone": "Judges the character, not the moment: a person built this way, from the old humours.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'From the old humours' is an origin story we have no etymological source to check.",
+    "repair": "Judges the character, not the moment: anger as a person's built-in temper."
+   }
+  ],
+  "oewn-00149346-s": [
+   {
+    "id": "tricky.oewn-00149346-s",
+    "word": "tricky",
+    "shard": "annotated-007",
+    "definition": "marked by skill in deception",
+    "tone": "Has drifted to describing problems rather than people; of a person it is still a warning.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Has drifted to describing problems rather than people' is a usage-drift claim we cannot check, spent on a sense other than the gloss's.",
+    "repair": "Of a person, a warning - the skill is in deceiving you."
+   }
+  ],
+  "oewn-00186658-r": [
+   {
+    "id": "aptly.oewn-00186658-r",
+    "word": "aptly",
+    "shard": "adverbs-inherited",
+    "definition": "with competence; in a competent capable manner",
+    "tone": "The adverb of *apt*: quick to learn - formal and slightly old-fashioned.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is 'with competence' but the note ties the adverb to apt 'quick to learn', a different sense of the base adjective.",
+    "repair": "The adverb of *apt*: praises the doing as capable - skill shown in the act rather than claimed for the actor."
+   }
+  ],
+  "oewn-00200274-r": [
+   {
+    "id": "stubbornly.oewn-00200274-r",
+    "word": "stubbornly",
+    "shard": "adverbs-inherited",
+    "definition": "in a stubborn unregenerate manner",
+    "tone": "The adverb of *stubborn*: mildly critical, and often affectionate - it can be said of a child or a stain.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Often affectionate' is a frequency claim we cannot check, and the softening fights a gloss that says unregenerate.",
+    "repair": "The adverb of *stubborn*: refusal held past the point of reason - the word faults the persistence."
+   }
+  ],
+  "oewn-00201415-r": [
+   {
+    "id": "thankfully.oewn-00201415-r",
+    "word": "thankfully",
+    "shard": "adverbs-inherited",
+    "definition": "in a thankful manner; with thanks",
+    "tone": "The adverb of *thankful*: carries a trace of prayer - thanks owed to providence as much as to a person.",
+    "charge": 3,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The trace-of-prayer, thanks-to-providence coloring belongs to the sentence adverb of relief, not this manner gloss, where the example thanks a person.",
+    "repair": "The adverb of *thankful*: gratitude made visible in the doing."
+   }
+  ],
+  "oewn-00221532-r": [
+   {
+    "id": "affably.oewn-00221532-r",
+    "word": "affably",
+    "shard": "adverbs-inherited",
+    "definition": "in an affable manner",
+    "tone": "The adverb of *affable*: praises ease of manner in someone who need not have bothered - it fits people with standing.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "The gloss covers any affable manner, but 'someone who need not have bothered - it fits people with standing' restricts the word to superiors, narrowing past the gloss.",
+    "repair": "The adverb of *affable*: praises warmth and ease of manner - friendliness that puts others at ease."
+   }
+  ],
+  "oewn-00223219-s": [
+   {
+    "id": "monstrous.oewn-00223219-s",
+    "word": "monstrous",
+    "shard": "annotated-002",
+    "definition": "distorted and unnatural in shape or size; abnormal and hideous",
+    "tone": "Ugliness that frightens; also used of moral wrong.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "'also used of moral wrong' imports the separate shockingly-cruel sense; this gloss is about distorted, hideous shape or size.",
+    "repair": "Ugliness that frightens - shape gone wrong enough to horrify."
+   }
+  ],
+  "oewn-00224135-s": [
+   {
+    "id": "unsightly.oewn-00224135-s",
+    "word": "unsightly",
+    "shard": "annotated-002",
+    "definition": "unpleasant to look at",
+    "tone": "Offends the eye - used more comfortably of things than of people.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Used more comfortably of things than of people' is a claim about speaker usage patterns we have no corpus to support.",
+    "repair": "Offends the eye - and lands harder on a person than on a thing."
+   }
+  ],
+  "oewn-00242731-r": [
+   {
+    "id": "suspiciously.oewn-00242731-r",
+    "word": "suspiciously",
+    "shard": "adverbs-inherited",
+    "definition": "with suspicion",
+    "tone": "The adverb of *suspicious*: cuts both ways - a suspicious person and a suspicious package are opposite roles.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is 'with suspicion' - the feeling side only - but the note describes the adjective's two-way ambiguity (suspicious person vs suspicious package), a duality this gloss does not carry.",
+    "repair": "The adverb of *suspicious*: distrust shown in the looking - the watcher expects to be deceived."
+   }
+  ],
+  "oewn-00243330-r": [
+   {
+    "id": "speculatively.oewn-00243330-r",
+    "word": "speculatively",
+    "shard": "adverbs-inherited",
+    "definition": "with speculation; in a speculative manner",
+    "tone": "The adverb of *speculative*: curiosity aimed at ideas rather than people, and neutral for it.",
+    "charge": 0,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "The note restricts the word to 'ideas rather than people' while the gloss covers any speculative manner - and the example is a look aimed at a person.",
+    "repair": "The adverb of *speculative*: weighing possibilities without committing - curiosity with no verdict yet."
+   }
+  ],
+  "oewn-00266180-s": [
+   {
+    "id": "lily-livered.oewn-00266180-s",
+    "word": "lily-livered",
+    "shard": "annotated-002",
+    "definition": "easily frightened",
+    "tone": "Old-fashioned scorn from a theory that pale organs meant no courage.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'From a theory that pale organs meant no courage' is an origin story we have no etymological source to check.",
+    "repair": "Dated, theatrical scorn - the pale liver standing in for a missing spine."
+   }
+  ],
+  "oewn-00266631-s": [
+   {
+    "id": "dastardly.oewn-00266631-s",
+    "word": "dastardly",
+    "shard": "annotated-002",
+    "definition": "despicably cowardly",
+    "tone": "Cowardice joined to malice; now often played for comedy.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'now often played for comedy' is a claim about current frequency of use we cannot check.",
+    "repair": "Cowardice joined to malice - the blow struck from safety."
+   }
+  ],
+  "oewn-00266855-s": [
+   {
+    "id": "fainthearted.oewn-00266855-s",
+    "word": "fainthearted",
+    "shard": "annotated-002",
+    "definition": "lacking conviction or boldness or courage",
+    "tone": "Lacking boldness - mild, and often used of a task rather than a person.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Often used of a task rather than a person' is a distribution claim we have no corpus for.",
+    "repair": "Lacking boldness - the mildest word in the family, closer to pity than contempt."
+   },
+   {
+    "id": "timid.oewn-00266855-s",
+    "word": "timid",
+    "shard": "annotated-002",
+    "definition": "lacking conviction or boldness or courage",
+    "tone": "Gentle - shyness rather than failure of nerve, and rarely an accusation.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss defines it as lacking conviction, boldness, or courage, but the note insists it is 'shyness rather than failure of nerve' - the temperament sense - and adds the distribution word 'rarely'.",
+    "repair": "Soft censure - the courage is missing, but the word pities more than it blames."
+   }
+  ],
+  "oewn-00274018-r": [
+   {
+    "id": "sagaciously.oewn-00274018-r",
+    "word": "sagaciously",
+    "shard": "adverbs-inherited",
+    "definition": "in a shrewd manner",
+    "tone": "The adverb of *sagacious*: formal and warm, and often used of judgement under pressure.",
+    "charge": 3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Often used of judgement under pressure' is a frequency claim we cannot check.",
+    "repair": "The adverb of *sagacious*: formal and warm - shrewdness dignified as wisdom."
+   }
+  ],
+  "oewn-00281297-r": [
+   {
+    "id": "bounteously.oewn-00281297-r",
+    "word": "bounteously",
+    "shard": "adverbs-inherited",
+    "definition": "in a bountiful manner",
+    "tone": "The adverb of *bounteous*: biblical in flavour, and hard to use now without irony.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Hard to use now without irony' is a claim about current usage we cannot check.",
+    "repair": "The adverb of *bounteous*: biblical in flavour - generosity on a grand scale."
+   }
+  ],
+  "oewn-00281857-r": [
+   {
+    "id": "bestially.oewn-00281857-r",
+    "word": "bestially",
+    "shard": "adverbs-inherited",
+    "definition": "in the manner of a beast",
+    "tone": "The adverb of *bestial*: denies the person's humanity outright, which is why it is reserved for atrocity.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'Reserved for atrocity' restricts past the gloss 'in the manner of a beast' - the sense's own example is domestic, not an atrocity.",
+    "repair": "The adverb of *bestial*: denies the person's humanity outright."
+   }
+  ],
+  "oewn-00282813-r": [
+   {
+    "id": "cantankerously.oewn-00282813-r",
+    "word": "cantankerously",
+    "shard": "adverbs-inherited",
+    "definition": "in a bad mood",
+    "tone": "The adverb of *cantankerous*: difficult by habit rather than by temper; the contrariness is settled, almost fond.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is 'in a bad mood', but 'difficult by habit rather than by temper... settled' denies the mood and describes the lemma's habitual-disposition sense instead.",
+    "repair": "The adverb of *cantankerous*: bad temper with contrariness in it - the crossness argues back."
+   }
+  ],
+  "oewn-00295240-r": [
+   {
+    "id": "trickily.oewn-00295240-r",
+    "word": "trickily",
+    "shard": "adverbs-inherited",
+    "definition": "in an subtle, cunning manner",
+    "tone": "The adverb of *tricky*: has drifted to describing problems rather than people; of a person it is still a warning.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Has drifted to describing problems rather than people' is a usage-drift claim we have no corpus to check.",
+    "repair": "The adverb of *tricky*: cunning at the small scale - a warning about the method more than a condemnation of the person."
+   }
+  ],
+  "oewn-00295445-s": [
+   {
+    "id": "work-shy.oewn-00295445-s",
+    "word": "work-shy",
+    "shard": "annotated-005",
+    "definition": "disinclined to work or exertion",
+    "tone": "Political and accusing - it belongs to arguments about who deserves support.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'It belongs to arguments about who deserves support' claims where the word is used, and we have no corpus to check it.",
+    "repair": "Accusing - unwillingness to work treated as a character fault, not a circumstance."
+   },
+   {
+    "id": "otiose.oewn-00295445-s",
+    "word": "otiose",
+    "shard": "annotated-005",
+    "definition": "disinclined to work or exertion",
+    "tone": "More often used of arguments than people, where it means pointless rather than idle.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is the idle sense (disinclined to work), but the note describes the pointless-argument sense, and 'more often used of' is a distribution claim on top.",
+    "repair": "Idleness stated with Latinate coolness - disinclination to effort, judged from a height."
+   }
+  ],
+  "oewn-00296101-s": [
+   {
+    "id": "leisured.oewn-00296101-s",
+    "word": "leisured",
+    "shard": "annotated-005",
+    "definition": "free from duties or responsibilities",
+    "tone": "The same idleness, admired - because it is assumed to have been paid for.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'The same idleness' points at a family sibling and does not stand alone under this gloss.",
+    "repair": "Idleness admired - because it is assumed to have been paid for."
+   }
+  ],
+  "oewn-00304748-r": [
+   {
+    "id": "screakily.oewn-00304748-r",
+    "word": "screakily",
+    "shard": "adverbs-inherited",
+    "definition": "in a creaky manner",
+    "tone": "The adverb of *screaky*: the rarer and shriller variant, and it sounds like what it means.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The rarer... variant' is a frequency claim we have no corpus to support.",
+    "repair": "The adverb of *screaky*: shriller than creaky, and it sounds like what it means."
+   },
+   {
+    "id": "creakily.oewn-00304748-r",
+    "word": "creakily",
+    "shard": "adverbs-inherited",
+    "definition": "in a creaky manner",
+    "tone": "The adverb of *creaky*: also used of arguments and institutions, where it means old and barely holding.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Also used of arguments and institutions' is a usage-spread claim we cannot check, reaching past the gloss's manner sense.",
+    "repair": "The adverb of *creaky*: the strain is audible - whatever moves this way is barely holding together."
+   }
+  ],
+  "oewn-00313032-s": [
+   {
+    "id": "passing.oewn-00313032-s",
+    "word": "passing",
+    "shard": "annotated-005",
+    "definition": "hasty and without attention to detail; not thorough",
+    "tone": "Barely a judgement: a passing glance is short, not necessarily careless.",
+    "charge": 0,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss says hasty and without attention to detail, but 'short, not necessarily careless' denies that and describes the neutral brief-or-transient sense instead.",
+    "repair": "The mildest in the family - the inattention is admitted but hardly blamed."
+   }
+  ],
+  "oewn-00315990-r": [
+   {
+    "id": "dishonestly.oewn-00315990-r",
+    "word": "dishonestly",
+    "shard": "adverbs-inherited",
+    "definition": "in a corrupt and deceitful manner",
+    "tone": "The adverb of *dishonest*: the plain word for it, and still an accusation - it names a settled disposition to cheat, not one bad day.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The claim of 'a settled disposition to cheat, not one bad day' belongs to dishonest as a trait of character; this manner adverb condemns single acts, as its own example shows.",
+    "repair": "The adverb of *dishonest*: the plain word for it, and still an accusation - it says the act was corrupt, not merely careless."
+   }
+  ],
+  "oewn-00328482-r": [
+   {
+    "id": "selfishly.oewn-00328482-r",
+    "word": "selfishly",
+    "shard": "adverbs-inherited",
+    "definition": "in an egotistical manner",
+    "tone": "The adverb of *selfish*: the plain moral word, and the one that gets used in real arguments.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The one that gets used in real arguments' is a claim about where and how often the word is used, which we cannot check.",
+    "repair": "The adverb of *selfish*: the plain moral word - a direct accusation, nothing clinical in it."
+   },
+   {
+    "id": "egotistically.oewn-00328482-r",
+    "word": "egotistically",
+    "shard": "adverbs-inherited",
+    "definition": "in an egotistical manner",
+    "tone": "The adverb of *egotistical*: the commoner spelling, and a staple of ordinary complaint.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The commoner spelling' and 'a staple of ordinary complaint' are frequency claims - the exact distribution shape the rubric bans.",
+    "repair": "The adverb of *egotistical*: self-importance acted out - every choice referred back to oneself."
+   }
+  ],
+  "oewn-00349398-r": [
+   {
+    "id": "genteelly.oewn-00349398-r",
+    "word": "genteelly",
+    "shard": "adverbs-inherited",
+    "definition": "in a genteel manner",
+    "tone": "The adverb of *genteel*: faintly pitying since the nineteenth century - shabby-genteel is never far away.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "\"Since the nineteenth century\" is a historical claim about the word's career that we cannot verify.",
+    "repair": "The adverb of *genteel*: refinement kept a shade too carefully - shabby-genteel is never far away."
+   }
+  ],
+  "oewn-00359047-r": [
+   {
+    "id": "richly.oewn-00359047-r",
+    "word": "richly",
+    "shard": "adverbs-inherited",
+    "definition": "in a rich manner",
+    "tone": "The adverb of *rich*: the plain word - direct, and sometimes faintly accusing depending on who says it.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The 'faintly accusing depending on who says it' force belongs to the adjective applied to a person's wealth; the manner adverb glossed 'in a rich manner' carries no such accusation, and the phrase is a speaker claim besides.",
+    "repair": "The adverb of *rich*: abundance in the doing - nothing spared, nothing thin."
+   }
+  ],
+  "oewn-00359085-v": [
+   {
+    "id": "pass.oewn-00359085-v",
+    "word": "pass",
+    "shard": "annotated-003",
+    "definition": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+    "tone": "Shorter and even softer than 'pass away'; common in American speech.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Common in American speech' is a distribution claim about who uses the word and how often.",
+    "repair": "Even shorter and softer than 'pass away' - the gentlest form of the euphemism."
+   }
+  ],
+  "oewn-00359172-r": [
+   {
+    "id": "high-handedly.oewn-00359172-r",
+    "word": "high-handedly",
+    "shard": "adverbs-inherited",
+    "definition": "in a domineering high-handed manner",
+    "tone": "The adverb of *high-handed*: about a single act more often than a character - a decision taken over someone's head.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'About a single act more often than a character' is a distribution claim about the word's typical target, the same shape as 'used mostly of the elderly'.",
+    "repair": "The adverb of *high-handed*: a decision taken over someone's head, with no thought of asking."
+   }
+  ],
+  "oewn-00361234-r": [
+   {
+    "id": "inhumanely.oewn-00361234-r",
+    "word": "inhumanely",
+    "shard": "adverbs-inherited",
+    "definition": "in an inhumane manner",
+    "tone": "The adverb of *inhumane*: the institutional word - it is conditions, treatment and policies that get called inhumane.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "The claim that it is conditions, treatment and policies that get called inhumane restricts the adverb to institutional contexts the gloss does not name.",
+    "repair": "The adverb of *inhumane*: condemns cruelty as a failure of basic humanity - graver and colder than *cruelly*."
+   }
+  ],
+  "oewn-00363972-s": [
+   {
+    "id": "glad.oewn-00363972-s",
+    "word": "glad",
+    "shard": "annotated-006",
+    "definition": "cheerful and bright",
+    "tone": "Older and quieter than *happy*, and it points at a reason.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "'It points at a reason' describes the pleased-about-something sense; this gloss is the attributive 'cheerful and bright' (a glad May morning), and 'older' is a history claim besides.",
+    "repair": "Quieter than *happy* - cheer showing on the surface of things."
+   }
+  ],
+  "oewn-00364111-s": [
+   {
+    "id": "beamish.oewn-00364111-s",
+    "word": "beamish",
+    "shard": "annotated-006",
+    "definition": "smiling with happiness or optimism",
+    "tone": "Kept alive almost entirely by *Jabberwocky*; it sounds invented, because it nearly is.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "Frequency and origin claims (kept alive almost entirely by Jabberwocky, nearly invented) that we have no corpus or source to check.",
+    "repair": "Storybook brightness - the smile is pure, quaint delight."
+   }
+  ],
+  "oewn-00364371-s": [
+   {
+    "id": "blithesome.oewn-00364371-s",
+    "word": "blithesome",
+    "shard": "annotated-006",
+    "definition": "carefree and happy and lighthearted",
+    "tone": "The archaic-sounding form, and used now only when the writer wants that flavour.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'used now only when the writer wants that flavour' is a distribution claim about current use.",
+    "repair": "The archaic-sounding form - it carries a deliberate literary flavour."
+   },
+   {
+    "id": "lightsome.oewn-00364371-s",
+    "word": "lightsome",
+    "shard": "annotated-006",
+    "definition": "carefree and happy and lighthearted",
+    "tone": "Rare, and pulled between light-of-heart and light-of-foot.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Rare' is a frequency claim with no corpus behind it, and 'light-of-foot' leans on the nimble sense this gloss does not cover.",
+    "repair": "Archaic in flavour - happiness carried as lightness."
+   },
+   {
+    "id": "blithe.oewn-00364371-s",
+    "word": "blithe",
+    "shard": "annotated-006",
+    "definition": "carefree and happy and lighthearted",
+    "tone": "Carefree. The same word covers a happy lightness and a failure to take something seriously.",
+    "charge": 0,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "This gloss is only the carefree-happy sense; 'a failure to take something seriously' belongs to blithe's separate heedless sense, and the neutral reading follows from that import.",
+    "repair": "Sunny and unburdened - a lightness of spirit meant kindly."
+   },
+   {
+    "id": "light-hearted.oewn-00364371-s",
+    "word": "light-hearted",
+    "shard": "annotated-006",
+    "definition": "carefree and happy and lighthearted",
+    "tone": "The hyphenated spelling, equally common and equally warm.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Equally common' is a frequency claim about spelling variants that nothing in the pipeline can verify; the spelling fact and the warmth stand on their own.",
+    "repair": "The hyphenated spelling, identical in warmth."
+   }
+  ],
+  "oewn-00393047-r": [
+   {
+    "id": "light-heartedly.oewn-00393047-r",
+    "word": "light-heartedly",
+    "shard": "adverbs-inherited",
+    "definition": "in a light-hearted manner",
+    "tone": "The adverb of *light-hearted*: the hyphenated spelling, equally common and equally warm.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'equally common' is a frequency claim about the spelling variants that we cannot check.",
+    "repair": "The adverb of *light-hearted*: the same easy warmth - trouble set down for a moment."
+   }
+  ],
+  "oewn-00396497-r": [
+   {
+    "id": "benevolently.oewn-00396497-r",
+    "word": "benevolently",
+    "shard": "adverbs-inherited",
+    "definition": "in a benevolent manner",
+    "tone": "The adverb of *benevolent*: formal and settled - a disposition rather than a mood, which is why institutions claim it.",
+    "charge": 3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Which is why institutions claim it' says who uses the word, a speaker claim we cannot check.",
+    "repair": "The adverb of *benevolent*: formal and settled - kindness as a disposition rather than a mood."
+   }
+  ],
+  "oewn-00402381-r": [
+   {
+    "id": "unmercifully.oewn-00402381-r",
+    "word": "unmercifully",
+    "shard": "adverbs-inherited",
+    "definition": "without pity; in a merciless manner",
+    "tone": "The adverb of *unmerciful*: the same judgement in the older negative form, and slightly more formal.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The older negative form' is a diachronic claim about which form came first, unverifiable with no etymological source.",
+    "repair": "The adverb of *unmerciful*: the same judgement as *mercilessly*, and slightly more formal."
+   }
+  ],
+  "oewn-00414618-r": [
+   {
+    "id": "clamorously.oewn-00414618-r",
+    "word": "clamorously",
+    "shard": "adverbs-inherited",
+    "definition": "in manner that attracts attention",
+    "tone": "The adverb of *clamorous*: a crowd word - many voices at once, insisting on something.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "The inherited crowd description (\"many voices at once\") narrows past this gloss, which says only \"in manner that attracts attention\" and does not limit to crowds or even to sound.",
+    "repair": "Noisy insistence - attention demanded rather than invited."
+   }
+  ],
+  "oewn-00420808-a": [
+   {
+    "id": "dirty.oewn-00420808-a",
+    "word": "dirty",
+    "shard": "annotated-006",
+    "definition": "soiled or likely to soil with dirt or grime",
+    "tone": "The plain word, and the one that carries a second, moral life (*a dirty trick*).",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The 'second, moral life (a dirty trick)' belongs to a different sense of the lemma; this gloss is literal soiling.",
+    "repair": "The plain word for soiling - direct, and mildly reproachful."
+   },
+   {
+    "id": "soiled.oewn-00420808-a",
+    "word": "soiled",
+    "shard": "annotated-006",
+    "definition": "soiled or likely to soil with dirt or grime",
+    "tone": "Clinical and euphemistic - the word hospitals and laundries use to avoid *dirty*.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The word hospitals and laundries use' names the speakers, a who-uses-it claim we cannot check.",
+    "repair": "Clinical and euphemistic - a softer word chosen to avoid *dirty*."
+   }
+  ],
+  "oewn-00421806-s": [
+   {
+    "id": "draggled.oewn-00421806-s",
+    "word": "draggled",
+    "shard": "annotated-006",
+    "definition": "limp and soiled as if dragged in the mud",
+    "tone": "The older and rarer half of *bedraggled*, with the same sympathy.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The older and rarer half' makes chronology and frequency claims we cannot check.",
+    "repair": "A form of *bedraggled*, with the same sympathy for whatever got dragged through the mud."
+   }
+  ],
+  "oewn-00421999-s": [
+   {
+    "id": "fouled.oewn-00421999-s",
+    "word": "fouled",
+    "shard": "annotated-006",
+    "definition": "made dirty or foul",
+    "tone": "The plainer form, common in reports about water and air.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Common in reports about water and air' is a frequency claim about usage we cannot check.",
+    "repair": "The plainer form of *befouled* - the same dirtying stated without relish."
+   }
+  ],
+  "oewn-00422169-s": [
+   {
+    "id": "grungy.oewn-00422169-s",
+    "word": "grungy",
+    "shard": "annotated-006",
+    "definition": "thickly covered with ingrained dirt or soot",
+    "tone": "Informal and unimpressed, though a whole music scene wore it as a badge.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "\"A whole music scene wore it as a badge\" is a who-used-it cultural-history claim we cannot check and that leaves the word.",
+    "repair": "Informal and unimpressed - dirt that has been let settle in for good."
+   },
+   {
+    "id": "raunchy.oewn-00422169-s",
+    "word": "raunchy",
+    "shard": "annotated-006",
+    "definition": "thickly covered with ingrained dirt or soot",
+    "tone": "This dirt sense is dated; a modern reader will hear the sexual one first.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "What a modern reader will hear first is a frequency claim about readers that we have no corpus to check.",
+    "repair": "Dated - grime so thick it has worked into the thing itself."
+   },
+   {
+    "id": "begrimed.oewn-00422169-s",
+    "word": "begrimed",
+    "shard": "annotated-006",
+    "definition": "thickly covered with ingrained dirt or soot",
+    "tone": "Dirt from work, and often faintly admiring of the labour that caused it.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "The gloss covers any thickly ingrained dirt or soot, but the note restricts it to dirt from work and adds 'often faintly admiring', a frequency-shaped guess that also fights the negative charge.",
+    "repair": "Heavy, literary dirt - ingrained past any quick washing."
+   }
+  ],
+  "oewn-00422721-s": [
+   {
+    "id": "buggy.oewn-00422721-s",
+    "word": "buggy",
+    "shard": "annotated-006",
+    "definition": "infested with bugs",
+    "tone": "Infested rather than soiled, which most readers find the worse of the two.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Which most readers find the worse of the two' is a claim about readers we cannot check.",
+    "repair": "Disgust with a squirm in it - not merely dirty but inhabited."
+   }
+  ],
+  "oewn-00424530-r": [
+   {
+    "id": "piggishly.oewn-00424530-r",
+    "word": "piggishly",
+    "shard": "adverbs-inherited",
+    "definition": "in a piggish manner",
+    "tone": "The adverb of *piggish*: the same comparison, and the commoner of the two insults.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "\"The commoner of the two insults\" is a frequency claim - exactly the distribution shape the rubric bars.",
+    "repair": "The adverb of *piggish*: the animal comparison carried into the act - greed you can watch."
+   }
+  ],
+  "oewn-00431167-r": [
+   {
+    "id": "preciously.oewn-00431167-r",
+    "word": "preciously",
+    "shard": "adverbs-inherited",
+    "definition": "very",
+    "tone": "The adverb of *precious*: affectation as a whole manner - too studied to be trusted.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is the intensifier 'very', but the note (and the -1 charge) carry precious's affectation sense, which this synset does not cover.",
+    "repair": "drop"
+   }
+  ],
+  "oewn-00441286-r": [
+   {
+    "id": "rapaciously.oewn-00441286-r",
+    "word": "rapaciously",
+    "shard": "adverbs-inherited",
+    "definition": "in a rapacious manner",
+    "tone": "The adverb of *rapacious*: appetite as plunder - it has left the table and taken to taking.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'It has left the table and taken to taking' denies the appetite reading that 'in a rapacious manner' still covers, restricting the sense past the gloss.",
+    "repair": "The adverb of *rapacious*: greed at predatory pitch - taking with appetite."
+   }
+  ],
+  "oewn-00442596-s": [
+   {
+    "id": "dim.oewn-00442596-s",
+    "word": "dim",
+    "shard": "annotated-002",
+    "definition": "slow to learn or understand; lacking intellectual acuity",
+    "tone": "Gently disparaging, common in British use.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'common in British use' is a frequency claim; the bare register label would be fine, the 'common' is not.",
+    "repair": "Gently disparaging; British - slowness treated as a mild failing."
+   },
+   {
+    "id": "dumb.oewn-00442596-s",
+    "word": "dumb",
+    "shard": "annotated-002",
+    "definition": "slow to learn or understand; lacking intellectual acuity",
+    "tone": "Harsh and casual; also an older, now offensive word for mute.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The second clause annotates the older 'mute' sense, not this gloss about lacking intellectual acuity.",
+    "repair": "Harsh and casual - intelligence dismissed in one flat syllable."
+   }
+  ],
+  "oewn-00447656-r": [
+   {
+    "id": "ruthlessly.oewn-00447656-r",
+    "word": "ruthlessly",
+    "shard": "adverbs-inherited",
+    "definition": "in a ruthless manner",
+    "tone": "The adverb of *ruthless*: the everyday word, and the one business writing quietly turns into a compliment.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The everyday word' and 'business writing quietly turns into a compliment' are frequency and speaker claims with no corpus behind them.",
+    "repair": "The adverb of *ruthless*: the pity is absent and its absence is the point - harm proceeding without hesitation."
+   }
+  ],
+  "oewn-00468873-r": [
+   {
+    "id": "chintzily.oewn-00468873-r",
+    "word": "chintzily",
+    "shard": "adverbs-inherited",
+    "definition": "in a stingy manner",
+    "tone": "The adverb of *chintzy*: slides between stingy and shoddy; either way it is a sneer at what was provided.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss binds this sense to stingy, but 'slides between stingy and shoddy' imports chintzy's cheap-goods sense as an alternative reading.",
+    "repair": "The adverb of *chintzy*: a sneer at what was provided - the meanness shows in the goods."
+   }
+  ],
+  "oewn-00487818-r": [
+   {
+    "id": "uncouthly.oewn-00487818-r",
+    "word": "uncouthly",
+    "shard": "adverbs-inherited",
+    "definition": "in an uncouth manner",
+    "tone": "The adverb of *uncouth*: once simply *unknown*; the strangeness curdled into rudeness.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Once simply unknown' is an etymology, and we have no etymological source.",
+    "repair": "The adverb of *uncouth*: rudeness read as not knowing how things are done."
+   }
+  ],
+  "oewn-00495930-r": [
+   {
+    "id": "voraciously.oewn-00495930-r",
+    "word": "voraciously",
+    "shard": "adverbs-inherited",
+    "definition": "in an eagerly voracious manner",
+    "tone": "The adverb of *voracious*: appetite at full stretch - the eating is hard to satisfy.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "The note narrows to literal eating while the gloss covers any eagerly voracious manner and the example is 'she reads voraciously'.",
+    "repair": "The adverb of *voracious*: appetite at full stretch - whatever it consumes is never enough."
+   }
+  ],
+  "oewn-00497146-r": [
+   {
+    "id": "wholeheartedly.oewn-00497146-r",
+    "word": "wholeheartedly",
+    "shard": "adverbs-inherited",
+    "definition": "without reserve; without reservation",
+    "tone": "The adverb of *wholehearted*: the common form, and the one that still gets used in earnest.",
+    "charge": 3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The common form' and 'still gets used in earnest' are frequency and current-usage claims we cannot check.",
+    "repair": "The adverb of *wholehearted*: assent with nothing held back."
+   }
+  ],
+  "oewn-00502424-r": [
+   {
+    "id": "grungily.oewn-00502424-r",
+    "word": "grungily",
+    "shard": "adverbs-inherited",
+    "definition": "in a dingy manner",
+    "tone": "The adverb of *grungy*: informal and unimpressed, though a whole music scene wore it as a badge.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'A whole music scene wore it as a badge' is an external cultural claim about speakers and history, not about what the word does in this gloss.",
+    "repair": "The adverb of *grungy*: informal and unimpressed - dinginess with an air of neglect."
+   }
+  ],
+  "oewn-00505761-r": [
+   {
+    "id": "dandily.oewn-00505761-r",
+    "word": "dandily",
+    "shard": "adverbs-inherited",
+    "definition": "in a dandy manner",
+    "tone": "The adverb of *dandy*: old-fashioned cheer - now often used ironically.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "Inherits dandy's 'now often used ironically', a frequency-over-time claim we cannot check.",
+    "repair": "The adverb of *dandy*: old-fashioned cheer with a quaint, breezy ring."
+   }
+  ],
+  "oewn-00591490-a": [
+   {
+    "id": "content.oewn-00591490-a",
+    "word": "content",
+    "shard": "annotated-007",
+    "definition": "satisfied or showing satisfaction with things as they are",
+    "tone": "The plainest form, and often used of accepting less than one wanted.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Often used of accepting less than one wanted' is a frequency claim we have no corpus to support.",
+    "repair": "The plainest form, and it can shade toward settling - satisfied because one has stopped asking."
+   }
+  ],
+  "oewn-00644482-s": [
+   {
+    "id": "nice.oewn-00644482-s",
+    "word": "nice",
+    "shard": "annotated-005",
+    "definition": "exhibiting courtesy and politeness",
+    "tone": "Weak from overuse; it now praises so mildly that it can read as faint disappointment.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Weak from overuse' and 'it now praises' are frequency-and-history claims we have no corpus to support.",
+    "repair": "Praise so mild it can read as faint disappointment."
+   }
+  ],
+  "oewn-00668084-s": [
+   {
+    "id": "speculative.oewn-00668084-s",
+    "word": "speculative",
+    "shard": "annotated-008",
+    "definition": "showing curiosity",
+    "tone": "Curiosity aimed at ideas rather than people, and neutral for it.",
+    "charge": 0,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "Restricts the curiosity to ideas rather than people, which the gloss never says and the 'speculative eyebrow' example contradicts.",
+    "repair": "Curiosity held at a distance - it wonders and weighs rather than asks."
+   }
+  ],
+  "oewn-00668361-s": [
+   {
+    "id": "nosey.oewn-00668361-s",
+    "word": "nosey",
+    "shard": "annotated-008",
+    "definition": "offensively curious or inquisitive",
+    "tone": "The alternative spelling, equally common.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Equally common' is a frequency claim we cannot verify; the spelling fact alone would stand.",
+    "repair": "The same accusation as *nosy* - curiosity that has crossed into prying."
+   }
+  ],
+  "oewn-00791150-s": [
+   {
+    "id": "magisterial.oewn-00791150-s",
+    "word": "magisterial",
+    "shard": "annotated-007",
+    "definition": "offensively self-assured or given to exercising usually unwarranted power",
+    "tone": "Splits cleanly: a magisterial book is authoritative, a magisterial manner is unbearable.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "Half the note ('a magisterial book is authoritative') describes the approving authoritative sense, a different synset from this offensively-self-assured gloss.",
+    "repair": "Authority assumed rather than earned - the offence is in the presumption."
+   },
+   {
+    "id": "dominating.oewn-00791150-s",
+    "word": "dominating",
+    "shard": "annotated-007",
+    "definition": "offensively self-assured or given to exercising usually unwarranted power",
+    "tone": "Neutral in sport and unpleasant in a room; the context carries the charge.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "'Neutral in sport' belongs to a different sense of dominate; this gloss is 'offensively self-assured', which is never neutral.",
+    "repair": "Faults the manner more than the strength - self-assurance exercised as power nobody granted."
+   }
+  ],
+  "oewn-00791587-s": [
+   {
+    "id": "bullying.oewn-00791587-s",
+    "word": "bullying",
+    "shard": "annotated-007",
+    "definition": "noisily domineering; tending to browbeat others",
+    "tone": "The one word here that names harm rather than manner.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'The one word here' references the sample the note was written in, not the word itself.",
+    "repair": "Names harm rather than manner - the browbeating of others is the point."
+   }
+  ],
+  "oewn-00798965-v": [
+   {
+    "id": "puff.oewn-00798965-v",
+    "word": "puff",
+    "shard": "annotated-005",
+    "definition": "speak in a blustering or scornful manner",
+    "tone": "Inflation rather than pride: the thing is made to seem larger than it is.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The note describes the promotional inflate-the-thing sense of puff; this gloss is about speaking in a blustering, scornful manner.",
+    "repair": "Bluster as sound - the speech is loud air, scorn without substance."
+   }
+  ],
+  "oewn-00825727-v": [
+   {
+    "id": "reproof.oewn-00825727-v",
+    "word": "reproof",
+    "shard": "annotated-005",
+    "definition": "take to task",
+    "tone": "The rarer verb beside the common noun; the same quiet correction.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The rarer verb beside the common noun' is a frequency comparison we cannot check.",
+    "repair": "The same quiet correction as the noun - the fault is named without heat."
+   }
+  ],
+  "oewn-00829262-v": [
+   {
+    "id": "troll.oewn-00829262-v",
+    "word": "troll",
+    "shard": "annotated-005",
+    "definition": "praise or celebrate in song",
+    "tone": "An old sense - to sing something in a full round voice; the modern internet sense is unrelated.",
+    "charge": 0,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "Whether the internet sense is 'unrelated' is a lineage claim we cannot check, and it drags another sense into the note.",
+    "repair": "Archaic and hearty - praise sung out in a full round voice."
+   }
+  ],
+  "oewn-00853459-s": [
+   {
+    "id": "deluxe.oewn-00853459-s",
+    "word": "deluxe",
+    "shard": "annotated-007",
+    "definition": "elegant and sumptuous",
+    "tone": "A marketing word before it was a compliment, and it still sounds like packaging.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'A marketing word before it was a compliment' is an origin story we have no source for.",
+    "repair": "A marketing word more than a compliment - it still sounds like packaging."
+   },
+   {
+    "id": "luxe.oewn-00853459-s",
+    "word": "luxe",
+    "shard": "annotated-007",
+    "definition": "elegant and sumptuous",
+    "tone": "Clipped and fashion-trade; it names a look rather than a quality.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "other",
+    "why": "The note itself passes both rules, but the example 'a deluxe car' illustrates the lemma deluxe, not luxe, so it does not fit this sense of the word.",
+    "repair": "Clipped and fashion-trade; it names a look rather than a quality."
+   },
+   {
+    "id": "de_luxe.oewn-00853459-s",
+    "word": "de luxe",
+    "shard": "annotated-007",
+    "definition": "elegant and sumptuous",
+    "tone": "The spaced spelling, older and slightly more formal.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "Calling the spaced spelling 'older' is a diachronic claim we have no source to check.",
+    "repair": "The spaced spelling, slightly more formal than *deluxe*."
+   }
+  ],
+  "oewn-00853589-s": [
+   {
+    "id": "fine.oewn-00853589-s",
+    "word": "fine",
+    "shard": "annotated-007",
+    "definition": "characterized by elegance or refinement or accomplishment",
+    "tone": "Enormously overworked elsewhere, but in this sense it is genuine praise.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Enormously overworked elsewhere' is a claim about how often the word is used, which we cannot check.",
+    "repair": "In this sense, genuine praise - refinement noticed and credited."
+   }
+  ],
+  "oewn-00853840-s": [
+   {
+    "id": "high-toned.oewn-00853840-s",
+    "word": "high-toned",
+    "shard": "annotated-007",
+    "definition": "pretentiously elegant",
+    "tone": "The same claim with more disapproval attached.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'The same claim' has no referent inside this entry - it leans on the neighbouring entry's position on the page rather than naming the neighbour.",
+    "repair": "Sneers at the elegance as put on - the height is affectation."
+   }
+  ],
+  "oewn-00854162-s": [
+   {
+    "id": "soignee.oewn-00854162-s",
+    "word": "soignee",
+    "shard": "annotated-007",
+    "definition": "polished and well-groomed; showing sophisticated elegance",
+    "tone": "The feminine French form, and the commoner spelling in English.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The commoner spelling in English' is a frequency claim we cannot check, and the note says nothing about the word's tone at all.",
+    "repair": "Admiring: polish so complete the effort disappears."
+   }
+  ],
+  "oewn-00862284-v": [
+   {
+    "id": "glorify.oewn-00862284-v",
+    "word": "glorify",
+    "shard": "annotated-005",
+    "definition": "praise, glorify, or honor",
+    "tone": "Turns critical the moment the object does not deserve it - glorifies violence is the usual company it keeps.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The usual company it keeps' is a distribution claim about collocation we cannot check.",
+    "repair": "Praise raised toward worship - and it turns accusatory the moment the object does not deserve it."
+   }
+  ],
+  "oewn-00884747-v": [
+   {
+    "id": "gasconade.oewn-00884747-v",
+    "word": "gasconade",
+    "shard": "annotated-005",
+    "definition": "show off",
+    "tone": "From Gascony, whose people were reputed braggarts - a learned word for a common fault.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'From Gascony, whose people were reputed braggarts' is exactly the banned origin-story shape - provenance we cannot check.",
+    "repair": "A learned, ornamental word for showing off - the vocabulary preening along with the speaker."
+   }
+  ],
+  "oewn-00909100-v": [
+   {
+    "id": "kvetch.oewn-00909100-v",
+    "word": "kvetch",
+    "shard": "annotated-005",
+    "definition": "express complaints, discontent, displeasure, or unhappiness",
+    "tone": "From Yiddish, and affectionate as often as not - the complaining is a known habit.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'From Yiddish' is an origin story and 'as often as not' a frequency claim, neither of which we can check.",
+    "repair": "Exasperated but half-affectionate - complaining treated as a known habit."
+   },
+   {
+    "id": "plain.oewn-00909100-v",
+    "word": "plain",
+    "shard": "annotated-005",
+    "definition": "express complaints, discontent, displeasure, or unhappiness",
+    "tone": "An old sense surviving mainly in plaintive and plaintiff; to complain formally.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Surviving mainly in plaintive and plaintiff' is a distribution-and-origin claim about other words; the example also uses 'complains', not the lemma.",
+    "repair": "Archaic - the bare, unadorned verb for voicing discontent."
+   },
+   {
+    "id": "quetch.oewn-00909100-v",
+    "word": "quetch",
+    "shard": "annotated-005",
+    "definition": "express complaints, discontent, displeasure, or unhappiness",
+    "tone": "The older English spelling of kvetch, now rare.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "The note is an origin-and-frequency claim (a spelling history of kvetch, 'now rare') with no description of the word's force; the dated label already records the datedness.",
+    "repair": "A grumbling word - the complaint voiced as habitual discontent."
+   }
+  ],
+  "oewn-00965214-s": [
+   {
+    "id": "hardcore.oewn-00965214-s",
+    "word": "hardcore",
+    "shard": "annotated-006",
+    "definition": "intensely loyal",
+    "tone": "The unhyphenated spelling, commoner now than the hyphen.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Commoner now than the hyphen' is a spelling-frequency claim we cannot check, and the note says nothing about the word's force.",
+    "repair": "Loyalty at full strength - nothing held back and no way out."
+   }
+  ],
+  "oewn-00965324-s": [
+   {
+    "id": "leal.oewn-00965324-s",
+    "word": "leal",
+    "shard": "annotated-006",
+    "definition": "faithful and true",
+    "tone": "Scottish and archaic, kept alive by *the land o' the leal*.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Kept alive by *the land o' the leal*' is a claim about the word's survival in use that we cannot check.",
+    "repair": "Scottish and archaic - faithfulness with the ring of an old oath."
+   }
+  ],
+  "oewn-00965665-s": [
+   {
+    "id": "true-blue.oewn-00965665-s",
+    "word": "true-blue",
+    "shard": "annotated-006",
+    "definition": "marked by unswerving loyalty",
+    "tone": "Loyalty proved over time, and in Britain it also means Conservative.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "\"In Britain it also means Conservative\" describes the lemma's political sense, not this gloss's unswerving-loyalty sense.",
+    "repair": "Loyalty proved and unswerving - steadfastness as identity."
+   }
+  ],
+  "oewn-00989218-a": [
+   {
+    "id": "fat.oewn-00989218-a",
+    "word": "fat",
+    "shard": "annotated-001",
+    "definition": "having an (over)abundance of flesh",
+    "tone": "The plain word, and a loaded one: neutral of a cut of meat, personal and often wounding of a person.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "other",
+    "why": "The note is sound, but the second example, 'a fat volume of poetry', belongs to the thickness/fullness sense, not this flesh gloss - example-sense mismatch.",
+    "repair": "The plain word, and a loaded one: neutral of a cut of meat, personal and often wounding of a person."
+   }
+  ],
+  "oewn-00989957-s": [
+   {
+    "id": "chubby.oewn-00989957-s",
+    "word": "chubby",
+    "shard": "annotated-001",
+    "definition": "sufficiently fat so as to have a pleasing fullness of figure",
+    "tone": "Mild and often affectionate, especially of children - the least loaded word here.",
+    "charge": 0,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'The least loaded word here' measures against the sample, and 'often ... especially of children' adds frequency claims we cannot check.",
+    "repair": "Mild and affectionate - fullness framed as pleasing rather than faulted."
+   }
+  ],
+  "oewn-01078866-s": [
+   {
+    "id": "cordial.oewn-01078866-s",
+    "word": "cordial",
+    "shard": "annotated-004",
+    "definition": "diffusing warmth and friendliness",
+    "tone": "Warm in form rather than in feeling - a cordial greeting can be perfectly correct and quite cold.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss says diffusing warmth and friendliness, but the note describes the other, politely-formal sense where the warmth can be absent ('perfectly correct and quite cold').",
+    "repair": "Warmth actively given off - genial, easy friendliness that puts people at ease."
+   },
+   {
+    "id": "affable.oewn-01078866-s",
+    "word": "affable",
+    "shard": "annotated-004",
+    "definition": "diffusing warmth and friendliness",
+    "tone": "Praises ease of manner in someone who need not have bothered - it fits people with standing.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'it fits people with standing' restricts the word to high-status subjects, narrowing past a gloss that covers anyone diffusing warmth.",
+    "repair": "Easy, unforced warmth of manner - friendliness that costs its owner nothing."
+   }
+  ],
+  "oewn-01079430-s": [
+   {
+    "id": "companionate.oewn-01079430-s",
+    "word": "companionate",
+    "shard": "annotated-004",
+    "definition": "like a companion",
+    "tone": "Technical and cool; used of marriages and arrangements rather than of feelings.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'Used of marriages and arrangements rather than of feelings' narrows past the gloss and is contradicted by the 'companionate dog' example.",
+    "repair": "Technical and cool - it describes the fit, not the affection."
+   }
+  ],
+  "oewn-01079552-s": [
+   {
+    "id": "comradely.oewn-01079552-s",
+    "word": "comradely",
+    "shard": "annotated-004",
+    "definition": "heartily friendly and congenial",
+    "tone": "Carries political history: warmth between equals in a shared cause, and a faint whiff of the cause itself.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Carries political history' and 'a faint whiff of the cause itself' are an origin story we cannot check without an etymological source.",
+    "repair": "Hearty warmth between equals - friendliness declared out loud rather than implied."
+   },
+   {
+    "id": "hail-fellow.oewn-01079552-s",
+    "word": "hail-fellow",
+    "shard": "annotated-004",
+    "definition": "heartily friendly and congenial",
+    "tone": "Archaic on its own; nearly always heard in the longer form.",
+    "charge": 0,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Nearly always heard in the longer form' is a frequency claim, and the note says nothing about the sense's force.",
+    "repair": "Heartiness offered to everyone alike - friendliness worn as a manner."
+   }
+  ],
+  "oewn-01079712-s": [
+   {
+    "id": "couthy.oewn-01079712-s",
+    "word": "couthy",
+    "shard": "annotated-004",
+    "definition": "(chiefly Scottish) agreeable and genial",
+    "tone": "The commoner spelling of couthie, with the same Scots warmth.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The commoner spelling' is a frequency claim we cannot check.",
+    "repair": "A spelling of *couthie*, with the same Scots warmth."
+   }
+  ],
+  "oewn-01079833-s": [
+   {
+    "id": "cozy.oewn-01079833-s",
+    "word": "cozy",
+    "shard": "annotated-004",
+    "definition": "having or fostering a warm or friendly and informal atmosphere",
+    "tone": "Of an atmosphere rather than a person - and it turns critical the moment it takes an object: cozy with the regulators.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The tail ('turns critical the moment it takes an object: cozy with the regulators') describes the collusive sense, not this warm-atmosphere gloss.",
+    "repair": "Of an atmosphere rather than a person - warmth kept at a small and informal scale."
+   }
+  ],
+  "oewn-01115129-s": [
+   {
+    "id": "bighearted.oewn-01115129-s",
+    "word": "bighearted",
+    "shard": "annotated-005",
+    "definition": "given or giving freely",
+    "tone": "Unfashionable and entirely sincere; it praises the person, not the sum.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Unfashionable' asserts the word's current currency, a distribution claim we have no corpus to verify.",
+    "repair": "Entirely sincere - it praises the person, not the sum."
+   },
+   {
+    "id": "liberal.oewn-01115129-s",
+    "word": "liberal",
+    "shard": "annotated-005",
+    "definition": "given or giving freely",
+    "tone": "Of portions and allowances, not politics - though the political sense now shadows every use.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The political sense now shadows every use' is a diachronic claim about usage we cannot check.",
+    "repair": "Of portions and allowances, not politics - abundance framed as generosity."
+   },
+   {
+    "id": "giving.oewn-01115129-s",
+    "word": "giving",
+    "shard": "annotated-005",
+    "definition": "given or giving freely",
+    "tone": "Modern and slightly therapeutic; it names a personality type.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Modern' dates the usage, a claim about when and how the word is now used that we cannot check.",
+    "repair": "Slightly therapeutic in register; it names a personality type rather than an act."
+   }
+  ],
+  "oewn-01116711-s": [
+   {
+    "id": "mean.oewn-01116711-s",
+    "word": "mean",
+    "shard": "annotated-006",
+    "definition": "(used of sums of money) so small in amount as to deserve contempt",
+    "tone": "In British use this is the standard word for stingy; American readers hear *cruel* instead.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss covers contemptibly small sums, but the note describes the stingy-person sense (and 'cruel' besides), on top of unverifiable British/American hearing claims.",
+    "repair": "Of the amount, not the giver - a sum small enough to read as an insult."
+   }
+  ],
+  "oewn-01116856-s": [
+   {
+    "id": "chintzy.oewn-01116856-s",
+    "word": "chintzy",
+    "shard": "annotated-006",
+    "definition": "embarrassingly stingy",
+    "tone": "Slides between stingy and shoddy; either way it is a sneer at what was provided.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "'Slides between stingy and shoddy' annotates the lemma across two senses, while this gloss fixes the stingy one.",
+    "repair": "Stinginess with the embarrassment built in - the cheapness shows."
+   },
+   {
+    "id": "cheap.oewn-01116856-s",
+    "word": "cheap",
+    "shard": "annotated-006",
+    "definition": "embarrassingly stingy",
+    "tone": "The gloss is *embarrassingly stingy* - the shame is the point, and it is public.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'The gloss is *embarrassingly stingy*' talks about the entry's apparatus instead of the word - annotation language leaking into the note.",
+    "repair": "Stinginess as a public embarrassment - the shame is the point."
+   }
+  ],
+  "oewn-01116967-s": [
+   {
+    "id": "near.oewn-01116967-s",
+    "word": "near",
+    "shard": "annotated-006",
+    "definition": "giving or spending with reluctance",
+    "tone": "The same euphemism, now dated and chiefly British.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'The same euphemism' points at a sibling entry and says nothing on its own.",
+    "repair": "A euphemism - stinginess softened into mere 'closeness' with money."
+   },
+   {
+    "id": "skinny.oewn-01116967-s",
+    "word": "skinny",
+    "shard": "annotated-006",
+    "definition": "giving or spending with reluctance",
+    "tone": "This sense is rare and easily missed - a reader will hear the body word first.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'This sense is rare and easily missed' is a frequency claim, and 'a reader will hear the body word first' is a guess about readers rather than a fact about the word.",
+    "repair": "Stinginess as thinness - giving kept as lean as the frame."
+   }
+  ],
+  "oewn-01117247-s": [
+   {
+    "id": "closefisted.oewn-01117247-s",
+    "word": "closefisted",
+    "shard": "annotated-006",
+    "definition": "unwilling to part with money",
+    "tone": "The hand that will not open; the oldest image in the family.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'the oldest image in the family' is a historical ranking of the words that we have no etymological source to check.",
+    "repair": "The hand that will not open - refusal made physical."
+   },
+   {
+    "id": "hardfisted.oewn-01117247-s",
+    "word": "hardfisted",
+    "shard": "annotated-006",
+    "definition": "unwilling to part with money",
+    "tone": "Harder than *closefisted* by a shade, and rarer.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'And rarer' is a frequency claim we have no corpus to check.",
+    "repair": "Harder than *closefisted* by a shade - the fist has closed tighter."
+   }
+  ],
+  "oewn-01119091-a": [
+   {
+    "id": "echt.oewn-01119091-a",
+    "word": "echt",
+    "shard": "annotated-004",
+    "definition": "not fake or counterfeit",
+    "tone": "Borrowed from German by critics; it praises the real thing while advertising the speaker's taste.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Borrowed from German by critics' is an origin story and a claim about who uses the word.",
+    "repair": "Literary - it praises the real thing while advertising the speaker's taste."
+   }
+  ],
+  "oewn-01119377-s": [
+   {
+    "id": "authentic.oewn-01119377-s",
+    "word": "authentic",
+    "shard": "annotated-004",
+    "definition": "not counterfeit or copied",
+    "tone": "Carries the weight of proof - used where provenance has actually been checked.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'used where provenance has actually been checked' restricts the word to verified cases, narrower than the gloss's plain 'not counterfeit or copied'.",
+    "repair": "Carries the weight of proof - the genuine article, not the imitation."
+   },
+   {
+    "id": "veritable.oewn-01119377-s",
+    "word": "veritable",
+    "shard": "annotated-004",
+    "definition": "not counterfeit or copied",
+    "tone": "Emphasis rather than proof - a veritable feast is not being authenticated.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is 'not counterfeit or copied' (a veritable bull ring), but the note describes the pure-intensifier sense and denies the authentication the gloss asserts.",
+    "repair": "Formal certification that the thing is the real article - stiffer than *genuine*."
+   }
+  ],
+  "oewn-01127641-s": [
+   {
+    "id": "dandy.oewn-01127641-s",
+    "word": "dandy",
+    "shard": "annotated-002",
+    "definition": "excellent",
+    "tone": "Old-fashioned cheer - now often used ironically.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'now often used ironically' is a frequency-over-time claim we cannot check.",
+    "repair": "Old-fashioned cheer - approval with a quaint, breezy ring."
+   }
+  ],
+  "oewn-01128566-s": [
+   {
+    "id": "acceptable.oewn-01128566-s",
+    "word": "acceptable",
+    "shard": "annotated-002",
+    "definition": "meeting requirements",
+    "tone": "Clears the bar and no more; in speech it often signals mild disappointment.",
+    "charge": 0,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'In speech it often signals' is a frequency claim we cannot check; the faint-praise force can be stated without it.",
+    "repair": "Clears the bar and no more - praise so measured it can read as disappointment."
+   }
+  ],
+  "oewn-01130122-s": [
+   {
+    "id": "atrocious.oewn-01130122-s",
+    "word": "atrocious",
+    "shard": "annotated-002",
+    "definition": "exceptionally bad or displeasing",
+    "tone": "Severe and formal - originally of cruelty, now also of quality.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Originally of cruelty, now also of quality' is an origin story plus a distribution claim, both unverifiable.",
+    "repair": "Severe and formal - badness spoken of as if it were an outrage."
+   },
+   {
+    "id": "awful.oewn-01130122-s",
+    "word": "awful",
+    "shard": "annotated-002",
+    "definition": "exceptionally bad or displeasing",
+    "tone": "Strong condemnation, common enough to have lost some of its force.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Common enough to have lost some of its force' is a frequency-and-drift claim we cannot check.",
+    "repair": "Strong, sweeping condemnation - emphasis rather than description."
+   }
+  ],
+  "oewn-01130672-s": [
+   {
+    "id": "deplorable.oewn-01130672-s",
+    "word": "deplorable",
+    "shard": "annotated-002",
+    "definition": "bad; unfortunate",
+    "tone": "Formal censure, expecting the reader to share the judgement.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "'Bad; unfortunate' is the lamentable sense (a deplorable state of finances); 'formal censure' describes deplorable's separate reprehensible-conduct sense.",
+    "repair": "Formal sorrow at a state of things - lamented rather than blamed."
+   }
+  ],
+  "oewn-01138769-s": [
+   {
+    "id": "atrabilious.oewn-01138769-s",
+    "word": "atrabilious",
+    "shard": "annotated-008",
+    "definition": "irritable as if suffering from indigestion",
+    "tone": "Black bile, straight from the four humours; unusable now without irony.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Black bile, straight from the four humours' is an origin story.",
+    "repair": "Archaic and ornate - irritability dressed as a bodily ailment, hard to say with a straight face."
+   },
+   {
+    "id": "bilious.oewn-01138769-s",
+    "word": "bilious",
+    "shard": "annotated-008",
+    "definition": "irritable as if suffering from indigestion",
+    "tone": "The same medicine, still current, and it makes the temper sound like a symptom.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'The same medicine' points at a neighbouring note the reader cannot see, and 'still current' is a currency claim we cannot check.",
+    "repair": "Makes the temper sound like a symptom - irritability explained by the gut, and slightly mocked for it."
+   }
+  ],
+  "oewn-01138920-s": [
+   {
+    "id": "splenetic.oewn-01138920-s",
+    "word": "splenetic",
+    "shard": "annotated-008",
+    "definition": "very irritable",
+    "tone": "Another organ, another temper, and the most literary of the set.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Another organ, another temper' is a compressed origin story about the spleen, and it leans on a humours account we cannot source.",
+    "repair": "The most literary word for a bad temper - irritability dressed for print."
+   },
+   {
+    "id": "prickly.oewn-01138920-s",
+    "word": "prickly",
+    "shard": "annotated-008",
+    "definition": "very irritable",
+    "tone": "Touchy about a particular subject rather than in general.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "The gloss says very irritable in general; the note restricts it to touchiness on a particular subject, narrowing past the gloss.",
+    "repair": "Quick to bristle - the spines are in the metaphor, and handling is at your own risk."
+   }
+  ],
+  "oewn-01139173-s": [
+   {
+    "id": "ornery.oewn-01139173-s",
+    "word": "ornery",
+    "shard": "annotated-008",
+    "definition": "having a difficult and contrary disposition",
+    "tone": "American and fond as often as not; an ornery mule is being described, not blamed.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Fond as often as not' is a frequency claim we cannot check.",
+    "repair": "American, and it can be said with affection - an ornery mule is being described, not blamed."
+   }
+  ],
+  "oewn-01139414-s": [
+   {
+    "id": "choleric.oewn-01139414-s",
+    "word": "choleric",
+    "shard": "annotated-008",
+    "definition": "quickly aroused to anger",
+    "tone": "The fourth humour. Anger arrives fast and is presented as constitutional.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The fourth humour' is an origin story from humoral theory - provenance we cannot source.",
+    "repair": "Anger that arrives fast and is presented as constitutional - temper as temperament."
+   },
+   {
+    "id": "hot-tempered.oewn-01139414-s",
+    "word": "hot-tempered",
+    "shard": "annotated-008",
+    "definition": "quickly aroused to anger",
+    "tone": "The plain compound, and the one most likely to be said out loud.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The one most likely to be said out loud' is a frequency-of-use guess we have no corpus to check.",
+    "repair": "The plain compound - anger as heat, immediate and undisguised."
+   }
+  ],
+  "oewn-01150423-s": [
+   {
+    "id": "glad.oewn-01150423-s",
+    "word": "glad",
+    "shard": "annotated-008",
+    "definition": "feeling happy appreciation",
+    "tone": "The weakest claim here, and the one most easily said out of politeness.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'The weakest claim here' compares the word against the rest of the sample, leaving the word.",
+    "repair": "Mild - pleasure light enough to be said out of mere politeness."
+   }
+  ],
+  "oewn-01265721-a": [
+   {
+    "id": "inhumane.oewn-01265721-a",
+    "word": "inhumane",
+    "shard": "annotated-006",
+    "definition": "lacking and reflecting lack of pity or compassion",
+    "tone": "The institutional word - it is conditions, treatment and policies that get called inhumane.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'It is conditions, treatment and policies that get called inhumane' restricts past the gloss, and the 'humans are innately inhumane' example applies it to persons.",
+    "repair": "Condemnation in an official voice - cruelty assessed rather than felt."
+   }
+  ],
+  "oewn-01266123-s": [
+   {
+    "id": "savage.oewn-01266123-s",
+    "word": "savage",
+    "shard": "annotated-006",
+    "definition": "(of persons or their actions) able or disposed to inflict pain or suffering",
+    "tone": "Carries a colonial history of describing whole peoples; strongest when kept for acts.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Carries a colonial history' is an origin story we have no source for, and 'strongest when kept for acts' is usage advice rather than description.",
+    "repair": "Brutality at full pitch - cruelty with restraint stripped away."
+   }
+  ],
+  "oewn-01303135-s": [
+   {
+    "id": "austere.oewn-01303135-s",
+    "word": "austere",
+    "shard": "annotated-008",
+    "definition": "of a stern or strict bearing or demeanor; forbidding in aspect",
+    "tone": "Bare rather than harsh, and in architecture and prose it is often praise.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is a stern, forbidding demeanor, but 'bare rather than harsh' and the architecture-and-prose praise describe the plain-and-unadorned sense.",
+    "repair": "Stern without malice - a coldness of bearing rather than of intent."
+   }
+  ],
+  "oewn-01375700-s": [
+   {
+    "id": "benign.oewn-01375700-s",
+    "word": "benign",
+    "shard": "annotated-006",
+    "definition": "kindness of disposition or manner",
+    "tone": "Weakened by medicine, where a benign growth is merely not malignant.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is kindness of disposition, but the note describes the medical not-malignant sense and a history of weakening we cannot check.",
+    "repair": "Mild kindness - gentler in force than *benevolent*, warmth without much heat."
+   }
+  ],
+  "oewn-01511081-a": [
+   {
+    "id": "unmerciful.oewn-01511081-a",
+    "word": "unmerciful",
+    "shard": "annotated-007",
+    "definition": "having or showing no mercy",
+    "tone": "The same judgement in the older negative form, and slightly more formal.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The older negative form' is a chronology claim we cannot check.",
+    "repair": "The same judgement in the negative form - mercy named only as the thing withheld - and slightly more formal."
+   }
+  ],
+  "oewn-01511487-s": [
+   {
+    "id": "bowelless.oewn-01511487-s",
+    "word": "bowelless",
+    "shard": "annotated-007",
+    "definition": "ruthless in competition",
+    "tone": "The bowels were once the seat of pity; without that, the word is opaque.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The bowels were once the seat of pity' is an origin story, and the note describes the etymology rather than the word's force.",
+    "repair": "Pitiless - ruthlessness with no mercy left in it."
+   },
+   {
+    "id": "cutthroat.oewn-01511487-s",
+    "word": "cutthroat",
+    "shard": "annotated-007",
+    "definition": "ruthless in competition",
+    "tone": "Lives in business now, where it is half a boast about the market.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Lives in business now' is a now-mostly distribution claim we have no corpus for.",
+    "repair": "Ruthlessness named as a killer's - condemnation with half a boast inside it."
+   },
+   {
+    "id": "fierce.oewn-01511487-s",
+    "word": "fierce",
+    "shard": "annotated-007",
+    "definition": "ruthless in competition",
+    "tone": "Often admiring - fierce loyalty and fierce defence are praise.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is 'ruthless in competition', but the note's evidence - fierce loyalty, fierce defence - belongs to the intense-in-degree sense, and 'often admiring' is a frequency guess besides.",
+    "repair": "No quarter given - ruthlessness the word does not soften."
+   }
+  ],
+  "oewn-01511765-s": [
+   {
+    "id": "ruthless.oewn-01511765-s",
+    "word": "ruthless",
+    "shard": "annotated-007",
+    "definition": "without mercy or pity",
+    "tone": "The everyday word, and the one business writing quietly turns into a compliment.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The one business writing quietly turns into a compliment' names who uses the word - a corpus claim we cannot check.",
+    "repair": "The everyday word - it makes the absence of pity a settled character, not a lapse."
+   }
+  ],
+  "oewn-01740633-s": [
+   {
+    "id": "enduring.oewn-01740633-s",
+    "word": "enduring",
+    "shard": "annotated-007",
+    "definition": "patiently bearing continual wrongs or trouble",
+    "tone": "Ambiguous, since the commoner sense is *lasting* rather than *bearing*.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The commoner sense is *lasting*' is a frequency claim about senses we cannot check.",
+    "repair": "Praise for the bearing - the wrongs are continual and the patience holds."
+   }
+  ],
+  "oewn-01741132-s": [
+   {
+    "id": "tolerant.oewn-01741132-s",
+    "word": "tolerant",
+    "shard": "annotated-007",
+    "definition": "showing the capacity for endurance",
+    "tone": "Has moved into politics, where it is about difference rather than difficulty.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is about endurance of hardship, and the note points away from it to the political tolerance-of-difference sense, even conceding this gloss's 'difficulty' as what the word left behind.",
+    "repair": "Endurance credited as a virtue - hardship borne without complaint."
+   }
+  ],
+  "oewn-01899020-a": [
+   {
+    "id": "humble.oewn-01899020-a",
+    "word": "humble",
+    "shard": "annotated-006",
+    "definition": "marked by meekness or modesty; not arrogant or prideful",
+    "tone": "Praise when chosen, plain description when not - *humble origins* passes no judgement.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "'Humble origins' belongs to the low-in-station sense of humble, not this gloss's meekness and modesty of character.",
+    "repair": "Praise for modesty worn willingly - the opposite of arrogance, and credited for it."
+   }
+  ],
+  "oewn-01899370-s": [
+   {
+    "id": "humbled.oewn-01899370-s",
+    "word": "humbled",
+    "shard": "annotated-006",
+    "definition": "subdued or brought low in condition or status",
+    "tone": "Ambiguous by design. It can mean genuinely moved, or beaten and admitting it.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is only the brought-low sense, but 'it can mean genuinely moved' describes the gratified I-am-humbled sense, which this synset does not cover.",
+    "repair": "Brought down and knowing it - the word reports the defeat and expects it to be admitted."
+   },
+   {
+    "id": "low.oewn-01899370-s",
+    "word": "low",
+    "shard": "annotated-006",
+    "definition": "subdued or brought low in condition or status",
+    "tone": "Status, not disposition; the older sense that *humble origins* still carries.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The older sense' and 'still carries' are historical-currency claims with no etymological source behind them.",
+    "repair": "Status, not disposition - fallen in condition rather than in spirits."
+   }
+  ],
+  "oewn-01899577-s": [
+   {
+    "id": "modest.oewn-01899577-s",
+    "word": "modest",
+    "shard": "annotated-006",
+    "definition": "humble in spirit or manner; suggesting retiring mildness or even cowed submissiveness",
+    "tone": "The virtue the family is named for: an accurate view of oneself, held without fuss.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The note's 'accurate view of oneself, held without fuss' describes the free-from-vanity sense, while this gloss is the demeanour sense - 'retiring mildness or even cowed submissiveness'.",
+    "repair": "Approving of a retiring manner - mildness as virtue, though the gloss lets it border on submissiveness."
+   }
+  ],
+  "oewn-01926766-s": [
+   {
+    "id": "clamorous.oewn-01926766-s",
+    "word": "clamorous",
+    "shard": "annotated-008",
+    "definition": "conspicuously and offensively loud; given to vehement outcry",
+    "tone": "A crowd word - many voices at once, insisting on something.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "\"A crowd word - many voices at once\" narrows the sense to crowds, which the gloss (offensively loud; vehement outcry) does not do.",
+    "repair": "Offensively loud and insistent - outcry pressed until it is answered."
+   }
+  ],
+  "oewn-01927734-s": [
+   {
+    "id": "creaky.oewn-01927734-s",
+    "word": "creaky",
+    "shard": "annotated-008",
+    "definition": "having a rasping or grating sound",
+    "tone": "Also used of arguments and institutions, where it means old and barely holding.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is the literal rasping sound, but the note describes only the figurative use for arguments and institutions - a different sense.",
+    "repair": "A rasp or grate that suggests age and strain - the sound of something barely holding."
+   },
+   {
+    "id": "screaky.oewn-01927734-s",
+    "word": "screaky",
+    "shard": "annotated-008",
+    "definition": "having a rasping or grating sound",
+    "tone": "The rarer and shriller variant, and it sounds like what it means.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The rarer' is a frequency claim we have no corpus to check.",
+    "repair": "The shriller variant, and it sounds like what it means."
+   }
+  ],
+  "oewn-01954376-s": [
+   {
+    "id": "genteel.oewn-01954376-s",
+    "word": "genteel",
+    "shard": "annotated-005",
+    "definition": "marked by refinement in taste and manners",
+    "tone": "Faintly pitying since the nineteenth century - shabby-genteel is never far away.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Since the nineteenth century' is a historical claim we have no source to check.",
+    "repair": "Refinement praised, but primly - the word can carry a faintly pitying edge, as in 'shabby-genteel'."
+   },
+   {
+    "id": "polite.oewn-01954376-s",
+    "word": "polite",
+    "shard": "annotated-005",
+    "definition": "marked by refinement in taste and manners",
+    "tone": "The plain positive of the group: it describes conduct anyone can manage, and asks for no admiration.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is the refinement-in-taste sense (polite society), but 'conduct anyone can manage' describes the ordinary-courtesy sense of polite.",
+    "repair": "Not courtesy but cultivation - the refinement a whole circle credits itself with."
+   }
+  ],
+  "oewn-01954649-s": [
+   {
+    "id": "couth.oewn-01954649-s",
+    "word": "couth",
+    "shard": "annotated-005",
+    "definition": "(used facetiously) refined and well-mannered",
+    "tone": "A back-formation from uncouth, and almost always a joke; nobody is seriously called couth.",
+    "charge": 0,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'A back-formation from uncouth' is an origin story; the joke itself is licensed by the gloss, the etymology is not.",
+    "repair": "Almost always a joke - refinement praised with one eyebrow raised."
+   }
+  ],
+  "oewn-01954782-s": [
+   {
+    "id": "niminy-piminy.oewn-01954782-s",
+    "word": "niminy-piminy",
+    "shard": "annotated-005",
+    "definition": "affectedly dainty or refined",
+    "tone": "The most contemptuous word here; the invented sound does the sneering.",
+    "charge": -3,
+    "verdict": "hm",
+    "fault": null,
+    "why": "'The most contemptuous word here' may be a neighbour comparison within the family (allowed) or a reference to the sample (note-scope); the referent of 'here' is unclear.",
+    "repair": null
+   }
+  ],
+  "oewn-01956562-s": [
+   {
+    "id": "artless.oewn-01956562-s",
+    "word": "artless",
+    "shard": "annotated-007",
+    "definition": "(of persons) lacking art or knowledge",
+    "tone": "In this sense it means untrained. In its commoner sense it is praise for being without guile.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Its commoner sense' is a frequency claim about senses we cannot check.",
+    "repair": "Faults a lack of training or knowledge - mild, closer to pity than to scorn."
+   }
+  ],
+  "oewn-01957020-s": [
+   {
+    "id": "uncouth.oewn-01957020-s",
+    "word": "uncouth",
+    "shard": "annotated-007",
+    "definition": "lacking refinement or cultivation or taste",
+    "tone": "Once simply *unknown*; the strangeness curdled into rudeness.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Once simply *unknown*; the strangeness curdled into rudeness' is an origin story - provenance we have no etymological source for.",
+    "repair": "Harsher than *rough-cut*: the missing refinement read as offensive in itself."
+   },
+   {
+    "id": "coarse.oewn-01957020-s",
+    "word": "coarse",
+    "shard": "annotated-007",
+    "definition": "lacking refinement or cultivation or taste",
+    "tone": "About texture originally, and it still suggests something unfinished.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'About texture originally' is an origin story, which the rubric rules out as provenance.",
+    "repair": "Rough-grained manners - it suggests a person left unfinished."
+   }
+  ],
+  "oewn-02029380-s": [
+   {
+    "id": "affluent.oewn-02029380-s",
+    "word": "affluent",
+    "shard": "annotated-002",
+    "definition": "having an abundant supply of money or possessions of value",
+    "tone": "The neutral term of economists and estate agents.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The neutral term of economists and estate agents' says who uses the word.",
+    "repair": "Formal and unruffled - wealth reported as a circumstance, not a boast."
+   }
+  ],
+  "oewn-02030204-a": [
+   {
+    "id": "poor.oewn-02030204-a",
+    "word": "poor",
+    "shard": "annotated-002",
+    "definition": "having little money or few possessions",
+    "tone": "The plain word for a lasting condition - factual, but heavy enough that officials avoid it.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Heavy enough that officials avoid it' is a claim about who uses the word, which we cannot check without a corpus.",
+    "repair": "The plain word for a lasting condition - factual, and heavy for being so plain."
+   }
+  ],
+  "oewn-02030538-s": [
+   {
+    "id": "broke.oewn-02030538-s",
+    "word": "broke",
+    "shard": "annotated-002",
+    "definition": "lacking funds",
+    "tone": "Casual and often self-applied - out of money right now.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Often self-applied' is a claim about who uses the word and how often, which we have no corpus to check.",
+    "repair": "Casual - out of money right now, a state rather than a condition."
+   }
+  ],
+  "oewn-02105605-a": [
+   {
+    "id": "egocentric.oewn-02105605-a",
+    "word": "egocentric",
+    "shard": "annotated-006",
+    "definition": "concerned chiefly or only with yourself and your advantage to the exclusion of others",
+    "tone": "Borrowed from developmental psychology, where it describes children without blaming them.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Borrowed from developmental psychology' is an origin story we cannot check.",
+    "repair": "The clinical-sounding member of the family - reads as diagnosis more than accusation."
+   }
+  ],
+  "oewn-02105974-s": [
+   {
+    "id": "self-loving.oewn-02105974-s",
+    "word": "self-loving",
+    "shard": "annotated-006",
+    "definition": "characteristic of those having an inflated idea of their own importance",
+    "tone": "The literal compound, and neutral enough to be reclaimed as self-care.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is an inflated idea of one's own importance, but 'neutral enough to be reclaimed as self-care' describes the approving self-love sense, not this one.",
+    "repair": "The literal compound turned accusation - love pointed at the wrong object."
+   },
+   {
+    "id": "egotistical.oewn-02105974-s",
+    "word": "egotistical",
+    "shard": "annotated-006",
+    "definition": "characteristic of those having an inflated idea of their own importance",
+    "tone": "The commoner spelling, and a staple of ordinary complaint.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The commoner spelling' and 'a staple of ordinary complaint' are both frequency claims we cannot check.",
+    "repair": "Flat contempt for self-importance - the inflation is visible to everyone but its owner."
+   }
+  ],
+  "oewn-02136242-v": [
+   {
+    "id": "get_a_load.oewn-02136242-v",
+    "word": "get a load",
+    "shard": "annotated-005",
+    "definition": "look at with attention",
+    "tone": "An invitation to look at something ridiculous; the judgement is on the thing, not the looking.",
+    "charge": 0,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "The gloss is a neutral 'look at with attention', but the note narrows it to 'something ridiculous' - contradicted by the sense's own admiring example.",
+    "repair": "An invitation to look and react - the judgement falls on the thing seen, not on the looking."
+   }
+  ],
+  "oewn-02187588-s": [
+   {
+    "id": "dear.oewn-02187588-s",
+    "word": "dear",
+    "shard": "annotated-007",
+    "definition": "sincerely earnest",
+    "tone": "A letter-opening formula for the most part, and emptied by that use.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is \"sincerely earnest\" (one's dearest wish), but the note describes the letter-opening salutation, a different sense - and adds a \"for the most part\" distribution claim.",
+    "repair": "Earnestness at full warmth - a wish held close to the heart."
+   },
+   {
+    "id": "heartfelt.oewn-02187588-s",
+    "word": "heartfelt",
+    "shard": "annotated-007",
+    "definition": "sincerely earnest",
+    "tone": "Reserved for thanks and condolence, where it still means what it says.",
+    "charge": 3,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'Reserved for thanks and condolence' restricts the sense past the gloss, which covers any sincere earnestness.",
+    "repair": "Earnest and unadorned - it stakes the speaker's own sincerity on the feeling."
+   },
+   {
+    "id": "devout.oewn-02187588-s",
+    "word": "devout",
+    "shard": "annotated-007",
+    "definition": "sincerely earnest",
+    "tone": "Religious first, and it carries the discipline of practice with it.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is 'sincerely earnest' (devout wishes), but the note describes the religious-observance sense of devout.",
+    "repair": "Earnestness with full weight behind it - a devout wish is meant, not merely said."
+   }
+  ],
+  "oewn-02187907-s": [
+   {
+    "id": "true.oewn-02187907-s",
+    "word": "true",
+    "shard": "annotated-007",
+    "definition": "not pretended; sincerely felt or expressed",
+    "tone": "The oldest sense of *true*: loyal and unfeigned, not merely correct.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The oldest sense of *true*' is a historical claim with no etymological source, and 'loyal' imports a sense this gloss does not cover.",
+    "repair": "Unfeigned rather than merely accurate - the feeling is as real as it looks."
+   }
+  ],
+  "oewn-02188116-s": [
+   {
+    "id": "heart-whole.oewn-02188116-s",
+    "word": "heart-whole",
+    "shard": "annotated-007",
+    "definition": "with unconditional and enthusiastic devotion",
+    "tone": "Nothing held back and nothing divided; rare and slightly archaic.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Rare' is a frequency claim we cannot check without a corpus; 'slightly archaic' alone would be an acceptable register label.",
+    "repair": "Nothing held back and nothing divided; slightly archaic."
+   },
+   {
+    "id": "whole-souled.oewn-02188116-s",
+    "word": "whole-souled",
+    "shard": "annotated-007",
+    "definition": "with unconditional and enthusiastic devotion",
+    "tone": "The most emphatic and the least used of the three.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The least used of the three' is a frequency claim we cannot check.",
+    "repair": "The most emphatic of the three - devotion offered with the whole self."
+   }
+  ],
+  "oewn-02279797-s": [
+   {
+    "id": "dewy-eyed.oewn-02279797-s",
+    "word": "dewy-eyed",
+    "shard": "annotated-007",
+    "definition": "exhibiting childlike simplicity and credulity",
+    "tone": "Faintly mocking - the sentimentality is being pointed at.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is about childlike simplicity and credulity, but the note mocks sentimentality, which belongs to the misty-eyed sentimental sense of the word.",
+    "repair": "Faintly mocking - the credulity is what is being pointed at."
+   },
+   {
+    "id": "round-eyed.oewn-02279797-s",
+    "word": "round-eyed",
+    "shard": "annotated-007",
+    "definition": "exhibiting childlike simplicity and credulity",
+    "tone": "The same picture, rarer and slightly more comic.",
+    "charge": 0,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Rarer' is a frequency claim we have no corpus to check.",
+    "repair": "The same picture, slightly more comic - the eyes wide with belief."
+   }
+  ],
+  "oewn-02280420-s": [
+   {
+    "id": "ingenuous.oewn-02280420-s",
+    "word": "ingenuous",
+    "shard": "annotated-007",
+    "definition": "lacking in sophistication or worldliness",
+    "tone": "Frankness without calculation; the opposite of *disingenuous*, which is the commoner word.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "Calling *disingenuous* 'the commoner word' is a frequency claim we have no corpus to check.",
+    "repair": "Frankness without calculation - the innocence is credited, not mocked."
+   }
+  ],
+  "oewn-02281711-v": [
+   {
+    "id": "purloin.oewn-02281711-v",
+    "word": "purloin",
+    "shard": "annotated-003",
+    "definition": "make off with belongings of others",
+    "tone": "Deliberately grand for a small crime - often used in jest.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Often used in jest' is a frequency claim; the humorous register label already records the fact without quantifying it.",
+    "repair": "Deliberately grand for a small crime - the pomp is the joke."
+   }
+  ],
+  "oewn-02282148-v": [
+   {
+    "id": "shoplift.oewn-02282148-v",
+    "word": "shoplift",
+    "shard": "annotated-003",
+    "definition": "steal in a store",
+    "tone": "The specific, legal name for the act - factual rather than condemning.",
+    "charge": -2,
+    "verdict": "hm",
+    "fault": null,
+    "why": "The note calls the word factual rather than condemning - the same footing as decease, which carries 0 - yet the charge is -2; the note and the number cannot both be right and the gloss alone does not settle which.",
+    "repair": null
+   }
+  ],
+  "oewn-02326371-v": [
+   {
+    "id": "rob.oewn-02326371-v",
+    "word": "rob",
+    "shard": "annotated-003",
+    "definition": "take something away by force or without the consent of the owner",
+    "tone": "Theft with force or confrontation - a victim is present.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "The gloss covers taking 'by force or without the consent of the owner'; the note narrows it to force and confrontation, which even the burglary example does not show.",
+    "repair": "The victim stands in the object - one robs a person, where one steals a thing."
+   }
+  ],
+  "oewn-02326737-v": [
+   {
+    "id": "steal.oewn-02326737-v",
+    "word": "steal",
+    "shard": "annotated-003",
+    "definition": "take without the owner's consent",
+    "tone": "The plain word - direct, and heavy enough that lawyers prefer 'take'.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'lawyers prefer take' is a claim about who uses the word, which we cannot check.",
+    "repair": "The plain word - direct, and it names the wrong outright."
+   }
+  ],
+  "oewn-02335307-s": [
+   {
+    "id": "bolshy.oewn-02335307-s",
+    "word": "bolshy",
+    "shard": "annotated-005",
+    "definition": "obstreperous",
+    "tone": "From Bolshevik: it frames the refusal as insubordination rather than character.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'From Bolshevik' is a provenance claim - an origin story we cannot check.",
+    "repair": "Frames the refusal as insubordination rather than character - mutinous, not merely difficult."
+   }
+  ],
+  "oewn-02350284-v": [
+   {
+    "id": "loot.oewn-02350284-v",
+    "word": "loot",
+    "shard": "annotated-003",
+    "definition": "take illegally; of intellectual property",
+    "tone": "Mass theft amid disorder - war, riot, disaster.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "wrong-gloss",
+    "why": "OEWN glosses this synset on taking intellectual property, which does not fit loot; the note's mass-theft-amid-disorder reading confirms the mismatch.",
+    "repair": "skip-gloss"
+   }
+  ],
+  "oewn-02354354-s": [
+   {
+    "id": "base.oewn-02354354-s",
+    "word": "base",
+    "shard": "annotated-008",
+    "definition": "(used of metals) consisting of or alloyed with inferior metal",
+    "tone": "Of metals, where it is technical. The moral sense is a separate and much older word.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "Calling the moral sense 'a separate and much older word' is a provenance claim we cannot verify.",
+    "repair": "Technical of metals - a grading judgement, not a moral one."
+   }
+  ],
+  "oewn-02354508-s": [
+   {
+    "id": "tinny.oewn-02354508-s",
+    "word": "tinny",
+    "shard": "annotated-008",
+    "definition": "of very poor quality; flimsy",
+    "tone": "Specific to sound, and precise enough to be almost neutral.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is the poor-quality/flimsy sense, but the note restricts the word to the separate metallic-sound sense.",
+    "repair": "Cheapness of material - flimsy, as if pressed from thin metal."
+   },
+   {
+    "id": "cheesy.oewn-02354508-s",
+    "word": "cheesy",
+    "shard": "annotated-008",
+    "definition": "of very poor quality; flimsy",
+    "tone": "Often affectionate about films and pop songs; the badness is part of the appeal.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Often affectionate about films and pop songs' is a quantified distribution claim we have no corpus to check.",
+    "repair": "Poor quality worn openly - the contempt can carry affection, the badness part of the appeal."
+   }
+  ],
+  "oewn-02354737-s": [
+   {
+    "id": "bush.oewn-02354737-s",
+    "word": "bush",
+    "shard": "annotated-008",
+    "definition": "not of the highest quality or sophistication",
+    "tone": "The clipped form, and rarer outside American speech.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The clipped form' asserts derivation and 'rarer outside American speech' is a frequency-and-region claim; the note contains nothing checkable about the word's force.",
+    "repair": "Dismissive - amateur, small-time, second-rate."
+   }
+  ],
+  "oewn-02433722-s": [
+   {
+    "id": "littered.oewn-02433722-s",
+    "word": "littered",
+    "shard": "annotated-007",
+    "definition": "filled or scattered with a disorderly accumulation of objects or rubbish",
+    "tone": "The rubbish sense has taken over, and litter is somebody's fault.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The rubbish sense has taken over' is a now-mostly distribution claim, and the gloss covers plain objects as well as rubbish - the storm example itself shows litter that is nobody's fault.",
+    "repair": "Disorder seen as rubbish - the mess condemned, whatever left it."
+   }
+  ],
+  "oewn-02433993-s": [
+   {
+    "id": "tousled.oewn-02433993-s",
+    "word": "tousled",
+    "shard": "annotated-007",
+    "definition": "in disarray; extremely disorderly",
+    "tone": "Disorder that flatters - the one word here that can be arranged on purpose.",
+    "charge": 0,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'The one word here' compares against the rest of the sample, leaving the word.",
+    "repair": "Disorder that flatters - untidiness that can be arranged on purpose."
+   }
+  ],
+  "oewn-02434302-s": [
+   {
+    "id": "hugger-mugger.oewn-02434302-s",
+    "word": "hugger-mugger",
+    "shard": "annotated-007",
+    "definition": "in utter disorder",
+    "tone": "Older, rarer, and pulled between disorder and secrecy.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Rarer' is a frequency claim we cannot check.",
+    "repair": "Archaic and comic - disorder with an air of the furtive about it."
+   }
+  ],
+  "oewn-02473333-s": [
+   {
+    "id": "jealous.oewn-02473333-s",
+    "word": "jealous",
+    "shard": "annotated-008",
+    "definition": "suspicious or unduly suspicious or fearful of being displaced by a rival",
+    "tone": "Fear of being displaced. The older sense - jealous of one's honour - was closer to vigilance.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'The older sense - jealous of one's honour - was closer to vigilance' is a history claim about a different sense that we cannot check.",
+    "repair": "Fear of being displaced - suspicion that treats the rival as already real."
+   },
+   {
+    "id": "green-eyed.oewn-02473333-s",
+    "word": "green-eyed",
+    "shard": "annotated-008",
+    "definition": "suspicious or unduly suspicious or fearful of being displaced by a rival",
+    "tone": "Shakespeare's monster, and the phrase has outlived the play.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Shakespeare's monster' and 'outlived the play' are provenance and afterlife claims, not a description of the word's force.",
+    "repair": "Literary and accusing - jealousy given a face and a colour."
+   }
+  ],
+  "oewn-02473505-s": [
+   {
+    "id": "wary.oewn-02473505-s",
+    "word": "wary",
+    "shard": "annotated-008",
+    "definition": "openly distrustful and unwilling to confide",
+    "tone": "Caution that was earned rather than a fault - what experience leaves behind.",
+    "charge": 0,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The note's earned caution describes the watchful-prudence sense; this gloss is 'openly distrustful and unwilling to confide'.",
+    "repair": "Distrust worn openly - confidence withheld, and seen to be withheld."
+   },
+   {
+    "id": "mistrustful.oewn-02473505-s",
+    "word": "mistrustful",
+    "shard": "annotated-008",
+    "definition": "openly distrustful and unwilling to confide",
+    "tone": "The plainer twin of *distrustful*, and a shade more tentative.",
+    "charge": -1,
+    "verdict": "hm",
+    "fault": null,
+    "why": "The gloss specifies 'openly distrustful', and the note's 'a shade more tentative' sits uneasily against that openness; unclear whether it contradicts the gloss or just differentiates the lemma from *distrustful*.",
+    "repair": null
+   },
+   {
+    "id": "suspicious.oewn-02473505-s",
+    "word": "suspicious",
+    "shard": "annotated-008",
+    "definition": "openly distrustful and unwilling to confide",
+    "tone": "Cuts both ways - a suspicious person and a suspicious package are opposite roles.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The note is about the lemma's two roles and leans on the 'suspicious package' sense (arousing suspicion), not this gloss's openly distrustful person.",
+    "repair": "Distrust worn openly - it faults the withholding of trust, not the caution behind it."
+   }
+  ],
+  "oewn-02580114-s": [
+   {
+    "id": "sagacious.oewn-02580114-s",
+    "word": "sagacious",
+    "shard": "annotated-007",
+    "definition": "acutely insightful and wise",
+    "tone": "Formal and warm, and often used of judgement under pressure.",
+    "charge": 3,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Often used of judgement under pressure' is a distribution claim about how the word is typically used, with no corpus to check it.",
+    "repair": "Formal and warm - wisdom shown as insight rather than learning."
+   },
+   {
+    "id": "sapient.oewn-02580114-s",
+    "word": "sapient",
+    "shard": "annotated-007",
+    "definition": "acutely insightful and wise",
+    "tone": "Latinate and cool - it is the species name doing double duty.",
+    "charge": 2,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'It is the species name doing double duty' leans on an etymological kinship with Homo sapiens that we have no source to check.",
+    "repair": "Latinate and cool - wisdom observed from a distance rather than warmly praised."
+   }
+  ],
+  "oewn-02580602-s": [
+   {
+    "id": "sapiential.oewn-02580602-s",
+    "word": "sapiential",
+    "shard": "annotated-007",
+    "definition": "characterized by wisdom, especially the wisdom of God",
+    "tone": "Theological, and about wisdom as a body of teaching rather than a trait.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "The gloss says 'characterized by wisdom' - a trait, as the example 'a sapiential government' shows - but the note denies the trait reading and narrows the sense to wisdom as a body of teaching.",
+    "repair": "Lofty, theological approval - wisdom of the godly kind rather than everyday shrewdness."
+   }
+  ],
+  "oewn-02591485-s": [
+   {
+    "id": "aged.oewn-02591485-s",
+    "word": "aged",
+    "shard": "annotated-008",
+    "definition": "at an advanced stage of erosion (pronounced as one syllable)",
+    "tone": "The geological sense - a landscape at an advanced stage of erosion.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "charge-sign",
+    "why": "The erosion sense is neutral-technical ('aged rocks' disparages nothing), so a negative charge contradicts the gloss; the note itself is fine.",
+    "repair": "The geological sense - a landscape at an advanced stage of erosion."
+   }
+  ],
+  "oewn-02591610-s": [
+   {
+    "id": "attrited.oewn-02591610-s",
+    "word": "attrited",
+    "shard": "annotated-008",
+    "definition": "worn by rubbing or friction",
+    "tone": "Technical and rare, from the same root as *attrition*.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'rare' is a frequency claim and 'from the same root as attrition' an etymological one; we can check neither.",
+    "repair": "Dry and technical - wear stated as a process, not a complaint."
+   }
+  ],
+  "oewn-02591692-s": [
+   {
+    "id": "battered.oewn-02591692-s",
+    "word": "battered",
+    "shard": "annotated-008",
+    "definition": "damaged especially by hard usage",
+    "tone": "Implies force rather than time, and of a person it means something much worse.",
+    "charge": -2,
+    "verdict": "hm",
+    "fault": null,
+    "why": "The main claim fits the gloss, but 'of a person it means something much worse' invokes the abuse sense, a different synset - unsure whether the caveat crosses into wrong-sense.",
+    "repair": null
+   }
+  ],
+  "oewn-02591968-s": [
+   {
+    "id": "derelict.oewn-02591968-s",
+    "word": "derelict",
+    "shard": "annotated-008",
+    "definition": "worn and broken down by hard use",
+    "tone": "Abandoned as well as ruined - nobody is coming back for it.",
+    "charge": -3,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "Abandonment ('nobody is coming back for it') belongs to the deserted-by-its-owner sense; this gloss is wear and breakdown from hard use.",
+    "repair": "Worn past repair - hard use has run all the way through it."
+   },
+   {
+    "id": "run-down.oewn-02591968-s",
+    "word": "run-down",
+    "shard": "annotated-008",
+    "definition": "worn and broken down by hard use",
+    "tone": "Worn by neglect rather than by use; the decline was allowed to happen.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss says worn 'by hard use'; the note says 'by neglect rather than by use', contradicting the gloss it sits under.",
+    "repair": "Worn past shabbiness by hard use - the thing has been driven to exhaustion."
+   },
+   {
+    "id": "woebegone.oewn-02591968-s",
+    "word": "woebegone",
+    "shard": "annotated-008",
+    "definition": "worn and broken down by hard use",
+    "tone": "Describes the look of sorrow rather than the damage, which makes it oddly gentle.",
+    "charge": -2,
+    "verdict": "no",
+    "fault": "wrong-sense",
+    "why": "The gloss is wear and breakdown from hard use; 'the look of sorrow rather than the damage' recentres the note on the word's mournful sense and denies the damage the gloss defines.",
+    "repair": "Run-down and wearing it mournfully - the ruin looks as if it grieves for itself."
+   }
+  ],
+  "oewn-02592267-s": [
+   {
+    "id": "eared.oewn-02592267-s",
+    "word": "eared",
+    "shard": "annotated-008",
+    "definition": "worn or shabby from overuse or (of pages) from having corners turned down",
+    "tone": "The clipped form, and rare enough to be mistaken for the anatomy word.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "unverifiable",
+    "why": "'Rare enough to be mistaken for the anatomy word' claims frequency and reader confusion we cannot check, and the note never touches the worn-shabby sense itself.",
+    "repair": "The clipped form of *dog-eared* - shabby from use, and slightly fond about it."
+   },
+   {
+    "id": "dog-eared.oewn-02592267-s",
+    "word": "dog-eared",
+    "shard": "annotated-008",
+    "definition": "worn or shabby from overuse or (of pages) from having corners turned down",
+    "tone": "The one word here that is nearly affectionate - a dog-eared book was loved.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "'The one word here' measures the word against the sample it was printed in rather than against its neighbours by name.",
+    "repair": "Nearly affectionate - the wear says the thing was handled, read, even loved."
+   }
+  ],
+  "oewn-02592502-s": [
+   {
+    "id": "eroded.oewn-02592502-s",
+    "word": "eroded",
+    "shard": "annotated-008",
+    "definition": "worn away as by water or ice or wind",
+    "tone": "Geological and neutral; erosion is a process, not a fault.",
+    "charge": -1,
+    "verdict": "no",
+    "fault": "charge-sign",
+    "why": "The gloss is purely descriptive and the note itself says 'neutral; a process, not a fault', yet the charge is -1; it should be 0.",
+    "repair": "Geological and neutral; erosion is a process, not a fault."
+   }
+  ],
+  "oewn-02626293-v": [
+   {
+    "id": "fall.oewn-02626293-v",
+    "word": "fall",
+    "shard": "annotated-003",
+    "definition": "die, as in battle or in a hunt",
+    "tone": "Death in battle, framed as honourable - the word on war memorials.",
+    "charge": 1,
+    "verdict": "no",
+    "fault": "note-scope",
+    "why": "The gloss covers dying in battle or in a hunt, but the note restricts the word to battle and war memorials - the deer example already contradicts it.",
+    "repair": "A soft, dignifying word for a death in the field - soldier or quarry, the fall sounds fated rather than inflicted."
+   }
+  ]
+ }
+}
