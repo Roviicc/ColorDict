@@ -1,8 +1,9 @@
 package io.github.roviicc.colordict.ui;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.res.Configuration;
+
+import androidx.activity.ComponentActivity;
 
 import io.github.roviicc.colordict.App;
 import io.github.roviicc.colordict.data.DictRepository;
@@ -13,7 +14,7 @@ import io.github.roviicc.colordict.data.Prefs;
  * night mode before resources are created — works on every supported API
  * level without any support library.
  */
-public abstract class BaseActivity extends Activity {
+public abstract class BaseActivity extends ComponentActivity {
 
     private int appliedThemeMode = Prefs.THEME_SYSTEM;
 

@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ColorDict"
+rootProject.name = "PopUpDictionary"
 include(":app")

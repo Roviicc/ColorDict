@@ -7,23 +7,25 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.View;
-import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ListView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Locale;
 
+import androidx.compose.ui.platform.ComposeView;
+
 import io.github.roviicc.colordict.R;
 import io.github.roviicc.colordict.data.DictRepository;
 import io.github.roviicc.colordict.data.Prefs;
+import io.github.roviicc.colordict.design.MainChromeBridge;
+import io.github.roviicc.colordict.design.MainChromeController;
+import io.github.roviicc.colordict.design.ComponentCatalog;
+import io.github.roviicc.colordict.design.BrowseListBridge;
+import io.github.roviicc.colordict.design.BrowseListController;
 
 public class MainActivity extends BaseActivity implements DictRepository.Listener {
 
@@ -31,11 +33,8 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
     public static final String ACTION_COLORDICT_SEARCH = "colordict.intent.action.SEARCH";
     public static final String EXTRA_QUERY = "EXTRA_QUERY";
 
-    private EditText searchBox;
-    private ImageButton clearButton;
-    private TextView listLabel;
-    private ListView list;
-    private SuggestionAdapter adapter;
+    private MainChromeController mainChrome;
+    private BrowseListController browseList;
     private View definitionPanel;
     private TextView definitionWord;
     private ImageButton starButton;
@@ -43,7 +42,6 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
     private TextView emptyView;
 
     private String currentWord;
-    private boolean suppressWatcher;
     private TextToSpeech tts;
     private boolean ttsReady;
 
@@ -52,11 +50,8 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        searchBox = findViewById(R.id.searchBox);
-        clearButton = findViewById(R.id.clearButton);
-        ImageButton menuButton = findViewById(R.id.menuButton);
-        listLabel = findViewById(R.id.listLabel);
-        list = findViewById(R.id.suggestionList);
+        ComposeView chromeView = findViewById(R.id.mainChrome);
+        ComposeView browseListView = findViewById(R.id.browseList);
         definitionPanel = findViewById(R.id.definitionPanel);
         definitionWord = findViewById(R.id.definitionWord);
         starButton = findViewById(R.id.starButton);
@@ -65,46 +60,26 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
         webView = findViewById(R.id.definitionWebView);
         emptyView = findViewById(R.id.emptyView);
 
-        adapter = new SuggestionAdapter(this);
-        list.setAdapter(adapter);
-        list.setOnItemClickListener((parent, view, position, id)
-                -> define(adapter.getItem(position)));
+        browseList = BrowseListBridge.attach(browseListView, this::define);
 
-        searchBox.addTextChangedListener(new TextWatcher() {
+        mainChrome = MainChromeBridge.attach(chromeView, "", new MainChromeBridge.Callbacks() {
             @Override
-            public void beforeTextChanged(CharSequence s, int a, int b, int c) {
+            public void onQueryChanged(String query) {
+                MainActivity.this.onQueryChanged(query);
             }
 
             @Override
-            public void onTextChanged(CharSequence s, int a, int b, int c) {
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                if (!suppressWatcher) {
-                    onQueryChanged(s.toString().trim());
+            public void onSearch(String query) {
+                if (!query.isEmpty()) {
+                    define(query);
                 }
-                clearButton.setVisibility(s.length() == 0 ? View.GONE : View.VISIBLE);
             }
-        });
-        searchBox.setOnEditorActionListener((v, actionId, event) -> {
-            if (actionId == EditorInfo.IME_ACTION_SEARCH
-                    || actionId == EditorInfo.IME_ACTION_DONE) {
-                String q = searchBox.getText().toString().trim();
-                if (!q.isEmpty()) {
-                    define(q);
-                }
-                return true;
-            }
-            return false;
-        });
 
-        clearButton.setOnClickListener(v -> {
-            searchBox.setText("");
-            searchBox.requestFocus();
-            showKeyboard();
+            @Override
+            public void onMenu(View anchor) {
+                showMainMenu(anchor);
+            }
         });
-        menuButton.setOnClickListener(this::showMainMenu);
         starButton.setOnClickListener(v -> toggleBookmark());
         speakButton.setOnClickListener(v -> speakCurrentWord());
         definitionMenuButton.setOnClickListener(this::showDefinitionMenu);
@@ -113,16 +88,13 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
         emptyView.setOnClickListener(v
                 -> startActivity(new Intent(this, DictionariesActivity.class)));
 
-        // Route the initial view after view-state restoration: restoring the
-        // search box text fires the TextWatcher, which would otherwise cancel
-        // a definition query started directly from onCreate.
-        searchBox.post(() -> {
+        chromeView.post(() -> {
             String saved = savedInstanceState != null
                     ? savedInstanceState.getString("word") : null;
             if (saved != null) {
                 define(saved);
             } else if (savedInstanceState != null || !handleLookupIntent(getIntent())) {
-                showBrowseList(searchBox.getText().toString().trim());
+                showBrowseList(mainChrome.query().trim());
             }
         });
     }
@@ -172,8 +144,8 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
         super.onStart();
         repo().addListener(this);
         refreshEmptyState();
-        if (definitionPanel.getVisibility() != View.VISIBLE && adapter.isHistoryMode()) {
-            showBrowseList(searchBox.getText().toString().trim());
+        if (definitionPanel.getVisibility() != View.VISIBLE && browseList.isHistoryMode()) {
+            showBrowseList(mainChrome.query().trim());
         }
     }
 
@@ -195,8 +167,9 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
     public void onBackPressed() {
         if (definitionPanel.getVisibility() == View.VISIBLE) {
             exitDefinition();
-        } else if (searchBox.getText().length() > 0) {
-            searchBox.setText("");
+        } else if (!mainChrome.query().isEmpty()) {
+            mainChrome.setQuery("");
+            onQueryChanged("");
         } else {
             super.onBackPressed();
         }
@@ -208,7 +181,7 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
         if (definitionPanel.getVisibility() == View.VISIBLE && currentWord != null) {
             queryDefinition(currentWord);
         } else {
-            showBrowseList(searchBox.getText().toString().trim());
+            showBrowseList(mainChrome.query().trim());
         }
     }
 
@@ -217,7 +190,7 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
     private void onQueryChanged(String query) {
         if (definitionPanel.getVisibility() == View.VISIBLE) {
             definitionPanel.setVisibility(View.GONE);
-            list.setVisibility(View.VISIBLE);
+            browseList.setVisible(true);
             currentWord = null;
         }
         showBrowseList(query);
@@ -225,16 +198,15 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
 
     private void showBrowseList(String query) {
         if (query.isEmpty()) {
-            adapter.setHistory(repo().history().history(50));
-            listLabel.setText(R.string.recent_searches);
-            listLabel.setVisibility(adapter.getCount() > 0 ? View.VISIBLE : View.GONE);
+            browseList.setHistory(repo().history().history(50));
+            mainChrome.setRecentVisible(browseList.count() > 0);
         } else {
+            mainChrome.setRecentVisible(false);
             repo().suggest(query, Prefs.maxSuggestions(this), suggestions -> {
                 // Only apply if the box still shows this query.
-                if (query.equals(searchBox.getText().toString().trim())
+                if (query.equals(mainChrome.query().trim())
                         && definitionPanel.getVisibility() != View.VISIBLE) {
-                    adapter.setSuggestions(suggestions);
-                    listLabel.setVisibility(View.GONE);
+                    browseList.setSuggestions(suggestions);
                 }
             });
         }
@@ -248,11 +220,8 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
             return;
         }
         currentWord = trimmed;
-        suppressWatcher = true;
-        searchBox.setText(trimmed);
-        searchBox.setSelection(trimmed.length());
-        suppressWatcher = false;
-        clearButton.setVisibility(View.VISIBLE);
+        mainChrome.setQuery(trimmed);
+        mainChrome.setRecentVisible(false);
         hideKeyboard();
         queryDefinition(trimmed);
     }
@@ -262,8 +231,8 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
             if (!word.equals(currentWord)) {
                 return;
             }
-            list.setVisibility(View.GONE);
-            listLabel.setVisibility(View.GONE);
+            browseList.setVisible(false);
+            mainChrome.setRecentVisible(false);
             definitionPanel.setVisibility(View.VISIBLE);
             definitionWord.setText(word);
             refreshStar();
@@ -276,9 +245,9 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
 
     private void exitDefinition() {
         definitionPanel.setVisibility(View.GONE);
-        list.setVisibility(View.VISIBLE);
+        browseList.setVisible(true);
         currentWord = null;
-        showBrowseList(searchBox.getText().toString().trim());
+        showBrowseList(mainChrome.query().trim());
     }
 
     private void refreshStar() {
@@ -326,6 +295,8 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
     private void showMainMenu(View anchor) {
         PopupMenu menu = new PopupMenu(this, anchor);
         menu.inflate(R.menu.menu_main);
+        menu.getMenu().findItem(R.id.action_component_catalog)
+                .setVisible(ComponentCatalog.isAvailable());
         menu.setOnMenuItemClickListener(item -> {
             int id = item.getItemId();
             if (id == R.id.action_dictionaries) {
@@ -334,6 +305,8 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
                 startActivity(new Intent(this, HistoryActivity.class));
             } else if (id == R.id.action_settings) {
                 startActivity(new Intent(this, SettingsActivity.class));
+            } else if (id == R.id.action_component_catalog) {
+                ComponentCatalog.open(this);
             } else {
                 return false;
             }
@@ -402,12 +375,14 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
     }
 
     private void showKeyboard() {
-        InputMethodManager imm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
-        imm.showSoftInput(searchBox, InputMethodManager.SHOW_IMPLICIT);
+        mainChrome.requestSearchFocus();
     }
 
     private void hideKeyboard() {
         InputMethodManager imm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
-        imm.hideSoftInputFromWindow(searchBox.getWindowToken(), 0);
+        View focus = getCurrentFocus();
+        if (focus != null) {
+            imm.hideSoftInputFromWindow(focus.getWindowToken(), 0);
+        }
     }
 }
