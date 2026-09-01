@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ColorDict — offline multi-dictionary for Android</title>
-<meta name="description" content="A free, open-source, offline dictionary for Android. Search once, see color-coded results from every StarDict dictionary at the same time.">
-<meta property="og:title" content="ColorDict — offline multi-dictionary for Android">
-<meta property="og:description" content="Search once, see color-coded results from every dictionary at the same time. Free, offline, no ads, no tracking.">
+<title>Pop Up Dictionary — offline dictionary for Android</title>
+<meta name="description" content="A free, open-source, offline dictionary for Android. Ships with a complete English dictionary that tells you not just what a word means, but what it implies.">
+<meta property="og:title" content="Pop Up Dictionary — offline dictionary for Android">
+<meta property="og:description" content="A complete English dictionary built in, with notes on what each word implies. Free, offline, no ads, no tracking.">
 <meta property="og:type" content="website">
 <link rel="icon" href="icon.png" type="image/png">
 <link rel="apple-touch-icon" href="icon.png">
@@ -16,9 +16,10 @@
 
 <header class="hero">
   <div class="wrap">
-    <img class="applogo" src="icon.png" width="96" height="96" alt="ColorDict icon">
-    <h1>ColorDict</h1>
-    <p class="tagline">Search once. See every dictionary answer at once — each in its own color.</p>
+    <img class="applogo" src="icon.png" width="96" height="96" alt="Pop Up Dictionary icon">
+    <h1>Pop Up Dictionary</h1>
+    <p class="tagline">A complete English dictionary in your pocket — one that tells you
+       not just what a word means, but what it implies.</p>
 
     <div id="download" class="download">
       <a id="primary-btn" class="btn btn-primary"
@@ -39,6 +40,20 @@
 <section class="wrap">
   <h2>What it does</h2>
   <div class="grid">
+    <div class="card">
+      <h3>A dictionary that ships with it</h3>
+      <p>111,466 English words are built in, so the app is useful the moment it
+         opens — nothing to download, nothing to configure. Built from
+         <a href="https://en-word.net/" rel="noopener">Open English WordNet</a>
+         and SentiWordNet.</p>
+    </div>
+    <div class="card">
+      <h3>It knows what a word implies</h3>
+      <p><em>Slim</em>, <em>skinny</em> and <em>emaciated</em> all mean thin, and
+         choosing between them is not a matter of meaning. Hand-reviewed entries
+         carry a note on where a word sits among its neighbours, and whether it
+         praises, describes or disparages.</p>
+    </div>
     <div class="card">
       <h3>Every dictionary at once</h3>
       <p>One search queries all your enabled dictionaries. Each answer arrives on
@@ -61,7 +76,7 @@
     <div class="card">
       <h3>Works inside other apps</h3>
       <p>Select text anywhere and choose <em>Define</em>, or let your e-book
-         reader call ColorDict's popup directly through the standard
+         reader call the app's popup directly through the standard
          lookup intent.</p>
     </div>
     <div class="card">
@@ -84,8 +99,8 @@
     <li><strong>Allow the install.</strong> Android will ask permission to
         install apps from this source — this is normal for apps distributed
         outside the Play Store.</li>
-    <li><strong>Open it.</strong> A small sample glossary is built in, so search
-        works the moment it starts.</li>
+    <li><strong>Open it.</strong> The full English dictionary is bundled inside
+        the APK, so search works offline the moment it starts.</li>
   </ol>
   <p class="note">
     Two builds are published. The <strong>debug</strong> APK is signed and
@@ -95,10 +110,38 @@
 </section>
 
 <section class="wrap">
-  <h2>Adding dictionaries</h2>
+  <h2>The built-in dictionary</h2>
   <p>
-    ColorDict reads dictionaries in StarDict format, and plenty are free to
-    download — conversions of WordNet, FreeDict, Wiktionary and more.
+    <strong>Pop Up English Dictionary</strong> — 111,466 headwords, derived from
+    Open English WordNet 2024 and SentiWordNet 3.0, and bundled inside the app.
+  </p>
+  <p>
+    What makes it unusual is the connotation layer. A conventional dictionary
+    tells you that <em>frugal</em> and <em>stingy</em> both describe someone
+    reluctant to spend. It does not tell you that one is a compliment. 781
+    senses, across 922 entries, have been reviewed by hand and carry a short
+    note on the word's force, a position on its family's spectrum from
+    disparaging to approving, and register labels where they apply.
+  </p>
+  <p class="note">
+    Those reviewed senses are marked in the app; the rest are labelled as
+    automatically derived, so you always know which is which. The review notes
+    follow a published rule — describe the word, never guess at who uses it or
+    where it came from — and every one of them has been read back and audited
+    against the definition it sits under.
+  </p>
+  <p class="linkrow">
+    <a href="https://github.com/Roviicc/ColorDict/blob/main/docs/DICTIONARY-DATA.md" rel="noopener">Sources and licences</a>
+    <a href="https://github.com/Roviicc/ColorDict/blob/main/docs/DICTIONARY-PLAN.md" rel="noopener">How it is built</a>
+  </p>
+</section>
+
+<section class="wrap">
+  <h2>Adding more dictionaries</h2>
+  <p>
+    Beyond the built-in dictionary, the app reads any dictionary in StarDict
+    format, and plenty are free to download — conversions of WordNet, FreeDict,
+    Wiktionary and more.
     In the app open <strong>⋮ → Dictionaries → Import dictionary files…</strong>
     and pick the files, or import a whole folder at once.
   </p>
@@ -132,8 +175,11 @@ cd ColorDict
   <div class="wrap">
     <p>
       MIT licensed. An independent open-source project inspired by the classic
-      ColorDict app — not affiliated with or endorsed by its authors.
+      ColorDict app — not affiliated with or endorsed by its authors. The source
+      repository is still named <code>ColorDict</code>.
       "StarDict" refers to the open dictionary file format.
+      Dictionary data derives from Open English WordNet (CC BY 4.0) and
+      SentiWordNet 3.0 (CC BY-SA 4.0).
     </p>
   </div>
 </footer>

@@ -1,6 +1,6 @@
 # Download site
 
-A static page that offers the latest APK. It is plain HTML, CSS and one small
+The download page for **Pop Up Dictionary**, offering the latest APK. It is plain HTML, CSS and one small
 script — no framework, no build step, nothing to install.
 
 The download button is filled in at page load from the
