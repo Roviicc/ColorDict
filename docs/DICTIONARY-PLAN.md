@@ -384,9 +384,11 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-09-02 | **Census 002: 3.8%, blind, and the gate passes.** All 927 senses read by sixteen Fable 5.1 readers with no sight of the corpus's history. The split is the finding: 2.6% where census 001 swept, 8.8% in the 171 senses its `--exclude` logic skipped. 41 senses repaired. See 11.70 |
 | 2026-09-02 | **The instrument is version-controlled.** `.claude/agents/census-reader.md` pins the reader's model, effort and tool allowlist; `census2_aggregate.py` records all three in the results. A reader with only `Read`/`Write` cannot reach `data/policy/`, so blindness is enforced rather than requested. See 11.62 |
 | 2026-09-02 | **The worklist gets a second gate.** Frequency alone queues neutral adjectives — *finished*, *whole*, *normal* — which a connotation dictionary has nothing to say about. Eligibility is now size ≥ 8 and charged ≥ 70%, then median Zipf. 340 eligible, 303 queued. See 11.62 |
+| 2026-09-02 | **Shard 9 — the first drawn by the tool.** 9 families / 92 senses: ready, inaccurate, sound, accurate, fortunate, best, crucial, reliable, preserved. Median Zipf 4.45–5.06, a band above the hand-picked work. 0 notes flagged by `tone_lint.py`, the first shard to come in clean. Authored by Opus 5; the blind read is owed. See 11.62 |
 
-**Current totals: 63 families, 781 annotated senses, 922 reviewed entries,
-0 validation errors, measured error rate 3.8% (census 002, blind)** — including 145 adverb senses inherited for free, and 11
+**Current totals: 72 families, 884 annotated senses, 1,035 reviewed entries,
+0 validation errors, measured error rate 3.8% (census 002, blind, and not yet
+covering shard 9)** — including 155 adverb senses inherited for free, and 11
 senses deliberately left `derived` because their gloss cannot carry a
 judgement. **The validator's zero errors mean well-formed, not correct: the
 audit is the only thing that measures correct. Every claim-carrying sense has
@@ -623,6 +625,30 @@ It sits a band above the hand-picked work (4.45–5.06 against a corpus centre o
 3.04), which is the prioritisation the worklist was built for and never
 delivered: these are commoner words than the ones annotated so far, and still
 charged enough to be worth a note.
+
+Annotated 2026-09-02: 92 senses, 90 overlay words, 0 validation errors, and
+**0 notes flagged by `tone_lint.py`** — the first shard to come in clean, where
+the eight before it run 1–9%. Two notes were rephrased before applying, both
+tripping the hedge-claim rule on *no one* and *nobody*; neither was a claim
+about speakers, which is the lint behaving as the smoke alarm 11.65 describes.
+
+Three traps in this shard are worth recording, because they are the gloss-binding
+rule doing real work rather than a rule quoted at a writer:
+
+- The *sound* family is glossed entirely on money. *good*, *safe*, *secure* and
+  *healthy* sit there as financial words, and a note about general goodness or
+  bodily health would fail against the gloss printed above it.
+- *happy* in the *fortunate* family is glossed "marked by good fortune", not
+  gladness. The note has to describe luck landing well and say nothing about
+  how anyone feels.
+- *away* and *outside* are glossed as baseball calls. They carry no judgement,
+  so they take charge 0 — the family's charged fraction is a gate on the family,
+  never a quota the members have to fill.
+
+The shard was authored by Opus 5, so the reader stays Fable 5.1 and the split
+that made census 002 credible holds. **The blind read is owed before these 92
+senses count toward a measured rate**; the 3.8% in the totals above was measured
+on the corpus as it stood before them.
 
 ## 11.65 Audit 001 — the sampled audit, and what it found
 
