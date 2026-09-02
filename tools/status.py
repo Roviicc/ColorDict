@@ -21,6 +21,7 @@ import json
 import re
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -41,6 +42,79 @@ def rule(title):
     print("\n" + "=" * 66)
     print(title)
     print("=" * 66)
+
+
+LOCKS = (".git/index.lock", ".git/HEAD.lock", ".git/config.lock",
+         ".git/objects/maintenance.lock", ".git/packed-refs.lock")
+STALE_AFTER = 15 * 60  # a real git operation does not hold a lock this long
+
+
+def git_running():
+    """True / False / None when we cannot tell."""
+    try:
+        out = subprocess.run(["tasklist"], capture_output=True, text=True, timeout=30)
+    except (OSError, subprocess.SubprocessError):
+        return None
+    if out.returncode != 0:
+        return None
+    return any(line.lower().startswith("git") for line in out.stdout.splitlines())
+
+
+def find_locks():
+    """Every stale-able lock in the repo, with its age in seconds."""
+    found = []
+    for rel in LOCKS:
+        f = ROOT / rel
+        if f.exists():
+            found.append((rel, time.time() - f.stat().st_mtime))
+    for f in (ROOT / ".git/refs").rglob("*.lock"):
+        found.append((str(f.relative_to(ROOT)).replace("\\", "/"),
+                      time.time() - f.stat().st_mtime))
+    return sorted(found)
+
+
+def lock_state(clear):
+    """Orphaned lock files, which is how this repo fails.
+
+    A session was terminated one second after its final commit, during git's
+    automatic post-commit maintenance, and left index.lock, HEAD.lock and
+    objects/maintenance.lock behind within three seconds of each other. The
+    repo was entirely consistent - only the janitorial step was skipped - but
+    every later git operation that touches the index dies with "Another git
+    process seems to be running", including a plain checkout.
+
+    A lock with no git process behind it is by definition orphaned. Reporting
+    is the default; clearing is opt-in, because deleting a lock out from under
+    a LIVE git process is how an index actually gets corrupted.
+    """
+    locks = find_locks()
+    if not locks:
+        print("locks             : none")
+        return
+    running = git_running()
+    label = {True: "YES", False: "no", None: "unknown"}[running]
+    print("locks             : %d present, git process running: %s" % (len(locks), label))
+    for rel, age in locks:
+        mins = age / 60.0
+        state = "stale" if (age > STALE_AFTER and running is False) else "recent/live"
+        print("                    %-34s %6.1f min  %s" % (rel, mins, state))
+    stale = [rel for rel, age in locks if age > STALE_AFTER]
+    if not stale:
+        print("                    a lock this fresh may be a live operation - wait, do not delete")
+        return
+    if running:
+        print("                    ** git IS running - do NOT delete these, wait for it **")
+        return
+    if clear:
+        for rel in stale:
+            try:
+                (ROOT / rel).unlink()
+                print("                    cleared %s" % rel)
+            except OSError as exc:
+                print("                    could not clear %s: %s" % (rel, exc))
+    else:
+        print("                    ** ORPHANED - no git process. Clear with: **")
+        print("                    python tools/status.py --clear-stale-locks")
 
 
 def git_state():
@@ -200,10 +274,14 @@ def lint_state():
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--quick", action="store_true", help="skip validation")
+    ap.add_argument("--clear-stale-locks", action="store_true",
+                    help="delete lock files older than 15 min when no git process is "
+                         "running; never touches a lock a live process may own")
     args = ap.parse_args()
 
     print("ColorDict - measured state, not remembered state")
     git_state()
+    lock_state(args.clear_stale_locks)
     corpus_state(args.quick)
     queue_state()
     census_state()

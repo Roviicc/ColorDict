@@ -349,6 +349,21 @@ asked for.
 
 ## 6. Things that will bite you
 
+- **A dead session leaves git locks behind, and every later git command fails.**
+  On 2 Sep a session was terminated one second after its final commit, during
+  git's automatic post-commit maintenance, leaving `index.lock`, `HEAD.lock` and
+  `objects/maintenance.lock` orphaned within three seconds of each other. The
+  repo was perfectly consistent — only the janitorial step was skipped — but a
+  plain `git checkout` then died with *"Another git process seems to be
+  running"*. `status.py` now reports lock files with their age and whether a
+  `git` process actually exists; when none does and the lock is over 15 minutes
+  old it is orphaned, and `python tools/status.py --clear-stale-locks` removes
+  it. **Never delete a lock while a git process is alive** — that is how an
+  index gets corrupted, and the tool refuses to do it.
+- **Two sessions, two clocks.** Commits from the sandbox session are stamped in
+  UTC and this machine's are `+08:00`, so foreign commits can look six hours
+  *older* while actually being newer. Anything sorting by commit date will order
+  them wrongly; `git reflog` is the only reliable record of what landed when.
 - **The working tree always looks fully modified.** CRLF/LF mismatch from the
   OneDrive + Windows checkout. `git diff --ignore-all-space --ignore-cr-at-eol`
   shows the real changes. Never `git add -A` — stage explicit paths.

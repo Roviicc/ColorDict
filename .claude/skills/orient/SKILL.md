@@ -58,6 +58,13 @@ method problem, not a batch problem.**
   and `family-author.md`. Never retype a rubric into a prompt — that cost two
   censuses (§11.74, §11.77). To change one: change the file, say so in the plan,
   and treat the next tick as a new baseline. `status.py` warns when they drift.
+- **If git says "Another git process seems to be running", check before you
+  delete.** A terminated session orphans `index.lock` / `HEAD.lock` /
+  `objects/maintenance.lock`. `status.py` prints every lock with its age and
+  whether a `git` process exists; `--clear-stale-locks` removes only those over
+  15 minutes old with no process behind them. A lock with a live process is not
+  stale — wait for it. To update a branch while the index is locked, push
+  ref-to-ref (`git push origin staging:main`), which needs no local checkout.
 - **Never `git add -A`.** CRLF from the OneDrive/Windows checkout makes the tree
   look fully modified. Stage explicit paths; diff with
   `--ignore-all-space --ignore-cr-at-eol`.
