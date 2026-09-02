@@ -77,6 +77,75 @@ RULES = [
 # failure is leaving the word, which the rules above catch directly.
 
 
+
+# --- family-inconsistent -----------------------------------------------------
+# Census 008 found two notes that were right about their gloss and wrong about
+# their family: *ageless* called itself "the one admiring member here" while
+# *everlasting* sat beside it at +1. A reader shown one sense at a time cannot
+# see that, and packets deliberately withhold the family id so readers cannot
+# infer the spectrum instead of reading the gloss. But it needs no reader at
+# all - a claim to be the only approving member of a family is checkable
+# against the siblings' charges.
+
+UNIQUENESS = re.compile(
+    r"\b(?:the\s+(?:one|only|sole)|alone\s+in|uniquely)\b[^.;]{0,60}", re.I)
+
+# The claim has to be ABOUT THE FAMILY. Without this the rule fires on "the one
+# stated" and "the one singled out for favor", where "the one" points at the
+# referent rather than at a position in the spectrum. Backtesting on every shard
+# turned up exactly that: two false positives and one real fault, and requiring
+# a family word keeps the fault and drops both.
+FAMILY_REF = re.compile(
+    r"\b(?:here|member|members|word here|of these|among (?:them|these)|"
+    r"in (?:this|the) (?:set|family|group)|of the (?:set|family|group))\b", re.I)
+
+APPROVING = ("admir", "approv", "prais", "warm", "fond", "affection", "flatter",
+             "complimentary", "celebrat", "esteem")
+DISPARAGING = ("damn", "disparag", "contempt", "scorn", "mock", "deris", "sneer",
+               "belittl", "condemn", "withering", "dismissive")
+
+
+def claimed_polarity(note):
+    """+1 / -1 if the note claims to be the family's ONLY approving or
+    disparaging member, else None. The claim and the evaluative word have to sit
+    in the same clause, so a note that merely uses the word 'admiring' elsewhere
+    is not caught."""
+    m = UNIQUENESS.search(note or "")
+    if not m:
+        return None
+    span = m.group(0)
+    if not FAMILY_REF.search(span):
+        return None
+    span = span.lower()
+    if any(t in span for t in APPROVING):
+        return 1
+    if any(t in span for t in DISPARAGING):
+        return -1
+    return None
+
+
+def family_inconsistent(family):
+    """Notes whose uniqueness claim their own siblings contradict."""
+    members = [m for m in family.get("members", []) if m.get("tone")]
+    pos = sum(1 for m in members if (m.get("charge") or 0) > 0)
+    neg = sum(1 for m in members if (m.get("charge") or 0) < 0)
+    out = []
+    for m in members:
+        want = claimed_polarity(m["tone"])
+        if want is None:
+            continue
+        n = pos if want > 0 else neg
+        if n > 1:
+            side = "approving" if want > 0 else "disparaging"
+            others = [x["word"] for x in members
+                      if x is not m and ((x.get("charge") or 0) > 0) == (want > 0)
+                      and (x.get("charge") or 0) != 0]
+            out.append((m["word"], m["tone"],
+                        f"claims to be the family's only {side} member, but "
+                        f"{n - 1} sibling(s) share that side: {', '.join(others[:4])}"))
+    return out
+
+
 def check(note):
     """Return a list of (rule, matched text, advice) for one note."""
     hits = []
@@ -93,6 +162,18 @@ def notes_from_family_file(path):
         for m in fam["members"]:
             if m.get("tone"):
                 yield f"{fam['id']}/{m['word']}", m["tone"]
+
+
+def family_checks(path):
+    """Per-family checks, which the per-note reader cannot see. Only annotated
+    family files carry the charges these need; overlays do not."""
+    try:
+        data = json.loads(Path(path).read_text(encoding="utf-8"))
+    except (ValueError, OSError):
+        return
+    for fam in data.get("families", []):
+        for word, note, advice in family_inconsistent(fam):
+            yield f"{fam['id']}/{word}", note, advice
 
 
 def notes_from_overlay(path):
@@ -148,6 +229,14 @@ def main():
                     print(f"  {note}")
                     for rule, text, advice in hits:
                         print(f"  -> {rule}: {text!r} - {advice}")
+        if reader is notes_from_family_file:
+            for key, note, advice in family_checks(path):
+                bad += 1
+                per_rule["family-inconsistent"] += 1
+                if not args.quiet:
+                    print(f"\n{Path(path).name}  {key}")
+                    print(f"  {note}")
+                    print(f"  -> family-inconsistent: {advice}")
         total += n
         flagged += bad
         per_source[Path(path).name] = (n, bad)
