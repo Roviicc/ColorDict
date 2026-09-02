@@ -952,12 +952,21 @@ that exclusion. The rule from here: *a repair pass reads everything; only a
 measurement pass may exclude.* Census 001 was a repair pass wearing a
 measurement's exclusion logic.
 
-### Still owed
+### The repairs, re-read blind
 
 The 41 repaired senses were rewritten by the session that read this census's
-results, so they are unverified by the standard this section just applied to
-audit 005. **A one-packet blind re-read of those 41 is owed before they count as
-clean** — a fresh reader, as always, and cheap at that size.
+results, which is the same defect that cost audit 005 its credibility — so they
+were handed straight back out to a fresh Fable 5.1 reader that had seen neither
+the originals nor the repair list, and was told plainly that these notes had
+been through an editing pass and to look for what an editor had talked
+themselves into keeping.
+
+**40 of 40 right, 0 wrong, 0 unsure** (`data/policy/census-002-reread.json`).
+The 35 failing synsets are closed, verified by someone other than the hand that
+fixed them. Nothing is owed on census 002.
+
+The cost of that discipline is one packet, about three minutes and a few cents.
+The cost of skipping it was five days and three audits.
 
 ## 11.7 Possible later work — not scheduled
 
