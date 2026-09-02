@@ -1,0 +1,128 @@
+{
+  "_comment": "Withheld from automated authoring under plan 5.3. Fifteen of sixteen members are glossed 'informal or slang terms for mentally irregular' - balmy, barmy, bats, batty, bonkers, buggy, cracked, crackers, daft, dotty, fruity, haywire, kooky, kookie, loco. Charging them means ranking how much contempt each one carries for people with mental illness, and that grading IS the sensitive judgement rather than a description of it. Manual queue, never auto-drafted. Fourth such family, after held-5.3-deaf, held-5.3-illegitimate and held-5.3-noncivilized.",
+  "_screen_note": "First family the screen flagged that was also real: sensitive_screen.py caught it on the head word 'insane' under mental health. It also flagged weak (on 'lame', glossed 'pathetically lacking in force', not the disability sense) and guilty (on 'at fault', 'blameworthy' and four more, which are culpability words and not aimed at any group). Two false positives against one real find - the intended shape. The draw was still read in full.",
+  "drawn_in": "tick 7 (worklist rank 13)",
+  "families": [
+    {
+      "id": "family-02081496-a",
+      "_head": [
+        "insane"
+      ],
+      "_definition": "afflicted with or characteristic of mental derangement",
+      "members": [
+        {
+          "word": "insane",
+          "synset": "oewn-02081496-a",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "afflicted with or characteristic of mental derangement"
+        },
+        {
+          "word": "balmy",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        },
+        {
+          "word": "barmy",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        },
+        {
+          "word": "bats",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        },
+        {
+          "word": "batty",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        },
+        {
+          "word": "bonkers",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        },
+        {
+          "word": "buggy",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        },
+        {
+          "word": "cracked",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        },
+        {
+          "word": "crackers",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        },
+        {
+          "word": "daft",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        },
+        {
+          "word": "dotty",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        },
+        {
+          "word": "fruity",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        },
+        {
+          "word": "haywire",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        },
+        {
+          "word": "kooky",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        },
+        {
+          "word": "kookie",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        },
+        {
+          "word": "loco",
+          "synset": "oewn-02082059-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "informal or slang terms for mentally irregular"
+        }
+      ]
+    }
+  ]
+}

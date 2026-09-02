@@ -1,0 +1,237 @@
+{
+ "packet": 1,
+ "count": 18,
+ "entries": [
+  {
+   "id": "unskilled.oewn-02236080-a",
+   "word": "unskilled",
+   "definition": "not having or showing or requiring special skill or proficiency",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Classifying rather than condemning - it covers work that asks for no special skill just as evenly as a hand that has none, where *botchy* is already a verdict on the result.",
+   "usage_labels": [],
+   "examples": [
+    "unskilled in the art of rhetoric",
+    "unskilled labor",
+    "workers in unskilled occupations are finding fewer and fewer job opportunities",
+    "unskilled workmanship"
+   ]
+  },
+  {
+   "id": "artless.oewn-02236646-s",
+   "word": "artless",
+   "definition": "showing lack of art",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Names an absence rather than a mess - what is made shows no art in it, which is a thinner charge than the spoilage *botched* points at.",
+   "usage_labels": [],
+   "examples": [
+    "an artless translation"
+   ]
+  },
+  {
+   "id": "botchy.oewn-02236745-s",
+   "word": "botchy",
+   "definition": "poorly done",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Dismissive and slightly contemptuous - the badness is lumpy and visible, something you can see in the thing itself.",
+   "usage_labels": [],
+   "examples": [
+    "a botchy piece of work"
+   ]
+  },
+  {
+   "id": "butcherly.oewn-02236745-s",
+   "word": "butcherly",
+   "definition": "poorly done",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most violent way to call work bad - it makes the poor doing sound like hacking, where *botchy* only makes it look untidy.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unskillful.oewn-02236745-s",
+   "word": "unskillful",
+   "definition": "poorly done",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The flat, unloaded member of its set - it states that the doing fell short of skill and stops, supplying none of the disgust in *butcherly*.",
+   "usage_labels": [],
+   "examples": [
+    "it was an unskillful attempt"
+   ]
+  },
+  {
+   "id": "bungled.oewn-02236946-s",
+   "word": "bungled",
+   "definition": "spoiled through incompetence or clumsiness",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Settles the failure as done and irreversible - the thing was spoiled in the handling and now stands spoiled.",
+   "usage_labels": [],
+   "examples": [
+    "a bungled job"
+   ]
+  },
+  {
+   "id": "botched.oewn-02236946-s",
+   "word": "botched",
+   "definition": "spoiled through incompetence or clumsiness",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Coarser than *bungled* - the spoiling is crude and shows, a wreck left behind rather than a slip.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "bungling.oewn-02237069-s",
+   "word": "bungling",
+   "definition": "showing lack of skill or aptitude",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Turns the ineptitude into a standing quality - not one attempt gone wrong but the manner of the doer.",
+   "usage_labels": [],
+   "examples": [
+    "a bungling workman"
+   ]
+  },
+  {
+   "id": "clumsy.oewn-02237069-s",
+   "word": "clumsy",
+   "definition": "showing lack of skill or aptitude",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The gentlest of its set and the most forgivable - it faults the handling while *incompetent* faults the capacity.",
+   "usage_labels": [],
+   "examples": [
+    "did a clumsy job"
+   ]
+  },
+  {
+   "id": "fumbling.oewn-02237069-s",
+   "word": "fumbling",
+   "definition": "showing lack of skill or aptitude",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Catches the lack of skill in motion - hands groping and losing hold, rather than the finished judgement *incompetent* delivers.",
+   "usage_labels": [],
+   "examples": [
+    "his fumbling attempt to put up a shelf"
+   ]
+  },
+  {
+   "id": "incompetent.oewn-02237069-s",
+   "word": "incompetent",
+   "definition": "showing lack of skill or aptitude",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The formal verdict of the family - it withholds the aptitude altogether, where *clumsy* grants it and blames only the execution.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "crude.oewn-02237329-s",
+   "word": "crude",
+   "definition": "not carefully or expertly made",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Faults the making as unrefined and hastily finished, an aesthetic complaint rather than the flat incapacity of *incompetent*.",
+   "usage_labels": [],
+   "examples": [
+    "managed to make a crude splint",
+    "a crude cabin of logs with bark still on them"
+   ]
+  },
+  {
+   "id": "rough.oewn-02237329-s",
+   "word": "rough",
+   "definition": "not carefully or expertly made",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The mildest complaint available about workmanship - it concedes the care was not taken while leaving *crude* to sound the note of coarseness.",
+   "usage_labels": [],
+   "examples": [
+    "rough carpentry"
+   ]
+  },
+  {
+   "id": "hopeless.oewn-02237557-s",
+   "word": "hopeless",
+   "definition": "of a person unable to do something skillfully",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Aimed at the person and not the product, it writes off the ability rather than the attempt, with an exasperation that can shade into fondness.",
+   "usage_labels": [],
+   "examples": [
+    "I'm hopeless at mathematics"
+   ]
+  },
+  {
+   "id": "unnoticed.oewn-01612846-a",
+   "word": "unnoticed",
+   "definition": "not noticed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flat baseline of the family - it records only that notice did not happen, imputing no fault to anyone and no claim on attention to the thing itself.",
+   "usage_labels": [],
+   "examples": [
+    "hoped his departure had passed unnoticed"
+   ]
+  },
+  {
+   "id": "disregarded.oewn-01613047-s",
+   "word": "disregarded",
+   "definition": "not noticed inadvertently",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "In this sense the passing-over is accidental, so the word marks a lapse rather than a snub.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "forgotten.oewn-01613047-s",
+   "word": "forgotten",
+   "definition": "not noticed inadvertently",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The same inadvertent lapse as *disregarded*, but it implies the thing once held attention and lost it, which leaves a faint diminishment on it.",
+   "usage_labels": [],
+   "examples": [
+    "her aching muscles forgotten she danced all night",
+    "he was scolded for his forgotten chores"
+   ]
+  },
+  {
+   "id": "ignored.oewn-01613238-s",
+   "word": "ignored",
+   "definition": "disregarded",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The one where withholding attention reads as chosen - a snub rather than an oversight, and the sting sits in that choice.",
+   "usage_labels": [],
+   "examples": [
+    "her ignored advice"
+   ]
+  }
+ ]
+}

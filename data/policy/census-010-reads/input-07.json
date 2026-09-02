@@ -1,0 +1,230 @@
+{
+ "packet": 7,
+ "count": 18,
+ "entries": [
+  {
+   "id": "at_fault.oewn-01324381-s",
+   "word": "at fault",
+   "definition": "deserving blame",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Mildest of the blame words, locating blame without characterising the deed, where *guilty* already calls the act reprehensible.",
+   "usage_labels": [],
+   "examples": [
+    "admitted to being at fault"
+   ]
+  },
+  {
+   "id": "blameworthy.oewn-01324481-s",
+   "word": "blameworthy",
+   "definition": "deserving blame or censure as being wrong or evil or injurious",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Weighs the deed and finds it has earned censure, a considered verdict rather than *at fault*'s bare attribution.",
+   "usage_labels": [],
+   "examples": [
+    "blameworthy if not criminal behavior"
+   ]
+  },
+  {
+   "id": "blamable.oewn-01324481-s",
+   "word": "blamable",
+   "definition": "deserving blame or censure as being wrong or evil or injurious",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Flat and formal, stating only that blame may properly be laid, without *blameworthy*'s sense that the deed went out and earned it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "blameable.oewn-01324481-s",
+   "word": "blameable",
+   "definition": "deserving blame or censure as being wrong or evil or injurious",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Equally impersonal, taking the wrong, the evil and the merely injurious alike without changing temperature.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "blameful.oewn-01324481-s",
+   "word": "blameful",
+   "definition": "deserving blame or censure as being wrong or evil or injurious",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the blame inside the thing as a quality it is full of, where *blameworthy* says only that blame is deserved.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "censurable.oewn-01324481-s",
+   "word": "censurable",
+   "definition": "deserving blame or censure as being wrong or evil or injurious",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Pitches the fault toward reproof that could be pronounced out loud, the most public-facing of these.",
+   "usage_labels": [],
+   "examples": [
+    "censurable misconduct"
+   ]
+  },
+  {
+   "id": "culpable.oewn-01324481-s",
+   "word": "culpable",
+   "definition": "deserving blame or censure as being wrong or evil or injurious",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The coolest of these, recording fault as a determination, which is why it sits as easily on the injurious as on the evil.",
+   "usage_labels": [],
+   "examples": [
+    "culpable negligence"
+   ]
+  },
+  {
+   "id": "bloodguilty.oewn-01324891-s",
+   "word": "bloodguilty",
+   "definition": "guilty of murder or bloodshed",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The gravest here - guilt of killing rather than of a misdeed, and the word treats it as a stain carried rather than a charge answered.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "chargeable.oewn-01324996-s",
+   "word": "chargeable",
+   "definition": "liable to be accused, or cause for such liability",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Neutral and procedural, recording exposure to accusation and resting as readily on the cause as on the person, so it asserts no wrong.",
+   "usage_labels": [],
+   "examples": [
+    "the suspect was chargeable"
+   ]
+  },
+  {
+   "id": "indictable.oewn-01324996-s",
+   "word": "indictable",
+   "definition": "liable to be accused, or cause for such liability",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Weights that same liability toward formal accusation, sounding graver than *chargeable* while claiming no more guilt.",
+   "usage_labels": [],
+   "examples": [
+    "an indictable offense"
+   ]
+  },
+  {
+   "id": "conscience-smitten.oewn-01325188-s",
+   "word": "conscience-smitten",
+   "definition": "affected by conscience",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The one inward member, guilt felt from inside rather than laid on from outside, with the conscience itself doing the striking.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "criminal.oewn-01325275-s",
+   "word": "criminal",
+   "definition": "guilty of crime or serious offense",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Hard and total, making the wrongdoing a category the person belongs to, and it reaches past crime proper to any serious offense.",
+   "usage_labels": [],
+   "examples": [
+    "criminal in the sight of God and man"
+   ]
+  },
+  {
+   "id": "delinquent.oewn-01325440-s",
+   "word": "delinquent",
+   "definition": "guilty of a misdeed",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Lighter than *criminal* by the size of the deed, chiding a misdeed rather than condemning a crime.",
+   "usage_labels": [],
+   "examples": [
+    "delinquent minors"
+   ]
+  },
+  {
+   "id": "finable.oewn-01325573-s",
+   "word": "finable",
+   "definition": "liable to a fine",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely procedural, measuring the offence as money owed and judging the offender not at all.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "fineable.oewn-01325573-s",
+   "word": "fineable",
+   "definition": "liable to a fine",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "As bloodless as *finable* - a penalty attaches, and nothing is said about the wrong or the wrongdoer.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "cold.oewn-01260684-a",
+   "word": "cold",
+   "definition": "extended meanings; especially of psychological coldness; without human warmth or emotion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The flat, unfigured term for the whole condition, naming the missing human warmth without deciding whether it is a settled nature or a rebuff aimed at someone.",
+   "usage_labels": [],
+   "examples": [
+    "a cold unfriendly nod",
+    "a cold and unaffectionate person",
+    "a cold impersonal manner",
+    "cold logic",
+    "the concert left me cold"
+   ]
+  },
+  {
+   "id": "emotionless.oewn-01261062-s",
+   "word": "emotionless",
+   "definition": "unmoved by feeling",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Near-clinical: it reports feeling as simply absent from the person, with none of the unfriendliness *icy* points at a target.",
+   "usage_labels": [],
+   "examples": [
+    "he kept his emotionless objectivity and faith in the cause he served"
+   ]
+  },
+  {
+   "id": "passionless.oewn-01261062-s",
+   "word": "passionless",
+   "definition": "unmoved by feeling",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Where *emotionless* records no feeling at all, this faults a missing ardour, the flatness of something that ought to have had fire in it.",
+   "usage_labels": [],
+   "examples": [
+    "this passionless girl was like an icicle in the sunshine"
+   ]
+  }
+ ]
+}

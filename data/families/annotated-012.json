@@ -1,2539 +1,2539 @@
 {
- "batch": "draft-012",
- "families": [
-  {
-   "id": "family-02505035-a",
-   "axis": "a thing handled wrongly → a person wholly cast as the victim of it",
-   "_head": [
-    "misused"
-   ],
-   "_definition": "used incorrectly or carelessly or for an improper purpose",
-   "anchors": [
-    "misused",
-    "abused",
-    "exploited",
-    "ill-used",
-    "put-upon",
-    "used"
-   ],
-   "members": [
+  "batch": "draft-012",
+  "families": [
     {
-     "word": "misused",
-     "synset": "oewn-02505035-a",
-     "charge": -1,
-     "tone": "The flattest of these - it faults the handling, whether careless or deliberate, without yet accusing anyone of cruelty.",
-     "_gloss": "used incorrectly or carelessly or for an improper purpose"
+      "id": "family-02505035-a",
+      "axis": "a thing handled wrongly → a person wholly cast as the victim of it",
+      "_head": [
+        "misused"
+      ],
+      "_definition": "used incorrectly or carelessly or for an improper purpose",
+      "anchors": [
+        "misused",
+        "abused",
+        "exploited",
+        "ill-used",
+        "put-upon",
+        "used"
+      ],
+      "members": [
+        {
+          "word": "misused",
+          "synset": "oewn-02505035-a",
+          "charge": -1,
+          "tone": "The flattest of these - it faults the handling, whether careless or deliberate, without yet accusing anyone of cruelty.",
+          "_gloss": "used incorrectly or carelessly or for an improper purpose"
+        },
+        {
+          "word": "abused",
+          "synset": "oewn-02505253-s",
+          "charge": -2,
+          "tone": "Harder than *misused* because excess joins impropriety - the fault lies in how much as well as how, drugs squarely included.",
+          "_gloss": "used improperly or excessively especially drugs"
+        },
+        {
+          "word": "exploited",
+          "synset": "oewn-02505376-s",
+          "charge": -2,
+          "tone": "Cold and calculating beside *ill-used* - it implies someone drew profit from the person, and names the gain rather than the hurt.",
+          "_gloss": "(of persons) taken advantage of"
+        },
+        {
+          "word": "ill-used",
+          "synset": "oewn-02505376-s",
+          "charge": -2,
+          "tone": "Formal and plain-spoken - a verdict that a wrong was done, without *exploited*'s implication that anyone gained by it.",
+          "_gloss": "(of persons) taken advantage of"
+        },
+        {
+          "word": "put-upon",
+          "synset": "oewn-02505376-s",
+          "charge": -1,
+          "tone": "Informal, and the only one of these that shows the wrong from the sufferer's side - the person is imposed on and visibly feels it, where *ill-used* and *exploited* merely report what was done to them.",
+          "_gloss": "(of persons) taken advantage of"
+        },
+        {
+          "word": "used",
+          "synset": "oewn-02505376-s",
+          "charge": -2,
+          "tone": "Bare and cutting - the unmodified participle reduces the person to an instrument, saying far less than *exploited* and landing colder for it.",
+          "_gloss": "(of persons) taken advantage of"
+        },
+        {
+          "word": "victimized",
+          "synset": "oewn-02505376-s",
+          "charge": -3,
+          "tone": "The strongest of the set - it does not merely report the wrong but makes the person's whole standing consist in having suffered it.",
+          "_gloss": "(of persons) taken advantage of"
+        },
+        {
+          "word": "victimised",
+          "synset": "oewn-02505376-s",
+          "charge": -3,
+          "tone": "British spelling of *victimized*, and it carries the same total verdict - the person defined by the wrong rather than merely subjected to it.",
+          "_gloss": "(of persons) taken advantage of"
+        }
+      ]
     },
     {
-     "word": "abused",
-     "synset": "oewn-02505253-s",
-     "charge": -2,
-     "tone": "Harder than *misused* because excess joins impropriety - the fault lies in how much as well as how, drugs squarely included.",
-     "_gloss": "used improperly or excessively especially drugs"
+      "id": "family-01453748-a",
+      "axis": "a rescue merely absent → damnation pronounced and the ruin complete",
+      "_head": [
+        "lost"
+      ],
+      "_definition": "spiritually or physically doomed or destroyed",
+      "anchors": [
+        "lost",
+        "cursed",
+        "damned",
+        "doomed",
+        "unredeemed",
+        "unsaved"
+      ],
+      "members": [
+        {
+          "word": "lost",
+          "synset": "oewn-01453748-a",
+          "charge": -1,
+          "tone": "The softest of these condemnations - it states the doom as a settled condition without naming who or what condemned, where *damned* pronounces the sentence.",
+          "_gloss": "spiritually or physically doomed or destroyed"
+        },
+        {
+          "word": "cursed",
+          "synset": "oewn-01454004-s",
+          "charge": -2,
+          "tone": "Lays the peril on the subject from outside, as something worked upon them, where *unsaved* reports only a lack.",
+          "_gloss": "in danger of the eternal punishment of Hell"
+        },
+        {
+          "word": "damned",
+          "synset": "oewn-01454004-s",
+          "charge": -3,
+          "tone": "The verdict pronounced outright, naming the punishment rather than circling it - heavier than *doomed*, which only fixes the outcome.",
+          "_gloss": "in danger of the eternal punishment of Hell"
+        },
+        {
+          "word": "doomed",
+          "synset": "oewn-01454004-s",
+          "charge": -2,
+          "tone": "Settles the peril as fate already fixed, condemning without a condemner, where *cursed* implies something laid it on.",
+          "_gloss": "in danger of the eternal punishment of Hell"
+        },
+        {
+          "word": "unredeemed",
+          "synset": "oewn-01454004-s",
+          "charge": -1,
+          "tone": "Formal and abstract - an account left unsettled rather than a sentence passed, so it lands well short of *damned*.",
+          "_gloss": "in danger of the eternal punishment of Hell"
+        },
+        {
+          "word": "unsaved",
+          "synset": "oewn-01454004-s",
+          "charge": -1,
+          "tone": "The flattest way to state the danger, a bare absence of rescue where *damned* is an active condemnation.",
+          "_gloss": "in danger of the eternal punishment of Hell"
+        },
+        {
+          "word": "destroyed",
+          "synset": "oewn-01454181-s",
+          "charge": -3,
+          "tone": "Absolute - the wreck, physical or moral, is already complete, where *doomed* leaves it still ahead.",
+          "_gloss": "destroyed physically or morally"
+        },
+        {
+          "word": "ruined",
+          "synset": "oewn-01454181-s",
+          "charge": -2,
+          "tone": "Keeps the aftermath in view, something once whole now spoiled, a shade less final than *destroyed*.",
+          "_gloss": "destroyed physically or morally"
+        }
+      ]
     },
     {
-     "word": "exploited",
-     "synset": "oewn-02505376-s",
-     "charge": -2,
-     "tone": "Cold and calculating beside *ill-used* - it implies someone drew profit from the person, and names the gain rather than the hurt.",
-     "_gloss": "(of persons) taken advantage of"
+      "id": "family-00036594-a",
+      "axis": "plain absence of activity → slackness treated as a fault",
+      "_head": [
+        "inactive"
+      ],
+      "_definition": "lacking activity; lying idle or unused",
+      "anchors": [
+        "inactive",
+        "dark",
+        "dead",
+        "dull",
+        "slow",
+        "sluggish"
+      ],
+      "members": [
+        {
+          "word": "inactive",
+          "synset": "oewn-00036594-a",
+          "charge": 0,
+          "tone": "The flat, unmarked term for the state, reporting that nothing is going on without suggesting anything is wrong with that.",
+          "_gloss": "lacking activity; lying idle or unused"
+        },
+        {
+          "word": "dark",
+          "synset": "oewn-00036876-s",
+          "charge": 0,
+          "tone": "States a closure as a plain condition — nothing is being put on — where *dead* would make the emptiness itself the verdict.",
+          "_gloss": "not giving performances; closed"
+        },
+        {
+          "word": "dead",
+          "synset": "oewn-00036992-s",
+          "charge": -2,
+          "tone": "The absolute form: activity is not merely reduced but gone, which is what carries it past *dull*.",
+          "_gloss": "devoid of activity"
+        },
+        {
+          "word": "dull",
+          "synset": "oewn-00037111-s",
+          "charge": -1,
+          "tone": "Hears the lack of briskness as a flatness worth complaining about, where *slow* only reports the rate.",
+          "_gloss": "(of business) not active or brisk"
+        },
+        {
+          "word": "slow",
+          "synset": "oewn-00037111-s",
+          "charge": -1,
+          "tone": "The mildest of the three, measuring the pace of trade rather than passing judgement on it as *sluggish* does.",
+          "_gloss": "(of business) not active or brisk"
+        },
+        {
+          "word": "sluggish",
+          "synset": "oewn-00037111-s",
+          "charge": -2,
+          "tone": "Adds torpor to the slackness, making the absence of brisk trade sound like something too heavy to move.",
+          "_gloss": "(of business) not active or brisk"
+        },
+        {
+          "word": "idle",
+          "synset": "oewn-00037301-s",
+          "charge": -1,
+          "tone": "Puts a hint of waste on the disuse — something capable of working and sitting there instead — which *unused* does not.",
+          "_gloss": "not in active use"
+        },
+        {
+          "word": "unused",
+          "synset": "oewn-00037301-s",
+          "charge": 0,
+          "tone": "Purely factual: it records that the thing is not in use and stops, with none of the reproach in *idle*.",
+          "_gloss": "not in active use"
+        },
+        {
+          "word": "strikebound",
+          "synset": "oewn-00037454-s",
+          "charge": 0,
+          "tone": "Names the cause along with the standstill, so it attributes rather than evaluates the stoppage.",
+          "_gloss": "closed or immobilized by a strike"
+        }
+      ]
     },
     {
-     "word": "ill-used",
-     "synset": "oewn-02505376-s",
-     "charge": -2,
-     "tone": "Formal and plain-spoken - a verdict that a wrong was done, without *exploited*'s implication that anyone gained by it.",
-     "_gloss": "(of persons) taken advantage of"
+      "id": "family-01568466-a",
+      "axis": "not currently moving → held absolutely immobile",
+      "_head": [
+        "nonmoving",
+        "unmoving"
+      ],
+      "_definition": "not in motion",
+      "anchors": [
+        "nonmoving",
+        "unmoving",
+        "inactive",
+        "motionless",
+        "static",
+        "still"
+      ],
+      "members": [
+        {
+          "word": "nonmoving",
+          "synset": "oewn-01568466-a",
+          "charge": 0,
+          "tone": "The bare denial - it states only that motion is absent, with none of the held-in-place force of *fixed*.",
+          "_gloss": "not in motion"
+        },
+        {
+          "word": "unmoving",
+          "synset": "oewn-01568466-a",
+          "charge": 0,
+          "tone": "More observational than *nonmoving*, describing a thing seen not to move rather than classifying it as one that does not.",
+          "_gloss": "not in motion"
+        },
+        {
+          "word": "inactive",
+          "synset": "oewn-01568708-s",
+          "charge": 0,
+          "tone": "On this sense it reports only that a thing is not physically moving, carrying none of the completeness of *motionless*.",
+          "_gloss": "not in physical motion"
+        },
+        {
+          "word": "motionless",
+          "synset": "oewn-01568708-s",
+          "charge": 0,
+          "tone": "Complete and picture-like - a body wholly without movement, where *inactive* merely records that none is occurring.",
+          "_gloss": "not in physical motion"
+        },
+        {
+          "word": "static",
+          "synset": "oewn-01568708-s",
+          "charge": 0,
+          "tone": "Cool and near-technical, framing stillness as a standing condition of the thing rather than a moment of it as *motionless* does.",
+          "_gloss": "not in physical motion"
+        },
+        {
+          "word": "still",
+          "synset": "oewn-01568708-s",
+          "charge": 0,
+          "tone": "The plainest and calmest member - stillness as quiet, not as the arrest that *frozen* implies.",
+          "_gloss": "not in physical motion"
+        },
+        {
+          "word": "becalmed",
+          "synset": "oewn-01568905-s",
+          "charge": 0,
+          "tone": "Carries its cause with it - the wind has failed, so the stillness is suffered rather than held, which plain *motionless* leaves open.",
+          "_gloss": "rendered motionless for lack of wind"
+        },
+        {
+          "word": "fixed",
+          "synset": "oewn-01568996-s",
+          "charge": 0,
+          "tone": "Stillness with something holding it there - not merely unmoving but pinned, which *still* never implies.",
+          "_gloss": "fixed and unmoving"
+        },
+        {
+          "word": "set",
+          "synset": "oewn-01568996-s",
+          "charge": 0,
+          "tone": "Blunter and more settled than *fixed*, suggesting a position taken and no longer open to adjustment.",
+          "_gloss": "fixed and unmoving"
+        },
+        {
+          "word": "rigid",
+          "synset": "oewn-01568996-s",
+          "charge": 0,
+          "tone": "Adds stiffness to the fixity - it does not move because it will not bend, where *fixed* says only that it is held.",
+          "_gloss": "fixed and unmoving"
+        },
+        {
+          "word": "frozen",
+          "synset": "oewn-01569274-s",
+          "charge": 0,
+          "tone": "The stillness of a sudden stop - motion arrested mid-course rather than never begun, unlike *stationary*.",
+          "_gloss": "absolutely still"
+        },
+        {
+          "word": "rooted",
+          "synset": "oewn-01569274-s",
+          "charge": 0,
+          "tone": "Stillness as being held fast from below - immovable rather than simply halted like *frozen*.",
+          "_gloss": "absolutely still"
+        },
+        {
+          "word": "stock-still",
+          "synset": "oewn-01569274-s",
+          "charge": 0,
+          "tone": "The most emphatic way to say it - total, unqualified stillness, without the sense of arrest in *frozen*.",
+          "_gloss": "absolutely still"
+        },
+        {
+          "word": "inert",
+          "synset": "oewn-01569431-s",
+          "charge": -1,
+          "tone": "Names an incapacity rather than a state - the thing cannot move or push back, which *motionless* never claims.",
+          "_gloss": "unable to move or resist motion"
+        },
+        {
+          "word": "sitting",
+          "synset": "oewn-01569532-s",
+          "charge": -1,
+          "tone": "Stillness read as exposure - it puts a target on whatever it describes, which no other member of the family does.",
+          "_gloss": "not moving and therefore easy to attack"
+        },
+        {
+          "word": "stationary",
+          "synset": "oewn-01569645-s",
+          "charge": 0,
+          "tone": "Neutral and positional - stillness as where a thing stands, not something done to it as in *becalmed*.",
+          "_gloss": "standing still"
+        }
+      ]
     },
     {
-     "word": "put-upon",
-     "synset": "oewn-02505376-s",
-     "charge": -1,
-     "tone": "Informal and the mildest here - imposition rather than injury, and it lets the aggrieved feeling of the person show through.",
-     "_gloss": "(of persons) taken advantage of"
+      "id": "family-02346685-a",
+      "axis": "flat statement of rank → superiority worn as a manner",
+      "_head": [
+        "superior"
+      ],
+      "_definition": "of or characteristic of high rank or importance",
+      "anchors": [
+        "superior",
+        "arch",
+        "condescending",
+        "patronizing",
+        "patronising",
+        "eminent"
+      ],
+      "members": [
+        {
+          "word": "superior",
+          "synset": "oewn-02346685-a",
+          "charge": 0,
+          "tone": "The family's plain baseline - it states high rank or importance and leaves the verdict to the reader, where *eminent* already admires.",
+          "_gloss": "of or characteristic of high rank or importance"
+        },
+        {
+          "word": "arch",
+          "synset": "oewn-02346987-s",
+          "charge": -1,
+          "tone": "The lightest of the condescension words - superiority worn as a knowing manner rather than pressed on anyone, though it is still looking down.",
+          "_gloss": "(used of behavior or attitude) characteristic of those who treat others with condescension"
+        },
+        {
+          "word": "condescending",
+          "synset": "oewn-02346987-s",
+          "charge": -2,
+          "tone": "Names the fault flatly: a manner that puts the other person below, without the play in *arch*.",
+          "_gloss": "(used of behavior or attitude) characteristic of those who treat others with condescension"
+        },
+        {
+          "word": "patronizing",
+          "synset": "oewn-02346987-s",
+          "charge": -2,
+          "tone": "The most accusing word for the same attitude - it makes the condescension something done to someone, and expects the reader to object.",
+          "_gloss": "(used of behavior or attitude) characteristic of those who treat others with condescension"
+        },
+        {
+          "word": "patronising",
+          "synset": "oewn-02346987-s",
+          "charge": -2,
+          "tone": "The British spelling of *patronizing*, and it gives up none of the reproach.",
+          "_gloss": "(used of behavior or attitude) characteristic of those who treat others with condescension"
+        },
+        {
+          "word": "eminent",
+          "synset": "oewn-02347190-s",
+          "charge": 2,
+          "tone": "Approving - the height is in quality as much as position, where *high-ranking* only marks the rung.",
+          "_gloss": "standing above others in quality or position"
+        },
+        {
+          "word": "high",
+          "synset": "oewn-02347190-s",
+          "charge": 1,
+          "tone": "The barest way to say the same standing - elevation without the honour *eminent* confers.",
+          "_gloss": "standing above others in quality or position"
+        },
+        {
+          "word": "leading",
+          "synset": "oewn-02347411-s",
+          "charge": 2,
+          "tone": "Puts the subject at the front of the field, and does it in a level, unceremonious voice beside *preeminent*.",
+          "_gloss": "greatest in importance or degree or significance or achievement"
+        },
+        {
+          "word": "preeminent",
+          "synset": "oewn-02347411-s",
+          "charge": 3,
+          "tone": "The strongest praise here - greatness set far enough above the rest that comparison stops mattering.",
+          "_gloss": "greatest in importance or degree or significance or achievement"
+        },
+        {
+          "word": "high-level",
+          "synset": "oewn-02347647-s",
+          "charge": 0,
+          "tone": "Neutral placement: it states elevation in rank or importance and passes no judgement on whoever occupies it.",
+          "_gloss": "at an elevated level in rank or importance"
+        },
+        {
+          "word": "high-ranking",
+          "synset": "oewn-02347647-s",
+          "charge": 0,
+          "tone": "Blunter than *eminent* - elevation as a plain fact of rank, with none of the lustre.",
+          "_gloss": "at an elevated level in rank or importance"
+        },
+        {
+          "word": "upper-level",
+          "synset": "oewn-02347647-s",
+          "charge": 0,
+          "tone": "The most colourless of the three - elevation reduced to a tier, with no suggestion of merit.",
+          "_gloss": "at an elevated level in rank or importance"
+        },
+        {
+          "word": "majestic",
+          "synset": "oewn-02347861-s",
+          "charge": 2,
+          "tone": "Awed rather than merely approving - the superiority sits in the bearing, and it lifts the subject clear of ordinary concerns.",
+          "_gloss": "majestic in manner or bearing; superior to mundane matters"
+        },
+        {
+          "word": "olympian",
+          "synset": "oewn-02347861-s",
+          "charge": 2,
+          "tone": "Cooler and more remote than *majestic* - the loftiness reads as untouched by mundane things rather than warmly grand.",
+          "_gloss": "majestic in manner or bearing; superior to mundane matters"
+        },
+        {
+          "word": "superordinate",
+          "synset": "oewn-02348073-s",
+          "charge": 0,
+          "tone": "Technical and relational - it fixes one thing above another in an order and carries neither warmth nor reproach.",
+          "_gloss": "of higher rank or status or value"
+        },
+        {
+          "word": "upper",
+          "synset": "oewn-02348166-s",
+          "charge": 0,
+          "tone": "The shortest term here for standing above, registering the position without any of the admiration in *eminent*.",
+          "_gloss": "superior in rank or accomplishment"
+        }
+      ]
     },
     {
-     "word": "used",
-     "synset": "oewn-02505376-s",
-     "charge": -2,
-     "tone": "Bare and cutting - the unmodified participle reduces the person to an instrument, saying far less than *exploited* and landing colder for it.",
-     "_gloss": "(of persons) taken advantage of"
+      "id": "family-00682414-a",
+      "axis": "damage named with contempt → damage merely recorded",
+      "_head": [
+        "damaged"
+      ],
+      "_definition": "harmed or injured or spoiled",
+      "anchors": [
+        "damaged",
+        "battered",
+        "beat-up",
+        "beaten-up",
+        "bedraggled",
+        "broken-down"
+      ],
+      "members": [
+        {
+          "word": "damaged",
+          "synset": "oewn-00682414-a",
+          "charge": 0,
+          "tone": "The family's flat baseline: harm has occurred, and the word passes no verdict on the state it left, where *dilapidated* passes little else.",
+          "_gloss": "harmed or injured or spoiled"
+        },
+        {
+          "word": "battered",
+          "synset": "oewn-00682829-s",
+          "charge": -1,
+          "tone": "Puts the cause inside the word - blows and hard usage - where *damaged* leaves the cause blank.",
+          "_gloss": "damaged by blows or hard usage"
+        },
+        {
+          "word": "beat-up",
+          "synset": "oewn-00682829-s",
+          "charge": -1,
+          "tone": "Informal where *battered* is neutral in register, treating the same hard usage as something to shrug at rather than record.",
+          "_gloss": "damaged by blows or hard usage"
+        },
+        {
+          "word": "beaten-up",
+          "synset": "oewn-00682829-s",
+          "charge": -1,
+          "tone": "The fuller form of *beat-up*, equally informal, with a little more of the beating still audible in it.",
+          "_gloss": "damaged by blows or hard usage"
+        },
+        {
+          "word": "bedraggled",
+          "synset": "oewn-00682984-s",
+          "charge": -2,
+          "tone": "Wears the deplorable condition on the surface, making it look pitiable rather than shameful, where *derelict* makes it a reproach.",
+          "_gloss": "in deplorable condition"
+        },
+        {
+          "word": "broken-down",
+          "synset": "oewn-00682984-s",
+          "charge": -2,
+          "tone": "Names the deplorable state as something that has given way, plainer and more mechanical than *tatterdemalion*.",
+          "_gloss": "in deplorable condition"
+        },
+        {
+          "word": "derelict",
+          "synset": "oewn-00682984-s",
+          "charge": -2,
+          "tone": "Condemning rather than descriptive - the deplorable state reads as neglect that was allowed to happen, where *dented* is only a fact about a shape.",
+          "_gloss": "in deplorable condition"
+        },
+        {
+          "word": "dilapidated",
+          "synset": "oewn-00682984-s",
+          "charge": -2,
+          "tone": "The formal word for the deplorable state, presenting it as advanced and cumulative decay rather than the single mishap *dented* records.",
+          "_gloss": "in deplorable condition"
+        },
+        {
+          "word": "ramshackle",
+          "synset": "oewn-00682984-s",
+          "charge": -2,
+          "tone": "Adds precariousness to the deplorable state - the thing is not merely poor but barely holding together, which *damaged* never implies.",
+          "_gloss": "in deplorable condition"
+        },
+        {
+          "word": "tatterdemalion",
+          "synset": "oewn-00682984-s",
+          "charge": -2,
+          "tone": "The most ornate word in this set, and the flourish makes the contempt sound almost relished beside plain *broken-down*.",
+          "_gloss": "in deplorable condition"
+        },
+        {
+          "word": "tumble-down",
+          "synset": "oewn-00682984-s",
+          "charge": -2,
+          "tone": "Plain-spoken where *tatterdemalion* is ornate, and it leaves the deplorable state one shove from collapse.",
+          "_gloss": "in deplorable condition"
+        },
+        {
+          "word": "bent",
+          "synset": "oewn-00683272-s",
+          "charge": 0,
+          "tone": "Damage as deformation rather than breakage: the shape has gone but not necessarily the use, which *broken* denies outright.",
+          "_gloss": "of metal e.g."
+        },
+        {
+          "word": "crumpled",
+          "synset": "oewn-00683272-s",
+          "charge": 0,
+          "tone": "Deformation taken across the whole of a thing rather than along one line, so it reads as more thorough than *bent* while judging just as little.",
+          "_gloss": "of metal e.g."
+        },
+        {
+          "word": "dented",
+          "synset": "oewn-00683272-s",
+          "charge": 0,
+          "tone": "The most local of these three - one blow's worth of deformation, where *crumpled* takes the whole surface.",
+          "_gloss": "of metal e.g."
+        },
+        {
+          "word": "broken",
+          "synset": "oewn-00683423-s",
+          "charge": 0,
+          "tone": "A verdict on function alone: the thing does not work, and the word says nothing about how it got there, where *battered* says little else.",
+          "_gloss": "out of working order (‘busted’ is an informal substitute for ‘broken’)"
+        },
+        {
+          "word": "busted",
+          "synset": "oewn-00683423-s",
+          "charge": -1,
+          "tone": "The informal substitute for *broken*, and the drop in register makes the same failure sound offhand rather than serious.",
+          "_gloss": "out of working order (‘busted’ is an informal substitute for ‘broken’)"
+        }
+      ]
     },
     {
-     "word": "victimized",
-     "synset": "oewn-02505376-s",
-     "charge": -3,
-     "tone": "The strongest of the set - it does not merely report the wrong but makes the person's whole standing consist in having suffered it.",
-     "_gloss": "(of persons) taken advantage of"
+      "id": "family-02278101-a",
+      "axis": "sound knowledge → worldly experience so complete nothing impresses",
+      "_head": [
+        "sophisticated"
+      ],
+      "_definition": "having or appealing to those having worldly knowledge and refinement and savoir-faire",
+      "anchors": [
+        "sophisticated",
+        "blase",
+        "worldly",
+        "intelligent",
+        "well-informed",
+        "polished"
+      ],
+      "members": [
+        {
+          "word": "sophisticated",
+          "synset": "oewn-02278101-a",
+          "charge": 2,
+          "tone": "Praises worldly knowledge and refinement together, and it settles on the thing made for such a person as easily as on the person - a reach *urbane* lacks.",
+          "_gloss": "having or appealing to those having worldly knowledge and refinement and savoir-faire"
+        },
+        {
+          "word": "blase",
+          "synset": "oewn-02278541-s",
+          "charge": -1,
+          "tone": "The sophistication is charged to surfeit, which sours the praise - it marks a person as past being impressed where *worldly* only marks them as experienced.",
+          "_gloss": "very sophisticated especially because of surfeit; versed in the ways of the world"
+        },
+        {
+          "word": "worldly",
+          "synset": "oewn-02278541-s",
+          "charge": 1,
+          "tone": "Takes the versed-in-the-ways-of-the-world half of the sense straight, crediting the experience without the taint of excess *blase* carries.",
+          "_gloss": "very sophisticated especially because of surfeit; versed in the ways of the world"
+        },
+        {
+          "word": "intelligent",
+          "synset": "oewn-02278811-s",
+          "charge": 1,
+          "tone": "The approval is for sound knowledge itself, with none of the social finish *sophisticated* insists on.",
+          "_gloss": "possessing sound knowledge"
+        },
+        {
+          "word": "well-informed",
+          "synset": "oewn-02278811-s",
+          "charge": 1,
+          "tone": "Flatter than *intelligent* - the credit goes to what a person knows, not to anything in the knower.",
+          "_gloss": "possessing sound knowledge"
+        },
+        {
+          "word": "polished",
+          "synset": "oewn-02278936-s",
+          "charge": 2,
+          "tone": "Praise for the finish, where the assurance is the visible surface and *refined* names the quality under it.",
+          "_gloss": "showing a high degree of refinement and the assurance that comes from wide social experien"
+        },
+        {
+          "word": "refined",
+          "synset": "oewn-02278936-s",
+          "charge": 2,
+          "tone": "Names the refinement itself rather than its display, so it praises without the suggestion of buffing that *polished* carries.",
+          "_gloss": "showing a high degree of refinement and the assurance that comes from wide social experien"
+        },
+        {
+          "word": "urbane",
+          "synset": "oewn-02278936-s",
+          "charge": 2,
+          "tone": "The formal member, putting the weight on assured ease of manner rather than the surface shine *polished* names.",
+          "_gloss": "showing a high degree of refinement and the assurance that comes from wide social experien"
+        },
+        {
+          "word": "worldly-wise",
+          "synset": "oewn-02279187-s",
+          "charge": 1,
+          "tone": "Praises shrewdness rather than polish - it says a person cannot be fooled, which *urbane* never claims.",
+          "_gloss": "experienced in and wise to the ways of the world"
+        }
+      ]
     },
     {
-     "word": "victimised",
-     "synset": "oewn-02505376-s",
-     "charge": -3,
-     "tone": "British spelling of *victimized*, and it carries the same total verdict - the person defined by the wrong rather than merely subjected to it.",
-     "_gloss": "(of persons) taken advantage of"
+      "id": "family-01805299-a",
+      "axis": "agreeable to your taste → an ideal of charmed, serene delight",
+      "_head": [
+        "pleasant"
+      ],
+      "_definition": "affording pleasure; being in harmony with your taste or likings",
+      "anchors": [
+        "pleasant",
+        "beautiful",
+        "dulcet",
+        "enjoyable",
+        "gratifying",
+        "pleasurable"
+      ],
+      "members": [
+        {
+          "word": "pleasant",
+          "synset": "oewn-01805299-a",
+          "charge": 1,
+          "tone": "The plain baseline of the family — pleasure that simply agrees with your taste, without the sweetness of *dulcet* or the height of *idyllic*.",
+          "_gloss": "affording pleasure; being in harmony with your taste or likings"
+        },
+        {
+          "word": "beautiful",
+          "synset": "oewn-01805768-s",
+          "charge": 2,
+          "tone": "Turned on the weather, it rates a day at the top of enjoyable rather than merely *pleasant*.",
+          "_gloss": "(of weather) highly enjoyable"
+        },
+        {
+          "word": "dulcet",
+          "synset": "oewn-01805877-s",
+          "charge": 2,
+          "tone": "Intensity turned soft — pleasantness taken to an extreme, but gently, where *gratifying* is emphatic.",
+          "_gloss": "extremely pleasant in a gentle way"
+        },
+        {
+          "word": "enjoyable",
+          "synset": "oewn-01806033-s",
+          "charge": 1,
+          "tone": "Unadorned approval of something that gives pleasure, carrying none of the sense of a want answered that *gratifying* adds.",
+          "_gloss": "affording satisfaction or pleasure"
+        },
+        {
+          "word": "gratifying",
+          "synset": "oewn-01806033-s",
+          "charge": 2,
+          "tone": "Leans on the satisfaction half of the sense — pleasure that answers something, where *pleasurable* is pleasure for its own sake.",
+          "_gloss": "affording satisfaction or pleasure"
+        },
+        {
+          "word": "pleasurable",
+          "synset": "oewn-01806033-s",
+          "charge": 2,
+          "tone": "The most direct of these three: it names the pleasure itself, with none of the fulfilment *gratifying* implies.",
+          "_gloss": "affording satisfaction or pleasure"
+        },
+        {
+          "word": "grateful",
+          "synset": "oewn-01806331-s",
+          "charge": 1,
+          "tone": "Describes the thing that gives comfort rather than the person who feels thanks — a warm, easing approval beside the brighter *pleasurable*.",
+          "_gloss": "affording comfort or pleasure"
+        },
+        {
+          "word": "idyllic",
+          "synset": "oewn-01806450-s",
+          "charge": 3,
+          "tone": "The strongest here — not merely pleasant but charmed, simple and serene, an ideal rather than a preference met.",
+          "_gloss": "suggestive of an idyll; charmingly simple and serene"
+        },
+        {
+          "word": "pleasing",
+          "synset": "oewn-01806604-s",
+          "charge": 1,
+          "tone": "Routes approval through whichever sense is doing the work, and stays milder than the extremity of *dulcet*.",
+          "_gloss": "pleasant or agreeable to the senses"
+        }
+      ]
+    },
+    {
+      "id": "family-00119378-a",
+      "axis": "merely having life in one → brimming with it",
+      "_head": [
+        "animated",
+        "alive"
+      ],
+      "_definition": "having life or vigor or spirit",
+      "anchors": [
+        "animated",
+        "alive",
+        "enlivened",
+        "spirited",
+        "lively",
+        "vital"
+      ],
+      "members": [
+        {
+          "word": "animated",
+          "synset": "oewn-00119378-a",
+          "charge": 1,
+          "tone": "Mild approval - credits a thing with visible vigor without claiming it brims over the way *lively* does.",
+          "_gloss": "having life or vigor or spirit"
+        },
+        {
+          "word": "alive",
+          "synset": "oewn-00119378-a",
+          "charge": 1,
+          "tone": "Praise cut back to a bare condition - where *animated* shows the vigor off, this only asserts that it is there.",
+          "_gloss": "having life or vigor or spirit"
+        },
+        {
+          "word": "enlivened",
+          "synset": "oewn-00119655-s",
+          "charge": 1,
+          "tone": "Flat and causal - the liveliness was put in from outside, so the word credits the doing rather than the thing.",
+          "_gloss": "made lively or spirited"
+        },
+        {
+          "word": "spirited",
+          "synset": "oewn-00119655-s",
+          "charge": 2,
+          "tone": "Frankly admiring where *enlivened* stays descriptive - the same imparted liveliness heard as a virtue rather than an effect.",
+          "_gloss": "made lively or spirited"
+        },
+        {
+          "word": "lively",
+          "synset": "oewn-00119817-s",
+          "charge": 2,
+          "tone": "A step past *animated*'s mere possession of spirit to fullness of it, and the warmth rises with the quantity.",
+          "_gloss": "full of spirit; full of life"
+        },
+        {
+          "word": "vital",
+          "synset": "oewn-00119817-s",
+          "charge": 2,
+          "tone": "Elevated in register - the same fullness of life as *lively*, but weightier, sounding like a force within rather than a liveliness on show.",
+          "_gloss": "full of spirit; full of life"
+        },
+        {
+          "word": "reanimated",
+          "synset": "oewn-00120089-s",
+          "charge": 1,
+          "tone": "States the restoration plainly - fresh vigor recorded as an outcome, with none of the relief *revived* carries.",
+          "_gloss": "given fresh life or vigor or spirit"
+        },
+        {
+          "word": "revived",
+          "synset": "oewn-00120089-s",
+          "charge": 2,
+          "tone": "Warmer than *reanimated* for the same return of vigor - the fresh life sounds like a recovery worth welcoming.",
+          "_gloss": "given fresh life or vigor or spirit"
+        }
+      ]
+    },
+    {
+      "id": "family-01372590-a",
+      "axis": "a bare warrant that something passes → rightness actively inflicted as deserts",
+      "_head": [
+        "just"
+      ],
+      "_definition": "used especially of what is legally or ethically right or proper or fitting",
+      "anchors": [
+        "conscionable",
+        "fitting",
+        "meet",
+        "retributive",
+        "retributory",
+        "vindicatory"
+      ],
+      "members": [
+        {
+          "word": "just",
+          "synset": "oewn-01372590-a",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "used especially of what is legally or ethically right or proper or fitting",
+          "_skip": true,
+          "_skip_reason": "gloss is a usage restriction, not a definition"
+        },
+        {
+          "word": "conscionable",
+          "synset": "oewn-01372980-s",
+          "charge": 1,
+          "tone": "The bar it sets is internal and low - the thing clears your conscience rather than being right in itself, so it approves far more faintly than *fitting*.",
+          "_gloss": "acceptable to your conscience"
+        },
+        {
+          "word": "fitting",
+          "synset": "oewn-01373068-s",
+          "charge": 2,
+          "tone": "Approval by exactness rather than permission - not merely allowable but precisely right, and it says so plainly where *meet* pronounces.",
+          "_gloss": "being precisely fitting and right"
+        },
+        {
+          "word": "meet",
+          "synset": "oewn-01373068-s",
+          "charge": 2,
+          "tone": "The same verdict as *fitting* delivered as a formal pronouncement, weighty and a little ceremonious, so the rightness sounds handed down rather than observed.",
+          "_gloss": "being precisely fitting and right"
+        },
+        {
+          "word": "retributive",
+          "synset": "oewn-01373232-s",
+          "charge": 1,
+          "tone": "Cool and measured - what it approves is the fit between deserts and what is dealt out, not whatever it lands on, and it never softens the fact that the thing is inflicted.",
+          "_gloss": "given or inflicted in requital according to merits or deserts"
+        },
+        {
+          "word": "retributory",
+          "synset": "oewn-01373232-s",
+          "charge": 1,
+          "tone": "Carries the same verdict as *retributive* with more machinery in the mouth, sounding like the working of paying back rather than the principle behind it.",
+          "_gloss": "given or inflicted in requital according to merits or deserts"
+        },
+        {
+          "word": "vindicatory",
+          "synset": "oewn-01373232-s",
+          "charge": 1,
+          "tone": "Points at the rightness rather than the sting - where *retributive* names the paying back, this frames the same act as a claim made good.",
+          "_gloss": "given or inflicted in requital according to merits or deserts"
+        },
+        {
+          "word": "rightful",
+          "synset": "oewn-01373402-s",
+          "charge": 1,
+          "tone": "Approval of the coldest kind - a warrant rather than a compliment, resting on validity where *conscionable* rests on conscience.",
+          "_gloss": "legally valid"
+        }
+      ]
+    },
+    {
+      "id": "family-02233368-a",
+      "axis": "competence acknowledged → supreme mastery admired",
+      "_head": [
+        "skilled"
+      ],
+      "_definition": "having or showing or requiring special skill",
+      "anchors": [
+        "skilled",
+        "accomplished",
+        "complete",
+        "adept",
+        "expert",
+        "good"
+      ],
+      "members": [
+        {
+          "word": "skilled",
+          "synset": "oewn-02233368-a",
+          "charge": 2,
+          "tone": "Plain, checkable praise — it credits capability without admiring it, and can sit on the work that demands the skill as easily as on the person who has it.",
+          "_gloss": "having or showing or requiring special skill"
+        },
+        {
+          "word": "accomplished",
+          "synset": "oewn-02233868-s",
+          "charge": 3,
+          "tone": "Praise with attainment behind it — skill brought to a high finish, warmer and more admiring than the flat *skilled*.",
+          "_gloss": "highly skilled"
+        },
+        {
+          "word": "complete",
+          "synset": "oewn-02233868-s",
+          "charge": 2,
+          "tone": "Approves by totality rather than dazzle — it says nothing is missing from the skill, a cooler verdict than *accomplished*.",
+          "_gloss": "highly skilled"
+        },
+        {
+          "word": "adept",
+          "synset": "oewn-02234002-s",
+          "charge": 2,
+          "tone": "Praise for deft, unlaboured sureness — it admires the aptitude in the doing where *expert* admires the knowing.",
+          "_gloss": "having or showing knowledge and skill and aptitude"
+        },
+        {
+          "word": "expert",
+          "synset": "oewn-02234002-s",
+          "charge": 2,
+          "tone": "The authoritative member: it grants knowledge that can be leaned on and vouched for, weightier and less warm than *good*.",
+          "_gloss": "having or showing knowledge and skill and aptitude"
+        },
+        {
+          "word": "good",
+          "synset": "oewn-02234002-s",
+          "charge": 1,
+          "tone": "The mildest approval here — it concedes competence and stops, where *expert* confers standing.",
+          "_gloss": "having or showing knowledge and skill and aptitude"
+        },
+        {
+          "word": "practiced",
+          "synset": "oewn-02234002-s",
+          "charge": 2,
+          "tone": "Credits skill that has been worked in until it is habitual, steadier and less brilliant than *virtuoso*.",
+          "_gloss": "having or showing knowledge and skill and aptitude"
+        },
+        {
+          "word": "proficient",
+          "synset": "oewn-02234002-s",
+          "charge": 2,
+          "tone": "Measured, almost certifying approval — it reports that the standard is met, with none of the admiration in *masterful*.",
+          "_gloss": "having or showing knowledge and skill and aptitude"
+        },
+        {
+          "word": "skillful",
+          "synset": "oewn-02234002-s",
+          "charge": 2,
+          "tone": "Approves the handling itself — visible dexterity in execution, more concrete than the standing implied by *expert*.",
+          "_gloss": "having or showing knowledge and skill and aptitude"
+        },
+        {
+          "word": "skilful",
+          "synset": "oewn-02234002-s",
+          "charge": 2,
+          "tone": "The British spelling, carrying exactly the approving weight of *skillful* for deftness in execution.",
+          "_gloss": "having or showing knowledge and skill and aptitude"
+        },
+        {
+          "word": "ball-hawking",
+          "synset": "oewn-02234501-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "used of a player skilled in stealing the ball or robbing a batter of a hit",
+          "_skip": true,
+          "_skip_reason": "gloss is a usage restriction, not a definition"
+        },
+        {
+          "word": "consummate",
+          "synset": "oewn-02234724-s",
+          "charge": 3,
+          "tone": "Superlative praise — skill carried to its finish with nothing left to add, far above the workaday *proficient*.",
+          "_gloss": "having or revealing supreme mastery or skill"
+        },
+        {
+          "word": "masterful",
+          "synset": "oewn-02234724-s",
+          "charge": 3,
+          "tone": "Praise that hears authority in the skill — command of the craft, where *accomplished* only reports a high finish.",
+          "_gloss": "having or revealing supreme mastery or skill"
+        },
+        {
+          "word": "masterly",
+          "synset": "oewn-02234724-s",
+          "charge": 3,
+          "tone": "Admires mastery in the execution rather than in the person, the quieter of the pair beside *masterful*.",
+          "_gloss": "having or revealing supreme mastery or skill"
+        },
+        {
+          "word": "virtuoso",
+          "synset": "oewn-02234724-s",
+          "charge": 3,
+          "tone": "Praise pitched at display — mastery brilliant enough to be watched, showier than the sober *consummate*.",
+          "_gloss": "having or revealing supreme mastery or skill"
+        },
+        {
+          "word": "delicate",
+          "synset": "oewn-02235089-s",
+          "charge": 2,
+          "tone": "Praise for fineness of touch — skill admired for precision and restraint rather than the power heard in *masterful*.",
+          "_gloss": "marked by great skill especially in meticulous technique"
+        }
+      ]
+    },
+    {
+      "id": "family-02568127-a",
+      "axis": "bare statement that a thing nourishes → warm praise of food that does you good and fills you up",
+      "_head": [
+        "wholesome"
+      ],
+      "_definition": "conducive to or characteristic of physical or moral well-being",
+      "anchors": [
+        "wholesome",
+        "alimentary",
+        "alimental",
+        "nourishing",
+        "nutrient",
+        "nutritious"
+      ],
+      "members": [
+        {
+          "word": "wholesome",
+          "synset": "oewn-02568127-a",
+          "charge": 2,
+          "tone": "Approval that reaches past the body to character - it can be aimed at a person's morals as readily as at a meal.",
+          "_gloss": "conducive to or characteristic of physical or moral well-being"
+        },
+        {
+          "word": "alimentary",
+          "synset": "oewn-02568489-s",
+          "charge": 0,
+          "tone": "Flat and clinical - it states that a thing feeds and stops there, with none of the approval in *nourishing*.",
+          "_gloss": "of or providing nourishment"
+        },
+        {
+          "word": "alimental",
+          "synset": "oewn-02568489-s",
+          "charge": 0,
+          "tone": "The stiffer-sounding twin of *alimentary*, carrying the same neutral claim that something supplies nourishment.",
+          "_gloss": "of or providing nourishment"
+        },
+        {
+          "word": "nourishing",
+          "synset": "oewn-02568489-s",
+          "charge": 1,
+          "tone": "Warm where *alimentary* is clinical - the food is credited with doing the body good, not merely with feeding it.",
+          "_gloss": "of or providing nourishment"
+        },
+        {
+          "word": "nutrient",
+          "synset": "oewn-02568489-s",
+          "charge": 0,
+          "tone": "A bare classifier of what a substance supplies, passing no verdict on whether that is welcome.",
+          "_gloss": "of or providing nourishment"
+        },
+        {
+          "word": "nutritious",
+          "synset": "oewn-02568489-s",
+          "charge": 1,
+          "tone": "A quiet recommendation - it praises food for the good it delivers, where *nutrient* only labels it.",
+          "_gloss": "of or providing nourishment"
+        },
+        {
+          "word": "nutritive",
+          "synset": "oewn-02568489-s",
+          "charge": 0,
+          "tone": "Names the capacity to nourish rather than praising the food that has it - the technical member of the set.",
+          "_gloss": "of or providing nourishment"
+        },
+        {
+          "word": "heart-healthy",
+          "synset": "oewn-02568802-s",
+          "charge": 1,
+          "tone": "Approval pinned to one measurable thing, and to what the food leaves out rather than what it supplies.",
+          "_gloss": "of foods that are low in fats and sodium and other ingredients that may foster heart disea"
+        },
+        {
+          "word": "healthy",
+          "synset": "oewn-02568954-s",
+          "charge": 1,
+          "tone": "Plain approval of a thing for the good it does, without the moral reach of *wholesome*.",
+          "_gloss": "promoting health; healthful"
+        },
+        {
+          "word": "salubrious",
+          "synset": "oewn-02568954-s",
+          "charge": 1,
+          "tone": "Formal and slightly grand - the same claim as *healthy* pitched at a height the plainer word never reaches.",
+          "_gloss": "promoting health; healthful"
+        },
+        {
+          "word": "good for you",
+          "synset": "oewn-02568954-s",
+          "charge": 1,
+          "tone": "Informal and addressed to whoever benefits, which makes the good it names personal in a way *salubrious* never is.",
+          "_gloss": "promoting health; healthful"
+        },
+        {
+          "word": "hearty",
+          "synset": "oewn-02569298-s",
+          "charge": 2,
+          "tone": "Warm approval of abundance - the meal is praised for filling as well as feeding.",
+          "_gloss": "providing abundant nourishment"
+        },
+        {
+          "word": "satisfying",
+          "synset": "oewn-02569298-s",
+          "charge": 1,
+          "tone": "Measures the abundance by its effect on the appetite rather than by the size of the plate.",
+          "_gloss": "providing abundant nourishment"
+        },
+        {
+          "word": "solid",
+          "synset": "oewn-02569298-s",
+          "charge": 1,
+          "tone": "Sturdy and unshowy - the plenty is credited as substance rather than as generosity.",
+          "_gloss": "providing abundant nourishment"
+        },
+        {
+          "word": "square",
+          "synset": "oewn-02569298-s",
+          "charge": 1,
+          "tone": "Approval by fair measure - a full and proper portion rather than a lavish one.",
+          "_gloss": "providing abundant nourishment"
+        },
+        {
+          "word": "substantial",
+          "synset": "oewn-02569298-s",
+          "charge": 1,
+          "tone": "Weighs the meal by sheer bulk, a cooler judgement than *hearty* makes of the same plateful.",
+          "_gloss": "providing abundant nourishment"
+        }
+      ]
+    },
+    {
+      "id": "family-00587481-a",
+      "axis": "neutral capacity to shape or structure → approving of what builds or restores to good condition",
+      "_head": [
+        "constructive"
+      ],
+      "_definition": "constructing or tending to construct or improve or promote development",
+      "anchors": [
+        "constructive",
+        "creative",
+        "formative",
+        "shaping",
+        "plastic",
+        "inferential"
+      ],
+      "members": [
+        {
+          "word": "constructive",
+          "synset": "oewn-00587481-a",
+          "charge": 2,
+          "tone": "Approving on two counts at once - it builds and it improves, where *formative* only shapes and leaves the worth of the result open.",
+          "_gloss": "constructing or tending to construct or improve or promote development"
+        },
+        {
+          "word": "creative",
+          "synset": "oewn-00587863-s",
+          "charge": 1,
+          "tone": "Approving at one remove: it credits what fosters making rather than the making itself, a lighter claim than the improvement built into *constructive*.",
+          "_gloss": "promoting construction or creation"
+        },
+        {
+          "word": "formative",
+          "synset": "oewn-00588059-s",
+          "charge": 0,
+          "tone": "Neutral - it names the power to shape without saying the shaping is for the better, which is exactly what *constructive* asserts.",
+          "_gloss": "forming or capable of forming or molding or fashioning"
+        },
+        {
+          "word": "shaping",
+          "synset": "oewn-00588059-s",
+          "charge": 0,
+          "tone": "Bare and unweighted, the act of forming stated as such, where *formative* points instead at the capacity to form.",
+          "_gloss": "forming or capable of forming or molding or fashioning"
+        },
+        {
+          "word": "plastic",
+          "synset": "oewn-00588059-s",
+          "charge": 0,
+          "tone": "Treats the power to mold as a flat property of a thing rather than a merit, which keeps it cooler than *creative*.",
+          "_gloss": "forming or capable of forming or molding or fashioning"
+        },
+        {
+          "word": "inferential",
+          "synset": "oewn-00588444-s",
+          "charge": 0,
+          "tone": "Carries no approval at all - it marks how something is arrived at, by interpretation rather than statement, where *constructive* judges the worth of what is done.",
+          "_gloss": "based on interpretation; not directly expressed"
+        },
+        {
+          "word": "reconstructive",
+          "synset": "oewn-00588549-s",
+          "charge": 2,
+          "tone": "Approving of repair: the good it names is a return to sound condition rather than the new making in *constructive*.",
+          "_gloss": "helping to restore to good condition"
+        },
+        {
+          "word": "rehabilitative",
+          "synset": "oewn-00588549-s",
+          "charge": 2,
+          "tone": "The same restoring good as *reconstructive*, but the longer, more formal word makes the helping sound like a sustained process rather than a single fix.",
+          "_gloss": "helping to restore to good condition"
+        },
+        {
+          "word": "structural",
+          "synset": "oewn-00588753-s",
+          "charge": 0,
+          "tone": "Purely descriptive - it places a thing within a system of study and does none of the approving that runs through *constructive*.",
+          "_gloss": "concerned with systematic structure in a particular field of study"
+        }
+      ]
+    },
+    {
+      "id": "family-01009264-a",
+      "axis": "neutral record of an unworked state → shortfall measured against the state wanted",
+      "_head": [
+        "unfinished"
+      ],
+      "_definition": "not brought to the desired final state",
+      "anchors": [
+        "unfinished",
+        "roughhewn",
+        "rough-cut",
+        "undressed",
+        "unfattened",
+        "unhewn"
+      ],
+      "members": [
+        {
+          "word": "unfinished",
+          "synset": "oewn-01009264-a",
+          "charge": -1,
+          "tone": "Carries a faint reproach because the thing is measured against the final state that was wanted, so it records a shortfall rather than merely a stage.",
+          "_gloss": "not brought to the desired final state"
+        },
+        {
+          "word": "raw",
+          "synset": "oewn-01009503-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "used of wood and furniture",
+          "_skip": true,
+          "_skip_reason": "gloss is a usage restriction, not a definition"
+        },
+        {
+          "word": "unsanded",
+          "synset": "oewn-01009503-s",
+          "charge": 0,
+          "tone": "",
+          "_gloss": "used of wood and furniture",
+          "_skip": true,
+          "_skip_reason": "gloss is a usage restriction, not a definition"
+        },
+        {
+          "word": "roughhewn",
+          "synset": "oewn-01009605-s",
+          "charge": 0,
+          "tone": "Neutral about workmanship - the shaping has been done and only the finishing has not, where *unhewn* denies the shaping altogether.",
+          "_gloss": "of stone or timber; shaped roughly without finishing"
+        },
+        {
+          "word": "rough-cut",
+          "synset": "oewn-01009605-s",
+          "charge": 0,
+          "tone": "Flatter and more matter-of-fact than *roughhewn*, naming the cut alone without that word's suggestion of ruggedly worked bulk.",
+          "_gloss": "of stone or timber; shaped roughly without finishing"
+        },
+        {
+          "word": "undressed",
+          "synset": "oewn-01009725-s",
+          "charge": 0,
+          "tone": "Names one specific operation left undone rather than a general falling-short, which keeps it cooler and more technical than *unfinished*.",
+          "_gloss": "of lumber or stone or hides; not finished or dressed"
+        },
+        {
+          "word": "unfattened",
+          "synset": "oewn-01009873-s",
+          "charge": -1,
+          "tone": "Coolly commercial disparagement - the animal is graded short of what the market wants, a deficiency stated as plain fact rather than complaint.",
+          "_gloss": "(of market animals) not optimal for marketing"
+        },
+        {
+          "word": "unhewn",
+          "synset": "oewn-01009975-s",
+          "charge": 0,
+          "tone": "Denies the shaping outright where *roughhewn* concedes a first pass, and its as-if reach lets it settle on things no tool was ever near.",
+          "_gloss": "(of stone especially) not given a finished form by or as if by hewing"
+        }
+      ]
+    },
+    {
+      "id": "family-00970318-a",
+      "axis": "merely out of the ordinary → oddness that repels or frightens",
+      "_head": [
+        "strange",
+        "unusual"
+      ],
+      "_definition": "being definitely out of the ordinary and unexpected; slightly odd or even a bit weird",
+      "anchors": [
+        "strange",
+        "unusual",
+        "antic",
+        "fantastic",
+        "fantastical",
+        "grotesque"
+      ],
+      "members": [
+        {
+          "word": "strange",
+          "synset": "oewn-00970318-a",
+          "charge": 0,
+          "tone": "Carries a faint edge of unease that *unusual* does not - what is strange is not merely rare but slightly off.",
+          "_gloss": "being definitely out of the ordinary and unexpected; slightly odd or even a bit weird"
+        },
+        {
+          "word": "unusual",
+          "synset": "oewn-00970318-a",
+          "charge": 0,
+          "tone": "The flat member of the pair - it records a departure from the expected without *strange*'s hint that something is amiss.",
+          "_gloss": "being definitely out of the ordinary and unexpected; slightly odd or even a bit weird"
+        },
+        {
+          "word": "antic",
+          "synset": "oewn-00970835-s",
+          "charge": -2,
+          "tone": "Odd to the point of being laughed at - the strangeness reads as clownish rather than menacing.",
+          "_gloss": "ludicrously odd"
+        },
+        {
+          "word": "fantastic",
+          "synset": "oewn-00970835-s",
+          "charge": -1,
+          "tone": "Oddness inflated past what belief will carry, so the extravagance itself is the fault.",
+          "_gloss": "ludicrously odd"
+        },
+        {
+          "word": "fantastical",
+          "synset": "oewn-00970835-s",
+          "charge": -1,
+          "tone": "The more elaborate twin of *fantastic* - the oddness sounds invented rather than merely met with.",
+          "_gloss": "ludicrously odd"
+        },
+        {
+          "word": "grotesque",
+          "synset": "oewn-00970835-s",
+          "charge": -2,
+          "tone": "The harshest of these - the oddness is distorted enough to repel, where *antic* only invites laughter.",
+          "_gloss": "ludicrously odd"
+        },
+        {
+          "word": "crazy",
+          "synset": "oewn-00971086-s",
+          "charge": -1,
+          "tone": "Blunt and informal - it throws up its hands at the strangeness instead of examining it.",
+          "_gloss": "bizarre or fantastic"
+        },
+        {
+          "word": "curious",
+          "synset": "oewn-00971199-s",
+          "charge": 1,
+          "tone": "The oddness is inviting - it asks to be looked into, where *queer* asks to be backed away from.",
+          "_gloss": "beyond or deviating from the usual or expected"
+        },
+        {
+          "word": "funny",
+          "synset": "oewn-00971199-s",
+          "charge": -1,
+          "tone": "Marks something as not quite right without saying what is wrong with it, and the vagueness is the unease.",
+          "_gloss": "beyond or deviating from the usual or expected"
+        },
+        {
+          "word": "odd",
+          "synset": "oewn-00971199-s",
+          "charge": -1,
+          "tone": "Registers the deviation flatly, with none of *peculiar*'s second look.",
+          "_gloss": "beyond or deviating from the usual or expected"
+        },
+        {
+          "word": "peculiar",
+          "synset": "oewn-00971199-s",
+          "charge": -1,
+          "tone": "Fastens the oddness onto the thing itself, as a quality it owns rather than an impression it gives.",
+          "_gloss": "beyond or deviating from the usual or expected"
+        },
+        {
+          "word": "queer",
+          "synset": "oewn-00971199-s",
+          "charge": -1,
+          "tone": "Adds a wariness *odd* lacks - the deviation feels wrong rather than merely noticeable.",
+          "_gloss": "beyond or deviating from the usual or expected"
+        },
+        {
+          "word": "rum",
+          "synset": "oewn-00971199-s",
+          "charge": 0,
+          "tone": "Informal and offhand - the oddness gets a shrug rather than a verdict.",
+          "_gloss": "beyond or deviating from the usual or expected"
+        },
+        {
+          "word": "rummy",
+          "synset": "oewn-00971199-s",
+          "charge": 0,
+          "tone": "A lighter, more throwaway ring than *rum*, the same shrug loosened further.",
+          "_gloss": "beyond or deviating from the usual or expected"
+        },
+        {
+          "word": "singular",
+          "synset": "oewn-00971199-s",
+          "charge": 1,
+          "tone": "Deviation read as standing apart rather than as going wrong, so the oddity comes out as distinction where *curious* only makes it inviting.",
+          "_gloss": "beyond or deviating from the usual or expected"
+        },
+        {
+          "word": "eerie",
+          "synset": "oewn-00971711-s",
+          "charge": -2,
+          "tone": "The strangeness has turned frightening - it works on the nerves rather than on the judgement.",
+          "_gloss": "inspiring a feeling of fear; strange and frightening"
+        }
+      ]
+    },
+    {
+      "id": "family-01989711-a",
+      "axis": "a sound reputation → illustrious standing that commands deference",
+      "_head": [
+        "reputable"
+      ],
+      "_definition": "having a good reputation",
+      "anchors": [
+        "reputable",
+        "esteemed",
+        "honored",
+        "prestigious",
+        "honoured",
+        "estimable"
+      ],
+      "members": [
+        {
+          "word": "reputable",
+          "synset": "oewn-01989711-a",
+          "charge": 1,
+          "tone": "Approval at its lowest setting - it certifies that a reputation is sound without claiming it is distinguished, which is exactly what *esteemed* claims.",
+          "_gloss": "having a good reputation"
+        },
+        {
+          "word": "esteemed",
+          "synset": "oewn-01990022-s",
+          "charge": 2,
+          "tone": "Warm and elevating - the regard is felt rather than merely recorded, and pitched high enough to make the reputation an illustrious one.",
+          "_gloss": "having an illustrious reputation; respected"
+        },
+        {
+          "word": "honored",
+          "synset": "oewn-01990022-s",
+          "charge": 2,
+          "tone": "Frames the standing as a distinction conferred and marked, where *esteemed* leaves it as regard quietly held.",
+          "_gloss": "having an illustrious reputation; respected"
+        },
+        {
+          "word": "prestigious",
+          "synset": "oewn-01990022-s",
+          "charge": 2,
+          "tone": "Puts the weight on the shine of the name itself - impressiveness rather than the warmth *esteemed* carries toward the person holding it.",
+          "_gloss": "having an illustrious reputation; respected"
+        },
+        {
+          "word": "honoured",
+          "synset": "oewn-01990022-s",
+          "charge": 2,
+          "tone": "The British spelling of *honored*, identical in force and in the conferred distinction it implies.",
+          "_gloss": "having an illustrious reputation; respected"
+        },
+        {
+          "word": "estimable",
+          "synset": "oewn-01990227-s",
+          "charge": 2,
+          "tone": "Formal, and it turns on desert rather than receipt - the respect is owed whether or not anyone is paying it, unlike *respected*.",
+          "_gloss": "deserving of esteem and respect"
+        },
+        {
+          "word": "good",
+          "synset": "oewn-01990227-s",
+          "charge": 1,
+          "tone": "The plainest carrier in the family - it grants the same desert as *estimable* with none of the elevation, approval stated flat.",
+          "_gloss": "deserving of esteem and respect"
+        },
+        {
+          "word": "honorable",
+          "synset": "oewn-01990227-s",
+          "charge": 2,
+          "tone": "Weights the desert toward conduct - respect a person has earned, where *prestigious* names respect that standing confers.",
+          "_gloss": "deserving of esteem and respect"
+        },
+        {
+          "word": "respectable",
+          "synset": "oewn-01990227-s",
+          "charge": 1,
+          "tone": "Praise measured to the bar rather than to the height - it says the standard is met and stops well short of admiration.",
+          "_gloss": "deserving of esteem and respect"
+        },
+        {
+          "word": "admirable",
+          "synset": "oewn-01990227-s",
+          "charge": 3,
+          "tone": "The warmest word here - it does not merely permit respect but calls for it, wholehearted where *respectable* is guarded.",
+          "_gloss": "deserving of esteem and respect"
+        },
+        {
+          "word": "redoubtable",
+          "synset": "oewn-01990497-s",
+          "charge": 2,
+          "tone": "Formal and weighty, and the respect it claims keeps its distance - something closer to awe than to the warmth of *admirable*.",
+          "_gloss": "worthy of respect or honor"
+        },
+        {
+          "word": "respected",
+          "synset": "oewn-01990613-s",
+          "charge": 2,
+          "tone": "Reports regard actually given rather than deserved - the mirror of *estimable*, which claims the desert and says nothing about receipt.",
+          "_gloss": "receiving deferential regard"
+        },
+        {
+          "word": "well-thought-of",
+          "synset": "oewn-01990613-s",
+          "charge": 1,
+          "tone": "The plain-spoken, understated form of *respected*: the same deference, named without ceremony.",
+          "_gloss": "receiving deferential regard"
+        },
+        {
+          "word": "time-honored",
+          "synset": "oewn-01990737-s",
+          "charge": 1,
+          "tone": "Approves by duration rather than by merit - the warrant is how long a thing has been accepted, not whether it deserves to be.",
+          "_gloss": "acceptable for a long time, or having a long history"
+        },
+        {
+          "word": "time-honoured",
+          "synset": "oewn-01990737-s",
+          "charge": 1,
+          "tone": "The British spelling of *time-honored*, carrying the same dignity conferred by long standing.",
+          "_gloss": "acceptable for a long time, or having a long history"
+        }
+      ]
+    },
+    {
+      "id": "family-01876839-a",
+      "axis": "bare statement that money comes back → relish at how large the return is",
+      "_head": [
+        "profitable"
+      ],
+      "_definition": "yielding material gain or profit",
+      "anchors": [
+        "profitable",
+        "bankable",
+        "fat",
+        "juicy",
+        "gainful",
+        "paid"
+      ],
+      "members": [
+        {
+          "word": "profitable",
+          "synset": "oewn-01876839-a",
+          "charge": 0,
+          "tone": "The flat baseline of the family - it reports that a return exists and says nothing about its size or how welcome it is, which is the whole of what *juicy* adds.",
+          "_gloss": "yielding material gain or profit"
+        },
+        {
+          "word": "bankable",
+          "synset": "oewn-01877172-s",
+          "charge": 2,
+          "tone": "Approves through certainty rather than size - the profit is treated as already secured, where *profitable* claims only that it is there.",
+          "_gloss": "guaranteed to bring a profit"
+        },
+        {
+          "word": "fat",
+          "synset": "oewn-01877317-s",
+          "charge": 2,
+          "tone": "Relish rather than accounting - it praises a return by its sheer thickness, where *profitable* merely records one.",
+          "_gloss": "lucrative"
+        },
+        {
+          "word": "juicy",
+          "synset": "oewn-01877317-s",
+          "charge": 2,
+          "tone": "Appetite - it makes the profit tempting, something to be got at, where *fat* only makes it thick.",
+          "_gloss": "lucrative"
+        },
+        {
+          "word": "gainful",
+          "synset": "oewn-01877441-s",
+          "charge": 1,
+          "tone": "Measured approval - the return it names is a fair one rather than a large one, which keeps it clear of the greed in *juicy*.",
+          "_gloss": "yielding a fair profit"
+        },
+        {
+          "word": "paid",
+          "synset": "oewn-01877441-s",
+          "charge": 0,
+          "tone": "Understated for a return that is fair rather than large - the profit is granted without being praised.",
+          "_gloss": "yielding a fair profit"
+        },
+        {
+          "word": "paying",
+          "synset": "oewn-01877441-s",
+          "charge": 1,
+          "tone": "Mildly approving - it treats the return as something the thing keeps doing, where *paid* records only that it happened.",
+          "_gloss": "yielding a fair profit"
+        },
+        {
+          "word": "economic",
+          "synset": "oewn-01877533-s",
+          "charge": 1,
+          "tone": "The dry member - it approves by the ledger, granting a reward without any of the appetite in *fat* or *juicy*.",
+          "_gloss": "financially rewarding"
+        },
+        {
+          "word": "lucrative",
+          "synset": "oewn-01877742-s",
+          "charge": 2,
+          "tone": "Formal and emphatic at once - the size of the profit is the entire claim, stated without the hunger of *juicy*.",
+          "_gloss": "producing a sizeable profit"
+        },
+        {
+          "word": "moneymaking",
+          "synset": "oewn-01877742-s",
+          "charge": 1,
+          "tone": "Blunt where *lucrative* is formal - it names the money outright and lets that stand as the praise.",
+          "_gloss": "producing a sizeable profit"
+        },
+        {
+          "word": "remunerative",
+          "synset": "oewn-01877742-s",
+          "charge": 2,
+          "tone": "The most formal way to say it - it lends a sizeable profit a decorum that *moneymaking* makes no attempt at.",
+          "_gloss": "producing a sizeable profit"
+        }
+      ]
+    },
+    {
+      "id": "family-02341445-a",
+      "axis": "a bare failed outcome → finished, with nothing left and nothing coming",
+      "_head": [
+        "unsuccessful"
+      ],
+      "_definition": "not successful; having failed or having an unfavorable outcome",
+      "anchors": [
+        "unsuccessful",
+        "attempted",
+        "defeated",
+        "disappointed",
+        "discomfited",
+        "foiled"
+      ],
+      "members": [
+        {
+          "word": "unsuccessful",
+          "synset": "oewn-02341445-a",
+          "charge": 0,
+          "tone": "The flat baseline of the family - it records the unfavorable outcome and passes no verdict on whoever met it.",
+          "_gloss": "not successful; having failed or having an unfavorable outcome"
+        },
+        {
+          "word": "attempted",
+          "synset": "oewn-02341872-s",
+          "charge": 0,
+          "tone": "Marks the act as the thing that failed rather than the one who made it, which is where it parts from *defeated*.",
+          "_gloss": "tried unsuccessfully"
+        },
+        {
+          "word": "defeated",
+          "synset": "oewn-02341968-s",
+          "charge": -1,
+          "tone": "Failure recast as a loss to something stronger, carrying the sting of being beaten that *unsuccessful* leaves out.",
+          "_gloss": "disappointingly unsuccessful"
+        },
+        {
+          "word": "disappointed",
+          "synset": "oewn-02341968-s",
+          "charge": -1,
+          "tone": "The softest of the blocked set - the failure sits in a hope let down rather than in any force that stopped it, unlike *thwarted*.",
+          "_gloss": "disappointingly unsuccessful"
+        },
+        {
+          "word": "discomfited",
+          "synset": "oewn-02341968-s",
+          "charge": -1,
+          "tone": "Formal, and it puts the disappointment into the failure itself rather than into the effort that led there.",
+          "_gloss": "disappointingly unsuccessful"
+        },
+        {
+          "word": "foiled",
+          "synset": "oewn-02341968-s",
+          "charge": -1,
+          "tone": "Sounds the note of a scheme blocked at the last moment, lighter and more gleeful than the grim *thwarted*.",
+          "_gloss": "disappointingly unsuccessful"
+        },
+        {
+          "word": "frustrated",
+          "synset": "oewn-02341968-s",
+          "charge": -1,
+          "tone": "Puts the weight on effort spent for nothing, so the failure feels drawn out rather than delivered in one blow like *defeated*.",
+          "_gloss": "disappointingly unsuccessful"
+        },
+        {
+          "word": "thwarted",
+          "synset": "oewn-02341968-s",
+          "charge": -1,
+          "tone": "The hardest of the blocked set - something outside did the stopping, and the word gives that force a weight *foiled* does not.",
+          "_gloss": "disappointingly unsuccessful"
+        },
+        {
+          "word": "done for",
+          "synset": "oewn-02342313-s",
+          "charge": -2,
+          "tone": "Informal and final, a verdict pronounced with none of the room for recovery that *frustrated* still leaves open.",
+          "_gloss": "doomed to extinction"
+        },
+        {
+          "word": "ruined",
+          "synset": "oewn-02342313-s",
+          "charge": -2,
+          "tone": "Grave rather than colloquial: the ending is total and stated without relish, where *washed-up* sneers.",
+          "_gloss": "doomed to extinction"
+        },
+        {
+          "word": "sunk",
+          "synset": "oewn-02342313-s",
+          "charge": -2,
+          "tone": "Blunt and informal, a one-syllable verdict that closes the matter faster than *ruined* does.",
+          "_gloss": "doomed to extinction"
+        },
+        {
+          "word": "undone",
+          "synset": "oewn-02342313-s",
+          "charge": -2,
+          "tone": "Formal and near-elegiac, treating the end as something that came apart rather than something that was smashed.",
+          "_gloss": "doomed to extinction"
+        },
+        {
+          "word": "washed-up",
+          "synset": "oewn-02342313-s",
+          "charge": -3,
+          "tone": "The most contemptuous of the doomed set - it dismisses as much as it describes, which *undone* never does.",
+          "_gloss": "doomed to extinction"
+        },
+        {
+          "word": "down-and-out",
+          "synset": "oewn-02342428-s",
+          "charge": -2,
+          "tone": "Widens the failure to a whole condition, nothing held and nothing coming, with a bleakness *empty-handed* keeps at arm's length.",
+          "_gloss": "lacking resources (or any prospect of resources)"
+        },
+        {
+          "word": "empty-handed",
+          "synset": "oewn-02342553-s",
+          "charge": -1,
+          "tone": "Concrete where *unrewarded* is abstract - it shows the nothing instead of naming it.",
+          "_gloss": "having acquired or gained nothing"
+        },
+        {
+          "word": "unrewarded",
+          "synset": "oewn-02342553-s",
+          "charge": 0,
+          "tone": "Neutral and faintly on the subject's side, recording that nothing came of it without calling the effort wasted.",
+          "_gloss": "having acquired or gained nothing"
+        }
+      ]
+    },
+    {
+      "id": "family-01229113-a",
+      "axis": "entitled to respect → held in profound reverence",
+      "_head": [
+        "honorable",
+        "honourable"
+      ],
+      "_definition": "worthy of being honored; entitled to honor and respect",
+      "anchors": [
+        "honorable",
+        "honourable",
+        "august",
+        "revered",
+        "venerable",
+        "laureate"
+      ],
+      "members": [
+        {
+          "word": "honorable",
+          "synset": "oewn-01229113-a",
+          "charge": 2,
+          "tone": "The plain claim of the family - it certifies that respect is deserved, without the awe *august* and *venerable* pile on top.",
+          "_gloss": "worthy of being honored; entitled to honor and respect"
+        },
+        {
+          "word": "honourable",
+          "synset": "oewn-01229113-a",
+          "charge": 2,
+          "tone": "The British spelling, carrying exactly the same entitlement to respect as *honorable* with nothing added or softened.",
+          "_gloss": "worthy of being honored; entitled to honor and respect"
+        },
+        {
+          "word": "august",
+          "synset": "oewn-01229533-s",
+          "charge": 3,
+          "tone": "Lofty and formal - it raises the honor so high it puts distance between subject and speaker, where *honorable* stays level with you.",
+          "_gloss": "profoundly honored"
+        },
+        {
+          "word": "revered",
+          "synset": "oewn-01229533-s",
+          "charge": 3,
+          "tone": "Locates the honor in those who feel it - the regard is actively given, not merely owed as with *honorable*.",
+          "_gloss": "profoundly honored"
+        },
+        {
+          "word": "venerable",
+          "synset": "oewn-01229533-s",
+          "charge": 3,
+          "tone": "Solemn - it wraps the honor in a hush of reverence rather than the ceremonial elevation of *august*.",
+          "_gloss": "profoundly honored"
+        },
+        {
+          "word": "laureate",
+          "synset": "oewn-01229682-s",
+          "charge": 3,
+          "tone": "Superlative - it does not merely grant honor but sets its object at the summit of it, where *honorable* only confirms the desert.",
+          "_gloss": "worthy of the greatest honor or distinction"
+        },
+        {
+          "word": "time-honored",
+          "synset": "oewn-01229870-s",
+          "charge": 2,
+          "tone": "Approval with its grounds stated - the honor is credited to having lasted, where *honorable* and *venerable* name the honor without saying what earned it.",
+          "_gloss": "honored because of age or long usage"
+        },
+        {
+          "word": "time-honoured",
+          "synset": "oewn-01229870-s",
+          "charge": 2,
+          "tone": "The British spelling, endorsing a thing for its endurance in precisely the terms *time-honored* uses.",
+          "_gloss": "honored because of age or long usage"
+        }
+      ]
+    },
+    {
+      "id": "family-02005010-a",
+      "axis": "irresponsibility indulged as charm → irresponsibility condemned as unfitness",
+      "_head": [
+        "irresponsible"
+      ],
+      "_definition": "showing lack of care for consequences",
+      "anchors": [
+        "irresponsible",
+        "carefree",
+        "devil-may-care",
+        "freewheeling",
+        "happy-go-lucky",
+        "harum-scarum"
+      ],
+      "members": [
+        {
+          "word": "irresponsible",
+          "synset": "oewn-02005010-a",
+          "charge": -2,
+          "tone": "The plain charge the rest take their colour from - blame falls on the consequences left unweighed, with none of the cheer of *carefree*.",
+          "_gloss": "showing lack of care for consequences"
+        },
+        {
+          "word": "carefree",
+          "synset": "oewn-02005360-s",
+          "charge": 2,
+          "tone": "The most forgiving word here - the missing care reads as freedom from burden rather than neglect of duty.",
+          "_gloss": "cheerfully irresponsible"
+        },
+        {
+          "word": "devil-may-care",
+          "synset": "oewn-02005360-s",
+          "charge": 1,
+          "tone": "Bravado rather than lightness - it flaunts the disregard where *carefree* simply has no worry to shed.",
+          "_gloss": "cheerfully irresponsible"
+        },
+        {
+          "word": "freewheeling",
+          "synset": "oewn-02005360-s",
+          "charge": 1,
+          "tone": "Motion with the brakes off - it approves the ease while leaving the absent check audible.",
+          "_gloss": "cheerfully irresponsible"
+        },
+        {
+          "word": "happy-go-lucky",
+          "synset": "oewn-02005360-s",
+          "charge": 1,
+          "tone": "Indulgent - it credits a temperament rather than charging a fault.",
+          "_gloss": "cheerfully irresponsible"
+        },
+        {
+          "word": "harum-scarum",
+          "synset": "oewn-02005360-s",
+          "charge": -1,
+          "tone": "Its jingling repetition makes the cheer sound scatterbrained, tipping into scolding where *happy-go-lucky* stays fond.",
+          "_gloss": "cheerfully irresponsible"
+        },
+        {
+          "word": "slaphappy",
+          "synset": "oewn-02005360-s",
+          "charge": -1,
+          "tone": "The cheer here undercuts the person as giddy and unfit to be trusted, where *carefree* leaves them intact.",
+          "_gloss": "cheerfully irresponsible"
+        },
+        {
+          "word": "do-nothing",
+          "synset": "oewn-02005635-s",
+          "charge": -2,
+          "tone": "Flatly dismissive - it writes someone off by what they never get done, with no charm allowed into the failing.",
+          "_gloss": "characterized by inability or unwillingness to work toward a goal or assume responsibility"
+        },
+        {
+          "word": "feckless",
+          "synset": "oewn-02005830-s",
+          "charge": -3,
+          "tone": "A verdict of unfitness rather than a report of behaviour, and the most withering word in the set.",
+          "_gloss": "not fit to assume responsibility"
+        },
+        {
+          "word": "idle",
+          "synset": "oewn-02005935-s",
+          "charge": -1,
+          "tone": "A light word for the fault - what is missing is restraint, not any active wrongdoing.",
+          "_gloss": "lacking a sense of restraint or responsibility"
+        },
+        {
+          "word": "loose",
+          "synset": "oewn-02005935-s",
+          "charge": -2,
+          "tone": "Carries a moral edge *idle* does not - the restraint gone slack is the kind a person is expected to hold.",
+          "_gloss": "lacking a sense of restraint or responsibility"
+        },
+        {
+          "word": "trigger-happy",
+          "synset": "oewn-02006089-s",
+          "charge": -2,
+          "tone": "The cheerful *-happy* ending set against carelessness with a gun is the whole sting of it.",
+          "_gloss": "irresponsible in the use of firearms"
+        },
+        {
+          "word": "unaccountable",
+          "synset": "oewn-02006185-s",
+          "charge": 0,
+          "tone": "Positional rather than evaluative - it states the absence of anyone to answer to, without judging the person for it.",
+          "_gloss": "free from control or responsibility"
+        },
+        {
+          "word": "unreliable",
+          "synset": "oewn-02006280-s",
+          "charge": -2,
+          "tone": "Judged from outside - where *irresponsible* looks at the consequences, this looks at whoever was depending.",
+          "_gloss": "lacking a sense of responsibility"
+        }
+      ]
+    },
+    {
+      "id": "family-01911832-a",
+      "axis": "unmixed as a bare fact → purity admired as flawlessness",
+      "_head": [
+        "pure"
+      ],
+      "_definition": "free of extraneous elements of any kind",
+      "anchors": [
+        "pure",
+        "axenic",
+        "clean",
+        "fresh",
+        "clear",
+        "light"
+      ],
+      "members": [
+        {
+          "word": "pure",
+          "synset": "oewn-01911832-a",
+          "charge": 1,
+          "tone": "The unrestricted term of the family — nothing extraneous of any kind survives it, where *clean* answers only to impurity.",
+          "_gloss": "free of extraneous elements of any kind"
+        },
+        {
+          "word": "axenic",
+          "synset": "oewn-01912370-s",
+          "charge": 0,
+          "tone": "Technical and exact: it certifies that a culture of microorganisms holds no other organism, a specification rather than a compliment.",
+          "_gloss": "(used of cultures of microorganisms) completely free from other organisms"
+        },
+        {
+          "word": "clean",
+          "synset": "oewn-01912517-s",
+          "charge": 1,
+          "tone": "Approving in a plain, physical way — the impurities are gone, and it says so without the ceremony of *pristine*.",
+          "_gloss": "free from impurities"
+        },
+        {
+          "word": "fresh",
+          "synset": "oewn-01912517-s",
+          "charge": 1,
+          "tone": "Names the same absence of impurity as *clean* but with a livelier, more inviting force.",
+          "_gloss": "free from impurities"
+        },
+        {
+          "word": "clear",
+          "synset": "oewn-01912661-s",
+          "charge": 1,
+          "tone": "Praise for a sound or colour that nothing dulls or dims — the brightness is the point, not the absence of dirt that *clean* answers to.",
+          "_gloss": "(of sound or color) free from anything that dulls or dims"
+        },
+        {
+          "word": "light",
+          "synset": "oewn-01912661-s",
+          "charge": 1,
+          "tone": "Softer and less emphatic than *clear* for the same undulled sound or colour, approving without insisting.",
+          "_gloss": "(of sound or color) free from anything that dulls or dims"
+        },
+        {
+          "word": "unclouded",
+          "synset": "oewn-01912661-s",
+          "charge": 1,
+          "tone": "The negative form makes the dimness explicit, praising a sound or colour by naming what fails to cloud it where *clear* simply asserts the brightness.",
+          "_gloss": "(of sound or color) free from anything that dulls or dims"
+        },
+        {
+          "word": "fine",
+          "synset": "oewn-01913014-s",
+          "charge": 1,
+          "tone": "Gradable where the rest are absolute: purity here is a degree that can be high or specified, so it measures where *pure* merely declares.",
+          "_gloss": "free from impurities; having a high or specified degree of purity"
+        },
+        {
+          "word": "native",
+          "synset": "oewn-01913172-s",
+          "charge": 0,
+          "tone": "Descriptive rather than evaluative — it records that the thing already stands in its elemental form in nature, and attaches no credit to that.",
+          "_gloss": "as found in nature in the elemental form"
+        },
+        {
+          "word": "plain",
+          "synset": "oewn-01913300-s",
+          "charge": 0,
+          "tone": "The flattest word here, stating that nothing extraneous is mixed in and neither admiring nor disparaging the fact.",
+          "_gloss": "not mixed with extraneous elements"
+        },
+        {
+          "word": "sheer",
+          "synset": "oewn-01913300-s",
+          "charge": 0,
+          "tone": "Absolute in force where *plain* is merely factual, pressing on the totality of the unmixedness rather than reporting it.",
+          "_gloss": "not mixed with extraneous elements"
+        },
+        {
+          "word": "unmingled",
+          "synset": "oewn-01913300-s",
+          "charge": 0,
+          "tone": "Formal and slightly stiff, denying admixture in so many words rather than asserting purity outright as *pure* does.",
+          "_gloss": "not mixed with extraneous elements"
+        },
+        {
+          "word": "unmixed",
+          "synset": "oewn-01913300-s",
+          "charge": 0,
+          "tone": "The blunt, unceremonious form of that same denial — *unmingled* says it formally, this says it flatly.",
+          "_gloss": "not mixed with extraneous elements"
+        },
+        {
+          "word": "pristine",
+          "synset": "oewn-01913490-s",
+          "charge": 2,
+          "tone": "The admiring extreme — not merely unmixed but wholly untouched by dirt or contamination, a completeness *clean* never claims.",
+          "_gloss": "completely free from dirt or contamination"
+        },
+        {
+          "word": "straight up",
+          "synset": "oewn-01913613-s",
+          "charge": 0,
+          "tone": "A serving instruction rather than a judgement: the drink met the ice and was left without it, and the phrase passes no verdict on the result.",
+          "_gloss": "(of an alcoholic drink) stirred or shaken with ice, but served without it"
+        },
+        {
+          "word": "sublimate",
+          "synset": "oewn-01913797-s",
+          "charge": 0,
+          "tone": "The opposite arrival from *native* — purity reached by being made, stated as a result rather than praised.",
+          "_gloss": "made pure"
+        }
+      ]
+    },
+    {
+      "id": "family-01285124-a",
+      "axis": "an impression that registers → an impression that overwhelms",
+      "_head": [
+        "impressive"
+      ],
+      "_definition": "making a strong or vivid impression",
+      "anchors": [
+        "impressive",
+        "amazing",
+        "awe-inspiring",
+        "awesome",
+        "awful",
+        "awing"
+      ],
+      "members": [
+        {
+          "word": "impressive",
+          "synset": "oewn-01285124-a",
+          "charge": 2,
+          "tone": "The family's plain measure of approval - something lands strongly, with none of the claim to flatten you that *staggering* makes.",
+          "_gloss": "making a strong or vivid impression"
+        },
+        {
+          "word": "amazing",
+          "synset": "oewn-01285602-s",
+          "charge": 3,
+          "tone": "Unguarded warmth, all wonder and no weight, where *awe-inspiring* holds the same admiration at arm's length.",
+          "_gloss": "inspiring awe or admiration or wonder"
+        },
+        {
+          "word": "awe-inspiring",
+          "synset": "oewn-01285602-s",
+          "charge": 2,
+          "tone": "Formal, and it names the effect instead of voicing it - it reports what a thing does to an onlooker where *amazing* simply exclaims.",
+          "_gloss": "inspiring awe or admiration or wonder"
+        },
+        {
+          "word": "awesome",
+          "synset": "oewn-01285602-s",
+          "charge": 3,
+          "tone": "Names the reaction rather than the quality that provoked it - the response is the whole of the claim.",
+          "_gloss": "inspiring awe or admiration or wonder"
+        },
+        {
+          "word": "awful",
+          "synset": "oewn-01285602-s",
+          "charge": 2,
+          "tone": "Sits at the awe end of this sense - the impression overpowers rather than pleases, which is the whole distance between it and *amazing*.",
+          "_gloss": "inspiring awe or admiration or wonder"
+        },
+        {
+          "word": "awing",
+          "synset": "oewn-01285602-s",
+          "charge": 1,
+          "tone": "A flat participle that states the effect and stops, carrying none of the speaker's own delight that *awesome* puts on show.",
+          "_gloss": "inspiring awe or admiration or wonder"
+        },
+        {
+          "word": "arresting",
+          "synset": "oewn-01286013-s",
+          "charge": 2,
+          "tone": "Attention is seized and held - it stops you mid-stride, where *impressive* only invites you to admire at your leisure.",
+          "_gloss": "commanding attention"
+        },
+        {
+          "word": "sensational",
+          "synset": "oewn-01286013-s",
+          "charge": 1,
+          "tone": "The attention is commanded by display, and the word grants that the display worked.",
+          "_gloss": "commanding attention"
+        },
+        {
+          "word": "stunning",
+          "synset": "oewn-01286013-s",
+          "charge": 3,
+          "tone": "Commands attention by knocking it loose - the looking is involuntary, not the considered halt of *arresting*.",
+          "_gloss": "commanding attention"
+        },
+        {
+          "word": "astonishing",
+          "synset": "oewn-01286247-s",
+          "charge": 2,
+          "tone": "Surprise is the mechanism here: it overwhelms because it exceeds what you were braced for, not because it is merely large.",
+          "_gloss": "so surprisingly impressive as to stun or overwhelm"
+        },
+        {
+          "word": "astounding",
+          "synset": "oewn-01286247-s",
+          "charge": 2,
+          "tone": "A heavier landing than *astonishing* - the surprise does not just register, it takes the ground out from under.",
+          "_gloss": "so surprisingly impressive as to stun or overwhelm"
+        },
+        {
+          "word": "staggering",
+          "synset": "oewn-01286247-s",
+          "charge": 2,
+          "tone": "The overwhelm is bodily - it arrives as weight and puts you off balance, where *astonishing* works on the expectations instead.",
+          "_gloss": "so surprisingly impressive as to stun or overwhelm"
+        },
+        {
+          "word": "stupefying",
+          "synset": "oewn-01286247-s",
+          "charge": 1,
+          "tone": "The stun taken to its blank end, where the mind goes slack rather than sharp, so the admiration comes dulled.",
+          "_gloss": "so surprisingly impressive as to stun or overwhelm"
+        },
+        {
+          "word": "baronial",
+          "synset": "oewn-01286600-s",
+          "charge": 2,
+          "tone": "Grandeur with rank in it - the scale reads as lordly, claiming consequence rather than just filling space.",
+          "_gloss": "impressive in size, manner, or appearance"
+        },
+        {
+          "word": "imposing",
+          "synset": "oewn-01286600-s",
+          "charge": 1,
+          "tone": "Impressiveness that presses down on the onlooker, commanding respect from a slight distance and closer to daunting than to inviting.",
+          "_gloss": "impressive in size, manner, or appearance"
+        },
+        {
+          "word": "noble",
+          "synset": "oewn-01286600-s",
+          "charge": 2,
+          "tone": "The bulk or bearing reads as dignity, an elevation of quality, where *imposing* achieves its effect by weight alone.",
+          "_gloss": "impressive in size, manner, or appearance"
+        }
+      ]
+    },
+    {
+      "id": "family-01564906-a",
+      "axis": "feeling merely aroused → deep feeling that gladdens, rouses or disquiets",
+      "_head": [
+        "moving"
+      ],
+      "_definition": "arousing or capable of arousing deep emotion",
+      "anchors": [
+        "moving",
+        "affecting",
+        "poignant",
+        "touching",
+        "haunting",
+        "heartwarming"
+      ],
+      "members": [
+        {
+          "word": "moving",
+          "synset": "oewn-01564906-a",
+          "charge": 1,
+          "tone": "The plainest full-strength term here — it credits depth of feeling without saying what the feeling is, where *heartwarming* and *haunting* each name its colour.",
+          "_gloss": "arousing or capable of arousing deep emotion"
+        },
+        {
+          "word": "affecting",
+          "synset": "oewn-01565214-s",
+          "charge": 0,
+          "tone": "The barest of the three that share this sense — it reports that feeling was produced and stops there, where *poignant* and *touching* each put a force behind it.",
+          "_gloss": "arousing affect"
+        },
+        {
+          "word": "poignant",
+          "synset": "oewn-01565214-s",
+          "charge": 1,
+          "tone": "The keenest of the three — the feeling it names arrives with an edge, where *touching* arrives softly.",
+          "_gloss": "arousing affect"
+        },
+        {
+          "word": "touching",
+          "synset": "oewn-01565214-s",
+          "charge": 1,
+          "tone": "The mildest of the three — a small stir of feeling rather than the keen pull *poignant* exerts.",
+          "_gloss": "arousing affect"
+        },
+        {
+          "word": "haunting",
+          "synset": "oewn-01565472-s",
+          "charge": 0,
+          "tone": "The one member whose effect is unwelcome — it credits real depth while naming the disturbance, where *heartwarming* credits only the pleasure.",
+          "_gloss": "having a deeply disquieting or disturbing effect"
+        },
+        {
+          "word": "heartwarming",
+          "synset": "oewn-01565673-s",
+          "charge": 2,
+          "tone": "Unmixed warmth — the only member that guarantees the feeling is a glad one, where *moving* leaves the kind of emotion open.",
+          "_gloss": "causing gladness and pleasure"
+        },
+        {
+          "word": "stirring",
+          "synset": "oewn-01565822-s",
+          "charge": 2,
+          "tone": "Rousing rather than tender — it makes the emotion strong and forward-moving while ruling out the discomfort *haunting* trades in.",
+          "_gloss": "exciting strong but not unpleasant emotions"
+        },
+        {
+          "word": "soul-stirring",
+          "synset": "oewn-01565822-s",
+          "charge": 3,
+          "tone": "The emphatic form of the same sense — it puts the whole self behind the feeling *stirring* merely raises.",
+          "_gloss": "exciting strong but not unpleasant emotions"
+        }
+      ]
+    },
+    {
+      "id": "family-00440447-a",
+      "axis": "plain quickness of mind → shrewdness honed by self-interest and survival",
+      "_head": [
+        "smart"
+      ],
+      "_definition": "showing mental alertness and calculation and resourcefulness",
+      "anchors": [
+        "smart",
+        "astute",
+        "sharp",
+        "shrewd",
+        "cagey",
+        "cagy"
+      ],
+      "members": [
+        {
+          "word": "smart",
+          "synset": "oewn-00440447-a",
+          "charge": 2,
+          "tone": "The family's plain approving term - alertness and resourcefulness credited straight, with none of the self-interested edge *cagey* carries.",
+          "_gloss": "showing mental alertness and calculation and resourcefulness"
+        },
+        {
+          "word": "astute",
+          "synset": "oewn-00440649-s",
+          "charge": 2,
+          "tone": "Praise for judgement that sees through a situation, formal in register and weightier than *sharp*, which credits speed instead.",
+          "_gloss": "marked by practical hardheaded intelligence"
+        },
+        {
+          "word": "sharp",
+          "synset": "oewn-00440649-s",
+          "charge": 2,
+          "tone": "The same practical intelligence as *astute*, but felt as quickness and edge rather than depth.",
+          "_gloss": "marked by practical hardheaded intelligence"
+        },
+        {
+          "word": "shrewd",
+          "synset": "oewn-00440649-s",
+          "charge": 1,
+          "tone": "Approves the hardheaded part out loud, so the compliment comes with a coolness *astute* does not have.",
+          "_gloss": "marked by practical hardheaded intelligence"
+        },
+        {
+          "word": "cagey",
+          "synset": "oewn-00440992-s",
+          "charge": 0,
+          "tone": "Credits the shrewdness while flagging the guardedness - intelligence held close and used defensively, which is why the approval is only half given.",
+          "_gloss": "showing self-interest and shrewdness in dealing with others"
+        },
+        {
+          "word": "cagy",
+          "synset": "oewn-00440992-s",
+          "charge": 0,
+          "tone": "An alternate spelling carrying exactly the force of *cagey*, wariness and self-interest both.",
+          "_gloss": "showing self-interest and shrewdness in dealing with others"
+        },
+        {
+          "word": "canny",
+          "synset": "oewn-00440992-s",
+          "charge": 1,
+          "tone": "Makes the self-interest sound like sound sense rather than concealment, warming what *cagey* leaves guarded.",
+          "_gloss": "showing self-interest and shrewdness in dealing with others"
+        },
+        {
+          "word": "clever",
+          "synset": "oewn-00440992-s",
+          "charge": 1,
+          "tone": "The double-edged member - it grants the quickness while letting the self-interest show, so it can compliment and needle in one word.",
+          "_gloss": "showing self-interest and shrewdness in dealing with others"
+        },
+        {
+          "word": "streetwise",
+          "synset": "oewn-00441171-s",
+          "charge": 2,
+          "tone": "Respect for intelligence proved under pressure rather than taught - resourcefulness measured by whether it keeps a person going in a city.",
+          "_gloss": "having the shrewd resourcefulness needed to survive in an urban environment"
+        },
+        {
+          "word": "street smart",
+          "synset": "oewn-00441171-s",
+          "charge": 2,
+          "tone": "Says what *streetwise* says with the parts laid bare, the street and the smartness named separately, which makes it land blunter.",
+          "_gloss": "having the shrewd resourcefulness needed to survive in an urban environment"
+        },
+        {
+          "word": "with-it",
+          "synset": "oewn-00441171-s",
+          "charge": 1,
+          "tone": "Informal and light, it makes the same survival-sharpness sound like being clued in rather than hardened by it.",
+          "_gloss": "having the shrewd resourcefulness needed to survive in an urban environment"
+        }
+      ]
+    },
+    {
+      "id": "family-00671807-a",
+      "axis": "merely not of the present moment → wholly finished and out of use",
+      "_head": [
+        "noncurrent"
+      ],
+      "_definition": "not current or belonging to the present time",
+      "anchors": [
+        "noncurrent",
+        "back",
+        "dead",
+        "disused",
+        "obsolete",
+        "outdated"
+      ],
+      "members": [
+        {
+          "word": "noncurrent",
+          "synset": "oewn-00671807-a",
+          "charge": 0,
+          "tone": "The flattest term here - a bare negation of present-day standing, without the verdict *obsolete* passes.",
+          "_gloss": "not current or belonging to the present time"
+        },
+        {
+          "word": "back",
+          "synset": "oewn-00672052-s",
+          "charge": 0,
+          "tone": "Purely positional - it sets something at an earlier date and judges nothing about it.",
+          "_gloss": "of an earlier date"
+        },
+        {
+          "word": "dead",
+          "synset": "oewn-00672155-s",
+          "charge": -1,
+          "tone": "Blunt and absolute - force and relevance are gone outright, not ebbing as in *obsolescent*.",
+          "_gloss": "no longer having force or relevance"
+        },
+        {
+          "word": "disused",
+          "synset": "oewn-00672257-s",
+          "charge": 0,
+          "tone": "States the plain fact of non-use and leaves the reason alone.",
+          "_gloss": "no longer in use"
+        },
+        {
+          "word": "obsolete",
+          "synset": "oewn-00672257-s",
+          "charge": -1,
+          "tone": "The same non-use as *disused*, but delivered as a verdict rather than an observation.",
+          "_gloss": "no longer in use"
+        },
+        {
+          "word": "outdated",
+          "synset": "oewn-00672374-s",
+          "charge": -2,
+          "tone": "Faults the thing for its age, withdrawing validity and fashion in one stroke.",
+          "_gloss": "old; no longer valid or fashionable"
+        },
+        {
+          "word": "out-of-date",
+          "synset": "oewn-00672374-s",
+          "charge": -1,
+          "tone": "Plain and unemphatic - it reports the same lapse *outdated* reports, with less of the reproach.",
+          "_gloss": "old; no longer valid or fashionable"
+        },
+        {
+          "word": "superannuated",
+          "synset": "oewn-00672374-s",
+          "charge": -2,
+          "tone": "Formal and faintly withering - age is treated as having disqualified the thing.",
+          "_gloss": "old; no longer valid or fashionable"
+        },
+        {
+          "word": "obsolescent",
+          "synset": "oewn-00672603-s",
+          "charge": -1,
+          "tone": "Marks the slide rather than the arrival - on its way to what *obsolete* already is.",
+          "_gloss": "becoming obsolete"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "family-01453748-a",
-   "axis": "a rescue merely absent → damnation pronounced and the ruin complete",
-   "_head": [
-    "lost"
-   ],
-   "_definition": "spiritually or physically doomed or destroyed",
-   "anchors": [
-    "lost",
-    "cursed",
-    "damned",
-    "doomed",
-    "unredeemed",
-    "unsaved"
-   ],
-   "members": [
-    {
-     "word": "lost",
-     "synset": "oewn-01453748-a",
-     "charge": -1,
-     "tone": "The softest of these condemnations - it states the doom as a settled condition without naming who or what condemned, where *damned* pronounces the sentence.",
-     "_gloss": "spiritually or physically doomed or destroyed"
-    },
-    {
-     "word": "cursed",
-     "synset": "oewn-01454004-s",
-     "charge": -2,
-     "tone": "Lays the peril on the subject from outside, as something worked upon them, where *unsaved* reports only a lack.",
-     "_gloss": "in danger of the eternal punishment of Hell"
-    },
-    {
-     "word": "damned",
-     "synset": "oewn-01454004-s",
-     "charge": -3,
-     "tone": "The verdict pronounced outright, naming the punishment rather than circling it - heavier than *doomed*, which only fixes the outcome.",
-     "_gloss": "in danger of the eternal punishment of Hell"
-    },
-    {
-     "word": "doomed",
-     "synset": "oewn-01454004-s",
-     "charge": -2,
-     "tone": "Settles the peril as fate already fixed, condemning without a condemner, where *cursed* implies something laid it on.",
-     "_gloss": "in danger of the eternal punishment of Hell"
-    },
-    {
-     "word": "unredeemed",
-     "synset": "oewn-01454004-s",
-     "charge": -1,
-     "tone": "Formal and abstract - an account left unsettled rather than a sentence passed, so it lands well short of *damned*.",
-     "_gloss": "in danger of the eternal punishment of Hell"
-    },
-    {
-     "word": "unsaved",
-     "synset": "oewn-01454004-s",
-     "charge": -1,
-     "tone": "The flattest way to state the danger, a bare absence of rescue where *damned* is an active condemnation.",
-     "_gloss": "in danger of the eternal punishment of Hell"
-    },
-    {
-     "word": "destroyed",
-     "synset": "oewn-01454181-s",
-     "charge": -3,
-     "tone": "Absolute - the wreck, physical or moral, is already complete, where *doomed* leaves it still ahead.",
-     "_gloss": "destroyed physically or morally"
-    },
-    {
-     "word": "ruined",
-     "synset": "oewn-01454181-s",
-     "charge": -2,
-     "tone": "Keeps the aftermath in view, something once whole now spoiled, a shade less final than *destroyed*.",
-     "_gloss": "destroyed physically or morally"
-    }
-   ]
-  },
-  {
-   "id": "family-00036594-a",
-   "axis": "plain absence of activity → slackness treated as a fault",
-   "_head": [
-    "inactive"
-   ],
-   "_definition": "lacking activity; lying idle or unused",
-   "anchors": [
-    "inactive",
-    "dark",
-    "dead",
-    "dull",
-    "slow",
-    "sluggish"
-   ],
-   "members": [
-    {
-     "word": "inactive",
-     "synset": "oewn-00036594-a",
-     "charge": 0,
-     "tone": "The flat, unmarked term for the state, reporting that nothing is going on without suggesting anything is wrong with that.",
-     "_gloss": "lacking activity; lying idle or unused"
-    },
-    {
-     "word": "dark",
-     "synset": "oewn-00036876-s",
-     "charge": 0,
-     "tone": "States a closure as a plain condition — nothing is being put on — where *dead* would make the emptiness itself the verdict.",
-     "_gloss": "not giving performances; closed"
-    },
-    {
-     "word": "dead",
-     "synset": "oewn-00036992-s",
-     "charge": -2,
-     "tone": "The absolute form: activity is not merely reduced but gone, which is what carries it past *dull*.",
-     "_gloss": "devoid of activity"
-    },
-    {
-     "word": "dull",
-     "synset": "oewn-00037111-s",
-     "charge": -1,
-     "tone": "Hears the lack of briskness as a flatness worth complaining about, where *slow* only reports the rate.",
-     "_gloss": "(of business) not active or brisk"
-    },
-    {
-     "word": "slow",
-     "synset": "oewn-00037111-s",
-     "charge": -1,
-     "tone": "The mildest of the three, measuring the pace of trade rather than passing judgement on it as *sluggish* does.",
-     "_gloss": "(of business) not active or brisk"
-    },
-    {
-     "word": "sluggish",
-     "synset": "oewn-00037111-s",
-     "charge": -2,
-     "tone": "Adds torpor to the slackness, making the absence of brisk trade sound like something too heavy to move.",
-     "_gloss": "(of business) not active or brisk"
-    },
-    {
-     "word": "idle",
-     "synset": "oewn-00037301-s",
-     "charge": -1,
-     "tone": "Puts a hint of waste on the disuse — something capable of working and sitting there instead — which *unused* does not.",
-     "_gloss": "not in active use"
-    },
-    {
-     "word": "unused",
-     "synset": "oewn-00037301-s",
-     "charge": 0,
-     "tone": "Purely factual: it records that the thing is not in use and stops, with none of the reproach in *idle*.",
-     "_gloss": "not in active use"
-    },
-    {
-     "word": "strikebound",
-     "synset": "oewn-00037454-s",
-     "charge": 0,
-     "tone": "Names the cause along with the standstill, so it attributes rather than evaluates the stoppage.",
-     "_gloss": "closed or immobilized by a strike"
-    }
-   ]
-  },
-  {
-   "id": "family-01568466-a",
-   "axis": "not currently moving → held absolutely immobile",
-   "_head": [
-    "nonmoving",
-    "unmoving"
-   ],
-   "_definition": "not in motion",
-   "anchors": [
-    "nonmoving",
-    "unmoving",
-    "inactive",
-    "motionless",
-    "static",
-    "still"
-   ],
-   "members": [
-    {
-     "word": "nonmoving",
-     "synset": "oewn-01568466-a",
-     "charge": 0,
-     "tone": "The bare denial - it states only that motion is absent, with none of the held-in-place force of *fixed*.",
-     "_gloss": "not in motion"
-    },
-    {
-     "word": "unmoving",
-     "synset": "oewn-01568466-a",
-     "charge": 0,
-     "tone": "More observational than *nonmoving*, describing a thing seen not to move rather than classifying it as one that does not.",
-     "_gloss": "not in motion"
-    },
-    {
-     "word": "inactive",
-     "synset": "oewn-01568708-s",
-     "charge": 0,
-     "tone": "On this sense it reports only that a thing is not physically moving, carrying none of the completeness of *motionless*.",
-     "_gloss": "not in physical motion"
-    },
-    {
-     "word": "motionless",
-     "synset": "oewn-01568708-s",
-     "charge": 0,
-     "tone": "Complete and picture-like - a body wholly without movement, where *inactive* merely records that none is occurring.",
-     "_gloss": "not in physical motion"
-    },
-    {
-     "word": "static",
-     "synset": "oewn-01568708-s",
-     "charge": 0,
-     "tone": "Cool and near-technical, framing stillness as a standing condition of the thing rather than a moment of it as *motionless* does.",
-     "_gloss": "not in physical motion"
-    },
-    {
-     "word": "still",
-     "synset": "oewn-01568708-s",
-     "charge": 0,
-     "tone": "The plainest and calmest member - stillness as quiet, not as the arrest that *frozen* implies.",
-     "_gloss": "not in physical motion"
-    },
-    {
-     "word": "becalmed",
-     "synset": "oewn-01568905-s",
-     "charge": 0,
-     "tone": "Carries its cause with it - the wind has failed, so the stillness is suffered rather than held, which plain *motionless* leaves open.",
-     "_gloss": "rendered motionless for lack of wind"
-    },
-    {
-     "word": "fixed",
-     "synset": "oewn-01568996-s",
-     "charge": 0,
-     "tone": "Stillness with something holding it there - not merely unmoving but pinned, which *still* never implies.",
-     "_gloss": "fixed and unmoving"
-    },
-    {
-     "word": "set",
-     "synset": "oewn-01568996-s",
-     "charge": 0,
-     "tone": "Blunter and more settled than *fixed*, suggesting a position taken and no longer open to adjustment.",
-     "_gloss": "fixed and unmoving"
-    },
-    {
-     "word": "rigid",
-     "synset": "oewn-01568996-s",
-     "charge": 0,
-     "tone": "Adds stiffness to the fixity - it does not move because it will not bend, where *fixed* says only that it is held.",
-     "_gloss": "fixed and unmoving"
-    },
-    {
-     "word": "frozen",
-     "synset": "oewn-01569274-s",
-     "charge": 0,
-     "tone": "The stillness of a sudden stop - motion arrested mid-course rather than never begun, unlike *stationary*.",
-     "_gloss": "absolutely still"
-    },
-    {
-     "word": "rooted",
-     "synset": "oewn-01569274-s",
-     "charge": 0,
-     "tone": "Stillness as being held fast from below - immovable rather than simply halted like *frozen*.",
-     "_gloss": "absolutely still"
-    },
-    {
-     "word": "stock-still",
-     "synset": "oewn-01569274-s",
-     "charge": 0,
-     "tone": "The most emphatic way to say it - total, unqualified stillness, without the sense of arrest in *frozen*.",
-     "_gloss": "absolutely still"
-    },
-    {
-     "word": "inert",
-     "synset": "oewn-01569431-s",
-     "charge": -1,
-     "tone": "Names an incapacity rather than a state - the thing cannot move or push back, which *motionless* never claims.",
-     "_gloss": "unable to move or resist motion"
-    },
-    {
-     "word": "sitting",
-     "synset": "oewn-01569532-s",
-     "charge": -1,
-     "tone": "Stillness read as exposure - it puts a target on whatever it describes, which no other member of the family does.",
-     "_gloss": "not moving and therefore easy to attack"
-    },
-    {
-     "word": "stationary",
-     "synset": "oewn-01569645-s",
-     "charge": 0,
-     "tone": "Neutral and positional - stillness as where a thing stands, not something done to it as in *becalmed*.",
-     "_gloss": "standing still"
-    }
-   ]
-  },
-  {
-   "id": "family-02346685-a",
-   "axis": "flat statement of rank → superiority worn as a manner",
-   "_head": [
-    "superior"
-   ],
-   "_definition": "of or characteristic of high rank or importance",
-   "anchors": [
-    "superior",
-    "arch",
-    "condescending",
-    "patronizing",
-    "patronising",
-    "eminent"
-   ],
-   "members": [
-    {
-     "word": "superior",
-     "synset": "oewn-02346685-a",
-     "charge": 0,
-     "tone": "The family's plain baseline - it states high rank or importance and leaves the verdict to the reader, where *eminent* already admires.",
-     "_gloss": "of or characteristic of high rank or importance"
-    },
-    {
-     "word": "arch",
-     "synset": "oewn-02346987-s",
-     "charge": -1,
-     "tone": "The lightest of the condescension words - superiority worn as a knowing manner rather than pressed on anyone, though it is still looking down.",
-     "_gloss": "(used of behavior or attitude) characteristic of those who treat others with condescension"
-    },
-    {
-     "word": "condescending",
-     "synset": "oewn-02346987-s",
-     "charge": -2,
-     "tone": "Names the fault flatly: a manner that puts the other person below, without the play in *arch*.",
-     "_gloss": "(used of behavior or attitude) characteristic of those who treat others with condescension"
-    },
-    {
-     "word": "patronizing",
-     "synset": "oewn-02346987-s",
-     "charge": -2,
-     "tone": "The most accusing word for the same attitude - it makes the condescension something done to someone, and expects the reader to object.",
-     "_gloss": "(used of behavior or attitude) characteristic of those who treat others with condescension"
-    },
-    {
-     "word": "patronising",
-     "synset": "oewn-02346987-s",
-     "charge": -2,
-     "tone": "The British spelling of *patronizing*, and it gives up none of the reproach.",
-     "_gloss": "(used of behavior or attitude) characteristic of those who treat others with condescension"
-    },
-    {
-     "word": "eminent",
-     "synset": "oewn-02347190-s",
-     "charge": 2,
-     "tone": "Approving - the height is in quality as much as position, where *high-ranking* only marks the rung.",
-     "_gloss": "standing above others in quality or position"
-    },
-    {
-     "word": "high",
-     "synset": "oewn-02347190-s",
-     "charge": 1,
-     "tone": "The barest way to say the same standing - elevation without the honour *eminent* confers.",
-     "_gloss": "standing above others in quality or position"
-    },
-    {
-     "word": "leading",
-     "synset": "oewn-02347411-s",
-     "charge": 2,
-     "tone": "Puts the subject at the front of the field, and does it in a level, unceremonious voice beside *preeminent*.",
-     "_gloss": "greatest in importance or degree or significance or achievement"
-    },
-    {
-     "word": "preeminent",
-     "synset": "oewn-02347411-s",
-     "charge": 3,
-     "tone": "The strongest praise here - greatness set far enough above the rest that comparison stops mattering.",
-     "_gloss": "greatest in importance or degree or significance or achievement"
-    },
-    {
-     "word": "high-level",
-     "synset": "oewn-02347647-s",
-     "charge": 0,
-     "tone": "Neutral placement: it states elevation in rank or importance and passes no judgement on whoever occupies it.",
-     "_gloss": "at an elevated level in rank or importance"
-    },
-    {
-     "word": "high-ranking",
-     "synset": "oewn-02347647-s",
-     "charge": 0,
-     "tone": "Blunter than *eminent* - elevation as a plain fact of rank, with none of the lustre.",
-     "_gloss": "at an elevated level in rank or importance"
-    },
-    {
-     "word": "upper-level",
-     "synset": "oewn-02347647-s",
-     "charge": 0,
-     "tone": "The most colourless of the three - elevation reduced to a tier, with no suggestion of merit.",
-     "_gloss": "at an elevated level in rank or importance"
-    },
-    {
-     "word": "majestic",
-     "synset": "oewn-02347861-s",
-     "charge": 2,
-     "tone": "Awed rather than merely approving - the superiority sits in the bearing, and it lifts the subject clear of ordinary concerns.",
-     "_gloss": "majestic in manner or bearing; superior to mundane matters"
-    },
-    {
-     "word": "olympian",
-     "synset": "oewn-02347861-s",
-     "charge": 2,
-     "tone": "Cooler and more remote than *majestic* - the loftiness reads as untouched by mundane things rather than warmly grand.",
-     "_gloss": "majestic in manner or bearing; superior to mundane matters"
-    },
-    {
-     "word": "superordinate",
-     "synset": "oewn-02348073-s",
-     "charge": 0,
-     "tone": "Technical and relational - it fixes one thing above another in an order and carries neither warmth nor reproach.",
-     "_gloss": "of higher rank or status or value"
-    },
-    {
-     "word": "upper",
-     "synset": "oewn-02348166-s",
-     "charge": 0,
-     "tone": "The shortest term here for standing above, registering the position without any of the admiration in *eminent*.",
-     "_gloss": "superior in rank or accomplishment"
-    }
-   ]
-  },
-  {
-   "id": "family-00682414-a",
-   "axis": "damage named with contempt → damage merely recorded",
-   "_head": [
-    "damaged"
-   ],
-   "_definition": "harmed or injured or spoiled",
-   "anchors": [
-    "damaged",
-    "battered",
-    "beat-up",
-    "beaten-up",
-    "bedraggled",
-    "broken-down"
-   ],
-   "members": [
-    {
-     "word": "damaged",
-     "synset": "oewn-00682414-a",
-     "charge": 0,
-     "tone": "The family's flat baseline: harm has occurred, and the word passes no verdict on the state it left, where *dilapidated* passes little else.",
-     "_gloss": "harmed or injured or spoiled"
-    },
-    {
-     "word": "battered",
-     "synset": "oewn-00682829-s",
-     "charge": -1,
-     "tone": "Puts the cause inside the word - blows and hard usage - where *damaged* leaves the cause blank.",
-     "_gloss": "damaged by blows or hard usage"
-    },
-    {
-     "word": "beat-up",
-     "synset": "oewn-00682829-s",
-     "charge": -1,
-     "tone": "Informal where *battered* is neutral in register, treating the same hard usage as something to shrug at rather than record.",
-     "_gloss": "damaged by blows or hard usage"
-    },
-    {
-     "word": "beaten-up",
-     "synset": "oewn-00682829-s",
-     "charge": -1,
-     "tone": "The fuller form of *beat-up*, equally informal, with a little more of the beating still audible in it.",
-     "_gloss": "damaged by blows or hard usage"
-    },
-    {
-     "word": "bedraggled",
-     "synset": "oewn-00682984-s",
-     "charge": -2,
-     "tone": "Wears the deplorable condition on the surface, making it look pitiable rather than shameful, where *derelict* makes it a reproach.",
-     "_gloss": "in deplorable condition"
-    },
-    {
-     "word": "broken-down",
-     "synset": "oewn-00682984-s",
-     "charge": -2,
-     "tone": "Names the deplorable state as something that has given way, plainer and more mechanical than *tatterdemalion*.",
-     "_gloss": "in deplorable condition"
-    },
-    {
-     "word": "derelict",
-     "synset": "oewn-00682984-s",
-     "charge": -2,
-     "tone": "Condemning rather than descriptive - the deplorable state reads as neglect that was allowed to happen, where *dented* is only a fact about a shape.",
-     "_gloss": "in deplorable condition"
-    },
-    {
-     "word": "dilapidated",
-     "synset": "oewn-00682984-s",
-     "charge": -2,
-     "tone": "The formal word for the deplorable state, presenting it as advanced and cumulative decay rather than the single mishap *dented* records.",
-     "_gloss": "in deplorable condition"
-    },
-    {
-     "word": "ramshackle",
-     "synset": "oewn-00682984-s",
-     "charge": -2,
-     "tone": "Adds precariousness to the deplorable state - the thing is not merely poor but barely holding together, which *damaged* never implies.",
-     "_gloss": "in deplorable condition"
-    },
-    {
-     "word": "tatterdemalion",
-     "synset": "oewn-00682984-s",
-     "charge": -2,
-     "tone": "The most ornate word in this set, and the flourish makes the contempt sound almost relished beside plain *broken-down*.",
-     "_gloss": "in deplorable condition"
-    },
-    {
-     "word": "tumble-down",
-     "synset": "oewn-00682984-s",
-     "charge": -2,
-     "tone": "Plain-spoken where *tatterdemalion* is ornate, and it leaves the deplorable state one shove from collapse.",
-     "_gloss": "in deplorable condition"
-    },
-    {
-     "word": "bent",
-     "synset": "oewn-00683272-s",
-     "charge": 0,
-     "tone": "Damage as deformation rather than breakage: the shape has gone but not necessarily the use, which *broken* denies outright.",
-     "_gloss": "of metal e.g."
-    },
-    {
-     "word": "crumpled",
-     "synset": "oewn-00683272-s",
-     "charge": 0,
-     "tone": "Deformation taken across the whole of a thing rather than along one line, so it reads as more thorough than *bent* while judging just as little.",
-     "_gloss": "of metal e.g."
-    },
-    {
-     "word": "dented",
-     "synset": "oewn-00683272-s",
-     "charge": 0,
-     "tone": "The most local of these three - one blow's worth of deformation, where *crumpled* takes the whole surface.",
-     "_gloss": "of metal e.g."
-    },
-    {
-     "word": "broken",
-     "synset": "oewn-00683423-s",
-     "charge": 0,
-     "tone": "A verdict on function alone: the thing does not work, and the word says nothing about how it got there, where *battered* says little else.",
-     "_gloss": "out of working order (‘busted’ is an informal substitute for ‘broken’)"
-    },
-    {
-     "word": "busted",
-     "synset": "oewn-00683423-s",
-     "charge": -1,
-     "tone": "The informal substitute for *broken*, and the drop in register makes the same failure sound offhand rather than serious.",
-     "_gloss": "out of working order (‘busted’ is an informal substitute for ‘broken’)"
-    }
-   ]
-  },
-  {
-   "id": "family-02278101-a",
-   "axis": "sound knowledge → worldly experience so complete nothing impresses",
-   "_head": [
-    "sophisticated"
-   ],
-   "_definition": "having or appealing to those having worldly knowledge and refinement and savoir-faire",
-   "anchors": [
-    "sophisticated",
-    "blase",
-    "worldly",
-    "intelligent",
-    "well-informed",
-    "polished"
-   ],
-   "members": [
-    {
-     "word": "sophisticated",
-     "synset": "oewn-02278101-a",
-     "charge": 2,
-     "tone": "Praises worldly knowledge and refinement together, and it settles on the thing made for such a person as easily as on the person - a reach *urbane* lacks.",
-     "_gloss": "having or appealing to those having worldly knowledge and refinement and savoir-faire"
-    },
-    {
-     "word": "blase",
-     "synset": "oewn-02278541-s",
-     "charge": -1,
-     "tone": "The sophistication is charged to surfeit, which sours the praise - it marks a person as past being impressed where *worldly* only marks them as experienced.",
-     "_gloss": "very sophisticated especially because of surfeit; versed in the ways of the world"
-    },
-    {
-     "word": "worldly",
-     "synset": "oewn-02278541-s",
-     "charge": 1,
-     "tone": "Takes the versed-in-the-ways-of-the-world half of the sense straight, crediting the experience without the taint of excess *blase* carries.",
-     "_gloss": "very sophisticated especially because of surfeit; versed in the ways of the world"
-    },
-    {
-     "word": "intelligent",
-     "synset": "oewn-02278811-s",
-     "charge": 1,
-     "tone": "The approval is for sound knowledge itself, with none of the social finish *sophisticated* insists on.",
-     "_gloss": "possessing sound knowledge"
-    },
-    {
-     "word": "well-informed",
-     "synset": "oewn-02278811-s",
-     "charge": 1,
-     "tone": "Flatter than *intelligent* - the credit goes to what a person knows, not to anything in the knower.",
-     "_gloss": "possessing sound knowledge"
-    },
-    {
-     "word": "polished",
-     "synset": "oewn-02278936-s",
-     "charge": 2,
-     "tone": "Praise for the finish, where the assurance is the visible surface and *refined* names the quality under it.",
-     "_gloss": "showing a high degree of refinement and the assurance that comes from wide social experien"
-    },
-    {
-     "word": "refined",
-     "synset": "oewn-02278936-s",
-     "charge": 2,
-     "tone": "Names the refinement itself rather than its display, so it praises without the suggestion of buffing that *polished* carries.",
-     "_gloss": "showing a high degree of refinement and the assurance that comes from wide social experien"
-    },
-    {
-     "word": "urbane",
-     "synset": "oewn-02278936-s",
-     "charge": 2,
-     "tone": "The formal member, putting the weight on assured ease of manner rather than the surface shine *polished* names.",
-     "_gloss": "showing a high degree of refinement and the assurance that comes from wide social experien"
-    },
-    {
-     "word": "worldly-wise",
-     "synset": "oewn-02279187-s",
-     "charge": 1,
-     "tone": "Praises shrewdness rather than polish - it says a person cannot be fooled, which *urbane* never claims.",
-     "_gloss": "experienced in and wise to the ways of the world"
-    }
-   ]
-  },
-  {
-   "id": "family-01805299-a",
-   "axis": "agreeable to your taste → an ideal of charmed, serene delight",
-   "_head": [
-    "pleasant"
-   ],
-   "_definition": "affording pleasure; being in harmony with your taste or likings",
-   "anchors": [
-    "pleasant",
-    "beautiful",
-    "dulcet",
-    "enjoyable",
-    "gratifying",
-    "pleasurable"
-   ],
-   "members": [
-    {
-     "word": "pleasant",
-     "synset": "oewn-01805299-a",
-     "charge": 1,
-     "tone": "The plain baseline of the family — pleasure that simply agrees with your taste, without the sweetness of *dulcet* or the height of *idyllic*.",
-     "_gloss": "affording pleasure; being in harmony with your taste or likings"
-    },
-    {
-     "word": "beautiful",
-     "synset": "oewn-01805768-s",
-     "charge": 2,
-     "tone": "Turned on the weather, it rates a day at the top of enjoyable rather than merely *pleasant*.",
-     "_gloss": "(of weather) highly enjoyable"
-    },
-    {
-     "word": "dulcet",
-     "synset": "oewn-01805877-s",
-     "charge": 2,
-     "tone": "Intensity turned soft — pleasantness taken to an extreme, but gently, where *gratifying* is emphatic.",
-     "_gloss": "extremely pleasant in a gentle way"
-    },
-    {
-     "word": "enjoyable",
-     "synset": "oewn-01806033-s",
-     "charge": 1,
-     "tone": "Unadorned approval of something that gives pleasure, carrying none of the sense of a want answered that *gratifying* adds.",
-     "_gloss": "affording satisfaction or pleasure"
-    },
-    {
-     "word": "gratifying",
-     "synset": "oewn-01806033-s",
-     "charge": 2,
-     "tone": "Leans on the satisfaction half of the sense — pleasure that answers something, where *pleasurable* is pleasure for its own sake.",
-     "_gloss": "affording satisfaction or pleasure"
-    },
-    {
-     "word": "pleasurable",
-     "synset": "oewn-01806033-s",
-     "charge": 2,
-     "tone": "The most direct of these three: it names the pleasure itself, with none of the fulfilment *gratifying* implies.",
-     "_gloss": "affording satisfaction or pleasure"
-    },
-    {
-     "word": "grateful",
-     "synset": "oewn-01806331-s",
-     "charge": 1,
-     "tone": "Describes the thing that gives comfort rather than the person who feels thanks — a warm, easing approval beside the brighter *pleasurable*.",
-     "_gloss": "affording comfort or pleasure"
-    },
-    {
-     "word": "idyllic",
-     "synset": "oewn-01806450-s",
-     "charge": 3,
-     "tone": "The strongest here — not merely pleasant but charmed, simple and serene, an ideal rather than a preference met.",
-     "_gloss": "suggestive of an idyll; charmingly simple and serene"
-    },
-    {
-     "word": "pleasing",
-     "synset": "oewn-01806604-s",
-     "charge": 1,
-     "tone": "Routes approval through whichever sense is doing the work, and stays milder than the extremity of *dulcet*.",
-     "_gloss": "pleasant or agreeable to the senses"
-    }
-   ]
-  },
-  {
-   "id": "family-00119378-a",
-   "axis": "merely having life in one → brimming with it",
-   "_head": [
-    "animated",
-    "alive"
-   ],
-   "_definition": "having life or vigor or spirit",
-   "anchors": [
-    "animated",
-    "alive",
-    "enlivened",
-    "spirited",
-    "lively",
-    "vital"
-   ],
-   "members": [
-    {
-     "word": "animated",
-     "synset": "oewn-00119378-a",
-     "charge": 1,
-     "tone": "Mild approval - credits a thing with visible vigor without claiming it brims over the way *lively* does.",
-     "_gloss": "having life or vigor or spirit"
-    },
-    {
-     "word": "alive",
-     "synset": "oewn-00119378-a",
-     "charge": 1,
-     "tone": "Praise cut back to a bare condition - where *animated* shows the vigor off, this only asserts that it is there.",
-     "_gloss": "having life or vigor or spirit"
-    },
-    {
-     "word": "enlivened",
-     "synset": "oewn-00119655-s",
-     "charge": 1,
-     "tone": "Flat and causal - the liveliness was put in from outside, so the word credits the doing rather than the thing.",
-     "_gloss": "made lively or spirited"
-    },
-    {
-     "word": "spirited",
-     "synset": "oewn-00119655-s",
-     "charge": 2,
-     "tone": "Frankly admiring where *enlivened* stays descriptive - the same imparted liveliness heard as a virtue rather than an effect.",
-     "_gloss": "made lively or spirited"
-    },
-    {
-     "word": "lively",
-     "synset": "oewn-00119817-s",
-     "charge": 2,
-     "tone": "A step past *animated*'s mere possession of spirit to fullness of it, and the warmth rises with the quantity.",
-     "_gloss": "full of spirit; full of life"
-    },
-    {
-     "word": "vital",
-     "synset": "oewn-00119817-s",
-     "charge": 2,
-     "tone": "Elevated in register - the same fullness of life as *lively*, but weightier, sounding like a force within rather than a liveliness on show.",
-     "_gloss": "full of spirit; full of life"
-    },
-    {
-     "word": "reanimated",
-     "synset": "oewn-00120089-s",
-     "charge": 1,
-     "tone": "States the restoration plainly - fresh vigor recorded as an outcome, with none of the relief *revived* carries.",
-     "_gloss": "given fresh life or vigor or spirit"
-    },
-    {
-     "word": "revived",
-     "synset": "oewn-00120089-s",
-     "charge": 2,
-     "tone": "Warmer than *reanimated* for the same return of vigor - the fresh life sounds like a recovery worth welcoming.",
-     "_gloss": "given fresh life or vigor or spirit"
-    }
-   ]
-  },
-  {
-   "id": "family-01372590-a",
-   "axis": "a bare warrant that something passes → rightness actively inflicted as deserts",
-   "_head": [
-    "just"
-   ],
-   "_definition": "used especially of what is legally or ethically right or proper or fitting",
-   "anchors": [
-    "conscionable",
-    "fitting",
-    "meet",
-    "retributive",
-    "retributory",
-    "vindicatory"
-   ],
-   "members": [
-    {
-     "word": "just",
-     "synset": "oewn-01372590-a",
-     "charge": 0,
-     "tone": "",
-     "_gloss": "used especially of what is legally or ethically right or proper or fitting",
-     "_skip": true,
-     "_skip_reason": "gloss is a usage restriction, not a definition"
-    },
-    {
-     "word": "conscionable",
-     "synset": "oewn-01372980-s",
-     "charge": 1,
-     "tone": "The bar it sets is internal and low - the thing clears your conscience rather than being right in itself, so it approves far more faintly than *fitting*.",
-     "_gloss": "acceptable to your conscience"
-    },
-    {
-     "word": "fitting",
-     "synset": "oewn-01373068-s",
-     "charge": 2,
-     "tone": "Approval by exactness rather than permission - not merely allowable but precisely right, and it says so plainly where *meet* pronounces.",
-     "_gloss": "being precisely fitting and right"
-    },
-    {
-     "word": "meet",
-     "synset": "oewn-01373068-s",
-     "charge": 2,
-     "tone": "The same verdict as *fitting* delivered as a formal pronouncement, weighty and a little ceremonious, so the rightness sounds handed down rather than observed.",
-     "_gloss": "being precisely fitting and right"
-    },
-    {
-     "word": "retributive",
-     "synset": "oewn-01373232-s",
-     "charge": 1,
-     "tone": "Cool and measured - what it approves is the fit between deserts and what is dealt out, not whatever it lands on, and it never softens the fact that the thing is inflicted.",
-     "_gloss": "given or inflicted in requital according to merits or deserts"
-    },
-    {
-     "word": "retributory",
-     "synset": "oewn-01373232-s",
-     "charge": 1,
-     "tone": "Carries the same verdict as *retributive* with more machinery in the mouth, sounding like the working of paying back rather than the principle behind it.",
-     "_gloss": "given or inflicted in requital according to merits or deserts"
-    },
-    {
-     "word": "vindicatory",
-     "synset": "oewn-01373232-s",
-     "charge": 1,
-     "tone": "Points at the rightness rather than the sting - where *retributive* names the paying back, this frames the same act as a claim made good.",
-     "_gloss": "given or inflicted in requital according to merits or deserts"
-    },
-    {
-     "word": "rightful",
-     "synset": "oewn-01373402-s",
-     "charge": 1,
-     "tone": "Approval of the coldest kind - a warrant rather than a compliment, resting on validity where *conscionable* rests on conscience.",
-     "_gloss": "legally valid"
-    }
-   ]
-  },
-  {
-   "id": "family-02233368-a",
-   "axis": "competence acknowledged → supreme mastery admired",
-   "_head": [
-    "skilled"
-   ],
-   "_definition": "having or showing or requiring special skill",
-   "anchors": [
-    "skilled",
-    "accomplished",
-    "complete",
-    "adept",
-    "expert",
-    "good"
-   ],
-   "members": [
-    {
-     "word": "skilled",
-     "synset": "oewn-02233368-a",
-     "charge": 2,
-     "tone": "Plain, checkable praise — it credits capability without admiring it, and can sit on the work that demands the skill as easily as on the person who has it.",
-     "_gloss": "having or showing or requiring special skill"
-    },
-    {
-     "word": "accomplished",
-     "synset": "oewn-02233868-s",
-     "charge": 3,
-     "tone": "Praise with attainment behind it — skill brought to a high finish, warmer and more admiring than the flat *skilled*.",
-     "_gloss": "highly skilled"
-    },
-    {
-     "word": "complete",
-     "synset": "oewn-02233868-s",
-     "charge": 2,
-     "tone": "Approves by totality rather than dazzle — it says nothing is missing from the skill, a cooler verdict than *accomplished*.",
-     "_gloss": "highly skilled"
-    },
-    {
-     "word": "adept",
-     "synset": "oewn-02234002-s",
-     "charge": 2,
-     "tone": "Praise for deft, unlaboured sureness — it admires the aptitude in the doing where *expert* admires the knowing.",
-     "_gloss": "having or showing knowledge and skill and aptitude"
-    },
-    {
-     "word": "expert",
-     "synset": "oewn-02234002-s",
-     "charge": 2,
-     "tone": "The authoritative member: it grants knowledge that can be leaned on and vouched for, weightier and less warm than *good*.",
-     "_gloss": "having or showing knowledge and skill and aptitude"
-    },
-    {
-     "word": "good",
-     "synset": "oewn-02234002-s",
-     "charge": 1,
-     "tone": "The mildest approval here — it concedes competence and stops, where *expert* confers standing.",
-     "_gloss": "having or showing knowledge and skill and aptitude"
-    },
-    {
-     "word": "practiced",
-     "synset": "oewn-02234002-s",
-     "charge": 2,
-     "tone": "Credits skill that has been worked in until it is habitual, steadier and less brilliant than *virtuoso*.",
-     "_gloss": "having or showing knowledge and skill and aptitude"
-    },
-    {
-     "word": "proficient",
-     "synset": "oewn-02234002-s",
-     "charge": 2,
-     "tone": "Measured, almost certifying approval — it reports that the standard is met, with none of the admiration in *masterful*.",
-     "_gloss": "having or showing knowledge and skill and aptitude"
-    },
-    {
-     "word": "skillful",
-     "synset": "oewn-02234002-s",
-     "charge": 2,
-     "tone": "Approves the handling itself — visible dexterity in execution, more concrete than the standing implied by *expert*.",
-     "_gloss": "having or showing knowledge and skill and aptitude"
-    },
-    {
-     "word": "skilful",
-     "synset": "oewn-02234002-s",
-     "charge": 2,
-     "tone": "The British spelling, carrying exactly the approving weight of *skillful* for deftness in execution.",
-     "_gloss": "having or showing knowledge and skill and aptitude"
-    },
-    {
-     "word": "ball-hawking",
-     "synset": "oewn-02234501-s",
-     "charge": 0,
-     "tone": "",
-     "_gloss": "used of a player skilled in stealing the ball or robbing a batter of a hit",
-     "_skip": true,
-     "_skip_reason": "gloss is a usage restriction, not a definition"
-    },
-    {
-     "word": "consummate",
-     "synset": "oewn-02234724-s",
-     "charge": 3,
-     "tone": "Superlative praise — skill carried to its finish with nothing left to add, far above the workaday *proficient*.",
-     "_gloss": "having or revealing supreme mastery or skill"
-    },
-    {
-     "word": "masterful",
-     "synset": "oewn-02234724-s",
-     "charge": 3,
-     "tone": "Praise that hears authority in the skill — command of the craft, where *accomplished* only reports a high finish.",
-     "_gloss": "having or revealing supreme mastery or skill"
-    },
-    {
-     "word": "masterly",
-     "synset": "oewn-02234724-s",
-     "charge": 3,
-     "tone": "Admires mastery in the execution rather than in the person, the quieter of the pair beside *masterful*.",
-     "_gloss": "having or revealing supreme mastery or skill"
-    },
-    {
-     "word": "virtuoso",
-     "synset": "oewn-02234724-s",
-     "charge": 3,
-     "tone": "Praise pitched at display — mastery brilliant enough to be watched, showier than the sober *consummate*.",
-     "_gloss": "having or revealing supreme mastery or skill"
-    },
-    {
-     "word": "delicate",
-     "synset": "oewn-02235089-s",
-     "charge": 2,
-     "tone": "Praise for fineness of touch — skill admired for precision and restraint rather than the power heard in *masterful*.",
-     "_gloss": "marked by great skill especially in meticulous technique"
-    }
-   ]
-  },
-  {
-   "id": "family-02568127-a",
-   "axis": "bare statement that a thing nourishes → warm praise of food that does you good and fills you up",
-   "_head": [
-    "wholesome"
-   ],
-   "_definition": "conducive to or characteristic of physical or moral well-being",
-   "anchors": [
-    "wholesome",
-    "alimentary",
-    "alimental",
-    "nourishing",
-    "nutrient",
-    "nutritious"
-   ],
-   "members": [
-    {
-     "word": "wholesome",
-     "synset": "oewn-02568127-a",
-     "charge": 2,
-     "tone": "Approval that reaches past the body to character - it can be aimed at a person's morals as readily as at a meal.",
-     "_gloss": "conducive to or characteristic of physical or moral well-being"
-    },
-    {
-     "word": "alimentary",
-     "synset": "oewn-02568489-s",
-     "charge": 0,
-     "tone": "Flat and clinical - it states that a thing feeds and stops there, with none of the approval in *nourishing*.",
-     "_gloss": "of or providing nourishment"
-    },
-    {
-     "word": "alimental",
-     "synset": "oewn-02568489-s",
-     "charge": 0,
-     "tone": "The stiffer-sounding twin of *alimentary*, carrying the same neutral claim that something supplies nourishment.",
-     "_gloss": "of or providing nourishment"
-    },
-    {
-     "word": "nourishing",
-     "synset": "oewn-02568489-s",
-     "charge": 1,
-     "tone": "Warm where *alimentary* is clinical - the food is credited with doing the body good, not merely with feeding it.",
-     "_gloss": "of or providing nourishment"
-    },
-    {
-     "word": "nutrient",
-     "synset": "oewn-02568489-s",
-     "charge": 0,
-     "tone": "A bare classifier of what a substance supplies, passing no verdict on whether that is welcome.",
-     "_gloss": "of or providing nourishment"
-    },
-    {
-     "word": "nutritious",
-     "synset": "oewn-02568489-s",
-     "charge": 1,
-     "tone": "A quiet recommendation - it praises food for the good it delivers, where *nutrient* only labels it.",
-     "_gloss": "of or providing nourishment"
-    },
-    {
-     "word": "nutritive",
-     "synset": "oewn-02568489-s",
-     "charge": 0,
-     "tone": "Names the capacity to nourish rather than praising the food that has it - the technical member of the set.",
-     "_gloss": "of or providing nourishment"
-    },
-    {
-     "word": "heart-healthy",
-     "synset": "oewn-02568802-s",
-     "charge": 1,
-     "tone": "Approval pinned to one measurable thing, and to what the food leaves out rather than what it supplies.",
-     "_gloss": "of foods that are low in fats and sodium and other ingredients that may foster heart disea"
-    },
-    {
-     "word": "healthy",
-     "synset": "oewn-02568954-s",
-     "charge": 1,
-     "tone": "Plain approval of a thing for the good it does, without the moral reach of *wholesome*.",
-     "_gloss": "promoting health; healthful"
-    },
-    {
-     "word": "salubrious",
-     "synset": "oewn-02568954-s",
-     "charge": 1,
-     "tone": "Formal and slightly grand - the same claim as *healthy* pitched at a height the plainer word never reaches.",
-     "_gloss": "promoting health; healthful"
-    },
-    {
-     "word": "good for you",
-     "synset": "oewn-02568954-s",
-     "charge": 1,
-     "tone": "Informal and addressed to whoever benefits, which makes the good it names personal in a way *salubrious* never is.",
-     "_gloss": "promoting health; healthful"
-    },
-    {
-     "word": "hearty",
-     "synset": "oewn-02569298-s",
-     "charge": 2,
-     "tone": "Warm approval of abundance - the meal is praised for filling as well as feeding.",
-     "_gloss": "providing abundant nourishment"
-    },
-    {
-     "word": "satisfying",
-     "synset": "oewn-02569298-s",
-     "charge": 1,
-     "tone": "Measures the abundance by its effect on the appetite rather than by the size of the plate.",
-     "_gloss": "providing abundant nourishment"
-    },
-    {
-     "word": "solid",
-     "synset": "oewn-02569298-s",
-     "charge": 1,
-     "tone": "Sturdy and unshowy - the plenty is credited as substance rather than as generosity.",
-     "_gloss": "providing abundant nourishment"
-    },
-    {
-     "word": "square",
-     "synset": "oewn-02569298-s",
-     "charge": 1,
-     "tone": "Approval by fair measure - a full and proper portion rather than a lavish one.",
-     "_gloss": "providing abundant nourishment"
-    },
-    {
-     "word": "substantial",
-     "synset": "oewn-02569298-s",
-     "charge": 1,
-     "tone": "Weighs the meal by sheer bulk, a cooler judgement than *hearty* makes of the same plateful.",
-     "_gloss": "providing abundant nourishment"
-    }
-   ]
-  },
-  {
-   "id": "family-00587481-a",
-   "axis": "neutral capacity to shape or structure → approving of what builds or restores to good condition",
-   "_head": [
-    "constructive"
-   ],
-   "_definition": "constructing or tending to construct or improve or promote development",
-   "anchors": [
-    "constructive",
-    "creative",
-    "formative",
-    "shaping",
-    "plastic",
-    "inferential"
-   ],
-   "members": [
-    {
-     "word": "constructive",
-     "synset": "oewn-00587481-a",
-     "charge": 2,
-     "tone": "Approving on two counts at once - it builds and it improves, where *formative* only shapes and leaves the worth of the result open.",
-     "_gloss": "constructing or tending to construct or improve or promote development"
-    },
-    {
-     "word": "creative",
-     "synset": "oewn-00587863-s",
-     "charge": 1,
-     "tone": "Approving at one remove: it credits what fosters making rather than the making itself, a lighter claim than the improvement built into *constructive*.",
-     "_gloss": "promoting construction or creation"
-    },
-    {
-     "word": "formative",
-     "synset": "oewn-00588059-s",
-     "charge": 0,
-     "tone": "Neutral - it names the power to shape without saying the shaping is for the better, which is exactly what *constructive* asserts.",
-     "_gloss": "forming or capable of forming or molding or fashioning"
-    },
-    {
-     "word": "shaping",
-     "synset": "oewn-00588059-s",
-     "charge": 0,
-     "tone": "Bare and unweighted, the act of forming stated as such, where *formative* points instead at the capacity to form.",
-     "_gloss": "forming or capable of forming or molding or fashioning"
-    },
-    {
-     "word": "plastic",
-     "synset": "oewn-00588059-s",
-     "charge": 0,
-     "tone": "Treats the power to mold as a flat property of a thing rather than a merit, which keeps it cooler than *creative*.",
-     "_gloss": "forming or capable of forming or molding or fashioning"
-    },
-    {
-     "word": "inferential",
-     "synset": "oewn-00588444-s",
-     "charge": 0,
-     "tone": "Carries no approval at all - it marks how something is arrived at, by interpretation rather than statement, where *constructive* judges the worth of what is done.",
-     "_gloss": "based on interpretation; not directly expressed"
-    },
-    {
-     "word": "reconstructive",
-     "synset": "oewn-00588549-s",
-     "charge": 2,
-     "tone": "Approving of repair: the good it names is a return to sound condition rather than the new making in *constructive*.",
-     "_gloss": "helping to restore to good condition"
-    },
-    {
-     "word": "rehabilitative",
-     "synset": "oewn-00588549-s",
-     "charge": 2,
-     "tone": "The same restoring good as *reconstructive*, but the longer, more formal word makes the helping sound like a sustained process rather than a single fix.",
-     "_gloss": "helping to restore to good condition"
-    },
-    {
-     "word": "structural",
-     "synset": "oewn-00588753-s",
-     "charge": 0,
-     "tone": "Purely descriptive - it places a thing within a system of study and does none of the approving that runs through *constructive*.",
-     "_gloss": "concerned with systematic structure in a particular field of study"
-    }
-   ]
-  },
-  {
-   "id": "family-01009264-a",
-   "axis": "neutral record of an unworked state → shortfall measured against the state wanted",
-   "_head": [
-    "unfinished"
-   ],
-   "_definition": "not brought to the desired final state",
-   "anchors": [
-    "unfinished",
-    "roughhewn",
-    "rough-cut",
-    "undressed",
-    "unfattened",
-    "unhewn"
-   ],
-   "members": [
-    {
-     "word": "unfinished",
-     "synset": "oewn-01009264-a",
-     "charge": -1,
-     "tone": "Carries a faint reproach because the thing is measured against the final state that was wanted, so it records a shortfall rather than merely a stage.",
-     "_gloss": "not brought to the desired final state"
-    },
-    {
-     "word": "raw",
-     "synset": "oewn-01009503-s",
-     "charge": 0,
-     "tone": "",
-     "_gloss": "used of wood and furniture",
-     "_skip": true,
-     "_skip_reason": "gloss is a usage restriction, not a definition"
-    },
-    {
-     "word": "unsanded",
-     "synset": "oewn-01009503-s",
-     "charge": 0,
-     "tone": "",
-     "_gloss": "used of wood and furniture",
-     "_skip": true,
-     "_skip_reason": "gloss is a usage restriction, not a definition"
-    },
-    {
-     "word": "roughhewn",
-     "synset": "oewn-01009605-s",
-     "charge": 0,
-     "tone": "Neutral about workmanship - the shaping has been done and only the finishing has not, where *unhewn* denies the shaping altogether.",
-     "_gloss": "of stone or timber; shaped roughly without finishing"
-    },
-    {
-     "word": "rough-cut",
-     "synset": "oewn-01009605-s",
-     "charge": 0,
-     "tone": "Flatter and more matter-of-fact than *roughhewn*, naming the cut alone without that word's suggestion of ruggedly worked bulk.",
-     "_gloss": "of stone or timber; shaped roughly without finishing"
-    },
-    {
-     "word": "undressed",
-     "synset": "oewn-01009725-s",
-     "charge": 0,
-     "tone": "Names one specific operation left undone rather than a general falling-short, which keeps it cooler and more technical than *unfinished*.",
-     "_gloss": "of lumber or stone or hides; not finished or dressed"
-    },
-    {
-     "word": "unfattened",
-     "synset": "oewn-01009873-s",
-     "charge": -1,
-     "tone": "Coolly commercial disparagement - the animal is graded short of what the market wants, a deficiency stated as plain fact rather than complaint.",
-     "_gloss": "(of market animals) not optimal for marketing"
-    },
-    {
-     "word": "unhewn",
-     "synset": "oewn-01009975-s",
-     "charge": 0,
-     "tone": "Denies the shaping outright where *roughhewn* concedes a first pass, and its as-if reach lets it settle on things no tool was ever near.",
-     "_gloss": "(of stone especially) not given a finished form by or as if by hewing"
-    }
-   ]
-  },
-  {
-   "id": "family-00970318-a",
-   "axis": "merely out of the ordinary → oddness that repels or frightens",
-   "_head": [
-    "strange",
-    "unusual"
-   ],
-   "_definition": "being definitely out of the ordinary and unexpected; slightly odd or even a bit weird",
-   "anchors": [
-    "strange",
-    "unusual",
-    "antic",
-    "fantastic",
-    "fantastical",
-    "grotesque"
-   ],
-   "members": [
-    {
-     "word": "strange",
-     "synset": "oewn-00970318-a",
-     "charge": 0,
-     "tone": "Carries a faint edge of unease that *unusual* does not - what is strange is not merely rare but slightly off.",
-     "_gloss": "being definitely out of the ordinary and unexpected; slightly odd or even a bit weird"
-    },
-    {
-     "word": "unusual",
-     "synset": "oewn-00970318-a",
-     "charge": 0,
-     "tone": "The flat member of the pair - it records a departure from the expected without *strange*'s hint that something is amiss.",
-     "_gloss": "being definitely out of the ordinary and unexpected; slightly odd or even a bit weird"
-    },
-    {
-     "word": "antic",
-     "synset": "oewn-00970835-s",
-     "charge": -2,
-     "tone": "Odd to the point of being laughed at - the strangeness reads as clownish rather than menacing.",
-     "_gloss": "ludicrously odd"
-    },
-    {
-     "word": "fantastic",
-     "synset": "oewn-00970835-s",
-     "charge": -1,
-     "tone": "Oddness inflated past what belief will carry, so the extravagance itself is the fault.",
-     "_gloss": "ludicrously odd"
-    },
-    {
-     "word": "fantastical",
-     "synset": "oewn-00970835-s",
-     "charge": -1,
-     "tone": "The more elaborate twin of *fantastic* - the oddness sounds invented rather than merely met with.",
-     "_gloss": "ludicrously odd"
-    },
-    {
-     "word": "grotesque",
-     "synset": "oewn-00970835-s",
-     "charge": -2,
-     "tone": "The harshest of these - the oddness is distorted enough to repel, where *antic* only invites laughter.",
-     "_gloss": "ludicrously odd"
-    },
-    {
-     "word": "crazy",
-     "synset": "oewn-00971086-s",
-     "charge": -1,
-     "tone": "Blunt and informal - it throws up its hands at the strangeness instead of examining it.",
-     "_gloss": "bizarre or fantastic"
-    },
-    {
-     "word": "curious",
-     "synset": "oewn-00971199-s",
-     "charge": 1,
-     "tone": "The oddness is inviting - it asks to be looked into, where *queer* asks to be backed away from.",
-     "_gloss": "beyond or deviating from the usual or expected"
-    },
-    {
-     "word": "funny",
-     "synset": "oewn-00971199-s",
-     "charge": -1,
-     "tone": "Marks something as not quite right without saying what is wrong with it, and the vagueness is the unease.",
-     "_gloss": "beyond or deviating from the usual or expected"
-    },
-    {
-     "word": "odd",
-     "synset": "oewn-00971199-s",
-     "charge": -1,
-     "tone": "Registers the deviation flatly, with none of *peculiar*'s second look.",
-     "_gloss": "beyond or deviating from the usual or expected"
-    },
-    {
-     "word": "peculiar",
-     "synset": "oewn-00971199-s",
-     "charge": -1,
-     "tone": "Fastens the oddness onto the thing itself, as a quality it owns rather than an impression it gives.",
-     "_gloss": "beyond or deviating from the usual or expected"
-    },
-    {
-     "word": "queer",
-     "synset": "oewn-00971199-s",
-     "charge": -1,
-     "tone": "Adds a wariness *odd* lacks - the deviation feels wrong rather than merely noticeable.",
-     "_gloss": "beyond or deviating from the usual or expected"
-    },
-    {
-     "word": "rum",
-     "synset": "oewn-00971199-s",
-     "charge": 0,
-     "tone": "Informal and offhand - the oddness gets a shrug rather than a verdict.",
-     "_gloss": "beyond or deviating from the usual or expected"
-    },
-    {
-     "word": "rummy",
-     "synset": "oewn-00971199-s",
-     "charge": 0,
-     "tone": "A lighter, more throwaway ring than *rum*, the same shrug loosened further.",
-     "_gloss": "beyond or deviating from the usual or expected"
-    },
-    {
-     "word": "singular",
-     "synset": "oewn-00971199-s",
-     "charge": 1,
-     "tone": "Deviation read as standing apart rather than as going wrong, so the oddity comes out as distinction where *curious* only makes it inviting.",
-     "_gloss": "beyond or deviating from the usual or expected"
-    },
-    {
-     "word": "eerie",
-     "synset": "oewn-00971711-s",
-     "charge": -2,
-     "tone": "The strangeness has turned frightening - it works on the nerves rather than on the judgement.",
-     "_gloss": "inspiring a feeling of fear; strange and frightening"
-    }
-   ]
-  },
-  {
-   "id": "family-01989711-a",
-   "axis": "a sound reputation → illustrious standing that commands deference",
-   "_head": [
-    "reputable"
-   ],
-   "_definition": "having a good reputation",
-   "anchors": [
-    "reputable",
-    "esteemed",
-    "honored",
-    "prestigious",
-    "honoured",
-    "estimable"
-   ],
-   "members": [
-    {
-     "word": "reputable",
-     "synset": "oewn-01989711-a",
-     "charge": 1,
-     "tone": "Approval at its lowest setting - it certifies that a reputation is sound without claiming it is distinguished, which is exactly what *esteemed* claims.",
-     "_gloss": "having a good reputation"
-    },
-    {
-     "word": "esteemed",
-     "synset": "oewn-01990022-s",
-     "charge": 2,
-     "tone": "Warm and elevating - the regard is felt rather than merely recorded, and pitched high enough to make the reputation an illustrious one.",
-     "_gloss": "having an illustrious reputation; respected"
-    },
-    {
-     "word": "honored",
-     "synset": "oewn-01990022-s",
-     "charge": 2,
-     "tone": "Frames the standing as a distinction conferred and marked, where *esteemed* leaves it as regard quietly held.",
-     "_gloss": "having an illustrious reputation; respected"
-    },
-    {
-     "word": "prestigious",
-     "synset": "oewn-01990022-s",
-     "charge": 2,
-     "tone": "Puts the weight on the shine of the name itself - impressiveness rather than the warmth *esteemed* carries toward the person holding it.",
-     "_gloss": "having an illustrious reputation; respected"
-    },
-    {
-     "word": "honoured",
-     "synset": "oewn-01990022-s",
-     "charge": 2,
-     "tone": "The British spelling of *honored*, identical in force and in the conferred distinction it implies.",
-     "_gloss": "having an illustrious reputation; respected"
-    },
-    {
-     "word": "estimable",
-     "synset": "oewn-01990227-s",
-     "charge": 2,
-     "tone": "Formal, and it turns on desert rather than receipt - the respect is owed whether or not anyone is paying it, unlike *respected*.",
-     "_gloss": "deserving of esteem and respect"
-    },
-    {
-     "word": "good",
-     "synset": "oewn-01990227-s",
-     "charge": 1,
-     "tone": "The plainest carrier in the family - it grants the same desert as *estimable* with none of the elevation, approval stated flat.",
-     "_gloss": "deserving of esteem and respect"
-    },
-    {
-     "word": "honorable",
-     "synset": "oewn-01990227-s",
-     "charge": 2,
-     "tone": "Weights the desert toward conduct - respect a person has earned, where *prestigious* names respect that standing confers.",
-     "_gloss": "deserving of esteem and respect"
-    },
-    {
-     "word": "respectable",
-     "synset": "oewn-01990227-s",
-     "charge": 1,
-     "tone": "Praise measured to the bar rather than to the height - it says the standard is met and stops well short of admiration.",
-     "_gloss": "deserving of esteem and respect"
-    },
-    {
-     "word": "admirable",
-     "synset": "oewn-01990227-s",
-     "charge": 3,
-     "tone": "The warmest word here - it does not merely permit respect but calls for it, wholehearted where *respectable* is guarded.",
-     "_gloss": "deserving of esteem and respect"
-    },
-    {
-     "word": "redoubtable",
-     "synset": "oewn-01990497-s",
-     "charge": 2,
-     "tone": "Formal and weighty, and the respect it claims keeps its distance - something closer to awe than to the warmth of *admirable*.",
-     "_gloss": "worthy of respect or honor"
-    },
-    {
-     "word": "respected",
-     "synset": "oewn-01990613-s",
-     "charge": 2,
-     "tone": "Reports regard actually given rather than deserved - the mirror of *estimable*, which claims the desert and says nothing about receipt.",
-     "_gloss": "receiving deferential regard"
-    },
-    {
-     "word": "well-thought-of",
-     "synset": "oewn-01990613-s",
-     "charge": 1,
-     "tone": "The plain-spoken, understated form of *respected*: the same deference, named without ceremony.",
-     "_gloss": "receiving deferential regard"
-    },
-    {
-     "word": "time-honored",
-     "synset": "oewn-01990737-s",
-     "charge": 1,
-     "tone": "Approves by duration rather than by merit - the warrant is how long a thing has been accepted, not whether it deserves to be.",
-     "_gloss": "acceptable for a long time, or having a long history"
-    },
-    {
-     "word": "time-honoured",
-     "synset": "oewn-01990737-s",
-     "charge": 1,
-     "tone": "The British spelling of *time-honored*, carrying the same dignity conferred by long standing.",
-     "_gloss": "acceptable for a long time, or having a long history"
-    }
-   ]
-  },
-  {
-   "id": "family-01876839-a",
-   "axis": "bare statement that money comes back → relish at how large the return is",
-   "_head": [
-    "profitable"
-   ],
-   "_definition": "yielding material gain or profit",
-   "anchors": [
-    "profitable",
-    "bankable",
-    "fat",
-    "juicy",
-    "gainful",
-    "paid"
-   ],
-   "members": [
-    {
-     "word": "profitable",
-     "synset": "oewn-01876839-a",
-     "charge": 0,
-     "tone": "The flat baseline of the family - it reports that a return exists and says nothing about its size or how welcome it is, which is the whole of what *juicy* adds.",
-     "_gloss": "yielding material gain or profit"
-    },
-    {
-     "word": "bankable",
-     "synset": "oewn-01877172-s",
-     "charge": 2,
-     "tone": "Approves through certainty rather than size - the profit is treated as already secured, where *profitable* claims only that it is there.",
-     "_gloss": "guaranteed to bring a profit"
-    },
-    {
-     "word": "fat",
-     "synset": "oewn-01877317-s",
-     "charge": 2,
-     "tone": "Relish rather than accounting - it praises a return by its sheer thickness, where *profitable* merely records one.",
-     "_gloss": "lucrative"
-    },
-    {
-     "word": "juicy",
-     "synset": "oewn-01877317-s",
-     "charge": 2,
-     "tone": "Appetite - it makes the profit tempting, something to be got at, where *fat* only makes it thick.",
-     "_gloss": "lucrative"
-    },
-    {
-     "word": "gainful",
-     "synset": "oewn-01877441-s",
-     "charge": 1,
-     "tone": "Measured approval - the return it names is a fair one rather than a large one, which keeps it clear of the greed in *juicy*.",
-     "_gloss": "yielding a fair profit"
-    },
-    {
-     "word": "paid",
-     "synset": "oewn-01877441-s",
-     "charge": 0,
-     "tone": "Understated for a return that is fair rather than large - the profit is granted without being praised.",
-     "_gloss": "yielding a fair profit"
-    },
-    {
-     "word": "paying",
-     "synset": "oewn-01877441-s",
-     "charge": 1,
-     "tone": "Mildly approving - it treats the return as something the thing keeps doing, where *paid* records only that it happened.",
-     "_gloss": "yielding a fair profit"
-    },
-    {
-     "word": "economic",
-     "synset": "oewn-01877533-s",
-     "charge": 1,
-     "tone": "The dry member - it approves by the ledger, granting a reward without any of the appetite in *fat* or *juicy*.",
-     "_gloss": "financially rewarding"
-    },
-    {
-     "word": "lucrative",
-     "synset": "oewn-01877742-s",
-     "charge": 2,
-     "tone": "Formal and emphatic at once - the size of the profit is the entire claim, stated without the hunger of *juicy*.",
-     "_gloss": "producing a sizeable profit"
-    },
-    {
-     "word": "moneymaking",
-     "synset": "oewn-01877742-s",
-     "charge": 1,
-     "tone": "Blunt where *lucrative* is formal - it names the money outright and lets that stand as the praise.",
-     "_gloss": "producing a sizeable profit"
-    },
-    {
-     "word": "remunerative",
-     "synset": "oewn-01877742-s",
-     "charge": 2,
-     "tone": "The most formal way to say it - it lends a sizeable profit a decorum that *moneymaking* makes no attempt at.",
-     "_gloss": "producing a sizeable profit"
-    }
-   ]
-  },
-  {
-   "id": "family-02341445-a",
-   "axis": "a bare failed outcome → finished, with nothing left and nothing coming",
-   "_head": [
-    "unsuccessful"
-   ],
-   "_definition": "not successful; having failed or having an unfavorable outcome",
-   "anchors": [
-    "unsuccessful",
-    "attempted",
-    "defeated",
-    "disappointed",
-    "discomfited",
-    "foiled"
-   ],
-   "members": [
-    {
-     "word": "unsuccessful",
-     "synset": "oewn-02341445-a",
-     "charge": 0,
-     "tone": "The flat baseline of the family - it records the unfavorable outcome and passes no verdict on whoever met it.",
-     "_gloss": "not successful; having failed or having an unfavorable outcome"
-    },
-    {
-     "word": "attempted",
-     "synset": "oewn-02341872-s",
-     "charge": 0,
-     "tone": "Marks the act as the thing that failed rather than the one who made it, which is where it parts from *defeated*.",
-     "_gloss": "tried unsuccessfully"
-    },
-    {
-     "word": "defeated",
-     "synset": "oewn-02341968-s",
-     "charge": -1,
-     "tone": "Failure recast as a loss to something stronger, carrying the sting of being beaten that *unsuccessful* leaves out.",
-     "_gloss": "disappointingly unsuccessful"
-    },
-    {
-     "word": "disappointed",
-     "synset": "oewn-02341968-s",
-     "charge": -1,
-     "tone": "The softest of the blocked set - the failure sits in a hope let down rather than in any force that stopped it, unlike *thwarted*.",
-     "_gloss": "disappointingly unsuccessful"
-    },
-    {
-     "word": "discomfited",
-     "synset": "oewn-02341968-s",
-     "charge": -1,
-     "tone": "Formal, and it puts the disappointment into the failure itself rather than into the effort that led there.",
-     "_gloss": "disappointingly unsuccessful"
-    },
-    {
-     "word": "foiled",
-     "synset": "oewn-02341968-s",
-     "charge": -1,
-     "tone": "Sounds the note of a scheme blocked at the last moment, lighter and more gleeful than the grim *thwarted*.",
-     "_gloss": "disappointingly unsuccessful"
-    },
-    {
-     "word": "frustrated",
-     "synset": "oewn-02341968-s",
-     "charge": -1,
-     "tone": "Puts the weight on effort spent for nothing, so the failure feels drawn out rather than delivered in one blow like *defeated*.",
-     "_gloss": "disappointingly unsuccessful"
-    },
-    {
-     "word": "thwarted",
-     "synset": "oewn-02341968-s",
-     "charge": -1,
-     "tone": "The hardest of the blocked set - something outside did the stopping, and the word gives that force a weight *foiled* does not.",
-     "_gloss": "disappointingly unsuccessful"
-    },
-    {
-     "word": "done for",
-     "synset": "oewn-02342313-s",
-     "charge": -2,
-     "tone": "Informal and final, a verdict pronounced with none of the room for recovery that *frustrated* still leaves open.",
-     "_gloss": "doomed to extinction"
-    },
-    {
-     "word": "ruined",
-     "synset": "oewn-02342313-s",
-     "charge": -2,
-     "tone": "Grave rather than colloquial: the ending is total and stated without relish, where *washed-up* sneers.",
-     "_gloss": "doomed to extinction"
-    },
-    {
-     "word": "sunk",
-     "synset": "oewn-02342313-s",
-     "charge": -2,
-     "tone": "Blunt and informal, a one-syllable verdict that closes the matter faster than *ruined* does.",
-     "_gloss": "doomed to extinction"
-    },
-    {
-     "word": "undone",
-     "synset": "oewn-02342313-s",
-     "charge": -2,
-     "tone": "Formal and near-elegiac, treating the end as something that came apart rather than something that was smashed.",
-     "_gloss": "doomed to extinction"
-    },
-    {
-     "word": "washed-up",
-     "synset": "oewn-02342313-s",
-     "charge": -3,
-     "tone": "The most contemptuous of the doomed set - it dismisses as much as it describes, which *undone* never does.",
-     "_gloss": "doomed to extinction"
-    },
-    {
-     "word": "down-and-out",
-     "synset": "oewn-02342428-s",
-     "charge": -2,
-     "tone": "Widens the failure to a whole condition, nothing held and nothing coming, with a bleakness *empty-handed* keeps at arm's length.",
-     "_gloss": "lacking resources (or any prospect of resources)"
-    },
-    {
-     "word": "empty-handed",
-     "synset": "oewn-02342553-s",
-     "charge": -1,
-     "tone": "Concrete where *unrewarded* is abstract - it shows the nothing instead of naming it.",
-     "_gloss": "having acquired or gained nothing"
-    },
-    {
-     "word": "unrewarded",
-     "synset": "oewn-02342553-s",
-     "charge": 0,
-     "tone": "Neutral and faintly on the subject's side, recording that nothing came of it without calling the effort wasted.",
-     "_gloss": "having acquired or gained nothing"
-    }
-   ]
-  },
-  {
-   "id": "family-01229113-a",
-   "axis": "entitled to respect → held in profound reverence",
-   "_head": [
-    "honorable",
-    "honourable"
-   ],
-   "_definition": "worthy of being honored; entitled to honor and respect",
-   "anchors": [
-    "honorable",
-    "honourable",
-    "august",
-    "revered",
-    "venerable",
-    "laureate"
-   ],
-   "members": [
-    {
-     "word": "honorable",
-     "synset": "oewn-01229113-a",
-     "charge": 2,
-     "tone": "The plain claim of the family - it certifies that respect is deserved, without the awe *august* and *venerable* pile on top.",
-     "_gloss": "worthy of being honored; entitled to honor and respect"
-    },
-    {
-     "word": "honourable",
-     "synset": "oewn-01229113-a",
-     "charge": 2,
-     "tone": "The British spelling, carrying exactly the same entitlement to respect as *honorable* with nothing added or softened.",
-     "_gloss": "worthy of being honored; entitled to honor and respect"
-    },
-    {
-     "word": "august",
-     "synset": "oewn-01229533-s",
-     "charge": 3,
-     "tone": "Lofty and formal - it raises the honor so high it puts distance between subject and speaker, where *honorable* stays level with you.",
-     "_gloss": "profoundly honored"
-    },
-    {
-     "word": "revered",
-     "synset": "oewn-01229533-s",
-     "charge": 3,
-     "tone": "Locates the honor in those who feel it - the regard is actively given, not merely owed as with *honorable*.",
-     "_gloss": "profoundly honored"
-    },
-    {
-     "word": "venerable",
-     "synset": "oewn-01229533-s",
-     "charge": 3,
-     "tone": "Solemn - it wraps the honor in a hush of reverence rather than the ceremonial elevation of *august*.",
-     "_gloss": "profoundly honored"
-    },
-    {
-     "word": "laureate",
-     "synset": "oewn-01229682-s",
-     "charge": 3,
-     "tone": "Superlative - it does not merely grant honor but sets its object at the summit of it, where *honorable* only confirms the desert.",
-     "_gloss": "worthy of the greatest honor or distinction"
-    },
-    {
-     "word": "time-honored",
-     "synset": "oewn-01229870-s",
-     "charge": 2,
-     "tone": "Approval with its grounds stated - the honor is credited to having lasted, where *honorable* and *venerable* name the honor without saying what earned it.",
-     "_gloss": "honored because of age or long usage"
-    },
-    {
-     "word": "time-honoured",
-     "synset": "oewn-01229870-s",
-     "charge": 2,
-     "tone": "The British spelling, endorsing a thing for its endurance in precisely the terms *time-honored* uses.",
-     "_gloss": "honored because of age or long usage"
-    }
-   ]
-  },
-  {
-   "id": "family-02005010-a",
-   "axis": "irresponsibility indulged as charm → irresponsibility condemned as unfitness",
-   "_head": [
-    "irresponsible"
-   ],
-   "_definition": "showing lack of care for consequences",
-   "anchors": [
-    "irresponsible",
-    "carefree",
-    "devil-may-care",
-    "freewheeling",
-    "happy-go-lucky",
-    "harum-scarum"
-   ],
-   "members": [
-    {
-     "word": "irresponsible",
-     "synset": "oewn-02005010-a",
-     "charge": -2,
-     "tone": "The plain charge the rest take their colour from - blame falls on the consequences left unweighed, with none of the cheer of *carefree*.",
-     "_gloss": "showing lack of care for consequences"
-    },
-    {
-     "word": "carefree",
-     "synset": "oewn-02005360-s",
-     "charge": 2,
-     "tone": "The most forgiving word here - the missing care reads as freedom from burden rather than neglect of duty.",
-     "_gloss": "cheerfully irresponsible"
-    },
-    {
-     "word": "devil-may-care",
-     "synset": "oewn-02005360-s",
-     "charge": 1,
-     "tone": "Bravado rather than lightness - it flaunts the disregard where *carefree* simply has no worry to shed.",
-     "_gloss": "cheerfully irresponsible"
-    },
-    {
-     "word": "freewheeling",
-     "synset": "oewn-02005360-s",
-     "charge": 1,
-     "tone": "Motion with the brakes off - it approves the ease while leaving the absent check audible.",
-     "_gloss": "cheerfully irresponsible"
-    },
-    {
-     "word": "happy-go-lucky",
-     "synset": "oewn-02005360-s",
-     "charge": 1,
-     "tone": "Indulgent - it credits a temperament rather than charging a fault.",
-     "_gloss": "cheerfully irresponsible"
-    },
-    {
-     "word": "harum-scarum",
-     "synset": "oewn-02005360-s",
-     "charge": -1,
-     "tone": "Its jingling repetition makes the cheer sound scatterbrained, tipping into scolding where *happy-go-lucky* stays fond.",
-     "_gloss": "cheerfully irresponsible"
-    },
-    {
-     "word": "slaphappy",
-     "synset": "oewn-02005360-s",
-     "charge": -1,
-     "tone": "The cheer here undercuts the person as giddy and unfit to be trusted, where *carefree* leaves them intact.",
-     "_gloss": "cheerfully irresponsible"
-    },
-    {
-     "word": "do-nothing",
-     "synset": "oewn-02005635-s",
-     "charge": -2,
-     "tone": "Flatly dismissive - it writes someone off by what they never get done, with no charm allowed into the failing.",
-     "_gloss": "characterized by inability or unwillingness to work toward a goal or assume responsibility"
-    },
-    {
-     "word": "feckless",
-     "synset": "oewn-02005830-s",
-     "charge": -3,
-     "tone": "A verdict of unfitness rather than a report of behaviour, and the most withering word in the set.",
-     "_gloss": "not fit to assume responsibility"
-    },
-    {
-     "word": "idle",
-     "synset": "oewn-02005935-s",
-     "charge": -1,
-     "tone": "A light word for the fault - what is missing is restraint, not any active wrongdoing.",
-     "_gloss": "lacking a sense of restraint or responsibility"
-    },
-    {
-     "word": "loose",
-     "synset": "oewn-02005935-s",
-     "charge": -2,
-     "tone": "Carries a moral edge *idle* does not - the restraint gone slack is the kind a person is expected to hold.",
-     "_gloss": "lacking a sense of restraint or responsibility"
-    },
-    {
-     "word": "trigger-happy",
-     "synset": "oewn-02006089-s",
-     "charge": -2,
-     "tone": "The cheerful *-happy* ending set against carelessness with a gun is the whole sting of it.",
-     "_gloss": "irresponsible in the use of firearms"
-    },
-    {
-     "word": "unaccountable",
-     "synset": "oewn-02006185-s",
-     "charge": 0,
-     "tone": "Positional rather than evaluative - it states the absence of anyone to answer to, without judging the person for it.",
-     "_gloss": "free from control or responsibility"
-    },
-    {
-     "word": "unreliable",
-     "synset": "oewn-02006280-s",
-     "charge": -2,
-     "tone": "Judged from outside - where *irresponsible* looks at the consequences, this looks at whoever was depending.",
-     "_gloss": "lacking a sense of responsibility"
-    }
-   ]
-  },
-  {
-   "id": "family-01911832-a",
-   "axis": "unmixed as a bare fact → purity admired as flawlessness",
-   "_head": [
-    "pure"
-   ],
-   "_definition": "free of extraneous elements of any kind",
-   "anchors": [
-    "pure",
-    "axenic",
-    "clean",
-    "fresh",
-    "clear",
-    "light"
-   ],
-   "members": [
-    {
-     "word": "pure",
-     "synset": "oewn-01911832-a",
-     "charge": 1,
-     "tone": "The unrestricted term of the family — nothing extraneous of any kind survives it, where *clean* answers only to impurity.",
-     "_gloss": "free of extraneous elements of any kind"
-    },
-    {
-     "word": "axenic",
-     "synset": "oewn-01912370-s",
-     "charge": 0,
-     "tone": "Technical and exact: it certifies that a culture of microorganisms holds no other organism, a specification rather than a compliment.",
-     "_gloss": "(used of cultures of microorganisms) completely free from other organisms"
-    },
-    {
-     "word": "clean",
-     "synset": "oewn-01912517-s",
-     "charge": 1,
-     "tone": "Approving in a plain, physical way — the impurities are gone, and it says so without the ceremony of *pristine*.",
-     "_gloss": "free from impurities"
-    },
-    {
-     "word": "fresh",
-     "synset": "oewn-01912517-s",
-     "charge": 1,
-     "tone": "Names the same absence of impurity as *clean* but with a livelier, more inviting force.",
-     "_gloss": "free from impurities"
-    },
-    {
-     "word": "clear",
-     "synset": "oewn-01912661-s",
-     "charge": 1,
-     "tone": "Praise for a sound or colour that nothing dulls or dims — the brightness is the point, not the absence of dirt that *clean* answers to.",
-     "_gloss": "(of sound or color) free from anything that dulls or dims"
-    },
-    {
-     "word": "light",
-     "synset": "oewn-01912661-s",
-     "charge": 1,
-     "tone": "Softer and less emphatic than *clear* for the same undulled sound or colour, approving without insisting.",
-     "_gloss": "(of sound or color) free from anything that dulls or dims"
-    },
-    {
-     "word": "unclouded",
-     "synset": "oewn-01912661-s",
-     "charge": 1,
-     "tone": "The negative form makes the dimness explicit, praising a sound or colour by naming what fails to cloud it where *clear* simply asserts the brightness.",
-     "_gloss": "(of sound or color) free from anything that dulls or dims"
-    },
-    {
-     "word": "fine",
-     "synset": "oewn-01913014-s",
-     "charge": 1,
-     "tone": "Gradable where the rest are absolute: purity here is a degree that can be high or specified, so it measures where *pure* merely declares.",
-     "_gloss": "free from impurities; having a high or specified degree of purity"
-    },
-    {
-     "word": "native",
-     "synset": "oewn-01913172-s",
-     "charge": 0,
-     "tone": "Descriptive rather than evaluative — it records that the thing already stands in its elemental form in nature, and attaches no credit to that.",
-     "_gloss": "as found in nature in the elemental form"
-    },
-    {
-     "word": "plain",
-     "synset": "oewn-01913300-s",
-     "charge": 0,
-     "tone": "The flattest word here, stating that nothing extraneous is mixed in and neither admiring nor disparaging the fact.",
-     "_gloss": "not mixed with extraneous elements"
-    },
-    {
-     "word": "sheer",
-     "synset": "oewn-01913300-s",
-     "charge": 0,
-     "tone": "Absolute in force where *plain* is merely factual, pressing on the totality of the unmixedness rather than reporting it.",
-     "_gloss": "not mixed with extraneous elements"
-    },
-    {
-     "word": "unmingled",
-     "synset": "oewn-01913300-s",
-     "charge": 0,
-     "tone": "Formal and slightly stiff, denying admixture in so many words rather than asserting purity outright as *pure* does.",
-     "_gloss": "not mixed with extraneous elements"
-    },
-    {
-     "word": "unmixed",
-     "synset": "oewn-01913300-s",
-     "charge": 0,
-     "tone": "The blunt, unceremonious form of that same denial — *unmingled* says it formally, this says it flatly.",
-     "_gloss": "not mixed with extraneous elements"
-    },
-    {
-     "word": "pristine",
-     "synset": "oewn-01913490-s",
-     "charge": 2,
-     "tone": "The admiring extreme — not merely unmixed but wholly untouched by dirt or contamination, a completeness *clean* never claims.",
-     "_gloss": "completely free from dirt or contamination"
-    },
-    {
-     "word": "straight up",
-     "synset": "oewn-01913613-s",
-     "charge": 0,
-     "tone": "A serving instruction rather than a judgement: the drink met the ice and was left without it, and the phrase passes no verdict on the result.",
-     "_gloss": "(of an alcoholic drink) stirred or shaken with ice, but served without it"
-    },
-    {
-     "word": "sublimate",
-     "synset": "oewn-01913797-s",
-     "charge": 0,
-     "tone": "The opposite arrival from *native* — purity reached by being made, stated as a result rather than praised.",
-     "_gloss": "made pure"
-    }
-   ]
-  },
-  {
-   "id": "family-01285124-a",
-   "axis": "an impression that registers → an impression that overwhelms",
-   "_head": [
-    "impressive"
-   ],
-   "_definition": "making a strong or vivid impression",
-   "anchors": [
-    "impressive",
-    "amazing",
-    "awe-inspiring",
-    "awesome",
-    "awful",
-    "awing"
-   ],
-   "members": [
-    {
-     "word": "impressive",
-     "synset": "oewn-01285124-a",
-     "charge": 2,
-     "tone": "The family's plain measure of approval - something lands strongly, with none of the claim to flatten you that *staggering* makes.",
-     "_gloss": "making a strong or vivid impression"
-    },
-    {
-     "word": "amazing",
-     "synset": "oewn-01285602-s",
-     "charge": 3,
-     "tone": "Unguarded warmth, all wonder and no weight, where *awe-inspiring* holds the same admiration at arm's length.",
-     "_gloss": "inspiring awe or admiration or wonder"
-    },
-    {
-     "word": "awe-inspiring",
-     "synset": "oewn-01285602-s",
-     "charge": 2,
-     "tone": "Formal, and it names the effect instead of voicing it - it reports what a thing does to an onlooker where *amazing* simply exclaims.",
-     "_gloss": "inspiring awe or admiration or wonder"
-    },
-    {
-     "word": "awesome",
-     "synset": "oewn-01285602-s",
-     "charge": 3,
-     "tone": "Names the reaction rather than the quality that provoked it - the response is the whole of the claim.",
-     "_gloss": "inspiring awe or admiration or wonder"
-    },
-    {
-     "word": "awful",
-     "synset": "oewn-01285602-s",
-     "charge": 2,
-     "tone": "Sits at the awe end of this sense - the impression overpowers rather than pleases, which is the whole distance between it and *amazing*.",
-     "_gloss": "inspiring awe or admiration or wonder"
-    },
-    {
-     "word": "awing",
-     "synset": "oewn-01285602-s",
-     "charge": 1,
-     "tone": "A flat participle that states the effect and stops, carrying none of the speaker's own delight that *awesome* puts on show.",
-     "_gloss": "inspiring awe or admiration or wonder"
-    },
-    {
-     "word": "arresting",
-     "synset": "oewn-01286013-s",
-     "charge": 2,
-     "tone": "Attention is seized and held - it stops you mid-stride, where *impressive* only invites you to admire at your leisure.",
-     "_gloss": "commanding attention"
-    },
-    {
-     "word": "sensational",
-     "synset": "oewn-01286013-s",
-     "charge": 1,
-     "tone": "The attention is commanded by display, and the word grants that the display worked.",
-     "_gloss": "commanding attention"
-    },
-    {
-     "word": "stunning",
-     "synset": "oewn-01286013-s",
-     "charge": 3,
-     "tone": "Commands attention by knocking it loose - the looking is involuntary, not the considered halt of *arresting*.",
-     "_gloss": "commanding attention"
-    },
-    {
-     "word": "astonishing",
-     "synset": "oewn-01286247-s",
-     "charge": 2,
-     "tone": "Surprise is the mechanism here: it overwhelms because it exceeds what you were braced for, not because it is merely large.",
-     "_gloss": "so surprisingly impressive as to stun or overwhelm"
-    },
-    {
-     "word": "astounding",
-     "synset": "oewn-01286247-s",
-     "charge": 2,
-     "tone": "A heavier landing than *astonishing* - the surprise does not just register, it takes the ground out from under.",
-     "_gloss": "so surprisingly impressive as to stun or overwhelm"
-    },
-    {
-     "word": "staggering",
-     "synset": "oewn-01286247-s",
-     "charge": 2,
-     "tone": "The overwhelm is bodily - it arrives as weight and puts you off balance, where *astonishing* works on the expectations instead.",
-     "_gloss": "so surprisingly impressive as to stun or overwhelm"
-    },
-    {
-     "word": "stupefying",
-     "synset": "oewn-01286247-s",
-     "charge": 1,
-     "tone": "The stun taken to its blank end, where the mind goes slack rather than sharp, so the admiration comes dulled.",
-     "_gloss": "so surprisingly impressive as to stun or overwhelm"
-    },
-    {
-     "word": "baronial",
-     "synset": "oewn-01286600-s",
-     "charge": 2,
-     "tone": "Grandeur with rank in it - the scale reads as lordly, claiming consequence rather than just filling space.",
-     "_gloss": "impressive in size, manner, or appearance"
-    },
-    {
-     "word": "imposing",
-     "synset": "oewn-01286600-s",
-     "charge": 1,
-     "tone": "Impressiveness that presses down on the onlooker, commanding respect from a slight distance and closer to daunting than to inviting.",
-     "_gloss": "impressive in size, manner, or appearance"
-    },
-    {
-     "word": "noble",
-     "synset": "oewn-01286600-s",
-     "charge": 2,
-     "tone": "The bulk or bearing reads as dignity, an elevation of quality, where *imposing* achieves its effect by weight alone.",
-     "_gloss": "impressive in size, manner, or appearance"
-    }
-   ]
-  },
-  {
-   "id": "family-01564906-a",
-   "axis": "feeling merely aroused → deep feeling that gladdens, rouses or disquiets",
-   "_head": [
-    "moving"
-   ],
-   "_definition": "arousing or capable of arousing deep emotion",
-   "anchors": [
-    "moving",
-    "affecting",
-    "poignant",
-    "touching",
-    "haunting",
-    "heartwarming"
-   ],
-   "members": [
-    {
-     "word": "moving",
-     "synset": "oewn-01564906-a",
-     "charge": 1,
-     "tone": "The plainest full-strength term here — it credits depth of feeling without saying what the feeling is, where *heartwarming* and *haunting* each name its colour.",
-     "_gloss": "arousing or capable of arousing deep emotion"
-    },
-    {
-     "word": "affecting",
-     "synset": "oewn-01565214-s",
-     "charge": 0,
-     "tone": "The barest of the three that share this sense — it reports that feeling was produced and stops there, where *poignant* and *touching* each put a force behind it.",
-     "_gloss": "arousing affect"
-    },
-    {
-     "word": "poignant",
-     "synset": "oewn-01565214-s",
-     "charge": 1,
-     "tone": "The keenest of the three — the feeling it names arrives with an edge, where *touching* arrives softly.",
-     "_gloss": "arousing affect"
-    },
-    {
-     "word": "touching",
-     "synset": "oewn-01565214-s",
-     "charge": 1,
-     "tone": "The mildest of the three — a small stir of feeling rather than the keen pull *poignant* exerts.",
-     "_gloss": "arousing affect"
-    },
-    {
-     "word": "haunting",
-     "synset": "oewn-01565472-s",
-     "charge": 0,
-     "tone": "The one member whose effect is unwelcome — it credits real depth while naming the disturbance, where *heartwarming* credits only the pleasure.",
-     "_gloss": "having a deeply disquieting or disturbing effect"
-    },
-    {
-     "word": "heartwarming",
-     "synset": "oewn-01565673-s",
-     "charge": 2,
-     "tone": "Unmixed warmth — the only member that guarantees the feeling is a glad one, where *moving* leaves the kind of emotion open.",
-     "_gloss": "causing gladness and pleasure"
-    },
-    {
-     "word": "stirring",
-     "synset": "oewn-01565822-s",
-     "charge": 2,
-     "tone": "Rousing rather than tender — it makes the emotion strong and forward-moving while ruling out the discomfort *haunting* trades in.",
-     "_gloss": "exciting strong but not unpleasant emotions"
-    },
-    {
-     "word": "soul-stirring",
-     "synset": "oewn-01565822-s",
-     "charge": 3,
-     "tone": "The emphatic form of the same sense — it puts the whole self behind the feeling *stirring* merely raises.",
-     "_gloss": "exciting strong but not unpleasant emotions"
-    }
-   ]
-  },
-  {
-   "id": "family-00440447-a",
-   "axis": "plain quickness of mind → shrewdness honed by self-interest and survival",
-   "_head": [
-    "smart"
-   ],
-   "_definition": "showing mental alertness and calculation and resourcefulness",
-   "anchors": [
-    "smart",
-    "astute",
-    "sharp",
-    "shrewd",
-    "cagey",
-    "cagy"
-   ],
-   "members": [
-    {
-     "word": "smart",
-     "synset": "oewn-00440447-a",
-     "charge": 2,
-     "tone": "The family's plain approving term - alertness and resourcefulness credited straight, with none of the self-interested edge *cagey* carries.",
-     "_gloss": "showing mental alertness and calculation and resourcefulness"
-    },
-    {
-     "word": "astute",
-     "synset": "oewn-00440649-s",
-     "charge": 2,
-     "tone": "Praise for judgement that sees through a situation, formal in register and weightier than *sharp*, which credits speed instead.",
-     "_gloss": "marked by practical hardheaded intelligence"
-    },
-    {
-     "word": "sharp",
-     "synset": "oewn-00440649-s",
-     "charge": 2,
-     "tone": "The same practical intelligence as *astute*, but felt as quickness and edge rather than depth.",
-     "_gloss": "marked by practical hardheaded intelligence"
-    },
-    {
-     "word": "shrewd",
-     "synset": "oewn-00440649-s",
-     "charge": 1,
-     "tone": "Approves the hardheaded part out loud, so the compliment comes with a coolness *astute* does not have.",
-     "_gloss": "marked by practical hardheaded intelligence"
-    },
-    {
-     "word": "cagey",
-     "synset": "oewn-00440992-s",
-     "charge": 0,
-     "tone": "Credits the shrewdness while flagging the guardedness - intelligence held close and used defensively, which is why the approval is only half given.",
-     "_gloss": "showing self-interest and shrewdness in dealing with others"
-    },
-    {
-     "word": "cagy",
-     "synset": "oewn-00440992-s",
-     "charge": 0,
-     "tone": "An alternate spelling carrying exactly the force of *cagey*, wariness and self-interest both.",
-     "_gloss": "showing self-interest and shrewdness in dealing with others"
-    },
-    {
-     "word": "canny",
-     "synset": "oewn-00440992-s",
-     "charge": 1,
-     "tone": "Makes the self-interest sound like sound sense rather than concealment, warming what *cagey* leaves guarded.",
-     "_gloss": "showing self-interest and shrewdness in dealing with others"
-    },
-    {
-     "word": "clever",
-     "synset": "oewn-00440992-s",
-     "charge": 1,
-     "tone": "The double-edged member - it grants the quickness while letting the self-interest show, so it can compliment and needle in one word.",
-     "_gloss": "showing self-interest and shrewdness in dealing with others"
-    },
-    {
-     "word": "streetwise",
-     "synset": "oewn-00441171-s",
-     "charge": 2,
-     "tone": "Respect for intelligence proved under pressure rather than taught - resourcefulness measured by whether it keeps a person going in a city.",
-     "_gloss": "having the shrewd resourcefulness needed to survive in an urban environment"
-    },
-    {
-     "word": "street smart",
-     "synset": "oewn-00441171-s",
-     "charge": 2,
-     "tone": "Says what *streetwise* says with the parts laid bare, the street and the smartness named separately, which makes it land blunter.",
-     "_gloss": "having the shrewd resourcefulness needed to survive in an urban environment"
-    },
-    {
-     "word": "with-it",
-     "synset": "oewn-00441171-s",
-     "charge": 1,
-     "tone": "Informal and light, it makes the same survival-sharpness sound like being clued in rather than hardened by it.",
-     "_gloss": "having the shrewd resourcefulness needed to survive in an urban environment"
-    }
-   ]
-  },
-  {
-   "id": "family-00671807-a",
-   "axis": "merely not of the present moment → wholly finished and out of use",
-   "_head": [
-    "noncurrent"
-   ],
-   "_definition": "not current or belonging to the present time",
-   "anchors": [
-    "noncurrent",
-    "back",
-    "dead",
-    "disused",
-    "obsolete",
-    "outdated"
-   ],
-   "members": [
-    {
-     "word": "noncurrent",
-     "synset": "oewn-00671807-a",
-     "charge": 0,
-     "tone": "The flattest term here - a bare negation of present-day standing, without the verdict *obsolete* passes.",
-     "_gloss": "not current or belonging to the present time"
-    },
-    {
-     "word": "back",
-     "synset": "oewn-00672052-s",
-     "charge": 0,
-     "tone": "Purely positional - it sets something at an earlier date and judges nothing about it.",
-     "_gloss": "of an earlier date"
-    },
-    {
-     "word": "dead",
-     "synset": "oewn-00672155-s",
-     "charge": -1,
-     "tone": "Blunt and absolute - force and relevance are gone outright, not ebbing as in *obsolescent*.",
-     "_gloss": "no longer having force or relevance"
-    },
-    {
-     "word": "disused",
-     "synset": "oewn-00672257-s",
-     "charge": 0,
-     "tone": "States the plain fact of non-use and leaves the reason alone.",
-     "_gloss": "no longer in use"
-    },
-    {
-     "word": "obsolete",
-     "synset": "oewn-00672257-s",
-     "charge": -1,
-     "tone": "The same non-use as *disused*, but delivered as a verdict rather than an observation.",
-     "_gloss": "no longer in use"
-    },
-    {
-     "word": "outdated",
-     "synset": "oewn-00672374-s",
-     "charge": -2,
-     "tone": "Faults the thing for its age, withdrawing validity and fashion in one stroke.",
-     "_gloss": "old; no longer valid or fashionable"
-    },
-    {
-     "word": "out-of-date",
-     "synset": "oewn-00672374-s",
-     "charge": -1,
-     "tone": "Plain and unemphatic - it reports the same lapse *outdated* reports, with less of the reproach.",
-     "_gloss": "old; no longer valid or fashionable"
-    },
-    {
-     "word": "superannuated",
-     "synset": "oewn-00672374-s",
-     "charge": -2,
-     "tone": "Formal and faintly withering - age is treated as having disqualified the thing.",
-     "_gloss": "old; no longer valid or fashionable"
-    },
-    {
-     "word": "obsolescent",
-     "synset": "oewn-00672603-s",
-     "charge": -1,
-     "tone": "Marks the slide rather than the arrival - on its way to what *obsolete* already is.",
-     "_gloss": "becoming obsolete"
-    }
-   ]
-  }
- ]
+  ]
 }

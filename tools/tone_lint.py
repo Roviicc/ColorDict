@@ -146,6 +146,81 @@ def family_inconsistent(family):
     return out
 
 
+# --- superlative-collision ---------------------------------------------------
+# Census 010 found three notes in one family each claiming the mild end of its
+# spectrum: *commonplace* "the mildest reproach in the set", *stock* "flattest
+# word here", *timeworn* "softer than the rest". At most one can be true. The
+# blind reader caught it only because census_packets slices contiguously, so all
+# three landed in one packet - the family id is withheld, but a family that fits
+# inside a packet is visible anyway. That is luck, not instrument, and a family
+# split across a packet boundary would have passed.
+#
+# This is a contradiction check, not a judgement: it never decides which note is
+# right, only that two notes cannot both hold the same end.
+
+SUPERLATIVE = re.compile(r"\b(?:(\w{3,})est|most\s+(\w{3,})|least\s+(\w{3,}))\b", re.I)
+COMPARATIVE_ALL = re.compile(
+    r"\b(\w{3,})er\b\s+than\s+(?:the\s+(?:rest|others)|any(?:\s+other)?\b|"
+    r"all\s+(?:the\s+)?others|its\s+neighbou?rs)", re.I)
+
+# Same discipline as FAMILY_REF above: the claim has to point at this family and
+# not at the thing the word is aimed at. "the harshest winter here" is about a
+# winter; "the harshest word here" is about the spectrum.
+MILD_END = ("mild", "soft", "gent", "faint", "flat", "weak", "light", "plain",
+            "quiet", "tame", "neutral", "restrain", "understated", "cool")
+STRONG_END = ("strong", "harsh", "sharp", "fierc", "cruel", "bitter", "extreme",
+              "contempt", "worst", "sever", "brutal", "savage", "vehement",
+              "damning", "ugli", "nasti", "violent")
+
+
+def _end_of(root):
+    root = (root or "").lower()
+    if any(root.startswith(t) for t in MILD_END):
+        return "mild"
+    if any(root.startswith(t) for t in STRONG_END):
+        return "strong"
+    return None
+
+
+def claimed_end(note):
+    """'mild' / 'strong' when the note claims an end of its family's spectrum."""
+    note = note or ""
+    for m in COMPARATIVE_ALL.finditer(note):
+        end = _end_of(m.group(1))
+        if end:
+            return end
+    for m in SUPERLATIVE.finditer(note):
+        span = note[m.start():m.start() + 70]
+        if not FAMILY_REF.search(span):
+            continue
+        end = _end_of(next(g for g in m.groups() if g))
+        if end:
+            return end
+    return None
+
+
+def superlative_collision(family):
+    """Two notes in one family claiming the same end of its spectrum."""
+    members = [m for m in family.get("members", []) if m.get("tone")]
+    claims = {}
+    for m in members:
+        end = claimed_end(m["tone"])
+        if end:
+            claims.setdefault(end, []).append(m)
+    out = []
+    for end, group in claims.items():
+        if len(group) < 2:
+            continue
+        words = [m["word"] for m in group]
+        for m in group:
+            others = [w for w in words if w != m["word"]]
+            out.append((m["word"], m["tone"],
+                        f"claims the {end} end of this family, and so do "
+                        f"{len(others)} sibling(s): {', '.join(others[:4])} - "
+                        f"at most one of these can hold"))
+    return out
+
+
 def check(note):
     """Return a list of (rule, matched text, advice) for one note."""
     hits = []
@@ -173,7 +248,9 @@ def family_checks(path):
         return
     for fam in data.get("families", []):
         for word, note, advice in family_inconsistent(fam):
-            yield f"{fam['id']}/{word}", note, advice
+            yield f"{fam['id']}/{word}", note, advice, "family-inconsistent"
+        for word, note, advice in superlative_collision(fam):
+            yield f"{fam['id']}/{word}", note, advice, "superlative-collision"
 
 
 def notes_from_overlay(path):
@@ -230,13 +307,13 @@ def main():
                     for rule, text, advice in hits:
                         print(f"  -> {rule}: {text!r} - {advice}")
         if reader is notes_from_family_file:
-            for key, note, advice in family_checks(path):
+            for key, note, advice, rule in family_checks(path):
                 bad += 1
-                per_rule["family-inconsistent"] += 1
+                per_rule[rule] += 1
                 if not args.quiet:
                     print(f"\n{Path(path).name}  {key}")
                     print(f"  {note}")
-                    print(f"  -> family-inconsistent: {advice}")
+                    print(f"  -> {rule}: {advice}")
         total += n
         flagged += bad
         per_source[Path(path).name] = (n, bad)

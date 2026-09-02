@@ -97,21 +97,32 @@ def headword_stem(word):
     return w
 
 
+# Bare substring containment was the first version and it passed the worst
+# cases silently: "pellucid prose" counts as using *lucid*, "the burglar carried
+# his loot in a pillowcase" as using *case*. Census 010 found two of these by
+# reading - the reader could see that the example illustrated a sibling lemma
+# and not the headword - after 4,610 example warnings had failed to name them.
+# The match has to sit on a word boundary. Hyphens are part of a word here, so
+# *broken-down* still matches "a broken-down fence" and *case* no longer matches
+# "encased".
+def _at_word_boundary(candidate, example):
+    return re.search(r"(?<![A-Za-z])" + re.escape(candidate) + r"(?![A-Za-z])",
+                     example) is not None
+
+
 def example_mentions(word, inflections, example):
     """True when the example plausibly uses the headword or an inflection."""
     ex = example.lower()
-    wl = word.lower()
-    if wl in ex:
-        return True
-    for inf in inflections:
-        if inf.lower() in ex:
+    for cand in [word.lower()] + [i.lower() for i in inflections]:
+        if cand and _at_word_boundary(cand, ex):
             return True
+    wl = word.lower()
     if " " in wl:
         return False
     stem = headword_stem(wl)
     if len(stem) < 3:
-        return wl in tokens(example)
-    return any(t.startswith(stem) for t in tokens(example))
+        return False
+    return any(t.startswith(stem) for t in re.split(r"[^A-Za-z-]+", ex))
 
 
 def check_str(rep, where, obj, key, required=True, allow_null=False):

@@ -293,8 +293,11 @@ def build_entries(entries, synsets, sense_lemma, entry_lemma, scores, ili_map):
                 "part_of_speech": pos,
                 "connotation": connotation,
             }
-            if synset["examples"]:
-                sense["examples"] = synset["examples"]
+            own_examples = examples_for(lemma, entry["forms"], synset["examples"])
+            if own_examples:
+                sense["examples"] = own_examples
+            if len(own_examples) < len(synset["examples"]):
+                stats["examples_dropped"] += len(synset["examples"]) - len(own_examples)
             if synonyms:
                 sense["synonyms"] = synonyms
             if antonyms:
@@ -321,6 +324,28 @@ def build_entries(entries, synsets, sense_lemma, entry_lemma, scores, ili_map):
         entry["editorial"] = {"status": "derived", "revision": 1, "sources": sources}
         out.append(entry)
     return out
+
+
+# OEWN attaches examples to the SYNSET, not to the lemma, so copying them onto
+# every member gives *lucid* the example "pellucid prose" and *distinct* the
+# example "trenchant distinctions between right and wrong" - each illustrating a
+# sibling of the word whose card it lands on. Census 010's blind reader found
+# two of these and named the mechanism; the shape had been on the books as
+# `bad-example` since tick 4 without a cause.
+#
+# A member keeps only the synset examples that use its own lemma or one of its
+# forms, on a word boundary. That drops 11% of examples and leaves 7% of senses
+# with none at all - a card with no example is better than a card whose example
+# is about a different word.
+def examples_for(lemma, forms, examples):
+    cands = [lemma.lower()] + [f.lower() for f in forms if f]
+    kept = []
+    for ex in examples:
+        low = ex.lower()
+        if any(re.search(r"(?<![A-Za-z])" + re.escape(c) + r"(?![A-Za-z])", low)
+               for c in cands if c):
+            kept.append(ex)
+    return kept
 
 
 def main():

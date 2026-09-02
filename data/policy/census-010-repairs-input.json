@@ -1,0 +1,638 @@
+{
+  "repairs": [
+    {
+      "id": "commonplace.oewn-01693210-s",
+      "word": "commonplace",
+      "gloss": "repeated too often; overfamiliar through overuse",
+      "charge": -1,
+      "current_note": "The mildest reproach in the set - it registers the overfamiliarity and stops there, leaving the contempt to *banal*.",
+      "fault": "family-inconsistent (reported as other)",
+      "reader_said": "Three notes in this family each claim the mildest position - this one 'the mildest reproach in the set', *stock* 'flattest word here', *timeworn* 'softer than the rest'. At most one can hold, and stock's was judged the best founded, so this one must find a different thing to say.",
+      "axis": "staleness held in contempt → plain absence of freshness",
+      "synset_siblings": [
+        {
+          "word": "banal",
+          "charge": -2,
+          "tone": "Dismissal rather than description: the repetition has emptied the thing out, where *commonplace* only notes that it has been met before."
+        },
+        {
+          "word": "hackneyed",
+          "charge": -2,
+          "tone": "A formal-sounding verdict that the thing has been run into the ground, heavier and more deliberate than *tired*."
+        },
+        {
+          "word": "old-hat",
+          "charge": -1,
+          "tone": "Informal and offhand: it shrugs at how familiar the thing has become instead of condemning it the way *banal* does."
+        },
+        {
+          "word": "shopworn",
+          "charge": -2,
+          "tone": "The overuse leaves a mark, as though the thing had been handled until the shine came off it - grubbier than *well-worn*."
+        },
+        {
+          "word": "stock",
+          "charge": -1,
+          "tone": "The flattest word here - it files the endless repetition almost as a category rather than a fault, with none of the disgust in *trite*."
+        },
+        {
+          "word": "threadbare",
+          "charge": -2,
+          "tone": "The wear has gone all the way through: the thing still holds its shape but has nothing left in it, harsher than *well-worn*."
+        },
+        {
+          "word": "timeworn",
+          "charge": -1,
+          "tone": "Softer than the rest, because it lays the wearing at time's door rather than anyone's, so the reproach lands gently."
+        },
+        {
+          "word": "tired",
+          "charge": -2,
+          "tone": "Blunt and plain: the thing has simply gone slack from repetition, a flatter judgement than the arch *bromidic*."
+        },
+        {
+          "word": "trite",
+          "charge": -3,
+          "tone": "The hardest word in the family - it does not merely note the overuse, it writes the thing off as worthless for it."
+        },
+        {
+          "word": "well-worn",
+          "charge": -1,
+          "tone": "The gentlest of the group: the wear is admitted and half forgiven, where *threadbare* would call it ruin."
+        }
+      ],
+      "whole_family": [
+        {
+          "word": "unoriginal",
+          "gloss": "not original; not being or productive of something fresh and unusual",
+          "charge": -1,
+          "tone": "The flat statement of the fault - nothing fresh in the thing and nothing fresh coming out of it - delivered without the scorn *trite* carries."
+        },
+        {
+          "word": "banal",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "Dismissal rather than description: the repetition has emptied the thing out, where *commonplace* only notes that it has been met before."
+        },
+        {
+          "word": "commonplace",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "The mildest reproach in the set - it registers the overfamiliarity and stops there, leaving the contempt to *banal*."
+        },
+        {
+          "word": "hackneyed",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "A formal-sounding verdict that the thing has been run into the ground, heavier and more deliberate than *tired*."
+        },
+        {
+          "word": "old-hat",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "Informal and offhand: it shrugs at how familiar the thing has become instead of condemning it the way *banal* does."
+        },
+        {
+          "word": "shopworn",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "The overuse leaves a mark, as though the thing had been handled until the shine came off it - grubbier than *well-worn*."
+        },
+        {
+          "word": "stock",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "The flattest word here - it files the endless repetition almost as a category rather than a fault, with none of the disgust in *trite*."
+        },
+        {
+          "word": "threadbare",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "The wear has gone all the way through: the thing still holds its shape but has nothing left in it, harsher than *well-worn*."
+        },
+        {
+          "word": "timeworn",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "Softer than the rest, because it lays the wearing at time's door rather than anyone's, so the reproach lands gently."
+        },
+        {
+          "word": "tired",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "Blunt and plain: the thing has simply gone slack from repetition, a flatter judgement than the arch *bromidic*."
+        },
+        {
+          "word": "trite",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -3,
+          "tone": "The hardest word in the family - it does not merely note the overuse, it writes the thing off as worthless for it."
+        },
+        {
+          "word": "well-worn",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "The gentlest of the group: the wear is admitted and half forgiven, where *threadbare* would call it ruin."
+        },
+        {
+          "word": "bromidic",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "Keeps a straight face while it convicts - dull, wearying and puffed up with significance, all named at once, where *corny* simply laughs."
+        },
+        {
+          "word": "corny",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "Informal and mocking: both the dullness and the airs come off as laughable, lighter on its feet than *platitudinous*."
+        },
+        {
+          "word": "platitudinal",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "The drier of the pair - it names the tiresome self-importance almost clinically, without the heavy roll of *platitudinous*."
+        },
+        {
+          "word": "platitudinous",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "A weightier, more sonorous word than *platitudinal*, and its own bulk is part of the mockery: dullness dressed up and then shown up."
+        }
+      ]
+    },
+    {
+      "id": "timeworn.oewn-01693210-s",
+      "word": "timeworn",
+      "gloss": "repeated too often; overfamiliar through overuse",
+      "charge": -1,
+      "current_note": "Softer than the rest, because it lays the wearing at time's door rather than anyone's, so the reproach lands gently.",
+      "fault": "family-inconsistent (reported as other)",
+      "reader_said": "Same collision: 'softer than the rest' is a family-wide superlative that cannot stand beside *commonplace* and *stock*. The observation about the wearing being laid at time's door is sound - keep that, drop the superlative.",
+      "axis": "staleness held in contempt → plain absence of freshness",
+      "synset_siblings": [
+        {
+          "word": "banal",
+          "charge": -2,
+          "tone": "Dismissal rather than description: the repetition has emptied the thing out, where *commonplace* only notes that it has been met before."
+        },
+        {
+          "word": "commonplace",
+          "charge": -1,
+          "tone": "The mildest reproach in the set - it registers the overfamiliarity and stops there, leaving the contempt to *banal*."
+        },
+        {
+          "word": "hackneyed",
+          "charge": -2,
+          "tone": "A formal-sounding verdict that the thing has been run into the ground, heavier and more deliberate than *tired*."
+        },
+        {
+          "word": "old-hat",
+          "charge": -1,
+          "tone": "Informal and offhand: it shrugs at how familiar the thing has become instead of condemning it the way *banal* does."
+        },
+        {
+          "word": "shopworn",
+          "charge": -2,
+          "tone": "The overuse leaves a mark, as though the thing had been handled until the shine came off it - grubbier than *well-worn*."
+        },
+        {
+          "word": "stock",
+          "charge": -1,
+          "tone": "The flattest word here - it files the endless repetition almost as a category rather than a fault, with none of the disgust in *trite*."
+        },
+        {
+          "word": "threadbare",
+          "charge": -2,
+          "tone": "The wear has gone all the way through: the thing still holds its shape but has nothing left in it, harsher than *well-worn*."
+        },
+        {
+          "word": "tired",
+          "charge": -2,
+          "tone": "Blunt and plain: the thing has simply gone slack from repetition, a flatter judgement than the arch *bromidic*."
+        },
+        {
+          "word": "trite",
+          "charge": -3,
+          "tone": "The hardest word in the family - it does not merely note the overuse, it writes the thing off as worthless for it."
+        },
+        {
+          "word": "well-worn",
+          "charge": -1,
+          "tone": "The gentlest of the group: the wear is admitted and half forgiven, where *threadbare* would call it ruin."
+        }
+      ],
+      "whole_family": [
+        {
+          "word": "unoriginal",
+          "gloss": "not original; not being or productive of something fresh and unusual",
+          "charge": -1,
+          "tone": "The flat statement of the fault - nothing fresh in the thing and nothing fresh coming out of it - delivered without the scorn *trite* carries."
+        },
+        {
+          "word": "banal",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "Dismissal rather than description: the repetition has emptied the thing out, where *commonplace* only notes that it has been met before."
+        },
+        {
+          "word": "commonplace",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "The mildest reproach in the set - it registers the overfamiliarity and stops there, leaving the contempt to *banal*."
+        },
+        {
+          "word": "hackneyed",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "A formal-sounding verdict that the thing has been run into the ground, heavier and more deliberate than *tired*."
+        },
+        {
+          "word": "old-hat",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "Informal and offhand: it shrugs at how familiar the thing has become instead of condemning it the way *banal* does."
+        },
+        {
+          "word": "shopworn",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "The overuse leaves a mark, as though the thing had been handled until the shine came off it - grubbier than *well-worn*."
+        },
+        {
+          "word": "stock",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "The flattest word here - it files the endless repetition almost as a category rather than a fault, with none of the disgust in *trite*."
+        },
+        {
+          "word": "threadbare",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "The wear has gone all the way through: the thing still holds its shape but has nothing left in it, harsher than *well-worn*."
+        },
+        {
+          "word": "timeworn",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "Softer than the rest, because it lays the wearing at time's door rather than anyone's, so the reproach lands gently."
+        },
+        {
+          "word": "tired",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "Blunt and plain: the thing has simply gone slack from repetition, a flatter judgement than the arch *bromidic*."
+        },
+        {
+          "word": "trite",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -3,
+          "tone": "The hardest word in the family - it does not merely note the overuse, it writes the thing off as worthless for it."
+        },
+        {
+          "word": "well-worn",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "The gentlest of the group: the wear is admitted and half forgiven, where *threadbare* would call it ruin."
+        },
+        {
+          "word": "bromidic",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "Keeps a straight face while it convicts - dull, wearying and puffed up with significance, all named at once, where *corny* simply laughs."
+        },
+        {
+          "word": "corny",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "Informal and mocking: both the dullness and the airs come off as laughable, lighter on its feet than *platitudinous*."
+        },
+        {
+          "word": "platitudinal",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "The drier of the pair - it names the tiresome self-importance almost clinically, without the heavy roll of *platitudinous*."
+        },
+        {
+          "word": "platitudinous",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "A weightier, more sonorous word than *platitudinal*, and its own bulk is part of the mockery: dullness dressed up and then shown up."
+        }
+      ]
+    },
+    {
+      "id": "cedar-scented.oewn-01059862-s",
+      "word": "cedar-scented",
+      "gloss": "smelling like cedar",
+      "charge": 0,
+      "current_note": "Alone in the family it offers a resemblance — smelling like cedar — rather than asserting the source's own smell as *cinnamon-scented* does.",
+      "fault": "other - manufactured distinction",
+      "reader_said": "The note builds a contrast (resemblance vs the source's own smell) out of the gloss wording 'like cedar' where siblings say 'of X'. Every X-scented compound works by resemblance as readily as by source, so the word does not carry the distinction, and 'Alone in the family' claims a uniqueness it does not have.",
+      "axis": "a smell merely reported → a smell pinned to one named source",
+      "synset_siblings": [],
+      "whole_family": [
+        {
+          "word": "odorous",
+          "gloss": "having odor or a characteristic odor",
+          "charge": 0,
+          "tone": "The family's base term, covering both that a smell is present at all and that the thing has a smell of its own, and alone here it never says which smell."
+        },
+        {
+          "word": "alliaceous",
+          "gloss": "smelling of onions or garlic",
+          "charge": 0,
+          "tone": "Formal where the rest of the family is plain compounding, and it holds onion and garlic together rather than settling on either."
+        },
+        {
+          "word": "almond-scented",
+          "gloss": "smelling of almond",
+          "charge": 0,
+          "tone": "A flat identification of the source, describing the smell as almond's without any suggestion that this is welcome."
+        },
+        {
+          "word": "anise-scented",
+          "gloss": "smelling of anise",
+          "charge": 0,
+          "tone": "Names a licorice-sharp source where *almond-scented* names a softer one, though the word itself is equally free of praise or complaint."
+        },
+        {
+          "word": "apple-scented",
+          "gloss": "smelling of apples",
+          "charge": 0,
+          "tone": "Takes its smell from a fruit rather than a spice or a resin, and like every compound here it identifies without evaluating."
+        },
+        {
+          "word": "balsam-scented",
+          "gloss": "smelling of balsam resin",
+          "charge": 0,
+          "tone": "Fixes the smell to the resin rather than to the tree, making it the most exactly specified member of the family."
+        },
+        {
+          "word": "candy-scented",
+          "gloss": "smelling of candy",
+          "charge": 0,
+          "tone": "The one compound whose source is a made thing rather than a plant, and it names that smell with no verdict attached."
+        },
+        {
+          "word": "cedar-scented",
+          "gloss": "smelling like cedar",
+          "charge": 0,
+          "tone": "Alone in the family it offers a resemblance — smelling like cedar — rather than asserting the source's own smell as *cinnamon-scented* does."
+        },
+        {
+          "word": "cinnamon-scented",
+          "gloss": "smelling of cinnamon",
+          "charge": 0,
+          "tone": "A warm spice named directly, the smell claimed as the spice's own rather than merely likened to it."
+        },
+        {
+          "word": "clove-scented",
+          "gloss": "smelling of clove",
+          "charge": 0,
+          "tone": "Names the sharper of the two baking spices here, yet the word passes judgement no more than *cinnamon-scented* does."
+        },
+        {
+          "word": "ginger-scented",
+          "gloss": "smelling of ginger",
+          "charge": 0,
+          "tone": "Third of the kitchen spices in the family, labelling a smell by its source without hinting whether it pleases."
+        },
+        {
+          "word": "honey-scented",
+          "gloss": "smelling of honey",
+          "charge": 0,
+          "tone": "The sweetness sits in the source, not in the word, which reports it as flatly as *musk-scented* reports a heavier smell."
+        },
+        {
+          "word": "lemon-scented",
+          "gloss": "smelling of lemons",
+          "charge": 0,
+          "tone": "Borrows a fruit as *apple-scented* does, the sour one against the sweet, with neither compound taking a side."
+        },
+        {
+          "word": "mint-scented",
+          "gloss": "smelling of mint",
+          "charge": 0,
+          "tone": "Cool where *cinnamon-scented* is warm, but that contrast belongs to the sources named and not to anything the words themselves approve."
+        },
+        {
+          "word": "musk-scented",
+          "gloss": "smelling of musk",
+          "charge": 0,
+          "tone": "The one animal source among plants, spices and sweets, and the compound states it without the faintest verdict."
+        },
+        {
+          "word": "musky-scented",
+          "gloss": "smelling of musk",
+          "charge": 0,
+          "tone": "Carries the same sense as *musk-scented*, the -y form loosening the compound without changing what it identifies."
+        }
+      ]
+    },
+    {
+      "id": "cinnamon-scented.oewn-01059941-s",
+      "word": "cinnamon-scented",
+      "gloss": "smelling of cinnamon",
+      "charge": 0,
+      "current_note": "A warm spice named directly, the smell claimed as the spice's own rather than merely likened to it.",
+      "fault": "other - manufactured distinction",
+      "reader_said": "The mirror image of the same invented contrast: 'claimed as the spice's own rather than merely likened to it' asserts real source, which the word does not encode - a cinnamon-scented candle contains no cinnamon.",
+      "axis": "a smell merely reported → a smell pinned to one named source",
+      "synset_siblings": [],
+      "whole_family": [
+        {
+          "word": "odorous",
+          "gloss": "having odor or a characteristic odor",
+          "charge": 0,
+          "tone": "The family's base term, covering both that a smell is present at all and that the thing has a smell of its own, and alone here it never says which smell."
+        },
+        {
+          "word": "alliaceous",
+          "gloss": "smelling of onions or garlic",
+          "charge": 0,
+          "tone": "Formal where the rest of the family is plain compounding, and it holds onion and garlic together rather than settling on either."
+        },
+        {
+          "word": "almond-scented",
+          "gloss": "smelling of almond",
+          "charge": 0,
+          "tone": "A flat identification of the source, describing the smell as almond's without any suggestion that this is welcome."
+        },
+        {
+          "word": "anise-scented",
+          "gloss": "smelling of anise",
+          "charge": 0,
+          "tone": "Names a licorice-sharp source where *almond-scented* names a softer one, though the word itself is equally free of praise or complaint."
+        },
+        {
+          "word": "apple-scented",
+          "gloss": "smelling of apples",
+          "charge": 0,
+          "tone": "Takes its smell from a fruit rather than a spice or a resin, and like every compound here it identifies without evaluating."
+        },
+        {
+          "word": "balsam-scented",
+          "gloss": "smelling of balsam resin",
+          "charge": 0,
+          "tone": "Fixes the smell to the resin rather than to the tree, making it the most exactly specified member of the family."
+        },
+        {
+          "word": "candy-scented",
+          "gloss": "smelling of candy",
+          "charge": 0,
+          "tone": "The one compound whose source is a made thing rather than a plant, and it names that smell with no verdict attached."
+        },
+        {
+          "word": "cedar-scented",
+          "gloss": "smelling like cedar",
+          "charge": 0,
+          "tone": "Alone in the family it offers a resemblance — smelling like cedar — rather than asserting the source's own smell as *cinnamon-scented* does."
+        },
+        {
+          "word": "cinnamon-scented",
+          "gloss": "smelling of cinnamon",
+          "charge": 0,
+          "tone": "A warm spice named directly, the smell claimed as the spice's own rather than merely likened to it."
+        },
+        {
+          "word": "clove-scented",
+          "gloss": "smelling of clove",
+          "charge": 0,
+          "tone": "Names the sharper of the two baking spices here, yet the word passes judgement no more than *cinnamon-scented* does."
+        },
+        {
+          "word": "ginger-scented",
+          "gloss": "smelling of ginger",
+          "charge": 0,
+          "tone": "Third of the kitchen spices in the family, labelling a smell by its source without hinting whether it pleases."
+        },
+        {
+          "word": "honey-scented",
+          "gloss": "smelling of honey",
+          "charge": 0,
+          "tone": "The sweetness sits in the source, not in the word, which reports it as flatly as *musk-scented* reports a heavier smell."
+        },
+        {
+          "word": "lemon-scented",
+          "gloss": "smelling of lemons",
+          "charge": 0,
+          "tone": "Borrows a fruit as *apple-scented* does, the sour one against the sweet, with neither compound taking a side."
+        },
+        {
+          "word": "mint-scented",
+          "gloss": "smelling of mint",
+          "charge": 0,
+          "tone": "Cool where *cinnamon-scented* is warm, but that contrast belongs to the sources named and not to anything the words themselves approve."
+        },
+        {
+          "word": "musk-scented",
+          "gloss": "smelling of musk",
+          "charge": 0,
+          "tone": "The one animal source among plants, spices and sweets, and the compound states it without the faintest verdict."
+        },
+        {
+          "word": "musky-scented",
+          "gloss": "smelling of musk",
+          "charge": 0,
+          "tone": "Carries the same sense as *musk-scented*, the -y form loosening the compound without changing what it identifies."
+        }
+      ]
+    },
+    {
+      "id": "humiliated.oewn-00155537-s",
+      "word": "humiliated",
+      "gloss": "made to feel uncomfortable because of shame or wounded pride",
+      "charge": -2,
+      "current_note": "The discomfort is inflicted and meant to be felt, a deliberate lowering that *embarrassed* never implies.",
+      "fault": "restriction",
+      "reader_said": "The note requires the lowering to be deliberately inflicted and meant to be felt. The gloss names no agent, and the sense covers humiliation by circumstance as much as by anyone's design.",
+      "axis": "a passing inward discomfort → a public and settled loss of standing",
+      "synset_siblings": [
+        {
+          "word": "embarrassed",
+          "charge": -1,
+          "tone": "The mildest and most survivable discomfort here, and the sting can be to pride as easily as to conscience."
+        },
+        {
+          "word": "mortified",
+          "charge": -2,
+          "tone": "Hyperbolic in force: the discomfort is unbearable rather than merely awkward, and it can be pride that smarts."
+        }
+      ],
+      "whole_family": [
+        {
+          "word": "ashamed",
+          "gloss": "feeling shame or guilt or embarrassment or remorse",
+          "charge": 0,
+          "tone": "The plain inward word for the state, wide enough to hold guilt and remorse as well as shame, and unlike *disgraced* it reports the feeling without pronouncing on the person's standing."
+        },
+        {
+          "word": "discredited",
+          "gloss": "suffering shame",
+          "charge": -2,
+          "tone": "The shame lands as a withdrawal of belief, where *disgraced* takes away the standing itself."
+        },
+        {
+          "word": "disgraced",
+          "gloss": "suffering shame",
+          "charge": -3,
+          "tone": "Total and public, the shame settled into a condition rather than the passing sting of *embarrassed*."
+        },
+        {
+          "word": "dishonored",
+          "gloss": "suffering shame",
+          "charge": -3,
+          "tone": "The gravest and most formal of these, shame weighed against honour, where *shamed* is blunt and unceremonious."
+        },
+        {
+          "word": "shamed",
+          "gloss": "suffering shame",
+          "charge": -2,
+          "tone": "Bare and unadorned: shame worked on someone from outside, where *ashamed* is shame felt from within."
+        },
+        {
+          "word": "embarrassed",
+          "gloss": "made to feel uncomfortable because of shame or wounded pride",
+          "charge": -1,
+          "tone": "The mildest and most survivable discomfort here, and the sting can be to pride as easily as to conscience."
+        },
+        {
+          "word": "humiliated",
+          "gloss": "made to feel uncomfortable because of shame or wounded pride",
+          "charge": -2,
+          "tone": "The discomfort is inflicted and meant to be felt, a deliberate lowering that *embarrassed* never implies."
+        },
+        {
+          "word": "mortified",
+          "gloss": "made to feel uncomfortable because of shame or wounded pride",
+          "charge": -2,
+          "tone": "Hyperbolic in force: the discomfort is unbearable rather than merely awkward, and it can be pride that smarts."
+        },
+        {
+          "word": "guilty",
+          "gloss": "showing a sense of guilt",
+          "charge": -1,
+          "tone": "The plainest of the words for guilt that shows, naming what is visible without the picture *hangdog* draws."
+        },
+        {
+          "word": "hangdog",
+          "gloss": "showing a sense of guilt",
+          "charge": -2,
+          "tone": "Contemptuous and pictorial, the guilt showing as a cowering, beaten posture, and the word relishes saying so."
+        },
+        {
+          "word": "shamefaced",
+          "gloss": "showing a sense of guilt",
+          "charge": -1,
+          "tone": "Puts the guilt exactly where it shows, on the face, without the whole cringing body of *hangdog*."
+        },
+        {
+          "word": "sheepish",
+          "gloss": "showing a sense of shame",
+          "charge": -1,
+          "tone": "Faintly comic and forgiving, the shame it shows small enough to be smiled at, where *hangdog* invites contempt."
+        }
+      ]
+    }
+  ]
+}

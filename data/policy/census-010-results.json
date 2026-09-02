@@ -1,0 +1,109 @@
+{
+ "sample": "census-010",
+ "seed": null,
+ "population": 280,
+ "read": 280,
+ "right": 273,
+ "wrong": 7,
+ "unsure": 0,
+ "error_rate_pct": 2.5,
+ "threshold_pct": 5.0,
+ "reader_model": "fable",
+ "reader_effort": "xhigh",
+ "reader_agent": ".claude/agents/census-reader.md",
+ "reader_tools": "Read, Write",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
+ "missing_packets": [],
+ "unread": [],
+ "verdicts_for_unknown_ids": [],
+ "faults": {
+  "other": 6,
+  "restriction": 1
+ },
+ "by_part_of_speech": {
+  "adjective": {
+   "read": 280,
+   "right": 273,
+   "wrong": 7,
+   "unsure": 0,
+   "error_rate_pct": 2.5
+  }
+ },
+ "failures_by_synset": {
+  "oewn-00155537-s": [
+   {
+    "id": "humiliated.oewn-00155537-s",
+    "word": "humiliated",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "The note requires the lowering to be inflicted deliberately and meant to be felt, but the gloss carries no agent and the entry's own example (humiliated that his wife had to go out to work) is humiliation by circumstance.",
+    "definition": "made to feel uncomfortable because of shame or wounded pride",
+    "tone": "The discomfort is inflicted and meant to be felt, a deliberate lowering that *embarrassed* never implies."
+   }
+  ],
+  "oewn-00430512-s": [
+   {
+    "id": "distinct.oewn-00430512-s",
+    "word": "distinct",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "The note itself is right (neutral, definition reported as fact), but the second example 'trenchant distinctions between right and wrong' does not use the adjective distinct at all; it illustrates the sibling lemma trenchant and is attached here only by substring.",
+    "definition": "clearly or sharply defined to the mind",
+    "tone": "The cool member of its group - sharpness of definition reported as a fact, without the approval in *clear-cut* or the bite of *trenchant*."
+   }
+  ],
+  "oewn-00430851-s": [
+   {
+    "id": "lucid.oewn-00430851-s",
+    "word": "lucid",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "The note itself is right (plainer praise, clarity credited to ordered thought), but the second example 'pellucid prose' does not contain the word lucid; it is the sibling lemma pellucid's example attached by substring match.",
+    "definition": "(of language) transparently clear; easily understandable",
+    "tone": "Plainer praise than *limpid* - the clarity is credited to the ordering of the thought rather than to the ease of the surface."
+   }
+  ],
+  "oewn-01059862-s": [
+   {
+    "id": "cedar-scented.oewn-01059862-s",
+    "word": "cedar-scented",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "The note manufactures a semantic contrast (resemblance versus the source's own smell) out of the gloss saying 'like cedar' where its neighbours say 'of X'; every X-scented compound works by resemblance as readily as by source, so the word does not carry the distinction the note credits it with alone.",
+    "definition": "smelling like cedar",
+    "tone": "Alone in the family it offers a resemblance — smelling like cedar — rather than asserting the source's own smell as *cinnamon-scented* does."
+   }
+  ],
+  "oewn-01059941-s": [
+   {
+    "id": "cinnamon-scented.oewn-01059941-s",
+    "word": "cinnamon-scented",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "The clause 'claimed as the spice's own rather than merely likened to it' asserts that cinnamon-scented encodes real source rather than resemblance, a distinction the word does not make (a cinnamon-scented candle contains no cinnamon); it is the same contrast built from gloss wording as in cedar-scented, seen from the other side.",
+    "definition": "smelling of cinnamon",
+    "tone": "A warm spice named directly, the smell claimed as the spice's own rather than merely likened to it."
+   }
+  ],
+  "oewn-01693210-s": [
+   {
+    "id": "commonplace.oewn-01693210-s",
+    "word": "commonplace",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "Claims to be 'the mildest reproach in the set', but the sibling notes for *stock* ('flattest word here, almost a category rather than a fault') and *timeworn* ('softer than the rest') each claim the same bottom rung, so at most one of these superlatives can hold and stock's is the better founded.",
+    "definition": "repeated too often; overfamiliar through overuse",
+    "tone": "The mildest reproach in the set - it registers the overfamiliarity and stops there, leaving the contempt to *banal*."
+   },
+   {
+    "id": "timeworn.oewn-01693210-s",
+    "word": "timeworn",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "'Softer than the rest' is a synset-wide superlative that collides with *commonplace* ('mildest reproach in the set') and *stock* ('flattest word here'); the reasoning about wear laid at time's door is sound, but the superlative cannot be true alongside those two notes.",
+    "definition": "repeated too often; overfamiliar through overuse",
+    "tone": "Softer than the rest, because it lays the wearing at time's door rather than anyone's, so the reproach lands gently."
+   }
+  ]
+ }
+}

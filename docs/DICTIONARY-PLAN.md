@@ -397,6 +397,7 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-09-02 | **Tick 4: 24 families, 298 senses, 1.3% blind.** Reading instrument verbatim and comparable to census 006 — but the *authoring* prompts carried an extra warning that `family-author.md` did not, so the drop from 3.4% is confounded. The line is now in the file. `bad-example` promoted to a named fault class on its second instance. See 11.77 |
 | 2026-09-02 | **Tick 5: 21 families, 286 senses, 1.4% blind.** First tick with BOTH instruments verbatim and prompts identical across every family, so it is the first cleanly comparable pair with tick 4 (1.3%). A second family withheld under 5.3, caught by reading rather than by the regex. New fault class `family-inconsistent`. See 11.78 |
 | 2026-09-02 | **Tick 6: 23 families, 287 senses, 2.1% blind.** Third comparable tick (1.3 / 1.4 / 2.1). `family-inconsistent` built into `tone_lint.py` and backtested — found one historic fault in shard 12. `sensitive_screen.py` replaces the retyped regex after three misses in three ticks. Third family withheld under 5.3. See 11.79 |
+| 2026-09-02 | **Tick 7: 20 families, 280 senses, 2.5% blind.** Fourth comparable tick (1.3 / 1.4 / 2.1 / 2.5). Two of the seven faults were an importer bug, not authoring: OEWN attaches examples to the synset, so *lucid* carried *pellucid*'s example - `bad-example` finally has a cause, fixed at import, and `example_mentions` tightened from substring to word boundary. New `superlative-collision` rule in `tone_lint.py` then found six MORE faults in the same shard the census scored at 2.5%, plus eight historic. Fourth family withheld under 5.3. See 11.80 |
 
 **Current totals: 207 families, 2,506 annotated senses, 2,667 reviewed entries,
 0 validation errors. Measured error rates 1.3% / 1.4% / 2.1% (censuses 007, 008,
@@ -1698,6 +1699,114 @@ The second-round reader was told both notes had been edited twice **and** warned
 against two opposite failures: drifting a third time, and flattening the note
 into something safe that says nothing. Both passed with reasoning that engaged
 the gloss rather than deferring.
+
+## 11.80 Tick 7 — the census measured 2.5%, and then a linter found six more
+
+**20 families, 280 senses. 273 right, 7 wrong, 0 unsure — 2.5%.** One family
+withheld under 5.3. Five repairs, all passing on the first re-read.
+
+Four comparable ticks: **1.3% / 1.4% / 2.1% / 2.5%**. Still a little under 2%
+across the four, and still four faults' worth of spread.
+
+But the headline number is not the finding this tick. Two other things happened.
+
+### Two of the seven faults were not writing mistakes at all
+
+The reader marked *distinct* and *lucid* wrong, and in both cases said the note
+was right and the **example** was not:
+
+> *lucid*, "(of language) transparently clear" — example: **"pellucid prose"**
+> *distinct*, "clearly or sharply defined to the mind" — example: **"trenchant distinctions between right and wrong"**
+
+Both examples illustrate a *sibling lemma in the same synset*. The mechanism is
+in the importer: **OEWN attaches examples to the synset, not to the lemma**, and
+`wordnet_import.py` copied every synset example onto every member. So *lucid*
+inherited *pellucid*'s example and *distinct* inherited *trenchant*'s.
+
+`bad-example` has been a named fault class since tick 4 and had never had a
+cause. It has one now, and the fix is mechanical: a member keeps only the synset
+examples that use its own lemma or one of its forms. **11% of examples dropped,
+7% of senses left with none** (2% among annotated senses). A card with no
+example beats a card whose example is about a different word.
+
+A second bug was hiding behind the first. The validator already checks that an
+example uses its headword — 4,610 warnings' worth — and it passed both of these,
+because `example_mentions` tested **bare substring containment**: "lucid" *is* in
+"pellucid", "case" *is* in "pillowcase", "distinct" *is* in "distinctions". The
+check now matches on a word boundary, treating hyphens as part of a word so
+*broken-down* still matches "a broken-down fence". Warnings fell 4,610 → 4,284.
+
+The re-import was verified field-by-field against the old bulk file: 111,466
+entries, zero differences outside `examples`.
+
+**The lesson is about which instrument found it.** A checker that had been
+running on every pipeline pass for the whole project could not see this, because
+its match was too loose; a reader looking at one card saw it immediately. That is
+the reverse of 11.79's lesson and belongs beside it: a linter cannot discover a
+fault class, and a reader cannot check 8,438 examples.
+
+### `superlative-collision`, and what it says about the blind read
+
+The census found three notes in the *unoriginal* family each claiming the mild
+end of the spectrum — *commonplace* "the mildest reproach in the set", *stock*
+"flattest word here", *timeworn* "softer than the rest". At most one can hold.
+
+The reader could only see that **by luck**. Packets withhold the family id by
+design, but `census_packets.py` slices contiguously so a family's senses stay
+together — so a family small enough to fit inside one packet is visible anyway,
+and a family split across a boundary is not. That is not an instrument.
+
+So the check moved into `tone_lint.py`, in the same spirit as 11.79's
+`family-inconsistent`: a positional superlative (or a comparative against "the
+rest") plus a family reference, flagged when two members claim the same end. It
+is a **contradiction check, not a judgement** — it never says which note is
+right, only that two notes cannot both be the mildest.
+
+The backtest across every shard found **14 notes in 7 collisions**: three pairs
+in this tick's own shard, four in shards 12, 14 and 15. Two were contradicted by
+their own charges — *empty-headed* at −2 calling itself "the flattest insult in
+the set" beside *dizzy* at −1, and *laughable* at −2 calling itself "the lightest
+verdict here" beside *silly* at −1.
+
+**This is the uncomfortable part.** Census 010 read shard 16 blind and scored it
+2.5%. A mechanical check then found **six more faults in the same shard**. The
+census rate is not the note-level error rate; it is the rate *a blind reader
+catches*, and for faults that live between senses rather than inside one, the
+reader is structurally near-blind. Every census number in this document should be
+read that way.
+
+Seven repairs went out (one per collision, keeping the better-founded claim).
+Five passed, two failed — and again on opposite faults:
+
+- *well-worn* **drifted**, into the comfortable worn-in sense (a path, a pair of
+  shoes) where the wear is a virtue, when its gloss makes overuse the fault. The
+  third gloss-mismatch repair in this project to need a second pass.
+- *perturbing* **traded one exclusive claim for another**: it stopped claiming
+  the mildest position and started claiming to be the formal member of a family
+  where *distressful* is already noted as the stiffer, more formal shape. The new
+  rule does not catch that — it only knows mild and strong ends.
+
+Both passed a second pass under a prompt that named both failures and warned
+against flattening as much as against drifting.
+
+### Also this tick
+
+- `insane` withheld under 5.3 — fifteen of sixteen members glossed "informal or
+  slang terms for mentally irregular". Fourth family in the manual queue, and the
+  **first the screen flagged that was also real**: it fired on three families,
+  the other two being *weak* (on *lame*, glossed "pathetically lacking in force",
+  not the disability sense) and *guilty* (on *blameworthy* and five like it,
+  culpability words aimed at no group).
+- A reader mistyped a synset id again — `composed.oewn-01828067-s` for
+  `oewn-00531471-a`, carrying over the id of the sense above it. Caught by the
+  aggregator's stray-verdict guard, which 11.79 added after the same thing
+  happened in census 009. Twice in two ticks is a pattern, not an accident.
+- `odorous` was drawn and kept: fifteen of sixteen members are "smelling of X"
+  compounds. It is the caveat-two taxonomy problem in its purest form, and it was
+  kept rather than quietly dropped because hand-removing a family the gate chose
+  is exactly the undocumented selection this project keeps paying for. Worth
+  knowing that ~16 near-vacuous senses in a 280-sense tick **dilute the census
+  rate downward**, which is a second reason the number is a floor.
 
 ## 11.71 The run plan — stages, and what stops each one
 

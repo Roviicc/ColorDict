@@ -1,0 +1,60 @@
+{
+  "repairs": [
+    {
+      "shard": "annotated-012.json",
+      "family": "family-02505035-a",
+      "word": "put-upon",
+      "charge": -1,
+      "tone": "Informal, and the only one of these that shows the wrong from the sufferer's side - the person is imposed on and visibly feels it, where *ill-used* and *exploited* merely report what was done to them.",
+      "reasoning": "*misused* holds the flat end of this axis, since its gloss faults the handling of a thing and accuses no one of preying on a person, so *put-upon* loses the claim to be mildest and the note now turns on the thing only it does - carrying the aggrieved person's own grievance."
+    },
+    {
+      "shard": "annotated-014.json",
+      "family": "family-02127738-a",
+      "word": "empty-headed",
+      "charge": -2,
+      "tone": "Mockery that goes past unseriousness to vacancy - it does not merely find the person frivolous but alleges there is nothing inside to be serious with, where *dizzy* only sets the head spinning.",
+      "reasoning": "The note was wrong, not the charge - -2 is right for a word that alleges an empty head rather than mere frivolity, and *dizzy* at -1 holds the mild end, so the self-contradicting \"flattest insult\" claim gave way to the contrast the rest of the sentence was already drawing."
+    },
+    {
+      "shard": "annotated-014.json",
+      "family": "family-01673111-a",
+      "word": "disordered",
+      "charge": -1,
+      "tone": "Names the loss of order as a state the thing has been put into and leaves it there, without the damage *broken* implies or the fresh upheaval *upset* pictures.",
+      "reasoning": "*unmethodical* sits at the mild end because its gloss faults only missing method and efficiency and pictures no disarray at all, so *disordered* - whose gloss has the thing already thrown into disarray - keeps its contrast with *broken* but loses the flattest-of-these claim."
+    },
+    {
+      "shard": "annotated-015.json",
+      "family": "family-02580838-a",
+      "word": "laughable",
+      "charge": -2,
+      "tone": "Puts the derision in the response rather than in the thing - what is named is the laugh it draws, so it dismisses by amusement where *preposterous* repudiates out loud.",
+      "reasoning": "The note was wrong, not the charge - inviting derision belongs at -2 beside *absurd* and *ridiculous*, and *silly* at -1 holds the mild end, so the \"lightest verdict\" claim, which the note's own second clause contradicted, was replaced by what the laugh actually does."
+    },
+    {
+      "shard": "annotated-016.json",
+      "family": "family-01692724-a",
+      "word": "well-worn",
+      "charge": -1,
+      "tone": "The wear is conceded and then not held against the thing - overuse has smoothed it rather than used it up, which is what *threadbare* and *shopworn* make of the same wearing.",
+      "reasoning": "*stock* holds the flat end because it files the overfamiliarity almost as a kind rather than a fault, while *well-worn* still admits wear before forgiving it, so its note now says what the forgiveness consists in instead of claiming the gentlest position."
+    },
+    {
+      "shard": "annotated-016.json",
+      "family": "family-01192305-a",
+      "word": "perturbing",
+      "charge": -1,
+      "tone": "The formal member of the group, registering the trouble as a mind put out of its settled state, where *disturbing* unseats it and *distressing* names outright hurt.",
+      "reasoning": "*weighted* holds the flat end as the one member that merely records the load without making the weariness felt, so *perturbing* keeps its formality and its contrast with *disturbing* but no longer claims to be the mildest here."
+    },
+    {
+      "shard": "annotated-016.json",
+      "family": "family-00365559-a",
+      "word": "blue",
+      "charge": -1,
+      "tone": "Informal, and it tints the mood rather than convicting the thing - dejection carried as a colour, where *dark* throws a shadow over what it names and *dismal* passes sentence on it.",
+      "reasoning": "*uncheerful* holds the flat end as a bare negation that only registers cheer missing, whereas *blue* affirms a mood actually cast, so *blue*'s note now names how it colours instead of claiming to be the gentlest here."
+    }
+  ]
+}

@@ -1,0 +1,764 @@
+{
+  "collisions": [
+    {
+      "shard": "annotated-012.json",
+      "family": "family-02505035-a",
+      "axis": "a thing handled wrongly → a person wholly cast as the victim of it",
+      "end_claimed": "mild",
+      "colliding": [
+        {
+          "word": "misused",
+          "gloss": "used incorrectly or carelessly or for an improper purpose",
+          "charge": -1,
+          "tone": "The flattest of these - it faults the handling, whether careless or deliberate, without yet accusing anyone of cruelty."
+        },
+        {
+          "word": "put-upon",
+          "gloss": "(of persons) taken advantage of",
+          "charge": -1,
+          "tone": "Informal and the mildest here - imposition rather than injury, and it lets the aggrieved feeling of the person show through."
+        }
+      ],
+      "whole_family": [
+        {
+          "word": "misused",
+          "gloss": "used incorrectly or carelessly or for an improper purpose",
+          "charge": -1,
+          "tone": "The flattest of these - it faults the handling, whether careless or deliberate, without yet accusing anyone of cruelty."
+        },
+        {
+          "word": "abused",
+          "gloss": "used improperly or excessively especially drugs",
+          "charge": -2,
+          "tone": "Harder than *misused* because excess joins impropriety - the fault lies in how much as well as how, drugs squarely included."
+        },
+        {
+          "word": "exploited",
+          "gloss": "(of persons) taken advantage of",
+          "charge": -2,
+          "tone": "Cold and calculating beside *ill-used* - it implies someone drew profit from the person, and names the gain rather than the hurt."
+        },
+        {
+          "word": "ill-used",
+          "gloss": "(of persons) taken advantage of",
+          "charge": -2,
+          "tone": "Formal and plain-spoken - a verdict that a wrong was done, without *exploited*'s implication that anyone gained by it."
+        },
+        {
+          "word": "put-upon",
+          "gloss": "(of persons) taken advantage of",
+          "charge": -1,
+          "tone": "Informal and the mildest here - imposition rather than injury, and it lets the aggrieved feeling of the person show through."
+        },
+        {
+          "word": "used",
+          "gloss": "(of persons) taken advantage of",
+          "charge": -2,
+          "tone": "Bare and cutting - the unmodified participle reduces the person to an instrument, saying far less than *exploited* and landing colder for it."
+        },
+        {
+          "word": "victimized",
+          "gloss": "(of persons) taken advantage of",
+          "charge": -3,
+          "tone": "The strongest of the set - it does not merely report the wrong but makes the person's whole standing consist in having suffered it."
+        },
+        {
+          "word": "victimised",
+          "gloss": "(of persons) taken advantage of",
+          "charge": -3,
+          "tone": "British spelling of *victimized*, and it carries the same total verdict - the person defined by the wrong rather than merely subjected to it."
+        }
+      ]
+    },
+    {
+      "shard": "annotated-014.json",
+      "family": "family-02127738-a",
+      "axis": "harmless lightness → unseriousness mocked as a defect of mind",
+      "end_claimed": "mild",
+      "colliding": [
+        {
+          "word": "dizzy",
+          "gloss": "lacking seriousness; given to frivolity",
+          "charge": -1,
+          "tone": "Whirl rather than vacancy, the lightest hit in the group and closer to teasing than to the contempt in *empty-headed*."
+        },
+        {
+          "word": "empty-headed",
+          "gloss": "lacking seriousness; given to frivolity",
+          "charge": -2,
+          "tone": "The flattest insult in the set: it does not merely find the person unserious but asserts there is nothing inside to be serious with."
+        }
+      ],
+      "whole_family": [
+        {
+          "word": "frivolous",
+          "gloss": "not serious in content or attitude or behavior",
+          "charge": -1,
+          "tone": "The family's plain term and its widest, attaching to content, attitude or behaviour alike without the picture of a hollow head that the compounds beside it supply."
+        },
+        {
+          "word": "airheaded",
+          "gloss": "lacking seriousness; given to frivolity",
+          "charge": -2,
+          "tone": "Blunt mockery that explains the unseriousness by putting air where the thinking should be, where *frivolous* just reports the lack."
+        },
+        {
+          "word": "dizzy",
+          "gloss": "lacking seriousness; given to frivolity",
+          "charge": -1,
+          "tone": "Whirl rather than vacancy, the lightest hit in the group and closer to teasing than to the contempt in *empty-headed*."
+        },
+        {
+          "word": "empty-headed",
+          "gloss": "lacking seriousness; given to frivolity",
+          "charge": -2,
+          "tone": "The flattest insult in the set: it does not merely find the person unserious but asserts there is nothing inside to be serious with."
+        },
+        {
+          "word": "featherbrained",
+          "gloss": "lacking seriousness; given to frivolity",
+          "charge": -2,
+          "tone": "Mockery by weighing the brain, making the frivolity ridiculous rather than merely noting it as *silly* does."
+        },
+        {
+          "word": "giddy",
+          "gloss": "lacking seriousness; given to frivolity",
+          "charge": -1,
+          "tone": "Lightness with a lift to it, the unseriousness felt as high spirits, so it stings far less than *empty-headed*."
+        },
+        {
+          "word": "light-headed",
+          "gloss": "lacking seriousness; given to frivolity",
+          "charge": -1,
+          "tone": "The same charge as *giddy* stated as a property of the head rather than a mood, and a light head is still not the vacant one *empty-headed* alleges."
+        },
+        {
+          "word": "lightheaded",
+          "gloss": "lacking seriousness; given to frivolity",
+          "charge": -1,
+          "tone": "The unhyphenated twin of *light-headed*, identical in force: a light head, not an empty one."
+        },
+        {
+          "word": "silly",
+          "gloss": "lacking seriousness; given to frivolity",
+          "charge": -1,
+          "tone": "The plainest and most forgiving word for the fault, naming the frivolity without a metaphor for the head and leaving room for fondness that *airheaded* forecloses."
+        },
+        {
+          "word": "flighty",
+          "gloss": "guided by whim and fancy",
+          "charge": -2,
+          "tone": "Whim read as unreliability, so it warns about conduct where *head-in-the-clouds* only pictures a drift."
+        },
+        {
+          "word": "flyaway",
+          "gloss": "guided by whim and fancy",
+          "charge": -1,
+          "tone": "The lightest reading of a life run by whim and fancy: loose and ungoverned rather than a fault to be answered for."
+        },
+        {
+          "word": "head-in-the-clouds",
+          "gloss": "guided by whim and fancy",
+          "charge": -1,
+          "tone": "Indulgent almost to fondness, the whim and fancy carrying the person off rather than damning them, unlike *scatterbrained*'s charge of disorder."
+        },
+        {
+          "word": "scatterbrained",
+          "gloss": "guided by whim and fancy",
+          "charge": -2,
+          "tone": "Whim as scatter: the fault is that attention will not hold together, which *flighty* leaves as mere changeability."
+        },
+        {
+          "word": "flippant",
+          "gloss": "showing inappropriate levity",
+          "charge": -2,
+          "tone": "The verdict is built in, the levity being out of place, so the word rebukes a manner rather than diagnosing a mind as *empty-headed* does."
+        },
+        {
+          "word": "light-minded",
+          "gloss": "showing inappropriate levity",
+          "charge": -1,
+          "tone": "The measured version of *flippant*'s fault, locating the misplaced levity in a cast of mind instead of throwing it back at the offender."
+        },
+        {
+          "word": "idle",
+          "gloss": "silly or trivial",
+          "charge": -1,
+          "tone": "It runs to two things at once, the silly and the trivial, so the dismissal is as much about weightlessness as about foolishness."
+        }
+      ]
+    },
+    {
+      "shard": "annotated-014.json",
+      "family": "family-01673111-a",
+      "axis": "merely unmethodical → snarled into total wreckage",
+      "end_claimed": "mild",
+      "colliding": [
+        {
+          "word": "disordered",
+          "gloss": "thrown into a state of disarray or confusion",
+          "charge": -1,
+          "tone": "The flattest of these - it records that order has given way to disarray and stops there, where *broken* wants you to feel the blow."
+        },
+        {
+          "word": "unmethodical",
+          "gloss": "not efficient or methodical",
+          "charge": -1,
+          "tone": "The coolest reproach here - it faults the missing method and the inefficiency that comes with it, and pictures no wreckage at all."
+        }
+      ],
+      "whole_family": [
+        {
+          "word": "disorganized",
+          "gloss": "lacking order or methodical arrangement or function",
+          "charge": -1,
+          "tone": "The family's plain statement of the fault - order, methodical arrangement and working function all simply absent, with none of the wreckage *chaotic* pictures."
+        },
+        {
+          "word": "disorganised",
+          "gloss": "lacking order or methodical arrangement or function",
+          "charge": -1,
+          "tone": "Carries exactly the force of *disorganized*; the spelling is the whole of the difference."
+        },
+        {
+          "word": "broken",
+          "gloss": "thrown into a state of disarray or confusion",
+          "charge": -2,
+          "tone": "Of a thing thrown into disarray rather than snapped in two - the confusion reads as damage done to it, not merely order gone missing."
+        },
+        {
+          "word": "confused",
+          "gloss": "thrown into a state of disarray or confusion",
+          "charge": -1,
+          "tone": "Puts the muddle in the thing itself rather than in anyone's head - it is the arrangement that is tangled, not a mind."
+        },
+        {
+          "word": "disordered",
+          "gloss": "thrown into a state of disarray or confusion",
+          "charge": -1,
+          "tone": "The flattest of these - it records that order has given way to disarray and stops there, where *broken* wants you to feel the blow."
+        },
+        {
+          "word": "upset",
+          "gloss": "thrown into a state of disarray or confusion",
+          "charge": -1,
+          "tone": "Pictures the disarray as a tipping-over: the arrangement knocked out of place rather than destroyed, and the upheaval still fresh."
+        },
+        {
+          "word": "chaotic",
+          "gloss": "lacking a visible order or organization",
+          "charge": -2,
+          "tone": "Sharpens the charge into a spectacle - not a trace of order or organization to be seen, where *disorganized* merely notes the lack."
+        },
+        {
+          "word": "helter-skelter",
+          "gloss": "lacking a visible order or organization",
+          "charge": -1,
+          "tone": "Its jingling shape makes the same invisible order sound hectic and headlong, far lighter in judgement than *chaotic*."
+        },
+        {
+          "word": "fucked-up",
+          "gloss": "snarled or stalled in complete confusion",
+          "charge": -3,
+          "tone": "Coarse and total - a snarl or dead stop treated as a botch someone is answerable for, the harshest word in the family."
+        },
+        {
+          "word": "snafu",
+          "gloss": "snarled or stalled in complete confusion",
+          "charge": -2,
+          "tone": "Names the same total snarl-up or standstill with a clipped, almost breezy label - rueful where *fucked-up* is furious."
+        },
+        {
+          "word": "scrambled",
+          "gloss": "thrown together in a disorderly fashion",
+          "charge": -1,
+          "tone": "Faults the making rather than the thing: pieces flung together in haste, so the disorder sits in how it was put together."
+        },
+        {
+          "word": "unmethodical",
+          "gloss": "not efficient or methodical",
+          "charge": -1,
+          "tone": "The coolest reproach here - it faults the missing method and the inefficiency that comes with it, and pictures no wreckage at all."
+        },
+        {
+          "word": "unstuck",
+          "gloss": "thrown into a state of disorganization or incoherence",
+          "charge": -2,
+          "tone": "Pictures the collapse as a coming-apart - what was holding gives way, and the disorganization or incoherence follows from that."
+        },
+        {
+          "word": "undone",
+          "gloss": "thrown into a state of disorganization or incoherence",
+          "charge": -2,
+          "tone": "Sounds the same collapse as an unmaking, graver and more final than *unstuck* - the thing not merely loosened but ruined."
+        }
+      ]
+    },
+    {
+      "shard": "annotated-015.json",
+      "family": "family-02580838-a",
+      "axis": "absurdity that draws open contempt → light, laughable foolishness",
+      "end_claimed": "mild",
+      "colliding": [
+        {
+          "word": "laughable",
+          "gloss": "so unreasonable as to invite derision",
+          "charge": -2,
+          "tone": "The lightest verdict here, since the derision it invites is a laugh, which can diminish a thing more thoroughly than an attack on it."
+        },
+        {
+          "word": "silly",
+          "gloss": "ludicrous, foolish",
+          "charge": -1,
+          "tone": "The gentlest word here, foolish and ludicrous at a scale too small to be worth condemning."
+        }
+      ],
+      "whole_family": [
+        {
+          "word": "foolish",
+          "gloss": "devoid of good sense or judgment",
+          "charge": -2,
+          "tone": "The plain, unadorned charge that good sense or judgement is simply absent, with none of the mockery *ridiculous* invites."
+        },
+        {
+          "word": "absurd",
+          "gloss": "so unreasonable as to invite derision",
+          "charge": -2,
+          "tone": "Puts the unreasonableness first and lets the derision follow as a verdict, where *laughable* starts from the laugh."
+        },
+        {
+          "word": "cockeyed",
+          "gloss": "so unreasonable as to invite derision",
+          "charge": -2,
+          "tone": "Informal and offhand, treating the thing as skewed out of true and waving it away rather than arguing with it."
+        },
+        {
+          "word": "derisory",
+          "gloss": "so unreasonable as to invite derision",
+          "charge": -3,
+          "tone": "Carries the scorn in its own body: the thing is not merely open to derision but fit for nothing else."
+        },
+        {
+          "word": "idiotic",
+          "gloss": "so unreasonable as to invite derision",
+          "charge": -3,
+          "tone": "Hits hardest of these, aiming the derision squarely at whoever produced the thing rather than at the thing itself."
+        },
+        {
+          "word": "laughable",
+          "gloss": "so unreasonable as to invite derision",
+          "charge": -2,
+          "tone": "The lightest verdict here, since the derision it invites is a laugh, which can diminish a thing more thoroughly than an attack on it."
+        },
+        {
+          "word": "ludicrous",
+          "gloss": "so unreasonable as to invite derision",
+          "charge": -3,
+          "tone": "Theatrical, full-blown absurdity, grander than *laughable* and past the point where argument is possible."
+        },
+        {
+          "word": "nonsensical",
+          "gloss": "so unreasonable as to invite derision",
+          "charge": -2,
+          "tone": "Locates the failure in the sense itself, so nothing coherent is left to answer, where *absurd* still concedes a shape to reject."
+        },
+        {
+          "word": "preposterous",
+          "gloss": "so unreasonable as to invite derision",
+          "charge": -3,
+          "tone": "Formal and indignant, repudiating the absurdity out loud rather than merely laughing at it as *laughable* does."
+        },
+        {
+          "word": "ridiculous",
+          "gloss": "so unreasonable as to invite derision",
+          "charge": -2,
+          "tone": "Blunt and immediate, the derision arriving without the argument *absurd* implies."
+        },
+        {
+          "word": "mindless",
+          "gloss": "devoid of intelligence or thought",
+          "charge": -2,
+          "tone": "Nothing at all stands behind it, neither intelligence nor thought, a flatter and heavier charge than *foolish*'s bad judgement."
+        },
+        {
+          "word": "vacuous",
+          "gloss": "devoid of intelligence or thought",
+          "charge": -3,
+          "tone": "Formal and colder than *mindless*, treating the absence of intelligence or thought as a settled quality of the thing."
+        },
+        {
+          "word": "vacant",
+          "gloss": "devoid of intelligence or thought",
+          "charge": -2,
+          "tone": "Names the emptiness as blankness rather than stupidity, the intelligence and thought simply not in evidence."
+        },
+        {
+          "word": "goofy",
+          "gloss": "ludicrous, foolish",
+          "charge": -1,
+          "tone": "Almost fond, taking the foolishness as entertainment rather than a fault, a long way from *idiotic*."
+        },
+        {
+          "word": "silly",
+          "gloss": "ludicrous, foolish",
+          "charge": -1,
+          "tone": "The gentlest word here, foolish and ludicrous at a scale too small to be worth condemning."
+        },
+        {
+          "word": "wacky",
+          "gloss": "ludicrous, foolish",
+          "charge": -1,
+          "tone": "Foolishness with energy behind it, off-kilter and lively where *silly* is merely slight."
+        }
+      ]
+    },
+    {
+      "shard": "annotated-016.json",
+      "family": "family-01692724-a",
+      "axis": "staleness held in contempt → plain absence of freshness",
+      "end_claimed": "mild",
+      "colliding": [
+        {
+          "word": "stock",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "The flattest word here - it files the endless repetition almost as a category rather than a fault, with none of the disgust in *trite*."
+        },
+        {
+          "word": "well-worn",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "The gentlest of the group: the wear is admitted and half forgiven, where *threadbare* would call it ruin."
+        }
+      ],
+      "whole_family": [
+        {
+          "word": "unoriginal",
+          "gloss": "not original; not being or productive of something fresh and unusual",
+          "charge": -1,
+          "tone": "The flat statement of the fault - nothing fresh in the thing and nothing fresh coming out of it - delivered without the scorn *trite* carries."
+        },
+        {
+          "word": "banal",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "Dismissal rather than description: the repetition has emptied the thing out, where *commonplace* only notes that it has been met before."
+        },
+        {
+          "word": "commonplace",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "Puts the fault in ordinariness rather than in damage - the thing is met everywhere rather than worn thin, which is what *threadbare* and *shopworn* make of the same overuse."
+        },
+        {
+          "word": "hackneyed",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "A formal-sounding verdict that the thing has been run into the ground, heavier and more deliberate than *tired*."
+        },
+        {
+          "word": "old-hat",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "Informal and offhand: it shrugs at how familiar the thing has become instead of condemning it the way *banal* does."
+        },
+        {
+          "word": "shopworn",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "The overuse leaves a mark, as though the thing had been handled until the shine came off it - grubbier than *well-worn*."
+        },
+        {
+          "word": "stock",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "The flattest word here - it files the endless repetition almost as a category rather than a fault, with none of the disgust in *trite*."
+        },
+        {
+          "word": "threadbare",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "The wear has gone all the way through: the thing still holds its shape but has nothing left in it, harsher than *well-worn*."
+        },
+        {
+          "word": "timeworn",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "Lays the wearing at time's door rather than at any user's: the overuse registers as accumulated age, not as the running-into-the-ground that *hackneyed* convicts someone of."
+        },
+        {
+          "word": "tired",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "Blunt and plain: the thing has simply gone slack from repetition, a flatter judgement than the arch *bromidic*."
+        },
+        {
+          "word": "trite",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -3,
+          "tone": "The hardest word in the family - it does not merely note the overuse, it writes the thing off as worthless for it."
+        },
+        {
+          "word": "well-worn",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "The gentlest of the group: the wear is admitted and half forgiven, where *threadbare* would call it ruin."
+        },
+        {
+          "word": "bromidic",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "Keeps a straight face while it convicts - dull, wearying and puffed up with significance, all named at once, where *corny* simply laughs."
+        },
+        {
+          "word": "corny",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "Informal and mocking: both the dullness and the airs come off as laughable, lighter on its feet than *platitudinous*."
+        },
+        {
+          "word": "platitudinal",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "The drier of the pair - it names the tiresome self-importance almost clinically, without the heavy roll of *platitudinous*."
+        },
+        {
+          "word": "platitudinous",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "A weightier, more sonorous word than *platitudinal*, and its own bulk is part of the mockery: dullness dressed up and then shown up."
+        }
+      ]
+    },
+    {
+      "shard": "annotated-016.json",
+      "family": "family-01192305-a",
+      "axis": "wearing enough to tire → weighing down hard enough to smother",
+      "end_claimed": "mild",
+      "colliding": [
+        {
+          "word": "perturbing",
+          "gloss": "causing distress or worry or anxiety",
+          "charge": -1,
+          "tone": "The mildest and most formal here, ruffling the mind where *disturbing* unseats it."
+        },
+        {
+          "word": "weighted",
+          "gloss": "made heavy or weighted down with weariness",
+          "charge": -1,
+          "tone": "The flattest member, recording that the weight has been put on without making the weariness of it felt as *leaden* does."
+        }
+      ],
+      "whole_family": [
+        {
+          "word": "heavy",
+          "gloss": "marked by great psychological weight; weighted down especially with sadness or troubles or",
+          "charge": -1,
+          "tone": "The plainest name for the condition itself, sadness or trouble felt as weight from inside, where *burdensome* describes the load from outside."
+        },
+        {
+          "word": "burdensome",
+          "gloss": "not easily borne; wearing",
+          "charge": -2,
+          "tone": "Puts the difficulty in the thing rather than the bearer: a load fixed on you that has to be carried, not merely a strain that tires."
+        },
+        {
+          "word": "onerous",
+          "gloss": "not easily borne; wearing",
+          "charge": -2,
+          "tone": "The formal member, and the heaviest-sounding of the three, where *taxing* keeps the same complaint everyday."
+        },
+        {
+          "word": "taxing",
+          "gloss": "not easily borne; wearing",
+          "charge": -1,
+          "tone": "Leans on the wearing half of the sense, draining strength steadily rather than crushing, the lightest of the three."
+        },
+        {
+          "word": "distressing",
+          "gloss": "causing distress or worry or anxiety",
+          "charge": -2,
+          "tone": "The plain, full-strength member of the group, naming real hurt and not merely unease."
+        },
+        {
+          "word": "distressful",
+          "gloss": "causing distress or worry or anxiety",
+          "charge": -2,
+          "tone": "The stiffer, more formal shape of *distressing*, with the same weight of hurt behind it."
+        },
+        {
+          "word": "disturbing",
+          "gloss": "causing distress or worry or anxiety",
+          "charge": -2,
+          "tone": "Aimed at composure rather than comfort, it unsettles and goes on unsettling, where *distressing* simply hurts."
+        },
+        {
+          "word": "perturbing",
+          "gloss": "causing distress or worry or anxiety",
+          "charge": -1,
+          "tone": "The mildest and most formal here, ruffling the mind where *disturbing* unseats it."
+        },
+        {
+          "word": "troubling",
+          "gloss": "causing distress or worry or anxiety",
+          "charge": -2,
+          "tone": "Quiet and persistent, a worry that nags at you instead of striking, understated beside *distressing*."
+        },
+        {
+          "word": "worrisome",
+          "gloss": "causing distress or worry or anxiety",
+          "charge": -2,
+          "tone": "Treats the power to cause anxiety as a standing property of the thing, where *worrying* reports what it is doing now."
+        },
+        {
+          "word": "worrying",
+          "gloss": "causing distress or worry or anxiety",
+          "charge": -2,
+          "tone": "Keeps to the worry-and-anxiety end of the sense, unease rather than the hurt *distressing* names."
+        },
+        {
+          "word": "leaden",
+          "gloss": "made heavy or weighted down with weariness",
+          "charge": -2,
+          "tone": "The most physical word in the family, heaviness and weariness fused into dead metal, dull and unliftable."
+        },
+        {
+          "word": "weighted",
+          "gloss": "made heavy or weighted down with weariness",
+          "charge": -1,
+          "tone": "The flattest member, recording that the weight has been put on without making the weariness of it felt as *leaden* does."
+        },
+        {
+          "word": "oppressive",
+          "gloss": "weighing heavily on the senses or spirit",
+          "charge": -3,
+          "tone": "The strongest weight here, pressing on the senses as much as on the spirit and leaving no room to breathe."
+        },
+        {
+          "word": "weighty",
+          "gloss": "weighing heavily on the spirit; causing anxiety or worry",
+          "charge": -2,
+          "tone": "Grave rather than smothering, the weight registering as anxiety carried, where *oppressive* closes in."
+        }
+      ]
+    },
+    {
+      "shard": "annotated-016.json",
+      "family": "family-00365559-a",
+      "axis": "cheer merely absent → gloom that presses hard",
+      "end_claimed": "mild",
+      "colliding": [
+        {
+          "word": "uncheerful",
+          "gloss": "causing sad feelings of gloom and inadequacy",
+          "charge": -1,
+          "tone": "The flattest of these, a bare negation registering the missing cheer without the settled bleakness *cheerless* carries."
+        },
+        {
+          "word": "blue",
+          "gloss": "causing dejection",
+          "charge": -1,
+          "tone": "The gentlest here, casting a low mood rather than a heavy one, nowhere near the weight of *dismal*."
+        }
+      ],
+      "whole_family": [
+        {
+          "word": "depressing",
+          "gloss": "causing sad feelings of gloom and inadequacy",
+          "charge": -2,
+          "tone": "Blunt and unhedged, it names the effect on the person outright, reaching self-regard as well as mood where *cheerless* only reports what is missing."
+        },
+        {
+          "word": "cheerless",
+          "gloss": "causing sad feelings of gloom and inadequacy",
+          "charge": -2,
+          "tone": "Works by absence — nothing here to lift anyone — so it sinks the spirits without ever accusing the thing of anything."
+        },
+        {
+          "word": "uncheerful",
+          "gloss": "causing sad feelings of gloom and inadequacy",
+          "charge": -1,
+          "tone": "The flattest of these, a bare negation registering the missing cheer without the settled bleakness *cheerless* carries."
+        },
+        {
+          "word": "blue",
+          "gloss": "causing dejection",
+          "charge": -1,
+          "tone": "The gentlest here, casting a low mood rather than a heavy one, nowhere near the weight of *dismal*."
+        },
+        {
+          "word": "dark",
+          "gloss": "causing dejection",
+          "charge": -2,
+          "tone": "The dejection is cast over a thing rather than sitting inside it — a shadow, where *dreary* is a long dull stretch."
+        },
+        {
+          "word": "dingy",
+          "gloss": "causing dejection",
+          "charge": -2,
+          "tone": "Dispirits in a small, unfreshened way, too minor for the sweep of *dismal* but enough to flatten a mood."
+        },
+        {
+          "word": "disconsolate",
+          "gloss": "causing dejection",
+          "charge": -2,
+          "tone": "It marks a thing as past consoling, so the dejection comes with no way out of it, heavier in that than *gloomy*."
+        },
+        {
+          "word": "dismal",
+          "gloss": "causing dejection",
+          "charge": -3,
+          "tone": "A flat, sweeping verdict of bleakness that sinks the spirits harder than *gloomy* and leaves nothing to salvage."
+        },
+        {
+          "word": "gloomy",
+          "gloss": "causing dejection",
+          "charge": -2,
+          "tone": "The plain middle of the family, naming the dejection without heightening it, where *dismal* passes judgement on it."
+        },
+        {
+          "word": "grim",
+          "gloss": "causing dejection",
+          "charge": -3,
+          "tone": "The hardest here, the gloom it causes carrying an edge of harshness, where *dreary* only wears you down."
+        },
+        {
+          "word": "sorry",
+          "gloss": "causing dejection",
+          "charge": -2,
+          "tone": "Dejection mixed with contempt: what it names is not merely dispiriting but pitiable, which *gloomy* never implies."
+        },
+        {
+          "word": "drab",
+          "gloss": "causing dejection",
+          "charge": -2,
+          "tone": "Dejection by monotony — it flattens rather than darkens, dispiriting without the menace of *grim*."
+        },
+        {
+          "word": "drear",
+          "gloss": "causing dejection",
+          "charge": -2,
+          "tone": "Barer and more literary than *dreary*, the same gloom in a word with nothing spare left in it."
+        },
+        {
+          "word": "dreary",
+          "gloss": "causing dejection",
+          "charge": -2,
+          "tone": "Gloom that goes on and wearies, so where *dismal* can be a single verdict this one drags."
+        },
+        {
+          "word": "somber",
+          "gloss": "grave or even gloomy in character",
+          "charge": -1,
+          "tone": "Gravity first and gloom only at its far end, which lets it carry dignity in a way *dismal* cannot."
+        },
+        {
+          "word": "sombre",
+          "gloss": "grave or even gloomy in character",
+          "charge": -1,
+          "tone": "The British spelling and the same word entirely: grave in weight, gloomy only when pushed to its limit."
+        }
+      ]
+    }
+  ]
+}

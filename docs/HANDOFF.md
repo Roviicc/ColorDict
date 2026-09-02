@@ -5,7 +5,7 @@ mistake, in the order they happened. It is long on purpose. **This file is the
 entry point** — enough to understand what is being built, whether it is working,
 and what to do next, without reading the whole history first.
 
-Last updated after tick 5 / census 008.
+Last updated after tick 7 / census 010.
 
 ---
 
@@ -55,12 +55,20 @@ the rate since:
 | 005 | 281 | 0 | **withdrawn** | rubric had drifted; adversarial re-read found 2.5% |
 | 006 | 292 | 10 | 3.4% | first verbatim read |
 | 007 | 298 | 4 | 1.3% | authoring prompt changed — confounded |
-| 008 | 286 | 4 | **1.4%** | both instruments verbatim; first clean comparison |
+| 008 | 286 | 4 | 1.4% | both instruments verbatim; first clean comparison |
+| 009 | 287 | 6 | 2.1% | comparable |
+| 010 | 280 | 7 | **2.5%** | comparable; 2 of the 7 were an importer bug, not authoring |
 
-Threshold is 5%. **Read censuses 007 and 008 as the real number** (~1.3%) and
-treat 003–005 as produced by rulers nobody had checked.
+Threshold is 5%. **Read 007–010 as the real number** — a little under 2% across
+the four — and treat 003–005 as produced by rulers nobody had checked. At ~285
+senses a single fault is 0.35%, so the spread between those four is four faults.
 
-**Throughput is solved too.** Per tick: 92 → 178 → 281 → 292 → 286 senses, and
+**A census rate is a floor, not the error rate.** It measures what a blind reader
+catches. In tick 7 a new mechanical check found six more faults in the shard
+census 010 had just scored at 2.5% — faults that live *between* senses in a
+family, which a reader shown one card at a time structurally cannot see (11.80).
+
+**Throughput is solved too.** Per tick: 92 → 178 → 281 → 292 → 286 → 287 → 280 senses, and
 the jump from 178 came from diagnosing a bottleneck (the orchestrating session's
 context) rather than working harder.
 
@@ -113,8 +121,9 @@ plan, and treat the next tick as a new baseline.
 One unit of work, ~25 families / ~290 senses:
 
 1. `worklist_build.py` ranks and gates the queue → draw the top families
-2. **read the draw yourself** for §5.3 sensitive families — the regex screen is a
-   smoke alarm and has already missed one
+2. run `sensitive_screen.py` on the draw, then **read the draw yourself** for
+   §5.3 sensitive families — the screen is a smoke alarm that missed the real
+   family three ticks running before it was rewritten
 3. `family_worksheet.py` builds the annotation skeleton
 4. one author agent per family, each reading rubric + worksheet from disk and
    **writing its own JSON to disk** (never returning it through the orchestrator —
@@ -133,17 +142,17 @@ method problem, not a batch problem (§5.5).
 
 ## 4. Where the work actually stands
 
-**184 families · 2,219 annotated senses · 2,394 reviewed entries · 0 validation
+**227 families · 2,786 annotated senses · 2,963 reviewed entries · 0 validation
 errors.**
 
 | line | pool | done | queue | state |
 | --- | --- | --- | --- | --- |
-| **Adjective** | 6,826 families / 29,039 members | 184 families, 2,093 senses | **180 families / 2,828 members** | running, ~7 ticks left |
-| **Adverb** | 5,571 senses, 2,505 pertainym links | 379 senses | n/a | **self-feeding** — inherited free from adjectives |
+| **Adjective** | 6,826 families / 29,039 members | 227 families, 2,786 senses | **135 families / 2,116 members** | running, ~5 ticks left |
+| **Adverb** | 5,571 senses, 2,505 pertainym links | 489 senses | n/a | **self-feeding** — inherited free from adjectives |
 | **Verb** | 2,495 families / 31,811 members | 116 senses | **none built** | stalled |
 | **Noun** | 11,484 families / 129,506 members | 0 | 1,318 candidates, filter known bad | **deliberately closed** |
 
-The adverb line is the quiet win: **379 senses that nobody authored**, inherited
+The adverb line is the quiet win: **489 senses that nobody authored**, inherited
 through WordNet's pertainym links, growing automatically with every adjective
 tick. Nine adverbs sit on a deny list where their own gloss does not match the
 adjective sense they point at.
@@ -152,20 +161,19 @@ adjective sense they point at.
 
 ## 5. Next steps, in order
 
-**1. Push.** Seven commits are sitting on local `staging`. The sandbox has no git
+**1. Push.** Commits are sitting on local `staging`. The sandbox has no git
 credentials; a human has to push, or a credential path has to be set up.
 
-**2. Finish the adjective line — about seven more ticks.** Nothing blocks this.
+**2. Finish the adjective line — about five more ticks.** Nothing blocks this.
 Both instruments are verbatim, the gate is checked, the queue is ranked. Just run
 the tick loop above and stop if a tick goes over 5%.
 
-**3. Build `family-inconsistent` into `tone_lint.py`.** Discovered in census 008:
-a note that claims to be "the only admiring member here" while a sibling sits at
-+1 is wrong about its family, not about its gloss — and a solo reader cannot see
-it, because packets withhold the family id by design. It is mechanically
-checkable against siblings' charges with no model in the loop. Until it is built,
-**repair rounds should show each note together with its synset siblings**, which
-is what census 008's re-read did.
+**3. Two follow-ups from tick 7, both small.** `superlative-collision` only knows
+the mild and strong ends of a spectrum; *perturbing* failed a repair by claiming
+to be its family's *formal* member instead, which the rule cannot see. And the
+reader has now mistyped a synset id in two consecutive censuses — the aggregator
+catches it, but a packet that printed ids the reader copies rather than retypes
+would stop it happening.
 
 **4. Then verbs.** The verb line has 116 senses that rode along inside adjective
 shards and **no queue at all** — `worklist_build.py --pos v` has never been run.
@@ -205,5 +213,14 @@ timing decision, not a prerequisite.
   One repair in census 006 needed three attempts and failed a *different* fault
   class each time. Always re-read repairs blind, and warn the reader that repeated
   failure is not itself evidence of a fault.
-- **`tone_lint.py` is a smoke alarm, not a referee.** So is the 5.3 regex screen.
+- **`tone_lint.py` is a smoke alarm, not a referee.** So is `sensitive_screen.py`.
   Both produce false positives and both have missed real faults.
+- **The census rate is a floor.** It measures what a blind reader catches. Faults
+  that live between senses in a family are close to invisible to a reader shown
+  one card at a time — tick 7's linter found six such faults in a shard the
+  census had just scored at 2.5%.
+- **Examples belong to the synset, not the word.** The importer now keeps only
+  the examples that use a member's own lemma. If you touch `wordnet_import.py`,
+  do not undo that, and do not weaken `example_mentions` back to a substring
+  test — "pellucid prose" passed as an example of *lucid* for the whole project
+  until census 010 read it (11.80).

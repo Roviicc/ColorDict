@@ -1,0 +1,208 @@
+{
+  "packet": 1,
+  "note_to_reader": "These two notes have been edited twice and failed a blind read both times, on opposite faults - one drifted off its gloss, one claimed a position in its family that another word already holds. Read them harder, not softer, and note that repeated failure is not itself evidence of a fault. The other notes in the family are printed so positional claims can be checked.",
+  "senses": [
+    {
+      "id": "well-worn.oewn-01693210-s",
+      "word": "well-worn",
+      "definition": "repeated too often; overfamiliar through overuse",
+      "part_of_speech": "adjective",
+      "label": "negative",
+      "score": -0.333,
+      "tone": "Convicts the thing of mileage rather than damage - it has been taken up so many times that nothing in it can still surprise - a lighter charge than the ruin *threadbare* finds or the grubbiness *shopworn* sees.",
+      "usage_labels": [],
+      "examples": [],
+      "axis": "staleness held in contempt → plain absence of freshness",
+      "other_notes_in_this_family": [
+        {
+          "word": "unoriginal",
+          "gloss": "not original; not being or productive of something fresh and unusual",
+          "charge": -1,
+          "tone": "The flat statement of the fault - nothing fresh in the thing and nothing fresh coming out of it - delivered without the scorn *trite* carries."
+        },
+        {
+          "word": "banal",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "Dismissal rather than description: the repetition has emptied the thing out, where *commonplace* only notes that it has been met before."
+        },
+        {
+          "word": "commonplace",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "Puts the fault in ordinariness rather than in damage - the thing is met everywhere rather than worn thin, which is what *threadbare* and *shopworn* make of the same overuse."
+        },
+        {
+          "word": "hackneyed",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "A formal-sounding verdict that the thing has been run into the ground, heavier and more deliberate than *tired*."
+        },
+        {
+          "word": "old-hat",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "Informal and offhand: it shrugs at how familiar the thing has become instead of condemning it the way *banal* does."
+        },
+        {
+          "word": "shopworn",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "The overuse leaves a mark, as though the thing had been handled until the shine came off it - grubbier than *well-worn*."
+        },
+        {
+          "word": "stock",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "The flattest word here - it files the endless repetition almost as a category rather than a fault, with none of the disgust in *trite*."
+        },
+        {
+          "word": "threadbare",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "The wear has gone all the way through: the thing still holds its shape but has nothing left in it, harsher than *well-worn*."
+        },
+        {
+          "word": "timeworn",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -1,
+          "tone": "Lays the wearing at time's door rather than at any user's: the overuse registers as accumulated age, not as the running-into-the-ground that *hackneyed* convicts someone of."
+        },
+        {
+          "word": "tired",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -2,
+          "tone": "Blunt and plain: the thing has simply gone slack from repetition, a flatter judgement than the arch *bromidic*."
+        },
+        {
+          "word": "trite",
+          "gloss": "repeated too often; overfamiliar through overuse",
+          "charge": -3,
+          "tone": "The hardest word in the family - it does not merely note the overuse, it writes the thing off as worthless for it."
+        },
+        {
+          "word": "bromidic",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "Keeps a straight face while it convicts - dull, wearying and puffed up with significance, all named at once, where *corny* simply laughs."
+        },
+        {
+          "word": "corny",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "Informal and mocking: both the dullness and the airs come off as laughable, lighter on its feet than *platitudinous*."
+        },
+        {
+          "word": "platitudinal",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "The drier of the pair - it names the tiresome self-importance almost clinically, without the heavy roll of *platitudinous*."
+        },
+        {
+          "word": "platitudinous",
+          "gloss": "dull and tiresome but with pretensions of significance or originality",
+          "charge": -2,
+          "tone": "A weightier, more sonorous word than *platitudinal*, and its own bulk is part of the mockery: dullness dressed up and then shown up."
+        }
+      ]
+    },
+    {
+      "id": "perturbing.oewn-01192929-s",
+      "word": "perturbing",
+      "definition": "causing distress or worry or anxiety",
+      "part_of_speech": "adjective",
+      "label": "negative",
+      "score": -0.333,
+      "tone": "Takes the trouble as agitation rather than dread - a settled mind stirred out of its even running - which makes it a lighter and more momentary thing than the unsettling *disturbing* keeps up.",
+      "usage_labels": [],
+      "examples": [],
+      "axis": "wearing enough to tire → weighing down hard enough to smother",
+      "other_notes_in_this_family": [
+        {
+          "word": "heavy",
+          "gloss": "marked by great psychological weight; weighted down especially with sadness or troubles or",
+          "charge": -1,
+          "tone": "The plainest name for the condition itself, sadness or trouble felt as weight from inside, where *burdensome* describes the load from outside."
+        },
+        {
+          "word": "burdensome",
+          "gloss": "not easily borne; wearing",
+          "charge": -2,
+          "tone": "Puts the difficulty in the thing rather than the bearer: a load fixed on you that has to be carried, not merely a strain that tires."
+        },
+        {
+          "word": "onerous",
+          "gloss": "not easily borne; wearing",
+          "charge": -2,
+          "tone": "The formal member, and the heaviest-sounding of the three, where *taxing* keeps the same complaint everyday."
+        },
+        {
+          "word": "taxing",
+          "gloss": "not easily borne; wearing",
+          "charge": -1,
+          "tone": "Leans on the wearing half of the sense, draining strength steadily rather than crushing, the lightest of the three."
+        },
+        {
+          "word": "distressing",
+          "gloss": "causing distress or worry or anxiety",
+          "charge": -2,
+          "tone": "The plain, full-strength member of the group, naming real hurt and not merely unease."
+        },
+        {
+          "word": "distressful",
+          "gloss": "causing distress or worry or anxiety",
+          "charge": -2,
+          "tone": "The stiffer, more formal shape of *distressing*, with the same weight of hurt behind it."
+        },
+        {
+          "word": "disturbing",
+          "gloss": "causing distress or worry or anxiety",
+          "charge": -2,
+          "tone": "Aimed at composure rather than comfort, it unsettles and goes on unsettling, where *distressing* simply hurts."
+        },
+        {
+          "word": "troubling",
+          "gloss": "causing distress or worry or anxiety",
+          "charge": -2,
+          "tone": "Quiet and persistent, a worry that nags at you instead of striking, understated beside *distressing*."
+        },
+        {
+          "word": "worrisome",
+          "gloss": "causing distress or worry or anxiety",
+          "charge": -2,
+          "tone": "Treats the power to cause anxiety as a standing property of the thing, where *worrying* reports what it is doing now."
+        },
+        {
+          "word": "worrying",
+          "gloss": "causing distress or worry or anxiety",
+          "charge": -2,
+          "tone": "Keeps to the worry-and-anxiety end of the sense, unease rather than the hurt *distressing* names."
+        },
+        {
+          "word": "leaden",
+          "gloss": "made heavy or weighted down with weariness",
+          "charge": -2,
+          "tone": "The most physical word in the family, heaviness and weariness fused into dead metal, dull and unliftable."
+        },
+        {
+          "word": "weighted",
+          "gloss": "made heavy or weighted down with weariness",
+          "charge": -1,
+          "tone": "The flattest member, recording that the weight has been put on without making the weariness of it felt as *leaden* does."
+        },
+        {
+          "word": "oppressive",
+          "gloss": "weighing heavily on the senses or spirit",
+          "charge": -3,
+          "tone": "The strongest weight here, pressing on the senses as much as on the spirit and leaving no room to breathe."
+        },
+        {
+          "word": "weighty",
+          "gloss": "weighing heavily on the spirit; causing anxiety or worry",
+          "charge": -2,
+          "tone": "Grave rather than smothering, the weight registering as anxiety carried, where *oppressive* closes in."
+        }
+      ]
+    }
+  ]
+}
