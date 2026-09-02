@@ -152,9 +152,9 @@ errors.**
 
 | line | pool | done | queue | state |
 | --- | --- | --- | --- | --- |
-| **Adjective** | 6,826 families / 29,039 members | 227 families, 2,786 senses | **135 families / 2,116 members** | running, ~5 ticks left |
+| **Adjective** | 5,911 candidate families | 227 families, 2,786 senses | **147 families / 2,434 members** | running, ~8 ticks left |
 | **Adverb** | 5,571 senses, 2,505 pertainym links | 489 senses | n/a | **self-feeding** — inherited free from adjectives |
-| **Verb** | 2,495 families / 31,811 members | 116 senses | **none built** | stalled |
+| **Verb** | 2,494 candidate families | 116 senses | **70 eligible / 937 members** | queue built; screening pending, ~3 ticks |
 | **Noun** | 11,484 families / 129,506 members | 0 | 1,318 candidates, filter known bad | **deliberately closed** |
 
 The adverb line is the quiet win: **489 senses that nobody authored**, inherited
@@ -190,12 +190,34 @@ the tick loop above and stop if a tick goes over 5%.
   the *hard* fault rather than keeping it. It is a rule change, so it needs its
   own backtest before it is kept.
 
-**4. Then verbs.** The verb line has 116 senses that rode along inside adjective
-shards and **no queue at all** — `worklist_build.py --pos v` has never been run.
-Verbs are not adjectives with different words: 12.8 members per family against
-the adjective 4.3, so §11.62's size and charge gates are **not transferable** and
-must be recalibrated against verb data. A screening pass comes before any
-authoring.
+**4. Then verbs — the queue now exists, and the gates transfer better than this
+file used to claim.** `worklist_build.py --pos v` had never been run; it takes
+nine seconds and `verb-families.json` had been built since 30 Aug. Measured:
+
+| | adjective | verb |
+| --- | --- | --- |
+| candidate families | 5,911 | 2,494 |
+| median size | 2 | 7 |
+| passes `size >= 8` | 17.0% | **48.2%** |
+| passes `charged >= 0.70` | 25.5% | **6.7%** |
+| passes both | 5.8% | 2.8% |
+| **eligible set: mean charged** | **0.87** | **0.87** |
+| eligible set: median size | 12.5 | 11.0 |
+
+The two gates **swap roles**. On adjectives size is the binding constraint; on
+verbs it is nearly free (verb families are far larger) and the charge fraction
+does the work. It does it well: the monster taxonomy families the size gate
+cannot touch — *change* at 725 members, *act* at 377, *travel* at 221 — carry
+charge fractions of 0.03–0.18 and are excluded on that alone. The two eligible
+sets come out at **the same mean charge fraction and nearly the same median
+size**, so the gates need no recalibration to produce a comparably-shaped draw.
+
+What has **not** changed: the charge fraction is still a weak proxy (caveat one),
+so a §11.75-style blind triage with controls is still the thing that decides
+whether these 70 are connotation families. **A screening pass comes before any
+authoring.** One practical note for the worksheet stage — five eligible verb
+families are larger than any adjective family ever authored (*knock* at 53,
+*fail* at 38), and a 53-member family is a lot to ask of one author agent.
 
 **5. Nouns stay closed until the screening filter is fixed.** `pneumonia` and
 `tranquilizer` score high because the **thing** is bad, not because the **word**
