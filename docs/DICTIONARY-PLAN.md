@@ -388,6 +388,7 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-09-02 | **Census 003: 1.1%.** Shard 9 read blind, complete population, 91/92 right. One `restriction` fault repaired and re-read clean by a third reader. `census_packets.py` now builds and keeps the reader inputs, so a census is reproducible from its inputs rather than only from its results. See 11.72 |
 | 2026-09-02 | **Tick 1: 17 families, 178 senses, 0.6% blind.** First shard authored by parallel `family-author` agents rather than one session writing serially. 0 lint flags, 1 `restriction` fault, repaired and re-read clean. The fan-out passes; the bottleneck it exposed is the orchestrator, not the authors. See 11.73 |
 | 2026-09-02 | **Tick 2: 25 families, 281 senses — and the ruler moved.** Authors wrote to disk instead of returning through the orchestrator, so a full-size tick fit in one session. The read came back 0.0%, and an adversarial re-read of 40 senses under the previous rubric found a fault it had passed. The 0.0% is withdrawn: tick 2 is under 5%, not more precisely known. See 11.74 |
+| 2026-09-02 | **The charge gate checked, and kept.** 30 families blind-triaged by two raters from different model families (27/30 agreement) against the hypothesis that the 0.70 threshold was too tight. It is not: the excluded 0.50-0.59 band scored 0.00. Gate unchanged; the hypothesis was wrong and the ~600 estimate in 11.6 is superseded. See 11.75 |
 
 **Current totals: 114 families, 1,343 annotated senses, 1,498 reviewed entries,
 0 validation errors. Measured error rates 3.8% / 1.1% / 0.6% (censuses 002, 003,
@@ -1334,6 +1335,88 @@ census that throws its inputs away cannot notice either.
 *deaf-mute*, and deciding which of those words demeans and which does not **is**
 the sensitive judgement — exactly the kind 5.3 reserves for a person. It was
 never auto-drafted.
+
+## 11.75 The charge gate, checked before spending fourteen ticks on it
+
+11.62 set eligibility at size >= 8 and charged >= 70%, and noted the gate passed
+340 families where 11.6 had estimated "~600 real families". With roughly
+fourteen ticks left, that gap was worth an hour before it was worth 4,000 senses.
+
+**The hypothesis was that the gate was too tight, and it was wrong.**
+
+The suspicion had a good starting point. Thirteen already-annotated families fail
+the gate on charge alone, and they are not marginal cases — *stupid* (0.55),
+*ugly* (0.62), *angry* (0.59), *fat* (0.23), *gluttonous* (0.21). Those are as
+close to archetypal connotation families as this corpus has. And 11.5 already
+records that **SentiWordNet is wrong at this resolution** and was demoted to a
+prior; building an eligibility gate on its labels looked like using a signal the
+project had already rejected.
+
+### The test
+
+Thirty families, size >= 8, drawn across the charge range: eight currently
+eligible, eight from 0.50-0.69, eight below 0.50, and six already-annotated
+families as controls. Head words, charge values and group labels withheld —
+raters saw only the member glosses and answered one question: **do these words
+differ mainly in force, or mainly in denotation?**
+
+Two raters from different model families, Fable 5.1 and Opus 5. They agreed on
+**27 of 30**, which is what makes the numbers below worth reading at all.
+
+| Band | n | mean connotation score |
+| --- | --- | --- |
+| charged >= 0.70 — eligible today | 8 | **0.62** |
+| charged 0.50-0.69 — excluded | 8 | 0.22 |
+| charged < 0.50 — excluded | 8 | 0.09 |
+| already annotated by hand — control | 6 | 0.58 |
+
+Correlation between the charge fraction and the triage verdict: **r = +0.51.**
+
+### What it says
+
+**The gate stays at 0.70.** Three things follow from the table:
+
+- The charge fraction is a real predictor, not noise. The bands separate
+  cleanly and monotonically.
+- Lowering the threshold would import taxonomy, not recover missed connotation.
+  The 0.50-0.59 band scored **0.00** — five sampled families, every one judged
+  taxonomy by both raters. Dropping to 0.50 would add 188 families of mostly the
+  wrong kind.
+- The gate selects families of the same quality as the hand-picked corpus, 0.62
+  against the controls' 0.58. It is doing what it was built to do.
+
+The thirteen annotated families that fail it are real misses, but they are
+exceptions, not evidence about their bands. A rule is not wrong because it has
+exceptions; it is wrong when the population it excludes looks like the
+population it admits, and here it plainly does not.
+
+**11.6's "~600 real families" was an estimate made before any measurement
+existed.** It is superseded by this one, and the gap it seemed to open was never
+real.
+
+### The finding that is not about the gate
+
+Five of the eight currently-eligible sampled families were judged taxonomy by
+both raters — *unfavorable*, *irrelevant*, *inaccurate*, *competitive*,
+*genuine*. That is a ~40% taxonomy rate **inside** the eligible pool, and the
+controls show the hand-picked corpus carries it too.
+
+This is not a threshold problem and no threshold fixes it: the charge fraction
+alone is simply a weak proxy for "these words differ in judgement". Antonym
+linkage cannot sharpen it either — all thirty sampled families carry an
+antonym-linked opposite, so the signal does not discriminate at size >= 8.
+
+Recorded and not scheduled. It costs roughly 40% of tick effort on families
+where there is little force to describe, which is a real price but a knowable
+one, and the alternative is a signal the corpus does not currently hold.
+
+### Why this is in the plan at all
+
+The check cost one round of triage and changed nothing. That is the point worth
+recording: **an hour spent confirming an instrument is not wasted when the
+alternative was fourteen ticks run against an unchecked one** — and the result
+that the hypothesis was wrong is exactly as useful as the result that it was
+right would have been.
 
 ## 11.71 The run plan — stages, and what stops each one
 

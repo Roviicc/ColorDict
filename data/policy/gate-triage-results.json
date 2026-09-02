@@ -1,0 +1,22 @@
+{
+ "question": "The charge gate passes 340 families where plan 11.6 expected ~600. Is it too tight?",
+ "method": "30 adjective families, size >= 8, drawn across the charge range plus 6 already-annotated controls. Head words, charge values and group labels withheld; raters saw member glosses only and judged connotation-family vs taxonomy. Two raters, different model families (Fable 5.1 and Opus 5), agreed on 27 of 30.",
+ "answer": "NO. The gate stays at 0.70. The hypothesis that prompted this check was wrong.",
+ "by_band": {
+  "charged >= 0.70 (eligible today)": {"n": 8, "mean_connotation_score": 0.62},
+  "charged 0.50-0.69 (excluded)": {"n": 8, "mean_connotation_score": 0.22},
+  "charged < 0.50 (excluded)": {"n": 8, "mean_connotation_score": 0.09},
+  "already annotated by hand (control)": {"n": 6, "mean_connotation_score": 0.58}
+ },
+ "correlation_charge_vs_verdict": 0.51,
+ "findings": [
+  "The SentiWordNet charge fraction is a real predictor, not noise: r = +0.51, and the bands separate cleanly (0.62 / 0.22 / 0.09).",
+  "Lowering the threshold would import taxonomy, not missed connotation. The 0.50-0.59 band scored 0.00 across five sampled families - every one judged taxonomy by both raters.",
+  "The gate selects families of the same quality as the hand-picked corpus: 0.62 against the controls' 0.58. It is doing the job it was built for.",
+  "The gate is nonetheless weak in absolute terms. Five of eight currently-eligible sampled families were judged taxonomy by both raters - unfavorable, irrelevant, inaccurate, competitive, genuine. Roughly 40% of tick effort goes to families with little connotation to describe, and that is true of the hand-picked corpus too.",
+  "Antonym linkage cannot sharpen the gate: all 30 sampled families carry an antonym-linked opposite, so the signal does not discriminate among size >= 8 families.",
+  "The 13 annotated families that fail the gate (stupid 0.55, ugly 0.62, angry 0.59, fat 0.23, gluttonous 0.21) are real misses, but they are exceptions rather than representative of their bands. Their existence does not justify lowering the threshold, since the bands they sit in are dominated by taxonomy."
+ ],
+ "decision": "MIN_CHARGED_PCT stays 0.70 and MIN_SIZE stays 8. No change to the worklist. The ~600 figure in 11.6 was an estimate made before any measurement existed and is superseded by this one.",
+ "open": "The ~40% taxonomy rate inside the eligible pool is a real cost and is not a threshold problem - the charge fraction alone is a weak proxy. A sharper signal would need something the corpus does not currently carry. Recorded, not scheduled."
+}

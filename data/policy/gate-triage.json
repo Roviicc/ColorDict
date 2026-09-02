@@ -1,0 +1,1671 @@
+{
+ "purpose": "test whether the SentiWordNet charged fraction predicts whether a family is a connotation family at all. Groups are hidden from the triager.",
+ "groups": {
+  "A_ge70": "currently eligible (charged >= 0.70)",
+  "B_50_69": "excluded, 0.50-0.69",
+  "C_lt50": "excluded, below 0.50",
+  "D_control": "already annotated by hand"
+ },
+ "cases": [
+  {
+   "_group": "C_lt50",
+   "_family_id": "oewn-02221616-a",
+   "_head": "single",
+   "_charged_pct": 0.18,
+   "_size": 17,
+   "members": [
+    {
+     "word": "single",
+     "gloss": "existing alone or consisting of one entity or part or aspect or individual"
+    },
+    {
+     "word": "azygous",
+     "gloss": "occurring singly; not one of a pair"
+    },
+    {
+     "word": "azygos",
+     "gloss": "occurring singly; not one of a pair"
+    },
+    {
+     "word": "one-man",
+     "gloss": "designed for or restricted to a single person"
+    },
+    {
+     "word": "one-person",
+     "gloss": "designed for or restricted to a single person"
+    },
+    {
+     "word": "one-woman",
+     "gloss": "designed for or restricted to a single person"
+    },
+    {
+     "word": "lone",
+     "gloss": "being the only one; single and isolated from others"
+    },
+    {
+     "word": "lonesome",
+     "gloss": "being the only one; single and isolated from others"
+    },
+    {
+     "word": "only",
+     "gloss": "being the only one; single and isolated from others"
+    },
+    {
+     "word": "sole",
+     "gloss": "being the only one; single and isolated from others"
+    },
+    {
+     "word": "solitary",
+     "gloss": "being the only one; single and isolated from others"
+    },
+    {
+     "word": "singular",
+     "gloss": "the single one of its kind"
+    },
+    {
+     "word": "unique",
+     "gloss": "the single one of its kind"
+    },
+    {
+     "word": "sui generis",
+     "gloss": "constituting a class of its own; unique"
+    }
+   ],
+   "case": 1
+  },
+  {
+   "_group": "A_ge70",
+   "_family_id": "oewn-01814087-a",
+   "_head": "displeasing",
+   "_charged_pct": 1.0,
+   "_size": 8,
+   "members": [
+    {
+     "word": "displeasing",
+     "gloss": "causing displeasure or lacking pleasing qualities"
+    },
+    {
+     "word": "disconcerting",
+     "gloss": "causing an emotional disturbance"
+    },
+    {
+     "word": "upsetting",
+     "gloss": "causing an emotional disturbance"
+    },
+    {
+     "word": "exasperating",
+     "gloss": "extremely annoying or displeasing"
+    },
+    {
+     "word": "infuriating",
+     "gloss": "extremely annoying or displeasing"
+    },
+    {
+     "word": "maddening",
+     "gloss": "extremely annoying or displeasing"
+    },
+    {
+     "word": "vexing",
+     "gloss": "extremely annoying or displeasing"
+    },
+    {
+     "word": "off-putting",
+     "gloss": "causing annoyance or repugnance"
+    }
+   ],
+   "case": 2
+  },
+  {
+   "_group": "B_50_69",
+   "_family_id": "oewn-00061521-a",
+   "_head": "adroit",
+   "_charged_pct": 0.53,
+   "_size": 15,
+   "members": [
+    {
+     "word": "adroit",
+     "gloss": "quick or skillful or adept in action or thought"
+    },
+    {
+     "word": "clean",
+     "gloss": "free from clumsiness; precisely or deftly executed"
+    },
+    {
+     "word": "neat",
+     "gloss": "free from clumsiness; precisely or deftly executed"
+    },
+    {
+     "word": "clever",
+     "gloss": "showing inventiveness and skill"
+    },
+    {
+     "word": "cunning",
+     "gloss": "showing inventiveness and skill"
+    },
+    {
+     "word": "ingenious",
+     "gloss": "showing inventiveness and skill"
+    },
+    {
+     "word": "coordinated",
+     "gloss": "being dexterous in the use of more than one set of muscle movements"
+    },
+    {
+     "word": "co-ordinated",
+     "gloss": "being dexterous in the use of more than one set of muscle movements"
+    },
+    {
+     "word": "deft",
+     "gloss": "skillful in physical movements; especially of the hands"
+    },
+    {
+     "word": "dexterous",
+     "gloss": "skillful in physical movements; especially of the hands"
+    },
+    {
+     "word": "dextrous",
+     "gloss": "skillful in physical movements; especially of the hands"
+    },
+    {
+     "word": "handy",
+     "gloss": "skillful with the hands"
+    },
+    {
+     "word": "light-fingered",
+     "gloss": "having nimble fingers literally or figuratively; especially for stealing or picking pockets"
+    },
+    {
+     "word": "nimble-fingered",
+     "gloss": "having nimble fingers literally or figuratively; especially for stealing or picking pockets"
+    }
+   ],
+   "case": 3
+  },
+  {
+   "_group": "C_lt50",
+   "_family_id": "oewn-02571278-a",
+   "_head": "wide",
+   "_charged_pct": 0.1,
+   "_size": 10,
+   "members": [
+    {
+     "word": "wide",
+     "gloss": "having great (or a certain) extent from one side to the other"
+    },
+    {
+     "word": "broad",
+     "gloss": "having great (or a certain) extent from one side to the other"
+    },
+    {
+     "word": "beamy",
+     "gloss": "broad in the beam"
+    },
+    {
+     "word": "bird's-eye",
+     "gloss": "as from an altitude or distance"
+    },
+    {
+     "word": "panoramic",
+     "gloss": "as from an altitude or distance"
+    },
+    {
+     "word": "broad-brimmed",
+     "gloss": "(of hats) having a broad brim"
+    },
+    {
+     "word": "deep",
+     "gloss": "extending relatively far inward"
+    },
+    {
+     "word": "fanlike",
+     "gloss": "resembling a fan"
+    },
+    {
+     "word": "sweeping",
+     "gloss": "taking in or moving over (or as if over) a wide area; often used in combination"
+    },
+    {
+     "word": "wide-screen",
+     "gloss": "(motion pictures) projected on a screen with much greater width than height"
+    }
+   ],
+   "case": 4
+  },
+  {
+   "_group": "A_ge70",
+   "_family_id": "oewn-01806732-a",
+   "_head": "unpleasant",
+   "_charged_pct": 0.86,
+   "_size": 36,
+   "members": [
+    {
+     "word": "unpleasant",
+     "gloss": "offensive or disagreeable; causing discomfort or unhappiness"
+    },
+    {
+     "word": "acerb",
+     "gloss": "harsh or corrosive in tone"
+    },
+    {
+     "word": "acerbic",
+     "gloss": "harsh or corrosive in tone"
+    },
+    {
+     "word": "acid",
+     "gloss": "harsh or corrosive in tone"
+    },
+    {
+     "word": "acrid",
+     "gloss": "harsh or corrosive in tone"
+    },
+    {
+     "word": "bitter",
+     "gloss": "harsh or corrosive in tone"
+    },
+    {
+     "word": "blistering",
+     "gloss": "harsh or corrosive in tone"
+    },
+    {
+     "word": "caustic",
+     "gloss": "harsh or corrosive in tone"
+    },
+    {
+     "word": "sulfurous",
+     "gloss": "harsh or corrosive in tone"
+    },
+    {
+     "word": "sulphurous",
+     "gloss": "harsh or corrosive in tone"
+    },
+    {
+     "word": "virulent",
+     "gloss": "harsh or corrosive in tone"
+    },
+    {
+     "word": "vitriolic",
+     "gloss": "harsh or corrosive in tone"
+    },
+    {
+     "word": "beastly",
+     "gloss": "(informal) very unpleasant"
+    },
+    {
+     "word": "hellish",
+     "gloss": "(informal) very unpleasant"
+    }
+   ],
+   "case": 5
+  },
+  {
+   "_group": "C_lt50",
+   "_family_id": "oewn-00731008-a",
+   "_head": "independent",
+   "_charged_pct": 0.3,
+   "_size": 22,
+   "members": [
+    {
+     "word": "independent",
+     "gloss": "free from external control and constraint"
+    },
+    {
+     "word": "autarkic",
+     "gloss": "of countries; not relying on imports"
+    },
+    {
+     "word": "autarkical",
+     "gloss": "of countries; not relying on imports"
+    },
+    {
+     "word": "autonomous",
+     "gloss": "(of persons) free from external control and constraint in e.g. action and judgment"
+    },
+    {
+     "word": "self-directed",
+     "gloss": "(of persons) free from external control and constraint in e.g. action and judgment"
+    },
+    {
+     "word": "self-reliant",
+     "gloss": "(of persons) free from external control and constraint in e.g. action and judgment"
+    },
+    {
+     "word": "breakaway",
+     "gloss": "having separated or advocating separation from another entity or policy or attitude"
+    },
+    {
+     "word": "fissiparous",
+     "gloss": "having separated or advocating separation from another entity or policy or attitude"
+    },
+    {
+     "word": "separatist",
+     "gloss": "having separated or advocating separation from another entity or policy or attitude"
+    },
+    {
+     "word": "commutative",
+     "gloss": "(of a binary operation) independent of order; as in e.g.: ‘a x b’ = ‘b x a’"
+    },
+    {
+     "word": "free-living",
+     "gloss": "not parasitic on another organism"
+    },
+    {
+     "word": "nonparasitic",
+     "gloss": "not parasitic on another organism"
+    },
+    {
+     "word": "nonsymbiotic",
+     "gloss": "not parasitic on another organism"
+    },
+    {
+     "word": "indie",
+     "gloss": "(of pop groups) not affiliated with a major recording company"
+    }
+   ],
+   "case": 6
+  },
+  {
+   "_group": "C_lt50",
+   "_family_id": "oewn-01642580-a",
+   "_head": "old",
+   "_charged_pct": 0.23,
+   "_size": 21,
+   "members": [
+    {
+     "word": "old",
+     "gloss": "of long duration; not new"
+    },
+    {
+     "word": "age-old",
+     "gloss": "belonging to or lasting from times long ago"
+    },
+    {
+     "word": "antique",
+     "gloss": "belonging to or lasting from times long ago"
+    },
+    {
+     "word": "antediluvian",
+     "gloss": "so extremely old as seeming to belong to an earlier period"
+    },
+    {
+     "word": "antiquated",
+     "gloss": "so extremely old as seeming to belong to an earlier period"
+    },
+    {
+     "word": "archaic",
+     "gloss": "so extremely old as seeming to belong to an earlier period"
+    },
+    {
+     "word": "auld",
+     "gloss": "a Scottish word"
+    },
+    {
+     "word": "hand-me-down",
+     "gloss": "passed on from one person to another"
+    },
+    {
+     "word": "hand-down",
+     "gloss": "passed on from one person to another"
+    },
+    {
+     "word": "hoary",
+     "gloss": "ancient"
+    },
+    {
+     "word": "rusty",
+     "gloss": "ancient"
+    },
+    {
+     "word": "immemorial",
+     "gloss": "long past; beyond the limits of memory or tradition or recorded history"
+    },
+    {
+     "word": "long-ago",
+     "gloss": "belonging to time long gone"
+    },
+    {
+     "word": "longtime",
+     "gloss": "having existed or persisted or continued in a particular role or state for a long time"
+    }
+   ],
+   "case": 7
+  },
+  {
+   "_group": "B_50_69",
+   "_family_id": "oewn-00929589-a",
+   "_head": "unexhausted",
+   "_charged_pct": 0.6,
+   "_size": 9,
+   "members": [
+    {
+     "word": "unexhausted",
+     "gloss": "not used up completely"
+    },
+    {
+     "word": "leftover",
+     "gloss": "not used up"
+    },
+    {
+     "word": "left over",
+     "gloss": "not used up"
+    },
+    {
+     "word": "left",
+     "gloss": "not used up"
+    },
+    {
+     "word": "odd",
+     "gloss": "not used up"
+    },
+    {
+     "word": "remaining",
+     "gloss": "not used up"
+    },
+    {
+     "word": "unexpended",
+     "gloss": "not used up"
+    },
+    {
+     "word": "unconsumed",
+     "gloss": "not consumed"
+    },
+    {
+     "word": "unspent",
+     "gloss": "(of financial resources) not spent"
+    }
+   ],
+   "case": 8
+  },
+  {
+   "_group": "D_control",
+   "_family_id": "oewn-02579686-a",
+   "_head": "wise",
+   "_charged_pct": 0.89,
+   "_size": 9,
+   "members": [
+    {
+     "word": "wise",
+     "gloss": "having or prompted by wisdom or discernment"
+    },
+    {
+     "word": "all-knowing",
+     "gloss": "infinitely wise"
+    },
+    {
+     "word": "omniscient",
+     "gloss": "infinitely wise"
+    },
+    {
+     "word": "perspicacious",
+     "gloss": "acutely insightful and wise"
+    },
+    {
+     "word": "sagacious",
+     "gloss": "acutely insightful and wise"
+    },
+    {
+     "word": "sapient",
+     "gloss": "acutely insightful and wise"
+    },
+    {
+     "word": "owlish",
+     "gloss": "resembling an owl; solemn and wise in appearance"
+    },
+    {
+     "word": "sapiential",
+     "gloss": "characterized by wisdom, especially the wisdom of God"
+    },
+    {
+     "word": "sage",
+     "gloss": "having wisdom that comes with age and experience"
+    }
+   ],
+   "case": 9
+  },
+  {
+   "_group": "B_50_69",
+   "_family_id": "oewn-00073656-a",
+   "_head": "affected",
+   "_charged_pct": 0.64,
+   "_size": 13,
+   "members": [
+    {
+     "word": "affected",
+     "gloss": "speaking or behaving in an artificial way to make an impression"
+    },
+    {
+     "word": "unnatural",
+     "gloss": "speaking or behaving in an artificial way to make an impression"
+    },
+    {
+     "word": "agonistic",
+     "gloss": "struggling for effect"
+    },
+    {
+     "word": "strained",
+     "gloss": "struggling for effect"
+    },
+    {
+     "word": "artificial",
+     "gloss": "artificially formal"
+    },
+    {
+     "word": "contrived",
+     "gloss": "artificially formal"
+    },
+    {
+     "word": "hokey",
+     "gloss": "artificially formal"
+    },
+    {
+     "word": "stilted",
+     "gloss": "artificially formal"
+    },
+    {
+     "word": "constrained",
+     "gloss": "lacking spontaneity; not natural"
+    },
+    {
+     "word": "forced",
+     "gloss": "lacking spontaneity; not natural"
+    },
+    {
+     "word": "elocutionary",
+     "gloss": "(used of style of speaking) overly embellished"
+    },
+    {
+     "word": "mannered",
+     "gloss": "having unnatural mannerisms"
+    },
+    {
+     "word": "plummy",
+     "gloss": "(of a voice) affectedly mellow and rich"
+    }
+   ],
+   "case": 10
+  },
+  {
+   "_group": "D_control",
+   "_family_id": "oewn-00991420-a",
+   "_head": "thin",
+   "_charged_pct": 0.7,
+   "_size": 57,
+   "members": [
+    {
+     "word": "thin",
+     "gloss": "lacking excess flesh"
+    },
+    {
+     "word": "lean",
+     "gloss": "lacking excess flesh"
+    },
+    {
+     "word": "anorexic",
+     "gloss": "suffering from anorexia nervosa; pathologically thin"
+    },
+    {
+     "word": "anorectic",
+     "gloss": "suffering from anorexia nervosa; pathologically thin"
+    },
+    {
+     "word": "cadaverous",
+     "gloss": "very thin especially from disease or hunger or cold"
+    },
+    {
+     "word": "emaciated",
+     "gloss": "very thin especially from disease or hunger or cold"
+    },
+    {
+     "word": "gaunt",
+     "gloss": "very thin especially from disease or hunger or cold"
+    },
+    {
+     "word": "haggard",
+     "gloss": "very thin especially from disease or hunger or cold"
+    },
+    {
+     "word": "pinched",
+     "gloss": "very thin especially from disease or hunger or cold"
+    },
+    {
+     "word": "skeletal",
+     "gloss": "very thin especially from disease or hunger or cold"
+    },
+    {
+     "word": "wasted",
+     "gloss": "very thin especially from disease or hunger or cold"
+    },
+    {
+     "word": "deep-eyed",
+     "gloss": "characteristic of the bony face of a cadaver"
+    },
+    {
+     "word": "hollow-eyed",
+     "gloss": "characteristic of the bony face of a cadaver"
+    },
+    {
+     "word": "sunken-eyed",
+     "gloss": "characteristic of the bony face of a cadaver"
+    }
+   ],
+   "case": 11
+  },
+  {
+   "_group": "B_50_69",
+   "_family_id": "oewn-00489640-a",
+   "_head": "uncommon",
+   "_charged_pct": 0.6,
+   "_size": 10,
+   "members": [
+    {
+     "word": "uncommon",
+     "gloss": "not common or ordinarily encountered; unusually great in amount or remarkable in character or kind"
+    },
+    {
+     "word": "especial",
+     "gloss": "surpassing what is common or usual or expected"
+    },
+    {
+     "word": "exceptional",
+     "gloss": "surpassing what is common or usual or expected"
+    },
+    {
+     "word": "particular",
+     "gloss": "surpassing what is common or usual or expected"
+    },
+    {
+     "word": "special",
+     "gloss": "surpassing what is common or usual or expected"
+    },
+    {
+     "word": "rare",
+     "gloss": "not widely known; especially valued for its uncommonness"
+    },
+    {
+     "word": "red carpet",
+     "gloss": "special treatment or hospitality"
+    },
+    {
+     "word": "red-carpet",
+     "gloss": "special treatment or hospitality"
+    },
+    {
+     "word": "unusual",
+     "gloss": "not commonly encountered"
+    },
+    {
+     "word": "unwonted",
+     "gloss": "unaccustomed or unusual"
+    }
+   ],
+   "case": 12
+  },
+  {
+   "_group": "B_50_69",
+   "_family_id": "oewn-00463344-a",
+   "_head": "cloudy",
+   "_charged_pct": 0.57,
+   "_size": 23,
+   "members": [
+    {
+     "word": "cloudy",
+     "gloss": "full of or covered with clouds"
+    },
+    {
+     "word": "brumous",
+     "gloss": "filled or abounding with fog or mist"
+    },
+    {
+     "word": "foggy",
+     "gloss": "filled or abounding with fog or mist"
+    },
+    {
+     "word": "hazy",
+     "gloss": "filled or abounding with fog or mist"
+    },
+    {
+     "word": "misty",
+     "gloss": "filled or abounding with fog or mist"
+    },
+    {
+     "word": "fogbound",
+     "gloss": "enveloped in fog"
+    },
+    {
+     "word": "cloud-covered",
+     "gloss": "filled or abounding with clouds"
+    },
+    {
+     "word": "clouded",
+     "gloss": "filled or abounding with clouds"
+    },
+    {
+     "word": "overcast",
+     "gloss": "filled or abounding with clouds"
+    },
+    {
+     "word": "sunless",
+     "gloss": "filled or abounding with clouds"
+    },
+    {
+     "word": "cloudlike",
+     "gloss": "resembling a cloud"
+    },
+    {
+     "word": "nebular",
+     "gloss": "resembling a cloud"
+    },
+    {
+     "word": "dull",
+     "gloss": "darkened with overcast"
+    },
+    {
+     "word": "leaden",
+     "gloss": "darkened with overcast"
+    }
+   ],
+   "case": 13
+  },
+  {
+   "_group": "D_control",
+   "_family_id": "oewn-01378100-a",
+   "_head": "known",
+   "_charged_pct": 0.8,
+   "_size": 15,
+   "members": [
+    {
+     "word": "known",
+     "gloss": "apprehended with certainty"
+    },
+    {
+     "word": "best-known",
+     "gloss": "most familiar or renowned"
+    },
+    {
+     "word": "better-known",
+     "gloss": "more familiar or renowned than the other of two"
+    },
+    {
+     "word": "celebrated",
+     "gloss": "widely known and esteemed"
+    },
+    {
+     "word": "famed",
+     "gloss": "widely known and esteemed"
+    },
+    {
+     "word": "far-famed",
+     "gloss": "widely known and esteemed"
+    },
+    {
+     "word": "famous",
+     "gloss": "widely known and esteemed"
+    },
+    {
+     "word": "illustrious",
+     "gloss": "widely known and esteemed"
+    },
+    {
+     "word": "notable",
+     "gloss": "widely known and esteemed"
+    },
+    {
+     "word": "noted",
+     "gloss": "widely known and esteemed"
+    },
+    {
+     "word": "renowned",
+     "gloss": "widely known and esteemed"
+    },
+    {
+     "word": "identified",
+     "gloss": "having the identity known or established"
+    },
+    {
+     "word": "legendary",
+     "gloss": "so celebrated as to having taken on the nature of a legend"
+    },
+    {
+     "word": "proverbial",
+     "gloss": "widely known and spoken of"
+    }
+   ],
+   "case": 14
+  },
+  {
+   "_group": "A_ge70",
+   "_family_id": "oewn-01983148-a",
+   "_head": "irrelevant",
+   "_charged_pct": 0.8,
+   "_size": 10,
+   "members": [
+    {
+     "word": "irrelevant",
+     "gloss": "having no bearing on or connection with the subject at issue"
+    },
+    {
+     "word": "digressive",
+     "gloss": "of superficial relevance if any"
+    },
+    {
+     "word": "tangential",
+     "gloss": "of superficial relevance if any"
+    },
+    {
+     "word": "extraneous",
+     "gloss": "not pertinent to the matter under consideration"
+    },
+    {
+     "word": "immaterial",
+     "gloss": "not pertinent to the matter under consideration"
+    },
+    {
+     "word": "impertinent",
+     "gloss": "not pertinent to the matter under consideration"
+    },
+    {
+     "word": "orthogonal",
+     "gloss": "not pertinent to the matter under consideration"
+    },
+    {
+     "word": "inapplicable",
+     "gloss": "not capable of being applied"
+    },
+    {
+     "word": "unsuitable",
+     "gloss": "not capable of being applied"
+    },
+    {
+     "word": "moot",
+     "gloss": "of no legal significance (as having been previously decided)"
+    }
+   ],
+   "case": 15
+  },
+  {
+   "_group": "B_50_69",
+   "_family_id": "oewn-02272771-a",
+   "_head": "soluble",
+   "_charged_pct": 0.56,
+   "_size": 9,
+   "members": [
+    {
+     "word": "soluble",
+     "gloss": "(of a substance) capable of being dissolved in some solvent (usually water)"
+    },
+    {
+     "word": "alcohol-soluble",
+     "gloss": "soluble in alcohol"
+    },
+    {
+     "word": "dissolvable",
+     "gloss": "capable of dissolving"
+    },
+    {
+     "word": "dissoluble",
+     "gloss": "capable of dissolving"
+    },
+    {
+     "word": "fat-soluble",
+     "gloss": "soluble in fats"
+    },
+    {
+     "word": "meltable",
+     "gloss": "capable of melting"
+    },
+    {
+     "word": "disintegrable",
+     "gloss": "capable of melting"
+    },
+    {
+     "word": "oil-soluble",
+     "gloss": "soluble in oil"
+    },
+    {
+     "word": "water-soluble",
+     "gloss": "soluble in water"
+    }
+   ],
+   "case": 16
+  },
+  {
+   "_group": "C_lt50",
+   "_family_id": "oewn-00124949-a",
+   "_head": "aquatic",
+   "_charged_pct": 0.0,
+   "_size": 8,
+   "members": [
+    {
+     "word": "aquatic",
+     "gloss": "operating or living or growing in water"
+    },
+    {
+     "word": "marine",
+     "gloss": "native to or inhabiting the sea"
+    },
+    {
+     "word": "semiaquatic",
+     "gloss": "partially aquatic; living or growing partly on land and partly in water"
+    },
+    {
+     "word": "subaquatic",
+     "gloss": "partially aquatic; living or growing partly on land and partly in water"
+    },
+    {
+     "word": "subaqueous",
+     "gloss": "growing or remaining under water"
+    },
+    {
+     "word": "submerged",
+     "gloss": "growing or remaining under water"
+    },
+    {
+     "word": "submersed",
+     "gloss": "growing or remaining under water"
+    },
+    {
+     "word": "underwater",
+     "gloss": "growing or remaining under water"
+    }
+   ],
+   "case": 17
+  },
+  {
+   "_group": "C_lt50",
+   "_family_id": "oewn-00286014-a",
+   "_head": "prejudiced",
+   "_charged_pct": 0.22,
+   "_size": 9,
+   "members": [
+    {
+     "word": "prejudiced",
+     "gloss": "being biased or having a belief or attitude formed beforehand"
+    },
+    {
+     "word": "discriminatory",
+     "gloss": "being biased or having a belief or attitude formed beforehand"
+    },
+    {
+     "word": "homophobic",
+     "gloss": "prejudiced against homosexual people"
+    },
+    {
+     "word": "jaundiced",
+     "gloss": "showing or affected by prejudice or envy or distaste"
+    },
+    {
+     "word": "loaded",
+     "gloss": "(of statements or questions) charged with associative significance and often meant to mislead or influence"
+    },
+    {
+     "word": "racist",
+     "gloss": "discriminatory especially on the basis of race or religion"
+    },
+    {
+     "word": "antiblack",
+     "gloss": "discriminatory especially on the basis of race or religion"
+    },
+    {
+     "word": "sexist",
+     "gloss": "discriminatory on the basis of sex (usually said of men's attitude toward women)"
+    },
+    {
+     "word": "transphobic",
+     "gloss": "Prejudiced against transgender people"
+    }
+   ],
+   "case": 18
+  },
+  {
+   "_group": "C_lt50",
+   "_family_id": "oewn-00298907-a",
+   "_head": "socialistic",
+   "_charged_pct": 0.0,
+   "_size": 8,
+   "members": [
+    {
+     "word": "socialistic",
+     "gloss": "advocating or following the socialist principles"
+    },
+    {
+     "word": "socialist",
+     "gloss": "advocating or following the socialist principles"
+    },
+    {
+     "word": "collective",
+     "gloss": "set up on the principle of collectivism or ownership and production by the workers involved usually under the supervision of a government"
+    },
+    {
+     "word": "collectivist",
+     "gloss": "subscribing to the socialistic doctrine of ownership by the people collectively"
+    },
+    {
+     "word": "collectivistic",
+     "gloss": "subscribing to the socialistic doctrine of ownership by the people collectively"
+    },
+    {
+     "word": "collectivized",
+     "gloss": "subscribing to the socialistic doctrine of ownership by the people collectively"
+    },
+    {
+     "word": "collectivised",
+     "gloss": "subscribing to the socialistic doctrine of ownership by the people collectively"
+    },
+    {
+     "word": "state-controlled",
+     "gloss": "subscribing to the socialistic doctrine of ownership by the people collectively"
+    }
+   ],
+   "case": 19
+  },
+  {
+   "_group": "D_control",
+   "_family_id": "oewn-00023420-a",
+   "_head": "inaccurate",
+   "_charged_pct": 0.78,
+   "_size": 9,
+   "members": [
+    {
+     "word": "inaccurate",
+     "gloss": "erroneous"
+    },
+    {
+     "word": "away",
+     "gloss": "(of a baseball pitch) on the far side of home plate from the batter"
+    },
+    {
+     "word": "outside",
+     "gloss": "(of a baseball pitch) on the far side of home plate from the batter"
+    },
+    {
+     "word": "faulty",
+     "gloss": "characterized by errors; not agreeing with a model or not following established rules"
+    },
+    {
+     "word": "incorrect",
+     "gloss": "characterized by errors; not agreeing with a model or not following established rules"
+    },
+    {
+     "word": "wrong",
+     "gloss": "characterized by errors; not agreeing with a model or not following established rules"
+    },
+    {
+     "word": "unfaithful",
+     "gloss": "not trustworthy"
+    },
+    {
+     "word": "wide",
+     "gloss": "not on target"
+    },
+    {
+     "word": "wide of the mark",
+     "gloss": "not on target"
+    }
+   ],
+   "case": 20
+  },
+  {
+   "_group": "B_50_69",
+   "_family_id": "oewn-00434829-a",
+   "_head": "opaque",
+   "_charged_pct": 0.53,
+   "_size": 17,
+   "members": [
+    {
+     "word": "opaque",
+     "gloss": "not transmitting or reflecting light or radiant energy; impenetrable to sight"
+    },
+    {
+     "word": "cloudy",
+     "gloss": "(of liquids) clouded as with sediment"
+    },
+    {
+     "word": "muddy",
+     "gloss": "(of liquids) clouded as with sediment"
+    },
+    {
+     "word": "mirky",
+     "gloss": "(of liquids) clouded as with sediment"
+    },
+    {
+     "word": "murky",
+     "gloss": "(of liquids) clouded as with sediment"
+    },
+    {
+     "word": "turbid",
+     "gloss": "(of liquids) clouded as with sediment"
+    },
+    {
+     "word": "fogged",
+     "gloss": "obscured by fog"
+    },
+    {
+     "word": "foggy",
+     "gloss": "obscured by fog"
+    },
+    {
+     "word": "frosted",
+     "gloss": "(of glass) having a roughened coating resembling frost"
+    },
+    {
+     "word": "glaucous",
+     "gloss": "having a frosted look from a powdery coating, as on plants"
+    },
+    {
+     "word": "lightproof",
+     "gloss": "not penetrable by light"
+    },
+    {
+     "word": "light-tight",
+     "gloss": "not penetrable by light"
+    },
+    {
+     "word": "milky",
+     "gloss": "resembling milk in color; not clear"
+    },
+    {
+     "word": "milklike",
+     "gloss": "resembling milk in color; not clear"
+    }
+   ],
+   "case": 21
+  },
+  {
+   "_group": "A_ge70",
+   "_family_id": "oewn-01744456-a",
+   "_head": "patriotic",
+   "_charged_pct": 0.75,
+   "_size": 8,
+   "members": [
+    {
+     "word": "patriotic",
+     "gloss": "inspired by love for your country"
+    },
+    {
+     "word": "loyal",
+     "gloss": "inspired by love for your country"
+    },
+    {
+     "word": "chauvinistic",
+     "gloss": "fanatically patriotic"
+    },
+    {
+     "word": "flag-waving",
+     "gloss": "fanatically patriotic"
+    },
+    {
+     "word": "jingoistic",
+     "gloss": "fanatically patriotic"
+    },
+    {
+     "word": "nationalistic",
+     "gloss": "fanatically patriotic"
+    },
+    {
+     "word": "ultranationalistic",
+     "gloss": "fanatically patriotic"
+    },
+    {
+     "word": "superpatriotic",
+     "gloss": "fanatically patriotic"
+    }
+   ],
+   "case": 22
+  },
+  {
+   "_group": "A_ge70",
+   "_family_id": "oewn-00970318-a",
+   "_head": "strange",
+   "_charged_pct": 0.84,
+   "_size": 24,
+   "members": [
+    {
+     "word": "strange",
+     "gloss": "being definitely out of the ordinary and unexpected; slightly odd or even a bit weird"
+    },
+    {
+     "word": "unusual",
+     "gloss": "being definitely out of the ordinary and unexpected; slightly odd or even a bit weird"
+    },
+    {
+     "word": "antic",
+     "gloss": "ludicrously odd"
+    },
+    {
+     "word": "fantastic",
+     "gloss": "ludicrously odd"
+    },
+    {
+     "word": "fantastical",
+     "gloss": "ludicrously odd"
+    },
+    {
+     "word": "grotesque",
+     "gloss": "ludicrously odd"
+    },
+    {
+     "word": "crazy",
+     "gloss": "bizarre or fantastic"
+    },
+    {
+     "word": "curious",
+     "gloss": "beyond or deviating from the usual or expected"
+    },
+    {
+     "word": "funny",
+     "gloss": "beyond or deviating from the usual or expected"
+    },
+    {
+     "word": "odd",
+     "gloss": "beyond or deviating from the usual or expected"
+    },
+    {
+     "word": "peculiar",
+     "gloss": "beyond or deviating from the usual or expected"
+    },
+    {
+     "word": "queer",
+     "gloss": "beyond or deviating from the usual or expected"
+    },
+    {
+     "word": "rum",
+     "gloss": "beyond or deviating from the usual or expected"
+    },
+    {
+     "word": "rummy",
+     "gloss": "beyond or deviating from the usual or expected"
+    }
+   ],
+   "case": 23
+  },
+  {
+   "_group": "D_control",
+   "_family_id": "oewn-00667636-a",
+   "_head": "curious",
+   "_charged_pct": 0.9,
+   "_size": 10,
+   "members": [
+    {
+     "word": "curious",
+     "gloss": "eager to investigate and learn or learn more (sometimes about others' concerns)"
+    },
+    {
+     "word": "inquisitive",
+     "gloss": "showing curiosity"
+    },
+    {
+     "word": "speculative",
+     "gloss": "showing curiosity"
+    },
+    {
+     "word": "questioning",
+     "gloss": "showing curiosity"
+    },
+    {
+     "word": "wondering",
+     "gloss": "showing curiosity"
+    },
+    {
+     "word": "nosy",
+     "gloss": "offensively curious or inquisitive"
+    },
+    {
+     "word": "nosey",
+     "gloss": "offensively curious or inquisitive"
+    },
+    {
+     "word": "prying",
+     "gloss": "offensively curious or inquisitive"
+    },
+    {
+     "word": "snoopy",
+     "gloss": "offensively curious or inquisitive"
+    },
+    {
+     "word": "overcurious",
+     "gloss": "showing excessive curiosity"
+    }
+   ],
+   "case": 24
+  },
+  {
+   "_group": "A_ge70",
+   "_family_id": "oewn-00999867-a",
+   "_head": "unfavorable",
+   "_charged_pct": 0.83,
+   "_size": 12,
+   "members": [
+    {
+     "word": "unfavorable",
+     "gloss": "not encouraging or approving or pleasing"
+    },
+    {
+     "word": "unfavourable",
+     "gloss": "not encouraging or approving or pleasing"
+    },
+    {
+     "word": "admonitory",
+     "gloss": "expressing reproof or reproach especially as a corrective"
+    },
+    {
+     "word": "admonishing",
+     "gloss": "expressing reproof or reproach especially as a corrective"
+    },
+    {
+     "word": "reproachful",
+     "gloss": "expressing reproof or reproach especially as a corrective"
+    },
+    {
+     "word": "reproving",
+     "gloss": "expressing reproof or reproach especially as a corrective"
+    },
+    {
+     "word": "adverse",
+     "gloss": "contrary to your interests or welfare"
+    },
+    {
+     "word": "inauspicious",
+     "gloss": "contrary to your interests or welfare"
+    },
+    {
+     "word": "untoward",
+     "gloss": "contrary to your interests or welfare"
+    },
+    {
+     "word": "disapproving",
+     "gloss": "expressing or manifesting disapproval"
+    },
+    {
+     "word": "discriminatory",
+     "gloss": "containing or implying a slight or showing prejudice"
+    },
+    {
+     "word": "invidious",
+     "gloss": "containing or implying a slight or showing prejudice"
+    }
+   ],
+   "case": 25
+  },
+  {
+   "_group": "A_ge70",
+   "_family_id": "oewn-01230010-a",
+   "_head": "dishonorable",
+   "_charged_pct": 0.77,
+   "_size": 13,
+   "members": [
+    {
+     "word": "dishonorable",
+     "gloss": "lacking honor or integrity; deserving dishonor"
+    },
+    {
+     "word": "dishonourable",
+     "gloss": "lacking honor or integrity; deserving dishonor"
+    },
+    {
+     "word": "black",
+     "gloss": "(used of conduct or character) deserving or bringing disgrace or shame"
+    },
+    {
+     "word": "disgraceful",
+     "gloss": "(used of conduct or character) deserving or bringing disgrace or shame"
+    },
+    {
+     "word": "ignominious",
+     "gloss": "(used of conduct or character) deserving or bringing disgrace or shame"
+    },
+    {
+     "word": "inglorious",
+     "gloss": "(used of conduct or character) deserving or bringing disgrace or shame"
+    },
+    {
+     "word": "opprobrious",
+     "gloss": "(used of conduct or character) deserving or bringing disgrace or shame"
+    },
+    {
+     "word": "shameful",
+     "gloss": "(used of conduct or character) deserving or bringing disgrace or shame"
+    },
+    {
+     "word": "debasing",
+     "gloss": "used of conduct; characterized by dishonor"
+    },
+    {
+     "word": "degrading",
+     "gloss": "used of conduct; characterized by dishonor"
+    },
+    {
+     "word": "shabby",
+     "gloss": "mean and unworthy and despicable"
+    },
+    {
+     "word": "unprincipled",
+     "gloss": "having little or no integrity"
+    },
+    {
+     "word": "yellow",
+     "gloss": "cowardly or treacherous"
+    }
+   ],
+   "case": 26
+  },
+  {
+   "_group": "C_lt50",
+   "_family_id": "oewn-00555061-a",
+   "_head": "accordant",
+   "_charged_pct": 0.33,
+   "_size": 9,
+   "members": [
+    {
+     "word": "accordant",
+     "gloss": "being in agreement or harmony; often followed by ‘with’"
+    },
+    {
+     "word": "according",
+     "gloss": "(followed by ‘to’) in agreement with or accordant with"
+    },
+    {
+     "word": "agreeable",
+     "gloss": "prepared to agree or consent"
+    },
+    {
+     "word": "concordant",
+     "gloss": "being of the same opinion"
+    },
+    {
+     "word": "concurring",
+     "gloss": "being of the same opinion"
+    },
+    {
+     "word": "consensual",
+     "gloss": "existing by consent"
+    },
+    {
+     "word": "consentaneous",
+     "gloss": "in complete agreement"
+    },
+    {
+     "word": "consentient",
+     "gloss": "in complete agreement"
+    },
+    {
+     "word": "unanimous",
+     "gloss": "in complete agreement"
+    }
+   ],
+   "case": 27
+  },
+  {
+   "_group": "A_ge70",
+   "_family_id": "oewn-00514412-a",
+   "_head": "competitive",
+   "_charged_pct": 0.75,
+   "_size": 8,
+   "members": [
+    {
+     "word": "competitive",
+     "gloss": "involving competition or competitiveness"
+    },
+    {
+     "word": "competitory",
+     "gloss": "involving competition or competitiveness"
+    },
+    {
+     "word": "agonistic",
+     "gloss": "striving to overcome in argument"
+    },
+    {
+     "word": "agonistical",
+     "gloss": "striving to overcome in argument"
+    },
+    {
+     "word": "combative",
+     "gloss": "striving to overcome in argument"
+    },
+    {
+     "word": "emulous",
+     "gloss": "eager to surpass others"
+    },
+    {
+     "word": "rivalrous",
+     "gloss": "eager to surpass others"
+    },
+    {
+     "word": "matched",
+     "gloss": "provided with a worthy adversary or competitor"
+    }
+   ],
+   "case": 28
+  },
+  {
+   "_group": "D_control",
+   "_family_id": "oewn-01119091-a",
+   "_head": "genuine",
+   "_charged_pct": 0.71,
+   "_size": 14,
+   "members": [
+    {
+     "word": "genuine",
+     "gloss": "not fake or counterfeit"
+    },
+    {
+     "word": "echt",
+     "gloss": "not fake or counterfeit"
+    },
+    {
+     "word": "authentic",
+     "gloss": "not counterfeit or copied"
+    },
+    {
+     "word": "bona fide",
+     "gloss": "not counterfeit or copied"
+    },
+    {
+     "word": "unquestionable",
+     "gloss": "not counterfeit or copied"
+    },
+    {
+     "word": "veritable",
+     "gloss": "not counterfeit or copied"
+    },
+    {
+     "word": "attested",
+     "gloss": "established as genuine"
+    },
+    {
+     "word": "authenticated",
+     "gloss": "established as genuine"
+    },
+    {
+     "word": "documented",
+     "gloss": "established as genuine"
+    },
+    {
+     "word": "good",
+     "gloss": "not forged"
+    },
+    {
+     "word": "honest",
+     "gloss": "not forged"
+    },
+    {
+     "word": "honest-to-god",
+     "gloss": "(used informally especially for emphasis) real or genuine"
+    },
+    {
+     "word": "honest-to-goodness",
+     "gloss": "(used informally especially for emphasis) real or genuine"
+    },
+    {
+     "word": "sure-enough",
+     "gloss": "(used informally especially for emphasis) real or genuine"
+    }
+   ],
+   "case": 29
+  },
+  {
+   "_group": "B_50_69",
+   "_family_id": "oewn-01594522-a",
+   "_head": "noble",
+   "_charged_pct": 0.58,
+   "_size": 25,
+   "members": [
+    {
+     "word": "noble",
+     "gloss": "of or belonging to or constituting the hereditary aristocracy especially as derived from feudal times"
+    },
+    {
+     "word": "aristocratic",
+     "gloss": "belonging to or characteristic of the nobility or aristocracy"
+    },
+    {
+     "word": "aristocratical",
+     "gloss": "belonging to or characteristic of the nobility or aristocracy"
+    },
+    {
+     "word": "blue",
+     "gloss": "belonging to or characteristic of the nobility or aristocracy"
+    },
+    {
+     "word": "blue-blooded",
+     "gloss": "belonging to or characteristic of the nobility or aristocracy"
+    },
+    {
+     "word": "gentle",
+     "gloss": "belonging to or characteristic of the nobility or aristocracy"
+    },
+    {
+     "word": "patrician",
+     "gloss": "belonging to or characteristic of the nobility or aristocracy"
+    },
+    {
+     "word": "august",
+     "gloss": "of or befitting a lord"
+    },
+    {
+     "word": "grand",
+     "gloss": "of or befitting a lord"
+    },
+    {
+     "word": "lordly",
+     "gloss": "of or befitting a lord"
+    },
+    {
+     "word": "coroneted",
+     "gloss": "belonging to the peerage"
+    },
+    {
+     "word": "highborn",
+     "gloss": "belonging to the peerage"
+    },
+    {
+     "word": "titled",
+     "gloss": "belonging to the peerage"
+    },
+    {
+     "word": "imperial",
+     "gloss": "belonging to or befitting a supreme ruler"
+    }
+   ],
+   "case": 30
+  }
+ ]
+}
