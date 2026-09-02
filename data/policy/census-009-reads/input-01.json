@@ -1,0 +1,601 @@
+{
+ "packet": 1,
+ "count": 48,
+ "entries": [
+  {
+   "id": "ambitious.oewn-00104850-a",
+   "word": "ambitious",
+   "definition": "having a strong desire for success or achievement",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain name for the desire itself, favourable but only mildly, and carrying no fault until *overambitious* attaches one.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "aspirant.oewn-00105332-s",
+   "word": "aspirant",
+   "definition": "desiring or striving for recognition or advancement",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and cool — it registers the reaching for recognition or advancement without any verdict on it, where *aspiring* sounds warm.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "aspiring.oewn-00105332-s",
+   "word": "aspiring",
+   "definition": "desiring or striving for recognition or advancement",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Treats the reaching as a credit to the person, though it promises nothing beyond the wanting and the effort themselves.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "compulsive.oewn-00105498-s",
+   "word": "compulsive",
+   "definition": "strongly motivated to succeed",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Frames the motivation as something that has hold of the person, so it lands closer to a diagnosis than to the compliment *determined* pays.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "determined.oewn-00105498-s",
+   "word": "determined",
+   "definition": "strongly motivated to succeed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The approving way to say it — the motivation reads as steadiness of will rather than as pressure, which is what separates it from *driven*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "driven.oewn-00105498-s",
+   "word": "driven",
+   "definition": "strongly motivated to succeed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Keeps the admiration but not the comfort: the motivation is felt as something pushing from behind rather than chosen.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "manque.oewn-00105624-s",
+   "word": "manque",
+   "definition": "unfulfilled or frustrated in realizing an ambition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal, and it files the ambition as one that came to nothing — the same verdict *would-be* delivers far more bluntly.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "overambitious.oewn-00105741-s",
+   "word": "overambitious",
+   "definition": "excessively ambitious",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Turns the quantity of the ambition into the fault, condemning as excess exactly what *ambitious* merely reports.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "pushful.oewn-00105117-s",
+   "word": "pushful",
+   "definition": "marked by aggressive ambition and energy and initiative",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "States the aggression as a quality of the person and still counts the energy and initiative in, so it stings less than *pushy*.",
+   "usage_labels": [],
+   "examples": [
+    "a pushful insurance agent"
+   ]
+  },
+  {
+   "id": "pushy.oewn-00105117-s",
+   "word": "pushy",
+   "definition": "marked by aggressive ambition and energy and initiative",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The complaint form of that same drive: the energy is conceded, the aggression is what the word is actually for.",
+   "usage_labels": [],
+   "examples": [
+    "a pushful insurance agent"
+   ]
+  },
+  {
+   "id": "wishful.oewn-00105332-s",
+   "word": "wishful",
+   "definition": "desiring or striving for recognition or advancement",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts its weight on the wanting rather than on any force behind it, making it the gentlest way to say what *pushy* says harshly.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "would-be.oewn-00105624-s",
+   "word": "would-be",
+   "definition": "unfulfilled or frustrated in realizing an ambition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Deflating in one stroke: it grants the ambition and withholds the achievement in the same breath.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "comfortable.oewn-00478809-a",
+   "word": "comfortable",
+   "definition": "providing or experiencing physical well-being or relief (‘comfy’ is informal)",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain baseline of the set, covering both the chair and the person sitting in it, without the warmth *cozy* adds.",
+   "usage_labels": [],
+   "examples": [
+    "comfortable clothes",
+    "comfortable suburban houses",
+    "made himself comfortable in an armchair",
+    "the antihistamine made her feel more comfortable",
+    "are you comfortable?"
+   ]
+  },
+  {
+   "id": "comfy.oewn-00478809-a",
+   "word": "comfy",
+   "definition": "providing or experiencing physical well-being or relief (‘comfy’ is informal)",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal and fond where *comfortable* is plain, claiming no more ease than it does — only a softer way of saying it.",
+   "usage_labels": [],
+   "examples": [
+    "comfortable clothes",
+    "comfortable suburban houses",
+    "made himself comfortable in an armchair",
+    "the antihistamine made her feel more comfortable",
+    "are you comfortable?",
+    "feeling comfy now?"
+   ]
+  },
+  {
+   "id": "cosy.oewn-00479274-s",
+   "word": "cosy",
+   "definition": "enjoying or affording comforting warmth and shelter especially in a small space",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Carries exactly *cozy*'s sheltered warmth; the difference is one of spelling, not of force.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "cozy.oewn-00479274-s",
+   "word": "cozy",
+   "definition": "enjoying or affording comforting warmth and shelter especially in a small space",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Adds warmth and shelter to *comfortable*'s bare ease, the comfort of being enclosed and kept warm.",
+   "usage_labels": [],
+   "examples": [
+    "a cozy nook near the fire"
+   ]
+  },
+  {
+   "id": "easy.oewn-00479543-s",
+   "word": "easy",
+   "definition": "affording comfort",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The thinnest word here: it says a thing affords comfort and stops, with none of *cozy*'s warmth or *soothing*'s relief.",
+   "usage_labels": [],
+   "examples": [
+    "soft light that was easy on the eyes"
+   ]
+  },
+  {
+   "id": "homelike.oewn-00479651-s",
+   "word": "homelike",
+   "definition": "having a feeling of home; cozy and comfortable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Locates the comfort in the feeling of home, so it praises a place for putting you at ease rather than for warmth alone as *cozy* does.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "homely.oewn-00479651-s",
+   "word": "homely",
+   "definition": "having a feeling of home; cozy and comfortable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same home-feeling approval as *homelike*, settled and unshowy — the praise is for the ease of the place, not its grandeur.",
+   "usage_labels": [],
+   "examples": [
+    "the homely everyday atmosphere"
+   ]
+  },
+  {
+   "id": "homey.oewn-00479651-s",
+   "word": "homey",
+   "definition": "having a feeling of home; cozy and comfortable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal where *homelike* is plainly descriptive, saying the same home-comfort more casually.",
+   "usage_labels": [],
+   "examples": [
+    "the homely everyday atmosphere",
+    "a homey little inn"
+   ]
+  },
+  {
+   "id": "homy.oewn-00479651-s",
+   "word": "homy",
+   "definition": "having a feeling of home; cozy and comfortable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A spelling variant of *homey*, identical in its fond, informal warmth toward a place that feels like home.",
+   "usage_labels": [],
+   "examples": [
+    "the homely everyday atmosphere",
+    "a homey little inn"
+   ]
+  },
+  {
+   "id": "snug.oewn-00479274-s",
+   "word": "snug",
+   "definition": "enjoying or affording comforting warmth and shelter especially in a small space",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Puts the weight on close fit — comfort from being tucked into a small space rather than merely warmed, more bodily than *cozy*.",
+   "usage_labels": [],
+   "examples": [
+    "snug in bed",
+    "a snug little apartment"
+   ]
+  },
+  {
+   "id": "soothing.oewn-00479886-s",
+   "word": "soothing",
+   "definition": "affording physical relief",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Comfort framed as active relief — where *easy* merely affords comfort, this one implies a physical discomfort being eased.",
+   "usage_labels": [],
+   "examples": [
+    "a soothing ointment for her sunburn"
+   ]
+  },
+  {
+   "id": "disaffected.oewn-00592653-s",
+   "word": "disaffected",
+   "definition": "discontented as toward authority",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Loyalty withdrawn: the discontent is pointed at authority but goes no further than turning away, where *rebellious* has already moved against it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "discontent.oewn-00592317-a",
+   "word": "discontent",
+   "definition": "showing or experiencing dissatisfaction or restless longing",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Covers the same ground as *discontented* - dissatisfaction or restless longing alike - but the clipped form makes it read as a fixed condition rather than a passing mood.",
+   "usage_labels": [],
+   "examples": [
+    "saw many discontent faces in the room",
+    "was discontented with his position"
+   ]
+  },
+  {
+   "id": "discontented.oewn-00592317-a",
+   "word": "discontented",
+   "definition": "showing or experiencing dissatisfaction or restless longing",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain state-word of the family, reaching over both settled dissatisfaction and the restless longing for something else, and passing verdict on neither.",
+   "usage_labels": [],
+   "examples": [
+    "was discontented with his position"
+   ]
+  },
+  {
+   "id": "disgruntled.oewn-00592856-s",
+   "word": "disgruntled",
+   "definition": "in a state of sulky dissatisfaction",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Belittling - the sulk in it makes the grievance look like a mood, so the complaint gets dismissed along with the complainer.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "dissatisfied.oewn-00592856-s",
+   "word": "dissatisfied",
+   "definition": "in a state of sulky dissatisfaction",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Reports the same sulky state with a straighter face, letting the mood be inferred where *disgruntled* puts it on display.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "ill-affected.oewn-00592653-s",
+   "word": "ill-affected",
+   "definition": "discontented as toward authority",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the weight on the ill feeling itself rather than on the falling-away *disaffected* names, and stays stiffer and more formal in doing so.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "malcontent.oewn-00592653-s",
+   "word": "malcontent",
+   "definition": "discontented as toward authority",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Faintly contemptuous - it makes standing against authority into a disposition the person carries, not a response they had.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "rebellious.oewn-00592653-s",
+   "word": "rebellious",
+   "definition": "discontented as toward authority",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The hottest of the authority-facing senses, discontent that has broken into open defiance instead of sitting in itself like *disaffected*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "restless.oewn-00592964-s",
+   "word": "restless",
+   "definition": "worried and uneasy",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Unease that will not sit still - the worry is felt as agitation rather than as a grievance against anything in particular.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "ungratified.oewn-00592964-s",
+   "word": "ungratified",
+   "definition": "worried and uneasy",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The most detached way of naming the worried unease, stating it as a condition and holding nothing against the person in it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unsatisfied.oewn-00592964-s",
+   "word": "unsatisfied",
+   "definition": "worried and uneasy",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and unemphatic beside *restless*, registering the same worry and unease without any of the movement.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "crude.oewn-00686808-s",
+   "word": "crude",
+   "definition": "conspicuously and tastelessly indecent",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt and graceless force: the indecency is out in the open with no refinement over it, where *indecent* only names the offence.",
+   "usage_labels": [],
+   "examples": [
+    "a crude joke",
+    "crude behavior"
+   ]
+  },
+  {
+   "id": "earthy.oewn-00686808-s",
+   "word": "earthy",
+   "definition": "conspicuously and tastelessly indecent",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The mildest-sounding word for the same conspicuous, tasteless indecency, its plainness softening what *gross* spits out.",
+   "usage_labels": [],
+   "examples": [
+    "an earthy sense of humor"
+   ]
+  },
+  {
+   "id": "gross.oewn-00686808-s",
+   "word": "gross",
+   "definition": "conspicuously and tastelessly indecent",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Registers revulsion rather than disapproval, the indecency coarse enough to sicken, and the word is the flinch.",
+   "usage_labels": [],
+   "examples": [
+    "a revoltingly gross expletive"
+   ]
+  },
+  {
+   "id": "indecent.oewn-00686462-a",
+   "word": "indecent",
+   "definition": "offensive to good taste especially in sexual matters",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The family's flat verdict of offence to good taste, sexual matters foremost though not only those, condemning without the flagrancy *crude* insists on.",
+   "usage_labels": [],
+   "examples": [
+    "an earthy but not indecent story",
+    "an indecent gesture"
+   ]
+  },
+  {
+   "id": "indelicate.oewn-00687331-s",
+   "word": "indelicate",
+   "definition": "verging on the indecent",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The lightest reproof here, indecency approached but not arrived at, so it rebukes where *obscene* accuses.",
+   "usage_labels": [],
+   "examples": [
+    "an indelicate proposition"
+   ]
+  },
+  {
+   "id": "obscene.oewn-00687440-s",
+   "word": "obscene",
+   "definition": "designed to incite to indecency or lust",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The heaviest charge in the family: not merely offensive but built to incite indecency or lust, design rather than effect.",
+   "usage_labels": [],
+   "examples": [
+    "the dance often becomes flagrantly obscene"
+   ]
+  },
+  {
+   "id": "suggestive.oewn-00687611-s",
+   "word": "suggestive",
+   "definition": "tending to suggest something improper or indecent",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Works by implication, pointing toward the improper or the indecent without stating it, and accuses more lightly than *crude* for that reason.",
+   "usage_labels": [],
+   "examples": [
+    "a suggestive nod",
+    "suggestive poses"
+   ]
+  },
+  {
+   "id": "vulgar.oewn-00686808-s",
+   "word": "vulgar",
+   "definition": "conspicuously and tastelessly indecent",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Passes judgement on the sensibility behind the indecency as much as on the act, a verdict of cheapness that *earthy* declines to pass.",
+   "usage_labels": [],
+   "examples": [
+    "a vulgar gesture",
+    "full of language so vulgar it should have been edited"
+   ]
+  },
+  {
+   "id": "alert.oewn-00877534-s",
+   "word": "alert",
+   "definition": "quick and energetic",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Hears the quickness as responsiveness rather than pure pace, the coolest and least showy way of saying it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "brisk.oewn-00877534-s",
+   "word": "brisk",
+   "definition": "quick and energetic",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Crisp and businesslike - the pace earns approval on its efficiency alone, with none of the buoyancy *merry* adds.",
+   "usage_labels": [],
+   "examples": [
+    "a brisk walk in the park"
+   ]
+  },
+  {
+   "id": "canty.oewn-00877855-s",
+   "word": "canty",
+   "definition": "lively and brisk",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Takes both halves at once, the animation of *lively* with the crispness of *brisk*, and stays mild where *rattling* is emphatic.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "driving.oewn-00877942-s",
+   "word": "driving",
+   "definition": "acting with vigor",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Vigor with push and direction behind it - force applied to something, not energy on display as in *lively*.",
+   "usage_labels": [],
+   "examples": [
+    "responsibility turned the spoiled playboy into a driving young executive"
+   ]
+  },
+  {
+   "id": "energetic.oewn-00876911-a",
+   "word": "energetic",
+   "definition": "possessing or exerting or displaying energy",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain term of the family, covering energy merely held as readily as energy spent or shown, and approving mildly without insisting.",
+   "usage_labels": [],
+   "examples": [
+    "an energetic fund raiser for the college",
+    "an energetic group of hikers",
+    "it caused an energetic chemical reaction"
+   ]
+  },
+  {
+   "id": "high-energy.oewn-00878089-s",
+   "word": "high-energy",
+   "definition": "providing a relatively large amount of energy upon undergoing a chemical reaction",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A measurement rather than a compliment, rating what a reaction yields and carrying none of the approval its neighbours do.",
+   "usage_labels": [],
+   "examples": []
+  }
+ ]
+}

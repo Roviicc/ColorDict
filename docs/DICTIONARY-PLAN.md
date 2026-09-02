@@ -396,12 +396,13 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-09-02 | **Tick 3: 25 families, 292 senses, 3.4% blind — the first verbatim read.** Rubric taken from `census-reader.md` as written rather than typed into the prompt, which is what censuses 003-005 all did. 10 faults, 9 repaired and re-read clean; *awesome* took three attempts and failed a different class each time. See 11.76 |
 | 2026-09-02 | **Tick 4: 24 families, 298 senses, 1.3% blind.** Reading instrument verbatim and comparable to census 006 — but the *authoring* prompts carried an extra warning that `family-author.md` did not, so the drop from 3.4% is confounded. The line is now in the file. `bad-example` promoted to a named fault class on its second instance. See 11.77 |
 | 2026-09-02 | **Tick 5: 21 families, 286 senses, 1.4% blind.** First tick with BOTH instruments verbatim and prompts identical across every family, so it is the first cleanly comparable pair with tick 4 (1.3%). A second family withheld under 5.3, caught by reading rather than by the regex. New fault class `family-inconsistent`. See 11.78 |
+| 2026-09-02 | **Tick 6: 23 families, 287 senses, 2.1% blind.** Third comparable tick (1.3 / 1.4 / 2.1). `family-inconsistent` built into `tone_lint.py` and backtested — found one historic fault in shard 12. `sensitive_screen.py` replaces the retyped regex after three misses in three ticks. Third family withheld under 5.3. See 11.79 |
 
-**Current totals: 184 families, 2,219 annotated senses, 2,394 reviewed entries,
-0 validation errors. Latest measured error rate 1.4% (census 008, blind), against
-1.3% (census 007) — the first pair with both instruments verbatim and prompts
-identical, and therefore the first rate this project can compare to the one
-before it without a caveat. Earlier rates — 3.8% / 1.1% /
+**Current totals: 207 families, 2,506 annotated senses, 2,667 reviewed entries,
+0 validation errors. Measured error rates 1.3% / 1.4% / 2.1% (censuses 007, 008,
+009) — three consecutive ticks with both instruments verbatim and prompts
+identical, so the three are comparable to each other and to nothing before
+census 007. Earlier rates — 3.8% / 1.1% /
 0.6% — were read under typed paraphrases of the rubric, and census 005's was
 withdrawn for that reason (11.74). Every annotated sense has been read by a
 model from a different family than the one that wrote it.** — including adverb senses inherited for free, and 11
@@ -1626,6 +1627,77 @@ read by someone before authoring starts. That reading is what caught this one.
 ### Where the run stands
 
 Queue down to **181 families**, roughly seven more ticks on the adjective line.
+
+## 11.79 Tick 6 — two checks moved from a reader's head into a file
+
+**23 families, 287 senses. 280 right, 6 wrong, 1 unsure — 2.1%.** Seven repairs,
+re-read blind, 7/7 after a second pass on two of them.
+
+Three comparable ticks now: **1.3% / 1.4% / 2.1%**, all with both instruments
+verbatim. Call it a little under 2% and stop reading the individual figures as a
+trend — 287 senses puts a single fault at 0.35%, so the spread between these
+three is four faults.
+
+### `family-inconsistent`, now in the linter
+
+Census 008 named the class: a note that is right about its gloss and wrong about
+its family. It needs no reader at all — a claim to be the family's only approving
+member is checkable against the siblings' charges.
+
+`tone_lint.py` gained the rule. **The first version was too loose**, and the
+backtest is what showed it: across every shard it produced one real fault and two
+false positives — *"insisting the thing is exactly the one stated"* and *"marks
+the one singled out for favor"*, where "the one" points at the referent rather
+than at a position in the spectrum. Requiring the claim to reference the family
+at all (*here*, *member*, *of these*, *among them*) keeps both real faults and
+drops both false positives.
+
+The backtest then earned its keep immediately: a genuine historic fault in shard
+12 — *singular*, "the one word here that flatters", with *curious* beside it at
++1. Repaired. Every other shard clean, and tick 6 clean on the rule.
+
+**The division of labour is worth stating.** A linter cannot discover a fault
+class; it can only stop one recurring after a reader has named it. That is why
+`tone_lint.py` stays a smoke alarm rather than becoming the referee.
+
+### `sensitive_screen.py`, after three misses in three ticks
+
+The 5.3 screen had been an ad-hoc regex retyped each tick, and it missed every
+family it mattered for: *deaf* (tick 3), *illegitimate* (tick 5, where it fired
+two false positives on the word "offensive" instead), and now *noncivilized* —
+*savage*, *barbarian*, *barbarous*, *primitive*, *preliterate*, words applied to
+whole peoples and carrying the history of what was done to them. Grading how much
+contempt each carries **is** the sensitive judgement. Withheld to
+`data/families/held-5.3-noncivilized.json`; third family in the manual queue.
+
+All three were caught by reading the draw, not by the screen. So the term list
+now lives in a file that accumulates what each miss taught, grouped by what the
+words are aimed at: disability, birth status, peoples and culture, race, religion,
+sexuality and gender, mental health, slur markers.
+
+It flags 5 of 24 families in this draw and only one of them is real — it also
+fires on *wild/untamed* for "savage" (glossed "wild and menacing", about animals)
+and on three families for the word "black" (*black-and-blue*, *a black day*).
+That is the intended shape: **a flag is not a verdict, and absence of flags is
+not clearance.** The draw still gets read.
+
+### Repairing a gloss-mismatch is the hardest repair
+
+Seven repairs went out; five passed. *pathetic* and *invasive* both failed a
+second time, **and both failed on the same class as the original** —
+gloss-mismatch. *pathetic*'s repair still smuggled in the scornful-pity sense;
+*invasive*'s called the sense an "incursion", denying the *gradually* the gloss
+makes definitional.
+
+That is not bad luck. The pull that produced the fault — the writer knows the
+word, and knows its famous sense — is still acting on whoever writes the
+replacement. Two of the three repair rounds in this project have needed a second
+pass and both were gloss-mismatch.
+
+The second-round reader was told both notes had been edited twice **and** warned
+against two opposite failures: drifting a third time, and flattening the note
+into something safe that says nothing. Both passed with reasoning that engaged
+the gloss rather than deferring.
 
 ## 11.71 The run plan — stages, and what stops each one
 

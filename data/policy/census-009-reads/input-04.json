@@ -1,0 +1,605 @@
+{
+ "packet": 4,
+ "count": 48,
+ "entries": [
+  {
+   "id": "diabolic.oewn-01136015-s",
+   "word": "diabolic",
+   "definition": "extremely evil or cruel; expressive of cruelty or befitting hell",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts design behind the cruelty: intelligence at work, not the blind brutality of *atrocious*.",
+   "usage_labels": [],
+   "examples": [
+    "fires lit up a diabolic scene",
+    "diabolical sorcerers under the influence of devils"
+   ]
+  },
+  {
+   "id": "diabolical.oewn-01136015-s",
+   "word": "diabolical",
+   "definition": "extremely evil or cruel; expressive of cruelty or befitting hell",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The longer form of *diabolic*, and the extra syllable gives it room to sound theatrical rather than clinical.",
+   "usage_labels": [],
+   "examples": [
+    "diabolical sorcerers under the influence of devils"
+   ]
+  },
+  {
+   "id": "evil.oewn-01134543-a",
+   "word": "evil",
+   "definition": "morally bad or wrong",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The bare verdict: it names the wrongness itself and says nothing of the manner, which is what *atrocious* and *fiendish* are for.",
+   "usage_labels": [],
+   "examples": [
+    "evil purposes",
+    "an evil influence",
+    "evil deeds"
+   ]
+  },
+  {
+   "id": "fiendish.oewn-01136015-s",
+   "word": "fiendish",
+   "definition": "extremely evil or cruel; expressive of cruelty or befitting hell",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most gleeful of these: the cruelty is relished, ingenuity taking pleasure in itself.",
+   "usage_labels": [],
+   "examples": [
+    "a fiendish despot"
+   ]
+  },
+  {
+   "id": "flagitious.oewn-01134954-s",
+   "word": "flagitious",
+   "definition": "shockingly brutal or cruel",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and bookish where *atrocious* is loud, delivering the same charge of brutality in a cold register.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "grievous.oewn-01134954-s",
+   "word": "grievous",
+   "definition": "shockingly brutal or cruel",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Weighs the damage rather than the outrage — gravity where *atrocious* offers shock.",
+   "usage_labels": [],
+   "examples": [
+    "a grievous offense against morality",
+    "a grievous crime"
+   ]
+  },
+  {
+   "id": "monstrous.oewn-01134954-s",
+   "word": "monstrous",
+   "definition": "shockingly brutal or cruel",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the cruelty outside the human, judging the doer as a kind of creature rather than as someone behaving badly.",
+   "usage_labels": [],
+   "examples": [
+    "no excess was too monstrous for them to commit"
+   ]
+  },
+  {
+   "id": "perversive.oewn-01135866-s",
+   "word": "perversive",
+   "definition": "tending to corrupt or pervert",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Harsher than *corruptive*, since what it names does not merely degrade a thing but bends it out of true.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "pestiferous.oewn-01135866-s",
+   "word": "pestiferous",
+   "definition": "tending to corrupt or pervert",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Makes the influence contagious — something to be kept clear of, not just something to disapprove of.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sinister.oewn-01135435-s",
+   "word": "sinister",
+   "definition": "stemming from evil characteristics or forces; wicked or dishonorable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Adds menace to the wickedness, so that what it names feels still in motion and threatening rather than simply condemned.",
+   "usage_labels": [],
+   "examples": [
+    "the scheme of some sinister intelligence bent on punishing him"
+   ]
+  },
+  {
+   "id": "abrupt.oewn-01147070-s",
+   "word": "abrupt",
+   "definition": "exceedingly sudden and unexpected",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Pushes *sudden* past what anyone was braced for, so the speed itself becomes the complaint.",
+   "usage_labels": [],
+   "examples": [
+    "came to an abrupt stop",
+    "an abrupt change in the weather"
+   ]
+  },
+  {
+   "id": "choppy.oewn-01147235-s",
+   "word": "choppy",
+   "definition": "marked by abrupt transitions",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Faults the transitions as uneven rather than violent — the thing never settles, but nothing in it snaps.",
+   "usage_labels": [],
+   "examples": [
+    "choppy prose"
+   ]
+  },
+  {
+   "id": "emergent.oewn-01147340-s",
+   "word": "emergent",
+   "definition": "occurring unexpectedly and requiring urgent action",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and functional beside *explosive* — the unexpectedness registers only because it compels urgent action, not because it startles.",
+   "usage_labels": [],
+   "examples": [
+    "emergent repair of an aorta"
+   ]
+  },
+  {
+   "id": "explosive.oewn-01147494-s",
+   "word": "explosive",
+   "definition": "sudden and loud",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts noise into the suddenness, so where *abrupt* merely catches you unready this one goes off.",
+   "usage_labels": [],
+   "examples": [
+    "an explosive laugh"
+   ]
+  },
+  {
+   "id": "fulminant.oewn-01147587-s",
+   "word": "fulminant",
+   "definition": "sudden and severe",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Grave rather than merely fast: severity is bolted to the speed, so the word reads as a warning.",
+   "usage_labels": [],
+   "examples": [
+    "fulminant pain",
+    "fulminant fever"
+   ]
+  },
+  {
+   "id": "jerky.oewn-01147235-s",
+   "word": "jerky",
+   "definition": "marked by abrupt transitions",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Harsher than *choppy* on the same broken transitions: the movement snatches, and the word makes it sound ungoverned.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sharp.oewn-01147715-s",
+   "word": "sharp",
+   "definition": "very sudden and in great amount or degree",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Measures how far the change went as well as how fast it came, which is the dimension *sudden* leaves out.",
+   "usage_labels": [],
+   "examples": [
+    "a sharp drop in the stock market"
+   ]
+  },
+  {
+   "id": "sudden.oewn-01146764-a",
+   "word": "sudden",
+   "definition": "happening without warning or in a short space of time",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain member of the family, covering both arrival without warning and arrival in very little time, and passing no verdict on either.",
+   "usage_labels": [],
+   "examples": [
+    "a sudden storm",
+    "a sudden decision",
+    "a sudden cure"
+   ]
+  },
+  {
+   "id": "calculating.oewn-01159105-s",
+   "word": "calculating",
+   "definition": "acting with a specific goal",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Purpose read as cold arithmetic - the aim is granted, the warmth withdrawn.",
+   "usage_labels": [],
+   "examples": [
+    "the most calculating and selfish men in the community"
+   ]
+  },
+  {
+   "id": "calculative.oewn-01159105-s",
+   "word": "calculative",
+   "definition": "acting with a specific goal",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The flatter, drier twin of *calculating*, closer to bare goal-directedness and lighter on the accusation.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "case-hardened.oewn-01159329-s",
+   "word": "case-hardened",
+   "definition": "used of persons; emotionally hardened",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most final of the hardened set - the toughness reads as settled all the way through, with nothing soft left to reach.",
+   "usage_labels": [],
+   "examples": [
+    "faced a case-hardened judge"
+   ]
+  },
+  {
+   "id": "conniving.oewn-01159105-s",
+   "word": "conniving",
+   "definition": "acting with a specific goal",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The darkest reading of the same goal-directedness - purpose taken as plotting rather than planning.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "hard-boiled.oewn-01159329-s",
+   "word": "hard-boiled",
+   "definition": "used of persons; emotionally hardened",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal, and the toughness comes with a swagger - the unfeeling is worn rather than lamented.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "hard.oewn-01158857-a",
+   "word": "hard",
+   "definition": "dispassionate",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Chilly rather than cruel - feeling is simply switched off, and nothing is said about what the coolness is for.",
+   "usage_labels": [],
+   "examples": [
+    "took a hard look",
+    "a hard bargainer"
+   ]
+  },
+  {
+   "id": "hardened.oewn-01159329-s",
+   "word": "hardened",
+   "definition": "used of persons; emotionally hardened",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain statement of the condition, naming the lost feeling without *hard-boiled*'s relish or *case-hardened*'s finality.",
+   "usage_labels": [],
+   "examples": [
+    "faced a case-hardened judge"
+   ]
+  },
+  {
+   "id": "scheming.oewn-01159105-s",
+   "word": "scheming",
+   "definition": "acting with a specific goal",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Condemns the same purposefulness as *calculating*, but puts the weight on the plan rather than on the coldness of the planner.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "shrewd.oewn-01159105-s",
+   "word": "shrewd",
+   "definition": "acting with a specific goal",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The one word here that credits the goal-directedness, treating aim and judgement as sharpness rather than as a fault.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "steely.oewn-01159482-s",
+   "word": "steely",
+   "definition": "resembling steel as in hardness",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Not a verdict but a likeness - it measures hardness against metal and leaves the reader to decide whether that is a fault.",
+   "usage_labels": [],
+   "examples": [
+    "steely eyes",
+    "steely nerves like those of a steeplejack"
+   ]
+  },
+  {
+   "id": "battle-scarred.oewn-01321194-s",
+   "word": "battle-scarred",
+   "definition": "scarred by battle",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Here the marks stand as proof of what was come through, so the damage reads as standing earned rather than harm suffered.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "black-and-blue.oewn-01321272-s",
+   "word": "black-and-blue",
+   "definition": "discolored by coagulation of blood beneath the skin",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Names the bruise by its two colours, homely and concrete beside the graver *livid*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "disjointed.oewn-01321452-s",
+   "word": "disjointed",
+   "definition": "separated at the joint",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Structural and bloodless: the joint has come apart, and the word says nothing at all about pain.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "dislocated.oewn-01321452-s",
+   "word": "dislocated",
+   "definition": "separated at the joint",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The exact term for a joint driven out of place, diagnostic where *disjointed* sounds merely come-apart.",
+   "usage_labels": [],
+   "examples": [
+    "a dislocated knee"
+   ]
+  },
+  {
+   "id": "eviscerate.oewn-01321601-s",
+   "word": "eviscerate",
+   "definition": "having been disembowelled",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most graphic member: the body opened and emptied, damage gone past anything that could still be called a wound.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "hurt.oewn-01321683-s",
+   "word": "hurt",
+   "definition": "suffering from physical injury especially that suffered in battle",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The softest word here for real physical injury - it carries the gloss's lean toward battle lightly, and shows nothing of the wound itself.",
+   "usage_labels": [],
+   "examples": [
+    "ambulances … for the hurt men and women"
+   ]
+  },
+  {
+   "id": "injured.oewn-01320916-a",
+   "word": "injured",
+   "definition": "harmed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flat report that harm was done, holding back every picture of it that *mangled* insists on showing.",
+   "usage_labels": [],
+   "examples": [
+    "injured soldiers"
+   ]
+  },
+  {
+   "id": "lacerate.oewn-01321879-s",
+   "word": "lacerate",
+   "definition": "having edges that are jagged from injury",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The clipped form for flesh left with jagged edges, cool in shape even though the picture it raises is not.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "lacerated.oewn-01321879-s",
+   "word": "lacerated",
+   "definition": "having edges that are jagged from injury",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The ordinary participle for that same ragged tearing, felt rather than measured, where *lacerate* stays curt.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "livid.oewn-01321272-s",
+   "word": "livid",
+   "definition": "discolored by coagulation of blood beneath the skin",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The same pooled discoloration in a leaden, grim register that makes the skin sound like something has gone badly wrong beneath it, where *black-and-blue* keeps it almost domestic.",
+   "usage_labels": [],
+   "examples": [
+    "livid bruises"
+   ]
+  },
+  {
+   "id": "mangled.oewn-01321879-s",
+   "word": "mangled",
+   "definition": "having edges that are jagged from injury",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most violent of these: the jagged edges read as wreckage, the thing ruined rather than merely cut.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "raw.oewn-01322003-s",
+   "word": "raw",
+   "definition": "having the surface exposed and painful",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Reports pain rather than shape: the covering is gone and what lies under it is left exposed and stinging, unlike the jagged-edge words beside it.",
+   "usage_labels": [],
+   "examples": [
+    "a raw wound"
+   ]
+  },
+  {
+   "id": "separated.oewn-01321452-s",
+   "word": "separated",
+   "definition": "separated at the joint",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The barest statement of the same parting at the joint — it neither winces nor diagnoses.",
+   "usage_labels": [],
+   "examples": [
+    "a separated shoulder"
+   ]
+  },
+  {
+   "id": "torn.oewn-01321879-s",
+   "word": "torn",
+   "definition": "having edges that are jagged from injury",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest word for a ragged injured edge — it names the tearing and stops, where *mangled* piles on ruin.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "wounded.oewn-01321683-s",
+   "word": "wounded",
+   "definition": "suffering from physical injury especially that suffered in battle",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Graver and more formal than *hurt* for the same injury, dignifying the damage and letting the battlefield sit close without shutting out other harm.",
+   "usage_labels": [],
+   "examples": [
+    "nursing his wounded arm"
+   ]
+  },
+  {
+   "id": "busy.oewn-01355409-s",
+   "word": "busy",
+   "definition": "intrusive in a meddling or offensive manner",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "An everyday word carrying the whole meddling charge, so the disparagement lands quietly where *officious* announces itself.",
+   "usage_labels": [],
+   "examples": [
+    "bustling about self-importantly making an officious nuisance of himself",
+    "busy about other people's business"
+   ]
+  },
+  {
+   "id": "busybodied.oewn-01355409-s",
+   "word": "busybodied",
+   "definition": "intrusive in a meddling or offensive manner",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Turns the offender into a type, dismissing the whole person rather than the one act *meddling* points to.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "encroaching.oewn-01355168-s",
+   "word": "encroaching",
+   "definition": "gradually intrusive without right or permission",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Stresses the slowness of it - the ground is taken a little at a time, so no single step looks like the violation that *invasive* makes it sound.",
+   "usage_labels": [],
+   "examples": [
+    "we moved back from the encroaching tide"
+   ]
+  },
+  {
+   "id": "interfering.oewn-01355409-s",
+   "word": "interfering",
+   "definition": "intrusive in a meddling or offensive manner",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The flattest of the meddling group - it faults the getting-in-the-way rather than heaping on the contempt that *meddlesome* carries.",
+   "usage_labels": [],
+   "examples": [
+    "an interfering old woman"
+   ]
+  },
+  {
+   "id": "intrusive.oewn-01354915-a",
+   "word": "intrusive",
+   "definition": "tending to intrude (especially upon privacy)",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain term for the fault: it names the pushing-in itself, without the added charge of trespass that *encroaching* carries or the contempt in *meddlesome*.",
+   "usage_labels": [],
+   "examples": [
+    "she felt her presence there was intrusive"
+   ]
+  }
+ ]
+}

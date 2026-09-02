@@ -1,0 +1,113 @@
+{
+ "sample": "census-009",
+ "seed": null,
+ "population": 287,
+ "read": 287,
+ "right": 280,
+ "wrong": 6,
+ "unsure": 1,
+ "error_rate_pct": 2.1,
+ "threshold_pct": 5.0,
+ "reader_model": "claude-fable-5-1",
+ "reader_effort": "xhigh",
+ "reader_agent": ".claude/agents/census-reader.md",
+ "reader_tools": "Read, Write",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
+ "missing_packets": [],
+ "unread": [],
+ "verdicts_for_unknown_ids": [],
+ "faults": {
+  "gloss-mismatch": 5,
+  "provenance": 1,
+  "restriction": 1
+ },
+ "by_part_of_speech": {
+  "adjective": {
+   "read": 287,
+   "right": 280,
+   "wrong": 6,
+   "unsure": 1,
+   "error_rate_pct": 2.1
+  }
+ },
+ "failures_by_synset": {
+  "oewn-00592317-a": [
+   {
+    "id": "discontent.oewn-00592317-a",
+    "word": "discontent",
+    "verdict": "wrong",
+    "fault": "provenance",
+    "why": "Calling it 'the clipped form' of discontented is a word-formation origin story of the back-formation kind, not a statement of what the word does.",
+    "definition": "showing or experiencing dissatisfaction or restless longing",
+    "tone": "Covers the same ground as *discontented* - dissatisfaction or restless longing alike - but the clipped form makes it read as a fixed condition rather than a passing mood."
+   }
+  ],
+  "oewn-00592653-s": [
+   {
+    "id": "rebellious.oewn-00592653-s",
+    "word": "rebellious",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "The gloss is a feeling, discontented toward authority, but 'broken into open defiance' describes the word's commoner resisting-or-revolting sense rather than this one.",
+    "definition": "discontented as toward authority",
+    "tone": "The hottest of the authority-facing senses, discontent that has broken into open defiance instead of sitting in itself like *disaffected*."
+   }
+  ],
+  "oewn-01054589-s": [
+   {
+    "id": "pathetic.oewn-01054589-s",
+    "word": "pathetic",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "The note describes pity curdled into contempt, which is the separate 'inspiring mixed contempt and pity' sense, not this gloss of plain pity whose example is a shabby room striking someone as pathetic.",
+    "definition": "deserving or inciting pity",
+    "tone": "Pity curdled into contempt, looking down at what it pities in a way *piteous* never does."
+   },
+   {
+    "id": "pitiable.oewn-01054589-s",
+    "word": "pitiable",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "Saying the word can grant pity 'while withholding respect' imports the contempt sense of the lemma; this gloss is plain pity and its example (pitiable homeless children) carries no scorn.",
+    "definition": "deserving or inciting pity",
+    "tone": "Sits on the hinge, able to ask for pity or to grant it while withholding respect, where *piteous* only asks."
+   }
+  ],
+  "oewn-01073210-s": [
+   {
+    "id": "cold.oewn-01073210-s",
+    "word": "cold",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "The note narrows the sense to food ('leaving the eater to reach the conclusion') and calls it euphemism, but this sense's examples are a cold trail and a cold scent, which the note's food framing cannot cover.",
+    "definition": "having lost freshness through passage of time",
+    "tone": "Understated to the edge of euphemism: it says only that time has passed and the freshness with it, leaving the eater to reach the conclusion *stale* states outright."
+   }
+  ],
+  "oewn-01134954-s": [
+   {
+    "id": "grievous.oewn-01134954-s",
+    "word": "grievous",
+    "verdict": "unsure",
+    "fault": "gloss-mismatch",
+    "why": "Gloss is 'shockingly brutal or cruel' but the note relocates the word to 'gravity' and 'damage' and denies shock, which reads like the grave/serious sense of grievous rather than this one; yet it is framed as intra-synset contrast with atrocious and the examples fit, so I cannot settle it.",
+    "definition": "shockingly brutal or cruel",
+    "tone": "Weighs the damage rather than the outrage — gravity where *atrocious* offers shock."
+   }
+  ],
+  "oewn-01355168-s": [
+   {
+    "id": "invasive.oewn-01355168-s",
+    "word": "invasive",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "The gloss is 'gradually intrusive', but the note casts the word as an incursion, 'force rather than the patient creep', which denies the gradual quality the gloss makes definitional and reads the aggressive-attack sense instead.",
+    "definition": "gradually intrusive without right or permission",
+    "tone": "Casts the same unpermitted advance as an incursion, force rather than the patient creep of *encroaching*."
+   }
+  ]
+ },
+ "blindness": "readers held only their own packet and the rubric; no repo, no data/policy/, authored files cleared before the read",
+ "repairs": "7 repaired (6 wrong + the 1 unsure) and re-read blind. First round 5/7; pathetic and invasive both failed again on gloss-mismatch, the same class as the original. Second round 2/2. Final 7/7.",
+ "pre_read_checks": "tone_lint clean including the new family-inconsistent rule, which found nothing in this shard; family_apply's axis-direction check caught three families whose axis label read mild-first against an all-negative spectrum, all reversed before the read"
+}

@@ -1,0 +1,115 @@
+{
+ "_comment": "Withheld from automated authoring under plan 5.3. The family is savage, barbarian, barbaric, barbarous, uncivilized, primitive, preliterate - words applied to whole peoples and societies, carrying a history of being used to justify what was done to them. Grading how much contempt each carries IS the sensitive judgement. Manual queue, never auto-drafted. Third such family, after held-5.3-deaf and held-5.3-illegitimate.",
+ "_screen_note": "Caught by reading the draw, not by the ad-hoc regex - the third miss in three ticks. That is what prompted tools/sensitive_screen.py, which now carries the term list this family taught it and does flag this family. The screen remains a smoke alarm: it also flagged wild/untamed on 'savage', where the gloss is 'wild and menacing' about animals, and three families on the word 'black' (black-and-blue, a black day). A flag is not a verdict.",
+ "families": [
+  {
+   "id": "family-00413644-a",
+   "axis": "condemning → praising",
+   "_head": [
+    "noncivilized",
+    "noncivilised"
+   ],
+   "_definition": "not having a high state of culture and social development",
+   "anchors": [
+    "noncivilized",
+    "noncivilised",
+    "barbarian",
+    "barbaric",
+    "savage",
+    "uncivilized"
+   ],
+   "members": [
+    {
+     "word": "noncivilized",
+     "synset": "oewn-00413644-a",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "not having a high state of culture and social development"
+    },
+    {
+     "word": "noncivilised",
+     "synset": "oewn-00413644-a",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "not having a high state of culture and social development"
+    },
+    {
+     "word": "barbarian",
+     "synset": "oewn-00413865-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "without civilizing influences"
+    },
+    {
+     "word": "barbaric",
+     "synset": "oewn-00413865-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "without civilizing influences"
+    },
+    {
+     "word": "savage",
+     "synset": "oewn-00413865-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "without civilizing influences"
+    },
+    {
+     "word": "uncivilized",
+     "synset": "oewn-00413865-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "without civilizing influences"
+    },
+    {
+     "word": "uncivilised",
+     "synset": "oewn-00413865-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "without civilizing influences"
+    },
+    {
+     "word": "wild",
+     "synset": "oewn-00413865-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "without civilizing influences"
+    },
+    {
+     "word": "barbarous",
+     "synset": "oewn-00414301-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "primitive in customs and culture"
+    },
+    {
+     "word": "preliterate",
+     "synset": "oewn-00414389-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "used of a society that has not developed writing",
+     "_skip": true,
+     "_skip_reason": "gloss is a usage restriction, not a definition"
+    },
+    {
+     "word": "nonliterate",
+     "synset": "oewn-00414389-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "used of a society that has not developed writing",
+     "_skip": true,
+     "_skip_reason": "gloss is a usage restriction, not a definition"
+    },
+    {
+     "word": "primitive",
+     "synset": "oewn-00414509-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "used of preliterate or tribal or nonindustrial societies",
+     "_skip": true,
+     "_skip_reason": "gloss is a usage restriction, not a definition"
+    }
+   ]
+  }
+ ]
+}

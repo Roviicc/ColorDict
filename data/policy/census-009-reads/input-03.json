@@ -1,0 +1,629 @@
+{
+ "packet": 3,
+ "count": 48,
+ "entries": [
+  {
+   "id": "dispossessed.oewn-01054302-s",
+   "word": "dispossessed",
+   "definition": "physically or spiritually homeless or deprived of security",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Frames the condition as something stripped away, whether the security lost is literal shelter or inward footing, where *homeless* only reports the absence.",
+   "usage_labels": [],
+   "examples": [
+    "made a living out of shepherding dispossessed people from one country to another"
+   ]
+  },
+  {
+   "id": "fatal.oewn-01053787-s",
+   "word": "fatal",
+   "definition": "(of events) having extremely unfortunate or dire consequences; bringing ruin",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Treats the ruin as finished business, the consequences ending things rather than merely wrecking them as *disastrous* allows.",
+   "usage_labels": [],
+   "examples": [
+    "such doctrines, if true, would be absolutely fatal to my theory",
+    "it is fatal to enter any war without the will to win it"
+   ]
+  },
+  {
+   "id": "fateful.oewn-01053787-s",
+   "word": "fateful",
+   "definition": "(of events) having extremely unfortunate or dire consequences; bringing ruin",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Weights the ruin with inevitability, as though the outcome were settled before the event, a solemnity *disastrous* never claims.",
+   "usage_labels": [],
+   "examples": [
+    "a fateful error"
+   ]
+  },
+  {
+   "id": "hapless.oewn-01054589-s",
+   "word": "hapless",
+   "definition": "deserving or inciting pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Almost fond pity for someone luck keeps failing, entirely free of the contempt in *pathetic*.",
+   "usage_labels": [],
+   "examples": [
+    "a hapless victim"
+   ]
+  },
+  {
+   "id": "homeless.oewn-01054302-s",
+   "word": "homeless",
+   "definition": "physically or spiritually homeless or deprived of security",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The flat naming term, covering the person without a roof and the one without spiritual anchorage alike, and carrying none of the grievance in *dispossessed*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "miserable.oewn-01054589-s",
+   "word": "miserable",
+   "definition": "deserving or inciting pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Wretchedness thick enough to be uncomfortable to look at, far heavier than the light sympathy of *hapless*.",
+   "usage_labels": [],
+   "examples": [
+    "miserable victims of war"
+   ]
+  },
+  {
+   "id": "misfortunate.oewn-01054589-s",
+   "word": "misfortunate",
+   "definition": "deserving or inciting pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest of these, granting that the pity is deserved and stopping there, where *pathetic* adds scorn to it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "pathetic.oewn-01054589-s",
+   "word": "pathetic",
+   "definition": "deserving or inciting pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Pity curdled into contempt, looking down at what it pities in a way *piteous* never does.",
+   "usage_labels": [],
+   "examples": [
+    "the shabby room struck her as extraordinarily pathetic"
+   ]
+  },
+  {
+   "id": "piteous.oewn-01054589-s",
+   "word": "piteous",
+   "definition": "deserving or inciting pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Elevated and unmixed, the suffering moving whoever sees it rather than lowering the sufferer as *pathetic* does.",
+   "usage_labels": [],
+   "examples": [
+    "piteous appeals for help"
+   ]
+  },
+  {
+   "id": "pitiable.oewn-01054589-s",
+   "word": "pitiable",
+   "definition": "deserving or inciting pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Sits on the hinge, able to ask for pity or to grant it while withholding respect, where *piteous* only asks.",
+   "usage_labels": [],
+   "examples": [
+    "pitiable homeless children"
+   ]
+  },
+  {
+   "id": "roofless.oewn-01054302-s",
+   "word": "roofless",
+   "definition": "physically or spiritually homeless or deprived of security",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Keeps a bleak physical picture even when the exposure it names is inward, which makes it starker than *homeless*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unfortunate.oewn-01053161-a",
+   "word": "unfortunate",
+   "definition": "not favored by fortune; marked or accompanied by or resulting in ill fortune",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The mildest way to mark ill luck, registering that fortune went against someone with none of the ruin *calamitous* insists on.",
+   "usage_labels": [],
+   "examples": [
+    "an unfortunate turn of events",
+    "an unfortunate decision",
+    "unfortunate investments",
+    "an unfortunate night for all concerned"
+   ]
+  },
+  {
+   "id": "addled.oewn-01072943-s",
+   "word": "addled",
+   "definition": "(of eggs) no longer edible",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A flat verdict on an egg: not merely aging but past eating, and far blunter about it than *stale*.",
+   "usage_labels": [],
+   "examples": [
+    "an addled egg"
+   ]
+  },
+  {
+   "id": "bad.oewn-01073039-s",
+   "word": "bad",
+   "definition": "(of foodstuffs) not in an edible or usable condition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The blankest possible condemnation — no mold, no smell, no rot named, just the ruling that the food can no longer be eaten or used.",
+   "usage_labels": [],
+   "examples": [
+    "bad meat"
+   ]
+  },
+  {
+   "id": "cold.oewn-01073210-s",
+   "word": "cold",
+   "definition": "having lost freshness through passage of time",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Understated to the edge of euphemism: it says only that time has passed and the freshness with it, leaving the eater to reach the conclusion *stale* states outright.",
+   "usage_labels": [],
+   "examples": [
+    "a cold trail",
+    "dogs attempting to catch a cold scent"
+   ]
+  },
+  {
+   "id": "corrupt.oewn-01074386-s",
+   "word": "corrupt",
+   "definition": "touched by rot or decay",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal, almost delicate for what it names: rot or decay has only touched the thing, not finished it as in *rotten*.",
+   "usage_labels": [],
+   "examples": [
+    "‘corrupt’ is archaic"
+   ]
+  },
+  {
+   "id": "day-old.oewn-01073363-s",
+   "word": "day-old",
+   "definition": "not fresh today",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely a matter of the calendar — it dates the food and leaves the verdict unspoken, where *stale* delivers one.",
+   "usage_labels": [],
+   "examples": [
+    "day-old bread is cheaper than fresh"
+   ]
+  },
+  {
+   "id": "flyblown.oewn-01073579-s",
+   "word": "flyblown",
+   "definition": "spoiled and covered with eggs and larvae of flies",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Disgust made literal: the ruin is not merely named but shown, with the flies' eggs and larvae sitting on it.",
+   "usage_labels": [],
+   "examples": [
+    "flyblown meat"
+   ]
+  },
+  {
+   "id": "hard.oewn-01073471-s",
+   "word": "hard",
+   "definition": "dried out",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Reports a texture rather than a decay — the food has dried out, not gone foul — which makes it the least damning word in the family.",
+   "usage_labels": [],
+   "examples": [
+    "hard dry rolls left over from the day before"
+   ]
+  },
+  {
+   "id": "maggoty.oewn-01073579-s",
+   "word": "maggoty",
+   "definition": "spoiled and covered with eggs and larvae of flies",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Carries the same infestation as *flyblown*, eggs and larvae alike, but puts the crawling larvae in front of you, which makes it the harder of the two to hear.",
+   "usage_labels": [],
+   "examples": [
+    "a sack of maggoty apricots"
+   ]
+  },
+  {
+   "id": "moldy.oewn-01073758-s",
+   "word": "moldy",
+   "definition": "covered with or smelling of mold",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A specific and repellent charge — the growth seen on the food or smelled off it — where *bad* offers only a ruling.",
+   "usage_labels": [],
+   "examples": [
+    "moldy bread",
+    "a moldy (or musty) odor"
+   ]
+  },
+  {
+   "id": "mouldy.oewn-01073758-s",
+   "word": "mouldy",
+   "definition": "covered with or smelling of mold",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "British spelling of *moldy*, just as exact about mold either seen or smelled.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "musty.oewn-01073758-s",
+   "word": "musty",
+   "definition": "covered with or smelling of mold",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The gentlest of the three words for this condition, charging the same mold on the food or smell of mold off it with none of *moldy*'s bluntness.",
+   "usage_labels": [],
+   "examples": [
+    "a moldy (or musty) odor"
+   ]
+  },
+  {
+   "id": "rancid.oewn-01073991-s",
+   "word": "rancid",
+   "definition": "(used of decomposing oils or fats) having a rank smell or taste usually due to a chemical change or decomposition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Fixes on fats and oils gone over and on the rank smell or taste that gives them away, a sensory accusation rather than *bad*'s bare ruling.",
+   "usage_labels": [],
+   "examples": [
+    "rancid butter",
+    "rancid bacon"
+   ]
+  },
+  {
+   "id": "rotten.oewn-01074208-s",
+   "word": "rotten",
+   "definition": "having decayed or disintegrated; usually implies foulness",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The word for full collapse — decay carried through to disintegration, and foulness with it.",
+   "usage_labels": [],
+   "examples": [
+    "dead and rotten in his grave"
+   ]
+  },
+  {
+   "id": "spoiled.oewn-01073039-s",
+   "word": "spoiled",
+   "definition": "(of foodstuffs) not in an edible or usable condition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Frames the same loss — no longer edible or usable — as damage done to the food, a ruin rather than *bad*'s bare verdict.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "spoilt.oewn-01073039-s",
+   "word": "spoilt",
+   "definition": "(of foodstuffs) not in an edible or usable condition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "British spelling of *spoiled*, identical in force and equally final about food past eating or using.",
+   "usage_labels": [],
+   "examples": [
+    "a refrigerator full of spoilt food"
+   ]
+  },
+  {
+   "id": "stale.oewn-01072500-a",
+   "word": "stale",
+   "definition": "lacking freshness, palatability, or showing deterioration from age",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest word here for the whole slide out of freshness — taste gone, condition gone with age — without yet ruling the food inedible the way *bad* does.",
+   "usage_labels": [],
+   "examples": [
+    "stale bread",
+    "the beer was stale"
+   ]
+  },
+  {
+   "id": "bright.oewn-01125000-s",
+   "word": "bright",
+   "definition": "splendid",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise at its plainest - splendid, with none of the awe *sublime* carries or the record standing behind *storied*.",
+   "usage_labels": [],
+   "examples": [
+    "the bright stars of stage and screen",
+    "a bright moment in history",
+    "the bright pageantry of court"
+   ]
+  },
+  {
+   "id": "celebrated.oewn-01125164-s",
+   "word": "celebrated",
+   "definition": "having an illustrious past",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The illustrious past registered as acclaim - others have noticed, which *historied* does not bother to say.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "divine.oewn-01125269-s",
+   "word": "divine",
+   "definition": "being of such surpassing excellence as to suggest inspiration by the gods",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Excellence pushed past the human scale until it reads as god-given rather than merely achieved.",
+   "usage_labels": [],
+   "examples": [
+    "her pies were simply divine",
+    "the divine Shakespeare"
+   ]
+  },
+  {
+   "id": "elysian.oewn-01125269-s",
+   "word": "elysian",
+   "definition": "being of such surpassing excellence as to suggest inspiration by the gods",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most rarefied way to say that same god-touched excellence - ornate where *divine* is direct.",
+   "usage_labels": [],
+   "examples": [
+    "an elysian meal"
+   ]
+  },
+  {
+   "id": "empyreal.oewn-01125519-s",
+   "word": "empyreal",
+   "definition": "inspiring awe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Awe pitched at its loftiest and most ornate, where *sublime* delivers the same awe in a word that can be said plainly.",
+   "usage_labels": [],
+   "examples": [
+    "well-meaning ineptitude that rises to empyreal absurdity"
+   ]
+  },
+  {
+   "id": "empyrean.oewn-01125519-s",
+   "word": "empyrean",
+   "definition": "inspiring awe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Matched to *empyreal* in force - awe as sheer altitude, something the eye has to be raised to.",
+   "usage_labels": [],
+   "examples": [
+    "empyrean aplomb"
+   ]
+  },
+  {
+   "id": "glorious.oewn-01124687-a",
+   "word": "glorious",
+   "definition": "having or deserving or conferring glory",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The family's full measure - glory had, glory deserved and glory handed on, where *illustrious* claims only the having and the conferring.",
+   "usage_labels": [],
+   "examples": [
+    "a long and glorious career",
+    "our glorious literature"
+   ]
+  },
+  {
+   "id": "historied.oewn-01125164-s",
+   "word": "historied",
+   "definition": "having an illustrious past",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same illustrious past stated as plain fact rather than applause, and more formal for it than *celebrated*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "illustrious.oewn-01125751-s",
+   "word": "illustrious",
+   "definition": "having or conferring glory",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Glory as both possession and gift - it holds glory and lends it out, without *glorious*'s further claim that the glory is deserved.",
+   "usage_labels": [],
+   "examples": [
+    "an illustrious achievement"
+   ]
+  },
+  {
+   "id": "incandescent.oewn-01125883-s",
+   "word": "incandescent",
+   "definition": "characterized by ardent emotion or intensity or brilliance",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise for a white heat, whether of ardent feeling, of intensity or of sheer brilliance - it burns where *lustrous* only shines.",
+   "usage_labels": [],
+   "examples": [
+    "an incandescent performance"
+   ]
+  },
+  {
+   "id": "inspired.oewn-01125269-s",
+   "word": "inspired",
+   "definition": "being of such surpassing excellence as to suggest inspiration by the gods",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The mildest of the three - it credits the surpassing excellence to something breathed in from outside without naming the gods as *divine* and *elysian* do.",
+   "usage_labels": [],
+   "examples": [
+    "an inspired performance"
+   ]
+  },
+  {
+   "id": "lustrous.oewn-01126031-s",
+   "word": "lustrous",
+   "definition": "brilliant",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Brilliance as a finish on the surface - it gleams, where *incandescent* burns from inside.",
+   "usage_labels": [],
+   "examples": [
+    "set a lustrous example for others to follow",
+    "lustrous actors of the time"
+   ]
+  },
+  {
+   "id": "storied.oewn-01125164-s",
+   "word": "storied",
+   "definition": "having an illustrious past",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The illustrious past turned into something worth recounting - it implies a tale, where *celebrated* implies only admirers.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sublime.oewn-01125519-s",
+   "word": "sublime",
+   "definition": "inspiring awe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Awe that arrests rather than merely pleases - the word here that admits to being overwhelmed.",
+   "usage_labels": [],
+   "examples": [
+    "the sublime beauty of the night"
+   ]
+  },
+  {
+   "id": "atrocious.oewn-01134954-s",
+   "word": "atrocious",
+   "definition": "shockingly brutal or cruel",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The shock sits inside the word, so the brutality is reported as something that appals rather than as something merely wrong.",
+   "usage_labels": [],
+   "examples": [
+    "murder is an atrocious crime"
+   ]
+  },
+  {
+   "id": "bad.oewn-01135303-s",
+   "word": "bad",
+   "definition": "characterized by wickedness or immorality",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest word in the set made to carry wickedness, and the flatness is its force — *monstrous* shouts where this one only states.",
+   "usage_labels": [],
+   "examples": [
+    "led a very bad life"
+   ]
+  },
+  {
+   "id": "black.oewn-01135435-s",
+   "word": "black",
+   "definition": "stemming from evil characteristics or forces; wicked or dishonorable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Absolute and unshaded: the wickedness is treated as total rather than as a streak, and no mitigation is offered.",
+   "usage_labels": [],
+   "examples": [
+    "black deeds",
+    "a black lie",
+    "his black heart has concocted yet another black deed"
+   ]
+  },
+  {
+   "id": "corruptive.oewn-01135866-s",
+   "word": "corruptive",
+   "definition": "tending to corrupt or pervert",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Clinical in shape: it names an ongoing capacity to spoil rather than passing sentence on a single act.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "dark.oewn-01135435-s",
+   "word": "dark",
+   "definition": "stemming from evil characteristics or forces; wicked or dishonorable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Suggestive rather than accusing, placing the evil behind what is visible — in what a thing comes out of as much as in the thing itself.",
+   "usage_labels": [],
+   "examples": [
+    "Darth Vader of the dark side",
+    "a dark purpose",
+    "dark undercurrents of ethnic hostility"
+   ]
+  },
+  {
+   "id": "demonic.oewn-01136015-s",
+   "word": "demonic",
+   "definition": "extremely evil or cruel; expressive of cruelty or befitting hell",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Attributes the cruelty to a nature rather than a choice, as though it were the whole of what the thing is.",
+   "usage_labels": [],
+   "examples": [
+    "something demonic in him — something that could be cruel"
+   ]
+  }
+ ]
+}

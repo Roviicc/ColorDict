@@ -1,0 +1,3900 @@
+{
+ "sample": "census-009",
+ "population": 287,
+ "drawn": 287,
+ "scope": "every sense authored in tick 6 (shard 15), drawn complete rather than sampled",
+ "authoring": "parallel family-author agents, Opus 5 at xhigh, rubric verbatim, prompts identical across all 23 families",
+ "reading": "rubric verbatim from census-reader.md",
+ "comparability": "fully comparable to censuses 007 and 008 on both instruments",
+ "pre_read_checks": "tone_lint clean including the new family-inconsistent rule; family_apply axis-direction check clean after three reversals",
+ "by_shard": {
+  "annotated-015": 287
+ },
+ "entries": [
+  {
+   "id": "ambitious.oewn-00104850-a",
+   "word": "ambitious",
+   "definition": "having a strong desire for success or achievement",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain name for the desire itself, favourable but only mildly, and carrying no fault until *overambitious* attaches one.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00104850-a"
+  },
+  {
+   "id": "aspirant.oewn-00105332-s",
+   "word": "aspirant",
+   "definition": "desiring or striving for recognition or advancement",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and cool — it registers the reaching for recognition or advancement without any verdict on it, where *aspiring* sounds warm.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00104850-a"
+  },
+  {
+   "id": "aspiring.oewn-00105332-s",
+   "word": "aspiring",
+   "definition": "desiring or striving for recognition or advancement",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Treats the reaching as a credit to the person, though it promises nothing beyond the wanting and the effort themselves.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00104850-a"
+  },
+  {
+   "id": "compulsive.oewn-00105498-s",
+   "word": "compulsive",
+   "definition": "strongly motivated to succeed",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Frames the motivation as something that has hold of the person, so it lands closer to a diagnosis than to the compliment *determined* pays.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00104850-a"
+  },
+  {
+   "id": "determined.oewn-00105498-s",
+   "word": "determined",
+   "definition": "strongly motivated to succeed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The approving way to say it — the motivation reads as steadiness of will rather than as pressure, which is what separates it from *driven*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00104850-a"
+  },
+  {
+   "id": "driven.oewn-00105498-s",
+   "word": "driven",
+   "definition": "strongly motivated to succeed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Keeps the admiration but not the comfort: the motivation is felt as something pushing from behind rather than chosen.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00104850-a"
+  },
+  {
+   "id": "manque.oewn-00105624-s",
+   "word": "manque",
+   "definition": "unfulfilled or frustrated in realizing an ambition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal, and it files the ambition as one that came to nothing — the same verdict *would-be* delivers far more bluntly.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00104850-a"
+  },
+  {
+   "id": "overambitious.oewn-00105741-s",
+   "word": "overambitious",
+   "definition": "excessively ambitious",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Turns the quantity of the ambition into the fault, condemning as excess exactly what *ambitious* merely reports.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00104850-a"
+  },
+  {
+   "id": "pushful.oewn-00105117-s",
+   "word": "pushful",
+   "definition": "marked by aggressive ambition and energy and initiative",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "States the aggression as a quality of the person and still counts the energy and initiative in, so it stings less than *pushy*.",
+   "usage_labels": [],
+   "examples": [
+    "a pushful insurance agent"
+   ],
+   "family": "family-00104850-a"
+  },
+  {
+   "id": "pushy.oewn-00105117-s",
+   "word": "pushy",
+   "definition": "marked by aggressive ambition and energy and initiative",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The complaint form of that same drive: the energy is conceded, the aggression is what the word is actually for.",
+   "usage_labels": [],
+   "examples": [
+    "a pushful insurance agent"
+   ],
+   "family": "family-00104850-a"
+  },
+  {
+   "id": "wishful.oewn-00105332-s",
+   "word": "wishful",
+   "definition": "desiring or striving for recognition or advancement",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts its weight on the wanting rather than on any force behind it, making it the gentlest way to say what *pushy* says harshly.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00104850-a"
+  },
+  {
+   "id": "would-be.oewn-00105624-s",
+   "word": "would-be",
+   "definition": "unfulfilled or frustrated in realizing an ambition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Deflating in one stroke: it grants the ambition and withholds the achievement in the same breath.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00104850-a"
+  },
+  {
+   "id": "comfortable.oewn-00478809-a",
+   "word": "comfortable",
+   "definition": "providing or experiencing physical well-being or relief (‘comfy’ is informal)",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain baseline of the set, covering both the chair and the person sitting in it, without the warmth *cozy* adds.",
+   "usage_labels": [],
+   "examples": [
+    "comfortable clothes",
+    "comfortable suburban houses",
+    "made himself comfortable in an armchair",
+    "the antihistamine made her feel more comfortable",
+    "are you comfortable?"
+   ],
+   "family": "family-00478809-a"
+  },
+  {
+   "id": "comfy.oewn-00478809-a",
+   "word": "comfy",
+   "definition": "providing or experiencing physical well-being or relief (‘comfy’ is informal)",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal and fond where *comfortable* is plain, claiming no more ease than it does — only a softer way of saying it.",
+   "usage_labels": [],
+   "examples": [
+    "comfortable clothes",
+    "comfortable suburban houses",
+    "made himself comfortable in an armchair",
+    "the antihistamine made her feel more comfortable",
+    "are you comfortable?",
+    "feeling comfy now?"
+   ],
+   "family": "family-00478809-a"
+  },
+  {
+   "id": "cosy.oewn-00479274-s",
+   "word": "cosy",
+   "definition": "enjoying or affording comforting warmth and shelter especially in a small space",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Carries exactly *cozy*'s sheltered warmth; the difference is one of spelling, not of force.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00478809-a"
+  },
+  {
+   "id": "cozy.oewn-00479274-s",
+   "word": "cozy",
+   "definition": "enjoying or affording comforting warmth and shelter especially in a small space",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Adds warmth and shelter to *comfortable*'s bare ease, the comfort of being enclosed and kept warm.",
+   "usage_labels": [],
+   "examples": [
+    "a cozy nook near the fire"
+   ],
+   "family": "family-00478809-a"
+  },
+  {
+   "id": "easy.oewn-00479543-s",
+   "word": "easy",
+   "definition": "affording comfort",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The thinnest word here: it says a thing affords comfort and stops, with none of *cozy*'s warmth or *soothing*'s relief.",
+   "usage_labels": [],
+   "examples": [
+    "soft light that was easy on the eyes"
+   ],
+   "family": "family-00478809-a"
+  },
+  {
+   "id": "homelike.oewn-00479651-s",
+   "word": "homelike",
+   "definition": "having a feeling of home; cozy and comfortable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Locates the comfort in the feeling of home, so it praises a place for putting you at ease rather than for warmth alone as *cozy* does.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00478809-a"
+  },
+  {
+   "id": "homely.oewn-00479651-s",
+   "word": "homely",
+   "definition": "having a feeling of home; cozy and comfortable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same home-feeling approval as *homelike*, settled and unshowy — the praise is for the ease of the place, not its grandeur.",
+   "usage_labels": [],
+   "examples": [
+    "the homely everyday atmosphere"
+   ],
+   "family": "family-00478809-a"
+  },
+  {
+   "id": "homey.oewn-00479651-s",
+   "word": "homey",
+   "definition": "having a feeling of home; cozy and comfortable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal where *homelike* is plainly descriptive, saying the same home-comfort more casually.",
+   "usage_labels": [],
+   "examples": [
+    "the homely everyday atmosphere",
+    "a homey little inn"
+   ],
+   "family": "family-00478809-a"
+  },
+  {
+   "id": "homy.oewn-00479651-s",
+   "word": "homy",
+   "definition": "having a feeling of home; cozy and comfortable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A spelling variant of *homey*, identical in its fond, informal warmth toward a place that feels like home.",
+   "usage_labels": [],
+   "examples": [
+    "the homely everyday atmosphere",
+    "a homey little inn"
+   ],
+   "family": "family-00478809-a"
+  },
+  {
+   "id": "snug.oewn-00479274-s",
+   "word": "snug",
+   "definition": "enjoying or affording comforting warmth and shelter especially in a small space",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Puts the weight on close fit — comfort from being tucked into a small space rather than merely warmed, more bodily than *cozy*.",
+   "usage_labels": [],
+   "examples": [
+    "snug in bed",
+    "a snug little apartment"
+   ],
+   "family": "family-00478809-a"
+  },
+  {
+   "id": "soothing.oewn-00479886-s",
+   "word": "soothing",
+   "definition": "affording physical relief",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Comfort framed as active relief — where *easy* merely affords comfort, this one implies a physical discomfort being eased.",
+   "usage_labels": [],
+   "examples": [
+    "a soothing ointment for her sunburn"
+   ],
+   "family": "family-00478809-a"
+  },
+  {
+   "id": "disaffected.oewn-00592653-s",
+   "word": "disaffected",
+   "definition": "discontented as toward authority",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Loyalty withdrawn: the discontent is pointed at authority but goes no further than turning away, where *rebellious* has already moved against it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00592317-a"
+  },
+  {
+   "id": "discontent.oewn-00592317-a",
+   "word": "discontent",
+   "definition": "showing or experiencing dissatisfaction or restless longing",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Covers the same ground as *discontented* - dissatisfaction or restless longing alike - but the clipped form makes it read as a fixed condition rather than a passing mood.",
+   "usage_labels": [],
+   "examples": [
+    "saw many discontent faces in the room",
+    "was discontented with his position"
+   ],
+   "family": "family-00592317-a"
+  },
+  {
+   "id": "discontented.oewn-00592317-a",
+   "word": "discontented",
+   "definition": "showing or experiencing dissatisfaction or restless longing",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain state-word of the family, reaching over both settled dissatisfaction and the restless longing for something else, and passing verdict on neither.",
+   "usage_labels": [],
+   "examples": [
+    "was discontented with his position"
+   ],
+   "family": "family-00592317-a"
+  },
+  {
+   "id": "disgruntled.oewn-00592856-s",
+   "word": "disgruntled",
+   "definition": "in a state of sulky dissatisfaction",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Belittling - the sulk in it makes the grievance look like a mood, so the complaint gets dismissed along with the complainer.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00592317-a"
+  },
+  {
+   "id": "dissatisfied.oewn-00592856-s",
+   "word": "dissatisfied",
+   "definition": "in a state of sulky dissatisfaction",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Reports the same sulky state with a straighter face, letting the mood be inferred where *disgruntled* puts it on display.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00592317-a"
+  },
+  {
+   "id": "ill-affected.oewn-00592653-s",
+   "word": "ill-affected",
+   "definition": "discontented as toward authority",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the weight on the ill feeling itself rather than on the falling-away *disaffected* names, and stays stiffer and more formal in doing so.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00592317-a"
+  },
+  {
+   "id": "malcontent.oewn-00592653-s",
+   "word": "malcontent",
+   "definition": "discontented as toward authority",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Faintly contemptuous - it makes standing against authority into a disposition the person carries, not a response they had.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00592317-a"
+  },
+  {
+   "id": "rebellious.oewn-00592653-s",
+   "word": "rebellious",
+   "definition": "discontented as toward authority",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The hottest of the authority-facing senses, discontent that has broken into open defiance instead of sitting in itself like *disaffected*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00592317-a"
+  },
+  {
+   "id": "restless.oewn-00592964-s",
+   "word": "restless",
+   "definition": "worried and uneasy",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Unease that will not sit still - the worry is felt as agitation rather than as a grievance against anything in particular.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00592317-a"
+  },
+  {
+   "id": "ungratified.oewn-00592964-s",
+   "word": "ungratified",
+   "definition": "worried and uneasy",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The most detached way of naming the worried unease, stating it as a condition and holding nothing against the person in it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00592317-a"
+  },
+  {
+   "id": "unsatisfied.oewn-00592964-s",
+   "word": "unsatisfied",
+   "definition": "worried and uneasy",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and unemphatic beside *restless*, registering the same worry and unease without any of the movement.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00592317-a"
+  },
+  {
+   "id": "crude.oewn-00686808-s",
+   "word": "crude",
+   "definition": "conspicuously and tastelessly indecent",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt and graceless force: the indecency is out in the open with no refinement over it, where *indecent* only names the offence.",
+   "usage_labels": [],
+   "examples": [
+    "a crude joke",
+    "crude behavior"
+   ],
+   "family": "family-00686462-a"
+  },
+  {
+   "id": "earthy.oewn-00686808-s",
+   "word": "earthy",
+   "definition": "conspicuously and tastelessly indecent",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The mildest-sounding word for the same conspicuous, tasteless indecency, its plainness softening what *gross* spits out.",
+   "usage_labels": [],
+   "examples": [
+    "an earthy sense of humor"
+   ],
+   "family": "family-00686462-a"
+  },
+  {
+   "id": "gross.oewn-00686808-s",
+   "word": "gross",
+   "definition": "conspicuously and tastelessly indecent",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Registers revulsion rather than disapproval, the indecency coarse enough to sicken, and the word is the flinch.",
+   "usage_labels": [],
+   "examples": [
+    "a revoltingly gross expletive"
+   ],
+   "family": "family-00686462-a"
+  },
+  {
+   "id": "indecent.oewn-00686462-a",
+   "word": "indecent",
+   "definition": "offensive to good taste especially in sexual matters",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The family's flat verdict of offence to good taste, sexual matters foremost though not only those, condemning without the flagrancy *crude* insists on.",
+   "usage_labels": [],
+   "examples": [
+    "an earthy but not indecent story",
+    "an indecent gesture"
+   ],
+   "family": "family-00686462-a"
+  },
+  {
+   "id": "indelicate.oewn-00687331-s",
+   "word": "indelicate",
+   "definition": "verging on the indecent",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The lightest reproof here, indecency approached but not arrived at, so it rebukes where *obscene* accuses.",
+   "usage_labels": [],
+   "examples": [
+    "an indelicate proposition"
+   ],
+   "family": "family-00686462-a"
+  },
+  {
+   "id": "obscene.oewn-00687440-s",
+   "word": "obscene",
+   "definition": "designed to incite to indecency or lust",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The heaviest charge in the family: not merely offensive but built to incite indecency or lust, design rather than effect.",
+   "usage_labels": [],
+   "examples": [
+    "the dance often becomes flagrantly obscene"
+   ],
+   "family": "family-00686462-a"
+  },
+  {
+   "id": "suggestive.oewn-00687611-s",
+   "word": "suggestive",
+   "definition": "tending to suggest something improper or indecent",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Works by implication, pointing toward the improper or the indecent without stating it, and accuses more lightly than *crude* for that reason.",
+   "usage_labels": [],
+   "examples": [
+    "a suggestive nod",
+    "suggestive poses"
+   ],
+   "family": "family-00686462-a"
+  },
+  {
+   "id": "vulgar.oewn-00686808-s",
+   "word": "vulgar",
+   "definition": "conspicuously and tastelessly indecent",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Passes judgement on the sensibility behind the indecency as much as on the act, a verdict of cheapness that *earthy* declines to pass.",
+   "usage_labels": [],
+   "examples": [
+    "a vulgar gesture",
+    "full of language so vulgar it should have been edited"
+   ],
+   "family": "family-00686462-a"
+  },
+  {
+   "id": "alert.oewn-00877534-s",
+   "word": "alert",
+   "definition": "quick and energetic",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Hears the quickness as responsiveness rather than pure pace, the coolest and least showy way of saying it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "brisk.oewn-00877534-s",
+   "word": "brisk",
+   "definition": "quick and energetic",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Crisp and businesslike - the pace earns approval on its efficiency alone, with none of the buoyancy *merry* adds.",
+   "usage_labels": [],
+   "examples": [
+    "a brisk walk in the park"
+   ],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "canty.oewn-00877855-s",
+   "word": "canty",
+   "definition": "lively and brisk",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Takes both halves at once, the animation of *lively* with the crispness of *brisk*, and stays mild where *rattling* is emphatic.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "driving.oewn-00877942-s",
+   "word": "driving",
+   "definition": "acting with vigor",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Vigor with push and direction behind it - force applied to something, not energy on display as in *lively*.",
+   "usage_labels": [],
+   "examples": [
+    "responsibility turned the spoiled playboy into a driving young executive"
+   ],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "energetic.oewn-00876911-a",
+   "word": "energetic",
+   "definition": "possessing or exerting or displaying energy",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain term of the family, covering energy merely held as readily as energy spent or shown, and approving mildly without insisting.",
+   "usage_labels": [],
+   "examples": [
+    "an energetic fund raiser for the college",
+    "an energetic group of hikers",
+    "it caused an energetic chemical reaction"
+   ],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "high-energy.oewn-00878089-s",
+   "word": "high-energy",
+   "definition": "providing a relatively large amount of energy upon undergoing a chemical reaction",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A measurement rather than a compliment, rating what a reaction yields and carrying none of the approval its neighbours do.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "indefatigable.oewn-00878228-s",
+   "word": "indefatigable",
+   "definition": "showing sustained enthusiastic action with unflagging vitality",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and the most admiring of the three, treating the unflagging vitality as a quality of character rather than a rate of output.",
+   "usage_labels": [],
+   "examples": [
+    "an indefatigable advocate of equal rights"
+   ],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "lively.oewn-00877534-s",
+   "word": "lively",
+   "definition": "quick and energetic",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warmer than *brisk*, since the quickness comes with visible animation rather than a merely good rate.",
+   "usage_labels": [],
+   "examples": [
+    "a lively gait"
+   ],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "merry.oewn-00877534-s",
+   "word": "merry",
+   "definition": "quick and energetic",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Makes speed sound light and unforced where *brisk* makes it sound efficient.",
+   "usage_labels": [],
+   "examples": [
+    "a merry chase"
+   ],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "physical.oewn-00877400-s",
+   "word": "physical",
+   "definition": "characterized by energetic bodily activity",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts the energy in the body and stops there - a description of what the activity is, not a verdict on it as *lively* is.",
+   "usage_labels": [],
+   "examples": [
+    "a very physical dance performance"
+   ],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "rattling.oewn-00877534-s",
+   "word": "rattling",
+   "definition": "quick and energetic",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "An intensifier more than a description, pushing quickness toward headlong in a way *brisk* never does.",
+   "usage_labels": [],
+   "examples": [
+    "traveling at a rattling rate"
+   ],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "snappy.oewn-00877534-s",
+   "word": "snappy",
+   "definition": "quick and energetic",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal and clipped - quickness with an edge on it, sharper and less dignified than *brisk*.",
+   "usage_labels": [],
+   "examples": [
+    "a snappy pace"
+   ],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "spanking.oewn-00877534-s",
+   "word": "spanking",
+   "definition": "quick and energetic",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Showier than *brisk*, admiring the sheer unchecked vigor of the pace rather than its neatness.",
+   "usage_labels": [],
+   "examples": [
+    "a spanking breeze"
+   ],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "tireless.oewn-00878228-s",
+   "word": "tireless",
+   "definition": "showing sustained enthusiastic action with unflagging vitality",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Plainer than *indefatigable*, praising the sustained action itself without dressing it up.",
+   "usage_labels": [],
+   "examples": [
+    "a tireless worker"
+   ],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "unflagging.oewn-00878228-s",
+   "word": "unflagging",
+   "definition": "showing sustained enthusiastic action with unflagging vitality",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praises what does not happen - the enthusiasm never dips - so it commends steadiness where *tireless* commends capacity.",
+   "usage_labels": [],
+   "examples": [
+    "unflagging pursuit of excellence"
+   ],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "zippy.oewn-00877534-s",
+   "word": "zippy",
+   "definition": "quick and energetic",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most informal of these, light and almost playful, carrying none of the weight *driving* does.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00876911-a"
+  },
+  {
+   "id": "anisometric.oewn-00895928-s",
+   "word": "anisometric",
+   "definition": "having unsymmetrical parts or unequal dimensions or measurements",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Technical and cool: it states that parts are out of symmetry or dimensions come out unequal, and stops there without calling either a defect.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00895672-a"
+  },
+  {
+   "id": "mismatched.oewn-00896066-s",
+   "word": "mismatched",
+   "definition": "(of a contest or contestants) not fairly matched as opponents",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Of a contest or the contestants in it, this puts the fault in the pairing itself - these two should never have been set against each other.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00895672-a"
+  },
+  {
+   "id": "nonequivalent.oewn-00896269-s",
+   "word": "nonequivalent",
+   "definition": "not equal or interchangeable in value, quantity, or significance",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A flat denial rather than a complaint - the two are not equal and not interchangeable in value, quantity or significance, and the gap between them goes unjudged.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00895672-a"
+  },
+  {
+   "id": "odds-on.oewn-00896411-s",
+   "word": "odds-on",
+   "definition": "having a better than even chance of success",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The one member where the imbalance is good news: the chance of success runs better than even, so the tilt reads as advantage rather than defect.",
+   "usage_labels": [],
+   "examples": [
+    "the odds-on favorite"
+   ],
+   "family": "family-00895672-a"
+  },
+  {
+   "id": "unbalanced.oewn-00896532-s",
+   "word": "unbalanced",
+   "definition": "debits and credits are not equal",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Strictly the ledger sense - debits failing to answer credits - which lands as an error in the books rather than as a neutral difference.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00895672-a"
+  },
+  {
+   "id": "unequal.oewn-00895672-a",
+   "word": "unequal",
+   "definition": "poorly balanced or matched in quantity or value or measure",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Carries a fault inside the measurement - poorly balanced or matched, not merely different - where *nonequivalent* only records that the quantities fail to agree.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00895672-a"
+  },
+  {
+   "id": "unequalised.oewn-00896640-s",
+   "word": "unequalised",
+   "definition": "not caused to be equal",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The British spelling of *unequalized* and just as unjudging - it says only that nothing was made equal.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00895672-a"
+  },
+  {
+   "id": "unequalized.oewn-00896640-s",
+   "word": "unequalized",
+   "definition": "not caused to be equal",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Points at what was not done rather than at the result: no levelling has been applied, where *unequal* passes judgement on the gap that remains.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00895672-a"
+  },
+  {
+   "id": "uneven.oewn-00896066-s",
+   "word": "uneven",
+   "definition": "(of a contest or contestants) not fairly matched as opponents",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Softer than *mismatched* for the same unfair contest: it notes that the thing tilts one way without condemning the making of the match.",
+   "usage_labels": [],
+   "examples": [
+    "vaudeville … waged an uneven battle against the church"
+   ],
+   "family": "family-00895672-a"
+  },
+  {
+   "id": "unsymmetrical.oewn-00895928-s",
+   "word": "unsymmetrical",
+   "definition": "having unsymmetrical parts or unequal dimensions or measurements",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain-spoken counterpart to *anisometric* for the same condition of parts or measurements, describing the lack of match rather than complaining of it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00895672-a"
+  },
+  {
+   "id": "implicit.oewn-00944754-a",
+   "word": "implicit",
+   "definition": "implied though not directly expressed; inherent in the nature of something",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Neutral and two-sided, covering both the meaning that was never spelled out and the one that sits in a thing's nature, where *unspoken* reaches only the first.",
+   "usage_labels": [],
+   "examples": [
+    "an implicit agreement not to raise the subject",
+    "there was implicit criticism in his voice",
+    "anger was implicit in the argument",
+    "the oak is implicit in the acorn"
+   ],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "implicit_in.oewn-00945209-s",
+   "word": "implicit in",
+   "definition": "in the nature of something though not readily apparent",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A relational phrase rather than a quality — it must name the thing the sense is lodged in, which the bare adjectives beside it need not do.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "inexplicit.oewn-00944754-a",
+   "word": "inexplicit",
+   "definition": "implied though not directly expressed; inherent in the nature of something",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Built as a negation, it frames the same implicitness as a shortfall in the telling, where *implicit* frames it as a property of the thing.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "inherent.oewn-00945209-s",
+   "word": "inherent",
+   "definition": "in the nature of something though not readily apparent",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The firmest claim of the three: not hidden by accident but built into what the thing is, and so not detachable from it.",
+   "usage_labels": [],
+   "examples": [
+    "shortcomings inherent in our approach"
+   ],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "silent.oewn-00945432-s",
+   "word": "silent",
+   "definition": "implied by or inferred from actions or statements",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain everyday word for a meaning that rides along with an act or a statement without being spoken, lighter in weight than *tacit*.",
+   "usage_labels": [],
+   "examples": [
+    "gave silent consent"
+   ],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "tacit.oewn-00945432-s",
+   "word": "tacit",
+   "definition": "implied by or inferred from actions or statements",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal, and it treats the unspoken meaning as settled and binding — something one is held to, which *silent* does not insist on.",
+   "usage_labels": [],
+   "examples": [
+    "a tacit agreement"
+   ],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "underlying.oewn-00945209-s",
+   "word": "underlying",
+   "definition": "in the nature of something though not readily apparent",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts the sense beneath a surface rather than inside a nature, implying something could be uncovered, where *inherent* makes it permanent.",
+   "usage_labels": [],
+   "examples": [
+    "an underlying meaning"
+   ],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "understood.oewn-00945432-s",
+   "word": "understood",
+   "definition": "implied by or inferred from actions or statements",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Adds successful uptake: the meaning was not merely implied but taken up on both sides, where *tacit* says only that it went unsaid.",
+   "usage_labels": [],
+   "examples": [
+    "the understood provisos of a custody agreement"
+   ],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "unexpressed.oewn-00945649-s",
+   "word": "unexpressed",
+   "definition": "not made explicit",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Neutral and general — it says the thing found no outward form at all, without insisting that words in particular were what went missing.",
+   "usage_labels": [],
+   "examples": [
+    "the unexpressed terms of the agreement"
+   ],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "unsaid.oewn-00945649-s",
+   "word": "unsaid",
+   "definition": "not made explicit",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plainest of the negatives, and it carries a faint sense of something held back, where *unexpressed* is a flat report.",
+   "usage_labels": [],
+   "examples": [
+    "things left unsaid"
+   ],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "unspoken.oewn-00945649-s",
+   "word": "unspoken",
+   "definition": "not made explicit",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The most loaded of the plain negatives — what is unspoken feels present and deliberately left alone, where *unstated* is only a blank.",
+   "usage_labels": [],
+   "examples": [
+    "some kind of unspoken agreement"
+   ],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "unstated.oewn-00945649-s",
+   "word": "unstated",
+   "definition": "not made explicit",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Dry and procedural, marking the absence the way one notes a missing entry, beside the more human *unsaid*.",
+   "usage_labels": [],
+   "examples": [
+    "his action is clear but his reason remains unstated"
+   ],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "unuttered.oewn-00945649-s",
+   "word": "unuttered",
+   "definition": "not made explicit",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Elevated and faintly literary, shaping the omission as something never let out rather than merely never recorded.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "unverbalised.oewn-00945649-s",
+   "word": "unverbalised",
+   "definition": "not made explicit",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The British spelling of the same clinical term, identical in force to *unverbalized*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "unverbalized.oewn-00945649-s",
+   "word": "unverbalized",
+   "definition": "not made explicit",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Clinical in register, framing the gap as a failure to convert into words rather than a silence with any weight to it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "unvoiced.oewn-00945649-s",
+   "word": "unvoiced",
+   "definition": "not made explicit",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Implies a voice was available and went unused, which gives it more pull than the flat *unverbalized*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00944754-a"
+  },
+  {
+   "id": "awkward.oewn-01004599-s",
+   "word": "awkward",
+   "definition": "not elegant or graceful in expression",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Mild - the expression stumbles without collapsing, and no verdict is passed on the ability behind it, unlike *inept*.",
+   "usage_labels": [],
+   "examples": [
+    "an awkward prose style"
+   ],
+   "family": "family-01004300-a"
+  },
+  {
+   "id": "clumsy.oewn-01004599-s",
+   "word": "clumsy",
+   "definition": "not elegant or graceful in expression",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Heavier than *awkward* - the expression is not merely ungainly but handled with a thick hand.",
+   "usage_labels": [],
+   "examples": [
+    "a clumsy apology"
+   ],
+   "family": "family-01004300-a"
+  },
+  {
+   "id": "cumbersome.oewn-01004599-s",
+   "word": "cumbersome",
+   "definition": "not elegant or graceful in expression",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Faults the expression for weight and unwieldiness, landing on the shape of the thing where *clumsy* lands on the handling.",
+   "usage_labels": [],
+   "examples": [
+    "his cumbersome writing style"
+   ],
+   "family": "family-01004300-a"
+  },
+  {
+   "id": "ill-chosen.oewn-01004599-s",
+   "word": "ill-chosen",
+   "definition": "not elegant or graceful in expression",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blames the selection rather than the person, faulting the words picked where *inept* faults whoever picked them.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01004300-a"
+  },
+  {
+   "id": "inapt.oewn-01004599-s",
+   "word": "inapt",
+   "definition": "not elegant or graceful in expression",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The dry, measured option - it records an expression as not fitting, with none of *clumsy*'s picture of bungled handling.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01004300-a"
+  },
+  {
+   "id": "inept.oewn-01004599-s",
+   "word": "inept",
+   "definition": "not elegant or graceful in expression",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The hardest of these words - it shifts the fault from the phrasing to the ability behind it, so gracelessness reads as incompetence.",
+   "usage_labels": [],
+   "examples": [
+    "if the rumor is true, can anything be more inept than to repeat it now?"
+   ],
+   "family": "family-01004300-a"
+  },
+  {
+   "id": "infelicitous.oewn-01004300-a",
+   "word": "infelicitous",
+   "definition": "not appropriate in application; defective",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and softened - it marks a thing as both misapplied and defective while keeping an apologetic surface, where *inept* simply condemns.",
+   "usage_labels": [],
+   "examples": [
+    "an infelicitous remark",
+    "infelicitous phrasing",
+    "the infelicitous typesetting was due to illegible copy"
+   ],
+   "family": "family-01004300-a"
+  },
+  {
+   "id": "unfortunate.oewn-01004966-s",
+   "word": "unfortunate",
+   "definition": "unsuitable or regrettable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The gentlest wording available - it calls a thing unsuitable and regrettable at once, treating the fault as bad luck rather than bad work.",
+   "usage_labels": [],
+   "examples": [
+    "an unfortunate choice of words",
+    "an unfortunate speech"
+   ],
+   "family": "family-01004300-a"
+  },
+  {
+   "id": "abject.oewn-01053640-s",
+   "word": "abject",
+   "definition": "most unfortunate or miserable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Superlative and unsparing, pushing misfortune to its floor where *unfortunate* only notes that luck ran out.",
+   "usage_labels": [],
+   "examples": [
+    "the most abject slaves joined in the revolt",
+    "abject poverty"
+   ],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "black.oewn-01053787-s",
+   "word": "black",
+   "definition": "(of events) having extremely unfortunate or dire consequences; bringing ruin",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Delivers the verdict in one flat syllable, calling an event doomed where *calamitous* spells out the wreckage.",
+   "usage_labels": [],
+   "examples": [
+    "the stock market crashed on Black Friday"
+   ],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "calamitous.oewn-01053787-s",
+   "word": "calamitous",
+   "definition": "(of events) having extremely unfortunate or dire consequences; bringing ruin",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Sizes the event by the wreckage it brings and says so at volume, where *black* passes the same sentence without raising its voice.",
+   "usage_labels": [],
+   "examples": [
+    "a calamitous defeat"
+   ],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "disastrous.oewn-01053787-s",
+   "word": "disastrous",
+   "definition": "(of events) having extremely unfortunate or dire consequences; bringing ruin",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest word for ruin at full scale, doing the work of *calamitous* without its air of grandeur.",
+   "usage_labels": [],
+   "examples": [
+    "the battle was a disastrous end to a disastrous campaign"
+   ],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "dispossessed.oewn-01054302-s",
+   "word": "dispossessed",
+   "definition": "physically or spiritually homeless or deprived of security",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Frames the condition as something stripped away, whether the security lost is literal shelter or inward footing, where *homeless* only reports the absence.",
+   "usage_labels": [],
+   "examples": [
+    "made a living out of shepherding dispossessed people from one country to another"
+   ],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "fatal.oewn-01053787-s",
+   "word": "fatal",
+   "definition": "(of events) having extremely unfortunate or dire consequences; bringing ruin",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Treats the ruin as finished business, the consequences ending things rather than merely wrecking them as *disastrous* allows.",
+   "usage_labels": [],
+   "examples": [
+    "such doctrines, if true, would be absolutely fatal to my theory",
+    "it is fatal to enter any war without the will to win it"
+   ],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "fateful.oewn-01053787-s",
+   "word": "fateful",
+   "definition": "(of events) having extremely unfortunate or dire consequences; bringing ruin",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Weights the ruin with inevitability, as though the outcome were settled before the event, a solemnity *disastrous* never claims.",
+   "usage_labels": [],
+   "examples": [
+    "a fateful error"
+   ],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "hapless.oewn-01054589-s",
+   "word": "hapless",
+   "definition": "deserving or inciting pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Almost fond pity for someone luck keeps failing, entirely free of the contempt in *pathetic*.",
+   "usage_labels": [],
+   "examples": [
+    "a hapless victim"
+   ],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "homeless.oewn-01054302-s",
+   "word": "homeless",
+   "definition": "physically or spiritually homeless or deprived of security",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The flat naming term, covering the person without a roof and the one without spiritual anchorage alike, and carrying none of the grievance in *dispossessed*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "miserable.oewn-01054589-s",
+   "word": "miserable",
+   "definition": "deserving or inciting pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Wretchedness thick enough to be uncomfortable to look at, far heavier than the light sympathy of *hapless*.",
+   "usage_labels": [],
+   "examples": [
+    "miserable victims of war"
+   ],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "misfortunate.oewn-01054589-s",
+   "word": "misfortunate",
+   "definition": "deserving or inciting pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest of these, granting that the pity is deserved and stopping there, where *pathetic* adds scorn to it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "pathetic.oewn-01054589-s",
+   "word": "pathetic",
+   "definition": "deserving or inciting pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Pity curdled into contempt, looking down at what it pities in a way *piteous* never does.",
+   "usage_labels": [],
+   "examples": [
+    "the shabby room struck her as extraordinarily pathetic"
+   ],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "piteous.oewn-01054589-s",
+   "word": "piteous",
+   "definition": "deserving or inciting pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Elevated and unmixed, the suffering moving whoever sees it rather than lowering the sufferer as *pathetic* does.",
+   "usage_labels": [],
+   "examples": [
+    "piteous appeals for help"
+   ],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "pitiable.oewn-01054589-s",
+   "word": "pitiable",
+   "definition": "deserving or inciting pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Sits on the hinge, able to ask for pity or to grant it while withholding respect, where *piteous* only asks.",
+   "usage_labels": [],
+   "examples": [
+    "pitiable homeless children"
+   ],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "roofless.oewn-01054302-s",
+   "word": "roofless",
+   "definition": "physically or spiritually homeless or deprived of security",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Keeps a bleak physical picture even when the exposure it names is inward, which makes it starker than *homeless*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "unfortunate.oewn-01053161-a",
+   "word": "unfortunate",
+   "definition": "not favored by fortune; marked or accompanied by or resulting in ill fortune",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The mildest way to mark ill luck, registering that fortune went against someone with none of the ruin *calamitous* insists on.",
+   "usage_labels": [],
+   "examples": [
+    "an unfortunate turn of events",
+    "an unfortunate decision",
+    "unfortunate investments",
+    "an unfortunate night for all concerned"
+   ],
+   "family": "family-01053161-a"
+  },
+  {
+   "id": "addled.oewn-01072943-s",
+   "word": "addled",
+   "definition": "(of eggs) no longer edible",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A flat verdict on an egg: not merely aging but past eating, and far blunter about it than *stale*.",
+   "usage_labels": [],
+   "examples": [
+    "an addled egg"
+   ],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "bad.oewn-01073039-s",
+   "word": "bad",
+   "definition": "(of foodstuffs) not in an edible or usable condition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The blankest possible condemnation — no mold, no smell, no rot named, just the ruling that the food can no longer be eaten or used.",
+   "usage_labels": [],
+   "examples": [
+    "bad meat"
+   ],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "cold.oewn-01073210-s",
+   "word": "cold",
+   "definition": "having lost freshness through passage of time",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Understated to the edge of euphemism: it says only that time has passed and the freshness with it, leaving the eater to reach the conclusion *stale* states outright.",
+   "usage_labels": [],
+   "examples": [
+    "a cold trail",
+    "dogs attempting to catch a cold scent"
+   ],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "corrupt.oewn-01074386-s",
+   "word": "corrupt",
+   "definition": "touched by rot or decay",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal, almost delicate for what it names: rot or decay has only touched the thing, not finished it as in *rotten*.",
+   "usage_labels": [],
+   "examples": [
+    "‘corrupt’ is archaic"
+   ],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "day-old.oewn-01073363-s",
+   "word": "day-old",
+   "definition": "not fresh today",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely a matter of the calendar — it dates the food and leaves the verdict unspoken, where *stale* delivers one.",
+   "usage_labels": [],
+   "examples": [
+    "day-old bread is cheaper than fresh"
+   ],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "flyblown.oewn-01073579-s",
+   "word": "flyblown",
+   "definition": "spoiled and covered with eggs and larvae of flies",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Disgust made literal: the ruin is not merely named but shown, with the flies' eggs and larvae sitting on it.",
+   "usage_labels": [],
+   "examples": [
+    "flyblown meat"
+   ],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "hard.oewn-01073471-s",
+   "word": "hard",
+   "definition": "dried out",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Reports a texture rather than a decay — the food has dried out, not gone foul — which makes it the least damning word in the family.",
+   "usage_labels": [],
+   "examples": [
+    "hard dry rolls left over from the day before"
+   ],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "maggoty.oewn-01073579-s",
+   "word": "maggoty",
+   "definition": "spoiled and covered with eggs and larvae of flies",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Carries the same infestation as *flyblown*, eggs and larvae alike, but puts the crawling larvae in front of you, which makes it the harder of the two to hear.",
+   "usage_labels": [],
+   "examples": [
+    "a sack of maggoty apricots"
+   ],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "moldy.oewn-01073758-s",
+   "word": "moldy",
+   "definition": "covered with or smelling of mold",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A specific and repellent charge — the growth seen on the food or smelled off it — where *bad* offers only a ruling.",
+   "usage_labels": [],
+   "examples": [
+    "moldy bread",
+    "a moldy (or musty) odor"
+   ],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "mouldy.oewn-01073758-s",
+   "word": "mouldy",
+   "definition": "covered with or smelling of mold",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "British spelling of *moldy*, just as exact about mold either seen or smelled.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "musty.oewn-01073758-s",
+   "word": "musty",
+   "definition": "covered with or smelling of mold",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The gentlest of the three words for this condition, charging the same mold on the food or smell of mold off it with none of *moldy*'s bluntness.",
+   "usage_labels": [],
+   "examples": [
+    "a moldy (or musty) odor"
+   ],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "rancid.oewn-01073991-s",
+   "word": "rancid",
+   "definition": "(used of decomposing oils or fats) having a rank smell or taste usually due to a chemical change or decomposition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Fixes on fats and oils gone over and on the rank smell or taste that gives them away, a sensory accusation rather than *bad*'s bare ruling.",
+   "usage_labels": [],
+   "examples": [
+    "rancid butter",
+    "rancid bacon"
+   ],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "rotten.oewn-01074208-s",
+   "word": "rotten",
+   "definition": "having decayed or disintegrated; usually implies foulness",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The word for full collapse — decay carried through to disintegration, and foulness with it.",
+   "usage_labels": [],
+   "examples": [
+    "dead and rotten in his grave"
+   ],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "spoiled.oewn-01073039-s",
+   "word": "spoiled",
+   "definition": "(of foodstuffs) not in an edible or usable condition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Frames the same loss — no longer edible or usable — as damage done to the food, a ruin rather than *bad*'s bare verdict.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "spoilt.oewn-01073039-s",
+   "word": "spoilt",
+   "definition": "(of foodstuffs) not in an edible or usable condition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "British spelling of *spoiled*, identical in force and equally final about food past eating or using.",
+   "usage_labels": [],
+   "examples": [
+    "a refrigerator full of spoilt food"
+   ],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "stale.oewn-01072500-a",
+   "word": "stale",
+   "definition": "lacking freshness, palatability, or showing deterioration from age",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest word here for the whole slide out of freshness — taste gone, condition gone with age — without yet ruling the food inedible the way *bad* does.",
+   "usage_labels": [],
+   "examples": [
+    "stale bread",
+    "the beer was stale"
+   ],
+   "family": "family-01072500-a"
+  },
+  {
+   "id": "bright.oewn-01125000-s",
+   "word": "bright",
+   "definition": "splendid",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise at its plainest - splendid, with none of the awe *sublime* carries or the record standing behind *storied*.",
+   "usage_labels": [],
+   "examples": [
+    "the bright stars of stage and screen",
+    "a bright moment in history",
+    "the bright pageantry of court"
+   ],
+   "family": "family-01124687-a"
+  },
+  {
+   "id": "celebrated.oewn-01125164-s",
+   "word": "celebrated",
+   "definition": "having an illustrious past",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The illustrious past registered as acclaim - others have noticed, which *historied* does not bother to say.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01124687-a"
+  },
+  {
+   "id": "divine.oewn-01125269-s",
+   "word": "divine",
+   "definition": "being of such surpassing excellence as to suggest inspiration by the gods",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Excellence pushed past the human scale until it reads as god-given rather than merely achieved.",
+   "usage_labels": [],
+   "examples": [
+    "her pies were simply divine",
+    "the divine Shakespeare"
+   ],
+   "family": "family-01124687-a"
+  },
+  {
+   "id": "elysian.oewn-01125269-s",
+   "word": "elysian",
+   "definition": "being of such surpassing excellence as to suggest inspiration by the gods",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most rarefied way to say that same god-touched excellence - ornate where *divine* is direct.",
+   "usage_labels": [],
+   "examples": [
+    "an elysian meal"
+   ],
+   "family": "family-01124687-a"
+  },
+  {
+   "id": "empyreal.oewn-01125519-s",
+   "word": "empyreal",
+   "definition": "inspiring awe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Awe pitched at its loftiest and most ornate, where *sublime* delivers the same awe in a word that can be said plainly.",
+   "usage_labels": [],
+   "examples": [
+    "well-meaning ineptitude that rises to empyreal absurdity"
+   ],
+   "family": "family-01124687-a"
+  },
+  {
+   "id": "empyrean.oewn-01125519-s",
+   "word": "empyrean",
+   "definition": "inspiring awe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Matched to *empyreal* in force - awe as sheer altitude, something the eye has to be raised to.",
+   "usage_labels": [],
+   "examples": [
+    "empyrean aplomb"
+   ],
+   "family": "family-01124687-a"
+  },
+  {
+   "id": "glorious.oewn-01124687-a",
+   "word": "glorious",
+   "definition": "having or deserving or conferring glory",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The family's full measure - glory had, glory deserved and glory handed on, where *illustrious* claims only the having and the conferring.",
+   "usage_labels": [],
+   "examples": [
+    "a long and glorious career",
+    "our glorious literature"
+   ],
+   "family": "family-01124687-a"
+  },
+  {
+   "id": "historied.oewn-01125164-s",
+   "word": "historied",
+   "definition": "having an illustrious past",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same illustrious past stated as plain fact rather than applause, and more formal for it than *celebrated*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01124687-a"
+  },
+  {
+   "id": "illustrious.oewn-01125751-s",
+   "word": "illustrious",
+   "definition": "having or conferring glory",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Glory as both possession and gift - it holds glory and lends it out, without *glorious*'s further claim that the glory is deserved.",
+   "usage_labels": [],
+   "examples": [
+    "an illustrious achievement"
+   ],
+   "family": "family-01124687-a"
+  },
+  {
+   "id": "incandescent.oewn-01125883-s",
+   "word": "incandescent",
+   "definition": "characterized by ardent emotion or intensity or brilliance",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise for a white heat, whether of ardent feeling, of intensity or of sheer brilliance - it burns where *lustrous* only shines.",
+   "usage_labels": [],
+   "examples": [
+    "an incandescent performance"
+   ],
+   "family": "family-01124687-a"
+  },
+  {
+   "id": "inspired.oewn-01125269-s",
+   "word": "inspired",
+   "definition": "being of such surpassing excellence as to suggest inspiration by the gods",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The mildest of the three - it credits the surpassing excellence to something breathed in from outside without naming the gods as *divine* and *elysian* do.",
+   "usage_labels": [],
+   "examples": [
+    "an inspired performance"
+   ],
+   "family": "family-01124687-a"
+  },
+  {
+   "id": "lustrous.oewn-01126031-s",
+   "word": "lustrous",
+   "definition": "brilliant",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Brilliance as a finish on the surface - it gleams, where *incandescent* burns from inside.",
+   "usage_labels": [],
+   "examples": [
+    "set a lustrous example for others to follow",
+    "lustrous actors of the time"
+   ],
+   "family": "family-01124687-a"
+  },
+  {
+   "id": "storied.oewn-01125164-s",
+   "word": "storied",
+   "definition": "having an illustrious past",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The illustrious past turned into something worth recounting - it implies a tale, where *celebrated* implies only admirers.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01124687-a"
+  },
+  {
+   "id": "sublime.oewn-01125519-s",
+   "word": "sublime",
+   "definition": "inspiring awe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Awe that arrests rather than merely pleases - the word here that admits to being overwhelmed.",
+   "usage_labels": [],
+   "examples": [
+    "the sublime beauty of the night"
+   ],
+   "family": "family-01124687-a"
+  },
+  {
+   "id": "atrocious.oewn-01134954-s",
+   "word": "atrocious",
+   "definition": "shockingly brutal or cruel",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The shock sits inside the word, so the brutality is reported as something that appals rather than as something merely wrong.",
+   "usage_labels": [],
+   "examples": [
+    "murder is an atrocious crime"
+   ],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "bad.oewn-01135303-s",
+   "word": "bad",
+   "definition": "characterized by wickedness or immorality",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest word in the set made to carry wickedness, and the flatness is its force — *monstrous* shouts where this one only states.",
+   "usage_labels": [],
+   "examples": [
+    "led a very bad life"
+   ],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "black.oewn-01135435-s",
+   "word": "black",
+   "definition": "stemming from evil characteristics or forces; wicked or dishonorable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Absolute and unshaded: the wickedness is treated as total rather than as a streak, and no mitigation is offered.",
+   "usage_labels": [],
+   "examples": [
+    "black deeds",
+    "a black lie",
+    "his black heart has concocted yet another black deed"
+   ],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "corruptive.oewn-01135866-s",
+   "word": "corruptive",
+   "definition": "tending to corrupt or pervert",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Clinical in shape: it names an ongoing capacity to spoil rather than passing sentence on a single act.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "dark.oewn-01135435-s",
+   "word": "dark",
+   "definition": "stemming from evil characteristics or forces; wicked or dishonorable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Suggestive rather than accusing, placing the evil behind what is visible — in what a thing comes out of as much as in the thing itself.",
+   "usage_labels": [],
+   "examples": [
+    "Darth Vader of the dark side",
+    "a dark purpose",
+    "dark undercurrents of ethnic hostility"
+   ],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "demonic.oewn-01136015-s",
+   "word": "demonic",
+   "definition": "extremely evil or cruel; expressive of cruelty or befitting hell",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Attributes the cruelty to a nature rather than a choice, as though it were the whole of what the thing is.",
+   "usage_labels": [],
+   "examples": [
+    "something demonic in him — something that could be cruel"
+   ],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "diabolic.oewn-01136015-s",
+   "word": "diabolic",
+   "definition": "extremely evil or cruel; expressive of cruelty or befitting hell",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts design behind the cruelty: intelligence at work, not the blind brutality of *atrocious*.",
+   "usage_labels": [],
+   "examples": [
+    "fires lit up a diabolic scene",
+    "diabolical sorcerers under the influence of devils"
+   ],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "diabolical.oewn-01136015-s",
+   "word": "diabolical",
+   "definition": "extremely evil or cruel; expressive of cruelty or befitting hell",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The longer form of *diabolic*, and the extra syllable gives it room to sound theatrical rather than clinical.",
+   "usage_labels": [],
+   "examples": [
+    "diabolical sorcerers under the influence of devils"
+   ],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "evil.oewn-01134543-a",
+   "word": "evil",
+   "definition": "morally bad or wrong",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The bare verdict: it names the wrongness itself and says nothing of the manner, which is what *atrocious* and *fiendish* are for.",
+   "usage_labels": [],
+   "examples": [
+    "evil purposes",
+    "an evil influence",
+    "evil deeds"
+   ],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "fiendish.oewn-01136015-s",
+   "word": "fiendish",
+   "definition": "extremely evil or cruel; expressive of cruelty or befitting hell",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most gleeful of these: the cruelty is relished, ingenuity taking pleasure in itself.",
+   "usage_labels": [],
+   "examples": [
+    "a fiendish despot"
+   ],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "flagitious.oewn-01134954-s",
+   "word": "flagitious",
+   "definition": "shockingly brutal or cruel",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and bookish where *atrocious* is loud, delivering the same charge of brutality in a cold register.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "grievous.oewn-01134954-s",
+   "word": "grievous",
+   "definition": "shockingly brutal or cruel",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Weighs the damage rather than the outrage — gravity where *atrocious* offers shock.",
+   "usage_labels": [],
+   "examples": [
+    "a grievous offense against morality",
+    "a grievous crime"
+   ],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "monstrous.oewn-01134954-s",
+   "word": "monstrous",
+   "definition": "shockingly brutal or cruel",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the cruelty outside the human, judging the doer as a kind of creature rather than as someone behaving badly.",
+   "usage_labels": [],
+   "examples": [
+    "no excess was too monstrous for them to commit"
+   ],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "perversive.oewn-01135866-s",
+   "word": "perversive",
+   "definition": "tending to corrupt or pervert",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Harsher than *corruptive*, since what it names does not merely degrade a thing but bends it out of true.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "pestiferous.oewn-01135866-s",
+   "word": "pestiferous",
+   "definition": "tending to corrupt or pervert",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Makes the influence contagious — something to be kept clear of, not just something to disapprove of.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "sinister.oewn-01135435-s",
+   "word": "sinister",
+   "definition": "stemming from evil characteristics or forces; wicked or dishonorable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Adds menace to the wickedness, so that what it names feels still in motion and threatening rather than simply condemned.",
+   "usage_labels": [],
+   "examples": [
+    "the scheme of some sinister intelligence bent on punishing him"
+   ],
+   "family": "family-01134543-a"
+  },
+  {
+   "id": "abrupt.oewn-01147070-s",
+   "word": "abrupt",
+   "definition": "exceedingly sudden and unexpected",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Pushes *sudden* past what anyone was braced for, so the speed itself becomes the complaint.",
+   "usage_labels": [],
+   "examples": [
+    "came to an abrupt stop",
+    "an abrupt change in the weather"
+   ],
+   "family": "family-01146764-a"
+  },
+  {
+   "id": "choppy.oewn-01147235-s",
+   "word": "choppy",
+   "definition": "marked by abrupt transitions",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Faults the transitions as uneven rather than violent — the thing never settles, but nothing in it snaps.",
+   "usage_labels": [],
+   "examples": [
+    "choppy prose"
+   ],
+   "family": "family-01146764-a"
+  },
+  {
+   "id": "emergent.oewn-01147340-s",
+   "word": "emergent",
+   "definition": "occurring unexpectedly and requiring urgent action",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and functional beside *explosive* — the unexpectedness registers only because it compels urgent action, not because it startles.",
+   "usage_labels": [],
+   "examples": [
+    "emergent repair of an aorta"
+   ],
+   "family": "family-01146764-a"
+  },
+  {
+   "id": "explosive.oewn-01147494-s",
+   "word": "explosive",
+   "definition": "sudden and loud",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts noise into the suddenness, so where *abrupt* merely catches you unready this one goes off.",
+   "usage_labels": [],
+   "examples": [
+    "an explosive laugh"
+   ],
+   "family": "family-01146764-a"
+  },
+  {
+   "id": "fulminant.oewn-01147587-s",
+   "word": "fulminant",
+   "definition": "sudden and severe",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Grave rather than merely fast: severity is bolted to the speed, so the word reads as a warning.",
+   "usage_labels": [],
+   "examples": [
+    "fulminant pain",
+    "fulminant fever"
+   ],
+   "family": "family-01146764-a"
+  },
+  {
+   "id": "jerky.oewn-01147235-s",
+   "word": "jerky",
+   "definition": "marked by abrupt transitions",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Harsher than *choppy* on the same broken transitions: the movement snatches, and the word makes it sound ungoverned.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01146764-a"
+  },
+  {
+   "id": "sharp.oewn-01147715-s",
+   "word": "sharp",
+   "definition": "very sudden and in great amount or degree",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Measures how far the change went as well as how fast it came, which is the dimension *sudden* leaves out.",
+   "usage_labels": [],
+   "examples": [
+    "a sharp drop in the stock market"
+   ],
+   "family": "family-01146764-a"
+  },
+  {
+   "id": "sudden.oewn-01146764-a",
+   "word": "sudden",
+   "definition": "happening without warning or in a short space of time",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain member of the family, covering both arrival without warning and arrival in very little time, and passing no verdict on either.",
+   "usage_labels": [],
+   "examples": [
+    "a sudden storm",
+    "a sudden decision",
+    "a sudden cure"
+   ],
+   "family": "family-01146764-a"
+  },
+  {
+   "id": "calculating.oewn-01159105-s",
+   "word": "calculating",
+   "definition": "acting with a specific goal",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Purpose read as cold arithmetic - the aim is granted, the warmth withdrawn.",
+   "usage_labels": [],
+   "examples": [
+    "the most calculating and selfish men in the community"
+   ],
+   "family": "family-01158857-a"
+  },
+  {
+   "id": "calculative.oewn-01159105-s",
+   "word": "calculative",
+   "definition": "acting with a specific goal",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The flatter, drier twin of *calculating*, closer to bare goal-directedness and lighter on the accusation.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01158857-a"
+  },
+  {
+   "id": "case-hardened.oewn-01159329-s",
+   "word": "case-hardened",
+   "definition": "used of persons; emotionally hardened",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most final of the hardened set - the toughness reads as settled all the way through, with nothing soft left to reach.",
+   "usage_labels": [],
+   "examples": [
+    "faced a case-hardened judge"
+   ],
+   "family": "family-01158857-a"
+  },
+  {
+   "id": "conniving.oewn-01159105-s",
+   "word": "conniving",
+   "definition": "acting with a specific goal",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The darkest reading of the same goal-directedness - purpose taken as plotting rather than planning.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01158857-a"
+  },
+  {
+   "id": "hard-boiled.oewn-01159329-s",
+   "word": "hard-boiled",
+   "definition": "used of persons; emotionally hardened",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal, and the toughness comes with a swagger - the unfeeling is worn rather than lamented.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01158857-a"
+  },
+  {
+   "id": "hard.oewn-01158857-a",
+   "word": "hard",
+   "definition": "dispassionate",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Chilly rather than cruel - feeling is simply switched off, and nothing is said about what the coolness is for.",
+   "usage_labels": [],
+   "examples": [
+    "took a hard look",
+    "a hard bargainer"
+   ],
+   "family": "family-01158857-a"
+  },
+  {
+   "id": "hardened.oewn-01159329-s",
+   "word": "hardened",
+   "definition": "used of persons; emotionally hardened",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain statement of the condition, naming the lost feeling without *hard-boiled*'s relish or *case-hardened*'s finality.",
+   "usage_labels": [],
+   "examples": [
+    "faced a case-hardened judge"
+   ],
+   "family": "family-01158857-a"
+  },
+  {
+   "id": "scheming.oewn-01159105-s",
+   "word": "scheming",
+   "definition": "acting with a specific goal",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Condemns the same purposefulness as *calculating*, but puts the weight on the plan rather than on the coldness of the planner.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01158857-a"
+  },
+  {
+   "id": "shrewd.oewn-01159105-s",
+   "word": "shrewd",
+   "definition": "acting with a specific goal",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The one word here that credits the goal-directedness, treating aim and judgement as sharpness rather than as a fault.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01158857-a"
+  },
+  {
+   "id": "steely.oewn-01159482-s",
+   "word": "steely",
+   "definition": "resembling steel as in hardness",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Not a verdict but a likeness - it measures hardness against metal and leaves the reader to decide whether that is a fault.",
+   "usage_labels": [],
+   "examples": [
+    "steely eyes",
+    "steely nerves like those of a steeplejack"
+   ],
+   "family": "family-01158857-a"
+  },
+  {
+   "id": "battle-scarred.oewn-01321194-s",
+   "word": "battle-scarred",
+   "definition": "scarred by battle",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Here the marks stand as proof of what was come through, so the damage reads as standing earned rather than harm suffered.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "black-and-blue.oewn-01321272-s",
+   "word": "black-and-blue",
+   "definition": "discolored by coagulation of blood beneath the skin",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Names the bruise by its two colours, homely and concrete beside the graver *livid*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "disjointed.oewn-01321452-s",
+   "word": "disjointed",
+   "definition": "separated at the joint",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Structural and bloodless: the joint has come apart, and the word says nothing at all about pain.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "dislocated.oewn-01321452-s",
+   "word": "dislocated",
+   "definition": "separated at the joint",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The exact term for a joint driven out of place, diagnostic where *disjointed* sounds merely come-apart.",
+   "usage_labels": [],
+   "examples": [
+    "a dislocated knee"
+   ],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "eviscerate.oewn-01321601-s",
+   "word": "eviscerate",
+   "definition": "having been disembowelled",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most graphic member: the body opened and emptied, damage gone past anything that could still be called a wound.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "hurt.oewn-01321683-s",
+   "word": "hurt",
+   "definition": "suffering from physical injury especially that suffered in battle",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The softest word here for real physical injury - it carries the gloss's lean toward battle lightly, and shows nothing of the wound itself.",
+   "usage_labels": [],
+   "examples": [
+    "ambulances … for the hurt men and women"
+   ],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "injured.oewn-01320916-a",
+   "word": "injured",
+   "definition": "harmed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flat report that harm was done, holding back every picture of it that *mangled* insists on showing.",
+   "usage_labels": [],
+   "examples": [
+    "injured soldiers"
+   ],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "lacerate.oewn-01321879-s",
+   "word": "lacerate",
+   "definition": "having edges that are jagged from injury",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The clipped form for flesh left with jagged edges, cool in shape even though the picture it raises is not.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "lacerated.oewn-01321879-s",
+   "word": "lacerated",
+   "definition": "having edges that are jagged from injury",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The ordinary participle for that same ragged tearing, felt rather than measured, where *lacerate* stays curt.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "livid.oewn-01321272-s",
+   "word": "livid",
+   "definition": "discolored by coagulation of blood beneath the skin",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The same pooled discoloration in a leaden, grim register that makes the skin sound like something has gone badly wrong beneath it, where *black-and-blue* keeps it almost domestic.",
+   "usage_labels": [],
+   "examples": [
+    "livid bruises"
+   ],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "mangled.oewn-01321879-s",
+   "word": "mangled",
+   "definition": "having edges that are jagged from injury",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most violent of these: the jagged edges read as wreckage, the thing ruined rather than merely cut.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "raw.oewn-01322003-s",
+   "word": "raw",
+   "definition": "having the surface exposed and painful",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Reports pain rather than shape: the covering is gone and what lies under it is left exposed and stinging, unlike the jagged-edge words beside it.",
+   "usage_labels": [],
+   "examples": [
+    "a raw wound"
+   ],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "separated.oewn-01321452-s",
+   "word": "separated",
+   "definition": "separated at the joint",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The barest statement of the same parting at the joint — it neither winces nor diagnoses.",
+   "usage_labels": [],
+   "examples": [
+    "a separated shoulder"
+   ],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "torn.oewn-01321879-s",
+   "word": "torn",
+   "definition": "having edges that are jagged from injury",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest word for a ragged injured edge — it names the tearing and stops, where *mangled* piles on ruin.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "wounded.oewn-01321683-s",
+   "word": "wounded",
+   "definition": "suffering from physical injury especially that suffered in battle",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Graver and more formal than *hurt* for the same injury, dignifying the damage and letting the battlefield sit close without shutting out other harm.",
+   "usage_labels": [],
+   "examples": [
+    "nursing his wounded arm"
+   ],
+   "family": "family-01320916-a"
+  },
+  {
+   "id": "busy.oewn-01355409-s",
+   "word": "busy",
+   "definition": "intrusive in a meddling or offensive manner",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "An everyday word carrying the whole meddling charge, so the disparagement lands quietly where *officious* announces itself.",
+   "usage_labels": [],
+   "examples": [
+    "bustling about self-importantly making an officious nuisance of himself",
+    "busy about other people's business"
+   ],
+   "family": "family-01354915-a"
+  },
+  {
+   "id": "busybodied.oewn-01355409-s",
+   "word": "busybodied",
+   "definition": "intrusive in a meddling or offensive manner",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Turns the offender into a type, dismissing the whole person rather than the one act *meddling* points to.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01354915-a"
+  },
+  {
+   "id": "encroaching.oewn-01355168-s",
+   "word": "encroaching",
+   "definition": "gradually intrusive without right or permission",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Stresses the slowness of it - the ground is taken a little at a time, so no single step looks like the violation that *invasive* makes it sound.",
+   "usage_labels": [],
+   "examples": [
+    "we moved back from the encroaching tide"
+   ],
+   "family": "family-01354915-a"
+  },
+  {
+   "id": "interfering.oewn-01355409-s",
+   "word": "interfering",
+   "definition": "intrusive in a meddling or offensive manner",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The flattest of the meddling group - it faults the getting-in-the-way rather than heaping on the contempt that *meddlesome* carries.",
+   "usage_labels": [],
+   "examples": [
+    "an interfering old woman"
+   ],
+   "family": "family-01354915-a"
+  },
+  {
+   "id": "intrusive.oewn-01354915-a",
+   "word": "intrusive",
+   "definition": "tending to intrude (especially upon privacy)",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain term for the fault: it names the pushing-in itself, without the added charge of trespass that *encroaching* carries or the contempt in *meddlesome*.",
+   "usage_labels": [],
+   "examples": [
+    "she felt her presence there was intrusive"
+   ],
+   "family": "family-01354915-a"
+  },
+  {
+   "id": "invasive.oewn-01355168-s",
+   "word": "invasive",
+   "definition": "gradually intrusive without right or permission",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Casts the same unpermitted advance as an incursion, force rather than the patient creep of *encroaching*.",
+   "usage_labels": [],
+   "examples": [
+    "invasive tourists"
+   ],
+   "family": "family-01354915-a"
+  },
+  {
+   "id": "meddlesome.oewn-01355409-s",
+   "word": "meddlesome",
+   "definition": "intrusive in a meddling or offensive manner",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Makes the offensive prying a settled trait of the person, not the single act that *meddling* catches them at.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01354915-a"
+  },
+  {
+   "id": "meddling.oewn-01355409-s",
+   "word": "meddling",
+   "definition": "intrusive in a meddling or offensive manner",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Condemns the deed in progress, where *meddlesome* condemns the character behind it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01354915-a"
+  },
+  {
+   "id": "officious.oewn-01355409-s",
+   "word": "officious",
+   "definition": "intrusive in a meddling or offensive manner",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and cold beside the homely *busybodied*, delivering the same charge of offensive meddling as a verdict rather than a complaint.",
+   "usage_labels": [],
+   "examples": [
+    "bustling about self-importantly making an officious nuisance of himself"
+   ],
+   "family": "family-01354915-a"
+  },
+  {
+   "id": "trespassing.oewn-01355168-s",
+   "word": "trespassing",
+   "definition": "gradually intrusive without right or permission",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the intrusion in terms of a line crossed without permission, naming the wrong outright where *encroaching* only lets it accumulate.",
+   "usage_labels": [],
+   "examples": [
+    "trespassing hunters"
+   ],
+   "family": "family-01354915-a"
+  },
+  {
+   "id": "excess.oewn-01585713-s",
+   "word": "excess",
+   "definition": "more than is needed, desired, or required",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Measures the overshoot rather than judging it: a quantity past the mark, not a fault.",
+   "usage_labels": [],
+   "examples": [
+    "trying to lose excess weight"
+   ],
+   "family": "family-01585523-a"
+  },
+  {
+   "id": "extra.oewn-01585713-s",
+   "word": "extra",
+   "definition": "more than is needed, desired, or required",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The easiest word here to hear without complaint - what lies beyond the requirement can simply be available, where *superfluous* would call the same amount waste.",
+   "usage_labels": [],
+   "examples": [
+    "found some extra change lying on the dresser",
+    "extra ribs as well as other supernumerary internal parts"
+   ],
+   "family": "family-01585523-a"
+  },
+  {
+   "id": "gratuitous.oewn-01586457-s",
+   "word": "gratuitous",
+   "definition": "unnecessary and unwarranted",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The harshest of these - not merely that the thing was not needed, but that nothing justified it at all.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01585523-a"
+  },
+  {
+   "id": "inessential.oewn-01586632-s",
+   "word": "inessential",
+   "definition": "not absolutely necessary",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The gentlest here - it grants that the thing may well be wanted and withholds only the claim that it is strictly required.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01585523-a"
+  },
+  {
+   "id": "needless.oewn-01586457-s",
+   "word": "needless",
+   "definition": "unnecessary and unwarranted",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Sounds the note of waste - unwarranted, and the sting is that it happened anyway; softer in rebuke than *gratuitous*.",
+   "usage_labels": [],
+   "examples": [
+    "a strikers' tent camp … was burned with needless loss of life"
+   ],
+   "family": "family-01585523-a"
+  },
+  {
+   "id": "redundant.oewn-01585713-s",
+   "word": "redundant",
+   "definition": "more than is needed, desired, or required",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Sharper than *excess* - the surplus is treated as serving no purpose, not merely as a quantity over the line.",
+   "usage_labels": [],
+   "examples": [
+    "yet another book on heraldry might be thought redundant",
+    "skills made redundant by technological advance"
+   ],
+   "family": "family-01585523-a"
+  },
+  {
+   "id": "spare.oewn-01585713-s",
+   "word": "spare",
+   "definition": "more than is needed, desired, or required",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Frames what is past the requirement as held in reserve, so it reads as usable rather than as clutter.",
+   "usage_labels": [],
+   "examples": [
+    "sleeping in the spare room"
+   ],
+   "family": "family-01585523-a"
+  },
+  {
+   "id": "supererogatory.oewn-01585713-s",
+   "word": "supererogatory",
+   "definition": "more than is needed, desired, or required",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and weighty, marking the amount as going beyond what was required at all, with a dryness *extra* does not have.",
+   "usage_labels": [],
+   "examples": [
+    "it was supererogatory of her to gloat"
+   ],
+   "family": "family-01585523-a"
+  },
+  {
+   "id": "superfluous.oewn-01585713-s",
+   "word": "superfluous",
+   "definition": "more than is needed, desired, or required",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Dismissive where *excess* stays quantitative: it says the thing could be stripped away and nothing would be lost.",
+   "usage_labels": [],
+   "examples": [
+    "delete superfluous (or unnecessary) words"
+   ],
+   "family": "family-01585523-a"
+  },
+  {
+   "id": "supernumerary.oewn-01585713-s",
+   "word": "supernumerary",
+   "definition": "more than is needed, desired, or required",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Positional and countable - it sets something outside the number required without passing any verdict on it.",
+   "usage_labels": [],
+   "examples": [
+    "supernumerary ornamentation",
+    "extra ribs as well as other supernumerary internal parts"
+   ],
+   "family": "family-01585523-a"
+  },
+  {
+   "id": "surplus.oewn-01585713-s",
+   "word": "surplus",
+   "definition": "more than is needed, desired, or required",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A ledger word: it registers the amount left over as a balance and carries no complaint about it.",
+   "usage_labels": [],
+   "examples": [
+    "surplus cheese distributed to the needy"
+   ],
+   "family": "family-01585523-a"
+  },
+  {
+   "id": "uncalled-for.oewn-01586457-s",
+   "word": "uncalled-for",
+   "definition": "unnecessary and unwarranted",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A rebuke rather than an assessment: it says the thing overstepped, where *unnecessary* only says it was not required.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01585523-a"
+  },
+  {
+   "id": "unnecessary.oewn-01585523-a",
+   "word": "unnecessary",
+   "definition": "not necessary",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The family's plain verdict - it states the thing was not needed and leaves any reproach implied rather than spoken, where *gratuitous* speaks it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01585523-a"
+  },
+  {
+   "id": "unneeded.oewn-01585523-a",
+   "word": "unneeded",
+   "definition": "not necessary",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flatter than *unnecessary* - it reports an absence of need without the faint blame that clings to the other word.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01585523-a"
+  },
+  {
+   "id": "clean.oewn-01754399-s",
+   "word": "clean",
+   "definition": "(of a record) having no marks of discredit or offense",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise by absence - a record with nothing marked against it, a narrower claim than the completeness *perfect* asserts.",
+   "usage_labels": [],
+   "examples": [
+    "a clean voting record",
+    "a clean driver's license"
+   ],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "clear.oewn-01754557-s",
+   "word": "clear",
+   "definition": "free from flaw or blemish or impurity",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Reaches past flaw and blemish to impurity as well, so it can clear a substance and not only a performance.",
+   "usage_labels": [],
+   "examples": [
+    "a clear perfect diamond",
+    "the clear complexion of a healthy young woman"
+   ],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "cold.oewn-01754740-s",
+   "word": "cold",
+   "definition": "marked by errorless familiarity",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Perfection as drilled familiarity - the thing is known so thoroughly that error does not arise, where *errorless* only reports that none did.",
+   "usage_labels": [],
+   "examples": [
+    "had her lines cold before rehearsals started"
+   ],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "complete.oewn-01754870-s",
+   "word": "complete",
+   "definition": "perfect and complete in every respect; having all necessary qualities",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Asserts that every necessary quality is present, the opposite test from *flawless*: nothing missing rather than nothing wrong.",
+   "usage_labels": [],
+   "examples": [
+    "a complete gentleman"
+   ],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "consummate.oewn-01754870-s",
+   "word": "consummate",
+   "definition": "perfect and complete in every respect; having all necessary qualities",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and superlative where *complete* is plain, pitching the same total sufficiency as an accolade.",
+   "usage_labels": [],
+   "examples": [
+    "consummate happiness",
+    "a consummate performance"
+   ],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "down.oewn-01755101-s",
+   "word": "down",
+   "definition": "understood perfectly",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Puts the perfection in the grasp rather than in the thing - the understanding is finished, and it says so flatly.",
+   "usage_labels": [],
+   "examples": [
+    "had his algebra problems down"
+   ],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "down_pat.oewn-01755101-s",
+   "word": "down pat",
+   "definition": "understood perfectly",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The idiom tightens *down* into exactness: not merely understood but understood to the letter.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "errorless.oewn-01755230-s",
+   "word": "errorless",
+   "definition": "free from error",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A flat count of no errors, the coolest word in the family beside *impeccable*'s admiration.",
+   "usage_labels": [],
+   "examples": [
+    "an errorless baseball game"
+   ],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "faultless.oewn-01755331-s",
+   "word": "faultless",
+   "definition": "without fault or error",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Takes in fault as well as error, so it acquits the conduct and not just the execution.",
+   "usage_labels": [],
+   "examples": [
+    "faultless logic"
+   ],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "flawless.oewn-01755578-s",
+   "word": "flawless",
+   "definition": "without a flaw",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Single-minded - one flaw would undo it, where *complete* asks instead whether everything is there.",
+   "usage_labels": [],
+   "examples": [
+    "a flawless gemstone"
+   ],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "immaculate.oewn-01755331-s",
+   "word": "immaculate",
+   "definition": "without fault or error",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Lifts the same absence of fault into something untouched, admiring where *errorless* is merely accurate.",
+   "usage_labels": [],
+   "examples": [
+    "timing and technique were immaculate",
+    "an immaculate record"
+   ],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "impeccable.oewn-01755331-s",
+   "word": "impeccable",
+   "definition": "without fault or error",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Reads the absence of fault as a standard held to - admiration rather than measurement.",
+   "usage_labels": [],
+   "examples": [
+    "speaks impeccable French"
+   ],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "incorrupted.oewn-01755331-s",
+   "word": "incorrupted",
+   "definition": "without fault or error",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Frames faultlessness as something kept intact rather than achieved, and in a stiffer register than *faultless*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "mastered.oewn-01755101-s",
+   "word": "mastered",
+   "definition": "understood perfectly",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Dignifies the same perfect understanding as an attainment, where *down* merely reports the state.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "perfect.oewn-01753804-a",
+   "word": "perfect",
+   "definition": "being complete of its kind and without defect or blemish",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The unqualified standard here, claiming completeness of its kind as well as the absence of blemish, where *flawless* claims only the absence.",
+   "usage_labels": [],
+   "examples": [
+    "a perfect circle",
+    "a perfect reproduction",
+    "perfect happiness",
+    "perfect manners",
+    "a perfect specimen",
+    "a perfect day"
+   ],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "unflawed.oewn-01755578-s",
+   "word": "unflawed",
+   "definition": "without a flaw",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain negation beside *flawless*, denying the flaw without carrying the admiration.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01753804-a"
+  },
+  {
+   "id": "annoyed.oewn-01811355-s",
+   "word": "annoyed",
+   "definition": "aroused to impatience or anger",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain, unheated name for the state: impatience or anger without the colouring that *miffed* or *steamed* add to it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "browned_off.oewn-01811732-s",
+   "word": "browned off",
+   "definition": "greatly annoyed; out of patience",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Flat, worn British informality, the patience gone by erosion rather than blown out like *steamed*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "cheesed_off.oewn-01811732-s",
+   "word": "cheesed off",
+   "definition": "greatly annoyed; out of patience",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "British and deflating: a full loss of patience carried in a phrase too offhand to shout, where *exasperated* keeps its composure.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "disgusted.oewn-01811926-s",
+   "word": "disgusted",
+   "definition": "having a strong distaste from surfeit",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Strong distaste from having had too much of a thing, the surfeited turn of the stomach rather than heat aimed at anyone, and the family's furthest recoil.",
+   "usage_labels": [],
+   "examples": [
+    "grew more and more disgusted"
+   ],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "displeased.oewn-01811138-a",
+   "word": "displeased",
+   "definition": "not pleased; experiencing or manifesting displeasure",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The family's coolest term: it registers the absence of pleasure and lets it show, without conceding any heat to it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "exasperated.oewn-01811732-s",
+   "word": "exasperated",
+   "definition": "greatly annoyed; out of patience",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The end of the line, annoyance carried far enough that patience is spent, which is exactly what *annoyed* still holds in reserve.",
+   "usage_labels": [],
+   "examples": [
+    "had an exasperated look on his face",
+    "felt exasperated beyond endurance"
+   ],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "irritated.oewn-01811355-s",
+   "word": "irritated",
+   "definition": "aroused to impatience or anger",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Friction rather than flare: the same impatience or anger, but felt as something rubbing on and on rather than landing once like *stung*.",
+   "usage_labels": [],
+   "examples": [
+    "made an irritated gesture"
+   ],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "miffed.oewn-01811355-s",
+   "word": "miffed",
+   "definition": "aroused to impatience or anger",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Light and slightly diminishing, it sizes the impatience or anger as a small thing and the person holding it as easily put out, where *annoyed* passes no such judgement.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "nettled.oewn-01811355-s",
+   "word": "nettled",
+   "definition": "aroused to impatience or anger",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Prickled and smarting: the state as something that caught and stings still, sharper in point than *annoyed* and briefer than *irritated*.",
+   "usage_labels": [],
+   "examples": [
+    "feeling nettled from the constant teasing"
+   ],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "peeved.oewn-01811355-s",
+   "word": "peeved",
+   "definition": "aroused to impatience or anger",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Small and faintly comic, it scales the impatience or anger down to a grievance worth mentioning but not worth raising your voice over.",
+   "usage_labels": [],
+   "examples": [
+    "peeved about being left out"
+   ],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "pissed.oewn-01811355-s",
+   "word": "pissed",
+   "definition": "aroused to impatience or anger",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Vulgar and blunt, it states the same impatience or anger in the coarsest register the family has, which is everything *displeased* withholds.",
+   "usage_labels": [],
+   "examples": [
+    "felt really pissed at her snootiness"
+   ],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "pissed_off.oewn-01811355-s",
+   "word": "pissed off",
+   "definition": "aroused to impatience or anger",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Carries the coarse charge of *pissed* with the particle adding follow-through, anger sent outward rather than merely held.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "riled.oewn-01811355-s",
+   "word": "riled",
+   "definition": "aroused to impatience or anger",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Stirred up rather than simply arrived at: it puts the impatience or anger down to having been worked into someone.",
+   "usage_labels": [],
+   "examples": [
+    "riled no end by his lies"
+   ],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "roiled.oewn-01811355-s",
+   "word": "roiled",
+   "definition": "aroused to impatience or anger",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Churn instead of flare, the impatience or anger turbid and unsettled all through, where *stung* is one sharp point.",
+   "usage_labels": [],
+   "examples": [
+    "roiled by the delay"
+   ],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "steamed.oewn-01811355-s",
+   "word": "steamed",
+   "definition": "aroused to impatience or anger",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Pressure made visible, the heat contained but plainly building, hotter than *peeved* and short of the coarseness of *pissed off*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "stung.oewn-01811355-s",
+   "word": "stung",
+   "definition": "aroused to impatience or anger",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The state as recoil: something landed, and the impatience or anger is the flinch back from it, where *irritated* only wears on.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01811138-a"
+  },
+  {
+   "id": "feral.oewn-02398088-s",
+   "word": "feral",
+   "definition": "wild and menacing",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Wildness with a threat inside it - the menace is carried by the word itself rather than read in, which is what *untamed* lacks.",
+   "usage_labels": [],
+   "examples": [
+    "a pack of feral dogs"
+   ],
+   "family": "family-02397788-a"
+  },
+  {
+   "id": "ferine.oewn-02398088-s",
+   "word": "ferine",
+   "definition": "wild and menacing",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The formal counterpart to *feral*, holding the same menace in a stiffer register.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02397788-a"
+  },
+  {
+   "id": "savage.oewn-02398088-s",
+   "word": "savage",
+   "definition": "wild and menacing",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The heaviest here - the menace lands as ferocity, where *feral* only marks the wildness as dangerous.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02397788-a"
+  },
+  {
+   "id": "semi-wild.oewn-02398217-s",
+   "word": "semi-wild",
+   "definition": "partially wild",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely a measure of degree - it places something part-way along the scale and judges it not at all.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02397788-a"
+  },
+  {
+   "id": "unbroken.oewn-02398287-s",
+   "word": "unbroken",
+   "definition": "not subdued or trained for service or use",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Defined against service - neither subdued nor trained to any use, so the wildness is measured by what the thing has not been made to do.",
+   "usage_labels": [],
+   "examples": [
+    "unbroken colts"
+   ],
+   "family": "family-02397788-a"
+  },
+  {
+   "id": "undomesticated.oewn-02398401-s",
+   "word": "undomesticated",
+   "definition": "not domesticated",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A flat negation and nothing more, the plainest term in the family, with none of the menace *feral* adds.",
+   "usage_labels": [],
+   "examples": [
+    "a few undomesticated horses left"
+   ],
+   "family": "family-02397788-a"
+  },
+  {
+   "id": "untamed.oewn-02397788-a",
+   "word": "untamed",
+   "definition": "in a natural state; not tamed or domesticated or cultivated",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The same natural state as *wild*, but framed as a taming that never happened, so it points at what has not been done to the thing.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02397788-a"
+  },
+  {
+   "id": "wild.oewn-02397788-a",
+   "word": "wild",
+   "definition": "in a natural state; not tamed or domesticated or cultivated",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Neutral and broad - it covers the animal, the plant and the uncultivated ground alike, naming the natural state without passing any verdict on it.",
+   "usage_labels": [],
+   "examples": [
+    "wild geese",
+    "edible wild plants"
+   ],
+   "family": "family-02397788-a"
+  },
+  {
+   "id": "chaotic.oewn-02399137-s",
+   "word": "chaotic",
+   "definition": "completely unordered and unpredictable and confusing",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Faults the state for what it does to anyone trying to follow it — unordered, unpredictable and confusing at once, where *wild* only says the reins are off.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02398903-a"
+  },
+  {
+   "id": "delirious.oewn-02399292-s",
+   "word": "delirious",
+   "definition": "marked by uncontrolled excitement or emotion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Pitches the uncontrolled feeling high enough to suggest the senses have gone with it, which *excited* never implies.",
+   "usage_labels": [],
+   "examples": [
+    "a crowd of delirious baseball fans"
+   ],
+   "family": "family-02398903-a"
+  },
+  {
+   "id": "disorderly.oewn-02399137-s",
+   "word": "disorderly",
+   "definition": "completely unordered and unpredictable and confusing",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Carries the same absence of order as *chaotic* but frames it as an order failed rather than an order never present.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02398903-a"
+  },
+  {
+   "id": "excited.oewn-02399292-s",
+   "word": "excited",
+   "definition": "marked by uncontrolled excitement or emotion",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The unloaded member: it records the uncontrolled excitement and leaves the verdict to whoever is listening.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02398903-a"
+  },
+  {
+   "id": "frantic.oewn-02399292-s",
+   "word": "frantic",
+   "definition": "marked by uncontrolled excitement or emotion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Adds hurry and distress to the same uncontrolled feeling, so the energy reads as flailing rather than pleasure.",
+   "usage_labels": [],
+   "examples": [
+    "something frantic in their gaiety"
+   ],
+   "family": "family-02398903-a"
+  },
+  {
+   "id": "frenzied.oewn-02399571-s",
+   "word": "frenzied",
+   "definition": "affected with or marked by frenzy or mania uncontrolled by reason",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Reason is overrun rather than loosened, and the word fits both the person seized by the frenzy and the scene that shows it.",
+   "usage_labels": [],
+   "examples": [
+    "a frenzied attack",
+    "a frenzied mob",
+    "the prosecutor's frenzied denunciation of the accused"
+   ],
+   "family": "family-02398903-a"
+  },
+  {
+   "id": "mad.oewn-02399292-s",
+   "word": "mad",
+   "definition": "marked by uncontrolled excitement or emotion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt and dismissive — it calls the uncontrolled emotion unreason outright instead of merely hinting at it as *delirious* does.",
+   "usage_labels": [],
+   "examples": [
+    "a mad whirl of pleasure"
+   ],
+   "family": "family-02398903-a"
+  },
+  {
+   "id": "manic.oewn-02399571-s",
+   "word": "manic",
+   "definition": "affected with or marked by frenzy or mania uncontrolled by reason",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Gives the same reasonless frenzy a clinical ring, where *frenzied* stays pure motion.",
+   "usage_labels": [],
+   "examples": [
+    "outbursts of drunken violence and manic activity and creativity"
+   ],
+   "family": "family-02398903-a"
+  },
+  {
+   "id": "unrestrained.oewn-02399292-s",
+   "word": "unrestrained",
+   "definition": "marked by uncontrolled excitement or emotion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The coolest word here, naming the control that is missing rather than picturing the emotion that fills the gap.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02398903-a"
+  },
+  {
+   "id": "unsubdued.oewn-02399910-s",
+   "word": "unsubdued",
+   "definition": "not brought under control",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A flat negative that says only that control was never imposed, so it can read as endurance as easily as excess.",
+   "usage_labels": [],
+   "examples": [
+    "the horse remained unsubdued"
+   ],
+   "family": "family-02398903-a"
+  },
+  {
+   "id": "wild.oewn-02398903-a",
+   "word": "wild",
+   "definition": "marked by extreme lack of restraint or control",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the extremity of the missing restraint without colouring it, and tips negative only because the gloss calls the lack extreme rather than partial.",
+   "usage_labels": [],
+   "examples": [
+    "wild talk",
+    "wild parties"
+   ],
+   "family": "family-02398903-a"
+  },
+  {
+   "id": "bitter.oewn-02444782-s",
+   "word": "bitter",
+   "definition": "very difficult to accept or bear",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The one member that concedes the thing can be accepted or borne, at a price the others say is past paying at all.",
+   "usage_labels": [],
+   "examples": [
+    "the bitter truth",
+    "a bitter sorrow"
+   ],
+   "family": "family-02444489-a"
+  },
+  {
+   "id": "impossible.oewn-02445119-s",
+   "word": "impossible",
+   "definition": "(used of persons or their behavior) not acceptable or reasonable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Exasperated rather than judicial - it writes a person or their conduct off as beyond dealing with, where *unacceptable* files a ruling.",
+   "usage_labels": [],
+   "examples": [
+    "impossible behavior"
+   ],
+   "family": "family-02444489-a"
+  },
+  {
+   "id": "insufferable.oewn-02444906-s",
+   "word": "insufferable",
+   "definition": "too extreme to bear",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the excess itself - the thing has gone past a limit, where *intolerable* simply refuses it without saying by how much.",
+   "usage_labels": [],
+   "examples": [
+    "the insufferable heat of August in a New York apartment with no air conditioning"
+   ],
+   "family": "family-02444489-a"
+  },
+  {
+   "id": "intolerable.oewn-02444489-a",
+   "word": "intolerable",
+   "definition": "incapable of being tolerated or endured",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The flat verdict of the three - it rules the thing out rather than measuring what holding it costs, which is what *unbearable* does.",
+   "usage_labels": [],
+   "examples": [
+    "an intolerable degree of sentimentality"
+   ],
+   "family": "family-02444489-a"
+  },
+  {
+   "id": "unacceptable.oewn-02445119-s",
+   "word": "unacceptable",
+   "definition": "(used of persons or their behavior) not acceptable or reasonable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The cool, formal counterpart of *impossible*: it finds the person or the behaviour unreasonable without any of the heat.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02444489-a"
+  },
+  {
+   "id": "unbearable.oewn-02444489-a",
+   "word": "unbearable",
+   "definition": "incapable of being tolerated or endured",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the weight on whoever is carrying it, so the limit reached is a person's capacity rather than the judgement *intolerable* hands down.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02444489-a"
+  },
+  {
+   "id": "unendurable.oewn-02444489-a",
+   "word": "unendurable",
+   "definition": "incapable of being tolerated or endured",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The same limit measured in duration - what cannot be lasted out, where *unbearable* is what cannot be held up under.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02444489-a"
+  },
+  {
+   "id": "unsufferable.oewn-02444906-s",
+   "word": "unsufferable",
+   "definition": "too extreme to bear",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Says exactly what *insufferable* says, and the difference is flatness rather than degree.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02444489-a"
+  },
+  {
+   "id": "unsupportable.oewn-02445449-s",
+   "word": "unsupportable",
+   "definition": "not able to be supported or defended",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Shifts the fault from what cannot be borne to what cannot be defended, so the weakness is in the thing's own standing rather than in anyone's strain.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02444489-a"
+  },
+  {
+   "id": "absurd.oewn-02581199-s",
+   "word": "absurd",
+   "definition": "so unreasonable as to invite derision",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the unreasonableness first and lets the derision follow as a verdict, where *laughable* starts from the laugh.",
+   "usage_labels": [],
+   "examples": [
+    "the absurd excuse that the dog ate his homework"
+   ],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "cockeyed.oewn-02581199-s",
+   "word": "cockeyed",
+   "definition": "so unreasonable as to invite derision",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal and offhand, treating the thing as skewed out of true and waving it away rather than arguing with it.",
+   "usage_labels": [],
+   "examples": [
+    "that's a cockeyed idea"
+   ],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "derisory.oewn-02581199-s",
+   "word": "derisory",
+   "definition": "so unreasonable as to invite derision",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Carries the scorn in its own body: the thing is not merely open to derision but fit for nothing else.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "foolish.oewn-02580838-a",
+   "word": "foolish",
+   "definition": "devoid of good sense or judgment",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain, unadorned charge that good sense or judgement is simply absent, with none of the mockery *ridiculous* invites.",
+   "usage_labels": [],
+   "examples": [
+    "foolish remarks",
+    "a foolish decision"
+   ],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "goofy.oewn-02582052-s",
+   "word": "goofy",
+   "definition": "ludicrous, foolish",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Almost fond, taking the foolishness as entertainment rather than a fault, a long way from *idiotic*.",
+   "usage_labels": [],
+   "examples": [
+    "wore a goofy hat"
+   ],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "idiotic.oewn-02581199-s",
+   "word": "idiotic",
+   "definition": "so unreasonable as to invite derision",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Hits hardest of these, aiming the derision squarely at whoever produced the thing rather than at the thing itself.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "laughable.oewn-02581199-s",
+   "word": "laughable",
+   "definition": "so unreasonable as to invite derision",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The lightest verdict here, since the derision it invites is a laugh, which can diminish a thing more thoroughly than an attack on it.",
+   "usage_labels": [],
+   "examples": [
+    "a contribution so small as to be laughable"
+   ],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "ludicrous.oewn-02581199-s",
+   "word": "ludicrous",
+   "definition": "so unreasonable as to invite derision",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Theatrical, full-blown absurdity, grander than *laughable* and past the point where argument is possible.",
+   "usage_labels": [],
+   "examples": [
+    "it is ludicrous to call a cottage a mansion"
+   ],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "mindless.oewn-02581841-s",
+   "word": "mindless",
+   "definition": "devoid of intelligence or thought",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Nothing at all stands behind it, neither intelligence nor thought, a flatter and heavier charge than *foolish*'s bad judgement.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "nonsensical.oewn-02581199-s",
+   "word": "nonsensical",
+   "definition": "so unreasonable as to invite derision",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Locates the failure in the sense itself, so nothing coherent is left to answer, where *absurd* still concedes a shape to reject.",
+   "usage_labels": [],
+   "examples": [
+    "ask a nonsensical question and get a nonsensical answer"
+   ],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "preposterous.oewn-02581199-s",
+   "word": "preposterous",
+   "definition": "so unreasonable as to invite derision",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and indignant, repudiating the absurdity out loud rather than merely laughing at it as *laughable* does.",
+   "usage_labels": [],
+   "examples": [
+    "a preposterous attempt to turn back the pages of history"
+   ],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "ridiculous.oewn-02581199-s",
+   "word": "ridiculous",
+   "definition": "so unreasonable as to invite derision",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt and immediate, the derision arriving without the argument *absurd* implies.",
+   "usage_labels": [],
+   "examples": [
+    "her conceited assumption of universal interest in her rather dull children was ridiculous"
+   ],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "silly.oewn-02582052-s",
+   "word": "silly",
+   "definition": "ludicrous, foolish",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The gentlest word here, foolish and ludicrous at a scale too small to be worth condemning.",
+   "usage_labels": [],
+   "examples": [
+    "a silly idea"
+   ],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "vacant.oewn-02581841-s",
+   "word": "vacant",
+   "definition": "devoid of intelligence or thought",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the emptiness as blankness rather than stupidity, the intelligence and thought simply not in evidence.",
+   "usage_labels": [],
+   "examples": [
+    "a vacant expression"
+   ],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "vacuous.oewn-02581841-s",
+   "word": "vacuous",
+   "definition": "devoid of intelligence or thought",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and colder than *mindless*, treating the absence of intelligence or thought as a settled quality of the thing.",
+   "usage_labels": [],
+   "examples": [
+    "a vacuous mind"
+   ],
+   "family": "family-02580838-a"
+  },
+  {
+   "id": "wacky.oewn-02582052-s",
+   "word": "wacky",
+   "definition": "ludicrous, foolish",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Foolishness with energy behind it, off-kilter and lively where *silly* is merely slight.",
+   "usage_labels": [],
+   "examples": [
+    "some wacky plan for selling more books"
+   ],
+   "family": "family-02580838-a"
+  }
+ ]
+}

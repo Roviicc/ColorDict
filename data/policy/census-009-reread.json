@@ -1,0 +1,32 @@
+{
+ "note": "the seven census-009 repairs, re-read blind by readers that neither authored them nor found the original faults, with synset neighbours shown so comparative claims could be checked",
+ "rounds": [
+  {
+   "packet": 7,
+   "read": 7,
+   "right": 5,
+   "wrong": 2,
+   "failed": [
+    {
+     "id": "pathetic.oewn-01054589-s",
+     "fault": "gloss-mismatch",
+     "why": "the repair still imported the scornful-pity sense - 'a verdict on the thing pitied' - where the gloss is plain 'deserving or inciting pity'"
+    },
+    {
+     "id": "invasive.oewn-01355168-s",
+     "fault": "gloss-mismatch",
+     "why": "the repair called the sense an 'incursion' and handed 'patient' to encroaching alone, contradicting the gradual quality the gloss makes definitional"
+    }
+   ]
+  },
+  {
+   "packet": 8,
+   "read": 2,
+   "right": 2,
+   "wrong": 0,
+   "note": "reader told both had been edited twice and warned against both drifting a third time and flattening the note into nothing"
+  }
+ ],
+ "final": "7/7 right",
+ "lesson": "Both second-round failures were the SAME fault class as the original. A gloss-mismatch repair is the hardest kind, because the pull that produced the fault - the writer knows the word and its famous sense - is still acting on whoever writes the replacement. Two of the three repair rounds in this project have now needed a second pass, and both times on gloss-mismatch."
+}
