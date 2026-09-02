@@ -447,6 +447,74 @@ skipped.
   under *skinny*). Pruning happens to the data, not just the render, so the
   validator's rule stays honest.
 
+## 11.61 The worklist — frequency finally wired in
+
+Section 3 has always listed `data/worklist.tsv` as "frequency-ranked headwords,
+our unit of work", and 5.1 builds the batch ladder on it — B2 is the top 1,000
+by frequency, B3 the top 5,000 and the real target. **No frequency source was
+ever wired in.** All eight shards were picked by hand and by family size.
+`tools/worklist_build.py` closes that gap.
+
+### The source matters more than expected
+
+Two obvious lists both fail, and in the same direction:
+
+| Source | *asinine* | *unctuous* | *lugubrious* | *mawkish* | *snivel* |
+| --- | --- | --- | --- | --- | --- |
+| google-10000-english | — | — | — | — | — |
+| OpenSubtitles en_50k | rank 36,454 | — | — | — | — |
+| wordfreq (Zipf) | 2.56 | 2.03 | 2.02 | 1.93 | 1.40 |
+
+A top-10,000 list cannot see the band at all, and OpenSubtitles is spoken
+English, so it misses words that live in books — which is exactly where a reader
+meets a word whose force the gloss will not give them. **wordfreq's Zipf scale
+is the source**: *the* 7.73, *good* 6.12, *asinine* 2.56, *snivel* 1.40.
+Installed with `pip install wordfreq`; nothing lands in `data/source/`.
+
+### Rank on the median member, not the peak
+
+Ranking a family by its most frequent member puts *in*, *out*, *like* and *more*
+at the top — function words carrying a rare adjective sense (*in* as
+"fashionable"). Zipf scores a **word form**, not a sense, so a rare sense of a
+common word inherits the common word's frequency. The median member is the
+honest signal, and 5.3 excludes function words anyway.
+
+### Where the hand-picked shards actually landed
+
+| | median-of-medians |
+| --- | --- |
+| The 56 annotated adjective families | **3.04** |
+| All 5,911 candidate families | **2.90** |
+
+The done families spread from *superior* (4.45) to *wise* (2.10) and sit almost
+exactly on the corpus centre. Hand-picking was not biased toward easy common
+words — but it was not prioritised either: coverage runs at roughly 1% in every
+band, which is what picking by hand looks like. The worklist does not correct
+past shards; it orders the next six hundred.
+
+### The band
+
+Adjective families by median member:
+
+| Band | Families | Done |
+| --- | --- | --- |
+| 6.0+ everyday | 8 | 0 |
+| 5.0–6.0 common | 156 | 0 |
+| 4.0–5.0 familiar | 792 | 7 |
+| 3.0–4.0 educated | 1,771 | 21 |
+| 2.0–3.0 literary | 2,010 | 28 |
+| <2.0 rare/obscure | 1,174 | 0 |
+
+The top two bands are words whose connotation every reader already knows; the
+bottom is 5.3's long tail. The work is the middle.
+
+**The band is a selection filter and must never reach the note-writing prompt.**
+A writer told a word is "literary" or "rare" will put that in the note, and
+distribution claims are the largest fault class in the corpus — 58% of every
+failure in census 001 (11.69), and still the largest in census 002 (11.70). The
+worklist decides *whether* a family is queued; the writer sees only the gloss
+and the spectrum.
+
 ## 11.65 Audit 001 — the sampled audit, and what it found
 
 Run 2026-08-30 at the moment reviewed entries crossed 1,000, per 5.5. Fifty
