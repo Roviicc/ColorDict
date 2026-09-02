@@ -164,70 +164,117 @@ adjective sense they point at.
 
 ---
 
-## 5. Next steps, in order
+## 5. The plan, in stages
 
-**1. Run tick 8.** `staging` is pushed and current through 11.81, and the two
-instruments are unchanged by that work, so **tick 8 is still comparable to
-007–010** — it is not a new baseline. Push at the end of each tick rather than
-letting commits pile up; that is routine, not a step.
+Every stage names its own stop condition. Stages A and B are independent and can
+run in parallel; C depends on A, D depends on B.
 
-**2. Finish the adjective line — about five more ticks.** Nothing blocks this.
-Both instruments are verbatim, the gate is checked, the queue is ranked. Just run
-the tick loop above and stop if a tick goes over 5%.
+### Stage 0 — standing, every tick
 
-**3. Two things 11.81 opened while closing tick 7's follow-ups.**
+Push at the end of each tick rather than letting commits pile up. Carry any
+outstanding repair into the next tick's repair round rather than opening a cycle
+for it. **Currently outstanding:** *hard* in `family-01072500-a`
+(annotated-015) claims "the least damning word in the family" while *day-old*
+sits beside it at charge **0**. It was found by the pass that wrote the rule, so
+§11.65's discipline requires a hand that neither wrote the note nor found the
+fault.
 
-- **A real fault is sitting unrepaired.** *hard* in `family-01072500-a`
-  (annotated-015) calls itself "the least damning word in the family" while
-  *day-old* sits beside it at charge **0**. Found by the pass that wrote the
-  rule, so by §11.65's own discipline the repair has to come from a hand that
-  neither wrote the note nor found the fault.
-- **The intensity axis is two axes wearing one name.** `MILD_END` conflates
-  *bareness* ("plainest", "flattest") with *low intensity* ("mildest",
-  "gentlest"), which is why the collision it reported paired the wrong two
-  notes. The fix is to split a `bare` end out **and** check extreme-intensity
-  claims against sibling charges — both together, because splitting alone drops
-  the *hard* fault rather than keeping it. It is a rule change, so it needs its
-  own backtest before it is kept.
+### Stage A — tick 8, deliberately oversized
 
-**4. Then verbs — the queue now exists, and the gates transfer better than this
-file used to claim.** `worklist_build.py --pos v` had never been run; it takes
-nine seconds and `verb-families.json` had been built since 30 Aug. Measured:
+Run the §3 loop, but draw **35–40 families instead of ~23**. Ticks have sat at
+~285 senses for five ticks running, and §11.73's orchestrator cap was already
+fixed — `family-author.md` grants `Write` so authors put JSON on disk and the
+orchestrator never holds it. The plateau is probably habit, not a ceiling, and
+this is the cheapest way to find out.
 
-| | adjective | verb |
-| --- | --- | --- |
-| candidate families | 5,911 | 2,494 |
-| median size | 2 | 7 |
-| passes `size >= 8` | 17.0% | **48.2%** |
-| passes `charged >= 0.70` | 25.5% | **6.7%** |
-| passes both | 5.8% | 2.8% |
-| **eligible set: mean charged** | **0.87** | **0.87** |
-| eligible set: median size | 12.5 | 11.0 |
+Both instruments are unchanged through 11.82, so **tick 8 is comparable to
+007–010 and is not a new baseline.**
 
-The two gates **swap roles**. On adjectives size is the binding constraint; on
-verbs it is nearly free (verb families are far larger) and the charge fraction
-does the work. It does it well: the monster taxonomy families the size gate
-cannot touch — *change* at 725 members, *act* at 377, *travel* at 221 — carry
-charge fractions of 0.03–0.18 and are excluded on that alone. The two eligible
-sets come out at **the same mean charge fraction and nearly the same median
-size**, so the gates need no recalibration to produce a comparably-shaped draw.
+> **Stop:** a tick over 5% stops the run. Two consecutive over 5% is a method
+> problem, not a batch problem. If the oversized draw degrades the rate, the
+> cause is the size, and the next tick goes back to ~23.
 
-What has **not** changed: the charge fraction is still a weak proxy (caveat one),
-so a §11.75-style blind triage with controls is still the thing that decides
-whether these 70 are connotation families. **A screening pass comes before any
-authoring.** One practical note for the worksheet stage — five eligible verb
-families are larger than any adjective family ever authored (*knock* at 53,
-*fail* at 38), and a 53-member family is a lot to ask of one author agent.
+### Stage B — verb screening pass
 
-**5. Nouns stay closed until the screening filter is fixed.** `pneumonia` and
-`tranquilizer` score high because the **thing** is bad, not because the **word**
-carries force. That is `world-not-word` operating at family-selection level — the
-same fault class the notes kept failing on, one layer up. Annotating before it is
-fixed would build shards out of words with no connotation to describe.
+The queue exists (`data/worklist-verbs.tsv`, 70 eligible / 937 members). What it
+does **not** yet have is evidence that those 70 are connotation families rather
+than taxonomy. Run a §11.75-style blind triage **with controls** — the same
+design that measured the adjective gate — before any verb authoring.
+
+> **Stop:** if the triage judges verbs materially worse than the adjective
+> baseline, the verb line does not open on these gates. Do not lower the gates
+> to compensate; §11.75 measured that lowering makes selection worse.
+
+### Stage C — drain the adjective queue
+
+147 families / 2,434 members, ~8 ticks. Nothing blocks it: both instruments are
+verbatim, the gate is checked, the queue is ranked.
+
+> **Stop:** the queue empties, or a tick breaches 5%.
+
+### Stage D — verb authoring
+
+Only after Stage B passes. ~69 families / 884 members, ~3 ticks. One practical
+note for the worksheet stage: five eligible verb families are larger than any
+adjective family ever authored (*knock* at 53, *fail* at 38), and 53 members is
+a lot to hand one author agent — consider splitting the largest.
+
+### Stage E — nouns, blocked
+
+`pneumonia` and `tranquilizer` score high because the **thing** is bad, not
+because the **word** carries force. That is `world-not-word` at family-selection
+level — the same fault class the notes kept failing, one layer up. Annotating
+before the filter is fixed would build shards out of words with no connotation
+to describe.
+
+> **Stop:** stays closed until the screening filter distinguishes a bad thing
+> from a loaded word.
+
+### Then: the decision this run has not yet faced
+
+Stages C and D together are **~12 ticks and end with roughly 6,000 annotated
+senses**, at which point *the queue is empty and the method has nothing left to
+draw*. That is not a finish line anyone chose — it is what a 5.7% gate implies.
+§11.75 already measured that lowering the gate makes selection worse, so this
+ceiling is real rather than a tuning problem.
+
+**Decide before Stage C ends, not after:** is ~6,000 senses the product, or does
+the method need a way to reach the other 94%? Nothing in the current plan
+answers this.
 
 **Not a step:** rebuilding assets and cutting a release. The build runs green on
 every pipeline pass and the app ships whatever the corpus holds. A release is a
 timing decision, not a prerequisite.
+
+---
+
+## 5b. What success looks like
+
+Concrete, so a session can tell whether it is winning:
+
+| | target | now |
+| --- | --- | --- |
+| Census error rate | **< 5%**, the hard gate | ~2% across 007–010 |
+| Validation errors | **0**, always | 0 (2,963 entries) |
+| Instruments unchanged within a comparison window | required for a rate to mean anything | unchanged since 11.81 |
+| Repairs re-read blind | every repair, no exceptions | held |
+| Adjective queue | empty | 147 families left |
+| Verb line | screened, then drained | queue built, screening pending |
+
+**A tick has succeeded when:** the draw was screened for §5.3 by hand as well as
+by tool, every family merged cleanly, the census came in under 5%, every fault
+was repaired by a third hand, every repair was re-read blind, and the shard is
+committed and pushed.
+
+**The project has succeeded when** the annotated corpus answers "how does this
+word land, in this sense, against its neighbours" for the words people actually
+look up — and the measured error rate on that claim is published rather than
+assumed. The rate mattering more than the size is the whole thesis: 44% wrong at
+any scale is worth nothing.
+
+**What does *not* count as success:** a lower census number produced by a ruler
+nobody checked (§11.74, §11.77 — two censuses lost exactly this way), or a clean
+lint run, which is a smoke alarm rather than a referee.
 
 ---
 
@@ -268,3 +315,64 @@ timing decision, not a prerequisite.
   do not undo that, and do not weaken `example_mentions` back to a substring
   test — "pellucid prose" passed as an example of *lucid* for the whole project
   until census 010 read it (11.80).
+
+---
+
+## 7. Skills, agents and tooling
+
+### Recover first, read second
+
+```bash
+python tools/status.py            # ~10s, includes validation
+python tools/status.py --quick    # skip validation
+```
+
+Measures live: branch and unpushed commits, the CRLF-insensitive working tree,
+**whether either instrument has drifted from HEAD**, corpus counts, validation,
+the queue per part of speech with a tick estimate, the last six censuses, lint
+totals. **If it disagrees with this file, it is right and this file is stale** —
+that has already happened twice.
+
+`/orient` (`.claude/skills/orient/SKILL.md`) wraps that plus the rules that do
+not bend. Deliberately short: it loads when context is already tight.
+
+### The two instruments — these ARE the measurement
+
+| file | role |
+| --- | --- |
+| `.claude/agents/family-author.md` | authoring rubric, model, effort, tool allowlist |
+| `.claude/agents/census-reader.md` | reading rubric, same |
+
+Used **verbatim**, never retyped into a prompt. To change one: change the file,
+say so in the plan, and treat the next tick as a new baseline. `status.py` warns
+when they drift. Two censuses were lost to ignoring this (§11.74, §11.77).
+
+### Pipeline, in tick order
+
+| tool | does |
+| --- | --- |
+| `worklist_build.py --pos a/v/n` | ranks and gates the queue |
+| `sensitive_screen.py` | §5.3 smoke alarm — **then read the draw yourself** |
+| `family_worksheet.py` | builds the annotation skeleton |
+| `family_merge.py` | collects author JSON, strictly |
+| `tone_lint.py` | per-note and per-family checks |
+| `family_apply.py` → `dict_pipeline.py --no-build` | applies and rebuilds |
+| `census_packets.py` | blind reader packets — **keep them** |
+| `census2_aggregate.py` | verdicts → results; reconciles mistyped ids |
+| `dict_validate.py` | schema and cross-reference validation |
+
+### Division of labour that must not collapse
+
+Opus authors → **Fable reads blind** → a *third* agent repairs. The hand that
+writes is never the hand that reads, and whoever finds a fault does not write its
+repair. `tone_lint.py` and `sensitive_screen.py` are smoke alarms in that
+system, never referees: a census names a fault class, and only then can a linter
+stop it recurring.
+
+### Before adding another instrument — read this first
+
+The last four census rates are flat near 2%, well under the 5% gate. **The
+quality loop has converged**, and each new checker generates its own follow-up
+work — tick 6, tick 7 and 11.81 each shipped a checker and each found new work
+while doing it. Prefer spending a tick on coverage unless a census actually
+breaches 5%.

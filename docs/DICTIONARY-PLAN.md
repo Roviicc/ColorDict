@@ -1893,6 +1893,75 @@ census 005 lost a correct reading to exactly this and took the sense off the
 numerator as unread. But it is a **guess about intent**, so it is never silent:
 every remap prints and every remap is written into the results.
 
+## 11.82 Orientation as a tool, and the verb queue that was never blocked
+
+### The cost of re-reading
+
+Four sessions in a row rebuilt the same picture out of prose, and twice the prose
+was already wrong — HANDOFF's queue count and tick estimate were both stale
+within a day of being written, because they were written once and the files kept
+moving. Measuring is cheaper than reading and does not go out of date, so
+`tools/status.py` prints the state live and `/orient` tells a cold session to run
+it *before* trusting any document, this one included.
+
+Three things in it are judgement rather than reporting:
+
+- It diffs `.claude/agents/` against HEAD and says so loudly when an instrument
+  has moved. That is the difference between a comparable tick and a new
+  baseline, and 11.74 and 11.77 are both cases where nobody noticed until an
+  adversarial re-read.
+- A census with no rate renders `n/a — withdrawn`, never `0`. Census 005 was
+  withdrawn for a drifted rubric, and a zero there reads as a perfect score.
+- A `reader_model` without a hyphen is flagged as an unresolved alias. This
+  immediately caught one: census 010's results record `fable`, not
+  `claude-fable-5-1`, so that aggregation was run without `--reader-model` and
+  the file does not say what actually served.
+
+### The verb line was blocked on nobody typing a command
+
+HANDOFF called the verb line "stalled" and listed `worklist_build.py --pos v` as
+never run. It takes **nine seconds**, and `verb-families.json` had been built
+since 30 August. 2,494 families ranked, 70 eligible, 937 members, about three
+ticks of work.
+
+The stated reason for the block was that verb families run 12.8 members against
+the adjective 4.3, so the gates were "not transferable". Half of that is right
+and the conclusion drawn from it was wrong.
+
+| | adjective | verb |
+| --- | --- | --- |
+| candidate families | 5,911 | 2,494 |
+| median size | 2 | 7 |
+| passes `size >= 8` | 17.0% | 48.2% |
+| passes `charged >= 0.70` | 25.5% | 6.7% |
+| passes both | 5.8% | 2.8% |
+| eligible: mean charged | **0.87** | **0.87** |
+| eligible: median size | 12.5 | 11.0 |
+
+The gates **swap roles**. On adjectives size binds and the charge fraction
+trims; on verbs size is nearly free and the charge fraction does everything. And
+it does the job the size gate cannot: the giant taxonomy families — *change* at
+725 members, *act* at 377, *travel* at 221, *move* at 181 — carry charge
+fractions between 0.03 and 0.18 and fail on that alone. Both eligible sets come
+out at the same mean charge fraction and nearly the same median size, so the
+draw is comparably shaped without recalibration.
+
+What is unchanged is the part that matters. The charge fraction is a weak proxy
+for whether a family carries connotation at all — 11.75 measured exactly that on
+adjectives — so a blind triage with controls still decides whether these 70 are
+connotation families, and it still comes before any authoring. Recorded for the
+worksheet stage: five eligible verb families are larger than any adjective family
+ever authored, *knock* at 53 and *fail* at 38, and 53 members is a lot to hand
+one author agent.
+
+### The ceiling nobody has decided about
+
+Draining both queues is about twelve ticks and ends near 6,000 annotated senses,
+at which point the method has nothing left to draw. That is not a finish line
+anyone chose; it is what a 5.7% gate implies, and 11.75 already measured that
+lowering the gate makes selection worse. HANDOFF now names this as a decision to
+take **before** the adjective queue empties rather than after.
+
 ## 11.71 The run plan — stages, and what stops each one
 
 Written down because the last three things that went wrong went wrong by being
