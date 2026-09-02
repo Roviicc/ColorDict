@@ -1,0 +1,601 @@
+{
+ "packet": 1,
+ "count": 48,
+ "entries": [
+  {
+   "id": "alert.oewn-00092165-a",
+   "word": "alert",
+   "definition": "engaged in or accustomed to close observation",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The baseline of the family - close observation stated flatly, with none of the danger *vigilant* keeps in view.",
+   "usage_labels": [],
+   "examples": [
+    "caught by a couple of alert cops",
+    "alert enough to spot the opportunity when it came",
+    "constantly alert and vigilant, like a sentinel on duty"
+   ]
+  },
+  {
+   "id": "argus-eyed.oewn-00092618-s",
+   "word": "argus-eyed",
+   "definition": "carefully observant or attentive; on the lookout for possible danger",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The grandest word here, promising watch so total that no possible danger slips past, where *open-eyed* claims only that the eyes are open.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "fly.oewn-00092990-s",
+   "word": "fly",
+   "definition": "(British informal) not to be deceived or hoodwinked",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "British informal, and it praises a different sharpness - not watching for danger but being too knowing to be taken in.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "heads-up.oewn-00093129-s",
+   "word": "heads-up",
+   "definition": "fully alert and watchful",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Brisk and informal, it compresses full alertness into a word you could clap someone on the shoulder with, where *vigilant* keeps it solemn.",
+   "usage_labels": [],
+   "examples": [
+    "played heads-up ball"
+   ]
+  },
+  {
+   "id": "lidless.oewn-00093245-s",
+   "word": "lidless",
+   "definition": "always watchful",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Unsettling as much as admiring - watchfulness pictured as an eye that never closes, where *sleepless* says only that the watch never stops.",
+   "usage_labels": [],
+   "examples": [
+    "to an eye like mine, a lidless watcher of the public weal"
+   ]
+  },
+  {
+   "id": "open-eyed.oewn-00092618-s",
+   "word": "open-eyed",
+   "definition": "carefully observant or attentive; on the lookout for possible danger",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flattest member - it names the posture of careful attention and looking out for danger without commending it the way *vigilant* does.",
+   "usage_labels": [],
+   "examples": [
+    "a policy of open-eyed awareness"
+   ]
+  },
+  {
+   "id": "sleepless.oewn-00093245-s",
+   "word": "sleepless",
+   "definition": "always watchful",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Puts the cost in view: the watch is unbroken, at a price of rest that *watchful* never has to pay.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "vigilant.oewn-00092618-s",
+   "word": "vigilant",
+   "definition": "carefully observant or attentive; on the lookout for possible danger",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and dutiful: attentiveness owed rather than merely shown, with the possible danger always in the frame.",
+   "usage_labels": [],
+   "examples": [
+    "the vigilant eye of the town watch"
+   ]
+  },
+  {
+   "id": "wakeful.oewn-00092618-s",
+   "word": "wakeful",
+   "definition": "carefully observant or attentive; on the lookout for possible danger",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The mildest of the danger-watching words - attention that is simply not asleep to what may be coming, well short of *argus-eyed*'s all-seeing claim.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "watchful.oewn-00092165-a",
+   "word": "watchful",
+   "definition": "engaged in or accustomed to close observation",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Shares *alert*'s definition but leans on the habit end of it - observation kept up rather than switched on.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "wide-awake.oewn-00093129-s",
+   "word": "wide-awake",
+   "definition": "fully alert and watchful",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Adds completeness to *alert* and little else - the force is all in the fully, with nothing left dozing.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "alarming.oewn-00194616-a",
+   "word": "alarming",
+   "definition": "frightening because of an awareness of danger",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The mildest force here — fear pinned to a danger you can recognise, which makes it a warning rather than the sheer horror of *horrifying*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "appalling.oewn-00194968-s",
+   "word": "appalling",
+   "definition": "causing consternation",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Consternation at full weight — it knocks the composure sideways, where *dismaying* only unsettles it.",
+   "usage_labels": [],
+   "examples": [
+    "appalling conditions"
+   ]
+  },
+  {
+   "id": "atrocious.oewn-00195081-s",
+   "word": "atrocious",
+   "definition": "provoking horror",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Condemns as much as it describes — the horror is charged to the thing as a fault, where *horrifying* only reports the effect.",
+   "usage_labels": [],
+   "examples": [
+    "an atrocious automobile accident"
+   ]
+  },
+  {
+   "id": "awful.oewn-00195400-s",
+   "word": "awful",
+   "definition": "causing fear or dread or terror",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Broad and unspecific — it names the terror without picturing it, where *fearsome* gives the thing a shape.",
+   "usage_labels": [],
+   "examples": [
+    "the awful war",
+    "an awful risk"
+   ]
+  },
+  {
+   "id": "dire.oewn-00195400-s",
+   "word": "dire",
+   "definition": "causing fear or dread or terror",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Grave and flat, treating the terror as a settled fact of the situation with none of the flourish of *direful*.",
+   "usage_labels": [],
+   "examples": [
+    "dire news",
+    "a career or vengeance so direful that London was shocked"
+   ]
+  },
+  {
+   "id": "direful.oewn-00195400-s",
+   "word": "direful",
+   "definition": "causing fear or dread or terror",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The heightened form, reaching for a weight that *dire* carries without effort.",
+   "usage_labels": [],
+   "examples": [
+    "a career or vengeance so direful that London was shocked"
+   ]
+  },
+  {
+   "id": "dismaying.oewn-00194968-s",
+   "word": "dismaying",
+   "definition": "causing consternation",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The gentler consternation: spirits sink rather than reel, and the thing is not condemned outright as *appalling* condemns it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "dread.oewn-00195400-s",
+   "word": "dread",
+   "definition": "causing fear or dread or terror",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Elevated, almost ceremonial — the terror is stated as an attribute the thing simply has, not an effect it works on you.",
+   "usage_labels": [],
+   "examples": [
+    "the dread presence of the headmaster",
+    "polio is no longer the dreaded disease it once was",
+    "a dreadful storm"
+   ]
+  },
+  {
+   "id": "dreaded.oewn-00195400-s",
+   "word": "dreaded",
+   "definition": "causing fear or dread or terror",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The participle turns the fear around: the thing is defined by the dread already aimed at it, where *dreadful* says it causes dread.",
+   "usage_labels": [],
+   "examples": [
+    "polio is no longer the dreaded disease it once was"
+   ]
+  },
+  {
+   "id": "dreadful.oewn-00195400-s",
+   "word": "dreadful",
+   "definition": "causing fear or dread or terror",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Says plainly that the thing causes dread — the workaday partner to *dread*'s elevation.",
+   "usage_labels": [],
+   "examples": [
+    "a dreadful storm"
+   ]
+  },
+  {
+   "id": "fearful.oewn-00195400-s",
+   "word": "fearful",
+   "definition": "causing fear or dread or terror",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Points outward at what causes the fear rather than inward at whoever feels it, the opposite reading to the one the word's shape invites.",
+   "usage_labels": [],
+   "examples": [
+    "a fearful howling"
+   ]
+  },
+  {
+   "id": "fearsome.oewn-00195400-s",
+   "word": "fearsome",
+   "definition": "causing fear or dread or terror",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Concedes stature to what frightens — the terror it names is formidable, not merely nasty as in *horrible*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "frightful.oewn-00195081-s",
+   "word": "frightful",
+   "definition": "provoking horror",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Fright rather than full horror — the same sense worn lightly enough to sound almost decorous beside *horrifying*.",
+   "usage_labels": [],
+   "examples": [
+    "a frightful crime of decapitation"
+   ]
+  },
+  {
+   "id": "horrible.oewn-00195081-s",
+   "word": "horrible",
+   "definition": "provoking horror",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain, all-purpose word for the quality — it states the horror without staging it.",
+   "usage_labels": [],
+   "examples": [
+    "war is beyond all words horrible"
+   ]
+  },
+  {
+   "id": "horrifying.oewn-00195081-s",
+   "word": "horrifying",
+   "definition": "provoking horror",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Keeps the verb's live action, the thing doing the horrifying to you as you watch, where *horrible* merely names the quality.",
+   "usage_labels": [],
+   "examples": [
+    "an alarming, even horrifying, picture"
+   ]
+  },
+  {
+   "id": "ugly.oewn-00195081-s",
+   "word": "ugly",
+   "definition": "provoking horror",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Nothing to do with looks here: a blunt, unadorned word for what provokes horror, and the flatness is the whole of its force.",
+   "usage_labels": [],
+   "examples": [
+    "an ugly wound"
+   ]
+  },
+  {
+   "id": "alternative.oewn-00611045-s",
+   "word": "alternative",
+   "definition": "pertaining to unconventional choices",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Treats the unconventionality as something chosen, and a choice is describable without being deplored.",
+   "usage_labels": [],
+   "examples": [
+    "an alternative life style"
+   ]
+  },
+  {
+   "id": "bizarre.oewn-00611168-s",
+   "word": "bizarre",
+   "definition": "conspicuously or grossly unconventional or unusual",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Strong and faintly appalled — the oddity is loud enough to unsettle, not merely to be noticed.",
+   "usage_labels": [],
+   "examples": [
+    "restaurants of bizarre design — one like a hat, another like a rabbit"
+   ]
+  },
+  {
+   "id": "devil-may-care.oewn-00611718-s",
+   "word": "devil-may-care",
+   "definition": "marked by a carefree unconventionality or disreputableness",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts its weight on the carefreeness itself, which is what the word names whether the result reads as dash or as disrepute.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "eccentric.oewn-00611168-s",
+   "word": "eccentric",
+   "definition": "conspicuously or grossly unconventional or unusual",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most tolerant reading of the same conspicuous oddity, allowing it to be indulged where *freakish* will not.",
+   "usage_labels": [],
+   "examples": [
+    "famed for his eccentric spelling"
+   ]
+  },
+  {
+   "id": "far-out.oewn-00611941-s",
+   "word": "far-out",
+   "definition": "(informal) strikingly unconventional",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal, and the striking quality lands as a thrill rather than a fault — the approving end of a family whose middle condemns.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "flakey.oewn-00611168-s",
+   "word": "flakey",
+   "definition": "conspicuously or grossly unconventional or unusual",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The variant spelling of *flaky*, carrying the identical shrug at strangeness that will not be weighed.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "flaky.oewn-00611168-s",
+   "word": "flaky",
+   "definition": "conspicuously or grossly unconventional or unusual",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal and dismissive — the oddity is treated as too insubstantial to be taken seriously.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "freakish.oewn-00611168-s",
+   "word": "freakish",
+   "definition": "conspicuously or grossly unconventional or unusual",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Pushes the strangeness toward the unnatural, so the deviation sounds like a defect of kind rather than a quirk.",
+   "usage_labels": [],
+   "examples": [
+    "a freakish combination of styles"
+   ]
+  },
+  {
+   "id": "freaky.oewn-00611168-s",
+   "word": "freaky",
+   "definition": "conspicuously or grossly unconventional or unusual",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The informal, offhand counterpart to *freakish*, registering the strangeness as a jolt rather than a fault.",
+   "usage_labels": [],
+   "examples": [
+    "a freakish combination of styles"
+   ]
+  },
+  {
+   "id": "gonzo.oewn-00611168-s",
+   "word": "gonzo",
+   "definition": "conspicuously or grossly unconventional or unusual",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Informal and almost relishing — the same conspicuous excess sounds enjoyed here, where *freakish* deplores it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "off-the-wall.oewn-00611168-s",
+   "word": "off-the-wall",
+   "definition": "conspicuously or grossly unconventional or unusual",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal and blunt, putting the oddity outside any expected range without making it a flaw of character.",
+   "usage_labels": [],
+   "examples": [
+    "his off-the-wall antics"
+   ]
+  },
+  {
+   "id": "outlandish.oewn-00611168-s",
+   "word": "outlandish",
+   "definition": "conspicuously or grossly unconventional or unusual",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The strangeness is excessive to the edge of absurdity, and the word scorns it where *eccentric* would indulge it.",
+   "usage_labels": [],
+   "examples": [
+    "the outlandish clothes of teenagers"
+   ]
+  },
+  {
+   "id": "outre.oewn-00611168-s",
+   "word": "outre",
+   "definition": "conspicuously or grossly unconventional or unusual",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and cool, naming the same conspicuous strangeness with a raised eyebrow instead of *outlandish*'s scorn.",
+   "usage_labels": [],
+   "examples": [
+    "outre and affected stage antics"
+   ]
+  },
+  {
+   "id": "raffish.oewn-00611718-s",
+   "word": "raffish",
+   "definition": "marked by a carefree unconventionality or disreputableness",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Tilts toward the disreputable half of the sense, though the carefreeness keeps it amused rather than condemning.",
+   "usage_labels": [],
+   "examples": [
+    "a cocktail party given by some … raffish bachelors"
+   ]
+  },
+  {
+   "id": "rakish.oewn-00611718-s",
+   "word": "rakish",
+   "definition": "marked by a carefree unconventionality or disreputableness",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Hears dash in the same carefree disrepute that *raffish* hears a shabbiness in.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unconventional.oewn-00610798-a",
+   "word": "unconventional",
+   "definition": "not conventional or conformist",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flat, judgement-free naming of the departure itself, which *bizarre* and *outlandish* charge up into a verdict.",
+   "usage_labels": [],
+   "examples": [
+    "unconventional life styles"
+   ]
+  },
+  {
+   "id": "bodied.oewn-00630690-a",
+   "word": "bodied",
+   "definition": "having a body or a body of a specified kind; often used in combination",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The unmarked base of the set - it says only that a body is there, or that one of a stated kind is, and waits for a word in front of it to say which.",
+   "usage_labels": [],
+   "examples": [
+    "strong-bodied",
+    "big-bodied"
+   ]
+  },
+  {
+   "id": "incarnate.oewn-00631042-s",
+   "word": "incarnate",
+   "definition": "invested with a bodily form especially of a human body",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The one member that treats embodiment as something conferred rather than measured, and it carries a gravity the shape words never reach for.",
+   "usage_labels": [],
+   "examples": [
+    "a monarch … regarded as a god incarnate"
+   ]
+  },
+  {
+   "id": "lithe-bodied.oewn-00631195-s",
+   "word": "lithe-bodied",
+   "definition": "having a lithe body",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praises suppleness rather than outline - where *slim-bodied* reports a shape, this admires the ease of one.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "long-bodied.oewn-00631273-s",
+   "word": "long-bodied",
+   "definition": "having a relatively long body",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Pure measurement along a single axis, and a comparative one at that - it reports length against other bodies without admiring or faulting it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "narrow-bodied.oewn-00631360-s",
+   "word": "narrow-bodied",
+   "definition": "having a relatively narrow body",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Measures across where *long-bodied* measures along, and is just as uncommitted about whether narrowness is a virtue.",
+   "usage_labels": [],
+   "examples": []
+  }
+ ]
+}

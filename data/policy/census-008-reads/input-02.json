@@ -1,0 +1,588 @@
+{
+ "packet": 2,
+ "count": 48,
+ "entries": [
+  {
+   "id": "oval-bodied.oewn-00631451-s",
+   "word": "oval-bodied",
+   "definition": "having an oval body",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Names a whole outline instead of one dimension - the most purely geometric word here and the least interested in judging what it draws.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "short-bodied.oewn-00631528-s",
+   "word": "short-bodied",
+   "definition": "having a relatively short body",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The mirror of *long-bodied* and just as flat - shortness is given as a proportion, not held against the thing that has it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "silver-bodied.oewn-00631617-s",
+   "word": "silver-bodied",
+   "definition": "having a silver-colored body",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Turns from shape to colour, and asserts the metal outright rather than a likeness to it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "silvery-bodied.oewn-00631617-s",
+   "word": "silvery-bodied",
+   "definition": "having a silver-colored body",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The same colour softened into resemblance - a sheen suggested where *silver-bodied* claims the metal itself.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "slender-bodied.oewn-00631722-s",
+   "word": "slender-bodied",
+   "definition": "having a slim body",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most admiring way to report slimness, lending it an elegance *thin-bodied* withholds.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "slim-bodied.oewn-00631722-s",
+   "word": "slim-bodied",
+   "definition": "having a slim body",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Slimness stated with quiet approval - the plainest of the favourable three, complimentary without reaching for grace.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "smooth-bodied.oewn-00631829-s",
+   "word": "smooth-bodied",
+   "definition": "having a smooth body",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Reports surface rather than dimension, and the agreeableness in it belongs to the texture rather than to any verdict on the body.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "thick-bodied.oewn-00631909-s",
+   "word": "thick-bodied",
+   "definition": "having a thick body",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The one dimension word here that can land as a verdict instead of a measurement, reading as bulk where *slim-bodied* reads as trim.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "thin-bodied.oewn-00631722-s",
+   "word": "thin-bodied",
+   "definition": "having a slim body",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The same slimness with the compliment drained out - where *slim-bodied* approves, this can land as merely scant.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "deciding.oewn-00688059-s",
+   "word": "deciding",
+   "definition": "having the power or quality of deciding",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plainest member — the power or quality of deciding stated with no formality at all, where *determinative* says as much in a starched collar.",
+   "usage_labels": [],
+   "examples": [
+    "cast the deciding vote"
+   ]
+  },
+  {
+   "id": "decisive.oewn-00687757-a",
+   "word": "decisive",
+   "definition": "determining or having the power to determine an outcome",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The family's plain baseline, covering both the thing that actually determines an outcome and the thing merely holding the power to, and taking no view on how the outcome falls.",
+   "usage_labels": [],
+   "examples": [
+    "cast the decisive vote",
+    "two factors had a decisive influence"
+   ]
+  },
+  {
+   "id": "determinant.oewn-00688059-s",
+   "word": "determinant",
+   "definition": "having the power or quality of deciding",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and analytic, naming the deciding power as a property a factor holds rather than anything it is seen to do.",
+   "usage_labels": [],
+   "examples": [
+    "the determinative (or determinant) battle"
+   ]
+  },
+  {
+   "id": "determinative.oewn-00688059-s",
+   "word": "determinative",
+   "definition": "having the power or quality of deciding",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal, and tilted toward deciding as a standing quality, where *determining* is that same power caught in the act.",
+   "usage_labels": [],
+   "examples": [
+    "the determinative (or determinant) battle"
+   ]
+  },
+  {
+   "id": "determining.oewn-00688059-s",
+   "word": "determining",
+   "definition": "having the power or quality of deciding",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The deciding power shown in use rather than merely held, which gives it a motion *determinant* lacks.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "fatal.oewn-00688390-s",
+   "word": "fatal",
+   "definition": "having momentous consequences; of decisive importance",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The darkest way this family has of saying momentous — it makes decisive importance sound like doom arriving, where *fateful* only makes it weighty.",
+   "usage_labels": [],
+   "examples": [
+    "the fatal day of the election finally arrived"
+   ]
+  },
+  {
+   "id": "fateful.oewn-00688390-s",
+   "word": "fateful",
+   "definition": "having momentous consequences; of decisive importance",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Adds gravity to plain importance — consequences big enough to feel handed down, with a shadow across them that *deciding* has no room for.",
+   "usage_labels": [],
+   "examples": [
+    "that fateful meeting of the U.N. when … it declared war on North Korea"
+   ]
+  },
+  {
+   "id": "peremptory.oewn-00688642-s",
+   "word": "peremptory",
+   "definition": "putting an end to all debate or action",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Force with no courtesy in it: rather than settle an outcome it slams the door on debate and action alike, leaving nothing to answer.",
+   "usage_labels": [],
+   "examples": [
+    "a peremptory decree"
+   ]
+  },
+  {
+   "id": "amort.oewn-00706811-s",
+   "word": "amort",
+   "definition": "utterly cast down",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Absolute rather than graded - 'utterly' leaves no degrees to argue about, putting it at the far end from a merely *low* mood.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "blue.oewn-00707060-s",
+   "word": "blue",
+   "definition": "filled with melancholy and despondency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The softest word here - it makes despondency sound like a passing shade, understating what the sense actually covers.",
+   "usage_labels": [],
+   "examples": [
+    "lonely and blue in a strange city"
+   ]
+  },
+  {
+   "id": "chapfallen.oewn-00706899-s",
+   "word": "chapfallen",
+   "definition": "brought low in spirit",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Identical in sense to *chopfallen*, and like it stresses being brought low - a spirit put down from a height rather than one that was always down.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "chopfallen.oewn-00706899-s",
+   "word": "chopfallen",
+   "definition": "brought low in spirit",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The blunter-sounding twin of *chapfallen*: the force is in the fall, not in the level reached.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "crestfallen.oewn-00706899-s",
+   "word": "crestfallen",
+   "definition": "brought low in spirit",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Implies the spirit stood higher before it was lowered, which *gloomy* and *low* do not.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "deflated.oewn-00706899-s",
+   "word": "deflated",
+   "definition": "brought low in spirit",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Flatness rather than darkness - the spirit reads as having gone out of something, the mildest and most deadpan of the brought-low set.",
+   "usage_labels": [],
+   "examples": [
+    "left us fatigued and deflated spiritually"
+   ]
+  },
+  {
+   "id": "dejected.oewn-00706554-a",
+   "word": "dejected",
+   "definition": "affected or marked by low spirits",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain, unmarked word for the state - it reports low spirits without the finality of *amort* or the weather of *gloomy*.",
+   "usage_labels": [],
+   "examples": [
+    "is dejected but trying to look cheerful"
+   ]
+  },
+  {
+   "id": "depressed.oewn-00707060-s",
+   "word": "depressed",
+   "definition": "filled with melancholy and despondency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "States the weight flatly and without consolation, none of the softening that *blue* or *down* carry.",
+   "usage_labels": [],
+   "examples": [
+    "depressed by the loss of his job"
+   ]
+  },
+  {
+   "id": "dispirited.oewn-00707060-s",
+   "word": "dispirited",
+   "definition": "filled with melancholy and despondency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the loss rather than the mood - the spirit has been drained out, which registers as depletion beside *gloomy*'s heaviness.",
+   "usage_labels": [],
+   "examples": [
+    "a dispirited and resigned expression on her face"
+   ]
+  },
+  {
+   "id": "down.oewn-00707060-s",
+   "word": "down",
+   "definition": "filled with melancholy and despondency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal and brief; it says the level and stops, understating beside *depressed*.",
+   "usage_labels": [],
+   "examples": [
+    "downcast after his defeat",
+    "feeling discouraged and downhearted"
+   ]
+  },
+  {
+   "id": "down_in_the_mouth.oewn-00707060-s",
+   "word": "down in the mouth",
+   "definition": "filled with melancholy and despondency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal and faintly wry - it points at a visible droop instead of naming the feeling, making the state sound smaller than it is.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "downcast.oewn-00707060-s",
+   "word": "downcast",
+   "definition": "filled with melancholy and despondency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "More picture than *down* - the whole bearing is lowered, not only the mood.",
+   "usage_labels": [],
+   "examples": [
+    "downcast after his defeat"
+   ]
+  },
+  {
+   "id": "downhearted.oewn-00707060-s",
+   "word": "downhearted",
+   "definition": "filled with melancholy and despondency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Gentle and sympathetic, seating the despondency in the heart and inviting comfort where *grim* forecloses it.",
+   "usage_labels": [],
+   "examples": [
+    "feeling discouraged and downhearted"
+   ]
+  },
+  {
+   "id": "gloomy.oewn-00707060-s",
+   "word": "gloomy",
+   "definition": "filled with melancholy and despondency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Suffuses rather than strikes - the despondency reads as a settled climate around the person, where *deflated* reads as one blow.",
+   "usage_labels": [],
+   "examples": [
+    "gloomy at the thought of what he had to face",
+    "gloomy predictions",
+    "a gloomy silence"
+   ]
+  },
+  {
+   "id": "grim.oewn-00707060-s",
+   "word": "grim",
+   "definition": "filled with melancholy and despondency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Hard-edged where *gloomy* is merely overcast - melancholy that has set and will not be coaxed out of.",
+   "usage_labels": [],
+   "examples": [
+    "took a grim view of the economy"
+   ]
+  },
+  {
+   "id": "low.oewn-00707060-s",
+   "word": "low",
+   "definition": "filled with melancholy and despondency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The barest term available - it gives the level and nothing else, so *downhearted*'s warmth and *grim*'s hardness both fall away.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "anicteric.oewn-01175499-s",
+   "word": "anicteric",
+   "definition": "not affected by jaundice",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Clinical and purely negative in shape, saying only that jaundice is absent and carrying none of the approval the rest of the family trades in.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "bouncing.oewn-01174528-s",
+   "word": "bouncing",
+   "definition": "vigorously healthy",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Health with energy spilling out of it, so where *healthy* reports a condition this one moves.",
+   "usage_labels": [],
+   "examples": [
+    "a bouncing baby"
+   ]
+  },
+  {
+   "id": "firm.oewn-01174620-s",
+   "word": "firm",
+   "definition": "possessing the tone and resiliency of healthy tissue",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Judges health by touch, tone and resilience in the tissue itself, not the colour *rosy* shows nor the vigour *bouncing* spends.",
+   "usage_labels": [],
+   "examples": [
+    "firm muscles"
+   ]
+  },
+  {
+   "id": "flushed.oewn-01174367-s",
+   "word": "flushed",
+   "definition": "having the pinkish flush of health",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Reads health off the skin's colour instead of declaring it, offering evidence where *healthy* offers a judgement.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "full-blooded.oewn-01175290-s",
+   "word": "full-blooded",
+   "definition": "endowed with or exhibiting great bodily or mental health",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Treats great health of body or mind as something carried in the constitution, possessed as much as shown.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "good.oewn-01174757-s",
+   "word": "good",
+   "definition": "in excellent physical condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The unshowy top of the scale, excellent condition stated without a flourish where *hale* reaches for one.",
+   "usage_labels": [],
+   "examples": [
+    "good teeth",
+    "I still have one good leg"
+   ]
+  },
+  {
+   "id": "hale.oewn-01174940-s",
+   "word": "hale",
+   "definition": "exhibiting or restored to vigorous good health",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and a little grand, and it covers vigour regained as readily as vigour never lost.",
+   "usage_labels": [],
+   "examples": [
+    "hale and hearty"
+   ]
+  },
+  {
+   "id": "healthy.oewn-01173787-a",
+   "word": "healthy",
+   "definition": "having or indicating good health in body or mind; free from infirmity or disease",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The flat baseline of the family, a verdict passed on body or mind alike with none of the visible glow *rosy* insists on.",
+   "usage_labels": [],
+   "examples": [
+    "a rosy healthy baby",
+    "staying fit and healthy"
+   ]
+  },
+  {
+   "id": "hearty.oewn-01175150-s",
+   "word": "hearty",
+   "definition": "consuming abundantly and with gusto",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approves through appetite, abundance taken with relish, so it praises how someone eats rather than how they are.",
+   "usage_labels": [],
+   "examples": [
+    "a hearty (or healthy) appetite"
+   ]
+  },
+  {
+   "id": "lusty.oewn-01175290-s",
+   "word": "lusty",
+   "definition": "endowed with or exhibiting great bodily or mental health",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Pitches the same great bodily or mental health as raw force, louder and more physical than *full-blooded*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "red-blooded.oewn-01175290-s",
+   "word": "red-blooded",
+   "definition": "endowed with or exhibiting great bodily or mental health",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Sounds like a boast, great health of body or mind worn as vitality rather than merely reported as *healthy* would.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "rose-cheeked.oewn-01174367-s",
+   "word": "rose-cheeked",
+   "definition": "having the pinkish flush of health",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Puts the same pink flush in one place, the cheeks, which turns *flushed*'s observation into a portrait.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "rosy-cheeked.oewn-01174367-s",
+   "word": "rosy-cheeked",
+   "definition": "having the pinkish flush of health",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Spells out where *rosy*'s glow sits, and the extra word makes it fonder and more picturesque.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "rosy.oewn-01174367-s",
+   "word": "rosy",
+   "definition": "having the pinkish flush of health",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The single unadorned stroke of the pink-flush words, letting the glow stand alone rather than pinning it to a face as *rosy-cheeked* does.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sound.oewn-01174757-s",
+   "word": "sound",
+   "definition": "in excellent physical condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Says the same excellent condition as *good* with the ring of a verdict rather than a compliment.",
+   "usage_labels": [],
+   "examples": [
+    "a sound mind in a sound body"
+   ]
+  }
+ ]
+}

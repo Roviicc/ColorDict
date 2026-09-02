@@ -1,0 +1,592 @@
+{
+ "packet": 4,
+ "count": 48,
+ "entries": [
+  {
+   "id": "aged.oewn-01648667-s",
+   "word": "aged",
+   "definition": "advanced in years; (‘aged’ is pronounced as two syllables)",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and weighty where *older* is merely comparative, presenting advanced years as a settled condition rather than a point on a scale.",
+   "usage_labels": [],
+   "examples": [
+    "aged members of the society"
+   ]
+  },
+  {
+   "id": "ageing.oewn-01649151-s",
+   "word": "ageing",
+   "definition": "growing old",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The British spelling of the same word, carrying the identical sense of decline already under way.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "aging.oewn-01649151-s",
+   "word": "aging",
+   "definition": "growing old",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts age in motion rather than in place - the process, not the state - and that forward motion carries its faint edge of decline.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "ancient.oewn-01649289-s",
+   "word": "ancient",
+   "definition": "very old",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Pure intensification — *old* taken to its limit, and the size of the exaggeration is what gives it its edge.",
+   "usage_labels": [],
+   "examples": [
+    "an ancient mariner"
+   ]
+  },
+  {
+   "id": "anile.oewn-01649409-s",
+   "word": "anile",
+   "definition": "of or like a feeble old woman",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal in shape but withering in effect, covering both actually being a feeble old woman and merely resembling one, with the contempt built into the word rather than the sentence.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "centenarian.oewn-01649490-s",
+   "word": "centenarian",
+   "definition": "being at least 100 years old",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely quantitative — it fixes a number where *ancient* only gestures at extremity, and passes no verdict with it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "darkened.oewn-01649594-s",
+   "word": "darkened",
+   "definition": "(of fabrics and paper) grown dark in color over time",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The one member describing what time does to the colour of a material rather than to a life, and it carries no judgement at all.",
+   "usage_labels": [],
+   "examples": [
+    "the darkened margins of the paper"
+   ]
+  },
+  {
+   "id": "doddering.oewn-01649738-s",
+   "word": "doddering",
+   "definition": "mentally or physically infirm with age",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Contemptuous where *aged* is not, making the infirmity — of mind or of body — the whole of what it says about the person.",
+   "usage_labels": [],
+   "examples": [
+    "his mother was doddering and frail"
+   ]
+  },
+  {
+   "id": "doddery.oewn-01649738-s",
+   "word": "doddery",
+   "definition": "mentally or physically infirm with age",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The same verdict of age-borne infirmity as *doddering*, its shorter form making the mockery sound offhand rather than deliberate.",
+   "usage_labels": [],
+   "examples": [
+    "his mother was doddering and frail"
+   ]
+  },
+  {
+   "id": "elderly.oewn-01648667-s",
+   "word": "elderly",
+   "definition": "advanced in years; (‘aged’ is pronounced as two syllables)",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The courteous way to say advanced in years, gentler in force than *aged* and careful to claim nothing further about the person.",
+   "usage_labels": [],
+   "examples": [
+    "elderly residents could remember the construction of the first skyscraper"
+   ]
+  },
+  {
+   "id": "gaga.oewn-01649738-s",
+   "word": "gaga",
+   "definition": "mentally or physically infirm with age",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal and blunt — the same infirmity as *doddering*, named in a word too flippant to leave the person any dignity.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "of_age.oewn-01648983-s",
+   "word": "of age",
+   "definition": "having attained a specific age; (‘aged’ is pronounced as one syllable)",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely a threshold reached, with none of the weight of accumulated years that *aged* brings with it.",
+   "usage_labels": [],
+   "examples": [
+    "ten years of age"
+   ]
+  },
+  {
+   "id": "old.oewn-01648062-a",
+   "word": "old",
+   "definition": "(used especially of persons) having lived for a relatively long time or attained a specific age",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and unloaded, and it holds both readings at once — a long life lived or simply a stated age attained — where *of age* carries only the second.",
+   "usage_labels": [],
+   "examples": [
+    "his mother is very old",
+    "a ripe old age",
+    "how old are you?"
+   ]
+  },
+  {
+   "id": "older.oewn-01648667-s",
+   "word": "older",
+   "definition": "advanced in years; (‘aged’ is pronounced as two syllables)",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A comparative doing the work of a plain description, which is what makes it the softest term here — it implies a scale instead of naming a state.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "senescent.oewn-01649151-s",
+   "word": "senescent",
+   "definition": "growing old",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Clinical and detached: it states the same growing old as *aging* in a register that declines to feel anything about it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "senior.oewn-01648667-s",
+   "word": "senior",
+   "definition": "advanced in years; (‘aged’ is pronounced as two syllables)",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Carries a note of standing rather than decline, making it the one flattering way in this set to say advanced in years.",
+   "usage_labels": [],
+   "examples": [
+    "senior citizen"
+   ]
+  },
+  {
+   "id": "bullish.oewn-01668381-s",
+   "word": "bullish",
+   "definition": "expecting a rise in prices",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Positional rather than evaluative: it names an expectation that prices will rise, taking no view of the person holding it the way *optimistic* does.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "cheerful.oewn-01668480-s",
+   "word": "cheerful",
+   "definition": "pleasantly (even unrealistically) optimistic",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Leads with the pleasantness and leaves the unrealism in the background, where *pollyannaish* brings it to the front.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "optimistic.oewn-01668036-a",
+   "word": "optimistic",
+   "definition": "expecting the best in this best of all possible worlds",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The unmarked term for expecting the best, and the only one here that neither congratulates the expectation nor doubts it.",
+   "usage_labels": [],
+   "examples": [
+    "in an optimistic mood",
+    "optimistic plans",
+    "took an optimistic view"
+   ]
+  },
+  {
+   "id": "pollyannaish.oewn-01668480-s",
+   "word": "pollyannaish",
+   "definition": "pleasantly (even unrealistically) optimistic",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Hangs its whole weight on the unrealistic half of the same pleasant optimism, so the good cheer itself becomes the failing.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "rose-colored.oewn-01668621-s",
+   "word": "rose-colored",
+   "definition": "reflecting optimism",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Puts the optimism into what is being shown rather than into the one holding it, so it colours a view instead of judging a temperament.",
+   "usage_labels": [],
+   "examples": [
+    "looked at the world through rose-colored glasses"
+   ]
+  },
+  {
+   "id": "rosy.oewn-01668621-s",
+   "word": "rosy",
+   "definition": "reflecting optimism",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The shorter, warmer form beside *rose-colored*, and the readier of the two to stand as simple praise for how a prospect looks.",
+   "usage_labels": [],
+   "examples": [
+    "a rosy future",
+    "looked at the world through rose-colored glasses"
+   ]
+  },
+  {
+   "id": "sanguine.oewn-01668920-s",
+   "word": "sanguine",
+   "definition": "confidently optimistic and cheerful",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Adds steadiness to the cheer: confidence held, not merely expectation entertained, which is what lifts it past *optimistic*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sanguineous.oewn-01668920-s",
+   "word": "sanguineous",
+   "definition": "confidently optimistic and cheerful",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The heavier, more formal twin of *sanguine* for the same confident cheer, the weight falling on the word rather than the mood.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "starry-eyed.oewn-01668775-s",
+   "word": "starry-eyed",
+   "definition": "unrealistically or naively optimistic",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Marks the optimism as a fault either way — whether it has outrun the facts or never met them — and the dreaminess is the point.",
+   "usage_labels": [],
+   "examples": [
+    "a starry-eyed reformer",
+    "starry-eyed idealism"
+   ]
+  },
+  {
+   "id": "upbeat.oewn-01668480-s",
+   "word": "upbeat",
+   "definition": "pleasantly (even unrealistically) optimistic",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Buoyant and forward-leaning where *cheerful* is merely pleasant, and it carries the least doubt of the three.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "broken.oewn-01673499-s",
+   "word": "broken",
+   "definition": "thrown into a state of disarray or confusion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Of a thing thrown into disarray rather than snapped in two - the confusion reads as damage done to it, not merely order gone missing.",
+   "usage_labels": [],
+   "examples": [
+    "troops fleeing in broken ranks"
+   ]
+  },
+  {
+   "id": "chaotic.oewn-01673760-s",
+   "word": "chaotic",
+   "definition": "lacking a visible order or organization",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Sharpens the charge into a spectacle - not a trace of order or organization to be seen, where *disorganized* merely notes the lack.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "confused.oewn-01673499-s",
+   "word": "confused",
+   "definition": "thrown into a state of disarray or confusion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the muddle in the thing itself rather than in anyone's head - it is the arrangement that is tangled, not a mind.",
+   "usage_labels": [],
+   "examples": [
+    "a confused mass of papers on the desk"
+   ]
+  },
+  {
+   "id": "disordered.oewn-01673499-s",
+   "word": "disordered",
+   "definition": "thrown into a state of disarray or confusion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The flattest of these - it records that order has given way to disarray and stops there, where *broken* wants you to feel the blow.",
+   "usage_labels": [],
+   "examples": [
+    "the small disordered room"
+   ]
+  },
+  {
+   "id": "disorganised.oewn-01673111-a",
+   "word": "disorganised",
+   "definition": "lacking order or methodical arrangement or function",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Carries exactly the force of *disorganized*; the spelling is the whole of the difference.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "disorganized.oewn-01673111-a",
+   "word": "disorganized",
+   "definition": "lacking order or methodical arrangement or function",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The family's plain statement of the fault - order, methodical arrangement and working function all simply absent, with none of the wreckage *chaotic* pictures.",
+   "usage_labels": [],
+   "examples": [
+    "a disorganized enterprise",
+    "a thousand pages of muddy and disorganized prose",
+    "she was too disorganized to be an agreeable roommate"
+   ]
+  },
+  {
+   "id": "fucked-up.oewn-01673870-s",
+   "word": "fucked-up",
+   "definition": "snarled or stalled in complete confusion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Coarse and total - a snarl or dead stop treated as a botch someone is answerable for, the harshest word in the family.",
+   "usage_labels": [],
+   "examples": [
+    "situation normal — all fucked-up"
+   ]
+  },
+  {
+   "id": "helter-skelter.oewn-01673760-s",
+   "word": "helter-skelter",
+   "definition": "lacking a visible order or organization",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Its jingling shape makes the same invisible order sound hectic and headlong, far lighter in judgement than *chaotic*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "scrambled.oewn-01674027-s",
+   "word": "scrambled",
+   "definition": "thrown together in a disorderly fashion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Faults the making rather than the thing: pieces flung together in haste, so the disorder sits in how it was put together.",
+   "usage_labels": [],
+   "examples": [
+    "a scrambled plan of action"
+   ]
+  },
+  {
+   "id": "snafu.oewn-01673870-s",
+   "word": "snafu",
+   "definition": "snarled or stalled in complete confusion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the same total snarl-up or standstill with a clipped, almost breezy label - rueful where *fucked-up* is furious.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "undone.oewn-01674290-s",
+   "word": "undone",
+   "definition": "thrown into a state of disorganization or incoherence",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Sounds the same collapse as an unmaking, graver and more final than *unstuck* - the thing not merely loosened but ruined.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unmethodical.oewn-01674152-s",
+   "word": "unmethodical",
+   "definition": "not efficient or methodical",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The coolest reproach here - it faults the missing method and the inefficiency that comes with it, and pictures no wreckage at all.",
+   "usage_labels": [],
+   "examples": [
+    "the project failed through unmethodical planning"
+   ]
+  },
+  {
+   "id": "unstuck.oewn-01674290-s",
+   "word": "unstuck",
+   "definition": "thrown into a state of disorganization or incoherence",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Pictures the collapse as a coming-apart - what was holding gives way, and the disorganization or incoherence follows from that.",
+   "usage_labels": [],
+   "examples": [
+    "price programs became unstuck because little grain was available"
+   ]
+  },
+  {
+   "id": "upset.oewn-01673499-s",
+   "word": "upset",
+   "definition": "thrown into a state of disarray or confusion",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Pictures the disarray as a tipping-over: the arrangement knocked out of place rather than destroyed, and the upheaval still fresh.",
+   "usage_labels": [],
+   "examples": [
+    "with everything so upset"
+   ]
+  },
+  {
+   "id": "avant-garde.oewn-01691548-s",
+   "word": "avant-garde",
+   "definition": "radically new or original",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approval for newness pushed to its edge, where the break with what came before is the whole of the claim - a bigger assertion than *fresh* makes.",
+   "usage_labels": [],
+   "examples": [
+    "an avant-garde theater piece"
+   ]
+  },
+  {
+   "id": "daring.oewn-01691548-s",
+   "word": "daring",
+   "definition": "radically new or original",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praises the same radical newness as *avant-garde* but hears nerve in it, as though the thing is new because someone risked making it so.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "freehand.oewn-01691672-s",
+   "word": "freehand",
+   "definition": "done by hand without mechanical aids or devices",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely a statement of method - the hand working without mechanical aid or device - and it carries none of the approval the words beside it do.",
+   "usage_labels": [],
+   "examples": [
+    "a freehand drawing"
+   ]
+  },
+  {
+   "id": "freehanded.oewn-01691672-s",
+   "word": "freehanded",
+   "definition": "done by hand without mechanical aids or devices",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Says exactly what *freehand* says and no more, still describing how a thing was done rather than passing any judgement on it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "fresh.oewn-01691809-s",
+   "word": "fresh",
+   "definition": "original and of a kind not seen before",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The warmest of the three that share this sense: not merely without precedent but welcome for it, where *new* only records the absence.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "germinal.oewn-01692005-s",
+   "word": "germinal",
+   "definition": "containing seeds of later development",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise pointed forward - the thing is valued for the later development it holds in seed, not for what it already amounts to.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "groundbreaking.oewn-01692228-s",
+   "word": "groundbreaking",
+   "definition": "being or producing something like nothing done or experienced or created before",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most emphatic way to say it - first through unbroken ground - where *innovative* states the same feat without the flourish.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "innovational.oewn-01692228-s",
+   "word": "innovational",
+   "definition": "being or producing something like nothing done or experienced or created before",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The dry variant of *innovative*, sounding more like a classification of the thing than any compliment paid to it.",
+   "usage_labels": [],
+   "examples": [
+    "a mind so innovational, so original"
+   ]
+  }
+ ]
+}

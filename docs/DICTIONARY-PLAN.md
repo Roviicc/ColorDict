@@ -391,11 +391,13 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-09-02 | **The charge gate checked, and kept.** 30 families blind-triaged by two raters from different model families (27/30 agreement) against the hypothesis that the 0.70 threshold was too tight. It is not: the excluded 0.50-0.59 band scored 0.00. Gate unchanged; the hypothesis was wrong and the ~600 estimate in 11.6 is superseded. See 11.75 |
 | 2026-09-02 | **Tick 3: 25 families, 292 senses, 3.4% blind — the first verbatim read.** Rubric taken from `census-reader.md` as written rather than typed into the prompt, which is what censuses 003-005 all did. 10 faults, 9 repaired and re-read clean; *awesome* took three attempts and failed a different class each time. See 11.76 |
 | 2026-09-02 | **Tick 4: 24 families, 298 senses, 1.3% blind.** Reading instrument verbatim and comparable to census 006 — but the *authoring* prompts carried an extra warning that `family-author.md` did not, so the drop from 3.4% is confounded. The line is now in the file. `bad-example` promoted to a named fault class on its second instance. See 11.77 |
+| 2026-09-02 | **Tick 5: 21 families, 286 senses, 1.4% blind.** First tick with BOTH instruments verbatim and prompts identical across every family, so it is the first cleanly comparable pair with tick 4 (1.3%). A second family withheld under 5.3, caught by reading rather than by the regex. New fault class `family-inconsistent`. See 11.78 |
 
-**Current totals: 163 families, 1,933 annotated senses, 2,104 reviewed entries,
-0 validation errors. Latest measured error rate 1.3% (census 007, blind), against
-3.4% (census 006) — both read with the instrument verbatim, though the authoring
-prompt changed between them (11.77). Earlier rates — 3.8% / 1.1% /
+**Current totals: 184 families, 2,219 annotated senses, 2,394 reviewed entries,
+0 validation errors. Latest measured error rate 1.4% (census 008, blind), against
+1.3% (census 007) — the first pair with both instruments verbatim and prompts
+identical, and therefore the first rate this project can compare to the one
+before it without a caveat. Earlier rates — 3.8% / 1.1% /
 0.6% — were read under typed paraphrases of the rubric, and census 005's was
 withdrawn for that reason (11.74). Every annotated sense has been read by a
 model from a different family than the one that wrote it.** — including adverb senses inherited for free, and 11
@@ -1557,6 +1559,69 @@ worth filtering at import.
 
 Queue down to **202 families**. At tick-4 size that is roughly eight more ticks
 on the adjective line.
+
+## 11.78 Tick 5 — the first uncaveated comparison, and a fault only visible in company
+
+**21 families, 286 senses. 282 right, 4 wrong, 0 unsure — 1.4%.** All four
+repaired and re-read blind, 4/4 right.
+
+### What makes this tick different
+
+Every previous rate came with a caveat. Census 005's rubric had drifted (11.74).
+Census 006 was the first verbatim *read*, but census 007 then changed the
+*authoring* prompt (11.77). Tick 5 is the first where **both instruments came
+verbatim from their files and every author prompt was identical** — no
+per-family hints, no extra warnings, nothing in the prompt that is not in
+`family-author.md`.
+
+So 1.4% against census 007's 1.3% is the first comparison in this project that
+needs no asterisk. Two ticks, ~580 senses, holding at a little over 1%.
+
+### `family-inconsistent` — a fault a solo reader cannot see
+
+Two of the four faults were a shape the corpus has not named: **a note makes a
+comparative claim about its family that the family's own notes contradict.**
+
+- *ageless* called itself "the one admiring member here" — while *everlasting*
+  sits beside it in the same synset at +1, its note calling it "warmer than
+  *eternal*".
+- *unending* said endlessness "sounds wearing" against *everlasting*'s
+  "treasured", when the sense's own example is *the unending bliss of heaven*.
+  Its charge was wrong too, and went −1 → 0.
+
+Neither is a gloss fault. Both notes agree with "continuing forever or
+indefinitely". They are wrong about **the family**, and that is only visible when
+the sibling notes are in front of you — which no census has done, because packets
+deliberately withhold the family id to stop readers inferring the spectrum
+instead of reading the gloss.
+
+The repair re-read therefore showed each note **with its siblings**, and the
+reader checked every comparative claim against the neighbour's actual note. That
+is the shape future repair rounds should use.
+
+It is also **mechanically checkable**: a note claiming to be the only approving
+or only disparaging member of its family can be tested against its siblings'
+charges without a model in the loop. Recorded as a candidate for `tone_lint.py`,
+not yet built.
+
+### The 5.3 screen is a smoke alarm too
+
+*illegitimate* was drawn for this tick — *bastardly*, *baseborn*, *misbegotten*,
+*base*, *spurious*, *fatherless*: words that demean a person for the
+circumstances of their birth, which they had no part in. Deciding how much
+contempt each carries **is** the sensitive judgement, the same shape as
+`held-5.3-deaf`. Withheld to `data/families/held-5.3-illegitimate.json`, 12
+senses, never auto-drafted.
+
+**The regex screen did not catch it.** It flagged two false positives in
+*improper* on the word "offensive" and missed a family whose every gloss is about
+birth status. The automated 5.3 screen has the same standing as `tone_lint.py` —
+it points at things worth a second look, and the tick's families still have to be
+read by someone before authoring starts. That reading is what caught this one.
+
+### Where the run stands
+
+Queue down to **181 families**, roughly seven more ticks on the adjective line.
 
 ## 11.71 The run plan — stages, and what stops each one
 

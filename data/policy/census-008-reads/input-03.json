@@ -1,0 +1,617 @@
+{
+ "packet": 3,
+ "count": 48,
+ "entries": [
+  {
+   "id": "whole.oewn-01174940-s",
+   "word": "whole",
+   "definition": "exhibiting or restored to vigorous good health",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Frames that same vigorous health as entirety, leaning on the restored side where *hale* leans on the display.",
+   "usage_labels": [],
+   "examples": [
+    "whole in mind and body",
+    "a whole person again"
+   ]
+  },
+  {
+   "id": "abject.oewn-01232308-s",
+   "word": "abject",
+   "definition": "showing utter resignation or hopelessness",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most degrading member: utter resignation or hopelessness worn openly, so that the giving-up is itself what gets judged.",
+   "usage_labels": [],
+   "examples": [
+    "abject surrender"
+   ]
+  },
+  {
+   "id": "black.oewn-01232434-s",
+   "word": "black",
+   "definition": "offering little or no hope",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Paints the little-or-no hope rather than measuring it, and paints it unrelieved, which is what puts it past *dim*.",
+   "usage_labels": [],
+   "examples": [
+    "the future looked black"
+   ]
+  },
+  {
+   "id": "bleak.oewn-01232434-s",
+   "word": "bleak",
+   "definition": "offering little or no hope",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The same shortage of hope felt as bareness and exposure rather than as the darkness of *black*.",
+   "usage_labels": [],
+   "examples": [
+    "prospects were bleak",
+    "Life in the Aran Islands has always been bleak and difficult"
+   ]
+  },
+  {
+   "id": "despairing.oewn-01232699-s",
+   "word": "despairing",
+   "definition": "arising from or marked by despair or loss of hope",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Points at the despair itself, whether a thing arises from that loss of hope or merely bears its mark, where *hopeless* points at the prospects.",
+   "usage_labels": [],
+   "examples": [
+    "a despairing view of the world situation",
+    "the last despairing plea of the condemned criminal"
+   ]
+  },
+  {
+   "id": "desperate.oewn-01232699-s",
+   "word": "desperate",
+   "definition": "arising from or marked by despair or loss of hope",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The straining side of the same despair — something arising from lost hope rather than merely showing it, so it pushes where *despairing* only mourns.",
+   "usage_labels": [],
+   "examples": [
+    "a desperate cry for help",
+    "helpless and desperate — as if at the end of his tether",
+    "her desperate screams"
+   ]
+  },
+  {
+   "id": "despondent.oewn-01233026-s",
+   "word": "despondent",
+   "definition": "without or almost without hope",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A sunk, settled state with hope gone or all but gone, heavier than *dim* and far quieter than *desperate*.",
+   "usage_labels": [],
+   "examples": [
+    "despondent about his failure"
+   ]
+  },
+  {
+   "id": "dim.oewn-01232434-s",
+   "word": "dim",
+   "definition": "offering little or no hope",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The mildest of the three, since it sits on the “little” rather than the “no” — hope faint but not yet out.",
+   "usage_labels": [],
+   "examples": [
+    "took a dim view of things"
+   ]
+  },
+  {
+   "id": "forlorn.oewn-01233260-s",
+   "word": "forlorn",
+   "definition": "marked by or showing hopelessness",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Hopelessness that is marked or shown in a way inviting pity, not the reproach *abject* invites.",
+   "usage_labels": [],
+   "examples": [
+    "the last forlorn attempt",
+    "a forlorn cause"
+   ]
+  },
+  {
+   "id": "futureless.oewn-01233394-s",
+   "word": "futureless",
+   "definition": "having no prospect or hope of a future",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Turns the loss forward — neither prospect nor hope of a future — a flat structural verdict beside the mood of *forlorn*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "heartsick.oewn-01233026-s",
+   "word": "heartsick",
+   "definition": "without or almost without hope",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts that same absent-or-nearly-absent hope in the body, a sickness felt rather than the low weight of *despondent*.",
+   "usage_labels": [],
+   "examples": [
+    "too heartsick to fight back"
+   ]
+  },
+  {
+   "id": "helpless.oewn-01233489-s",
+   "word": "helpless",
+   "definition": "unable to function; without help",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Two failures at once, no power to function and no help at hand, which makes it sound like a plea rather than the verdict *hopeless* delivers.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "hopeless.oewn-01231893-a",
+   "word": "hopeless",
+   "definition": "without hope because there seems to be no possibility of comfort or success",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The family's plain verdict, hope absent because no comfort or success looks possible — a reading of the odds where *despairing* is a reading of the feeling.",
+   "usage_labels": [],
+   "examples": [
+    "in an agony of hopeless grief",
+    "with a hopeless sigh he sat down"
+   ]
+  },
+  {
+   "id": "insoluble.oewn-01233601-s",
+   "word": "insoluble",
+   "definition": "without hope of solution",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The member aimed at what admits no solution rather than at anyone, a flat statement that none is to be hoped for, carrying no reproach of its own.",
+   "usage_labels": [],
+   "examples": [
+    "an insoluble problem"
+   ]
+  },
+  {
+   "id": "lost.oewn-01233489-s",
+   "word": "lost",
+   "definition": "unable to function; without help",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Carries the same inability and the same want of help as *helpless*, but as a settled condition rather than a moment of one, so it sounds past rescue.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unhopeful.oewn-01232308-s",
+   "word": "unhopeful",
+   "definition": "showing utter resignation or hopelessness",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A bare negation covering the same utter resignation or hopelessness as *abject*, but with the contempt drained out and understatement left to carry it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "arrant.oewn-01524174-s",
+   "word": "arrant",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Openly contemptuous rather than merely absolute - it disparages the thing it magnifies, where *complete* only measures it.",
+   "usage_labels": [],
+   "examples": [
+    "an arrant fool"
+   ]
+  },
+  {
+   "id": "complete.oewn-01524174-s",
+   "word": "complete",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plainest amplifier of the set - it adds fullness and takes whatever scorn is already in the noun.",
+   "usage_labels": [],
+   "examples": [
+    "a complete coward"
+   ]
+  },
+  {
+   "id": "consummate.oewn-01524174-s",
+   "word": "consummate",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Totalizes with an air of accomplishment, as though the quality had been brought to a finish, and that mismatch gives it a wryness *utter* has none of.",
+   "usage_labels": [],
+   "examples": [
+    "a consummate fool"
+   ]
+  },
+  {
+   "id": "double-dyed.oewn-01524174-s",
+   "word": "double-dyed",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Condemning - it presents the quality as set fast and past removing, going further than *thorough*, which only says it runs all the way through.",
+   "usage_labels": [],
+   "examples": [
+    "a double-dyed villain"
+   ]
+  },
+  {
+   "id": "everlasting.oewn-01524174-s",
+   "word": "everlasting",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Carries exasperation into the intensifier, insisting the quality will not let up, where *utter* simply fixes its extent.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "gross.oewn-01524174-s",
+   "word": "gross",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt and coarse - it enlarges the quality and looks down on it in a single move.",
+   "usage_labels": [],
+   "examples": [
+    "gross negligence"
+   ]
+  },
+  {
+   "id": "perfect.oewn-01524174-s",
+   "word": "perfect",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Turns a word of flawlessness into a measure of extent, and gains its edge over *complete* through that mismatch.",
+   "usage_labels": [],
+   "examples": [
+    "a perfect idiot"
+   ]
+  },
+  {
+   "id": "pure.oewn-01524174-s",
+   "word": "pure",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Intensifies by denying any admixture - the quality stands undiluted, which is a different claim from *utter*'s nothing-left-over.",
+   "usage_labels": [],
+   "examples": [
+    "pure folly"
+   ]
+  },
+  {
+   "id": "sodding.oewn-01524174-s",
+   "word": "sodding",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "British and profane - the most abusive of these, spending contempt before it has said anything about degree at all.",
+   "usage_labels": [],
+   "examples": [
+    "what a sodding mess"
+   ]
+  },
+  {
+   "id": "staring.oewn-01524174-s",
+   "word": "staring",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Makes the quality conspicuous as well as total - impossible to overlook, where *utter* says nothing about how visible it is.",
+   "usage_labels": [],
+   "examples": [
+    "stark staring mad"
+   ]
+  },
+  {
+   "id": "stark.oewn-01524174-s",
+   "word": "stark",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Bleak in its emphasis, leaving the quality bare and unrelieved rather than merely entire as *complete* does.",
+   "usage_labels": [],
+   "examples": [
+    "stark staring mad"
+   ]
+  },
+  {
+   "id": "thorough.oewn-01524174-s",
+   "word": "thorough",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Amplifies by saying the quality runs the whole way through, a claim about extent with no scorn of its own.",
+   "usage_labels": [],
+   "examples": [
+    "a thorough nuisance",
+    "a thoroughgoing villain"
+   ]
+  },
+  {
+   "id": "thoroughgoing.oewn-01524174-s",
+   "word": "thoroughgoing",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Heavier on the tongue than *thorough*, and the extra weight is insistence on completeness rather than added disparagement.",
+   "usage_labels": [],
+   "examples": [
+    "a thoroughgoing villain"
+   ]
+  },
+  {
+   "id": "unadulterated.oewn-01524174-s",
+   "word": "unadulterated",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The most deliberate of these amplifiers, spelling out that nothing has been mixed in to weaken the quality where *pure* asserts it in a breath.",
+   "usage_labels": [],
+   "examples": [
+    "the unadulterated truth"
+   ]
+  },
+  {
+   "id": "unmitigated.oewn-01523886-a",
+   "word": "unmitigated",
+   "definition": "not diminished or moderated in intensity or severity; sometimes used as an intensifier",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the absence of relief - the intensity or severity has had nothing taken off it - where *utter* only says the quality is entire.",
+   "usage_labels": [],
+   "examples": [
+    "unmitigated suffering",
+    "an unmitigated horror",
+    "an unmitigated lie"
+   ]
+  },
+  {
+   "id": "utter.oewn-01524174-s",
+   "word": "utter",
+   "definition": "without qualification; used informally as (often pejorative) intensifiers",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and absolute - it allows no remainder, and unlike *arrant* it supplies no sneer of its own.",
+   "usage_labels": [],
+   "examples": [
+    "utter nonsense"
+   ]
+  },
+  {
+   "id": "dignifying.oewn-01592833-s",
+   "word": "dignifying",
+   "definition": "investing with dignity or honor",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Names what confers standing rather than what holds it - the honour is being handed over, where *noble* already has it.",
+   "usage_labels": [],
+   "examples": [
+    "the dignifying effect of his presence"
+   ]
+  },
+  {
+   "id": "elevated.oewn-01593026-s",
+   "word": "elevated",
+   "definition": "of high moral or intellectual value; elevated in nature or style",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The measured word for that height, stating the value with no lift in the voice at all.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "ennobling.oewn-01592833-s",
+   "word": "ennobling",
+   "definition": "investing with dignity or honor",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "More lift than *dignifying*: it raises what it touches rather than only decorating it with honour.",
+   "usage_labels": [],
+   "examples": [
+    "the ennobling influence of cultural surroundings"
+   ]
+  },
+  {
+   "id": "exalted.oewn-01593026-s",
+   "word": "exalted",
+   "definition": "of high moral or intellectual value; elevated in nature or style",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Reverent praise - it speaks of the height as though awe were owed to it, where *elevated* just records the same height.",
+   "usage_labels": [],
+   "examples": [
+    "an exalted ideal"
+   ]
+  },
+  {
+   "id": "grand.oewn-01593026-s",
+   "word": "grand",
+   "definition": "of high moral or intellectual value; elevated in nature or style",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praises the sheer scale of the elevation where *exalted* praises its worth, so it impresses more than it moves.",
+   "usage_labels": [],
+   "examples": [
+    "a grand purpose"
+   ]
+  },
+  {
+   "id": "greathearted.oewn-01593452-s",
+   "word": "greathearted",
+   "definition": "noble and generous in spirit",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The warm end of the family - nobility felt as open generosity, and plain-spoken where *magnanimous* is formal.",
+   "usage_labels": [],
+   "examples": [
+    "a greathearted general"
+   ]
+  },
+  {
+   "id": "high-flown.oewn-01593026-s",
+   "word": "high-flown",
+   "definition": "of high moral or intellectual value; elevated in nature or style",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most emphatic in manner - elevation pitched loudly enough to be heard, where *elevated* keeps its voice level.",
+   "usage_labels": [],
+   "examples": [
+    "argue in terms of high-flown ideals"
+   ]
+  },
+  {
+   "id": "high-minded.oewn-01593026-s",
+   "word": "high-minded",
+   "definition": "of high moral or intellectual value; elevated in nature or style",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Sober, earnest approval: it admires the height without supplying any of the grandeur *grand* does.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "idealistic.oewn-01593026-s",
+   "word": "idealistic",
+   "definition": "of high moral or intellectual value; elevated in nature or style",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The least awed of these - it credits the pitch of the standard rather than any grandeur in the thing.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "lofty.oewn-01593026-s",
+   "word": "lofty",
+   "definition": "of high moral or intellectual value; elevated in nature or style",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Height with distance in it - approving, but it sets the thing above the ordinary rather than among it.",
+   "usage_labels": [],
+   "examples": [
+    "a noble and lofty concept"
+   ]
+  },
+  {
+   "id": "magnanimous.oewn-01593452-s",
+   "word": "magnanimous",
+   "definition": "noble and generous in spirit",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The formal, weighty word for that same generous nobility, stated as a virtue rather than felt as warmth.",
+   "usage_labels": [],
+   "examples": [
+    "a magnanimous conqueror"
+   ]
+  },
+  {
+   "id": "noble-minded.oewn-01593026-s",
+   "word": "noble-minded",
+   "definition": "of high moral or intellectual value; elevated in nature or style",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Puts *noble* in plainer and more personal terms, naming high character straight out without the ceremony *exalted* carries.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "noble.oewn-01592579-a",
+   "word": "noble",
+   "definition": "having or showing or indicative of high or elevated character",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The family's base term for the thing itself: it takes in character that is high, character that shows it, and anything that merely points to it.",
+   "usage_labels": [],
+   "examples": [
+    "a noble spirit",
+    "noble deeds"
+   ]
+  },
+  {
+   "id": "rarefied.oewn-01593026-s",
+   "word": "rarefied",
+   "definition": "of high moral or intellectual value; elevated in nature or style",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise with thin air in it: the elevation is so far up that it reads as select rather than shared.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "rarified.oewn-01593026-s",
+   "word": "rarified",
+   "definition": "of high moral or intellectual value; elevated in nature or style",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same select, thin-aired elevation as *rarefied*, spelled the other way.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sublime.oewn-01593026-s",
+   "word": "sublime",
+   "definition": "of high moral or intellectual value; elevated in nature or style",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The furthest reach here - elevation that overwhelms rather than merely impresses, beside which *grand* is only large.",
+   "usage_labels": [],
+   "examples": []
+  }
+ ]
+}

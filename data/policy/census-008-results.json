@@ -1,0 +1,77 @@
+{
+ "sample": "census-008",
+ "seed": null,
+ "population": 286,
+ "read": 286,
+ "right": 282,
+ "wrong": 4,
+ "unsure": 0,
+ "error_rate_pct": 1.4,
+ "threshold_pct": 5.0,
+ "reader_model": "claude-fable-5-1",
+ "reader_effort": "xhigh",
+ "reader_agent": ".claude/agents/census-reader.md",
+ "reader_tools": "Read, Write",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
+ "missing_packets": [],
+ "unread": [],
+ "verdicts_for_unknown_ids": [],
+ "faults": {
+  "other": 3,
+  "gloss-mismatch": 1
+ },
+ "by_part_of_speech": {
+  "adjective": {
+   "read": 286,
+   "right": 282,
+   "wrong": 4,
+   "unsure": 0,
+   "error_rate_pct": 1.4
+  }
+ },
+ "failures_by_synset": {
+  "oewn-00631617-s": [
+   {
+    "id": "silver-bodied.oewn-00631617-s",
+    "word": "silver-bodied",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "The gloss says 'silver-colored body' but the note says the word 'asserts the metal outright rather than a likeness to it', reading the compound as material rather than colour.",
+    "definition": "having a silver-colored body",
+    "tone": "Turns from shape to colour, and asserts the metal outright rather than a likeness to it."
+   },
+   {
+    "id": "silvery-bodied.oewn-00631617-s",
+    "word": "silvery-bodied",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "The note's own account ('the same colour softened into resemblance') fits the gloss, but its contrast clause repeats the misreading that *silver-bodied* 'claims the metal itself' when both share the gloss 'silver-colored'.",
+    "definition": "having a silver-colored body",
+    "tone": "The same colour softened into resemblance - a sheen suggested where *silver-bodied* claims the metal itself."
+   }
+  ],
+  "oewn-01759536-s": [
+   {
+    "id": "ageless.oewn-01759536-s",
+    "word": "ageless",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "Claims to be 'the one admiring member here' but everlasting in the same synset is also labelled positive and its note calls it warm and treasured, so the note's central comparative claim is contradicted by the family it sits in.",
+    "definition": "continuing forever or indefinitely",
+    "tone": "The one admiring member here — it presents going on indefinitely as something to be envied rather than merely measured, unlike *perpetual*."
+   },
+   {
+    "id": "unending.oewn-01759536-s",
+    "word": "unending",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "The note says the word makes endlessness 'sound wearing' unlike everlasting's 'treasured', but the sense's own example is 'the unending bliss of heaven', which is exactly as treasured as 'life everlasting' and contradicts the note's characterisation and the negative label.",
+    "definition": "continuing forever or indefinitely",
+    "tone": "Frames going on forever as the absence of any stop, which makes it sound wearing where *everlasting* makes it sound treasured."
+   }
+  ]
+ },
+ "blindness": "readers held only their own packet and the rubric; no repo, no data/policy/, authored files cleared before the read",
+ "repairs": "4 of 4 repaired and re-read blind: 4/4 right (census-008-reread.json). unending also had its charge corrected -1 -> 0.",
+ "new_fault_class": "Two of the four faults are a shape the corpus has not named: a note makes a COMPARATIVE claim about its family that the family's own notes contradict. ageless called itself 'the one admiring member here' while everlasting sits beside it at +1; unending called endlessness 'wearing' against everlasting's 'treasured' when the sense's own example is 'the unending bliss of heaven'. Proposed name: family-inconsistent. It is invisible to a reader shown one sense at a time, which is how every census has read until now, and it is mechanically checkable - a note claiming to be the only X in a family can be tested against its siblings' charges."
+}
