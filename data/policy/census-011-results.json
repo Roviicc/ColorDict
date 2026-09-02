@@ -1,0 +1,85 @@
+{
+ "sample": "census-011",
+ "seed": null,
+ "population": 99,
+ "read": 99,
+ "right": 96,
+ "wrong": 3,
+ "unsure": 0,
+ "error_rate_pct": 3.0,
+ "threshold_pct": 5.0,
+ "reader_model": "claude-fable-5-1",
+ "reader_effort": "xhigh",
+ "reader_agent": ".claude/agents/census-reader.md",
+ "reader_tools": "Read, Write",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus. FIRST CENSUS OUTSIDE ADJECTIVES: population is verbs and nouns drawn from the book worklist, both instruments unchanged from 007-010.",
+ "missing_packets": [],
+ "unread": [],
+ "verdicts_for_unknown_ids": [],
+ "reconciled_ids": [],
+ "faults": {
+  "other": 2,
+  "provenance": 1
+ },
+ "by_part_of_speech": {
+  "noun": {
+   "read": 53,
+   "right": 51,
+   "wrong": 2,
+   "unsure": 0,
+   "error_rate_pct": 3.8
+  },
+  "verb": {
+   "read": 46,
+   "right": 45,
+   "wrong": 1,
+   "unsure": 0,
+   "error_rate_pct": 2.2
+  }
+ },
+ "failures_by_synset": {
+  "oewn-02670095-v": [
+   {
+    "id": "depend_on.oewn-02670095-v",
+    "word": "depend on",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "The note paraphrases the gloss's 'trust' and 'confidence' and then invents a contrast with 'the bare depend', but depend in this sense only exists with 'on', so the claimed extra firmness is a property of the gloss wording, not of the word.",
+    "definition": "put trust in with confidence",
+    "tone": "Spells out both the trust and the assurance behind it, firmer and more deliberate than the bare *depend*."
+   }
+  ],
+  "oewn-05621958-n": [
+   {
+    "id": "judgement.oewn-05621958-n",
+    "word": "judgement",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "The note calls the word a 'neutral faculty-name' while the entry's charge is positive, so the note and the charge contradict each other on the one thing the charge is meant to record.",
+    "definition": "the mental ability to understand and discriminate between relations",
+    "tone": "The British spelling of the same neutral faculty-name, adding nothing to *judgment* but a letter."
+   }
+  ],
+  "oewn-05623283-n": [
+   {
+    "id": "discreetness.oewn-05623283-n",
+    "word": "discreetness",
+    "verdict": "wrong",
+    "fault": "provenance",
+    "why": "'Named off the adjective' is a derivation story about where the word came from rather than what it does, the same class as 'back-formation'; the register contrast with discretion would stand on its own.",
+    "definition": "knowing how to avoid embarrassment or distress",
+    "tone": "The same avoidance named off the adjective, drier and more clinical than *discretion*."
+   }
+  ]
+ },
+ "repairs": {
+  "count": 3,
+  "reread": "blind, by a census-reader that neither authored nor found the faults",
+  "result": "3/3 right",
+  "ids": [
+   "depend_on.oewn-02670095-v",
+   "judgement.oewn-05621958-n",
+   "discreetness.oewn-05623283-n"
+  ]
+ }
+}

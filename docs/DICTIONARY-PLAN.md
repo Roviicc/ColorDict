@@ -399,6 +399,7 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-09-02 | **Tick 6: 23 families, 287 senses, 2.1% blind.** Third comparable tick (1.3 / 1.4 / 2.1). `family-inconsistent` built into `tone_lint.py` and backtested — found one historic fault in shard 12. `sensitive_screen.py` replaces the retyped regex after three misses in three ticks. Third family withheld under 5.3. See 11.79 |
 | 2026-09-02 | **Tick 7: 20 families, 280 senses, 2.5% blind.** Fourth comparable tick (1.3 / 1.4 / 2.1 / 2.5). Two of the seven faults were an importer bug, not authoring: OEWN attaches examples to the synset, so *lucid* carried *pellucid*'s example - `bad-example` finally has a cause, fixed at import, and `example_mentions` tightened from substring to word boundary. New `superlative-collision` rule in `tone_lint.py` then found six MORE faults in the same shard the census scored at 2.5%, plus eight historic. Fourth family withheld under 5.3. See 11.80 |
 | 2026-09-02 | **Selection moves to demand.** The charge gate is a proxy 11.75 measured as selecting taxonomy five times in eight; a reported miss is not. Verb screening and the noun filter are cancelled, the adjective queue is demoted to filler, and the MVP deliverable becomes users rather than senses. Reports are a local log the user exports; the release is a GitHub APK plus the web build. See 11.83 |
+| 2026-09-02 | **First tick outside adjectives: 3.0%.** 8 families / 99 senses, four verb and four noun, drawn from the book worklist. Verbs 2.2%, nouns 3.8%, gate 5%. Stage B and Stage E were both answered by running the tick rather than by the screening passes they called for. Three faults, all repaired by a third hand and re-read blind. See 11.84 |
 
 **Current totals: 207 families, 2,506 annotated senses, 2,667 reviewed entries,
 0 validation errors. Measured error rates 1.3% / 1.4% / 2.1% (censuses 007, 008,
@@ -1962,6 +1963,83 @@ at which point the method has nothing left to draw. That is not a finish line
 anyone chose; it is what a 5.7% gate implies, and 11.75 already measured that
 lowering the gate makes selection worse. HANDOFF now names this as a decision to
 take **before** the adjective queue empties rather than after.
+
+## 11.84 The first tick outside adjectives, and what the book was actually doing
+
+Eight families, 99 senses, four verb and four noun, drawn from the book worklist
+(11.83) rather than the Zipf one. **Census 011 read 3 wrong of 99 - 3.0%**,
+under the 5% gate, on a population no adjective tick had ever covered.
+
+| | read | wrong | rate |
+| --- | --- | --- | --- |
+| verb | 46 | 1 | 2.2% |
+| noun | 53 | 2 | 3.8% |
+| **total** | **99** | **3** | **3.0%** |
+
+Both instruments were unchanged from censuses 007-010, so the *ruler* is
+comparable. The *population* is not: this is a different part of speech chosen
+by a different selector, so read a difference from ~2% as a fact about verbs and
+nouns, not about the instrument. At 99 senses one fault is 1.0%, so the gap
+between 2.2% and 3.8% is one fault and means nothing yet.
+
+### Verbs and nouns are not harder
+
+That is the finding, and it was not obvious. The whole reason both lines were
+closed was a fear that the method would not transfer: Stage B existed to test
+whether the gate's verb families carried connotation at all, and Stage E was
+closed because the noun filter could not separate a bad thing from a loaded
+word. One tick answered both, and neither pass had to be run.
+
+The three faults were ordinary:
+
+- *depend on* - the note paraphrased its own gloss and then invented a contrast
+  with "the bare *depend*", but this sense only exists with *on*, so the extra
+  firmness belonged to the gloss's wording rather than to the word.
+- *judgement* - the note called the word a "neutral faculty-name" while its
+  charge was recorded positive. **Note and charge contradicted each other**,
+  which no fault class had previously named; the reader filed it under `other`.
+- *discreetness* - "named off the adjective" is a derivation story, the same
+  class as "back-formation". `provenance`, the oldest fault in the corpus.
+
+All three were repaired by agents that neither wrote nor found them, and all
+three came back right on a blind re-read.
+
+### What the book was actually doing
+
+11.83 claimed the book solved Stage E because *pneumonia* never appears in
+prose. That is true, but the tick showed the mechanism is narrower and more
+useful than "books are wiser". A book does not know what connotation is. What it
+knows is **which senses a writer reached for**, and a writer reaches for
+*composure* over *equanimity*, or *bump off* over *murder*, precisely when the
+choice carries something. Frequency in prose is a trace of that choosing.
+
+The corollary is the failure the first run produced and the fix that followed:
+raw book counts belong to a lemma, not a sense, so `sleep together` topped the
+verb queue on 24,739 hits earned by *have* and *know* elsewhere in the sentence.
+That is the gloss-binding fault at the selection layer, and it is worth naming
+because it will recur every time a signal is joined to this corpus by lemma.
+
+### A false alarm worth keeping
+
+Building the census population joined shard members to the shipped dictionary by
+`word.synset`, and the shipped dictionary keys a multi-word lemma with
+underscores. **Sixteen of 99 senses silently vanished from the population** -
+*bump off*, *common sense*, *closed book*, *depend on*. They were annotated,
+they were in the build, and a census that had not noticed would have reported a
+rate over 83 senses while claiming 99. It was caught only because the count was
+printed and did not match.
+
+This is the same family of failure as census 005's mistyped synset id (11.77):
+a join that loses rows reports a *cleaner* number, never a dirtier one, so it
+never announces itself. Every population build should print what it dropped.
+
+### The sensitive screen, and one cleared by hand
+
+`sensitive_screen.py` flagged the *happiness* family for *gaiety* and
+*merriment*, both glossed "a gay feeling" - WordNet's archaic sense of cheerful.
+Cleared by hand rather than withheld: 5.3 reserves identity terms for a person,
+and this is a dated gloss, not one. Recorded because a cleared flag is a
+judgement someone should be able to disagree with later.
 
 ## 11.83 The queue was a proxy all along - demand replaces it
 

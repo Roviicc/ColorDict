@@ -1,0 +1,1155 @@
+{
+ "sample": "census-011",
+ "population": 99,
+ "drawn": 99,
+ "scope": "every sense authored in the first mixed verb/noun tick (shards 017v and 017n), drawn complete rather than sampled",
+ "authoring": "parallel author agents on Opus 5, family-author.md read verbatim from disk as a registered agent definition, prompts identical across all 8 families",
+ "reading": "rubric verbatim from census-reader.md",
+ "comparability": "FIRST CENSUS OUTSIDE ADJECTIVES. Both instruments are unchanged from censuses 007-010, so the rate is comparable on the instrument; the population is not - it is verbs and nouns, drawn from the book worklist rather than the Zipf worklist. Read a difference from ~2% as a fact about the new part of speech or the new selector, not about the ruler.",
+ "pre_read_checks": "tone_lint clean on all rules, 0 of 99 notes flagged; sensitive_screen flagged happiness (gaiety/merriment on a 'a gay feeling' gloss) and it was cleared by hand as WordNet's archaic sense of cheerful, not an identity term",
+ "by_shard": {
+  "annotated-017n": 53,
+  "annotated-017v": 46
+ },
+ "entries": [
+  {
+   "id": "admire.oewn-01831800-v",
+   "word": "admire",
+   "definition": "feel admiration for",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "A felt response to something, where *esteem* is a verdict on it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "aplomb.oewn-04911339-n",
+   "word": "aplomb",
+   "definition": "great coolness and composure under strain",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise with a flourish: the coolness under strain reads as polished and assured, not merely maintained.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "assuredness.oewn-04911339-n",
+   "word": "assuredness",
+   "definition": "great coolness and composure under strain",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Puts the weight on self-certainty as the root of the coolness, plainer and less stylish than *aplomb*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "bank.oewn-00714537-v",
+   "word": "bank",
+   "definition": "have faith or confidence in",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts the faith down like a deposit, everything in one place and nothing held back.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "belonging.oewn-07545205-n",
+   "word": "belonging",
+   "definition": "happiness felt in a secure relationship",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Pins the happiness to a secure relationship rather than leaving it a free-floating mood as *gladness* does.",
+   "usage_labels": [],
+   "examples": [
+    "with his classmates he felt a sense of belonging"
+   ]
+  },
+  {
+   "id": "bet.oewn-00714537-v",
+   "word": "bet",
+   "definition": "have faith or confidence in",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Frames the faith as a stake laid down, conceding in the same breath that it could be lost, where *rely* concedes nothing of the kind.",
+   "usage_labels": [],
+   "examples": [
+    "You can bet on that!"
+   ]
+  },
+  {
+   "id": "blitheness.oewn-07545866-n",
+   "word": "blitheness",
+   "definition": "a feeling of spontaneous good spirits",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The same spontaneous good spirits with a lighter, more carefree edge than *cheerfulness*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "bonheur.oewn-07542300-n",
+   "word": "bonheur",
+   "definition": "(French) happiness and good humor",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "French, and it bundles good humor in with the happiness where *happiness* names the feeling alone.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "bump_off.oewn-02488014-v",
+   "word": "bump off",
+   "definition": "kill intentionally and with premeditation",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Slang with a shrug in it, making the killing offhand and almost comic in a way *slay* never allows.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "burke.oewn-02488373-v",
+   "word": "burke",
+   "definition": "murder without leaving a trace on the body",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the killing by its method, leaving no mark on the body, and is chilling precisely because it is that specific where *murder* is general.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "calculate.oewn-00714537-v",
+   "word": "calculate",
+   "definition": "have faith or confidence in",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Makes the confidence the outcome of working something out, so it sounds arrived at rather than felt.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "calm.oewn-04910990-n",
+   "word": "calm",
+   "definition": "steadiness of mind under stress",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Bare and short — names the steady state itself rather than the effort of keeping it, which is what *composure* implies.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "calmness.oewn-04910990-n",
+   "word": "calmness",
+   "definition": "steadiness of mind under stress",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The flat quality-noun, describing the steadiness rather than admiring it as *equanimity* does.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "cheerfulness.oewn-07545866-n",
+   "word": "cheerfulness",
+   "definition": "a feeling of spontaneous good spirits",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Good spirits that rise unbidden, a steady sunniness rather than the crest of *rejoicing*.",
+   "usage_labels": [],
+   "examples": [
+    "his cheerfulness made everyone feel better"
+   ]
+  },
+  {
+   "id": "circumspection.oewn-05623283-n",
+   "word": "circumspection",
+   "definition": "knowing how to avoid embarrassment or distress",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Tilts the same skill toward wariness - looking all round a situation for the embarrassment or distress in it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "closed_book.oewn-05693343-n",
+   "word": "closed book",
+   "definition": "something that baffles understanding and cannot be explained",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Idiomatic and flat: shut to understanding with none of the allure *mystery* can carry, and no expectation of opening.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "common_sense.oewn-05622440-n",
+   "word": "common sense",
+   "definition": "sound practical judgment",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving at the workaday end - soundness in practical matters, the kind expected of anyone rather than marvelled at.",
+   "usage_labels": [],
+   "examples": [
+    "Common sense is not so common"
+   ]
+  },
+  {
+   "id": "compassionate.oewn-01825946-v",
+   "word": "compassionate",
+   "definition": "share the suffering of",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "The most morally weighted here - sharing the suffering treated as a virtue exercised, and stiff enough as a verb to sound elevated.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "composure.oewn-04910990-n",
+   "word": "composure",
+   "definition": "steadiness of mind under stress",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain name for holding steady when pressure is on, with none of the flourish *aplomb* brings to the same feat.",
+   "usage_labels": [],
+   "examples": [
+    "he accepted their problems with composure and she with equanimity"
+   ]
+  },
+  {
+   "id": "condole_with.oewn-01825946-v",
+   "word": "condole with",
+   "definition": "share the suffering of",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and ceremonious - the sharing is performed toward the sufferer rather than merely felt.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "contentment.oewn-07546493-n",
+   "word": "contentment",
+   "definition": "happiness with one's situation in life",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The quietest member, happiness settled on one's situation in life instead of flaring at anything in particular.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "cool.oewn-04911339-n",
+   "word": "cool",
+   "definition": "great coolness and composure under strain",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal and offhand — makes great steadiness under strain sound like something a person simply has, and can lose, where *sang-froid* makes it formal.",
+   "usage_labels": [],
+   "examples": [
+    "keep your cool"
+   ]
+  },
+  {
+   "id": "count.oewn-00714537-v",
+   "word": "count",
+   "definition": "have faith or confidence in",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Treats the confidence as already entered in the tally, so the thing believed in is settled rather than merely hoped for.",
+   "usage_labels": [],
+   "examples": [
+    "you can count on me to help you any time"
+   ]
+  },
+  {
+   "id": "credit.oewn-00685849-v",
+   "word": "credit",
+   "definition": "have trust in; trust in the truth or veracity of",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Aims the trust at whether a thing is true rather than whether it will hold, granting belief where *lean* grants weight.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "depend.oewn-00714537-v",
+   "word": "depend",
+   "definition": "have faith or confidence in",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "The confidence has need underneath it, with nothing else holding the one who depends upright.",
+   "usage_labels": [],
+   "examples": [
+    "Depend on your family in times of crisis"
+   ]
+  },
+  {
+   "id": "depend_on.oewn-02670095-v",
+   "word": "depend on",
+   "definition": "put trust in with confidence",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Spells out both the trust and the assurance behind it, firmer and more deliberate than the bare *depend*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "depend_upon.oewn-02670095-v",
+   "word": "depend upon",
+   "definition": "put trust in with confidence",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "The weightier, more formal cast of *depend on*, claiming exactly the same confident placing of trust.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "dilemma.oewn-05693891-n",
+   "word": "dilemma",
+   "definition": "state of uncertainty or perplexity especially as requiring a choice between equally unfavorable options",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the weight on the shape of the trap - two branches, neither of them good - so the uncertainty has a hard structure to it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "discernment.oewn-05621958-n",
+   "word": "discernment",
+   "definition": "the mental ability to understand and discriminate between relations",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise pitched at fineness - the stress falls on discriminating what a coarser mind would run together.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "discreetness.oewn-05623283-n",
+   "word": "discreetness",
+   "definition": "knowing how to avoid embarrassment or distress",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The same avoidance named off the adjective, drier and more clinical than *discretion*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "discretion.oewn-05623283-n",
+   "word": "discretion",
+   "definition": "knowing how to avoid embarrassment or distress",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise for a tactful kind of knowing - steering clear of what would embarrass or distress before it arises.",
+   "usage_labels": [],
+   "examples": [
+    "the servants showed great tact and discretion"
+   ]
+  },
+  {
+   "id": "dispatch.oewn-02488014-v",
+   "word": "dispatch",
+   "definition": "kill intentionally and with premeditation",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Brisk and efficient, filing the killing under business concluded rather than under wrongdoing.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "enigma.oewn-05693343-n",
+   "word": "enigma",
+   "definition": "something that baffles understanding and cannot be explained",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal, and frames the inexplicable thing as a posed puzzle rather than the open blankness of *mystery*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "equanimity.oewn-04910990-n",
+   "word": "equanimity",
+   "definition": "steadiness of mind under stress",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Elevated and admiring — steadiness under stress treated as an evenness of temper worth crediting, well above workaday *calmness*.",
+   "usage_labels": [],
+   "examples": [
+    "he accepted their problems with composure and she with equanimity"
+   ]
+  },
+  {
+   "id": "esteem.oewn-00695834-v",
+   "word": "esteem",
+   "definition": "regard highly; think much of",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and cool: high regard delivered as an assessment rather than a felt rush.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "execute.oewn-02489797-v",
+   "word": "execute",
+   "definition": "murder in a planned fashion",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Lends a planned murder the cold air of sentence carried out, borrowing an authority the act does not have.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "eye.oewn-05622259-n",
+   "word": "eye",
+   "definition": "good discernment (either visually or as if visually)",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Compact and admiring, with 'good' built into the word, and it covers seeing with the eyes or the figurative equivalent alike.",
+   "usage_labels": [],
+   "examples": [
+    "she has an eye for fresh talent",
+    "he has an artist's eye"
+   ]
+  },
+  {
+   "id": "fear.oewn-01782485-v",
+   "word": "fear",
+   "definition": "regard with feelings of respect and reverence; consider hallowed or exalted or be in awe of",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "The member in which awe keeps its edge of dread — respect owed to something too exalted to face lightly.",
+   "usage_labels": [],
+   "examples": [
+    "Fear God as your father"
+   ]
+  },
+  {
+   "id": "feel_for.oewn-01825946-v",
+   "word": "feel for",
+   "definition": "share the suffering of",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Warm and plain-spoken, the sharing conveyed with none of the formality of *condole with*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "gaiety.oewn-07544633-n",
+   "word": "gaiety",
+   "definition": "a gay feeling",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Brightness and lightness in the feeling, weightless where *rejoicing* is full and heavy.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "gladfulness.oewn-07542406-n",
+   "word": "gladfulness",
+   "definition": "experiencing joy and pleasure",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The same joy and pleasure as *gladness*, given a fuller and more formal shape.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "gladness.oewn-07542406-n",
+   "word": "gladness",
+   "definition": "experiencing joy and pleasure",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Joy and pleasure actively felt rather than merely possessed, warmer than *contentment* and quieter than *merriment*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "gladsomeness.oewn-07542406-n",
+   "word": "gladsomeness",
+   "definition": "experiencing joy and pleasure",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Literary in cast, dressing the joy and pleasure of *gladness* in ornament the plainer form does without.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "good_sense.oewn-05622440-n",
+   "word": "good sense",
+   "definition": "sound practical judgment",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The bare commendation, with 'good' carrying the whole judgement and no claim past soundness.",
+   "usage_labels": [],
+   "examples": [
+    "fortunately she had the good sense to run away"
+   ]
+  },
+  {
+   "id": "grieve.oewn-01801358-v",
+   "word": "grieve",
+   "definition": "feel grief",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain full-weight word for grief felt as grief, neither approving nor blaming the one who feels it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "gumption.oewn-05622440-n",
+   "word": "gumption",
+   "definition": "sound practical judgment",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal and hearty - the same practical soundness spoken of as a homely possession rather than an intellectual one.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "happiness.oewn-07541996-n",
+   "word": "happiness",
+   "definition": "emotions experienced when in a state of well-being",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain term of the set, naming the feeling of well-being itself without saying whether it is quiet or loud.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "hit.oewn-02488014-v",
+   "word": "hit",
+   "definition": "kill intentionally and with premeditation",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Slang that treats a premeditated killing as a job done, the coolness of the word doing the work *murder* does with weight.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "horse_sense.oewn-05622440-n",
+   "word": "horse sense",
+   "definition": "sound practical judgment",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal and blunt, naming what *common sense* names with a grin at its own plainness.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "judgement.oewn-05621958-n",
+   "word": "judgement",
+   "definition": "the mental ability to understand and discriminate between relations",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The British spelling of the same neutral faculty-name, adding nothing to *judgment* but a letter.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "judgment.oewn-05621958-n",
+   "word": "judgment",
+   "definition": "the mental ability to understand and discriminate between relations",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The flat name for the ability to tell relations apart, stating the capacity without the admiration *sagacity* loads onto it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "judiciousness.oewn-05623156-n",
+   "word": "judiciousness",
+   "definition": "good judgment",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal praise for judgment that comes out well, not merely for having the faculty at all.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "lean.oewn-00690162-v",
+   "word": "lean",
+   "definition": "rely on for support",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Casts the reliance as bodily weight put on a support, carrying the hint that the one leaning could not stand unaided.",
+   "usage_labels": [],
+   "examples": [
+    "We can lean on this man"
+   ]
+  },
+  {
+   "id": "look.oewn-00714537-v",
+   "word": "look",
+   "definition": "have faith or confidence in",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "The faintest of the set, confidence as expectation turned toward a thing without the weight *lean* or *bank* place on it.",
+   "usage_labels": [],
+   "examples": [
+    "Look to your friends for support"
+   ]
+  },
+  {
+   "id": "look_up_to.oewn-01831800-v",
+   "word": "look up to",
+   "definition": "feel admiration for",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Admiration that puts the object above the one feeling it; plainer and more informal than *venerate*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "maze.oewn-05693684-n",
+   "word": "maze",
+   "definition": "something jumbled or confused",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Makes the jumble something you are inside and lost in, with an intricacy *tangle* does not suggest.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "merriment.oewn-07544633-n",
+   "word": "merriment",
+   "definition": "a gay feeling",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The same gay feeling with an outward, jolly noise on it that *gaiety* need not have.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "mother_wit.oewn-05622440-n",
+   "word": "mother wit",
+   "definition": "sound practical judgment",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Homely and affectionate where *good sense* is flatly commendatory, though the soundness praised is the same.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "mourn.oewn-01801062-v",
+   "word": "mourn",
+   "definition": "feel sadness",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "On this sense it asks only for sadness, short of the weight *grieve* insists on.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "murder.oewn-02488014-v",
+   "word": "murder",
+   "definition": "kill intentionally and with premeditation",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "The flat, full-weight name for the act, leaving the premeditation showing where *dispatch* and *remove* tidy it out of sight.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "mystery.oewn-05693343-n",
+   "word": "mystery",
+   "definition": "something that baffles understanding and cannot be explained",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain word for what defeats understanding outright, and the one that can carry wonder alongside the bafflement rather than only frustration.",
+   "usage_labels": [],
+   "examples": [
+    "how it got out is a mystery"
+   ]
+  },
+  {
+   "id": "off.oewn-02488014-v",
+   "word": "off",
+   "definition": "kill intentionally and with premeditation",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "One cold slang syllable, the deliberate act shrunk to a word too small to hold it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "perplexity.oewn-05693168-n",
+   "word": "perplexity",
+   "definition": "trouble or confusion resulting from complexity",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Names both the trouble and the confusion together, and locates the cause in complexity rather than in the person confused.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "pity.oewn-01825946-v",
+   "word": "pity",
+   "definition": "share the suffering of",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Shares the suffering from slightly above it, so the warmth carries a downward tilt that *sympathize with* has not.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "placidity.oewn-04911529-n",
+   "word": "placidity",
+   "definition": "a disposition free from stress or emotion",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Even and unruffled, the absence of emotion sounding closer to a settled flatness than to any achievement.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "poise.oewn-04911339-n",
+   "word": "poise",
+   "definition": "great coolness and composure under strain",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Adds balance and bearing to the coolness, praising how the strain is carried as much as the nerve behind it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "polish_off.oewn-02488014-v",
+   "word": "polish off",
+   "definition": "kill intentionally and with premeditation",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal and jaunty, its air of finishing a task neatly is exactly what makes it callous here.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "prise.oewn-00695834-v",
+   "word": "prise",
+   "definition": "regard highly; think much of",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Carries the treasuring force of *prize* exactly, under a different spelling.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "prize.oewn-00695834-v",
+   "word": "prize",
+   "definition": "regard highly; think much of",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "The regard of someone who would not part with it; more possessive than *value*.",
+   "usage_labels": [],
+   "examples": [
+    "We prize his creativity"
+   ]
+  },
+  {
+   "id": "quandary.oewn-05693891-n",
+   "word": "quandary",
+   "definition": "state of uncertainty or perplexity especially as requiring a choice between equally unfavorable options",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Softer than *dilemma*, dwelling on the wavering state of the person stuck rather than on how bad the options are.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "quiet.oewn-04911529-n",
+   "word": "quiet",
+   "definition": "a disposition free from stress or emotion",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The plainest of these: a temperament with no emotional weather in it, and none of the loftiness of *serenity*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "reckon.oewn-00714537-v",
+   "word": "reckon",
+   "definition": "have faith or confidence in",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Informal, stating the faith as a settled count, plainer than *swear* and less deliberate than *calculate*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "rejoicing.oewn-07544951-n",
+   "word": "rejoicing",
+   "definition": "a feeling of great happiness",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The peak of the set, happiness raised to great intensity rather than left at an even glow.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "rely.oewn-00714537-v",
+   "word": "rely",
+   "definition": "have faith or confidence in",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Steady and unemphatic: confidence as a standing arrangement rather than the wager *bet* makes of it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "rely_on.oewn-02670095-v",
+   "word": "rely on",
+   "definition": "put trust in with confidence",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Trust placed with assurance, active and chosen where *depend on* keeps the note of need.",
+   "usage_labels": [],
+   "examples": [
+    "she is someone you can really rely on when times get rough",
+    "you can rely on his discretion"
+   ]
+  },
+  {
+   "id": "rely_upon.oewn-02670095-v",
+   "word": "rely upon",
+   "definition": "put trust in with confidence",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal beside *rely on*, the same confident placing of trust carried with a stiffer bearing.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "remove.oewn-02488014-v",
+   "word": "remove",
+   "definition": "kill intentionally and with premeditation",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "The furthest euphemism in the set, rendering a premeditated killing as an act of tidying and hiding the intent inside the blandness.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "repose.oewn-04911529-n",
+   "word": "repose",
+   "definition": "a disposition free from stress or emotion",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The freedom from stress sounds like an ease rested in, warmer than the unstirred flatness of *placidity*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "respect.oewn-00695834-v",
+   "word": "respect",
+   "definition": "regard highly; think much of",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "The plainest way of holding something high, without the warmth of *admire* or the hush of *revere*.",
+   "usage_labels": [],
+   "examples": [
+    "I respect his judgement"
+   ]
+  },
+  {
+   "id": "revere.oewn-01782485-v",
+   "word": "revere",
+   "definition": "regard with feelings of respect and reverence; consider hallowed or exalted or be in awe of",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "The felt act of reverence, awe aimed at what is held sacred, far past *respect*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "reverence.oewn-01782485-v",
+   "word": "reverence",
+   "definition": "regard with feelings of respect and reverence; consider hallowed or exalted or be in awe of",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Lifts the object past approval into the hallowed, met with awe rather than judged.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sagaciousness.oewn-05621958-n",
+   "word": "sagaciousness",
+   "definition": "the mental ability to understand and discriminate between relations",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The same commendation built plainly off the adjective, heavier in the mouth than *sagacity* and less polished for it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sagacity.oewn-05621958-n",
+   "word": "sagacity",
+   "definition": "the mental ability to understand and discriminate between relations",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Lofty praise - credits a penetrating grasp of how things stand in relation, where *judgment* only names the faculty.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sang-froid.oewn-04911339-n",
+   "word": "sang-froid",
+   "definition": "great coolness and composure under strain",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and faintly glamorous — nerve praised as a chill that strain cannot reach, more theatrical than *composure*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "secret.oewn-05693343-n",
+   "word": "secret",
+   "definition": "something that baffles understanding and cannot be explained",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Casts what cannot be explained as something withheld, as though understanding were being kept from you rather than simply out of reach.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sense.oewn-05622440-n",
+   "word": "sense",
+   "definition": "sound practical judgment",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The barest member - practical soundness in one syllable, with nothing qualifying it.",
+   "usage_labels": [],
+   "examples": [
+    "Common sense is not so common",
+    "he hasn't got the sense God gave little green apples",
+    "fortunately she had the good sense to run away"
+   ]
+  },
+  {
+   "id": "serenity.oewn-04911529-n",
+   "word": "serenity",
+   "definition": "a disposition free from stress or emotion",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Lofty and admiring — an untroubled disposition raised almost to a grace, far above bare *quiet*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "slay.oewn-02488014-v",
+   "word": "slay",
+   "definition": "kill intentionally and with premeditation",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Elevated and grave where *off* is curt, giving a planned killing a weight of ceremony rather than condemning it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "snarl.oewn-05693684-n",
+   "word": "snarl",
+   "definition": "something jumbled or confused",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Harsher than *tangle* - a jumble pulled tight, sounding hostile and past unpicking.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sorrow.oewn-01801358-v",
+   "word": "sorrow",
+   "definition": "feel grief",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Makes the grief sound inward and sustained where *grieve* sounds like something done.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "swear.oewn-00714537-v",
+   "word": "swear",
+   "definition": "have faith or confidence in",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Emphatic to the point of vouching, the faith declared aloud rather than quietly kept as in *rely*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sympathize_with.oewn-01825946-v",
+   "word": "sympathize with",
+   "definition": "share the suffering of",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "The mildest of the sharing words, acknowledging and joining the suffering at conversational temperature.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "tangle.oewn-05693684-n",
+   "word": "tangle",
+   "definition": "something jumbled or confused",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The confusion pictured as physically knotted, so the exasperation is with the mess itself rather than with any difficulty of thought.",
+   "usage_labels": [],
+   "examples": [
+    "a tangle of government regulations"
+   ]
+  },
+  {
+   "id": "think_the_world_of.oewn-00696274-v",
+   "word": "think the world of",
+   "definition": "esteem very highly",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Idiomatic and whole-hearted, an open overstatement where *esteem* keeps its measure.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "tranquility.oewn-04911529-n",
+   "word": "tranquility",
+   "definition": "a disposition free from stress or emotion",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The same restful freedom from stress and emotion as *tranquillity*, carried under the single-l spelling.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "tranquillity.oewn-04911529-n",
+   "word": "tranquillity",
+   "definition": "a disposition free from stress or emotion",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Soothing rather than exalted: the stressless disposition praised as restfulness, without *serenity*'s elevation.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "trust.oewn-00690278-v",
+   "word": "trust",
+   "definition": "have confidence or faith in",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain word of the family, giving confidence or faith directly, with none of the reckoning *calculate* brings or the staking *bet* brings.",
+   "usage_labels": [],
+   "examples": [
+    "We can trust in our government"
+   ]
+  },
+  {
+   "id": "value.oewn-00695834-v",
+   "word": "value",
+   "definition": "regard highly; think much of",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Casts the high regard as worth — what the thing is worth to the holder, not what it stirs in them.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "venerate.oewn-01782485-v",
+   "word": "venerate",
+   "definition": "regard with feelings of respect and reverence; consider hallowed or exalted or be in awe of",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Treats the object as hallowed, the regard almost ceremonial where *admire* is simply warm.",
+   "usage_labels": [],
+   "examples": [
+    "We venerate genius"
+   ]
+  }
+ ]
+}

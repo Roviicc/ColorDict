@@ -65,6 +65,7 @@ the rate since:
 | 008 | 286 | 4 | 1.4% | both instruments verbatim; first clean comparison |
 | 009 | 287 | 6 | 2.1% | comparable |
 | 010 | 280 | 7 | **2.5%** | comparable; 2 of the 7 were an importer bug, not authoring |
+| 011 | 99 | 3 | **3.0%** | **first census outside adjectives** - verbs and nouns, book-selected |
 
 Threshold is 5%. **Read 007–010 as the real number** — a little under 2% across
 the four — and treat 003–005 as produced by rulers nobody had checked. At ~285
@@ -149,7 +150,7 @@ method problem, not a batch problem (§5.5).
 
 ## 4. Where the work actually stands
 
-**227 families / 2,786 annotated senses / 2,963 reviewed entries / 0 validation
+**235 families / 2,885 annotated senses / 3,058 reviewed entries / 0 validation
 errors.** Run `python tools/status.py` for the live numbers; the ones written
 here go stale.
 
@@ -161,8 +162,8 @@ more - it is the product's input. See section 5.
 | --- | --- | --- | --- | --- |
 | **Adjective** | 5,911 candidate families | 227 families, 2,786 senses | 147 families / 2,434 members | **fallback filler** - drawn only when there is no demand to serve |
 | **Adverb** | 5,571 senses, 2,505 pertainym links | 480 senses | n/a | **self-feeding** - inherited free from adjectives, keep it |
-| **Verb** | 2,494 candidate families | 116 senses | 70 eligible / 937 members | **screening cancelled** - demand selects, not the gate |
-| **Noun** | 11,484 families / 129,506 members | 0 | filter known bad | **unblocked** - a reported noun needs no filter |
+| **Verb** | 2,494 candidate families | 4 families, 162 senses | 68 book-ranked families / 903 members | **open** - first tick read at 2.2% |
+| **Noun** | 11,484 families / 129,506 members | 4 families, 53 senses | 179 book-ranked families / 2,516 members | **open** - first tick read at 3.8%, Stage E closed by the book, not by a filter |
 
 The adverb line stays the quiet win: **480 senses nobody authored**, inherited
 through WordNet's pertainym links and growing with every adjective tick. Nine
@@ -316,10 +317,10 @@ coverage stopped being a number to grow and became a response time.
 
 | | target | now |
 | --- | --- | --- |
-| Census error rate | **< 5%**, the hard gate | ~2% across 007-010 |
+| Census error rate | **< 5%**, the hard gate | ~2% across 007-010; 3.0% on the first verb/noun tick |
 | Validation errors | **0**, always | 0 (2,963 entries) |
 | Instruments unchanged within a comparison window | required for a rate to mean anything | unchanged since 11.81 |
-| Repairs re-read blind | every repair, no exceptions | held |
+| Repairs re-read blind | every repair, no exceptions | held - 3/3 right on census 011 |
 | **A report path exists** | shipped in the release | **not built** |
 | **Release cut** | APK on GitHub Releases + web deployed | **not cut** |
 | **Reports received** | >= 20 distinct senses before the first demand tick | 0 |
