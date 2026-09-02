@@ -1,0 +1,618 @@
+{
+ "packet": 1,
+ "count": 50,
+ "entries": [
+  {
+   "id": "deficient.oewn-00052252-s",
+   "word": "deficient",
+   "definition": "inadequate in amount or degree",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Cool and quantitative - a measured shortfall below the amount or degree required, with none of the verdict *wanting* carries.",
+   "usage_labels": [],
+   "examples": [
+    "a deficient education",
+    "deficient in common sense"
+   ]
+  },
+  {
+   "id": "inadequate.oewn-00051936-a",
+   "word": "inadequate",
+   "definition": "lacking the requisite qualities or resources to meet a task",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The flat general word for falling short of what a task demands, registering the shortfall without turning it on whoever bears it.",
+   "usage_labels": [],
+   "examples": [
+    "inadequate training",
+    "the staff was inadequate"
+   ]
+  },
+  {
+   "id": "incapable.oewn-00052486-s",
+   "word": "incapable",
+   "definition": "not meeting requirements",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the unmet requirement down to capacity - not that the standard was missed but that it could not be reached.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "incompetent.oewn-00052486-s",
+   "word": "incompetent",
+   "definition": "not meeting requirements",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The harshest here, reading a missed requirement as a verdict on fitness rather than a measurement of it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "lacking.oewn-00052252-s",
+   "word": "lacking",
+   "definition": "inadequate in amount or degree",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest of these, naming the missing amount outright and stopping there.",
+   "usage_labels": [],
+   "examples": [
+    "lacking in stamina"
+   ]
+  },
+  {
+   "id": "short-handed.oewn-00052671-s",
+   "word": "short-handed",
+   "definition": "inadequate in number of workers or assistants etc.",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Informal, and it carries the strain of working a job with too few hands rather than the bare count.",
+   "usage_labels": [],
+   "examples": [
+    "they're rather short-handed at the moment"
+   ]
+  },
+  {
+   "id": "short-staffed.oewn-00052671-s",
+   "word": "short-staffed",
+   "definition": "inadequate in number of workers or assistants etc.",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "States the shortfall as a plain condition of the staff on hand, neither excusing it nor blaming anyone for it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "undermanned.oewn-00052671-s",
+   "word": "undermanned",
+   "definition": "inadequate in number of workers or assistants etc.",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Measures the people present against the strength the work was meant to have, framing the gap as a post held by too few.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "understaffed.oewn-00052671-s",
+   "word": "understaffed",
+   "definition": "inadequate in number of workers or assistants etc.",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flattest of the four - a headcount below requirement, without the felt pressure of *short-handed*.",
+   "usage_labels": [],
+   "examples": [
+    "overcrowded and understaffed hospitals"
+   ]
+  },
+  {
+   "id": "unequal.oewn-00051936-a",
+   "word": "unequal",
+   "definition": "lacking the requisite qualities or resources to meet a task",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Weighs what is brought against what the task takes and finds the two mismatched, where *inadequate* names the shortfall as a defect in the thing itself.",
+   "usage_labels": [],
+   "examples": [
+    "she was unequal to the task"
+   ]
+  },
+  {
+   "id": "unequal_to.oewn-00052486-s",
+   "word": "unequal to",
+   "definition": "not meeting requirements",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The gentlest way of saying the requirement went unmet, setting the demand beside the resource and leaving the failure unassigned where *incompetent* pins it.",
+   "usage_labels": [],
+   "examples": [
+    "unequal to the demands put upon him"
+   ]
+  },
+  {
+   "id": "wanting.oewn-00052252-s",
+   "word": "wanting",
+   "definition": "inadequate in amount or degree",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and weighted, as though the amount had been tested against a standard and pronounced short, where *lacking* only reports the gap.",
+   "usage_labels": [],
+   "examples": [
+    "tested and found wanting"
+   ]
+  },
+  {
+   "id": "articulate.oewn-00151470-a",
+   "word": "articulate",
+   "definition": "expressing yourself easily or characterized by clear expressive language",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Plain approval of clear, easy expression - it credits a speaker with getting the thought out whole, without *eloquent*'s claim on beauty.",
+   "usage_labels": [],
+   "examples": [
+    "articulate speech",
+    "an articulate orator",
+    "articulate beings"
+   ]
+  },
+  {
+   "id": "eloquent.oewn-00151773-s",
+   "word": "eloquent",
+   "definition": "expressing yourself readily, clearly, effectively",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The strongest praise in the family - expression so ready and effective that the manner of it is admired alongside the matter.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "facile.oewn-00151773-s",
+   "word": "facile",
+   "definition": "expressing yourself readily, clearly, effectively",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A cool compliment: it names the effortlessness of the speaking and stops there, where *eloquent* reaches for admiration.",
+   "usage_labels": [],
+   "examples": [
+    "able to dazzle with his facile tongue"
+   ]
+  },
+  {
+   "id": "fluent.oewn-00151773-s",
+   "word": "fluent",
+   "definition": "expressing yourself readily, clearly, effectively",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise for speech that runs without a catch in it - flow, where *eloquent* claims power.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "silver-tongued.oewn-00151773-s",
+   "word": "silver-tongued",
+   "definition": "expressing yourself readily, clearly, effectively",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The figure spelled out at full length, praise with a flourish that plain *fluent* never attempts.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "silver.oewn-00151773-s",
+   "word": "silver",
+   "definition": "expressing yourself readily, clearly, effectively",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Figurative and frankly ornamental - it admires the sound of the speaking, where *articulate* admires only its clarity.",
+   "usage_labels": [],
+   "examples": [
+    "silver speech"
+   ]
+  },
+  {
+   "id": "smooth-spoken.oewn-00151773-s",
+   "word": "smooth-spoken",
+   "definition": "expressing yourself readily, clearly, effectively",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving of the delivery itself - words that arrive without friction - and plainer in register than *eloquent*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "speaking.oewn-00152103-s",
+   "word": "speaking",
+   "definition": "capable of speech",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The bare fact of having speech at all, carrying none of the approval that *articulate* does.",
+   "usage_labels": [],
+   "examples": [
+    "the speaking animal"
+   ]
+  },
+  {
+   "id": "speech-endowed.oewn-00152103-s",
+   "word": "speech-endowed",
+   "definition": "capable of speech",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely descriptive and formal: it records the capacity to speak and passes no verdict on how well.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "well-spoken.oewn-00152204-s",
+   "word": "well-spoken",
+   "definition": "speaking or spoken fittingly or pleasingly",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approves speech that fits the occasion and pleases the ear, judging fitness as much as skill, where *fluent* asks only that the words come easily.",
+   "usage_labels": [],
+   "examples": [
+    "a well-spoken gentleman",
+    "a few well-spoken words on civic pride"
+   ]
+  },
+  {
+   "id": "at_odds.oewn-00580585-s",
+   "word": "at odds",
+   "definition": "in disagreement",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Idiomatic and comparatively mild - it frames the disagreement as two things standing opposed rather than as either one being wrong.",
+   "usage_labels": [],
+   "examples": [
+    "the figures are at odds with our findings"
+   ]
+  },
+  {
+   "id": "conflicting.oewn-00580585-s",
+   "word": "conflicting",
+   "definition": "in disagreement",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the two sides in active collision, stronger than *at odds* but stopping short of claiming they cannot both stand.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "contradictory.oewn-00580585-s",
+   "word": "contradictory",
+   "definition": "in disagreement",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The hardest of the disagreement words - it says the two cancel each other, so one of them has to go.",
+   "usage_labels": [],
+   "examples": [
+    "contradictory attributes of unjust justice and loving vindictiveness"
+   ]
+  },
+  {
+   "id": "discrepant.oewn-00580874-s",
+   "word": "discrepant",
+   "definition": "not compatible with other facts",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and measuring - it registers the mismatch against the facts coolly, where *incompatible* pronounces on it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "incompatible.oewn-00580874-s",
+   "word": "incompatible",
+   "definition": "not compatible with other facts",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "States the mismatch as a settled property of the thing rather than an observation about it, blunter and more final than *discrepant*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "inconsistent.oewn-00580271-a",
+   "word": "inconsistent",
+   "definition": "displaying a lack of consistency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain, unemphatic name for the fault - it marks a failure to hold together without saying how sharp the clash is.",
+   "usage_labels": [],
+   "examples": [
+    "inconsistent statements cannot both be true at the same time",
+    "inconsistent with the roadmap"
+   ]
+  },
+  {
+   "id": "scratchy.oewn-00581013-s",
+   "word": "scratchy",
+   "definition": "lacking consistency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal and slighting - it allows the thing no smooth stretch at all, where *spotty* at least grants good patches between the bad.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "self-contradictory.oewn-00580585-s",
+   "word": "self-contradictory",
+   "definition": "in disagreement",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Turns the clash inward so no second party is needed - the thing defeats itself, which is the more damning charge.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "spotty.oewn-00581013-s",
+   "word": "spotty",
+   "definition": "lacking consistency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal and deflating - it breaks the thing into good patches and bad ones, so the complaint carries a grudging concession inside it.",
+   "usage_labels": [],
+   "examples": [
+    "the golfer hit the ball well but his putting was spotty"
+   ]
+  },
+  {
+   "id": "unconformable.oewn-00581182-s",
+   "word": "unconformable",
+   "definition": "not correspondent",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Technical and unblaming - it records only that two things fail to correspond and leaves the fault unassigned.",
+   "usage_labels": [],
+   "examples": [
+    "a description unconformable to previous accounts"
+   ]
+  },
+  {
+   "id": "uneven.oewn-00581013-s",
+   "word": "uneven",
+   "definition": "lacking consistency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The mildest of these - it registers variation without deciding that any part of the thing has failed.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unreconciled.oewn-00581311-s",
+   "word": "unreconciled",
+   "definition": "not made consistent or compatible",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Points at work left undone rather than at a defect - the clash simply stands, not declared unresolvable as *incompatible* would have it.",
+   "usage_labels": [],
+   "examples": [
+    "two unreconciled accountings"
+   ]
+  },
+  {
+   "id": "annihilated.oewn-00738342-s",
+   "word": "annihilated",
+   "definition": "destroyed completely",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Absolute where *destroyed* is elastic - it admits no remnant and no degree, and its sweep makes the ruin sound total rather than merely thorough.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "blighted.oewn-00738450-s",
+   "word": "blighted",
+   "definition": "affected by blight; anything that mars or prevents growth or prosperity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Ruin as a slow affliction rather than an event - what it marks is not smashed but stopped, held back from growing or prospering again.",
+   "usage_labels": [],
+   "examples": [
+    "a blighted rose",
+    "blighted urban districts"
+   ]
+  },
+  {
+   "id": "blotted_out.oewn-00738632-s",
+   "word": "blotted out",
+   "definition": "reduced to nothingness",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Nothingness reached by covering over: the thing is effaced rather than smashed, which makes this the visual member beside the formal *obliterated*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "broken.oewn-00738739-s",
+   "word": "broken",
+   "definition": "destroyed financially",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Financial ruin in the bluntest available word - a single snap rather than a decline, and it reports the loss without blaming the one it fell on.",
+   "usage_labels": [],
+   "examples": [
+    "the broken fortunes of the family"
+   ]
+  },
+  {
+   "id": "burned-out.oewn-00738880-s",
+   "word": "burned-out",
+   "definition": "destroyed or badly damaged by fire",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Says the fire went to its end from the inside and left a hollow behind - more final than plain *burned*, and short of gone.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "burned-over.oewn-00738880-s",
+   "word": "burned-over",
+   "definition": "destroyed or badly damaged by fire",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The particle puts the fire's passage across the thing: it names what the flames swept and left behind them, not what they consumed.",
+   "usage_labels": [],
+   "examples": [
+    "a burned-over site in the forest"
+   ]
+  },
+  {
+   "id": "burned.oewn-00738880-s",
+   "word": "burned",
+   "definition": "destroyed or badly damaged by fire",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Reaches from scorched to gone, fixing fire as the cause while leaving open how much survives - which the compounds beside it refuse to leave open.",
+   "usage_labels": [],
+   "examples": [
+    "a row of burned houses",
+    "a burned-over site in the forest"
+   ]
+  },
+  {
+   "id": "burnt-out.oewn-00738880-s",
+   "word": "burnt-out",
+   "definition": "destroyed or badly damaged by fire",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The clipped twin of *burned-out*, its tighter shape making the hollowness sound like the thing's condition now rather than the fire's doing.",
+   "usage_labels": [],
+   "examples": [
+    "barricaded the street with burnt-out cars"
+   ]
+  },
+  {
+   "id": "burnt.oewn-00738880-s",
+   "word": "burnt",
+   "definition": "destroyed or badly damaged by fire",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The clipped form, and the shorter shape makes it read as a property the thing now has rather than a report of what happened to it, as *burned* does.",
+   "usage_labels": [],
+   "examples": [
+    "a charred bit of burnt wood",
+    "barricaded the street with burnt-out cars"
+   ]
+  },
+  {
+   "id": "destroyed.oewn-00737862-a",
+   "word": "destroyed",
+   "definition": "spoiled or ruined or demolished",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The elastic member: it stretches from merely spoiled to flattened, so it fixes that ruin happened without fixing how much is left, where *annihilated* leaves nothing to measure.",
+   "usage_labels": [],
+   "examples": [
+    "war left many cities destroyed",
+    "Alzheimer's is responsible for her destroyed mind"
+   ]
+  },
+  {
+   "id": "exterminated.oewn-00738342-s",
+   "word": "exterminated",
+   "definition": "destroyed completely",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Carries a purpose *annihilated* does not: the completeness is somebody's work, and the word frames what it names as a thing that was to be got rid of.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "impoverished.oewn-00738739-s",
+   "word": "impoverished",
+   "definition": "destroyed financially",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The formal word for that same ruin: it names the poverty left behind rather than the break itself, so it sounds like a settled condition where *broken* sounds like a moment.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "obliterate.oewn-00738632-s",
+   "word": "obliterate",
+   "definition": "reduced to nothingness",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The bare adjectival form states the finished nothingness flatly, without the backward glance at whatever caused it that *obliterated* keeps.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "obliterated.oewn-00738632-s",
+   "word": "obliterated",
+   "definition": "reduced to nothingness",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and cold next to *blotted out*: the participle points back at an act, and what is left is nothing at all rather than something hidden.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "spoilt.oewn-00738450-s",
+   "word": "spoilt",
+   "definition": "affected by blight; anything that mars or prevents growth or prosperity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "British in spelling and the milder half of its pair: the good has gone out of the thing, where *blighted* adds that nothing will come of it now.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "wiped_out.oewn-00738342-s",
+   "word": "wiped out",
+   "definition": "destroyed completely",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The informal member, and the offhand phrasing makes the same completeness sound quick and easy rather than momentous beside *annihilated*.",
+   "usage_labels": [],
+   "examples": []
+  }
+ ]
+}

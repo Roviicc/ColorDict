@@ -390,10 +390,12 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-09-02 | **Tick 2: 25 families, 281 senses — and the ruler moved.** Authors wrote to disk instead of returning through the orchestrator, so a full-size tick fit in one session. The read came back 0.0%, and an adversarial re-read of 40 senses under the previous rubric found a fault it had passed. The 0.0% is withdrawn: tick 2 is under 5%, not more precisely known. See 11.74 |
 | 2026-09-02 | **The charge gate checked, and kept.** 30 families blind-triaged by two raters from different model families (27/30 agreement) against the hypothesis that the 0.70 threshold was too tight. It is not: the excluded 0.50-0.59 band scored 0.00. Gate unchanged; the hypothesis was wrong and the ~600 estimate in 11.6 is superseded. See 11.75 |
 | 2026-09-02 | **Tick 3: 25 families, 292 senses, 3.4% blind — the first verbatim read.** Rubric taken from `census-reader.md` as written rather than typed into the prompt, which is what censuses 003-005 all did. 10 faults, 9 repaired and re-read clean; *awesome* took three attempts and failed a different class each time. See 11.76 |
+| 2026-09-02 | **Tick 4: 24 families, 298 senses, 1.3% blind.** Reading instrument verbatim and comparable to census 006 — but the *authoring* prompts carried an extra warning that `family-author.md` did not, so the drop from 3.4% is confounded. The line is now in the file. `bad-example` promoted to a named fault class on its second instance. See 11.77 |
 
-**Current totals: 139 families, 1,635 annotated senses, 1,793 reviewed entries,
-0 validation errors. Latest measured error rate 3.4% (census 006, blind, and the
-first read with the instrument used verbatim). Earlier rates — 3.8% / 1.1% /
+**Current totals: 163 families, 1,933 annotated senses, 2,104 reviewed entries,
+0 validation errors. Latest measured error rate 1.3% (census 007, blind), against
+3.4% (census 006) — both read with the instrument verbatim, though the authoring
+prompt changed between them (11.77). Earlier rates — 3.8% / 1.1% /
 0.6% — were read under typed paraphrases of the rubric, and census 005's was
 withdrawn for that reason (11.74). Every annotated sense has been read by a
 model from a different family than the one that wrote it.** — including adverb senses inherited for free, and 11
@@ -1500,6 +1502,61 @@ families held and ineligible. Ids are normalised to their numeric core, because
 a worksheet renames `oewn-00685207-a` to `family-00685207-a` on the way out and
 matching the literal string finds nothing — a check that silently passes is
 worse than no check.
+
+## 11.77 Tick 4 — a better number, and the confound that comes with it
+
+**24 families, 298 senses. 294 right, 4 wrong, 0 unsure — 1.3%**, against census
+006's 3.4%. Three faults repaired and re-read blind, 3/3 right.
+
+### The number is confounded, and it is my confound
+
+Both censuses used `census-reader.md` verbatim, so the **reading** instrument
+held. But tick 4's author prompts carried a line tick 3's did not:
+
+> The single largest fault class in this corpus is writing the lemma's famous
+> sense instead of the sense printed above it. Read each `_gloss` before you
+> write, not after.
+
+That line was in the prompt and **not** in `family-author.md`. Which means the
+drop from 3.4% to 1.3% cannot be attributed: it may be the warning working, it
+may be an easier draw, and there is no way to separate them after the fact.
+
+This is 11.74's failure repeated on the other side of the loop, one tick after
+being fixed on the reading side. The reading instrument was locked down and the
+authoring instrument was left to whatever the orchestrator typed — which is the
+same mistake wearing different clothes.
+
+The line is now **in** `family-author.md`, along with a second clause the tick's
+faults argued for: where a gloss offers alternatives joined by "or", a note must
+not quietly drop one. Two of tick 4's four faults were exactly that — *stray*
+glossed "having no home **or** having wandered away from home" noted only on
+homelessness, *mordacious* glossed "biting **or** given to biting" noted only on
+the habit.
+
+**Tick 5 onward is comparable to tick 4. Tick 4 is not cleanly comparable to
+tick 3.** Recorded rather than smoothed over, because a rate whose provenance is
+unclear is worth less than a smaller rate whose provenance is not.
+
+### `bad-example` earns a name
+
+*no-hit* was faulted `other`: the note is fine, but two of OEWN's three examples
+use *no-hit* as a transitive verb rather than the adjective sense glossed. That
+is the second instance of the shape — census 006's *constructive* carried an
+example belonging to the legal *inferential* sense — and two instances is enough
+to stop calling it "other".
+
+**`bad-example`: the note agrees with the gloss, and the example does not.**
+
+It is an upstream OEWN problem and no rewrite of a note fixes it. Both instances
+are counted against their rates rather than argued away, because a rate that
+excludes the faults it finds inconvenient is not a rate. What the class buys is
+the ability to *count* them separately later and decide whether the examples are
+worth filtering at import.
+
+### Where the run stands
+
+Queue down to **202 families**. At tick-4 size that is roughly eight more ticks
+on the adjective line.
 
 ## 11.71 The run plan — stages, and what stops each one
 

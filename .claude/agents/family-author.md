@@ -36,6 +36,19 @@ the corpus:
 - **provenance** — any origin or dating story
 - **restriction** — narrowing the sense past what the gloss says it covers
 
+## Read the gloss before you write, not after
+
+The single largest fault class measured in this corpus is writing the lemma's
+**famous** sense instead of the sense printed above it. *awesome* glossed
+"inspiring awe or admiration or wonder" written on colloquial approval;
+*discomfited* glossed "disappointingly unsuccessful" written on embarrassment;
+*solid* glossed "providing abundant nourishment" written on dependability. In
+every case the writer knew the word and stopped reading.
+
+Where a gloss offers alternatives joined by "or", the note must not quietly drop
+one of them. "having no home **or** having wandered away from home" is not only
+homelessness; "biting **or** given to biting" is not only the habit.
+
 ## The failure this is guarding against
 
 An audit of the first eight shards found 44% of notes wrong, and the pattern was

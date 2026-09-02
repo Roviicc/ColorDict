@@ -1,0 +1,645 @@
+{
+ "packet": 3,
+ "count": 50,
+ "entries": [
+  {
+   "id": "broad.oewn-01290162-s",
+   "word": "broad",
+   "definition": "(of speech) heavily and noticeably regional",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A speech word: it grades how thickly the regional colouring comes through, not how plainly a thing shows itself.",
+   "usage_labels": [],
+   "examples": [
+    "a broad southern accent"
+   ]
+  },
+  {
+   "id": "detectable.oewn-01290284-s",
+   "word": "detectable",
+   "definition": "easily seen or detected",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Near-instrumental in feel — it frames the thing as something a look or a test turns up, where *perceptible* frames it as something the senses take in.",
+   "usage_labels": [],
+   "examples": [
+    "a detectable note of sarcasm"
+   ]
+  },
+  {
+   "id": "discernible.oewn-01290488-s",
+   "word": "discernible",
+   "definition": "capable of being seen or noticed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The most guarded of the three — it grants only that the thing can be picked out, without *evident*'s suggestion that it announces itself.",
+   "usage_labels": [],
+   "examples": [
+    "a discernible change in attitude"
+   ]
+  },
+  {
+   "id": "evident.oewn-01290488-s",
+   "word": "evident",
+   "definition": "capable of being seen or noticed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Stronger than *discernible* on the same footing: what is evident presents itself rather than waiting to be made out.",
+   "usage_labels": [],
+   "examples": [
+    "a clearly evident erasure in the manuscript"
+   ]
+  },
+  {
+   "id": "marked.oewn-01290810-s",
+   "word": "marked",
+   "definition": "strongly marked; easily noticeable",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Raises the degree rather than the ease — the thing stands out by how strongly it is set off, not by how little effort finding it takes.",
+   "usage_labels": [],
+   "examples": [
+    "walked with a marked limp"
+   ]
+  },
+  {
+   "id": "noticeable.oewn-01289803-a",
+   "word": "noticeable",
+   "definition": "capable or worthy of being noticed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain, unjudged term of the set — it rates a thing as able or worth noticing without saying whether the noticing is welcome, which is exactly what *obtrusive* adds.",
+   "usage_labels": [],
+   "examples": [
+    "noticeable shadows under her eyes",
+    "noticeable for its vivid historical background",
+    "a noticeable lack of friendliness"
+   ]
+  },
+  {
+   "id": "observable.oewn-01290488-s",
+   "word": "observable",
+   "definition": "capable of being seen or noticed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flattest of the three — a bare statement that observation is possible, carrying none of *evident*'s force.",
+   "usage_labels": [],
+   "examples": [
+    "an observable change in behavior"
+   ]
+  },
+  {
+   "id": "obtrusive.oewn-01290974-s",
+   "word": "obtrusive",
+   "definition": "undesirably noticeable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The one member that judges: it puts the noticing at the top of the scale and calls it unwanted, where *marked* only measures how far the scale runs.",
+   "usage_labels": [],
+   "examples": [
+    "the obtrusive behavior of a spoiled child",
+    "equally obtrusive was the graffiti"
+   ]
+  },
+  {
+   "id": "perceptible.oewn-01290284-s",
+   "word": "perceptible",
+   "definition": "easily seen or detected",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Pitches the same easy visibility at the observer's senses rather than at a search, which is what sets it apart from *detectable*.",
+   "usage_labels": [],
+   "examples": [
+    "he continued after a perceptible pause"
+   ]
+  },
+  {
+   "id": "pronounced.oewn-01290810-s",
+   "word": "pronounced",
+   "definition": "strongly marked; easily noticeable",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Carries the same heightened degree as *marked*, but with the sense of a quality pushed forward until it cannot be missed.",
+   "usage_labels": [],
+   "examples": [
+    "a pronounced flavor of cinnamon"
+   ]
+  },
+  {
+   "id": "absorbing.oewn-01347019-s",
+   "word": "absorbing",
+   "definition": "capable of arousing and holding the attention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The hold is inward and quiet, attention drawn in rather than seized as by *gripping*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "amusing.oewn-01347333-s",
+   "word": "amusing",
+   "definition": "providing enjoyment; pleasantly entertaining",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warm and easy - the praise is for the pleasure given, not for any grip on attention of the kind *gripping* asserts.",
+   "usage_labels": [],
+   "examples": [
+    "an amusing speaker"
+   ]
+  },
+  {
+   "id": "amusive.oewn-01347333-s",
+   "word": "amusive",
+   "definition": "providing enjoyment; pleasantly entertaining",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The stiffer, more formal shape beside *amusing*, claiming the same pleasure with less warmth in the saying.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "diverting.oewn-01347333-s",
+   "word": "diverting",
+   "definition": "providing enjoyment; pleasantly entertaining",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Understated praise - the enjoyment is framed as a pleasant turning-aside, milder than *amusing*.",
+   "usage_labels": [],
+   "examples": [
+    "a diverting story"
+   ]
+  },
+  {
+   "id": "engrossing.oewn-01347019-s",
+   "word": "engrossing",
+   "definition": "capable of arousing and holding the attention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Stronger than *absorbing*: attention is not merely drawn in but wholly occupied, with nothing left over.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "entertaining.oewn-01347192-s",
+   "word": "entertaining",
+   "definition": "agreeably diverting",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Light approval - it promises agreeable diversion rather than the deep hold *engrossing* claims.",
+   "usage_labels": [],
+   "examples": [
+    "an entertaining puppet show",
+    "films should be entertaining"
+   ]
+  },
+  {
+   "id": "fascinating.oewn-01347019-s",
+   "word": "fascinating",
+   "definition": "capable of arousing and holding the attention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The hold works like a spell - attention is charmed into staying rather than pinned there as by *riveting*.",
+   "usage_labels": [],
+   "examples": [
+    "a fascinating story"
+   ]
+  },
+  {
+   "id": "gripping.oewn-01347019-s",
+   "word": "gripping",
+   "definition": "capable of arousing and holding the attention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Physical in its force - attention is taken hold of rather than invited, where *fascinating* wins it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "interesting.oewn-01346766-a",
+   "word": "interesting",
+   "definition": "arousing or holding the attention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The flattest word here - it grants that attention is held and says nothing about how hard, which *absorbing* and *riveting* both do.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "intriguing.oewn-01347532-s",
+   "word": "intriguing",
+   "definition": "capable of arousing interest or curiosity",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The pull is curiosity rather than pleasure - it promises something not yet given, where *fascinating* holds you with what it shows.",
+   "usage_labels": [],
+   "examples": [
+    "our team came up with some most intriguing finds"
+   ]
+  },
+  {
+   "id": "newsworthy.oewn-01347682-s",
+   "word": "newsworthy",
+   "definition": "sufficiently interesting to be reported in a newspaper",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A threshold rather than a compliment - it measures whether interest clears the bar for reporting, where the rest of the family reports the pull itself.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "riveting.oewn-01347019-s",
+   "word": "riveting",
+   "definition": "capable of arousing and holding the attention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most immobilising of these - attention is fixed in place, not merely drawn in as by *absorbing*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "lost.oewn-01452455-a",
+   "word": "lost",
+   "definition": "no longer in your possession or control; unable to be found or recovered",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The flat, final member - it puts a thing beyond holding and beyond recovery both, naming a deprivation rather than a mishap.",
+   "usage_labels": [],
+   "examples": [
+    "a lost child",
+    "lost friends",
+    "his lost book",
+    "lost opportunities"
+   ]
+  },
+  {
+   "id": "mislaid.oewn-01452757-s",
+   "word": "mislaid",
+   "definition": "lost temporarily; as especially put in an unaccustomed or forgotten place",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Gentlest here - the thing is still somewhere, merely not where it was put, so the loss is provisional and faintly self-excusing.",
+   "usage_labels": [],
+   "examples": [
+    "the mislaid hat turned up eventually"
+   ]
+  },
+  {
+   "id": "misplaced.oewn-01452757-s",
+   "word": "misplaced",
+   "definition": "lost temporarily; as especially put in an unaccustomed or forgotten place",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The same provisional loss as *mislaid* in a flatter, more formal register, faulting the position a thing ended up in rather than the act of setting it down.",
+   "usage_labels": [],
+   "examples": [
+    "misplaced tickets"
+   ]
+  },
+  {
+   "id": "missing.oewn-01452957-s",
+   "word": "missing",
+   "definition": "not able to be found",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Pure report of absence - it says only that the thing cannot be found, and unlike *lost* leaves recovery open.",
+   "usage_labels": [],
+   "examples": [
+    "missing in action",
+    "a missing person"
+   ]
+  },
+  {
+   "id": "squandered.oewn-01453072-s",
+   "word": "squandered",
+   "definition": "not used to good advantage",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The condemning member - what was had was spent to no purpose, and the word insists someone did the spending.",
+   "usage_labels": [],
+   "examples": [
+    "squandered money cannot be replaced"
+   ]
+  },
+  {
+   "id": "stray.oewn-01453222-s",
+   "word": "stray",
+   "definition": "(of an animal) having no home or having wandered away from home",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Of an animal, it makes homelessness a settled condition rather than an incident, carrying pity and a touch of nuisance at once.",
+   "usage_labels": [],
+   "examples": [
+    "a stray calf",
+    "a stray dog"
+   ]
+  },
+  {
+   "id": "straying.oewn-01453386-s",
+   "word": "straying",
+   "definition": "unable to find your way",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Names only the predicament of being unable to find your way - a passing disorientation beside the standing state *stray* describes, with no blame in it.",
+   "usage_labels": [],
+   "examples": [
+    "found the straying sheep"
+   ]
+  },
+  {
+   "id": "wasted.oewn-01453072-s",
+   "word": "wasted",
+   "definition": "not used to good advantage",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Registers value come to nothing without fixing on a culprit, which is the accusation *squandered* adds.",
+   "usage_labels": [],
+   "examples": [
+    "a wasted effort"
+   ]
+  },
+  {
+   "id": "empty.oewn-01501421-s",
+   "word": "empty",
+   "definition": "devoid of significance or force",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A deflating verdict rather than a scornful one, saying only that nothing of weight is there and leaving the sneer to *vacuous*.",
+   "usage_labels": [],
+   "examples": [
+    "empty promises"
+   ]
+  },
+  {
+   "id": "hollow.oewn-01501421-s",
+   "word": "hollow",
+   "definition": "devoid of significance or force",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The outward form is intact and the inside is not, so it carries a ring of sham that flat *empty* does not.",
+   "usage_labels": [],
+   "examples": [
+    "a hollow victory"
+   ]
+  },
+  {
+   "id": "insignificant.oewn-01501635-s",
+   "word": "insignificant",
+   "definition": "signifying nothing",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A cool dismissal of what a thing stands for rather than of its size or loudness, drier and less final than *nonsensical*.",
+   "usage_labels": [],
+   "examples": [
+    "insignificant sounds"
+   ]
+  },
+  {
+   "id": "meaningless.oewn-01501055-a",
+   "word": "meaningless",
+   "definition": "having no meaning or direction or purpose",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Plain on the surface and bleak underneath, since it withholds direction and purpose along with sense, condemning where *nonmeaningful* only records.",
+   "usage_labels": [],
+   "examples": [
+    "a meaningless endeavor",
+    "a meaningless life",
+    "a verbose but meaningless explanation"
+   ]
+  },
+  {
+   "id": "mindless.oewn-01501755-s",
+   "word": "mindless",
+   "definition": "lacking the thinking capacity characteristic of a conscious being",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Descriptive rather than damning in this sense, stating an absence of thinking capacity without laying blame, where *nonsensical* passes judgement on what was produced.",
+   "usage_labels": [],
+   "examples": [
+    "the shrieking of the mindless wind"
+   ]
+  },
+  {
+   "id": "nonmeaningful.oewn-01501055-a",
+   "word": "nonmeaningful",
+   "definition": "having no meaning or direction or purpose",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Colourless and technical, it notes the absence and adds no dismay to it, where *meaningless* sounds the loss.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "nonsense.oewn-01501931-s",
+   "word": "nonsense",
+   "definition": "having no intelligible meaning",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt and unadorned, refusing the thing any intelligible sense without softening the refusal.",
+   "usage_labels": [],
+   "examples": [
+    "nonsense syllables",
+    "a nonsensical jumble of words"
+   ]
+  },
+  {
+   "id": "nonsensical.oewn-01501931-s",
+   "word": "nonsensical",
+   "definition": "having no intelligible meaning",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The fuller, more formal judgement that nothing can be made of the thing at all, weightier in the mouth than blunt *nonsense*.",
+   "usage_labels": [],
+   "examples": [
+    "a nonsensical jumble of words"
+   ]
+  },
+  {
+   "id": "unmeaning.oewn-01502106-s",
+   "word": "unmeaning",
+   "definition": "without meaning",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plainest statement in the family, that meaning is simply absent, with none of the scorn *vacuous* or *nonsensical* carry.",
+   "usage_labels": [],
+   "examples": [
+    "Silence is better than unmeaning words",
+    "an unmeaning smile"
+   ]
+  },
+  {
+   "id": "vacuous.oewn-01501421-s",
+   "word": "vacuous",
+   "definition": "devoid of significance or force",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The withering member of the three: formal, and it treats the missing force as a fault rather than a fact.",
+   "usage_labels": [],
+   "examples": [
+    "vacuous comments"
+   ]
+  },
+  {
+   "id": "arranged.oewn-01576262-s",
+   "word": "arranged",
+   "definition": "deliberately arranged for effect",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the deliberation and no more — the effect was composed, which is a fact before it is a complaint.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "artificial.oewn-01575756-a",
+   "word": "artificial",
+   "definition": "contrived by art rather than nature",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The family's flat baseline: it says a thing was contrived rather than grown and stops there, where *unreal* goes on to deny it.",
+   "usage_labels": [],
+   "examples": [
+    "artificial flowers",
+    "artificial flavoring",
+    "an artificial diamond",
+    "artificial fibers",
+    "artificial sweeteners"
+   ]
+  },
+  {
+   "id": "bionic.oewn-01576402-s",
+   "word": "bionic",
+   "definition": "having particular physiological functions augmented or replaced by electronic or electromechanical components",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Strictly technical — it reports function augmented or replaced by machinery and carries none of the deficiency the rest of the family hangs on the made.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "bleached.oewn-01576564-s",
+   "word": "bleached",
+   "definition": "(used of color) artificially produced; not natural",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Colour got by stripping rather than adding, and the word keeps the drained, washed-out feel of that.",
+   "usage_labels": [],
+   "examples": [
+    "a bleached blonde"
+   ]
+  },
+  {
+   "id": "cardboard.oewn-01576718-s",
+   "word": "cardboard",
+   "definition": "without substance",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Withering — the thing is flat, propped up, and has nothing behind it.",
+   "usage_labels": [],
+   "examples": [
+    "cardboard caricatures of historical figures"
+   ]
+  },
+  {
+   "id": "celluloid.oewn-01576851-s",
+   "word": "celluloid",
+   "definition": "artificial as if portrayed in a film",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Gives the thing the sheen of a screen image and the same nothing behind the surface.",
+   "usage_labels": [],
+   "examples": [
+    "a novel with flat celluloid characters"
+   ]
+  },
+  {
+   "id": "colored.oewn-01576564-s",
+   "word": "colored",
+   "definition": "(used of color) artificially produced; not natural",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The blankest of these — the colour was put there, with no hint of how or how deep.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "coloured.oewn-01576564-s",
+   "word": "coloured",
+   "definition": "(used of color) artificially produced; not natural",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The British spelling, identical in force to *colored*: applied colour, stated without comment.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "conventionalised.oewn-01576997-s",
+   "word": "conventionalised",
+   "definition": "using artistic forms and conventions to create effects; not natural or spontaneous",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The British spelling, carrying exactly the measured, analytic weight of *conventionalized*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "conventionalized.oewn-01576997-s",
+   "word": "conventionalized",
+   "definition": "using artistic forms and conventions to create effects; not natural or spontaneous",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Says the form was settled by convention rather than felt in the moment — cool and analytic, a shortfall of spontaneity rather than of substance.",
+   "usage_labels": [],
+   "examples": []
+  }
+ ]
+}

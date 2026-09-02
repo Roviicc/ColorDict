@@ -1,0 +1,665 @@
+{
+ "packet": 5,
+ "count": 50,
+ "entries": [
+  {
+   "id": "misguided.oewn-02043804-s",
+   "word": "misguided",
+   "definition": "wrong in e.g. opinion or judgment",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Faults the judgment while leaving the intention unblamed - being led wrong is a softer charge than being wrong.",
+   "usage_labels": [],
+   "examples": [
+    "well-meaning but misguided teachers"
+   ]
+  },
+  {
+   "id": "mistaken.oewn-02043804-s",
+   "word": "mistaken",
+   "definition": "wrong in e.g. opinion or judgment",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Records the error and nothing else, no reproach attaching, where *misguided* still suggests the opinion was badly arrived at.",
+   "usage_labels": [],
+   "examples": [
+    "a mistaken belief",
+    "mistaken identity"
+   ]
+  },
+  {
+   "id": "reprehensible.oewn-02043172-s",
+   "word": "reprehensible",
+   "definition": "bringing or deserving severe rebuke or censure",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and judicial in weight, handing the blame down as a finding rather than an outburst - the cold end of *criminal*.",
+   "usage_labels": [],
+   "examples": [
+    "adultery is as reprehensible for a husband as for a wife"
+   ]
+  },
+  {
+   "id": "vicious.oewn-02043172-s",
+   "word": "vicious",
+   "definition": "bringing or deserving severe rebuke or censure",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the fault in the thing itself rather than in the verdict on it, imputing wickedness where *reprehensible* only assigns blame.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "wrong.oewn-02042744-a",
+   "word": "wrong",
+   "definition": "contrary to conscience or morality or law",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The family's flat verdict, condemning without heat and reaching conscience, morality and law with the same single word.",
+   "usage_labels": [],
+   "examples": [
+    "it is wrong for the rich to take advantage of the poor",
+    "cheating is wrong",
+    "it is wrong to lie"
+   ]
+  },
+  {
+   "id": "breakneck.oewn-02066684-s",
+   "word": "breakneck",
+   "definition": "moving at very high speed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The danger sits in the picture rather than in any verdict - a pace fast enough to break a neck, which can sound thrilling as readily as reckless.",
+   "usage_labels": [],
+   "examples": [
+    "a breakneck pace"
+   ]
+  },
+  {
+   "id": "chanceful.oewn-02066785-s",
+   "word": "chanceful",
+   "definition": "of uncertain outcome; especially fraught with risk",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The bare formation, saying only that an outcome is full of chance, without the wariness *chancy* packs into the same idea.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "chancy.oewn-02066785-s",
+   "word": "chancy",
+   "definition": "of uncertain outcome; especially fraught with risk",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal and shrugging - the outcome is handed to luck, which is enough to mark the thing as not worth counting on.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "dangerous.oewn-02066198-a",
+   "word": "dangerous",
+   "definition": "involving or causing danger or risk; liable to hurt or harm",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and unarguable - it states that harm can follow and leaves the judging to someone else, where *unsafe* already faults the thing.",
+   "usage_labels": [],
+   "examples": [
+    "a dangerous criminal",
+    "a dangerous bridge",
+    "unemployment reached dangerous proportions"
+   ]
+  },
+  {
+   "id": "desperate.oewn-02067030-s",
+   "word": "desperate",
+   "definition": "(of persons) dangerously reckless or violent as from urgency or despair",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Aimed at a person rather than a situation - past caution and liable to violence, and the despair behind it does nothing to soften the warning.",
+   "usage_labels": [],
+   "examples": [
+    "a desperate criminal",
+    "taken hostage of desperate men"
+   ]
+  },
+  {
+   "id": "dicey.oewn-02066785-s",
+   "word": "dicey",
+   "definition": "of uncertain outcome; especially fraught with risk",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal, with a gambler's wince in it - the odds are being felt rather than merely noted.",
+   "usage_labels": [],
+   "examples": [
+    "an extremely dicey future on a brave new world of liquid nitrogen, tar, and smog"
+   ]
+  },
+  {
+   "id": "dodgy.oewn-02066785-s",
+   "word": "dodgy",
+   "definition": "of uncertain outcome; especially fraught with risk",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "British and dismissive - the thing is not just uncertain but not to be relied on, the most distrustful way of putting the same risk.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "hazardous.oewn-02067215-s",
+   "word": "hazardous",
+   "definition": "involving risk or danger",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and classifying - it registers danger as a property to be assessed, cooler than *risky*, which sounds like advice.",
+   "usage_labels": [],
+   "examples": [
+    "skydiving is a hazardous sport"
+   ]
+  },
+  {
+   "id": "insidious.oewn-02067510-s",
+   "word": "insidious",
+   "definition": "intended to entrap",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Condemns outright, because here the danger is designed - something is laying a trap, and the word says so.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "mordacious.oewn-02067602-s",
+   "word": "mordacious",
+   "definition": "biting or given to biting",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and dry for something with teeth - it charges a creature with the habit of biting, not merely a single bite.",
+   "usage_labels": [],
+   "examples": [
+    "they deliberately gave me a skittish and mordacious mount"
+   ]
+  },
+  {
+   "id": "on_the_hook.oewn-02067763-s",
+   "word": "on the hook",
+   "definition": "caught in a difficult or dangerous situation",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Informal, and the image does the work: the danger is a trap someone is caught in rather than a failing of theirs.",
+   "usage_labels": [],
+   "examples": [
+    "there I was back on the hook"
+   ]
+  },
+  {
+   "id": "parlous.oewn-02067900-s",
+   "word": "parlous",
+   "definition": "fraught with danger",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Heightened and declamatory - it announces danger with a flourish that *perilous* manages without.",
+   "usage_labels": [],
+   "examples": [
+    "a parlous journey on stormy seas"
+   ]
+  },
+  {
+   "id": "perilous.oewn-02067900-s",
+   "word": "perilous",
+   "definition": "fraught with danger",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Grave and unironic - danger at full weight, more formal than *dangerous* and with none of the hedging in *chancy*.",
+   "usage_labels": [],
+   "examples": [
+    "a perilous voyage across the Atlantic in a small boat"
+   ]
+  },
+  {
+   "id": "risky.oewn-02067215-s",
+   "word": "risky",
+   "definition": "involving risk or danger",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Everyday and weighing - it frames the danger as something one might knowingly take on, where *hazardous* only labels it.",
+   "usage_labels": [],
+   "examples": [
+    "extremely risky going out in the tide and fog"
+   ]
+  },
+  {
+   "id": "unsafe.oewn-02066198-a",
+   "word": "unsafe",
+   "definition": "involving or causing danger or risk; liable to hurt or harm",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Measures the thing against a standard of safety it fails, so the danger arrives with a fault attached that *dangerous* leaves off.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "wild.oewn-02067215-s",
+   "word": "wild",
+   "definition": "involving risk or danger",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Relishes the danger instead of warning against it, giving the same risk a heat that *hazardous* keeps out.",
+   "usage_labels": [],
+   "examples": [
+    "a wild financial scheme"
+   ]
+  },
+  {
+   "id": "antithetic.oewn-02072808-s",
+   "word": "antithetic",
+   "definition": "sharply contrasted in character or purpose",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Casts the unlikeness as a matched opposition, two things defined against each other rather than merely unalike as in *different*.",
+   "usage_labels": [],
+   "examples": [
+    "practices entirely antithetical to her professed beliefs",
+    "hope is antithetic to despair"
+   ]
+  },
+  {
+   "id": "antithetical.oewn-02072808-s",
+   "word": "antithetical",
+   "definition": "sharply contrasted in character or purpose",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The fuller and weightier-sounding form beside *antithetic*, carrying the same sense of two things set squarely against each other.",
+   "usage_labels": [],
+   "examples": [
+    "practices entirely antithetical to her professed beliefs"
+   ]
+  },
+  {
+   "id": "assorted.oewn-02073069-s",
+   "word": "assorted",
+   "definition": "of many different kinds purposefully arranged but lacking any uniformity",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Turns difference into a made mixture — the variety is arranged, though nothing in it matches.",
+   "usage_labels": [],
+   "examples": [
+    "assorted sizes"
+   ]
+  },
+  {
+   "id": "contrary.oewn-02073362-s",
+   "word": "contrary",
+   "definition": "very opposed in nature or character or purpose",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Marks unlikeness strong enough to amount to opposition, past the plain difference of *different* but short of the total inversion of *diametric*.",
+   "usage_labels": [],
+   "examples": [
+    "acts contrary to our code of ethics",
+    "the facts point to a contrary conclusion"
+   ]
+  },
+  {
+   "id": "contrasting.oewn-02073546-s",
+   "word": "contrasting",
+   "definition": "strikingly different; tending to contrast",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Makes the difference visible — the unlikeness is what strikes you when the two are set side by side.",
+   "usage_labels": [],
+   "examples": [
+    "contrasting (or contrastive) colors"
+   ]
+  },
+  {
+   "id": "contrastive.oewn-02073546-s",
+   "word": "contrastive",
+   "definition": "strikingly different; tending to contrast",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Frames that same striking unlikeness as a property a thing has rather than an effect it produces, the more analytic-sounding of the pair with *contrasting*.",
+   "usage_labels": [],
+   "examples": [
+    "contrasting (or contrastive) colors"
+   ]
+  },
+  {
+   "id": "diametric.oewn-02073716-s",
+   "word": "diametric",
+   "definition": "characterized by opposite extremes; completely opposed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts the two at opposite ends of a single line, so the difference is total rather than merely sharp as in *contrasting*.",
+   "usage_labels": [],
+   "examples": [
+    "in diametric contradiction to his claims",
+    "diametrical (or opposite) points of view"
+   ]
+  },
+  {
+   "id": "diametrical.oewn-02073716-s",
+   "word": "diametrical",
+   "definition": "characterized by opposite extremes; completely opposed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The extended form of *diametric*, identical in force and a shade more formal in shape.",
+   "usage_labels": [],
+   "examples": [
+    "diametrical (or opposite) points of view"
+   ]
+  },
+  {
+   "id": "different.oewn-02072149-a",
+   "word": "different",
+   "definition": "unlike in nature or quality or form or degree",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The bare statement of unlikeness, fixing no degree — it says two things are not the same and stops there.",
+   "usage_labels": [],
+   "examples": [
+    "took different approaches to the problem",
+    "came to a different conclusion",
+    "different parts of the country",
+    "on different sides of the issue",
+    "this meeting was different from the earlier one"
+   ]
+  },
+  {
+   "id": "disparate.oewn-02074240-s",
+   "word": "disparate",
+   "definition": "fundamentally different or distinct in quality or kind",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Places the unlikeness at the root — a difference of kind rather than of degree, deeper than the surface difference of *different*.",
+   "usage_labels": [],
+   "examples": [
+    "such disparate attractions as grand opera and game fishing",
+    "disparate ideas"
+   ]
+  },
+  {
+   "id": "distinct.oewn-02074467-s",
+   "word": "distinct",
+   "definition": "(often followed by ‘from’) not alike; different in nature or quality",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "States the unlikeness as a clean separation of one thing from another, without any of the extremity of *diametric*.",
+   "usage_labels": [],
+   "examples": [
+    "plants of several distinct types",
+    "the word ‘nationalism’ is used in at least two distinct senses",
+    "gold is distinct from iron",
+    "a tree related to but quite distinct from the European beech",
+    "management had interests quite distinct from those of their employees"
+   ]
+  },
+  {
+   "id": "distinguishable.oewn-02074467-s",
+   "word": "distinguishable",
+   "definition": "(often followed by ‘from’) not alike; different in nature or quality",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts the same unlikeness in terms of what can be told apart, so the difference is one that survives inspection, where *distinct* just asserts it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "divergent.oewn-02074066-s",
+   "word": "divergent",
+   "definition": "diverging from another or from a standard",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Makes the difference a moving apart rather than a settled state, and lets a standard be the thing departed from, where *disparate* simply finds two things unlike.",
+   "usage_labels": [],
+   "examples": [
+    "a divergent opinion"
+   ]
+  },
+  {
+   "id": "opposite.oewn-02073716-s",
+   "word": "opposite",
+   "definition": "characterized by opposite extremes; completely opposed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plainest way to state complete opposition, where *diametric* and *polar* dress the same total reversal in a figure.",
+   "usage_labels": [],
+   "examples": [
+    "diametrical (or opposite) points of view",
+    "opposite meanings"
+   ]
+  },
+  {
+   "id": "polar.oewn-02073716-s",
+   "word": "polar",
+   "definition": "characterized by opposite extremes; completely opposed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Renders the opposition as two extremes with nothing between them, giving the contrast a fixed maximum that *contrary* leaves open-ended.",
+   "usage_labels": [],
+   "examples": [
+    "extreme and indefensible polar positions"
+   ]
+  },
+  {
+   "id": "various.oewn-02073069-s",
+   "word": "various",
+   "definition": "of many different kinds purposefully arranged but lacking any uniformity",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Spreads the same idea across the kinds themselves, a plural of difference, where *assorted* keeps attention on the mixing.",
+   "usage_labels": [],
+   "examples": [
+    "his disguises are many and various",
+    "various experiments have failed to disprove the theory",
+    "cited various reasons for his behavior"
+   ]
+  },
+  {
+   "id": "earthshaking.oewn-02169873-s",
+   "word": "earthshaking",
+   "definition": "sufficiently significant to affect the whole world",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Trades gravity for reach — the effect is felt across the whole world, and the word keeps the physical jolt of its image.",
+   "usage_labels": [],
+   "examples": [
+    "earthshaking proposals"
+   ]
+  },
+  {
+   "id": "epoch-making.oewn-02169594-s",
+   "word": "epoch-making",
+   "definition": "highly significant or important especially bringing about or marking the beginning of a new development or era",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The active twin of *epochal* — it credits the thing with making the new beginning rather than merely marking it.",
+   "usage_labels": [],
+   "examples": [
+    "an epoch-making discovery"
+   ]
+  },
+  {
+   "id": "epochal.oewn-02169594-s",
+   "word": "epochal",
+   "definition": "highly significant or important especially bringing about or marking the beginning of a new development or era",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Adds a boundary to the weight: not just great effect but the opening of something new, which *momentous* never requires.",
+   "usage_labels": [],
+   "examples": [
+    "epochal decisions made by Roosevelt and Churchill"
+   ]
+  },
+  {
+   "id": "evidential.oewn-02170148-s",
+   "word": "evidential",
+   "definition": "serving as or based on evidence",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Carries no appraisal at all — it marks only that something rests on or supplies evidence, so it sits outside any scale of weight.",
+   "usage_labels": [],
+   "examples": [
+    "evidential signs of a forced entry"
+   ]
+  },
+  {
+   "id": "evidentiary.oewn-02170148-s",
+   "word": "evidentiary",
+   "definition": "serving as or based on evidence",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The stiffer, more formal twin of *evidential*, and just as free of praise or blame.",
+   "usage_labels": [],
+   "examples": [
+    "its evidentiary value"
+   ]
+  },
+  {
+   "id": "fundamental.oewn-02170349-s",
+   "word": "fundamental",
+   "definition": "far-reaching and thoroughgoing in effect especially on the nature of something",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Points downward rather than upward: the effect reaches what a thing is, describing depth of change instead of how much it is admired.",
+   "usage_labels": [],
+   "examples": [
+    "the fundamental revolution in human values that has occurred",
+    "the book underwent fundamental changes",
+    "committed the fundamental error of confusing spending with extravagance"
+   ]
+  },
+  {
+   "id": "important.oewn-02168847-a",
+   "word": "important",
+   "definition": "important in effect or meaning",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "More insistent than *significant* — it claims the thing matters and should be treated accordingly, not merely that it registers.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "large.oewn-02170722-s",
+   "word": "large",
+   "definition": "fairly large or important in effect; influential",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Deliberately unemphatic — it grants real effect and influence while stopping far short of *monumental*.",
+   "usage_labels": [],
+   "examples": [
+    "played a large role in the negotiations"
+   ]
+  },
+  {
+   "id": "momentous.oewn-02169397-s",
+   "word": "momentous",
+   "definition": "of very great significance",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Lifts *significant* to a height where the weight itself is the point, grave and admiring at once.",
+   "usage_labels": [],
+   "examples": [
+    "a momentous event",
+    "deciding to drop the atom bomb was a very momentous decision"
+   ]
+  },
+  {
+   "id": "monumental.oewn-02170883-s",
+   "word": "monumental",
+   "definition": "of outstanding significance",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Makes the significance imposing, something that stands over whatever is beside it, where *noteworthy* only asks you to look.",
+   "usage_labels": [],
+   "examples": [
+    "Einstein's monumental contributions to physics"
+   ]
+  },
+  {
+   "id": "noteworthy.oewn-02171017-s",
+   "word": "noteworthy",
+   "definition": "worthy of attention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A modest claim: it asks for attention and promises nothing beyond it.",
+   "usage_labels": [],
+   "examples": [
+    "a noteworthy fact is that her students rarely complain",
+    "a noteworthy advance in cancer research"
+   ]
+  },
+  {
+   "id": "profound.oewn-02170349-s",
+   "word": "profound",
+   "definition": "far-reaching and thoroughgoing in effect especially on the nature of something",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Where *fundamental* is structural this one is grave, reaching the same way into a thing's nature but spoken with awe.",
+   "usage_labels": [],
+   "examples": [
+    "profound social changes"
+   ]
+  },
+  {
+   "id": "remarkable.oewn-02171017-s",
+   "word": "remarkable",
+   "definition": "worthy of attention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Stronger than *noteworthy* on the same ground — attention is compelled rather than merely deserved, and admiration comes with it.",
+   "usage_labels": [],
+   "examples": [
+    "a remarkable achievement"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,616 @@
+{
+ "packet": 4,
+ "count": 50,
+ "entries": [
+  {
+   "id": "dyed.oewn-01576564-s",
+   "word": "dyed",
+   "definition": "(used of color) artificially produced; not natural",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts the colour in deep rather than on the surface, more concrete than *colored* and no harsher for it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "staged.oewn-01576262-s",
+   "word": "staged",
+   "definition": "deliberately arranged for effect",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Makes that arrangement a performance put on for an onlooker, so what looked spontaneous reads as put-up — the accusation *arranged* stops short of.",
+   "usage_labels": [],
+   "examples": [
+    "one of those artfully staged photographs"
+   ]
+  },
+  {
+   "id": "stylized.oewn-01576997-s",
+   "word": "stylized",
+   "definition": "using artistic forms and conventions to create effects; not natural or spontaneous",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The one here that can name a deliberate artistic manner rather than a failure, where *unlifelike* is only a falling short.",
+   "usage_labels": [],
+   "examples": [
+    "a stylized mode of theater production"
+   ]
+  },
+  {
+   "id": "synthetic.oewn-01576851-s",
+   "word": "synthetic",
+   "definition": "artificial as if portrayed in a film",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Manufactured-feeling rather than lived — the same screen-thin unreality as *celluloid*, without the sheen.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unlifelike.oewn-01576718-s",
+   "word": "unlifelike",
+   "definition": "without substance",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A plain report of the shortfall, measuring the thing against life and finding it thin, with none of *cardboard*'s contempt.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unreal.oewn-01575756-a",
+   "word": "unreal",
+   "definition": "contrived by art rather than nature",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Denies the thing any standing in reality at all, where *artificial* only reports how it came to be.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "blemished.oewn-01757051-s",
+   "word": "blemished",
+   "definition": "having a blemish or flaw",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the fault on the surface - a mark on something otherwise sound, where *flawed* lets the fault run through it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "broken.oewn-01757160-s",
+   "word": "broken",
+   "definition": "imperfectly spoken or written",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Grades speech or writing as falling short of fluent - a shortfall in the language itself, not *defective*'s fault built into a thing.",
+   "usage_labels": [],
+   "examples": [
+    "broken English"
+   ]
+  },
+  {
+   "id": "corrupt.oewn-01757260-s",
+   "word": "corrupt",
+   "definition": "containing errors or alterations",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Says errors and alterations have got in, so the thing can no longer be trusted as it stands - heavier than *flawed*, which admits a fault without unsettling the whole.",
+   "usage_labels": [],
+   "examples": [
+    "a corrupt text",
+    "spoke a corrupted version of the language"
+   ]
+  },
+  {
+   "id": "corrupted.oewn-01757260-s",
+   "word": "corrupted",
+   "definition": "containing errors or alterations",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The participle points back at a sound original that errors have since entered, where *corrupt* simply reports the state.",
+   "usage_labels": [],
+   "examples": [
+    "spoke a corrupted version of the language"
+   ]
+  },
+  {
+   "id": "defective.oewn-01757421-s",
+   "word": "defective",
+   "definition": "having a defect",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the defect as a verdict on the whole item - colder and more final than *faulty*.",
+   "usage_labels": [],
+   "examples": [
+    "I returned the appliance because it was defective"
+   ]
+  },
+  {
+   "id": "faulty.oewn-01757421-s",
+   "word": "faulty",
+   "definition": "having a defect",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Workaday and remediable - it locates a fault to be put right rather than writing the thing off the way *defective* does.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "flawed.oewn-01757051-s",
+   "word": "flawed",
+   "definition": "having a blemish or flaw",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The same defect read as structural rather than a spot, which is why it lands harder than *blemished*.",
+   "usage_labels": [],
+   "examples": [
+    "a flawed diamond"
+   ]
+  },
+  {
+   "id": "imperfect.oewn-01756665-a",
+   "word": "imperfect",
+   "definition": "not perfect; defective or inadequate",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain word for falling short of perfect - it states the shortfall and stops there, without *defective*'s implication that something inside has gone wrong.",
+   "usage_labels": [],
+   "examples": [
+    "had only an imperfect understanding of his responsibilities",
+    "imperfect mortals",
+    "drainage here is imperfect"
+   ]
+  },
+  {
+   "id": "imperfectible.oewn-01757608-s",
+   "word": "imperfectible",
+   "definition": "capable of being made imperfect",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely a statement of capacity - it says imperfection could be introduced and passes no judgement, where *defective* and *corrupt* both condemn.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "irregular.oewn-01757717-s",
+   "word": "irregular",
+   "definition": "failing to meet a standard of manufacture due to an imperfection",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Grades an item as missing the standard of manufacture, registering the imperfection while cushioning it - far short of calling it *defective*.",
+   "usage_labels": [],
+   "examples": [
+    "an irregular pair of jeans"
+   ]
+  },
+  {
+   "id": "crazy.oewn-01842483-s",
+   "word": "crazy",
+   "definition": "foolish; totally unsound",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt and total - it leaves the notion nothing salvageable, where *impractical* leaves it merely unworkable.",
+   "usage_labels": [],
+   "examples": [
+    "a crazy scheme"
+   ]
+  },
+  {
+   "id": "half-baked.oewn-01842483-s",
+   "word": "half-baked",
+   "definition": "foolish; totally unsound",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Contemptuous - it casts the unsoundness as thinking abandoned before it was finished, faulting the effort as much as the result.",
+   "usage_labels": [],
+   "examples": [
+    "half-baked ideas"
+   ]
+  },
+  {
+   "id": "impractical.oewn-01842067-a",
+   "word": "impractical",
+   "definition": "not practical; not workable or not given to practical matters",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain term of the family - it states the unworkability and stops there, without the ridicule *crazy* and *half-baked* carry.",
+   "usage_labels": [],
+   "examples": [
+    "refloating the ship proved impractical because of the expense",
+    "he is intelligent but too impractical for commercial work",
+    "an impractical solution"
+   ]
+  },
+  {
+   "id": "meshuga.oewn-01842742-s",
+   "word": "meshuga",
+   "definition": "senseless; crazy",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The barest of these spellings, and the shortness suits a word that makes no argument, only a verdict.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "meshugga.oewn-01842742-s",
+   "word": "meshugga",
+   "definition": "senseless; crazy",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A variant spelling of *meshugge* and no gentler for it - the same unadorned charge of senselessness.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "meshugge.oewn-01842742-s",
+   "word": "meshugge",
+   "definition": "senseless; crazy",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Colloquial and flat - it calls the thing senseless outright, with none of the picture-making *half-baked* offers.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "meshuggeneh.oewn-01842742-s",
+   "word": "meshuggeneh",
+   "definition": "senseless; crazy",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The extra syllables give it a flourish the shorter spellings lack, but the judgement of senselessness is unchanged.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "meshuggener.oewn-01842742-s",
+   "word": "meshuggener",
+   "definition": "senseless; crazy",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Another form of the same dismissal - senselessness stated as settled fact, where *quixotic* would at least credit an aim.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "quixotic.oewn-01842899-s",
+   "word": "quixotic",
+   "definition": "not sensible about practical matters; idealistic and unrealistic",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Faults the want of practical sense while crediting the ideals behind it, so the disapproval comes out half-admiring.",
+   "usage_labels": [],
+   "examples": [
+    "as quixotic as a restoration of medieval knighthood"
+   ]
+  },
+  {
+   "id": "romantic.oewn-01842899-s",
+   "word": "romantic",
+   "definition": "not sensible about practical matters; idealistic and unrealistic",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The gentlest of these - the unrealism is charged to an idealizing temperament rather than a defect, and can be said almost fondly.",
+   "usage_labels": [],
+   "examples": [
+    "a romantic disregard for money"
+   ]
+  },
+  {
+   "id": "screwball.oewn-01842483-s",
+   "word": "screwball",
+   "definition": "foolish; totally unsound",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Flippant - the foolishness is treated as entertaining eccentricity, so it stings less than *crazy* at the same verdict.",
+   "usage_labels": [],
+   "examples": [
+    "a screwball proposal without a prayer of working"
+   ]
+  },
+  {
+   "id": "softheaded.oewn-01842483-s",
+   "word": "softheaded",
+   "definition": "foolish; totally unsound",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Insulting in a way the others are not - it puts the unsoundness down to a mind too soft to hold a firm thought.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unfunctional.oewn-01843204-s",
+   "word": "unfunctional",
+   "definition": "not related to or suitable for everyday needs or activities",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Carries no verdict at all - it records unsuitability for everyday needs where *impractical* implies a fault.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unwieldy.oewn-01843322-s",
+   "word": "unwieldy",
+   "definition": "difficult to work or manipulate",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Locates the trouble in the handling rather than in anyone's judgement, so a thoroughly sensible thing can still earn it.",
+   "usage_labels": [],
+   "examples": [
+    "unwieldy rules and regulations"
+   ]
+  },
+  {
+   "id": "wild-eyed.oewn-01842899-s",
+   "word": "wild-eyed",
+   "definition": "not sensible about practical matters; idealistic and unrealistic",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts a look of fanaticism on the same unrealism, so where *romantic* indulges it this one warns against it.",
+   "usage_labels": [],
+   "examples": [
+    "a wild-eyed dream of a world state"
+   ]
+  },
+  {
+   "id": "amentaceous.oewn-01871590-s",
+   "word": "amentaceous",
+   "definition": "(of plants) bearing or characterized by aments or catkins",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Places a plant by the catkins that characterize it, as flatly as *amentiferous* and with as little praise in it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "amentiferous.oewn-01871590-s",
+   "word": "amentiferous",
+   "definition": "(of plants) bearing or characterized by aments or catkins",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Technical and classifying: it records that the plant carries catkins and offers no verdict at all on how much it yields.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "arable.oewn-01871757-s",
+   "word": "arable",
+   "definition": "(of farmland) capable of being farmed productively",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A settled favourable verdict on land, but only that it could be farmed well - potential where *rich* asserts the yield itself.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "cultivable.oewn-01871757-s",
+   "word": "cultivable",
+   "definition": "(of farmland) capable of being farmed productively",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "States the same promise as *arable* transparently through the act of cultivating, so it reads as an open possibility rather than a standing classification of the land.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "cultivatable.oewn-01871757-s",
+   "word": "cultivatable",
+   "definition": "(of farmland) capable of being farmed productively",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Heavier and more literal than *cultivable*, claiming no more than that the work of cultivation can be done here.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "fecund.oewn-01871917-s",
+   "word": "fecund",
+   "definition": "intellectually productive",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Elevated praise for a mind that generates abundantly, richer and more admiring than a flat *productive*.",
+   "usage_labels": [],
+   "examples": [
+    "a fecund imagination"
+   ]
+  },
+  {
+   "id": "fertile.oewn-01871917-s",
+   "word": "fertile",
+   "definition": "intellectually productive",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praises a mind as ground ideas grow from - readiness and promise, where *prolific* counts what has actually come out of it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "fur-bearing.oewn-01872079-s",
+   "word": "fur-bearing",
+   "definition": "of animals having fur (especially of commercial quality)",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Coolly appraising rather than approving - it marks an animal as carrying fur worth having, without any compliment to the animal.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "nut-bearing.oewn-01872193-s",
+   "word": "nut-bearing",
+   "definition": "(of shrubs or trees) producing nuts",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A bare compound naming what the plant puts out, with none of the claim about quantity that *productive* carries.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "oil-bearing.oewn-01872286-s",
+   "word": "oil-bearing",
+   "definition": "containing oil",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Says only that oil is present inside - containing rather than yielding, so nothing is being produced here at all.",
+   "usage_labels": [],
+   "examples": [
+    "oil-bearing shale"
+   ]
+  },
+  {
+   "id": "productive.oewn-01871147-a",
+   "word": "productive",
+   "definition": "producing or capable of producing (especially abundantly)",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Plain approval of output that covers both actual yield and the bare capacity for it, where *prolific* insists the yield is already there.",
+   "usage_labels": [],
+   "examples": [
+    "productive farmland",
+    "his productive years",
+    "a productive collaboration"
+   ]
+  },
+  {
+   "id": "prolific.oewn-01871917-s",
+   "word": "prolific",
+   "definition": "intellectually productive",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Admiration measured by sheer quantity of intellectual output, where *fecund* admires its richness instead.",
+   "usage_labels": [],
+   "examples": [
+    "a prolific writer"
+   ]
+  },
+  {
+   "id": "rich.oewn-01872379-s",
+   "word": "rich",
+   "definition": "very productive",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Short, everyday and emphatic, asserting abundance outright where *productive* still allows mere capacity.",
+   "usage_labels": [],
+   "examples": [
+    "rich seams of coal"
+   ]
+  },
+  {
+   "id": "tillable.oewn-01871757-s",
+   "word": "tillable",
+   "definition": "(of farmland) capable of being farmed productively",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most physical of the land words, tying the ground's promise to the labour of tilling it where *arable* keeps the judgement abstract.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "base.oewn-02043484-s",
+   "word": "base",
+   "definition": "not adhering to ethical or moral principles",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Contemptuous - it ranks the character as low, not merely at fault, where *immoral* records the failure and leaves the person's standing alone.",
+   "usage_labels": [],
+   "examples": [
+    "base and unpatriotic motives",
+    "a base, degrading way of life"
+   ]
+  },
+  {
+   "id": "condemnable.oewn-02043172-s",
+   "word": "condemnable",
+   "definition": "bringing or deserving severe rebuke or censure",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "States the desert rather than colouring it - the thing has earned rebuke, and the word says so and stops.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "criminal.oewn-02043172-s",
+   "word": "criminal",
+   "definition": "bringing or deserving severe rebuke or censure",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the weight of a legal charge behind a censure that is moral rather than legal, which makes it an outcry where *condemnable* is a ruling.",
+   "usage_labels": [],
+   "examples": [
+    "a criminal waste of talent"
+   ]
+  },
+  {
+   "id": "deplorable.oewn-02043172-s",
+   "word": "deplorable",
+   "definition": "bringing or deserving severe rebuke or censure",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Voices the disapproval as dismay - the thing is bad enough to be lamented, not merely bad enough to be rebuked.",
+   "usage_labels": [],
+   "examples": [
+    "a deplorable act of violence"
+   ]
+  },
+  {
+   "id": "immoral.oewn-02043484-s",
+   "word": "immoral",
+   "definition": "not adhering to ethical or moral principles",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The flat categorical charge: measured against a standard and found outside it, with the force sitting in the standard rather than in the tone.",
+   "usage_labels": [],
+   "examples": [
+    "they considered colonialism immoral"
+   ]
+  }
+ ]
+}

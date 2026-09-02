@@ -1,0 +1,83 @@
+{
+ "sample": "census-007",
+ "seed": null,
+ "population": 298,
+ "read": 298,
+ "right": 294,
+ "wrong": 4,
+ "unsure": 0,
+ "error_rate_pct": 1.3,
+ "threshold_pct": 5.0,
+ "reader_model": "claude-fable-5-1",
+ "reader_effort": "xhigh",
+ "reader_agent": ".claude/agents/census-reader.md",
+ "reader_tools": "Read, Write",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
+ "missing_packets": [],
+ "unread": [],
+ "verdicts_for_unknown_ids": [],
+ "faults": {
+  "restriction": 2,
+  "gloss-mismatch": 1,
+  "other": 1
+ },
+ "by_part_of_speech": {
+  "adjective": {
+   "read": 298,
+   "right": 294,
+   "wrong": 4,
+   "unsure": 0,
+   "error_rate_pct": 1.3
+  }
+ },
+ "failures_by_synset": {
+  "oewn-01453222-s": [
+   {
+    "id": "stray.oewn-01453222-s",
+    "word": "stray",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "The gloss covers both 'having no home' and 'having wandered away from home', but the note makes homelessness 'a settled condition rather than an incident', excluding the wandered-off reading the gloss and the example 'a stray calf' include.",
+    "definition": "(of an animal) having no home or having wandered away from home",
+    "tone": "Of an animal, it makes homelessness a settled condition rather than an incident, carrying pity and a touch of nuisance at once."
+   }
+  ],
+  "oewn-01575756-a": [
+   {
+    "id": "unreal.oewn-01575756-a",
+    "word": "unreal",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "The gloss is 'contrived by art rather than nature' (the artificial sense, where the thing exists but is man-made), but the note describes the 'not real, lacking existence' sense by saying it denies the thing any standing in reality at all.",
+    "definition": "contrived by art rather than nature",
+    "tone": "Denies the thing any standing in reality at all, where *artificial* only reports how it came to be."
+   }
+  ],
+  "oewn-02067602-s": [
+   {
+    "id": "mordacious.oewn-02067602-s",
+    "word": "mordacious",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "The gloss is 'biting or given to biting' but the note narrows it to a creature's habit and expressly denies the single-bite reading ('not merely a single bite'), cutting off the first disjunct the gloss covers.",
+    "definition": "biting or given to biting",
+    "tone": "Formal and dry for something with teeth - it charges a creature with the habit of biting, not merely a single bite."
+   }
+  ],
+  "oewn-02340413-s": [
+   {
+    "id": "no-hit.oewn-02340413-s",
+    "word": "no-hit",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "The note is fine, but two of the three examples ('The visiting pitcher no-hit the home team', 'The home team no-hit the visiting team') use no-hit as a transitive verb, not the adjective sense glossed.",
+    "definition": "of a game (or the pitching) in which a pitcher allows the opponent no hits",
+    "tone": "A technical description of what the pitching allowed, recording the fact where the rest of the family evaluates."
+   }
+  ]
+ },
+ "blindness": "readers held only their own packet and the rubric; no copy of the repo, no access to data/policy/, authored files removed from the working area before the read",
+ "repairs": "3 of 4 repaired and re-read blind: 3/3 right (census-007-reread.json)",
+ "not_repaired": "no-hit.oewn-02340413-s, faulted `other`. The reader's own reasoning says the note is fine: two of OEWN's three examples use no-hit as a transitive verb, not the adjective sense glossed. Upstream example problem, no rewrite fixes it, counted against the rate rather than argued away. This is the SECOND instance of that shape (census 006's `constructive` was the first), which promotes it from a one-off to a named class - see the plan.",
+ "comparability_warning": "Comparable to census 006 on the READING instrument - both used census-reader.md verbatim - but NOT on the authoring instrument. Tick 4's author prompts carried an extra line that tick 3's did not: 'The single largest fault class in this corpus is writing the lemma's famous sense instead of the sense printed above it. Read each _gloss before you write, not after.' That line was in the prompt and not in family-author.md, so the drop from 3.4% to 1.3% is confounded by an instrument change of exactly the kind 11.74 was written about - committed on the authoring side one tick after being fixed on the reading side. The line has now been added to family-author.md, so tick 5 onward is comparable to tick 4 rather than to tick 3."
+}
