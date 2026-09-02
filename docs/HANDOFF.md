@@ -7,6 +7,11 @@ and what to do next, without reading the whole history first.
 
 Last updated after tick 7 / census 010, plus the two follow-ups in 11.81.
 
+> **Resuming, or short on context?** Run `python tools/status.py` — it measures
+> the state live (git, instrument drift, corpus, queue, censuses, lint) instead
+> of trusting the numbers written here, which go stale. The `/orient` skill in
+> `.claude/skills/orient/` wraps that plus the rules that are not negotiable.
+
 ---
 
 ## 1. What is being built
