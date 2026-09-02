@@ -5,7 +5,9 @@ mistake, in the order they happened. It is long on purpose. **This file is the
 entry point** — enough to understand what is being built, whether it is working,
 and what to do next, without reading the whole history first.
 
-Last updated after tick 7 / census 010, plus the two follow-ups in 11.81.
+Last updated 2026-09-02: tick 7 / census 010, the two follow-ups in 11.81,
+and the shift to demand-driven selection in 11.83. Section 5 is a different
+plan from the one that was here this morning - read it rather than assuming.
 
 > **Resuming, or short on context?** Run `python tools/status.py` — it measures
 > the state live (git, instrument drift, corpus, queue, censuses, lint) instead
@@ -147,134 +149,200 @@ method problem, not a batch problem (§5.5).
 
 ## 4. Where the work actually stands
 
-**227 families · 2,786 annotated senses · 2,963 reviewed entries · 0 validation
-errors.**
+**227 families / 2,786 annotated senses / 2,963 reviewed entries / 0 validation
+errors.** Run `python tools/status.py` for the live numbers; the ones written
+here go stale.
+
+The shipped dictionary holds roughly **114,000 entries**, of which about 2,900
+carry a connotation row. That gap used to read as a backlog. It is not one any
+more - it is the product's input. See section 5.
 
 | line | pool | done | queue | state |
 | --- | --- | --- | --- | --- |
-| **Adjective** | 5,911 candidate families | 227 families, 2,786 senses | **147 families / 2,434 members** | running, ~8 ticks left |
-| **Adverb** | 5,571 senses, 2,505 pertainym links | 489 senses | n/a | **self-feeding** — inherited free from adjectives |
-| **Verb** | 2,494 candidate families | 116 senses | **70 eligible / 937 members** | queue built; screening pending, ~3 ticks |
-| **Noun** | 11,484 families / 129,506 members | 0 | 1,318 candidates, filter known bad | **deliberately closed** |
+| **Adjective** | 5,911 candidate families | 227 families, 2,786 senses | 147 families / 2,434 members | **fallback filler** - drawn only when there is no demand to serve |
+| **Adverb** | 5,571 senses, 2,505 pertainym links | 480 senses | n/a | **self-feeding** - inherited free from adjectives, keep it |
+| **Verb** | 2,494 candidate families | 116 senses | 70 eligible / 937 members | **screening cancelled** - demand selects, not the gate |
+| **Noun** | 11,484 families / 129,506 members | 0 | filter known bad | **unblocked** - a reported noun needs no filter |
 
-The adverb line is the quiet win: **489 senses that nobody authored**, inherited
-through WordNet's pertainym links, growing automatically with every adjective
-tick. Nine adverbs sit on a deny list where their own gloss does not match the
-adjective sense they point at.
+The adverb line stays the quiet win: **480 senses nobody authored**, inherited
+through WordNet's pertainym links and growing with every adjective tick. Nine
+adverbs sit on a deny list where their own gloss does not match the adjective
+sense they point at.
 
 ---
 
-## 5. The plan, in stages
+## 5. The plan - ship, then let demand pick the words
 
-Every stage names its own stop condition. Stages A and B are independent and can
-run in parallel; C depends on A, D depends on B.
+**The decision this run kept deferring is made.** The old plan ended with Stages
+C and D drained, roughly 6,000 senses, an empty queue and nothing left to draw -
+a finish line nobody chose, and one that section 11.75 already proved could not
+be moved by loosening the gate. The answer is not a better gate. It is to stop
+guessing which words carry connotation and let the people using the app say so.
 
-### Stage 0 — standing, every tick
+**The gate is a proxy; a reported miss is ground truth.** The queue is built
+from size >= 8, charged >= 70%, ranked by wordfreq Zipf. Section 11.75 measured
+what that proxy buys: two independent raters judged five of eight eligible
+families to be taxonomy rather than connotation. A person who looked a word up
+and found no connotation row is not a proxy for demand. They are the demand.
+
+**What this changes, and what it does not.** It changes *selection* only. The
+tick loop, both instruments, the blind read, the third-hand repair and the 5%
+gate are untouched and not up for renegotiation - a reported word earns a
+worksheet, an author, a census and a repair exactly like a drawn one. The
+temptation with a demand queue is to hand-annotate the reported word quickly
+because somebody is waiting. That is how a corpus gets back to 44% wrong.
+
+**The honest caveat, stated first.** A demand queue only beats a Zipf queue once
+there is demand, and today there is none - no release, no users, no report path.
+So the MVP's deliverable is **not more senses. It is users.** Every stage below
+is scoped to that.
+
+**Decisions taken (2026-09-02).** Reports travel as a **local log the user
+exports and sends** - nothing phones home, which keeps the app's offline promise
+intact and needs no backend. The MVP ships as a **GitHub Releases APK plus the
+web build**, both already wired.
+
+### Stage 0 - standing, every tick
 
 Push at the end of each tick rather than letting commits pile up. Carry any
-outstanding repair into the next tick's repair round rather than opening a cycle
-for it. **Currently outstanding:** *hard* in `family-01072500-a`
-(annotated-015) claims "the least damning word in the family" while *day-old*
-sits beside it at charge **0**. It was found by the pass that wrote the rule, so
-§11.65's discipline requires a hand that neither wrote the note nor found the
-fault.
+outstanding repair into the next tick's repair round.
 
-### Stage A — tick 8, deliberately oversized
+**Currently outstanding:** *hard* in `family-01072500-a` (annotated-015) claims
+"the least damning word in the family" while *day-old* sits beside it at charge
+**0**. Found by the pass that wrote the rule, so section 11.65 requires a hand
+that neither wrote the note nor found the fault.
 
-Run the §3 loop, but draw **35–40 families instead of ~23**. Ticks have sat at
-~285 senses for five ticks running, and §11.73's orchestrator cap was already
-fixed — `family-author.md` grants `Write` so authors put JSON on disk and the
-orchestrator never holds it. The plateau is probably habit, not a ceiling, and
-this is the cheapest way to find out.
+### Stage M1 - make the empty state the report button
 
-Both instruments are unchanged through 11.82, so **tick 8 is comparable to
-007–010 and is not a new baseline.**
+The cheapest piece of the whole plan, because the affordance and the empty state
+are the same UI element.
 
-> **Stop:** a tick over 5% stops the run. Two consecutive over 5% is a method
-> problem, not a batch problem. If the oversized draw degrades the rate, the
-> cause is the size, and the next tick goes back to ~23.
+`dict_build.py:sense_html` emits the `Connotations:` row **only** when a label,
+usage note, explanation or tone exists, so an unannotated sense currently renders
+as a definition with the row silently absent - indistinguishable from a sense
+nobody has looked at. Emit the row always. When there is no tone, render
+`Connotation not recorded - report this word` as a link to a
+`colordict:report?...` URL carrying the sense id, lemma and gloss.
 
-### Stage B — verb screening pass
+Per section 11.7, `sametypesequence=h` means a new article row is a builder
+change plus a CSS class **with no app code at all**, so this lands on Android,
+desktop and web at once from `tools/dict_build.py`.
 
-The queue exists (`data/worklist-verbs.tsv`, 70 eligible / 937 members). What it
-does **not** yet have is evidence that those 70 are connotation families rather
-than taxonomy. Run a §11.75-style blind triage **with controls** — the same
-design that measured the adjective gate — before any verb authoring.
+> **Stop:** if intercepting a custom scheme in `DefinitionWebView` turns out to
+> need more than a URL handler and an append, fall back to a long-press action
+> on the headword. Do not let the report affordance grow into a feature.
 
-> **Stop:** if the triage judges verbs materially worse than the adjective
-> baseline, the verb line does not open on these gates. Do not lower the gates
-> to compensate; §11.75 measured that lowering makes selection worse.
+### Stage M2 - the local log, and a way to send it
 
-### Stage C — drain the adjective queue
+The link handler appends one JSON line to a local log: sense id, lemma, gloss,
+timestamp, and a reason code distinguishing **`unannotated`** (the entry exists,
+this sense has no connotation row) from **`not-found`** (no entry at all, logged
+from the search screen). Those are different problems and must not arrive in the
+same bucket.
 
-147 families / 2,434 members, ~8 ticks. Nothing blocks it: both instruments are
-verbatim, the gate is checked, the queue is ranked.
+A Settings row - `Reported words (N)` - opens the list, lets the user delete
+anything they would rather not send, and exports the file through the standard
+share sheet. The web build does the same through `localStorage` and a download.
 
-> **Stop:** the queue empties, or a tick breaches 5%.
+> **Stop:** the log is append-only, local, and never sent without an explicit
+> action. If a change would make it leave the device on its own, it does not
+> ship - that is the promise the README makes.
 
-### Stage D — verb authoring
+### Stage M3 - `reports_ingest.py`
 
-Only after Stage B passes. ~69 families / 884 members, ~3 ticks. One practical
-note for the worksheet stage: five eligible verb families are larger than any
-adjective family ever authored (*knock* at 53, *fail* at 38), and 53 members is
-a lot to hand one author agent — consider splitting the largest.
+A received export merges into a demand worklist: dedupe by sense id, count
+reports per sense, and rank by count rather than Zipf. Two things it must do
+that the Zipf worklist never had to:
 
-### Stage E — nouns, blocked
+- **Honour a by-design-neutral deny list.** *table*, *hydrogen*, *plant* will be
+  reported, and they are correctly unannotated. An annotation pass that finds a
+  sense genuinely carries no charge writes it to `data/families/neutral-*.json`,
+  and ingest marks those ineligible forever - the same mechanism
+  `worklist_build.py` already uses for `held-*.json`.
+- **Group reports into families before queueing.** The tick loop's unit is a
+  family, not a word. A reported sense pulls in its family from
+  `data/build/adjective-families.json`, so one report buys a whole spectrum.
 
-`pneumonia` and `tranquilizer` score high because the **thing** is bad, not
-because the **word** carries force. That is `world-not-word` at family-selection
-level — the same fault class the notes kept failing, one layer up. Annotating
-before the filter is fixed would build shards out of words with no connotation
-to describe.
+> **Stop:** if fewer than ~20 distinct senses have been reported, do not run a
+> demand tick - the queue is noise at that size. Draw from Stage F instead.
 
-> **Stop:** stays closed until the screening filter distinguishes a bad thing
-> from a loaded word.
+### Stage M4 - cut the release
 
-### Then: the decision this run has not yet faced
+`release.yml` builds the APK and `vercel.json` deploys the web build. Nothing
+here is blocked on curation - B0 was designed that way. Cut the release with the
+2,786 senses that exist, then put it in front of enough people that the log has
+signal.
 
-Stages C and D together are **~12 ticks and end with roughly 6,000 annotated
-senses**, at which point *the queue is empty and the method has nothing left to
-draw*. That is not a finish line anyone chose — it is what a 5.7% gate implies.
-§11.75 already measured that lowering the gate makes selection worse, so this
-ceiling is real rather than a tuning problem.
+> **Stop:** a release with no report path is a wasted release. M1 and M2 ship
+> with it or it waits.
 
-**Decide before Stage C ends, not after:** is ~6,000 senses the product, or does
-the method need a way to reach the other 94%? Nothing in the current plan
-answers this.
+### Stage M5 - the first demand tick
 
-**Not a step:** rebuilding assets and cutting a release. The build runs green on
-every pipeline pass and the app ships whatever the corpus holds. A release is a
-timing decision, not a prerequisite.
+Run the section 3 loop unchanged against the demand worklist. This is the first
+tick whose draw nobody at this end chose, so treat its rate as the real test of
+whether the method survives contact with words it did not select.
+
+> **Stop:** the 5% gate, exactly as before. A demand tick over 5% is a method
+> problem, not a queue problem - the words are not harder, and if the rate says
+> otherwise that finding is worth more than the shard.
+
+### Stage F - fallback filler
+
+147 adjective families / 2,434 members, ranked and gated, ready to draw. Run a
+tick from here whenever there is no demand to serve, and prefer the largest
+families - they buy the most spectrum per tick.
+
+This is what the old Stage C was, demoted. It is no longer the default use of a
+tick, and **emptying it is not a goal.**
+
+### Cancelled
+
+- **Verb screening (old Stage B).** It existed to find out whether the gate's 70
+  eligible verb families carry connotation. A reported verb answers that for
+  itself, one word at a time, for free.
+- **The noun filter (old Stage E).** Nouns were closed because the filter cannot
+  tell a bad thing (*pneumonia*) from a loaded word. Demand-driven selection has
+  a human doing the selecting, so the filter is not on the critical path.
+
+Neither is *wrong*; both are now work that buys nothing the report loop does not
+buy more cheaply. The queues stay on disk.
 
 ---
 
 ## 5b. What success looks like
 
-Concrete, so a session can tell whether it is winning:
+The targets changed with the goal. Quality is unchanged and non-negotiable;
+coverage stopped being a number to grow and became a response time.
 
 | | target | now |
 | --- | --- | --- |
-| Census error rate | **< 5%**, the hard gate | ~2% across 007–010 |
+| Census error rate | **< 5%**, the hard gate | ~2% across 007-010 |
 | Validation errors | **0**, always | 0 (2,963 entries) |
 | Instruments unchanged within a comparison window | required for a rate to mean anything | unchanged since 11.81 |
 | Repairs re-read blind | every repair, no exceptions | held |
-| Adjective queue | empty | 147 families left |
-| Verb line | screened, then drained | queue built, screening pending |
+| **A report path exists** | shipped in the release | **not built** |
+| **Release cut** | APK on GitHub Releases + web deployed | **not cut** |
+| **Reports received** | >= 20 distinct senses before the first demand tick | 0 |
+| **Report to shipped annotation** | one tick, and the reporter can see it | n/a |
 
-**A tick has succeeded when:** the draw was screened for §5.3 by hand as well as
-by tool, every family merged cleanly, the census came in under 5%, every fault
-was repaired by a third hand, every repair was re-read blind, and the shard is
-committed and pushed.
+**A tick has succeeded when:** the draw was screened for section 5.3 by hand as
+well as by tool, every family merged cleanly, the census came in under 5%, every
+fault was repaired by a third hand, every repair was re-read blind, and the shard
+is committed and pushed.
 
-**The project has succeeded when** the annotated corpus answers "how does this
-word land, in this sense, against its neighbours" for the words people actually
-look up — and the measured error rate on that claim is published rather than
-assumed. The rate mattering more than the size is the whole thesis: 44% wrong at
-any scale is worth nothing.
+**The MVP has succeeded when** somebody who is not Shawn looks up a word, finds
+no connotation, reports it, and sees it annotated in the next update.
+
+**The project has succeeded when** the corpus answers "how does this word land,
+in this sense, against its neighbours" for the words people actually look up -
+and the measured error rate on that claim is published rather than assumed. That
+sentence has been the goal since 5b was first written. Until now nothing in the
+plan connected "the words people actually look up" to how words were chosen.
 
 **What does *not* count as success:** a lower census number produced by a ruler
-nobody checked (§11.74, §11.77 — two censuses lost exactly this way), or a clean
-lint run, which is a smoke alarm rather than a referee.
+nobody checked (11.74, 11.77 - two censuses lost exactly this way); a clean lint
+run, which is a smoke alarm rather than a referee; or a bigger corpus nobody
+asked for.
 
 ---
 

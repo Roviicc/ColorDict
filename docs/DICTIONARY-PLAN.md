@@ -398,6 +398,7 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-09-02 | **Tick 5: 21 families, 286 senses, 1.4% blind.** First tick with BOTH instruments verbatim and prompts identical across every family, so it is the first cleanly comparable pair with tick 4 (1.3%). A second family withheld under 5.3, caught by reading rather than by the regex. New fault class `family-inconsistent`. See 11.78 |
 | 2026-09-02 | **Tick 6: 23 families, 287 senses, 2.1% blind.** Third comparable tick (1.3 / 1.4 / 2.1). `family-inconsistent` built into `tone_lint.py` and backtested — found one historic fault in shard 12. `sensitive_screen.py` replaces the retyped regex after three misses in three ticks. Third family withheld under 5.3. See 11.79 |
 | 2026-09-02 | **Tick 7: 20 families, 280 senses, 2.5% blind.** Fourth comparable tick (1.3 / 1.4 / 2.1 / 2.5). Two of the seven faults were an importer bug, not authoring: OEWN attaches examples to the synset, so *lucid* carried *pellucid*'s example - `bad-example` finally has a cause, fixed at import, and `example_mentions` tightened from substring to word boundary. New `superlative-collision` rule in `tone_lint.py` then found six MORE faults in the same shard the census scored at 2.5%, plus eight historic. Fourth family withheld under 5.3. See 11.80 |
+| 2026-09-02 | **Selection moves to demand.** The charge gate is a proxy 11.75 measured as selecting taxonomy five times in eight; a reported miss is not. Verb screening and the noun filter are cancelled, the adjective queue is demoted to filler, and the MVP deliverable becomes users rather than senses. Reports are a local log the user exports; the release is a GitHub APK plus the web build. See 11.83 |
 
 **Current totals: 207 families, 2,506 annotated senses, 2,667 reviewed entries,
 0 validation errors. Measured error rates 1.3% / 1.4% / 2.1% (censuses 007, 008,
@@ -1962,7 +1963,123 @@ anyone chose; it is what a 5.7% gate implies, and 11.75 already measured that
 lowering the gate makes selection worse. HANDOFF now names this as a decision to
 take **before** the adjective queue empties rather than after.
 
+## 11.83 The queue was a proxy all along - demand replaces it
+
+Every stage of the run plan up to this point answered the same question with a
+guess: *which words carry connotation?* The answer was always a filter. Size
+>= 8. Charged >= 70%. Median Zipf. Section 11.75 then measured what that filter
+actually selects, and the result was uncomfortable - two independent raters
+judged **five of eight eligible families to be taxonomy rather than
+connotation**, and lowering the gate made selection worse rather than better.
+
+The filter was never improved because it cannot be. The property it is trying to
+detect - does this word do something to whatever it is aimed at - is not visible
+in family size, in a SentiWordNet charge fraction, or in corpus frequency. It is
+the thing the notes are written to describe, so a filter that could find it
+reliably would already be most of the dictionary.
+
+### What the old plan implied, written out
+
+Stages C and D drained together to roughly **6,000 annotated senses**, at which
+point the queue is empty and the method has nothing left to draw. That was never
+chosen; it is what a 5.7% gate implies. The plan named this and deferred it:
+"is ~6,000 senses the product, or does the method need a way to reach the other
+94%? Nothing in the current plan answers this."
+
+### The answer
+
+Stop selecting. Ship what exists, and let a person who looked a word up and
+found no connotation row put that word in the queue.
+
+A reported miss is not a proxy for demand - it is demand, and it carries the
+judgement the filter could not make. Somebody bothered to report *unctuous*
+because *unctuous* landed on them; nobody will report *hydrogen*. The 5.7%
+ceiling stops mattering because there is no longer a gate to be admitted through,
+and the two blocked lines unblock at the same moment: the verb screening pass
+existed to guess whether 70 families carried connotation, and the noun line was
+closed because the filter could not separate a bad thing from a loaded word.
+A human doing the selecting answers both, one word at a time, for free.
+
+### The bootstrap problem, stated rather than hidden
+
+**A demand queue beats a Zipf queue only once there is demand.** Today there is
+none - no release, no users, no report path. This is the one real cost of the
+switch and it falls entirely on the MVP: the deliverable stops being senses and
+becomes users. Until roughly 20 distinct senses have been reported, the demand
+worklist is noise and the ranked adjective queue remains the thing to draw from
+(HANDOFF Stage F).
+
+The cold-start objection that usually kills this design does not apply here.
+It normally fails because an empty dictionary reports nothing, so nobody reports.
+227 families and 2,786 senses already ship and work end to end. The seed exists;
+that is precisely why the switch is worth making now rather than after eight more
+ticks of drawing words nobody asked for.
+
+### What does not change, and why it is written down
+
+Demand changes **selection**. It does not touch the tick loop, either instrument,
+the blind read, the third-hand repair or the 5% gate. A reported word earns a
+worksheet, an author agent, a census and a repair exactly like a drawn one.
+
+This is stated explicitly because the failure mode is obvious and attractive: a
+real person is waiting for a real word, so annotate it quickly by hand and ship
+it. The audit that opened this project found **44% of hand-written notes wrong**,
+and they were wrong in the most readable way possible. A queue with a human at
+the end of it does not make the note easier to get right - it raises what it
+costs to get wrong.
+
+### Three kinds of miss, and why they must not share a bucket
+
+A "no connotation" report has three causes, and an ingest that conflates them
+fills the queue with work that cannot be done:
+
+1. **The sense exists and is unannotated.** The real queue. Reason code
+   `unannotated`.
+2. **The word is not in the dictionary at all.** A coverage problem in the
+   import, not an annotation problem. Reason code `not-found`, logged from the
+   search screen rather than the article.
+3. **The word correctly carries no connotation.** *table*, *hydrogen*, *plant*.
+   Not resolvable at report time - it is resolved once, by an annotation pass,
+   which writes the sense to `data/families/neutral-*.json`. `reports_ingest.py`
+   then marks it ineligible permanently, reusing the mechanism
+   `worklist_build.py` already has for `held-*.json`. Without this, one sense
+   gets rediscovered as neutral every time somebody new reports it.
+
+### Decisions taken
+
+- **Reports are a local, append-only log the user exports and sends.** Silent
+  telemetry would produce far more signal - it is the only option that captures
+  the misses nobody bothers to report - and it was rejected. This is an offline
+  dictionary whose README promises exactly that, and an app that phones home is
+  a different product than the one being built.
+- **The MVP ships as a GitHub Releases APK plus the web build.** Both are wired
+  already (`release.yml`, `vercel.json`), so shipping is a decision rather than a
+  project. F-Droid fits the licence and is where people who want this app look,
+  but reproducible-build review takes weeks; it is worth starting, not worth
+  waiting for.
+- **The empty state is the report button.** `dict_build.py:sense_html` currently
+  emits the `Connotations:` row only when there is something to put in it, so an
+  unannotated sense is silently indistinguishable from an unexamined one. Always
+  emitting the row - with a report link when there is no tone - turns the single
+  largest fact about this corpus (roughly 2,900 of ~114,000 entries carry the
+  layer) from an invisible gap into the input that fills it. Per 11.7 this is a
+  builder change plus a CSS class, so it reaches Android, desktop and web with no
+  app code.
+
+### What this costs
+
+The 147 ranked adjective families and the 70 screened verb families do not
+disappear; they become filler for ticks with no demand to serve. The work that is
+genuinely written off is the **verb screening triage** and the **noun selection
+filter** - both were pure selection work, and selection is the thing being
+handed to users.
+
 ## 11.71 The run plan — stages, and what stops each one
+
+> **Superseded 2026-09-02 by 11.83.** Kept as the record of what the staged plan
+> was before selection moved to demand. Stages B (verb screening) and E (the noun
+> filter) are cancelled; Stage C is demoted to fallback filler. The live plan is
+> HANDOFF section 5.
 
 Written down because the last three things that went wrong went wrong by being
 remembered instead of recorded. Each stage below has an exit condition that can
