@@ -123,6 +123,12 @@ def main():
 
     verdicts, missing = load_verdicts(args.dir)
     unread = [i for i in entries if i not in verdicts]
+    # A verdict whose id is not in the population was silently dropped before.
+    # Census 005 produced one: a reader transcribed a synset id wrong, so a
+    # sense read correctly still counted as unread while the verdict vanished.
+    # One unread sense and one stray verdict is a mistyped id; report both so
+    # the pair can be recognised instead of being written off as a short read.
+    stray = sorted(i for i in verdicts if i not in entries)
 
     tally = Counter()
     faults = Counter()
@@ -180,6 +186,7 @@ def main():
         "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
         "missing_packets": missing,
         "unread": unread,
+        "verdicts_for_unknown_ids": stray,
         "faults": dict(faults.most_common()),
         "by_part_of_speech": {k: split(v) for k, v in sorted(by_pos.items())},
         # Key name kept verbatim so census 002's published results still
@@ -196,6 +203,11 @@ def main():
           f"wrong {tally['wrong']}  unsure {tally['unsure']}  -> {rate}% (threshold 5.0%)")
     if missing:
         print(f"MISSING packets: {missing}")
+    if stray:
+        print(f"VERDICTS for ids not in the population: {stray}")
+    if unread and stray:
+        print("  ^ one unread sense alongside one stray verdict usually means a "
+              "mistyped id, not a missed read - check before accepting the count.")
     print()
     for name, counter in sorted(by_history.items()):
         s = split(counter)

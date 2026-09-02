@@ -1,0 +1,612 @@
+{
+ "packet": 1,
+ "count": 47,
+ "entries": [
+  {
+   "id": "advantageous.oewn-00064738-a",
+   "word": "advantageous",
+   "definition": "giving an advantage",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Cool, calculating approval — it rates a thing by the edge it hands you and says nothing about whether that edge is deserved or does any good.",
+   "usage_labels": [],
+   "examples": [
+    "a contract advantageous to our country",
+    "socially advantageous to entertain often"
+   ]
+  },
+  {
+   "id": "beneficial.oewn-00065107-s",
+   "word": "beneficial",
+   "definition": "promoting or enhancing well-being",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and firmly approving — it credits the thing with actually improving matters, where *advantageous* only counts the edge gained.",
+   "usage_labels": [],
+   "examples": [
+    "an arms limitation agreement beneficial to all countries",
+    "the beneficial effects of a temperate climate"
+   ]
+  },
+  {
+   "id": "discriminatory.oewn-00065504-s",
+   "word": "discriminatory",
+   "definition": "manifesting partiality",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Accusatory where its neighbours approve — it treats the partiality itself as the offence rather than as a favour worth having.",
+   "usage_labels": [],
+   "examples": [
+    "a discriminatory tax"
+   ]
+  },
+  {
+   "id": "favorable.oewn-00064738-a",
+   "word": "favorable",
+   "definition": "giving an advantage",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warmer than *advantageous*: the advantage reads as conditions tilting your way rather than as an edge coldly reckoned up.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "favourable.oewn-00064738-a",
+   "word": "favourable",
+   "definition": "giving an advantage",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The British spelling of *favorable*, carrying the identical tilt-in-your-favour approval with no shift in force.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "good.oewn-00065107-s",
+   "word": "good",
+   "definition": "promoting or enhancing well-being",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same claim as *beneficial* stripped of its formality, asserting the benefit flatly instead of arguing for it.",
+   "usage_labels": [],
+   "examples": [
+    "the experience was good for her"
+   ]
+  },
+  {
+   "id": "plus.oewn-00065384-s",
+   "word": "plus",
+   "definition": "involving advantage or good",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Brisk and informal — it books a thing on the credit side without pausing to weigh how much good is in it.",
+   "usage_labels": [],
+   "examples": [
+    "a plus (or positive) factor"
+   ]
+  },
+  {
+   "id": "positive.oewn-00065384-s",
+   "word": "positive",
+   "definition": "involving advantage or good",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Broad and unemphatic approval that places a thing on the good side without naming the advantage, where *beneficial* names it.",
+   "usage_labels": [],
+   "examples": [
+    "a plus (or positive) factor"
+   ]
+  },
+  {
+   "id": "preferential.oewn-00065504-s",
+   "word": "preferential",
+   "definition": "manifesting partiality",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and administrative: it records that partiality is in play and leaves untouched the question *discriminatory* settles against it.",
+   "usage_labels": [],
+   "examples": [
+    "preferential tariff rates",
+    "preferential treatment",
+    "a preferential shop gives priority or advantage to union members in hiring or promoting"
+   ]
+  },
+  {
+   "id": "broad-minded.oewn-00287444-a",
+   "word": "broad-minded",
+   "definition": "inclined to respect views and beliefs that differ from your own",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warm, unhedged praise for a settled disposition, crediting respect for the differing view rather than the bare patience *tolerant* stops at.",
+   "usage_labels": [],
+   "examples": [
+    "a judge who is broad-minded but even-handed"
+   ]
+  },
+  {
+   "id": "broad.oewn-00287703-s",
+   "word": "broad",
+   "definition": "showing or characterized by broad-mindedness",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Understated almost to neutrality — the same approval as *broad-minded* with the force stripped out of it.",
+   "usage_labels": [],
+   "examples": [
+    "a broad political stance",
+    "generous and broad sympathies"
+   ]
+  },
+  {
+   "id": "catholic.oewn-00287994-s",
+   "word": "catholic",
+   "definition": "free from provincial prejudices or attachments",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and elevated, praising a sweep wide enough that no narrow attachment survives it.",
+   "usage_labels": [],
+   "examples": [
+    "catholic in one's tastes"
+   ]
+  },
+  {
+   "id": "free-thinking.oewn-00288141-s",
+   "word": "free-thinking",
+   "definition": "unwilling to accept authority or dogma (especially in religion)",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise with defiance in it — the openness is a refusal of dogma, not the mild receptiveness of *open-minded*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "large-minded.oewn-00287703-s",
+   "word": "large-minded",
+   "definition": "showing or characterized by broad-mindedness",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Sounds a note of magnanimity, as though the openness were generosity of spirit and not merely fairness.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "latitudinarian.oewn-00288141-s",
+   "word": "latitudinarian",
+   "definition": "unwilling to accept authority or dogma (especially in religion)",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Bookish and clinical, naming the position where *free-thinking* cheers for it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "liberal.oewn-00287703-s",
+   "word": "liberal",
+   "definition": "showing or characterized by broad-mindedness",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most expansive term here, praising openness as a governing principle rather than a reaction to any particular view.",
+   "usage_labels": [],
+   "examples": [
+    "a liberal newspaper"
+   ]
+  },
+  {
+   "id": "open-minded.oewn-00288364-s",
+   "word": "open-minded",
+   "definition": "ready to entertain new ideas",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Plain and unpretentious, asking no more than a willingness to hear the new idea out.",
+   "usage_labels": [],
+   "examples": [
+    "an open-minded curiosity",
+    "open-minded impartiality"
+   ]
+  },
+  {
+   "id": "tolerant.oewn-00287703-s",
+   "word": "tolerant",
+   "definition": "showing or characterized by broad-mindedness",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The coolest praise in the set — it credits forbearance, granting a view room instead of welcoming it.",
+   "usage_labels": [],
+   "examples": [
+    "tolerant of his opponent's opinions"
+   ]
+  },
+  {
+   "id": "undogmatic.oewn-00288141-s",
+   "word": "undogmatic",
+   "definition": "unwilling to accept authority or dogma (especially in religion)",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Defined by what it withholds, measuring out its approval as an absence of rigidity rather than any positive warmth.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "undogmatical.oewn-00288141-s",
+   "word": "undogmatical",
+   "definition": "unwilling to accept authority or dogma (especially in religion)",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The longer, stiffer twin of *undogmatic*, its extra syllable pulling it further from anything conversational.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "assured.oewn-00340055-s",
+   "word": "assured",
+   "definition": "marked by assurance; exhibiting confidence",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Shifts from the inner state to the visible one, crediting a confidence you can see in the bearing where *confident* merely records it.",
+   "usage_labels": [],
+   "examples": [
+    "she paints with an assured hand"
+   ]
+  },
+  {
+   "id": "cocksure.oewn-00340186-s",
+   "word": "cocksure",
+   "definition": "marked by excessive confidence",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Jeering and informal - the excess is not diagnosed but mocked, a swagger the word refuses to take seriously beside the flat *overconfident*.",
+   "usage_labels": [],
+   "examples": [
+    "an arrogant and cocksure materialist"
+   ]
+  },
+  {
+   "id": "confident.oewn-00339715-a",
+   "word": "confident",
+   "definition": "having or marked by confidence or assurance",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain baseline of the family, reporting that the assurance is there without passing any verdict on whether it is warranted.",
+   "usage_labels": [],
+   "examples": [
+    "a confident speaker",
+    "a confident reply",
+    "his manner is more confident these days",
+    "confident of fulfillment"
+   ]
+  },
+  {
+   "id": "overconfident.oewn-00340186-s",
+   "word": "overconfident",
+   "definition": "marked by excessive confidence",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The straight clinical name for the fault, marking the confidence as more than warranted and leaving the derision to *cocksure*.",
+   "usage_labels": [],
+   "examples": [
+    "so overconfident and impudent as to speak to the queen"
+   ]
+  },
+  {
+   "id": "positive.oewn-00340186-s",
+   "word": "positive",
+   "definition": "marked by excessive confidence",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The mildest carrier of that same excess, an everyday word that lets the overreach register as a shrug rather than an accusation.",
+   "usage_labels": [],
+   "examples": [
+    "the less he knows, the more positive he gets"
+   ]
+  },
+  {
+   "id": "reassured.oewn-00340497-s",
+   "word": "reassured",
+   "definition": "having confidence restored; freed from anxiety",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Confidence handed back rather than held all along - the settled calm of anxiety lifted, where the rest of the family says nothing about anything having been shaken.",
+   "usage_labels": [],
+   "examples": [
+    "reassured by her praise he pressed on"
+   ]
+  },
+  {
+   "id": "self-assured.oewn-00340640-s",
+   "word": "self-assured",
+   "definition": "showing poise and confidence in your own worth",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Turns the poise inward onto one's own worth and lets it show as composure, steadier-sounding than the bare *confident*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "self-confident.oewn-00340640-s",
+   "word": "self-confident",
+   "definition": "showing poise and confidence in your own worth",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plainest label for that same belief in one's own worth, stating it where *self-assured* leans on the outward steadiness.",
+   "usage_labels": [],
+   "examples": [
+    "hardly more than a boy but firm-knit and self-confident"
+   ]
+  },
+  {
+   "id": "approximate.oewn-00453905-s",
+   "word": "approximate",
+   "definition": "very close in resemblance",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Measuring and cool - it rates a resemblance as very close while stopping short of calling it the same thing.",
+   "usage_labels": [],
+   "examples": [
+    "sketched in an approximate likeness"
+   ]
+  },
+  {
+   "id": "boon.oewn-00454053-s",
+   "word": "boon",
+   "definition": "very close and convivial",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warm and a little grand - closeness with good cheer inside it, heartier than the merely matey *chummy*.",
+   "usage_labels": [],
+   "examples": [
+    "boon companions"
+   ]
+  },
+  {
+   "id": "buddy-buddy.oewn-00454147-s",
+   "word": "buddy-buddy",
+   "definition": "(used informally) associated on close terms",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The doubled informal form makes the closeness emphatic and knowing where *chummy* keeps it mild.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "chummy.oewn-00454147-s",
+   "word": "chummy",
+   "definition": "(used informally) associated on close terms",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal and light - friendly association on easy terms, without the depth *intimate* claims.",
+   "usage_labels": [],
+   "examples": [
+    "the bartender was chummy with the regular customers"
+   ]
+  },
+  {
+   "id": "close-knit.oewn-00454440-s",
+   "word": "close-knit",
+   "definition": "held together as by social or cultural ties",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving of cohesion - the bond is what holds people together, structural where *dear* is personal.",
+   "usage_labels": [],
+   "examples": [
+    "a close-knit family",
+    "close-knit little villages"
+   ]
+  },
+  {
+   "id": "close.oewn-00453543-a",
+   "word": "close",
+   "definition": "close in relevance or relationship",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain measure of nearness in relevance or relationship, stating the proximity without the warmth or the suspicion the rest of the set add.",
+   "usage_labels": [],
+   "examples": [
+    "a close family",
+    "we are all … in close sympathy with …",
+    "close kin",
+    "a close resemblance"
+   ]
+  },
+  {
+   "id": "closely_knit.oewn-00454440-s",
+   "word": "closely knit",
+   "definition": "held together as by social or cultural ties",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The open form spells the binding out and reads more deliberate and descriptive than the compact *close-knit*.",
+   "usage_labels": [],
+   "examples": [
+    "the group was closely knit"
+   ]
+  },
+  {
+   "id": "confidential.oewn-00454638-s",
+   "word": "confidential",
+   "definition": "denoting confidence or intimacy",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Closeness figured as trust - what passes inside it is entrusted, where *chummy* is merely companionable.",
+   "usage_labels": [],
+   "examples": [
+    "a confidential approach",
+    "in confidential tone of voice"
+   ]
+  },
+  {
+   "id": "cosy.oewn-00454806-s",
+   "word": "cosy",
+   "definition": "suggesting connivance",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The British spelling carrying the same imputation of connivance, warmth named in order to be distrusted.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "cozy.oewn-00454806-s",
+   "word": "cozy",
+   "definition": "suggesting connivance",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Insinuating - the closeness is treated as connivance, so the snugness of the word becomes the accusation.",
+   "usage_labels": [],
+   "examples": [
+    "a cozy arrangement with the police"
+   ]
+  },
+  {
+   "id": "dear.oewn-00454916-s",
+   "word": "dear",
+   "definition": "with or in a close or intimate relationship",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Affectionate and avowed - the close relationship is felt as fondness, where *thick* merely reports the association.",
+   "usage_labels": [],
+   "examples": [
+    "my sisters and brothers are near and dear"
+   ]
+  },
+  {
+   "id": "familiar.oewn-00455086-s",
+   "word": "familiar",
+   "definition": "having mutual interests or affections; of established friendship",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Closeness worn as ease - an established friendship that needs no ceremony, less ardent than *intimate*.",
+   "usage_labels": [],
+   "examples": [
+    "on familiar terms"
+   ]
+  },
+  {
+   "id": "good.oewn-00454916-s",
+   "word": "good",
+   "definition": "with or in a close or intimate relationship",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Plain and understated for the same close relationship - it vouches for the bond rather than professing feeling as *dear* does.",
+   "usage_labels": [],
+   "examples": [
+    "a good friend"
+   ]
+  },
+  {
+   "id": "intimate.oewn-00455086-s",
+   "word": "intimate",
+   "definition": "having mutual interests or affections; of established friendship",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The strongest claim in the set - mutual affection and settled friendship, closer and more private than *familiar*.",
+   "usage_labels": [],
+   "examples": [
+    "pretending she is on an intimate footing with those she slanders"
+   ]
+  },
+  {
+   "id": "near.oewn-00453905-s",
+   "word": "near",
+   "definition": "very close in resemblance",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Blunter than *approximate* for the same degree of resemblance - it asserts the likeness flatly instead of hedging it.",
+   "usage_labels": [],
+   "examples": [
+    "a near likeness"
+   ]
+  },
+  {
+   "id": "thick.oewn-00454147-s",
+   "word": "thick",
+   "definition": "(used informally) associated on close terms",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Blunt informal shorthand for being closely associated, reporting the tie without the warmth *chummy* supplies.",
+   "usage_labels": [],
+   "examples": [
+    "the two were thick as thieves for months"
+   ]
+  },
+  {
+   "id": "bad.oewn-00480301-s",
+   "word": "bad",
+   "definition": "feeling physical discomfort or pain (‘tough’ is occasionally used colloquially for ‘bad’)",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt and unspecific about the body feeling wrong, naming neither the site nor the sharpness of what is felt.",
+   "usage_labels": [],
+   "examples": [
+    "my throat feels bad",
+    "she felt bad all over"
+   ]
+  },
+  {
+   "id": "comfortless.oewn-00480580-s",
+   "word": "comfortless",
+   "definition": "without comfort",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "States a lack rather than a hurt — the bleakness sits in what is missing, which makes it colder than *uncomfortable*.",
+   "usage_labels": [],
+   "examples": [
+    "a comfortless room"
+   ]
+  },
+  {
+   "id": "irritating.oewn-00480675-s",
+   "word": "irritating",
+   "definition": "causing physical discomfort",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Points at discomfort that nags and chafes, a lower-grade complaint than *painful* though the two name the same effect.",
+   "usage_labels": [],
+   "examples": [
+    "bites of black flies are more than irritating: they can be very painful"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,604 @@
+{
+ "packet": 2,
+ "count": 47,
+ "entries": [
+  {
+   "id": "miserable.oewn-00480862-s",
+   "word": "miserable",
+   "definition": "characterized by physical misery",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Gathers the discomfort into a whole bodily condition instead of a single sensation, so it reads as total rather than local.",
+   "usage_labels": [],
+   "examples": [
+    "a wet miserable weekend"
+   ]
+  },
+  {
+   "id": "painful.oewn-00480675-s",
+   "word": "painful",
+   "definition": "causing physical discomfort",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The heavier word for that same effect, putting the discomfort on the scale of hurt rather than annoyance.",
+   "usage_labels": [],
+   "examples": [
+    "bites of black flies are more than irritating: they can be very painful"
+   ]
+  },
+  {
+   "id": "tough.oewn-00480301-s",
+   "word": "tough",
+   "definition": "feeling physical discomfort or pain (‘tough’ is occasionally used colloquially for ‘bad’)",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The colloquial counterpart to *bad*, looser and more offhand about the same felt discomfort.",
+   "usage_labels": [],
+   "examples": [
+    "he was feeling tough after a restless night"
+   ]
+  },
+  {
+   "id": "uncomfortable.oewn-00480005-a",
+   "word": "uncomfortable",
+   "definition": "providing or experiencing physical discomfort",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain cover term, working equally for the thing that gives the discomfort and the body that feels it, which is what keeps it so flat.",
+   "usage_labels": [],
+   "examples": [
+    "an uncomfortable chair",
+    "an uncomfortable day in the hot sun"
+   ]
+  },
+  {
+   "id": "uneasy.oewn-00481063-s",
+   "word": "uneasy",
+   "definition": "relating to bodily unease that causes discomfort",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The faintest of these: a bodily unsettledness that has not hardened into pain, more a hint than a hurt.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "warm.oewn-00481182-s",
+   "word": "warm",
+   "definition": "uncomfortable because of possible danger or trouble",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Locates the discomfort in looming danger or trouble rather than in the flesh, and its mildness is exactly what makes it sound like a warning.",
+   "usage_labels": [],
+   "examples": [
+    "made things warm for the bookies"
+   ]
+  },
+  {
+   "id": "wretched.oewn-00480862-s",
+   "word": "wretched",
+   "definition": "characterized by physical misery",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A degree past *miserable* on the same misery — abject, with no dignity left to the body it describes.",
+   "usage_labels": [],
+   "examples": [
+    "spent a wretched night on the floor"
+   ]
+  },
+  {
+   "id": "demanding.oewn-00713705-a",
+   "word": "demanding",
+   "definition": "requiring more than usually expected or thought due; especially great patience and effort and skill",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Plain and unheated - it names the size of what is asked without ruling on whether asking it is fair, where *hard-to-please* has already convicted someone.",
+   "usage_labels": [],
+   "examples": [
+    "found the job very demanding",
+    "a baby can be so demanding"
+   ]
+  },
+  {
+   "id": "exacting.oewn-00714030-s",
+   "word": "exacting",
+   "definition": "requiring precise accuracy",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts the weight on the standard itself, so the precision reads as a measure to be met rather than a temper to be humoured.",
+   "usage_labels": [],
+   "examples": [
+    "an exacting job"
+   ]
+  },
+  {
+   "id": "exigent.oewn-00714030-s",
+   "word": "exigent",
+   "definition": "requiring precise accuracy",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The formal, cool-surfaced twin of *exacting* - the same insistence on precision, pitched at a distance.",
+   "usage_labels": [],
+   "examples": [
+    "became more exigent over his pronunciation"
+   ]
+  },
+  {
+   "id": "hard-to-please.oewn-00714186-s",
+   "word": "hard-to-please",
+   "definition": "(of persons) fussy and demanding",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Disparaging - the fussiness makes the demand a flaw in the person, which *exacting* never does.",
+   "usage_labels": [],
+   "examples": [
+    "his father was a hard-to-please taskmaster"
+   ]
+  },
+  {
+   "id": "hard_to_please.oewn-00714186-s",
+   "word": "hard to please",
+   "definition": "(of persons) fussy and demanding",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The open spelling carries the same verdict but reads as a running remark about someone rather than a label fixed to them.",
+   "usage_labels": [],
+   "examples": [
+    "was very hard to please"
+   ]
+  },
+  {
+   "id": "needy.oewn-00714375-s",
+   "word": "needy",
+   "definition": "demanding or needing attention, affection, or reassurance to an excessive degree",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Belittling and intimate - the excess is emotional appetite, and the word tips toward pity where *hard-to-please* stays at irritation.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "rigorous.oewn-00714525-s",
+   "word": "rigorous",
+   "definition": "demanding strict attention to rules and procedures",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving - the strictness registers as discipline worth having, where *tight* only pinches.",
+   "usage_labels": [],
+   "examples": [
+    "rigorous discipline"
+   ]
+  },
+  {
+   "id": "stern.oewn-00714774-s",
+   "word": "stern",
+   "definition": "severe and unremitting in making demands",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Adds a forbidding manner to the severity - the unrelenting demand arrives with a chill that *strict* does not carry.",
+   "usage_labels": [],
+   "examples": [
+    "a stern disciplinarian"
+   ]
+  },
+  {
+   "id": "strict.oewn-00714774-s",
+   "word": "strict",
+   "definition": "severe and unremitting in making demands",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flat word for the same unrelenting severity, stating it without colouring it as harshness.",
+   "usage_labels": [],
+   "examples": [
+    "strict standards"
+   ]
+  },
+  {
+   "id": "stringent.oewn-00714525-s",
+   "word": "stringent",
+   "definition": "demanding strict attention to rules and procedures",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Cool and administrative, stating how tightly the rules bind without either praising or resenting the binding.",
+   "usage_labels": [],
+   "examples": [
+    "stringent safety measures"
+   ]
+  },
+  {
+   "id": "tight.oewn-00714525-s",
+   "word": "tight",
+   "definition": "demanding strict attention to rules and procedures",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The informal one, and the constriction is felt - the rules squeeze rather than uphold anything.",
+   "usage_labels": [],
+   "examples": [
+    "tight security"
+   ]
+  },
+  {
+   "id": "coveted.oewn-00736828-s",
+   "word": "coveted",
+   "definition": "much wanted",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Loads the wanting with hunger, so the thing is not merely worth having but longed for hard, far greedier than the flat *in demand*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "delectable.oewn-00736942-s",
+   "word": "delectable",
+   "definition": "capable of arousing sexual desire",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Relishing rather than clinical, it savours the desire the thing arouses where *sexually attractive* merely reports it.",
+   "usage_labels": [],
+   "examples": [
+    "the delectable Miss Haynes"
+   ]
+  },
+  {
+   "id": "desirable.oewn-00736491-a",
+   "word": "desirable",
+   "definition": "worth having or seeking or achieving",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The measured, unheated verdict — it says a thing is worth having without claiming anyone is straining after it, which is what *coveted* adds.",
+   "usage_labels": [],
+   "examples": [
+    "a desirable job",
+    "computer with many desirable features",
+    "a desirable outcome"
+   ]
+  },
+  {
+   "id": "enviable.oewn-00737084-s",
+   "word": "enviable",
+   "definition": "causing envy",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praises a thing by pointing at the sourness it stirs in whoever lacks it, so the approval arrives through someone else's discontent.",
+   "usage_labels": [],
+   "examples": [
+    "an enviable position"
+   ]
+  },
+  {
+   "id": "in_demand.oewn-00736828-s",
+   "word": "in demand",
+   "definition": "much wanted",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "States much-wantedness as a plain fact about a thing's standing, with none of the appetite audible in *coveted*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "plummy.oewn-00737175-s",
+   "word": "plummy",
+   "definition": "very desirable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal and relishing, it heaps the desirability higher than the sober *desirable* and sounds pleased with itself for saying so.",
+   "usage_labels": [],
+   "examples": [
+    "a plummy leading role"
+   ]
+  },
+  {
+   "id": "preferable.oewn-00737286-s",
+   "word": "preferable",
+   "definition": "more desirable than another",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A comparative and nothing more — it rates one thing above another without claiming either is wanted much at all.",
+   "usage_labels": [],
+   "examples": [
+    "coffee is preferable to tea"
+   ]
+  },
+  {
+   "id": "preferred.oewn-00737286-s",
+   "word": "preferred",
+   "definition": "more desirable than another",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Settles the comparison that *preferable* is still arguing, presenting the ranking as already decided rather than urged.",
+   "usage_labels": [],
+   "examples": [
+    "Danny's preferred name is ‘Dan’"
+   ]
+  },
+  {
+   "id": "sexually_attractive.oewn-00736942-s",
+   "word": "sexually attractive",
+   "definition": "capable of arousing sexual desire",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Flat and explicit, naming the arousal outright without a trace of the relish in *delectable*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sought-after.oewn-00736828-s",
+   "word": "sought-after",
+   "definition": "much wanted",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The hyphen compresses that same pursuit into a single modifier that can sit in front of the noun it flatters.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sought_after.oewn-00736828-s",
+   "word": "sought after",
+   "definition": "much wanted",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Puts the wanting into motion — the thing is actively pursued, where *in demand* leaves it a standing condition.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "ambitious.oewn-00749254-s",
+   "word": "ambitious",
+   "definition": "requiring full use of your abilities or resources",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving - it treats the full call on your abilities and resources as a reach worth making rather than a weight to be borne.",
+   "usage_labels": [],
+   "examples": [
+    "ambitious schedule"
+   ]
+  },
+  {
+   "id": "arduous.oewn-00749470-s",
+   "word": "arduous",
+   "definition": "difficult to accomplish; demanding considerable mental effort and skill",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and weighty - it dwells on the sustained mental effort and skill the thing exacts before it will be accomplished, heavier in the mouth than *hard*.",
+   "usage_labels": [],
+   "examples": [
+    "the arduous work of preparing a dictionary"
+   ]
+  },
+  {
+   "id": "awkward.oewn-00749659-s",
+   "word": "awkward",
+   "definition": "hard to deal with; especially causing pain or embarrassment",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Mildly disapproving - the difficulty sits in the handling, since any move you make risks the pain or embarrassment the thing carries.",
+   "usage_labels": [],
+   "examples": [
+    "awkward (or embarrassing or difficult) moments in the discussion",
+    "an awkward pause followed his remark"
+   ]
+  },
+  {
+   "id": "baffling.oewn-00750063-s",
+   "word": "baffling",
+   "definition": "making great mental demands; hard to comprehend or solve or believe",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts the great mental demand where understanding fails - the thing does not merely resist solution, it leaves you at a loss.",
+   "usage_labels": [],
+   "examples": [
+    "a baffling problem"
+   ]
+  },
+  {
+   "id": "catchy.oewn-00750431-s",
+   "word": "catchy",
+   "definition": "having concealed difficulty",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Warns of a snare - the difficulty is concealed until you are into it, so the word marks the thing as harder than it lets on.",
+   "usage_labels": [],
+   "examples": [
+    "a catchy question"
+   ]
+  },
+  {
+   "id": "challenging.oewn-00749254-s",
+   "word": "challenging",
+   "definition": "requiring full use of your abilities or resources",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Turns that same full call on everything you have into an invitation to rise to it, so the demand reads as a spur where *problematic* reads as a fault.",
+   "usage_labels": [],
+   "examples": [
+    "performed the most challenging task without a mistake"
+   ]
+  },
+  {
+   "id": "difficult.oewn-00748528-a",
+   "word": "difficult",
+   "definition": "not easy; requiring great physical or mental effort to accomplish or comprehend or endure",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and unemotive - it registers that effort is required to do, grasp or bear the thing, without hinting whether that effort is worth spending, as *challenging* does.",
+   "usage_labels": [],
+   "examples": [
+    "a difficult task",
+    "nesting places on the cliffs are difficult of access",
+    "difficult times"
+   ]
+  },
+  {
+   "id": "elusive.oewn-00750063-s",
+   "word": "elusive",
+   "definition": "making great mental demands; hard to comprehend or solve or believe",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The difficulty is in the slipping away: comprehension seems within reach and will not close on it, unlike the frank obstruction of *knotty*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "embarrassing.oewn-00749659-s",
+   "word": "embarrassing",
+   "definition": "hard to deal with; especially causing pain or embarrassment",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the discomfort squarely on the face of whoever has to deal with it, naming the exposure that *awkward* leaves implied.",
+   "usage_labels": [],
+   "examples": [
+    "awkward (or embarrassing or difficult) moments in the discussion"
+   ]
+  },
+  {
+   "id": "hard.oewn-00748528-a",
+   "word": "hard",
+   "definition": "not easy; requiring great physical or mental effort to accomplish or comprehend or endure",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The blunt, plain-spoken version of *difficult* for the same demand, taking effort of body, mind or endurance as it comes and softening none of it.",
+   "usage_labels": [],
+   "examples": [
+    "why is it so hard for you to keep a secret?"
+   ]
+  },
+  {
+   "id": "knotty.oewn-00750063-s",
+   "word": "knotty",
+   "definition": "making great mental demands; hard to comprehend or solve or believe",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Gives the mental demand a shape - a tangle to be picked apart strand by strand, rather than the blank wall of *baffling*.",
+   "usage_labels": [],
+   "examples": [
+    "I faced the knotty problem of what to have for breakfast"
+   ]
+  },
+  {
+   "id": "problematic.oewn-00750063-s",
+   "word": "problematic",
+   "definition": "making great mental demands; hard to comprehend or solve or believe",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Labels the demanding thing a problem outright, a mild verdict against it where *tough* only reports the demand.",
+   "usage_labels": [],
+   "examples": [
+    "a problematic situation at home"
+   ]
+  },
+  {
+   "id": "problematical.oewn-00750063-s",
+   "word": "problematical",
+   "definition": "making great mental demands; hard to comprehend or solve or believe",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Stiffer and more formal than *problematic* for the same verdict, its extra syllable adding weight rather than force.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sticky.oewn-00749659-s",
+   "word": "sticky",
+   "definition": "hard to deal with; especially causing pain or embarrassment",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal - it makes the trouble something you are caught in and cannot step cleanly out of, lighter in tone than *unenviable* and no easier to escape.",
+   "usage_labels": [],
+   "examples": [
+    "a sticky question"
+   ]
+  },
+  {
+   "id": "tough.oewn-00750063-s",
+   "word": "tough",
+   "definition": "making great mental demands; hard to comprehend or solve or believe",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Informal and almost respectful of the difficulty - it sizes up the mental demand as something to be taken on and says nothing against it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unenviable.oewn-00749659-s",
+   "word": "unenviable",
+   "definition": "hard to deal with; especially causing pain or embarrassment",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "An understated verdict that condemns by observation - the thing is framed as unwished-for, and the word damns it without raising its voice.",
+   "usage_labels": [],
+   "examples": [
+    "in the unenviable position of resorting to an act he had planned to save for the climax of the campaign"
+   ]
+  },
+  {
+   "id": "absent.oewn-00931073-s",
+   "word": "absent",
+   "definition": "nonexistent",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Neutral and faintly formal, stating the nonexistence with none of the note of shortfall in *lacking*.",
+   "usage_labels": [],
+   "examples": [
+    "the thumb is absent"
+   ]
+  },
+  {
+   "id": "barren.oewn-00931219-s",
+   "word": "barren",
+   "definition": "completely wanting or lacking",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Bleak - the total lack is a desolate condition rather than the cool fact *devoid* states.",
+   "usage_labels": [],
+   "examples": [
+    "writing barren of insight"
+   ]
+  }
+ ]
+}

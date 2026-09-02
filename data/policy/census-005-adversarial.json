@@ -1,0 +1,558 @@
+{
+ "sample": "census-005-adversarial",
+ "scope": "40 senses drawn at random (seed 20260902) from census 005, re-read under the census-003/004 reader rubric - the version WITHOUT the 'What is NOT a fault' section - to test whether that section caused the 0.0%",
+ "population": 40,
+ "drawn": 40,
+ "entries": [
+  {
+   "id": "sophisticated.oewn-01336561-s",
+   "word": "sophisticated",
+   "definition": "intellectually appealing",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The warmest of these - it treats appeal to the intellect as refinement rather than plain substance.",
+   "usage_labels": [],
+   "examples": [
+    "a sophisticated drama"
+   ],
+   "family": "family-01335338-a"
+  },
+  {
+   "id": "palpable.oewn-01622528-s",
+   "word": "palpable",
+   "definition": "clearly revealed to the mind or the senses or judgment",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Pushes the showing towards touch, so the thing is felt as much as seen — heavier in the hand than *apparent*.",
+   "usage_labels": [],
+   "examples": [
+    "a palpable lie"
+   ],
+   "family": "family-01622205-a"
+  },
+  {
+   "id": "broad.oewn-00287703-s",
+   "word": "broad",
+   "definition": "showing or characterized by broad-mindedness",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Understated almost to neutrality — the same approval as *broad-minded* with the force stripped out of it.",
+   "usage_labels": [],
+   "examples": [
+    "a broad political stance",
+    "generous and broad sympathies"
+   ],
+   "family": "family-00287444-a"
+  },
+  {
+   "id": "comfortless.oewn-00480580-s",
+   "word": "comfortless",
+   "definition": "without comfort",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "States a lack rather than a hurt — the bleakness sits in what is missing, which makes it colder than *uncomfortable*.",
+   "usage_labels": [],
+   "examples": [
+    "a comfortless room"
+   ],
+   "family": "family-00480005-a"
+  },
+  {
+   "id": "responsible.oewn-02474578-s",
+   "word": "responsible",
+   "definition": "having an acceptable credit rating",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A quiet nod at financial standing, softer and less procedural-sounding than *creditworthy* though it settles the same question.",
+   "usage_labels": [],
+   "examples": [
+    "a responsible borrower"
+   ],
+   "family": "family-02473921-a"
+  },
+  {
+   "id": "evident.oewn-01622528-s",
+   "word": "evident",
+   "definition": "clearly revealed to the mind or the senses or judgment",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Plain and unemphatic: the thing is simply there to be seen, with none of the display *manifest* makes of it.",
+   "usage_labels": [],
+   "examples": [
+    "evident hostility"
+   ],
+   "family": "family-01622205-a"
+  },
+  {
+   "id": "preferential.oewn-00065504-s",
+   "word": "preferential",
+   "definition": "manifesting partiality",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and administrative: it records that partiality is in play and leaves untouched the question *discriminatory* settles against it.",
+   "usage_labels": [],
+   "examples": [
+    "preferential tariff rates",
+    "preferential treatment",
+    "a preferential shop gives priority or advantage to union members in hiring or promoting"
+   ],
+   "family": "family-00064738-a"
+  },
+  {
+   "id": "unconditional.oewn-01920312-s",
+   "word": "unconditional",
+   "definition": "not modified or restricted by reservations",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and absolute, it presents the missing reservations as terms deliberately not imposed rather than as *flat*'s curt refusal to entertain them.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01920096-a"
+  },
+  {
+   "id": "thinking.oewn-01932488-s",
+   "word": "thinking",
+   "definition": "endowed with the capacity to reason",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Neutral in the way *reasoning* is, marking the capacity as a plain attribute rather than a merit.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01931771-a"
+  },
+  {
+   "id": "demythologized.oewn-01932378-s",
+   "word": "demythologized",
+   "definition": "having mythical elements removed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flatly descriptive - records that the mythical element is gone without approving or regretting its removal.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01931771-a"
+  },
+  {
+   "id": "coherent.oewn-01932107-s",
+   "word": "coherent",
+   "definition": "capable of thinking and expressing yourself in a clear and consistent manner",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise at its lowest setting: the thought holds together and comes out clear, a floor cleared rather than the brightness *lucid* claims.",
+   "usage_labels": [],
+   "examples": [
+    "she was more coherent than she had been just after the accident"
+   ],
+   "family": "family-01931771-a"
+  },
+  {
+   "id": "international.oewn-01572768-a",
+   "word": "international",
+   "definition": "concerning or belonging to all or at least two or more nations",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Neutral and minimal in its demand — two nations are enough to satisfy it, where *global* asks for the whole earth.",
+   "usage_labels": [],
+   "examples": [
+    "international affairs",
+    "an international agreement",
+    "international waters"
+   ],
+   "family": "family-01572768-a"
+  },
+  {
+   "id": "trustworthy.oewn-02473921-a",
+   "word": "trustworthy",
+   "definition": "worthy of trust or belief",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain, unhedged verdict of the family - approval stated flatly, with no warmth or ceremony added to it.",
+   "usage_labels": [],
+   "examples": [
+    "a trustworthy report",
+    "an experienced and trustworthy traveling companion"
+   ],
+   "family": "family-02473921-a"
+  },
+  {
+   "id": "nonextant.oewn-00931479-s",
+   "word": "nonextant",
+   "definition": "no longer existing or inaccessible through loss or destruction",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Technical and dry - marks the thing as gone through loss or destruction and judges nothing about it.",
+   "usage_labels": [],
+   "examples": [
+    "its nonextant original was written on vellum"
+   ],
+   "family": "family-00930819-a"
+  },
+  {
+   "id": "reasoning.oewn-01932488-s",
+   "word": "reasoning",
+   "definition": "endowed with the capacity to reason",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely descriptive - states that the faculty is present and stops, extending none of the credit *intelligent* does for it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01931771-a"
+  },
+  {
+   "id": "problematic.oewn-00750063-s",
+   "word": "problematic",
+   "definition": "making great mental demands; hard to comprehend or solve or believe",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Labels the demanding thing a problem outright, a mild verdict against it where *tough* only reports the demand.",
+   "usage_labels": [],
+   "examples": [
+    "a problematic situation at home"
+   ],
+   "family": "family-00748528-a"
+  },
+  {
+   "id": "authentic.oewn-02474343-s",
+   "word": "authentic",
+   "definition": "conforming to fact and therefore worthy of belief",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The belief is earned by checking out against the facts, so the praise is for genuineness rather than for any goodwill.",
+   "usage_labels": [],
+   "examples": [
+    "an authentic account by an eyewitness"
+   ],
+   "family": "family-02473921-a"
+  },
+  {
+   "id": "demanding.oewn-00713705-a",
+   "word": "demanding",
+   "definition": "requiring more than usually expected or thought due; especially great patience and effort and skill",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Plain and unheated - it names the size of what is asked without ruling on whether asking it is fair, where *hard-to-please* has already convicted someone.",
+   "usage_labels": [],
+   "examples": [
+    "found the job very demanding",
+    "a baby can be so demanding"
+   ],
+   "family": "family-00713705-a"
+  },
+  {
+   "id": "close.oewn-00453543-a",
+   "word": "close",
+   "definition": "close in relevance or relationship",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain measure of nearness in relevance or relationship, stating the proximity without the warmth or the suspicion the rest of the set add.",
+   "usage_labels": [],
+   "examples": [
+    "a close family",
+    "we are all … in close sympathy with …",
+    "close kin",
+    "a close resemblance"
+   ],
+   "family": "family-00453543-a"
+  },
+  {
+   "id": "open-minded.oewn-00288364-s",
+   "word": "open-minded",
+   "definition": "ready to entertain new ideas",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Plain and unpretentious, asking no more than a willingness to hear the new idea out.",
+   "usage_labels": [],
+   "examples": [
+    "an open-minded curiosity",
+    "open-minded impartiality"
+   ],
+   "family": "family-00287444-a"
+  },
+  {
+   "id": "nonexistent.oewn-00930819-a",
+   "word": "nonexistent",
+   "definition": "not having existence or being or actuality",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and absolute - the thing simply has no being, without the sense in *missing* that it was expected somewhere.",
+   "usage_labels": [],
+   "examples": [
+    "chimeras are nonexistent"
+   ],
+   "family": "family-00930819-a"
+  },
+  {
+   "id": "unmistakable.oewn-01622528-s",
+   "word": "unmistakable",
+   "definition": "clearly revealed to the mind or the senses or judgment",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Works by ruling out the alternative: the thing cannot be read as anything else, a firmer guarantee than *apparent* gives.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01622205-a"
+  },
+  {
+   "id": "mean.oewn-01592194-s",
+   "word": "mean",
+   "definition": "characterized by malice",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest word for malice, stating the ill will flatly where *hateful* makes it sound monstrous.",
+   "usage_labels": [],
+   "examples": [
+    "in a mean mood"
+   ],
+   "family": "family-01591485-a"
+  },
+  {
+   "id": "open.oewn-01709214-a",
+   "word": "open",
+   "definition": "open and observable; not secret or hidden",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain everyday word for the same state, weightless where *overt* sounds like a term of art.",
+   "usage_labels": [],
+   "examples": [
+    "open ballots"
+   ],
+   "family": "family-01709214-a"
+  },
+  {
+   "id": "bald.oewn-01709541-s",
+   "word": "bald",
+   "definition": "with no effort to conceal",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt - concealment is not just absent but conspicuously unattempted, and the missing softening reads as harshness.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01709214-a"
+  },
+  {
+   "id": "adequate.oewn-02088076-s",
+   "word": "adequate",
+   "definition": "about average; acceptable",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Cool and measuring — it grants acceptability and stops there, withholding the warmth *fine* carries.",
+   "usage_labels": [],
+   "examples": [
+    "more than adequate as a secretary"
+   ],
+   "family": "family-02087716-a"
+  },
+  {
+   "id": "antitrust.oewn-00959758-s",
+   "word": "antitrust",
+   "definition": "of laws and regulations; designed to protect trade and commerce from unfair business practices",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Technical and as neutral as *antimonopoly*, marking a regulation's protective purpose rather than approving anybody's conduct.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00959321-a"
+  },
+  {
+   "id": "internationalistic.oewn-01573395-s",
+   "word": "internationalistic",
+   "definition": "influenced by or advocating internationalism",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The longer form, stiffer and more label-like than *internationalist* without adding to the stance it names.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01572768-a"
+  },
+  {
+   "id": "psychological.oewn-01785621-s",
+   "word": "psychological",
+   "definition": "mental or emotional as opposed to physical in nature",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The workaday technical term here, sorting a thing by what it is in nature rather than, as *psychogenic* does, by where it came from.",
+   "usage_labels": [],
+   "examples": [
+    "give psychological support",
+    "psychological warfare"
+   ],
+   "family": "family-01784531-a"
+  },
+  {
+   "id": "sporty.oewn-00959923-s",
+   "word": "sporty",
+   "definition": "exhibiting or calling for sportsmanship or fair play",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most casual of these, informal and light, granting the same approval with none of *sportsmanlike*'s weight.",
+   "usage_labels": [],
+   "examples": [
+    "a sporting solution of the disagreement",
+    "sportsmanlike conduct"
+   ],
+   "family": "family-00959321-a"
+  },
+  {
+   "id": "fab.oewn-01813492-s",
+   "word": "fab",
+   "definition": "extremely pleasing",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Slangy and clipped - the same top-of-the-scale praise as *fabulous*, tossed off rather than declared.",
+   "usage_labels": [],
+   "examples": [
+    "a fabulous vacation"
+   ],
+   "family": "family-01812521-a"
+  },
+  {
+   "id": "uneasy.oewn-00481063-s",
+   "word": "uneasy",
+   "definition": "relating to bodily unease that causes discomfort",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The faintest of these: a bodily unsettledness that has not hardened into pain, more a hint than a hurt.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00480005-a"
+  },
+  {
+   "id": "hunky-dory.oewn-02088253-s",
+   "word": "hunky-dory",
+   "definition": "being satisfactory or in satisfactory condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Breezy slang whose bounce overshoots the modest thing it reports — all is in order, announced as though it were a delight.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02087716-a"
+  },
+  {
+   "id": "tough.oewn-00750063-s",
+   "word": "tough",
+   "definition": "making great mental demands; hard to comprehend or solve or believe",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Informal and almost respectful of the difficulty - it sizes up the mental demand as something to be taken on and says nothing against it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00748528-a"
+  },
+  {
+   "id": "good.oewn-01813594-s",
+   "word": "good",
+   "definition": "capable of pleasing",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "All-purpose and colourless - it grants no more than the capacity to please, where *pleasing* reports pleasure actually given.",
+   "usage_labels": [],
+   "examples": [
+    "good looks"
+   ],
+   "family": "family-01812521-a"
+  },
+  {
+   "id": "elusive.oewn-00750063-s",
+   "word": "elusive",
+   "definition": "making great mental demands; hard to comprehend or solve or believe",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The difficulty is in the slipping away: comprehension seems within reach and will not close on it, unlike the frank obstruction of *knotty*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00748528-a"
+  },
+  {
+   "id": "costly.oewn-00936868-s",
+   "word": "costly",
+   "definition": "having a high price",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Weightier than *high-priced*, the price felt as a cost borne rather than a number quoted.",
+   "usage_labels": [],
+   "examples": [
+    "costly jewelry"
+   ],
+   "family": "family-00936423-a"
+  },
+  {
+   "id": "intellectual.oewn-01784888-s",
+   "word": "intellectual",
+   "definition": "of or associated with or requiring the use of the mind",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Faintly flattering, since calling something intellectual credits it with demanding real thought, where *mental* says no more than that the mind was involved.",
+   "usage_labels": [],
+   "examples": [
+    "intellectual problems"
+   ],
+   "family": "family-01784531-a"
+  },
+  {
+   "id": "loved.oewn-01464744-a",
+   "word": "loved",
+   "definition": "held dear",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain word for holding dear, stating the fact of the feeling without measuring its heat, where *adored* measures nothing else.",
+   "usage_labels": [],
+   "examples": [
+    "his loved companion of many years"
+   ],
+   "family": "family-01464744-a"
+  },
+  {
+   "id": "beneficial.oewn-00065107-s",
+   "word": "beneficial",
+   "definition": "promoting or enhancing well-being",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and firmly approving — it credits the thing with actually improving matters, where *advantageous* only counts the edge gained.",
+   "usage_labels": [],
+   "examples": [
+    "an arms limitation agreement beneficial to all countries",
+    "the beneficial effects of a temperate climate"
+   ],
+   "family": "family-00064738-a"
+  }
+ ]
+}

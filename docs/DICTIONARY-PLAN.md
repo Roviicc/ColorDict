@@ -387,11 +387,13 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-09-02 | **Shard 9 — the first drawn by the tool.** 9 families / 92 senses: ready, inaccurate, sound, accurate, fortunate, best, crucial, reliable, preserved. Median Zipf 4.45–5.06, a band above the hand-picked work. 0 notes flagged by `tone_lint.py`, the first shard to come in clean. Authored by Opus 5; the blind read is owed. See 11.62 |
 | 2026-09-02 | **Census 003: 1.1%.** Shard 9 read blind, complete population, 91/92 right. One `restriction` fault repaired and re-read clean by a third reader. `census_packets.py` now builds and keeps the reader inputs, so a census is reproducible from its inputs rather than only from its results. See 11.72 |
 | 2026-09-02 | **Tick 1: 17 families, 178 senses, 0.6% blind.** First shard authored by parallel `family-author` agents rather than one session writing serially. 0 lint flags, 1 `restriction` fault, repaired and re-read clean. The fan-out passes; the bottleneck it exposed is the orchestrator, not the authors. See 11.73 |
+| 2026-09-02 | **Tick 2: 25 families, 281 senses — and the ruler moved.** Authors wrote to disk instead of returning through the orchestrator, so a full-size tick fit in one session. The read came back 0.0%, and an adversarial re-read of 40 senses under the previous rubric found a fault it had passed. The 0.0% is withdrawn: tick 2 is under 5%, not more precisely known. See 11.74 |
 
-**Current totals: 89 families, 1,062 annotated senses, 1,214 reviewed entries,
-0 validation errors, measured error rates 3.8% / 1.1% / 0.6% (censuses 002, 003,
-004), all blind. Every annotated sense has been read by a model from a different
-family than the one that wrote it.** — including adverb senses inherited for free, and 11
+**Current totals: 114 families, 1,343 annotated senses, 1,498 reviewed entries,
+0 validation errors. Measured error rates 3.8% / 1.1% / 0.6% (censuses 002, 003,
+004), all blind; census 005 is read but its rate is withdrawn (11.74) and tick 2
+counts only as "under 5%". Every annotated sense has been read by a model from a
+different family than the one that wrote it.** — including adverb senses inherited for free, and 11
 senses deliberately left `derived` because their gloss cannot carry a
 judgement. **The validator's zero errors mean well-formed, not correct: the
 audit is the only thing that measures correct. Every claim-carrying sense has
@@ -1249,6 +1251,89 @@ glossed "of or belonging to or representative of the white middle class". The
 gloss is a claim about a racial and class group rather than about the word's
 force, so it goes to the manual queue and was never auto-drafted. Its author was
 told a member had been withheld and not to speculate about it.
+
+## 11.74 Tick 2 — the bottleneck fixed, and the ruler caught moving
+
+**25 families, 281 senses.** The read came back 281 right, 0 wrong, 0 unsure.
+**That 0.0% is withdrawn.** What tick 2 actually established is two things, one
+good and one uncomfortable.
+
+### The fix works: 25 families in one session, not 17
+
+Census 004 found the bottleneck was the orchestrator's context, not the authors,
+and named the fix: let authors write their own JSON to disk. Tick 2 did exactly
+that — each agent read the rubric and the worksheet from disk, authored its
+family, and wrote its own output file. **No family's glosses or notes passed
+through the orchestrating session at all.**
+
+The result: 25 families and 281 senses in one session against tick 1's 17 and
+178, at a fraction of the orchestrator cost, with the tick sized by the queue
+rather than by the session. `family_merge.py` collected the files and reported
+25/25 merged with no shape problems.
+
+### The uncomfortable part: the ruler moved, and nobody noticed
+
+The read returned **0.0% on 281 senses**. Censuses 002, 003 and 004 had returned
+3.8%, 1.1% and 0.6%. A fourth point at zero is the kind of result that should be
+distrusted before it is enjoyed.
+
+The reason it should be: **the reading rubric was re-typed for this run and
+gained a section the earlier runs did not have** — a "What is NOT a fault" list,
+added in good faith to stop readers flagging register labels and neighbour
+comparisons. It plausibly also made them more permissive, and nothing in the
+process caught the change, because the rubric was being retyped into each run's
+prompts rather than read from `.claude/agents/census-reader.md`.
+
+**This is 11.62's own lesson, broken one tick after it was written.** The
+instrument was put under version control and then not used.
+
+### The adversarial re-read
+
+Forty senses drawn at random from census 005 (seed 20260902), re-read under the
+census-003/004 rubric, by a reader told the notes had passed a read that found
+nothing and asked to establish whether that was soundness or leniency.
+
+**39 right, 1 wrong — 2.5%.**
+
+The fault it found is a fair one. *intellectual*, glossed "of or associated with
+or requiring the use of the mind", was given a positive charge and noted as
+"faintly flattering... credits it with demanding real thought". The gloss is
+relational and carries no judgement; the note singled out the word *requiring*
+and inflated it into praise. `wrong-charge`. Repaired to charge 0 with the note
+naming the domain rather than praising the work, and re-read clean by a further
+reader.
+
+So tick 2's honest position: **under the 5% gate on either reading, but its rate
+is not known more precisely than that.** One fault in forty is a wide interval;
+zero in 281 is an instrument artefact. The corpus is fine; the measurement is
+not, and the results file says so rather than carrying a number that flatters.
+
+### What changed as a result
+
+`census-reader.md` now opens with an instruction to use it verbatim — not
+paraphrase it, not re-type it, not extend it for a run — with the reason stated,
+so the next person to improve a rubric mid-run has to do it in the file and
+declare a new baseline.
+
+`census2_aggregate.py` gained a second guard. Tick 2's read came back 280/281
+with one sense unread, which looks like a dropped read and was not: a reader had
+transcribed a synset id wrong, so a sense that *was* read counted as unread while
+its verdict vanished into a silent drop. The aggregator now reports verdicts for
+ids that are not in the population, and points out that one unread sense
+alongside one stray verdict is usually a mistyped id. The id was corrected, the
+verdict and its reasoning left untouched, and the correction recorded in the
+verdict file itself.
+
+Both of those were invisible until the packets were kept on disk (11.72). A
+census that throws its inputs away cannot notice either.
+
+### One family withheld
+
+*deaf* (11 senses) was pulled from automated authoring under 5.3 and written to
+`data/families/held-5.3-deaf.json`. The family includes *deaf-and-dumb* and
+*deaf-mute*, and deciding which of those words demeans and which does not **is**
+the sensitive judgement — exactly the kind 5.3 reserves for a person. It was
+never auto-drafted.
 
 ## 11.71 The run plan — stages, and what stops each one
 

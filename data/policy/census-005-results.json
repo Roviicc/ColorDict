@@ -1,0 +1,37 @@
+{
+ "sample": "census-005",
+ "seed": null,
+ "population": 281,
+ "read": 281,
+ "right": 281,
+ "wrong": 0,
+ "unsure": 0,
+ "error_rate_pct": null,
+ "threshold_pct": 5.0,
+ "reader_model": "claude-fable-5-1",
+ "reader_effort": "xhigh",
+ "reader_agent": ".claude/agents/census-reader.md",
+ "reader_tools": "Read, Write",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
+ "missing_packets": [],
+ "unread": [],
+ "verdicts_for_unknown_ids": [],
+ "faults": {},
+ "by_part_of_speech": {
+  "adjective": {
+   "read": 281,
+   "right": 281,
+   "wrong": 0,
+   "unsure": 0,
+   "error_rate_pct": 0.0
+  }
+ },
+ "failures_by_synset": {},
+ "authoring": "parallel family-author agents, one per family, Opus 5 at xhigh; each read the rubric and worksheet from disk and wrote its own JSON to disk, so no family's content passed through the orchestrating session",
+ "blindness": "readers held only their own packet and the rubric - no copy of the repo, no access to data/policy/, and the authored files were removed from the working area before the read began",
+ "readers_saw": "sense id, word, gloss, label and tone note. Examples and usage labels were not shown, as in censuses 003 and 004.",
+ "comparability_warning": "NOT directly comparable to census 004's 0.6%. The reading rubric gained a 'What is NOT a fault' section between the two runs - added to suppress false positives on register labels and neighbour comparisons, but it may also have made the readers more permissive. A 0.0% on 281 senses should be treated as unverified until a tick is read under both rubric versions, or until an adversarial re-read of a sample comes back clean. Changing the instrument between ticks is exactly what 11.62 says not to do, and it was done here without noticing.",
+ "id_corrections": "1: a reader wrote synset oewn-02088253-s for alright where the packet sense is oewn-02088638-s. Caught by the aggregator reporting one unread sense alongside one verdict for an unknown id. Verdict text unambiguously describes the packet's gloss, so the id was corrected and the verdict left untouched; the correction is recorded in verdicts-06.json.",
+ "error_rate_pct_as_read": 0.0,
+ "verdict": "NOT ACCEPTED AS MEASURED. The read returned 0.0%, but the reading rubric had drifted: a 'What is NOT a fault' section was added between census 004 and this run. An adversarial re-read of 40 senses under the census-003/004 rubric found 1 fault (2.5%), so the 0.0% is an artefact of the instrument, not a property of the corpus. Tick 2 passes the 5% gate on either reading, but its rate is best stated as 'under 5%, not more precisely known'. See census-005-adversarial-results.json."
+}

@@ -1,0 +1,604 @@
+{
+ "packet": 5,
+ "count": 47,
+ "entries": [
+  {
+   "id": "provable.oewn-01623286-s",
+   "word": "provable",
+   "definition": "capable of being demonstrated or proved",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The blunter twin of *demonstrable*, resting the whole claim on proof being possible.",
+   "usage_labels": [],
+   "examples": [
+    "practical truth provable to all men"
+   ]
+  },
+  {
+   "id": "self-evident.oewn-01623076-s",
+   "word": "self-evident",
+   "definition": "evident without proof or argument",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plainer word for the same standing as *axiomatic*: the thing carries its own warrant and asks for none to be brought.",
+   "usage_labels": [],
+   "examples": [
+    "we hold these truths to be self-evident"
+   ]
+  },
+  {
+   "id": "self-explanatory.oewn-01623785-s",
+   "word": "self-explanatory",
+   "definition": "needing no explanation",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The thing supplies its own account, so nothing need be added to it — a different job from *obvious*, which only says it is easy to grasp.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "taken_for_granted.oewn-01623076-s",
+   "word": "taken for granted",
+   "definition": "evident without proof or argument",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "An ordinary-language phrase that concedes the standing rather than asserting it — the thing passes without argument instead of being shown to need none.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unmistakable.oewn-01622528-s",
+   "word": "unmistakable",
+   "definition": "clearly revealed to the mind or the senses or judgment",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Works by ruling out the alternative: the thing cannot be read as anything else, a firmer guarantee than *apparent* gives.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "bald.oewn-01709541-s",
+   "word": "bald",
+   "definition": "with no effort to conceal",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt - concealment is not just absent but conspicuously unattempted, and the missing softening reads as harshness.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "barefaced.oewn-01709541-s",
+   "word": "barefaced",
+   "definition": "with no effort to conceal",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Accusatory where *bald* is merely blunt - the failure to conceal registers as nerve, something the doer should have been ashamed to show.",
+   "usage_labels": [],
+   "examples": [
+    "a barefaced lie"
+   ]
+  },
+  {
+   "id": "naked.oewn-01709648-s",
+   "word": "naked",
+   "definition": "devoid of elaboration or diminution or concealment; bare and pure",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Stark - nothing added and nothing subtracted, so the thing stands in its own unsoftened proportions.",
+   "usage_labels": [],
+   "examples": [
+    "naked ambition"
+   ]
+  },
+  {
+   "id": "open.oewn-01709214-a",
+   "word": "open",
+   "definition": "open and observable; not secret or hidden",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain everyday word for the same state, weightless where *overt* sounds like a term of art.",
+   "usage_labels": [],
+   "examples": [
+    "open ballots"
+   ]
+  },
+  {
+   "id": "overt.oewn-01709214-a",
+   "word": "overt",
+   "definition": "open and observable; not secret or hidden",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and formal - it marks a thing as out where it can be seen and stops there, with none of the affront *barefaced* adds.",
+   "usage_labels": [],
+   "examples": [
+    "an overt lie",
+    "overt hostility",
+    "overt intelligence gathering"
+   ]
+  },
+  {
+   "id": "raw.oewn-01709648-s",
+   "word": "raw",
+   "definition": "devoid of elaboration or diminution or concealment; bare and pure",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Coarser-grained than *naked* - unworked rather than merely stripped, with the roughness of the thing left on it.",
+   "usage_labels": [],
+   "examples": [
+    "raw fury",
+    "you may kill someone someday with your raw power"
+   ]
+  },
+  {
+   "id": "undisguised.oewn-01709871-s",
+   "word": "undisguised",
+   "definition": "plain to see",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Names concealment in order to deny it, so what is plain to see carries the sense of something that could have been hidden and was not.",
+   "usage_labels": [],
+   "examples": [
+    "undisguised curiosity"
+   ]
+  },
+  {
+   "id": "visible.oewn-01709966-s",
+   "word": "visible",
+   "definition": "obvious to the eye",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely descriptive and the mildest of the set - it reports what the eye catches, without implying anything was ever kept back.",
+   "usage_labels": [],
+   "examples": [
+    "a visible change of expression"
+   ]
+  },
+  {
+   "id": "intellectual.oewn-01784888-s",
+   "word": "intellectual",
+   "definition": "of or associated with or requiring the use of the mind",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Faintly flattering, since calling something intellectual credits it with demanding real thought, where *mental* says no more than that the mind was involved.",
+   "usage_labels": [],
+   "examples": [
+    "intellectual problems"
+   ]
+  },
+  {
+   "id": "mental.oewn-01784531-a",
+   "word": "mental",
+   "definition": "involving the mind or an intellectual process",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plainest of these, taking in any process the mind performs without the technical precision *psychological* carries.",
+   "usage_labels": [],
+   "examples": [
+    "mental images of happy times",
+    "mental calculations",
+    "in a terrible mental state",
+    "mental suffering",
+    "free from mental defects"
+   ]
+  },
+  {
+   "id": "moral.oewn-01785141-s",
+   "word": "moral",
+   "definition": "psychological rather than physical or tangible in effect",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Names not the mind itself but the kind of effect that lands there, real in force with nothing tangible behind it.",
+   "usage_labels": [],
+   "examples": [
+    "a moral victory",
+    "moral support"
+   ]
+  },
+  {
+   "id": "noetic.oewn-01784888-s",
+   "word": "noetic",
+   "definition": "of or associated with or requiring the use of the mind",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The most abstract and learned of the set, naming mind-work in a lofty register that *mental* keeps flat.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "psychic.oewn-01785285-s",
+   "word": "psychic",
+   "definition": "affecting or influenced by the human mind",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Reaches in both directions at once, covering what the mind acts on and what acts on the mind, where *psychogenic* narrows to where a thing began.",
+   "usage_labels": [],
+   "examples": [
+    "psychic energy",
+    "psychic trauma"
+   ]
+  },
+  {
+   "id": "psychical.oewn-01785285-s",
+   "word": "psychical",
+   "definition": "affecting or influenced by the human mind",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The heavier, more formal twin of *psychic*, identical in what it covers and stiffer in the saying.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "psychogenic.oewn-01785482-s",
+   "word": "psychogenic",
+   "definition": "mental or emotional rather than physiological in origin",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Technical and exact about causation, placing the starting point in the mind rather than the body instead of merely sorting by nature.",
+   "usage_labels": [],
+   "examples": [
+    "a psychogenic disorder"
+   ]
+  },
+  {
+   "id": "psychological.oewn-01785621-s",
+   "word": "psychological",
+   "definition": "mental or emotional as opposed to physical in nature",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The workaday technical term here, sorting a thing by what it is in nature rather than, as *psychogenic* does, by where it came from.",
+   "usage_labels": [],
+   "examples": [
+    "give psychological support",
+    "psychological warfare"
+   ]
+  },
+  {
+   "id": "rational.oewn-01784888-s",
+   "word": "rational",
+   "definition": "of or associated with or requiring the use of the mind",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Points at the mind as the faculty at work rather than at the soundness of what it produces, making it a label and not a verdict.",
+   "usage_labels": [],
+   "examples": [
+    "the triumph of the rational over the animal side of man"
+   ]
+  },
+  {
+   "id": "admirable.oewn-01812870-s",
+   "word": "admirable",
+   "definition": "inspiring admiration or approval",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approval with esteem in it - it asks you to look up at the thing rather than merely enjoy it, a graver register than *charming*.",
+   "usage_labels": [],
+   "examples": [
+    "among her many admirable qualities are generosity and graciousness"
+   ]
+  },
+  {
+   "id": "charming.oewn-01813064-s",
+   "word": "charming",
+   "definition": "pleasing or delighting",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warm and disarming - the pleasure sounds like an appeal exerted on you, gentler than *delightful*'s enthusiasm.",
+   "usage_labels": [],
+   "examples": [
+    "endowed with charming manners",
+    "a charming little cottage",
+    "a charming personality"
+   ]
+  },
+  {
+   "id": "delicious.oewn-01813229-s",
+   "word": "delicious",
+   "definition": "greatly pleasing or entertaining",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Savouring - it makes high pleasure sound like something relished, richer and more indulgent than *delightful*.",
+   "usage_labels": [],
+   "examples": [
+    "a delicious joke"
+   ]
+  },
+  {
+   "id": "delightful.oewn-01813229-s",
+   "word": "delightful",
+   "definition": "greatly pleasing or entertaining",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Enthusiastic - the pleasure is raised to a high pitch and given an edge of entertainment that *pleasing* lacks.",
+   "usage_labels": [],
+   "examples": [
+    "a delightful surprise",
+    "the comedy was delightful"
+   ]
+  },
+  {
+   "id": "easy.oewn-01813404-s",
+   "word": "easy",
+   "definition": "affording pleasure",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Understated to the edge of neutrality - it concedes that pleasure is afforded without any warmth of praise behind it.",
+   "usage_labels": [],
+   "examples": [
+    "easy good looks"
+   ]
+  },
+  {
+   "id": "fab.oewn-01813492-s",
+   "word": "fab",
+   "definition": "extremely pleasing",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Slangy and clipped - the same top-of-the-scale praise as *fabulous*, tossed off rather than declared.",
+   "usage_labels": [],
+   "examples": [
+    "a fabulous vacation"
+   ]
+  },
+  {
+   "id": "fabulous.oewn-01813492-s",
+   "word": "fabulous",
+   "definition": "extremely pleasing",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Extravagant - praise pitched at the ceiling and past plausibility, far louder than *pleasing*.",
+   "usage_labels": [],
+   "examples": [
+    "a fabulous vacation"
+   ]
+  },
+  {
+   "id": "good.oewn-01813594-s",
+   "word": "good",
+   "definition": "capable of pleasing",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "All-purpose and colourless - it grants no more than the capacity to please, where *pleasing* reports pleasure actually given.",
+   "usage_labels": [],
+   "examples": [
+    "good looks"
+   ]
+  },
+  {
+   "id": "gratifying.oewn-01813678-s",
+   "word": "gratifying",
+   "definition": "pleasing to the mind or feeling",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Sober and faintly formal - it puts the pleasure in the mind or the feelings rather than on the surface, weightier than *sweet*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "ingratiating.oewn-01813809-s",
+   "word": "ingratiating",
+   "definition": "capable of winning favor",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "It measures pleasing by the favour won rather than by the pleasure given, which tilts it away from praising the thing at all, unlike *charming*.",
+   "usage_labels": [],
+   "examples": [
+    "with open arms and an ingratiating smile"
+   ]
+  },
+  {
+   "id": "pleasing.oewn-01812521-a",
+   "word": "pleasing",
+   "definition": "giving pleasure and satisfaction",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Plain, unraised approval - it states the pleasure and satisfaction given and leaves it there, where *delightful* insists.",
+   "usage_labels": [],
+   "examples": [
+    "a pleasing piece of news"
+   ]
+  },
+  {
+   "id": "sweet.oewn-01813678-s",
+   "word": "sweet",
+   "definition": "pleasing to the mind or feeling",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warm and informal - the same inward pleasure as *gratifying*, but tender and unguarded rather than composed.",
+   "usage_labels": [],
+   "examples": [
+    "sweet revenge"
+   ]
+  },
+  {
+   "id": "categoric.oewn-01920312-s",
+   "word": "categoric",
+   "definition": "not modified or restricted by reservations",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and clipped, it shuts the door on reservations like a ruling handed down, where *unqualified* merely reports that there are none.",
+   "usage_labels": [],
+   "examples": [
+    "a categorical denial"
+   ]
+  },
+  {
+   "id": "categorical.oewn-01920312-s",
+   "word": "categorical",
+   "definition": "not modified or restricted by reservations",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The unclipped form of *categoric*, and the extra syllable lands as extra weight: reservations are not merely absent but refused.",
+   "usage_labels": [],
+   "examples": [
+    "a categorical denial"
+   ]
+  },
+  {
+   "id": "clean.oewn-01920489-s",
+   "word": "clean",
+   "definition": "free of restrictions or qualifications",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Faintly approving — freedom from qualifications felt as tidiness, nothing left clinging, where *unqualified* only records that nothing is attached.",
+   "usage_labels": [],
+   "examples": [
+    "a clean bill of health"
+   ]
+  },
+  {
+   "id": "clear.oewn-01920489-s",
+   "word": "clear",
+   "definition": "free of restrictions or qualifications",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The same freedom as *clean*, but as an unobstructed way through rather than a tidy finish: nothing in the way rather than nothing left over.",
+   "usage_labels": [],
+   "examples": [
+    "a clear winner"
+   ]
+  },
+  {
+   "id": "flat.oewn-01920312-s",
+   "word": "flat",
+   "definition": "not modified or restricted by reservations",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Blunt and monosyllabic — the refusal of reservations delivered as a door shutting, where *categorical* delivers it as a pronouncement.",
+   "usage_labels": [],
+   "examples": [
+    "a flat refusal"
+   ]
+  },
+  {
+   "id": "outright.oewn-01920788-s",
+   "word": "outright",
+   "definition": "without reservation or exception",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Emphatic and forceful, it presses the thing all the way through with no exception admitted, well past *unqualified*'s bare report.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "straight-out.oewn-01920788-s",
+   "word": "straight-out",
+   "definition": "without reservation or exception",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Informal and plain-spoken, it admits no reservation or exception exactly as *outright* does, but without the ceremony.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unconditional.oewn-01920312-s",
+   "word": "unconditional",
+   "definition": "not modified or restricted by reservations",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and absolute, it presents the missing reservations as terms deliberately not imposed rather than as *flat*'s curt refusal to entertain them.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unlimited.oewn-01920788-s",
+   "word": "unlimited",
+   "definition": "without reservation or exception",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Reads as sheer extent — nothing bounds the thing — where *outright* reads as manner, nothing qualifying it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unqualified.oewn-01920096-a",
+   "word": "unqualified",
+   "definition": "not limited or restricted",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The bare statement of the case — nothing limits or restricts the thing — with none of the insistence *categorical* puts behind it.",
+   "usage_labels": [],
+   "examples": [
+    "an unqualified denial"
+   ]
+  },
+  {
+   "id": "coherent.oewn-01932107-s",
+   "word": "coherent",
+   "definition": "capable of thinking and expressing yourself in a clear and consistent manner",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise at its lowest setting: the thought holds together and comes out clear, a floor cleared rather than the brightness *lucid* claims.",
+   "usage_labels": [],
+   "examples": [
+    "she was more coherent than she had been just after the accident"
+   ]
+  },
+  {
+   "id": "demythologised.oewn-01932378-s",
+   "word": "demythologised",
+   "definition": "having mythical elements removed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Carries no more judgment than *demythologized*: the stripping of myth is stated, not celebrated or mourned.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "demythologized.oewn-01932378-s",
+   "word": "demythologized",
+   "definition": "having mythical elements removed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flatly descriptive - records that the mythical element is gone without approving or regretting its removal.",
+   "usage_labels": [],
+   "examples": []
+  }
+ ]
+}

@@ -72,6 +72,18 @@ having personality. Mark it wrong when it leaves the gloss or leaves the word.
   0 = neutral-in-family) against the gloss.
 - Examples, if present: they must fit THIS sense of the word.
 
+## Use this file verbatim
+
+This rubric is the instrument. Do not paraphrase it, re-type it from memory, or
+add sections to it for a particular run. Census 005 was read under a re-typed
+variant that had gained a "what is not a fault" section; an adversarial re-read
+of forty senses under this wording found a fault the variant had passed, and the
+tick's measured rate had to be withdrawn. A rate is only comparable to the rates
+before it if the ruler did not move.
+
+If this rubric needs to change, change it here, say so in the plan, and treat
+the next tick as a new baseline.
+
 ## Output
 
 Write JSON to the output path you were given, exactly this shape, one object

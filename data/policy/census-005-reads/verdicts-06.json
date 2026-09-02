@@ -1,0 +1,282 @@
+{
+ "packet": 6,
+ "verdicts": [
+  {
+   "id": "intelligent.oewn-01932488-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Describes the capacity-to-reason gloss as a compliment and contrasts it with neutral neighbours, staying inside the word."
+  },
+  {
+   "id": "logical.oewn-01932107-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Describes the clear-consistent-thinking gloss as dry commendation against lucid's warmth; positive label fits."
+  },
+  {
+   "id": "lucid.oewn-01932107-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Same gloss praised as brightness against coherent; stays on the word's force."
+  },
+  {
+   "id": "rational.oewn-01931771-a",
+   "verdict": "right",
+   "fault": null,
+   "why": "Approval grounded in reason matches the gloss and the contrast with reasonable is about force."
+  },
+  {
+   "id": "reasonable.oewn-01932628-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Sound judgment praised as such matches the gloss; contrast with rational is inside the word."
+  },
+  {
+   "id": "reasoning.oewn-01932488-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Neutral descriptive reading of the capacity gloss, contrasted with intelligent's credit."
+  },
+  {
+   "id": "sane.oewn-01932628-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Sound judgment framed as a threshold rather than a distinction is a description of force that fits the gloss and label."
+  },
+  {
+   "id": "thinking.oewn-01932488-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Neutral attribute reading of the capacity gloss; nothing leaves the word."
+  },
+  {
+   "id": "adequate.oewn-02088076-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Cool acceptability that stops short of fine's warmth fits the average/acceptable gloss and neutral label."
+  },
+  {
+   "id": "all_right.oewn-02088253-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Plain all-clear reading fits the satisfactory gloss; positive label is plausible for satisfactory."
+  },
+  {
+   "id": "alright.oewn-02088638-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Note agrees with the nonstandard-usage gloss and treats the spelling flag as the only difference from all right; register is not a fault.",
+   "_id_corrected": "reader wrote synset oewn-02088253-s; the packet sense is oewn-02088638-s. The verdict text describes the nonstandard-usage gloss and the *all right* contrast, so it is unambiguously this sense. Id corrected, verdict and reasoning untouched."
+  },
+  {
+   "id": "cheering.oewn-02088709-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Clearing worry by lifting spirits stays on the freedom-from-worry gloss and contrasts force with comforting."
+  },
+  {
+   "id": "comforting.oewn-02088709-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Quieting the worrier's mind fits the gloss; contrast with cheering is about manner, inside the word."
+  },
+  {
+   "id": "cool.oewn-02088253-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Slangy assent that approves by not objecting fits the satisfactory gloss; slangy is a register label."
+  },
+  {
+   "id": "copacetic.oewn-02088818-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Total closing of objections matches completely satisfactory; contrast with all right is inside the word."
+  },
+  {
+   "id": "fair_to_middling.oewn-02088076-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Colloquial hedging between fair and middling fits the about-average gloss and neutral label."
+  },
+  {
+   "id": "fine.oewn-02088253-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Brisk unqualified settling of whether the thing will do fits the satisfactory gloss."
+  },
+  {
+   "id": "hunky-dory.oewn-02088253-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Breezy slang overshooting a modest report of order fits the gloss and describes the word's force."
+  },
+  {
+   "id": "ok.oewn-02088253-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Barest grant of sufficiency fits the satisfactory gloss; neutral label is plausible."
+  },
+  {
+   "id": "okay.oewn-02088253-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Spelled-out form with the same flat sufficiency as ok stays inside the word and matches the gloss."
+  },
+  {
+   "id": "passable.oewn-02088076-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Acceptance with the bar visible fits about-average/acceptable and the contrast with adequate is about force."
+  },
+  {
+   "id": "satisfactory.oewn-02087716-a",
+   "verdict": "right",
+   "fault": null,
+   "why": "Approval as a finding that satisfaction was given matches the giving-satisfaction gloss."
+  },
+  {
+   "id": "satisfying.oewn-02088709-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Worry lifting because the thing proves enough stays on the freedom-from-worry gloss and contrasts with comforting."
+  },
+  {
+   "id": "tolerable.oewn-02088076-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Grudging acceptance of something borne fits the acceptable gloss and a negative connotation label is plausible for the word's force."
+  },
+  {
+   "id": "humble.oewn-02348528-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Low station read as unpretending rather than deficient fits the gloss and neutral label."
+  },
+  {
+   "id": "indifferent.oewn-02348780-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Damning by withholding praise fits fairly-poor-to-not-very-good and stays on force."
+  },
+  {
+   "id": "inferior.oewn-02348283-a",
+   "verdict": "right",
+   "fault": null,
+   "why": "Grading below others with the ranking carrying the sting fits the low-rank gloss."
+  },
+  {
+   "id": "low-level.oewn-02348948-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Purely positional rung on a rank scale fits the gloss and neutral label."
+  },
+  {
+   "id": "low.oewn-02348528-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Blunt flat statement of low station fits the gloss; contrast with humble is about softening."
+  },
+  {
+   "id": "lowly.oewn-02348528-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Meek literary air on the low position fits the gloss; literary is a register label, not a fault."
+  },
+  {
+   "id": "middle-level.oewn-02349084-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Coordinate between top and bottom with no quality claim matches intermediate in rank and neutral label."
+  },
+  {
+   "id": "modest.oewn-02348528-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Tactful naming of lowness that leaves dignity fits the gloss and neutral label."
+  },
+  {
+   "id": "outclassed.oewn-02349202-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Low standing as the outcome of a decisively lost comparison matches the gloss and negative label."
+  },
+  {
+   "id": "small.oewn-02348528-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Low quality registering as insignificance rather than rank fits the gloss and stays on force."
+  },
+  {
+   "id": "authentic.oewn-02474343-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Belief earned by checking against fact matches the gloss; praise for genuineness stays inside the word."
+  },
+  {
+   "id": "creditworthy.oewn-02474578-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Technical certification of a cleared bar matches acceptable credit rating; technical is a register label."
+  },
+  {
+   "id": "dependable.oewn-02474747-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Praise for steadiness that will hold fits worthy of being depended on; contrast with authentic is about force."
+  },
+  {
+   "id": "fiducial.oewn-02475134-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Classifying a thing as resting on trust without judging it fits based on trust and the neutral label."
+  },
+  {
+   "id": "honest.oewn-02474747-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Warmer, character-based approval fits worthy of being depended on and contrasts with dependable inside the word."
+  },
+  {
+   "id": "reliable.oewn-02474343-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Sober credit for holding up under scrutiny fits conforming to fact and worthy of belief."
+  },
+  {
+   "id": "responsible.oewn-02474578-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Quiet nod at financial standing fits the credit-rating gloss; contrast with creditworthy is about register."
+  },
+  {
+   "id": "sure.oewn-02475203-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Blunt unhedged verdict of trust fits the gloss and positive label."
+  },
+  {
+   "id": "true.oewn-02474747-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Constancy raised to a solemn virtue fits worthy of being depended on and describes force against dependable."
+  },
+  {
+   "id": "trusted.oewn-02475203-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Standing as conferred versus sure's inherent quality is a description of the word's force within the gloss."
+  },
+  {
+   "id": "trustworthy.oewn-02473921-a",
+   "verdict": "right",
+   "fault": null,
+   "why": "Plain flat approval fits worthy of trust or belief and the positive label."
+  },
+  {
+   "id": "trusty.oewn-02473921-a",
+   "verdict": "right",
+   "fault": null,
+   "why": "Homely affectionate warmth with a faint condescension describes the word's force within the same gloss."
+  }
+ ]
+}

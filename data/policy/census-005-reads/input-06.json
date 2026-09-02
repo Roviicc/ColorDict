@@ -1,0 +1,580 @@
+{
+ "packet": 6,
+ "count": 46,
+ "entries": [
+  {
+   "id": "intelligent.oewn-01932488-s",
+   "word": "intelligent",
+   "definition": "endowed with the capacity to reason",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Turns the bare endowment into a compliment, where *reasoning* and *thinking* only register that the capacity is there.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "logical.oewn-01932107-s",
+   "word": "logical",
+   "definition": "capable of thinking and expressing yourself in a clear and consistent manner",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Dry, near-technical commendation - the clear consistent thinking treated as something that works by rule, with none of *lucid*'s warmth.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "lucid.oewn-01932107-s",
+   "word": "lucid",
+   "definition": "capable of thinking and expressing yourself in a clear and consistent manner",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The warmest of the three: the same clear consistent thinking praised as brightness, where *coherent* merely reports that it hangs together.",
+   "usage_labels": [],
+   "examples": [
+    "a lucid thinker"
+   ]
+  },
+  {
+   "id": "rational.oewn-01931771-a",
+   "word": "rational",
+   "definition": "consistent with or based on or using reason",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approves by pointing at the grounds - the thing rests on reason - where *reasonable* praises the quality of the judgment actually reached.",
+   "usage_labels": [],
+   "examples": [
+    "rational behavior",
+    "a process of rational inference",
+    "rational thought"
+   ]
+  },
+  {
+   "id": "reasonable.oewn-01932628-s",
+   "word": "reasonable",
+   "definition": "marked by sound judgment; having good reason",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Solid approval of judgment exercised well, going past *rational*'s weaker claim that reason was involved at all.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "reasoning.oewn-01932488-s",
+   "word": "reasoning",
+   "definition": "endowed with the capacity to reason",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely descriptive - states that the faculty is present and stops, extending none of the credit *intelligent* does for it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sane.oewn-01932628-s",
+   "word": "sane",
+   "definition": "marked by sound judgment; having good reason",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same sound judgment, but pitched as the bar a mind must clear rather than a distinction it earns, which gives it a weight *reasonable* has not.",
+   "usage_labels": [],
+   "examples": [
+    "sane nuclear policy"
+   ]
+  },
+  {
+   "id": "thinking.oewn-01932488-s",
+   "word": "thinking",
+   "definition": "endowed with the capacity to reason",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Neutral in the way *reasoning* is, marking the capacity as a plain attribute rather than a merit.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "adequate.oewn-02088076-s",
+   "word": "adequate",
+   "definition": "about average; acceptable",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Cool and measuring — it grants acceptability and stops there, withholding the warmth *fine* carries.",
+   "usage_labels": [],
+   "examples": [
+    "more than adequate as a secretary"
+   ]
+  },
+  {
+   "id": "all_right.oewn-02088253-s",
+   "word": "all right",
+   "definition": "being satisfactory or in satisfactory condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A plain all-clear — it reports that nothing is amiss rather than that anything is good, a smaller claim than *copacetic* makes.",
+   "usage_labels": [],
+   "examples": [
+    "the passengers were shaken up but are all right",
+    "is everything all right?"
+   ]
+  },
+  {
+   "id": "alright.oewn-02088638-s",
+   "word": "alright",
+   "definition": "nonstandard usage",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The same untroubled sufficiency in a spelling flagged as nonstandard, and that flag is the whole of what separates it from *all right*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "cheering.oewn-02088709-s",
+   "word": "cheering",
+   "definition": "providing freedom from worry",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Raises rather than soothes: it clears worry by lifting the spirits, where *comforting* clears it by settling them.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "comforting.oewn-02088709-s",
+   "word": "comforting",
+   "definition": "providing freedom from worry",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warm and aimed at the worrier — it quiets a mind rather than removing what alarmed it, softer than the lift in *cheering*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "cool.oewn-02088253-s",
+   "word": "cool",
+   "definition": "being satisfactory or in satisfactory condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Slangy assent that approves by declining to object; the ease is the point, where *fine* merely settles the matter.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "copacetic.oewn-02088818-s",
+   "word": "copacetic",
+   "definition": "completely satisfactory",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Slangy and total — it closes off every remaining objection, where *all right* reports only that none has surfaced.",
+   "usage_labels": [],
+   "examples": [
+    "his smile said that everything was copacetic",
+    "You had to be a good judge of what a man was like, and the English was copacetic"
+   ]
+  },
+  {
+   "id": "fair_to_middling.oewn-02088076-s",
+   "word": "fair to middling",
+   "definition": "about average; acceptable",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A colloquial shrug whose own hedging spreads the verdict between fair and middling instead of landing on either.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "fine.oewn-02088253-s",
+   "word": "fine",
+   "definition": "being satisfactory or in satisfactory condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Brisk and unqualified: one syllable that closes the question of whether the thing will do, with none of *satisfactory*'s weighing.",
+   "usage_labels": [],
+   "examples": [
+    "everything's fine",
+    "dinner and the movies had been fine",
+    "another minute I'd have been fine"
+   ]
+  },
+  {
+   "id": "hunky-dory.oewn-02088253-s",
+   "word": "hunky-dory",
+   "definition": "being satisfactory or in satisfactory condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Breezy slang whose bounce overshoots the modest thing it reports — all is in order, announced as though it were a delight.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "ok.oewn-02088253-s",
+   "word": "ok",
+   "definition": "being satisfactory or in satisfactory condition",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The barest possible grant of sufficiency — two letters conceding the thing is in order, without a particle of the warmth in *fine*.",
+   "usage_labels": [],
+   "examples": [
+    "things are okay"
+   ]
+  },
+  {
+   "id": "okay.oewn-02088253-s",
+   "word": "okay",
+   "definition": "being satisfactory or in satisfactory condition",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The spelled-out form, sitting in a sentence as a word rather than a mark, with the same flat sufficiency as *ok*.",
+   "usage_labels": [],
+   "examples": [
+    "things are okay"
+   ]
+  },
+  {
+   "id": "passable.oewn-02088076-s",
+   "word": "passable",
+   "definition": "about average; acceptable",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Acceptance with the bar still visible underneath it: the thing gets through, where *adequate* says it measures up.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "satisfactory.oewn-02087716-a",
+   "word": "satisfactory",
+   "definition": "giving satisfaction",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approval delivered as a finding rather than a compliment — it certifies that satisfaction was given, where *fine* simply grants it.",
+   "usage_labels": [],
+   "examples": [
+    "satisfactory living conditions",
+    "his grades were satisfactory"
+   ]
+  },
+  {
+   "id": "satisfying.oewn-02088709-s",
+   "word": "satisfying",
+   "definition": "providing freedom from worry",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Relief supplied by sufficiency itself — the worry lifts because the thing proves enough, where *comforting* works on the person instead.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "tolerable.oewn-02088076-s",
+   "word": "tolerable",
+   "definition": "about average; acceptable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most grudging of these acceptances, framing the acceptable thing as something borne, where *passable* at least lets it through clean.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "humble.oewn-02348528-s",
+   "word": "humble",
+   "definition": "low or inferior in station or quality",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Names low station with a quiet grace, so the lowness reads as unpretending rather than deficient.",
+   "usage_labels": [],
+   "examples": [
+    "a humble cottage"
+   ]
+  },
+  {
+   "id": "indifferent.oewn-02348780-s",
+   "word": "indifferent",
+   "definition": "fairly poor to not very good",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Damns by withholding: it refuses praise rather than delivering a charge, and the refusal is the verdict.",
+   "usage_labels": [],
+   "examples": [
+    "has an indifferent singing voice",
+    "has indifferent qualifications for the job"
+   ]
+  },
+  {
+   "id": "inferior.oewn-02348283-a",
+   "word": "inferior",
+   "definition": "of or characteristic of low rank or importance",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The bare comparative of the set: it grades a thing below others and lets the ranking itself carry the sting, where *humble* names the same position without grading it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "low-level.oewn-02348948-s",
+   "word": "low-level",
+   "definition": "at a low level in rank or importance",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely positional, marking a rung on a scale of rank without judging the worth of whatever stands there.",
+   "usage_labels": [],
+   "examples": [
+    "a low-level job",
+    "low-level discussions"
+   ]
+  },
+  {
+   "id": "low.oewn-02348528-s",
+   "word": "low",
+   "definition": "low or inferior in station or quality",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The blunt monosyllable for that station, stating the bottom position flatly and with none of the softening in *humble*.",
+   "usage_labels": [],
+   "examples": [
+    "a lowly parish priest"
+   ]
+  },
+  {
+   "id": "lowly.oewn-02348528-s",
+   "word": "lowly",
+   "definition": "low or inferior in station or quality",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Adds a meek, faintly literary air to the low position, so it sounds borne rather than merely recorded.",
+   "usage_labels": [],
+   "examples": [
+    "a lowly parish priest"
+   ]
+  },
+  {
+   "id": "middle-level.oewn-02349084-s",
+   "word": "middle-level",
+   "definition": "intermediate in rank or position",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A coordinate rather than a verdict, fixing a point between top and bottom and claiming nothing about quality.",
+   "usage_labels": [],
+   "examples": [
+    "middle-level management"
+   ]
+  },
+  {
+   "id": "modest.oewn-02348528-s",
+   "word": "modest",
+   "definition": "low or inferior in station or quality",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The tactful word for the same lowness, declining to call it poor and leaving the thing its dignity.",
+   "usage_labels": [],
+   "examples": [
+    "a modest man of the people"
+   ]
+  },
+  {
+   "id": "outclassed.oewn-02349202-s",
+   "word": "outclassed",
+   "definition": "decisively surpassed by something else so as to appear to be of a lower class",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The strongest of the set: the low standing is the outcome of a contest already decisively lost, so the word carries the humiliation of the comparison.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "small.oewn-02348528-s",
+   "word": "small",
+   "definition": "low or inferior in station or quality",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Shrinks rather than ranks, so the low quality registers as insignificance instead of a place on a ladder.",
+   "usage_labels": [],
+   "examples": [
+    "small beginnings"
+   ]
+  },
+  {
+   "id": "authentic.oewn-02474343-s",
+   "word": "authentic",
+   "definition": "conforming to fact and therefore worthy of belief",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The belief is earned by checking out against the facts, so the praise is for genuineness rather than for any goodwill.",
+   "usage_labels": [],
+   "examples": [
+    "an authentic account by an eyewitness"
+   ]
+  },
+  {
+   "id": "creditworthy.oewn-02474578-s",
+   "word": "creditworthy",
+   "definition": "having an acceptable credit rating",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Technical and bloodless, certifying a bar cleared rather than praising anything about the one who cleared it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "dependable.oewn-02474747-s",
+   "word": "dependable",
+   "definition": "worthy of being depended on",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise for weight-bearing steadiness - it promises the thing will hold, where *authentic* only says it is what it claims.",
+   "usage_labels": [],
+   "examples": [
+    "a dependable worker"
+   ]
+  },
+  {
+   "id": "fiducial.oewn-02475134-s",
+   "word": "fiducial",
+   "definition": "based on trust",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Technical and classifying - it marks a thing as resting on trust without any opinion on whether that trust is deserved.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "honest.oewn-02474747-s",
+   "word": "honest",
+   "definition": "worthy of being depended on",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warmer and broader than *dependable*, resting the approval on the whole character rather than on any record of performance.",
+   "usage_labels": [],
+   "examples": [
+    "an honest working stiff"
+   ]
+  },
+  {
+   "id": "reliable.oewn-02474343-s",
+   "word": "reliable",
+   "definition": "conforming to fact and therefore worthy of belief",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Sober and unexcited - it credits a thing with holding up under scrutiny and claims nothing more stirring than that.",
+   "usage_labels": [],
+   "examples": [
+    "reliable information"
+   ]
+  },
+  {
+   "id": "responsible.oewn-02474578-s",
+   "word": "responsible",
+   "definition": "having an acceptable credit rating",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A quiet nod at financial standing, softer and less procedural-sounding than *creditworthy* though it settles the same question.",
+   "usage_labels": [],
+   "examples": [
+    "a responsible borrower"
+   ]
+  },
+  {
+   "id": "sure.oewn-02475203-s",
+   "word": "sure",
+   "definition": "(of persons) worthy of trust or confidence",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Blunt and unqualified, the whole verdict compressed into one syllable that leaves no room for hedging.",
+   "usage_labels": [],
+   "examples": [
+    "a sure (or trusted) friend"
+   ]
+  },
+  {
+   "id": "true.oewn-02474747-s",
+   "word": "true",
+   "definition": "worthy of being depended on",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Elevated and absolute - constancy raised to a virtue, with a solemn ring that *dependable* never reaches for.",
+   "usage_labels": [],
+   "examples": [
+    "he was true to his word",
+    "I would be true for there are those who trust me"
+   ]
+  },
+  {
+   "id": "trusted.oewn-02475203-s",
+   "word": "trusted",
+   "definition": "(of persons) worthy of trust or confidence",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The participle makes the standing something conferred, where *sure* names a quality the person carries on their own.",
+   "usage_labels": [],
+   "examples": [
+    "a sure (or trusted) friend"
+   ]
+  },
+  {
+   "id": "trustworthy.oewn-02473921-a",
+   "word": "trustworthy",
+   "definition": "worthy of trust or belief",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain, unhedged verdict of the family - approval stated flatly, with no warmth or ceremony added to it.",
+   "usage_labels": [],
+   "examples": [
+    "a trustworthy report",
+    "an experienced and trustworthy traveling companion"
+   ]
+  },
+  {
+   "id": "trusty.oewn-02473921-a",
+   "word": "trusty",
+   "definition": "worthy of trust or belief",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving with a homely, affectionate warmth that *trustworthy* keeps out, and a faint pat on the head with it.",
+   "usage_labels": [],
+   "examples": [
+    "a trustworthy report",
+    "an experienced and trustworthy traveling companion"
+   ]
+  }
+ ]
+}

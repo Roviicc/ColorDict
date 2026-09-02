@@ -1,0 +1,21 @@
+{
+ "sample": "census-005-adversarial",
+ "purpose": "test whether census 005's 0.0% was earned or was an artefact of a reading rubric that had drifted",
+ "population": 40,
+ "read": 40,
+ "right": 39,
+ "wrong": 1,
+ "unsure": 0,
+ "error_rate_pct": 2.5,
+ "reader_model": "claude-fable-5-1",
+ "reader_effort": "xhigh",
+ "rubric": "the census-003/004 wording, WITHOUT the 'What is NOT a fault' section that census 005 used",
+ "instruction": "told the notes had passed a read that found nothing, and to establish whether that was soundness or leniency, without manufacturing faults",
+ "finding": "the rubric change made the readers more permissive. Census 005's 0.0% does not stand as measured.",
+ "failure": {
+  "id": "intellectual.oewn-01784888-s",
+  "fault": "wrong-charge",
+  "why": "the gloss 'of or associated with or requiring the use of the mind' is relational and carries no judgement; the note singled out the 'requiring' disjunct and inflated it into 'demanding real thought' to justify a positive charge",
+  "repair": "charge 1 -> 0, note rewritten to name the domain rather than praise the work; re-read blind by a further reader: right"
+ }
+}
