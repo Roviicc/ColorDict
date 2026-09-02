@@ -1,0 +1,299 @@
+{
+ "packet": 4,
+ "verdicts": [
+  {
+   "id": "beautiful.oewn-01805768-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Stays on the weather gloss, places the word above pleasant in force, positive charge fits, example fits."
+  },
+  {
+   "id": "dulcet.oewn-01805877-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Captures both halves of the gloss, extreme pleasantness delivered gently, and stays inside the word."
+  },
+  {
+   "id": "enjoyable.oewn-01806033-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Plain approval for something affording pleasure, contrasted with gratifying without leaving the gloss."
+  },
+  {
+   "id": "grateful.oewn-01806331-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Correctly anchors on the thing affording comfort rather than the thanks-feeling sense, and the fire example fits."
+  },
+  {
+   "id": "gratifying.oewn-01806033-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Leans on the satisfaction half of the gloss and contrasts with pleasurable; example fits."
+  },
+  {
+   "id": "idyllic.oewn-01806450-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Describes charm, simplicity and serenity as the gloss does, and ranks it within the family."
+  },
+  {
+   "id": "pleasant.oewn-01805299-a",
+   "verdict": "right",
+   "fault": null,
+   "why": "Baseline reading of pleasure agreeing with taste, matching the gloss and contrasting neighbours."
+  },
+  {
+   "id": "pleasing.oewn-01806604-s",
+   "verdict": "wrong",
+   "fault": "restriction",
+   "why": "The gloss says agreeable to the senses generally, but the note narrows it to what strikes eye or ear while the packet's own example is an aroma."
+  },
+  {
+   "id": "pleasurable.oewn-01806033-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Names pleasure itself against gratifying's fulfilment; fits the gloss and both examples."
+  },
+  {
+   "id": "bankable.oewn-01877172-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Approval through certainty of profit matches the gloss's guaranteed, and the stars example fits."
+  },
+  {
+   "id": "economic.oewn-01877533-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Dry ledger approval for financially rewarding, positive charge plausible, both examples fit this sense."
+  },
+  {
+   "id": "fat.oewn-01877317-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Relish at a thick return fits lucrative and the job example."
+  },
+  {
+   "id": "gainful.oewn-01877441-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Measured approval keyed to the gloss's fair rather than large profit."
+  },
+  {
+   "id": "juicy.oewn-01877317-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Appetite for a tempting profit fits lucrative and the contract example."
+  },
+  {
+   "id": "lucrative.oewn-01877742-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Formal register label plus size of profit as the claim, matching the gloss."
+  },
+  {
+   "id": "moneymaking.oewn-01877742-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Blunt naming of the money as praise, within the sizeable-profit gloss."
+  },
+  {
+   "id": "paid.oewn-01877441-s",
+   "verdict": "wrong",
+   "fault": "gloss-mismatch",
+   "why": "The gloss is yielding a fair profit, but the note describes the word as merely marking that money came and denying any claim about amount, which is the received-pay sense, not this one."
+  },
+  {
+   "id": "paying.oewn-01877441-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Mild approval for an ongoing return fits yielding a fair profit."
+  },
+  {
+   "id": "profitable.oewn-01876839-a",
+   "verdict": "right",
+   "fault": null,
+   "why": "Flat baseline that a return exists matches the gloss; neutral-in-family is plausible for the family's plainest member."
+  },
+  {
+   "id": "remunerative.oewn-01877742-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Formal decorum lent to a sizeable profit, contrasted with moneymaking, within the gloss."
+  },
+  {
+   "id": "axenic.oewn-01912370-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Technical specification of a culture free of other organisms, neutral, within the gloss."
+  },
+  {
+   "id": "clean.oewn-01912517-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Plain physical approval for absence of impurities, contrasted with pristine."
+  },
+  {
+   "id": "clear.oewn-01912661-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Praise for undulled sound or colour, keeps the sound/colour restriction, and distinguishes from clean."
+  },
+  {
+   "id": "fine.oewn-01913014-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Gradable purity matches the gloss's high or specified degree, and the carats example fits."
+  },
+  {
+   "id": "fresh.oewn-01912517-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Same absence of impurity as clean with a livelier force; stays inside the gloss."
+  },
+  {
+   "id": "light.oewn-01912661-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Softer than clear for the same undulled sound or colour, matching the gloss."
+  },
+  {
+   "id": "native.oewn-01913172-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Descriptive, no credit attached, for the elemental-form-in-nature gloss."
+  },
+  {
+   "id": "plain.oewn-01913300-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Flat statement that nothing extraneous is mixed in, neutral, matching the gloss."
+  },
+  {
+   "id": "pristine.oewn-01913490-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Admiring extreme of complete freedom from dirt or contamination, contrasted with clean."
+  },
+  {
+   "id": "pure.oewn-01911832-a",
+   "verdict": "right",
+   "fault": null,
+   "why": "Unrestricted absence of extraneous elements of any kind, matching the gloss and examples."
+  },
+  {
+   "id": "sheer.oewn-01913300-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Absolute force on total unmixedness against plain's factual tone; neutral plausible."
+  },
+  {
+   "id": "straight_up.oewn-01913613-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "A serving instruction passing no verdict, neutral, matching the drink gloss and example."
+  },
+  {
+   "id": "sublimate.oewn-01913797-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Purity reached by being made, stated as result, matching made pure and contrasting native."
+  },
+  {
+   "id": "unclouded.oewn-01912661-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Negative form naming what fails to dim sound or colour, keeps the gloss's restriction."
+  },
+  {
+   "id": "unmingled.oewn-01913300-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Formal denial of admixture, neutral, within the gloss."
+  },
+  {
+   "id": "unmixed.oewn-01913300-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Blunt denial of admixture, neutral, and the blessing example fits this sense."
+  },
+  {
+   "id": "admirable.oewn-01990227-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Wholehearted call for respect fits deserving of esteem and contrasts with respectable."
+  },
+  {
+   "id": "esteemed.oewn-01990022-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Warm, elevated regard making the reputation illustrious, matching the gloss and example."
+  },
+  {
+   "id": "estimable.oewn-01990227-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Formal, desert rather than receipt, correctly distinguishing this gloss from respected."
+  },
+  {
+   "id": "good.oewn-01990227-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Plain flat grant of desert fits the gloss and the good-name example."
+  },
+  {
+   "id": "honorable.oewn-01990227-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Leans the desert toward earned conduct without excluding the gloss's scope."
+  },
+  {
+   "id": "honored.oewn-01990022-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Conferred, marked distinction fits illustrious reputation and contrasts with esteemed."
+  },
+  {
+   "id": "honoured.oewn-01990022-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "British spelling is a register label; force deferred to honored, which fits the gloss."
+  },
+  {
+   "id": "prestigious.oewn-01990022-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Weight on the shine of the name fits illustrious reputation; example fits."
+  },
+  {
+   "id": "redoubtable.oewn-01990497-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Formal, distanced respect nearer awe still sits inside worthy of respect or honor; example fits."
+  },
+  {
+   "id": "reputable.oewn-01989711-a",
+   "verdict": "right",
+   "fault": null,
+   "why": "Lowest-setting approval of a sound reputation matches having a good reputation and the examples."
+  },
+  {
+   "id": "respectable.oewn-01990227-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Standard met, short of admiration, fits the gloss and the companies example."
+  },
+  {
+   "id": "respected.oewn-01990613-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Regard actually received matches the gloss and mirrors estimable correctly."
+  },
+  {
+   "id": "time-honored.oewn-01990737-s",
+   "verdict": "right",
+   "fault": null,
+   "why": "Approval by duration of acceptance is exactly the gloss; it is about the thing's age as the word claims it, not the word's origin."
+  }
+ ]
+}

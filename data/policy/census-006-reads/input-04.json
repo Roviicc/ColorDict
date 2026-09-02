@@ -1,0 +1,629 @@
+{
+ "packet": 4,
+ "count": 49,
+ "entries": [
+  {
+   "id": "beautiful.oewn-01805768-s",
+   "word": "beautiful",
+   "definition": "(of weather) highly enjoyable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Turned on the weather, it rates a day at the top of enjoyable rather than merely *pleasant*.",
+   "usage_labels": [],
+   "examples": [
+    "what a beautiful day"
+   ]
+  },
+  {
+   "id": "dulcet.oewn-01805877-s",
+   "word": "dulcet",
+   "definition": "extremely pleasant in a gentle way",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Intensity turned soft — pleasantness taken to an extreme, but gently, where *gratifying* is emphatic.",
+   "usage_labels": [],
+   "examples": [
+    "the most dulcet swimming on the most beautiful and remote beaches"
+   ]
+  },
+  {
+   "id": "enjoyable.oewn-01806033-s",
+   "word": "enjoyable",
+   "definition": "affording satisfaction or pleasure",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Unadorned approval of something that gives pleasure, carrying none of the sense of a want answered that *gratifying* adds.",
+   "usage_labels": [],
+   "examples": [
+    "the company was enjoyable"
+   ]
+  },
+  {
+   "id": "grateful.oewn-01806331-s",
+   "word": "grateful",
+   "definition": "affording comfort or pleasure",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Describes the thing that gives comfort rather than the person who feels thanks — a warm, easing approval beside the brighter *pleasurable*.",
+   "usage_labels": [],
+   "examples": [
+    "the grateful warmth of the fire"
+   ]
+  },
+  {
+   "id": "gratifying.oewn-01806033-s",
+   "word": "gratifying",
+   "definition": "affording satisfaction or pleasure",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Leans on the satisfaction half of the sense — pleasure that answers something, where *pleasurable* is pleasure for its own sake.",
+   "usage_labels": [],
+   "examples": [
+    "found her praise gratifying"
+   ]
+  },
+  {
+   "id": "idyllic.oewn-01806450-s",
+   "word": "idyllic",
+   "definition": "suggestive of an idyll; charmingly simple and serene",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The strongest here — not merely pleasant but charmed, simple and serene, an ideal rather than a preference met.",
+   "usage_labels": [],
+   "examples": [
+    "his idyllic life in Tahiti"
+   ]
+  },
+  {
+   "id": "pleasant.oewn-01805299-a",
+   "word": "pleasant",
+   "definition": "affording pleasure; being in harmony with your taste or likings",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain baseline of the family — pleasure that simply agrees with your taste, without the sweetness of *dulcet* or the height of *idyllic*.",
+   "usage_labels": [],
+   "examples": [
+    "we had a pleasant evening together",
+    "a pleasant scene",
+    "pleasant sensations"
+   ]
+  },
+  {
+   "id": "pleasing.oewn-01806604-s",
+   "word": "pleasing",
+   "definition": "pleasant or agreeable to the senses",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Routes approval through the senses — what strikes eye or ear as agreeable, milder than the extremity of *dulcet*.",
+   "usage_labels": [],
+   "examples": [
+    "a pleasing aroma"
+   ]
+  },
+  {
+   "id": "pleasurable.oewn-01806033-s",
+   "word": "pleasurable",
+   "definition": "affording satisfaction or pleasure",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most direct of these three: it names the pleasure itself, with none of the fulfilment *gratifying* implies.",
+   "usage_labels": [],
+   "examples": [
+    "full of happiness and pleasurable excitement",
+    "good printing makes a book more pleasurable to read"
+   ]
+  },
+  {
+   "id": "bankable.oewn-01877172-s",
+   "word": "bankable",
+   "definition": "guaranteed to bring a profit",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approves through certainty rather than size - the profit is treated as already secured, where *profitable* claims only that it is there.",
+   "usage_labels": [],
+   "examples": [
+    "without bankable stars the film script aroused no interest"
+   ]
+  },
+  {
+   "id": "economic.oewn-01877533-s",
+   "word": "economic",
+   "definition": "financially rewarding",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The dry member - it approves by the ledger, granting a reward without any of the appetite in *fat* or *juicy*.",
+   "usage_labels": [],
+   "examples": [
+    "it was no longer economic to keep the factory open",
+    "have to keep prices high enough to make it economic to continue the service"
+   ]
+  },
+  {
+   "id": "fat.oewn-01877317-s",
+   "word": "fat",
+   "definition": "lucrative",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Relish rather than accounting - it praises a return by its sheer thickness, where *profitable* merely records one.",
+   "usage_labels": [],
+   "examples": [
+    "a nice fat job"
+   ]
+  },
+  {
+   "id": "gainful.oewn-01877441-s",
+   "word": "gainful",
+   "definition": "yielding a fair profit",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Measured approval - the return it names is a fair one rather than a large one, which keeps it clear of the greed in *juicy*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "juicy.oewn-01877317-s",
+   "word": "juicy",
+   "definition": "lucrative",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Appetite - it makes the profit tempting, something to be got at, where *fat* only makes it thick.",
+   "usage_labels": [],
+   "examples": [
+    "a juicy contract"
+   ]
+  },
+  {
+   "id": "lucrative.oewn-01877742-s",
+   "word": "lucrative",
+   "definition": "producing a sizeable profit",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and emphatic at once - the size of the profit is the entire claim, stated without the hunger of *juicy*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "moneymaking.oewn-01877742-s",
+   "word": "moneymaking",
+   "definition": "producing a sizeable profit",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Blunt where *lucrative* is formal - it names the money outright and lets that stand as the praise.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "paid.oewn-01877441-s",
+   "word": "paid",
+   "definition": "yielding a fair profit",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The barest member - it marks that money came and makes no claim at all about whether that is much.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "paying.oewn-01877441-s",
+   "word": "paying",
+   "definition": "yielding a fair profit",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Mildly approving - it treats the return as something the thing keeps doing, where *paid* records only that it happened.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "profitable.oewn-01876839-a",
+   "word": "profitable",
+   "definition": "yielding material gain or profit",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flat baseline of the family - it reports that a return exists and says nothing about its size or how welcome it is, which is the whole of what *juicy* adds.",
+   "usage_labels": [],
+   "examples": [
+    "profitable speculation on the stock market"
+   ]
+  },
+  {
+   "id": "remunerative.oewn-01877742-s",
+   "word": "remunerative",
+   "definition": "producing a sizeable profit",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most formal way to say it - it lends a sizeable profit a decorum that *moneymaking* makes no attempt at.",
+   "usage_labels": [],
+   "examples": [
+    "a remunerative business"
+   ]
+  },
+  {
+   "id": "axenic.oewn-01912370-s",
+   "word": "axenic",
+   "definition": "(used of cultures of microorganisms) completely free from other organisms",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Technical and exact: it certifies that a culture of microorganisms holds no other organism, a specification rather than a compliment.",
+   "usage_labels": [],
+   "examples": [
+    "an axenic culture"
+   ]
+  },
+  {
+   "id": "clean.oewn-01912517-s",
+   "word": "clean",
+   "definition": "free from impurities",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving in a plain, physical way — the impurities are gone, and it says so without the ceremony of *pristine*.",
+   "usage_labels": [],
+   "examples": [
+    "clean water"
+   ]
+  },
+  {
+   "id": "clear.oewn-01912661-s",
+   "word": "clear",
+   "definition": "(of sound or color) free from anything that dulls or dims",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise for a sound or colour that nothing dulls or dims — the brightness is the point, not the absence of dirt that *clean* answers to.",
+   "usage_labels": [],
+   "examples": [
+    "clear laughter like a waterfall",
+    "clear reds and blues"
+   ]
+  },
+  {
+   "id": "fine.oewn-01913014-s",
+   "word": "fine",
+   "definition": "free from impurities; having a high or specified degree of purity",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Gradable where the rest are absolute: purity here is a degree that can be high or specified, so it measures where *pure* merely declares.",
+   "usage_labels": [],
+   "examples": [
+    "gold 21 carats fine"
+   ]
+  },
+  {
+   "id": "fresh.oewn-01912517-s",
+   "word": "fresh",
+   "definition": "free from impurities",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Names the same absence of impurity as *clean* but with a livelier, more inviting force.",
+   "usage_labels": [],
+   "examples": [
+    "fresh air"
+   ]
+  },
+  {
+   "id": "light.oewn-01912661-s",
+   "word": "light",
+   "definition": "(of sound or color) free from anything that dulls or dims",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Softer and less emphatic than *clear* for the same undulled sound or colour, approving without insisting.",
+   "usage_labels": [],
+   "examples": [
+    "a light lilting voice like a silver bell"
+   ]
+  },
+  {
+   "id": "native.oewn-01913172-s",
+   "word": "native",
+   "definition": "as found in nature in the elemental form",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Descriptive rather than evaluative — it records that the thing already stands in its elemental form in nature, and attaches no credit to that.",
+   "usage_labels": [],
+   "examples": [
+    "native copper"
+   ]
+  },
+  {
+   "id": "plain.oewn-01913300-s",
+   "word": "plain",
+   "definition": "not mixed with extraneous elements",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flattest word here, stating that nothing extraneous is mixed in and neither admiring nor disparaging the fact.",
+   "usage_labels": [],
+   "examples": [
+    "plain water"
+   ]
+  },
+  {
+   "id": "pristine.oewn-01913490-s",
+   "word": "pristine",
+   "definition": "completely free from dirt or contamination",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The admiring extreme — not merely unmixed but wholly untouched by dirt or contamination, a completeness *clean* never claims.",
+   "usage_labels": [],
+   "examples": [
+    "pristine mountain snow"
+   ]
+  },
+  {
+   "id": "pure.oewn-01911832-a",
+   "word": "pure",
+   "definition": "free of extraneous elements of any kind",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The unrestricted term of the family — nothing extraneous of any kind survives it, where *clean* answers only to impurity.",
+   "usage_labels": [],
+   "examples": [
+    "pure air and water",
+    "pure gold",
+    "pure primary colors",
+    "the violin's pure and lovely song",
+    "pure tones",
+    "pure oxygen"
+   ]
+  },
+  {
+   "id": "sheer.oewn-01913300-s",
+   "word": "sheer",
+   "definition": "not mixed with extraneous elements",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Absolute in force where *plain* is merely factual, pressing on the totality of the unmixedness rather than reporting it.",
+   "usage_labels": [],
+   "examples": [
+    "sheer wine"
+   ]
+  },
+  {
+   "id": "straight_up.oewn-01913613-s",
+   "word": "straight up",
+   "definition": "(of an alcoholic drink) stirred or shaken with ice, but served without it",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A serving instruction rather than a judgement: the drink met the ice and was left without it, and the phrase passes no verdict on the result.",
+   "usage_labels": [],
+   "examples": [
+    "I like my martinis straight up"
+   ]
+  },
+  {
+   "id": "sublimate.oewn-01913797-s",
+   "word": "sublimate",
+   "definition": "made pure",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The opposite arrival from *native* — purity reached by being made, stated as a result rather than praised.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unclouded.oewn-01912661-s",
+   "word": "unclouded",
+   "definition": "(of sound or color) free from anything that dulls or dims",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The negative form makes the dimness explicit, praising a sound or colour by naming what fails to cloud it where *clear* simply asserts the brightness.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unmingled.oewn-01913300-s",
+   "word": "unmingled",
+   "definition": "not mixed with extraneous elements",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and slightly stiff, denying admixture in so many words rather than asserting purity outright as *pure* does.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unmixed.oewn-01913300-s",
+   "word": "unmixed",
+   "definition": "not mixed with extraneous elements",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The blunt, unceremonious form of that same denial — *unmingled* says it formally, this says it flatly.",
+   "usage_labels": [],
+   "examples": [
+    "not an unmixed blessing"
+   ]
+  },
+  {
+   "id": "admirable.oewn-01990227-s",
+   "word": "admirable",
+   "definition": "deserving of esteem and respect",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The warmest word here - it does not merely permit respect but calls for it, wholehearted where *respectable* is guarded.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "esteemed.oewn-01990022-s",
+   "word": "esteemed",
+   "definition": "having an illustrious reputation; respected",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warm and elevating - the regard is felt rather than merely recorded, and pitched high enough to make the reputation an illustrious one.",
+   "usage_labels": [],
+   "examples": [
+    "our esteemed leader"
+   ]
+  },
+  {
+   "id": "estimable.oewn-01990227-s",
+   "word": "estimable",
+   "definition": "deserving of esteem and respect",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal, and it turns on desert rather than receipt - the respect is owed whether or not anyone is paying it, unlike *respected*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "good.oewn-01990227-s",
+   "word": "good",
+   "definition": "deserving of esteem and respect",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plainest carrier in the family - it grants the same desert as *estimable* with none of the elevation, approval stated flat.",
+   "usage_labels": [],
+   "examples": [
+    "ruined the family's good name"
+   ]
+  },
+  {
+   "id": "honorable.oewn-01990227-s",
+   "word": "honorable",
+   "definition": "deserving of esteem and respect",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Weights the desert toward conduct - respect a person has earned, where *prestigious* names respect that standing confers.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "honored.oewn-01990022-s",
+   "word": "honored",
+   "definition": "having an illustrious reputation; respected",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Frames the standing as a distinction conferred and marked, where *esteemed* leaves it as regard quietly held.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "honoured.oewn-01990022-s",
+   "word": "honoured",
+   "definition": "having an illustrious reputation; respected",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The British spelling of *honored*, identical in force and in the conferred distinction it implies.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "prestigious.oewn-01990022-s",
+   "word": "prestigious",
+   "definition": "having an illustrious reputation; respected",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Puts the weight on the shine of the name itself - impressiveness rather than the warmth *esteemed* carries toward the person holding it.",
+   "usage_labels": [],
+   "examples": [
+    "a prestigious author"
+   ]
+  },
+  {
+   "id": "redoubtable.oewn-01990497-s",
+   "word": "redoubtable",
+   "definition": "worthy of respect or honor",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and weighty, and the respect it claims keeps its distance - something closer to awe than to the warmth of *admirable*.",
+   "usage_labels": [],
+   "examples": [
+    "born of a redoubtable family"
+   ]
+  },
+  {
+   "id": "reputable.oewn-01989711-a",
+   "word": "reputable",
+   "definition": "having a good reputation",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approval at its lowest setting - it certifies that a reputation is sound without claiming it is distinguished, which is exactly what *esteemed* claims.",
+   "usage_labels": [],
+   "examples": [
+    "a reputable business",
+    "a reputable scientist",
+    "a reputable wine"
+   ]
+  },
+  {
+   "id": "respectable.oewn-01990227-s",
+   "word": "respectable",
+   "definition": "deserving of esteem and respect",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise measured to the bar rather than to the height - it says the standard is met and stops well short of admiration.",
+   "usage_labels": [],
+   "examples": [
+    "all respectable companies give guarantees"
+   ]
+  },
+  {
+   "id": "respected.oewn-01990613-s",
+   "word": "respected",
+   "definition": "receiving deferential regard",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Reports regard actually given rather than deserved - the mirror of *estimable*, which claims the desert and says nothing about receipt.",
+   "usage_labels": [],
+   "examples": [
+    "a respected family"
+   ]
+  },
+  {
+   "id": "time-honored.oewn-01990737-s",
+   "word": "time-honored",
+   "definition": "acceptable for a long time, or having a long history",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approves by duration rather than by merit - the warrant is how long a thing has been accepted, not whether it deserves to be.",
+   "usage_labels": [],
+   "examples": [
+    "time-honored customs"
+   ]
+  }
+ ]
+}

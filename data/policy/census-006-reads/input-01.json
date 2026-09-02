@@ -1,0 +1,620 @@
+{
+ "packet": 1,
+ "count": 49,
+ "entries": [
+  {
+   "id": "dark.oewn-00036876-s",
+   "word": "dark",
+   "definition": "not giving performances; closed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "States a closure as a plain condition — nothing is being put on — where *dead* would make the emptiness itself the verdict.",
+   "usage_labels": [],
+   "examples": [
+    "the theater is dark on Mondays"
+   ]
+  },
+  {
+   "id": "dead.oewn-00036992-s",
+   "word": "dead",
+   "definition": "devoid of activity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The absolute form: activity is not merely reduced but gone, which is what carries it past *dull*.",
+   "usage_labels": [],
+   "examples": [
+    "this is a dead town: nothing ever happens here"
+   ]
+  },
+  {
+   "id": "dull.oewn-00037111-s",
+   "word": "dull",
+   "definition": "(of business) not active or brisk",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Hears the lack of briskness as a flatness worth complaining about, where *slow* only reports the rate.",
+   "usage_labels": [],
+   "examples": [
+    "business is dull (or slow)"
+   ]
+  },
+  {
+   "id": "idle.oewn-00037301-s",
+   "word": "idle",
+   "definition": "not in active use",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts a hint of waste on the disuse — something capable of working and sitting there instead — which *unused* does not.",
+   "usage_labels": [],
+   "examples": [
+    "the machinery sat idle during the strike",
+    "idle hands"
+   ]
+  },
+  {
+   "id": "inactive.oewn-00036594-a",
+   "word": "inactive",
+   "definition": "lacking activity; lying idle or unused",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flat, unmarked term for the state, reporting that nothing is going on without suggesting anything is wrong with that.",
+   "usage_labels": [],
+   "examples": [
+    "an inactive mine",
+    "inactive accounts",
+    "inactive machinery"
+   ]
+  },
+  {
+   "id": "slow.oewn-00037111-s",
+   "word": "slow",
+   "definition": "(of business) not active or brisk",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The mildest of the three, measuring the pace of trade rather than passing judgement on it as *sluggish* does.",
+   "usage_labels": [],
+   "examples": [
+    "business is dull (or slow)"
+   ]
+  },
+  {
+   "id": "sluggish.oewn-00037111-s",
+   "word": "sluggish",
+   "definition": "(of business) not active or brisk",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Adds torpor to the slackness, making the absence of brisk trade sound like something too heavy to move.",
+   "usage_labels": [],
+   "examples": [
+    "a sluggish market"
+   ]
+  },
+  {
+   "id": "strikebound.oewn-00037454-s",
+   "word": "strikebound",
+   "definition": "closed or immobilized by a strike",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Names the cause along with the standstill, so it attributes rather than evaluates the stoppage.",
+   "usage_labels": [],
+   "examples": [
+    "a strikebound airline"
+   ]
+  },
+  {
+   "id": "unused.oewn-00037301-s",
+   "word": "unused",
+   "definition": "not in active use",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely factual: it records that the thing is not in use and stops, with none of the reproach in *idle*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "alive.oewn-00119378-a",
+   "word": "alive",
+   "definition": "having life or vigor or spirit",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise cut back to a bare condition - where *animated* shows the vigor off, this only asserts that it is there.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "animated.oewn-00119378-a",
+   "word": "animated",
+   "definition": "having life or vigor or spirit",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Mild approval - credits a thing with visible vigor without claiming it brims over the way *lively* does.",
+   "usage_labels": [],
+   "examples": [
+    "an animated and expressive face",
+    "animated conversation",
+    "became very animated when he heard the good news"
+   ]
+  },
+  {
+   "id": "enlivened.oewn-00119655-s",
+   "word": "enlivened",
+   "definition": "made lively or spirited",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Flat and causal - the liveliness was put in from outside, so the word credits the doing rather than the thing.",
+   "usage_labels": [],
+   "examples": [
+    "a meal enlivened by the music"
+   ]
+  },
+  {
+   "id": "lively.oewn-00119817-s",
+   "word": "lively",
+   "definition": "full of spirit; full of life",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A step past *animated*'s mere possession of spirit to fullness of it, and the warmth rises with the quantity.",
+   "usage_labels": [],
+   "examples": [
+    "this whole lively world"
+   ]
+  },
+  {
+   "id": "reanimated.oewn-00120089-s",
+   "word": "reanimated",
+   "definition": "given fresh life or vigor or spirit",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "States the restoration plainly - fresh vigor recorded as an outcome, with none of the relief *revived* carries.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "revived.oewn-00120089-s",
+   "word": "revived",
+   "definition": "given fresh life or vigor or spirit",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warmer than *reanimated* for the same return of vigor - the fresh life sounds like a recovery worth welcoming.",
+   "usage_labels": [],
+   "examples": [
+    "stirred by revived hopes"
+   ]
+  },
+  {
+   "id": "spirited.oewn-00119655-s",
+   "word": "spirited",
+   "definition": "made lively or spirited",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Frankly admiring where *enlivened* stays descriptive - the same imparted liveliness heard as a virtue rather than an effect.",
+   "usage_labels": [],
+   "examples": [
+    "a spirited debate"
+   ]
+  },
+  {
+   "id": "vital.oewn-00119817-s",
+   "word": "vital",
+   "definition": "full of spirit; full of life",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Elevated in register - the same fullness of life as *lively*, but weightier, sounding like a force within rather than a liveliness on show.",
+   "usage_labels": [],
+   "examples": [
+    "a vital and charismatic leader"
+   ]
+  },
+  {
+   "id": "astute.oewn-00440649-s",
+   "word": "astute",
+   "definition": "marked by practical hardheaded intelligence",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise for judgement that sees through a situation, formal in register and weightier than *sharp*, which credits speed instead.",
+   "usage_labels": [],
+   "examples": [
+    "an astute tenant always reads the small print in a lease"
+   ]
+  },
+  {
+   "id": "cagey.oewn-00440992-s",
+   "word": "cagey",
+   "definition": "showing self-interest and shrewdness in dealing with others",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Credits the shrewdness while flagging the guardedness - intelligence held close and used defensively, which is why the approval is only half given.",
+   "usage_labels": [],
+   "examples": [
+    "a cagey lawyer"
+   ]
+  },
+  {
+   "id": "cagy.oewn-00440992-s",
+   "word": "cagy",
+   "definition": "showing self-interest and shrewdness in dealing with others",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "An alternate spelling carrying exactly the force of *cagey*, wariness and self-interest both.",
+   "usage_labels": [],
+   "examples": [
+    "a cagey lawyer"
+   ]
+  },
+  {
+   "id": "canny.oewn-00440992-s",
+   "word": "canny",
+   "definition": "showing self-interest and shrewdness in dealing with others",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Makes the self-interest sound like sound sense rather than concealment, warming what *cagey* leaves guarded.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "clever.oewn-00440992-s",
+   "word": "clever",
+   "definition": "showing self-interest and shrewdness in dealing with others",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The double-edged member - it grants the quickness while letting the self-interest show, so it can compliment and needle in one word.",
+   "usage_labels": [],
+   "examples": [
+    "too clever to be sound"
+   ]
+  },
+  {
+   "id": "sharp.oewn-00440649-s",
+   "word": "sharp",
+   "definition": "marked by practical hardheaded intelligence",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same practical intelligence as *astute*, but felt as quickness and edge rather than depth.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "shrewd.oewn-00440649-s",
+   "word": "shrewd",
+   "definition": "marked by practical hardheaded intelligence",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approves the hardheaded part out loud, so the compliment comes with a coolness *astute* does not have.",
+   "usage_labels": [],
+   "examples": [
+    "he was too shrewd to go along with them on a road that could lead only to their overthrow"
+   ]
+  },
+  {
+   "id": "smart.oewn-00440447-a",
+   "word": "smart",
+   "definition": "showing mental alertness and calculation and resourcefulness",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The family's plain approving term - alertness and resourcefulness credited straight, with none of the self-interested edge *cagey* carries.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "street_smart.oewn-00441171-s",
+   "word": "street smart",
+   "definition": "having the shrewd resourcefulness needed to survive in an urban environment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Says what *streetwise* says with the parts laid bare, the street and the smartness named separately, which makes it land blunter.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "streetwise.oewn-00441171-s",
+   "word": "streetwise",
+   "definition": "having the shrewd resourcefulness needed to survive in an urban environment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Respect for intelligence proved under pressure rather than taught - resourcefulness measured by whether it keeps a person going in a city.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "with-it.oewn-00441171-s",
+   "word": "with-it",
+   "definition": "having the shrewd resourcefulness needed to survive in an urban environment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal and light, it makes the same survival-sharpness sound like being clued in rather than hardened by it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "constructive.oewn-00587481-a",
+   "word": "constructive",
+   "definition": "constructing or tending to construct or improve or promote development",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving on two counts at once - it builds and it improves, where *formative* only shapes and leaves the worth of the result open.",
+   "usage_labels": [],
+   "examples": [
+    "constructive criticism",
+    "a constructive attitude",
+    "a constructive philosophy",
+    "constructive permission"
+   ]
+  },
+  {
+   "id": "creative.oewn-00587863-s",
+   "word": "creative",
+   "definition": "promoting construction or creation",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving at one remove: it credits what fosters making rather than the making itself, a lighter claim than the improvement built into *constructive*.",
+   "usage_labels": [],
+   "examples": [
+    "creative work"
+   ]
+  },
+  {
+   "id": "formative.oewn-00588059-s",
+   "word": "formative",
+   "definition": "forming or capable of forming or molding or fashioning",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Neutral - it names the power to shape without saying the shaping is for the better, which is exactly what *constructive* asserts.",
+   "usage_labels": [],
+   "examples": [
+    "a formative influence",
+    "a formative experience"
+   ]
+  },
+  {
+   "id": "inferential.oewn-00588444-s",
+   "word": "inferential",
+   "definition": "based on interpretation; not directly expressed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Carries no approval at all - it marks how something is arrived at, by interpretation rather than statement, where *constructive* judges the worth of what is done.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "plastic.oewn-00588059-s",
+   "word": "plastic",
+   "definition": "forming or capable of forming or molding or fashioning",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Treats the power to mold as a flat property of a thing rather than a merit, which keeps it cooler than *creative*.",
+   "usage_labels": [],
+   "examples": [
+    "the plastic forces of nature"
+   ]
+  },
+  {
+   "id": "reconstructive.oewn-00588549-s",
+   "word": "reconstructive",
+   "definition": "helping to restore to good condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving of repair: the good it names is a return to sound condition rather than the new making in *constructive*.",
+   "usage_labels": [],
+   "examples": [
+    "reconstructive surgery"
+   ]
+  },
+  {
+   "id": "rehabilitative.oewn-00588549-s",
+   "word": "rehabilitative",
+   "definition": "helping to restore to good condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same restoring good as *reconstructive*, but the longer, more formal word makes the helping sound like a sustained process rather than a single fix.",
+   "usage_labels": [],
+   "examples": [
+    "rehabilitative exercises"
+   ]
+  },
+  {
+   "id": "shaping.oewn-00588059-s",
+   "word": "shaping",
+   "definition": "forming or capable of forming or molding or fashioning",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Bare and unweighted, the act of forming stated as such, where *formative* points instead at the capacity to form.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "structural.oewn-00588753-s",
+   "word": "structural",
+   "definition": "concerned with systematic structure in a particular field of study",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely descriptive - it places a thing within a system of study and does none of the approving that runs through *constructive*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "back.oewn-00672052-s",
+   "word": "back",
+   "definition": "of an earlier date",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely positional - it sets something at an earlier date and judges nothing about it.",
+   "usage_labels": [],
+   "examples": [
+    "back issues of the magazine"
+   ]
+  },
+  {
+   "id": "dead.oewn-00672155-s",
+   "word": "dead",
+   "definition": "no longer having force or relevance",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt and absolute - force and relevance are gone outright, not ebbing as in *obsolescent*.",
+   "usage_labels": [],
+   "examples": [
+    "a dead issue"
+   ]
+  },
+  {
+   "id": "disused.oewn-00672257-s",
+   "word": "disused",
+   "definition": "no longer in use",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "States the plain fact of non-use and leaves the reason alone.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "noncurrent.oewn-00671807-a",
+   "word": "noncurrent",
+   "definition": "not current or belonging to the present time",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flattest term here - a bare negation of present-day standing, without the verdict *obsolete* passes.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "obsolescent.oewn-00672603-s",
+   "word": "obsolescent",
+   "definition": "becoming obsolete",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Marks the slide rather than the arrival - on its way to what *obsolete* already is.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "obsolete.oewn-00672257-s",
+   "word": "obsolete",
+   "definition": "no longer in use",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The same non-use as *disused*, but delivered as a verdict rather than an observation.",
+   "usage_labels": [],
+   "examples": [
+    "obsolete words"
+   ]
+  },
+  {
+   "id": "out-of-date.oewn-00672374-s",
+   "word": "out-of-date",
+   "definition": "old; no longer valid or fashionable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Plain and unemphatic - it reports the same lapse *outdated* reports, with less of the reproach.",
+   "usage_labels": [],
+   "examples": [
+    "out-of-date ideas"
+   ]
+  },
+  {
+   "id": "outdated.oewn-00672374-s",
+   "word": "outdated",
+   "definition": "old; no longer valid or fashionable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Faults the thing for its age, withdrawing validity and fashion in one stroke.",
+   "usage_labels": [],
+   "examples": [
+    "outdated equipment"
+   ]
+  },
+  {
+   "id": "superannuated.oewn-00672374-s",
+   "word": "superannuated",
+   "definition": "old; no longer valid or fashionable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and faintly withering - age is treated as having disqualified the thing.",
+   "usage_labels": [],
+   "examples": [
+    "superannuated laws"
+   ]
+  },
+  {
+   "id": "battered.oewn-00682829-s",
+   "word": "battered",
+   "definition": "damaged by blows or hard usage",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the cause inside the word - blows and hard usage - where *damaged* leaves the cause blank.",
+   "usage_labels": [],
+   "examples": [
+    "a battered old car"
+   ]
+  },
+  {
+   "id": "beat-up.oewn-00682829-s",
+   "word": "beat-up",
+   "definition": "damaged by blows or hard usage",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal where *battered* is neutral in register, treating the same hard usage as something to shrug at rather than record.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "beaten-up.oewn-00682829-s",
+   "word": "beaten-up",
+   "definition": "damaged by blows or hard usage",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The fuller form of *beat-up*, equally informal, with a little more of the beating still audible in it.",
+   "usage_labels": [],
+   "examples": [
+    "the beaten-up old Ford"
+   ]
+  }
+ ]
+}

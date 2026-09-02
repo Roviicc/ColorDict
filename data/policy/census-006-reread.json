@@ -1,0 +1,12 @@
+{"note": "the nine census-006 repairs, re-read blind by readers that neither authored them nor found the original faults. awesome needed three attempts and failed on a different fault class each time - world-not-word, then gloss-mismatch, then passed.",
+ "rounds": [
+  {"packet": 7, "read": 9, "right": 8, "wrong": 1,
+   "failed": {"id": "awesome.oewn-01285602-s", "fault": "world-not-word",
+              "why": "the repair turned to describe the thing named - large enough to stop someone in front of it - rather than what the word does, and narrowed awe to physical vastness"}},
+  {"packet": 8, "read": 1, "right": 0, "wrong": 1,
+   "failed": {"id": "awesome.oewn-01285602-s", "fault": "gloss-mismatch",
+              "why": "placed the word above admiration when the gloss lists admiration inside the sense alongside awe and wonder"}},
+  {"packet": 9, "read": 1, "right": 1, "wrong": 0,
+   "note": "reader told the note had failed twice and warned that repeated failure is not itself evidence of a fault"}
+ ],
+ "final": "9/9 right"}

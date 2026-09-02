@@ -1,0 +1,149 @@
+{
+ "sample": "census-006",
+ "seed": null,
+ "population": 292,
+ "read": 292,
+ "right": 282,
+ "wrong": 10,
+ "unsure": 0,
+ "error_rate_pct": 3.4,
+ "threshold_pct": 5.0,
+ "reader_model": "claude-fable-5-1",
+ "reader_effort": "xhigh",
+ "reader_agent": ".claude/agents/census-reader.md",
+ "reader_tools": "Read, Write",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
+ "missing_packets": [],
+ "unread": [],
+ "verdicts_for_unknown_ids": [],
+ "faults": {
+  "gloss-mismatch": 5,
+  "restriction": 3,
+  "other": 1,
+  "distribution": 1
+ },
+ "by_part_of_speech": {
+  "adjective": {
+   "read": 292,
+   "right": 282,
+   "wrong": 10,
+   "unsure": 0,
+   "error_rate_pct": 3.4
+  }
+ },
+ "failures_by_synset": {
+  "oewn-00587481-a": [
+   {
+    "id": "constructive.oewn-00587481-a",
+    "word": "constructive",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "Note is sound, but the example 'constructive permission' is the legal sense (permission inferred by interpretation, not expressly given), i.e. the inferential gloss, not constructing or improving.",
+    "definition": "constructing or tending to construct or improve or promote development",
+    "tone": "Approving on two counts at once - it builds and it improves, where *formative* only shapes and leaves the worth of the result open."
+   }
+  ],
+  "oewn-00971199-s": [
+   {
+    "id": "odd.oewn-00971199-s",
+    "word": "odd",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "Calling it 'the plain workhorse of this set' asserts it is the word that gets used most, a frequency claim with no corpus behind it.",
+    "definition": "beyond or deviating from the usual or expected",
+    "tone": "The plain workhorse of this set - it registers the deviation flatly, with none of *peculiar*'s second look."
+   }
+  ],
+  "oewn-01285602-s": [
+   {
+    "id": "awesome.oewn-01285602-s",
+    "word": "awesome",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "Speaker's enthusiasm on display and 'praise rather than description' describes the colloquial approval sense, not the awe sense the gloss and 'awesome complexity of the universe' give, where the word describes what the object inspires.",
+    "definition": "inspiring awe or admiration or wonder",
+    "tone": "The speaker's enthusiasm is as much on display as the thing admired, which is what makes it praise rather than description."
+   }
+  ],
+  "oewn-01286013-s": [
+   {
+    "id": "sensational.oewn-01286013-s",
+    "word": "sensational",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "The note's 'attention feels taken rather than deserved' is the disparaging sensationalist sense, not this approving 'commanding attention' sense whose example is a concert never to be forgotten.",
+    "definition": "commanding attention",
+    "tone": "The notice is commanded by sheer display, so the attention feels taken rather than deserved."
+   }
+  ],
+  "oewn-01806604-s": [
+   {
+    "id": "pleasing.oewn-01806604-s",
+    "word": "pleasing",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "The gloss says agreeable to the senses generally, but the note narrows it to what strikes eye or ear while the packet's own example is an aroma.",
+    "definition": "pleasant or agreeable to the senses",
+    "tone": "Routes approval through the senses — what strikes eye or ear as agreeable, milder than the extremity of *dulcet*."
+   }
+  ],
+  "oewn-01877441-s": [
+   {
+    "id": "paid.oewn-01877441-s",
+    "word": "paid",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "The gloss is yielding a fair profit, but the note describes the word as merely marking that money came and denying any claim about amount, which is the received-pay sense, not this one.",
+    "definition": "yielding a fair profit",
+    "tone": "The barest member - it marks that money came and makes no claim at all about whether that is much."
+   }
+  ],
+  "oewn-02341968-s": [
+   {
+    "id": "discomfited.oewn-02341968-s",
+    "word": "discomfited",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "Put out of countenance and added embarrassment describe the disconcerted sense of the lemma, not this gloss's disappointingly unsuccessful.",
+    "definition": "disappointingly unsuccessful",
+    "tone": "Formal, and it adds embarrassment to the failure: not merely beaten but put out of countenance."
+   }
+  ],
+  "oewn-02568954-s": [
+   {
+    "id": "good_for_you.oewn-02568954-s",
+    "word": "good for you",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "The gloss is healthful in general, but the note frames the sense as eater versus food, narrowing it to eating.",
+    "definition": "promoting health; healthful",
+    "tone": "Informal, and addressed to the eater rather than to the food, which makes the benefit personal in a way *salubrious* never is."
+   },
+   {
+    "id": "healthy.oewn-02568954-s",
+    "word": "healthy",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "The note says approval of what a food does for the body, while the gloss is general and the entry's own examples are air, sleep and outlets.",
+    "definition": "promoting health; healthful",
+    "tone": "Plain approval of what a food does for the body, without the moral reach of *wholesome*."
+   }
+  ],
+  "oewn-02569298-s": [
+   {
+    "id": "solid.oewn-02569298-s",
+    "word": "solid",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "The gloss is abundant nourishment, but the note reads in the reliable sense of solid and says dependable rather than generous, denying the abundance.",
+    "definition": "providing abundant nourishment",
+    "tone": "Sturdy, unshowy approval - nourishment credited with being dependable rather than generous."
+   }
+  ]
+ },
+ "authoring": "parallel family-author agents, one per family, Opus 5 at xhigh, rubric taken verbatim from .claude/agents/family-author.md",
+ "reading": "rubric taken VERBATIM from .claude/agents/census-reader.md. This is the first census read with the instrument as written rather than a variant typed into the prompts - censuses 003, 004 and 005 all used close paraphrases, and 005's rate had to be withdrawn because of it. Census 006 is therefore the first properly comparable baseline, and earlier rates should be read with that in mind.",
+ "blindness": "readers held only their own packet and the rubric - no copy of the repo, no access to data/policy/, and the authored files were removed from the working area before the read began",
+ "repairs": "9 of 10 repaired and re-read blind: 9/9 right. awesome took three attempts and failed a different fault class each time (world-not-word, then gloss-mismatch), which is recorded in census-006-reread.json - repair needs the same discipline as authoring.",
+ "not_repaired": "constructive.oewn-00587481-a was faulted `other`, and the reader's own reasoning says the note is sound: the fault is that OEWN's example for this sense ('constructive permission') belongs to the legal inferential sense. That is an upstream example problem, not a note problem, and no rewrite of the note fixes it. Left as authored and counted against the rate rather than argued away."
+}

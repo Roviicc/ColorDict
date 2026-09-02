@@ -58,7 +58,7 @@ from wordfreq import zipf_frequency
 ROOT = Path(__file__).resolve().parent.parent
 POS_FILE = {"a": "adjective-families.json", "v": "verb-families.json", "n": "noun-families.json"}
 COLUMNS = ["family_id", "head", "size", "peak_zipf", "median_zipf", "peak_word",
-           "charged", "labelled", "charged_pct", "eligible", "covered", "synsets"]
+           "charged", "labelled", "charged_pct", "held", "eligible", "covered", "synsets"]
 
 # A family smaller than this has no spectrum; one less charged than this is not
 # a connotation family. Both are gates on eligibility, not filters on the file.
@@ -102,6 +102,34 @@ def load_labels(path):
     return labels
 
 
+def core(family_id):
+    """`oewn-00685207-a` and `family-00685207-a` name the same family.
+
+    A worksheet renames a family on its way out, so matching held ids on the
+    literal string silently finds nothing - which is worse than not checking,
+    because the check looks like it ran.
+    """
+    parts = family_id.split("-")
+    return "-".join(parts[1:]) if len(parts) > 1 else family_id
+
+
+def held_families():
+    """Families deliberately withheld from automated authoring under plan 5.3.
+
+    A withheld family has no tone notes, so `annotated_synsets` cannot see it and
+    the ranking put it back at the head of the queue on the very next tick. That
+    is not a small annoyance: a family is withheld precisely because a person has
+    to make the judgement, and a queue that keeps re-offering it to an automated
+    pass will eventually get one.
+    """
+    held = set()
+    for path in sorted((ROOT / "data/families").glob("held-*.json")):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        for family in data.get("families", []):
+            held.add(core(family["id"]))
+    return held
+
+
 def zipf(word):
     """Multi-word entries score as their rarest part: *clapped out* is only as
     reachable as *clapped*. wordfreq returns 0.0 for a word it has never seen,
@@ -113,6 +141,7 @@ def zipf(word):
 
 
 def build(pos, labels):
+    held = held_families()
     families = json.loads((ROOT / "data/build" / POS_FILE[pos]).read_text(encoding="utf-8"))["families"]
     done = annotated_synsets()
 
@@ -143,7 +172,9 @@ def build(pos, labels):
             "charged": charged,
             "labelled": labelled,
             "charged_pct": round(charged / labelled, 2) if labelled else 0.0,
-            "eligible": int(size >= MIN_SIZE and labelled > 0
+            "held": int(core(family["id"]) in held),
+            "eligible": int(core(family["id"]) not in held
+                            and size >= MIN_SIZE and labelled > 0
                             and charged / labelled >= MIN_CHARGED_PCT),
             "covered": len(synsets & done),
             "synsets": len(synsets),
@@ -173,8 +204,11 @@ def main():
     queue = sum(1 for r in rows if r["eligible"] and not r["covered"])
     print(f"{len(rows)} families -> {args.out}")
     print(f"{touched} families already touched by a shard")
+    held_n = sum(1 for r in rows if r["held"])
     print(f"{eligible} eligible (size >= {MIN_SIZE}, charged >= {MIN_CHARGED_PCT:.0%}); "
           f"{queue} of those untouched and queued")
+    if held_n:
+        print(f"{held_n} family(ies) withheld under 5.3 and kept out of the queue")
 
 
 if __name__ == "__main__":

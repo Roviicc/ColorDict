@@ -389,12 +389,14 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-09-02 | **Tick 1: 17 families, 178 senses, 0.6% blind.** First shard authored by parallel `family-author` agents rather than one session writing serially. 0 lint flags, 1 `restriction` fault, repaired and re-read clean. The fan-out passes; the bottleneck it exposed is the orchestrator, not the authors. See 11.73 |
 | 2026-09-02 | **Tick 2: 25 families, 281 senses — and the ruler moved.** Authors wrote to disk instead of returning through the orchestrator, so a full-size tick fit in one session. The read came back 0.0%, and an adversarial re-read of 40 senses under the previous rubric found a fault it had passed. The 0.0% is withdrawn: tick 2 is under 5%, not more precisely known. See 11.74 |
 | 2026-09-02 | **The charge gate checked, and kept.** 30 families blind-triaged by two raters from different model families (27/30 agreement) against the hypothesis that the 0.70 threshold was too tight. It is not: the excluded 0.50-0.59 band scored 0.00. Gate unchanged; the hypothesis was wrong and the ~600 estimate in 11.6 is superseded. See 11.75 |
+| 2026-09-02 | **Tick 3: 25 families, 292 senses, 3.4% blind — the first verbatim read.** Rubric taken from `census-reader.md` as written rather than typed into the prompt, which is what censuses 003-005 all did. 10 faults, 9 repaired and re-read clean; *awesome* took three attempts and failed a different class each time. See 11.76 |
 
-**Current totals: 114 families, 1,343 annotated senses, 1,498 reviewed entries,
-0 validation errors. Measured error rates 3.8% / 1.1% / 0.6% (censuses 002, 003,
-004), all blind; census 005 is read but its rate is withdrawn (11.74) and tick 2
-counts only as "under 5%". Every annotated sense has been read by a model from a
-different family than the one that wrote it.** — including adverb senses inherited for free, and 11
+**Current totals: 139 families, 1,635 annotated senses, 1,793 reviewed entries,
+0 validation errors. Latest measured error rate 3.4% (census 006, blind, and the
+first read with the instrument used verbatim). Earlier rates — 3.8% / 1.1% /
+0.6% — were read under typed paraphrases of the rubric, and census 005's was
+withdrawn for that reason (11.74). Every annotated sense has been read by a
+model from a different family than the one that wrote it.** — including adverb senses inherited for free, and 11
 senses deliberately left `derived` because their gloss cannot carry a
 judgement. **The validator's zero errors mean well-formed, not correct: the
 audit is the only thing that measures correct. Every claim-carrying sense has
@@ -1417,6 +1419,87 @@ recording: **an hour spent confirming an instrument is not wasted when the
 alternative was fourteen ticks run against an unchecked one** — and the result
 that the hypothesis was wrong is exactly as useful as the result that it was
 right would have been.
+
+## 11.76 Tick 3 — the first read where the instrument was used as written
+
+**25 families, 292 senses. 282 right, 10 wrong, 0 unsure — 3.4%.** Under the 5%
+gate, and the most trustworthy number the project has produced, because it is
+the first one measured with the rubric taken **verbatim** from
+`.claude/agents/census-reader.md` rather than typed into the prompt.
+
+That distinction matters more than the rate. Censuses 003, 004 and 005 were all
+read under close paraphrases — 005's had to be withdrawn when an adversarial
+re-read showed the paraphrase had gone soft (11.74). **Census 006 is the first
+properly comparable baseline.** The earlier 1.1% and 0.6% should be read as
+having been produced by rulers nobody had checked, which is exactly what 3.4%
+against 002's 3.8% suggests: the corpus quality has been roughly flat, and the
+dip in the middle was instrument drift, not improvement.
+
+### What the ten faults were
+
+| fault | n |
+| --- | --- |
+| gloss-mismatch | 5 |
+| restriction | 3 |
+| distribution | 1 |
+| other | 1 |
+
+`gloss-mismatch` dominating is the expected shape: five of the ten were an
+author writing the lemma's famous sense rather than the sense printed above it.
+*awesome* glossed "inspiring awe or admiration or wonder" was noted on the
+colloquial approval sense; *discomfited* glossed "disappointingly unsuccessful"
+was noted on embarrassment; *solid* glossed "providing abundant nourishment" was
+noted on dependability. Every one is a writer who knew the word and stopped
+reading the gloss — the failure 11.65 named and the one that keeps coming back.
+
+### Repair needs the same discipline as authoring
+
+Nine of the ten were repaired and re-read blind by readers that had neither
+authored them nor found the original faults: **9/9 right**. But *awesome* took
+three attempts and failed a **different fault class each time**:
+
+1. Original: `gloss-mismatch` — the colloquial approval sense.
+2. First repair: `world-not-word` — "large enough to stop someone in front of
+   it" describes the thing, not the word, and quietly narrowed awe to physical
+   vastness.
+3. Second repair: `gloss-mismatch` again — "pitched above admiration" when the
+   gloss lists admiration *inside* the sense, alongside awe and wonder.
+4. Third: passed.
+
+The third reader was told the note had failed twice **and** warned that repeated
+failure is not itself evidence of a fault — otherwise a reader told "this has
+been wrong twice" will find a third. It passed it, with reasoning that engages
+the disjunction in the gloss rather than deferring.
+
+**A repair is a new note and carries the same risk as the note it replaces.**
+Nothing in the process had said so before this tick.
+
+### The tenth fault, left standing
+
+*constructive* was faulted `other`, and the reader's own reasoning says the note
+is sound: the fault is that OEWN's example for this sense — "constructive
+permission" — belongs to the legal *inferential* sense. **That is an upstream
+example problem and no rewrite of the note fixes it.** It is left as authored
+and counted against the rate rather than argued away, since a rate that excludes
+the faults it finds inconvenient is not a rate.
+
+It also names a fault class the corpus has not had before: the note and the
+gloss agree, and the *example* is from a different sense. Recorded, not yet
+promoted to a class of its own on one instance.
+
+### The 5.3 queue stopped re-offering itself
+
+*deaf* was withheld under 5.3 in tick 2 and came back at the head of the queue
+for tick 3, because a withheld family has no tone notes and `annotated_synsets`
+therefore cannot see it. A family is withheld precisely because a person has to
+make the judgement, and a queue that keeps re-offering it to an automated pass
+will eventually get one.
+
+`worklist_build.py` now reads `data/families/held-*.json` and marks those
+families held and ineligible. Ids are normalised to their numeric core, because
+a worksheet renames `oewn-00685207-a` to `family-00685207-a` on the way out and
+matching the literal string finds nothing — a check that silently passes is
+worse than no check.
 
 ## 11.71 The run plan — stages, and what stops each one
 
