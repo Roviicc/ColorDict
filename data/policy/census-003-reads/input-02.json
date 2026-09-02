@@ -1,0 +1,596 @@
+{
+ "packet": 2,
+ "count": 46,
+ "entries": [
+  {
+   "id": "reliable.oewn-00727525-a",
+   "word": "reliable",
+   "definition": "worthy of reliance or trust",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain word - trust earned by behaving the same way every time.",
+   "usage_labels": [],
+   "examples": [
+    "a reliable source of information"
+   ]
+  },
+  {
+   "id": "sure.oewn-00727841-s",
+   "word": "sure",
+   "definition": "reliable in operation or effect",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same confidence, shorter and more casual, and readier to be said out loud.",
+   "usage_labels": [],
+   "examples": [
+    "a sure way to distinguish the two",
+    "wood dust is a sure sign of termites"
+   ]
+  },
+  {
+   "id": "tested.oewn-00728040-s",
+   "word": "tested",
+   "definition": "tested and proved to be reliable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Trust backed by having been put through something rather than merely assumed.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "time-tested.oewn-00728040-s",
+   "word": "time-tested",
+   "definition": "tested and proved to be reliable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The testing was long as well as real, and the length is the recommendation.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "tried.oewn-00728040-s",
+   "word": "tried",
+   "definition": "tested and proved to be reliable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Quiet approval; it says only that the thing has been used and did not fail.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "tried_and_true.oewn-00728040-s",
+   "word": "tried and true",
+   "definition": "tested and proved to be reliable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The pairing does the work - the testing and the verdict in one breath, with some fondness.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "undeviating.oewn-00728164-s",
+   "word": "undeviating",
+   "definition": "used of values and principles; not subject to change; steady",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Steadiness treated as a virtue of principle, praising what refuses to bend.",
+   "usage_labels": [],
+   "examples": [
+    "undeviating loyalty"
+   ]
+  },
+  {
+   "id": "conserved.oewn-00740976-s",
+   "word": "conserved",
+   "definition": "protected from harm or loss",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Keeping framed as husbandry: what matters is that nothing was spent or lost.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "kept_up.oewn-00741059-s",
+   "word": "kept up",
+   "definition": "kept in good condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Ongoing effort, plainly said - the condition is the result of continued work.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "maintained.oewn-00741059-s",
+   "word": "maintained",
+   "definition": "kept in good condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The formal word for that same effort, crediting the routine rather than the care.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "preservable.oewn-00741163-s",
+   "word": "preservable",
+   "definition": "capable of being preserved",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A statement of possibility rather than of condition; nothing has been kept yet.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "preserved.oewn-00740790-a",
+   "word": "preserved",
+   "definition": "kept intact or in a particular condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Deliberate keeping - the condition held on purpose rather than by luck.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "protected.oewn-00741247-s",
+   "word": "protected",
+   "definition": "guarded from injury or destruction",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Safety supplied from outside - the word implies a guard as much as a state.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "retained.oewn-00741345-s",
+   "word": "retained",
+   "definition": "continued in your keeping or use or memory",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Cool and possessive; it says something was not let go, without praising the holding.",
+   "usage_labels": [],
+   "examples": [
+    "in … the retained pattern of dancers and guests remembered"
+   ]
+  },
+  {
+   "id": "saved.oewn-00741247-s",
+   "word": "saved",
+   "definition": "guarded from injury or destruction",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Rescue rather than upkeep: it implies the loss came close and did not happen.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "well-kept.oewn-00741059-s",
+   "word": "well-kept",
+   "definition": "kept in good condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving of the result, and of whoever is answerable for it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "better_off.oewn-01051901-s",
+   "word": "better off",
+   "definition": "in a more fortunate or prosperous condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Comparative by construction; it means something only against the state someone was in before.",
+   "usage_labels": [],
+   "examples": [
+    "she would have been better off if she had stuck with teaching",
+    "is better off than his classmate"
+   ]
+  },
+  {
+   "id": "felicitous.oewn-01052105-s",
+   "word": "felicitous",
+   "definition": "marked by good fortune",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and pleased, treating the good fortune as elegant rather than merely welcome.",
+   "usage_labels": [],
+   "examples": [
+    "a felicitous life"
+   ]
+  },
+  {
+   "id": "fortuitous.oewn-01052286-s",
+   "word": "fortuitous",
+   "definition": "occurring by happy chance",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Insists on the chance: the good outcome arrived unsteered.",
+   "usage_labels": [],
+   "examples": [
+    "profits were enhanced by a fortuitous drop in the cost of raw materials"
+   ]
+  },
+  {
+   "id": "fortunate.oewn-01051573-a",
+   "word": "fortunate",
+   "definition": "having unexpected good fortune",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approval with the surprise kept in - the good turn was neither earned nor expected.",
+   "usage_labels": [],
+   "examples": [
+    "other, less fortunate, children died",
+    "a fortunate choice"
+   ]
+  },
+  {
+   "id": "good.oewn-01052461-s",
+   "word": "good",
+   "definition": "resulting favorably",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The barest approval available - the result went the right way, and nothing more is claimed.",
+   "usage_labels": [],
+   "examples": [
+    "it's a good thing that I wasn't there",
+    "it is good that you stayed"
+   ]
+  },
+  {
+   "id": "happy.oewn-01052105-s",
+   "word": "happy",
+   "definition": "marked by good fortune",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Good fortune, not gladness - the luck sits in the outcome rather than in anyone's feelings.",
+   "usage_labels": [],
+   "examples": [
+    "a happy outcome"
+   ]
+  },
+  {
+   "id": "heaven-sent.oewn-01052675-s",
+   "word": "heaven-sent",
+   "definition": "peculiarly fortunate or appropriate; as if by divine intervention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Gratitude pitched high - the timing was so apt it invites the comparison the gloss makes.",
+   "usage_labels": [],
+   "examples": [
+    "a heaven-sent rain saved the crops"
+   ]
+  },
+  {
+   "id": "lucky.oewn-01052909-s",
+   "word": "lucky",
+   "definition": "occurring by chance",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Plain and cheerful; it credits the chance and takes nothing away from the person.",
+   "usage_labels": [],
+   "examples": [
+    "a lucky escape",
+    "a lucky guess"
+   ]
+  },
+  {
+   "id": "miraculous.oewn-01052675-s",
+   "word": "miraculous",
+   "definition": "peculiarly fortunate or appropriate; as if by divine intervention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The strongest of the three: it does not merely note the aptness, it marvels at it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "providential.oewn-01052675-s",
+   "word": "providential",
+   "definition": "peculiarly fortunate or appropriate; as if by divine intervention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The graver word for that aptness, and it treats the rescue as intended rather than lucky.",
+   "usage_labels": [],
+   "examples": [
+    "a providential recovery"
+   ]
+  },
+  {
+   "id": "well-off.oewn-01053051-s",
+   "word": "well-off",
+   "definition": "fortunately situated",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Fortune as a position someone occupies rather than an event that befell them.",
+   "usage_labels": [],
+   "examples": [
+    "doesn't know when he's well-off"
+   ]
+  },
+  {
+   "id": "well.oewn-01052461-s",
+   "word": "well",
+   "definition": "resulting favorably",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approval of how a thing turned out, judged by the ending rather than by the doing.",
+   "usage_labels": [],
+   "examples": [
+    "it is well that no one saw you",
+    "all's well that ends well"
+   ]
+  },
+  {
+   "id": "at_the_ready.oewn-01937433-s",
+   "word": "at the ready",
+   "definition": "ready for immediate use",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Held poised for the moment it is wanted, which puts the weight on the waiting rather than the preparing.",
+   "usage_labels": [],
+   "examples": [
+    "soldiers with guns at the ready",
+    "students with pens and notebooks at the ready"
+   ]
+  },
+  {
+   "id": "fit.oewn-01937602-s",
+   "word": "fit",
+   "definition": "(usually followed by ‘to’ or ‘for’) on the point of or strongly disposed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Inclination rather than preparation - the disposition is there, and nothing has been made ready.",
+   "usage_labels": [],
+   "examples": [
+    "in no fit state to continue",
+    "fit to drop",
+    "laughing fit to burst",
+    "she was fit to scream"
+   ]
+  },
+  {
+   "id": "in_order.oewn-01937916-s",
+   "word": "in order",
+   "definition": "in a state of proper readiness or preparation or arrangement",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Readiness as tidiness - each thing in its place, measured against a standard of proper arrangement.",
+   "usage_labels": [],
+   "examples": [
+    "everything is in order for their arrival"
+   ]
+  },
+  {
+   "id": "primed.oewn-01937602-s",
+   "word": "primed",
+   "definition": "(usually followed by ‘to’ or ‘for’) on the point of or strongly disposed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Someone did the preparing, and did it deliberately - the readiness was loaded in.",
+   "usage_labels": [],
+   "examples": [
+    "primed for a fight"
+   ]
+  },
+  {
+   "id": "prompt.oewn-01938075-s",
+   "word": "prompt",
+   "definition": "ready and willing or quick to act",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise for the speed of the response and for the willingness behind it.",
+   "usage_labels": [],
+   "examples": [
+    "she is always prompt to help her friends"
+   ]
+  },
+  {
+   "id": "ready.oewn-01936911-a",
+   "word": "ready",
+   "definition": "completely prepared or in condition for immediate action or use or progress",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain word - preparation finished, with nothing left to do before starting.",
+   "usage_labels": [],
+   "examples": [
+    "get ready",
+    "she is ready to resign",
+    "the bridge is ready to collapse",
+    "I am ready to work",
+    "ready for action",
+    "ready for use",
+    "the soup will be ready in a minute",
+    "ready to learn to read"
+   ]
+  },
+  {
+   "id": "ready_and_waiting.oewn-01938342-s",
+   "word": "ready and waiting",
+   "definition": "being and remaining ready and available for use",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The doubled phrase makes a small boast of it: not merely available but conspicuously so.",
+   "usage_labels": [],
+   "examples": [
+    "an impressive array of food ready and waiting for the guests",
+    "military forces ready and waiting"
+   ]
+  },
+  {
+   "id": "ripe.oewn-01938223-s",
+   "word": "ripe",
+   "definition": "fully prepared or eager",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Readiness arrived at by itself rather than assembled, and it brings eagerness with it.",
+   "usage_labels": [],
+   "examples": [
+    "the colonists were ripe for revolution"
+   ]
+  },
+  {
+   "id": "set.oewn-01937602-s",
+   "word": "set",
+   "definition": "(usually followed by ‘to’ or ‘for’) on the point of or strongly disposed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Flat and final; the arrangement is fixed and all that remains is the signal.",
+   "usage_labels": [],
+   "examples": [
+    "we are set to go at any time"
+   ]
+  },
+  {
+   "id": "waiting.oewn-01938342-s",
+   "word": "waiting",
+   "definition": "being and remaining ready and available for use",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Patient and unexcited - it stresses that the readiness persists, not that it is keen.",
+   "usage_labels": [],
+   "examples": [
+    "waiting cars and limousines lined the curb",
+    "found her mother waiting for them",
+    "an impressive array of food ready and waiting for the guests",
+    "military forces ready and waiting"
+   ]
+  },
+  {
+   "id": "dependable.oewn-02281393-s",
+   "word": "dependable",
+   "definition": "financially safe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Financial safety framed as something others can rely on rather than something merely held.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "good.oewn-02281393-s",
+   "word": "good",
+   "definition": "financially safe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The mildest way to say the money is safe; it reassures without describing anything.",
+   "usage_labels": [],
+   "examples": [
+    "a good investment"
+   ]
+  },
+  {
+   "id": "healthy.oewn-02281587-s",
+   "word": "healthy",
+   "definition": "financially secure and functioning well",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Adds working order to safety: the money is not merely intact, it is doing its job.",
+   "usage_labels": [],
+   "examples": [
+    "a healthy economy"
+   ]
+  },
+  {
+   "id": "safe.oewn-02281393-s",
+   "word": "safe",
+   "definition": "financially safe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Concerned with what cannot be lost rather than with what might be gained.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "secure.oewn-02281393-s",
+   "word": "secure",
+   "definition": "financially safe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Safety that has been arranged and held in place, not simply enjoyed.",
+   "usage_labels": [],
+   "examples": [
+    "a secure investment"
+   ]
+  },
+  {
+   "id": "solid.oewn-02281701-s",
+   "word": "solid",
+   "definition": "financially dependable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Unglamorous, weighty approval - it promises holding rather than growth.",
+   "usage_labels": [],
+   "examples": [
+    "the bank is solid and will survive this attack"
+   ]
+  },
+  {
+   "id": "sound.oewn-02281076-a",
+   "word": "sound",
+   "definition": "financially secure and safe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Solidity all the way through - it says the finances would survive inspection.",
+   "usage_labels": [],
+   "examples": [
+    "sound investments",
+    "a sound economy"
+   ]
+  },
+  {
+   "id": "stable.oewn-02281838-s",
+   "word": "stable",
+   "definition": "firm and dependable; subject to little fluctuation",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise for the absence of movement; what recommends it is that it does not swing.",
+   "usage_labels": [],
+   "examples": [
+    "the economy is stable"
+   ]
+  }
+ ]
+}

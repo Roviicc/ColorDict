@@ -385,10 +385,12 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-09-02 | **The instrument is version-controlled.** `.claude/agents/census-reader.md` pins the reader's model, effort and tool allowlist; `census2_aggregate.py` records all three in the results. A reader with only `Read`/`Write` cannot reach `data/policy/`, so blindness is enforced rather than requested. See 11.62 |
 | 2026-09-02 | **The worklist gets a second gate.** Frequency alone queues neutral adjectives — *finished*, *whole*, *normal* — which a connotation dictionary has nothing to say about. Eligibility is now size ≥ 8 and charged ≥ 70%, then median Zipf. 340 eligible, 303 queued. See 11.62 |
 | 2026-09-02 | **Shard 9 — the first drawn by the tool.** 9 families / 92 senses: ready, inaccurate, sound, accurate, fortunate, best, crucial, reliable, preserved. Median Zipf 4.45–5.06, a band above the hand-picked work. 0 notes flagged by `tone_lint.py`, the first shard to come in clean. Authored by Opus 5; the blind read is owed. See 11.62 |
+| 2026-09-02 | **Census 003: 1.1%.** Shard 9 read blind, complete population, 91/92 right. One `restriction` fault repaired and re-read clean by a third reader. `census_packets.py` now builds and keeps the reader inputs, so a census is reproducible from its inputs rather than only from its results. See 11.72 |
 
 **Current totals: 72 families, 884 annotated senses, 1,035 reviewed entries,
-0 validation errors, measured error rate 3.8% (census 002, blind, and not yet
-covering shard 9)** — including 155 adverb senses inherited for free, and 11
+0 validation errors, measured error rate 3.8% (census 002) and 1.1% (census
+003), both blind. Every annotated sense has now been read by a model from a
+different family than the one that wrote it.** — including 155 adverb senses inherited for free, and 11
 senses deliberately left `derived` because their gloss cannot carry a
 judgement. **The validator's zero errors mean well-formed, not correct: the
 audit is the only thing that measures correct. Every claim-carrying sense has
@@ -1100,6 +1102,78 @@ fixed them. Nothing is owed on census 002.
 
 The cost of that discipline is one packet, about three minutes and a few cents.
 The cost of skipping it was five days and three audits.
+
+## 11.72 Census 003 — shard 9 read, and the loop closed at both ends
+
+**92 senses, complete population, 91 right, 1 wrong, 0 unsure. 1.1% against a
+5% threshold** (`data/policy/census-003-results.json`).
+
+This is the first shard the worklist chose, the first authored against a written
+instrument, and the lowest rate the corpus has measured. It does not prove the
+method is four times better than census 002 said — 92 senses is a small
+population and one fault is one fault — but it does clear the Stage 1 gate,
+which is all it was asked to do.
+
+### The one failure is the useful part
+
+*better off*, glossed "in a more fortunate or prosperous condition", was noted
+"it means **only** against the state someone was in before". The gloss is a bare
+comparative; the note quietly excluded *better off than his neighbours*. Fault
+class `restriction`, and a fair catch.
+
+Two things follow from it. First, `tone_lint.py` passed this note: its narrowing
+rule matches `only in`, `only of`, `only ever` — and not `only against`. The
+lint is a smoke alarm, exactly as 11.65 says, and this is what that costs.
+Second, the failure is a **hedge word doing damage**, not a false claim: every
+content word in the note was defensible and the sentence was still wrong,
+because *only* asserted a boundary the gloss does not draw.
+
+Repaired to "Comparative by construction - it always implies something being
+compared against, and never says what", and handed to a third reader that had
+neither authored it nor found the fault: **1/1 right**.
+
+### The packet builder, and what its absence had cost
+
+`tools/census_packets.py` did not exist until now. Census 001's input packets
+survive as data with no tool behind them; census 002's were never written down
+at all, which is why **the measurement the whole method rests on is reproducible
+only from its own results file.** Census 003 keeps its inputs
+(`data/policy/census-003-reads/`), so it can be re-read by a different model, at
+a different effort, or a year from now, and the two runs compared.
+
+The builder decides what a reader may see by an explicit allowlist rather than
+by which fields happen to be in the population file, and prints what it withheld.
+For census 003 that was the family id — knowing which family a sense belongs to
+would let a reader infer the spectrum instead of reading the gloss.
+
+### Three bugs the run exposed
+
+Worth recording because all three were latent and none would have announced
+itself:
+
+- `--prior` was required, so a census with no earlier population to split against
+  could not be aggregated at all. Now optional; the split is omitted rather than
+  reported against an empty set.
+- The packet count was hardcoded to 16, so any census not using sixteen readers
+  reported the difference as missing packets — a false alarm that trains an
+  operator to ignore the one line that matters when a reader really does drop a
+  packet. Now discovered from the inputs that were handed out.
+- `"sample"` was hardcoded to `"census-002"`. Census 003's results were written
+  out labelled as census 002 before it was caught.
+
+Each edit touched the script that certifies census 002, so the 927-verdict
+reconstruction was re-run after every one of them: **886/35/6 and 3.8%
+reproduce, with no key removed and no value changed.**
+
+### Blindness, honestly stated
+
+The readers for this run held no copy of the repo — it lives on the authoring
+machine, not in the session that ran them — and used no tools at all, so they
+could not have reached `data/policy/` had they tried. That is a stronger
+guarantee than the tool allowlist, but it is a property of *where this run
+happened*, not of the instrument. The allowlist in
+`.claude/agents/census-reader.md` is what enforces the same thing for a run made
+against the repo itself, and the results file records which of the two applied.
 
 ## 11.71 The run plan — stages, and what stops each one
 

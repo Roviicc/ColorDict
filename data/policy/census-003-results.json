@@ -1,0 +1,45 @@
+{
+ "sample": "census-003",
+ "seed": null,
+ "population": 92,
+ "read": 92,
+ "right": 91,
+ "wrong": 1,
+ "unsure": 0,
+ "error_rate_pct": 1.1,
+ "threshold_pct": 5.0,
+ "reader_model": "claude-fable-5-1",
+ "reader_effort": "xhigh",
+ "reader_agent": ".claude/agents/census-reader.md",
+ "reader_tools": "Read, Write",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
+ "missing_packets": [],
+ "unread": [],
+ "faults": {
+  "restriction": 1
+ },
+ "by_part_of_speech": {
+  "adjective": {
+   "read": 92,
+   "right": 91,
+   "wrong": 1,
+   "unsure": 0,
+   "error_rate_pct": 1.1
+  }
+ },
+ "failures_by_synset": {
+  "oewn-01051901-s": [
+   {
+    "id": "better_off.oewn-01051901-s",
+    "word": "better off",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "The gloss is a bare comparative ('more fortunate'), but the note says it works only against the state someone was in before, excluding comparison with other people or alternatives.",
+    "definition": "in a more fortunate or prosperous condition",
+    "tone": "Comparative by construction; it means something only against the state someone was in before."
+   }
+  ]
+ },
+ "blindness": "prompt-enforced for this run: it was executed from a cloud session that holds no copy of the repo, so the readers could not reach data/policy/ at all and used no tools. The tool allowlist in .claude/agents/census-reader.md enforces the same property for a Claude Code run on the repo itself.",
+ "repairs": "1 repaired, re-read blind by a third reader that neither authored nor found it: 1/1 right (census-003-reread.json)"
+}

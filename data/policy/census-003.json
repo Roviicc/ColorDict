@@ -1,0 +1,1294 @@
+{
+ "sample": "census-003",
+ "population": 92,
+ "drawn": 92,
+ "scope": "every sense authored in shard 9, drawn complete rather than sampled",
+ "by_shard": {
+  "annotated-009": 92
+ },
+ "entries": [
+  {
+   "id": "accurate.oewn-00021803-a",
+   "word": "accurate",
+   "definition": "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain standard - conformity to the fact or the model, claimed without drama.",
+   "usage_labels": [],
+   "examples": [
+    "an accurate reproduction",
+    "the accounting was accurate",
+    "accurate measurements",
+    "an accurate scale"
+   ],
+   "family": "family-00021803-a"
+  },
+  {
+   "id": "close.oewn-00022256-s",
+   "word": "close",
+   "definition": "marked by fidelity to an original",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Fidelity with the gap admitted: it stays near the original rather than claiming to match it.",
+   "usage_labels": [],
+   "examples": [
+    "a close translation"
+   ],
+   "family": "family-00021803-a"
+  },
+  {
+   "id": "dead-on.oewn-00022474-s",
+   "word": "dead-on",
+   "definition": "accurate and to the point",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Emphatic and informal; the admiration is for the aim as much as for the truth.",
+   "usage_labels": [],
+   "examples": [
+    "a dead-on feel for characterization",
+    "She avoids big scenes … preferring to rely on small gestures and dead-on dialogue"
+   ],
+   "family": "family-00021803-a"
+  },
+  {
+   "id": "dead_on_target.oewn-00023157-s",
+   "word": "dead on target",
+   "definition": "accurately placed or thrown",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Leaves no margin at all, and says so with some satisfaction.",
+   "usage_labels": [],
+   "examples": [
+    "he was dead on target"
+   ],
+   "family": "family-00021803-a"
+  },
+  {
+   "id": "faithful.oewn-00022256-s",
+   "word": "faithful",
+   "definition": "marked by fidelity to an original",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Fidelity treated as a kind of loyalty, as though the original were owed something.",
+   "usage_labels": [],
+   "examples": [
+    "a faithful copy of the portrait",
+    "a faithful rendering of the observed facts"
+   ],
+   "family": "family-00021803-a"
+  },
+  {
+   "id": "hi-fi.oewn-00022717-s",
+   "word": "hi-fi",
+   "definition": "characterized by minimal distortion in sound reproduction",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The clipped form, and friendlier than *high-fidelity* for making the same claim.",
+   "usage_labels": [],
+   "examples": [
+    "a hi-fi system"
+   ],
+   "family": "family-00021803-a"
+  },
+  {
+   "id": "high-fidelity.oewn-00022717-s",
+   "word": "high-fidelity",
+   "definition": "characterized by minimal distortion in sound reproduction",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A technical grade rather than praise - it states how little the sound was altered.",
+   "usage_labels": [],
+   "examples": [
+    "a high-fidelity recording"
+   ],
+   "family": "family-00021803-a"
+  },
+  {
+   "id": "right.oewn-00023315-s",
+   "word": "right",
+   "definition": "precisely accurate",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The everyday word; it settles the matter without dwelling on how exact the exactness is.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00021803-a"
+  },
+  {
+   "id": "straight.oewn-00022999-s",
+   "word": "straight",
+   "definition": "in keeping with the facts",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Accuracy as honesty - nothing bent to suit anyone.",
+   "usage_labels": [],
+   "examples": [
+    "set the record straight",
+    "made sure the facts were straight in the report"
+   ],
+   "family": "family-00021803-a"
+  },
+  {
+   "id": "surgical.oewn-00022889-s",
+   "word": "surgical",
+   "definition": "performed with great precision",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Precision imagined as controlled and deliberate, cutting where intended and nowhere else.",
+   "usage_labels": [],
+   "examples": [
+    "a surgical air strike"
+   ],
+   "family": "family-00021803-a"
+  },
+  {
+   "id": "true.oewn-00023157-s",
+   "word": "true",
+   "definition": "accurately placed or thrown",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The flight went where it was aimed; the praise is for the aim, not for the truth of a statement.",
+   "usage_labels": [],
+   "examples": [
+    "his aim was true"
+   ],
+   "family": "family-00021803-a"
+  },
+  {
+   "id": "veracious.oewn-00023315-s",
+   "word": "veracious",
+   "definition": "precisely accurate",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and exacting, treating precision as a virtue worth a long word.",
+   "usage_labels": [],
+   "examples": [
+    "a veracious account"
+   ],
+   "family": "family-00021803-a"
+  },
+  {
+   "id": "away.oewn-00023695-s",
+   "word": "away",
+   "definition": "(of a baseball pitch) on the far side of home plate from the batter",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A call, not a judgement; it locates the pitch and implies nothing about the pitcher.",
+   "usage_labels": [],
+   "examples": [
+    "the pitch was away (or wide)"
+   ],
+   "family": "family-00023420-a"
+  },
+  {
+   "id": "faulty.oewn-00023894-s",
+   "word": "faulty",
+   "definition": "characterized by errors; not agreeing with a model or not following established rules",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the error in the thing itself, as a defect it carries rather than a slip it made.",
+   "usage_labels": [],
+   "examples": [
+    "he submitted a faulty report"
+   ],
+   "family": "family-00023420-a"
+  },
+  {
+   "id": "inaccurate.oewn-00023420-a",
+   "word": "inaccurate",
+   "definition": "erroneous",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Measured and impersonal - it faults the result without accusing anyone of carelessness.",
+   "usage_labels": [],
+   "examples": [
+    "an inaccurate translation",
+    "the thermometer is inaccurate"
+   ],
+   "family": "family-00023420-a"
+  },
+  {
+   "id": "incorrect.oewn-00023894-s",
+   "word": "incorrect",
+   "definition": "characterized by errors; not agreeing with a model or not following established rules",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The cool formal verdict - it marks the failure against the rule and stops there.",
+   "usage_labels": [],
+   "examples": [
+    "an incorrect transcription"
+   ],
+   "family": "family-00023420-a"
+  },
+  {
+   "id": "outside.oewn-00023695-s",
+   "word": "outside",
+   "definition": "(of a baseball pitch) on the far side of home plate from the batter",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely positional, and plainer than *away* for saying where the pitch went.",
+   "usage_labels": [],
+   "examples": [
+    "an outside pitch"
+   ],
+   "family": "family-00023420-a"
+  },
+  {
+   "id": "unfaithful.oewn-00024180-s",
+   "word": "unfaithful",
+   "definition": "not trustworthy",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A failure of trust rather than of aim - what it names has let someone down.",
+   "usage_labels": [],
+   "examples": [
+    "an unfaithful reproduction"
+   ],
+   "family": "family-00023420-a"
+  },
+  {
+   "id": "wide.oewn-00024282-s",
+   "word": "wide",
+   "definition": "not on target",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The miss is measured as distance, and the word says nothing about how bad it was.",
+   "usage_labels": [],
+   "examples": [
+    "the kick was wide",
+    "the arrow was wide of the mark",
+    "a claim that was wide of the truth"
+   ],
+   "family": "family-00023420-a"
+  },
+  {
+   "id": "wide_of_the_mark.oewn-00024282-s",
+   "word": "wide of the mark",
+   "definition": "not on target",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The full phrase makes the miss vivid, and can carry a note of mild ridicule that *wide* alone does not.",
+   "usage_labels": [],
+   "examples": [
+    "the arrow was wide of the mark"
+   ],
+   "family": "family-00023420-a"
+  },
+  {
+   "id": "wrong.oewn-00023894-s",
+   "word": "wrong",
+   "definition": "characterized by errors; not agreeing with a model or not following established rules",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt and total; where *incorrect* grades a performance, this simply refuses it.",
+   "usage_labels": [],
+   "examples": [
+    "the wrong side of the road"
+   ],
+   "family": "family-00023420-a"
+  },
+  {
+   "id": "best.oewn-00229099-a",
+   "word": "best",
+   "definition": "(superlative of ‘good’) having the most positive qualities",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The superlative itself - it closes the comparison rather than making one.",
+   "usage_labels": [],
+   "examples": [
+    "the best film of the year",
+    "the best solution",
+    "the best time for planting",
+    "wore his best suit"
+   ],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "champion.oewn-00229617-s",
+   "word": "champion",
+   "definition": "holding first place in a contest",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "First place won against others; the contest comes with the praise.",
+   "usage_labels": [],
+   "examples": [
+    "a champion show dog"
+   ],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "first.oewn-00229886-s",
+   "word": "first",
+   "definition": "ranking above all others",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Rank asserted flatly; it orders things and leaves the reason unsaid.",
+   "usage_labels": [],
+   "examples": [
+    "was first in her class"
+   ],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "foremost.oewn-00229886-s",
+   "word": "foremost",
+   "definition": "ranking above all others",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and a little ceremonious - it places something ahead as a matter of standing.",
+   "usage_labels": [],
+   "examples": [
+    "the foremost figure among marine artists"
+   ],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "high-grade.oewn-00229765-s",
+   "word": "high-grade",
+   "definition": "surpassing in quality",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Quality stated as a classification, the way a supplier states it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "optimal.oewn-00230237-s",
+   "word": "optimal",
+   "definition": "most desirable possible under a restriction expressed or implied",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same bounded best, worn as an adjective of analysis rather than of praise.",
+   "usage_labels": [],
+   "examples": [
+    "optimal concentration of a drug"
+   ],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "optimum.oewn-00230237-s",
+   "word": "optimum",
+   "definition": "most desirable possible under a restriction expressed or implied",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Best within limits - it carries the constraint it is best under wherever it goes.",
+   "usage_labels": [],
+   "examples": [
+    "an optimum return on capital",
+    "optimal concentration of a drug"
+   ],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "primo.oewn-00230468-s",
+   "word": "primo",
+   "definition": "the best of its kind",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Slangy and enthusiastic; the enthusiasm is the point, not the grading.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "prizewinning.oewn-00229617-s",
+   "word": "prizewinning",
+   "definition": "holding first place in a contest",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same first place, evidenced - it points at the award rather than at the quality.",
+   "usage_labels": [],
+   "examples": [
+    "a prizewinning wine"
+   ],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "record-breaking.oewn-00230559-s",
+   "word": "record-breaking",
+   "definition": "surpassing any previously established record",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Best measured against history rather than against rivals present.",
+   "usage_labels": [],
+   "examples": [
+    "a record-breaking high jump",
+    "record-breaking crowds"
+   ],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "second-best.oewn-00230722-s",
+   "word": "second-best",
+   "definition": "next to the best",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise with the loss inside it - a high place named together with the fact of not holding the highest.",
+   "usage_labels": [],
+   "examples": [
+    "his second-best bed"
+   ],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "superfine.oewn-00230819-s",
+   "word": "superfine",
+   "definition": "(used especially of merchandise) very fine in quality",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A grading word for goods, pitched a step above *fine* and doing its work by the pitch alone.",
+   "usage_labels": [],
+   "examples": [
+    "made of superfine Flemish cloth"
+   ],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "top-grade.oewn-00229765-s",
+   "word": "top-grade",
+   "definition": "surpassing in quality",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Grading language again, pushed to the top of the scale rather than merely high on it.",
+   "usage_labels": [],
+   "examples": [
+    "top-grade ore"
+   ],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "top-quality.oewn-00229765-s",
+   "word": "top-quality",
+   "definition": "surpassing in quality",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plainest strong claim about quality, with nothing held back and nothing specified.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "world-class.oewn-00229886-s",
+   "word": "world-class",
+   "definition": "ranking above all others",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Sets the comparison as wide as it will go, which is the whole of the compliment.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00229099-a"
+  },
+  {
+   "id": "critical.oewn-00659155-s",
+   "word": "critical",
+   "definition": "forming or having the nature of a turning point or crisis",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Names the turning point and the danger in it at once; the word is tense.",
+   "usage_labels": [],
+   "examples": [
+    "a critical point in the campaign",
+    "the critical test"
+   ],
+   "family": "family-00658802-a"
+  },
+  {
+   "id": "crucial.oewn-00658802-a",
+   "word": "crucial",
+   "definition": "of extreme importance; vital to the resolution of a crisis",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Importance at its sharpest - something turns on this, and the turning is what the word insists on.",
+   "usage_labels": [],
+   "examples": [
+    "a crucial moment in his career",
+    "a crucial election",
+    "a crucial issue for women"
+   ],
+   "family": "family-00658802-a"
+  },
+  {
+   "id": "decisive.oewn-00659155-s",
+   "word": "decisive",
+   "definition": "forming or having the nature of a turning point or crisis",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same turning point read from the other side - what settles the matter rather than what threatens it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00658802-a"
+  },
+  {
+   "id": "important.oewn-00658802-a",
+   "word": "important",
+   "definition": "of extreme importance; vital to the resolution of a crisis",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The broad word for weight, pressed here into service at crisis strength.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00658802-a"
+  },
+  {
+   "id": "life-and-death.oewn-00659407-s",
+   "word": "life-and-death",
+   "definition": "vitally important",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The stakes stated as plainly as they can be, which is where the phrase gets its force.",
+   "usage_labels": [],
+   "examples": [
+    "a life-and-death struggle"
+   ],
+   "family": "family-00658802-a"
+  },
+  {
+   "id": "life-or-death.oewn-00659407-s",
+   "word": "life-or-death",
+   "definition": "vitally important",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same stakes with the alternatives set against each other, which sharpens the choice.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00658802-a"
+  },
+  {
+   "id": "pivotal.oewn-00659530-s",
+   "word": "pivotal",
+   "definition": "being of crucial importance",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Importance defined by what swings on it: everything else moves around this one point.",
+   "usage_labels": [],
+   "examples": [
+    "a pivotal event",
+    "Its pivotal location has also exposed it to periodic invasions"
+   ],
+   "family": "family-00658802-a"
+  },
+  {
+   "id": "polar.oewn-00659530-s",
+   "word": "polar",
+   "definition": "being of crucial importance",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A fixed point that others take their bearings from, rather than one events turn on.",
+   "usage_labels": [],
+   "examples": [
+    "the polar events of this study",
+    "a polar principal"
+   ],
+   "family": "family-00658802-a"
+  },
+  {
+   "id": "certain.oewn-00727841-s",
+   "word": "certain",
+   "definition": "reliable in operation or effect",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Reliability stated as an outcome - it will work, and the working is not in doubt.",
+   "usage_labels": [],
+   "examples": [
+    "a quick and certain remedy"
+   ],
+   "family": "family-00727525-a"
+  },
+  {
+   "id": "dependable.oewn-00727525-a",
+   "word": "dependable",
+   "definition": "worthy of reliance or trust",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warmer than *reliable*: it suggests someone is doing the depending.",
+   "usage_labels": [],
+   "examples": [
+    "a dependable worker"
+   ],
+   "family": "family-00727525-a"
+  },
+  {
+   "id": "reliable.oewn-00727525-a",
+   "word": "reliable",
+   "definition": "worthy of reliance or trust",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain word - trust earned by behaving the same way every time.",
+   "usage_labels": [],
+   "examples": [
+    "a reliable source of information"
+   ],
+   "family": "family-00727525-a"
+  },
+  {
+   "id": "sure.oewn-00727841-s",
+   "word": "sure",
+   "definition": "reliable in operation or effect",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same confidence, shorter and more casual, and readier to be said out loud.",
+   "usage_labels": [],
+   "examples": [
+    "a sure way to distinguish the two",
+    "wood dust is a sure sign of termites"
+   ],
+   "family": "family-00727525-a"
+  },
+  {
+   "id": "tested.oewn-00728040-s",
+   "word": "tested",
+   "definition": "tested and proved to be reliable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Trust backed by having been put through something rather than merely assumed.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00727525-a"
+  },
+  {
+   "id": "time-tested.oewn-00728040-s",
+   "word": "time-tested",
+   "definition": "tested and proved to be reliable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The testing was long as well as real, and the length is the recommendation.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00727525-a"
+  },
+  {
+   "id": "tried.oewn-00728040-s",
+   "word": "tried",
+   "definition": "tested and proved to be reliable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Quiet approval; it says only that the thing has been used and did not fail.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00727525-a"
+  },
+  {
+   "id": "tried_and_true.oewn-00728040-s",
+   "word": "tried and true",
+   "definition": "tested and proved to be reliable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The pairing does the work - the testing and the verdict in one breath, with some fondness.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00727525-a"
+  },
+  {
+   "id": "undeviating.oewn-00728164-s",
+   "word": "undeviating",
+   "definition": "used of values and principles; not subject to change; steady",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Steadiness treated as a virtue of principle, praising what refuses to bend.",
+   "usage_labels": [],
+   "examples": [
+    "undeviating loyalty"
+   ],
+   "family": "family-00727525-a"
+  },
+  {
+   "id": "conserved.oewn-00740976-s",
+   "word": "conserved",
+   "definition": "protected from harm or loss",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Keeping framed as husbandry: what matters is that nothing was spent or lost.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00740790-a"
+  },
+  {
+   "id": "kept_up.oewn-00741059-s",
+   "word": "kept up",
+   "definition": "kept in good condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Ongoing effort, plainly said - the condition is the result of continued work.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00740790-a"
+  },
+  {
+   "id": "maintained.oewn-00741059-s",
+   "word": "maintained",
+   "definition": "kept in good condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The formal word for that same effort, crediting the routine rather than the care.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00740790-a"
+  },
+  {
+   "id": "preservable.oewn-00741163-s",
+   "word": "preservable",
+   "definition": "capable of being preserved",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A statement of possibility rather than of condition; nothing has been kept yet.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00740790-a"
+  },
+  {
+   "id": "preserved.oewn-00740790-a",
+   "word": "preserved",
+   "definition": "kept intact or in a particular condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Deliberate keeping - the condition held on purpose rather than by luck.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00740790-a"
+  },
+  {
+   "id": "protected.oewn-00741247-s",
+   "word": "protected",
+   "definition": "guarded from injury or destruction",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Safety supplied from outside - the word implies a guard as much as a state.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00740790-a"
+  },
+  {
+   "id": "retained.oewn-00741345-s",
+   "word": "retained",
+   "definition": "continued in your keeping or use or memory",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Cool and possessive; it says something was not let go, without praising the holding.",
+   "usage_labels": [],
+   "examples": [
+    "in … the retained pattern of dancers and guests remembered"
+   ],
+   "family": "family-00740790-a"
+  },
+  {
+   "id": "saved.oewn-00741247-s",
+   "word": "saved",
+   "definition": "guarded from injury or destruction",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Rescue rather than upkeep: it implies the loss came close and did not happen.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00740790-a"
+  },
+  {
+   "id": "well-kept.oewn-00741059-s",
+   "word": "well-kept",
+   "definition": "kept in good condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving of the result, and of whoever is answerable for it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00740790-a"
+  },
+  {
+   "id": "better_off.oewn-01051901-s",
+   "word": "better off",
+   "definition": "in a more fortunate or prosperous condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Comparative by construction; it means something only against the state someone was in before.",
+   "usage_labels": [],
+   "examples": [
+    "she would have been better off if she had stuck with teaching",
+    "is better off than his classmate"
+   ],
+   "family": "family-01051573-a"
+  },
+  {
+   "id": "felicitous.oewn-01052105-s",
+   "word": "felicitous",
+   "definition": "marked by good fortune",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and pleased, treating the good fortune as elegant rather than merely welcome.",
+   "usage_labels": [],
+   "examples": [
+    "a felicitous life"
+   ],
+   "family": "family-01051573-a"
+  },
+  {
+   "id": "fortuitous.oewn-01052286-s",
+   "word": "fortuitous",
+   "definition": "occurring by happy chance",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Insists on the chance: the good outcome arrived unsteered.",
+   "usage_labels": [],
+   "examples": [
+    "profits were enhanced by a fortuitous drop in the cost of raw materials"
+   ],
+   "family": "family-01051573-a"
+  },
+  {
+   "id": "fortunate.oewn-01051573-a",
+   "word": "fortunate",
+   "definition": "having unexpected good fortune",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approval with the surprise kept in - the good turn was neither earned nor expected.",
+   "usage_labels": [],
+   "examples": [
+    "other, less fortunate, children died",
+    "a fortunate choice"
+   ],
+   "family": "family-01051573-a"
+  },
+  {
+   "id": "good.oewn-01052461-s",
+   "word": "good",
+   "definition": "resulting favorably",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The barest approval available - the result went the right way, and nothing more is claimed.",
+   "usage_labels": [],
+   "examples": [
+    "it's a good thing that I wasn't there",
+    "it is good that you stayed"
+   ],
+   "family": "family-01051573-a"
+  },
+  {
+   "id": "happy.oewn-01052105-s",
+   "word": "happy",
+   "definition": "marked by good fortune",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Good fortune, not gladness - the luck sits in the outcome rather than in anyone's feelings.",
+   "usage_labels": [],
+   "examples": [
+    "a happy outcome"
+   ],
+   "family": "family-01051573-a"
+  },
+  {
+   "id": "heaven-sent.oewn-01052675-s",
+   "word": "heaven-sent",
+   "definition": "peculiarly fortunate or appropriate; as if by divine intervention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Gratitude pitched high - the timing was so apt it invites the comparison the gloss makes.",
+   "usage_labels": [],
+   "examples": [
+    "a heaven-sent rain saved the crops"
+   ],
+   "family": "family-01051573-a"
+  },
+  {
+   "id": "lucky.oewn-01052909-s",
+   "word": "lucky",
+   "definition": "occurring by chance",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Plain and cheerful; it credits the chance and takes nothing away from the person.",
+   "usage_labels": [],
+   "examples": [
+    "a lucky escape",
+    "a lucky guess"
+   ],
+   "family": "family-01051573-a"
+  },
+  {
+   "id": "miraculous.oewn-01052675-s",
+   "word": "miraculous",
+   "definition": "peculiarly fortunate or appropriate; as if by divine intervention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The strongest of the three: it does not merely note the aptness, it marvels at it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01051573-a"
+  },
+  {
+   "id": "providential.oewn-01052675-s",
+   "word": "providential",
+   "definition": "peculiarly fortunate or appropriate; as if by divine intervention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The graver word for that aptness, and it treats the rescue as intended rather than lucky.",
+   "usage_labels": [],
+   "examples": [
+    "a providential recovery"
+   ],
+   "family": "family-01051573-a"
+  },
+  {
+   "id": "well-off.oewn-01053051-s",
+   "word": "well-off",
+   "definition": "fortunately situated",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Fortune as a position someone occupies rather than an event that befell them.",
+   "usage_labels": [],
+   "examples": [
+    "doesn't know when he's well-off"
+   ],
+   "family": "family-01051573-a"
+  },
+  {
+   "id": "well.oewn-01052461-s",
+   "word": "well",
+   "definition": "resulting favorably",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approval of how a thing turned out, judged by the ending rather than by the doing.",
+   "usage_labels": [],
+   "examples": [
+    "it is well that no one saw you",
+    "all's well that ends well"
+   ],
+   "family": "family-01051573-a"
+  },
+  {
+   "id": "at_the_ready.oewn-01937433-s",
+   "word": "at the ready",
+   "definition": "ready for immediate use",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Held poised for the moment it is wanted, which puts the weight on the waiting rather than the preparing.",
+   "usage_labels": [],
+   "examples": [
+    "soldiers with guns at the ready",
+    "students with pens and notebooks at the ready"
+   ],
+   "family": "family-01936911-a"
+  },
+  {
+   "id": "fit.oewn-01937602-s",
+   "word": "fit",
+   "definition": "(usually followed by ‘to’ or ‘for’) on the point of or strongly disposed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Inclination rather than preparation - the disposition is there, and nothing has been made ready.",
+   "usage_labels": [],
+   "examples": [
+    "in no fit state to continue",
+    "fit to drop",
+    "laughing fit to burst",
+    "she was fit to scream"
+   ],
+   "family": "family-01936911-a"
+  },
+  {
+   "id": "in_order.oewn-01937916-s",
+   "word": "in order",
+   "definition": "in a state of proper readiness or preparation or arrangement",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Readiness as tidiness - each thing in its place, measured against a standard of proper arrangement.",
+   "usage_labels": [],
+   "examples": [
+    "everything is in order for their arrival"
+   ],
+   "family": "family-01936911-a"
+  },
+  {
+   "id": "primed.oewn-01937602-s",
+   "word": "primed",
+   "definition": "(usually followed by ‘to’ or ‘for’) on the point of or strongly disposed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Someone did the preparing, and did it deliberately - the readiness was loaded in.",
+   "usage_labels": [],
+   "examples": [
+    "primed for a fight"
+   ],
+   "family": "family-01936911-a"
+  },
+  {
+   "id": "prompt.oewn-01938075-s",
+   "word": "prompt",
+   "definition": "ready and willing or quick to act",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise for the speed of the response and for the willingness behind it.",
+   "usage_labels": [],
+   "examples": [
+    "she is always prompt to help her friends"
+   ],
+   "family": "family-01936911-a"
+  },
+  {
+   "id": "ready.oewn-01936911-a",
+   "word": "ready",
+   "definition": "completely prepared or in condition for immediate action or use or progress",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain word - preparation finished, with nothing left to do before starting.",
+   "usage_labels": [],
+   "examples": [
+    "get ready",
+    "she is ready to resign",
+    "the bridge is ready to collapse",
+    "I am ready to work",
+    "ready for action",
+    "ready for use",
+    "the soup will be ready in a minute",
+    "ready to learn to read"
+   ],
+   "family": "family-01936911-a"
+  },
+  {
+   "id": "ready_and_waiting.oewn-01938342-s",
+   "word": "ready and waiting",
+   "definition": "being and remaining ready and available for use",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The doubled phrase makes a small boast of it: not merely available but conspicuously so.",
+   "usage_labels": [],
+   "examples": [
+    "an impressive array of food ready and waiting for the guests",
+    "military forces ready and waiting"
+   ],
+   "family": "family-01936911-a"
+  },
+  {
+   "id": "ripe.oewn-01938223-s",
+   "word": "ripe",
+   "definition": "fully prepared or eager",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Readiness arrived at by itself rather than assembled, and it brings eagerness with it.",
+   "usage_labels": [],
+   "examples": [
+    "the colonists were ripe for revolution"
+   ],
+   "family": "family-01936911-a"
+  },
+  {
+   "id": "set.oewn-01937602-s",
+   "word": "set",
+   "definition": "(usually followed by ‘to’ or ‘for’) on the point of or strongly disposed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Flat and final; the arrangement is fixed and all that remains is the signal.",
+   "usage_labels": [],
+   "examples": [
+    "we are set to go at any time"
+   ],
+   "family": "family-01936911-a"
+  },
+  {
+   "id": "waiting.oewn-01938342-s",
+   "word": "waiting",
+   "definition": "being and remaining ready and available for use",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Patient and unexcited - it stresses that the readiness persists, not that it is keen.",
+   "usage_labels": [],
+   "examples": [
+    "waiting cars and limousines lined the curb",
+    "found her mother waiting for them",
+    "an impressive array of food ready and waiting for the guests",
+    "military forces ready and waiting"
+   ],
+   "family": "family-01936911-a"
+  },
+  {
+   "id": "dependable.oewn-02281393-s",
+   "word": "dependable",
+   "definition": "financially safe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Financial safety framed as something others can rely on rather than something merely held.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02281076-a"
+  },
+  {
+   "id": "good.oewn-02281393-s",
+   "word": "good",
+   "definition": "financially safe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The mildest way to say the money is safe; it reassures without describing anything.",
+   "usage_labels": [],
+   "examples": [
+    "a good investment"
+   ],
+   "family": "family-02281076-a"
+  },
+  {
+   "id": "healthy.oewn-02281587-s",
+   "word": "healthy",
+   "definition": "financially secure and functioning well",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Adds working order to safety: the money is not merely intact, it is doing its job.",
+   "usage_labels": [],
+   "examples": [
+    "a healthy economy"
+   ],
+   "family": "family-02281076-a"
+  },
+  {
+   "id": "safe.oewn-02281393-s",
+   "word": "safe",
+   "definition": "financially safe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Concerned with what cannot be lost rather than with what might be gained.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02281076-a"
+  },
+  {
+   "id": "secure.oewn-02281393-s",
+   "word": "secure",
+   "definition": "financially safe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Safety that has been arranged and held in place, not simply enjoyed.",
+   "usage_labels": [],
+   "examples": [
+    "a secure investment"
+   ],
+   "family": "family-02281076-a"
+  },
+  {
+   "id": "solid.oewn-02281701-s",
+   "word": "solid",
+   "definition": "financially dependable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Unglamorous, weighty approval - it promises holding rather than growth.",
+   "usage_labels": [],
+   "examples": [
+    "the bank is solid and will survive this attack"
+   ],
+   "family": "family-02281076-a"
+  },
+  {
+   "id": "sound.oewn-02281076-a",
+   "word": "sound",
+   "definition": "financially secure and safe",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Solidity all the way through - it says the finances would survive inspection.",
+   "usage_labels": [],
+   "examples": [
+    "sound investments",
+    "a sound economy"
+   ],
+   "family": "family-02281076-a"
+  },
+  {
+   "id": "stable.oewn-02281838-s",
+   "word": "stable",
+   "definition": "firm and dependable; subject to little fluctuation",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise for the absence of movement; what recommends it is that it does not swing.",
+   "usage_labels": [],
+   "examples": [
+    "the economy is stable"
+   ],
+   "family": "family-02281076-a"
+  }
+ ]
+}

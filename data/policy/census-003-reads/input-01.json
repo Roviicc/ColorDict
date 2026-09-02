@@ -1,0 +1,607 @@
+{
+ "packet": 1,
+ "count": 46,
+ "entries": [
+  {
+   "id": "accurate.oewn-00021803-a",
+   "word": "accurate",
+   "definition": "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain standard - conformity to the fact or the model, claimed without drama.",
+   "usage_labels": [],
+   "examples": [
+    "an accurate reproduction",
+    "the accounting was accurate",
+    "accurate measurements",
+    "an accurate scale"
+   ]
+  },
+  {
+   "id": "close.oewn-00022256-s",
+   "word": "close",
+   "definition": "marked by fidelity to an original",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Fidelity with the gap admitted: it stays near the original rather than claiming to match it.",
+   "usage_labels": [],
+   "examples": [
+    "a close translation"
+   ]
+  },
+  {
+   "id": "dead-on.oewn-00022474-s",
+   "word": "dead-on",
+   "definition": "accurate and to the point",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Emphatic and informal; the admiration is for the aim as much as for the truth.",
+   "usage_labels": [],
+   "examples": [
+    "a dead-on feel for characterization",
+    "She avoids big scenes … preferring to rely on small gestures and dead-on dialogue"
+   ]
+  },
+  {
+   "id": "dead_on_target.oewn-00023157-s",
+   "word": "dead on target",
+   "definition": "accurately placed or thrown",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Leaves no margin at all, and says so with some satisfaction.",
+   "usage_labels": [],
+   "examples": [
+    "he was dead on target"
+   ]
+  },
+  {
+   "id": "faithful.oewn-00022256-s",
+   "word": "faithful",
+   "definition": "marked by fidelity to an original",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Fidelity treated as a kind of loyalty, as though the original were owed something.",
+   "usage_labels": [],
+   "examples": [
+    "a faithful copy of the portrait",
+    "a faithful rendering of the observed facts"
+   ]
+  },
+  {
+   "id": "hi-fi.oewn-00022717-s",
+   "word": "hi-fi",
+   "definition": "characterized by minimal distortion in sound reproduction",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The clipped form, and friendlier than *high-fidelity* for making the same claim.",
+   "usage_labels": [],
+   "examples": [
+    "a hi-fi system"
+   ]
+  },
+  {
+   "id": "high-fidelity.oewn-00022717-s",
+   "word": "high-fidelity",
+   "definition": "characterized by minimal distortion in sound reproduction",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A technical grade rather than praise - it states how little the sound was altered.",
+   "usage_labels": [],
+   "examples": [
+    "a high-fidelity recording"
+   ]
+  },
+  {
+   "id": "right.oewn-00023315-s",
+   "word": "right",
+   "definition": "precisely accurate",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The everyday word; it settles the matter without dwelling on how exact the exactness is.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "straight.oewn-00022999-s",
+   "word": "straight",
+   "definition": "in keeping with the facts",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Accuracy as honesty - nothing bent to suit anyone.",
+   "usage_labels": [],
+   "examples": [
+    "set the record straight",
+    "made sure the facts were straight in the report"
+   ]
+  },
+  {
+   "id": "surgical.oewn-00022889-s",
+   "word": "surgical",
+   "definition": "performed with great precision",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Precision imagined as controlled and deliberate, cutting where intended and nowhere else.",
+   "usage_labels": [],
+   "examples": [
+    "a surgical air strike"
+   ]
+  },
+  {
+   "id": "true.oewn-00023157-s",
+   "word": "true",
+   "definition": "accurately placed or thrown",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The flight went where it was aimed; the praise is for the aim, not for the truth of a statement.",
+   "usage_labels": [],
+   "examples": [
+    "his aim was true"
+   ]
+  },
+  {
+   "id": "veracious.oewn-00023315-s",
+   "word": "veracious",
+   "definition": "precisely accurate",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and exacting, treating precision as a virtue worth a long word.",
+   "usage_labels": [],
+   "examples": [
+    "a veracious account"
+   ]
+  },
+  {
+   "id": "away.oewn-00023695-s",
+   "word": "away",
+   "definition": "(of a baseball pitch) on the far side of home plate from the batter",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A call, not a judgement; it locates the pitch and implies nothing about the pitcher.",
+   "usage_labels": [],
+   "examples": [
+    "the pitch was away (or wide)"
+   ]
+  },
+  {
+   "id": "faulty.oewn-00023894-s",
+   "word": "faulty",
+   "definition": "characterized by errors; not agreeing with a model or not following established rules",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the error in the thing itself, as a defect it carries rather than a slip it made.",
+   "usage_labels": [],
+   "examples": [
+    "he submitted a faulty report"
+   ]
+  },
+  {
+   "id": "inaccurate.oewn-00023420-a",
+   "word": "inaccurate",
+   "definition": "erroneous",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Measured and impersonal - it faults the result without accusing anyone of carelessness.",
+   "usage_labels": [],
+   "examples": [
+    "an inaccurate translation",
+    "the thermometer is inaccurate"
+   ]
+  },
+  {
+   "id": "incorrect.oewn-00023894-s",
+   "word": "incorrect",
+   "definition": "characterized by errors; not agreeing with a model or not following established rules",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The cool formal verdict - it marks the failure against the rule and stops there.",
+   "usage_labels": [],
+   "examples": [
+    "an incorrect transcription"
+   ]
+  },
+  {
+   "id": "outside.oewn-00023695-s",
+   "word": "outside",
+   "definition": "(of a baseball pitch) on the far side of home plate from the batter",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely positional, and plainer than *away* for saying where the pitch went.",
+   "usage_labels": [],
+   "examples": [
+    "an outside pitch"
+   ]
+  },
+  {
+   "id": "unfaithful.oewn-00024180-s",
+   "word": "unfaithful",
+   "definition": "not trustworthy",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A failure of trust rather than of aim - what it names has let someone down.",
+   "usage_labels": [],
+   "examples": [
+    "an unfaithful reproduction"
+   ]
+  },
+  {
+   "id": "wide.oewn-00024282-s",
+   "word": "wide",
+   "definition": "not on target",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The miss is measured as distance, and the word says nothing about how bad it was.",
+   "usage_labels": [],
+   "examples": [
+    "the kick was wide",
+    "the arrow was wide of the mark",
+    "a claim that was wide of the truth"
+   ]
+  },
+  {
+   "id": "wide_of_the_mark.oewn-00024282-s",
+   "word": "wide of the mark",
+   "definition": "not on target",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The full phrase makes the miss vivid, and can carry a note of mild ridicule that *wide* alone does not.",
+   "usage_labels": [],
+   "examples": [
+    "the arrow was wide of the mark"
+   ]
+  },
+  {
+   "id": "wrong.oewn-00023894-s",
+   "word": "wrong",
+   "definition": "characterized by errors; not agreeing with a model or not following established rules",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt and total; where *incorrect* grades a performance, this simply refuses it.",
+   "usage_labels": [],
+   "examples": [
+    "the wrong side of the road"
+   ]
+  },
+  {
+   "id": "best.oewn-00229099-a",
+   "word": "best",
+   "definition": "(superlative of ‘good’) having the most positive qualities",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The superlative itself - it closes the comparison rather than making one.",
+   "usage_labels": [],
+   "examples": [
+    "the best film of the year",
+    "the best solution",
+    "the best time for planting",
+    "wore his best suit"
+   ]
+  },
+  {
+   "id": "champion.oewn-00229617-s",
+   "word": "champion",
+   "definition": "holding first place in a contest",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "First place won against others; the contest comes with the praise.",
+   "usage_labels": [],
+   "examples": [
+    "a champion show dog"
+   ]
+  },
+  {
+   "id": "first.oewn-00229886-s",
+   "word": "first",
+   "definition": "ranking above all others",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Rank asserted flatly; it orders things and leaves the reason unsaid.",
+   "usage_labels": [],
+   "examples": [
+    "was first in her class"
+   ]
+  },
+  {
+   "id": "foremost.oewn-00229886-s",
+   "word": "foremost",
+   "definition": "ranking above all others",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and a little ceremonious - it places something ahead as a matter of standing.",
+   "usage_labels": [],
+   "examples": [
+    "the foremost figure among marine artists"
+   ]
+  },
+  {
+   "id": "high-grade.oewn-00229765-s",
+   "word": "high-grade",
+   "definition": "surpassing in quality",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Quality stated as a classification, the way a supplier states it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "optimal.oewn-00230237-s",
+   "word": "optimal",
+   "definition": "most desirable possible under a restriction expressed or implied",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same bounded best, worn as an adjective of analysis rather than of praise.",
+   "usage_labels": [],
+   "examples": [
+    "optimal concentration of a drug"
+   ]
+  },
+  {
+   "id": "optimum.oewn-00230237-s",
+   "word": "optimum",
+   "definition": "most desirable possible under a restriction expressed or implied",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Best within limits - it carries the constraint it is best under wherever it goes.",
+   "usage_labels": [],
+   "examples": [
+    "an optimum return on capital",
+    "optimal concentration of a drug"
+   ]
+  },
+  {
+   "id": "primo.oewn-00230468-s",
+   "word": "primo",
+   "definition": "the best of its kind",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Slangy and enthusiastic; the enthusiasm is the point, not the grading.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "prizewinning.oewn-00229617-s",
+   "word": "prizewinning",
+   "definition": "holding first place in a contest",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same first place, evidenced - it points at the award rather than at the quality.",
+   "usage_labels": [],
+   "examples": [
+    "a prizewinning wine"
+   ]
+  },
+  {
+   "id": "record-breaking.oewn-00230559-s",
+   "word": "record-breaking",
+   "definition": "surpassing any previously established record",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Best measured against history rather than against rivals present.",
+   "usage_labels": [],
+   "examples": [
+    "a record-breaking high jump",
+    "record-breaking crowds"
+   ]
+  },
+  {
+   "id": "second-best.oewn-00230722-s",
+   "word": "second-best",
+   "definition": "next to the best",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise with the loss inside it - a high place named together with the fact of not holding the highest.",
+   "usage_labels": [],
+   "examples": [
+    "his second-best bed"
+   ]
+  },
+  {
+   "id": "superfine.oewn-00230819-s",
+   "word": "superfine",
+   "definition": "(used especially of merchandise) very fine in quality",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A grading word for goods, pitched a step above *fine* and doing its work by the pitch alone.",
+   "usage_labels": [],
+   "examples": [
+    "made of superfine Flemish cloth"
+   ]
+  },
+  {
+   "id": "top-grade.oewn-00229765-s",
+   "word": "top-grade",
+   "definition": "surpassing in quality",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Grading language again, pushed to the top of the scale rather than merely high on it.",
+   "usage_labels": [],
+   "examples": [
+    "top-grade ore"
+   ]
+  },
+  {
+   "id": "top-quality.oewn-00229765-s",
+   "word": "top-quality",
+   "definition": "surpassing in quality",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plainest strong claim about quality, with nothing held back and nothing specified.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "world-class.oewn-00229886-s",
+   "word": "world-class",
+   "definition": "ranking above all others",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Sets the comparison as wide as it will go, which is the whole of the compliment.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "critical.oewn-00659155-s",
+   "word": "critical",
+   "definition": "forming or having the nature of a turning point or crisis",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Names the turning point and the danger in it at once; the word is tense.",
+   "usage_labels": [],
+   "examples": [
+    "a critical point in the campaign",
+    "the critical test"
+   ]
+  },
+  {
+   "id": "crucial.oewn-00658802-a",
+   "word": "crucial",
+   "definition": "of extreme importance; vital to the resolution of a crisis",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Importance at its sharpest - something turns on this, and the turning is what the word insists on.",
+   "usage_labels": [],
+   "examples": [
+    "a crucial moment in his career",
+    "a crucial election",
+    "a crucial issue for women"
+   ]
+  },
+  {
+   "id": "decisive.oewn-00659155-s",
+   "word": "decisive",
+   "definition": "forming or having the nature of a turning point or crisis",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same turning point read from the other side - what settles the matter rather than what threatens it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "important.oewn-00658802-a",
+   "word": "important",
+   "definition": "of extreme importance; vital to the resolution of a crisis",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The broad word for weight, pressed here into service at crisis strength.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "life-and-death.oewn-00659407-s",
+   "word": "life-and-death",
+   "definition": "vitally important",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The stakes stated as plainly as they can be, which is where the phrase gets its force.",
+   "usage_labels": [],
+   "examples": [
+    "a life-and-death struggle"
+   ]
+  },
+  {
+   "id": "life-or-death.oewn-00659407-s",
+   "word": "life-or-death",
+   "definition": "vitally important",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same stakes with the alternatives set against each other, which sharpens the choice.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "pivotal.oewn-00659530-s",
+   "word": "pivotal",
+   "definition": "being of crucial importance",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Importance defined by what swings on it: everything else moves around this one point.",
+   "usage_labels": [],
+   "examples": [
+    "a pivotal event",
+    "Its pivotal location has also exposed it to periodic invasions"
+   ]
+  },
+  {
+   "id": "polar.oewn-00659530-s",
+   "word": "polar",
+   "definition": "being of crucial importance",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A fixed point that others take their bearings from, rather than one events turn on.",
+   "usage_labels": [],
+   "examples": [
+    "the polar events of this study",
+    "a polar principal"
+   ]
+  },
+  {
+   "id": "certain.oewn-00727841-s",
+   "word": "certain",
+   "definition": "reliable in operation or effect",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Reliability stated as an outcome - it will work, and the working is not in doubt.",
+   "usage_labels": [],
+   "examples": [
+    "a quick and certain remedy"
+   ]
+  },
+  {
+   "id": "dependable.oewn-00727525-a",
+   "word": "dependable",
+   "definition": "worthy of reliance or trust",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warmer than *reliable*: it suggests someone is doing the depending.",
+   "usage_labels": [],
+   "examples": [
+    "a dependable worker"
+   ]
+  }
+ ]
+}

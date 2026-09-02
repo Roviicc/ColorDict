@@ -69,16 +69,25 @@ def read_instrument(path):
 
 
 def load_verdicts(directory):
+    """Collect every verdict file, and report packets that were never answered.
+
+    The packet count is discovered rather than assumed. It was hardcoded to 16
+    because census 002 happened to use sixteen readers, which meant a census run
+    with any other number reported the difference as missing packets - a false
+    alarm that would teach an operator to ignore the one line that matters when
+    a reader really does drop a packet.
+    """
     seen = {}
-    missing = []
-    for i in range(1, 17):
-        path = directory / f"verdicts-{i:02d}.json"
-        if not path.exists():
-            missing.append(i)
-            continue
+    answered = set()
+    for path in sorted(directory.glob("verdicts-*.json")):
         data = json.loads(path.read_text(encoding="utf-8"))
+        answered.add(int(path.stem.split("-")[1]))
         for v in data["verdicts"]:
             seen[v["id"]] = v
+    # A packet that was handed out and never came back is the failure worth
+    # naming; if no inputs were kept, fall back to the numbering we did receive.
+    handed_out = {int(p.stem.split("-")[1]) for p in directory.glob("input-*.json")}
+    missing = sorted((handed_out or answered) - answered)
     return seen, missing
 
 
@@ -86,7 +95,9 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--dir", type=Path, required=True)
     ap.add_argument("--census", type=Path, default=ROOT / "data/policy/census-002.json")
-    ap.add_argument("--prior", type=Path, default=ROOT / "data/policy/census-001.json")
+    ap.add_argument("--prior", type=Path, default=None,
+                    help="earlier census to split the rate on; omit when there is "
+                         "no prior population to compare against")
     ap.add_argument("--out", type=Path, default=ROOT / "data/policy/census-002-results.json")
     ap.add_argument("--agent", type=Path, default=DEFAULT_AGENT,
                     help="reader agent definition whose frontmatter pins the instrument")
@@ -103,7 +114,12 @@ def main():
 
     census = json.loads(args.census.read_text(encoding="utf-8"))
     entries = {e["id"]: e for e in census["entries"]}
-    prior = {e["id"] for e in json.loads(args.prior.read_text(encoding="utf-8"))["entries"]}
+    # No prior is a real state, not a missing argument: census 003 reads one
+    # shard nothing has seen before, and a split against an empty set would
+    # report every sense as never-censused, which says nothing.
+    prior = None
+    if args.prior:
+        prior = {e["id"] for e in json.loads(args.prior.read_text(encoding="utf-8"))["entries"]}
 
     verdicts, missing = load_verdicts(args.dir)
     unread = [i for i in entries if i not in verdicts]
@@ -119,10 +135,12 @@ def main():
         if not v:
             continue
         verdict = v["verdict"]
-        history = "censused" if sense_id in prior else "never-censused"
+        history = None if prior is None else (
+            "censused" if sense_id in prior else "never-censused")
         tally[verdict] += 1
         by_pos[entry.get("part_of_speech", "?")][verdict] += 1
-        by_history[history][verdict] += 1
+        if history:
+            by_history[history][verdict] += 1
         if verdict != "right":
             faults[v.get("fault") or "unspecified"] += 1
             synset = sense_id.split(".", 1)[1] if "." in sense_id else sense_id
@@ -130,7 +148,7 @@ def main():
                 "id": sense_id, "word": entry.get("word"), "verdict": verdict,
                 "fault": v.get("fault"), "why": v.get("why"),
                 "definition": entry.get("definition"), "tone": entry.get("tone"),
-                "history": history,
+                **({"history": history} if history else {}),
             })
 
     read = sum(tally.values())
@@ -143,7 +161,10 @@ def main():
                 "error_rate_pct": round(100 * counter["wrong"] / n, 1) if n else None}
 
     results = {
-        "sample": "census-002",
+        # Taken from the population file, not hardcoded: census 003 was written
+        # out labelled "census-002" before this was caught, and a results file
+        # that misnames its own sample is worse than one that omits it.
+        "sample": census.get("sample", args.census.stem),
         "seed": census.get("seed"),
         "population": census.get("population"),
         "read": read,
@@ -161,7 +182,10 @@ def main():
         "unread": unread,
         "faults": dict(faults.most_common()),
         "by_part_of_speech": {k: split(v) for k, v in sorted(by_pos.items())},
-        "by_census_001_history": {k: split(v) for k, v in sorted(by_history.items())},
+        # Key name kept verbatim so census 002's published results still
+        # reproduce byte-for-byte; census 003 has no prior and omits it.
+        **({"by_census_001_history": {k: split(v) for k, v in sorted(by_history.items())}}
+           if prior is not None else {}),
         "failures_by_synset": {k: v for k, v in sorted(by_synset.items())},
     }
     args.out.write_text(json.dumps(results, indent=1, ensure_ascii=False), encoding="utf-8")
