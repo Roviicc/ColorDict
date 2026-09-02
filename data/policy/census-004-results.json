@@ -1,0 +1,47 @@
+{
+ "sample": "census-004",
+ "seed": null,
+ "population": 178,
+ "read": 178,
+ "right": 177,
+ "wrong": 1,
+ "unsure": 0,
+ "error_rate_pct": 0.6,
+ "threshold_pct": 5.0,
+ "reader_model": "claude-fable-5-1",
+ "reader_effort": "xhigh",
+ "reader_agent": ".claude/agents/census-reader.md",
+ "reader_tools": "Read, Write",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
+ "missing_packets": [],
+ "unread": [],
+ "faults": {
+  "restriction": 1
+ },
+ "by_part_of_speech": {
+  "adjective": {
+   "read": 178,
+   "right": 177,
+   "wrong": 1,
+   "unsure": 0,
+   "error_rate_pct": 0.6
+  }
+ },
+ "failures_by_synset": {
+  "oewn-02107516-s": [
+   {
+    "id": "major.oewn-02107516-s",
+    "word": "major",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "The gloss says 'two boys with the same family name' but the note narrows it to 'two brothers of one name', which the gloss does not require.",
+    "definition": "of the elder of two boys with the same family name",
+    "tone": "A bare distinguishing tag between two brothers of one name, separating them rather than raising either."
+   }
+  ]
+ },
+ "authoring": "parallel family-author agents, one per family, Opus 5 at xhigh, each seeing only its own family's glosses",
+ "blindness": "prompt-enforced for this run: executed from a session holding no copy of the repo, so the readers could not reach data/policy/ and used no tools. The tool allowlist in .claude/agents/census-reader.md enforces the same property for a Claude Code run on the repo itself.",
+ "readers_saw": "sense id, word, gloss, label and tone note. Examples and usage labels were not shown, as in census 003.",
+ "repairs": "1 repaired, re-read blind by a reader that neither authored nor found it: 1/1 right (census-004-reread.json)"
+}

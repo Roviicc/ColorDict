@@ -1,0 +1,2469 @@
+{
+ "sample": "census-004",
+ "population": 178,
+ "drawn": 178,
+ "scope": "every sense authored in tick 1 (shard 10), drawn complete rather than sampled",
+ "authoring": "parallel family-author agents, one per family, Opus 5 at xhigh, each seeing only its own family's glosses",
+ "by_shard": {
+  "annotated-010": 178
+ },
+ "entries": [
+  {
+   "id": "accessible.oewn-00019169-a",
+   "word": "accessible",
+   "definition": "capable of being reached",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain, unemotional member: reachability stated as a bare fact, with none of the ease that *approachable* grants.",
+   "usage_labels": [],
+   "examples": [
+    "a town accessible by rail"
+   ],
+   "family": "family-00019169-a"
+  },
+  {
+   "id": "approachable.oewn-00019387-s",
+   "word": "approachable",
+   "definition": "easily approached",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warmer than *reachable* - the ease reads as a small compliment to the thing reached.",
+   "usage_labels": [],
+   "examples": [
+    "a site approachable from a branch of the Niger"
+   ],
+   "family": "family-00019169-a"
+  },
+  {
+   "id": "come-at-able.oewn-00019543-s",
+   "word": "come-at-able",
+   "definition": "capable of being reached or attained",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A homely, knockabout compound that sounds improvised beside the smooth *accessible*, and stretches past places to things attained.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00019169-a"
+  },
+  {
+   "id": "get-at-able.oewn-00019543-s",
+   "word": "get-at-able",
+   "definition": "capable of being reached or attained",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Blunter and more physical than *come-at-able*, its hyphens staging a bit of effort in the getting.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00019169-a"
+  },
+  {
+   "id": "getatable.oewn-00019543-s",
+   "word": "getatable",
+   "definition": "capable of being reached or attained",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The same colloquial compound run into one lump, clumsier on the page than hyphenated *get-at-able* and no different in force.",
+   "usage_labels": [],
+   "examples": [
+    "a very getatable man",
+    "both oil and coal are there but not in getatable locations"
+   ],
+   "family": "family-00019169-a"
+  },
+  {
+   "id": "handy.oewn-00019769-s",
+   "word": "handy",
+   "definition": "easy to reach",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Openly approving and informal: closeness treated as a convenience worth having, not the neutral fact *accessible* records.",
+   "usage_labels": [],
+   "examples": [
+    "found a handy spot for the can opener"
+   ],
+   "family": "family-00019169-a"
+  },
+  {
+   "id": "reachable.oewn-00019387-s",
+   "word": "reachable",
+   "definition": "easily approached",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and literal where *approachable* is inviting: it registers the ease and adds nothing to it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00019169-a"
+  },
+  {
+   "id": "ready_to_hand.oewn-00019769-s",
+   "word": "ready to hand",
+   "definition": "easy to reach",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A measured phrase rather than a word, stating immediate availability with a poise that *handy* cheerfully drops.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00019169-a"
+  },
+  {
+   "id": "affected.oewn-00071547-a",
+   "word": "affected",
+   "definition": "acted upon; influenced",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The bare fact that something landed, carrying no weight and no direction of its own - every other member here adds force to this.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00071547-a"
+  },
+  {
+   "id": "impressed.oewn-00071750-s",
+   "word": "impressed",
+   "definition": "deeply or markedly affected or influenced",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Marks the depth of the effect rather than its direction: where *affected* records that something landed, this records that it landed hard.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00071547-a"
+  },
+  {
+   "id": "smitten.oewn-00071850-s",
+   "word": "smitten",
+   "definition": "(used in combination) affected by something overwhelming",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A combining form for a blow that lands like a spell rather than a hammer - softer in sound than *stricken*, but no less total in what it takes over.",
+   "usage_labels": [],
+   "examples": [
+    "conscience-smitten"
+   ],
+   "family": "family-00071547-a"
+  },
+  {
+   "id": "stage-struck.oewn-00072035-s",
+   "word": "stage-struck",
+   "definition": "infatuated with or enthralled by the theater especially the desire to act",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Frames a passion for the theater as an infatuation one is caught by rather than a calling one chooses, which leaves it faintly indulgent.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00071547-a"
+  },
+  {
+   "id": "stricken.oewn-00071850-s",
+   "word": "stricken",
+   "definition": "(used in combination) affected by something overwhelming",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The gravest of the compounding forms, making whatever landed sound like an affliction borne rather than an influence undergone.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00071547-a"
+  },
+  {
+   "id": "struck.oewn-00071850-s",
+   "word": "struck",
+   "definition": "(used in combination) affected by something overwhelming",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plainest of these compounding forms - the blow and nothing more, where *stricken* adds weight and *smitten* adds enchantment.",
+   "usage_labels": [],
+   "examples": [
+    "awe-struck"
+   ],
+   "family": "family-00071547-a"
+  },
+  {
+   "id": "subject.oewn-00072167-s",
+   "word": "subject",
+   "definition": "likely to be affected by something",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Names exposure rather than outcome - nothing has landed yet, the thing merely stands open to it, which sets this apart from every struck-and-overcome member here.",
+   "usage_labels": [],
+   "examples": [
+    "the bond is subject to taxation",
+    "he is subject to fits of depression"
+   ],
+   "family": "family-00071547-a"
+  },
+  {
+   "id": "taken.oewn-00072347-s",
+   "word": "taken",
+   "definition": "be affected with an indisposition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Understated almost to gentleness: the illness simply takes hold, with none of the impact that *struck* or *stricken* put into the same event.",
+   "usage_labels": [],
+   "examples": [
+    "the child was taken ill",
+    "couldn't tell when he would be taken drunk"
+   ],
+   "family": "family-00071547-a"
+  },
+  {
+   "id": "wonder-struck.oewn-00072505-s",
+   "word": "wonder-struck",
+   "definition": "affected by or overcome with wonder",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same helpless blow as *struck*, but what lands is wonder, so being overcome reads as elevation rather than damage.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00071547-a"
+  },
+  {
+   "id": "alert.oewn-00192141-s",
+   "word": "alert",
+   "definition": "mentally perceptive and responsive",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praises the mind as quick on its feet - perception poised to respond, not merely present as in *aware*.",
+   "usage_labels": [],
+   "examples": [
+    "an alert mind",
+    "alert to the problems"
+   ],
+   "family": "family-00191603-a"
+  },
+  {
+   "id": "alive.oewn-00192141-s",
+   "word": "alive",
+   "definition": "mentally perceptive and responsive",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Casts perceptiveness as vitality, a mind quickened and answering rather than simply watchful.",
+   "usage_labels": [],
+   "examples": [
+    "alive to what is going on"
+   ],
+   "family": "family-00191603-a"
+  },
+  {
+   "id": "awake.oewn-00192141-s",
+   "word": "awake",
+   "definition": "mentally perceptive and responsive",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Frames the perceptive mind as roused and taking things in, with dullness implied as what it has risen out of.",
+   "usage_labels": [],
+   "examples": [
+    "awake to the dangers of her situation",
+    "was now awake to the reality of his predicament"
+   ],
+   "family": "family-00191603-a"
+  },
+  {
+   "id": "aware.oewn-00191603-a",
+   "word": "aware",
+   "definition": "(sometimes followed by ‘of’) having or showing knowledge or understanding or realization or perception",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain, unweighted term for holding something in mind, stating the knowing without praising or grading the mind that holds it.",
+   "usage_labels": [],
+   "examples": [
+    "was aware of his opponent's hostility",
+    "became aware of her surroundings",
+    "aware that he had exceeded the speed limit"
+   ],
+   "family": "family-00191603-a"
+  },
+  {
+   "id": "cognisant.oewn-00191603-a",
+   "word": "cognisant",
+   "definition": "(sometimes followed by ‘of’) having or showing knowledge or understanding or realization or perception",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The British spelling of *cognizant*, carrying the identical formal stiffness and no extra force.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00191603-a"
+  },
+  {
+   "id": "cognizant.oewn-00191603-a",
+   "word": "cognizant",
+   "definition": "(sometimes followed by ‘of’) having or showing knowledge or understanding or realization or perception",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and stiff where *aware* is plain, giving the same knowledge an official, almost declarative weight.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00191603-a"
+  },
+  {
+   "id": "conscious.oewn-00192448-s",
+   "word": "conscious",
+   "definition": "(followed by ‘of’) showing realization or recognition of something",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Aims the awareness at a particular thing and marks it as recognized, more deliberate and pointed than bare *aware*.",
+   "usage_labels": [],
+   "examples": [
+    "few voters seem conscious of the issue's importance",
+    "conscious of having succeeded",
+    "the careful tread of one conscious of his alcoholic load"
+   ],
+   "family": "family-00191603-a"
+  },
+  {
+   "id": "sensible.oewn-00192753-s",
+   "word": "sensible",
+   "definition": "aware intuitively or intellectually of something sensed",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and faintly literary, giving the awareness a felt quality - something registered as much as reasoned.",
+   "usage_labels": [],
+   "examples": [
+    "made sensible of his mistakes",
+    "I am sensible that the mention of such a circumstance may appear trifling",
+    "sensible that a good deal more is still to be done"
+   ],
+   "family": "family-00191603-a"
+  },
+  {
+   "id": "calm.oewn-00303560-a",
+   "word": "calm",
+   "definition": "(of weather) free from storm or wind",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The family's plain, unmarked term for weather with the storm taken out of it - it states the condition where *tranquil* admires it.",
+   "usage_labels": [],
+   "examples": [
+    "calm seas"
+   ],
+   "family": "family-00303560-a"
+  },
+  {
+   "id": "placid.oewn-00303750-s",
+   "word": "placid",
+   "definition": "(of a body of water) free from disturbance by heavy waves",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Mildly approving: the water is not merely flat but easy, where *smooth* reports nothing beyond the texture of the surface.",
+   "usage_labels": [],
+   "examples": [
+    "a ribbon of sand between the angry sea and the placid bay"
+   ],
+   "family": "family-00303560-a"
+  },
+  {
+   "id": "quiet.oewn-00303750-s",
+   "word": "quiet",
+   "definition": "(of a body of water) free from disturbance by heavy waves",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The homeliest word here - heavy waves are simply absent, with none of the admiration *tranquil* adds.",
+   "usage_labels": [],
+   "examples": [
+    "the quiet waters of a lagoon"
+   ],
+   "family": "family-00303560-a"
+  },
+  {
+   "id": "settled.oewn-00304279-s",
+   "word": "settled",
+   "definition": "not changeable",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approves steadiness over stretches of time rather than the momentary quiet of *calm*: the weather has stopped shifting.",
+   "usage_labels": [],
+   "examples": [
+    "a period of settled weather"
+   ],
+   "family": "family-00303560-a"
+  },
+  {
+   "id": "smooth.oewn-00303750-s",
+   "word": "smooth",
+   "definition": "(of a body of water) free from disturbance by heavy waves",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A flat physical report on the water's surface - level to the eye and the hull, without the repose *placid* suggests.",
+   "usage_labels": [],
+   "examples": [
+    "a smooth channel crossing"
+   ],
+   "family": "family-00303560-a"
+  },
+  {
+   "id": "still.oewn-00303750-s",
+   "word": "still",
+   "definition": "(of a body of water) free from disturbance by heavy waves",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The absolute end of the scale of motion - *smooth* allows a swell that never breaks, this allows nothing moving at all.",
+   "usage_labels": [],
+   "examples": [
+    "scarcely a ripple on the still water"
+   ],
+   "family": "family-00303560-a"
+  },
+  {
+   "id": "tranquil.oewn-00303750-s",
+   "word": "tranquil",
+   "definition": "(of a body of water) free from disturbance by heavy waves",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most admiring member, treating unbroken water as something to be enjoyed rather than merely recorded, which *quiet* does not.",
+   "usage_labels": [],
+   "examples": [
+    "a lake of tranquil blue water reflecting a tranquil blue sky"
+   ],
+   "family": "family-00303560-a"
+  },
+  {
+   "id": "unruffled.oewn-00303750-s",
+   "word": "unruffled",
+   "definition": "(of a body of water) free from disturbance by heavy waves",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Built as a negative - not a ripple has been raised - so it carries a faint sense of water that has held its surface, where *smooth* simply describes one.",
+   "usage_labels": [],
+   "examples": [
+    "unruffled water"
+   ],
+   "family": "family-00303560-a"
+  },
+  {
+   "id": "windless.oewn-00304378-s",
+   "word": "windless",
+   "definition": "without or almost without wind",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The bare measurement of the family, naming the absent air with none of the approval *tranquil* carries, and its own reading admits a near-miss rather than an absolute.",
+   "usage_labels": [],
+   "examples": [
+    "he prefers windless days for playing golf"
+   ],
+   "family": "family-00303560-a"
+  },
+  {
+   "id": "blow-by-blow.oewn-00310418-s",
+   "word": "blow-by-blow",
+   "definition": "providing great detail",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Informal and concrete - the detail arrives as an unbroken sequence with nothing skipped between one step and the next.",
+   "usage_labels": [],
+   "examples": [
+    "a blow-by-blow account of the movie"
+   ],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "careful.oewn-00309819-a",
+   "word": "careful",
+   "definition": "exercising caution or showing care or attention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain baseline of the family - it credits the attention without saying how much of it there is.",
+   "usage_labels": [],
+   "examples": [
+    "they were careful when crossing the busy street",
+    "be careful to keep her shoes clean",
+    "did very careful research",
+    "careful art restorers",
+    "careful of the rights of others",
+    "careful about one's behavior"
+   ],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "certain.oewn-00310538-s",
+   "word": "certain",
+   "definition": "exercising or taking care great enough to bring assurance",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Measures the care by its result, enough of it to leave no doubt, where *painstaking* measures the effort instead.",
+   "usage_labels": [],
+   "examples": [
+    "be certain to disconnect the iron when you are through"
+   ],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "close.oewn-00310743-s",
+   "word": "close",
+   "definition": "rigorously attentive; strict and thorough",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Carries a severity the others lack - the attention is strict as well as thorough.",
+   "usage_labels": [],
+   "examples": [
+    "close supervision",
+    "paid close attention",
+    "a close study",
+    "kept a close watch on expenditures"
+   ],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "conscientious.oewn-00310936-s",
+   "word": "conscientious",
+   "definition": "characterized by extreme care and great effort",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Locates the care in the doer's sense of duty rather than in the finished work.",
+   "usage_labels": [],
+   "examples": [
+    "conscientious application to the work at hand"
+   ],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "detailed.oewn-00311231-s",
+   "word": "detailed",
+   "definition": "developed or executed with care and in minute detail",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The flat, unshowy member - it credits the fine grain with no suggestion of what producing it cost.",
+   "usage_labels": [],
+   "examples": [
+    "a detailed plan"
+   ],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "elaborate.oewn-00311231-s",
+   "word": "elaborate",
+   "definition": "developed or executed with care and in minute detail",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Suggests worked-up intricacy, care that shows on the surface as complexity.",
+   "usage_labels": [],
+   "examples": [
+    "the elaborate register of the inhabitants prevented tax evasion",
+    "the carefully elaborated theme"
+   ],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "elaborated.oewn-00311231-s",
+   "word": "elaborated",
+   "definition": "developed or executed with care and in minute detail",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Participial and cooler than *elaborate* - it marks a thing as having been worked out rather than admiring the result.",
+   "usage_labels": [],
+   "examples": [
+    "the carefully elaborated theme"
+   ],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "minute.oewn-00311514-s",
+   "word": "minute",
+   "definition": "characterized by painstaking care and detailed examination",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Pitches the attention at the smallest scale available, finer-grained than *detailed*.",
+   "usage_labels": [],
+   "examples": [
+    "a minute inspection of the grounds",
+    "an exact and minute report"
+   ],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "narrow.oewn-00311514-s",
+   "word": "narrow",
+   "definition": "characterized by painstaking care and detailed examination",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Names the tightness of the field under examination rather than the effort spent, so it approves less openly than *minute*.",
+   "usage_labels": [],
+   "examples": [
+    "a narrow scrutiny"
+   ],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "overcareful.oewn-00311741-s",
+   "word": "overcareful",
+   "definition": "excessively or unduly careful",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Turns the family's praise inside out - the care is genuine but has run past the point of use.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "painstaking.oewn-00310936-s",
+   "word": "painstaking",
+   "definition": "characterized by extreme care and great effort",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Puts the labour on show - the pains taken are the point, where *conscientious* keeps them inward.",
+   "usage_labels": [],
+   "examples": [
+    "painstaking research"
+   ],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "particular.oewn-00311842-s",
+   "word": "particular",
+   "definition": "providing specific details or circumstances",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely descriptive - it reports that the specifics are supplied and passes no verdict on the care behind them.",
+   "usage_labels": [],
+   "examples": [
+    "a particular description of the room"
+   ],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "scrupulous.oewn-00310936-s",
+   "word": "scrupulous",
+   "definition": "characterized by extreme care and great effort",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Adds a moral edge to the same effort - exactness that would balk at the smallest lapse.",
+   "usage_labels": [],
+   "examples": [
+    "scrupulous attention to details"
+   ],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "sure.oewn-00310538-s",
+   "word": "sure",
+   "definition": "exercising or taking care great enough to bring assurance",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Blunter and more offhand than *certain* for exactly the same assurance.",
+   "usage_labels": [],
+   "examples": [
+    "be sure to lock the doors"
+   ],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "too-careful.oewn-00311741-s",
+   "word": "too-careful",
+   "definition": "excessively or unduly careful",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunter than *overcareful*, with the excess spelled out in plain words rather than folded into a prefix.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00309819-a"
+  },
+  {
+   "id": "button-down.oewn-00610033-s",
+   "word": "button-down",
+   "definition": "unimaginatively conventional",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal and needling, making the conventionality sound like a tidy uniform where *conventional* merely states it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00609798-a"
+  },
+  {
+   "id": "buttoned-down.oewn-00610033-s",
+   "word": "buttoned-down",
+   "definition": "unimaginatively conventional",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The same needle with an extra syllable of drawl, drawing the mockery out a beat longer than *button-down*.",
+   "usage_labels": [],
+   "examples": [
+    "a colorful character in the buttoned-down, dull-grey world of business"
+   ],
+   "family": "family-00609798-a"
+  },
+  {
+   "id": "conservative.oewn-00610033-s",
+   "word": "conservative",
+   "definition": "unimaginatively conventional",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "So understated it can pass for plain description, framing the dullness as caution and letting the sting arrive quietly.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00609798-a"
+  },
+  {
+   "id": "conventional.oewn-00609798-a",
+   "word": "conventional",
+   "definition": "unimaginative and conformist",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Flat and unheated, naming the conformity without delivering the disapproval, so the verdict has to be inferred.",
+   "usage_labels": [],
+   "examples": [
+    "conventional bourgeois lives",
+    "conventional attitudes"
+   ],
+   "family": "family-00609798-a"
+  },
+  {
+   "id": "square.oewn-00610234-s",
+   "word": "square",
+   "definition": "rigidly conventional or old-fashioned",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Slangy and dismissive, writing someone off as comically out of step rather than merely dull.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00609798-a"
+  },
+  {
+   "id": "stereotyped.oewn-00610354-s",
+   "word": "stereotyped",
+   "definition": "lacking spontaneity or originality or individuality",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Damning by diagnosis, treating the sameness as fixed and mechanically repeated rather than just uninspired.",
+   "usage_labels": [],
+   "examples": [
+    "stereotyped phrases of condolence"
+   ],
+   "family": "family-00609798-a"
+  },
+  {
+   "id": "stereotypic.oewn-00610354-s",
+   "word": "stereotypic",
+   "definition": "lacking spontaneity or originality or individuality",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Drier and more technical, its clinical flatness muting the derision that *stereotypical* carries.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00609798-a"
+  },
+  {
+   "id": "stereotypical.oewn-00610354-s",
+   "word": "stereotypical",
+   "definition": "lacking spontaneity or originality or individuality",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Everyday and derisive, the predictability sharp enough that the thing is seen coming.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00609798-a"
+  },
+  {
+   "id": "straight.oewn-00610234-s",
+   "word": "straight",
+   "definition": "rigidly conventional or old-fashioned",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Flat slang for the same rigidity, labelling rather than jeering, so it lands softer than *square*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00609798-a"
+  },
+  {
+   "id": "unimaginative.oewn-00610354-s",
+   "word": "unimaginative",
+   "definition": "lacking spontaneity or originality or individuality",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest naming of the deficit, no slang and no figure, just the absence stated as the fault.",
+   "usage_labels": [],
+   "examples": [
+    "even his profanity was unimaginative"
+   ],
+   "family": "family-00609798-a"
+  },
+  {
+   "id": "acute.oewn-00653922-s",
+   "word": "acute",
+   "definition": "of critical importance and consequence",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Weight without dread: it asserts that the matter carries enormous importance and consequence, where the threatening members add fear to the weight.",
+   "usage_labels": [],
+   "examples": [
+    "an acute (or critical) lack of research funds"
+   ],
+   "family": "family-00653599-a"
+  },
+  {
+   "id": "critical.oewn-00653599-a",
+   "word": "critical",
+   "definition": "being in or verging on a state of crisis or emergency",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Marks the tipping point rather than the harm itself, the moment at which things break one way or the other, cooler and more clinical than *grave*.",
+   "usage_labels": [],
+   "examples": [
+    "a critical shortage of food",
+    "a critical illness",
+    "an illness at the critical stage"
+   ],
+   "family": "family-00653599-a"
+  },
+  {
+   "id": "dangerous.oewn-00654061-s",
+   "word": "dangerous",
+   "definition": "causing fear or anxiety by threatening great harm",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest of the threatening senses, pointing straight at the harm ahead with none of the solemnity *grave* carries.",
+   "usage_labels": [],
+   "examples": [
+    "a dangerous operation"
+   ],
+   "family": "family-00653599-a"
+  },
+  {
+   "id": "desperate.oewn-00654473-s",
+   "word": "desperate",
+   "definition": "fraught with extreme danger; nearly hopeless",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Danger with the options gone, adding the collapse of hope that *dangerous* never claims on its own.",
+   "usage_labels": [],
+   "examples": [
+    "a desperate illness",
+    "on all fronts the Allies were in a desperate situation due to lack of materiel"
+   ],
+   "family": "family-00653599-a"
+  },
+  {
+   "id": "dire.oewn-00654473-s",
+   "word": "dire",
+   "definition": "fraught with extreme danger; nearly hopeless",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Portentous and absolute, pronouncing doom over the situation where *desperate* points instead at the straits of those caught in it.",
+   "usage_labels": [],
+   "examples": [
+    "a dire emergency"
+   ],
+   "family": "family-00653599-a"
+  },
+  {
+   "id": "grave.oewn-00654061-s",
+   "word": "grave",
+   "definition": "causing fear or anxiety by threatening great harm",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Solemn and hushed, registering the threat as something to be met with gravity rather than merely flagged as *dangerous* does.",
+   "usage_labels": [],
+   "examples": [
+    "a grave situation",
+    "a grave illness"
+   ],
+   "family": "family-00653599-a"
+  },
+  {
+   "id": "grievous.oewn-00654061-s",
+   "word": "grievous",
+   "definition": "causing fear or anxiety by threatening great harm",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most formal and heavily weighted of these, sounding the wound itself as much as the threat of it.",
+   "usage_labels": [],
+   "examples": [
+    "grievous bodily harm"
+   ],
+   "family": "family-00653599-a"
+  },
+  {
+   "id": "life-threatening.oewn-00654061-s",
+   "word": "life-threatening",
+   "definition": "causing fear or anxiety by threatening great harm",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Literal and clinical, naming outright what stands to be lost where *grave* leaves it implied.",
+   "usage_labels": [],
+   "examples": [
+    "a life-threatening disease"
+   ],
+   "family": "family-00653599-a"
+  },
+  {
+   "id": "serious.oewn-00654061-s",
+   "word": "serious",
+   "definition": "causing fear or anxiety by threatening great harm",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The flattest word here, insisting the threatened harm is real without dramatizing it the way *severe* dramatizes its force.",
+   "usage_labels": [],
+   "examples": [
+    "a serious wound",
+    "a serious turn of events"
+   ],
+   "family": "family-00653599-a"
+  },
+  {
+   "id": "severe.oewn-00654061-s",
+   "word": "severe",
+   "definition": "causing fear or anxiety by threatening great harm",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts the emphasis on the magnitude of the harm threatened rather than on the alarm it produces, harsher than *serious*.",
+   "usage_labels": [],
+   "examples": [
+    "a severe case of pneumonia"
+   ],
+   "family": "family-00653599-a"
+  },
+  {
+   "id": "chiseled.oewn-00783378-s",
+   "word": "chiseled",
+   "definition": "having a clean and distinct outline as if precisely cut along the edges",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Credits the outline with the look of deliberate workmanship, where *well-defined* merely reports that the edge holds.",
+   "usage_labels": [],
+   "examples": [
+    "a finely chiseled nose"
+   ],
+   "family": "family-00782933-a"
+  },
+  {
+   "id": "clean-cut.oewn-00783570-s",
+   "word": "clean-cut",
+   "definition": "clear and distinct to the senses; easily perceptible",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Adds tidiness to the sharpness - nothing ragged is left at the edge.",
+   "usage_labels": [],
+   "examples": [
+    "a spire clean-cut against the sky"
+   ],
+   "family": "family-00782933-a"
+  },
+  {
+   "id": "clear-cut.oewn-00783570-s",
+   "word": "clear-cut",
+   "definition": "clear and distinct to the senses; easily perceptible",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Presses on the absence of blur or ambiguity rather than on the fineness of the edge.",
+   "usage_labels": [],
+   "examples": [
+    "a clear-cut pattern"
+   ],
+   "family": "family-00782933-a"
+  },
+  {
+   "id": "clear.oewn-00783570-s",
+   "word": "clear",
+   "definition": "clear and distinct to the senses; easily perceptible",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The most unmarked term here for being easy to perceive, carrying no metaphor of cutting at all.",
+   "usage_labels": [],
+   "examples": [
+    "as clear as a whistle",
+    "clear footprints in the snow",
+    "the letter brought back a clear image of his grandfather",
+    "a clear-cut pattern"
+   ],
+   "family": "family-00782933-a"
+  },
+  {
+   "id": "crisp.oewn-00783911-s",
+   "word": "crisp",
+   "definition": "(of something seen or heard) clearly defined",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Makes definition feel brisk and pleasurable, a freshness *sharp* does not supply.",
+   "usage_labels": [],
+   "examples": [
+    "the crisp snap of dry leaves underfoot"
+   ],
+   "family": "family-00782933-a"
+  },
+  {
+   "id": "crystalline.oewn-00784134-s",
+   "word": "crystalline",
+   "definition": "distinctly or sharply outlined",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Elevated and gleaming, making an outline sound not merely distinct but hard and faceted.",
+   "usage_labels": [],
+   "examples": [
+    "crystalline sharpness of outline"
+   ],
+   "family": "family-00782933-a"
+  },
+  {
+   "id": "defined.oewn-00784271-s",
+   "word": "defined",
+   "definition": "showing clearly the outline or profile or boundary",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Neutral and structural - the boundary shows, and the word stops there.",
+   "usage_labels": [],
+   "examples": [
+    "hills defined against the evening sky"
+   ],
+   "family": "family-00782933-a"
+  },
+  {
+   "id": "distinct.oewn-00782933-a",
+   "word": "distinct",
+   "definition": "easy to perceive; especially clearly outlined",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain baseline of the family: something registers separately, with no claim about how fine or admirable its edge is.",
+   "usage_labels": [],
+   "examples": [
+    "a distinct flavor",
+    "a distinct odor of turpentine",
+    "a distinct outline",
+    "the ship appeared as a distinct silhouette",
+    "distinct fingerprints"
+   ],
+   "family": "family-00782933-a"
+  },
+  {
+   "id": "knifelike.oewn-00784503-s",
+   "word": "knifelike",
+   "definition": "having a sharp or distinct edge",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Pushes the edge metaphor to an implement, so the distinctness carries a faint menace *sharp* does not.",
+   "usage_labels": [],
+   "examples": [
+    "a narrow knifelike profile"
+   ],
+   "family": "family-00782933-a"
+  },
+  {
+   "id": "outlined.oewn-00784271-s",
+   "word": "outlined",
+   "definition": "showing clearly the outline or profile or boundary",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely descriptive of the profile being visible, passing no verdict on how fine or pleasing it is.",
+   "usage_labels": [],
+   "examples": [
+    "the setting sun showed the outlined figure of a man standing on the hill"
+   ],
+   "family": "family-00782933-a"
+  },
+  {
+   "id": "razor-sharp.oewn-00784620-s",
+   "word": "razor-sharp",
+   "definition": "very clearly delineated",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Superlative - takes delineation to its extreme, next to which *sharp* sounds merely adequate.",
+   "usage_labels": [],
+   "examples": [
+    "razor-sharp definition"
+   ],
+   "family": "family-00782933-a"
+  },
+  {
+   "id": "sharp.oewn-00783911-s",
+   "word": "sharp",
+   "definition": "(of something seen or heard) clearly defined",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The bare edge-metaphor for something seen or heard: keenly resolved, with none of the appeal *crisp* adds.",
+   "usage_labels": [],
+   "examples": [
+    "a sharp photographic image",
+    "the sharp crack of a twig"
+   ],
+   "family": "family-00782933-a"
+  },
+  {
+   "id": "well-defined.oewn-00783378-s",
+   "word": "well-defined",
+   "definition": "having a clean and distinct outline as if precisely cut along the edges",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and almost technical - the boundary is firm, and nothing in the word admires it.",
+   "usage_labels": [],
+   "examples": [
+    "well-defined features"
+   ],
+   "family": "family-00782933-a"
+  },
+  {
+   "id": "acute.oewn-00806846-s",
+   "word": "acute",
+   "definition": "extremely sharp or severe",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Pitches the same pain at severity itself, clinical and absolute where *sharp* only names the edge.",
+   "usage_labels": [],
+   "examples": [
+    "acute pain",
+    "felt acute annoyance"
+   ],
+   "family": "family-00806609-a"
+  },
+  {
+   "id": "cutting.oewn-00807002-s",
+   "word": "cutting",
+   "definition": "painful as if caused by a sharp instrument",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The pain slices rather than punctures - a drawn edge where *stabbing* is a single thrust.",
+   "usage_labels": [],
+   "examples": [
+    "a cutting wind"
+   ],
+   "family": "family-00806609-a"
+  },
+  {
+   "id": "fulgurating.oewn-00807321-s",
+   "word": "fulgurating",
+   "definition": "sharp and piercing",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The most technical of the extremes, stacking sharpness and penetration together where *piercing* names one alone.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00806609-a"
+  },
+  {
+   "id": "intense.oewn-00806846-s",
+   "word": "intense",
+   "definition": "extremely sharp or severe",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Measures the pain by sheer magnitude, dropping the blade image that *acute* keeps beside it.",
+   "usage_labels": [],
+   "examples": [
+    "intense itching and burning"
+   ],
+   "family": "family-00806609-a"
+  },
+  {
+   "id": "keen.oewn-00807002-s",
+   "word": "keen",
+   "definition": "painful as if caused by a sharp instrument",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Fine-edged and literary, the pain thin and bright rather than the brute violence of *stabbing*.",
+   "usage_labels": [],
+   "examples": [
+    "keen winds"
+   ],
+   "family": "family-00806609-a"
+  },
+  {
+   "id": "knifelike.oewn-00807002-s",
+   "word": "knifelike",
+   "definition": "painful as if caused by a sharp instrument",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Names the blade outright in plain speech, unbookish where *lancinating* is clinical.",
+   "usage_labels": [],
+   "examples": [
+    "knifelike cold",
+    "piercing knifelike pains"
+   ],
+   "family": "family-00806609-a"
+  },
+  {
+   "id": "lancinate.oewn-00807002-s",
+   "word": "lancinate",
+   "definition": "painful as if caused by a sharp instrument",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Clinical and cold, the technical term for a tearing blade-pain, stripped of the drama *stabbing* carries.",
+   "usage_labels": [],
+   "examples": [
+    "lancinating pain"
+   ],
+   "family": "family-00806609-a"
+  },
+  {
+   "id": "lancinating.oewn-00807002-s",
+   "word": "lancinating",
+   "definition": "painful as if caused by a sharp instrument",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The participial twin of *lancinate*, same clinical register but with the sensation still running as it is described.",
+   "usage_labels": [],
+   "examples": [
+    "lancinating pain"
+   ],
+   "family": "family-00806609-a"
+  },
+  {
+   "id": "piercing.oewn-00807002-s",
+   "word": "piercing",
+   "definition": "painful as if caused by a sharp instrument",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The pain goes through rather than across - penetration where *cutting* draws a line.",
+   "usage_labels": [],
+   "examples": [
+    "piercing knifelike pains",
+    "piercing cold",
+    "piercing criticism"
+   ],
+   "family": "family-00806609-a"
+  },
+  {
+   "id": "salt.oewn-00807416-s",
+   "word": "salt",
+   "definition": "(of speech) painful or bitter",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Turns the edge on speech - words that sting and leave bitterness behind, aimed at a person rather than felt in a nerve.",
+   "usage_labels": [],
+   "examples": [
+    "salt scorn",
+    "a salt apology"
+   ],
+   "family": "family-00806609-a"
+  },
+  {
+   "id": "sharp.oewn-00806609-a",
+   "word": "sharp",
+   "definition": "keenly and painfully felt; as if caused by a sharp edge or point",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The bare name for the sensation - an edge felt, with none of the violence *stabbing* adds.",
+   "usage_labels": [],
+   "examples": [
+    "a sharp pain",
+    "sharp winds"
+   ],
+   "family": "family-00806609-a"
+  },
+  {
+   "id": "stabbing.oewn-00807002-s",
+   "word": "stabbing",
+   "definition": "painful as if caused by a sharp instrument",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most brutal of the blade words: pain delivered as a thrust, sudden and driven in.",
+   "usage_labels": [],
+   "examples": [
+    "a stabbing pain"
+   ],
+   "family": "family-00806609-a"
+  },
+  {
+   "id": "educated.oewn-00833284-a",
+   "word": "educated",
+   "definition": "possessing an education (especially having more than average knowledge)",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain baseline of the family, granting the schooling and the better-than-average knowledge that comes with it without the emphasis the others pile on.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00833284-a"
+  },
+  {
+   "id": "knowing.oewn-00833590-s",
+   "word": "knowing",
+   "definition": "highly educated; having extensive information or understanding",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Presents the extensive understanding as something the person actively holds, a state of mind rather than a qualification conferred.",
+   "usage_labels": [],
+   "examples": [
+    "knowing instructors"
+   ],
+   "family": "family-00833284-a"
+  },
+  {
+   "id": "knowledgeable.oewn-00833590-s",
+   "word": "knowledgeable",
+   "definition": "highly educated; having extensive information or understanding",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praises the sheer stock of information, workaday and unceremonious where *learned* is solemn.",
+   "usage_labels": [],
+   "examples": [
+    "a knowledgeable critic",
+    "a knowledgeable audience"
+   ],
+   "family": "family-00833284-a"
+  },
+  {
+   "id": "learned.oewn-00833590-s",
+   "word": "learned",
+   "definition": "highly educated; having extensive information or understanding",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The weightiest of them, sounding of deep and sustained study and carrying a faint hush of reverence.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00833284-a"
+  },
+  {
+   "id": "lettered.oewn-00833590-s",
+   "word": "lettered",
+   "definition": "highly educated; having extensive information or understanding",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and faintly ornamental, treating the learning as a distinction worn rather than a fund drawn on.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00833284-a"
+  },
+  {
+   "id": "literate.oewn-00833920-s",
+   "word": "literate",
+   "definition": "knowledgeable and educated in one or several fields",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Sets a competence bar rather than a height, a measured claim of command in a field beside the full sweep of *learned*.",
+   "usage_labels": [],
+   "examples": [
+    "computer literate"
+   ],
+   "family": "family-00833284-a"
+  },
+  {
+   "id": "self-educated.oewn-00834047-s",
+   "word": "self-educated",
+   "definition": "educated by your own efforts rather than by formal instruction",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Marks how the education was got rather than how much of it there is, substituting one's own effort for instruction.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00833284-a"
+  },
+  {
+   "id": "semiliterate.oewn-00834169-s",
+   "word": "semiliterate",
+   "definition": "literate but poorly informed",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The family's one put-down, conceding the literacy and pulling the substance out from under it in the same breath - the exact negative of *literate*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00833284-a"
+  },
+  {
+   "id": "well-educated.oewn-00833590-s",
+   "word": "well-educated",
+   "definition": "highly educated; having extensive information or understanding",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Puts the weight on the grounding received, crediting the training behind the understanding rather than its range.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00833284-a"
+  },
+  {
+   "id": "well-read.oewn-00833590-s",
+   "word": "well-read",
+   "definition": "highly educated; having extensive information or understanding",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Locates the extensive understanding in books absorbed, claiming breadth of acquaintance where *learned* claims depth.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00833284-a"
+  },
+  {
+   "id": "declared.oewn-00944139-s",
+   "word": "declared",
+   "definition": "declared as fact; explicitly stated",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Adds the weight of an announcement standing behind the statement, where *stated* leaves the saying unceremonious.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00943706-a"
+  },
+  {
+   "id": "definitive.oewn-00944238-s",
+   "word": "definitive",
+   "definition": "clearly defined or formulated",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving - the formulation is not merely clear but settled, shaped well enough to stand as the version that counts.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00943706-a"
+  },
+  {
+   "id": "explicit.oewn-00943706-a",
+   "word": "explicit",
+   "definition": "precisely and clearly expressed or readily observable; leaving nothing to implication",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The neutral benchmark of the family - it claims clarity so complete that nothing is left for the hearer to infer, without praising or faulting that clarity.",
+   "usage_labels": [],
+   "examples": [
+    "explicit instructions",
+    "she made her wishes explicit",
+    "explicit sexual scenes"
+   ],
+   "family": "family-00943706-a"
+  },
+  {
+   "id": "express.oewn-00944417-s",
+   "word": "express",
+   "definition": "not tacit or implied",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and pointed, marking a thing as spelled out precisely by contrast with what was left tacit.",
+   "usage_labels": [],
+   "examples": [
+    "her express wish"
+   ],
+   "family": "family-00943706-a"
+  },
+  {
+   "id": "expressed.oewn-00943706-a",
+   "word": "expressed",
+   "definition": "precisely and clearly expressed or readily observable; leaving nothing to implication",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flatter than *explicit*: it records that the thing was actually put into words rather than crediting the wording with precision.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00943706-a"
+  },
+  {
+   "id": "graphic.oewn-00944511-s",
+   "word": "graphic",
+   "definition": "describing nudity or sexual activity in graphic detail",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Carries a faint warning in it - the sexual detail is flagged as unsparing, which the colourless *explicit* does not do.",
+   "usage_labels": [],
+   "examples": [
+    "graphic sexual scenes"
+   ],
+   "family": "family-00943706-a"
+  },
+  {
+   "id": "hard-core.oewn-00944644-s",
+   "word": "hard-core",
+   "definition": "extremely explicit",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt and slangy, planting the thing at the far end of the scale where extremity itself is the claim, past *graphic*'s merely detailed.",
+   "usage_labels": [],
+   "examples": [
+    "hard-core pornography"
+   ],
+   "family": "family-00943706-a"
+  },
+  {
+   "id": "hardcore.oewn-00944644-s",
+   "word": "hardcore",
+   "definition": "extremely explicit",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The closed spelling of *hard-core* with no softening of the force - the same blunt assertion that nothing whatever has been held back.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00943706-a"
+  },
+  {
+   "id": "stated.oewn-00944139-s",
+   "word": "stated",
+   "definition": "declared as fact; explicitly stated",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plainest way to mark something as asserted in words, carrying none of the formality *declared* brings.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-00943706-a"
+  },
+  {
+   "id": "unequivocal.oewn-00944238-s",
+   "word": "unequivocal",
+   "definition": "clearly defined or formulated",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Defines by exclusion where *definitive* defines by settlement: the wording is clear because no second reading survives it.",
+   "usage_labels": [],
+   "examples": [
+    "the plain and unequivocal language of the laws"
+   ],
+   "family": "family-00943706-a"
+  },
+  {
+   "id": "casual.oewn-01048256-s",
+   "word": "casual",
+   "definition": "appropriate for ordinary or routine occasions",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Carries the ease of the ordinary occasion rather than its regularity, lighter on the tongue than *everyday*.",
+   "usage_labels": [],
+   "examples": [
+    "casual clothes"
+   ],
+   "family": "family-01047939-a"
+  },
+  {
+   "id": "daily.oewn-01048256-s",
+   "word": "daily",
+   "definition": "appropriate for ordinary or routine occasions",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The most literal of the routine words here, measuring fitness by the recurring occasion with no suggestion of ease at all.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01047939-a"
+  },
+  {
+   "id": "everyday.oewn-01048256-s",
+   "word": "everyday",
+   "definition": "appropriate for ordinary or routine occasions",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Plain and matter-of-fact, fixing suitability to the routine occasion instead of to a relaxed manner.",
+   "usage_labels": [],
+   "examples": [
+    "everyday clothes"
+   ],
+   "family": "family-01047939-a"
+  },
+  {
+   "id": "folksy.oewn-01048621-s",
+   "word": "folksy",
+   "definition": "very informal and familiar",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Pushes informality into warm closeness, a homely familiarity well past *casual*'s mere ease.",
+   "usage_labels": [],
+   "examples": [
+    "a folksy radio commentator",
+    "a folksy style"
+   ],
+   "family": "family-01047939-a"
+  },
+  {
+   "id": "free-and-easy.oewn-01048429-s",
+   "word": "free-and-easy",
+   "definition": "natural and unstudied",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving and chatty - informality as unforced naturalness, praising what is unstudied rather than merely noting what is absent.",
+   "usage_labels": [],
+   "examples": [
+    "lectured in a free-and-easy style"
+   ],
+   "family": "family-01047939-a"
+  },
+  {
+   "id": "informal.oewn-01047939-a",
+   "word": "informal",
+   "definition": "not formal",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flat negative of formal, marking the absence and nothing more - no warmth, no reproach, no picture of the occasion.",
+   "usage_labels": [],
+   "examples": [
+    "conservative people unaccustomed to informal dress",
+    "an informal free-and-easy manner",
+    "an informal gathering of friends"
+   ],
+   "family": "family-01047939-a"
+  },
+  {
+   "id": "unceremonial.oewn-01048766-s",
+   "word": "unceremonial",
+   "definition": "without ceremony or formality",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flatter, more clinical twin of *unceremonious*, stating the lack of ceremony without the abrupt edge.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01047939-a"
+  },
+  {
+   "id": "unceremonious.oewn-01048766-s",
+   "word": "unceremonious",
+   "definition": "without ceremony or formality",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Frames the informality as ceremony stripped off, with a brusqueness *casual* never carries.",
+   "usage_labels": [],
+   "examples": [
+    "an unceremonious speech"
+   ],
+   "family": "family-01047939-a"
+  },
+  {
+   "id": "best-known.oewn-01378472-s",
+   "word": "best-known",
+   "definition": "most familiar or renowned",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Superlative but measured, ranking one above all others for familiarity without claiming any grandeur beyond that ranking.",
+   "usage_labels": [],
+   "examples": [
+    "Stevenson's best-known work is probably ‘Treasure Island’"
+   ],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "better-known.oewn-01378615-s",
+   "word": "better-known",
+   "definition": "more familiar or renowned than the other of two",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Comparative and narrow, weighing exactly two and awarding the margin rather than any absolute standing like *best-known*.",
+   "usage_labels": [],
+   "examples": [
+    "the better-known book of the two"
+   ],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "celebrated.oewn-01378757-s",
+   "word": "celebrated",
+   "definition": "widely known and esteemed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Esteem heard as applause, the acclaim voiced aloud where *noted* keeps it under its breath.",
+   "usage_labels": [],
+   "examples": [
+    "a celebrated musician"
+   ],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "famed.oewn-01378757-s",
+   "word": "famed",
+   "definition": "widely known and esteemed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A literary lift over *famous*, the same esteem sounding sung rather than simply reported.",
+   "usage_labels": [],
+   "examples": [
+    "a famed scientist"
+   ],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "famous.oewn-01378757-s",
+   "word": "famous",
+   "definition": "widely known and esteemed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The unadorned member, stating full esteem without ceremony, the plain standard *illustrious* and *far-famed* rise above.",
+   "usage_labels": [],
+   "examples": [
+    "a famous actor"
+   ],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "far-famed.oewn-01378757-s",
+   "word": "far-famed",
+   "definition": "widely known and esteemed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Heightened and balladic, stretching the esteem across distance until it sounds too grand for plain prose.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "identified.oewn-01379134-s",
+   "word": "identified",
+   "definition": "having the identity known or established",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Coolly procedural, pinning down which thing it is and saying nothing whatever about standing.",
+   "usage_labels": [],
+   "examples": [
+    "the identified bodies were released for burial"
+   ],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "illustrious.oewn-01378757-s",
+   "word": "illustrious",
+   "definition": "widely known and esteemed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and lofty, loading the esteem with dignity and splendour that *famous* never claims.",
+   "usage_labels": [],
+   "examples": [
+    "an illustrious judge"
+   ],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "known.oewn-01378100-a",
+   "word": "known",
+   "definition": "apprehended with certainty",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and bare, asserting certainty about a thing with no admiration attached, the zero point the rest of the family builds on.",
+   "usage_labels": [],
+   "examples": [
+    "a known quantity",
+    "the limits of the known world",
+    "a musician known throughout the world",
+    "a known criminal"
+   ],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "legendary.oewn-01379281-s",
+   "word": "legendary",
+   "definition": "so celebrated as to having taken on the nature of a legend",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The extreme of the family, where esteem has swollen past fact into story and outstrips even *illustrious*.",
+   "usage_labels": [],
+   "examples": [
+    "the legendary exploits of the arctic trailblazers"
+   ],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "notable.oewn-01378757-s",
+   "word": "notable",
+   "definition": "widely known and esteemed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The faintest esteem in the group, granting that someone is worth remarking on rather than widely admired.",
+   "usage_labels": [],
+   "examples": [
+    "a notable historian"
+   ],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "noted.oewn-01378757-s",
+   "word": "noted",
+   "definition": "widely known and esteemed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Dry and restrained, conceding the esteem without raising its voice, next to the applause in *celebrated*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "proverbial.oewn-01379448-s",
+   "word": "proverbial",
+   "definition": "widely known and spoken of",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Familiarity by constant repetition, the thing quoted as a byword rather than admired as *famous* implies.",
+   "usage_labels": [],
+   "examples": [
+    "her proverbial lateness",
+    "the proverbial absentminded professor",
+    "your proverbial dizzy blonde"
+   ],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "renowned.oewn-01378757-s",
+   "word": "renowned",
+   "definition": "widely known and esteemed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Grand and resonant, the esteem sounding proclaimed rather than merely acknowledged as in *noted*.",
+   "usage_labels": [],
+   "examples": [
+    "a renowned painter"
+   ],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "well-known.oewn-01379631-s",
+   "word": "well-known",
+   "definition": "widely or fully known",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Broad and flat, measuring how far knowledge reaches while withholding the esteem carried by *famous*.",
+   "usage_labels": [],
+   "examples": [
+    "a well-known politician",
+    "well-known facts"
+   ],
+   "family": "family-01378100-a"
+  },
+  {
+   "id": "dead.oewn-01843885-s",
+   "word": "dead",
+   "definition": "unerringly accurate",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Absolute and informal, an intensifier of accuracy that allows no margin of error at all, where *precise* still admits degrees.",
+   "usage_labels": [],
+   "examples": [
+    "a dead shot",
+    "took dead aim"
+   ],
+   "family": "family-01843460-a"
+  },
+  {
+   "id": "fine.oewn-01843987-s",
+   "word": "fine",
+   "definition": "minutely precise especially in differences in meaning",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving of exactness at the smallest scale, the drawing of distinctions almost too slight to mark, without *finespun*'s charge of overdoing it.",
+   "usage_labels": [],
+   "examples": [
+    "a fine distinction"
+   ],
+   "family": "family-01843460-a"
+  },
+  {
+   "id": "finespun.oewn-01844113-s",
+   "word": "finespun",
+   "definition": "developed in excessively fine detail",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Disapproval delivered gently, as an aesthetic complaint: the detail is delicate but spun out finer than the thing can bear.",
+   "usage_labels": [],
+   "examples": [
+    "finespun distinctions"
+   ],
+   "family": "family-01843460-a"
+  },
+  {
+   "id": "hairsplitting.oewn-01844113-s",
+   "word": "hairsplitting",
+   "definition": "developed in excessively fine detail",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt dismissal of the same excess *finespun* deprecates, naming it a quarrel over distinctions too small to be worth drawing.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01843460-a"
+  },
+  {
+   "id": "meticulous.oewn-01844263-s",
+   "word": "meticulous",
+   "definition": "marked by precise accordance with details",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warm praise for care taken over every detail, crediting the attention rather than the rulebook.",
+   "usage_labels": [],
+   "examples": [
+    "meticulous research"
+   ],
+   "family": "family-01843460-a"
+  },
+  {
+   "id": "microscopic.oewn-01844506-s",
+   "word": "microscopic",
+   "definition": "extremely precise with great attention to details",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Hyperbolic magnification of *meticulous*, exactness pushed to a scale where the smallest detail is still under the lens.",
+   "usage_labels": [],
+   "examples": [
+    "examined it with microscopic care"
+   ],
+   "family": "family-01843460-a"
+  },
+  {
+   "id": "nice.oewn-01844650-s",
+   "word": "nice",
+   "definition": "done with delicacy and skill",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise for a fine touch, exactness felt as delicacy of hand rather than accumulated care.",
+   "usage_labels": [],
+   "examples": [
+    "a nice bit of craft",
+    "a job requiring nice measurements with a micrometer",
+    "a nice shot"
+   ],
+   "family": "family-01843460-a"
+  },
+  {
+   "id": "on_the_button.oewn-01844833-s",
+   "word": "on the button",
+   "definition": "being precise with regard to a prescribed or specified criterion",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same informal verdict of an exact hit as *on the nose*, with a crisper, more percussive snap to it.",
+   "usage_labels": [],
+   "examples": [
+    "the prediction for snow was right on the button"
+   ],
+   "family": "family-01843460-a"
+  },
+  {
+   "id": "on_the_nose.oewn-01844833-s",
+   "word": "on the nose",
+   "definition": "being precise with regard to a prescribed or specified criterion",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal and satisfied: a verdict that the thing landed square on the stated mark, not a description of exactness in the abstract.",
+   "usage_labels": [],
+   "examples": [
+    "his guess was on the nose"
+   ],
+   "family": "family-01843460-a"
+  },
+  {
+   "id": "precise.oewn-01843460-a",
+   "word": "precise",
+   "definition": "sharply exact or accurate or delimited",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The family's flat baseline: states that something is exact or sharply bounded, passing no verdict on whether the exactness is welcome.",
+   "usage_labels": [],
+   "examples": [
+    "a precise mind",
+    "specified a precise amount",
+    "arrived at the precise moment"
+   ],
+   "family": "family-01843460-a"
+  },
+  {
+   "id": "punctilious.oewn-01844263-s",
+   "word": "punctilious",
+   "definition": "marked by precise accordance with details",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and stiff, treating exact detail as an observance to be complied with, where *meticulous* treats it as care.",
+   "usage_labels": [],
+   "examples": [
+    "punctilious in his attention to rules of etiquette"
+   ],
+   "family": "family-01843460-a"
+  },
+  {
+   "id": "refined.oewn-01845051-s",
+   "word": "refined",
+   "definition": "precise to a fine degree",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving of precision arrived at by paring away the coarse, a finished quality rather than an effort under way.",
+   "usage_labels": [],
+   "examples": [
+    "due to the limitations of the available tools, a more refined analysis of the data may be necessary"
+   ],
+   "family": "family-01843460-a"
+  },
+  {
+   "id": "skillful.oewn-01844650-s",
+   "word": "skillful",
+   "definition": "done with delicacy and skill",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Open, unsubtle praise of the doer's competence, where *nice* praises the fineness of the execution itself.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01843460-a"
+  },
+  {
+   "id": "very.oewn-01845232-s",
+   "word": "very",
+   "definition": "precisely as stated",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A bare intensifier of identity, insisting the thing is exactly the one stated and carrying no praise or blame with it.",
+   "usage_labels": [],
+   "examples": [
+    "the very center of town"
+   ],
+   "family": "family-01843460-a"
+  },
+  {
+   "id": "commonsense.oewn-01950363-s",
+   "word": "commonsense",
+   "definition": "exhibiting native good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Blunt, attributive praise for judgment that owes nothing to training - the compliment is the plainness itself, not the cleverness *intelligent* credits.",
+   "usage_labels": [],
+   "examples": [
+    "commonsense scholarship on the foibles of a genius",
+    "unlearned and commonsensical countryfolk were capable of solving problems that beset the more sophisticated"
+   ],
+   "family": "family-01950023-a"
+  },
+  {
+   "id": "commonsensible.oewn-01950363-s",
+   "word": "commonsensible",
+   "definition": "exhibiting native good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most laboured of the commonsense forms, its stacked suffix making the same praise sound clumsier than the crisp *commonsense*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01950023-a"
+  },
+  {
+   "id": "commonsensical.oewn-01950363-s",
+   "word": "commonsensical",
+   "definition": "exhibiting native good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Carries a faintly wry ring, praising the judgment as homely and obvious rather than admirable.",
+   "usage_labels": [],
+   "examples": [
+    "unlearned and commonsensical countryfolk were capable of solving problems that beset the more sophisticated"
+   ],
+   "family": "family-01950023-a"
+  },
+  {
+   "id": "healthy.oewn-01950705-s",
+   "word": "healthy",
+   "definition": "exercising or showing good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Casts good judgment as wholesome and robust - a constitution of mind rather than a verdict on one conclusion, warmer and vaguer than *sound*.",
+   "usage_labels": [],
+   "examples": [
+    "healthy scepticism",
+    "a healthy fear of rattlesnakes",
+    "the healthy attitude of French laws",
+    "healthy relations between labor and management"
+   ],
+   "family": "family-01950023-a"
+  },
+  {
+   "id": "intelligent.oewn-01950705-s",
+   "word": "intelligent",
+   "definition": "exercising or showing good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The strongest praise here, crediting the mental power behind the judgment rather than merely certifying that the judgment is good.",
+   "usage_labels": [],
+   "examples": [
+    "an intelligent solution"
+   ],
+   "family": "family-01950023-a"
+  },
+  {
+   "id": "level-headed.oewn-01950705-s",
+   "word": "level-headed",
+   "definition": "exercising or showing good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Identical in force to *levelheaded*, the hyphen giving it a slightly more deliberate, spelled-out look.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01950023-a"
+  },
+  {
+   "id": "levelheaded.oewn-01950705-s",
+   "word": "levelheaded",
+   "definition": "exercising or showing good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praises judgment for its steadiness under pressure - coolness when things go wrong, which *reasonable* says nothing about.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01950023-a"
+  },
+  {
+   "id": "reasonable.oewn-01950023-a",
+   "word": "reasonable",
+   "definition": "showing reason or sound judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Mild, floor-setting approval - the judgment clears the bar of sense without being called impressive, where *sound* claims it has no weak point.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01950023-a"
+  },
+  {
+   "id": "sensible.oewn-01950023-a",
+   "word": "sensible",
+   "definition": "showing reason or sound judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warmer and more practical than *reasonable*, approving judgment for its plain usefulness rather than its defensibility.",
+   "usage_labels": [],
+   "examples": [
+    "a sensible choice",
+    "a sensible person"
+   ],
+   "family": "family-01950023-a"
+  },
+  {
+   "id": "sound.oewn-01950705-s",
+   "word": "sound",
+   "definition": "exercising or showing good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Flat, unshowy approval - the judgment has no weak point anywhere in it, structural rather than admiring.",
+   "usage_labels": [],
+   "examples": [
+    "a sound approach to the problem",
+    "sound advice",
+    "no sound explanation for his decision"
+   ],
+   "family": "family-01950023-a"
+  },
+  {
+   "id": "tenable.oewn-01951109-s",
+   "word": "tenable",
+   "definition": "based on sound reasoning or evidence",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The coolest, most grudging approval in the set - the reasoning can be held against attack, which is less than saying it is right, where *well-founded* asserts the grounds are solid.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-01950023-a"
+  },
+  {
+   "id": "well-founded.oewn-01951109-s",
+   "word": "well-founded",
+   "definition": "based on sound reasoning or evidence",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approves the base under a claim rather than the mind behind it, vouching for the evidence where *intelligent* vouches for the thinker.",
+   "usage_labels": [],
+   "examples": [
+    "well-founded suspicions"
+   ],
+   "family": "family-01950023-a"
+  },
+  {
+   "id": "higher-ranking.oewn-02107846-s",
+   "word": "higher-ranking",
+   "definition": "having a higher rank",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Transparent and comparative - it spells out the relation and implies nothing past the position itself.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02107054-a"
+  },
+  {
+   "id": "major.oewn-02107516-s",
+   "word": "major",
+   "definition": "of the elder of two boys with the same family name",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A bare distinguishing tag between two brothers of one name, separating them rather than raising either.",
+   "usage_labels": [],
+   "examples": [
+    "Jones major"
+   ],
+   "family": "family-02107054-a"
+  },
+  {
+   "id": "precedential.oewn-02107656-s",
+   "word": "precedential",
+   "definition": "having precedence (especially because of longer service)",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and procedural, framing seniority as a claim to go first rather than as a quality of the person, where *senior* leaves the entitlement unstated.",
+   "usage_labels": [],
+   "examples": [
+    "precedential treatment for senior members of the firm"
+   ],
+   "family": "family-02107054-a"
+  },
+  {
+   "id": "ranking.oewn-02107846-s",
+   "word": "ranking",
+   "definition": "having a higher rank",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Marks the top of an order and leaves the evaluation out, flatter than *superior*.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02107054-a"
+  },
+  {
+   "id": "senior.oewn-02107054-a",
+   "word": "senior",
+   "definition": "older; higher in rank; longer in length of tenure or service",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Bundles age, rank and length of service into one word without choosing among them, so it states standing rather than claiming merit for it.",
+   "usage_labels": [],
+   "examples": [
+    "senior officer"
+   ],
+   "family": "family-02107054-a"
+  },
+  {
+   "id": "superior.oewn-02107846-s",
+   "word": "superior",
+   "definition": "having a higher rank",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The one word here whose sense of standing above can be heard as standing better, adding a lift that *higher-ranking* refuses.",
+   "usage_labels": [],
+   "examples": [
+    "superior officer"
+   ],
+   "family": "family-02107054-a"
+  },
+  {
+   "id": "junior-grade.oewn-02108248-s",
+   "word": "junior-grade",
+   "definition": "inferior in rank or status",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A formal grading label, marking the lower step of a paired rank as a matter of classification rather than judgement.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02107989-a"
+  },
+  {
+   "id": "junior.oewn-02107989-a",
+   "word": "junior",
+   "definition": "younger; lower in rank; shorter in length of tenure or service",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flatly positional - it fixes someone below on age, rank or length of service without touching their worth.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02107989-a"
+  },
+  {
+   "id": "lower-ranking.oewn-02108248-s",
+   "word": "lower-ranking",
+   "definition": "inferior in rank or status",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Bare comparison, naming where someone sits relative to another with no colour of its own.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02107989-a"
+  },
+  {
+   "id": "lowly.oewn-02108248-s",
+   "word": "lowly",
+   "definition": "inferior in rank or status",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Diminishing - the position is painted as humble and small, so the low standing rubs off onto whoever holds it, which *lower-ranking* never does.",
+   "usage_labels": [],
+   "examples": [
+    "a lowly corporal"
+   ],
+   "family": "family-02107989-a"
+  },
+  {
+   "id": "minor.oewn-02108520-s",
+   "word": "minor",
+   "definition": "of the younger of two boys with the same family name",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A purely positional tag separating the younger of two boys sharing a family name, carrying no evaluation of either.",
+   "usage_labels": [],
+   "examples": [
+    "Jones minor"
+   ],
+   "family": "family-02107989-a"
+  },
+  {
+   "id": "petty.oewn-02108248-s",
+   "word": "petty",
+   "definition": "inferior in rank or status",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Belittling - the rank is not merely below others but slight enough to seem hardly worth counting.",
+   "usage_labels": [],
+   "examples": [
+    "petty officialdom"
+   ],
+   "family": "family-02107989-a"
+  },
+  {
+   "id": "secondary.oewn-02108248-s",
+   "word": "secondary",
+   "definition": "inferior in rank or status",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Subordination as a question of order rather than standing - it puts something after the first without slighting it.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02107989-a"
+  },
+  {
+   "id": "subaltern.oewn-02108248-s",
+   "word": "subaltern",
+   "definition": "inferior in rank or status",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and stiff, framing the inferiority as a fixed place in a chain of command rather than a defect in the one placed there.",
+   "usage_labels": [],
+   "examples": [],
+   "family": "family-02107989-a"
+  }
+ ]
+}

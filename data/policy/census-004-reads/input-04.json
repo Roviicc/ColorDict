@@ -1,0 +1,552 @@
+{
+ "packet": 4,
+ "count": 43,
+ "entries": [
+  {
+   "id": "proverbial.oewn-01379448-s",
+   "word": "proverbial",
+   "definition": "widely known and spoken of",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Familiarity by constant repetition, the thing quoted as a byword rather than admired as *famous* implies.",
+   "usage_labels": [],
+   "examples": [
+    "her proverbial lateness",
+    "the proverbial absentminded professor",
+    "your proverbial dizzy blonde"
+   ]
+  },
+  {
+   "id": "renowned.oewn-01378757-s",
+   "word": "renowned",
+   "definition": "widely known and esteemed",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Grand and resonant, the esteem sounding proclaimed rather than merely acknowledged as in *noted*.",
+   "usage_labels": [],
+   "examples": [
+    "a renowned painter"
+   ]
+  },
+  {
+   "id": "well-known.oewn-01379631-s",
+   "word": "well-known",
+   "definition": "widely or fully known",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Broad and flat, measuring how far knowledge reaches while withholding the esteem carried by *famous*.",
+   "usage_labels": [],
+   "examples": [
+    "a well-known politician",
+    "well-known facts"
+   ]
+  },
+  {
+   "id": "dead.oewn-01843885-s",
+   "word": "dead",
+   "definition": "unerringly accurate",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Absolute and informal, an intensifier of accuracy that allows no margin of error at all, where *precise* still admits degrees.",
+   "usage_labels": [],
+   "examples": [
+    "a dead shot",
+    "took dead aim"
+   ]
+  },
+  {
+   "id": "fine.oewn-01843987-s",
+   "word": "fine",
+   "definition": "minutely precise especially in differences in meaning",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving of exactness at the smallest scale, the drawing of distinctions almost too slight to mark, without *finespun*'s charge of overdoing it.",
+   "usage_labels": [],
+   "examples": [
+    "a fine distinction"
+   ]
+  },
+  {
+   "id": "finespun.oewn-01844113-s",
+   "word": "finespun",
+   "definition": "developed in excessively fine detail",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Disapproval delivered gently, as an aesthetic complaint: the detail is delicate but spun out finer than the thing can bear.",
+   "usage_labels": [],
+   "examples": [
+    "finespun distinctions"
+   ]
+  },
+  {
+   "id": "hairsplitting.oewn-01844113-s",
+   "word": "hairsplitting",
+   "definition": "developed in excessively fine detail",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt dismissal of the same excess *finespun* deprecates, naming it a quarrel over distinctions too small to be worth drawing.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "meticulous.oewn-01844263-s",
+   "word": "meticulous",
+   "definition": "marked by precise accordance with details",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warm praise for care taken over every detail, crediting the attention rather than the rulebook.",
+   "usage_labels": [],
+   "examples": [
+    "meticulous research"
+   ]
+  },
+  {
+   "id": "microscopic.oewn-01844506-s",
+   "word": "microscopic",
+   "definition": "extremely precise with great attention to details",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Hyperbolic magnification of *meticulous*, exactness pushed to a scale where the smallest detail is still under the lens.",
+   "usage_labels": [],
+   "examples": [
+    "examined it with microscopic care"
+   ]
+  },
+  {
+   "id": "nice.oewn-01844650-s",
+   "word": "nice",
+   "definition": "done with delicacy and skill",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise for a fine touch, exactness felt as delicacy of hand rather than accumulated care.",
+   "usage_labels": [],
+   "examples": [
+    "a nice bit of craft",
+    "a job requiring nice measurements with a micrometer",
+    "a nice shot"
+   ]
+  },
+  {
+   "id": "on_the_button.oewn-01844833-s",
+   "word": "on the button",
+   "definition": "being precise with regard to a prescribed or specified criterion",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same informal verdict of an exact hit as *on the nose*, with a crisper, more percussive snap to it.",
+   "usage_labels": [],
+   "examples": [
+    "the prediction for snow was right on the button"
+   ]
+  },
+  {
+   "id": "on_the_nose.oewn-01844833-s",
+   "word": "on the nose",
+   "definition": "being precise with regard to a prescribed or specified criterion",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal and satisfied: a verdict that the thing landed square on the stated mark, not a description of exactness in the abstract.",
+   "usage_labels": [],
+   "examples": [
+    "his guess was on the nose"
+   ]
+  },
+  {
+   "id": "precise.oewn-01843460-a",
+   "word": "precise",
+   "definition": "sharply exact or accurate or delimited",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The family's flat baseline: states that something is exact or sharply bounded, passing no verdict on whether the exactness is welcome.",
+   "usage_labels": [],
+   "examples": [
+    "a precise mind",
+    "specified a precise amount",
+    "arrived at the precise moment"
+   ]
+  },
+  {
+   "id": "punctilious.oewn-01844263-s",
+   "word": "punctilious",
+   "definition": "marked by precise accordance with details",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and stiff, treating exact detail as an observance to be complied with, where *meticulous* treats it as care.",
+   "usage_labels": [],
+   "examples": [
+    "punctilious in his attention to rules of etiquette"
+   ]
+  },
+  {
+   "id": "refined.oewn-01845051-s",
+   "word": "refined",
+   "definition": "precise to a fine degree",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving of precision arrived at by paring away the coarse, a finished quality rather than an effort under way.",
+   "usage_labels": [],
+   "examples": [
+    "due to the limitations of the available tools, a more refined analysis of the data may be necessary"
+   ]
+  },
+  {
+   "id": "skillful.oewn-01844650-s",
+   "word": "skillful",
+   "definition": "done with delicacy and skill",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Open, unsubtle praise of the doer's competence, where *nice* praises the fineness of the execution itself.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "very.oewn-01845232-s",
+   "word": "very",
+   "definition": "precisely as stated",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A bare intensifier of identity, insisting the thing is exactly the one stated and carrying no praise or blame with it.",
+   "usage_labels": [],
+   "examples": [
+    "the very center of town"
+   ]
+  },
+  {
+   "id": "commonsense.oewn-01950363-s",
+   "word": "commonsense",
+   "definition": "exhibiting native good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Blunt, attributive praise for judgment that owes nothing to training - the compliment is the plainness itself, not the cleverness *intelligent* credits.",
+   "usage_labels": [],
+   "examples": [
+    "commonsense scholarship on the foibles of a genius",
+    "unlearned and commonsensical countryfolk were capable of solving problems that beset the more sophisticated"
+   ]
+  },
+  {
+   "id": "commonsensible.oewn-01950363-s",
+   "word": "commonsensible",
+   "definition": "exhibiting native good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The most laboured of the commonsense forms, its stacked suffix making the same praise sound clumsier than the crisp *commonsense*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "commonsensical.oewn-01950363-s",
+   "word": "commonsensical",
+   "definition": "exhibiting native good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Carries a faintly wry ring, praising the judgment as homely and obvious rather than admirable.",
+   "usage_labels": [],
+   "examples": [
+    "unlearned and commonsensical countryfolk were capable of solving problems that beset the more sophisticated"
+   ]
+  },
+  {
+   "id": "healthy.oewn-01950705-s",
+   "word": "healthy",
+   "definition": "exercising or showing good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Casts good judgment as wholesome and robust - a constitution of mind rather than a verdict on one conclusion, warmer and vaguer than *sound*.",
+   "usage_labels": [],
+   "examples": [
+    "healthy scepticism",
+    "a healthy fear of rattlesnakes",
+    "the healthy attitude of French laws",
+    "healthy relations between labor and management"
+   ]
+  },
+  {
+   "id": "intelligent.oewn-01950705-s",
+   "word": "intelligent",
+   "definition": "exercising or showing good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The strongest praise here, crediting the mental power behind the judgment rather than merely certifying that the judgment is good.",
+   "usage_labels": [],
+   "examples": [
+    "an intelligent solution"
+   ]
+  },
+  {
+   "id": "level-headed.oewn-01950705-s",
+   "word": "level-headed",
+   "definition": "exercising or showing good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Identical in force to *levelheaded*, the hyphen giving it a slightly more deliberate, spelled-out look.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "levelheaded.oewn-01950705-s",
+   "word": "levelheaded",
+   "definition": "exercising or showing good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praises judgment for its steadiness under pressure - coolness when things go wrong, which *reasonable* says nothing about.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "reasonable.oewn-01950023-a",
+   "word": "reasonable",
+   "definition": "showing reason or sound judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Mild, floor-setting approval - the judgment clears the bar of sense without being called impressive, where *sound* claims it has no weak point.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sensible.oewn-01950023-a",
+   "word": "sensible",
+   "definition": "showing reason or sound judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Warmer and more practical than *reasonable*, approving judgment for its plain usefulness rather than its defensibility.",
+   "usage_labels": [],
+   "examples": [
+    "a sensible choice",
+    "a sensible person"
+   ]
+  },
+  {
+   "id": "sound.oewn-01950705-s",
+   "word": "sound",
+   "definition": "exercising or showing good judgment",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Flat, unshowy approval - the judgment has no weak point anywhere in it, structural rather than admiring.",
+   "usage_labels": [],
+   "examples": [
+    "a sound approach to the problem",
+    "sound advice",
+    "no sound explanation for his decision"
+   ]
+  },
+  {
+   "id": "tenable.oewn-01951109-s",
+   "word": "tenable",
+   "definition": "based on sound reasoning or evidence",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The coolest, most grudging approval in the set - the reasoning can be held against attack, which is less than saying it is right, where *well-founded* asserts the grounds are solid.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "well-founded.oewn-01951109-s",
+   "word": "well-founded",
+   "definition": "based on sound reasoning or evidence",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approves the base under a claim rather than the mind behind it, vouching for the evidence where *intelligent* vouches for the thinker.",
+   "usage_labels": [],
+   "examples": [
+    "well-founded suspicions"
+   ]
+  },
+  {
+   "id": "higher-ranking.oewn-02107846-s",
+   "word": "higher-ranking",
+   "definition": "having a higher rank",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Transparent and comparative - it spells out the relation and implies nothing past the position itself.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "major.oewn-02107516-s",
+   "word": "major",
+   "definition": "of the elder of two boys with the same family name",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A bare distinguishing tag between two brothers of one name, separating them rather than raising either.",
+   "usage_labels": [],
+   "examples": [
+    "Jones major"
+   ]
+  },
+  {
+   "id": "precedential.oewn-02107656-s",
+   "word": "precedential",
+   "definition": "having precedence (especially because of longer service)",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and procedural, framing seniority as a claim to go first rather than as a quality of the person, where *senior* leaves the entitlement unstated.",
+   "usage_labels": [],
+   "examples": [
+    "precedential treatment for senior members of the firm"
+   ]
+  },
+  {
+   "id": "ranking.oewn-02107846-s",
+   "word": "ranking",
+   "definition": "having a higher rank",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Marks the top of an order and leaves the evaluation out, flatter than *superior*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "senior.oewn-02107054-a",
+   "word": "senior",
+   "definition": "older; higher in rank; longer in length of tenure or service",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Bundles age, rank and length of service into one word without choosing among them, so it states standing rather than claiming merit for it.",
+   "usage_labels": [],
+   "examples": [
+    "senior officer"
+   ]
+  },
+  {
+   "id": "superior.oewn-02107846-s",
+   "word": "superior",
+   "definition": "having a higher rank",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The one word here whose sense of standing above can be heard as standing better, adding a lift that *higher-ranking* refuses.",
+   "usage_labels": [],
+   "examples": [
+    "superior officer"
+   ]
+  },
+  {
+   "id": "junior-grade.oewn-02108248-s",
+   "word": "junior-grade",
+   "definition": "inferior in rank or status",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A formal grading label, marking the lower step of a paired rank as a matter of classification rather than judgement.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "junior.oewn-02107989-a",
+   "word": "junior",
+   "definition": "younger; lower in rank; shorter in length of tenure or service",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flatly positional - it fixes someone below on age, rank or length of service without touching their worth.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "lower-ranking.oewn-02108248-s",
+   "word": "lower-ranking",
+   "definition": "inferior in rank or status",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Bare comparison, naming where someone sits relative to another with no colour of its own.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "lowly.oewn-02108248-s",
+   "word": "lowly",
+   "definition": "inferior in rank or status",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Diminishing - the position is painted as humble and small, so the low standing rubs off onto whoever holds it, which *lower-ranking* never does.",
+   "usage_labels": [],
+   "examples": [
+    "a lowly corporal"
+   ]
+  },
+  {
+   "id": "minor.oewn-02108520-s",
+   "word": "minor",
+   "definition": "of the younger of two boys with the same family name",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A purely positional tag separating the younger of two boys sharing a family name, carrying no evaluation of either.",
+   "usage_labels": [],
+   "examples": [
+    "Jones minor"
+   ]
+  },
+  {
+   "id": "petty.oewn-02108248-s",
+   "word": "petty",
+   "definition": "inferior in rank or status",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Belittling - the rank is not merely below others but slight enough to seem hardly worth counting.",
+   "usage_labels": [],
+   "examples": [
+    "petty officialdom"
+   ]
+  },
+  {
+   "id": "secondary.oewn-02108248-s",
+   "word": "secondary",
+   "definition": "inferior in rank or status",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Subordination as a question of order rather than standing - it puts something after the first without slighting it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "subaltern.oewn-02108248-s",
+   "word": "subaltern",
+   "definition": "inferior in rank or status",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and stiff, framing the inferiority as a fixed place in a chain of command rather than a defect in the one placed there.",
+   "usage_labels": [],
+   "examples": []
+  }
+ ]
+}

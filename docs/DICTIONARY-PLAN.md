@@ -386,11 +386,12 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-09-02 | **The worklist gets a second gate.** Frequency alone queues neutral adjectives — *finished*, *whole*, *normal* — which a connotation dictionary has nothing to say about. Eligibility is now size ≥ 8 and charged ≥ 70%, then median Zipf. 340 eligible, 303 queued. See 11.62 |
 | 2026-09-02 | **Shard 9 — the first drawn by the tool.** 9 families / 92 senses: ready, inaccurate, sound, accurate, fortunate, best, crucial, reliable, preserved. Median Zipf 4.45–5.06, a band above the hand-picked work. 0 notes flagged by `tone_lint.py`, the first shard to come in clean. Authored by Opus 5; the blind read is owed. See 11.62 |
 | 2026-09-02 | **Census 003: 1.1%.** Shard 9 read blind, complete population, 91/92 right. One `restriction` fault repaired and re-read clean by a third reader. `census_packets.py` now builds and keeps the reader inputs, so a census is reproducible from its inputs rather than only from its results. See 11.72 |
+| 2026-09-02 | **Tick 1: 17 families, 178 senses, 0.6% blind.** First shard authored by parallel `family-author` agents rather than one session writing serially. 0 lint flags, 1 `restriction` fault, repaired and re-read clean. The fan-out passes; the bottleneck it exposed is the orchestrator, not the authors. See 11.73 |
 
-**Current totals: 72 families, 884 annotated senses, 1,035 reviewed entries,
-0 validation errors, measured error rate 3.8% (census 002) and 1.1% (census
-003), both blind. Every annotated sense has now been read by a model from a
-different family than the one that wrote it.** — including 155 adverb senses inherited for free, and 11
+**Current totals: 89 families, 1,062 annotated senses, 1,214 reviewed entries,
+0 validation errors, measured error rates 3.8% / 1.1% / 0.6% (censuses 002, 003,
+004), all blind. Every annotated sense has been read by a model from a different
+family than the one that wrote it.** — including adverb senses inherited for free, and 11
 senses deliberately left `derived` because their gloss cannot carry a
 judgement. **The validator's zero errors mean well-formed, not correct: the
 audit is the only thing that measures correct. Every claim-carrying sense has
@@ -1174,6 +1175,80 @@ guarantee than the tool allowlist, but it is a property of *where this run
 happened*, not of the instrument. The allowlist in
 `.claude/agents/census-reader.md` is what enforces the same thing for a run made
 against the repo itself, and the results file records which of the two applied.
+
+## 11.73 Tick 1 — the fan-out works, and the bottleneck moved
+
+**17 families, 178 senses, 177 right, 1 wrong, 0 unsure. 0.6% against a 5%
+threshold** (`data/policy/census-004-results.json`), and 0 notes flagged by
+`tone_lint.py`.
+
+This is the first shard authored by **parallel `family-author` agents — one per
+family, each seeing only its own family's glosses** — rather than one session
+writing every note serially. The design mirrors the reader fan-out and exists
+for the same reason: an author holding five hundred glosses starts producing
+plausible notes instead of grounded ones.
+
+### What the calibration actually measured
+
+The rate is the headline and it is not the finding. Three censuses now:
+
+| | Read | Wrong | Rate | Authored by |
+| --- | --- | --- | --- | --- |
+| Census 002 | 927 | 35 | 3.8% | mixed, serial, unversioned |
+| Census 003 | 92 | 1 | 1.1% | one session, serial |
+| Census 004 | 178 | 1 | 0.6% | parallel agents, one per family |
+
+The trend is real but the populations are small and the later two were authored
+against a written instrument the earlier corpus never had. **Do not read 0.6% as
+proof the fan-out is six times better than census 002's method.** Read it as: the
+fan-out did not degrade quality, which is the only question tick 1 was asked.
+
+### The bottleneck is the orchestrator
+
+The tick was planned at ~500 senses across 43 families and closed at 178 across
+17. Not because the authors struggled — every one returned clean, usable JSON —
+but because **each author returns its work through the orchestrating session's
+context**, and that context fills long before the authors run out of families.
+
+That is a fixable defect and the fix is already in the agent definition:
+`family-author.md` grants `Write` precisely so an author can put its JSON on
+disk itself, where `family_merge.py` collects it and the orchestrator never sees
+the content. Run against the repo through Claude Code, one tick can then be as
+large as the queue allows. Run the way tick 1 was — from a session that holds no
+copy of the repo, with authors returning JSON in their replies — a tick is
+capped near twenty families, and pretending otherwise would just produce a tick
+that dies half-finished.
+
+### `family_merge.py`, and why the merge is strict
+
+Fanning authoring out moves the risk to the merge: an author can return a member
+that was never asked for, drop one that was, or attach a field nobody defined.
+Tick 1 produced exactly the third — a stray `"chargeInvalid": null` riding
+beside a valid charge — which would have gone into the corpus unnoticed.
+
+So only `charge` and `tone` are taken, only for members the worksheet lists, and
+a family that does not match is left **unannotated rather than partly
+annotated**: a half-filled family is much harder to spot than an empty one.
+
+### The one failure, and the one deliberate exclusion
+
+*major*, glossed "of the elder of two boys with the same family name", was noted
+as a tag between "two brothers of one name". The gloss does not say brothers.
+`restriction` — the same fault class as census 003's, and again a single word
+narrowing a gloss that every other word in the sentence respected. Repaired and
+re-read clean by a reader that neither wrote it nor found it.
+
+Worth noting that *minor*, its opposite number in the same family and authored
+by the same agent, said "two boys sharing a family name" and passed. The fault
+was not a misunderstanding of the gloss; it was one careless word in one
+sentence, which is the failure mode that survives every rule and is exactly what
+the blind read is for.
+
+Separately, one member was withheld from authoring under 5.3: *white-bread*,
+glossed "of or belonging to or representative of the white middle class". The
+gloss is a claim about a racial and class group rather than about the word's
+force, so it goes to the manual queue and was never auto-drafted. Its author was
+told a member had been withheld and not to speculate about it.
 
 ## 11.71 The run plan — stages, and what stops each one
 
