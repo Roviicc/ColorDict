@@ -351,6 +351,10 @@ existing validate/build gates. Order: adjectives, verbs, nouns, adverbs; stop
 after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 (worst tier omitted); SentiWordNet demoted to unlabeled-score prior only.
 
+> **New here?** Read [`HANDOFF.md`](HANDOFF.md) first. It is the short orientation:
+> what is being built, whether it is working, where the four lines stand, and what
+> to do next. This file is the full record and is long on purpose.
+
 ## 11.6 Progress log
 
 | Date | Milestone |
