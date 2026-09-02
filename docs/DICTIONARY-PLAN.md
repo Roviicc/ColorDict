@@ -380,9 +380,11 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-09-02 | **Census 001: every unaudited sense read.** 767 senses, sixteen parallel readers, 25.8% wrong; 198 failures repaired synset-wide plus a 32-note sweep of their neighbours; see 11.69 |
 | 2026-09-02 | **Adverb deny list.** Nine adverbs whose own gloss does not match the adjective sense they point at — the fifth fault class; inherited senses 154 → 145 |
 | 2026-09-02 | **Audit 005: 0%, with a caveat.** 49 right, 1 unsure, drawn from the repaired corpus and read by the session that repaired it; a blind read is still owed before 5.5 unpauses. See 11.69 |
+| 2026-09-02 | **Worklist built.** `worklist_build.py` ranks 5,911 adjective families by wordfreq Zipf; the eight hand-picked shards sit on the corpus centre (3.04 vs 2.90), unbiased but unprioritised. See 11.61 |
+| 2026-09-02 | **Census 002: 3.8%, blind, and the gate passes.** All 927 senses read by sixteen Fable 5.1 readers with no sight of the corpus's history. The split is the finding: 2.6% where census 001 swept, 8.8% in the 171 senses its `--exclude` logic skipped. 41 senses repaired. See 11.70 |
 
 **Current totals: 63 families, 781 annotated senses, 922 reviewed entries,
-0 validation errors** — including 145 adverb senses inherited for free, and 11
+0 validation errors, measured error rate 3.8% (census 002, blind)** — including 145 adverb senses inherited for free, and 11
 senses deliberately left `derived` because their gloss cannot carry a
 judgement. **The validator's zero errors mean well-formed, not correct: the
 audit is the only thing that measures correct. Every claim-carrying sense has
@@ -870,6 +872,92 @@ failure — that the sampled audits kept finding ten at a time and the rewrite i
 11.65 had addressed by rule but not by sweep. The census cleared it in one pass
 at roughly the cost of three sampled rounds. What the samples were good for was
 naming the fault classes; once named, a census is the cheaper instrument.
+
+## 11.70 Census 002 — the blind read, and the boundary it found
+
+Run 2026-09-02, the reading 11.69 said was owed. Every one of the 927 senses
+carrying a connotation claim, read by sixteen **Claude Fable 5.1** readers that
+saw only the word, the gloss, the charge, the family and the note — no plan, no
+prior audit, no repair list, and no part of this repository. A different model
+family from the one that authored the corpus, so a shared blind spot between
+author and reader is ruled out rather than hoped about.
+
+**927 read. 886 right, 35 wrong, 6 unsure. Error rate 3.8%, against 5.5's 5%
+threshold. The gate passes.**
+
+### The number that matters is the split
+
+| Population | Read | Wrong | Rate |
+| --- | --- | --- | --- |
+| Read and repaired by census 001 | 756 | 20 | **2.6%** |
+| Excluded from census 001 | 171 | 15 | **8.8%** |
+
+`audit_sample.py --exclude` exists so a second reading gets fresh material
+rather than a re-mark. Census 001 inherited that logic and therefore skipped the
+171 senses audits 001–004 had already sampled — **the one population already
+proven to contain failures.** It repaired 198 faults everywhere else and never
+returned to them. Of the 32 senses audit 001 flagged on 2026-08-30, 26 still
+carried a note five days later and several were word-for-word unchanged:
+*hoggish* still narrowed to "the eater", *cannibalic* still "rare enough to
+sound like an accusation of myth", *loutish* still "young, male and physical".
+
+Audit 005's 0% is now fully explained. It drew 45 of its 50 senses from the
+repaired side of a boundary nobody had noticed, so it measured the clean half of
+the corpus and reported it as the whole.
+
+**The method was never the problem. The bookkeeping was.** 11.68 concluded the
+plateau was one large fault class arriving in waves; 11.69 concluded the census
+had cleared it. Both were right about the corpus they looked at. Neither looked
+at the 171.
+
+### The fault classes, unchanged in rank
+
+| Fault | Count |
+| --- | --- |
+| distribution | 20 |
+| restriction | 7 |
+| gloss-mismatch | 6 |
+| world-not-word | 5 |
+| provenance | 2 |
+| wrong-charge | 1 |
+
+Distribution is 57% of failures, against 58% in census 001. The class was never
+beaten — it was swept out of 756 senses and left standing in 171.
+
+By part of speech: adverbs 0.7% (1 of 145), adjectives 4.1% (27 of 666), verbs
+6.0% (7 of 116). The inherited adverbs are the cleanest population in the
+corpus, which is what 11.68's pertainym gate was for.
+
+### The repairs
+
+35 failing synsets, 41 senses. 34 synsets were repaired by hand in the shard
+files (`data/policy/census-002-repairs.json`, applied through the existing
+`census_apply.py`); the 35th, *noisily*, re-derived itself from the repaired
+*noisy* through the pertainym inheritance, which is the machinery working as
+designed.
+
+Two repairs are judgement calls worth recording. *couth*'s gloss is literally
+"(used facetiously)", so the reader's objection to "almost always a joke" caught
+a frequency word sitting on top of a claim the gloss does licenses; the note
+keeps the joke and drops the "almost always". *pillory*'s "names an actual
+punishment" was read as provenance, and the rewrite keeps only what the word
+does to its target now.
+
+### What this changes about auditing
+
+A sample tells you which fault classes exist. A census tells you the rate. **But
+neither is worth anything if the population is drawn to exclude the senses most
+likely to fail** — and "fresh material" is exactly the instinct that produces
+that exclusion. The rule from here: *a repair pass reads everything; only a
+measurement pass may exclude.* Census 001 was a repair pass wearing a
+measurement's exclusion logic.
+
+### Still owed
+
+The 41 repaired senses were rewritten by the session that read this census's
+results, so they are unverified by the standard this section just applied to
+audit 005. **A one-packet blind re-read of those 41 is owed before they count as
+clean** — a fresh reader, as always, and cheap at that size.
 
 ## 11.7 Possible later work — not scheduled
 

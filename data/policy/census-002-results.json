@@ -1,0 +1,544 @@
+{
+ "sample": "census-002",
+ "seed": 20260902,
+ "population": 927,
+ "read": 927,
+ "right": 886,
+ "wrong": 35,
+ "unsure": 6,
+ "error_rate_pct": 3.8,
+ "threshold_pct": 5.0,
+ "reader_model": "claude-fable-5-1",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
+ "missing_packets": [],
+ "unread": [],
+ "faults": {
+  "distribution": 20,
+  "restriction": 7,
+  "gloss-mismatch": 6,
+  "world-not-word": 5,
+  "provenance": 2,
+  "wrong-charge": 1
+ },
+ "by_part_of_speech": {
+  "adjective": {
+   "read": 666,
+   "right": 635,
+   "wrong": 27,
+   "unsure": 4,
+   "error_rate_pct": 4.1
+  },
+  "adverb": {
+   "read": 145,
+   "right": 144,
+   "wrong": 1,
+   "unsure": 0,
+   "error_rate_pct": 0.7
+  },
+  "verb": {
+   "read": 116,
+   "right": 107,
+   "wrong": 7,
+   "unsure": 2,
+   "error_rate_pct": 6.0
+  }
+ },
+ "by_census_001_history": {
+  "censused": {
+   "read": 756,
+   "right": 733,
+   "wrong": 20,
+   "unsure": 3,
+   "error_rate_pct": 2.6
+  },
+  "never-censused": {
+   "read": 171,
+   "right": 153,
+   "wrong": 15,
+   "unsure": 3,
+   "error_rate_pct": 8.8
+  }
+ },
+ "failures_by_synset": {
+  "oewn-00011346-s": [
+   {
+    "id": "hoggish.oewn-00011346-s",
+    "word": "hoggish",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "Narrows to 'the eater'; gloss covers greed as well as gluttony.",
+    "definition": "resembling swine; coarsely gluttonous or greedy",
+    "tone": "Compares the eater to a pig outright, with none of the softening *piggy* has.",
+    "history": "never-censused"
+   }
+  ],
+  "oewn-00066633-v": [
+   {
+    "id": "bawl.oewn-00066633-v",
+    "word": "bawl",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "Gloss is 'cry loudly' and an example is adult; note makes it the word for a child's crying.",
+    "definition": "cry loudly",
+    "tone": "Loud and undignified, but not unkind - the word for a child's full-throated crying.",
+    "history": "censused"
+   }
+  ],
+  "oewn-00115732-s": [
+   {
+    "id": "choleric.oewn-00115732-s",
+    "word": "choleric",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "Gloss 'characterized by anger' with example 'a choleric outburst' covers the moment; the note insists on character-not-moment, which is the sibling temperament sense.",
+    "definition": "characterized by anger",
+    "tone": "Judges the character, not the moment: anger as a person's built-in temper.",
+    "history": "censused"
+   }
+  ],
+  "oewn-00149346-s": [
+   {
+    "id": "dodgy.oewn-00149346-s",
+    "word": "dodgy",
+    "verdict": "unsure",
+    "fault": "gloss-mismatch",
+    "why": "Note describes vague untrustworthiness of a thing; gloss is skill in deception.",
+    "definition": "marked by skill in deception",
+    "tone": "Suspicion rather than accusation - it says a thing is not to be trusted without saying what is wrong with it.",
+    "history": "never-censused"
+   },
+   {
+    "id": "wily.oewn-00149346-s",
+    "word": "wily",
+    "verdict": "wrong",
+    "fault": "wrong-charge",
+    "why": "Note says the disapproval is gone and the word compliments; charge is -1 negative on a gloss about deception.",
+    "definition": "marked by skill in deception",
+    "tone": "Cunning with the disapproval taken out - a wily negotiator is being complimented.",
+    "history": "censused"
+   }
+  ],
+  "oewn-00220265-s": [
+   {
+    "id": "dishy.oewn-00220265-s",
+    "word": "dishy",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'now somewhat dated' is a claim about current currency, not about what the word does.",
+    "definition": "(informal British) sexually attractive",
+    "tone": "British slang for sexually attractive - casual and now somewhat dated.",
+    "history": "never-censused"
+   }
+  ],
+  "oewn-00230871-r": [
+   {
+    "id": "noisily.oewn-00230871-r",
+    "word": "noisily",
+    "verdict": "wrong",
+    "fault": "world-not-word",
+    "why": "Inherits 'noise is expected in most places' - a fact about noise, not the adverb.",
+    "definition": "with much noise or loud and unpleasant sound",
+    "tone": "The adverb of *noisy*: the plain complaint, and a mild one - noise is expected in most places.",
+    "history": "censused"
+   }
+  ],
+  "oewn-00264860-s": [
+   {
+    "id": "spunky.oewn-00264860-s",
+    "word": "spunky",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'often of someone small' is a claim about typical referents, not about the word's force.",
+    "definition": "willing to face danger",
+    "tone": "Affectionate praise for spirit, often of someone small taking on something large.",
+    "history": "censused"
+   }
+  ],
+  "oewn-00313654-s": [
+   {
+    "id": "reckless.oewn-00313654-s",
+    "word": "reckless",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'Appears in law' is a where-it-is-used claim.",
+    "definition": "characterized by careless unconcern",
+    "tone": "The gravest here - it implies danger, and appears in law for that reason.",
+    "history": "censused"
+   }
+  ],
+  "oewn-00365018-s": [
+   {
+    "id": "gay.oewn-00365018-s",
+    "word": "gay",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'now thoroughly dated; the modern sense has replaced it' is a claim about usage over time, not the word's force.",
+    "definition": "bright and pleasant; promoting a feeling of cheer",
+    "tone": "This bright-and-pleasant sense is now thoroughly dated; the modern sense has replaced it.",
+    "history": "never-censused"
+   }
+  ],
+  "oewn-00422521-s": [
+   {
+    "id": "smutty.oewn-00422521-s",
+    "word": "smutty",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'almost entirely displaced' is about currency of senses, and says nothing of what this sense does.",
+    "definition": "soiled with dirt or soot",
+    "tone": "The soot sense has been almost entirely displaced by the obscene one.",
+    "history": "never-censused"
+   }
+  ],
+  "oewn-00645747-a": [
+   {
+    "id": "rude.oewn-00645747-a",
+    "word": "rude",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'learned early' is a claim about speakers acquiring the word, not what the word does.",
+    "definition": "lacking civility or good manners",
+    "tone": "The everyday word, learned early, and blunt enough to be used to a child's face.",
+    "history": "censused"
+   }
+  ],
+  "oewn-00825330-v": [
+   {
+    "id": "criminate.oewn-00825330-v",
+    "word": "criminate",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'Rare' is a claim about the word's currency, not what it does.",
+    "definition": "rebuke formally",
+    "tone": "Rare and legalistic; it frames the fault as very nearly a crime.",
+    "history": "censused"
+   }
+  ],
+  "oewn-00825488-v": [
+   {
+    "id": "pillory.oewn-00825488-v",
+    "word": "pillory",
+    "verdict": "unsure",
+    "fault": "provenance",
+    "why": "'Names an actual punishment' reads as origin/literal sense; second half does describe the force.",
+    "definition": "criticize harshly or violently",
+    "tone": "Names an actual punishment - public humiliation, deliberately staged.",
+    "history": "never-censused"
+   }
+  ],
+  "oewn-00884747-v": [
+   {
+    "id": "tout.oewn-00884747-v",
+    "word": "tout",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "Gloss is show off / boast; note describes the advertise-for-sale sense.",
+    "definition": "show off",
+    "tone": "Commercial - the boasting is on behalf of something being sold.",
+    "history": "censused"
+   },
+   {
+    "id": "blow.oewn-00884747-v",
+    "word": "blow",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'Chiefly American' hedges frequency rather than naming register.",
+    "definition": "show off",
+    "tone": "Chiefly American; blowing one's own horn, with the same air of hot air.",
+    "history": "censused"
+   }
+  ],
+  "oewn-00909610-v": [
+   {
+    "id": "bitch.oewn-00909610-v",
+    "word": "bitch",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "Gloss is 'say mean things'; note describes the complaining sense ('dismisses the complaint').",
+    "definition": "say mean things",
+    "tone": "Coarse and common; it dismisses the complaint by the word used to name it.",
+    "history": "never-censused"
+   }
+  ],
+  "oewn-00964856-s": [
+   {
+    "id": "allegiant.oewn-00964856-s",
+    "word": "allegiant",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'Rare' is a frequency claim.",
+    "definition": "steadfast in devotion (especially to your lawful monarch or government)",
+    "tone": "Formal and rare - it names the duty rather than the feeling.",
+    "history": "never-censused"
+   }
+  ],
+  "oewn-01115023-s": [
+   {
+    "id": "benevolent.oewn-01115023-s",
+    "word": "benevolent",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'often said of institutions' claims who it is used of.",
+    "definition": "generous in providing aid to others",
+    "tone": "Praises the disposition rather than any particular gift; often said of institutions.",
+    "history": "never-censused"
+   },
+   {
+    "id": "freehearted.oewn-01115023-s",
+    "word": "freehearted",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'Rare' is a frequency claim.",
+    "definition": "generous in providing aid to others",
+    "tone": "Rare and warm: the giving is presented as coming from feeling, not duty.",
+    "history": "never-censused"
+   }
+  ],
+  "oewn-01115129-s": [
+   {
+    "id": "handsome.oewn-01115129-s",
+    "word": "handsome",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "'Of a sum or a gesture' narrows a gloss that also covers the giver ('giving freely').",
+    "definition": "given or giving freely",
+    "tone": "Of a sum or a gesture - it praises the scale, and implies it exceeded what was owed.",
+    "history": "censused"
+   },
+   {
+    "id": "liberal.oewn-01115129-s",
+    "word": "liberal",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "'Of portions and allowances' narrows a gloss that also covers the giver (the example is a backer).",
+    "definition": "given or giving freely",
+    "tone": "Of portions and allowances, not politics - abundance framed as generosity.",
+    "history": "censused"
+   }
+  ],
+  "oewn-01225960-s": [
+   {
+    "id": "ambidextrous.oewn-01225960-s",
+    "word": "ambidextrous",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'A near-archaic use' is a currency claim, like 'almost extinct'.",
+    "definition": "marked by deliberate deceptiveness especially by pretending one set of feelings and acting under the influence of another",
+    "tone": "A near-archaic use, and the pun softens it - the double-dealing sounds almost like a skill.",
+    "history": "censused"
+   }
+  ],
+  "oewn-01226630-s": [
+   {
+    "id": "fallacious.oewn-01226630-s",
+    "word": "fallacious",
+    "verdict": "unsure",
+    "fault": "gloss-mismatch",
+    "why": "Gloss is plain deception (testimony); note frames it as reasoning/argument, leaning on the fallacy sense.",
+    "definition": "involving deception",
+    "tone": "Deception dressed as reasoning - the argument is built to mislead.",
+    "history": "never-censused"
+   }
+  ],
+  "oewn-01266942-s": [
+   {
+    "id": "cannibalic.oewn-01266942-s",
+    "word": "cannibalic",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'Rare enough' is a frequency claim.",
+    "definition": "marked by barbarity suggestive of a cannibal; rapaciously savage",
+    "tone": "The furthest word in the family, and rare enough to sound like an accusation of myth.",
+    "history": "never-censused"
+   }
+  ],
+  "oewn-01303596-s": [
+   {
+    "id": "disciplinary.oewn-01303596-s",
+    "word": "disciplinary",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "'Used of measures' narrows the sense the gloss does not narrow; the example applies it to a person.",
+    "definition": "designed to promote discipline",
+    "tone": "Used of measures for correcting or punishing misconduct.",
+    "history": "never-censused"
+   },
+   {
+    "id": "disciplinal.oewn-01303596-s",
+    "word": "disciplinal",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'near-obsolete' is a currency claim about usage.",
+    "definition": "designed to promote discipline",
+    "tone": "The near-obsolete twin of *disciplinary*: measures meant to correct.",
+    "history": "never-censused"
+   }
+  ],
+  "oewn-01740820-s": [
+   {
+    "id": "longanimous.oewn-01740820-s",
+    "word": "longanimous",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'Almost extinct' is a claim about how often the word is used.",
+    "definition": "showing patient and unruffled self-control and restraint under adversity; slow to retaliate or express resentment",
+    "tone": "The Latinate form of *long-suffering*, and almost extinct.",
+    "history": "never-censused"
+   }
+  ],
+  "oewn-01926330-a": [
+   {
+    "id": "noisy.oewn-01926330-a",
+    "word": "noisy",
+    "verdict": "wrong",
+    "fault": "world-not-word",
+    "why": "'noise is expected in most places' is a claim about noise, not about the word.",
+    "definition": "full of or characterized by loud and nonmusical sounds",
+    "tone": "The plain complaint, and a mild one - noise is expected in most places.",
+    "history": "censused"
+   }
+  ],
+  "oewn-01954649-s": [
+   {
+    "id": "couth.oewn-01954649-s",
+    "word": "couth",
+    "verdict": "unsure",
+    "fault": "distribution",
+    "why": "'Almost always a joke' is a frequency claim, though the gloss itself says facetious.",
+    "definition": "(used facetiously) refined and well-mannered",
+    "tone": "Almost always a joke - refinement praised with one eyebrow raised.",
+    "history": "censused"
+   }
+  ],
+  "oewn-01954782-s": [
+   {
+    "id": "mincing.oewn-01954782-s",
+    "word": "mincing",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "Gloss is 'affectedly dainty or refined' generally; note ties the word to a walk.",
+    "definition": "affectedly dainty or refined",
+    "tone": "Mocks refinement as performance - the word describes the walk, and means the person.",
+    "history": "censused"
+   }
+  ],
+  "oewn-01956681-s": [
+   {
+    "id": "loutish.oewn-01956681-s",
+    "word": "loutish",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "'Young, male' narrows the subject to a class the gloss does not restrict it to.",
+    "definition": "ill-mannered and coarse and contemptible in behavior or appearance",
+    "tone": "Young, male and physical - the lout takes up space and does not apologise.",
+    "history": "never-censused"
+   }
+  ],
+  "oewn-02136564-v": [
+   {
+    "id": "look_backward.oewn-02136564-v",
+    "word": "look backward",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'used where the wistful sense would confuse' claims when it is used.",
+    "definition": "look towards one's back",
+    "tone": "The literal version, used where the wistful sense would confuse.",
+    "history": "censused"
+   }
+  ],
+  "oewn-02282906-v": [
+   {
+    "id": "plagiarize.oewn-02282906-v",
+    "word": "plagiarize",
+    "verdict": "wrong",
+    "fault": "world-not-word",
+    "why": "'Career-ending in academic and literary settings' is about consequences in the world, not the word.",
+    "definition": "take without referencing from someone else's writing or speech; of intellectual property",
+    "tone": "Theft of words and ideas - a career-ending accusation in academic and literary settings.",
+    "history": "censused"
+   }
+  ],
+  "oewn-02335420-s": [
+   {
+    "id": "bullet-headed.oewn-02335420-s",
+    "word": "bullet-headed",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'rare' is a frequency claim, not a description of the word's force.",
+    "definition": "obstinate and stupid",
+    "tone": "The same accusation with a harder image; rare, and unkind about the head as well.",
+    "history": "censused"
+   }
+  ],
+  "oewn-02350284-v": [
+   {
+    "id": "plunder.oewn-02350284-v",
+    "word": "plunder",
+    "verdict": "unsure",
+    "fault": "gloss-mismatch",
+    "why": "Gloss is the intellectual-property sense; note reads as the literal army-scale robbery sense, though the image arguably carries over.",
+    "definition": "take illegally; of intellectual property",
+    "tone": "Systematic, large-scale robbery - theft on the scale of armies.",
+    "history": "censused"
+   }
+  ],
+  "oewn-02472810-s": [
+   {
+    "id": "misanthropical.oewn-02472810-s",
+    "word": "misanthropical",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'and rarer' is a frequency claim.",
+    "definition": "believing the worst of human nature and motives; having a sneering disbelief in e.g. selflessness of others",
+    "tone": "The longer form of the same judgement, and rarer.",
+    "history": "censused"
+   }
+  ],
+  "oewn-02473075-s": [
+   {
+    "id": "questioning.oewn-02473075-s",
+    "word": "questioning",
+    "verdict": "wrong",
+    "fault": "world-not-word",
+    "why": "'It is what a careful person does' is a claim about the behaviour, not the word.",
+    "definition": "marked by or given to doubt",
+    "tone": "Nearly neutral - in most contexts it is what a careful person does.",
+    "history": "never-censused"
+   },
+   {
+    "id": "doubting.oewn-02473075-s",
+    "word": "doubting",
+    "verdict": "unsure",
+    "fault": "world-not-word",
+    "why": "'doubt is not a fault in itself' is a claim about doubt, though it serves to say the word does not accuse.",
+    "definition": "marked by or given to doubt",
+    "tone": "Describes a state of mind, and doubt is not a fault in itself.",
+    "history": "censused"
+   }
+  ],
+  "oewn-02580010-s": [
+   {
+    "id": "omniscient.oewn-02580010-s",
+    "word": "omniscient",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'At home in theology and in narration' says where the word is used, not what it does.",
+    "definition": "infinitely wise",
+    "tone": "The technical form, at home in theology and in narration.",
+    "history": "never-censused"
+   }
+  ],
+  "oewn-02592267-s": [
+   {
+    "id": "eared.oewn-02592267-s",
+    "word": "eared",
+    "verdict": "wrong",
+    "fault": "provenance",
+    "why": "'The clipped form of dog-eared' is a derivation story about the word.",
+    "definition": "worn or shabby from overuse or (of pages) from having corners turned down",
+    "tone": "The clipped form of 'dog-eared' - shabby from use, and slightly fond about it.",
+    "history": "censused"
+   }
+  ]
+ }
+}
