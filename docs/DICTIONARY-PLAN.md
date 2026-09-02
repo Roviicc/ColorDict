@@ -1101,6 +1101,118 @@ fixed them. Nothing is owed on census 002.
 The cost of that discipline is one packet, about three minutes and a few cents.
 The cost of skipping it was five days and three audits.
 
+## 11.71 The run plan — stages, and what stops each one
+
+Written down because the last three things that went wrong went wrong by being
+remembered instead of recorded. Each stage below has an exit condition that can
+be checked rather than felt, and a stop condition that says when to abandon the
+stage instead of pushing through it.
+
+**The unit is a tick, not a shard.** A tick is roughly 500 senses authored and
+then read blind before the next one starts. Measuring at the end of a long run
+is the census 001 mistake stretched over time: a population, or a stretch of
+work, that is only inspected after it is finished. A tick that comes in over
+the 5% threshold costs one tick of rework; a run measured only at the end costs
+all of it.
+
+### Where the line stands
+
+| | Pool | Annotated | Queued | Instrument |
+| --- | --- | --- | --- | --- |
+| Adjective | 6,826 families / 29,039 members | 63 families, 766 senses | **303 families, 4,543 members** | ready |
+| Verb | 2,495 families / 31,811 members | 9 families, 118 senses | none — worklist never built | absent |
+| Adverb | 5,571 senses, 2,505 pertainym links | 156 inherited | n/a — arrives free | automatic |
+| Noun | 11,484 families / 129,506 members | 0 | 1,318 candidates, filter known bad | blocked |
+
+### Stage 1 — close the debt, and make authoring an instrument too
+
+Shard 9's 92 senses are authored and unread, so the corpus currently has a
+measured rate (3.8%) that does not cover all of it. Nothing else should start
+while that is true.
+
+1. `.claude/agents/family-author.md` — model `opus`, effort `xhigh`, tools
+   restricted the way the reader's are. Authoring is the half of the loop still
+   depending on whoever happens to be running the session, which is the exact
+   condition 11.62 removed from reading.
+2. Blind-read shard 9 through `census-reader.md` (two packets).
+3. Push.
+
+**Exit:** shard 9 has a rate, and both halves of the loop are files.
+**Stop:** if the shard 9 read comes in over 5%, Stage 2 does not start — the
+notes authored today are the template for the next 4,500, and a bad template
+should not be copied 45 times.
+
+### Stage 2 — tick 1, the calibration tick
+
+The first tick authored by parallel `family-author` subagents rather than by one
+session writing serially: one agent per family, each seeing only its own family's
+glosses. This is the same design as the reader fan-out, and it exists for the
+same reason — context stays fresh per family, and a writer holding 500 glosses
+starts producing plausible notes instead of grounded ones.
+
+~500 senses, then a blind read of the whole tick.
+
+**Exit:** tick rate under 5%.
+**Stop:** over 5% means the parallel-author design is worse than serial
+authoring, and the honest response is to say so and go back, not to tune the
+prompt until the number moves. B1 played this role for batches; this plays it
+for the fan-out.
+
+### Stage 3 — ticks 2 onward, the adjective run
+
+Repeat until the queue is empty: ~500 senses authored, read blind, decide.
+4,543 members is roughly **nine ticks**.
+
+Two things to revisit with evidence rather than argument:
+
+- **The 70% charge gate.** It passes 340 of 5,911 families where 11.6 expected
+  "~600 real families". That gap is either the gate being too tight or the
+  estimate being optimistic, and two ticks of data will say which. Do not touch
+  it before then.
+- **The adverb dividend.** 156 senses inherited today against 2,505 pertainym
+  links available. Every adjective tick pays some of that gap automatically, so
+  the adverb line needs no stage of its own — it needs adjectives.
+
+**Exit:** adjective queue empty.
+**Stop:** two consecutive ticks over threshold. That is a method problem, not a
+batch problem, and 5.5 already says what to do about it.
+
+### Stage 4 — verb
+
+The verb line has 118 annotated senses that rode along inside adjective shards
+and no queue at all. `worklist_build.py --pos v` has never been run.
+
+Verbs are not adjectives with different words: 31,811 members across 2,495
+families means they cluster far denser (12.8 members per family against the
+adjective 4.3), so the size and charge gates calibrated in 11.62 are **not**
+transferable and must be recalibrated against what the verb pool actually looks
+like. A screening pass comes before any authoring.
+
+**Exit:** a verb worklist with gates justified by verb data, then ticks as
+Stage 3.
+
+### Stage 5 — noun, and the filter that has to be fixed first
+
+The largest pool and the least ready. 1,318 families have four or more
+non-neutral members, but `screening-nouns-001.json` records why that number
+cannot be trusted: *pneumonia* and *tranquilizer* score high because the
+**thing** is bad, not because the **word** carries force.
+
+That is the `world-not-word` fault — the same class the tone notes kept failing
+on — operating one level up, at family selection. Annotating nouns before it is
+fixed would build a shard out of words that have no connotation to describe,
+and the read would find it the expensive way.
+
+**Exit:** a screening rule that separates a word's force from its referent's
+desirability. Until then the noun line stays closed.
+
+### What is deliberately not in this plan
+
+Rebuilding assets and cutting a release is not a stage. The build already runs
+green on every pipeline pass, and the app ships whatever the corpus currently
+holds — B0 was designed so nothing is blocked on curation. A release is a
+decision about timing, not a step that has to be completed in order.
+
 ## 11.7 Possible later work — not scheduled
 
 Recorded so the options are not lost. None of these is committed to, and none
