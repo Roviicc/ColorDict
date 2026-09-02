@@ -382,6 +382,8 @@ after any stage. Settled: −3..+3 resolution; slurs kept with warnings per 5.3
 | 2026-09-02 | **Audit 005: 0%, with a caveat.** 49 right, 1 unsure, drawn from the repaired corpus and read by the session that repaired it; a blind read is still owed before 5.5 unpauses. See 11.69 |
 | 2026-09-02 | **Worklist built.** `worklist_build.py` ranks 5,911 adjective families by wordfreq Zipf; the eight hand-picked shards sit on the corpus centre (3.04 vs 2.90), unbiased but unprioritised. See 11.61 |
 | 2026-09-02 | **Census 002: 3.8%, blind, and the gate passes.** All 927 senses read by sixteen Fable 5.1 readers with no sight of the corpus's history. The split is the finding: 2.6% where census 001 swept, 8.8% in the 171 senses its `--exclude` logic skipped. 41 senses repaired. See 11.70 |
+| 2026-09-02 | **The instrument is version-controlled.** `.claude/agents/census-reader.md` pins the reader's model, effort and tool allowlist; `census2_aggregate.py` records all three in the results. A reader with only `Read`/`Write` cannot reach `data/policy/`, so blindness is enforced rather than requested. See 11.62 |
+| 2026-09-02 | **The worklist gets a second gate.** Frequency alone queues neutral adjectives — *finished*, *whole*, *normal* — which a connotation dictionary has nothing to say about. Eligibility is now size ≥ 8 and charged ≥ 70%, then median Zipf. 340 eligible, 303 queued. See 11.62 |
 
 **Current totals: 63 families, 781 annotated senses, 922 reviewed entries,
 0 validation errors, measured error rate 3.8% (census 002, blind)** — including 145 adverb senses inherited for free, and 11
@@ -516,6 +518,111 @@ distribution claims are the largest fault class in the corpus — 58% of every
 failure in census 001 (11.69), and still the largest in census 002 (11.70). The
 worklist decides *whether* a family is queued; the writer sees only the gloss
 and the spectrum.
+
+## 11.62 The instrument, and what the worklist was actually ranking
+
+Two fixes that belong together: both are cases where a number looked settled
+because nobody had written down what produced it.
+
+### The reader is now a file, not a memory
+
+Census 002 recorded `reader_model: claude-fable-5-1` and nothing else. The
+effort level the sixteen readers ran at was never recorded anywhere — it was
+inherited from a session setting that had been rewritten four minutes after the
+last packet landed. The reading could not be reproduced, and a rate compared
+against it could not be attributed.
+
+`.claude/agents/census-reader.md` now pins the instrument in version control:
+
+| | |
+| --- | --- |
+| `model` | `fable` |
+| `effort` | `xhigh` |
+| `tools` | `Read, Write` — nothing else |
+
+The tool allowlist is the part that does real work. A reader with no `Bash`,
+`Grep` or `Glob` **cannot** open `data/policy/` and see how a sense was scored
+before, so blindness is a property of the harness instead of a sentence in a
+prompt that a reader may or may not honour. The rubric lives in the same file,
+so the reading instructions are versioned alongside the model that follows them.
+
+`census2_aggregate.py` reads that frontmatter and writes `reader_effort`,
+`reader_agent` and `reader_tools` beside `reader_model`. It refuses to run
+without the agent file: a census that cannot say what read it is not a
+measurement. `--reader-model` takes the *resolved* ID actually served, because
+an alias drifts under you — a mismatch against the agent file warns rather than
+being silently recorded.
+
+Verified by reconstructing all 927 census 002 verdicts from the published
+results and re-running: 886/35/6, 3.8%, the 2.6/8.8 split and all six fault
+counts reproduce exactly, and the diff against the published file is three added
+keys. (The verdict packets themselves were not kept, so census 002 is
+reproducible only from its own results. Keep the packets from here on.)
+
+### Frequency was ranking the wrong thing, twice
+
+The worklist sorted by **peak** Zipf. Zipf scores a word form, not a sense, so a
+single common form dragged whole families to the top: the first three were
+*fashionable*, *successful* and *cardinal*, lifted there by *in* and *i* —
+function words 5.3 excludes from annotation anyway. *cardinal* is 259 members
+and 134 synsets, which is not a ninth of a shard.
+
+Sorting by the **median** — the honest signal, per 11.61 — fixed that and
+exposed the real problem underneath. The new head of the list was *on*, *more*,
+*out*, *like*, *first*: singleton families of function words. A family of one
+has no spectrum to rank against.
+
+Gating on size then showed the fault that had been there all along. Ranked by
+frequency, the reachable adjective families are *finished*, *individual*,
+*whole*, *normal*, *high* — neutral words. This is a connotation dictionary.
+There is nothing for a tone note to say about *whole*, and a shard spent on it
+measures nothing.
+
+| | median size | charged fraction |
+| --- | --- | --- |
+| The 56 hand-picked families | 19 | **0.83** |
+| Frequency-ranked head, size ≥ 8 | 10 | **0.36 – 0.62** |
+
+Hand-picking had been quietly applying a filter the tool did not have. So
+eligibility now takes two gates before frequency is consulted at all — size ≥ 8
+(it has a spectrum) and charged ≥ 70% by SentiWordNet (it is a connotation
+family) — and only then median Zipf. 340 families are eligible, 303 of them
+untouched and queued. 37 of the 56 hand-picked families would themselves pass,
+at a median charged fraction of 0.82 against a 0.70 gate.
+
+Both gates are recorded per row rather than applied destructively. Every
+candidate family stays in `worklist.tsv` with `charged`, `charged_pct` and
+`eligible` columns; the sort puts eligible families on top. A later pass that
+wants the neutral band can still find it.
+
+**This is the same failure as the census's `--exclude` logic (11.70), one level
+up.** There, a population was drawn to exclude the senses most likely to fail.
+Here, a queue was ordered by a proxy that quietly excluded the families most
+worth annotating. In both cases the tool looked principled and the hand-picked
+alternative was better, which is the signal that the principle was not the one
+being applied.
+
+### Shard 9, drawn by the tool for the first time
+
+The first shard the worklist chose rather than a person: 9 families, 93 members
+after one pre-skipped gloss, 59 synsets (`data/families/draft-009.json`).
+
+| Family | Members | Synsets | Charged | Median Zipf |
+| --- | --- | --- | --- | --- |
+| ready | 10 | 7 | 7/10 | 5.06 |
+| inaccurate | 9 | 5 | 7/9 | 4.96 |
+| sound | 8 | 5 | 7/8 | 4.77 |
+| accurate | 12 | 8 | 9/12 | 4.70 |
+| fortunate | 12 | 8 | 12/12 | 4.62 |
+| best | 20 | 12 | 17/20 | 4.61 |
+| crucial | 8 | 4 | 6/8 | 4.55 |
+| reliable | 9 | 4 | 8/9 | 4.48 |
+| preserved | 9 | 6 | 8/10 | 4.45 |
+
+It sits a band above the hand-picked work (4.45–5.06 against a corpus centre of
+3.04), which is the prioritisation the worklist was built for and never
+delivered: these are commoner words than the ones annotated so far, and still
+charged enough to be worth a note.
 
 ## 11.65 Audit 001 — the sampled audit, and what it found
 

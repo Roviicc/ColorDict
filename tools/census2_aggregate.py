@@ -13,10 +13,18 @@ repaired 198 faults everywhere except there. Splitting the census 002 rate on
 that boundary says whether the corpus has a method problem or an unfinished
 repair.
 
+The reading instrument is not inferred from memory. `.claude/agents/census-reader.md`
+pins the reader's model, effort and tool allowlist in version control, and this
+script copies those into the results so every tick records what read it. Pass
+`--reader-model` with the resolved model ID actually served (the agent file can
+only name an alias, and an alias drifts); a mismatch between the two is warned
+about rather than silently written.
+
 Usage:
     python3 tools/census2_aggregate.py --dir <verdict dir> \
         --census data/policy/census-002.json \
         --prior data/policy/census-001.json \
+        --reader-model claude-fable-5-1 \
         --out data/policy/census-002-results.json
 """
 
@@ -26,6 +34,38 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+
+
+DEFAULT_AGENT = ROOT / ".claude/agents/census-reader.md"
+
+
+def read_instrument(path):
+    """Pull model / effort / tools out of the reader agent's YAML frontmatter.
+
+    Deliberately a five-line parser rather than a PyYAML dependency: the fields
+    that define the instrument are flat strings, and a census must not fail to
+    record what read it because a library is missing.
+    """
+    if not path.exists():
+        raise SystemExit(
+            f"no reader agent definition at {path}\n"
+            "The instrument has to be version-controlled, not remembered. "
+            "Write the agent file before aggregating."
+        )
+    lines = path.read_text(encoding="utf-8").splitlines()
+    if not lines or lines[0].strip() != "---":
+        raise SystemExit(f"{path}: expected YAML frontmatter opening with ---")
+    fields = {}
+    for line in lines[1:]:
+        if line.strip() == "---":
+            break
+        if ":" in line and not line.startswith((" ", "\t", "#")):
+            key, _, value = line.partition(":")
+            fields[key.strip()] = value.strip()
+    missing = [k for k in ("model", "effort") if k not in fields]
+    if missing:
+        raise SystemExit(f"{path}: frontmatter is missing {', '.join(missing)}")
+    return fields
 
 
 def load_verdicts(directory):
@@ -48,7 +88,18 @@ def main():
     ap.add_argument("--census", type=Path, default=ROOT / "data/policy/census-002.json")
     ap.add_argument("--prior", type=Path, default=ROOT / "data/policy/census-001.json")
     ap.add_argument("--out", type=Path, default=ROOT / "data/policy/census-002-results.json")
+    ap.add_argument("--agent", type=Path, default=DEFAULT_AGENT,
+                    help="reader agent definition whose frontmatter pins the instrument")
+    ap.add_argument("--reader-model", default=None,
+                    help="resolved model ID actually served (e.g. claude-fable-5-1); "
+                         "defaults to the alias named in the agent file")
     args = ap.parse_args()
+
+    instrument = read_instrument(args.agent)
+    reader_model = args.reader_model or instrument["model"]
+    if args.reader_model and instrument["model"] not in args.reader_model:
+        print(f"WARNING: agent file says model {instrument['model']!r} but "
+              f"--reader-model is {args.reader_model!r}; recording the latter.")
 
     census = json.loads(args.census.read_text(encoding="utf-8"))
     entries = {e["id"]: e for e in census["entries"]}
@@ -101,7 +152,10 @@ def main():
         "unsure": tally["unsure"],
         "error_rate_pct": rate,
         "threshold_pct": 5.0,
-        "reader_model": "claude-fable-5-1",
+        "reader_model": reader_model,
+        "reader_effort": instrument["effort"],
+        "reader_agent": str(args.agent.relative_to(ROOT)) if args.agent.is_absolute() else str(args.agent),
+        "reader_tools": instrument.get("tools"),
         "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
         "missing_packets": missing,
         "unread": unread,
@@ -112,6 +166,8 @@ def main():
     }
     args.out.write_text(json.dumps(results, indent=1, ensure_ascii=False), encoding="utf-8")
 
+    print(f"instrument: {reader_model} effort={instrument['effort']} "
+          f"tools=[{instrument.get('tools')}]  ({args.agent})")
     print(f"read {read}/{census.get('population')}  right {tally['right']}  "
           f"wrong {tally['wrong']}  unsure {tally['unsure']}  -> {rate}% (threshold 5.0%)")
     if missing:
