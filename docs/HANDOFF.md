@@ -364,9 +364,27 @@ asked for.
   UTC and this machine's are `+08:00`, so foreign commits can look six hours
   *older* while actually being newer. Anything sorting by commit date will order
   them wrongly; `git reflog` is the only reliable record of what landed when.
-- **The working tree always looks fully modified.** CRLF/LF mismatch from the
-  OneDrive + Windows checkout. `git diff --ignore-all-space --ignore-cr-at-eol`
-  shows the real changes. Never `git add -A` — stage explicit paths.
+- **Line endings are now declared in `.gitattributes`, and that fixed real
+  damage.** `core.autocrlf=true` is set at the *system* level on the Windows
+  machine, while the sandbox session commits with it unset — so the stored form
+  of a file depended on who committed it. Two things this had actually broken,
+  both found by measuring rather than by the symptom:
+  **(a)** `sample-glossary.dict` had a carriage return injected into it on
+  checkout — 2,494 bytes on disk against 2,493 committed, with one stray `0x0D`.
+  A StarDict payload with an injected CR has corrupt offsets and the failure is
+  invisible in a diff. The committed copy was clean and the working copy was
+  restored from it; the other 37 tracked binaries were checked and were fine.
+  **(b)** `gradlew` and `run-desktop.sh` were CRLF on disk, which fails under
+  bash with `bad interpreter: /bin/sh^M`.
+  `.gitattributes` pins `text=auto` (index stays LF, checkout stays native),
+  `eol=crlf` for `.bat`/`.cmd`, `eol=lf` for `gradlew` and `.sh`, and `binary`
+  for every dictionary payload and image. It deliberately does **not** set a
+  global `eol=lf`, which would rewrite the whole working tree.
+  Still stage explicit paths — never `git add -A`.
+- **The "whole tree looks modified" symptom is not currently true.** It is in
+  the history because it was, but `git diff --stat` on a clean checkout now
+  returns nothing. If it returns again, check `git ls-files --eol` before
+  believing it — 469 of 508 tracked files are stored LF and correct.
 - **A rate is only comparable if the ruler did not move.** Two censuses were lost
   to this. Check the `reading` and `authoring` fields in each results file before
   comparing rates.

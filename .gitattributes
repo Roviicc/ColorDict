@@ -1,0 +1,49 @@
+# Line endings are declared here rather than left to each machine's
+# core.autocrlf, because two environments commit to this repo: this Windows
+# checkout (autocrlf=true, set at the *system* level by the Git for Windows
+# installer) and a sandbox session that commits in UTC with autocrlf unset.
+# Without this file the stored form of a file depends on who committed it,
+# which is how `data/entries/batch-0001-review.md` ended up stored with CRLF
+# while its 468 neighbours are stored with LF.
+#
+# `text=auto` keeps LF in the index - which is already true of 469 of the 508
+# tracked files - and lets each checkout use its platform's native endings.
+#
+# It deliberately does NOT set `eol=lf`. Forcing LF into the working tree would
+# rewrite every file on this Windows checkout and show the entire repo as
+# modified: the exact symptom HANDOFF section 6 warns about, caused by the fix
+# rather than the problem.
+* text=auto
+
+# Windows shell scripts must keep CRLF or cmd.exe mis-parses them. gradlew.bat
+# is already stored CRLF and that is correct, not a fault to normalise away.
+*.bat           text eol=crlf
+*.cmd           text eol=crlf
+
+# POSIX shell scripts must keep LF or bash fails on the carriage return.
+*.sh            text eol=lf
+gradlew         text eol=lf
+
+# Binary: never convert endings, never diff as text. The StarDict payloads
+# matter most here - a single injected CR corrupts the offsets in .idx and the
+# compressed stream in .dict.dz, and neither failure is visible in a diff.
+*.dict          binary
+*.dict.dz       binary
+*.dz            binary
+*.idx           binary
+*.syn           binary
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.webp          binary
+*.ico           binary
+*.gz            binary
+*.zip           binary
+*.jar           binary
+*.pyc           binary
+*.jks           binary
+*.keystore      binary
+*.ttf           binary
+*.otf           binary
+*.woff          binary
+*.woff2         binary
