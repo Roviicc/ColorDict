@@ -1808,6 +1808,91 @@ against flattening as much as against drifting.
   knowing that ~16 near-vacuous senses in a 280-sense tick **dilute the census
   rate downward**, which is a second reason the number is a floor.
 
+## 11.81 The two tick-7 follow-ups
+
+Both of the small things 11.80 left open, done before tick 8 so tick 8's number
+is measured with the fixed instruments rather than corrected afterwards. Neither
+touches a rubric, so **this is not a new baseline** — `census-reader.md` and
+`family-author.md` are unchanged and tick 8 stays comparable to 007–010.
+
+### `superlative-collision` gains a second axis, and `least` was inverting the claim
+
+The rule shipped knowing only intensity, which is how *perturbing* failed a
+repair by claiming to be its family's **formal** member. Register is the other
+axis notes actually reach for, so `FORMAL_END` and `EVERYDAY_END` sit beside the
+mild and strong roots, and the axes are counted separately: a family's mildest
+member and its most formal member are different claims, and one note may hold
+either without contradicting the other.
+
+Extending it surfaced a bug in the original. `SUPERLATIVE` matches `least\s+(\w+)`
+and `claimed_end` then took the first non-empty group, so **"the least damning
+word in the family" was recorded as a claim on the *strong* end** — the exact
+opposite of what the note says. Harmless while the axis had two ends and every
+comparison was claim-against-claim; wrong the moment a third position exists.
+`least` now inverts through `OPPOSITE`.
+
+Backtest across all 16 shards: **old rule 0 hits, new rule 2, none dropped.**
+Both new hits come from the `least` fix, not from the register axis.
+
+**The pair it reports is wrong, and both halves are still worth reading** — the
+same shape as 11.79's first version, and the reason the backtest is not optional:
+
+- *hard* (−1), "the least damning word in the family", **is a real fault**. It is
+  not contradicted by *stale* but by *day-old* at charge **0**, whose own note
+  says it "leaves the verdict unspoken". A claim to hold the far end of an
+  intensity axis is checkable against the siblings' charges — which is
+  `family-inconsistent`'s method, not this rule's.
+- *stale* (−1), "the plainest word here", is the false-positive half. It was
+  paired with *hard* only because `plain` lives in `MILD_END`, which conflates
+  **bareness** with **low intensity**. If anything *stale* collides with *bad*,
+  "the blankest possible condemnation" — and that pairing is missed, because
+  `blank` is in neither list.
+
+So the honest reading is that the intensity axis is really two axes wearing one
+name. Splitting a `bare` end out of `MILD_END` is the principled fix, and it was
+**not** done here: on its own it would drop the *hard* fault instead of keeping
+it, and 11.79's standard is that a tightening has to keep the real faults and
+drop the false ones. The pair is: split `bare` out **and** check extreme-intensity
+claims against sibling charges. That is a rule change, so it gets its own
+backtest.
+
+The register axis detects 4 positional claims corpus-wide (2 formal, 2 everyday)
+and collides nowhere. **It has caught nothing.** It is there so the *perturbing*
+failure cannot recur silently, and its silence is not evidence that the corpus is
+clean of register collisions.
+
+*hard* needs a repair and one is deliberately not written here: the hand that
+finds a fault does not repair it, and this fault was found by the same pass that
+wrote the rule.
+
+### The mistyped synset id, fixed in the aggregator rather than the packet
+
+11.80 proposed "a packet that printed ids the reader copies rather than retypes".
+The packet already prints the id — `id` has always been in `census_packets.py`'s
+`VISIBLE` list. Making the reader *copy* it means giving each entry an ordinal
+and having the reader echo that ordinal back, which means editing the **Output**
+section of `census-reader.md`. That is the instrument, and 11.74/11.77 are two
+separate occasions when touching it cost a census. Not worth it for a
+transcription slip.
+
+The fix went where it costs nothing: `<word>.<synset>` has a fragile half and a
+sturdy one, and **the word half is sturdy**. `reconcile_ids()` pairs a stray
+verdict with an unread sense when they share a word and the match is unique,
+remaps the verdict, and records the remap in `reconciled_ids` in the results
+file. Ambiguity is **refused, not guessed** — two unread senses of the same word
+leave the stray stray. `--strict-ids` restores the old behaviour.
+
+Verified three ways: census 010 re-aggregates to 280/273/7 → 2.5% with an empty
+`reconciled_ids` (identical to the committed results, so a clean census is
+untouched); an injected digit-transposition on `unskilled.oewn-02236080-a` drops
+the read to 279 under `--strict-ids` and is rescued to 280 by default; and
+corrupting both senses of *bad* leaves both stray, reconciling neither.
+
+This rescues a verdict rather than discarding it, which is the right default —
+census 005 lost a correct reading to exactly this and took the sense off the
+numerator as unread. But it is a **guess about intent**, so it is never silent:
+every remap prints and every remap is written into the results.
+
 ## 11.71 The run plan — stages, and what stops each one
 
 Written down because the last three things that went wrong went wrong by being

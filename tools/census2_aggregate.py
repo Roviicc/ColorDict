@@ -91,6 +91,51 @@ def load_verdicts(directory):
     return seen, missing
 
 
+def reconcile_ids(verdicts, entries):
+    """Rescue verdicts whose sense id was mistyped when the reader transcribed it.
+
+    A sense id is "<word>.<synset>", and the synset half is the fragile one: it
+    is eight digits the reader copies by hand, and it has now been mistyped in
+    three censuses (005, 009, 010). Census 005 is what this costs when nobody
+    notices - the verdict vanished into `verdicts_for_unknown_ids` and the sense
+    it belonged to was counted unread, so a sense that WAS read correctly still
+    came off the numerator.
+
+    The word half of the id is not fragile, and it is enough: when a stray
+    verdict's word matches exactly one unread sense, that pairing is the
+    mistype. Ambiguity is refused rather than guessed - two unread senses of the
+    same word leave the stray stray.
+
+    This never happens silently. Every remap is printed and written into the
+    results under `reconciled_ids`, because a reconciliation that cannot be
+    audited is just a different way to lose the verdict.
+    """
+    def word_of(sense_id):
+        return sense_id.split(".", 1)[0] if "." in sense_id else None
+
+    unread_by_word = {}
+    for sense_id in entries:
+        if sense_id in verdicts:
+            continue
+        unread_by_word.setdefault(word_of(sense_id), []).append(sense_id)
+
+    reconciled = []
+    for bad_id in sorted(i for i in verdicts if i not in entries):
+        candidates = unread_by_word.get(word_of(bad_id)) or []
+        if len(candidates) != 1:
+            continue
+        good_id = candidates[0]
+        v = dict(verdicts.pop(bad_id))
+        v["id"] = good_id
+        verdicts[good_id] = v
+        unread_by_word[word_of(bad_id)] = []
+        reconciled.append({
+            "verdict_id": bad_id, "matched_to": good_id,
+            "basis": "same word, and the only unread sense carrying it",
+        })
+    return reconciled
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--dir", type=Path, required=True)
@@ -101,6 +146,9 @@ def main():
     ap.add_argument("--out", type=Path, default=ROOT / "data/policy/census-002-results.json")
     ap.add_argument("--agent", type=Path, default=DEFAULT_AGENT,
                     help="reader agent definition whose frontmatter pins the instrument")
+    ap.add_argument("--strict-ids", action="store_true",
+                    help="do not pair a stray verdict with an unread sense of the "
+                         "same word; report both as-is, the pre-tick-8 behaviour")
     ap.add_argument("--reader-model", default=None,
                     help="resolved model ID actually served (e.g. claude-fable-5-1); "
                          "defaults to the alias named in the agent file")
@@ -122,6 +170,9 @@ def main():
         prior = {e["id"] for e in json.loads(args.prior.read_text(encoding="utf-8"))["entries"]}
 
     verdicts, missing = load_verdicts(args.dir)
+    # Repair mistyped ids BEFORE counting, so a sense that was read does not
+    # come off the numerator for a transcription slip. See reconcile_ids.
+    reconciled = [] if args.strict_ids else reconcile_ids(verdicts, entries)
     unread = [i for i in entries if i not in verdicts]
     # A verdict whose id is not in the population was silently dropped before.
     # Census 005 produced one: a reader transcribed a synset id wrong, so a
@@ -187,6 +238,7 @@ def main():
         "missing_packets": missing,
         "unread": unread,
         "verdicts_for_unknown_ids": stray,
+        "reconciled_ids": reconciled,
         "faults": dict(faults.most_common()),
         "by_part_of_speech": {k: split(v) for k, v in sorted(by_pos.items())},
         # Key name kept verbatim so census 002's published results still
@@ -203,6 +255,10 @@ def main():
           f"wrong {tally['wrong']}  unsure {tally['unsure']}  -> {rate}% (threshold 5.0%)")
     if missing:
         print(f"MISSING packets: {missing}")
+    if reconciled:
+        print(f"RECONCILED {len(reconciled)} mistyped id(s) - counted as read:")
+        for r in reconciled:
+            print(f"  {r['verdict_id']}  ->  {r['matched_to']}")
     if stray:
         print(f"VERDICTS for ids not in the population: {stray}")
     if unread and stray:

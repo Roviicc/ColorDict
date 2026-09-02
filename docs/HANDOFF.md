@@ -5,7 +5,7 @@ mistake, in the order they happened. It is long on purpose. **This file is the
 entry point** — enough to understand what is being built, whether it is working,
 and what to do next, without reading the whole history first.
 
-Last updated after tick 7 / census 010.
+Last updated after tick 7 / census 010, plus the two follow-ups in 11.81.
 
 ---
 
@@ -161,19 +161,29 @@ adjective sense they point at.
 
 ## 5. Next steps, in order
 
-**1. Push.** Commits are sitting on local `staging`. The sandbox has no git
-credentials; a human has to push, or a credential path has to be set up.
+**1. Run tick 8.** `staging` is pushed and current through 11.81, and the two
+instruments are unchanged by that work, so **tick 8 is still comparable to
+007–010** — it is not a new baseline. Push at the end of each tick rather than
+letting commits pile up; that is routine, not a step.
 
 **2. Finish the adjective line — about five more ticks.** Nothing blocks this.
 Both instruments are verbatim, the gate is checked, the queue is ranked. Just run
 the tick loop above and stop if a tick goes over 5%.
 
-**3. Two follow-ups from tick 7, both small.** `superlative-collision` only knows
-the mild and strong ends of a spectrum; *perturbing* failed a repair by claiming
-to be its family's *formal* member instead, which the rule cannot see. And the
-reader has now mistyped a synset id in two consecutive censuses — the aggregator
-catches it, but a packet that printed ids the reader copies rather than retypes
-would stop it happening.
+**3. Two things 11.81 opened while closing tick 7's follow-ups.**
+
+- **A real fault is sitting unrepaired.** *hard* in `family-01072500-a`
+  (annotated-015) calls itself "the least damning word in the family" while
+  *day-old* sits beside it at charge **0**. Found by the pass that wrote the
+  rule, so by §11.65's own discipline the repair has to come from a hand that
+  neither wrote the note nor found the fault.
+- **The intensity axis is two axes wearing one name.** `MILD_END` conflates
+  *bareness* ("plainest", "flattest") with *low intensity* ("mildest",
+  "gentlest"), which is why the collision it reported paired the wrong two
+  notes. The fix is to split a `bare` end out **and** check extreme-intensity
+  claims against sibling charges — both together, because splitting alone drops
+  the *hard* fault rather than keeping it. It is a rule change, so it needs its
+  own backtest before it is kept.
 
 **4. Then verbs.** The verb line has 116 senses that rode along inside adjective
 shards and **no queue at all** — `worklist_build.py --pos v` has never been run.
@@ -214,7 +224,14 @@ timing decision, not a prerequisite.
   class each time. Always re-read repairs blind, and warn the reader that repeated
   failure is not itself evidence of a fault.
 - **`tone_lint.py` is a smoke alarm, not a referee.** So is `sensitive_screen.py`.
-  Both produce false positives and both have missed real faults.
+  Both produce false positives and both have missed real faults. `superlative-collision`
+  currently reports a pair in which only one half is the fault (11.81) — read
+  what a flag points at, never just the pair it names.
+- **A reconciled id is a guess, and the results file says so.** `census2_aggregate.py`
+  now pairs a stray verdict with an unread sense of the same word and counts it
+  as read, because census 005 lost a correct reading to a mistyped synset id.
+  Every remap is printed and listed under `reconciled_ids` — check them rather
+  than skimming past. `--strict-ids` turns it off.
 - **The census rate is a floor.** It measures what a blind reader catches. Faults
   that live between senses in a family are close to invisible to a reader shown
   one card at a time — tick 7's linter found six such faults in a shard the

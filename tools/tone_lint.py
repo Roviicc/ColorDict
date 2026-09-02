@@ -166,24 +166,48 @@ COMPARATIVE_ALL = re.compile(
 # Same discipline as FAMILY_REF above: the claim has to point at this family and
 # not at the thing the word is aimed at. "the harshest winter here" is about a
 # winter; "the harshest word here" is about the spectrum.
+#
+# Two axes, not one. Tick 7 shipped this rule knowing only intensity, and
+# *perturbing* failed a repair by claiming to be its family's FORMAL member -
+# a positional claim the rule was structurally unable to see. Register is the
+# other axis notes actually reach for. The axes are kept apart because a
+# family's mildest member and its most formal member are different claims, and
+# one note may hold either without contradicting the other.
 MILD_END = ("mild", "soft", "gent", "faint", "flat", "weak", "light", "plain",
             "quiet", "tame", "neutral", "restrain", "understated", "cool")
 STRONG_END = ("strong", "harsh", "sharp", "fierc", "cruel", "bitter", "extreme",
               "contempt", "worst", "sever", "brutal", "savage", "vehement",
               "damning", "ugli", "nasti", "violent")
+FORMAL_END = ("formal", "stately", "ceremon", "elevated", "literary", "learned",
+              "bookish", "lofty", "dignified", "stiff", "starch", "clinical")
+EVERYDAY_END = ("informal", "colloquial", "casual", "slang", "everyday",
+                "homely", "chatty", "conversational", "offhand")
+
+END_ROOTS = (("mild", MILD_END), ("strong", STRONG_END),
+             ("formal", FORMAL_END), ("everyday", EVERYDAY_END))
+
+# "the least harsh word here" claims the MILD end, not the strong one. The rule
+# read `least` as naming the position it modifies and so recorded the exact
+# opposite of what the note said - harmless while it only ever compared a claim
+# against another claim, and wrong the moment the axis has more than two ends.
+OPPOSITE = {"mild": "strong", "strong": "mild",
+            "formal": "everyday", "everyday": "formal"}
 
 
 def _end_of(root):
     root = (root or "").lower()
-    if any(root.startswith(t) for t in MILD_END):
-        return "mild"
-    if any(root.startswith(t) for t in STRONG_END):
-        return "strong"
+    for end, roots in END_ROOTS:
+        if any(root.startswith(t) for t in roots):
+            return end
     return None
 
 
 def claimed_end(note):
-    """'mild' / 'strong' when the note claims an end of its family's spectrum."""
+    """The end of its family's spectrum this note claims, or None.
+
+    One of 'mild', 'strong', 'formal', 'everyday' - a position on one of the
+    two axes above, not a judgement about whether the claim is true.
+    """
     note = note or ""
     for m in COMPARATIVE_ALL.finditer(note):
         end = _end_of(m.group(1))
@@ -195,7 +219,7 @@ def claimed_end(note):
             continue
         end = _end_of(next(g for g in m.groups() if g))
         if end:
-            return end
+            return OPPOSITE[end] if m.group(3) else end
     return None
 
 
