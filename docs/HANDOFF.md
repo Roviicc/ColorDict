@@ -208,10 +208,11 @@ web build**, both already wired.
 Push at the end of each tick rather than letting commits pile up. Carry any
 outstanding repair into the next tick's repair round.
 
-**Currently outstanding:** *hard* in `family-01072500-a` (annotated-015) claims
-"the least damning word in the family" while *day-old* sits beside it at charge
-**0**. Found by the pass that wrote the rule, so section 11.65 requires a hand
-that neither wrote the note nor found the fault.
+**Currently outstanding:** none. The *hard* repair in `family-01072500-a`
+(annotated-015) is closed - the note claimed to be "the least damning word in
+the family" while *day-old* sat beside it at charge 0. Repaired by a hand that
+neither wrote it nor found it, re-read blind and passed, provenance in
+`data/policy/repair-hard-annotated-015.json`.
 
 ### Stage M1 - make the empty state the report button
 
