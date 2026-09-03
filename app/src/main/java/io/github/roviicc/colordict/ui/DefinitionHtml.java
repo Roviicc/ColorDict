@@ -25,7 +25,7 @@ public final class DefinitionHtml {
         for (DictRepository.DictHit hit : result.hits) {
             List<DefinitionRenderer.Entry> entries = new ArrayList<>(hit.entries.size());
             for (DictRepository.RenderedEntry e : hit.entries) {
-                entries.add(new DefinitionRenderer.Entry(e.headword, e.html));
+                entries.add(new DefinitionRenderer.Entry(e.headword, e.html, e.formLine));
             }
             sections.add(new DefinitionRenderer.Section(
                     hit.dict.name(), hit.dict.color, entries));

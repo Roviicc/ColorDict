@@ -23,6 +23,22 @@ public class DefinitionRendererTest {
     }
 
     @Test
+    public void formLineSitsBetweenHeadwordAndBody() {
+        List<DefinitionRenderer.Section> sections = Collections.singletonList(
+                new DefinitionRenderer.Section("My Dictionary", 0xFF1E88E5,
+                        Collections.singletonList(new DefinitionRenderer.Entry(
+                                "emerge", "come out", "emerged — past tense of emerge"))));
+        String html = DefinitionRenderer.page("body{}", sections,
+                Collections.emptyList(), LABELS);
+        int hw = html.indexOf("<div class=\"hw\">emerge</div>");
+        int form = html.indexOf("<div class=\"form\">emerged — past tense of emerge</div>");
+        int body = html.indexOf("<div class=\"body\">come out</div>");
+        assertTrue(hw >= 0 && form > hw && body > form);
+        assertFalse(DefinitionRenderer.page("body{}", oneSection(),
+                Collections.emptyList(), LABELS).contains("class=\"form\"));
+    }
+
+    @Test
     public void hexColorDropsAlpha() {
         assertEquals("#1E88E5", DefinitionRenderer.hexColor(0xFF1E88E5));
         assertEquals("#000000", DefinitionRenderer.hexColor(0xFF000000));

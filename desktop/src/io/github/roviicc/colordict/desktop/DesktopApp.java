@@ -396,6 +396,7 @@ public final class DesktopApp {
                 + ".card{margin:0 0 14px 0;padding:6px 10px;background:#FFFFFF}"
                 + ".dictname{font-size:small;font-weight:bold}"
                 + ".hw{font-size:large;font-weight:bold;margin:4px 0}"
+                + ".form{font-style:italic;color:#6A6F75}"
                 + ".phon{color:#6A6F75}"
                 + ".xex{color:#2E7D32}"
                 + ".xabr{color:#6A6F75}"

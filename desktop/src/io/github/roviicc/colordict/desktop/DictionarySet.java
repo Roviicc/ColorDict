@@ -17,6 +17,7 @@ import io.github.roviicc.colordict.engine.ArticleHtml;
 import io.github.roviicc.colordict.engine.DefinitionRenderer;
 import io.github.roviicc.colordict.engine.DictionaryScanner;
 import io.github.roviicc.colordict.engine.IndexEntry;
+import io.github.roviicc.colordict.engine.Morphology;
 import io.github.roviicc.colordict.engine.StarDictCollation;
 import io.github.roviicc.colordict.engine.StarDictDictionary;
 
@@ -143,7 +144,8 @@ public final class DictionarySet {
                     html = "<i>" + ArticleHtml.escape("error reading article: "
                             + e.getMessage()) + "</i>";
                 }
-                rendered.add(new DefinitionRenderer.Entry(entry.word, html));
+                rendered.add(new DefinitionRenderer.Entry(entry.word, html,
+                        Morphology.formLine(word, entry.word, Morphology.partsOfSpeech(html))));
             }
             sections.add(new DefinitionRenderer.Section(d.name(), d.color, rendered));
         }
@@ -176,8 +178,11 @@ public final class DictionarySet {
         for (DefinitionRenderer.Section section : result.sections) {
             sb.append("== ").append(section.title).append(" ==\n");
             for (DefinitionRenderer.Entry e : section.entries) {
-                sb.append(e.headword).append('\n')
-                        .append(htmlToText(e.html)).append('\n');
+                sb.append(e.headword).append('\n');
+                if (e.formLine != null) {
+                    sb.append("  (").append(e.formLine).append(")\n");
+                }
+                sb.append(htmlToText(e.html)).append('\n');
             }
             sb.append('\n');
         }

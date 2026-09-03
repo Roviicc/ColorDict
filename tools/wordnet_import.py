@@ -323,6 +323,7 @@ def build_entries(entries, synsets, sense_lemma, entry_lemma, scores, ili_map):
             continue
         record = by_word.setdefault(lemma, {"word": lemma, "pron": None,
                                             "senses": [], "forms": [],
+                                            "forms_by_pos": {},
                                             "pos_codes": set(),
                                             "defs": set(), "scored": False})
         if entry.get("pos"):
@@ -332,6 +333,10 @@ def build_entries(entries, synsets, sense_lemma, entry_lemma, scores, ili_map):
         for form in entry["forms"]:
             if form and form != lemma and lemma_ok(form) and form not in record["forms"]:
                 record["forms"].append(form)
+            if form and form != lemma and lemma_ok(form) and entry.get("pos"):
+                # Kept per part of speech: a LexicalEntry is one lemma in one
+                # POS, so *feel*'s "felt" belongs to the verb, not the noun.
+                record["forms_by_pos"].setdefault(entry["pos"], []).append(form)
 
         for _sid, synset_id, antonym_sids in entry["senses"]:
             synset = synsets.get(synset_id)
@@ -426,18 +431,26 @@ def build_entries(entries, synsets, sense_lemma, entry_lemma, scores, ili_map):
         # OEWN ships irregulars only; the regular forms are ours. A word can be
         # both noun and verb (*book*), so generate for every POS it carries.
         #
-        # A generated form may never shadow a real headword. The rules cannot
-        # know that *see* is irregular, so they produce "seed" - which is a
-        # different word, and indexing it would answer a search for *seed* with
-        # *see*. Dead weight ("runned", which nobody types) is tolerable; a
-        # wrong answer is not. Forms OEWN itself lists are authoritative and are
-        # never dropped this way: *saw* really is a form of *see*.
+        # A generated form that is also a real headword is kept only when the
+        # rules can be trusted for this lemma in this POS - that is, when OEWN
+        # lists no irregular form for it. The rules cannot know that *see* is
+        # irregular, so they produce "seed", a different word; OEWN's "saw" and
+        # "seen" on the verb are the signal to drop it. *emerge* has no
+        # irregulars, so its "emerging" is kept even though *emerging* is also
+        # an adjective headword: a search for it should find both, and the
+        # engine already merges an exact headword hit with .syn hits. Dead
+        # weight ("runned", which nobody types) is tolerated; a wrong answer is
+        # not. Forms OEWN itself lists are authoritative and never dropped.
         for code in sorted(record["pos_codes"]):
+            irregular = bool(record["forms_by_pos"].get(code))
             for f in regular_forms(lemma, code):
-                if f in headwords or f in record["forms"]:
-                    if f in headwords:
-                        stats["form_collides_with_headword"] += 1
+                if f in record["forms"]:
                     continue
+                if f in headwords and irregular:
+                    stats["form_collides_with_headword"] += 1
+                    continue
+                if f in headwords:
+                    stats["form_kept_beside_headword"] += 1
                 record["forms"].append(f)
         if record["forms"]:
             entry["inflections"] = record["forms"]

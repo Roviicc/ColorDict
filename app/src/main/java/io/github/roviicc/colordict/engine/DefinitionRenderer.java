@@ -16,10 +16,21 @@ public final class DefinitionRenderer {
         public final String headword;
         /** Article body, already converted to HTML by {@link ArticleHtml}. */
         public final String html;
+        /**
+         * How the query reached this headword when it was not the headword
+         * itself - "emerged — past tense or past participle of emerge" - or
+         * null for an exact hit. See {@link Morphology#formLine}.
+         */
+        public final String formLine;
 
         public Entry(String headword, String html) {
+            this(headword, html, null);
+        }
+
+        public Entry(String headword, String html, String formLine) {
             this.headword = headword;
             this.html = html;
+            this.formLine = formLine;
         }
     }
 
@@ -77,6 +88,7 @@ public final class DefinitionRenderer {
                 + ".dictname{font-size:78%;font-weight:bold;letter-spacing:.06em;"
                 + "text-transform:uppercase;margin-bottom:4px}"
                 + ".hw{font-size:117%;font-weight:bold;margin:2px 0 6px 0}"
+                + ".form{font-size:92%;font-style:italic;color:" + muted + ";margin:-4px 0 6px 0}"
                 + "hr.sep{border:none;border-top:1px dashed " + line + ";margin:10px 0}"
                 + ".phon{color:" + muted + "}"
                 + ".xex{color:" + example + ";font-style:italic}"
@@ -163,8 +175,12 @@ public final class DefinitionRenderer {
                     }
                     Entry e = section.entries.get(i);
                     sb.append("<div class=\"hw\">").append(ArticleHtml.escape(e.headword))
-                            .append("</div><div class=\"body\">").append(e.html)
                             .append("</div>");
+                    if (e.formLine != null && !e.formLine.isEmpty()) {
+                        sb.append("<div class=\"form\">")
+                                .append(ArticleHtml.escape(e.formLine)).append("</div>");
+                    }
+                    sb.append("<div class=\"body\">").append(e.html).append("</div>");
                 }
                 sb.append("</div>");
             }

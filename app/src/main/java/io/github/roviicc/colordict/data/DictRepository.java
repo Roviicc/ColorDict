@@ -28,6 +28,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import io.github.roviicc.colordict.engine.ArticleHtml;
 import io.github.roviicc.colordict.engine.DictionaryScanner;
 import io.github.roviicc.colordict.engine.IndexEntry;
+import io.github.roviicc.colordict.engine.Morphology;
 import io.github.roviicc.colordict.engine.StarDictCollation;
 import io.github.roviicc.colordict.engine.StarDictDictionary;
 import io.github.roviicc.colordict.engine.StarDictInfo;
@@ -67,10 +68,13 @@ public final class DictRepository {
     public static final class RenderedEntry {
         public final String headword;
         public final String html;
+        /** "emerged — past tense or past participle of emerge", or null. */
+        public final String formLine;
 
-        RenderedEntry(String headword, String html) {
+        RenderedEntry(String headword, String html, String formLine) {
             this.headword = headword;
             this.html = html;
+            this.formLine = formLine;
         }
     }
 
@@ -423,7 +427,11 @@ public final class DictRepository {
                         html = "<i>" + ArticleHtml.escape("error reading article: "
                                 + e.getMessage()) + "</i>";
                     }
-                    rendered.add(new RenderedEntry(entry.word, html));
+                    // An inflected search resolves through the .syn index to a
+                    // headword the reader may not know; say how it got there.
+                    String formLine = Morphology.formLine(word, entry.word,
+                            Morphology.partsOfSpeech(html));
+                    rendered.add(new RenderedEntry(entry.word, html, formLine));
                 }
                 hits.add(new DictHit(d, rendered));
             }
