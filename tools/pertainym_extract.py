@@ -18,7 +18,7 @@ Output: {"<adverb-synset>": {"<adverb word>": "<adjective synset>"}}
 
 Usage:
     python3 tools/pertainym_extract.py \
-        --wordnet data/source/english-wordnet-2024.xml.gz \
+        --wordnet data/source/english-wordnet-2025.xml.gz \
         --out data/build/pertainyms.json
 """
 
@@ -35,7 +35,7 @@ ROOT = Path(__file__).resolve().parent.parent
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--wordnet", type=Path,
-                    default=ROOT / "data/source/english-wordnet-2024.xml.gz")
+                    default=ROOT / "data/source/english-wordnet-2025.xml.gz")
     ap.add_argument("--out", type=Path, default=ROOT / "data/build/pertainyms.json")
     args = ap.parse_args()
 

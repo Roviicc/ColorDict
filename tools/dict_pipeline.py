@@ -30,7 +30,7 @@ BULK = ROOT / "data/entries/derived-bulk.jsonl"
 BATCH = ROOT / "data/entries/batch-0001.jsonl"
 BUILD = ROOT / "data/build"
 PERTAINYMS = BUILD / "pertainyms.json"
-WORDNET = ROOT / "data/source/english-wordnet-2024.xml.gz"
+WORDNET = ROOT / "data/source/english-wordnet-2025.xml.gz"
 ASSETS = ROOT / "app/src/main/assets/dicts/popup-en"
 ASSET_FILES = ("popup-en.dict.dz", "popup-en.idx", "popup-en.ifo", "popup-en.syn")
 

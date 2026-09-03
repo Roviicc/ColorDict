@@ -11,7 +11,7 @@ vs taxonomic) and charge annotation happen in later, authored steps.
 
 Usage:
     python3 tools/family_extract.py \
-        --oewn data/source/english-wordnet-2024.xml.gz \
+        --oewn data/source/english-wordnet-2025.xml.gz \
         --out data/build/adjective-families.json
 """
 

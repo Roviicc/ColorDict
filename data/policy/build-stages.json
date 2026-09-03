@@ -1,0 +1,100 @@
+{
+ "plan": "docs/BUILD-PLAN.md",
+ "approved": true,
+ "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes.",
+ "stages": [
+  {
+   "stage": "0",
+   "title": "Foundations - OEWN 2025, reconciliation, entry validator, stage tracking",
+   "spend": "free",
+   "state": "done",
+   "closed_on": "2026-09-03",
+   "closed_by_commit": null,
+   "done_check": {
+    "authored_senses_bound_to_live_2025_sense": "2885/2885",
+    "needs_blind_reread": 0,
+    "validation_errors": 0,
+    "validated_entries": 3063,
+    "control": "13134 ids gone and 81 glosses changed lexicon-wide, so the clean result is a measurement",
+    "report": "data/policy/oewn-2025-reconciliation.json"
+   }
+  },
+  {
+   "stage": "1",
+   "title": "Coverage and honest connotation - ship the plain WordNet layer, kill bare labels",
+   "spend": "free",
+   "state": "not_started",
+   "closed_on": null,
+   "closed_by_commit": null
+  },
+  {
+   "stage": "2",
+   "title": "The report loop - empty state is the report button, local log",
+   "spend": "free",
+   "state": "not_started",
+   "closed_on": null,
+   "closed_by_commit": null
+  },
+  {
+   "stage": "3",
+   "title": "Ship it to ten people - APK on Releases, web on Vercel",
+   "spend": "free",
+   "state": "not_started",
+   "closed_on": null,
+   "closed_by_commit": null
+  },
+  {
+   "stage": "4",
+   "title": "Ranker and Enricher, proven on 50 entries",
+   "spend": "first spend, tiny",
+   "state": "not_started",
+   "closed_on": null,
+   "closed_by_commit": null
+  },
+  {
+   "stage": "5",
+   "title": "The null audit",
+   "spend": "small",
+   "state": "not_started",
+   "closed_on": null,
+   "closed_by_commit": null
+  },
+  {
+   "stage": "6",
+   "title": "The search side - Resolver, match_type, morphology",
+   "spend": "free",
+   "state": "not_started",
+   "closed_on": null,
+   "closed_by_commit": null
+  },
+  {
+   "stage": "7",
+   "title": "Generate book one and bundle it",
+   "spend": "the real spend",
+   "state": "not_started",
+   "closed_on": null,
+   "closed_by_commit": null
+  },
+  {
+   "stage": "8",
+   "title": "The first demand tick",
+   "spend": "spend follows reports",
+   "state": "not_started",
+   "closed_on": null,
+   "closed_by_commit": null
+  }
+ ],
+ "always_running": {
+  "lane": "connotation - family draw, blind read, third-hand repair, 5% gate",
+  "families": 235,
+  "senses": 2885,
+  "last_census": "011 at 3.0%",
+  "outstanding_repairs": 0
+ },
+ "measured_2026_09_03": {
+  "shipped_stardict_entries": 111466,
+  "reviewed_entries": 3063,
+  "note": "CORRECTION: the earlier draft read 3,058 as the shipped entry count. It is the REVIEWED count. popup-en.ifo reports wordcount=111466 and emerge/market/book/skinny all resolve, so BUILD-PLAN stage 1.2 was already shipped before stage 1 began."
+ },
+ "lexicon": "OEWN 2025 (adopted 2026-09-03); SentiWordNet joined via ili-map-pwn30.tab"
+}

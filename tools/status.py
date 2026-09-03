@@ -136,6 +136,24 @@ def git_state():
     for line in real.splitlines():
         print("                    " + line)
 
+    # `git diff` alone sees neither the index nor new files. On 3 Sep that blind
+    # spot hid a whole draft plan - BUILD-PLAN.md and build-stages.json - from a
+    # session that had just read this output and reported the tree clean. Staged
+    # work and untracked files ARE uncommitted work; without them the line above
+    # is a half-truth, and this script's whole promise is that it is not.
+    staged = sh("git", "diff", "--staged", "--ignore-all-space",
+                "--ignore-cr-at-eol", "--stat")
+    if staged:
+        print("staged            :")
+        for line in staged.splitlines():
+            print("                    " + line)
+    untracked = sh("git", "ls-files", "--others", "--exclude-standard")
+    if untracked:
+        names = untracked.splitlines()
+        print("untracked         : %d file(s)" % len(names))
+        for name in names:
+            print("                    " + name)
+
     # The instruments ARE the measurement. If either has moved since the last
     # commit, the next tick is a new baseline and is not comparable to 007-010.
     drift = sh("git", "diff", "--ignore-all-space", "--ignore-cr-at-eol",
@@ -271,6 +289,52 @@ def lint_state():
     print("  A flag is not a verdict, and absence of flags is not clearance.")
 
 
+STAGES = ROOT / "data/policy/build-stages.json"
+
+MARK = {"done": "[x]", "in_progress": "[~]", "blocked": "[!]",
+        "not_started": "[ ]"}
+
+
+def stage_state():
+    """The build plan's stage table, read from disk rather than remembered.
+
+    BUILD-PLAN.md section 7: a stage is marked done by its own done-check
+    passing, never by someone deciding it looks finished. Three times in one day
+    a join or a diff flag reported a cleaner number than the truth.
+    """
+    if not STAGES.exists():
+        return
+    rule("BUILD STAGES - data/policy/build-stages.json")
+    try:
+        data = json.loads(STAGES.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as exc:
+        print("  UNREADABLE: %s" % exc)
+        return
+
+    if not data.get("approved"):
+        print("  ** DRAFT - 'approved' is false. No stage is authorised to start. **")
+    if data.get("note"):
+        print("  " + data["note"])
+    print("")
+
+    for st in data.get("stages", []):
+        state = st.get("state", "not_started")
+        print("  %s %-2s %-52s %s" % (MARK.get(state, "[?]"), st.get("stage", "?"),
+                                      (st.get("title") or "")[:52],
+                                      st.get("spend") or ""))
+        if st.get("closed_on") or st.get("closed_by_commit"):
+            print("         closed %s  %s" % (st.get("closed_on") or "?",
+                                              st.get("closed_by_commit") or ""))
+
+    lane = data.get("always_running") or {}
+    if lane:
+        print("")
+        print("  always running: %s" % lane.get("lane", ""))
+        print("    %s families / %s senses / last census %s / %s outstanding repair(s)"
+              % (lane.get("families", "?"), lane.get("senses", "?"),
+                 lane.get("last_census", "?"), lane.get("outstanding_repairs", "?")))
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--quick", action="store_true", help="skip validation")
@@ -282,6 +346,7 @@ def main():
     print("ColorDict - measured state, not remembered state")
     git_state()
     lock_state(args.clear_stale_locks)
+    stage_state()
     corpus_state(args.quick)
     queue_state()
     census_state()

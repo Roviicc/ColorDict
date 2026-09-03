@@ -62,6 +62,9 @@ OUT_ROOT = ROOT / "data/build/books"
 CONTENT_POS = {"NOUN", "VERB", "ADJ", "ADV"}
 WN_POS = {"NOUN": "n", "VERB": "v", "ADJ": "a", "ADV": "r"}
 
+# The lexicon this dictionary actually ships (plan 0.3), not nltk's PWN 3.0.
+BULK = ROOT / "data/entries/derived-bulk.jsonl"
+
 # How many example sentences to remember per lemma+POS. The Sense Ranker wants a
 # handful of real usages; it does not want the whole book, and storing every
 # occurrence of *the* would be a gigabyte of nothing.
@@ -200,19 +203,57 @@ def tag(text, nlp, progress_every=200_000):
 # WordNet + the existing corpus
 # --------------------------------------------------------------------------
 
-def wordnet_index():
-    from nltk.corpus import wordnet as wn
+def wordnet_index(bulk=None):
+    """lemma+POS -> the synset ids this dictionary can actually serve.
+
+    This used to call nltk, which ships **Princeton WordNet 3.0** - a different
+    lexicon from the one the corpus is built on. Every coverage figure produced
+    that way answered "does Princeton know this word", when the only question
+    that matters here is "can the dictionary we ship show the reader an entry".
+    The two disagree in both directions, so the numbers were wrong, not merely
+    approximate.
+
+    So the index is built from `derived-bulk.jsonl` - the OEWN import itself.
+    It carries the same filters the shipped dictionary has (no proper nouns, no
+    odd characters), and it moves to OEWN 2025 the moment the import does, with
+    nothing here to update. Synset ids come back in corpus form (oewn-...-n),
+    which is traceable; `dog.n.01` never was.
+    """
+    path = Path(bulk) if bulk else BULK
+    if not path.exists():
+        sys.exit(f"{path} is missing - regenerate it with tools/wordnet_import.py")
+
+    pos_of = {"noun": "NOUN", "verb": "VERB", "adjective": "ADJ", "adverb": "ADV"}
+    index = defaultdict(list)
+    with path.open(encoding="utf-8") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                entry = json.loads(line)
+            except ValueError:
+                continue
+            word = (entry.get("word") or "").lower()
+            if not word:
+                continue
+            for sense in entry.get("senses", []):
+                upos = pos_of.get(sense.get("part_of_speech"))
+                if not upos:
+                    continue
+                syn = (sense.get("source") or {}).get("synset") or sense.get("id")
+                if syn and syn not in index[(word, upos)]:
+                    index[(word, upos)].append(syn)
+
     def lookup(lemma, upos):
-        pos = WN_POS.get(upos)
-        if not pos:
+        if upos not in WN_POS:
             return []
-        try:
-            syns = wn.synsets(lemma.replace(" ", "_"), pos=pos)
-            if pos == "a":
-                syns += wn.synsets(lemma.replace(" ", "_"), pos="s")
-        except Exception:
-            return []
-        return [s.name() for s in syns]
+        lemma = lemma.lower()
+        # spaCy hands back multiword lemmas space-separated; the import stores
+        # them the same way. Underscores are tried only as a courtesy.
+        return (index.get((lemma, upos))
+                or index.get((lemma.replace("_", " "), upos))
+                or [])
     return lookup
 
 

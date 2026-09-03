@@ -1,0 +1,23 @@
+{
+ "control": {
+  "lexicon_ids_gone": 13134,
+  "lexicon_glosses_changed": 81,
+  "note": "non-zero proves the comparison can see change at all"
+ },
+ "old_edition": "data/source/english-wordnet-2024.xml.gz",
+ "new_edition": "data/source/english-wordnet-2025.xml.gz",
+ "old_synsets": 120630,
+ "new_synsets": 107519,
+ "authored_senses": 2885,
+ "verdicts": {
+  "ok": 2885
+ },
+ "needs_blind_reread": 0,
+ "findings": {
+  "vanished": [],
+  "moved": [],
+  "gloss_changed": [],
+  "lemma_dropped": [],
+  "unknown_in_old": []
+ }
+}

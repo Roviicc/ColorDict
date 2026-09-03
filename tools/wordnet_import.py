@@ -16,9 +16,14 @@ here. Word formation is omitted entirely — absent means "not yet analysed".
 
 Usage:
     python3 tools/wordnet_import.py \
-        --oewn data/source/english-wordnet-2024.xml.gz \
+        --oewn data/source/english-wordnet-2025.xml.gz \
         --swn data/source/SentiWordNet_3.0.0.txt \
+        --ili-map data/source/ili-map-pwn30.tab \
         --out data/entries/derived-bulk.jsonl
+
+Omitting --ili-map is silent and expensive. OEWN renumbered away from PWN 3.0
+offsets, so without the CILI map the SentiWordNet join falls from 97.7% to
+0.6% of senses, and the run still exits 0 with a full-looking output file.
 """
 
 import argparse
