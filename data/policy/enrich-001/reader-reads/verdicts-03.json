@@ -1,0 +1,70 @@
+{"packet": 3, "verdicts": [
+ {"word": "take", "pos": "verb",
+  "rank": "right", "why": "The six sentences split five ways (took delight, take his guest into, took the opportunity, taken up their abode, took leave / take care), and the two idiomatic 'take + action noun' uses fall under the first sense 'carry out' as well as any other, so the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-02605633-v", "verdict": "right", "fault": null, "why": "The learner line renders 'carry out' plainly, both examples use took steps / took action in that sense, no labels, and the word does not judge."},
+   {"synset": "oewn-02003830-v", "verdict": "right", "fault": null, "why": "'Bring a person to a place, going there with them' is the gloss in plain words, the book sentence and the river example both take somebody somewhere, and null is correct."},
+   {"synset": "oewn-02113499-v", "verdict": "right", "fault": null, "why": "The learner line keeps all three alternatives (feel, live through, put up with), 'took an epicurean delight' and 'took the pain' both fit, and null is correct."},
+   {"synset": "oewn-02214718-v", "verdict": "right", "fault": null, "why": "'Use something, or accept it, because it serves some purpose' keeps both halves of the gloss, and 'took the opportunity' and 'took the risk' both use it, with no judgement in the word."},
+   {"synset": "oewn-01986409-v", "verdict": "right", "fault": null, "why": "'Move into a place or position and fill it' is a fair plain reading of 'occupy or take on', and 'took her seat' and 'taken up their abode' both occupy a position or place."}
+  ]},
+ {"word": "man", "pos": "noun",
+  "rank": "right", "why": "Five of the six sentences (agreeable man, a man agreeable, gentlemanlike man, charming man, men and women) use the adult-male sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-10306910-n", "verdict": "right", "fault": null, "why": "'A grown person who is male, not a woman' is the gloss plainly, both examples are adult males, and the word describes without judging."},
+   {"synset": "oewn-10308700-n", "verdict": "wrong", "fault": "example-wrong-sense", "why": "'Man has always feared the dark' is the uncountable collective 'all of the living human inhabitants of the earth' (oewn-02475618-n, mankind), not the countable generic 'any human being' of this gloss, which only 'No man can live without hope' illustrates; the candidate reason also names a usage complaint rather than a judgement the word passes on its referent, so it would want a second look."},
+   {"synset": "oewn-10308837-n", "verdict": "right", "fault": null, "why": "'A male worker or helper under someone else's orders' says what 'a male subordinate' says, 'his men' and 'his man in the north' both fit, and null is correct."}
+  ]},
+ {"word": "much", "pos": "adverb",
+  "rank": "right", "why": "'Much more difference', 'much pleased' and 'much better' are the great-degree sense, which is listed first, with 'pretty much the same' the only clear use of the second sense.",
+  "senses": [
+   {"synset": "oewn-00059624-r", "verdict": "right", "fault": null, "why": "'By a large amount; a lot' is 'to a great degree or extent' plainly, both examples are degree uses, and null is correct."},
+   {"synset": "oewn-00023283-r", "verdict": "right", "fault": null, "why": "The learner line keeps the 'for all practical purposes but not completely' meaning and the position note, and 'pretty much the same' and 'much the same as before' are exactly this use."},
+   {"synset": "oewn-00059951-r", "verdict": "right", "fault": null, "why": "'Often, or in large amounts' keeps both alternatives of 'frequently or in great quantities', and 'go out much' and 'speak much' are that use, with no judgement in the word."}
+  ]},
+ {"word": "own", "pos": "adjective",
+  "rank": "right", "why": "Every adjectival sentence ('her own Mr. Bennet', 'his own disposition', 'my own neighbourhood', 'her own way', 'her own folly') is the possessive-emphasis sense, the only sense listed; 'she must own that' is the verb and does not bear on the adjective.",
+  "senses": [
+   {"synset": "oewn-01773236-s", "verdict": "right", "fault": null, "why": "The learner line keeps both 'belonging to' and 'on behalf of' and the possessive-preceded note, both examples follow a possessive, and the word does not judge."}
+  ]},
+ {"word": "little", "pos": "adjective",
+  "rank": "right", "why": "'Said little', 'the little dependence', 'little difficulty', 'A little' and 'too little said' are all the mass-noun quantifier sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-01558903-a", "verdict": "right", "fault": null, "why": "The learner line keeps the mass-noun restriction, 'small amount or almost none', and the 'with a, at least some' alternative, and both book examples are the quantifier use."},
+   {"synset": "oewn-01394303-a", "verdict": "right", "fault": null, "why": "'Smaller or fewer in size, number, or amount than is usual' is the gloss in plain words, 'a little house' and 'a little bag' are small in size, and null is correct."},
+   {"synset": "oewn-01653473-s", "verdict": "wrong", "fault": "example-wrong-sense", "why": "'A little dog followed us home' reads as a small dog, the size sense above, not a young or immature one, and a learner placed under 'young, immature' would take it for 'puppy'; only 'little brother' shows this sense."}
+  ]},
+ {"word": "again", "pos": "adverb",
+  "rank": "right", "why": "All six sentences use 'again' as 'anew, one more time', the only sense listed.",
+  "senses": [
+   {"synset": "oewn-00040777-r", "verdict": "right", "fault": null, "why": "'One more time' is 'anew' plainly, both book examples use it so, no labels, and the word does not judge."}
+  ]},
+ {"word": "day", "pos": "noun",
+  "rank": "right", "why": "'The following day', 'that day', 'not a day went by', 'a day later' and 'some days in town' are the twenty-four-hour unit listed first, with only 'our own day' using the era sense.",
+  "senses": [
+   {"synset": "oewn-15180180-n", "verdict": "right", "fault": null, "why": "The learner line says the rotation gloss in plain words and adds only the twenty-four-hour figure it implies, both book examples count days, and null is correct."},
+   {"synset": "oewn-15148032-n", "verdict": "right", "fault": null, "why": "'A moment or a stretch of time' keeps both 'point or period', and 'there will come a day' and 'one day they would meet' are that indefinite-time use."},
+   {"synset": "oewn-15274047-n", "verdict": "right", "fault": null, "why": "'The stretch of time when someone or something was alive or had power' is 'an era of existence or influence' plainly, and 'our own day' and 'in his day' both use it."}
+  ]},
+ {"word": "hear", "pos": "verb",
+  "rank": "right", "why": "'We hear nothing about her looks', 'I could hear that you', 'she had heard that' and 'I have heard that' are the come-to-know sense, which is listed first; 'let us hear all the particulars' is the listen sense.",
+  "senses": [
+   {"synset": "oewn-00600349-v", "verdict": "right", "fault": null, "why": "'To come to know something, usually by chance' is the gloss plainly, both book examples report learning a fact, and the word does not judge."},
+   {"synset": "oewn-02174146-v", "verdict": "right", "fault": null, "why": "'Take in a sound with your ears' is the auditory gloss plainly, 'hear the rain' and 'heard a door close' are sound perception, and null is correct."},
+   {"synset": "oewn-02175483-v", "verdict": "right", "fault": null, "why": "'Listen to something and give it your attention' matches 'listen and pay attention', and 'let us hear all the particulars' and 'hear what she has to say' are that use."}
+  ]},
+ {"word": "most", "pos": "adverb",
+  "rank": "right", "why": "'The most perfect', 'most concerned' and 'the most serious manner' are the superlative listed first, with 'a most iniquitous affair' and 'a most agreeable surprise' the emphatic sense; 'most people' is the determiner and does not bear on the adverb.",
+  "senses": [
+   {"synset": "oewn-00112352-r", "verdict": "right", "fault": null, "why": "'Put before a word to say that something is greater than all the others' is the superlative gloss in plain words, and both examples form superlatives."},
+   {"synset": "oewn-00032295-r", "verdict": "right", "fault": null, "why": "'Put before a word to make it stronger, meaning very' is 'used to give emphasis' plainly, and 'a most agreeable surprise' and 'a most iniquitous affair' are that use after 'a'."},
+   {"synset": "oewn-00073433-r", "verdict": "right", "fault": null, "why": "'Almost, but not quite' keeps the 'all but' meaning of the gloss, and 'most everyone' and 'most all of the seats' are the 'almost' use of the headword, with nothing judged."}
+  ]},
+ {"word": "young", "pos": "adjective",
+  "rank": "right", "why": "All six sentences ('young ladies', 'a young lady', 'the young man', 'the young men') use the early-period-of-life sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-01651383-a", "verdict": "right", "fault": null, "why": "'In the early part of life or growth, said of living things and above all of people' is the gloss plainly, both book examples are young men, and null is correct."},
+   {"synset": "oewn-01654162-s", "verdict": "right", "fault": null, "why": "'Seeming young, and full of strength and freshness' keeps 'suggestive of youth; vigorous and fresh', both examples are that use, and 'vigorous and fresh' is approving, so the candidate is justified."},
+   {"synset": "oewn-01647922-s", "verdict": "right", "fault": null, "why": "'Still at its beginning' is 'being in its early stage' plainly, 'the night was still young' and 'a young company' are that use, and the word does not judge."}
+  ]}
+]}

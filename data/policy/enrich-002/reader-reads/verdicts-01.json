@@ -1,0 +1,70 @@
+{"packet": 1, "verdicts": [
+ {"word": "so", "pos": "adverb",
+  "rank": "right", "why": "Three of the six sentences carry degree-as-expressed ('so subtle ... that', 'so lost ... as to', 'so effectually'), two carry manner-as-implied ('said so', 'thwarted so') and one the result sense ('and so Pen was forced'), so the plurality sense is listed first.",
+  "senses": [
+   {"synset": "oewn-00147799-r", "verdict": "right", "fault": null, "why": "Learner line restates the gloss plainly, the 'so subtle and delicate that' example is the degree-as-expressed sense, and 'so' describes without judging."},
+   {"synset": "oewn-00147962-r", "verdict": "right", "fault": null, "why": "'In the condition or in the way just stated or hinted at' keeps both the condition and manner alternatives, 'remained so all evening' is that sense, and null is correct."},
+   {"synset": "oewn-00043413-r", "verdict": "right", "fault": null, "why": "Learner line matches 'from that fact or reason or as a result', the 'Harriet was ill, and so Pen was forced' example is a drawn conclusion, and null is correct."}
+  ]},
+ {"word": "say", "pos": "verb",
+  "rank": "right", "why": "The sentences split between express-in-words ('nothing to say to me', 'said that business ... had occasioned') and utter-aloud (the two quoted speeches), with one report-or-maintain ('It has been said that'), and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-01011267-v", "verdict": "right", "fault": null, "why": "'To put something into words' is the gloss in plainer words, 'nothing to say to me that anybody need not hear' is that sense, and null is correct."},
+   {"synset": "oewn-00981902-v", "verdict": "right", "fault": null, "why": "'To speak words out loud' matches 'utter aloud', both examples are direct speech introduced by 'said', and null is correct."},
+   {"synset": "oewn-01018011-v", "verdict": "right", "fault": null, "why": "'To report something, or to insist that it is so' keeps both halves of 'report or maintain', 'It has been said that no one ever was like him' is the report sense, and null is correct."}
+  ]},
+ {"word": "very", "pos": "adverb",
+  "rank": "right", "why": "All six sentences use 'very' as an intensifier ('very numerous', 'very materially', 'very true', 'very sorry', 'so very weak', 'very much'), and the emphasis sense is first.",
+  "senses": [
+   {"synset": "oewn-00032295-r", "verdict": "right", "fault": null, "why": "'Used to make what you are saying stronger' restates 'used to give emphasis', both examples are intensifier uses from the book, and null is correct."},
+   {"synset": "oewn-00513282-r", "verdict": "right", "fault": null, "why": "'Exactly that one and nothing else' is a fair plain rendering of 'precisely so', 'on the very day she left' is that sense with the headword present, and null is correct."}
+  ]},
+ {"word": "see", "pos": "verb",
+  "rank": "right", "why": "The sentences split between perceiving mentally ('I see your design', 'You see how continually we are engaged') and perceiving by sight or observing ('came down to see the place', 'saw much to interest'), with one meet sense ('see the less of him'), and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-00592510-v", "verdict": "right", "fault": null, "why": "'To grasp an idea or a situation in your mind' matches the gloss, 'I see your design, Bingley' is mental perception, and null is correct."},
+   {"synset": "oewn-02133754-v", "verdict": "right", "fault": null, "why": "The learner line keeps both alternatives (notice with your eyes, or be able to), 'could see the carriage coming up the drive' is the sight sense, and null is correct."},
+   {"synset": "oewn-02026953-v", "verdict": "right", "fault": null, "why": "'To come together with another person' restates 'come together', 'I hope we shall see you at the assembly' is the meet sense, and null is correct."}
+  ]},
+ {"word": "know", "pos": "verb",
+  "rank": "right", "why": "All six sentences are the fact-or-information sense ('knew two things', 'Do you know ... that', 'you know', 'longed to know what', 'I do not know', 'I do not know how long'), and it is listed first.",
+  "senses": [
+   {"synset": "oewn-00596016-v", "verdict": "right", "fault": null, "why": "The learner line keeps both 'aware of a fact' and 'possess knowledge about', both examples are the fact sense from the book, and null is correct."},
+   {"synset": "oewn-00595732-v", "verdict": "right", "fault": null, "why": "'To be familiar with a person or a thing' restates 'be familiar or acquainted with a person or an object', 'I do not know Mr. Darcy well enough' is acquaintance, and null is correct."},
+   {"synset": "oewn-00597330-v", "verdict": "right", "fault": null, "why": "'To know the way to do or perform something' says what 'know how to do or perform something' says, 'knows how to ride a horse' is that sense, and null is correct."}
+  ]},
+ {"word": "think", "pos": "verb",
+  "rank": "right", "why": "Four sentences are judge-or-regard ('I think ... that construction is not the highest merit', 'I think it infinitely superior', 'can think anything wanting', 'I thought him very sly'), one is have-in-mind-as-purpose ('thought of paying his addresses') and one 'thought of her' is regard-ish, so the first sense is the plurality.",
+  "senses": [
+   {"synset": "oewn-00691086-v", "verdict": "right", "fault": null, "why": "'To judge someone or something, or to regard them in a certain way' matches 'judge or regard; look upon', both examples are 'think X [adjective]' judgements, and null is correct since 'think' does not judge its object."},
+   {"synset": "oewn-00633399-v", "verdict": "right", "fault": null, "why": "The learner line keeps all three of expect, believe and suppose, 'I thought he would arrive before dinner' is the expect sense, and null is correct."},
+   {"synset": "oewn-00741087-v", "verdict": "right", "fault": null, "why": "'To turn something over in your mind, or to reason about it' restates 'ponder; reflect on, or reason about', 'thought about what he had told her' is pondering, and null is correct."}
+  ]},
+ {"word": "make", "pos": "verb",
+  "rank": "wrong", "why": "The first sense 'engage in' is carried by at most the ambiguous 'if the attempt were made' and has no learner line, while 'cause to do' ('make him fancy', 'made her look handsomer') and 'perform, produce, or carry out' ('make any reply', 'made her a slight bow') each carry two clear sentences and sit below it.",
+  "senses": [
+   {"synset": "oewn-00120124-v", "verdict": "right", "fault": null, "why": "'To cause something to have a certain quality' restates 'give certain properties to something', 'make me happy ... make you so' is that sense, and null is correct."},
+   {"synset": "oewn-01759660-v", "verdict": "right", "fault": null, "why": "The learner line keeps perform, produce and carry out, 'make any reply' and 'made her a slight bow' are performed acts, and null is correct."},
+   {"synset": "oewn-00772482-v", "verdict": "right", "fault": null, "why": "'To cause someone or something to do something, or to act in a stated way' keeps both halves of the gloss, 'make him fancy' and 'made her look handsomer' are cause-to-do, and null is correct."}
+  ]},
+ {"word": "go", "pos": "verb",
+  "rank": "right", "why": "The sentences split between change-location ('go home', 'went upstairs') and move-away ('were, therefore, to go', 'rose to go away'), with 'cannot go with the objectors' and 'could not go on' outside both, and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-01839438-v", "verdict": "right", "fault": null, "why": "The learner line keeps move, travel, proceed and the figurative reading, 'they went upstairs together' is change of location, and null is correct."},
+   {"synset": "oewn-02377696-v", "verdict": "wrong", "fault": "example-wrong-sense", "why": "'Elizabeth ... could not go on' is the phrasal 'go on' meaning continue, not following a procedure or taking a course, so the example shows a neighbouring sense rather than this one; the learner line itself is faithful."},
+   {"synset": "oewn-01852660-v", "verdict": "right", "fault": null, "why": "'To move away from a place off in another direction' says what the gloss says, 'rose to go away' is departing, and null is correct."}
+  ]},
+ {"word": "sister", "pos": "noun",
+  "rank": "right", "why": "All six sentences are the female-sibling sense, and it is listed first.",
+  "senses": [
+   {"synset": "oewn-10622393-n", "verdict": "right", "fault": null, "why": "'A girl or woman who has the same parents as another person' restates the gloss, both examples are siblings from the book, and null is correct since the word names a relation without judging."},
+   {"synset": "oewn-10621666-n", "verdict": "right", "fault": null, "why": "'A woman who belongs to the same club, union, or other group' keeps the fellow-member sense with 'sorority' plainly rendered as club, 'her union sisters' is that sense with the headword inflected, and null is correct."}
+  ]},
+ {"word": "give", "pos": "verb",
+  "rank": "right", "why": "The sentences split between cause-to-have ('giving a complete impression', 'gave Elizabeth some pain', 'gives such an elegance to misfortune') and transfer-possession ('it was given elsewhere', 'such as are given', 'given me the assurance'), and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-02321848-v", "verdict": "right", "fault": null, "why": "The learner line keeps both the physical and abstract halves of 'cause to have', 'gave Elizabeth some pain' and 'gave her a bad cold' are cause-to-have, and null is correct."},
+   {"synset": "oewn-02204104-v", "verdict": "right", "fault": null, "why": "'To pass something you have, real or not real, over to another person' keeps the concrete-or-abstract transfer of possession, 'when the living fell, it was given elsewhere' is a transfer of a possession, and null is correct."},
+   {"synset": "oewn-02344167-v", "verdict": "right", "fault": null, "why": "'To be the cause of something or the place it comes from' restates 'be the cause or source of', 'it gives such an elegance to misfortune' has the parade as the source of the elegance, and null is correct."}
+  ]}
+]}

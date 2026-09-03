@@ -1,0 +1,70 @@
+{"packet": 5, "verdicts": [
+ {"word": "much", "pos": "adjective",
+  "rank": "right", "why": "Only one adjective sense is offered and it is the one sentence 6 ('there was much to be discussed') carries; the other five sentences use adverbial 'much' (much better, much pleased, pretty much), which is outside this entry's part of speech.",
+  "senses": [
+   {"synset": "oewn-01557986-a", "verdict": "right", "fault": null, "why": "The learner line restates quantity, degree and extent with mass nouns and adds nothing; both examples use 'much' as the mass quantifier and null is right for a bare quantifier."}
+  ]},
+ {"word": "find", "pos": "verb",
+  "rank": "right", "why": "The sentences genuinely split - 'I find' and 'expected to find it' (believe on indefinite grounds), 'found out what was the matter' and 'grieve to find that' (ascertain), 'you will not find him more favourably spoken of' and 'there would be found partisans' (come upon) - and the first sense is one of the split, with the others written for directly below it.",
+  "senses": [
+   {"synset": "oewn-00717144-v", "verdict": "right", "fault": null, "why": "The learner line keeps feeling, hunch and indefinite grounds; parenthetical 'I find' and the 'expected to find it [so]' frame both carry this sense, though the second example is cut before its complement and leans on the reader to hear 'find it to be'; null is right."},
+   {"synset": "oewn-00920843-v", "verdict": "right", "fault": null, "why": "The learner line covers calculation, investigation, experiment and study; 'found out what was the matter' belongs to this synset and the total-by-adding example is squarely it; null is right."},
+   {"synset": "oewn-02253273-v", "verdict": "right", "fault": null, "why": "The learner line keeps both halves, come upon by chance and meet with; 'there would be found partisans' and 'you find that same joke in his letters' are the meet-with use; null is right."}
+  ]},
+ {"word": "manner", "pos": "noun",
+  "rank": "right", "why": "Three sentences ('in a hurried manner', 'in what manner he thought of her', 'in an honourable manner') carry how-something-is-done, two carry personal bearing, and 'good manners' is the plural lemma; the first sense is the majority sense.",
+  "senses": [
+   {"synset": "oewn-04936080-n", "verdict": "right", "fault": null, "why": "The learner line restates how something is done or happens, both examples are the 'in a ... manner' use, and null is right."},
+   {"synset": "oewn-04917312-n", "verdict": "right", "fault": null, "why": "The learner line matches a way of acting or behaving, 'her manner affected' is personal bearing, and null is right - the judging in that sentence is in 'affected', not in 'manner'."},
+   {"synset": "oewn-05854089-n", "verdict": "right", "fault": null, "why": "The learner line matches 'a kind', 'what manner of man' is the set phrase that carries it, and null is right."}
+  ]},
+ {"word": "believe", "pos": "verb",
+  "rank": "right", "why": "Four sentences use the 'believe him attached / to be sincere / capable / believed to be her feelings' frame, which is judge-or-regard, and the two parenthetical 'I believe' uses sit between it and be-confident; the first sense is the one most sentences carry.",
+  "senses": [
+   {"synset": "oewn-00691086-v", "verdict": "right", "fault": null, "why": "The learner line says judge or regard as being a certain way, both examples are the 'believe X to be Y' frame, and null is right."},
+   {"synset": "oewn-00685199-v", "verdict": "right", "fault": null, "why": "The learner line says take to be true, the story-and-letter example is accepting a report as true, and null is right."},
+   {"synset": "oewn-00723022-v", "verdict": "right", "fault": null, "why": "The learner line says feel sure, the weather example is confidence about an outcome, and null is right."}
+  ]},
+ {"word": "leave", "pos": "verb",
+  "rank": "right", "why": "'Leave the house' and 'leave town' carry move-out-of-or-depart-from, 'I leave it to yourself' carries put-into-the-care-of, 'left all her friends' carries remove-oneself-from, 'has not left a single failure' is produce-as-residue and 'took leave' is the noun; the first sense has the most sentences.",
+  "senses": [
+   {"synset": "oewn-02019450-v", "verdict": "right", "fault": null, "why": "The learner line says move out of or go away from a place, both examples are transitive departure from house and town, and null is right."},
+   {"synset": "oewn-02361226-v", "verdict": "right", "fault": null, "why": "The learner line says put in someone's care and adds only the plain consequence of that; 'I leave it to yourself to determine' is the synset's own 'leave it to me' use; null is right."},
+   {"synset": "oewn-02388582-v", "verdict": "right", "fault": null, "why": "The learner line keeps both association and participation; 'has left all her friends' is leaving one's connections in the way 'left home' belongs to this synset, and the club example is plain; null is right."}
+  ]},
+ {"word": "however", "pos": "adverb",
+  "rank": "right", "why": "All six sentences are the mid-sentence connective 'however', which sits between despite-anything-to-the-contrary and by-contrast without the sentences forcing one; the first sense is one of that split and the other is written for directly beneath it.",
+  "senses": [
+   {"synset": "oewn-00027761-r", "verdict": "right", "fault": null, "why": "The learner line renders despite-anything-to-the-contrary and the gloss's concession as 'before you admit something'; both examples are connective 'however' turning against what preceded; null is right."},
+   {"synset": "oewn-00029193-r", "verdict": "right", "fault": null, "why": "The learner line says set one thing against another, the Gardiners' example contrasts them with those who did not do her justice and the two-tasks example is the synset's own pattern; null is right."},
+   {"synset": "oewn-00028974-r", "verdict": "right", "fault": null, "why": "The learner line matches to whatever degree, 'however tired she was' is the degree use, and null is right."}
+  ]},
+ {"word": "ever", "pos": "adverb",
+  "rank": "right", "why": "All six sentences ('anything Addison ever did', 'nothing had ever suggested it', 'the first time we have ever had', 'that ever was seen') carry at-any-time, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00147423-r", "verdict": "right", "fault": null, "why": "The learner line says at any time at all, both examples are at-any-time in comparison and superlative frames, and null is right."},
+   {"synset": "oewn-00019801-r", "verdict": "right", "fault": null, "why": "The learner line keeps all times, the whole time and every occasion, 'she was ever ready' is the always use, and null is right."},
+   {"synset": "oewn-00213902-r", "verdict": "right", "fault": null, "why": "The learner line says very before an adjective, 'ever so pleased' is the intensifier, and null is right."}
+  ]},
+ {"word": "mother", "pos": "noun",
+  "rank": "right", "why": "All six sentences are 'her mother', 'their mother', 'my dear mother' - the woman who bore the children - and that sense is listed first.",
+  "senses": [
+   {"synset": "oewn-10352098-n", "verdict": "right", "fault": null, "why": "The learner line keeps both the birth relation and the term of address to one's own mother, both examples are the relation, and null is right for a kinship word."},
+   {"synset": "oewn-10352666-n", "verdict": "wrong", "fault": "other", "why": "The example 'Sit down here, Mother, and rest a while' cannot be told from the first sense's term of address to one's own mother and a learner will read it that way; the example is ambiguous between this sense and its neighbour rather than plainly of a different sense, so it teaches nothing about addressing an elderly woman who is not one's mother; learner line and null are fine."},
+   {"synset": "oewn-05843616-n", "verdict": "right", "fault": null, "why": "The learner line says a state of things that sets off and inspires an activity, 'necessity is the mother of invention' is the sense's stock example, and null is right."}
+  ]},
+ {"word": "letter", "pos": "noun",
+  "rank": "right", "why": "All six sentences are the written message - delivered, held out, answered, carried in hand - and that sense is listed first.",
+  "senses": [
+   {"synset": "oewn-06636668-n", "verdict": "right", "fault": null, "why": "The learner line says a written message sent to a person or organization, both examples are letters delivered and answered, and null is right."},
+   {"synset": "oewn-06841868-n", "verdict": "right", "fault": null, "why": "The learner line keeps the alphabet character standing for speech sounds, 'cat has three letters' is that sense, and null is right."},
+   {"synset": "oewn-07188040-n", "verdict": "right", "fault": null, "why": "The learner line keeps both the literal reading and its contrast with intention, 'the letter of the law' is the sense's phrase, and null is right."}
+  ]},
+ {"word": "lady", "pos": "noun",
+  "rank": "right", "why": "Five sentences ('young ladies', 'what lady had the credit', 'the lady first spoke') are the polite name for a woman and one ('great ladies') is rank; the first sense is the majority sense.",
+  "senses": [
+   {"synset": "oewn-10262834-n", "verdict": "right", "fault": null, "why": "The learner line says a polite word for any woman, both examples are the general polite use, and null is right - the gloss already carries the politeness as register and the word does not judge the woman it names."},
+   {"synset": "oewn-10008828-n", "verdict": "right", "fault": null, "why": "The learner line renders refinement as fine, well-bred manners, 'behaved like a lady' is the approving use, and the candidate is right because in this sense the word praises the woman's breeding."},
+   {"synset": "oewn-10262488-n", "verdict": "right", "fault": null, "why": "The learner line says a woman holding noble rank in Britain, 'great ladies in general' is rank, and null is right for a title of rank that describes station without judging."}
+  ]}
+]}

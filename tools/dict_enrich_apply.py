@@ -12,6 +12,7 @@ Overlay line shape:
      "word_formation": {...},          # replaces entry word_formation
      "inflections": ["cheaper"],       # appended, deduped
      "senses": {"cheap.oewn-00937468-a": {
+         "learner": "...",             # plain-words line beside the gloss
          "explanation": "...",         # only meaningful on non-neutral senses
          "examples": ["..."],          # appended, deduped
          "usage_labels": ["informal"]  # appended, deduped
@@ -134,7 +135,8 @@ def strip_machine_labels(entry, authored_ids):
 def is_authored(patch):
     """Did this patch add editorial content, as opposed to bookkeeping?"""
     return any(patch.get(k) for k in
-               ("explanation", "tone", "family", "examples", "usage_labels", "label"))
+               ("explanation", "tone", "family", "examples", "usage_labels", "label",
+                "learner"))
 
 
 def apply_overlay(entry, rec, problems):
@@ -154,7 +156,7 @@ def apply_overlay(entry, rec, problems):
             problems.append(f"{word}: overlay names unknown sense id {sid}")
             continue
         unknown = set(patch) - {"explanation", "examples", "usage_labels", "tone",
-                                "label", "family", "rank"}
+                                "label", "family", "rank", "learner"}
         if unknown:
             problems.append(f"{word}/{sid}: overlay patch has unknown fields {sorted(unknown)}")
         if is_authored(patch):
@@ -181,6 +183,11 @@ def apply_overlay(entry, rec, problems):
                 conn["explanation"] = patch["explanation"]
         if patch.get("rank"):
             sense["rank"] = patch["rank"]
+        if patch.get("learner"):
+            # The readable line. The definition itself is never rewritten:
+            # entry_validate.py holds it to the OEWN gloss, and a note under
+            # a rewritten gloss is an unmeasured claim (plan stage 0.4).
+            sense["learner"] = patch["learner"]
         if patch.get("family"):
             sense["family"] = patch["family"]
         if patch.get("tone"):

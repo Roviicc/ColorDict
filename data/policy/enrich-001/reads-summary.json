@@ -1,0 +1,31 @@
+{
+ "entries_read": 50,
+ "entries_with_a_fault": 10,
+ "entry_defect_rate": 0.2,
+ "senses_read": 136,
+ "senses_wrong": 10,
+ "sense_defect_rate": 0.0735,
+ "rank_wrong": 2,
+ "unsure": 0,
+ "faults": {
+  "example-wrong-sense": 5,
+  "learner-narrowed": 3,
+  "rank-wrong": 2,
+  "learner-unfaithful": 1,
+  "label-unjustified": 1
+ },
+ "wrong": [
+  "say/oewn-01018011-v learner-narrowed: The gloss offers 'report OR maintain' but the learner line fuses them into 'tell people that something is true AND hold to that claim', so the plain reporting use ('it has been said that no one ever was like him', the entry's own first example) no longer fits the definition.",
+  "make/verb rank: The first-listed sense 'engage in' is not written for and is at most a stretch for 'if the attempt were made', while 'give certain properties' ('make me happy', 'make you so') and 'perform or carry out' ('made her a slight bow', 'make any reply') each plainly cover two or more sentences and sit below it.",
+  "make/oewn-00120124-v example-wrong-sense: 'You could not make me happy' is this sense, but 'made her look handsomer than ever' is make + object + bare verb, the cause-to-do frame the entry itself assigns to oewn-00772482-v with 'make him fancy her affected'.",
+  "go/oewn-01839438-v learner-unfaithful: The gloss's 'also metaphorically' means figurative movement (money or talk going somewhere), but the learner line renders it as 'or as a picture in the mind', which tells the learner 'go' means imagined movement, something the gloss does not say; the examples themselves are fine.",
+  "come/oewn-00342572-v learner-narrowed: The gloss is come to pass or arrive with no condition on timing, but the learner line restricts it to happening at the point when it was due, which its own example Winter came early that year contradicts.",
+  "other/oewn-01735069-s learner-narrowed: The gloss is simply recently past, but the learner line ties the sense to a day or an evening, which leaves the other night, the other week and the other morning outside it.",
+  "time/noun rank: Three sentences (after a time, for some time, it was some time before) use the indefinite-period sense listed fourth, while the continuum sense listed second is used by none of them.",
+  "time/oewn-00028468-n example-wrong-sense: Both examples use some time as an indefinite period (before a smile could be extorted, not leave Kent for some time), which is the neighbouring indefinite-period sense rather than the continuum of experience the gloss describes.",
+  "now/oewn-00049758-r example-wrong-sense: The second example, the preface's Even now I do not think it would be impossible to find persons like Lady Catherine, means even in our own day, which is the listed in-these-times sense rather than at the present moment; the first example is right.",
+  "man/oewn-10308700-n example-wrong-sense: 'Man has always feared the dark' is the uncountable collective 'all of the living human inhabitants of the earth' (oewn-02475618-n, mankind), not the countable generic 'any human being' of this gloss, which only 'No man can live without hope' illustrates; the candidate reason also names a usage complaint rather than a judgement the word passes on its referent, so it would want a second look.",
+  "little/oewn-01653473-s example-wrong-sense: 'A little dog followed us home' reads as a small dog, the size sense above, not a young or immature one, and a learner placed under 'young, immature' would take it for 'puppy'; only 'little brother' shows this sense.",
+  "manner/oewn-05854089-n label-unjustified: The learner line and the what-manner-of example fit the gloss a kind, but the label literary is supported by nothing in the packet: the gloss says nothing about register and none of the book sentences uses this sense, so only the writer's own example stands behind it."
+ ]
+}

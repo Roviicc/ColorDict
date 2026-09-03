@@ -1,0 +1,51 @@
+{"packet": 1, "verdicts": [
+ {"word": "make", "pos": "verb",
+  "rank": "wrong", "why": "Three of the six sentences (the attempt made, made her a slight bow, make any reply) carry 'perform, produce, or carry out', which sits second below the unwritten 'engage in', a sense at most one sentence (the attempt) could be read as using.",
+  "senses": [
+   {"synset": "oewn-01759660-v", "verdict": "right", "fault": null, "why": "The learner line restates the gloss, both examples produce or carry out something (a reply, a bow), and the word describes without judging."},
+   {"synset": "oewn-00772482-v", "verdict": "right", "fault": null, "why": "The learner line keeps both halves of the gloss, 'make him fancy' and 'made her look handsomer' are causing-to-do uses, and null is right."},
+   {"synset": "oewn-00120124-v", "verdict": "right", "fault": null, "why": "'Make me happy / make you so' gives a property, the learner line says exactly that, and null is right."}
+  ]},
+ {"word": "go", "pos": "verb",
+  "rank": "right", "why": "'Went upstairs', 'go home' and the figurative 'cannot go with the objectors' carry the first sense; note that the second-ranked 'follow a procedure' has no book sentence behind it while the third ('go away', 'to go') has two.",
+  "senses": [
+   {"synset": "oewn-01839438-v", "verdict": "right", "fault": null, "why": "The learner line keeps move, travel, proceed and the figurative reading, the example is a plain change of location, and null is right."},
+   {"synset": "oewn-02377696-v", "verdict": "right", "fault": null, "why": "The learner line keeps both alternatives, both invented examples (through the proper channels, by the rules) follow a procedure, and null is right."},
+   {"synset": "oewn-01852660-v", "verdict": "right", "fault": null, "why": "'Rose to go away' is moving away from a place, the learner line says what the gloss says, and null is right."}
+  ]},
+ {"word": "time", "pos": "noun",
+  "rank": "wrong", "why": "'After a time', 'for some time' and 'some time before' all carry 'an indefinite period', which sits second below 'a single occasion', carried plainly only by 'for the first time'.",
+  "senses": [
+   {"synset": "oewn-07324217-n", "verdict": "right", "fault": null, "why": "The learner line restates the gloss, 'for the first time' and 'knocked three times' are countable occasions, and null is right."},
+   {"synset": "oewn-15147173-n", "verdict": "right", "fault": null, "why": "The learner line keeps the indefinite length and the marking attributes, both examples are indefinite stretches, and null is right."},
+   {"synset": "oewn-15295388-n", "verdict": "right", "fault": null, "why": "'Have time for speech' is time as a resource, the learner line keeps both 'yours to use' and 'enough to get something done', and null is right."}
+  ]},
+ {"word": "much", "pos": "adverb",
+  "rank": "right", "why": "'Much more difference', 'much better' and 'not so much as I could wish' carry the first sense; 'there was much to be discussed' is the pronoun, not the adverb, and does not bear on the ranking.",
+  "senses": [
+   {"synset": "oewn-00059624-r", "verdict": "right", "fault": null, "why": "The learner line restates degree or extent, both examples modify a comparative to a great degree, and null is right."},
+   {"synset": "oewn-00033190-r", "verdict": "right", "fault": null, "why": "'Extremely' is the plain degree reading of the gloss 'incredibly', 'much pleased' is the intensifier use, and null is right."},
+   {"synset": "oewn-00023283-r", "verdict": "right", "fault": null, "why": "The learner line keeps the pre-noun-phrase restriction and 'not completely', 'pretty much the same' is that use, and null is right."}
+  ]},
+ {"word": "young", "pos": "adjective",
+  "rank": "right", "why": "All six sentences are 'young lady/ladies/man/men' in the early-period-of-life sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-01651383-a", "verdict": "right", "fault": null, "why": "The learner line keeps life, growth and development and the living-thing restriction, both examples are people early in life, and age here describes without judging."},
+   {"synset": "oewn-01654162-s", "verdict": "right", "fault": null, "why": "'Her step was still young' is suggestive of youth, the learner line keeps both suggestive-of-youth and vigorous-and-fresh, and the candidate is right because calling a step young commends it."},
+   {"synset": "oewn-01647922-s", "verdict": "right", "fault": null, "why": "'The night was still young' is a thing in its early stage, the learner line restates the gloss, and null is right."}
+  ]},
+ {"word": "tell", "pos": "verb",
+  "rank": "right", "why": "'Told me so', 'told the girls what an honour', 'was to be told' and 'I was told' all let something be known, and that sense is listed first.",
+  "senses": [
+   {"synset": "oewn-00954556-v", "verdict": "right", "fault": null, "why": "The learner line restates the gloss, both book examples pass information on, and null is right."},
+   {"synset": "oewn-01011267-v", "verdict": "right", "fault": null, "why": "'Tell me plainly what you want' and 'tell her reasons in plain words' are putting something into words, matching the gloss, and null is right."},
+   {"synset": "oewn-00955248-v", "verdict": "right", "fault": null, "why": "'Told me all about it' and 'told the whole story' are detailed accounts, the learner line keeps both narrate and full account, and null is right."}
+  ]},
+ {"word": "mother", "pos": "noun",
+  "rank": "right", "why": "All six sentences are the Bennet girls' mother, the woman who bore them, and that sense is listed first.",
+  "senses": [
+   {"synset": "oewn-10352098-n", "verdict": "right", "fault": null, "why": "The learner line keeps both the birth-giver and the term-of-address halves, both examples are the sisters' mother, and null is right."},
+   {"synset": "oewn-10352666-n", "verdict": "right", "fault": null, "why": "The invented example addresses an old woman as 'Mother', the learner line restates the gloss, and the address describes without judging."},
+   {"synset": "oewn-05843616-n", "verdict": "right", "fault": null, "why": "'Necessity is the mother of invention' is a condition that inspires, the learner line says that in plainer words, and null is right."}
+  ]}
+]}

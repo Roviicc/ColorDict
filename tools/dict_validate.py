@@ -312,7 +312,7 @@ def check_entry(rep, where, entry, corpus):
             continue
         unknown = set(sense) - {"id", "definition", "part_of_speech", "connotation",
                                 "examples", "synonyms", "antonyms", "source",
-                                "family", "rank"}
+                                "family", "rank", "learner"}
         if unknown:
             rep.error(swhere, f"sense has unknown fields {sorted(unknown)}")
 
@@ -340,6 +340,12 @@ def check_entry(rep, where, entry, corpus):
             def_token_sets.append((i, toks))
             if STATUS_RANK[status] >= 1:
                 corpus["reviewed_defs"].append((where, i, toks))
+
+        learner = sense.get("learner")
+        if learner is not None and (not isinstance(learner, str) or not learner.strip()):
+            rep.error(swhere, "learner must be null or a non-empty string")
+        elif learner and definition and " ".join(learner.lower().split()) == " ".join(definition.lower().split()):
+            rep.error(swhere, "learner line is the definition verbatim")
 
         pos = sense.get("part_of_speech")
         if pos not in POS_VALUES:

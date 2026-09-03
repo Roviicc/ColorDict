@@ -1,0 +1,69 @@
+{"packet": 4, "verdicts": [
+ {"word": "then", "pos": "adverb",
+  "rank": "right", "why": "Three sentences carry 'subsequently' (turning to Mr. Bennet, and then we may laugh, she then sat still) and two carry 'in that case' (for then we might, not so undeserving then), so the sentences split and the first sense is the larger half.",
+  "senses": [
+   {"synset": "oewn-00118527-r", "verdict": "right", "fault": null, "why": "'After that, or a short time after that' is the gloss in plain words, both examples are sequential uses, and a sequencing adverb does not judge."},
+   {"synset": "oewn-00118928-r", "verdict": "right", "fault": null, "why": "'If that is so, or as a result of that' keeps both alternatives of 'in that case or as a consequence', and both examples are conditional-consequence uses."},
+   {"synset": "oewn-00118799-r", "verdict": "right", "fault": null, "why": "'At the time being talked about' says what 'at that time' says, and the invented example uses 'then' in exactly that sense."}
+  ]},
+ {"word": "more", "pos": "adverb",
+  "rank": "right", "why": "The adverbial uses split evenly between comparative-forming ('more wrong', 'no more exceptionable') and degree ('think no more', 'deaden them more'); the other sentences are quantifier uses belonging to the adjective entry, and the first sense is in the split.",
+  "senses": [
+   {"synset": "oewn-00099891-r", "verdict": "right", "fault": null, "why": "The learner line restates the comparative-forming gloss without adding or dropping anything, and the example ('more wrong and reprehensible') is that use."},
+   {"synset": "oewn-00100262-r", "verdict": "right", "fault": null, "why": "'The comparing form of much: to a greater degree or amount' is the gloss in plain words, and 'deaden them more' is the degree use."}
+  ]},
+ {"word": "friend", "pos": "noun",
+  "rank": "right", "why": "Every sentence names a close, affectionate intimate (Darcy to Bingley, Charlotte to Elizabeth, Bingley's party), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-10132360-n", "verdict": "right", "fault": null, "why": "'A person you know well and who you are fond of and trust' carries all three parts of the gloss, both examples are Charlotte as Elizabeth's intimate, and the word names a relation rather than judging it."},
+   {"synset": "oewn-09783207-n", "verdict": "right", "fault": null, "why": "'A person you know' is the acquaintance gloss in plain words, and the invented example explicitly contrasts knowing with knowing well."},
+   {"synset": "oewn-09804483-n", "verdict": "right", "fault": null, "why": "'Someone you work together with, who gives you help' covers both cooperation and assistance in the gloss, and the lawyer example is a helping associate."}
+  ]},
+ {"word": "more", "pos": "adjective",
+  "rank": "right", "why": "The quantifier uses split one each between mass ('much more difference') and count ('two or three more of the men'), the rest being adverbial; the first sense is in the split.",
+  "senses": [
+   {"synset": "oewn-01559526-a", "verdict": "right", "fault": null, "why": "The learner line keeps the mass-noun restriction and all four of size, amount, extent and degree, and 'much more difference' is a mass-noun use."},
+   {"synset": "oewn-01560748-a", "verdict": "right", "fault": null, "why": "'The comparing form of many, used with things you can count: greater in number' is the gloss verbatim in plainer words, and 'two or three more of the men' is a count use."}
+  ]},
+ {"word": "feel", "pos": "verb",
+  "rank": "right", "why": "The verb uses split between undergoing an emotion ('felt a wish', 'still felt any [anger]') and coming to believe ('felt to be the right thing', 'she felt that years of happiness'), with 'felt persuaded' sitting between; the first sense is in the split.",
+  "senses": [
+   {"synset": "oewn-01775456-v", "verdict": "right", "fault": null, "why": "'To go through an emotion, or to be in a certain state of mind' keeps both halves of the gloss, and 'had she still felt any [anger]' is undergoing an emotion."},
+   {"synset": "oewn-00717144-v", "verdict": "right", "fault": null, "why": "'To come to believe something from an emotion, a hunch, or grounds you cannot pin down' carries the gloss's three grounds, and both examples are beliefs reached on feeling rather than proof."},
+   {"synset": "oewn-00105712-v", "verdict": "right", "fault": null, "why": "'To be aware that your body, your mind, or your heart is in some state' is the gloss with 'emotional' rendered as 'heart', and 'I felt calm' is being conscious of a state."}
+  ]},
+ {"word": "speak", "pos": "verb",
+  "rank": "right", "why": "The intransitive uses ('as he spoke', 'spoke in a low voice', 'speak with calmness') carry 'express in speech' as readily as 'use language', so the sentences split across the first and third senses with one 'talk with' use between, and the first sense is in the split.",
+  "senses": [
+   {"synset": "oewn-00944022-v", "verdict": "right", "fault": null, "why": "'To put something into spoken words' is 'express in speech' in plain words, and 'I do not speak it to be thanked' is that transitive use."},
+   {"synset": "oewn-00964479-v", "verdict": "right", "fault": null, "why": "'To trade thoughts with someone; to talk with them' keeps both parts of the gloss, and 'speak to Hill' is talking with a person."},
+   {"synset": "oewn-00965602-v", "verdict": "right", "fault": null, "why": "'To use language' is the gloss itself, which is allowed to be plain, and both examples are acts of speaking."}
+  ]},
+ {"word": "room", "pos": "noun",
+  "rank": "right", "why": "All six sentences are an enclosed space in a building (breakfast-room, left the room, ball-room, walked about the room), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-04112987-n", "verdict": "right", "fault": null, "why": "'A space inside a building shut in by walls, a floor, and a ceiling' is the gloss item for item, and both examples are rooms left and walked about."},
+   {"synset": "oewn-13799976-n", "verdict": "right", "fault": null, "why": "'Space to move in' is 'space for movement' in plain words, and 'hardly room to move between the boxes' is that sense."},
+   {"synset": "oewn-14509020-n", "verdict": "right", "fault": null, "why": "'A chance for something' is 'opportunity for' in plain words, and 'no room for delay' is that sense."}
+  ]},
+ {"word": "family", "pos": "noun",
+  "rank": "right", "why": "The sentences name the Bennets and the De Bourghs, who are at once a household and parents-and-children, so they split between the first two senses and the first is in the split.",
+  "senses": [
+   {"synset": "oewn-08094856-n", "verdict": "right", "fault": null, "why": "'A group of people who live together as one household' says what 'a social unit living together' says, and the Longbourn and De Bourgh examples are households."},
+   {"synset": "oewn-07986853-n", "verdict": "right", "fault": null, "why": "'The first small group a person belongs to: parents and their children' carries both parts of the gloss, and both examples are the Bennet parents and sisters."},
+   {"synset": "oewn-07987168-n", "verdict": "right", "fault": null, "why": "'The people who come down from one and the same ancestor' is the descent gloss in plain words, and the two-hundred-year farming example is a lineage."}
+  ]},
+ {"word": "tell", "pos": "verb",
+  "rank": "right", "why": "Five of the six sentences are letting something be known (told me all about it, told me so, told the girls, was to be told, I was told), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-00954556-v", "verdict": "right", "fault": null, "why": "'To let something be known' is the gloss itself, and both examples are informing."},
+   {"synset": "oewn-01011267-v", "verdict": "right", "fault": null, "why": "'To put something into words' is 'express in words' in plain words, and 'tell what Bingley may tell' is putting a matter into words."},
+   {"synset": "oewn-00955248-v", "verdict": "right", "fault": null, "why": "'To give a full account of something, step by step' renders both 'narrate' and 'detailed account', and 'told the whole story again from the beginning' is narration."}
+  ]},
+ {"word": "too", "pos": "adverb",
+  "rank": "right", "why": "Five of the six sentences are excess (too little, too much on your guard, too angry, too much), which is the first sense; only 'Miss Austen, too' is additive.",
+  "senses": [
+   {"synset": "oewn-00047930-r", "verdict": "right", "fault": null, "why": "'To a degree that goes past what is normal or right' keeps both 'normal' and 'proper', both examples are excess uses, and a degree adverb does not judge a referent."},
+   {"synset": "oewn-00048072-r", "verdict": "right", "fault": null, "why": "'As well as that' is 'in addition' in plain words, and 'Miss Austen, too, drew back' is the additive use."}
+  ]}
+]}

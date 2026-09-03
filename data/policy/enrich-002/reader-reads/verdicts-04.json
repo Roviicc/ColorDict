@@ -1,0 +1,69 @@
+{"packet": 4, "verdicts": [
+ {"word": "then", "pos": "adverb",
+  "rank": "right", "why": "The sentences split about evenly between 'subsequently' (turning to Mr. Bennet, she then sat still) and 'in that case' (for then we might, not so undeserving then), and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-00118527-r", "verdict": "right", "fault": null, "why": "Learner line restates 'subsequently or soon afterward' plainly, both examples are sequential 'then', and a sequence marker does not judge."},
+   {"synset": "oewn-00118928-r", "verdict": "right", "fault": null, "why": "'If that is so, or as a result of that' keeps both halves of 'in that case or as a consequence', and both examples are inferential 'then'."},
+   {"synset": "oewn-00118799-r", "verdict": "right", "fault": null, "why": "'At the time being talked about' is 'at that time' in plain words, and 'she was only a child then' uses exactly that sense."}
+  ]},
+ {"word": "more", "pos": "adverb",
+  "rank": "right", "why": "Of the adverbial uses, two form comparatives ('more wrong', 'more exceptionable') and two mark degree ('think no more', 'deaden them more'); the sentences split and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-00099891-r", "verdict": "right", "fault": null, "why": "Learner line says what the gloss says about forming comparatives, both examples put 'more' before an adjective, and a grammatical marker carries no judgement."},
+   {"synset": "oewn-00100262-r", "verdict": "right", "fault": null, "why": "'To a greater degree or amount' matches 'to a greater degree or extent', and both examples use 'more' as a degree adverb on a verb."}
+  ]},
+ {"word": "friend", "pos": "noun",
+  "rank": "right", "why": "Darcy as Bingley's friend, Charlotte as Elizabeth's friend and 'their dear friend' are all people known well and regarded with affection, so the first sense is the one the sentences use.",
+  "senses": [
+   {"synset": "oewn-10132360-n", "verdict": "right", "fault": null, "why": "Learner line keeps 'know well', 'like' and 'trust' from the gloss, both examples are close friends from the book, and the word names a relation without judging its object."},
+   {"synset": "oewn-09783207-n", "verdict": "right", "fault": null, "why": "'A person you know' restates 'a person with whom you are acquainted'; the example ('a friend of my brother's') is not plainly a different sense, though the 'met him only twice' clause describes the speaker's acquaintance rather than the brother's and so does little to fix the sense."},
+   {"synset": "oewn-09804483-n", "verdict": "right", "fault": null, "why": "'Works together with you and gives you help' covers both cooperation and assistance, and towns being friends through a flood is the ally sense."}
+  ]},
+ {"word": "more", "pos": "adjective",
+  "rank": "right", "why": "The two quantifier uses are 'much more difference' (mass noun) and 'two or three more of the men' (count noun), one each, and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-01559526-a", "verdict": "right", "fault": null, "why": "'A greater amount, size, extent or degree of something' tracks the gloss, both examples put 'more' before mass nouns, and a quantifier does not judge."},
+   {"synset": "oewn-01560748-a", "verdict": "right", "fault": null, "why": "'A greater number of things or people' is the count-noun gloss in plain words, and both examples ('more of the men', 'more chairs') are count nouns."}
+  ]},
+ {"word": "feel", "pos": "verb",
+  "rank": "right", "why": "'Never felt a wish', 'had she still felt any [anger]' and 'felt persuaded' are emotional states, while 'it is felt to be the right thing' and 'she felt, that years of happiness could not' are believing on intuition; the sentences split and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-01775456-v", "verdict": "right", "fault": null, "why": "'To have an emotion, or to be in a certain state of mind' keeps both halves of the gloss, both examples are felt emotions, and the verb describes without judging."},
+   {"synset": "oewn-00717144-v", "verdict": "right", "fault": null, "why": "'From an emotion, a hunch, or reasons you cannot quite name' renders 'emotion, intuitions, or indefinite grounds' without dropping any, and the example is a belief arrived at by feeling."},
+   {"synset": "oewn-00105712-v", "verdict": "right", "fault": null, "why": "'Aware of a state in your body, your mind, or your feelings' covers physical, mental and emotional, and 'felt tired but happy' is being conscious of such a state."}
+  ]},
+ {"word": "speak", "pos": "verb",
+  "rank": "right", "why": "'Spoke in a low voice', 'as she thus spoke', 'as he spoke' and 'speak with calmness' all describe using language without a named interlocutor, so the first sense is the one most sentences use.",
+  "senses": [
+   {"synset": "oewn-00965602-v", "verdict": "right", "fault": null, "why": "'To use language' is the gloss itself, which is already plain; both examples are of speaking as an act, and the verb does not judge."},
+   {"synset": "oewn-00964479-v", "verdict": "right", "fault": null, "why": "'To talk with someone and share thoughts' keeps both 'exchange thoughts' and 'talk with', and both examples have 'speak to/with' a person."},
+   {"synset": "oewn-00944022-v", "verdict": "right", "fault": null, "why": "'To put something into spoken words' is 'express in speech', and both examples take a spoken object ('speak it', 'spoke a few words')."}
+  ]},
+ {"word": "room", "pos": "noun",
+  "rank": "right", "why": "Every sentence has a room one enters, leaves, walks about or sits at the side of, so the enclosed-area sense is the one the sentences use.",
+  "senses": [
+   {"synset": "oewn-04112987-n", "verdict": "right", "fault": null, "why": "'Shut in by walls, a floor and a ceiling' is the gloss's enclosure in plain words, both examples are rooms in a house, and the word names a thing without judging it."},
+   {"synset": "oewn-13799976-n", "verdict": "right", "fault": null, "why": "'Space in which to move' is 'space for movement', and 'hardly room to turn around' is that sense."},
+   {"synset": "oewn-14509020-n", "verdict": "right", "fault": null, "why": "'The chance for something' is 'opportunity for' in plain words, and 'room for improvement' is the standard use of it."}
+  ]},
+ {"word": "family", "pos": "noun",
+  "rank": "right", "why": "'The rest of her family', 'the Longbourn family' and 'brought on her family' are the household at Longbourn, while 'the family of De Bourgh' and 'Lady Catherine's family' are lineages; the sentences split and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-08094856-n", "verdict": "right", "fault": null, "why": "'A group of people who live together as one household' is 'a social unit living together' plainly, both examples are households (one drawn from a book sentence in another entry, still the household sense), and the word does not judge."},
+   {"synset": "oewn-07986853-n", "verdict": "right", "fault": null, "why": "'The closest social group: parents and their children' restates the gloss, and 'start a family' is the parents-and-children sense."},
+   {"synset": "oewn-07987168-n", "verdict": "right", "fault": null, "why": "'All the people who come down from the same ancestor' is faithful, and both 'the family of De Bourgh' and a family farming a valley for two hundred years are lineages."}
+  ]},
+ {"word": "tell", "pos": "verb",
+  "rank": "right", "why": "'Told me so', 'told the girls what an honour', 'whatever was to be told would be communicated' and 'I was told' are all letting something be known, so the first sense is the one most sentences use.",
+  "senses": [
+   {"synset": "oewn-00954556-v", "verdict": "right", "fault": null, "why": "'To make something known to someone' is 'let something be known' in plain words, both examples are information passed on, and the verb does not judge."},
+   {"synset": "oewn-01011267-v", "verdict": "right", "fault": null, "why": "'To put something into words' is 'express in words', and both examples ('tell me plainly what you want', 'tell her reasons in plain words') are about putting content into speech."},
+   {"synset": "oewn-00955248-v", "verdict": "wrong", "fault": "other", "why": "The learner line defines 'tell' with 'tell' ('to tell a story about something'), so a learner who does not know the headword is sent back to it; the meaning matches the gloss and the examples are sound, but a learner line must not be circular."}
+  ]},
+ {"word": "too", "pos": "adverb",
+  "rank": "right", "why": "'Too little yielding', 'too much on your guard', 'too angry', 'doing too much' and 'too much for me' all exceed a limit, against one additive 'Miss Austen, too', so the first sense is the one the sentences use.",
+  "senses": [
+   {"synset": "oewn-00047930-r", "verdict": "right", "fault": null, "why": "'Past what is normal or right' renders 'exceeding normal or proper limits' without adding or dropping, both examples are excess, and the degree word itself does not judge its object."},
+   {"synset": "oewn-00048072-r", "verdict": "right", "fault": null, "why": "'As well as that' is 'in addition' plainly, and both examples are additive 'too'."}
+  ]}
+]}

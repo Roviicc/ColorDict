@@ -1,0 +1,54 @@
+{"packet": 2, "verdicts": [
+ {"word": "make", "pos": "verb",
+  "rank": "right", "why": "Three of the six sentences (the attempt made, made her a bow, make any reply) carry perform/carry out, two carry cause-to-do and one carries give-a-property, so the order matches the sentences.",
+  "senses": [
+   {"synset": "oewn-01759660-v", "verdict": "right", "fault": null,
+    "why": "The learner line restates perform, produce, or carry out with nothing added, both examples are make-a-reply and make-a-bow in this sense, and the word describes without judging."},
+   {"synset": "oewn-00772482-v", "verdict": "right", "fault": null,
+    "why": "Cause someone to do something or act in a stated way is the gloss in plain words, and both examples (make him fancy, made her look handsomer) are cause-to-do."},
+   {"synset": "oewn-00120124-v", "verdict": "right", "fault": null,
+    "why": "Cause something to have a certain quality is give certain properties in plain words, make me happy is that sense, and null is correct."}
+  ]},
+ {"word": "go", "pos": "verb",
+  "rank": "right", "why": "Most sentences (go home, went upstairs, were to go, go on) carry change location or proceed, which is listed first; the third written sense is attested by no book sentence but no plainly used sense sits below it, since go with the objectors is arguable between metaphorical proceed and side-with.",
+  "senses": [
+   {"synset": "oewn-01839438-v", "verdict": "right", "fault": null,
+    "why": "Change place by moving, travelling, or going forward, real or figurative, keeps every alternative of the gloss including the metaphorical one, and went upstairs is this sense."},
+   {"synset": "oewn-01852660-v", "verdict": "right", "fault": null,
+    "why": "Move away from a place off in another direction is the gloss in plain words, rose to go away is this sense, and the word does not judge."},
+   {"synset": "oewn-02377696-v", "verdict": "right", "fault": null,
+    "why": "Follow a set way of doing something or take a course of action is faithful to follow a procedure or take a course, and both invented examples (go through the proper channels, go by the rules) use go in this sense."}
+  ]},
+ {"word": "give", "pos": "verb",
+  "rank": "right", "why": "Cause to have covers the most sentences (giving an impression, gave Elizabeth some pain, given me the assurance) and is listed first; the living given elsewhere and gives an elegance to misfortune fall to the second and third senses.",
+  "senses": [
+   {"synset": "oewn-02321848-v", "verdict": "right", "fault": null,
+    "why": "Cause someone to have something, a real thing or something you cannot touch, renders abstract-or-physical exactly, and both examples (gave Elizabeth some pain, gave her a bad cold) are cause-to-have."},
+   {"synset": "oewn-02204104-v", "verdict": "wrong", "fault": "learner-unfaithful",
+    "why": "The learner line renders concrete or abstract as real or not real, and not real means imaginary, which the gloss does not say and which the example itself (a living, a real church post) contradicts; the example and the null verdict are fine."},
+   {"synset": "oewn-02344167-v", "verdict": "right", "fault": null,
+    "why": "Be the cause of something or the place it comes from is the gloss in plain words, and the parade that gives an elegance to misfortune is the source of that elegance, so the example fits though it sits close to cause-to-have."}
+  ]},
+ {"word": "time", "pos": "noun",
+  "rank": "right", "why": "After a time, for some time, and it was some time before are all the indefinite period, which is listed first; first time is an occasion and time for speech is the resource, matching senses two and three.",
+  "senses": [
+   {"synset": "oewn-15147173-n", "verdict": "right", "fault": null,
+    "why": "A stretch of time of no fixed length, usually marked by what happens in it, restates the gloss with its parenthetical kept, both examples are indefinite periods, and the word does not judge."},
+   {"synset": "oewn-07324217-n", "verdict": "right", "fault": null,
+    "why": "One single occasion on which something happens is the gloss in plain words, and for the first time and knocked three times are both occasions."},
+   {"synset": "oewn-15295388-n", "verdict": "right", "fault": null,
+    "why": "An amount of time that is yours to use and is enough to get something done keeps both the under-your-control and the sufficient parts of the gloss, and time for speech is that resource."}
+  ]},
+ {"word": "take", "pos": "verb",
+  "rank": "right", "why": "The sentences genuinely split, one each across take his guest into the drawing-room, took a delight, took the opportunity, and taken up their abode, with take leave and take care being idioms outside the written senses, so the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-02003830-v", "verdict": "right", "fault": null,
+    "why": "Go with someone and lead them to a place is a plain rendering of take somebody somewhere, take his guest into the drawing-room is this sense, and the word does not judge."},
+   {"synset": "oewn-02113499-v", "verdict": "right", "fault": null,
+    "why": "Go through something, feel it, or let it be done to you keeps all three alternatives of experience or feel or submit to, and took an epicurean delight is the feel alternative."},
+   {"synset": "oewn-02214718-v", "verdict": "right", "fault": null,
+    "why": "Make use of something, or accept it, for some purpose is the gloss in plain words, and took the opportunity is this sense."},
+   {"synset": "oewn-01986409-v", "verdict": "right", "fault": null,
+    "why": "Fill a place or position, or put yourself into one, renders occupy or take on plainly, and taken up their abode is occupying a dwelling in this sense."}
+  ]}
+]}

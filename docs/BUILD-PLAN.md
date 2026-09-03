@@ -1,7 +1,7 @@
 # ColorDict — the staged build plan
 
-**Status: approved 2026-09-03 for stages 0-3. Stages 0, 1 and 2 are done;**
-**stage state is measured by `python tools/status.py`, not by this line.**
+**Status: stages 0-6 done on 2026-09-03; stage 7 waits for approval.**
+**Stage state is measured by `python tools/status.py`, not by this line.**
 
 This replaces the forward-looking half of `HANDOFF.md` and supersedes both
 planning documents (*Vocabulary and Word Generation Plan*, *Graph Engineering*)

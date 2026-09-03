@@ -1,0 +1,64 @@
+{"packet": 2, "verdicts": [
+ {"word": "come", "pos": "verb",
+  "rank": "right", "why": "The sentences split between moving toward the speaker (come down, come husband-hunting, comes back) and arriving (the express came, the carriage came to the door, the gentlemen came), and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-01853188-v", "verdict": "right", "fault": null, "why": "The learner line keeps both the moving-toward and the approaching readings, both examples use come as movement toward a place or person, and the word describes without judging."},
+   {"synset": "oewn-02009962-v", "verdict": "right", "fault": null, "why": "'Get to the place you were going' is the gloss's reaching a destination in plain words, both examples are arrivals, and null is correct."},
+   {"synset": "oewn-00342572-v", "verdict": "right", "fault": null, "why": "'To happen, or to arrive' covers both halves of the gloss, and both examples (the wedding day came, winter came) are things coming to pass in due course rather than physical arrivals."}
+  ]},
+ {"word": "as", "pos": "adverb",
+  "rank": "right", "why": "Every adverbial use in the sentences is the degree 'as ... as' (as well as, as soon as, as much solemnity as, as amiable as), and that is the only sense listed.",
+  "senses": [
+   {"synset": "oewn-00022585-r", "verdict": "right", "fault": null, "why": "The learner line says 'to the same degree' plainly and keeps the note about the second 'as'; both examples are as ... as comparisons of degree; null is correct for a degree word."}
+  ]},
+ {"word": "never", "pos": "adverb",
+  "rank": "right", "why": "All six sentences use never as not ever / at no time, and that is the only sense listed.",
+  "senses": [
+   {"synset": "oewn-00021214-r", "verdict": "right", "fault": null, "why": "The learner line restates each part of the long gloss without adding or dropping anything, both examples use never in this sense, and a bare negator does not judge its referent."}
+  ]},
+ {"word": "soon", "pos": "adverb",
+  "rank": "right", "why": "The only sense listed is the one the sentences carry, whether as a plain adverb (soon caught, will soon drive away) or inside 'as soon as'.",
+  "senses": [
+   {"synset": "oewn-00034309-r", "verdict": "right", "fault": null, "why": "'In a short time from now' is the gloss's near future in plain words, both examples use soon for a short interval ahead of the narrative moment, and null is correct."}
+  ]},
+ {"word": "well", "pos": "adverb",
+  "rank": "right", "why": "The manner sense heads the list and is what 'will do extremely well', 'well placed out' and 'better looking' carry; 'think well' and 'pretty well' are single sentences on other senses.",
+  "senses": [
+   {"synset": "oewn-00011555-r", "verdict": "right", "fault": null, "why": "The learner line keeps good, proper, satisfactory and high standard from the gloss, the one example is well as manner, and null is correct."},
+   {"synset": "oewn-00013554-r", "verdict": "right", "fault": null, "why": "'In a way that shows you like or approve of' is favourably in plain words, 'to think well' of someone is exactly this sense, and null is correct."},
+   {"synset": "oewn-00013241-r", "verdict": "right", "fault": null, "why": "'In a complete and thorough way; fully' matches the gloss, 'well soaked' uses well as the combining-form thoroughly, and null is correct."}
+  ]},
+ {"word": "such", "pos": "adjective",
+  "rank": "right", "why": "The only listed sense covers both the degree reading (such a design, such a story) and the of-this-kind reading (such a meeting, such circumstances) that the sentences carry.",
+  "senses": [
+   {"synset": "oewn-01558587-s", "verdict": "right", "fault": null, "why": "The learner line gives both the extreme-degree half and the demonstrative kind half of the gloss, both examples use such in this sense, and a determiner does not judge."}
+  ]},
+ {"word": "other", "pos": "adjective",
+  "rank": "right", "why": "All six sentences (the other hand, the other side, no other woman, the other, each for the other) use the not-the-same-one sense, which is first.",
+  "senses": [
+   {"synset": "oewn-02076759-a", "verdict": "right", "fault": null, "why": "'Not the same one or ones already named or hinted at' restates the gloss faithfully, both examples are this sense, and null is correct."},
+   {"synset": "oewn-01735069-s", "verdict": "right", "fault": null, "why": "'Belonging to a time just past' is recently past in plain words, and 'the other day' is the standard use of this sense."},
+   {"synset": "oewn-01733616-s", "verdict": "right", "fault": null, "why": "'Belonging to a time long ago' matches the gloss, 'in other times' uses other in this distant-past sense, and null is correct."}
+  ]},
+ {"word": "time", "pos": "noun",
+  "rank": "wrong", "why": "Three sentences ('after a time', 'for some time', 'some time before') carry the indefinite-period sense oewn-15147173-n, which sits fourth and unwritten, below the continuum sense that no sentence uses; only 'for the first time' carries the occasion sense placed first.",
+  "senses": [
+   {"synset": "oewn-07324217-n", "verdict": "right", "fault": null, "why": "'One single occasion on which something happens' is the gloss in plain words, 'for the first time' and 'knocked three times' are both occasions, and null is correct."},
+   {"synset": "oewn-00028468-n", "verdict": "right", "fault": null, "why": "The learner line keeps the future-through-present-to-past flow of the gloss, 'time passes' is this sense, and null is correct."},
+   {"synset": "oewn-15295388-n", "verdict": "right", "fault": null, "why": "'An amount of time that is yours to use and is enough to get something done' keeps both the under-your-control and the sufficient parts of the gloss, and 'to have time for speech' is time as a resource."}
+  ]},
+ {"word": "now", "pos": "adverb",
+  "rank": "right", "why": "The present-moment sense heads the list and is what 'take your likeness now', 'getting him now' and 'his manners now are' carry; the narrative now and 'even now' are single sentences each.",
+  "senses": [
+   {"synset": "oewn-00049758-r", "verdict": "right", "fault": null, "why": "'At this moment' is the gloss, both examples are the speaker's present moment, and null is correct."},
+   {"synset": "oewn-00049971-r", "verdict": "right", "fault": null, "why": "'At this point in the telling of a set of past events' is the historical-present gloss in plain words, and 'was now put an end to' is narrative now in past tense."},
+   {"synset": "oewn-00049013-r", "verdict": "right", "fault": null, "why": "'In the present age' matches 'in these times', the letters-versus-messages example is the present era rather than the present moment, and null is correct."}
+  ]},
+ {"word": "only", "pos": "adverb",
+  "rank": "right", "why": "The 'and nothing more' sense heads the list and is what most sentences carry (only a clergyman, only six, I will only say, only long enough, only confused); 'which only genius knows' is the one exclusive use.",
+  "senses": [
+   {"synset": "oewn-00005103-r", "verdict": "right", "fault": null, "why": "'And nothing more than that' is the gloss itself, 'only a clergyman' and 'only confused for the moment' are both merely-readings, and null is correct."},
+   {"synset": "oewn-00009062-r", "verdict": "right", "fault": null, "why": "'With no one else and nothing else taken in or taking part' restates the exclusive gloss without narrowing it, and both examples (only genius knows, given only to the housekeeper) are exclusive uses."},
+   {"synset": "oewn-00011221-r", "verdict": "right", "fault": null, "why": "'And yet, in the end, with this as the result' is the gloss's nevertheless-final-result in plain words, and 'only to find that he had gone' is the standard use of this sense."}
+  ]}
+]}

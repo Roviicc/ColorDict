@@ -1,0 +1,89 @@
+{
+ "run": "enrich-002",
+ "date": "2026-09-03",
+ "book": "Pride and Prejudice (pg1342)",
+ "same_50_as": "enrich-001",
+ "entries": 50,
+ "senses_written": 132,
+ "null": 131,
+ "candidate": 1,
+ "instruments": {
+  "ranker": ".claude/agents/sense-ranker.md (after the enrich-001 fix)",
+  "enricher": ".claude/agents/enricher.md (after the enrich-001 fix)",
+  "reader": ".claude/agents/entry-reader.md (unchanged)"
+ },
+ "agents": {
+  "ranker": "sense-ranker by name (opus)",
+  "enricher": "enricher by name (opus)",
+  "reader": "general-purpose, model claude-fable-5-1, instrument read from disk - the by-name entry-reader spawn is refused by a Fable safeguard on its system prompt (5/5 packets)"
+ },
+ "cost_tokens": {
+  "ranker_measured_packets_4_5": [
+   20839,
+   22248
+  ],
+  "ranker_estimated_5_packets": 107719,
+  "enricher": 166975,
+  "reader": 326737,
+  "total_estimated": 601431,
+  "per_entry": 12029,
+  "per_entry_without_read": 5494,
+  "note": "by-name agents cost roughly a third of general-purpose ones reading the same file (ranker ~21k vs ~60k per packet, enricher ~28k vs ~75k)"
+ },
+ "validator": {
+  "ranker_rejected": 0,
+  "enricher_rejected": 0,
+  "entry_validate": "clean, 0 errors",
+  "dict_validate": "0 errors"
+ },
+ "read": {
+  "entries_read": 50,
+  "entries_with_a_fault": 7,
+  "entry_defect_rate": 0.14,
+  "senses_read": 132,
+  "senses_wrong": 5,
+  "sense_defect_rate": 0.0379,
+  "rank_wrong": 2,
+  "unsure": 0,
+  "faults": {
+   "rank-wrong": 2,
+   "other": 2,
+   "example-wrong-sense": 1,
+   "learner-unfaithful": 1,
+   "false-null": 1
+  },
+  "wrong": [
+   "make/verb rank: The first sense 'engage in' is carried by at most the ambiguous 'if the attempt were made' and has no learner line, while 'cause to do' ('make him fancy', 'made her look handsomer') and 'perform, produce, or carry out' ('make any reply', 'made her a slight bow') each carry two clear sentences and sit below it.",
+   "go/oewn-02377696-v example-wrong-sense: 'Elizabeth ... could not go on' is the phrasal 'go on' meaning continue, not following a procedure or taking a course, so the example shows a neighbouring sense rather than this one; the learner line itself is faithful.",
+   "time/noun rank: Three sentences ('after a time', 'for some time', 'some time before') carry the indefinite-period sense oewn-15147173-n, which sits fourth and unwritten, below the continuum sense that no sentence uses; only 'for the first time' carries the occasion sense placed first.",
+   "much/oewn-00033190-r learner-unfaithful: The gloss 'incredibly' is the intensifier meaning 'very, extremely', but the learner line reads it literally as 'to a degree that is hard to believe', which is not what 'much pleased' means and would mislead a learner.",
+   "young/oewn-01654162-s false-null: The gloss itself is 'vigorous and fresh', and calling a sixty-year-old's step young is a compliment; a learner needs to know this sense praises what it is aimed at.",
+   "tell/oewn-00955248-v other: The learner line defines 'tell' with 'tell' ('to tell a story about something'), so a learner who does not know the headword is sent back to it; the meaning matches the gloss and the examples are sound, but a learner line must not be circular.",
+   "mother/oewn-10352666-n other: The example 'Sit down here, Mother, and rest a while' cannot be told from the first sense's term of address to one's own mother and a learner will read it that way; the example is ambiguous between this sense and its neighbour rather than plainly of a different sense, so it teaches nothing about addressing an elderly woman who is not one's mother; learner line and null are fine."
+  ]
+ },
+ "verdict": "3.8% of senses wrong (5/132), under the 5% gate; 2/50 rankings wrong (make, time - the same two as enrich-001, both light-verb/continuum glosses the ranker still fronts). Faults repaired by a third hand and the repairs re-read blind - see repair-out and repair-reads.",
+ "repair": {
+  "hand": "general-purpose on opus, enricher.md + sense-ranker.md read from disk; neither the writer nor the reader of the faulted items",
+  "round_1": {
+   "input": "the 7 faults of the 50-entry read (5 senses, 2 rankings)",
+   "output": "repair-out/output-01.json; 6 sense rewrites incl. one newly written sense (time / indefinite period) after the re-rank; 1 sense trimmed out of the write set",
+   "re_read": "repair-reads/verdicts-01.json: 21/21 written senses right; make and time rankings STILL wrong - traced to ranks-001.overlay.jsonl (the hand ranks from the first Zipf batch) setting rank 1 on the old top senses and winning the tie by sorting after enrich-002"
+  },
+  "ranks_overlay_fix": "16 hand ranks on take, give, go, make, time dropped from ranks-001.overlay.jsonl - superseded by the book-evidence ranking for those senses; re-read of the five re-ordered entries (repair-reads/verdicts-02.json): 5/5 rankings right, 15/16 senses right; the one new fault (give / 'concrete or abstract' rendered 'real or not real') had passed the first reader",
+  "round_2": {
+   "input": "that one give learner line",
+   "output": "repair-out/output-02.json",
+   "re_read": "repair-reads/verdicts-03.json: give ranking right, 3/3 written senses right"
+  },
+  "cost_tokens": {
+   "repair_round_1": 65407,
+   "re_read_1": 60950,
+   "re_read_2": 61751,
+   "repair_round_2": 45449,
+   "re_read_3": 45867
+  },
+  "note": "a second blind read of already-passed material found one fault in 16 senses: the census rate is a floor, as the plan says"
+ },
+ "shipped": "every fault named by any reader is repaired and its repair re-read clean; the build in app/src/main/assets carries enrich-002 with the repairs"
+}

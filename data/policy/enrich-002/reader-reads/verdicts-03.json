@@ -1,0 +1,69 @@
+{"packet": 3, "verdicts": [
+ {"word": "take", "pos": "verb",
+  "rank": "right", "why": "The six sentences split across five glosses; 'took leave' and 'take care of' are the light-verb 'carry out' use, so the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-02113499-v", "verdict": "right", "fault": null, "why": "Learner keeps all three alternatives of 'experience or feel or submit to', 'took an epicurean delight' is this sense, and the word describes without judging."},
+   {"synset": "oewn-02003830-v", "verdict": "right", "fault": null, "why": "Learner restates 'take somebody somewhere' plainly, 'take his guest into the drawing-room' is that sense, and null is correct."},
+   {"synset": "oewn-02214718-v", "verdict": "right", "fault": null, "why": "Learner keeps both 'make use of' and 'accept', 'took the opportunity' is this sense, and null is correct."},
+   {"synset": "oewn-01986409-v", "verdict": "right", "fault": null, "why": "'Fill a place or position, or put yourself into one' covers 'occupy or take on', 'taken up their abode' is occupying, and null is correct."}
+  ]},
+ {"word": "man", "pos": "noun",
+  "rank": "right", "why": "All six sentences use 'man' or 'men' for an adult male person, which sits first.",
+  "senses": [
+   {"synset": "oewn-10306910-n", "verdict": "right", "fault": null, "why": "Learner says exactly 'adult male, not a woman', both book examples are that sense, and the word describes without judging."},
+   {"synset": "oewn-10308700-n", "verdict": "right", "fault": null, "why": "Learner restates the generic use, 'No man can live without hope' is that use, and null is correct."},
+   {"synset": "oewn-10308177-n", "verdict": "right", "fault": null, "why": "Learner keeps husband, lover and boyfriend, 'her man' is that sense, and the word describes a role without judging it."}
+  ]},
+ {"word": "much", "pos": "adverb",
+  "rank": "right", "why": "'much more', 'much pleased', 'much better' and 'not so much' are all degree uses, so 'to a great degree or extent' belongs first.",
+  "senses": [
+   {"synset": "oewn-00059624-r", "verdict": "right", "fault": null, "why": "Learner restates 'to a great degree or extent', both examples are degree uses, and null is correct."},
+   {"synset": "oewn-00033190-r", "verdict": "wrong", "fault": "learner-unfaithful", "why": "The gloss 'incredibly' is the intensifier meaning 'very, extremely', but the learner line reads it literally as 'to a degree that is hard to believe', which is not what 'much pleased' means and would mislead a learner."},
+   {"synset": "oewn-00023283-r", "verdict": "right", "fault": null, "why": "Learner keeps 'before a noun phrase' and 'not completely', 'pretty much the same' is that sense, and null is correct."}
+  ]},
+ {"word": "own", "pos": "adjective",
+  "rank": "right", "why": "Five sentences use the possessive adjective (the sixth, 'she must own', is the verb), and the only adjective sense is listed.",
+  "senses": [
+   {"synset": "oewn-01773236-s", "verdict": "right", "fault": null, "why": "Learner keeps 'belonging to' and 'on behalf of' and the possessive requirement, both examples are that sense, and null is correct."}
+  ]},
+ {"word": "little", "pos": "adjective",
+  "rank": "right", "why": "'little dependence', 'little difficulty', 'said little', 'A little' and 'too little said' are all the mass-noun quantifier, which sits first.",
+  "senses": [
+   {"synset": "oewn-01558903-a", "verdict": "right", "fault": null, "why": "Learner keeps the mass-noun restriction, 'not much or almost none', and the 'a little' alternative; both examples are this sense; null is correct."},
+   {"synset": "oewn-01394303-a", "verdict": "right", "fault": null, "why": "'Below the usual number, amount, size, or extent' restates the gloss, 'a little room' is small in magnitude, and null is correct."},
+   {"synset": "oewn-01653473-s", "verdict": "right", "fault": null, "why": "Learner keeps the child-or-animal restriction and 'young, not grown up', 'little brother' is that sense, and null is correct."}
+  ]},
+ {"word": "again", "pos": "adverb",
+  "rank": "right", "why": "All six sentences use 'again' as 'anew', and it is the only sense listed.",
+  "senses": [
+   {"synset": "oewn-00040777-r", "verdict": "right", "fault": null, "why": "'One more time' is 'anew' in plain words, both examples are that sense, and null is correct."}
+  ]},
+ {"word": "day", "pos": "noun",
+  "rank": "right", "why": "'not a day went by', 'a day later' and 'some days in town' are the twenty-four-hour unit, which sits first; 'our own day' and 'that day' fall to the senses below it.",
+  "senses": [
+   {"synset": "oewn-15180180-n", "verdict": "right", "fault": null, "why": "Learner restates one Earth rotation; 'twenty-four hours' is the same period named plainly; both examples count days; null is correct."},
+   {"synset": "oewn-15274047-n", "verdict": "right", "fault": null, "why": "'A time when someone or something lived or had power' is 'an era of existence or influence', 'our own day' is that sense, and null is correct."},
+   {"synset": "oewn-15148032-n", "verdict": "right", "fault": null, "why": "'A moment or a stretch of time' keeps both 'point' and 'period', 'that day' and 'the following day' fit that sense, and null is correct."}
+  ]},
+ {"word": "hear", "pos": "verb",
+  "rank": "right", "why": "'we hear nothing about', 'hear that you', 'she had heard that' and 'I have heard' are all 'get to know', which sits first.",
+  "senses": [
+   {"synset": "oewn-00600349-v", "verdict": "right", "fault": null, "why": "Learner keeps 'come to know' and 'usually by chance', both examples are 'heard that', and null is correct."},
+   {"synset": "oewn-02174146-v", "verdict": "right", "fault": null, "why": "'Take in a sound with your ears' restates the auditory gloss, 'heard footsteps' is that sense, and null is correct."},
+   {"synset": "oewn-02175483-v", "verdict": "right", "fault": null, "why": "Learner restates 'listen and pay attention', 'let us hear all the particulars' is a call to listen, and null is correct."}
+  ]},
+ {"word": "most", "pos": "adverb",
+  "rank": "right", "why": "'the most perfect', 'most concerned' and 'the most serious manner' are superlatives, outnumbering the two emphatic 'a most' uses, so the superlative belongs first.",
+  "senses": [
+   {"synset": "oewn-00112352-r", "verdict": "right", "fault": null, "why": "Learner explains the superlative as 'more than all the rest, the greatest in size or degree', the example is a superlative, and null is correct."},
+   {"synset": "oewn-00032295-r", "verdict": "right", "fault": null, "why": "'Used to give a word extra force' restates 'used to give emphasis', both 'a most' examples are emphatic, and null is correct."},
+   {"synset": "oewn-00073433-r", "verdict": "right", "fault": null, "why": "Learner keeps 'of an action or state' and 'not quite', 'Most everyone' is the 'almost' use, and null is correct."}
+  ]},
+ {"word": "young", "pos": "adjective",
+  "rank": "right", "why": "All six sentences use 'young' of ladies and men in an early period of life, which sits first.",
+  "senses": [
+   {"synset": "oewn-01651383-a", "verdict": "right", "fault": null, "why": "Learner keeps 'living thing, especially a person' and all three of life, growth and development; both examples are that sense; null is correct."},
+   {"synset": "oewn-01654162-s", "verdict": "wrong", "fault": "false-null", "why": "The gloss itself is 'vigorous and fresh', and calling a sixty-year-old's step young is a compliment; a learner needs to know this sense praises what it is aimed at."},
+   {"synset": "oewn-01647922-s", "verdict": "right", "fault": null, "why": "'In its early stage' is the gloss verbatim in plain words, 'the night was still young' is that sense, and null is correct."}
+  ]}
+]}

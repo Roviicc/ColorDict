@@ -1,0 +1,26 @@
+{
+ "entries_read": 50,
+ "entries_with_a_fault": 7,
+ "entry_defect_rate": 0.14,
+ "senses_read": 132,
+ "senses_wrong": 5,
+ "sense_defect_rate": 0.0379,
+ "rank_wrong": 2,
+ "unsure": 0,
+ "faults": {
+  "rank-wrong": 2,
+  "other": 2,
+  "example-wrong-sense": 1,
+  "learner-unfaithful": 1,
+  "false-null": 1
+ },
+ "wrong": [
+  "make/verb rank: The first sense 'engage in' is carried by at most the ambiguous 'if the attempt were made' and has no learner line, while 'cause to do' ('make him fancy', 'made her look handsomer') and 'perform, produce, or carry out' ('make any reply', 'made her a slight bow') each carry two clear sentences and sit below it.",
+  "go/oewn-02377696-v example-wrong-sense: 'Elizabeth ... could not go on' is the phrasal 'go on' meaning continue, not following a procedure or taking a course, so the example shows a neighbouring sense rather than this one; the learner line itself is faithful.",
+  "time/noun rank: Three sentences ('after a time', 'for some time', 'some time before') carry the indefinite-period sense oewn-15147173-n, which sits fourth and unwritten, below the continuum sense that no sentence uses; only 'for the first time' carries the occasion sense placed first.",
+  "much/oewn-00033190-r learner-unfaithful: The gloss 'incredibly' is the intensifier meaning 'very, extremely', but the learner line reads it literally as 'to a degree that is hard to believe', which is not what 'much pleased' means and would mislead a learner.",
+  "young/oewn-01654162-s false-null: The gloss itself is 'vigorous and fresh', and calling a sixty-year-old's step young is a compliment; a learner needs to know this sense praises what it is aimed at.",
+  "tell/oewn-00955248-v other: The learner line defines 'tell' with 'tell' ('to tell a story about something'), so a learner who does not know the headword is sent back to it; the meaning matches the gloss and the examples are sound, but a learner line must not be circular.",
+  "mother/oewn-10352666-n other: The example 'Sit down here, Mother, and rest a while' cannot be told from the first sense's term of address to one's own mother and a learner will read it that way; the example is ambiguous between this sense and its neighbour rather than plainly of a different sense, so it teaches nothing about addressing an elderly woman who is not one's mother; learner line and null are fine."
+ ]
+}

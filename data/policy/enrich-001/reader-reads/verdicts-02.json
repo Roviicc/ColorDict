@@ -1,0 +1,86 @@
+{"packet": 2, "verdicts": [
+ {"word": "come", "pos": "verb",
+  "rank": "right", "why": "The sentences split between moving toward (come down, comes back) and arriving (the express came, the carriage came to the door, the gentlemen came), and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-01853188-v", "verdict": "right",
+    "fault": null, "why": "Learner line restates move toward or approach plainly, the example (come down this moment) is movement toward the speaker, and the word only describes motion."},
+   {"synset": "oewn-02009962-v", "verdict": "right",
+    "fault": null, "why": "Learner line is the gloss in plain words, both examples are arrivals (the express came at twelve, the carriage came to the door), and nothing judges."},
+   {"synset": "oewn-00342572-v", "verdict": "wrong",
+    "fault": "learner-narrowed", "why": "The gloss is come to pass or arrive with no condition on timing, but the learner line restricts it to happening at the point when it was due, which its own example Winter came early that year contradicts."}
+  ]},
+ {"word": "as", "pos": "adverb",
+  "rank": "right", "why": "The degree adverb (as amiable as, as much solemnity as, as soon as) is the only adverb sense listed and is what most sentences carry; the conjunction uses (as they sat down) are a different part of speech.",
+  "senses": [
+   {"synset": "oewn-00022585-r", "verdict": "right",
+    "fault": null, "why": "Learner line says to the same degree in plain words, both examples use as in a degree comparison, and the word describes without judging."}
+  ]},
+ {"word": "never", "pos": "adverb",
+  "rank": "right", "why": "Only one sense is listed and every sentence uses never as not ever or at no time.",
+  "senses": [
+   {"synset": "oewn-00021214-r", "verdict": "right",
+    "fault": null, "why": "Learner line keeps both the at-no-time and the not-in-any-circumstances readings of the gloss, both examples are plain not-ever uses, and the word does not judge."}
+  ]},
+ {"word": "soon", "pos": "adverb",
+  "rank": "right", "why": "Only one sense is listed and the sentences all use soon as within a short time, whether as a bare adverb or inside as soon as.",
+  "senses": [
+   {"synset": "oewn-00034309-r", "verdict": "right",
+    "fault": null, "why": "Learner line renders in the near future as after only a short time, both examples use soon as a short interval, and the word describes without judging."}
+  ]},
+ {"word": "well", "pos": "adverb",
+  "rank": "right", "why": "The sentences split across manner (do extremely well, well placed out), approval (think well of Darcy) and thoroughness (know pretty well), and the first sense holds the plurality and is one of the split.",
+  "senses": [
+   {"synset": "oewn-00011555-r", "verdict": "right",
+    "fault": null, "why": "Learner line matches the good, proper or satisfactory manner or high standard of the gloss, both examples are manner uses, and the approval is the meaning itself rather than a charge on top of it."},
+   {"synset": "oewn-00013241-r", "verdict": "right",
+    "fault": null, "why": "Learner line is thoroughly or completely in plain words, well understood and well hidden are both thoroughness uses, and the word does not judge."},
+   {"synset": "oewn-00013554-r", "verdict": "right",
+    "fault": null, "why": "Learner line says favorably and with approval in plainer words, think well of Darcy is exactly that use, and the approval is the denotation rather than a connotation."}
+  ]},
+ {"word": "such", "pos": "adjective",
+  "rank": "right", "why": "Only one sense is listed and every sentence uses such as of the kind mentioned or of so great a degree.",
+  "senses": [
+   {"synset": "oewn-01558587-s", "verdict": "right",
+    "fault": null, "why": "Learner line covers both the degree and the kind-just-mentioned readings the gloss lists, both examples are such-a-kind uses, and the word does not judge."}
+  ]},
+ {"word": "other", "pos": "adjective",
+  "rank": "right", "why": "Every sentence uses other as not the one already mentioned (the other hand, the other side, no other woman, the other said no more), and that sense sits first.",
+  "senses": [
+   {"synset": "oewn-02076759-a", "verdict": "right",
+    "fault": null, "why": "Learner line says not the one already mentioned or implied in plain words, both examples are that use, and the word describes without judging."},
+   {"synset": "oewn-01735069-s", "verdict": "wrong",
+    "fault": "learner-narrowed", "why": "The gloss is simply recently past, but the learner line ties the sense to a day or an evening, which leaves the other night, the other week and the other morning outside it."},
+   {"synset": "oewn-01733616-s", "verdict": "right",
+    "fault": null, "why": "Learner line is belonging to the distant past in plain words, other times and other days are both that use, and nothing judges."}
+  ]},
+ {"word": "time", "pos": "noun",
+  "rank": "wrong", "why": "Three sentences (after a time, for some time, it was some time before) use the indefinite-period sense listed fourth, while the continuum sense listed second is used by none of them.",
+  "senses": [
+   {"synset": "oewn-07324217-n", "verdict": "right",
+    "fault": null, "why": "Learner line says a single occasion plainly, for the first time is that use, and the word does not judge."},
+   {"synset": "oewn-00028468-n", "verdict": "wrong",
+    "fault": "example-wrong-sense", "why": "Both examples use some time as an indefinite period (before a smile could be extorted, not leave Kent for some time), which is the neighbouring indefinite-period sense rather than the continuum of experience the gloss describes."},
+   {"synset": "oewn-15295388-n", "verdict": "right",
+    "fault": null, "why": "Learner line renders the period-as-a-resource gloss faithfully, have time for speech is that use, and the word does not judge."}
+  ]},
+ {"word": "now", "pos": "adverb",
+  "rank": "right", "why": "Most sentences use now as at the present moment (take your likeness now, getting him now, what his manners now are), and that sense is first; the narrative was now put an end to is the second sense.",
+  "senses": [
+   {"synset": "oewn-00049758-r", "verdict": "wrong",
+    "fault": "example-wrong-sense", "why": "The second example, the preface's Even now I do not think it would be impossible to find persons like Lady Catherine, means even in our own day, which is the listed in-these-times sense rather than at the present moment; the first example is right."},
+   {"synset": "oewn-00049971-r", "verdict": "right",
+    "fault": null, "why": "Learner line unpacks historical present as past events told as if happening now, both examples (the general now marches, Caesar now sends) are that use, and the word does not judge."},
+   {"synset": "oewn-00049013-r", "verdict": "right",
+    "fault": null, "why": "Learner line is in these times in plain words, both examples contrast the present era with a past one, and nothing judges."}
+  ]},
+ {"word": "only", "pos": "adverb",
+  "rank": "right", "why": "Most sentences use only as and nothing more (only six, only a clergyman, I will only say, only long enough, only confused), and that sense sits first.",
+  "senses": [
+   {"synset": "oewn-00005103-r", "verdict": "right",
+    "fault": null, "why": "Learner line says and nothing more in plain words, only a clergyman and only confused for the moment are both that use, and the word does not judge."},
+   {"synset": "oewn-00009062-r", "verdict": "right",
+    "fault": null, "why": "Learner line renders without any others involved faithfully, which only genius knows is exclusion of others, and nothing judges."},
+   {"synset": "oewn-00011221-r", "verdict": "right",
+    "fault": null, "why": "Learner line gives the nevertheless of the gloss as a result against expectation, both only-to examples are that construction, and the word does not judge."}
+  ]}
+]}

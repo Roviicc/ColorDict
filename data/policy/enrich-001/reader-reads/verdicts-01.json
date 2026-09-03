@@ -1,0 +1,73 @@
+{"packet": 1, "verdicts": [
+ {"word": "so", "pos": "adverb",
+  "rank": "right", "why": "The sentences split between the 'so ... that / so ... as to' extent sense (1, 5, arguably 6), the 'in such a manner' sense (2, 3) and the 'as a result' sense (4), and the extent sense listed first is the largest share of that split.",
+  "senses": [
+   {"synset": "oewn-00147799-r", "verdict": "right", "fault": null, "why": "The learner line renders 'to an extent or degree as expressed' plainly, both examples are 'so ... that' and 'so ... as to' constructions, and a degree word does not judge."},
+   {"synset": "oewn-00147630-r", "verdict": "right", "fault": null, "why": "'To a very large amount or degree' matches the gloss, 'so tired' and 'so kind' are plain intensifier uses, and null is correct."},
+   {"synset": "oewn-00043413-r", "verdict": "right", "fault": null, "why": "'Because of that fact or reason, and as a result' keeps both halves of the gloss, and both examples introduce a consequence."},
+   {"synset": "oewn-00147962-r", "verdict": "right", "fault": null, "why": "The learner line keeps both 'condition' and 'manner', 'thwarted so' is manner and 'stayed so' is condition, and null is correct."}
+  ]},
+ {"word": "say", "pos": "verb",
+  "rank": "right", "why": "Four of the six sentences (3, 4, 5, 6) are plain putting-into-words, sentence 1 is the 'it has been said' report sense and sentence 2 is direct speech, so the 'express in words' sense listed first carries the majority.",
+  "senses": [
+   {"synset": "oewn-01011267-v", "verdict": "right", "fault": null, "why": "'To put something into words' is the gloss in plainer words, both examples are ordinary statement uses, and null is correct."},
+   {"synset": "oewn-01018011-v", "verdict": "wrong", "fault": "learner-narrowed", "why": "The gloss offers 'report OR maintain' but the learner line fuses them into 'tell people that something is true AND hold to that claim', so the plain reporting use ('it has been said that no one ever was like him', the entry's own first example) no longer fits the definition."},
+   {"synset": "oewn-00981902-v", "verdict": "right", "fault": null, "why": "'To speak words out loud' matches 'utter aloud', both examples are spoken-aloud uses, and null is correct."}
+  ]},
+ {"word": "very", "pos": "adverb",
+  "rank": "right", "why": "All six sentences use 'very' as an intensifier before an adjective or adverb, which is the emphasis sense listed first.",
+  "senses": [
+   {"synset": "oewn-00032295-r", "verdict": "right", "fault": null, "why": "'Put before a word to make it stronger' is a fair plain rendering of 'used to give emphasis', both examples are intensifier uses, and null is correct."},
+   {"synset": "oewn-00513282-r", "verdict": "right", "fault": null, "why": "'Exactly that one and no other' is what 'precisely so' means in 'the very next day' and 'the very book', both examples use that sense, and null is correct."}
+  ]},
+ {"word": "see", "pos": "verb",
+  "rank": "right", "why": "The sentences split between mental perception (2, 4), sight or witnessing (1, 3, 5) and meeting (6); the mental sense listed first is one of the split, though the two sight-perception senses together cover more sentences than it does.",
+  "senses": [
+   {"synset": "oewn-00592510-v", "verdict": "right", "fault": null, "why": "'Take in an idea or a situation with your mind' says exactly what the gloss says, 'I see your design' and 'You see how ...' are mental uses, and null is correct."},
+   {"synset": "oewn-02133754-v", "verdict": "right", "fault": null, "why": "The learner line keeps both halves, seeing and having the power to see, and the two examples show one each."},
+   {"synset": "oewn-02133338-v", "verdict": "right", "fault": null, "why": "'Be there at the time of it' renders 'be contemporaneous with' and 'come upon something' is a plain rendering of witnessing; 'never saw a more promising inclination' and 'saw much to interest' are witnessing uses, not eyesight."},
+   {"synset": "oewn-02026953-v", "verdict": "right", "fault": null, "why": "'Come together with someone' is the gloss, 'see the less of him' and 'see you at the meeting' are meeting uses, and null is correct."}
+  ]},
+ {"word": "know", "pos": "verb",
+  "rank": "right", "why": "Every sentence is knowing a fact or piece of information ('know that', 'know what', 'know how long', 'I do not know'), which is the sense listed first.",
+  "senses": [
+   {"synset": "oewn-00596016-v", "verdict": "right", "fault": null, "why": "The learner line keeps both 'be aware of a fact' and 'possess information', both examples are fact-knowing, and null is correct."},
+   {"synset": "oewn-00595732-v", "verdict": "right", "fault": null, "why": "'Be familiar with a person or a thing' is the gloss in plain words, and both examples are acquaintance uses."},
+   {"synset": "oewn-00597330-v", "verdict": "right", "fault": null, "why": "'Have learned how to do something' is a plain rendering of 'know how to do or perform something', and both examples are 'know how to' uses."}
+  ]},
+ {"word": "think", "pos": "verb",
+  "rank": "right", "why": "Sentences 2, 4, 5 and 6 ('think it superior', 'think anything wanting', 'thought of her', 'thought him sly') are judging or regarding, sentence 3 is the purpose sense and sentence 1 sits between judging and believing, so the judge-or-regard sense listed first carries the majority.",
+  "senses": [
+   {"synset": "oewn-00691086-v", "verdict": "right", "fault": null, "why": "'Judge or regard someone or something as being a certain way' is the gloss, 'thought him very sly' and 'think it infinitely superior' are regard uses, and null is correct."},
+   {"synset": "oewn-00710367-v", "verdict": "right", "fault": null, "why": "'Have something in mind as what you mean to do' is the purpose gloss in plain words, and 'thought to set out' and 'thought to return' are intention uses."},
+   {"synset": "oewn-00633399-v", "verdict": "right", "fault": null, "why": "The learner line keeps all three of expect, believe and suppose, and both examples are expectation uses ('thought to find her at home', 'did not think the journey would take so long')."}
+  ]},
+ {"word": "make", "pos": "verb",
+  "rank": "wrong", "why": "The first-listed sense 'engage in' is not written for and is at most a stretch for 'if the attempt were made', while 'give certain properties' ('make me happy', 'make you so') and 'perform or carry out' ('made her a slight bow', 'make any reply') each plainly cover two or more sentences and sit below it.",
+  "senses": [
+   {"synset": "oewn-00120124-v", "verdict": "wrong", "fault": "example-wrong-sense", "why": "'You could not make me happy' is this sense, but 'made her look handsomer than ever' is make + object + bare verb, the cause-to-do frame the entry itself assigns to oewn-00772482-v with 'make him fancy her affected'."},
+   {"synset": "oewn-01759660-v", "verdict": "right", "fault": null, "why": "'Perform an action or carry it out' renders the light-verb gloss, and 'made her a slight bow' and 'make any reply' are both this use; null is correct."},
+   {"synset": "oewn-00772482-v", "verdict": "right", "fault": null, "why": "The learner line keeps both 'cause to do' and 'cause to act in a certain way', and 'make him fancy' and 'made us turn back' are causative uses."}
+  ]},
+ {"word": "go", "pos": "verb",
+  "rank": "right", "why": "Sentences 3, 4 and 5 ('go home', 'to go', 'went upstairs') are plain change of location, sentence 6 is departing, and sentences 1 and 2 are the 'go with' and 'go on' uses, so the change-location sense listed first carries the plurality.",
+  "senses": [
+   {"synset": "oewn-01839438-v", "verdict": "wrong", "fault": "learner-unfaithful", "why": "The gloss's 'also metaphorically' means figurative movement (money or talk going somewhere), but the learner line renders it as 'or as a picture in the mind', which tells the learner 'go' means imagined movement, something the gloss does not say; the examples themselves are fine."},
+   {"synset": "oewn-02377696-v", "verdict": "right", "fault": null, "why": "'Carry on along a course or a set way of doing something' covers both 'take a course' and 'follow a procedure', and 'could not go on' is proceeding along a course; one example is within the allowed one or two."},
+   {"synset": "oewn-01852660-v", "verdict": "right", "fault": null, "why": "'Move away from a place, off in another direction' is the gloss, and 'rose to go away' and 'turned and went' are both departing."},
+   {"synset": "oewn-00678186-v", "verdict": "right", "fault": null, "why": "The learner line keeps both 'back one' and 'pick one out of a group', and 'go with the objectors' and 'went with the cheaper plan' are siding and choosing uses."}
+  ]},
+ {"word": "sister", "pos": "noun",
+  "rank": "right", "why": "All six sentences are family sisters, which is the sense listed first.",
+  "senses": [
+   {"synset": "oewn-10622393-n", "verdict": "right", "fault": null, "why": "'A girl or woman who has the same parents as you' is the gloss in plain words, both examples are family uses, and a kinship term does not judge."},
+   {"synset": "oewn-10621666-n", "verdict": "right", "fault": null, "why": "The learner line keeps club, union and other group, both examples are fellow-member uses, and null is correct."}
+  ]},
+ {"word": "give", "pos": "verb",
+  "rank": "right", "why": "Sentences 1, 3 and 5 ('giving an impression', 'gave Elizabeth some pain', 'gives an elegance to misfortune') are cause-to-have, sentences 2 and 4 are transfer of possession and sentence 6 is offering in good faith, so the cause-to-have sense listed first carries the plurality.",
+  "senses": [
+   {"synset": "oewn-02321848-v", "verdict": "right", "fault": null, "why": "'Cause someone to have something, whether you can touch it or not' keeps both the abstract and physical halves, both examples are cause-to-have, and null is correct."},
+   {"synset": "oewn-02204104-v", "verdict": "right", "fault": null, "why": "'Hand something over to someone so that it becomes theirs' is transfer of possession, and the living being 'given elsewhere' and 'gave him the letter' are both that sense."},
+   {"synset": "oewn-00889530-v", "verdict": "right", "fault": null, "why": "'Offer something honestly and mean it' is 'offer in good faith', and 'given me the assurance' and 'gave her his promise' are both pledges."}
+  ]}
+]}

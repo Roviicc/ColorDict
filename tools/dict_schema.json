@@ -48,6 +48,10 @@
           "description": "Stable, corpus-unique. Derived entries use <lemma-slug>.<synset-id>."
         },
         "definition": { "type": "string", "minLength": 1 },
+        "learner": {
+          "type": ["string", "null"],
+          "description": "One plain sentence saying what the definition says, for a learner. The definition stays the OEWN gloss (tools/entry_validate.py holds it to the lexicon); this is the readable line beside it, never a replacement."
+        },
         "part_of_speech": {
           "enum": ["noun", "verb", "adjective", "adverb", "pronoun", "determiner",
                    "preposition", "conjunction", "interjection", "numeral",

@@ -76,25 +76,57 @@
    "stage": "4",
    "title": "Ranker and Enricher, proven on 50 entries",
    "spend": "first spend, tiny",
-   "state": "not_started",
-   "closed_on": null,
-   "closed_by_commit": null
+   "state": "done",
+   "closed_on": "2026-09-03",
+   "closed_by_commit": null,
+   "done_check": {
+    "instruments": "sense-ranker.md, enricher.md, entry-reader.md in .claude/agents/, versioned like census-reader/family-author; null-auditor.md added for stage 5",
+    "gate": "tools/enrich_validate.py: a ranking is accepted only as a permutation of the offered synset ids (50/50 both runs); a written sense only with a learner line, headword-bearing examples, listed labels and a null-or-candidate verdict (50/50 both runs); tools/entry_validate.py clean on the batch (gloss unchanged)",
+    "measured_enrich_001": "50 entries, 136 senses; 7.4% of senses wrong (10), 2/50 rankings wrong; ~20,600 tokens/entry incl. read via general-purpose agents - OVER the 5% gate; both rubrics fixed (example fits a neighbouring sense; 'or' glosses narrowed; unattested first sense)",
+    "measured_enrich_002": "same 50, 132 senses under the fixed rubrics; 3.8% of senses wrong (5), 2/50 rankings wrong (make, time); ~12,000 tokens/entry incl. read, ~5,500 without, by-name agents - UNDER the gate; new baseline",
+    "candidates": "1 of 132 senses sent to the family path (lady, woman of refinement); 131 null -> stage 5",
+    "records": "data/policy/enrich-001/enrich-001.json, data/policy/enrich-002/enrich-002.json (packets, outputs, verdicts kept)",
+    "repair": "the 7 faults of enrich-002 repaired by a third hand and re-read blind; see enrich-002/repair-*",
+    "caveat": "cost is the harness's subagent_tokens per packet; enrich-002 ranker packets 1-3 completed but their agents were killed by a rate limit before reporting, so that phase is estimated from packets 4-5"
+   }
   },
   {
    "stage": "5",
    "title": "The null audit",
    "spend": "small",
-   "state": "not_started",
-   "closed_on": null,
-   "closed_by_commit": null
+   "state": "done",
+   "closed_on": "2026-09-03",
+   "closed_by_commit": null,
+   "done_check": {
+    "instrument": ".claude/agents/null-auditor.md, one question per sense; read as general-purpose on claude-fable-5-1 with the file read from disk",
+    "population": "all 131 senses the enrich-002 Enricher marked null, in 6 blind packets (word, POS, gloss, book sentences - no learner line, no Enricher reasoning)",
+    "false_null_rate": 0.0229,
+    "false_null": 3,
+    "unsure": 1,
+    "false_nulls": [
+     "sister / fellow member of a group",
+     "mother / term of address for an elderly woman",
+     "lady / polite name for any woman"
+    ],
+    "note": "two of the three (mother, lady) were candidates in enrich-001 and null in enrich-002 - the Enricher's connotation call is unstable on address terms; the entry reader separately called young/vigorous a false null and the auditor upheld it, so the two instruments disagree there. All three false nulls plus young go to the family path as candidates.",
+    "stop_condition": "not triggered: 2.3% is low; the Enricher keeps the connotation field",
+    "cost_tokens": 319528
+   }
   },
   {
    "stage": "6",
    "title": "The search side - Resolver, match_type, morphology",
    "spend": "free",
-   "state": "not_started",
-   "closed_on": null,
-   "closed_by_commit": null
+   "state": "done",
+   "closed_on": "2026-09-03",
+   "closed_by_commit": null,
+   "done_check": {
+    "resolver": "tools/resolve.py --check: 5/5 - saw -> saw n, saw v, see v (past tense of); emerging -> emerging adj, emerge v (present participle of); better -> better a/n/r/v, good a, well a (comparative of); left -> left a/n/r, leave v (past tense and past participle of); emerged -> emerge v",
+    "app_side": "engine/Morphology.java names the relation from (query, headword, POS set); MorphologyTest asserts the same four words plus regular suffixes and irregular table; ./gradlew test green",
+    "form_line": "DefinitionRenderer.Entry.formLine renders '<query> - <relation> <headword>' between headword and body on Android and desktop; desktop --lookup emerged prints '(emerged - past tense or past participle of emerge)'",
+    "data_fix": "wordnet_import.py keeps a regular form beside a real headword when the lemma has no OEWN irregular in that POS: emerging/verb restored, 3,301 words gained forms, 0 lost; .syn 67,700 -> 71,835",
+    "not_done": "a form OEWN lists that neither the rules nor the small irregular table classify prints 'a form of' - honest, not wrong"
+   }
   },
   {
    "stage": "7",

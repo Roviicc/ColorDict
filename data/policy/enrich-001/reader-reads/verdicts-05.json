@@ -1,0 +1,98 @@
+{"packet": 5, "verdicts": [
+ {"word": "much", "pos": "adjective",
+  "rank": "right", "why": "The only sense listed is the quantifier, and the sentences that use much as a quantifier (much more difference, much to be discussed) carry it; the rest are adverbial uses outside this entry.",
+  "senses": [
+   {"synset": "oewn-01557986-a", "verdict": "right",
+    "fault": null, "why": "The learner line restates the mass-noun quantifier gloss in plain words, both examples use much as a quantifier of amount, no labels, and a quantity word does not judge."}
+  ]},
+ {"word": "find", "pos": "verb",
+  "rank": "right", "why": "Four of the six sentences use find as come-to-believe or perceive-to-be (I find, expected to find it, grieve to find, find him spoken of), so the first sense is the majority reading and the rest are split across the come-upon and find-out senses that follow.",
+  "senses": [
+   {"synset": "oewn-00717144-v", "verdict": "right",
+    "fault": null, "why": "The learner line keeps all three grounds of the gloss (feeling, hunch, indefinite reasons), both examples are the parenthetical or find-it-to-be use of this sense, and it describes without judging."},
+   {"synset": "oewn-02253273-v", "verdict": "right",
+    "fault": null, "why": "The learner line matches come upon or meet with as if by chance, and both examples (partisans would be found, we find the same idea) are the meet-with sense rather than searching or believing."},
+   {"synset": "oewn-00920843-v", "verdict": "right",
+    "fault": null, "why": "The learner line covers all four routes the gloss names, and found out what was the matter is the establish-after-investigation sense, with find out a member of this synset."}
+  ]},
+ {"word": "manner", "pos": "noun",
+  "rank": "right", "why": "Three sentences use manner as how something is done (in a hurried manner, in what manner, in an honourable manner) and three use it for behaviour or manners, so the sentences split and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-04936080-n", "verdict": "right",
+    "fault": null, "why": "The learner line is the gloss in plain words with both alternatives (done, happens) kept, both examples are in-a-manner uses of this sense, and the word describes without judging."},
+   {"synset": "oewn-04917312-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches a way of acting or behaving, and her manner affected is a person's bearing rather than the way an act is done."},
+   {"synset": "oewn-05854089-n", "verdict": "wrong",
+    "fault": "label-unjustified", "why": "The learner line and the what-manner-of example fit the gloss a kind, but the label literary is supported by nothing in the packet: the gloss says nothing about register and none of the book sentences uses this sense, so only the writer's own example stands behind it."}
+  ]},
+ {"word": "believe", "pos": "verb",
+  "rank": "right", "why": "Four of the six sentences are believe-him-to-be or believed-to-be constructions, which is the judge-or-regard sense listed first; the two parenthetical I-believe uses fall to the accept-as-true sense below.",
+  "senses": [
+   {"synset": "oewn-00691086-v", "verdict": "right",
+    "fault": null, "why": "The learner line renders judge or regard as look on someone as being a certain way, both examples are believe X to be Y, and the verb describes a stance without judging its object."},
+   {"synset": "oewn-00685199-v", "verdict": "right",
+    "fault": null, "why": "The learner line is the gloss in plain words and the example (no one would believe the story) is the accept-as-true sense."},
+   {"synset": "oewn-00723022-v", "verdict": "right",
+    "fault": null, "why": "The learner line matches be confident about something and the example (I believe she will come back) expresses confidence rather than mere acceptance or regard."}
+  ]},
+ {"word": "leave", "pos": "verb",
+  "rank": "right", "why": "Leave the house and leave town are plain depart-from uses and the remaining verb sentences scatter across entrust, remove-from-association and produce-as-residue, so the first sense carries the largest share; took leave is the noun and does not count.",
+  "senses": [
+   {"synset": "oewn-02019450-v", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both halves of the gloss (out of, away from), both examples are leaving a place, and the verb describes without judging."},
+   {"synset": "oewn-02388582-v", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both association and participation, and left all her friends by eloping is cutting oneself off from one's circle, which is this sense rather than departing a place."},
+   {"synset": "oewn-02361226-v", "verdict": "right",
+    "fault": null, "why": "The learner line renders put into the care or protection of someone faithfully and leave it to yourself to determine is the entrust use of the verb."}
+  ]},
+ {"word": "however", "pos": "adverb",
+  "rank": "right", "why": "All six sentences use however as the sentence adverb of concession or contrast, which the first two senses divide between them, so the first sense is one of the split and the degree sense is correctly below.",
+  "senses": [
+   {"synset": "oewn-00027761-r", "verdict": "right",
+    "fault": null, "why": "The learner line (all the same, in spite of what has just been said) is the concessive gloss in plain words, the example is a concessive however from the book, and a connective does not judge."},
+   {"synset": "oewn-00029193-r", "verdict": "right",
+    "fault": null, "why": "The learner line matches by contrast, on the other hand, and the example sets the Gardiners' justice against the others' harshness."},
+   {"synset": "oewn-00028974-r", "verdict": "right",
+    "fault": null, "why": "The learner line (no matter how much or how far) matches to whatever degree or extent and however hard she tried is that degree sense."}
+  ]},
+ {"word": "ever", "pos": "adverb",
+  "rank": "right", "why": "All six sentences use ever as at any time (ever did, ever happening again, had ever suggested, have ever had, that ever was seen), which is the first sense."
+  ,"senses": [
+   {"synset": "oewn-00147423-r", "verdict": "right",
+    "fault": null, "why": "The learner line is the gloss in plain words, both examples are at-any-time uses from the book, and the word describes without judging."},
+   {"synset": "oewn-00019801-r", "verdict": "right",
+    "fault": null, "why": "The learner line keeps at all times and on every occasion, and she was ever hopeful is the always sense rather than at any time."},
+   {"synset": "oewn-00213902-r", "verdict": "right",
+    "fault": null, "why": "The learner line explains the intensifier function in plain words and ever so pleased uses ever as an intensifier before an adjective."}
+  ]},
+ {"word": "mother", "pos": "noun",
+  "rank": "right", "why": "All six sentences use mother for the woman who bore the children, which is the first sense."
+  ,"senses": [
+   {"synset": "oewn-10352098-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both the birth meaning and the term-of-address parenthesis, both examples are the family sense, and the word describes a relation without judging."},
+   {"synset": "oewn-05843616-n", "verdict": "right",
+    "fault": null, "why": "The learner line renders a condition that gives rise to something faithfully and fear is the mother of many rumours is that figurative sense."},
+   {"synset": "oewn-10352666-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches a term of address for an elderly woman, the example addresses a stranger as mother, and the candidate stands: calling an old woman mother lands as familiar or patronising and a learner needs to know how it is received."}
+  ]},
+ {"word": "letter", "pos": "noun",
+  "rank": "right", "why": "All six sentences are about a written message that is written, delivered, held or answered, which is the first sense."
+  ,"senses": [
+   {"synset": "oewn-06636668-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both person and organization, both examples are written messages from the book, and the word describes without judging."},
+   {"synset": "oewn-06841868-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches a character of the alphabet used to represent speech and the letter B example is that sense."},
+   {"synset": "oewn-07188040-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps the contrast between the strict words and the intention, and the letter of the rule example is that sense."}
+  ]},
+ {"word": "lady", "pos": "noun",
+  "rank": "right", "why": "Most sentences use lady or ladies as the courteous word for a woman (what lady, young ladies, the lady first spoke), with great ladies leaning toward rank or refinement, so the polite-name sense is rightly first."
+  ,"senses": [
+   {"synset": "oewn-10262834-n", "verdict": "right",
+    "fault": null, "why": "The learner line is the gloss in plain words, both examples are the courteous general word from the book, and the candidate stands because the gloss itself makes the word a polite choice whose courtesy, and in some mouths condescension, a learner needs to feel."},
+   {"synset": "oewn-10008828-n", "verdict": "right",
+    "fault": null, "why": "The learner line renders a woman of refinement as a woman of fine, polished manners, the example shows refined bearing, and the candidate is right since the word approves the woman against a standard of refinement."},
+   {"synset": "oewn-10262488-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches a woman of the British peerage, the example places her in a titled family, and null is right because rank is described without being judged."}
+  ]}
+]}

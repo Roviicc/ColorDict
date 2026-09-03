@@ -192,6 +192,9 @@ def sense_html(word, sense, number):
 
     bits.append(f'<div class="fld"><span class="flk">Meaning:</span> '
                 f'{escape(sense["definition"])}</div>')
+    if sense.get("learner"):
+        bits.append(f'<div class="fld lrn"><span class="flk">In plain words:</span> '
+                    f'{escape(sense["learner"])}</div>')
     bits.append(f'<div class="fld"><span class="flk">Part of Speech:</span> '
                 f'<span class="pos">{escape(sense["part_of_speech"])}</span></div>')
 

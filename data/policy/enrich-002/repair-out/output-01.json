@@ -1,0 +1,157 @@
+{
+ "packet": 1,
+ "senses": [
+  {
+   "word": "go",
+   "pos": "verb",
+   "synset": "oewn-02377696-v",
+   "learner": "to follow a set way of doing something, or to take a course of action.",
+   "examples": [
+    "We must go through the proper channels to make a complaint.",
+    "If we go by the rules, every request has to be signed first."
+   ],
+   "usage_labels": [],
+   "connotation": null
+  },
+  {
+   "word": "much",
+   "pos": "adverb",
+   "synset": "oewn-00033190-r",
+   "learner": "extremely; to a very high degree.",
+   "examples": [
+    "Upon the whole, I am much pleased with him."
+   ],
+   "usage_labels": [],
+   "connotation": null
+  },
+  {
+   "word": "young",
+   "pos": "adjective",
+   "synset": "oewn-01654162-s",
+   "learner": "making you think of a young person; full of energy and freshness.",
+   "examples": [
+    "At sixty her step was still young."
+   ],
+   "usage_labels": [],
+   "connotation": {"candidate": true, "why": "commends what it is aimed at as vigorous and fresh"}
+  },
+  {
+   "word": "tell",
+   "pos": "verb",
+   "synset": "oewn-00955248-v",
+   "learner": "to describe what happened as a story, or to give a full account of it.",
+   "examples": [
+    "Mrs. Long has just been here, and she told me all about it.",
+    "He told the whole story of the journey from beginning to end."
+   ],
+   "usage_labels": [],
+   "connotation": null
+  },
+  {
+   "word": "mother",
+   "pos": "noun",
+   "synset": "oewn-10352666-n",
+   "learner": "a word used when speaking to an old woman.",
+   "examples": [
+    "The soldier took the old woman's basket at the gate and said, \"Let me carry this for you, Mother.\""
+   ],
+   "usage_labels": [],
+   "connotation": null
+  }
+ ],
+ "rankings": [
+  {
+   "word": "make",
+   "pos": "verb",
+   "order": [
+    "oewn-01759660-v",
+    "oewn-00772482-v",
+    "oewn-00120124-v",
+    "oewn-01620211-v",
+    "oewn-02566500-v",
+    "oewn-01649143-v",
+    "oewn-01657416-v",
+    "oewn-01624592-v",
+    "oewn-00732743-v",
+    "oewn-01649617-v",
+    "oewn-02026014-v",
+    "oewn-00012260-v",
+    "oewn-02294200-v",
+    "oewn-01658171-v",
+    "oewn-01622033-v",
+    "oewn-02589006-v",
+    "oewn-02024442-v",
+    "oewn-02680519-v",
+    "oewn-02627475-v",
+    "oewn-01643749-v",
+    "oewn-00667394-v",
+    "oewn-02751207-v",
+    "oewn-00276867-v",
+    "oewn-01668067-v",
+    "oewn-02401858-v",
+    "oewn-00547033-v",
+    "oewn-02627213-v",
+    "oewn-02360592-v",
+    "oewn-02022224-v",
+    "oewn-02054955-v",
+    "oewn-02080104-v",
+    "oewn-00557932-v",
+    "oewn-02604480-v",
+    "oewn-01737358-v",
+    "oewn-00700022-v",
+    "oewn-00699870-v",
+    "oewn-02671201-v",
+    "oewn-02754634-v",
+    "oewn-02754502-v",
+    "oewn-00563259-v",
+    "oewn-00563144-v",
+    "oewn-00107173-v",
+    "oewn-00840203-v",
+    "oewn-00892559-v",
+    "oewn-02138515-v",
+    "oewn-01759348-v",
+    "oewn-01431211-v",
+    "oewn-00073791-v",
+    "oewn-00071765-v"
+   ],
+   "met": [
+    "oewn-01759660-v",
+    "oewn-00772482-v",
+    "oewn-00120124-v"
+   ],
+   "new_senses": {}
+  },
+  {
+   "word": "time",
+   "pos": "noun",
+   "order": [
+    "oewn-15147173-n",
+    "oewn-07324217-n",
+    "oewn-15295388-n",
+    "oewn-00028468-n",
+    "oewn-15154879-n",
+    "oewn-15270326-n",
+    "oewn-07302920-n",
+    "oewn-04998860-n",
+    "oewn-15249488-n",
+    "oewn-15160774-n"
+   ],
+   "met": [
+    "oewn-15147173-n",
+    "oewn-07324217-n",
+    "oewn-15295388-n"
+   ],
+   "new_senses": {
+    "oewn-15147173-n": {
+     "learner": "a stretch of time of no fixed length, usually one marked by what belongs to it or happens in it.",
+     "examples": [
+      "Elizabeth was again deep in thought, and after a time exclaimed",
+      "I am not likely to leave Kent for some time."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}
