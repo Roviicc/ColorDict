@@ -44,6 +44,7 @@ POS_MAP = {
     "c": "conjunction", "p": "preposition", "x": "particle", "u": "phrase",
 }
 
+OEWN_EDITION = "oewn-2025"
 BAD_CHARS = re.compile(r"[^A-Za-z' -]")
 TITLE_TOKEN = re.compile(r"^[A-Z][a-z]")
 SYNSET_OFFSET = re.compile(r"-(\d{8})-([nvasr])$")
@@ -206,6 +207,102 @@ def parse_oewn(path):
     return entries, synsets, sense_lemma, entry_lemma
 
 
+VOWELS = "aeiou"
+
+
+def _syllables(word):
+    """Rough vowel-group count. Good enough to keep *beautiful* out of the
+    comparative rule; not good enough to be called a syllabifier."""
+    n, prev = 0, False
+    for ch in word.lower():
+        v = ch in VOWELS
+        if v and not prev:
+            n += 1
+        prev = v
+    if word.lower().endswith("e") and n > 1:
+        n -= 1
+    return max(n, 1)
+
+
+def _sibilant(word):
+    return (word.endswith(("s", "x", "z", "ch", "sh"))
+            or (word.endswith("o") and len(word) > 2 and word[-2] not in VOWELS))
+
+
+def _doubles(word):
+    """CVC in a one-syllable word: stop -> stopped. Approximate by design; the
+    alternative is a pronunciation dictionary this project does not have."""
+    if len(word) < 3 or _syllables(word) != 1:
+        return False
+    a, b, c = word[-3], word[-2], word[-1]
+    return (a not in VOWELS and b in VOWELS and c not in VOWELS
+            and c not in "wxy")
+
+
+def regular_forms(lemma, pos):
+    """Rule-generated inflections, so an inflected search resolves.
+
+    OEWN lists only irregulars (aardwolves, abaci, abetted) - 4,473 Form
+    elements against 111,000 entries - so without this the .syn index covers
+    4,491 words and a reader who types *emerged* gets nothing.
+
+    Deliberately conservative: single words only (no 'sleep togethers'), and
+    comparatives only for short adjectives (no 'beautifuler'). A generated form
+    that nobody types is dead weight in an index; a wrong one that somebody does
+    type is a wrong answer, so the rules bend towards generating less.
+    """
+    if not lemma or " " in lemma or "-" in lemma or "'" in lemma:
+        return []
+    w = lemma.lower()
+    if len(w) < 2 or not w.isalpha():
+        return []
+    out = []
+
+    def add(*forms):
+        for f in forms:
+            if f and f != w and f not in out:
+                out.append(f)
+
+    if pos in ("n", "v"):
+        if _sibilant(w):
+            s_form = w + "es"
+        elif w.endswith("y") and w[-2] not in VOWELS:
+            s_form = w[:-1] + "ies"
+        else:
+            s_form = w + "s"
+        add(s_form)
+
+    if pos == "v":
+        if w.endswith("e"):
+            add(w + "d")
+        elif w.endswith("y") and w[-2] not in VOWELS:
+            add(w[:-1] + "ied")
+        elif _doubles(w):
+            add(w + w[-1] + "ed")
+        else:
+            add(w + "ed")
+
+        if w.endswith("ie"):
+            add(w[:-2] + "ying")
+        elif w.endswith("e") and not w.endswith(("ee", "oe", "ye")):
+            add(w[:-1] + "ing")
+        elif _doubles(w):
+            add(w + w[-1] + "ing")
+        else:
+            add(w + "ing")
+
+    if pos in ("a", "s") and _syllables(w) <= 2:
+        if w.endswith("e"):
+            add(w + "r", w + "st")
+        elif w.endswith("y") and w[-2] not in VOWELS:
+            add(w[:-1] + "ier", w[:-1] + "iest")
+        elif _doubles(w):
+            add(w + w[-1] + "er", w + w[-1] + "est")
+        elif _syllables(w) == 1:
+            add(w + "er", w + "est")
+    return out
+
+
 def member_lemmas(synset, sense_lemma, entry_lemma):
     out = []
     for token in synset["members"]:
@@ -226,7 +323,10 @@ def build_entries(entries, synsets, sense_lemma, entry_lemma, scores, ili_map):
             continue
         record = by_word.setdefault(lemma, {"word": lemma, "pron": None,
                                             "senses": [], "forms": [],
+                                            "pos_codes": set(),
                                             "defs": set(), "scored": False})
+        if entry.get("pos"):
+            record["pos_codes"].add(entry["pos"])
         if record["pron"] is None and entry["pron"]:
             record["pron"] = entry["pron"]
         for form in entry["forms"]:
@@ -312,6 +412,8 @@ def build_entries(entries, synsets, sense_lemma, entry_lemma, scores, ili_map):
             stats["senses_out"] += 1
 
     out = []
+    # Every real headword, so a generated inflection can be checked against them.
+    headwords = {w.lower() for w in by_word}
     for lemma in sorted(by_word, key=lambda w: (w.casefold(), w)):
         record = by_word[lemma]
         if not record["senses"]:
@@ -321,9 +423,25 @@ def build_entries(entries, synsets, sense_lemma, entry_lemma, scores, ili_map):
         if record["pron"]:
             entry["pronunciation"] = record["pron"]
         entry["senses"] = record["senses"]
+        # OEWN ships irregulars only; the regular forms are ours. A word can be
+        # both noun and verb (*book*), so generate for every POS it carries.
+        #
+        # A generated form may never shadow a real headword. The rules cannot
+        # know that *see* is irregular, so they produce "seed" - which is a
+        # different word, and indexing it would answer a search for *seed* with
+        # *see*. Dead weight ("runned", which nobody types) is tolerable; a
+        # wrong answer is not. Forms OEWN itself lists are authoritative and are
+        # never dropped this way: *saw* really is a form of *see*.
+        for code in sorted(record["pos_codes"]):
+            for f in regular_forms(lemma, code):
+                if f in headwords or f in record["forms"]:
+                    if f in headwords:
+                        stats["form_collides_with_headword"] += 1
+                    continue
+                record["forms"].append(f)
         if record["forms"]:
             entry["inflections"] = record["forms"]
-        sources = ["oewn-2024"]
+        sources = [OEWN_EDITION]
         if record["scored"]:
             sources.append("sentiwordnet-3.0")
         entry["editorial"] = {"status": "derived", "revision": 1, "sources": sources}

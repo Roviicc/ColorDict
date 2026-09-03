@@ -23,9 +23,20 @@
    "stage": "1",
    "title": "Coverage and honest connotation - ship the plain WordNet layer, kill bare labels",
    "spend": "free",
-   "state": "not_started",
-   "closed_on": null,
-   "closed_by_commit": null
+   "state": "done",
+   "closed_on": "2026-09-03",
+   "closed_by_commit": null,
+   "done_check": {
+    "bare_sentiwordnet_rows_before": 30545,
+    "bare_sentiwordnet_rows_after": 0,
+    "connotation_rows_all_authored": 3403,
+    "entries_shipped": 111332,
+    "syn_index_words_before": 4491,
+    "syn_index_words_after": 67700,
+    "resolves": "emerged->emerge, markets->market, books->book, skinnier->skinny",
+    "skinny_spectrum": "emaciated -3 ... svelte +3",
+    "note": "1.2 needed no work - the plain WordNet layer was already shipping (wordcount=111466 before this stage). The real gaps were 1.1, the bare-label row, and 1.3, an inflection index covering 4% of entries."
+   }
   },
   {
    "stage": "2",

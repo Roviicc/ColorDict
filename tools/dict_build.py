@@ -139,7 +139,14 @@ def sense_html(word, sense, number):
     usage = conn.get("usage_labels") or []
     explanation = conn.get("explanation")
     tone = conn.get("tone")
-    if label in ("positive", "negative") or usage or explanation or tone:
+    # A SentiWordNet label is a PRIOR, never a verdict (plan 11.5 - it scores
+    # *skinny* above *slender*, which is the whole reason this project authors
+    # notes instead of importing scores). The old condition fired on the label
+    # alone, so 30,545 senses printed "Connotations: negative" with nothing
+    # behind it but a machine guess the project had already rejected. The row
+    # now requires something a human actually wrote; the label is decoration on
+    # an authored note, not a claim of its own.
+    if usage or explanation or tone:
         row = ['<div class="fld"><span class="flk">Connotations:</span>']
         if label in ("positive", "negative"):
             css = "cnp" if label == "positive" else "cnn"
