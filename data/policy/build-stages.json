@@ -58,9 +58,17 @@
    "stage": "3",
    "title": "Ship it to ten people - APK on Releases, web on Vercel",
    "spend": "free",
-   "state": "not_started",
+   "state": "in_progress",
    "closed_on": null,
-   "closed_by_commit": null
+   "closed_by_commit": null,
+   "done_check": {
+    "release_build": "./gradlew test assembleDebug assembleRelease passed locally - 35 tests, 0 failures; debug APK 31.3 MB, release 14.4 MB",
+    "version": "versionCode 3 / versionName 1.2.0 (previous tags v1.0.0, v1.1.0)",
+    "apk_contains": "popup-en.dict.dz 11,828,099 B, activity_reports.xml, report_paths.xml",
+    "trigger": "release.yml runs on push of a v* tag; landing page reads /releases/latest with no redeploy",
+    "blocked_on": "the tag push is the public release - awaiting a go, and one on-device tap of the report link first (a release with a dead report button is the plan's own definition of a wasted release)",
+    "done_when": "someone who is not the author has looked a word up in it - cannot be closed from here"
+   }
   },
   {
    "stage": "4",

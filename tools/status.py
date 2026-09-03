@@ -353,9 +353,10 @@ def main():
     lint_state()
 
     rule("NEXT")
-    print("  docs/HANDOFF.md section 5 is the ordered plan. Read that, not the")
-    print("  108KB DICTIONARY-PLAN.md - the plan is the record, the handoff is")
-    print("  the entry point. Section 6 is the list of things that will bite you.")
+    print("  docs/BUILD-PLAN.md is the plan; the BUILD STAGES block above is its")
+    print("  measured state. docs/HANDOFF.md section 6 is what will bite you.")
+    print("  Do not read the 108KB DICTIONARY-PLAN.md front to back - it is the")
+    print("  record, not the entry point.")
 
 
 if __name__ == "__main__":

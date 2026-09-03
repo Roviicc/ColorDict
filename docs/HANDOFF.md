@@ -174,6 +174,12 @@ sense they point at.
 
 ## 5. The plan - ship, then let demand pick the words
 
+> **Superseded 2026-09-03 by [BUILD-PLAN.md](BUILD-PLAN.md).** The stages
+> below (M1-M5, F) were re-cut into stages 0-8 there, with the free work
+> first and shipping ahead of any model spend. `python tools/status.py`
+> prints which stage is done. This section is kept as the record of how the
+> decision was reached; do not work from it.
+
 **The decision this run kept deferring is made.** The old plan ended with Stages
 C and D drained, roughly 6,000 senses, an empty queue and nothing left to draw -
 a finish line nobody chose, and one that section 11.75 already proved could not

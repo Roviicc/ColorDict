@@ -1,6 +1,7 @@
 # ColorDict — the staged build plan
 
-**Status: DRAFT, awaiting approval. Nothing in Stage 0 has been run.**
+**Status: approved 2026-09-03 for stages 0-3. Stages 0, 1 and 2 are done;**
+**stage state is measured by `python tools/status.py`, not by this line.**
 
 This replaces the forward-looking half of `HANDOFF.md` and supersedes both
 planning documents (*Vocabulary and Word Generation Plan*, *Graph Engineering*)
@@ -65,11 +66,13 @@ Roughly 70% of the target system. The stages below are the other 30%.
 
 ### Two things measured on 2026-09-03 that reorder the plan
 
-**The app ships 3,058 entries, not 114,000.** `derived-bulk.jsonl` holds 111,466
-WordNet senses, but `dict_build.py` builds from the reviewed set only, so the
-shipped dictionary is essentially the annotated corpus. A tester searching
-*emerge*, *market* or *book* today gets nothing. That is not a dictionary yet,
-and it is why "ship first" needs a coverage stage in front of it.
+**~~The app ships 3,058 entries, not 114,000.~~ Corrected 2026-09-03: it ships
+111,466.** 3,058 was the *reviewed* count that `status.py` validates.
+`dict_pipeline.py:80` passes `derived-bulk.jsonl` straight to `dict_build.py`,
+`popup-en.ifo` read `wordcount=111466`, and *emerge*, *market* and *book* all
+resolved before stage 1 began. The draft read a validation figure as a coverage
+figure - the exact mistake section 7 warns about. Stage 1.2 below was already
+shipped; 1.1 and 1.3 were the real work.
 
 **`dict_build.py` prints a connotation row for a bare SentiWordNet label.** The
 render condition fires on `label in ("positive","negative")` with no authored
@@ -114,10 +117,9 @@ expensive stage sits behind three cheap stages that tell you what to spend on.
   appears **only** when there is an authored note. A bare SentiWordNet label is
   not a connotation; it is a prior, and 11.5 measured it getting the flagship
   pair backwards.
-- **1.2** Ship the plain WordNet layer beneath the annotated one — the
-  degradation ladder's lower rung, already generated, currently unused. The
-  dictionary goes from ~3,000 entries to ~111,000, of which ~2,900 carry a
-  spectrum.
+- **1.2** ~~Ship the plain WordNet layer beneath the annotated one.~~ Already
+  shipping when this was written (see the correction above). No work done, none
+  needed.
 - **1.3** Rebuild `.syn` over the full entry set so inflected forms resolve.
 
 > **Done when:** *emerge*, *market* and *book* return a real entry; *skinny*

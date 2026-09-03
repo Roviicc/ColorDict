@@ -26,8 +26,12 @@ Read its output before saying anything about state. If it disagrees with a doc,
 
 ## 2. Read the entry point, not the record
 
-- [docs/HANDOFF.md](../../../docs/HANDOFF.md) — §4 where things stand, **§5 the
-  ordered plan**, §6 what will bite you. ~12KB. This is the file to read.
+- [docs/BUILD-PLAN.md](../../../docs/BUILD-PLAN.md) — **the plan**, as stages
+  0-8 with done-checks and stop conditions. `status.py`'s BUILD STAGES block is
+  its measured state. Stages 0-2 closed on 2026-09-03.
+- [docs/HANDOFF.md](../../../docs/HANDOFF.md) — §1-3 what is being built and
+  how the method works, **§6 what will bite you**. §5 is superseded by
+  BUILD-PLAN and kept only as the record of the decision.
 - [docs/DICTIONARY-PLAN.md](../../../docs/DICTIONARY-PLAN.md) — the full record.
   Open it **only** to read a specific numbered section HANDOFF cites (e.g.
   §11.75, §11.80). Never front to back.
