@@ -63,6 +63,20 @@
     <string name="show_history">Show history</string>
     <string name="show_bookmarks">Show bookmarks</string>
     <string name="no_history">No history yet</string>
+    <!-- The report loop: the empty state of a connotation row is a link. -->
+    <string name="reported_words">Reported words</string>
+    <string name="reported_words_n">Reported words (%1$d)</string>
+    <string name="pref_reported_summary">Words you marked as missing a connotation note</string>
+    <string name="no_reports">Nothing reported yet</string>
+    <string name="report_not_found">no entry found</string>
+    <string name="report_added">Reported “%1$s”</string>
+    <string name="report_already">“%1$s” is already reported</string>
+    <string name="report_failed">Could not save the report</string>
+    <string name="remove_report_q">Remove “%1$s” from the report list?</string>
+    <string name="remove">Remove</string>
+    <string name="send_reports">Send reports</string>
+    <string name="clear_reports">Clear reports</string>
+    <string name="clear_reports_q">Clear every reported word?</string>
     <string name="no_bookmarks">No bookmarks yet</string>
     <string name="action_clear">Clear</string>
     <string name="clear_history_confirm">Clear the whole search history?</string>

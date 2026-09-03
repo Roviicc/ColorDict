@@ -30,6 +30,7 @@ public class DefinitionWebView extends WebView {
     }
 
     private OnWordLinkListener wordLinkListener;
+    private OnReportListener reportListener;
 
     public DefinitionWebView(Context context) {
         super(context);
@@ -64,6 +65,48 @@ public class DefinitionWebView extends WebView {
         wordLinkListener = listener;
     }
 
+    /** Notified when a reader reports a sense as missing a connotation note. */
+    public interface OnReportListener {
+        void onReport(String sense, String lemma, String gloss, String reason);
+    }
+
+    public void setOnReportListener(OnReportListener listener) {
+        reportListener = listener;
+    }
+
+    /** The path of a scheme-specific URI: "report" out of "colordict:report?x=1". */
+    private static String stripQuery(Uri uri) {
+        String ssp = uri.getSchemeSpecificPart();
+        if (ssp == null) {
+            return "";
+        }
+        int q = ssp.indexOf('?');
+        return q < 0 ? ssp : ssp.substring(0, q);
+    }
+
+    /**
+     * Reads one query parameter. Uri.getQueryParameter() returns null for an
+     * opaque URI like colordict:report?..., which has no hierarchical part, so
+     * the query is parsed off the scheme-specific part by hand.
+     */
+    private static String param(Uri uri, String key) {
+        String ssp = uri.getSchemeSpecificPart();
+        if (ssp == null) {
+            return "";
+        }
+        int q = ssp.indexOf('?');
+        if (q < 0) {
+            return "";
+        }
+        for (String pair : ssp.substring(q + 1).split("&")) {
+            int eq = pair.indexOf('=');
+            if (eq > 0 && pair.substring(0, eq).equals(key)) {
+                return Uri.decode(pair.substring(eq + 1));
+            }
+        }
+        return "";
+    }
+
     /** Renders a complete HTML document built by {@link DefinitionHtml}. */
     public void showPage(String html) {
         getSettings().setTextZoom(Prefs.textZoom(getContext()));
@@ -76,6 +119,19 @@ public class DefinitionWebView extends WebView {
         }
         String scheme = uri.getScheme() == null ? "" : uri.getScheme().toLowerCase();
         String url = uri.toString();
+        // The empty state is a link: an unannotated sense renders "not recorded -
+        // report this word" (tools/dict_build.py), and tapping it lands here.
+        // Deliberately a URL handler and an append, nothing more - if reporting
+        // ever needs more than this, the fallback is a long-press on the
+        // headword rather than a feature.
+        if (scheme.equals("colordict") && "report".equals(stripQuery(uri))) {
+            if (reportListener != null) {
+                reportListener.onReport(
+                        param(uri, "sense"), param(uri, "lemma"),
+                        param(uri, "gloss"), param(uri, "reason"));
+            }
+            return true;
+        }
         if (scheme.equals("bword") || scheme.equals("entry")) {
             String word = Uri.decode(url.substring(url.indexOf("://") + 3));
             deliverWord(word);

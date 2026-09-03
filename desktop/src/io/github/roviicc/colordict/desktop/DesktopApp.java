@@ -11,8 +11,12 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
@@ -27,6 +31,7 @@ import javax.swing.JList;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
@@ -243,6 +248,8 @@ public final class DesktopApp {
                             href.substring("bword://".length()), StandardCharsets.UTF_8);
                     searchField.setText(word);
                     define(word);
+                } else if (href != null && href.startsWith("colordict:report?")) {
+                    reportWord(href.substring("colordict:report?".length()));
                 }
             }
         });
@@ -405,6 +412,8 @@ public final class DesktopApp {
                 + ".ul{color:#6A6F75;font-size:small}"
                 + ".sn{font-weight:bold}"
                 + ".cx{color:#6A6F75}"
+                + ".nocon .flk{font-weight:normal;color:#6A6F75}"
+                + ".rpt{color:#1565C0}"
                 + ".rl{font-size:small}"
                 + ".rlk{color:#6A6F75;font-weight:bold}"
                 + ".wfm{color:#6A6F75;font-style:italic}"
@@ -469,4 +478,77 @@ public final class DesktopApp {
             return panel;
         }
     }
+
+    /** Where reported words are appended. The file is the export: no share
+     *  sheet on the desktop, and nothing is ever uploaded. */
+    private static final File REPORT_LOG =
+            new File(System.getProperty("user.home"), ".colordict/reports.jsonl");
+
+    /**
+     * A reader followed "not recorded - report this word". Appends one JSON
+     * line locally and says where it went.
+     *
+     * <p>Local and append-only, exactly as on Android. There is no network call
+     * in this path; sending the file is something the person does, if they
+     * decide to.
+     */
+    private void reportWord(String query) {
+        Map<String, String> q = new LinkedHashMap<>();
+        for (String pair : query.split("&")) {
+            int eq = pair.indexOf('=');
+            if (eq > 0) {
+                q.put(URLDecoder.decode(pair.substring(0, eq), StandardCharsets.UTF_8),
+                      URLDecoder.decode(pair.substring(eq + 1), StandardCharsets.UTF_8));
+            }
+        }
+        String lemma = q.getOrDefault("lemma", "");
+        if (lemma.isEmpty()) {
+            return;
+        }
+        String line = "{\"sense\":" + jsonString(q.getOrDefault("sense", ""))
+                + ",\"lemma\":" + jsonString(lemma)
+                + ",\"gloss\":" + jsonString(q.getOrDefault("gloss", ""))
+                + ",\"reason\":" + jsonString(q.getOrDefault("reason", "unannotated"))
+                + ",\"ts\":" + System.currentTimeMillis() + "}";
+        try {
+            File dir = REPORT_LOG.getParentFile();
+            if (dir != null && !dir.exists() && !dir.mkdirs()) {
+                throw new IOException("cannot create " + dir);
+            }
+            Files.writeString(REPORT_LOG.toPath(), line + System.lineSeparator(),
+                    StandardCharsets.UTF_8, StandardOpenOption.CREATE,
+                    StandardOpenOption.APPEND);
+            JOptionPane.showMessageDialog(frame,
+                    "Reported '" + lemma + "'. Saved to "
+                            + REPORT_LOG.getAbsolutePath(),
+                    "Reported", JOptionPane.INFORMATION_MESSAGE);
+        } catch (IOException ex) {
+            JOptionPane.showMessageDialog(frame,
+                    "Could not save the report: " + ex.getMessage(),
+                    "Report failed", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+
+    /** Minimal JSON string escaping - no JSON library on the desktop path. */
+    private static String jsonString(String v) {
+        StringBuilder sb = new StringBuilder("\"");
+        for (int i = 0; i < v.length(); i++) {
+            char c = v.charAt(i);
+            if (c == '\"' || c == '\\') {
+                sb.append('\\').append(c);
+            } else if (c == '\n') {
+                sb.append("\\n");
+            } else if (c == '\r') {
+                sb.append("\\r");
+            } else if (c == '\t') {
+                sb.append("\\t");
+            } else if (c < 0x20) {
+                sb.append(String.format("\\u%04x", (int) c));
+            } else {
+                sb.append(c);
+            }
+        }
+        return sb.append('\"').toString();
+    }
+
 }

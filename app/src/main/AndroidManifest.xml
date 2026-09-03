@@ -74,5 +74,24 @@
             android:exported="false"
             android:label="@string/settings"
             android:parentActivityName=".ui.MainActivity" />
+
+        <activity
+            android:name=".ui.ReportsActivity"
+            android:exported="false"
+            android:label="@string/reported_words"
+            android:parentActivityName=".ui.SettingsActivity" />
+
+        <!-- Grants read access to one exported report log, and only when the
+             person taps Send. The log itself lives in private storage; this
+             provider serves a copy from the cache and nothing else. -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.reports"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/report_paths" />
+        </provider>
     </application>
 </manifest>

@@ -52,6 +52,11 @@
             <TextView style="@style/SettingsSummary" android:text="@string/pref_clear_bookmarks_summary" />
         </LinearLayout>
 
+        <LinearLayout android:id="@+id/rowReports" style="@style/SettingsRow">
+            <TextView style="@style/SettingsTitle" android:text="@string/reported_words" />
+            <TextView android:id="@+id/summaryReports" style="@style/SettingsSummary" />
+        </LinearLayout>
+
         <TextView
             style="@style/SettingsSection"
             android:text="@string/section_about" />

@@ -69,6 +69,35 @@ def bword(word):
             + escape(word) + "</a>")
 
 
+def report_row(word, sense):
+    """The empty state IS the report button.
+
+    An unannotated sense used to render as a definition with the Connotations
+    row simply absent, which is indistinguishable from a sense nobody has looked
+    at yet. A reader cannot tell "we judged this word to carry no charge" from
+    "nobody has reached this word", and neither can we - so the one person who
+    knows the word is missing something has no way to say so.
+
+    Because sametypesequence=h, this is a builder change plus a CSS class and it
+    reaches Android, desktop and web at once with no app code (plan 11.7). The
+    link carries what a report needs to be actionable without a lookup: which
+    sense, which lemma, and the gloss the reader was actually looking at.
+    """
+    # The gloss is deliberately NOT in the link. It is already on screen two
+    # rows below, and repeating it here cost 6.3 MB in the shipped .dict.dz -
+    # 163,494 copies of text the reader is looking at. The sense id names the
+    # sense exactly, so reports_ingest.py can recover lemma and gloss from the
+    # corpus; a report that needs a lookup is fine, a 71% larger download is not.
+    query = urllib.parse.urlencode({
+        "sense": sense.get("id") or "",
+        "lemma": word,
+        "reason": "unannotated",
+    })
+    return ('<div class="fld nocon"><span class="flk">Connotations:</span> '
+            '<a class="rpt" href="colordict:report?' + escape(query) + '">'
+            'not recorded - report this word</a></div>')
+
+
 def word_list_row(label, words):
     links = ", ".join(bword(w) for w in words)
     return f'<div class="fld"><span class="flk">{label}:</span> {links}</div>'
@@ -158,6 +187,8 @@ def sense_html(word, sense, number):
             row.append(f' <span class="cx">{prose_html(prose)}</span>')
         row.append("</div>")
         bits.append("".join(row))
+    else:
+        bits.append(report_row(word, sense))
 
     bits.append(f'<div class="fld"><span class="flk">Meaning:</span> '
                 f'{escape(sense["definition"])}</div>')

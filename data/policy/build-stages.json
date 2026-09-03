@@ -42,9 +42,17 @@
    "stage": "2",
    "title": "The report loop - empty state is the report button, local log",
    "spend": "free",
-   "state": "not_started",
-   "closed_on": null,
-   "closed_by_commit": null
+   "state": "done",
+   "closed_on": "2026-09-03",
+   "closed_by_commit": null,
+   "done_check": {
+    "report_links_emitted": 163494,
+    "surfaces": "Android (WebView scheme handler, append-only reports.jsonl, Settings > Reported words, share-sheet export via FileProvider); desktop (hyperlink handler, ~/.colordict/reports.jsonl)",
+    "web": "web/ is a landing page, not a dictionary - nothing to report from there",
+    "verified": "compiles on both; renders on desktop headless lookup; NOT yet tapped on a physical device",
+    "size_cost": "dict.dz 8.9 MB -> 11.8 MB after dropping the gloss from the link (15.2 MB with it)",
+    "never_leaves_device": "no network code in the feature; export is an explicit share action"
+   }
   },
   {
    "stage": "3",

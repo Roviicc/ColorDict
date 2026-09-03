@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Only the exported copy is shareable. The append-only log in files/ is not
+     reachable through this provider. -->
+<paths>
+    <cache-path name="reports" path="reports/" />
+</paths>

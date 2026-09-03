@@ -46,6 +46,8 @@ public class SettingsActivity extends BaseActivity {
                 R.string.clear_history_confirm, () -> repo().history().clearHistory()));
         findViewById(R.id.rowClearBookmarks).setOnClickListener(v -> confirmClear(
                 R.string.clear_bookmarks_confirm, () -> repo().history().clearBookmarks()));
+        findViewById(R.id.rowReports).setOnClickListener(
+                v -> startActivity(new android.content.Intent(this, ReportsActivity.class)));
         findViewById(R.id.rowAbout).setOnClickListener(v -> showAbout());
 
         refreshSummaries();
@@ -60,6 +62,14 @@ public class SettingsActivity extends BaseActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        // The reported-words count changes on the Reports screen, so re-read it
+        // on the way back rather than showing the number we had on entry.
+        refreshSummaries();
+    }
+
     private void refreshSummaries() {
         String[] themes = getResources().getStringArray(R.array.theme_names);
         ((TextView) findViewById(R.id.summaryTheme)).setText(themes[Prefs.themeMode(this)]);
@@ -69,6 +79,10 @@ public class SettingsActivity extends BaseActivity {
                 String.valueOf(Prefs.maxSuggestions(this)));
         ((TextView) findViewById(R.id.summaryHistoryLimit)).setText(
                 String.valueOf(Prefs.historyLimit(this)));
+        int reported = new io.github.roviicc.colordict.data.ReportLog(this).count();
+        ((TextView) findViewById(R.id.summaryReports)).setText(reported == 0
+                ? getString(R.string.pref_reported_summary)
+                : getString(R.string.reported_words_n, reported));
         ((TextView) findViewById(R.id.summaryAbout)).setText(
                 getString(R.string.version_value, versionName()));
     }

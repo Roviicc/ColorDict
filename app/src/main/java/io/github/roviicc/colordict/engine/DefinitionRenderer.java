@@ -111,6 +111,11 @@ public final class DefinitionRenderer {
                 + ";border-radius:8px;padding:1px 6px}"
                 + ".df{margin:2px 0}"
                 + ".cx{color:" + muted + ";font-size:92%;margin:1px 0 2px 0}"
+                // The empty state IS the report button: an unannotated
+                // sense says so, and says it as a link (dict_build.py).
+                + ".nocon .flk{font-weight:normal;color:" + muted + "}"
+                + ".rpt{color:" + link + ";font-size:92%;text-decoration:none;"
+                + "border-bottom:1px dotted " + link + "}"
                 + ".rl{font-size:92%;margin:2px 0}"
                 + ".rlk{font-size:80%;font-weight:bold;letter-spacing:.05em;"
                 + "text-transform:uppercase;color:" + muted + "}"

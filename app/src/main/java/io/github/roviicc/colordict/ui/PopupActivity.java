@@ -67,6 +67,7 @@ public class PopupActivity extends BaseActivity {
         ImageButton close = findViewById(R.id.popupCloseButton);
 
         webView.setOnWordLinkListener(this::define);
+        webView.setOnReportListener(this::onReportWord);
         close.setOnClickListener(v -> finish());
         expand.setOnClickListener(v -> {
             if (currentWord != null) {
@@ -158,4 +159,26 @@ public class PopupActivity extends BaseActivity {
             }
         });
     }
+
+    /**
+     * A reader tapped "not recorded - report this word". Append it locally and
+     * confirm; nothing is sent anywhere, now or later, without an explicit
+     * export from Settings.
+     */
+    private void onReportWord(String sense, String lemma, String gloss, String reason) {
+        io.github.roviicc.colordict.data.ReportLog log =
+                new io.github.roviicc.colordict.data.ReportLog(this);
+        if (log.contains(sense, lemma)) {
+            android.widget.Toast.makeText(this,
+                    getString(R.string.report_already, lemma),
+                    android.widget.Toast.LENGTH_SHORT).show();
+            return;
+        }
+        boolean ok = log.add(sense, lemma, gloss, reason);
+        android.widget.Toast.makeText(this,
+                ok ? getString(R.string.report_added, lemma)
+                   : getString(R.string.report_failed),
+                android.widget.Toast.LENGTH_SHORT).show();
+    }
+
 }

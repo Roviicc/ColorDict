@@ -85,6 +85,7 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
         definitionMenuButton.setOnClickListener(this::showDefinitionMenu);
         definitionWord.setOnClickListener(v -> speakCurrentWord());
         webView.setOnWordLinkListener(this::define);
+        webView.setOnReportListener(this::onReportWord);
         emptyView.setOnClickListener(v
                 -> startActivity(new Intent(this, DictionariesActivity.class)));
 
@@ -385,4 +386,26 @@ public class MainActivity extends BaseActivity implements DictRepository.Listene
             imm.hideSoftInputFromWindow(focus.getWindowToken(), 0);
         }
     }
+
+    /**
+     * A reader tapped "not recorded - report this word". Append it locally and
+     * confirm; nothing is sent anywhere, now or later, without an explicit
+     * export from Settings.
+     */
+    private void onReportWord(String sense, String lemma, String gloss, String reason) {
+        io.github.roviicc.colordict.data.ReportLog log =
+                new io.github.roviicc.colordict.data.ReportLog(this);
+        if (log.contains(sense, lemma)) {
+            android.widget.Toast.makeText(this,
+                    getString(R.string.report_already, lemma),
+                    android.widget.Toast.LENGTH_SHORT).show();
+            return;
+        }
+        boolean ok = log.add(sense, lemma, gloss, reason);
+        android.widget.Toast.makeText(this,
+                ok ? getString(R.string.report_added, lemma)
+                   : getString(R.string.report_failed),
+                android.widget.Toast.LENGTH_SHORT).show();
+    }
+
 }
