@@ -1,0 +1,92 @@
+{"packet": 1, "verdicts": [
+ {"word": "advantage", "pos": "noun",
+  "rank": "right", "why": "Four of the six sentences (the advantages of the match, worldly advantage, replete with advantage, it is an advantage to have it far) carry the benefit gloss, and it sits first; the two superior-position uses sit second.",
+  "senses": [
+   {"synset": "oewn-05150110-n", "verdict": "right",
+    "fault": null, "why": "The learner line says benefit-from-an-event in plain words, both examples use the benefit sense with the headword, no labels, and the word names a benefit without judging."},
+   {"synset": "oewn-05163204-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches the superior-position gloss, both examples (advantage of your friend, advantage over the country) are that sense, and null is right."},
+   {"synset": "oewn-13631669-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches the tennis gloss, both examples are the scoring sense, the technical label is justified by the (tennis) tag in the gloss, and null is right."}
+  ]},
+ {"word": "allude", "pos": "verb",
+  "rank": "right", "why": "All six sentences use allude as a disguised or indirect reference, and that is the only sense listed.",
+  "senses": [
+   {"synset": "oewn-01028737-v", "verdict": "right",
+    "fault": null, "why": "The learner line renders make-a-disguised-reference faithfully, both examples use allude or alluded in that sense, no labels, and the word describes without judging."}
+  ]},
+ {"word": "application", "pos": "noun",
+  "rank": "right", "why": "Four of the six sentences (such an application, the application was something to look forward to, surprised by your application, this extraordinary application) are requests, and the request gloss sits first ahead of the two diligent-effort uses.",
+  "senses": [
+   {"synset": "oewn-06524571-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps all three alternatives of the gloss (help, job, school place), both examples are requests, no labels, and null is right."},
+   {"synset": "oewn-00634572-n", "verdict": "right",
+    "fault": null, "why": "The learner line says diligent effort in plain words, both examples (vanity had given her application; capacity, taste, and application) are the effort sense, and null is right."},
+   {"synset": "oewn-00950950-n", "verdict": "right",
+    "fault": null, "why": "The learner line restates the bringing-to-bear gloss without adding or dropping anything, the example uses application in that sense, no labels, and null is right."}
+  ]},
+ {"word": "arrive", "pos": "verb",
+  "rank": "right", "why": "All six sentences use arrive as reaching a destination (letters and answers arrive, Mr. Bennet arrives, they were arriving) and that gloss sits first; none use the succeed sense.",
+  "senses": [
+   {"synset": "oewn-02009962-v", "verdict": "right",
+    "fault": null, "why": "The learner line says reach-a-destination in plain words, both examples use arrived in that sense, no labels, and null is right."},
+   {"synset": "oewn-02591952-v", "verdict": "wrong",
+    "fault": "label-unjustified", "why": "The learner line and example fit the succeed gloss, but the informal label rests on nothing in the packet: the gloss carries no register tag and no book sentence uses this sense."}
+  ]},
+ {"word": "attention", "pos": "noun",
+  "rank": "right", "why": "The sentences split, but the courteous-act sense sits first and is the one most of them carry (his attentions to Miss King, the very great attentions Meryton had procured, full of joy and attention, received neither attention nor pleasure), with the concentration sense (calling her attention, attention to other people's feelings) second.",
+  "senses": [
+   {"synset": "oewn-01231134-n", "verdict": "right",
+    "fault": null, "why": "The learner line renders a courteous act indicating affection as a polite act showing care, both examples use attentions in that courtship-and-hospitality sense, no labels, and null is right."},
+   {"synset": "oewn-05710222-n", "verdict": "right",
+    "fault": null, "why": "The learner line says concentrating on some things to the exclusion of others in plain words, both examples (attention drifted, turned his attention) are that sense, and null is right."},
+   {"synset": "oewn-05862201-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches the general-interest gloss, both examples (drew the attention of the village, attracted a great deal of attention) are that sense, and null is right."}
+  ]},
+ {"word": "choice", "pos": "noun",
+  "rank": "right", "why": "The first sentence is the adjective and does not count; the five noun uses split between the act of choosing (necessity rather than of choice, his choice is disinterested, such a choice) and the person chosen (his settled choice, his only choice), and the act sense that sits first is one of the split.",
+  "senses": [
+   {"synset": "oewn-00162063-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches the act-of-choosing gloss, the example (necessity rather than of choice) is that sense, no labels, and null is right."},
+   {"synset": "oewn-05798247-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches the person-or-thing-chosen gloss, both examples (his settled choice, his only choice) are that sense, and null is right."},
+   {"synset": "oewn-05798949-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches the one-of-several-options gloss, the example (her only choice was to walk home) uses choice as the sole available option, and null is right."}
+  ]},
+ {"word": "church", "pos": "noun",
+  "rank": "right", "why": "Three of the six sentences use the church as the institution or clerical profession (brought up for the church, the church would be his profession, assistance in the church), which is the group-of-Christians gloss sitting first; the building (church door) and service (at church) senses take the rest and sit below it.",
+  "senses": [
+   {"synset": "oewn-08099479-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches the group-of-Christians gloss, the example (Methodist church, Catholic one) is the denomination sense, no labels, and null is right."},
+   {"synset": "oewn-03031762-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps the especially-Christian qualification of the place-of-worship gloss, the example (from the church door) is the building, and null is right."},
+   {"synset": "oewn-01034400-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches the service gloss, both examples (on the ensuing Sunday at church, church begins at ten) use church as the service, and null is right."}
+  ]},
+ {"word": "companion", "pos": "noun",
+  "rank": "right", "why": "Most sentences use companion as a person habitually in one's company (his own companion from childhood, companion of my future life, such a companion, his companions in the shire, his companion was not disposed to answer), and that gloss sits first; only the carriage ride to Longbourn is the fellow-traveller sense.",
+  "senses": [
+   {"synset": "oewn-09965384-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches the friend-frequently-in-company gloss, the example (his own companion from childhood) is that sense, no labels, and null is right."},
+   {"synset": "oewn-09965757-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches the fellow-traveller gloss, the example (amuse her companions all the way to Longbourn) is people travelling together, and null is right."},
+   {"synset": "oewn-09779940-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps all three alternatives of the gloss (accompany, assist, live with) and the paid element, the example (engaged a companion to read to her) is that sense, and null is right."}
+  ]},
+ {"word": "consequently", "pos": "adverb",
+  "rank": "right", "why": "The two OEWN glosses are near-duplicates and every sentence reads as either; the as-a-consequence gloss sitting first is one the sentences plainly use.",
+  "senses": [
+   {"synset": "oewn-00295773-r", "verdict": "right",
+    "fault": null, "why": "The learner line says as-a-consequence in plain words, both examples use consequently in that sense, no labels, and the word describes without judging."},
+   {"synset": "oewn-00063395-r", "verdict": "right",
+    "fault": null, "why": "The learner line renders both the sentence-connector tag and the because-of-the-reason-given meaning, both examples open a sentence with consequently, and null is right."}
+  ]},
+ {"word": "conviction", "pos": "noun",
+  "rank": "right", "why": "All six sentences use conviction as a firm belief or state of being convinced, and that gloss sits first; none use the criminal-law sense.",
+  "senses": [
+   {"synset": "oewn-05951737-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both the unshakable-belief and the without-need-for-proof parts of the gloss, both examples (yield without conviction, the distressing conviction that) are the belief sense, no labels, and null is right."},
+   {"synset": "oewn-01191772-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both the guilty-judgment and the punishment parts of the gloss, the example (conviction for theft carried a sentence) is that sense, the technical label is justified by the (criminal law) tag, and null is right."}
+  ]}
+]}

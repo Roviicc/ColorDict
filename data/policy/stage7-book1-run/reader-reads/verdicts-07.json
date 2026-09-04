@@ -1,0 +1,64 @@
+{"packet": 7, "verdicts": [
+ {"word": "quite", "pos": "adverb",
+  "rank": "right", "why": "Five of the six sentences use quite as 'completely' (four of them as 'not quite'), and the two lower senses are marked not used with a negative, so the first sense is the one the book carries.",
+  "senses": [
+   {"synset": "oewn-00019039-r", "verdict": "right", "fault": null, "why": "Learner line restates 'to the greatest extent; completely', both examples are the 'not quite' / 'quite of your opinion' completeness sense, and an intensifier of degree does not judge."},
+   {"synset": "oewn-00019243-r", "verdict": "right", "fault": null, "why": "'To some degree' renders 'to a degree', the warm-room and early-arrival examples are the moderate-degree sense, and null is right for a degree word."},
+   {"synset": "oewn-00019380-r", "verdict": "right", "fault": null, "why": "Learner line keeps all three of noticeable, exceptional, remarkable; 'quite a storm' and 'quite a singer' are the remarkable-kind sense; whether it lands well or badly depends on the noun, not on quite, so null holds."}
+  ]},
+ {"word": "raise", "pos": "verb",
+  "rank": "right", "why": "Three sentences raise expectations, displeasure or speculation (call forth), two raise eyes or head (lift), one raises officers in her opinion (rank), and the three written senses sit in that order.",
+  "senses": [
+   {"synset": "oewn-01763170-v", "verdict": "right", "fault": null, "why": "'Bring out a feeling or a reaction' is the gloss in plain words, both book examples raise expectations or speculation, and the verb describes the causing without judging."},
+   {"synset": "oewn-01978076-v", "verdict": "right", "fault": null, "why": "Learner line is the physical lower-to-higher sense, raised eyes and raised head are exactly that, and null is right."},
+   {"synset": "oewn-00545629-v", "verdict": "right", "fault": null, "why": "'Move someone up to a higher rank or a better condition' matches 'raise in rank or condition', the poverty-to-comfort example is that sense, and it describes a change of standing without judging it."}
+  ]},
+ {"word": "receive", "pos": "verb",
+  "rank": "right", "why": "Four sentences receive a commission, an answer, a sanction or attention (get), two are received by Miss Darcy or at the card table (greeted), so the get sense rightly sits first.",
+  "senses": [
+   {"synset": "oewn-02214901-v", "verdict": "right", "fault": null, "why": "'Get something, so that it is now yours' is 'come into possession of' in plain words, the commission and no-other-answer examples are that sense, and null is right."},
+   {"synset": "oewn-00902346-v", "verdict": "right", "fault": null, "why": "'Welcome someone when they arrive' matches 'bid welcome to; greet upon arrival', both examples are people being received on entering, and the verb does not judge."},
+   {"synset": "oewn-00523831-v", "verdict": "right", "fault": null, "why": "'Be treated in some stated way' is the abstract treatment sense, both examples (received little attention, do not receive an interpretation) are that sense and not the possession one, and null holds."}
+  ]},
+ {"word": "regiment", "pos": "noun",
+  "rank": "right", "why": "All six sentences are the army unit that Colonel Miller or Wickham belongs to, and that is the only written sense.",
+  "senses": [
+   {"synset": "oewn-08230738-n", "verdict": "right", "fault": null, "why": "Learner line carries the whole gloss including the subdivision into companies, squadrons, batteries and battalions, both examples are the military unit, and a unit name does not judge."}
+  ]},
+ {"word": "reply", "pos": "verb",
+  "rank": "right", "why": "Every sentence is someone answering in words, which is the one written sense.",
+  "senses": [
+   {"synset": "oewn-00817348-v", "verdict": "right", "fault": null, "why": "'Answer with words' is 'react verbally' in plainer words, both book examples are replies, and the verb describes the act without judging."}
+  ]},
+ {"word": "seriously", "pos": "adverb",
+  "rank": "right", "why": "Five sentences are the manner sense (thought seriously, more seriously assured, and the sentence-opening 'Seriously,' meaning in earnest), one is 'most seriously displeased' for the degree sense, so the manner sense is rightly first.",
+  "senses": [
+   {"synset": "oewn-00166233-r", "verdict": "right", "fault": null, "why": "'In a serious way' is the gloss, both examples are thinking or assuring in a serious manner, and null is right."},
+   {"synset": "oewn-00016415-r", "verdict": "right", "fault": null, "why": "'To a severe or grave degree' keeps both severe and serious, 'most seriously displeased' and 'seriously hurt' are the degree sense, and the adverb measures without judging."}
+  ]},
+ {"word": "servant", "pos": "noun",
+  "rank": "right", "why": "All six sentences are household servants, footmen and messengers, and that sense is first.",
+  "senses": [
+   {"synset": "oewn-10601606-n", "verdict": "right", "fault": null, "why": "'Works for another person, above all in that person's house' is the gloss with its 'especially in the household', both examples are household servants, and the role name describes without judging."},
+   {"synset": "oewn-13975389-n", "verdict": "right", "fault": null, "why": "'Placed below another and under it' is 'in a subordinate position', the science-as-servant-of-the-public-good example is that figurative sense, and calling a thing the servant of another sets its standing in a way a learner needs to know can belittle or honour, so candidate is right."}
+  ]},
+ {"word": "share", "pos": "noun",
+  "rank": "right", "why": "The sentences split between a portion due to a person (share of beauty, of society, of the favour) and a portion carved out of a whole (share of the respect, of blame), with one 'no share' in a conversation for the part-played sense, and the first sense is in that split.",
+  "senses": [
+   {"synset": "oewn-13306199-n", "verdict": "right", "fault": null, "why": "Learner line keeps all three of belongs to, owed to, put in by; the share-of-society and share-of-the-favour examples are portions due to a person; null is right."},
+   {"synset": "oewn-01087022-n", "verdict": "right", "fault": null, "why": "'The amount that falls to someone when a whole is divided up' is the allotment gloss, the share-of-beauty and share-of-respect examples read as portions of a whole (they also read under the neighbouring sense, which is a near-synonym, not a different sense), and null holds."},
+   {"synset": "oewn-00789119-n", "verdict": "right", "fault": null, "why": "'The work a person puts in towards making something happen' matches 'the effort contributed by a person in bringing about a result', the share-of-the-packing example is that sense, and it does not judge."}
+  ]},
+ {"word": "sometimes", "pos": "adverb",
+  "rank": "right", "why": "Every sentence is 'on some occasions but not always', the only written sense.",
+  "senses": [
+   {"synset": "oewn-00022332-r", "verdict": "right", "fault": null, "why": "Learner line keeps both occasions and cases and the 'but not always', both book examples are that sense, and a frequency adverb does not judge."}
+  ]},
+ {"word": "source", "pos": "noun",
+  "rank": "right", "why": "All six sentences are a source of felicity, vexation, regret, uneasiness or happiness, the thing from which a feeling springs, and that origin sense is first.",
+  "senses": [
+   {"synset": "oewn-08524579-n", "verdict": "right", "fault": null, "why": "'The place where something starts and first comes into being' is the gloss, both examples are origins of happiness or vexation, and null is right."},
+   {"synset": "oewn-06687867-n", "verdict": "right", "fault": null, "why": "'A paper, book, or organization that information is taken from' keeps both document and organization, the official-source example is that sense, and it describes without judging."},
+   {"synset": "oewn-10225604-n", "verdict": "right", "fault": null, "why": "'A person who gives out information' is the gloss, the unnamed-source example is the informant sense and not the document one, and null holds."}
+  ]}
+]}

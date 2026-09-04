@@ -1,0 +1,12 @@
+{
+ "pass": "stage 7 step 7 - ~10% blind read of the 778",
+ "pool_entries": 766,
+ "sampled_entries": 77,
+ "fraction": 0.1005,
+ "seed": 705,
+ "sampler": "random.Random(705).sample over reader-packets entry order",
+ "packets": 8,
+ "senses_shown": 386,
+ "senses_written": 194,
+ "batch": "scratch batch from dict_enrich_apply --bulk data/entries/derived-bulk.jsonl --overlay data/entries/overlays/stage7-book1-run.overlay.jsonl (batch-0001.jsonl untouched)"
+}

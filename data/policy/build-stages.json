@@ -188,9 +188,9 @@
      "n": 7,
      "step": "~10% blind read of the 778",
      "owner": "manager",
-     "state": "not_started",
+     "state": "done",
      "commit": null,
-     "note": "roles swap for the 778: shawn authors it, so the manager reads it"
+     "note": "77 of 766 entries (10.1%, seed 705), 194 senses. 3.09% sense defect, rank_wrong 0, 1 unsure - against the pilot's 3.14% and a 10% halt line. 6 faults: 2 example-wrong-sense, 2 'other' (a badly cut book quote and an invented example that is not idiomatic English), 1 label-unjustified, 1 learner-narrowed. Read from a SCRATCH batch; batch-0001.jsonl untouched, so step 9 is unaffected. Split NOT held (manager authored and orchestrated)."
     },
     {
      "n": 8,

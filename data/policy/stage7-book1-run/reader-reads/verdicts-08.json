@@ -1,0 +1,66 @@
+{"packet": 8, "verdicts": [
+ {"word": "success", "pos": "noun",
+  "rank": "right", "why": "Five of the six sentences (wish Jane success, inquiries as to his success, what is your success, rejoice in my success, with little success) mean the achieving of an aim, which is the attainment gloss listed first.",
+  "senses": [
+   {"synset": "oewn-00064472-n", "verdict": "right",
+    "fault": null, "why": "The learner line restates 'an attainment that is successful' plainly, both examples use success as the achieving of an aim, and null fits a word whose positive value is its meaning rather than a loading on it."},
+   {"synset": "oewn-07333703-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches the gloss, and both examples are about an effort (the measure, the deliberation) accomplishing its purpose, which the gloss covers even though they sit close to sense 1; null fits."},
+   {"synset": "oewn-14498478-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both prosperity and fame, 'wealth and success' is the state sense and 'ended in success' can be read as reaching it, and null fits."}
+  ]},
+ {"word": "supper", "pos": "noun",
+  "rank": "right", "why": "All six sentences are about the evening meal itself (after supper, hot supper, supper put an end to cards, keep them to supper), the meal gloss listed first.",
+  "senses": [
+   {"synset": "oewn-07591549-n", "verdict": "right",
+    "fault": null, "why": "The learner line carries both timings the gloss offers, both examples are the meal, and null fits a plain meal name."},
+   {"synset": "oewn-08273488-n", "verdict": "right",
+    "fault": null, "why": "The learner line says gathering-with-a-meal as the gloss does, the example ('gave a supper for their neighbours') is the gathering not the food, and null fits."}
+  ]},
+ {"word": "thank", "pos": "verb",
+  "rank": "right", "why": "Only one sense, and every sentence is someone expressing gratitude.",
+  "senses": [
+   {"synset": "oewn-00893836-v", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both halves of the gloss (tell gratitude, show appreciation), both examples use thank in this sense with the headword present, and null fits."}
+  ]},
+ {"word": "truth", "pos": "noun",
+  "rank": "right", "why": "Four of the six (a truth universally acknowledged, own the truth, ignorant of the truth, suspicion of the truth) mean the fact of the matter, which is the verified-fact gloss listed first; 'speaking the truth' is the statement sense below it.",
+  "senses": [
+   {"synset": "oewn-05827597-n", "verdict": "right",
+    "fault": null, "why": "The learner line says 'a fact that has been verified' in plain words, the example uses truth as a fact taken to be established, and null fits."},
+   {"synset": "oewn-06736815-n", "verdict": "wrong",
+    "fault": "other", "why": "Learner line and sense fit, but the second example is spliced from the book so that 'with Wickham!' has lost its antecedent ('gone off to Scotland with one of his officers') and no longer reads as a sentence; a garbled cut, not a wrong sense or a missing headword."},
+   {"synset": "oewn-13979774-n", "verdict": "right",
+    "fault": null, "why": "The learner line restates conformity to reality as agreeing with what is really so, the example ('the nature of truth') is the abstract sense, and null fits."}
+  ]},
+ {"word": "venture", "pos": "verb",
+  "rank": "right", "why": "The sentences split between putting forward a remark (venture to say, venture a short sentence) and going somewhere despite risk (venture near her, if we do not venture), and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-00918880-v", "verdict": "right",
+    "fault": null, "why": "The learner line keeps the gloss's guess-despite-refutation shape, 'I will venture to say' is this sense, and null fits."},
+   {"synset": "oewn-02378427-v", "verdict": "right",
+    "fault": null, "why": "The learner line says go somewhere despite danger as the gloss does, 'not to venture near her' is going somewhere despite a risk, and null fits."},
+   {"synset": "oewn-02550969-v", "verdict": "right",
+    "fault": null, "why": "The learner line renders 'put at risk' as putting something in danger of loss, the example stakes money on a voyage, and null fits."}
+  ]},
+ {"word": "window", "pos": "noun",
+  "rank": "right", "why": "All six sentences are the window in the wall of a house (from an upper window, went to a window, windows opening to the ground), the framework gloss listed first.",
+  "senses": [
+   {"synset": "oewn-04594951-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps frame, glass, wall or roof, and light or air, both examples are house windows, and null fits."},
+   {"synset": "oewn-04595668-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps vehicle, side or back, and usually openable, 'rolled down the car window' is this sense, and null fits."},
+   {"synset": "oewn-04597048-n", "verdict": "right",
+    "fault": null, "why": "The learner line says the glass sheet in a window as the gloss does, the example cracks the glass while the frame survives, and null fits."}
+  ]},
+ {"word": "world", "pos": "noun",
+  "rank": "right", "why": "The sentences split across society (convenience of the world, ways of the world), the whole of existence in the 'in the world' idioms (least chance in the world, heart in the world), a personal world, and a part of the earth; no gloss has a majority and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-09489410-n", "verdict": "right",
+    "fault": null, "why": "The learner line restates 'everything that exists anywhere' plainly, the example ('whether the world had a beginning') is the universe sense, and null fits."},
+   {"synset": "oewn-08196607-n", "verdict": "right",
+    "fault": null, "why": "The learner line says people in general as a whole, 'the convenience of the world' is society at large, and null fits."},
+   {"synset": "oewn-07982551-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both people in general and the shared-interest group, 'the world of music' is the group sense, and null fits."}
+  ]}
+]}

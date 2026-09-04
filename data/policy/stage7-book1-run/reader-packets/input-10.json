@@ -1,0 +1,503 @@
+{
+ "packet": 10,
+ "entries": [
+  {
+   "word": "dare",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "I dare say Mr. Bingley will be very glad to see you; and I will send a few lines by you to assure him of my hearty consent to his marrying whichever he chooses of the girls--though I must throw in a good word for my little Lizzy.\"",
+    "I have, therefore, made up my mind to tell you that I do not want to dance a reel at all; and now despise me if you dare.\"",
+    "I do assure you that I am not one of those young ladies (if such young ladies there are) who are so daring as to risk their happiness on the chance of being asked a second time.",
+    "I dare say he often hears worse things said than I am going to say.",
+    "They stood a little aloof while he was talking to their niece, who, astonished and confused, scarcely dared lift her eyes to his face, and knew not what answer she returned to his civil inquiries after her family.",
+    "She sat intently at work, striving to be composed, and without daring to lift up her eyes, till anxious curiosity carried them to the face of her sister as the servant was approaching the door."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-02550742-v",
+     "gloss": "to be courageous enough to try or do something",
+     "learner": "to be brave enough to try or do something.",
+     "examples": [
+      "astonished and confused, scarcely dared lift her eyes to his face",
+      "She sat intently at work, striving to be composed, and without daring to lift up her eyes"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-02380015-v",
+     "gloss": "take upon oneself; act presumptuously, without permission",
+     "learner": "to take something on yourself and do it boldly, without being given permission.",
+     "examples": [
+      "How dare you open my letters?"
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "casts the act as overstepping"
+     }
+    },
+    {
+     "synset": "oewn-00869761-v",
+     "gloss": "challenge",
+     "learner": "to challenge someone.",
+     "examples": [
+      "I dare you to knock on that door."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   ]
+  },
+  {
+   "word": "hope",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "Take almost any Frenchman, except the late M. de Maupassant, and watch him laboriously piling up strokes in the hope of giving a complete impression.",
+    "\"Certainly,\" replied Elizabeth, \"there are such people, but I hope I am not one of them.",
+    "But little had she dared to hope that so much love and eloquence awaited her there.",
+    "Could you expect me to rejoice in the inferiority of your connections?--to congratulate myself on the hope of relations whose condition in life is so decidedly beneath my own?\"",
+    "But now that my dear uncle is come, I hope everything will be well.\"",
+    "In future, I hope we shall be always of one mind.\""
+   ],
+   "senses": [
+    {
+     "synset": "oewn-07526972-n",
+     "gloss": "a specific instance of feeling hopeful",
+     "learner": "one particular case of feeling that something you want may happen.",
+     "examples": [
+      "watch him laboriously piling up strokes in the hope of giving a complete impression",
+      "to congratulate myself on the hope of relations whose condition in life is so decidedly beneath my own"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-07556441-n",
+     "gloss": "the general feeling that some desire will be fulfilled",
+     "learner": "the broad feeling that something you want will come true.",
+     "examples": [
+      "Even in the worst weeks she never lost hope."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-05959600-n",
+     "gloss": "grounds for feeling hopeful about the future",
+     "learner": "reasons for feeling hopeful about the future.",
+     "examples": [
+      "The early results offer real hope for a cure."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-10204565-n",
+     "gloss": "someone (or something) on which expectations are centered"
+    },
+    {
+     "synset": "oewn-04855493-n",
+     "gloss": "one of the three Christian virtues"
+    }
+   ]
+  },
+  {
+   "word": "ill",
+   "pos": "adjective",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "She does not disguise from herself or anybody that she resents Darcy's first ill-mannered personality with as personal a feeling. (",
+    "\"You used us abominably ill,\" answered Mrs. Hurst, \"running away without telling us that you were coming out.\"",
+    "The very mention of anything concerning the match threw her into an agony of ill-humour, and wherever she went she was sure of hearing it talked of.",
+    "It seemed like wilful ill-nature, or a voluntary penance; for on these occasions it was not merely a few formal inquiries and an awkward pause and then away, but he actually thought it necessary to turn back and walk with her.",
+    "He has not an ill-natured look.",
+    "\"And did Colonel Forster appear to think ill of Wickham himself?"
+   ],
+   "senses": [
+    {
+     "synset": "oewn-01131841-s",
+     "gloss": "distressing",
+     "learner": "upsetting or troubling.",
+     "examples": [
+      "Their ill manners spoiled the evening for everyone."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "marks the thing as bad, not merely names it"
+     }
+    },
+    {
+     "synset": "oewn-02552072-a",
+     "gloss": "affected by an impairment of normal physical or mental function",
+     "learner": "having something wrong with the way the body or the mind works.",
+     "examples": [
+      "She was too ill to leave her room."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-01165811-s",
+     "gloss": "resulting in suffering or adversity",
+     "learner": "leading to suffering or hardship.",
+     "examples": [
+      "The long winter had ill effects on her health."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-01248878-s",
+     "gloss": "indicating hostility or enmity"
+    },
+    {
+     "synset": "oewn-00179426-s",
+     "gloss": "presaging ill fortune"
+    }
+   ]
+  },
+  {
+   "word": "reason",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "And, after all, what is the good of seeking for the reason of charm?--it is there.",
+    "\"I have no reason, I assure you,\" said he, \"to be dissatisfied with my reception.",
+    "\"Shall we ask your cousin the reason of this?\"",
+    "I did not believe her to be indifferent because I wished it; I believed it on impartial conviction, as truly as I wished it in reason.",
+    "Imprudent as a marriage between Mr. Wickham and our poor Lydia would be, we are now anxious to be assured it has taken place, for there is but too much reason to fear they are not gone to Scotland.",
+    "He was not seated by her: perhaps that was the reason of his silence; but it had not been so in Derbyshire."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-06752739-n",
+     "gloss": "an explanation of the cause of some phenomenon",
+     "learner": "an account of what causes something to happen.",
+     "examples": [
+      "perhaps that was the reason of his silence",
+      "what is the good of seeking for the reason of charm?"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-05827293-n",
+     "gloss": "a fact that logically justifies some premise or conclusion",
+     "learner": "a fact that logically supports a claim or a conclusion.",
+     "examples": [
+      "there is but too much reason to fear they are not gone to Scotland"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-09201896-n",
+     "gloss": "a rational motive for a belief or action",
+     "learner": "a sensible motive for believing something or for doing something.",
+     "examples": [
+      "His only reason for going to London was to find his sister."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-06753097-n",
+     "gloss": "a justification for something existing or happening"
+    },
+    {
+     "synset": "oewn-05659525-n",
+     "gloss": "the capacity for rational thought or inference or discrimination"
+    },
+    {
+     "synset": "oewn-14403234-n",
+     "gloss": "the state of having good sense and sound judgment"
+    }
+   ]
+  },
+  {
+   "word": "able",
+   "pos": "adjective",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "\"It may, perhaps, be pleasant,\" replied Charlotte, \"to be able to impose on the public in such a case; but it is sometimes a disadvantage to be so very guarded.",
+    "She will not be able to help calling.\"",
+    "Mr. Darcy's shameful boast of what misery he had been able to inflict gave her a keener sense of her sister's sufferings.",
+    "\"Yes; and I told him we should not be able to keep our engagement.",
+    "\"If we are ever able to learn what Wickham's debts have been,\" said Elizabeth, \"and how much is settled on his side on our sister, we shall exactly know what Mr. Gardiner has done for them, because Wickham has not sixpence of his own.",
+    "Miss Bennet had not been able to hear of his coming without changing colour."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00001740-a",
+     "gloss": "(usually followed by ‘to’) having the necessary means or skill or know-how or authority to do something",
+     "learner": "having the means, the skill, the know-how, or the authority needed to do something; it usually comes before the word 'to'.",
+     "examples": [
+      "She will not be able to help calling.",
+      "I told him we should not be able to keep our engagement"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-00512273-s",
+     "gloss": "have the skills and qualifications to do things well",
+     "learner": "having the skills and the training to do things well.",
+     "examples": [
+      "He was an able manager, trusted with the whole estate."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-00307461-s",
+     "gloss": "having inherent physical or mental ability or capacity",
+     "learner": "having a physical or mental power that is part of what you are.",
+     "examples": [
+      "Bats are able to hear sounds far above our range."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-01021031-s",
+     "gloss": "having a strong healthy body"
+    }
+   ]
+  },
+  {
+   "word": "kind",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "To make this latter observation quite exact we must not use the term miniature in its restricted sense, and must think rather of Memling at one end of the history of painting and Meissonier at the other, than of Cosway or any of his kind.",
+    "These are the kind of little things which please her Ladyship, and it is a sort of attention which I conceive myself peculiarly bound to pay.\"",
+    "of that kind of love which I suppose him to have felt.",
+    "Their reception at home was most kind.",
+    "Oh, brother, how kind you are!",
+    "At length, however, our kind friend procured the wished-for direction."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-05847533-n",
+     "gloss": "a category of things distinguished by some common characteristic or quality",
+     "learner": "a group of things set apart by some feature or quality they share.",
+     "examples": [
+      "These are the kind of little things which please her Ladyship",
+      "of that kind of love which I suppose him to have felt"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   ]
+  },
+  {
+   "word": "perfectly",
+   "pos": "adverb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "Mr. Collins is perfectly natural, and perfectly alive.",
+    "\"I am perfectly convinced by it that Mr. Darcy has no defect.",
+    "I am perfectly serious in my refusal.",
+    "\"Perfectly so, I thank you.\"",
+    "\"He is perfectly well-behaved, polite, and unassuming,\" said her uncle.",
+    "But in spite of all this fine talking, my dear Lizzy, you may rest perfectly assured that your uncle would never have yielded, if we had not given him credit for another interest in the affair."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00009459-r",
+     "gloss": "completely and without qualification; used informally as intensifiers",
+     "learner": "completely and with nothing held back; used to make the word that follows stronger",
+     "examples": [
+      "I am perfectly serious in my refusal.",
+      "I am perfectly convinced by it that Mr. Darcy has no defect."
+     ],
+     "usage_labels": [
+      "informal"
+     ],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-00010112-r",
+     "gloss": "in a perfect or faultless way",
+     "learner": "in a way that has no faults or mistakes in it",
+     "examples": [
+      "She played the piece perfectly, without a single wrong note."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   ]
+  },
+  {
+   "word": "general",
+   "pos": "adjective",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "Sir William and Lady Lucas are determined to go, merely on that account; for in general, you know, they visit no new comers.",
+    "\"The country,\" said Darcy, \"can in general supply but few subjects for such a study.",
+    "Mr. Wickham began to speak on more general topics, Meryton, the neighbourhood, the society, appearing highly pleased with all that he had yet seen, and speaking of the latter, especially, with gentle but very intelligible gallantry.",
+    "Once or twice she could discern a faint blush; but in general Charlotte wisely did not hear.",
+    "His attachment excited gratitude, his general character respect: but she could not approve him; nor could she for a moment repent her refusal, or feel the slightest inclination ever to see him again.",
+    "A scheme of which every part promises delight can never be successful; and general disappointment is only warded off by the defence of some little peculiar vexation.\""
+   ],
+   "senses": [
+    {
+     "synset": "oewn-01105084-a",
+     "gloss": "applying to all or most members of a category or group",
+     "learner": "true of all or most of the members of a kind or a group",
+     "examples": [
+      "The general rule applies to every member of the club."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-00787396-s",
+     "gloss": "not specialized or limited to one class of things",
+     "learner": "not about one special kind of thing only",
+     "examples": [
+      "Mr. Wickham began to speak on more general topics, Meryton, the neighbourhood, the society"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-00489185-s",
+     "gloss": "prevailing among and common to the general public",
+     "learner": "found among most people and shared by them",
+     "examples": [
+      "general disappointment is only warded off by the defence of some little peculiar vexation"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-01845578-s",
+     "gloss": "somewhat indefinite"
+    },
+    {
+     "synset": "oewn-00529364-s",
+     "gloss": "of worldwide scope or applicability"
+    },
+    {
+     "synset": "oewn-01428950-a",
+     "gloss": "affecting the entire body"
+    }
+   ]
+  },
+  {
+   "word": "express",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "The characteristics of Miss Austen's humour are so subtle and delicate that they are, perhaps, at all times easier to apprehend than to express, and at any particular time likely to be differently apprehended by different persons.",
+    "But if you will listen to his letter, you may, perhaps, be a little softened by his manner of expressing himself.\"",
+    "Scarcely a syllable was uttered that did not relate to the game, except when Mrs. Jenkinson expressed her fears of Miss De Bourgh's being too hot or too cold, or having too much or too little light.",
+    "Mr. Gardiner expressed a wish of going round the whole park, but feared it might be beyond a walk.",
+    "It was not till the afternoon, when he joined them at tea, that Elizabeth ventured to introduce the subject; and then, on her briefly expressing her sorrow for what he must have endured, he replied, \"Say nothing of that.",
+    "Elizabeth honestly and heartily expressed her delight in the prospect of their relationship."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00945869-v",
+     "gloss": "give expression to",
+     "learner": "to let a thought or feeling be seen or known",
+     "examples": [
+      "they are, perhaps, at all times easier to apprehend than to express",
+      "you may, perhaps, be a little softened by his manner of expressing himself"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-00942415-v",
+     "gloss": "articulate; either verbally or with a cry, shout, or noise",
+     "learner": "to put something into words, or to let it out in a cry, a shout, or a noise",
+     "examples": [
+      "Mrs. Jenkinson expressed her fears of Miss De Bourgh's being too hot or too cold",
+      "Mr. Gardiner expressed a wish of going round the whole park"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-01062889-v",
+     "gloss": "serve as a means for expressing something",
+     "learner": "to be the thing by which something is made known",
+     "examples": [
+      "These few words express more than a long speech could."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-01063503-v",
+     "gloss": "indicate through a symbol, formula, etc."
+    },
+    {
+     "synset": "oewn-01033789-v",
+     "gloss": "send by rapid transport or special messenger service"
+    },
+    {
+     "synset": "oewn-01354457-v",
+     "gloss": "obtain from a substance, as by mechanical action"
+    },
+    {
+     "synset": "oewn-02148923-v",
+     "gloss": "manifest the effects of (a gene or genetic trait)"
+    }
+   ]
+  },
+  {
+   "word": "choose",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "I dare say Mr. Bingley will be very glad to see you; and I will send a few lines by you to assure him of my hearty consent to his marrying whichever he chooses of the girls--though I must throw in a good word for my little Lizzy.\"",
+    "\"You expect me to account for opinions which you choose to call mine, but which I have never acknowledged.",
+    "\"Probably not; but Mr. Darcy can please where he chooses.",
+    "\"Beyond a doubt they do wish him to choose Miss Darcy,\" replied Jane; \"but this may be from better feelings than you are supposing.",
+    "When have you been prevented by want of money from going wherever you chose or procuring anything you had a fancy for?\"",
+    "Her father lifted up his eyes, Jane was distressed, Elizabeth looked expressively at Lydia; but she, who never heard nor saw anything of which she chose to be insensible, gaily continued,--"
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00681856-v",
+     "gloss": "see fit or proper to act in a certain way; decide to act in a certain way",
+     "learner": "to think it right to act in a certain way, or to decide to act in that way",
+     "examples": [
+      "You expect me to account for opinions which you choose to call mine",
+      "she, who never heard nor saw anything of which she chose to be insensible"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-00676526-v",
+     "gloss": "pick out, select, or choose from a number of alternatives",
+     "learner": "to pick one out from a number of things you could have",
+     "examples": [
+      "my hearty consent to his marrying whichever he chooses of the girls",
+      "Beyond a doubt they do wish him to choose Miss Darcy"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    {
+     "synset": "oewn-00681308-v",
+     "gloss": "select as an alternative over another",
+     "learner": "to take one thing rather than another one",
+     "examples": [
+      "She chose tea over coffee."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "pass": "stage 7 step 7 - ~10% blind read of the 778",
+ "entries_read": 77,
+ "senses_read": 194,
+ "senses_wrong": 6,
+ "sense_defect_rate": 0.0309,
+ "rank_wrong": 0,
+ "unsure": 1,
+ "faults": {
+  "label-unjustified": 1,
+  "learner-narrowed": 1,
+  "example-wrong-sense": 2,
+  "other": 2
+ },
+ "wrong": [
+  "arrive/oewn-02591952-v label-unjustified: The learner line and example fit the succeed gloss, but the informal label rests on nothing in the packet: the gloss carries no register tag and no book sentence uses this sense.",
+  "defect/oewn-14487787-n learner-narrowed: The gloss is any imperfection in an object or machine, but the learner line restricts it to something wrong in the way the thing is made, a manufacturing framing the gloss does not carry.",
+  "less/oewn-01559809-a example-wrong-sense: The first example, 'Her mind was less difficult to develope', uses 'less' as the degree adverb modifying 'difficult', not as the quantifier the gloss names; the second example ('said less of her astonishment') is the quantifier and is fine, as are the learner line and the null.",
+  "misfortune/oewn-14498989-n example-wrong-sense: 'Marked out for misfortune' is the uncountable state and fits, but 'That would be the greatest misfortune of all!' is a single countable stroke of trouble, the same construction as 'so severe a misfortune' that the entry files under the first sense; learner line and null are fine.",
+  "offer/oewn-00788715-n other: The example 'He had one more offer at the puzzle' is in the intended attempt sense but is not English anyone says: this sense of 'offer' is a fossil that does not take 'at' plus a task the way 'go' or 'crack' does, so the invented sentence would teach a learner a phrasing that does not exist; learner line and null are fine.",
+  "truth/oewn-06736815-n other: Learner line and sense fit, but the second example is spliced from the book so that 'with Wickham!' has lost its antecedent ('gone off to Scotland with one of his officers') and no longer reads as a sentence; a garbled cut, not a wrong sense or a missing headword."
+ ],
+ "sample": {
+  "pool_entries": 766,
+  "sampled_entries": 77,
+  "fraction": 0.1005,
+  "seed": 705
+ },
+ "reader_model": "claude-fable-5-1",
+ "reader_agent": "general-purpose on fable reading .claude/agents/entry-reader.md verbatim (entry-reader by name still dies on [reasoning_extraction])",
+ "session_split": "NOT held - this session authored the 778 and also orchestrated this read. Guarantee is different-model-fresh-context, as censuses 006-011 ran; not comparable to a Shawn-read rate.",
+ "packet_03_rerun": "its first verdict file was invalid JSON and the reader rewrote it in place; re-run blind rather than accept a self-repaired file. Both passes scored 24/24 right.",
+ "benchmark": {
+  "pilot_blind_read": 0.0314,
+  "halt_line": 0.1
+ },
+ "extractor_note": "readers independently flagged that the sentence extractor sweeps the wrong part of speech into packets: mean/verb drew six sentences and none is the verb (rank returned unsure), leave/noun five verb sentences of six, less/adjective three adverbial. This forces written examples where the book should have supplied one, and both 'other' faults are in written or badly-cut examples."
+}

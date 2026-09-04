@@ -1,0 +1,90 @@
+{"packet": 3, "verdicts": [
+ {"word": "distinguish", "pos": "verb",
+  "rank": "right", "why": "The sentences split between perceiving (3, 5) and singling out for notice (2, 6), with 1 and 4 being the adjective 'distinguished'; the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-02197640-v", "verdict": "right",
+    "fault": null, "why": "Learner line is the gloss in plain words, the example is the gentlemen making out the ladies by sight, and perceiving does not judge."},
+   {"synset": "oewn-00924409-v", "verdict": "right",
+    "fault": null, "why": "Both examples are Austen's single-out-with-attention use, the nearest sense in the inventory, and being distinguished by someone lands as a favour, so candidate is fair."},
+   {"synset": "oewn-00652006-v", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'mark as different', the lawyers example uses that sense, and telling things apart does not judge."}
+  ]},
+ {"word": "doubt", "pos": "verb",
+  "rank": "right", "why": "Three sentences are the noun; the three verb uses (3, 4, 5) all read as withholding trust rather than judging something unlikely, so 'lack confidence in' belongs first.",
+  "senses": [
+   {"synset": "oewn-00689424-v", "verdict": "right",
+    "fault": null, "why": "Learner line renders the gloss plainly, both examples doubt a person or their account, and the verb describes the doubter's state without loading the object."},
+   {"synset": "oewn-00689196-v", "verdict": "right",
+    "fault": null, "why": "Learner line says 'consider unlikely' in plain words and the rain example is exactly that sense; null is right."}
+  ]},
+ {"word": "draw", "pos": "verb",
+  "rank": "right", "why": "'Drew near' and 'drew back' carry the move sense, 'drawn from her own family' is derive and 'draw no limits' is formulate; two 'drawing-room' hits are not the verb, so move leads with a plurality.",
+  "senses": [
+   {"synset": "oewn-02092374-v", "verdict": "right",
+    "fault": null, "why": "Learner line matches the gloss, 'as the time drew near' is the steady-movement sense, and it describes without judging."},
+   {"synset": "oewn-02298109-v", "verdict": "right",
+    "fault": null, "why": "'Get or gain something out of something else' is 'get or derive' in plain words and drawing comfort from letters is that sense; null is right."},
+   {"synset": "oewn-00732743-v", "verdict": "right",
+    "fault": null, "why": "'Make or work something out in your mind' covers make, formulate and derive; drawing limits to someone's impudence is a limit formulated in the mind, and null holds."}
+  ]},
+ {"word": "ease", "pos": "noun",
+  "rank": "right", "why": "Ease of manner carries sentences 1, 3 and 5, ease of doing carries 2 and 6, relief from anguish carries 4; the first sense is the majority.",
+  "senses": [
+   {"synset": "oewn-04794222-n", "verdict": "right",
+    "fault": null, "why": "The learner line renders constraint and embarrassment plainly, 'felt himself at ease' is that sense, and naming a graceful state is not a loaded word."},
+   {"synset": "oewn-04715389-n", "verdict": "right",
+    "fault": null, "why": "'No difficulty, no hardship, and no effort' lists the same three freedoms the gloss lists, and both examples are ease of doing; null is right."},
+   {"synset": "oewn-14469215-n", "verdict": "right",
+    "fault": null, "why": "Comfort and feeling better after trouble is the gloss with its parenthesis, and 'no interval of ease' after anguish is relief; null holds."}
+  ]},
+ {"word": "easily", "pos": "adverb",
+  "rank": "right", "why": "All six sentences are 'with ease' and that sense is first.",
+  "senses": [
+   {"synset": "oewn-00148912-r", "verdict": "right",
+    "fault": null, "why": "'With ease, without trouble' is the gloss, both examples are the with-ease sense, and it does not judge."},
+   {"synset": "oewn-00012993-r", "verdict": "right",
+    "fault": null, "why": "'Very likely' is the high-probability gloss and 'could easily have been lost' is that sense; null is right."},
+   {"synset": "oewn-00054973-r", "verdict": "right",
+    "fault": null, "why": "'With no doubt at all' is 'without doubt' and 'easily the best singer' uses it; null is right."}
+  ]},
+ {"word": "endeavour", "pos": "noun",
+  "rank": "right", "why": "Five sentences are the verb; the one noun use, 'an endeavour to check the imprudence', is the earnest-effort sense that sits first.",
+  "senses": [
+   {"synset": "oewn-00787849-n", "verdict": "right",
+    "fault": null, "why": "Serious, careful work meant to achieve something is the gloss in plain words, the example is the one noun sentence, and the word names an effort without judging it."},
+   {"synset": "oewn-00798547-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps purpose, industry and the effort-or-boldness parenthesis, the ice-voyage example is a bold undertaking, and null holds."}
+  ]},
+ {"word": "entreat", "pos": "verb",
+  "rank": "right", "why": "One sense, and every sentence is an earnest request.",
+  "senses": [
+   {"synset": "oewn-00761702-v", "verdict": "right",
+    "fault": null, "why": "'In a serious, urgent way' is 'earnestly' in plain words, both examples entreat, the sentences' register carries 'formal', and the verb describes the asker's manner without loading its object."}
+  ]},
+ {"word": "entreaty", "pos": "noun",
+  "rank": "right", "why": "One sense, and every sentence is an earnest or urgent request.",
+  "senses": [
+   {"synset": "oewn-07201488-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both 'earnest' and 'urgent' as the gloss's alternatives, both examples carry the headword in this sense, and null is right."}
+  ]},
+ {"word": "escape", "pos": "verb",
+  "rank": "right", "why": "Four of six sentences are 'escaped her notice/observation', for which the elude gloss is the nearest sense in the inventory; the one 'about to escape' and one 'cannot escape the acquaintance' do not plainly outrank anything above them.",
+  "senses": [
+   {"synset": "oewn-02729107-v", "verdict": "right",
+    "fault": null, "why": "'Cannot understand or take in' is the elude gloss plainly, an impropriety that 'had escaped her' is the thing eluding her grasp, and null holds."},
+   {"synset": "oewn-02078906-v", "verdict": "right",
+    "fault": null, "why": "Getting free from a place you were shut in is 'run away from confinement', the prisoners example is that sense, and a jailbreak is a bad referent not a loaded word."},
+   {"synset": "oewn-00812391-v", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both halves of the gloss, escaping with only a warning is getting away with a broken rule, and null is right."}
+  ]},
+ {"word": "fault", "pos": "noun",
+  "rank": "right", "why": "Every sentence is a fault as a shortcoming in a person, and that sense is first.",
+  "senses": [
+   {"synset": "oewn-05146359-n", "verdict": "right",
+    "fault": null, "why": "Not being good enough or falling short of perfect is the gloss, both examples are faults as shortcomings, and 'fault' is the plain word for the referent rather than a loaded one."},
+   {"synset": "oewn-00071785-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps all three causes the gloss names, writing the wrong date is a wrong act from inattention, and null holds."},
+   {"synset": "oewn-04677049-n", "verdict": "right",
+    "fault": null, "why": "Being the one answerable when something bad happens is 'responsibility for a bad situation', 'not her fault' is that sense, and null is right."}
+  ]}
+]}

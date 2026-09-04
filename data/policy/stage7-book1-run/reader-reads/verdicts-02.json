@@ -1,0 +1,90 @@
+{"packet": 2, "verdicts": [
+ {"word": "countenance", "pos": "noun",
+  "rank": "right", "why": "All six sentences use countenance for the look or expression of a face, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-04686906-n", "verdict": "right",
+    "fault": null, "why": "Learner line restates the gloss plainly, both examples use the headword for facial expression, and the word describes without judging."},
+   {"synset": "oewn-05609112-n", "verdict": "right",
+    "fault": null, "why": "Learner line matches the gloss, the example uses countenance as the physical face, and null is right for a plain noun for the face."},
+   {"synset": "oewn-06700103-n", "verdict": "right",
+    "fault": null, "why": "Official approval stated in clear words is a plain rendering of formal and explicit approval, the example uses the approval sense, and the word does not judge."}
+  ]},
+ {"word": "creature", "pos": "noun",
+  "rank": "right", "why": "Every sentence applies creature to a person as a living being, which is the first sense; no sentence uses the animal or puppet senses.",
+  "senses": [
+   {"synset": "oewn-09995959-n", "verdict": "right",
+    "fault": null, "why": "Learner line matches the gloss, both examples use creature of a person as a living being, and the word takes its colour from its adjective rather than judging on its own."},
+   {"synset": "oewn-00015568-n", "verdict": "right",
+    "fault": null, "why": "Learner line says what the gloss says in plain words, the example uses creature of animals, and null is right."},
+   {"synset": "oewn-09996081-n", "verdict": "right",
+    "fault": null, "why": "Learner line is faithful, the example uses creature as another's instrument, and the candidate is right because the word demeans the person as a tool."}
+  ]},
+ {"word": "curiosity", "pos": "noun",
+  "rank": "right", "why": "All six sentences use curiosity as the wish to learn more, which is listed first.",
+  "senses": [
+   {"synset": "oewn-05690411-n", "verdict": "right",
+    "fault": null, "why": "Learner line is a plain restatement, both examples use curiosity as the state of wanting to know, and null is right."},
+   {"synset": "oewn-03154617-n", "verdict": "right",
+    "fault": null, "why": "Learner line keeps both parts of the gloss, the example uses curiosity for an unusual object, and null is right."}
+  ]},
+ {"word": "dare", "pos": "verb",
+  "rank": "right", "why": "Four sentences use dare as being brave enough to do something and the two 'I dare say' idioms do not favour a lower sense over it.",
+  "senses": [
+   {"synset": "oewn-02550742-v", "verdict": "right",
+    "fault": null, "why": "Learner line restates the gloss, both examples use dared and daring in the be-brave-enough sense, and null is right."},
+   {"synset": "oewn-02380015-v", "verdict": "right",
+    "fault": null, "why": "Boldly and without being given permission together render presumptuously, the How dare you example is this sense, and the candidate is right because the word casts the act as overstepping."},
+   {"synset": "oewn-00869761-v", "verdict": "right",
+    "fault": null, "why": "Learner line matches the gloss, the example is a challenge, and null is right."}
+  ]},
+ {"word": "daughter", "pos": "noun",
+  "rank": "right", "why": "Single sense and every sentence uses it.",
+  "senses": [
+   {"synset": "oewn-10012375-n", "verdict": "right",
+    "fault": null, "why": "Learner line is faithful, both examples contain the headword in this sense, and null is right."}
+  ]},
+ {"word": "decide", "pos": "verb",
+  "rank": "right", "why": "The sentences split between making up one's mind and being settled, and the first sense is one of the split, carried plainly by the decide-on sentences.",
+  "senses": [
+   {"synset": "oewn-00699355-v", "verdict": "right",
+    "fault": null, "why": "Learner line is a plain restatement, both examples use decide as reaching a decision about something, and null is right."},
+   {"synset": "oewn-00700621-v", "verdict": "right",
+    "fault": null, "why": "Learner line joins the gloss's two halves without adding, the example uses decided as settled for good, and null is right."},
+   {"synset": "oewn-00703643-v", "verdict": "right",
+    "fault": null, "why": "Learner line renders both influence and determine, the example uses decided as determining the outcome, and null is right."}
+  ]},
+ {"word": "defect", "pos": "noun",
+  "rank": "right", "why": "All six sentences use defect as a failing in a person, which is listed first.",
+  "senses": [
+   {"synset": "oewn-05170169-n", "verdict": "right",
+    "fault": null, "why": "Learner line covers both failing and deficiency, both examples use defect as a person's failing, and the candidate is right because the word judges the trait as a fault."},
+   {"synset": "oewn-14487787-n", "verdict": "wrong",
+    "fault": "learner-narrowed", "why": "The gloss is any imperfection in an object or machine, but the learner line restricts it to something wrong in the way the thing is made, a manufacturing framing the gloss does not carry."},
+   {"synset": "oewn-04699505-n", "verdict": "right",
+    "fault": null, "why": "Learner line is faithful to the gloss including the body parenthesis, the example uses defect for a scar, and the candidate is right because the word says the mark spoils the appearance."}
+  ]},
+ {"word": "difficulty", "pos": "noun",
+  "rank": "right", "why": "All four sentences use difficulty as inconvenient effort in doing something, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00625102-n", "verdict": "right",
+    "fault": null, "why": "Learner line restates the gloss plainly, both examples use difficulty in the effort sense, and null is right."},
+   {"synset": "oewn-04716529-n", "verdict": "right",
+    "fault": null, "why": "Learner line follows the long gloss part by part, the example uses difficulty as the quality of a climb, and null is right."}
+  ]},
+ {"word": "dislike", "pos": "verb",
+  "rank": "right", "why": "The two verb sentences both use dislike as feeling distaste for someone or something, and it is the only sense.",
+  "senses": [
+   {"synset": "oewn-01780648-v", "verdict": "right",
+    "fault": null, "why": "Learner line matches the gloss, both examples use disliked and dislike as the verb in this sense, and null is right because the word reports an attitude without loading the referent."}
+  ]},
+ {"word": "dispose", "pos": "verb",
+  "rank": "right", "why": "All six sentences use disposed to as being made willing towards an action, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-00682760-v", "verdict": "right",
+    "fault": null, "why": "Learner line renders receptive or willing and the action-attitude-belief triple, both examples use disposed in this sense, and null is right."},
+   {"synset": "oewn-02227100-v", "verdict": "right",
+    "fault": null, "why": "Learner line matches the gloss, the example uses dispose of as throwing away, and null is right."},
+   {"synset": "oewn-02359918-v", "verdict": "right",
+    "fault": null, "why": "Learner line keeps give, sell and transfer, the example uses dispose of as transferring property, and null is right."}
+  ]}
+]}

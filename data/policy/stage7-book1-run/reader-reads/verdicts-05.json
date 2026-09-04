@@ -1,0 +1,98 @@
+{"packet": 5, "verdicts": [
+ {"word": "invitation", "pos": "noun",
+  "rank": "right", "why": "Five of the six sentences are a request to dine, visit or stay, and 'this was invitation enough' is a prompt to speak, so the request sense belongs first.",
+  "senses": [
+   {"synset": "oewn-07200808-n", "verdict": "right",
+    "fault": null, "why": "Learner line restates the gloss plainly, both examples are book uses of the request sense, no labels, and 'invitation' names without judging."},
+   {"synset": "oewn-04696397-n", "verdict": "right",
+    "fault": null, "why": "'Something that tempts you and draws you toward it' is the gloss in plain words, the open-window example is the allurement sense, and the word describes rather than judges."}
+  ]},
+ {"word": "leave", "pos": "noun",
+  "rank": "right", "why": "The only noun use in the packet, 'took leave of the whole party', is the polite-departure sense listed first; the other five sentences are the verb ('leave any message', 'leave Hertfordshire', 'leave his name') and give no noun evidence.",
+  "senses": [
+   {"synset": "oewn-00053917-n", "verdict": "right",
+    "fault": null, "why": "'The act of going away in a polite way' matches 'the act of departing politely', the example is the book's 'took leave of', and the word does not judge."},
+   {"synset": "oewn-06702859-n", "verdict": "right",
+    "fault": null, "why": "'Being allowed to do something' is 'permission' in plain words, 'asked leave to speak' is the permission sense, and null is right."},
+   {"synset": "oewn-15164090-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps 'work or duty' and the absence, 'came home on leave' is the absence-from-duty sense, and null is right."}
+  ]},
+ {"word": "less", "pos": "adjective",
+  "rank": "right", "why": "The quantifier uses in the packet ('said less of her astonishment', 'no less resentment', 'see the less of him') are the not-as-great-in-amount sense listed first; the three remaining sentences ('less difficult', 'less prosperous', 'less sheltered') are the adverb and do not bear on the adjective order.",
+  "senses": [
+   {"synset": "oewn-01559809-a", "verdict": "wrong",
+    "fault": "example-wrong-sense", "why": "The first example, 'Her mind was less difficult to develope', uses 'less' as the degree adverb modifying 'difficult', not as the quantifier the gloss names; the second example ('said less of her astonishment') is the quantifier and is fine, as are the learner line and the null."},
+   {"synset": "oewn-01561306-s", "verdict": "right",
+    "fault": null, "why": "'Fewer in number' is the gloss, 'less than three hours' is exactly the measure-phrase use the gloss calls idiomatic, and null is right."},
+   {"synset": "oewn-02355910-s", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both 'lower in quality' and the usual 'no', 'nothing less than his best work' is the lower-in-quality sense, and null is right."}
+  ]},
+ {"word": "lip", "pos": "noun",
+  "rank": "right", "why": "All six sentences are the mouth ('opening his lips', 'pass my lips', 'biting his lips'), which is listed first.",
+  "senses": [
+   {"synset": "oewn-05313305-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps the two folds, the mouth and the role in speaking, both examples are book uses of the mouth sense, and null is right."},
+   {"synset": "oewn-02905554-n", "verdict": "right",
+    "fault": null, "why": "'The top edge of a cup, jug, or other container' is the gloss plainly, the jug example is the rim sense, and null is right."},
+   {"synset": "oewn-06734698-n", "verdict": "right",
+    "fault": null, "why": "'A rude, cheeky answer given back to someone' is the impudent-rejoinder gloss, 'don't give me any lip' is that sense, 'informal' fits a sense that is a colloquial metonymy even though the gloss does not mark register itself, and the candidate is right because calling a reply 'lip' condemns it as insolent."}
+  ]},
+ {"word": "listen", "pos": "verb",
+  "rank": "right", "why": "Four of the six sentences ('listened with delight', 'were listened to', 'listened as little as she could', 'listened most attentively') are plain intentional hearing, listed first; 'would not listen to her daughter's proposal' is the heed sense and sits below it.",
+  "senses": [
+   {"synset": "oewn-02174335-v", "verdict": "right",
+    "fault": null, "why": "'To hear something on purpose' is 'hear with intention', both examples are book uses of that sense, and null is right."},
+   {"synset": "oewn-02175483-v", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both listening and taking notice, 'would not listen to her daughter's proposal' is refusing to heed, and null is right."},
+   {"synset": "oewn-02577816-v", "verdict": "right",
+    "fault": null, "why": "'To give close attention to someone or something' is the gloss, 'listened most attentively to all that passed' is close attention, and null is right."}
+  ]},
+ {"word": "match", "pos": "noun",
+  "rank": "right", "why": "All six sentences use 'match' for the marriage as a pairing ('advantages of the match', 'so unsuitable a match', 'so imprudent a match on both sides'), and of the OEWN senses the pair-of-people sense listed first is the one they carry; the good-prospect sense is a person, not a union.",
+  "senses": [
+   {"synset": "oewn-08005299-n", "verdict": "right",
+    "fault": null, "why": "'Two people who live together as a pair' is the gloss, the odd-match-parents example is the pairing sense, and null is right."},
+   {"synset": "oewn-09920434-n", "verdict": "right",
+    "fault": null, "why": "'A person who is seen as a good person to marry' is the gloss plainly, 'an excellent match for any young lady' is that sense, and the candidate is right because the word rates a person by their desirability as a spouse."},
+   {"synset": "oewn-03733928-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps the thin stick, the tip and the friction, the struck-match example is the lighter, and null is right."}
+  ]},
+ {"word": "matter", "pos": "noun",
+  "rank": "right", "why": "'Such matters as these', 'a matter of confidence', 'money matters' and 'for that matter' are the vaguely-specified-concern sense listed first; 'what was the matter' is the problem sense and sits second.",
+  "senses": [
+   {"synset": "oewn-05679169-n", "verdict": "right",
+    "fault": null, "why": "'Something you are dealing with, named only in a loose way' carries both the concern and the vagueness of the gloss, both examples are book uses of that sense, and null is right."},
+   {"synset": "oewn-05696202-n", "verdict": "right",
+    "fault": null, "why": "'Something that is wrong and causes trouble' is 'a problem' in plain words, 'found out what was the matter' is that sense, and null is right."},
+   {"synset": "oewn-05822417-n", "verdict": "right",
+    "fault": null, "why": "'A situation or event that people think about' is the gloss, 'refused to discuss the matter' is the situation-under-consideration sense, and null is right."}
+  ]},
+ {"word": "mean", "pos": "verb",
+  "rank": "unsure", "why": "None of the six sentences uses the verb: all are the noun 'means' ('by no means', 'the means or inclination', 'through his means') or 'meaning', so the packet offers no evidence for or against putting 'intend to convey' above 'have as a purpose'.",
+  "senses": [
+   {"synset": "oewn-00957180-v", "verdict": "right",
+    "fault": null, "why": "'To have something in mind that you are trying to say or get across' is the gloss, 'I meant that she rarely spoke' is that sense, and null is right."},
+   {"synset": "oewn-00710367-v", "verdict": "right",
+    "fault": null, "why": "'To have something in your mind as the purpose of what you do' is 'have in mind as a purpose', 'meant to write to her aunt' is that sense, and null is right."},
+   {"synset": "oewn-00933814-v", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both denote (direct sense) and connote (suggest along with it), the 'shortly means within the week' example is the denote sense, and null is right."}
+  ]},
+ {"word": "misfortune", "pos": "noun",
+  "rank": "right", "why": "Five of the six sentences are a countable stroke of trouble ('quite a misfortune', 'his misfortunes', 'so severe a misfortune'), the trouble-from-an-event sense listed first; only 'marked out for misfortune' is the state.",
+  "senses": [
+   {"synset": "oewn-07319470-n", "verdict": "right",
+    "fault": null, "why": "The learner line tracks unnecessary, unforeseen and resulting-from-an-unlucky-event, both examples are book uses of the countable-trouble sense, and null is right because the word names bad luck without judging the sufferer."},
+   {"synset": "oewn-14498989-n", "verdict": "wrong",
+    "fault": "example-wrong-sense", "why": "'Marked out for misfortune' is the uncountable state and fits, but 'That would be the greatest misfortune of all!' is a single countable stroke of trouble, the same construction as 'so severe a misfortune' that the entry files under the first sense; learner line and null are fine."}
+  ]},
+ {"word": "offer", "pos": "noun",
+  "rank": "right", "why": "The four noun uses are all a proposal of marriage and split between the act ('make the offer', 'made her an offer') and the thing offered ('this offer of marriage', 'those offers'); the act sense listed first is one of the split, and the two remaining sentences are the verb.",
+  "senses": [
+   {"synset": "oewn-07199736-n", "verdict": "right",
+    "fault": null, "why": "'The act of saying that you will give something or do something' is the verbal act of offering, both 'make an offer' examples are that act, and null is right."},
+   {"synset": "oewn-07179197-n", "verdict": "right",
+    "fault": null, "why": "'The thing that is offered, such as a proposal or a bid' is the gloss, both examples are the proposal as a thing refused or renewed, and null is right."},
+   {"synset": "oewn-00788715-n", "verdict": "wrong",
+    "fault": "other", "why": "The example 'He had one more offer at the puzzle' is in the intended attempt sense but is not English anyone says: this sense of 'offer' is a fossil that does not take 'at' plus a task the way 'go' or 'crack' does, so the invented sentence would teach a learner a phrasing that does not exist; learner line and null are fine."}
+  ]}
+]}
