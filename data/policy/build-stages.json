@@ -163,10 +163,10 @@
     {
      "n": 4,
      "step": "Pilot: null audit the 244 nulls",
-     "owner": "manager",
-     "state": "in_progress",
+     "owner": "manager (this run) - reading passes move to Shawn from step 7",
+     "state": "done",
      "commit": null,
-     "note": "6 of 8 read faults were false-null on evaluative abstract nouns; this measures the class"
+     "note": "244 nulls read, 5 false (2.05%). null-auditor spawned BY NAME, unlike entry-reader."
     },
     {
      "n": 5,
@@ -186,7 +186,7 @@
     {
      "n": 7,
      "step": "~10% blind read of the 778",
-     "owner": "manager",
+     "owner": "shawn",
      "state": "not_started",
      "commit": null
     },

@@ -3096,5 +3096,34 @@
   "stage4_rank_plus_enrich_per_entry": 5500,
   "control_forced_model_ranking_only_per_entry": 8094,
   "note": "reader fallback ~72k/packet against ~24k for a by-name author packet"
+ },
+ "null_audit": {
+  "auditor_agent": "null-auditor spawned BY NAME (model fable, effort xhigh from frontmatter)",
+  "spawned_by_name": true,
+  "note": "By-name worked for null-auditor. entry-reader by name trips Fable's [reasoning_extraction] safeguard; null-auditor does not, though both are fable/xhigh. The safeguard is rubric-specific, not model-specific.",
+  "nulls_read": 244,
+  "false_nulls": 5,
+  "false_null_rate": 0.0205,
+  "unsure": 0,
+  "cost_tokens": 197123,
+  "cost_note": "~19.7k/packet by name, against ~72k for the reader fallback",
+  "wrong": [
+   "shame/oewn-07319716-n",
+   "virtue/oewn-04856990-n",
+   "buy/oewn-00685589-v",
+   "elegance/oewn-04819517-n",
+   "elegance/oewn-04819885-n"
+  ],
+  "vs_blind_read": {
+   "both_agree_wrong": 4,
+   "reader_only": [
+    "virtue/oewn-04854529-n",
+    "virtue/oewn-04854713-n"
+   ],
+   "auditor_only": [
+    "buy/oewn-00685589-v"
+   ],
+   "reading": "Two independent Fable readers agree on 4 of 7 candidate false-nulls. They disagree on the two general-morality senses of virtue (the auditor upheld null; the reader did not) and on buy=accept-as-true (the auditor faulted it; the reader passed it). The disagreement is about where the line sits for evaluative abstract nouns, not about whether the class exists."
+  }
  }
 }
