@@ -1,0 +1,12 @@
+{"packet": 2, "verdicts": [
+ {"word": "truth", "pos": "noun",
+  "rank": "right", "why": "Four of the six sentences (a truth universally acknowledged, to own the truth, ignorant of the truth, a suspicion of the truth) use truth as the fact of the matter, which is the first-listed gloss; 'speaking the truth' is the true-statement sense and 'in truth' is a fixed adverbial, so the sentences split only at the edges and the first sense is the majority.",
+  "senses": [
+   {"synset": "oewn-05827597-n", "verdict": "right",
+    "fault": null, "why": "The learner line restates 'a fact that has been verified' in plainer words, the opening-line example uses truth as a fact everyone accepts, no labels are claimed, and truth in this sense names a state of affairs without judging it, so null holds."},
+   {"synset": "oewn-06736815-n", "verdict": "right",
+    "fault": null, "why": "'Something said that is true' is the gloss 'a true statement' in plain words; both examples ('speaking the truth', 'a few plain truths') use the headword as a statement that is true, no labels are claimed, and the word describes without judging."},
+   {"synset": "oewn-13979774-n", "verdict": "right",
+    "fault": null, "why": "'The state of agreeing with what is really so' matches 'conformity to reality or actuality'; the philosophers' example uses truth as the abstract quality rather than a particular fact or statement, no labels are claimed, and the word in this sense carries no judgment of its referent."}
+  ]}
+]}

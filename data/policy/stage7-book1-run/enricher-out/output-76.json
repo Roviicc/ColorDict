@@ -1,128 +1,271 @@
-{"packet": 76, "entries": [
- {"word": "establish", "pos": "verb",
-  "senses": {
-   "oewn-00666706-v": {"learner": "to show that something is true, for example by giving an example, an explanation, or a test.",
-                       "examples": ["Miss Bennet's lovely face confirmed his views, and established all his strictest notions of what was due to seniority."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01659048-v": {"learner": "to build up something you cannot touch, such as a reputation, a habit, or a set of ideas.",
-                       "examples": ["Years of steady work had established his reputation as a fair and careful judge."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01572936-v": {"learner": "to put someone or something in a place or position.",
-                       "examples": ["She established herself in the armchair by the window and would not move."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "commendation", "pos": "noun",
-  "senses": {
-   "oewn-06699481-n": {"learner": "words that say you think well of someone or something.",
-                       "examples": ["their brother felt authorized by such commendation to think of her as he chose", "She read over her aunt's commendation of him again and again."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06718888-n": {"learner": "an official honour, usually announced in public, given for something such as bravery or service.",
-                       "examples": ["He was given a commendation for bravery after the rescue."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "occupy", "pos": "verb",
-  "senses": {
-   "oewn-02420961-v": {"learner": "to keep someone busy with something.",
-                       "examples": ["Mrs. Hurst, principally occupied in playing with her bracelets and rings, joined now and then in her brother's conversation"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02272834-v": {"learner": "to need or take up a certain amount of time or space.",
-                       "examples": ["In that county there was enough to be seen to occupy the chief of their three weeks."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00601765-v": {"learner": "to take up all of someone's attention or time.",
-                       "examples": ["The puzzle occupied him completely, and he forgot the whole afternoon."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "valuable", "pos": "adjective",
-  "senses": {
-   "oewn-02598053-s": {"learner": "having worth or good qualities, so that it is worth having.",
-                       "examples": ["Lady Lucas was a very good kind of woman, not too clever to be a valuable neighbour to Mrs. Bennet.", "I doubt not, will prove a valuable acquaintance"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02510833-a": {"learner": "worth a great deal of money or goods, especially for using or trading.",
-                       "examples": ["I should at this time have been in possession of a most valuable living."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "convinced", "pos": "adjective",
-  "senses": {
-   "oewn-00338070-s": {"learner": "brought round to believing something, and quite sure of it.",
-                       "examples": ["She was convinced that she could have been happy with him, when it was no longer likely they should meet.", "his sisters, convinced that no country advice could be of any service, recommended an express to town"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00339319-a": {"learner": "holding a belief strongly.",
-                       "examples": ["He is a convinced pacifist and will not argue about it."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "end", "pos": "verb",
-  "senses": {
-   "oewn-02615799-v": {"learner": "to come to a stopping point, whether in time, in space, or in amount.",
-                       "examples": ["a whole day's tete-a-tete between two women can never end without a quarrel"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00353480-v": {"learner": "to make something stop.",
-                       "examples": ["She ended the meeting an hour early."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02741293-v": {"learner": "to be the last part of something.",
-                       "examples": ["A short quiet poem ends the book."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "defect", "pos": "noun",
-  "senses": {
-   "oewn-05170169-n": {"learner": "a fault in someone or something, or a lack of something that is needed.",
-                       "examples": ["And your defect is a propensity to hate everybody.", "it is better to know as little as possible of the defects of the person with whom you are to pass your life"],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "names a person's fault as something wrong in them"}},
-   "oewn-14487787-n": {"learner": "something wrong in the way a thing or a machine is made.",
-                       "examples": ["The engine had a defect that made it stall at low speed."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04699505-n": {"learner": "a mark or flaw that spoils how something looks, especially on a person's body.",
-                       "examples": ["A faint scar was the only defect on her smooth skin."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "treats a mark on the body as spoiling it"}}
-  }},
- {"word": "request", "pos": "noun",
-  "senses": {
-   "oewn-07199985-n": {"learner": "the act of asking for something in words.",
-                       "examples": ["at the request of the gentlemen remained at the instrument till her Ladyship's carriage was ready to take them all home"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06525357-n": {"learner": "a formal message asking for something, sent to someone in charge.",
-                       "examples": ["His daughter's request, for such it might be considered, of being admitted into her family again, received at first an absolute negative."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "dispose", "pos": "verb",
-  "senses": {
-   "oewn-00682760-v": {"learner": "to make someone open or willing to do something, or to feel or believe something.",
-                       "examples": ["if he is disposed to make them any amends, I shall not be the person to discourage him", "she was as much disposed to complain of it as her husband"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02227100-v": {"learner": "to throw something away.",
-                       "examples": ["She disposed of the old newspapers in the bin outside."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02359918-v": {"learner": "to give, sell, or hand something over to someone else.",
-                       "examples": ["He disposed of the estate to a distant cousin."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "entreat", "pos": "verb",
-  "senses": {
-   "oewn-00761702-v": {"learner": "to ask for something in a serious, urgent way.",
-                       "examples": ["I entreat you not to suppose that I moved this way in order to beg for a partner.", "In vain did she entreat him to stand up with somebody else."],
-                       "usage_labels": ["formal"],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 76,
+ "entries": [
+  {
+   "word": "establish",
+   "pos": "verb",
+   "senses": {
+    "oewn-00666706-v": {
+     "learner": "to show that something is true, for example by giving an example, an explanation, or a test.",
+     "examples": [
+      "Miss Bennet's lovely face confirmed his views, and established all his strictest notions of what was due to seniority."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01659048-v": {
+     "learner": "to build up something you cannot touch, such as a reputation, a habit, or a set of ideas.",
+     "examples": [
+      "Years of steady work had established his reputation as a fair and careful judge."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01572936-v": {
+     "learner": "to put someone or something in a place or position.",
+     "examples": [
+      "She established herself in the armchair by the window and would not move."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "commendation",
+   "pos": "noun",
+   "senses": {
+    "oewn-06699481-n": {
+     "learner": "words that say you think well of someone or something.",
+     "examples": [
+      "their brother felt authorized by such commendation to think of her as he chose",
+      "She read over her aunt's commendation of him again and again."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06718888-n": {
+     "learner": "an official honour, usually announced in public, given for something such as bravery or service.",
+     "examples": [
+      "He was given a commendation for bravery after the rescue."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "occupy",
+   "pos": "verb",
+   "senses": {
+    "oewn-02420961-v": {
+     "learner": "to keep someone busy with something.",
+     "examples": [
+      "Mrs. Hurst, principally occupied in playing with her bracelets and rings, joined now and then in her brother's conversation"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02272834-v": {
+     "learner": "to need or take up a certain amount of time or space.",
+     "examples": [
+      "In that county there was enough to be seen to occupy the chief of their three weeks."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00601765-v": {
+     "learner": "to take up all of someone's attention or time.",
+     "examples": [
+      "The puzzle occupied him completely, and he forgot the whole afternoon."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "valuable",
+   "pos": "adjective",
+   "senses": {
+    "oewn-02598053-s": {
+     "learner": "having worth or good qualities, so that it is worth having.",
+     "examples": [
+      "Lady Lucas was a very good kind of woman, not too clever to be a valuable neighbour to Mrs. Bennet.",
+      "I doubt not, will prove a valuable acquaintance"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02510833-a": {
+     "learner": "worth a great deal of money or goods, especially for using or trading.",
+     "examples": [
+      "I should at this time have been in possession of a most valuable living."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "convinced",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00338070-s": {
+     "learner": "brought round to believing something, and quite sure of it.",
+     "examples": [
+      "She was convinced that she could have been happy with him, when it was no longer likely they should meet.",
+      "his sisters, convinced that no country advice could be of any service, recommended an express to town"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00339319-a": {
+     "learner": "holding a belief strongly.",
+     "examples": [
+      "He is a convinced pacifist and will not argue about it."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "end",
+   "pos": "verb",
+   "senses": {
+    "oewn-02615799-v": {
+     "learner": "to come to a stopping point, whether in time, in space, or in amount.",
+     "examples": [
+      "a whole day's tete-a-tete between two women can never end without a quarrel"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00353480-v": {
+     "learner": "to make something stop.",
+     "examples": [
+      "She ended the meeting an hour early."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02741293-v": {
+     "learner": "to be the last part of something.",
+     "examples": [
+      "A short quiet poem ends the book."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "defect",
+   "pos": "noun",
+   "senses": {
+    "oewn-05170169-n": {
+     "learner": "a fault in someone or something, or a lack of something that is needed.",
+     "examples": [
+      "And your defect is a propensity to hate everybody.",
+      "it is better to know as little as possible of the defects of the person with whom you are to pass your life"
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "names a person's fault as something wrong in them"
+     }
+    },
+    "oewn-14487787-n": {
+     "learner": "something wrong with an object or a machine.",
+     "examples": [
+      "The engine had a defect that made it stall at low speed."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04699505-n": {
+     "learner": "a mark or flaw that spoils how something looks, especially on a person's body.",
+     "examples": [
+      "A faint scar was the only defect on her smooth skin."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "treats a mark on the body as spoiling it"
+     }
+    }
+   }
+  },
+  {
+   "word": "request",
+   "pos": "noun",
+   "senses": {
+    "oewn-07199985-n": {
+     "learner": "the act of asking for something in words.",
+     "examples": [
+      "at the request of the gentlemen remained at the instrument till her Ladyship's carriage was ready to take them all home"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06525357-n": {
+     "learner": "a formal message asking for something, sent to someone in charge.",
+     "examples": [
+      "His daughter's request, for such it might be considered, of being admitted into her family again, received at first an absolute negative."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "dispose",
+   "pos": "verb",
+   "senses": {
+    "oewn-00682760-v": {
+     "learner": "to make someone open or willing to do something, or to feel or believe something.",
+     "examples": [
+      "if he is disposed to make them any amends, I shall not be the person to discourage him",
+      "she was as much disposed to complain of it as her husband"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02227100-v": {
+     "learner": "to throw something away.",
+     "examples": [
+      "She disposed of the old newspapers in the bin outside."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02359918-v": {
+     "learner": "to give, sell, or hand something over to someone else.",
+     "examples": [
+      "He disposed of the estate to a distant cousin."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "entreat",
+   "pos": "verb",
+   "senses": {
+    "oewn-00761702-v": {
+     "learner": "to ask for something in a serious, urgent way.",
+     "examples": [
+      "I entreat you not to suppose that I moved this way in order to beg for a partner.",
+      "In vain did she entreat him to stand up with somebody else."
+     ],
+     "usage_labels": [
+      "formal"
+     ],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

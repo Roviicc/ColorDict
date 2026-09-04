@@ -1,0 +1,58 @@
+{"packet": 1, "verdicts": [
+ {"word": "arrive", "pos": "verb",
+  "rank": "right", "why": "Every sentence is a person, party or letter reaching a place (the dignity 'to which she was arrived' is still reaching by progress), and that sense is listed first.",
+  "senses": [
+   {"synset": "oewn-02009962-v", "verdict": "right",
+    "fault": null, "why": "The learner line is the gloss in plain words, both examples are book sentences of arriving at a place, and arriving describes without judging."},
+   {"synset": "oewn-02591952-v", "verdict": "right",
+    "fault": null, "why": "The learner line matches 'succeed in a big way', the example uses arrived for career success, and the word names an outcome rather than appraising the person."}
+  ]},
+ {"word": "defect", "pos": "noun",
+  "rank": "right", "why": "All six sentences are failings of a person or a temper, which is the failing-or-deficiency sense listed first.",
+  "senses": [
+   {"synset": "oewn-05170169-n", "verdict": "right",
+    "fault": null, "why": "'A fault or a lack of something needed' covers both halves of 'a failing or deficiency', both examples are book uses of that sense, and calling a trait a defect does judge it as falling short."},
+   {"synset": "oewn-14487787-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches the gloss, the engine example is this sense, and as a technical term for a mechanical imperfection it describes rather than judges."},
+   {"synset": "oewn-04699505-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps the 'spoils the appearance' and 'on a person's body' parts, the scar example is this sense, and the gloss itself makes the word a judgement that a mark spoils."}
+  ]},
+ {"word": "less", "pos": "adjective",
+  "rank": "right", "why": "Every sentence is 'less' of an amount or degree (less difficult, less prosperous, said less, no less resentment), never 'fewer' or 'lower in quality', and that sense is first.",
+  "senses": [
+   {"synset": "oewn-01559809-a", "verdict": "right",
+    "fault": null, "why": "'Not as much in amount or degree' is the gloss in plain words, both examples use less with a mass noun in this sense, and the word describes without judging."},
+   {"synset": "oewn-01561306-s", "verdict": "right",
+    "fault": null, "why": "'Fewer in number' is faithful, 'less than three hours' is the measure-phrase use the gloss itself names for this sense, and no label or judgement is involved."},
+   {"synset": "oewn-02355910-s", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both 'lower in quality' and the 'usually after no' condition, 'nothing less than his best work' is the quality sense, and null is right."}
+  ]},
+ {"word": "misfortune", "pos": "noun",
+  "rank": "right", "why": "Five of the six sentences use a countable misfortune for a piece of unlucky trouble, which is the first sense; only 'marked out for misfortune' is the state sense listed second.",
+  "senses": [
+   {"synset": "oewn-07319470-n", "verdict": "right",
+    "fault": null, "why": "The learner line renders 'unnecessary', 'unforeseen' and 'resulting from an unfortunate event' one by one, both examples are book uses of this sense, and the word names a kind of bad event without judging the person it befalls."},
+   {"synset": "oewn-14498989-n", "verdict": "right",
+    "fault": null, "why": "'A bad situation you are in because things have turned out badly' matches the state gloss, both examples are uncountable state uses, and null is right for the same reason as the sense above."}
+  ]},
+ {"word": "offer", "pos": "noun",
+  "rank": "right", "why": "Two sentences are the verb and the four noun uses are all a proposal of marriage, which splits between the act of offering and the thing offered; the act sense ('made her an offer', 'make the offer') is first and is one of the split.",
+  "senses": [
+   {"synset": "oewn-07199736-n", "verdict": "right",
+    "fault": null, "why": "'The act of saying that you will give or do something' is the verbal act of offering in plain words, both examples are 'make an offer' book sentences, and the word describes without judging."},
+   {"synset": "oewn-07179197-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps 'proposal or bid', both examples are the offer as the thing proposed ('this offer of marriage', 'renewal of those offers'), and null is right."},
+   {"synset": "oewn-00788715-n", "verdict": "right",
+    "fault": null, "why": "'A try at doing something, usually a short one' is the gloss, the latch example uses offer as an attempt, and the word describes without judging."}
+  ]},
+ {"word": "truth", "pos": "noun",
+  "rank": "right", "why": "'Ignorant of the truth', 'a suspicion of the truth' and 'to own the truth' are the fact that is so, which is listed first; 'speaking the truth' and 'in truth' are the second and third senses.",
+  "senses": [
+   {"synset": "oewn-05827597-n", "verdict": "right",
+    "fault": null, "why": "'A fact that has been checked and shown to be so' is the gloss in plain words, 'a truth universally acknowledged' is a fact taken as established, and the word describes without judging."},
+   {"synset": "oewn-06736815-n", "verdict": "wrong",
+    "fault": "other", "why": "The second example is the identical sentence given as the only example of the sense above; a sentence already used to show 'a fact that has been verified' cannot also show 'a true statement' as distinct from it, so this sense is illustrated by one book example and one duplicate that does not separate it from its neighbour."},
+   {"synset": "oewn-13979774-n", "verdict": "right",
+    "fault": null, "why": "'The state of agreeing with what is really so' matches 'conformity to reality', the philosophers example is the abstract quality, and null is right."}
+  ]}
+]}

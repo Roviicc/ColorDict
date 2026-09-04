@@ -1,0 +1,37 @@
+{
+ "pass": "stage 7 step 8 - third-hand repairs of the 10% read, and the blind re-read",
+ "repaired_senses": 6,
+ "repaired_entries": 6,
+ "faults_repaired": {
+  "example-wrong-sense": 2,
+  "other": 2,
+  "label-unjustified": 1,
+  "learner-narrowed": 1
+ },
+ "re_read_pass_1": {
+  "entries": 6,
+  "senses": 16,
+  "wrong": 1,
+  "rank_wrong": 0,
+  "fault": "truth oewn-06736815-n 'other': the repair reused the novel's opening line, which is already the sole example of the neighbouring verified-fact sense. One sentence cannot separate two senses."
+ },
+ "re_read_pass_2": {
+  "entries": 1,
+  "senses": 3,
+  "wrong": 0,
+  "rank_wrong": 0,
+  "note": "truth re-repaired with a distinct written example ('a few plain truths about the business') and re-read clean."
+ },
+ "net": "6 of 6 repairs verified; one needed a second pass, and the fault in it was the repairing hand's, caught by the reader.",
+ "new_fault_class_seen": "example duplicated across two neighbouring senses - not produced by the pilot or by step 7's read. Worth a class of its own if it recurs.",
+ "reader_model": "claude-fable-5-1",
+ "reader_agent": "general-purpose on fable reading .claude/agents/entry-reader.md verbatim",
+ "session_split": "NOT held - this session authored the 778, wrote the repairs, and orchestrated both re-reads.",
+ "validator_after_repairs": {
+  "accepted": 766,
+  "rejected": 12,
+  "senses": 1998,
+  "null": 1903,
+  "candidate": 95
+ }
+}

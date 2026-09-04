@@ -1,140 +1,295 @@
-{"packet": 42, "entries": [
- {"word": "judge", "pos": "verb",
-  "senses": {
-   "oewn-00672179-v": {"learner": "to think carefully about someone or something and decide how good or bad it is",
-                       "examples": ["You must give me leave to judge for myself, and pay me the compliment of believing what I say.", "But everybody is to judge for themselves"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00973682-v": {"learner": "to state a decision you have made about someone or something",
-                       "examples": ["The doctor judged her fit to return to work."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00674352-v": {"learner": "to make a rough guess about how much there is of something, or how long something takes",
-                       "examples": ["I judged the distance to the house to be about a mile."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "observation", "pos": "noun",
-  "senses": {
-   "oewn-06779826-n": {"learner": "something you say after thinking it over carefully",
-                       "examples": ["had some new extracts to admire and some new observations of threadbare morality to listen to", "This observation would not have prevented her from trying to talk to the latter"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00881437-n": {"learner": "the act of watching someone or something in a patient, unhurried way",
-                       "examples": ["at Longbourn there would be leisure enough for observation", "the observation of a very few minutes convinced her that she was only exceedingly shy"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05711376-n": {"learner": "the act of noticing something, or giving your attention to it",
-                       "examples": ["The change in her manner escaped his observation."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "protest", "pos": "verb",
-  "senses": {
-   "oewn-01013569-v": {"learner": "to state seriously and firmly that something is true",
-                       "examples": ["He protested that she should receive from him no mark of affection whatever on the occasion.", "Mrs. Philips protested that they would have a nice comfortable noisy game of lottery tickets"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02527076-v": {"learner": "to show that you are against something by what you do or by what you say",
-                       "examples": ["she had meant to encourage him by protesting against his proposals"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00912088-v": {"learner": "to say words that show you object to something",
-                       "examples": ["The boy protested that she should not; she continued to declare that she would"],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "speech", "pos": "noun",
-  "senses": {
-   "oewn-07144758-n": {"learner": "a thing that someone has said",
-                       "examples": ["To this speech Bingley made no answer", "that speech savours strongly of disappointment"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07125165-n": {"learner": "the passing of spoken words back and forth between people",
-                       "examples": ["Away ran the girls, too eager to get in to have time for speech."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07253354-n": {"learner": "the act of giving a formal talk to a group of listeners",
-                       "examples": ["Her cousin prefaced his speech with a solemn bow", "with a bow to Mr. Darcy, he concluded his speech, which had been spoken so loud as to be heard by half the room"],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "ground", "pos": "noun",
-  "senses": {
-   "oewn-09357302-n": {"learner": "the firm surface of the earth that we walk and stand on",
-                       "examples": ["It was a large, handsome stone building, standing well on rising ground"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-09201896-n": {"learner": "a sensible reason for believing something or for doing something",
-                       "examples": ["She had no grounds for thinking that he would come back."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-14867162-n": {"learner": "the loose soft stuff that covers much of the land",
-                       "examples": ["He dug a hole in the ground and set the young tree in it."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "resentment", "pos": "noun",
-  "senses": {
-   "oewn-07564444-n": {"learner": "a deep, bitter anger and bad feeling towards someone",
-                       "examples": ["Nor did that day wear out her resentment.", "Mr. Darcy seemed to catch her words with no less resentment than surprise."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "names anger held and nursed against someone rather than plain anger"}}
-  }},
- {"word": "grow", "pos": "verb",
-  "senses": {
-   "oewn-00125649-v": {"learner": "to come little by little into some state, or to take on some quality; to become",
-                       "examples": ["She grew absolutely ashamed of herself.", "she cannot grow many degrees worse"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00251067-v": {"learner": "to develop until you are fully formed and adult",
-                       "examples": ["With three younger sisters grown up, your Ladyship can hardly expect me to own it."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00231172-v": {"learner": "to get bigger, greater, or more than before",
-                       "examples": ["The crowd outside the inn grew larger as the evening went on."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "report", "pos": "noun",
-  "senses": {
-   "oewn-06694296-n": {"learner": "a short telling of what has happened",
-                       "examples": ["a report soon followed that Mr. Bingley was to bring twelve ladies and seven gentlemen with him to the assembly", "pretend to be affronted at an idle report"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07232584-n": {"learner": "the act of telling people about something by speaking",
-                       "examples": ["We learned of the accident only through her report."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07233130-n": {"learner": "a written paper setting out what a person or a group has found out",
-                       "examples": ["The committee published its report on the state of the roads."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "step", "pos": "noun",
-  "senses": {
-   "oewn-00175261-n": {"learner": "an action you take as part of getting closer to something you want",
-                       "examples": ["To be fond of dancing was a certain step towards falling in love", "this false step in one daughter will be injurious to the fortunes of all the others"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04322052-n": {"learner": "one of the flat places you rest your foot on when going up or down a stairway",
-                       "examples": ["When they ascended the steps to the hall, Maria's alarm was every moment increasing"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00286401-n": {"learner": "the act of moving by lifting your foot and putting it down again",
-                       "examples": ["He took a step towards the door and then stopped."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "arrive", "pos": "verb",
-  "senses": {
-   "oewn-02009962-v": {"learner": "to get to the place you were going to",
-                       "examples": ["When Mr. Bennet arrived, he had all the appearance of his usual philosophic composure.", "a letter arrived from Mrs. Gardiner"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02591952-v": {"learner": "to become very successful and reach the top",
-                       "examples": ["After years of small parts, she felt she had finally arrived."],
-                       "usage_labels": ["informal"],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 42,
+ "entries": [
+  {
+   "word": "judge",
+   "pos": "verb",
+   "senses": {
+    "oewn-00672179-v": {
+     "learner": "to think carefully about someone or something and decide how good or bad it is",
+     "examples": [
+      "You must give me leave to judge for myself, and pay me the compliment of believing what I say.",
+      "But everybody is to judge for themselves"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00973682-v": {
+     "learner": "to state a decision you have made about someone or something",
+     "examples": [
+      "The doctor judged her fit to return to work."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00674352-v": {
+     "learner": "to make a rough guess about how much there is of something, or how long something takes",
+     "examples": [
+      "I judged the distance to the house to be about a mile."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "observation",
+   "pos": "noun",
+   "senses": {
+    "oewn-06779826-n": {
+     "learner": "something you say after thinking it over carefully",
+     "examples": [
+      "had some new extracts to admire and some new observations of threadbare morality to listen to",
+      "This observation would not have prevented her from trying to talk to the latter"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00881437-n": {
+     "learner": "the act of watching someone or something in a patient, unhurried way",
+     "examples": [
+      "at Longbourn there would be leisure enough for observation",
+      "the observation of a very few minutes convinced her that she was only exceedingly shy"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05711376-n": {
+     "learner": "the act of noticing something, or giving your attention to it",
+     "examples": [
+      "The change in her manner escaped his observation."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "protest",
+   "pos": "verb",
+   "senses": {
+    "oewn-01013569-v": {
+     "learner": "to state seriously and firmly that something is true",
+     "examples": [
+      "He protested that she should receive from him no mark of affection whatever on the occasion.",
+      "Mrs. Philips protested that they would have a nice comfortable noisy game of lottery tickets"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02527076-v": {
+     "learner": "to show that you are against something by what you do or by what you say",
+     "examples": [
+      "she had meant to encourage him by protesting against his proposals"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00912088-v": {
+     "learner": "to say words that show you object to something",
+     "examples": [
+      "The boy protested that she should not; she continued to declare that she would"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "speech",
+   "pos": "noun",
+   "senses": {
+    "oewn-07144758-n": {
+     "learner": "a thing that someone has said",
+     "examples": [
+      "To this speech Bingley made no answer",
+      "that speech savours strongly of disappointment"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07125165-n": {
+     "learner": "the passing of spoken words back and forth between people",
+     "examples": [
+      "Away ran the girls, too eager to get in to have time for speech."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07253354-n": {
+     "learner": "the act of giving a formal talk to a group of listeners",
+     "examples": [
+      "Her cousin prefaced his speech with a solemn bow",
+      "with a bow to Mr. Darcy, he concluded his speech, which had been spoken so loud as to be heard by half the room"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "ground",
+   "pos": "noun",
+   "senses": {
+    "oewn-09357302-n": {
+     "learner": "the firm surface of the earth that we walk and stand on",
+     "examples": [
+      "It was a large, handsome stone building, standing well on rising ground"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-09201896-n": {
+     "learner": "a sensible reason for believing something or for doing something",
+     "examples": [
+      "She had no grounds for thinking that he would come back."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-14867162-n": {
+     "learner": "the loose soft stuff that covers much of the land",
+     "examples": [
+      "He dug a hole in the ground and set the young tree in it."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "resentment",
+   "pos": "noun",
+   "senses": {
+    "oewn-07564444-n": {
+     "learner": "a deep, bitter anger and bad feeling towards someone",
+     "examples": [
+      "Nor did that day wear out her resentment.",
+      "Mr. Darcy seemed to catch her words with no less resentment than surprise."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "names anger held and nursed against someone rather than plain anger"
+     }
+    }
+   }
+  },
+  {
+   "word": "grow",
+   "pos": "verb",
+   "senses": {
+    "oewn-00125649-v": {
+     "learner": "to come little by little into some state, or to take on some quality; to become",
+     "examples": [
+      "She grew absolutely ashamed of herself.",
+      "she cannot grow many degrees worse"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00251067-v": {
+     "learner": "to develop until you are fully formed and adult",
+     "examples": [
+      "With three younger sisters grown up, your Ladyship can hardly expect me to own it."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00231172-v": {
+     "learner": "to get bigger, greater, or more than before",
+     "examples": [
+      "The crowd outside the inn grew larger as the evening went on."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "report",
+   "pos": "noun",
+   "senses": {
+    "oewn-06694296-n": {
+     "learner": "a short telling of what has happened",
+     "examples": [
+      "a report soon followed that Mr. Bingley was to bring twelve ladies and seven gentlemen with him to the assembly",
+      "pretend to be affronted at an idle report"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07232584-n": {
+     "learner": "the act of telling people about something by speaking",
+     "examples": [
+      "We learned of the accident only through her report."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07233130-n": {
+     "learner": "a written paper setting out what a person or a group has found out",
+     "examples": [
+      "The committee published its report on the state of the roads."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "step",
+   "pos": "noun",
+   "senses": {
+    "oewn-00175261-n": {
+     "learner": "an action you take as part of getting closer to something you want",
+     "examples": [
+      "To be fond of dancing was a certain step towards falling in love",
+      "this false step in one daughter will be injurious to the fortunes of all the others"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04322052-n": {
+     "learner": "one of the flat places you rest your foot on when going up or down a stairway",
+     "examples": [
+      "When they ascended the steps to the hall, Maria's alarm was every moment increasing"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00286401-n": {
+     "learner": "the act of moving by lifting your foot and putting it down again",
+     "examples": [
+      "He took a step towards the door and then stopped."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "arrive",
+   "pos": "verb",
+   "senses": {
+    "oewn-02009962-v": {
+     "learner": "to get to the place you were going to",
+     "examples": [
+      "When Mr. Bennet arrived, he had all the appearance of his usual philosophic composure.",
+      "a letter arrived from Mrs. Gardiner"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02591952-v": {
+     "learner": "to become very successful and reach the top",
+     "examples": [
+      "After years of small parts, she felt she had finally arrived."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}
