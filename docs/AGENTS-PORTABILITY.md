@@ -78,7 +78,19 @@ on model fable ran clean, twice.
 So for `entry-reader` and `null-auditor`: try by name first, and fall back to
 general-purpose + read-the-file if it trips. Record
 `reader_agent: general-purpose+<file>` in the results so the run stays
-comparable. Neither reader runs in the stage 7 pilot.
+comparable.
+
+**Measured 2026-09-04, and the two readers differ:**
+
+| agent | model / effort | by name |
+| --- | --- | --- |
+| `null-auditor` | fable / xhigh | **works** - 244 nulls read clean, ~20k a packet |
+| `entry-reader` | fable / xhigh | **fails** - `[reasoning_extraction]`, every time |
+
+Identical frontmatter, opposite results. So the safeguard is triggered by *a
+particular rubric*, not by the model or the effort, and neither reader should
+be assumed to behave like the other. It is worth ~3.5x: the by-name auditor
+ran at ~20k a packet against ~72k for the reader fallback.
 
 ## If you cannot spawn the authors by name
 
