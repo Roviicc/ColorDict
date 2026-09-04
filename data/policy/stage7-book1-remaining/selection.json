@@ -1,0 +1,6162 @@
+{
+ "book_id": "3f6bb9d6f78e0293",
+ "book": "Pride and Prejudice",
+ "n": 878,
+ "derived_from": "data/policy/stage7-book1",
+ "excluded_already_written": 50,
+ "exclude_files": [
+  "data/policy/enrich-002/selected.json"
+ ],
+ "seed": 7,
+ "strata": null,
+ "bands": null,
+ "rule": "top of the book's lemma+POS list by occurrences, joined to OEWN 2025 through derived-bulk.jsonl, not already in a family, with at least 3 usable sentences",
+ "entries": [
+  {
+   "word": "daughter",
+   "pos": "noun",
+   "occurrences": 135,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "father",
+   "pos": "noun",
+   "occurrences": 132,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "always",
+   "pos": "adverb",
+   "occurrences": 125,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "wish",
+   "pos": "verb",
+   "occurrences": 125,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "many",
+   "pos": "adjective",
+   "occurrences": 121,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "seem",
+   "pos": "verb",
+   "occurrences": 119,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "way",
+   "pos": "noun",
+   "occurrences": 119,
+   "senses": 12,
+   "sentences": 6
+  },
+  {
+   "word": "do",
+   "pos": "verb",
+   "occurrences": 116,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "feeling",
+   "pos": "noun",
+   "occurrences": 114,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "away",
+   "pos": "adverb",
+   "occurrences": 114,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "receive",
+   "pos": "verb",
+   "occurrences": 110,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "all",
+   "pos": "adverb",
+   "occurrences": 109,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "talk",
+   "pos": "verb",
+   "occurrences": 107,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "marry",
+   "pos": "verb",
+   "occurrences": 106,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "long",
+   "pos": "adverb",
+   "occurrences": 106,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "house",
+   "pos": "noun",
+   "occurrences": 105,
+   "senses": 12,
+   "sentences": 6
+  },
+  {
+   "word": "reply",
+   "pos": "verb",
+   "occurrences": 104,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "indeed",
+   "pos": "adverb",
+   "occurrences": 99,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "last",
+   "pos": "adjective",
+   "occurrences": 99,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "pleasure",
+   "pos": "noun",
+   "occurrences": 99,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "attention",
+   "pos": "noun",
+   "occurrences": 97,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "subject",
+   "pos": "noun",
+   "occurrences": 95,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "even",
+   "pos": "adverb",
+   "occurrences": 95,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "hope",
+   "pos": "verb",
+   "occurrences": 93,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "have",
+   "pos": "verb",
+   "occurrences": 93,
+   "senses": 18,
+   "sentences": 6
+  },
+  {
+   "word": "often",
+   "pos": "adverb",
+   "occurrences": 92,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "really",
+   "pos": "adverb",
+   "occurrences": 91,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "walk",
+   "pos": "verb",
+   "occurrences": 91,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "quite",
+   "pos": "adverb",
+   "occurrences": 90,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "perhaps",
+   "pos": "adverb",
+   "occurrences": 89,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "woman",
+   "pos": "noun",
+   "occurrences": 88,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "suppose",
+   "pos": "verb",
+   "occurrences": 88,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "write",
+   "pos": "verb",
+   "occurrences": 87,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "call",
+   "pos": "verb",
+   "occurrences": 87,
+   "senses": 28,
+   "sentences": 6
+  },
+  {
+   "word": "get",
+   "pos": "verb",
+   "occurrences": 87,
+   "senses": 36,
+   "sentences": 6
+  },
+  {
+   "word": "far",
+   "pos": "adverb",
+   "occurrences": 86,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "girl",
+   "pos": "noun",
+   "occurrences": 86,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "ask",
+   "pos": "verb",
+   "occurrences": 86,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "add",
+   "pos": "verb",
+   "occurrences": 85,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "there",
+   "pos": "adverb",
+   "occurrences": 84,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "expect",
+   "pos": "verb",
+   "occurrences": 84,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "love",
+   "pos": "noun",
+   "occurrences": 83,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "let",
+   "pos": "verb",
+   "occurrences": 83,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "aunt",
+   "pos": "noun",
+   "occurrences": 83,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "moment",
+   "pos": "noun",
+   "occurrences": 82,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "meet",
+   "pos": "verb",
+   "occurrences": 82,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "word",
+   "pos": "noun",
+   "occurrences": 81,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "morning",
+   "pos": "noun",
+   "occurrences": 81,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "gentleman",
+   "pos": "noun",
+   "occurrences": 80,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "brother",
+   "pos": "noun",
+   "occurrences": 80,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "like",
+   "pos": "verb",
+   "occurrences": 79,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "place",
+   "pos": "noun",
+   "occurrences": 78,
+   "senses": 16,
+   "sentences": 6
+  },
+  {
+   "word": "enough",
+   "pos": "adverb",
+   "occurrences": 78,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "evening",
+   "pos": "noun",
+   "occurrences": 78,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "begin",
+   "pos": "verb",
+   "occurrences": 78,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "just",
+   "pos": "adverb",
+   "occurrences": 77,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "certainly",
+   "pos": "adverb",
+   "occurrences": 77,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "still",
+   "pos": "adverb",
+   "occurrences": 77,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "return",
+   "pos": "verb",
+   "occurrences": 77,
+   "senses": 16,
+   "sentences": 6
+  },
+  {
+   "word": "character",
+   "pos": "noun",
+   "occurrences": 75,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "appear",
+   "pos": "verb",
+   "occurrences": 75,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "opinion",
+   "pos": "noun",
+   "occurrences": 75,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "few",
+   "pos": "adjective",
+   "occurrences": 74,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "here",
+   "pos": "adverb",
+   "occurrences": 74,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "therefore",
+   "pos": "adverb",
+   "occurrences": 74,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "before",
+   "pos": "adverb",
+   "occurrences": 74,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "bring",
+   "pos": "verb",
+   "occurrences": 73,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "same",
+   "pos": "adjective",
+   "occurrences": 73,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "assure",
+   "pos": "verb",
+   "occurrences": 73,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "world",
+   "pos": "noun",
+   "occurrences": 72,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "sit",
+   "pos": "verb",
+   "occurrences": 72,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "uncle",
+   "pos": "noun",
+   "occurrences": 72,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "party",
+   "pos": "noun",
+   "occurrences": 71,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "year",
+   "pos": "noun",
+   "occurrences": 71,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "mean",
+   "pos": "verb",
+   "occurrences": 69,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "want",
+   "pos": "verb",
+   "occurrences": 67,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "town",
+   "pos": "noun",
+   "occurrences": 67,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "marriage",
+   "pos": "noun",
+   "occurrences": 67,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "least",
+   "pos": "adjective",
+   "occurrences": 66,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "affection",
+   "pos": "noun",
+   "occurrences": 65,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "thing",
+   "pos": "noun",
+   "occurrences": 65,
+   "senses": 12,
+   "sentences": 6
+  },
+  {
+   "word": "almost",
+   "pos": "adverb",
+   "occurrences": 65,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "part",
+   "pos": "noun",
+   "occurrences": 65,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "person",
+   "pos": "noun",
+   "occurrences": 65,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "allow",
+   "pos": "verb",
+   "occurrences": 65,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "next",
+   "pos": "adjective",
+   "occurrences": 65,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "turn",
+   "pos": "verb",
+   "occurrences": 65,
+   "senses": 26,
+   "sentences": 6
+  },
+  {
+   "word": "hour",
+   "pos": "noun",
+   "occurrences": 65,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "together",
+   "pos": "adverb",
+   "occurrences": 65,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "idea",
+   "pos": "noun",
+   "occurrences": 64,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "conversation",
+   "pos": "noun",
+   "occurrences": 63,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "acquaintance",
+   "pos": "noun",
+   "occurrences": 63,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "wish",
+   "pos": "noun",
+   "occurrences": 63,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "rather",
+   "pos": "adverb",
+   "occurrences": 62,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "enter",
+   "pos": "verb",
+   "occurrences": 62,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "yet",
+   "pos": "adverb",
+   "occurrences": 61,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "side",
+   "pos": "noun",
+   "occurrences": 61,
+   "senses": 12,
+   "sentences": 6
+  },
+  {
+   "word": "cousin",
+   "pos": "noun",
+   "occurrences": 61,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "immediately",
+   "pos": "adverb",
+   "occurrences": 61,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "once",
+   "pos": "adverb",
+   "occurrences": 60,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "no",
+   "pos": "adverb",
+   "occurrences": 59,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "life",
+   "pos": "noun",
+   "occurrences": 58,
+   "senses": 14,
+   "sentences": 6
+  },
+  {
+   "word": "settle",
+   "pos": "verb",
+   "occurrences": 58,
+   "senses": 22,
+   "sentences": 6
+  },
+  {
+   "word": "mention",
+   "pos": "verb",
+   "occurrences": 58,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "husband",
+   "pos": "noun",
+   "occurrences": 56,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "continue",
+   "pos": "verb",
+   "occurrences": 56,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "course",
+   "pos": "noun",
+   "occurrences": 55,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "mind",
+   "pos": "noun",
+   "occurrences": 55,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "follow",
+   "pos": "verb",
+   "occurrences": 55,
+   "senses": 26,
+   "sentences": 6
+  },
+  {
+   "word": "behaviour",
+   "pos": "noun",
+   "occurrences": 55,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "read",
+   "pos": "verb",
+   "occurrences": 54,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "present",
+   "pos": "adjective",
+   "occurrences": 54,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "dare",
+   "pos": "verb",
+   "occurrences": 54,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "hope",
+   "pos": "noun",
+   "occurrences": 54,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "ill",
+   "pos": "adjective",
+   "occurrences": 54,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "reason",
+   "pos": "noun",
+   "occurrences": 54,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "able",
+   "pos": "adjective",
+   "occurrences": 54,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "kind",
+   "pos": "noun",
+   "occurrences": 53,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "perfectly",
+   "pos": "adverb",
+   "occurrences": 53,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "general",
+   "pos": "adjective",
+   "occurrences": 52,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "express",
+   "pos": "verb",
+   "occurrences": 52,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "choose",
+   "pos": "verb",
+   "occurrences": 52,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "join",
+   "pos": "verb",
+   "occurrences": 52,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "wife",
+   "pos": "noun",
+   "occurrences": 51,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "answer",
+   "pos": "noun",
+   "occurrences": 51,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "object",
+   "pos": "noun",
+   "occurrences": 50,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "hardly",
+   "pos": "adverb",
+   "occurrences": 50,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "spirit",
+   "pos": "noun",
+   "occurrences": 50,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "engage",
+   "pos": "verb",
+   "occurrences": 50,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "civility",
+   "pos": "noun",
+   "occurrences": 50,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "people",
+   "pos": "noun",
+   "occurrences": 50,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "keep",
+   "pos": "verb",
+   "occurrences": 49,
+   "senses": 22,
+   "sentences": 6
+  },
+  {
+   "word": "point",
+   "pos": "noun",
+   "occurrences": 49,
+   "senses": 26,
+   "sentences": 6
+  },
+  {
+   "word": "mean",
+   "pos": "noun",
+   "occurrences": 49,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "home",
+   "pos": "noun",
+   "occurrences": 49,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "answer",
+   "pos": "verb",
+   "occurrences": 49,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "carriage",
+   "pos": "noun",
+   "occurrences": 49,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "agreeable",
+   "pos": "adjective",
+   "occurrences": 48,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "send",
+   "pos": "verb",
+   "occurrences": 48,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "power",
+   "pos": "noun",
+   "occurrences": 48,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "business",
+   "pos": "noun",
+   "occurrences": 47,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "short",
+   "pos": "adjective",
+   "occurrences": 47,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "bear",
+   "pos": "verb",
+   "occurrences": 47,
+   "senses": 14,
+   "sentences": 6
+  },
+  {
+   "word": "week",
+   "pos": "noun",
+   "occurrences": 47,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "circumstance",
+   "pos": "noun",
+   "occurrences": 47,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "heart",
+   "pos": "noun",
+   "occurrences": 46,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "live",
+   "pos": "verb",
+   "occurrences": 46,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "observe",
+   "pos": "verb",
+   "occurrences": 46,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "stay",
+   "pos": "verb",
+   "occurrences": 46,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "occasion",
+   "pos": "noun",
+   "occurrences": 45,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "pride",
+   "pos": "noun",
+   "occurrences": 45,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "ball",
+   "pos": "noun",
+   "occurrences": 45,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "door",
+   "pos": "noun",
+   "occurrences": 45,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "understand",
+   "pos": "verb",
+   "occurrences": 45,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "minute",
+   "pos": "noun",
+   "occurrences": 45,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "remain",
+   "pos": "verb",
+   "occurrences": 45,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "scarcely",
+   "pos": "adverb",
+   "occurrences": 45,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "visit",
+   "pos": "noun",
+   "occurrences": 44,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "regard",
+   "pos": "noun",
+   "occurrences": 44,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "listen",
+   "pos": "verb",
+   "occurrences": 44,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "happen",
+   "pos": "verb",
+   "occurrences": 44,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "country",
+   "pos": "noun",
+   "occurrences": 43,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "back",
+   "pos": "adverb",
+   "occurrences": 43,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "less",
+   "pos": "adverb",
+   "occurrences": 43,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "lose",
+   "pos": "verb",
+   "occurrences": 43,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "persuade",
+   "pos": "verb",
+   "occurrences": 43,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "dance",
+   "pos": "verb",
+   "occurrences": 43,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "case",
+   "pos": "noun",
+   "occurrences": 41,
+   "senses": 20,
+   "sentences": 6
+  },
+  {
+   "word": "sometimes",
+   "pos": "adverb",
+   "occurrences": 41,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "put",
+   "pos": "verb",
+   "occurrences": 41,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "advantage",
+   "pos": "noun",
+   "occurrences": 41,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "table",
+   "pos": "noun",
+   "occurrences": 41,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "officer",
+   "pos": "noun",
+   "occurrences": 40,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "fortune",
+   "pos": "noun",
+   "occurrences": 40,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "spend",
+   "pos": "verb",
+   "occurrences": 40,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "honour",
+   "pos": "noun",
+   "occurrences": 40,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "prevent",
+   "pos": "verb",
+   "occurrences": 40,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "situation",
+   "pos": "noun",
+   "occurrences": 39,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "former",
+   "pos": "adjective",
+   "occurrences": 39,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "dear",
+   "pos": "noun",
+   "occurrences": 39,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "forget",
+   "pos": "verb",
+   "occurrences": 39,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "child",
+   "pos": "noun",
+   "occurrences": 39,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "book",
+   "pos": "noun",
+   "occurrences": 38,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "likely",
+   "pos": "adjective",
+   "occurrences": 38,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "accept",
+   "pos": "verb",
+   "occurrences": 38,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "respect",
+   "pos": "noun",
+   "occurrences": 38,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "connection",
+   "pos": "noun",
+   "occurrences": 38,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "rest",
+   "pos": "noun",
+   "occurrences": 38,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "relate",
+   "pos": "verb",
+   "occurrences": 38,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "less",
+   "pos": "adjective",
+   "occurrences": 38,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "stand",
+   "pos": "verb",
+   "occurrences": 38,
+   "senses": 12,
+   "sentences": 6
+  },
+  {
+   "word": "question",
+   "pos": "noun",
+   "occurrences": 38,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "attend",
+   "pos": "verb",
+   "occurrences": 38,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "long",
+   "pos": "adjective",
+   "occurrences": 38,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "resolve",
+   "pos": "verb",
+   "occurrences": 38,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "love",
+   "pos": "verb",
+   "occurrences": 37,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "thought",
+   "pos": "noun",
+   "occurrences": 37,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "draw",
+   "pos": "verb",
+   "occurrences": 37,
+   "senses": 36,
+   "sentences": 6
+  },
+  {
+   "word": "compliment",
+   "pos": "noun",
+   "occurrences": 37,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "help",
+   "pos": "verb",
+   "occurrences": 37,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "afraid",
+   "pos": "adjective",
+   "occurrences": 37,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "surprise",
+   "pos": "noun",
+   "occurrences": 37,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "sort",
+   "pos": "noun",
+   "occurrences": 37,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "hand",
+   "pos": "noun",
+   "occurrences": 36,
+   "senses": 14,
+   "sentences": 6
+  },
+  {
+   "word": "account",
+   "pos": "noun",
+   "occurrences": 36,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "name",
+   "pos": "noun",
+   "occurrences": 36,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "matter",
+   "pos": "noun",
+   "occurrences": 36,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "oblige",
+   "pos": "verb",
+   "occurrences": 36,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "relation",
+   "pos": "noun",
+   "occurrences": 36,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "deal",
+   "pos": "noun",
+   "occurrences": 35,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "also",
+   "pos": "adverb",
+   "occurrences": 35,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "head",
+   "pos": "noun",
+   "occurrences": 35,
+   "senses": 33,
+   "sentences": 6
+  },
+  {
+   "word": "try",
+   "pos": "verb",
+   "occurrences": 35,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "merely",
+   "pos": "adverb",
+   "occurrences": 35,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "expression",
+   "pos": "noun",
+   "occurrences": 35,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "invitation",
+   "pos": "noun",
+   "occurrences": 35,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "convince",
+   "pos": "verb",
+   "occurrences": 35,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "night",
+   "pos": "noun",
+   "occurrences": 35,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "run",
+   "pos": "verb",
+   "occurrences": 35,
+   "senses": 41,
+   "sentences": 6
+  },
+  {
+   "word": "consequence",
+   "pos": "noun",
+   "occurrences": 34,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "remember",
+   "pos": "verb",
+   "occurrences": 34,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "wonder",
+   "pos": "verb",
+   "occurrences": 34,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "inquiry",
+   "pos": "noun",
+   "occurrences": 34,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "beauty",
+   "pos": "noun",
+   "occurrences": 34,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "smile",
+   "pos": "noun",
+   "occurrences": 34,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "pay",
+   "pos": "verb",
+   "occurrences": 34,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "appearance",
+   "pos": "noun",
+   "occurrences": 34,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "usual",
+   "pos": "adjective",
+   "occurrences": 34,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "show",
+   "pos": "verb",
+   "occurrences": 33,
+   "senses": 12,
+   "sentences": 6
+  },
+  {
+   "word": "real",
+   "pos": "adjective",
+   "occurrences": 33,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "determine",
+   "pos": "verb",
+   "occurrences": 33,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "niece",
+   "pos": "noun",
+   "occurrences": 33,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "wait",
+   "pos": "verb",
+   "occurrences": 33,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "dinner",
+   "pos": "noun",
+   "occurrences": 33,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "particularly",
+   "pos": "adverb",
+   "occurrences": 33,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "smile",
+   "pos": "verb",
+   "occurrences": 33,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "walk",
+   "pos": "noun",
+   "occurrences": 33,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "necessary",
+   "pos": "adjective",
+   "occurrences": 32,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "opportunity",
+   "pos": "noun",
+   "occurrences": 32,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "set",
+   "pos": "verb",
+   "occurrences": 32,
+   "senses": 25,
+   "sentences": 6
+  },
+  {
+   "word": "exactly",
+   "pos": "adverb",
+   "occurrences": 32,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "open",
+   "pos": "verb",
+   "occurrences": 32,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "arrival",
+   "pos": "noun",
+   "occurrences": 32,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "afterwards",
+   "pos": "adverb",
+   "occurrences": 32,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "imagine",
+   "pos": "verb",
+   "occurrences": 32,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "enough",
+   "pos": "adjective",
+   "occurrences": 32,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "lead",
+   "pos": "verb",
+   "occurrences": 32,
+   "senses": 14,
+   "sentences": 6
+  },
+  {
+   "word": "become",
+   "pos": "verb",
+   "occurrences": 32,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "society",
+   "pos": "noun",
+   "occurrences": 32,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "repeat",
+   "pos": "verb",
+   "occurrences": 32,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "length",
+   "pos": "noun",
+   "occurrences": 32,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "concern",
+   "pos": "noun",
+   "occurrences": 32,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "engagement",
+   "pos": "noun",
+   "occurrences": 32,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "return",
+   "pos": "noun",
+   "occurrences": 32,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "servant",
+   "pos": "noun",
+   "occurrences": 31,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "news",
+   "pos": "noun",
+   "occurrences": 31,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "air",
+   "pos": "noun",
+   "occurrences": 31,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "silence",
+   "pos": "noun",
+   "occurrences": 31,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "instantly",
+   "pos": "adverb",
+   "occurrences": 31,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "comfort",
+   "pos": "noun",
+   "occurrences": 31,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "endeavour",
+   "pos": "verb",
+   "occurrences": 31,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "month",
+   "pos": "noun",
+   "occurrences": 31,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "equal",
+   "pos": "adjective",
+   "occurrences": 30,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "delight",
+   "pos": "noun",
+   "occurrences": 30,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "neighbourhood",
+   "pos": "noun",
+   "occurrences": 30,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "over",
+   "pos": "adverb",
+   "occurrences": 30,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "countenance",
+   "pos": "noun",
+   "occurrences": 30,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "doubt",
+   "pos": "noun",
+   "occurrences": 29,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "whole",
+   "pos": "noun",
+   "occurrences": 29,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "nature",
+   "pos": "noun",
+   "occurrences": 29,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "view",
+   "pos": "noun",
+   "occurrences": 29,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "already",
+   "pos": "adverb",
+   "occurrences": 29,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "disposition",
+   "pos": "noun",
+   "occurrences": 29,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "pain",
+   "pos": "noun",
+   "occurrences": 29,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "learn",
+   "pos": "verb",
+   "occurrences": 29,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "thus",
+   "pos": "adverb",
+   "occurrences": 29,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "head",
+   "pos": "verb",
+   "occurrences": 29,
+   "senses": 9,
+   "sentences": 5
+  },
+  {
+   "word": "promise",
+   "pos": "verb",
+   "occurrences": 29,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "kindness",
+   "pos": "noun",
+   "occurrences": 29,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "please",
+   "pos": "verb",
+   "occurrences": 29,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "face",
+   "pos": "noun",
+   "occurrences": 29,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "surprised",
+   "pos": "adjective",
+   "occurrences": 29,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "thank",
+   "pos": "verb",
+   "occurrences": 29,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "master",
+   "pos": "noun",
+   "occurrences": 29,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "scheme",
+   "pos": "noun",
+   "occurrences": 28,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "entirely",
+   "pos": "adverb",
+   "occurrences": 28,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "highly",
+   "pos": "adverb",
+   "occurrences": 28,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "attachment",
+   "pos": "noun",
+   "occurrences": 28,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "exceedingly",
+   "pos": "adverb",
+   "occurrences": 28,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "satisfaction",
+   "pos": "noun",
+   "occurrences": 28,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "humour",
+   "pos": "noun",
+   "occurrences": 27,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "interest",
+   "pos": "noun",
+   "occurrences": 27,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "natural",
+   "pos": "adjective",
+   "occurrences": 27,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "play",
+   "pos": "verb",
+   "occurrences": 27,
+   "senses": 35,
+   "sentences": 6
+  },
+  {
+   "word": "self",
+   "pos": "noun",
+   "occurrences": 27,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "use",
+   "pos": "verb",
+   "occurrences": 27,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "end",
+   "pos": "noun",
+   "occurrences": 27,
+   "senses": 14,
+   "sentences": 6
+  },
+  {
+   "word": "ago",
+   "pos": "adverb",
+   "occurrences": 27,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "strong",
+   "pos": "adjective",
+   "occurrences": 27,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "absence",
+   "pos": "noun",
+   "occurrences": 27,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "breakfast",
+   "pos": "noun",
+   "occurrences": 27,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "truth",
+   "pos": "noun",
+   "occurrences": 27,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "acknowledge",
+   "pos": "verb",
+   "occurrences": 27,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "throw",
+   "pos": "verb",
+   "occurrences": 27,
+   "senses": 15,
+   "sentences": 6
+  },
+  {
+   "word": "information",
+   "pos": "noun",
+   "occurrences": 27,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "intend",
+   "pos": "verb",
+   "occurrences": 27,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "event",
+   "pos": "noun",
+   "occurrences": 27,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "easily",
+   "pos": "adverb",
+   "occurrences": 27,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "forward",
+   "pos": "adverb",
+   "occurrences": 27,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "form",
+   "pos": "verb",
+   "occurrences": 27,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "money",
+   "pos": "noun",
+   "occurrences": 27,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "probably",
+   "pos": "adverb",
+   "occurrences": 26,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "declare",
+   "pos": "verb",
+   "occurrences": 26,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "conduct",
+   "pos": "noun",
+   "occurrences": 26,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "prove",
+   "pos": "verb",
+   "occurrences": 26,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "admiration",
+   "pos": "noun",
+   "occurrences": 26,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "look",
+   "pos": "noun",
+   "occurrences": 26,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "fix",
+   "pos": "verb",
+   "occurrences": 26,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "temper",
+   "pos": "noun",
+   "occurrences": 26,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "credit",
+   "pos": "noun",
+   "occurrences": 26,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "dance",
+   "pos": "noun",
+   "occurrences": 26,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "expectation",
+   "pos": "noun",
+   "occurrences": 26,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "quit",
+   "pos": "verb",
+   "occurrences": 26,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "importance",
+   "pos": "noun",
+   "occurrences": 26,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "beg",
+   "pos": "verb",
+   "occurrences": 26,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "increase",
+   "pos": "verb",
+   "occurrences": 26,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "wholly",
+   "pos": "adverb",
+   "occurrences": 26,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "cause",
+   "pos": "noun",
+   "occurrences": 25,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "early",
+   "pos": "adjective",
+   "occurrences": 25,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "son",
+   "pos": "noun",
+   "occurrences": 25,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "especially",
+   "pos": "adverb",
+   "occurrences": 25,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "only",
+   "pos": "adjective",
+   "occurrences": 25,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "several",
+   "pos": "adjective",
+   "occurrences": 25,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "affair",
+   "pos": "noun",
+   "occurrences": 25,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "objection",
+   "pos": "noun",
+   "occurrences": 25,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "sake",
+   "pos": "noun",
+   "occurrences": 25,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "astonishment",
+   "pos": "noun",
+   "occurrences": 25,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "sir",
+   "pos": "noun",
+   "occurrences": 25,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "care",
+   "pos": "noun",
+   "occurrences": 25,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "visitor",
+   "pos": "noun",
+   "occurrences": 25,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "degree",
+   "pos": "noun",
+   "occurrences": 24,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "regiment",
+   "pos": "noun",
+   "occurrences": 24,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "design",
+   "pos": "noun",
+   "occurrences": 24,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "introduce",
+   "pos": "verb",
+   "occurrences": 24,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "estate",
+   "pos": "noun",
+   "occurrences": 24,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "hop",
+   "pos": "verb",
+   "occurrences": 24,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "pound",
+   "pos": "noun",
+   "occurrences": 24,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "offer",
+   "pos": "verb",
+   "occurrences": 24,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "perceive",
+   "pos": "verb",
+   "occurrences": 24,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "force",
+   "pos": "verb",
+   "occurrences": 24,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "drive",
+   "pos": "verb",
+   "occurrences": 24,
+   "senses": 22,
+   "sentences": 6
+  },
+  {
+   "word": "nephew",
+   "pos": "noun",
+   "occurrences": 24,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "recollect",
+   "pos": "verb",
+   "occurrences": 24,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "match",
+   "pos": "noun",
+   "occurrences": 24,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "reach",
+   "pos": "verb",
+   "occurrences": 23,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "arise",
+   "pos": "verb",
+   "occurrences": 23,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "term",
+   "pos": "noun",
+   "occurrences": 23,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "journey",
+   "pos": "noun",
+   "occurrences": 23,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "voice",
+   "pos": "noun",
+   "occurrences": 23,
+   "senses": 12,
+   "sentences": 6
+  },
+  {
+   "word": "inform",
+   "pos": "verb",
+   "occurrences": 23,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "recommend",
+   "pos": "verb",
+   "occurrences": 23,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "suffer",
+   "pos": "verb",
+   "occurrences": 23,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "address",
+   "pos": "verb",
+   "occurrences": 23,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "fortnight",
+   "pos": "noun",
+   "occurrences": 23,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "curiosity",
+   "pos": "noun",
+   "occurrences": 23,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "inquire",
+   "pos": "verb",
+   "occurrences": 23,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "alone",
+   "pos": "adverb",
+   "occurrences": 23,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "spite",
+   "pos": "noun",
+   "occurrences": 23,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "directly",
+   "pos": "adverb",
+   "occurrences": 23,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "companion",
+   "pos": "noun",
+   "occurrences": 23,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "comprehend",
+   "pos": "verb",
+   "occurrences": 23,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "inclination",
+   "pos": "noun",
+   "occurrences": 23,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "assurance",
+   "pos": "noun",
+   "occurrences": 23,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "frequently",
+   "pos": "adverb",
+   "occurrences": 23,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "proper",
+   "pos": "adjective",
+   "occurrences": 22,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "seek",
+   "pos": "verb",
+   "occurrences": 22,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "want",
+   "pos": "noun",
+   "occurrences": 22,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "company",
+   "pos": "noun",
+   "occurrences": 22,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "care",
+   "pos": "verb",
+   "occurrences": 22,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "knowledge",
+   "pos": "noun",
+   "occurrences": 22,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "latter",
+   "pos": "adjective",
+   "occurrences": 22,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "fear",
+   "pos": "noun",
+   "occurrences": 22,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "proceed",
+   "pos": "verb",
+   "occurrences": 22,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "visit",
+   "pos": "verb",
+   "occurrences": 22,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "acquaint",
+   "pos": "verb",
+   "occurrences": 22,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "window",
+   "pos": "noun",
+   "occurrences": 22,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "praise",
+   "pos": "noun",
+   "occurrences": 22,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "address",
+   "pos": "noun",
+   "occurrences": 22,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "mile",
+   "pos": "noun",
+   "occurrences": 22,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "conceal",
+   "pos": "verb",
+   "occurrences": 22,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "refuse",
+   "pos": "verb",
+   "occurrences": 22,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "apply",
+   "pos": "verb",
+   "occurrences": 21,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "scene",
+   "pos": "noun",
+   "occurrences": 21,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "deceive",
+   "pos": "verb",
+   "occurrences": 21,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "full",
+   "pos": "adjective",
+   "occurrences": 21,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "proposal",
+   "pos": "noun",
+   "occurrences": 21,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "chapter",
+   "pos": "noun",
+   "occurrences": 21,
+   "senses": 5,
+   "sentences": 5
+  },
+  {
+   "word": "agree",
+   "pos": "verb",
+   "occurrences": 21,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "reply",
+   "pos": "noun",
+   "occurrences": 21,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "either",
+   "pos": "adverb",
+   "occurrences": 21,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "library",
+   "pos": "noun",
+   "occurrences": 21,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "favour",
+   "pos": "noun",
+   "occurrences": 21,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "gratitude",
+   "pos": "noun",
+   "occurrences": 21,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "notice",
+   "pos": "noun",
+   "occurrences": 21,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "doubt",
+   "pos": "verb",
+   "occurrences": 21,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "avoid",
+   "pos": "verb",
+   "occurrences": 21,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "pray",
+   "pos": "verb",
+   "occurrences": 21,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "offer",
+   "pos": "noun",
+   "occurrences": 21,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "deserve",
+   "pos": "verb",
+   "occurrences": 21,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "effect",
+   "pos": "noun",
+   "occurrences": 20,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "about",
+   "pos": "adverb",
+   "occurrences": 20,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "require",
+   "pos": "verb",
+   "occurrences": 20,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "none",
+   "pos": "noun",
+   "occurrences": 20,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "most",
+   "pos": "adjective",
+   "occurrences": 20,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "morrow",
+   "pos": "noun",
+   "occurrences": 20,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "equally",
+   "pos": "adverb",
+   "occurrences": 20,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "instead",
+   "pos": "adverb",
+   "occurrences": 20,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "partner",
+   "pos": "noun",
+   "occurrences": 20,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "satisfy",
+   "pos": "verb",
+   "occurrences": 20,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "invite",
+   "pos": "verb",
+   "occurrences": 20,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "intention",
+   "pos": "noun",
+   "occurrences": 20,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "pause",
+   "pos": "noun",
+   "occurrences": 20,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "though",
+   "pos": "adverb",
+   "occurrences": 20,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "drawing",
+   "pos": "noun",
+   "occurrences": 20,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "occur",
+   "pos": "verb",
+   "occurrences": 20,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "particular",
+   "pos": "noun",
+   "occurrences": 20,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "rejoice",
+   "pos": "verb",
+   "occurrences": 20,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "evil",
+   "pos": "noun",
+   "occurrences": 20,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "recollection",
+   "pos": "noun",
+   "occurrences": 20,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "trouble",
+   "pos": "noun",
+   "occurrences": 20,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "work",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "tone",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "admit",
+   "pos": "verb",
+   "occurrences": 19,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "loss",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "change",
+   "pos": "verb",
+   "occurrences": 19,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "sentiment",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "line",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 30,
+   "sentences": 6
+  },
+  {
+   "word": "change",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "state",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "explain",
+   "pos": "verb",
+   "occurrences": 19,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "affectionate",
+   "pos": "adjective",
+   "occurrences": 19,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "married",
+   "pos": "adjective",
+   "occurrences": 19,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "affect",
+   "pos": "verb",
+   "occurrences": 19,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "understanding",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "chance",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "reflection",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "intelligence",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "neighbour",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "dislike",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "strike",
+   "pos": "verb",
+   "occurrences": 19,
+   "senses": 23,
+   "sentences": 6
+  },
+  {
+   "word": "ill",
+   "pos": "adverb",
+   "occurrences": 19,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "approach",
+   "pos": "verb",
+   "occurrences": 19,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "danger",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "resolution",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "anxiety",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "prepare",
+   "pos": "verb",
+   "occurrences": 19,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "confess",
+   "pos": "verb",
+   "occurrences": 19,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "living",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "summer",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "owe",
+   "pos": "verb",
+   "occurrences": 18,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "connect",
+   "pos": "verb",
+   "occurrences": 18,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "act",
+   "pos": "verb",
+   "occurrences": 18,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "judge",
+   "pos": "verb",
+   "occurrences": 18,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "need",
+   "pos": "verb",
+   "occurrences": 18,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "observation",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "protest",
+   "pos": "verb",
+   "occurrences": 18,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "speech",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "ground",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "resentment",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "grow",
+   "pos": "verb",
+   "occurrences": 18,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "report",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "step",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "arrive",
+   "pos": "verb",
+   "occurrences": 18,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "civil",
+   "pos": "adjective",
+   "occurrences": 18,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "absolutely",
+   "pos": "adverb",
+   "occurrences": 18,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "purpose",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "vanity",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "success",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "felicity",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "shake",
+   "pos": "verb",
+   "occurrences": 18,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "present",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "health",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "prospect",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "home",
+   "pos": "adverb",
+   "occurrences": 18,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "prevail",
+   "pos": "verb",
+   "occurrences": 18,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "place",
+   "pos": "verb",
+   "occurrences": 18,
+   "senses": 16,
+   "sentences": 6
+  },
+  {
+   "word": "concern",
+   "pos": "verb",
+   "occurrences": 18,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "capable",
+   "pos": "adjective",
+   "occurrences": 18,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "park",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "disappointment",
+   "pos": "noun",
+   "occurrences": 18,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "fact",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "early",
+   "pos": "adverb",
+   "occurrences": 17,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "otherwise",
+   "pos": "adverb",
+   "occurrences": 17,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "contain",
+   "pos": "verb",
+   "occurrences": 17,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "taste",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "regret",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "generally",
+   "pos": "adverb",
+   "occurrences": 17,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "period",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "conclude",
+   "pos": "verb",
+   "occurrences": 17,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "age",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "meeting",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "hint",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "last",
+   "pos": "adverb",
+   "occurrences": 17,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "sight",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "law",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "creature",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "ease",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "likewise",
+   "pos": "adverb",
+   "occurrences": 17,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "rise",
+   "pos": "verb",
+   "occurrences": 17,
+   "senses": 17,
+   "sentences": 6
+  },
+  {
+   "word": "turn",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 12,
+   "sentences": 6
+  },
+  {
+   "word": "move",
+   "pos": "verb",
+   "occurrences": 17,
+   "senses": 16,
+   "sentences": 6
+  },
+  {
+   "word": "politeness",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "indifference",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "duty",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "motive",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "part",
+   "pos": "verb",
+   "occurrences": 17,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "attempt",
+   "pos": "verb",
+   "occurrences": 17,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "readily",
+   "pos": "adverb",
+   "occurrences": 17,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "direction",
+   "pos": "noun",
+   "occurrences": 17,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "recover",
+   "pos": "verb",
+   "occurrences": 17,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "carry",
+   "pos": "verb",
+   "occurrences": 17,
+   "senses": 40,
+   "sentences": 6
+  },
+  {
+   "word": "mark",
+   "pos": "verb",
+   "occurrences": 17,
+   "senses": 15,
+   "sentences": 6
+  },
+  {
+   "word": "advice",
+   "pos": "noun",
+   "occurrences": 16,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "attempt",
+   "pos": "noun",
+   "occurrences": 16,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "comparison",
+   "pos": "noun",
+   "occurrences": 16,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "picture",
+   "pos": "noun",
+   "occurrences": 16,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "half",
+   "pos": "adjective",
+   "occurrences": 16,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "folly",
+   "pos": "noun",
+   "occurrences": 16,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "unable",
+   "pos": "adjective",
+   "occurrences": 16,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "extraordinary",
+   "pos": "adjective",
+   "occurrences": 16,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "ignorant",
+   "pos": "adjective",
+   "occurrences": 16,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "suddenly",
+   "pos": "adverb",
+   "occurrences": 16,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "escape",
+   "pos": "verb",
+   "occurrences": 16,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "decide",
+   "pos": "verb",
+   "occurrences": 16,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "discover",
+   "pos": "verb",
+   "occurrences": 16,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "catch",
+   "pos": "verb",
+   "occurrences": 16,
+   "senses": 29,
+   "sentences": 6
+  },
+  {
+   "word": "gratify",
+   "pos": "verb",
+   "occurrences": 16,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "stranger",
+   "pos": "noun",
+   "occurrences": 16,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "interrupt",
+   "pos": "verb",
+   "occurrences": 16,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "plan",
+   "pos": "noun",
+   "occurrences": 16,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "desire",
+   "pos": "noun",
+   "occurrences": 16,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "suspect",
+   "pos": "verb",
+   "occurrences": 16,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "bestow",
+   "pos": "verb",
+   "occurrences": 16,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "distance",
+   "pos": "noun",
+   "occurrences": 16,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "dine",
+   "pos": "verb",
+   "occurrences": 16,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "card",
+   "pos": "noun",
+   "occurrences": 16,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "housekeeper",
+   "pos": "noun",
+   "occurrences": 16,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "gain",
+   "pos": "verb",
+   "occurrences": 16,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "produce",
+   "pos": "verb",
+   "occurrences": 16,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "misery",
+   "pos": "noun",
+   "occurrences": 16,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "difference",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "afford",
+   "pos": "verb",
+   "occurrences": 15,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "describe",
+   "pos": "verb",
+   "occurrences": 15,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "disagreeable",
+   "pos": "adjective",
+   "occurrences": 15,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "extremely",
+   "pos": "adverb",
+   "occurrences": 15,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "accompany",
+   "pos": "verb",
+   "occurrences": 15,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "consideration",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "fancy",
+   "pos": "verb",
+   "occurrences": 15,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "amusement",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "being",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "choice",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "render",
+   "pos": "verb",
+   "occurrences": 15,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "succeed",
+   "pos": "verb",
+   "occurrences": 15,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "winter",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "alarm",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "long",
+   "pos": "verb",
+   "occurrences": 15,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "dining",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "seat",
+   "pos": "verb",
+   "occurrences": 15,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "justice",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "conviction",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "teach",
+   "pos": "verb",
+   "occurrences": 15,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "upstairs",
+   "pos": "adverb",
+   "occurrences": 15,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "favourite",
+   "pos": "adjective",
+   "occurrences": 15,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "blame",
+   "pos": "verb",
+   "occurrences": 15,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "encourage",
+   "pos": "verb",
+   "occurrences": 15,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "belief",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "road",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "rank",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "finish",
+   "pos": "verb",
+   "occurrences": 14,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "lay",
+   "pos": "verb",
+   "occurrences": 14,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "quality",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "share",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "delighted",
+   "pos": "adjective",
+   "occurrences": 14,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "compassion",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "entrance",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "wonder",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "greatly",
+   "pos": "adverb",
+   "occurrences": 14,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "offend",
+   "pos": "verb",
+   "occurrences": 14,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "will",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "tolerably",
+   "pos": "adverb",
+   "occurrences": 14,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "eagerly",
+   "pos": "adverb",
+   "occurrences": 14,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "hold",
+   "pos": "verb",
+   "occurrences": 14,
+   "senses": 36,
+   "sentences": 6
+  },
+  {
+   "word": "enjoyment",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 3,
+   "sentences": 5
+  },
+  {
+   "word": "possibility",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "direct",
+   "pos": "verb",
+   "occurrences": 14,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "overcome",
+   "pos": "verb",
+   "occurrences": 14,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "expose",
+   "pos": "verb",
+   "occurrences": 14,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "attach",
+   "pos": "verb",
+   "occurrences": 14,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "debt",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "light",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 14,
+   "sentences": 6
+  },
+  {
+   "word": "distress",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "wedding",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "apprehension",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "story",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "provide",
+   "pos": "verb",
+   "occurrences": 13,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "immediate",
+   "pos": "adjective",
+   "occurrences": 13,
+   "senses": 5,
+   "sentences": 4
+  },
+  {
+   "word": "further",
+   "pos": "adjective",
+   "occurrences": 13,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "single",
+   "pos": "adjective",
+   "occurrences": 13,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "pretty",
+   "pos": "adverb",
+   "occurrences": 13,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "i",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "probable",
+   "pos": "adjective",
+   "occurrences": 13,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "charm",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "tall",
+   "pos": "adjective",
+   "occurrences": 13,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "contempt",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "horse",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "entreaty",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "desire",
+   "pos": "verb",
+   "occurrences": 13,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "honour",
+   "pos": "verb",
+   "occurrences": 13,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "venture",
+   "pos": "verb",
+   "occurrences": 13,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "meaning",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "assistance",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "pronounce",
+   "pos": "verb",
+   "occurrences": 13,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "off",
+   "pos": "adverb",
+   "occurrences": 13,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "misfortune",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "right",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "suspicion",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "leisure",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 2,
+   "sentences": 4
+  },
+  {
+   "word": "frequent",
+   "pos": "adjective",
+   "occurrences": 13,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "astonish",
+   "pos": "verb",
+   "occurrences": 13,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "yesterday",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "treat",
+   "pos": "verb",
+   "occurrences": 13,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "relief",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "partiality",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "profession",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "congratulation",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "bow",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "tea",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "assist",
+   "pos": "verb",
+   "occurrences": 13,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "hurry",
+   "pos": "verb",
+   "occurrences": 13,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "anger",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "interference",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "seriously",
+   "pos": "adverb",
+   "occurrences": 13,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "sentence",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "delicacy",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "secure",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "improve",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "instance",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "study",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "colour",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "due",
+   "pos": "adjective",
+   "occurrences": 12,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "education",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "order",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 14,
+   "sentences": 6
+  },
+  {
+   "word": "use",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "actually",
+   "pos": "adverb",
+   "occurrences": 12,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "joy",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "entertain",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "occasionally",
+   "pos": "adverb",
+   "occurrences": 12,
+   "senses": 1,
+   "sentences": 4
+  },
+  {
+   "word": "enjoy",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "delight",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "excuse",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "din",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "represent",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 15,
+   "sentences": 5
+  },
+  {
+   "word": "application",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "deny",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "quarter",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 14,
+   "sentences": 6
+  },
+  {
+   "word": "justify",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "advise",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "stay",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "music",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "chief",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "own",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "promise",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "communication",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "lately",
+   "pos": "adverb",
+   "occurrences": 12,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "hall",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "garden",
+   "pos": "noun",
+   "occurrences": 12,
+   "senses": 3,
+   "sentences": 5
+  },
+  {
+   "word": "exclaim",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "naturally",
+   "pos": "adverb",
+   "occurrences": 12,
+   "senses": 4,
+   "sentences": 4
+  },
+  {
+   "word": "constant",
+   "pos": "adjective",
+   "occurrences": 12,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "break",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 59,
+   "sentences": 6
+  },
+  {
+   "word": "stop",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "distress",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "point",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 14,
+   "sentences": 6
+  },
+  {
+   "word": "shortly",
+   "pos": "adverb",
+   "occurrences": 12,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "unhappy",
+   "pos": "adjective",
+   "occurrences": 12,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "figure",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "remind",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "youth",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "possess",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "elopement",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "fashion",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "work",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 27,
+   "sentences": 6
+  },
+  {
+   "word": "nearly",
+   "pos": "adverb",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "art",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "seldom",
+   "pos": "adverb",
+   "occurrences": 11,
+   "senses": 1,
+   "sentences": 5
+  },
+  {
+   "word": "prefer",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 4,
+   "sentences": 5
+  },
+  {
+   "word": "consolation",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 4
+  },
+  {
+   "word": "goodness",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "remark",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "lip",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "note",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "fail",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 11,
+   "sentences": 4
+  },
+  {
+   "word": "conjecture",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "utter",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "chaise",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "pretend",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "employ",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "assembly",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "piece",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "introduction",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 7,
+   "sentences": 5
+  },
+  {
+   "word": "principal",
+   "pos": "adjective",
+   "occurrences": 11,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "press",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 14,
+   "sentences": 5
+  },
+  {
+   "word": "tempt",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "twice",
+   "pos": "adverb",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "fault",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "private",
+   "pos": "adjective",
+   "occurrences": 11,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "steady",
+   "pos": "adjective",
+   "occurrences": 11,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "probability",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 3
+  },
+  {
+   "word": "vexation",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "provoke",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "instrument",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "perform",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "notion",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "amuse",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "expense",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "fellow",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "order",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "account",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "check",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 25,
+   "sentences": 6
+  },
+  {
+   "word": "earnestly",
+   "pos": "adverb",
+   "occurrences": 11,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "confusion",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "confidence",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "endeavour",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "moreover",
+   "pos": "adverb",
+   "occurrences": 11,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "interruption",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "income",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "relationship",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 4,
+   "sentences": 3
+  },
+  {
+   "word": "behave",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "necessity",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "console",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "pursue",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "down",
+   "pos": "adverb",
+   "occurrences": 11,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "courage",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "wood",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 4,
+   "sentences": 5
+  },
+  {
+   "word": "friendship",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "claim",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "considerable",
+   "pos": "adjective",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 5
+  },
+  {
+   "word": "feature",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "notice",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "writing",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "authority",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 7,
+   "sentences": 5
+  },
+  {
+   "word": "reproach",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "habit",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "form",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 16,
+   "sentences": 6
+  },
+  {
+   "word": "addition",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "good",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "dancing",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "half",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "good",
+   "pos": "adverb",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "preference",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "vex",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "insufficient",
+   "pos": "adjective",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "unlucky",
+   "pos": "adjective",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "consequently",
+   "pos": "adverb",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "excessively",
+   "pos": "adverb",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "little",
+   "pos": "adverb",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "memory",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "unwilling",
+   "pos": "adjective",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "attentive",
+   "pos": "adjective",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "contrary",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "object",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "remarkably",
+   "pos": "adverb",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "eat",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "forgive",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "mine",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "argument",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "guard",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "encouragement",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "undoubtedly",
+   "pos": "adverb",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 5
+  },
+  {
+   "word": "dislike",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "source",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "coach",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "insist",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "examine",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "dress",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 16,
+   "sentences": 6
+  },
+  {
+   "word": "style",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "heartily",
+   "pos": "adverb",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "improvement",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "chiefly",
+   "pos": "adverb",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "comply",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "public",
+   "pos": "adjective",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "apology",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "shame",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "intimacy",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "reject",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "explanation",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "leave",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "apologize",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "furniture",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 4
+  },
+  {
+   "word": "separate",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "lane",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "sink",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "employment",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "church",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "imprudence",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "virtue",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "dread",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "amazement",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "impatience",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 3,
+   "sentences": 4
+  },
+  {
+   "word": "embarrassment",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 4,
+   "sentences": 5
+  },
+  {
+   "word": "secrecy",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "difficulty",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 4
+  },
+  {
+   "word": "divide",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "charge",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 15,
+   "sentences": 6
+  },
+  {
+   "word": "unite",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "propose",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "death",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 7,
+   "sentences": 4
+  },
+  {
+   "word": "propriety",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "merit",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 5
+  },
+  {
+   "word": "language",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 6,
+   "sentences": 4
+  },
+  {
+   "word": "be",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 12,
+   "sentences": 6
+  },
+  {
+   "word": "mistake",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "impression",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "fire",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 9,
+   "sentences": 4
+  },
+  {
+   "word": "formal",
+   "pos": "adjective",
+   "occurrences": 9,
+   "senses": 6,
+   "sentences": 5
+  },
+  {
+   "word": "entail",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "allude",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "sing",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "refusal",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 5
+  },
+  {
+   "word": "belong",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "lover",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "river",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 1,
+   "sentences": 4
+  },
+  {
+   "word": "effort",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "possession",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 7,
+   "sentences": 4
+  },
+  {
+   "word": "deep",
+   "pos": "adjective",
+   "occurrences": 9,
+   "senses": 15,
+   "sentences": 6
+  },
+  {
+   "word": "neglect",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "rapture",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "save",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "close",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 17,
+   "sentences": 6
+  },
+  {
+   "word": "hate",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "uncommonly",
+   "pos": "adverb",
+   "occurrences": 9,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "withdraw",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 12,
+   "sentences": 3
+  },
+  {
+   "word": "distinguish",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "raise",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 28,
+   "sentences": 6
+  },
+  {
+   "word": "disappoint",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "establish",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 8,
+   "sentences": 5
+  },
+  {
+   "word": "commendation",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 5
+  },
+  {
+   "word": "occupy",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "valuable",
+   "pos": "adjective",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 5
+  },
+  {
+   "word": "convinced",
+   "pos": "adjective",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "end",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "influence",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "defect",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "request",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "dispose",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "entreat",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "persuasion",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "favourite",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "haste",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "buy",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "patience",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "elegance",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 4
+  },
+  {
+   "word": "supper",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "hurry",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "blush",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "repeatedly",
+   "pos": "adverb",
+   "occurrences": 9,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "couple",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "welcome",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "excite",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "welcome",
+   "pos": "adjective",
+   "occurrences": 9,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "pardon",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "mistress",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "spot",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 13,
+   "sentences": 3
+  },
+  {
+   "word": "utmost",
+   "pos": "adjective",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "attribute",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "relieve",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "obligation",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 5,
+   "sentences": 5
+  },
+  {
+   "word": "fancy",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 3,
+   "sentences": 6
+  }
+ ]
+}

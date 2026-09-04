@@ -1,0 +1,365 @@
+{
+ "book_id": "3f6bb9d6f78e0293",
+ "book": "Pride and Prejudice",
+ "n": 50,
+ "rule": "top of the book's lemma+POS list by occurrences, joined to OEWN 2025 through derived-bulk.jsonl, not already in a family, with at least 3 usable sentences",
+ "skipped": [
+  {
+   "lemma": "illustration",
+   "pos": "NOUN",
+   "why": "only 2 usable sentences"
+  }
+ ],
+ "entries": [
+  {
+   "word": "so",
+   "pos": "adverb",
+   "occurrences": 597,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "say",
+   "pos": "verb",
+   "occurrences": 585,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "very",
+   "pos": "adverb",
+   "occurrences": 469,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "see",
+   "pos": "verb",
+   "occurrences": 398,
+   "senses": 24,
+   "sentences": 6
+  },
+  {
+   "word": "know",
+   "pos": "verb",
+   "occurrences": 393,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "think",
+   "pos": "verb",
+   "occurrences": 346,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "make",
+   "pos": "verb",
+   "occurrences": 346,
+   "senses": 49,
+   "sentences": 6
+  },
+  {
+   "word": "go",
+   "pos": "verb",
+   "occurrences": 296,
+   "senses": 30,
+   "sentences": 6
+  },
+  {
+   "word": "sister",
+   "pos": "noun",
+   "occurrences": 292,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "give",
+   "pos": "verb",
+   "occurrences": 276,
+   "senses": 43,
+   "sentences": 6
+  },
+  {
+   "word": "come",
+   "pos": "verb",
+   "occurrences": 268,
+   "senses": 21,
+   "sentences": 6
+  },
+  {
+   "word": "as",
+   "pos": "adverb",
+   "occurrences": 235,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "never",
+   "pos": "adverb",
+   "occurrences": 230,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "soon",
+   "pos": "adverb",
+   "occurrences": 230,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "well",
+   "pos": "adverb",
+   "occurrences": 228,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "such",
+   "pos": "adjective",
+   "occurrences": 227,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "other",
+   "pos": "adjective",
+   "occurrences": 222,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "time",
+   "pos": "noun",
+   "occurrences": 220,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "now",
+   "pos": "adverb",
+   "occurrences": 215,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "only",
+   "pos": "adverb",
+   "occurrences": 199,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "take",
+   "pos": "verb",
+   "occurrences": 196,
+   "senses": 42,
+   "sentences": 6
+  },
+  {
+   "word": "man",
+   "pos": "noun",
+   "occurrences": 194,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "much",
+   "pos": "adverb",
+   "occurrences": 192,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "own",
+   "pos": "adjective",
+   "occurrences": 188,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "little",
+   "pos": "adjective",
+   "occurrences": 181,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "again",
+   "pos": "adverb",
+   "occurrences": 181,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "day",
+   "pos": "noun",
+   "occurrences": 180,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "hear",
+   "pos": "verb",
+   "occurrences": 180,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "most",
+   "pos": "adverb",
+   "occurrences": 179,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "young",
+   "pos": "adjective",
+   "occurrences": 177,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "then",
+   "pos": "adverb",
+   "occurrences": 176,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "more",
+   "pos": "adverb",
+   "occurrences": 172,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "friend",
+   "pos": "noun",
+   "occurrences": 169,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "more",
+   "pos": "adjective",
+   "occurrences": 165,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "feel",
+   "pos": "verb",
+   "occurrences": 164,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "speak",
+   "pos": "verb",
+   "occurrences": 164,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "room",
+   "pos": "noun",
+   "occurrences": 163,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "family",
+   "pos": "noun",
+   "occurrences": 160,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "tell",
+   "pos": "verb",
+   "occurrences": 149,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "too",
+   "pos": "adverb",
+   "occurrences": 146,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "much",
+   "pos": "adjective",
+   "occurrences": 145,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "find",
+   "pos": "verb",
+   "occurrences": 143,
+   "senses": 15,
+   "sentences": 6
+  },
+  {
+   "word": "manner",
+   "pos": "noun",
+   "occurrences": 142,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "believe",
+   "pos": "verb",
+   "occurrences": 139,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "leave",
+   "pos": "verb",
+   "occurrences": 139,
+   "senses": 14,
+   "sentences": 6
+  },
+  {
+   "word": "however",
+   "pos": "adverb",
+   "occurrences": 136,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "ever",
+   "pos": "adverb",
+   "occurrences": 136,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "mother",
+   "pos": "noun",
+   "occurrences": 136,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "letter",
+   "pos": "noun",
+   "occurrences": 135,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "lady",
+   "pos": "noun",
+   "occurrences": 135,
+   "senses": 3,
+   "sentences": 6
+  }
+ ]
+}

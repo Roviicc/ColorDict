@@ -1,0 +1,765 @@
+{
+ "book_id": "3f6bb9d6f78e0293",
+ "book": "Pride and Prejudice",
+ "n": 100,
+ "derived_from": "/sessions/rcw-0147hyd7ka7ya3f3irthxnfu/build/stage7-select.json",
+ "excluded_already_written": 50,
+ "exclude_files": [
+  "/sessions/rcw-0147hyd7ka7ya3f3irthxnfu/mnt/ColorDict/data/policy/enrich-002/selected.json"
+ ],
+ "seed": 7,
+ "strata": 4,
+ "bands": [
+  {
+   "band": 1,
+   "range": [
+    0,
+    219
+   ],
+   "drawn": 25,
+   "occurrences": [
+    135,
+    35
+   ]
+  },
+  {
+   "band": 2,
+   "range": [
+    219,
+    439
+   ],
+   "drawn": 25,
+   "occurrences": [
+    34,
+    19
+   ]
+  },
+  {
+   "band": 3,
+   "range": [
+    439,
+    658
+   ],
+   "drawn": 25,
+   "occurrences": [
+    19,
+    12
+   ]
+  },
+  {
+   "band": 4,
+   "range": [
+    658,
+    878
+   ],
+   "drawn": 25,
+   "occurrences": [
+    12,
+    9
+   ]
+  }
+ ],
+ "rule": "top of the book's lemma+POS list by occurrences, joined to OEWN 2025 through derived-bulk.jsonl, not already in a family, with at least 3 usable sentences",
+ "entries": [
+  {
+   "word": "away",
+   "pos": "adverb",
+   "occurrences": 114,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "talk",
+   "pos": "verb",
+   "occurrences": 107,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "long",
+   "pos": "adverb",
+   "occurrences": 106,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "house",
+   "pos": "noun",
+   "occurrences": 105,
+   "senses": 12,
+   "sentences": 6
+  },
+  {
+   "word": "indeed",
+   "pos": "adverb",
+   "occurrences": 99,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "last",
+   "pos": "adjective",
+   "occurrences": 99,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "even",
+   "pos": "adverb",
+   "occurrences": 95,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "hope",
+   "pos": "verb",
+   "occurrences": 93,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "have",
+   "pos": "verb",
+   "occurrences": 93,
+   "senses": 18,
+   "sentences": 6
+  },
+  {
+   "word": "add",
+   "pos": "verb",
+   "occurrences": 85,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "begin",
+   "pos": "verb",
+   "occurrences": 78,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "opinion",
+   "pos": "noun",
+   "occurrences": 75,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "part",
+   "pos": "noun",
+   "occurrences": 65,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "rather",
+   "pos": "adverb",
+   "occurrences": 62,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "life",
+   "pos": "noun",
+   "occurrences": 58,
+   "senses": 14,
+   "sentences": 6
+  },
+  {
+   "word": "mind",
+   "pos": "noun",
+   "occurrences": 55,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "follow",
+   "pos": "verb",
+   "occurrences": 55,
+   "senses": 26,
+   "sentences": 6
+  },
+  {
+   "word": "present",
+   "pos": "adjective",
+   "occurrences": 54,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "civility",
+   "pos": "noun",
+   "occurrences": 50,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "agreeable",
+   "pos": "adjective",
+   "occurrences": 48,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "short",
+   "pos": "adjective",
+   "occurrences": 47,
+   "senses": 11,
+   "sentences": 6
+  },
+  {
+   "word": "circumstance",
+   "pos": "noun",
+   "occurrences": 47,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "occasion",
+   "pos": "noun",
+   "occurrences": 45,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "dance",
+   "pos": "verb",
+   "occurrences": 43,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "also",
+   "pos": "adverb",
+   "occurrences": 35,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "determine",
+   "pos": "verb",
+   "occurrences": 33,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "niece",
+   "pos": "noun",
+   "occurrences": 33,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "particularly",
+   "pos": "adverb",
+   "occurrences": 33,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "enough",
+   "pos": "adjective",
+   "occurrences": 32,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "repeat",
+   "pos": "verb",
+   "occurrences": 32,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "length",
+   "pos": "noun",
+   "occurrences": 32,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "return",
+   "pos": "noun",
+   "occurrences": 32,
+   "senses": 13,
+   "sentences": 6
+  },
+  {
+   "word": "news",
+   "pos": "noun",
+   "occurrences": 31,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "over",
+   "pos": "adverb",
+   "occurrences": 30,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "thus",
+   "pos": "adverb",
+   "occurrences": 29,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "head",
+   "pos": "verb",
+   "occurrences": 29,
+   "senses": 9,
+   "sentences": 5
+  },
+  {
+   "word": "play",
+   "pos": "verb",
+   "occurrences": 27,
+   "senses": 35,
+   "sentences": 6
+  },
+  {
+   "word": "ago",
+   "pos": "adverb",
+   "occurrences": 27,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "dance",
+   "pos": "noun",
+   "occurrences": 26,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "wholly",
+   "pos": "adverb",
+   "occurrences": 26,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "journey",
+   "pos": "noun",
+   "occurrences": 23,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "suffer",
+   "pos": "verb",
+   "occurrences": 23,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "address",
+   "pos": "verb",
+   "occurrences": 23,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "inquire",
+   "pos": "verb",
+   "occurrences": 23,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "alone",
+   "pos": "adverb",
+   "occurrences": 23,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "directly",
+   "pos": "adverb",
+   "occurrences": 23,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "knowledge",
+   "pos": "noun",
+   "occurrences": 22,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "latter",
+   "pos": "adjective",
+   "occurrences": 22,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "deceive",
+   "pos": "verb",
+   "occurrences": 21,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "change",
+   "pos": "verb",
+   "occurrences": 19,
+   "senses": 10,
+   "sentences": 6
+  },
+  {
+   "word": "anxiety",
+   "pos": "noun",
+   "occurrences": 19,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "prepare",
+   "pos": "verb",
+   "occurrences": 19,
+   "senses": 8,
+   "sentences": 6
+  },
+  {
+   "word": "need",
+   "pos": "verb",
+   "occurrences": 18,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "capable",
+   "pos": "adjective",
+   "occurrences": 18,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "early",
+   "pos": "adverb",
+   "occurrences": 17,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "last",
+   "pos": "adverb",
+   "occurrences": 17,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "part",
+   "pos": "verb",
+   "occurrences": 17,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "recover",
+   "pos": "verb",
+   "occurrences": 17,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "suddenly",
+   "pos": "adverb",
+   "occurrences": 16,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "discover",
+   "pos": "verb",
+   "occurrences": 16,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "produce",
+   "pos": "verb",
+   "occurrences": 16,
+   "senses": 7,
+   "sentences": 6
+  },
+  {
+   "word": "accompany",
+   "pos": "verb",
+   "occurrences": 15,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "amusement",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "dining",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "belief",
+   "pos": "noun",
+   "occurrences": 15,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "lay",
+   "pos": "verb",
+   "occurrences": 14,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "compassion",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "wonder",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "offend",
+   "pos": "verb",
+   "occurrences": 14,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "will",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "attach",
+   "pos": "verb",
+   "occurrences": 14,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "apprehension",
+   "pos": "noun",
+   "occurrences": 14,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "contempt",
+   "pos": "noun",
+   "occurrences": 13,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "pronounce",
+   "pos": "verb",
+   "occurrences": 13,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "assist",
+   "pos": "verb",
+   "occurrences": 13,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "exclaim",
+   "pos": "verb",
+   "occurrences": 12,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "constant",
+   "pos": "adjective",
+   "occurrences": 12,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "possess",
+   "pos": "verb",
+   "occurrences": 11,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "consolation",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 4
+  },
+  {
+   "word": "note",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 9,
+   "sentences": 6
+  },
+  {
+   "word": "chaise",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "instrument",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "confidence",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "interruption",
+   "pos": "noun",
+   "occurrences": 11,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "claim",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "little",
+   "pos": "adverb",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "eat",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 6,
+   "sentences": 6
+  },
+  {
+   "word": "examine",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "dress",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 16,
+   "sentences": 6
+  },
+  {
+   "word": "comply",
+   "pos": "verb",
+   "occurrences": 10,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "shame",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "virtue",
+   "pos": "noun",
+   "occurrences": 10,
+   "senses": 4,
+   "sentences": 6
+  },
+  {
+   "word": "charge",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 15,
+   "sentences": 6
+  },
+  {
+   "word": "rapture",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 6
+  },
+  {
+   "word": "disappoint",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 1,
+   "sentences": 6
+  },
+  {
+   "word": "influence",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "favourite",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 3,
+   "sentences": 6
+  },
+  {
+   "word": "buy",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 5,
+   "sentences": 6
+  },
+  {
+   "word": "elegance",
+   "pos": "noun",
+   "occurrences": 9,
+   "senses": 2,
+   "sentences": 4
+  },
+  {
+   "word": "welcome",
+   "pos": "verb",
+   "occurrences": 9,
+   "senses": 3,
+   "sentences": 6
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "what": "Control run: can a cloud session reproduce stage 4 without the by-name agents?",
+ "when": "2026-09-04",
+ "why": "A cloud session cannot spawn sense-ranker/enricher/entry-reader/null-auditor: agent types are fixed at session start and .claude/agents/ on the device is not read. The proposed substitute was general-purpose agents with the model forced to opus/fable and the rubric read verbatim from file. This run measures that substitute against a known answer.",
+ "method": "The same 5 ranker packets and the same 50 entries as enrich-002. Rubric read from file, not paraphrased. Model forced to opus. Effort NOT settable - this is the known deviation.",
+ "harness": {"authoring": "general-purpose agent, model=opus, effort=UNSET (instrument file asks for high)",
+             "spawned_by_name": false,
+             "tool_allowlist_enforced": false},
+ "ranker_gate": {"accepted": 50, "rejected": 0},
+ "vs_enrich_002_repaired_ranking": {
+  "entries": 50,
+  "same_first_sense": 45,
+  "same_first_sense_rate": 0.90,
+  "same_full_order": 24,
+  "same_met_set": 36,
+  "disagreements": ["make/verb", "time/noun", "take/verb", "feel/verb", "speak/verb"]
+ },
+ "reading_of_the_disagreements": {
+  "time/noun": "clear fault - put 'the continuum of experience' first AND in met, the exact sense the rubric and census 002 both record as used by no sentence; three sentences carry the indefinite-period sense",
+  "make/verb": "broad-light-verb-first, the documented anti-pattern; 'give certain properties' over 'perform, produce, or carry out' which two sentences plainly carry",
+  "take/verb": "same class - 'carry out' over 'take somebody somewhere', which 'take his guest into the drawing-room' plainly carries",
+  "feel/verb": "close call, defensible either way",
+  "speak/verb": "close call, defensible either way"
+ },
+ "cost": {"ranking_pass_only_tokens": 404689, "entries": 50, "tokens_per_entry_ranking_only": 8094,
+          "stage4_by_name_rank_plus_enrich_per_entry": 5500,
+          "note": "the ranking pass ALONE costs 47% more than ranking and enriching together did by name"},
+ "verdict": "REJECTED. Three of five disagreements are the specific failure class the rubric was written to prevent, concentrated on the high-sense-count words (make 49 senses, take 42) where the missing effort:high would be expected to bite. And the cost does not fit: extrapolated to 878 entries the generation passes alone come to roughly 16M tokens against an 8M stage-7 cap.",
+ "conclusion": "Stage 7 needs either an API key (model AND effort set exactly, cheapest per entry, harness-independent) or a session opened on this repo, where the four instrument files resolve by name."
+}
