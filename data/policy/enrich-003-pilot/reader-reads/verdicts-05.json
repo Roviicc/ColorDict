@@ -1,0 +1,86 @@
+{"packet": 5, "verdicts": [
+ {"word": "journey", "pos": "noun",
+  "rank": "right", "why": "All six sentences use journey as the act of travelling from one place to another, and that is the only sense listed.",
+  "senses": [
+   {"synset": "oewn-00307252-n", "verdict": "right",
+    "fault": null, "why": "The learner line is the gloss in plainer words, both examples are book sentences using journey as an act of travelling, and the word describes without judging."}
+  ]},
+ {"word": "suffer", "pos": "verb",
+  "rank": "right", "why": "The sentences genuinely split between being in pain (Who should suffer but myself, what I suffer), undergoing something (much to suffer) and the tolerate-allow reading (suffer him to call), and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-00064841-v", "verdict": "right",
+    "fault": null, "why": "The learner line matches the gloss, both examples have a speaker in pain rather than undergoing a named thing, and being in pain is a state described, not a judgement."},
+   {"synset": "oewn-02113644-v", "verdict": "right",
+    "fault": null, "why": "Go through something or have something done to you renders undergo or be subjected to, the example has Bingley with much to undergo, and the word describes rather than judges."},
+   {"synset": "oewn-00670017-v", "verdict": "right",
+    "fault": null, "why": "The learner line matches the gloss, the invented example uses suffer as put up with, and the unpleasantness sits in the referent (rudeness), not in the word."}
+  ]},
+ {"word": "address", "pos": "verb",
+  "rank": "right", "why": "Sentences 5 and 6 are the noun; the four verb uses all have someone speaking to someone, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-00899077-v", "verdict": "right",
+    "fault": null, "why": "The learner line is the gloss, both examples are Mr. Bennet and Mr. Collins speaking to someone, and the word is neutral."},
+   {"synset": "oewn-00992687-v", "verdict": "unsure",
+    "fault": "learner-unfaithful", "why": "The gloss says only speak to someone and the learner line adds go up to, which the gloss does not say, though it is the only thing separating this sense from the first sense's speak to and the stranger-in-the-street example fits that reading."},
+   {"synset": "oewn-01163215-v", "verdict": "right",
+    "fault": null, "why": "Turn yourself and your effort to something renders apply oneself to and direct one's efforts towards, the example is addressing herself to a task, and the word is neutral."}
+  ]},
+ {"word": "inquire", "pos": "verb",
+  "rank": "right", "why": "Four of the six sentences are asking after someone or asking who she was, which is the first sense; inquire into the measures is the investigation sense and sits second.",
+  "senses": [
+   {"synset": "oewn-00899241-v", "verdict": "right",
+    "fault": null, "why": "The learner line is the gloss in plainer words, both examples are inquiring after someone, and the word is neutral."},
+   {"synset": "oewn-00787624-v", "verdict": "right",
+    "fault": null, "why": "Look into something carefully to find out the facts renders conduct an inquiry or investigation, the example is inquiring into her father's measures, and the word is neutral."},
+   {"synset": "oewn-00731363-v", "verdict": "right",
+    "fault": null, "why": "To want to know something is the gloss, the invented example has her inquiring in her own mind why, which is the wonder reading, and the word is neutral."}
+  ]},
+ {"word": "alone", "pos": "adverb",
+  "rank": "right", "why": "Four sentences are people being alone or alone with one other, the first sense; the time alone and by him alone are the only sense and sit second.",
+  "senses": [
+   {"synset": "oewn-00159090-r", "verdict": "right",
+    "fault": null, "why": "The learner line matches the gloss, both examples are people wanting to be alone, and the word describes without judging."},
+   {"synset": "oewn-00009062-r", "verdict": "right",
+    "fault": null, "why": "With no others counted in or taking part renders without any others being included or involved, both examples use alone as only, and the word is neutral."}
+  ]},
+ {"word": "directly", "pos": "adverb",
+  "rank": "right", "why": "All six sentences use directly as at once (sent off directly, take away your bottle directly, began directly to calculate), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-00049277-r", "verdict": "right",
+    "fault": null, "why": "The learner line matches the gloss, both examples use directly as at once, and the word is neutral."},
+   {"synset": "oewn-00506737-r", "verdict": "right",
+    "fault": null, "why": "With no person and no thing coming in between is the gloss, the example has news heard directly from her uncle and not through a servant, and the word is neutral."},
+   {"synset": "oewn-00052386-r", "verdict": "right",
+    "fault": null, "why": "In a straight line, without turning aside renders without deviation, the example is a lane running directly to a door, and the word is neutral."}
+  ]},
+ {"word": "knowledge", "pos": "noun",
+  "rank": "right", "why": "All six sentences are what someone knows about a thing or person, and that is the only sense listed.",
+  "senses": [
+   {"synset": "oewn-00023451-n", "verdict": "right",
+    "fault": null, "why": "What the mind ends up holding after noticing things, learning and thinking renders the psychological result of perception and learning and reasoning without adding to it, both examples use knowledge as what someone knows, and the word is neutral."}
+  ]},
+ {"word": "latter", "pos": "adjective",
+  "rank": "right", "why": "All six sentences point to the second or last of things just mentioned, and that is the only sense listed.",
+  "senses": [
+   {"synset": "oewn-01051260-a", "verdict": "right",
+    "fault": null, "why": "The learner line matches the gloss and keeps the last-of-several alternative, both examples are adjectival latter for the second of two, and the word is neutral."}
+  ]},
+ {"word": "deceive", "pos": "verb",
+  "rank": "right", "why": "All six sentences are someone being led to believe what is not true, the first sense; none is plainly the be-false-to sense.",
+  "senses": [
+   {"synset": "oewn-00856102-v", "verdict": "right",
+    "fault": null, "why": "The learner line matches the gloss, both examples use deceive as making someone believe an untruth, and the word accuses the deceiver of dishonesty where mislead would not, so a candidate is fair."},
+   {"synset": "oewn-02581157-v", "verdict": "right",
+    "fault": null, "why": "To be untrue to someone and dishonest with them is the gloss, the example is betraying a trusting friend, and be false to judges the one who does it, so a candidate is fair."}
+  ]},
+ {"word": "change", "pos": "verb",
+  "rank": "right", "why": "Sentences 1, 4 and 6 are the noun; the three verb uses (changed colour, expression changed, colour changed) are becoming different in some particular way, the first sense.",
+  "senses": [
+   {"synset": "oewn-00122978-v", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both parts of the gloss, becoming different and keeping what was there before, both examples are a face or colour changing, and the word is neutral."},
+   {"synset": "oewn-00126072-v", "verdict": "unsure",
+    "fault": "example-wrong-sense", "why": "The learner line renders make different, but the example changed a few words in the letter reads as much as replacing words with others (the exchange-or-replace sense listed unwritten below, cf. changed his name) as making the letter different."},
+   {"synset": "oewn-00109468-v", "verdict": "right",
+    "fault": null, "why": "The learner line keeps losing one's original nature, the example has a man changed entirely with nothing of the old man left, and the word is neutral."}
+  ]}
+]}

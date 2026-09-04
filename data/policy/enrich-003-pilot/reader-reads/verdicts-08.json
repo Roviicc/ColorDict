@@ -1,0 +1,68 @@
+{"packet": 8, "verdicts": [
+ {"word": "apprehension", "pos": "noun",
+  "rank": "right", "why": "Four of the six sentences (Charlotte's dying an old maid, apprehension and anxiety, meeting its owner, broke his apprehensions) carry fearful expectation; only the Netherfield-dance sentence reads as perception, and that sense sits unwritten at the bottom.",
+  "senses": [
+   {"synset": "oewn-07536913-n", "verdict": "right", "fault": null, "why": "Learner line is the gloss in plainer words, both examples are book sentences in the fearful sense, and the word names a feeling without judging."},
+   {"synset": "oewn-05960433-n", "verdict": "right", "fault": null, "why": "Learner line matches 'painful expectation', the example uses the headword in that sense, and null is correct for a word that names a feeling."},
+   {"synset": "oewn-00089545-n", "verdict": "right", "fault": null, "why": "Learner line keeps 'especially a criminal', the invented example is plainly the arrest sense, and null is correct."}
+  ]},
+ {"word": "contempt", "pos": "noun",
+  "rank": "right", "why": "The sentences split between the feeling (held her in contempt, premeditated contempt, utmost contempt) and open disrespect shown (contempt shown to the rest of her family, contempt and ridicule), and the feeling sense is listed first.",
+  "senses": [
+   {"synset": "oewn-07518219-n", "verdict": "right", "fault": null, "why": "Learner line keeps both halves of the gloss (no respect plus strong dislike), the examples are the feeling sense, and the word names the feeling without judging whoever holds it."},
+   {"synset": "oewn-06728866-n", "verdict": "right", "fault": null, "why": "Learner line says 'shown openly' for 'open disrespect', both examples show contempt being displayed, and null is correct."},
+   {"synset": "oewn-04922864-n", "verdict": "wrong", "fault": "false-candidate", "why": "The word in the manner sense describes a way of behaving exactly as it does in the feeling and open-disrespect senses that were rightly left null; a contemptuous manner is a bad referent, not a loaded word, and the sole example (an expression that changes in a moment) reads as the feeling shown rather than a general manner."}
+  ]},
+ {"word": "pronounce", "pos": "verb",
+  "rank": "right", "why": "Five of the six sentences are 'pronounced X to be Y', which is declaring a judgment, and only 'as she pronounced these words' is plain uttering.",
+  "senses": [
+   {"synset": "oewn-00973682-v", "verdict": "right", "fault": null, "why": "Learner line is 'pronounce judgment on' in plain words, both examples are book sentences in that sense, and the verb describes an act without judging."},
+   {"synset": "oewn-00980581-v", "verdict": "right", "fault": null, "why": "Learner line covers speaking or saying in a certain way, the example uses pronounced as uttering, and null is correct."}
+  ]},
+ {"word": "assist", "pos": "verb",
+  "rank": "right", "why": "All six sentences are giving help (assist his tenants, assist Mr. Wickham with money, assisting Mrs. Jenkinson to make up her party), and that sense is first.",
+  "senses": [
+   {"synset": "oewn-02553283-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'give help' and 'be of service', the examples are book sentences in this sense, and null is correct."},
+   {"synset": "oewn-02419840-v", "verdict": "right", "fault": null, "why": "Learner line says working under someone in a supporting part, the head-gardener example is that sense, and null is correct."},
+   {"synset": "oewn-02546367-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'work for' and 'be a servant to', the footman example is the servant sense, and null is correct."}
+  ]},
+ {"word": "exclaim", "pos": "verb",
+  "rank": "right", "why": "Every sentence is someone crying out aloud under feeling (This must be false!, in the bitterness of woe), and utter-aloud is first.",
+  "senses": [
+   {"synset": "oewn-00914001-v", "verdict": "right", "fault": null, "why": "Learner line keeps 'often' and the three feelings from the gloss, both examples are book sentences in this sense, and null is correct."},
+   {"synset": "oewn-00979368-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'state' and 'announce', the invented example uses exclaimed as announcing, and null is correct."}
+  ]},
+ {"word": "constant", "pos": "adjective",
+  "rank": "right", "why": "Constant society, company, practice, admission and a constant source of vexation are all the continual-in-time sense, which is first.",
+  "senses": [
+   {"synset": "oewn-00597981-s", "verdict": "right", "fault": null, "why": "Learner line carries both 'uninterrupted' and 'indefinitely long continuing', both examples are book sentences in this sense, and null is correct."},
+   {"synset": "oewn-02516074-s", "verdict": "right", "fault": null, "why": "Learner line says staying the same for 'unvarying in nature', the oven example is that sense, and null is correct."},
+   {"synset": "oewn-00585590-a", "verdict": "right", "fault": null, "why": "Learner line keeps all three of purpose, devotion and affection, the example is the steadfast sense, and calling a person constant is praise, so candidate is correct."}
+  ]},
+ {"word": "possess", "pos": "verb",
+  "rank": "right", "why": "Four of the six sentences are having a talent, an affinity or accomplishments as an attribute, which is first; the gallery and husband-and-neighbour sentences lean toward having as one's own, which sits second.",
+  "senses": [
+   {"synset": "oewn-02638248-v", "verdict": "right", "fault": null, "why": "Learner line lists quality, knowledge and skill as the gloss does, both examples are the talent sense from the book, and null is correct."},
+   {"synset": "oewn-02209474-v", "verdict": "right", "fault": null, "why": "Learner line says own or have as yours for 'ownership or possession', the house-and-land example is that sense, and null is correct."},
+   {"synset": "oewn-02653395-v", "verdict": "right", "fault": null, "why": "Learner line says get inside and take control as a feeling or idea can, the sudden-fear example is that sense, and null is correct."}
+  ]},
+ {"word": "consolation", "pos": "noun",
+  "rank": "right", "why": "Poor consolation and an excellent consolation are the comfort felt, offering consolation and the balm of sisterly consolation are the act, a genuine split with the comfort sense first.",
+  "senses": [
+   {"synset": "oewn-07507795-n", "verdict": "right", "fault": null, "why": "Learner line says the comfort you feel when your disappointment is eased, which is the gloss in plain words, the examples are the comfort-felt sense, and null is correct."},
+   {"synset": "oewn-01214157-n", "verdict": "right", "fault": null, "why": "Learner line keeps both the act of comforting and relief to a person in trouble, both examples are consolation being given, and null is correct."}
+  ]},
+ {"word": "note", "pos": "noun",
+  "rank": "right", "why": "Every sentence is a short letter carried by a servant or sent to Longbourn, and short personal letter is first.",
+  "senses": [
+   {"synset": "oewn-06638793-n", "verdict": "right", "fault": null, "why": "Learner line renders 'personal' as written to a person you know, both examples are notes as letters from the book, and null is correct."},
+   {"synset": "oewn-06516453-n", "verdict": "right", "fault": null, "why": "Learner line says a few words written down to keep a record, the lesson-notes example is that sense, and null is correct."},
+   {"synset": "oewn-06878395-n", "verdict": "right", "fault": null, "why": "Learner line covers both pitch and duration as the gloss does, the reading-notes example is the musical sense, and null is correct."}
+  ]},
+ {"word": "chaise", "pos": "noun",
+  "rank": "right", "why": "All six sentences are the horse-drawn carriage (hack chaise, out of the chaise, dismissed the chaise), which is first.",
+  "senses": [
+   {"synset": "oewn-03006159-n", "verdict": "right", "fault": null, "why": "Learner line keeps two wheels, a folding top and one horse, both examples are book sentences in the carriage sense, and null is correct."},
+   {"synset": "oewn-03006315-n", "verdict": "right", "fault": null, "why": "Learner line says a long chair you can lie back on for 'a long chair; for reclining', the example is that sense, and null is correct."}
+  ]}
+]}

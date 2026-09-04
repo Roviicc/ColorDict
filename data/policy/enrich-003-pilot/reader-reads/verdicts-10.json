@@ -1,0 +1,54 @@
+{"packet": 10, "verdicts": [
+ {"word": "charge", "pos": "noun",
+  "rank": "right", "why": "The five noun uses split between accusation (colour for the charge, lay to Wickham's charge), care (the charge of her, removed from her charge) and the person cared for (does your charge give you trouble), and the first sense is one of that split.",
+  "senses": [
+   {"synset": "oewn-06743529-n", "verdict": "right", "fault": null, "why": "Learner line restates assertion-of-guilt plainly, both examples are accusations, and charge as an accusation names without loading."},
+   {"synset": "oewn-00831039-n", "verdict": "right", "fault": null, "why": "Learner line keeps both the looking-after and the responsibility-for-safety halves of the gloss, the example is the care sense, and null is right."},
+   {"synset": "oewn-09929218-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the example is the person in one's care, and the word describes the relation without judging."}
+  ]},
+ {"word": "rapture", "pos": "noun",
+  "rank": "right", "why": "The two glosses sit close together and the sentences genuinely split between being carried away (Mrs. Bennet's raptures) and elated bliss (Lydia's rapture), so the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-14009857-n", "verdict": "right", "fault": null, "why": "Learner line says what the gloss says in plainer words, both examples are effusive being-carried-away, and the word names a state rather than judging a target."},
+   {"synset": "oewn-14011586-n", "verdict": "right", "fault": null, "why": "Learner line matches elated bliss, the Lydia example fits, and null is right."}
+  ]},
+ {"word": "disappoint", "pos": "verb",
+  "rank": "right", "why": "Every sentence uses the single fail-to-meet-hopes sense and it is the only sense listed.",
+  "senses": [
+   {"synset": "oewn-01802947-v", "verdict": "right", "fault": null, "why": "Learner line covers both hopes and expectations, both examples use this sense with the headword, and the word reports an outcome without loading it."}
+  ]},
+ {"word": "influence", "pos": "noun",
+  "rank": "right", "why": "The four noun uses split evenly between power to affect (Pemberley House, boundless influence) and effect (influence of friendship, had any influence), and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-05201419-n", "verdict": "right", "fault": null, "why": "Learner line keeps the power-to-affect core and renders prestige as standing with others, the Darcy example is this sense, and null is right."},
+   {"synset": "oewn-11434722-n", "verdict": "right", "fault": null, "why": "Learner line matches the effect gloss, the friendship-and-affection example is the effect sense, and the word describes without judging."},
+   {"synset": "oewn-10481313-n", "verdict": "right", "fault": null, "why": "Learner line matches the person-who-influences gloss, the example uses influence as a person, and null is right."}
+  ]},
+ {"word": "favourite", "pos": "noun",
+  "rank": "right", "why": "All four noun uses (such a favourite, favourite of his father, favourite with her nieces, had been her favourite) are the loved-person sense that sits first; the other two are adjective uses.",
+  "senses": [
+   {"synset": "oewn-10011405-n", "verdict": "right", "fault": null, "why": "Learner line restates special loved one plainly, both examples are persons, and the word reports a preference without judging the person."},
+   {"synset": "oewn-05798763-n", "verdict": "right", "fault": null, "why": "Learner line matches the thing-liked gloss, the song example is a thing, and null is right."},
+   {"synset": "oewn-10133522-n", "verdict": "right", "fault": null, "why": "Learner line matches the expected-winner gloss, the race example is this sense, and null is right."}
+  ]},
+ {"word": "buy", "pos": "verb",
+  "rank": "right", "why": "All six sentences are purchase with money and that sense sits first.",
+  "senses": [
+   {"synset": "oewn-02211988-v", "verdict": "right", "fault": null, "why": "Learner line matches obtain by purchase, both examples are book purchases with the headword, and null is right."},
+   {"synset": "oewn-00685589-v", "verdict": "right", "fault": null, "why": "Learner line matches accept as true, the example is this sense and its register shows the informal label, and the word describes without judging."},
+   {"synset": "oewn-02288941-v", "verdict": "right", "fault": null, "why": "Learner line keeps illegal payment for help, the bought-inspector example is this sense, and candidate is right because calling a person bought is a judgement on them."}
+  ]},
+ {"word": "elegance", "pos": "noun",
+  "rank": "right", "why": "All four sentences, including the two ironic ones, use the refined-gracefulness sense that sits first.",
+  "senses": [
+   {"synset": "oewn-04819517-n", "verdict": "wrong", "fault": "false-null", "why": "Learner line and examples are faithful, but elegance in this sense is praise of its object, which the ironic sentences (elegance which consists in tormenting a respectable man) rely on, so a learner needs to know how it lands."},
+   {"synset": "oewn-04819885-n", "verdict": "wrong", "fault": "false-null", "why": "Learner line and example are faithful, but calling a solution elegant is approval of it, not a neutral description."}
+  ]},
+ {"word": "welcome", "pos": "verb",
+  "rank": "right", "why": "All five verb uses are greeting on arrival and that sense sits first; the first sentence is a noun fragment.",
+  "senses": [
+   {"synset": "oewn-00902346-v", "verdict": "right", "fault": null, "why": "Learner line restates bid welcome plainly, both examples are greetings on arrival, and null is right."},
+   {"synset": "oewn-02241988-v", "verdict": "right", "fault": null, "why": "Learner line matches accept gladly, the board example is this sense, and null is right."},
+   {"synset": "oewn-01472727-v", "verdict": "right", "fault": null, "why": "Learner line matches receive into one's house, the stranger example is this sense, and null is right."}
+  ]}
+]}

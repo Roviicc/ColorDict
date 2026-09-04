@@ -1,0 +1,90 @@
+{"packet": 3, "verdicts": [
+ {"word": "short", "pos": "adjective",
+  "rank": "right", "why": "All six sentences (short periods, short silence, short pause) carry the temporal gloss, and it is listed first.",
+  "senses": [
+   {"synset": "oewn-01445077-a", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both 'limited in duration' and 'seeming to be', both examples are the book's temporal use, and a duration word describes without judging."},
+   {"synset": "oewn-01438878-a", "verdict": "right",
+    "fault": null, "why": "The learner line says little length in plain words, the rope and hair examples are spatial length, and null is right for a measurement word."},
+   {"synset": "oewn-02395180-a", "verdict": "right",
+    "fault": null, "why": "The learner line matches 'not tall', the example is a man's stature, and the word describes height without judging."}
+  ]},
+ {"word": "circumstance", "pos": "noun",
+  "rank": "right", "why": "Five of the six sentences use a single accompanying condition (a circumstance more deeply impressed, the least agreeable circumstance, by any circumstance, under a circumstance), which is the first sense; only 'causes or circumstances' leans to the set-of-facts sense listed second.",
+  "senses": [
+   {"synset": "oewn-13965927-n", "verdict": "right",
+    "fault": null, "why": "The learner line renders accompanies/influences as comes with/has an effect on without importing another sense, both examples are the book's single-condition use, and null is right for a neutral noun."},
+   {"synset": "oewn-14536419-n", "verdict": "right",
+    "fault": null, "why": "The learner line keeps the set-of-facts reading, the plural 'causes or circumstances' example fits it, and the word describes without judging."},
+   {"synset": "oewn-05831106-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches the fact-to-weigh-before-deciding gloss, the invented example makes the weighing explicit, and null holds."}
+  ]},
+ {"word": "occasion", "pos": "noun",
+  "rank": "right", "why": "The sentences split between opportunity (an occasion of introducing him, an occasion for dictating) and time-of-event (on this occasion, on the occasion) with one reason use (no occasion for that), and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-14508648-n", "verdict": "right",
+    "fault": null, "why": "'A chance to do something' is the gloss in plain words, both examples are opportunity uses, and null is right."},
+   {"synset": "oewn-15270640-n", "verdict": "right",
+    "fault": null, "why": "The learner line matches time-of-event, both 'on this/the occasion' examples fit it, and the word describes without judging."},
+   {"synset": "oewn-09201896-n", "verdict": "right",
+    "fault": null, "why": "'A sensible reason' carries 'rational motive', 'I see no occasion for that' is the reason-or-ground use, and null is right."}
+  ]},
+ {"word": "dance", "pos": "verb",
+  "rank": "right", "why": "All six sentences are people dancing at balls, the perform-a-dance gloss listed first.",
+  "senses": [
+   {"synset": "oewn-01712535-v", "verdict": "right",
+    "fault": null, "why": "The learner line keeps pattern, music and doing a dance, both examples are ballroom dancing from the book, and null holds."},
+   {"synset": "oewn-01898642-v", "verdict": "right",
+    "fault": null, "why": "The learner line matches graceful and rhythmical, fingers dancing over strings is this sense rather than a performed dance, and null holds."},
+   {"synset": "oewn-02103353-v", "verdict": "right",
+    "fault": null, "why": "The learner line keeps skip/leap and up-and-down/sideways, a child dancing up and down with impatience is the skipping sense, and null holds."}
+  ]},
+ {"word": "also", "pos": "adverb",
+  "rank": "right", "why": "Every sentence adds a further item to what was said, and the single listed sense is the one used.",
+  "senses": [
+   {"synset": "oewn-00048072-r", "verdict": "right",
+    "fault": null, "why": "The learner line explains 'in addition' by its function without adding a meaning, both examples use also as an additive, and null holds for a connective."}
+  ]},
+ {"word": "determine", "pos": "verb",
+  "rank": "right", "why": "Four sentences are resolve-or-decide uses (was determined, determined to hate, could scarcely determine, determined to make no effort) and Lady Catherine determining the weather is decision too; only 'determining the reason of its absence' is the establish-by-investigation sense, which sits second.",
+  "senses": [
+   {"synset": "oewn-00699355-v", "verdict": "right",
+    "fault": null, "why": "The learner line matches reach/make a decision, 'was determined' and 'determined to hate' are the resolved-upon use of this verb, and null holds."},
+   {"synset": "oewn-00920843-v", "verdict": "right",
+    "fault": null, "why": "The learner line's working out, looking into, testing and studying cover the gloss's calculation, investigation, experiment and study, dating a rock by its decay is establishing after measurement, and null holds."},
+   {"synset": "oewn-00702806-v", "verdict": "right",
+    "fault": null, "why": "The learner line matches shape/influence/give direction, rainfall determining crop growth is the influence sense, and null holds."}
+  ]},
+ {"word": "niece", "pos": "noun",
+  "rank": "right", "why": "Every sentence is a brother's or sister's daughter, and the single listed sense is the one used.",
+  "senses": [
+   {"synset": "oewn-10377312-n", "verdict": "right",
+    "fault": null, "why": "The learner line is the gloss in plain words, both examples are the book's kinship use, and a kinship term describes without judging."}
+  ]},
+ {"word": "particularly", "pos": "adverb",
+  "rank": "right", "why": "Four sentences are degree uses (particularly acquainted, particularly flattered, particularly gratifying, do not particularly like), the first sense; 'particularly accused' and 'particularly recollect' are the specifically sense, listed second.",
+  "senses": [
+   {"synset": "oewn-00084573-r", "verdict": "right",
+    "fault": null, "why": "The learner line matches greater degree than is common, both examples intensify an adjective from the book, and null holds."},
+   {"synset": "oewn-00250244-r", "verdict": "right",
+    "fault": null, "why": "The learner line matches specifically distinguished from others, 'what he has particularly accused me' is the specific use, and null holds."},
+   {"synset": "oewn-00249967-r", "verdict": "right",
+    "fault": null, "why": "The learner line covers both uniquely and characteristically, 'belongs particularly to her' is the uniquely sense, and null holds."}
+  ]},
+ {"word": "enough", "pos": "adjective",
+  "rank": "right", "why": "All six sentences carry sufficiency (wide enough, long enough, wise enough, hardly enough), and it is the only sense listed.",
+  "senses": [
+   {"synset": "oewn-02344113-s", "verdict": "right",
+    "fault": null, "why": "The learner line matches sufficient for the purpose, 'It was hardly enough' is the plain adjectival use and 'wide enough', though placed after the adjective, carries the same sufficiency meaning, and null holds."}
+  ]},
+ {"word": "repeat", "pos": "verb",
+  "rank": "right", "why": "All six sentences are saying something again (repeating her thanks, repeated his apologies, repeated the other, repeat his persuasion, his repeating the question), and the say-again gloss is first.",
+  "senses": [
+   {"synset": "oewn-00960366-v", "verdict": "right",
+    "fault": null, "why": "The learner line keeps say, state and perform again, both examples are the book's say-again use, and null holds."},
+   {"synset": "oewn-01738383-v", "verdict": "right",
+    "fault": null, "why": "The learner line matches make/do/perform again, repeating an experiment is doing again rather than saying again, and null holds."},
+   {"synset": "oewn-00343988-v", "verdict": "right",
+    "fault": null, "why": "The learner line matches happen or occur again, 'the same mistake repeated itself' is the recurrence use, and null holds."}
+  ]}
+]}

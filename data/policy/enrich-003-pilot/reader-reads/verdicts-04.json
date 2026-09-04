@@ -1,0 +1,92 @@
+{"packet": 4, "verdicts": [
+ {"word": "length", "pos": "noun",
+  "rank": "right", "why": "All six sentences are 'at length' meaning after a long time, which is the time sense listed first.",
+  "senses": [
+   {"synset": "oewn-05058400-n", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'continuance in time', both examples are durations, and length in this sense does not judge."},
+   {"synset": "oewn-05136466-n", "verdict": "right",
+    "fault": null, "why": "Learner line keeps both halves of the spatial gloss, the garden-wall example is a spatial extent, null is correct."},
+   {"synset": "oewn-05140372-n", "verdict": "right",
+    "fault": null, "why": "Learner line matches extent from beginning to end, the shortened-letter example is that sense, null is correct."}
+  ]},
+ {"word": "return", "pos": "noun",
+  "rank": "right", "why": "Three sentences are the verb, but the three noun uses ('on his return', 'since her return', 'punctual in his return') are all the act of going back to a prior place, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00328841-n", "verdict": "right",
+    "fault": null, "why": "Learner line restates the gloss plainly, the Mr. Collins example is a noun return to a prior place, null is correct."},
+   {"synset": "oewn-00052012-n", "verdict": "right",
+    "fault": null, "why": "Learner line keeps both 'coming to' and 'returning' home, the return-from-the-war example is a homecoming, null is correct."},
+   {"synset": "oewn-00090171-n", "verdict": "right",
+    "fault": null, "why": "Learner line matches getting something back, the returned-letters example is that sense, null is correct."}
+  ]},
+ {"word": "news", "pos": "noun",
+  "rank": "right", "why": "The sentences split between important recent events (Jane's dreadful news, the good news spreading) and casual not-yet-known information (a piece of news to spread at Meryton), and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-06654787-n", "verdict": "right",
+    "fault": null, "why": "Learner line renders recent and important events plainly, both examples are book uses in this sense, null is correct."},
+   {"synset": "oewn-06654987-n", "verdict": "right",
+    "fault": null, "why": "'Everyday information of any kind that a person has not heard before' keeps both the informal and the not-previously-known parts, 'that is news to me' is exactly this sense, null is correct."},
+   {"synset": "oewn-06693922-n", "verdict": "right",
+    "fault": null, "why": "Learner line restates the newspaper gloss, the morning-paper example fits, null is correct."}
+  ]},
+ {"word": "over", "pos": "adverb",
+  "rank": "unsure", "why": "No sentence carries a listed adverb gloss: four use 'over' as a preposition, 'the ceremony was over' means finished, and 'think it all over' is a phrasal particle, so the order cannot be checked against the book.",
+  "senses": [
+   {"synset": "oewn-00228167-r", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'to a point across intervening space', 'came over to sit beside me' is that sense, null is correct."},
+   {"synset": "oewn-00199469-r", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'over the entire area', 'scratched all over' is that sense, null is correct."},
+   {"synset": "oewn-00228294-r", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'throughout an area', 'known the country over' is that sense, null is correct."}
+  ]},
+ {"word": "thus", "pos": "adverb",
+  "rank": "right", "why": "Five of six sentences use 'thus' as 'in the way indicated' (thus explained, thus much, thus began, thus talked of), which is listed first; only 'and thus at once achieve' is the as-a-result sense.",
+  "senses": [
+   {"synset": "oewn-00122019-r", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'in the way indicated', both examples are book uses in that sense, 'formal' fits the register 'thus' shows in every sentence, null is correct."},
+   {"synset": "oewn-00043413-r", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'from that reason or as a result', the 'and thus at once achieve' example is a consequence, 'formal' fits the sentences, null is correct."}
+  ]},
+ {"word": "head", "pos": "verb",
+  "rank": "unsure", "why": "All five sentences are the noun 'heading' in illustration captions ('Heading to Chapter XVIII'), not the verb; no verb sense is attested, so the order cannot be checked against the book.",
+  "senses": [
+   {"synset": "oewn-01939092-v", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'go or travel towards', 'headed for the door' is that sense, null is correct."},
+   {"synset": "oewn-02445109-v", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'be in charge of', 'heads the committee' is that sense, null is correct."},
+   {"synset": "oewn-02003455-v", "verdict": "right",
+    "fault": null, "why": "Learner line keeps both 'travel in front of' and 'in advance of others', 'a brass band headed the procession' is that sense, null is correct."}
+  ]},
+ {"word": "play", "pos": "verb",
+  "rank": "right", "why": "Four of the five verb sentences are playing an instrument (play and sing, the Miss Webbs all play, play to him, began playing again), which is listed first; 'the conclusion of the play' is the noun.",
+  "senses": [
+   {"synset": "oewn-01728928-v", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'play on an instrument', both examples are book uses in that sense, null is correct."},
+   {"synset": "oewn-01589199-v", "verdict": "right",
+    "fault": null, "why": "Learner line keeps both the manual and the in-the-mind halves, 'playing with her bracelets and rings' is the manual one, null is correct."},
+   {"synset": "oewn-01730049-v", "verdict": "right",
+    "fault": null, "why": "Learner line matches performing music on an instrument, 'played a few old airs on the pianoforte' names the instrument played on, null is correct."}
+  ]},
+ {"word": "ago", "pos": "adverb",
+  "rank": "right", "why": "Only one sense, and every sentence is 'X ago' meaning in the past.",
+  "senses": [
+   {"synset": "oewn-00074361-r", "verdict": "right",
+    "fault": null, "why": "'At a time before now' restates 'in the past', both examples are book uses, null is correct."}
+  ]},
+ {"word": "dance", "pos": "noun",
+  "rank": "right", "why": "Three sentences are the verb; the three noun uses ('the first dance', 'four dances', 'dances of mortification') are single numbers of dancing, which fall under the act sense listed first rather than either party sense.",
+  "senses": [
+   {"synset": "oewn-00429255-n", "verdict": "right",
+    "fault": null, "why": "Learner line matches rhythmical steps in time to music, 'loved dance since she was a small child' reads as the activity (dance as dancing), null is correct."},
+   {"synset": "oewn-07463317-n", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'a party for social dancing', 'holding a dance in the village hall' is that sense, null is correct."},
+   {"synset": "oewn-08270062-n", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'a party of people assembled for dancing', 'the whole dance turned to look at her' is the assembled group, null is correct."}
+  ]},
+ {"word": "wholly", "pos": "adverb",
+  "rank": "right", "why": "Only one sense, and every sentence uses 'wholly' as completely or entirely.",
+  "senses": [
+   {"synset": "oewn-00008423-r", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'completely or entirely', both examples are book uses, null is correct."}
+  ]}
+]}

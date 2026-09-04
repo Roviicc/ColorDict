@@ -1,0 +1,25 @@
+{
+ "entries_read": 98,
+ "entries_with_a_fault": 5,
+ "entry_defect_rate": 0.051,
+ "senses_read": 255,
+ "senses_wrong": 8,
+ "sense_defect_rate": 0.0314,
+ "rank_wrong": 0,
+ "unsure": 5,
+ "faults": {
+  "false-null": 6,
+  "example-wrong-sense": 1,
+  "false-candidate": 1
+ },
+ "wrong": [
+  "hope/oewn-00707813-v example-wrong-sense: The learner line is faithful, but 'she might reasonably hope to hear again' is Jane wishing and expecting a letter she cannot intend to receive, so the example is the expect-and-wish sense, not intend-with-some-possibility-of-fulfilment.",
+  "contempt/oewn-04922864-n false-candidate: The word in the manner sense describes a way of behaving exactly as it does in the feeling and open-disrespect senses that were rightly left null; a contemptuous manner is a bad referent, not a loaded word, and the sole example (an expression that changes in a moment) reads as the feeling shown rather than a general manner.",
+  "shame/oewn-07319716-n false-null: 'It will be quite a shame if he does not' names no fact about the event but only the speaker's regret at it, so the word in this sense judges the thing it is aimed at as regrettable and a learner needs to know it lands as sympathetic regret, not rebuke.",
+  "virtue/oewn-04854529-n false-null: The learner line and example are faithful, but 'the quality of doing what is right' is a moral appraisal rather than an observable fact, so saying someone has virtue plainly approves of them and a learner needs to know it lands as praise.",
+  "virtue/oewn-04856990-n false-null: The learner line and both examples are faithful to the sexual-morality sense, but calling chastity 'virtue' endorses it and the word in this sense is an approving, dated and somewhat euphemistic name for it, which a learner needs to know.",
+  "virtue/oewn-04854713-n false-null: The learner line and example are faithful, but 'a particular moral excellence' is by its nature a quality the speaker praises, so 'every virtue' plainly judges its possessor favourably.",
+  "elegance/oewn-04819517-n false-null: Learner line and examples are faithful, but elegance in this sense is praise of its object, which the ironic sentences (elegance which consists in tormenting a respectable man) rely on, so a learner needs to know how it lands.",
+  "elegance/oewn-04819885-n false-null: Learner line and example are faithful, but calling a solution elegant is approval of it, not a neutral description."
+ ]
+}

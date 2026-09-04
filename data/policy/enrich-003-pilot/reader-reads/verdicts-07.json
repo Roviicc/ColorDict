@@ -1,0 +1,69 @@
+{"packet": 7, "verdicts": [
+ {"word": "produce", "pos": "verb",
+  "rank": "right", "why": "Three sentences are cause-to-happen (expression, effects, happiness), two are bring-out-for-display (the books), one (a more valuable son-in-law) could be either, so the sentences split and the first sense is the larger share of the split.",
+  "senses": [
+   {"synset": "oewn-01756692-v", "verdict": "right", "fault": null, "why": "Learner line is the gloss in plain words, both examples use produce as cause-to-happen, and the word only describes."},
+   {"synset": "oewn-02145619-v", "verdict": "right", "fault": null, "why": "Learner line matches bring-out-for-display, both book examples are the books being brought out, null is correct."},
+   {"synset": "oewn-01624592-v", "verdict": "right", "fault": null, "why": "Learner line keeps make-or-manufacture and man-made, the factory example is this sense, and the word does not judge."}
+  ]},
+ {"word": "accompany", "pos": "verb",
+  "rank": "right", "why": "Five of six sentences are people going along with other people; only the violent yawn is the be-present-with sense, and go-or-travel-along-with is listed first.",
+  "senses": [
+   {"synset": "oewn-02029396-v", "verdict": "right", "fault": null, "why": "Learner line is the gloss verbatim in plain words, both examples are travelling along with someone, null is correct."},
+   {"synset": "oewn-02722040-v", "verdict": "right", "fault": null, "why": "Learner line keeps both halves of the gloss (present with an event, associated with an entity), the rain and fever examples are this sense, null is correct."},
+   {"synset": "oewn-02722642-v", "verdict": "right", "fault": null, "why": "Keep-someone-company is a faithful rendering of be-a-companion-to, the grandmother example is this sense, null is correct."}
+  ]},
+ {"word": "amusement", "pos": "noun",
+  "rank": "right", "why": "Four sentences name the activity (the dance, trifling amusements, recreation and amusement, the amusements of London) and two the feeling (his amusement, my own amusement), so the activity sense belongs first.",
+  "senses": [
+   {"synset": "oewn-00430033-n", "verdict": "right", "fault": null, "why": "Learner line says diverting activity that holds the attention in plain words, both examples are the activity (dancing, the girls' pastimes), null is correct."},
+   {"synset": "oewn-07506616-n", "verdict": "right", "fault": null, "why": "Learner line is the feeling of delight at being entertained, both examples (his amusement at her folly, coughing for my own amusement) are the feeling, null is correct."}
+  ]},
+ {"word": "belief", "pos": "noun",
+  "rank": "right", "why": "Four sentences hold a specific proposition as true (belief of the inconsistency, belief of my being impelled, belief of your being a party, a belief that I will ever recede) and the other two (past belief, stretch of belief) sit nearer that sense than the vague-idea one, so cognitive-content-held-as-true is rightly first.",
+  "senses": [
+   {"synset": "oewn-05950141-n", "verdict": "right", "fault": null, "why": "Learner line is the gloss in plain words, both examples are a proposition held as true, null is correct."},
+   {"synset": "oewn-05925333-n", "verdict": "right", "fault": null, "why": "Learner line keeps both the vagueness and the confidence placed in it, the weather example is exactly a vague idea trusted without reason, null is correct."}
+  ]},
+ {"word": "lay", "pos": "verb",
+  "rank": "right", "why": "Every sentence is putting something into a place or an abstract location (stress laid on forms, laid aside his book, lay to his charge, laid down money, laid by a sum, lay consequences on her folly), and that sense is first.",
+  "senses": [
+   {"synset": "oewn-01496967-v", "verdict": "right", "fault": null, "why": "Learner line keeps both the real place and the abstract location, the two examples show one of each, null is correct."},
+   {"synset": "oewn-02312241-v", "verdict": "right", "fault": null, "why": "Learner line names duty, burden and punishment as the gloss does, the fine and extra-work examples are imposing, null is correct."},
+   {"synset": "oewn-01547474-v", "verdict": "right", "fault": null, "why": "Set-down-so-it-lies-flat is put-in-a-horizontal-position in plain words, the newspaper example is this sense, null is correct."}
+  ]},
+ {"word": "compassion", "pos": "noun",
+  "rank": "right", "why": "Five sentences are the felt sympathy for someone's suffering (compassion on my nerves, consider with compassion, object of compassion, ask for compassion) and only a cause of compassion and honour reads as the quality, so the feeling sense is rightly first.",
+  "senses": [
+   {"synset": "oewn-07569189-n", "verdict": "right", "fault": null, "why": "Deep sense of another's suffering plus sorrow felt for them renders awareness-and-sympathy without adding or dropping anything, both examples are the feeling, and this gloss describes a feeling without judging it."},
+   {"synset": "oewn-04836781-n", "verdict": "right", "fault": null, "why": "Kind quality of understanding suffering and wanting to act is the humane-quality gloss in plain words, the cause-of-compassion-and-honour example is the quality, and the candidate is justified because the gloss itself calls the quality humane and the word lands warmer than pity."}
+  ]},
+ {"word": "wonder", "pos": "noun",
+  "rank": "right", "why": "Five of the six sentences are the verb wonder, not the noun; the one noun use (in quest of this wonder) is a thing that causes wonder, and that sense is first.",
+  "senses": [
+   {"synset": "oewn-07304311-n", "verdict": "right", "fault": null, "why": "A thing that makes people feel amazed is the gloss in plain words, the in-quest-of-this-wonder example is this sense, null is correct."},
+   {"synset": "oewn-07525235-n", "verdict": "right", "fault": null, "why": "Learner line keeps strange and surprising and the feeling stirred up, the great-hall example is the feeling, null is correct."},
+   {"synset": "oewn-05690411-n", "verdict": "right", "fault": null, "why": "State of wanting to find out more is the gloss verbatim in plain words, the child asking about stars is this sense, null is correct."}
+  ]},
+ {"word": "offend", "pos": "verb",
+  "rank": "right", "why": "All six sentences are people made resentful or hurt by pride, neglect, insult or a checked laugh, which the first two senses split between them, and cause-to-feel-resentment is one of that split and listed first.",
+  "senses": [
+   {"synset": "oewn-01793089-v", "verdict": "right", "fault": null, "why": "Bitter or angry at being wronged covers resentment and indignation, both examples are causing resentment (his pride, offending your patroness), null is correct since the word reports an effect without judging."},
+   {"synset": "oewn-01797206-v", "verdict": "right", "fault": null, "why": "Learner line is the gloss verbatim, the offending-and-insulting-me example is hurting feelings, null is correct."},
+   {"synset": "oewn-01814414-v", "verdict": "right", "fault": null, "why": "Fill-with-disgust renders strike-with-disgust-or-revulsion (revulsion is a synonym, not a dropped alternative), the drain-smell example is this sense, null is correct."}
+  ]},
+ {"word": "will", "pos": "noun",
+  "rank": "unsure", "why": "All six sentences are the modal verb will (will seem, will not find, will hardly bear, will wish, will do, will come), none is the noun, so the packet gives no evidence to confirm or fault the noun ordering.",
+  "senses": [
+   {"synset": "oewn-05660438-n", "verdict": "right", "fault": null, "why": "Power to choose, decide and mean to do things renders choice, decision and intention, the free-will example is this sense, null is correct."},
+   {"synset": "oewn-06556133-n", "verdict": "right", "fault": null, "why": "Learner line keeps legal paper, the person's wishes and property after death, the house-to-his-niece example is this sense, null is correct."},
+   {"synset": "oewn-05992539-n", "verdict": "right", "fault": null, "why": "Firm intention held to is fixed-and-persistent-intent in plain words, the keep-walking example is this sense, null is correct."}
+  ]},
+ {"word": "attach", "pos": "verb",
+  "rank": "right", "why": "Four sentences are emotional attachment (excessively attached to me, attached to me twice, attach herself to anybody) and two are abstract be-attached (blame attaching, happiness attached to her situation), so create-social-or-emotional-ties is rightly first.",
+  "senses": [
+   {"synset": "oewn-02543752-v", "verdict": "right", "fault": null, "why": "Make a social or emotional tie is the gloss in plain words, the attach-herself-to-anybody example is this sense, null is correct."},
+   {"synset": "oewn-01299048-v", "verdict": "right", "fault": null, "why": "Make one thing joined or fixed to another renders cause-to-be-attached, the label-on-trunks example is this sense, null is correct."},
+   {"synset": "oewn-01292858-v", "verdict": "right", "fault": null, "why": "Learner line keeps both be-attached and be-in-contact-with, the happiness-attached-to-her-situation example is a stative be-attached, null is correct."}
+  ]}
+]}

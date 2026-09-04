@@ -1,0 +1,70 @@
+{"packet": 9, "verdicts": [
+ {"word": "instrument", "pos": "noun",
+  "rank": "right", "why": "All six sentences are about the pianoforte, and the musical-instrument gloss is listed first.",
+  "senses": [
+   {"synset": "oewn-03806455-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss plainly, both examples use the musical sense, no labels, and the word only names a thing."},
+   {"synset": "oewn-03579967-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the microscope example is a skill-requiring device, and null is correct for a plain device word."},
+   {"synset": "oewn-00174610-n", "verdict": "right", "fault": null, "why": "Learner line is the gloss in plainer words, 'the instrument of his ruin' is the means sense, and the word describes without judging."}
+  ]},
+ {"word": "confidence", "pos": "noun",
+  "rank": "right", "why": "Three sentences carry the feeling-of-trust sense, two the trustful-relationship sense and one the confided-secret sense, and the feeling sense is first.",
+  "senses": [
+   {"synset": "oewn-07541744-n", "verdict": "right", "fault": null, "why": "Learner line is faithful to 'a feeling of trust', the example uses that sense, and a feeling word does not judge its object."},
+   {"synset": "oewn-13952885-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a trustful relationship', both 'subsist between' examples are the relationship sense, and null is right."},
+   {"synset": "oewn-06686180-n", "verdict": "right", "fault": null, "why": "Learner line says what the gloss says, 'betrayed a confidence' is the secret sense, and the word only names the secret."}
+  ]},
+ {"word": "interruption", "pos": "noun",
+  "rank": "right", "why": "The sentences split between the abrupt-occurrence sense and the act-of-interrupting sense, with one pause-interval use, and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-07382412-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss, Sir William's interruption and the unwelcome interruption are both the occurrence sense, and the word describes without judging."},
+   {"synset": "oewn-00384760-n", "verdict": "right", "fault": null, "why": "Holding up or breaking into something covers both delaying and interrupting the continuity, 'talk on without interruption' is the act sense, and null is right."},
+   {"synset": "oewn-15295994-n", "verdict": "right", "fault": null, "why": "Learner line matches the time-interval gloss, 'after a short interruption' is a pause in Wickham's speech, and the word only names the interval."}
+  ]},
+ {"word": "claim", "pos": "noun",
+  "rank": "right", "why": "Society's claims, duty's claims, Lydia's claims and the claim on Elizabeth are all the informal-right sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-05183431-n", "verdict": "right", "fault": null, "why": "A right that has not been made official is the gloss's 'informal right', both examples use it, and the word does not judge."},
+   {"synset": "oewn-06742613-n", "verdict": "right", "fault": null, "why": "Learner line keeps the assertion-of-a-right meaning and the money-or-property scope, and resigning all claim to the church living is a claim on property in that register."},
+   {"synset": "oewn-01063869-n", "verdict": "right", "fault": null, "why": "Learner line restates 'demand for something as rightful or due', the wage-claim example is that sense, and null is right for a demand word."}
+  ]},
+ {"word": "eat", "pos": "verb",
+  "rank": "right", "why": "Five of the six sentences are people taking in food; only 'eat up with pride' is figurative, and the take-in-solid-food sense is first.",
+  "senses": [
+   {"synset": "oewn-01170802-v", "verdict": "right", "fault": null, "why": "Learner line is the gloss in plainer words, both book examples are literal eating, and the word describes an act without judging."},
+   {"synset": "oewn-01168667-v", "verdict": "right", "fault": null, "why": "'To have a meal' is exactly the gloss, 'we usually eat at seven' is the meal sense, and null is right."},
+   {"synset": "oewn-01182162-v", "verdict": "right", "fault": null, "why": "Learner line keeps the animals-only restriction the gloss states, the horses example fits, and the word does not judge."}
+  ]},
+ {"word": "examine", "pos": "verb",
+  "rank": "right", "why": "Examining the patient, the furniture, the china, the mother and the house are all the look-over-carefully sense, and that gloss is first.",
+  "senses": [
+   {"synset": "oewn-02135744-v", "verdict": "right", "fault": null, "why": "Watch, check and look over carefully covers the gloss, both examples are inspection uses, and the word does not judge."},
+   {"synset": "oewn-00646245-v", "verdict": "right", "fault": null, "why": "Thinking about something in detail and breaking it down to find what it means is the analysis gloss, and 'conduct strictly examined' is that sense."},
+   {"synset": "oewn-00790226-v", "verdict": "right", "fault": null, "why": "Learner line keeps both the questioning and the looking-into alternatives, the lawyer questioning the witness thoroughly and closely fits the gloss as written, and null is right."}
+  ]},
+ {"word": "dress", "pos": "verb",
+  "rank": "right", "why": "Three sentences are the compounds dressing-room and dressing-gown; the three verb uses split between putting on clothes, dressing another and being dressed in a manner, and put-on-clothes is one of the split.",
+  "senses": [
+   {"synset": "oewn-00046251-v", "verdict": "right", "fault": null, "why": "'To put clothes on' is the gloss, 'retired to dress' is that sense, and the word describes an act without judging."},
+   {"synset": "oewn-00047662-v", "verdict": "right", "fault": null, "why": "Learner line keeps both alternatives, giving clothes and putting them on someone, the children example is the transitive sense, and null is right."},
+   {"synset": "oewn-00044528-v", "verdict": "right", "fault": null, "why": "Wearing clothes in a particular way is 'dress in a certain manner', 'simply dressed' is that sense, and the word does not judge on its own."}
+  ]},
+ {"word": "comply", "pos": "verb",
+  "rank": "right", "why": "There is one sense and every sentence is comply-with in that sense.",
+  "senses": [
+   {"synset": "oewn-02547977-v", "verdict": "right", "fault": null, "why": "Learner line keeps rules, orders and wishes as the gloss does, both examples are the book's comply-with, and the word describes an act without judging it."}
+  ]},
+ {"word": "shame", "pos": "noun",
+  "rank": "right", "why": "Five of the six sentences are the painful emotion and one is 'quite a shame' meaning a pity, and the emotion sense is first.",
+  "senses": [
+   {"synset": "oewn-07521808-n", "verdict": "right", "fault": null, "why": "Falling short or doing wrong is the gloss's inadequacy or guilt, both examples are the emotion, and a word naming a feeling does not judge what it is aimed at."},
+   {"synset": "oewn-07319716-n", "verdict": "wrong", "fault": "false-null", "why": "'It will be quite a shame if he does not' names no fact about the event but only the speaker's regret at it, so the word in this sense judges the thing it is aimed at as regrettable and a learner needs to know it lands as sympathetic regret, not rebuke."},
+   {"synset": "oewn-14463603-n", "verdict": "right", "fault": null, "why": "Having lost your good name and others' respect is 'a state of dishonor', the family-after-the-trial example is that state, and the candidate reason is sound because calling someone's condition shame marks them as fallen."}
+  ]},
+ {"word": "virtue", "pos": "noun",
+  "rank": "right", "why": "The sentences split evenly between moral goodness in general, particular virtues and sexual virtue, and the general sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-04854529-n", "verdict": "wrong", "fault": "false-null", "why": "The learner line and example are faithful, but 'the quality of doing what is right' is a moral appraisal rather than an observable fact, so saying someone has virtue plainly approves of them and a learner needs to know it lands as praise."},
+   {"synset": "oewn-04856990-n", "verdict": "wrong", "fault": "false-null", "why": "The learner line and both examples are faithful to the sexual-morality sense, but calling chastity 'virtue' endorses it and the word in this sense is an approving, dated and somewhat euphemistic name for it, which a learner needs to know."},
+   {"synset": "oewn-04854713-n", "verdict": "wrong", "fault": "false-null", "why": "The learner line and example are faithful, but 'a particular moral excellence' is by its nature a quality the speaker praises, so 'every virtue' plainly judges its possessor favourably."}
+  ]}
+]}

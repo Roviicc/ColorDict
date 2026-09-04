@@ -1,0 +1,100 @@
+{"packet": 2, "verdicts": [
+ {"word": "begin", "pos": "verb",
+  "rank": "right", "why": "Four of the six sentences use 'began' quotatively for starting to speak (Mrs. Hurst, Mr. Collins, 'began with', Lady Catherine), and the other two ('began scolding', 'begin to be') fall under the second-listed sense, so the order matches the book.",
+  "senses": [
+   {"synset": "oewn-00749644-v", "verdict": "right",
+    "fault": null, "why": "Learner line restates 'begin to speak or say' plainly, both examples are quotative 'began' before speech, and null is right for a verb that only marks a start."},
+   {"synset": "oewn-00346415-v", "verdict": "right",
+    "fault": null, "why": "Learner line matches the gloss, 'began scolding' and 'began writing' are begin-plus-action uses, and the word does not judge."},
+   {"synset": "oewn-02615238-v", "verdict": "right",
+    "fault": null, "why": "Learner line keeps the gloss's restriction to a temporal event, 'the ball began at eight' is exactly that, and null is right."}
+  ]},
+ {"word": "opinion", "pos": "noun",
+  "rank": "right", "why": "Five of the six sentences ('no opinion of her', 'good opinion' twice, 'any other opinion', 'your own opinion') carry a personal belief or judgment, which is listed first; the sixth ('adopt any opinions') splits between senses one and three.",
+  "senses": [
+   {"synset": "oewn-05954491-n", "verdict": "right",
+    "fault": null, "why": "Learner line says belief-or-judgment without proof or certainty in plain words, both examples are opinions held, and the word describes without judging."},
+   {"synset": "oewn-06794876-n", "verdict": "right",
+    "fault": null, "why": "Learner line covers both halves of the gloss (the expressed message, and the belief held firmly but unproved), 'gave her opinion aloud' is the expression sense, and null is right."},
+   {"synset": "oewn-05925333-n", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'a vague idea in which some confidence is placed'; 'adopt any opinions that came in her way' reads as loosely held notions and is defensible here though it would also sit under sense one; null is right."}
+  ]},
+ {"word": "part", "pos": "noun",
+  "rank": "right", "why": "The sentences genuinely split (two spatial 'part of London', components of beauty and of conduct, 'for my part', the water's narrowest parts), and the spatial sense with the most uses sits first.",
+  "senses": [
+   {"synset": "oewn-08647614-n", "verdict": "right",
+    "fault": null, "why": "Learner line renders 'extended spatial location' as a stretch of space or an area of a larger place, both examples are 'part of London', and null is right."},
+   {"synset": "oewn-13831419-n", "verdict": "right",
+    "fault": null, "why": "Learner line restates the gloss's thing-in-relation-to-its-whole plainly, 'the best parts of beauty' names constituents of beauty, and null is right."},
+   {"synset": "oewn-05679818-n", "verdict": "right",
+    "fault": null, "why": "Learner line matches the gloss, 'for my part' is exactly that which concerns a person in a situation, and null is right."},
+   {"synset": "oewn-09408804-n", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'a portion of a natural object', the water's narrowest parts are portions of a stream, and null is right."}
+  ]},
+ {"word": "rather", "pos": "adverb",
+  "rank": "right", "why": "Four of the six sentences are 'rather X than Y' contrasts (punishment than pleasure, noisy than pathetic, Memling than Cosway, contentment to her aunt than to herself), which is the 'on the contrary' sense listed first; the degree use and the preference use take one sentence each.",
+  "senses": [
+   {"synset": "oewn-00099264-r", "verdict": "right",
+    "fault": null, "why": "Learner line gives 'instead of that' plus a plain rendering of 'on the contrary', both examples are 'rather X than Y' contrasts, and the adverb does not judge."},
+   {"synset": "oewn-00018764-r", "verdict": "right",
+    "fault": null, "why": "Learner line keeps the gloss's 'great or small', 'rather affected your admiration' is the degree use, and null is right."},
+   {"synset": "oewn-00116461-r", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'more readily or willingly', 'would rather have cried' is the preference use, and null is right."}
+  ]},
+ {"word": "life", "pos": "noun",
+  "rank": "right", "why": "The two 'business of her life' sentences and 'first object in life' carry the course-of-existence sense listed first, 'anxiety for his life' is the second-listed state of being alive, and 'a lady lives with her' is the verb, not the noun.",
+  "senses": [
+   {"synset": "oewn-13984685-n", "verdict": "right",
+    "fault": null, "why": "Learner line carries both halves of the gloss (the course of one person's existence, and what they do and what happens), both 'business of her life' examples fit, and null is right."},
+   {"synset": "oewn-13984978-n", "verdict": "right",
+    "fault": null, "why": "Learner line restates the gloss almost verbatim, 'anxiety for his life' is fear for his being alive, and null is right."},
+   {"synset": "oewn-15165365-n", "verdict": "right",
+    "fault": null, "why": "Learner line keeps the functional-period reading including the birth-to-death case, the battery example is the gloss's own kind of case, and null is right."}
+  ]},
+ {"word": "mind", "pos": "noun",
+  "rank": "right", "why": "Four of the five noun sentences ('her mind was less difficult', 'delicacy of mind', 'female minds', 'her mind opened') use the seat-of-thought sense listed first; 'you will not mind' is the verb, and 'absence of mind' is a fixed phrase that does not plainly pull toward an unwritten sense.",
+  "senses": [
+   {"synset": "oewn-05619057-n", "verdict": "right",
+    "fault": null, "why": "Learner line covers thoughts, feelings, awareness and reasoning as the gloss does, both examples are the faculty itself, and null is right."},
+   {"synset": "oewn-05846466-n", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'an opinion formed by judging', 'change his mind' is that sense, and null is right."},
+   {"synset": "oewn-05770146-n", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'recall or remembrance', 'came to mind' is that sense, and null is right."}
+  ]},
+ {"word": "follow", "pos": "verb",
+  "rank": "right", "why": "Three sentences ('follows him to town', 'Maria followed', 'followed him thither') use the go-after sense listed first, two ('a pause followed this speech', 'followed by a letter') are the temporal senses listed second and third, and 'the following manner' is adjectival.",
+  "senses": [
+   {"synset": "oewn-02002464-v", "verdict": "right",
+    "fault": null, "why": "Learner line says move behind and go after, both examples are people physically following, and null is right."},
+   {"synset": "oewn-02726229-v", "verdict": "right",
+    "fault": null, "why": "Learner line keeps 'as a result', a pause following a speech is a consequence in time, and null is right."},
+   {"synset": "oewn-02718647-v", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'be later in time', the letter following the visit by days is that sense, and null is right."}
+  ]},
+ {"word": "present", "pos": "adjective",
+  "rank": "right", "why": "The two adjective uses ('present novel', 'present occasion') carry the temporal sense listed first, and the four 'at present' sentences are noun uses that in any case point the same way.",
+  "senses": [
+   {"synset": "oewn-01735600-a", "verdict": "right",
+    "fault": null, "why": "Learner line renders now-existing, happening or in-consideration between past and future, both examples are current-or-under-consideration uses, and null is right."},
+   {"synset": "oewn-01852337-a", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'being or existing in a specified place', 'present in the room' is that sense, and null is right."}
+  ]},
+ {"word": "civility", "pos": "noun",
+  "rank": "right", "why": "At least three sentences ('such civility', 'endeavour at civility', 'a degree of civility') use the act-of-showing-regard sense listed first, 'formal civility' is the second sense, and the rest ('obsequious civility', 'Mrs. Bennet's civilities') are arguable either way.",
+  "senses": [
+   {"synset": "oewn-01230397-n", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'the act of showing regard for others', both examples are politeness as regard, and null holds because the word in this sense names the conduct without colouring it, as 'politeness' does."},
+   {"synset": "oewn-04921310-n", "verdict": "right",
+    "fault": null, "why": "Learner line renders 'formal or perfunctory' as form-only or done for form's sake, 'his formal civility' is squarely this sense and 'Mrs. Bennet's civilities' passes as conventional courtesies, and the candidate is right since the word in this sense marks politeness as cool and unfelt."}
+  ]},
+ {"word": "agreeable", "pos": "adjective",
+  "rank": "right", "why": "All six sentences use 'agreeable' as pleasing to one's liking, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00089736-a", "verdict": "right",
+    "fault": null, "why": "Learner line restates liking, feelings and nature plainly, both examples are 'agreeable' as pleasing, and the candidate is right because the word approves what it is aimed at."},
+   {"synset": "oewn-00555499-s", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'prepared to agree or consent', 'agreeable to the plan' is that sense, and null is right."},
+   {"synset": "oewn-00579473-s", "verdict": "right",
+    "fault": null, "why": "Learner line matches 'in keeping', 'agreeable with everything she had heard' is that sense, and null is right."}
+  ]}
+]}

@@ -1,0 +1,98 @@
+{"packet": 1, "verdicts": [
+ {"word": "away", "pos": "adverb",
+  "rank": "right", "why": "Four of the six sentences use 'went/go/called away' from a place, which is the first gloss; the two 'pass away' sentences use 'out of existence', which sits second, so no sense the sentences use sits below one they do not.",
+  "senses": [
+   {"synset": "oewn-00234667-r", "verdict": "right",
+    "fault": null, "why": "The learner line says 'from a certain thing, place, or position' in plain words, both examples are the book's 'went away' from a place, and a direction word judges nothing, so null holds."},
+   {"synset": "oewn-00236283-r", "verdict": "right",
+    "fault": null, "why": "'So that a thing stops being there at all' is 'out of existence' plainly, both 'pass away' examples are the weeks and the trouble ceasing to be, and null holds."},
+   {"synset": "oewn-00236984-r", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both the space and the time alternatives of the gloss, the two examples show one of each with the headword, and null holds."}
+  ]},
+ {"word": "talk", "pos": "verb",
+  "rank": "right", "why": "Five of the six sentences are people conversing with one another ('talking together', 'talked to Elizabeth', 'talk to me of', 'talked on'), which is the first gloss; only 'how can you talk so' leans toward 'express in speech'.",
+  "senses": [
+   {"synset": "oewn-00964479-v", "verdict": "right",
+    "fault": null, "why": "'To trade thoughts with another person; to speak with someone' is the gloss in plain words, both examples are people talking with each other from the book, and null holds."},
+   {"synset": "oewn-00965602-v", "verdict": "right",
+    "fault": null, "why": "The learner line repeats the two-word gloss, which is already plain, the child-who-cannot-talk example is the ability to use language, and null holds."},
+   {"synset": "oewn-00944022-v", "verdict": "right",
+    "fault": null, "why": "'To put something into spoken words' is 'express in speech' plainly, 'he talks nonsense' is speech content rather than conversing, and null holds."}
+  ]},
+ {"word": "long", "pos": "adverb",
+  "rank": "right", "why": "Three of the sentences are not the adverb at all (the surname Mrs. Long and two adjectives), and the three adverb uses ('ere long', 'no longer', 'long enough') all carry the time gloss, which is first.",
+  "senses": [
+   {"synset": "oewn-00167240-r", "verdict": "right",
+    "fault": null, "why": "The learner line keeps both 'for a great amount of time' and 'at a time far from now', both examples are the book's time uses of the adverb, and null holds."},
+   {"synset": "oewn-00167533-r", "verdict": "right",
+    "fault": null, "why": "'Over a great amount of distance' is the gloss plainly, 'threw the ball long' is the adverb in the distance sense, and null holds."}
+  ]},
+ {"word": "house", "pos": "noun",
+  "rank": "right", "why": "All six sentences are a dwelling someone lives in or enters (Bingley's house, Pemberley, 'my house', 'the house'), and that gloss is first.",
+  "senses": [
+   {"synset": "oewn-03549540-n", "verdict": "right",
+    "fault": null, "why": "'A building that one family or several families live in' is the gloss plainly, both examples are the book's dwellings, and a plain building word judges nothing, so null holds."},
+   {"synset": "oewn-08094856-n", "verdict": "right",
+    "fault": null, "why": "'A group of people who live together' is 'a social unit living together' plainly, 'the whole house had gone to bed' is the people rather than the building, and null holds."},
+   {"synset": "oewn-03550330-n", "verdict": "right",
+    "fault": null, "why": "'A building that keeps something inside it or holds it' is the gloss plainly, 'carriage house' is a building that shelters carriages, and null holds."}
+  ]},
+ {"word": "indeed", "pos": "adverb",
+  "rank": "right", "why": "All six sentences use 'indeed' inside a clause to affirm or intensify ('very artful people, indeed', 'Mr. Bennet indeed said little'), which is the first gloss; none is the bare interjection.",
+  "senses": [
+   {"synset": "oewn-00038035-r", "verdict": "right",
+    "fault": null, "why": "'In truth, and often used to make what you say stronger' is the gloss with its parenthesis kept, both examples are the book's intensifying uses, and an affirming adverb carries no judgment of its own, so null holds."},
+   {"synset": "oewn-00037864-r", "verdict": "right",
+    "fault": null, "why": "The learner line renders interjection, surprise, skepticism and irony in plain words, the bare 'Indeed!' example is that use, and the candidate stands because a bare 'Indeed!' can land as doubt or mockery of what was just said, which a learner needs to know."}
+  ]},
+ {"word": "last", "pos": "adjective",
+  "rank": "right", "why": "The three adjective uses ('the last hundred years', 'last night', 'his last address') all mean the most recent one, which is the first gloss; the other three sentences are the fixed adverbial phrase 'at last'.",
+  "senses": [
+   {"synset": "oewn-01734561-s", "verdict": "right",
+    "fault": null, "why": "'The one just before now' is 'immediately past' plainly, 'last night' is that sense from the book, and null holds."},
+   {"synset": "oewn-01016876-a", "verdict": "right",
+    "fault": null, "why": "The learner line keeps every alternative of the gloss (time, place, degree, only one left), 'the last to leave' and 'the last piece of bread' show the after-all-others and only-one-remaining readings, and null holds."},
+   {"synset": "oewn-01013868-s", "verdict": "right",
+    "fault": null, "why": "'Happening at the end of something, or making its end' is the gloss plainly, 'the last scene of the play' is a scene forming the play's end, and null holds."}
+  ]},
+ {"word": "even", "pos": "adverb",
+  "rank": "right", "why": "Four of the six sentences use 'even' as an intensive marking something unexpected ('even Lydia', 'He even looked', 'even his open petition'), which is the first gloss; 'even when it was settled' is the in-spite-of sense, listed third.",
+  "senses": [
+   {"synset": "oewn-00017907-r", "verdict": "right",
+    "fault": null, "why": "'Used to make a point stronger, above all when what follows is something you would not expect' is the gloss plainly, both examples are the book's unexpected-intensive uses, and null holds."},
+   {"synset": "oewn-00018101-r", "verdict": "right",
+    "fault": null, "why": "'By a greater amount; used with words that compare' is the gloss plainly, 'even colder than' is the comparative use, and null holds."},
+   {"synset": "oewn-00018505-r", "verdict": "right",
+    "fault": null, "why": "'Used to say that something holds true in spite of the thing named' is 'in spite of; notwithstanding' plainly, 'even when it was settled' is that concessive use from the book, and null holds."}
+  ]},
+ {"word": "hope", "pos": "verb",
+  "rank": "right", "why": "The four verb uses ('I hope that you have ordered', 'I hope this may be false', 'I hope we shall be', 'hope to hear again') are all wishing and expecting, which is the first gloss; the other two sentences are the noun.",
+  "senses": [
+   {"synset": "oewn-01830665-v", "verdict": "right",
+    "fault": null, "why": "'To want something to happen and to look for it to happen' is 'expect and wish' plainly, both examples are the book's wishes about things outside the speaker's control, and null holds."},
+   {"synset": "oewn-00707813-v", "verdict": "wrong",
+    "fault": "example-wrong-sense", "why": "The learner line is faithful, but 'she might reasonably hope to hear again' is Jane wishing and expecting a letter she cannot intend to receive, so the example is the expect-and-wish sense, not intend-with-some-possibility-of-fulfilment."},
+   {"synset": "oewn-01815408-v", "verdict": "right",
+    "fault": null, "why": "'To feel that things will turn out well; to be full of hope' is the gloss plainly, 'wait and hope' is the bare intransitive be-hopeful use, and null holds."}
+  ]},
+ {"word": "have", "pos": "verb",
+  "rank": "right", "why": "Three sentences are the auxiliary ('having slighted', 'having accepted', 'having been prevented'), and of the three lexical uses two are possession ('having nothing else to say', 'having such a master') and one is causative ('having two men-servants go'), so possession first is right.",
+  "senses": [
+   {"synset": "oewn-02208144-v", "verdict": "right",
+    "fault": null, "why": "'To hold something, either a real thing you can touch or something you cannot' keeps the gloss's concrete-or-abstract span, 'having nothing else to say' is abstract possession from the book, and null holds."},
+   {"synset": "oewn-00772482-v", "verdict": "right",
+    "fault": null, "why": "'To make someone or something do a thing, or act in a certain way' is 'cause to do; cause to act in a specified manner' plainly, 'having two men-servants go with her' is that causative, and null holds."},
+   {"synset": "oewn-02209474-v", "verdict": "right",
+    "fault": null, "why": "'To own something, or to keep it as yours' is 'have ownership or possession of' plainly, the estate and horses examples are ownership, and null holds."}
+  ]},
+ {"word": "add", "pos": "verb",
+  "rank": "right", "why": "All six sentences are a speaker saying something further ('she added', 'he added', 'I will only add', 'adding'), which is the first gloss.",
+  "senses": [
+   {"synset": "oewn-01029183-v", "verdict": "right",
+    "fault": null, "why": "'To say something more after what you have already said' is 'state or say further' plainly, both examples are the book's speakers adding a remark, and null holds."},
+   {"synset": "oewn-00182551-v", "verdict": "right",
+    "fault": null, "why": "The learner line carries all three clauses of the gloss (put with what is there, join to it, make greater in worth, number, size or reach), the water and chairs examples are physical additions, and null holds."},
+   {"synset": "oewn-00642490-v", "verdict": "right",
+    "fault": null, "why": "'To put numbers together to make one number' is 'make an addition by combining numbers' plainly, 'add these two numbers' is arithmetic, and null holds."}
+  ]}
+]}
