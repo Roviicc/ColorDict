@@ -1,0 +1,17 @@
+{
+ "pass": "step 5 blind re-read of the third-hand repairs",
+ "entries_read": 6,
+ "senses_read": 17,
+ "senses_wrong": 0,
+ "sense_defect_rate": 0.0,
+ "rank_wrong": 0,
+ "repaired_senses_in_this_packet": 9,
+ "reader_model": "claude-fable-5-1",
+ "reader_agent": "general-purpose on fable reading .claude/agents/entry-reader.md verbatim (entry-reader by name dies on [reasoning_extraction])",
+ "session_split": "NOT held - the manager session wrote these repairs and also orchestrated this read. Shawn was unavailable 2026-09-04. Guarantee is different-model-fresh-context, as censuses 006-011 and pilot steps 3-4 ran; not comparable to a Shawn-read rate.",
+ "reader_notes": [
+  "hope packet sentence 1 ('Take almost any Frenchman, except the late M. de Maupassant...') is not from Pride and Prejudice - a non-book sentence reached the pilot's sentence pool.",
+  "buy's 'informal' label is not marked by the gloss and no book sentence uses it; the reader accepted it on the written example's register and flagged it as a calibration call, not a fault."
+ ],
+ "wrong": []
+}

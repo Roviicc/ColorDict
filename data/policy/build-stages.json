@@ -171,15 +171,15 @@
     {
      "n": 5,
      "step": "Pilot: third-hand repair + blind re-read",
-     "owner": "manager (repair) / shawn (re-read)",
-     "state": "in_progress",
+     "owner": "manager (repair) / manager (re-read; shawn unavailable)",
+     "state": "done",
      "commit": null,
-     "note": "repair landed 2026-09-04: 9 senses / 6 entries (union of the blind read's 8 and the null audit's 5). 7 false-nulls -> candidate, 1 false candidate -> null, 1 example replaced. Validator unchanged at 98/2, 255 senses, nulls 244 -> 238, candidates 11 -> 17. repair-read-packets/input-01.json (6 entries, 17 senses) is cut and waiting on shawn's blind re-read."
+     "note": "9 senses / 6 entries repaired third-hand; blind re-read 17/17 right, rank_wrong 0. SPLIT NOT HELD: shawn unavailable 2026-09-04, so the manager session wrote the repairs and orchestrated the read - different-model-fresh-context, as 006-011 ran."
     },
     {
      "n": 6,
      "step": "The 778 remaining entries: rank + enrich",
-     "owner": "shawn",
+     "owner": "manager (shawn unavailable 2026-09-04)",
      "state": "not_started",
      "commit": null,
      "note": "data/policy/stage7-book1-run/ - 778 entries, 78 packets, carved 2026-09-04; 0 overlap with the pilot or stage 4"
@@ -195,7 +195,7 @@
     {
      "n": 8,
      "step": "Repairs + blind re-read",
-     "owner": "manager (repair) / shawn (re-read)",
+     "owner": "manager (repair) / manager (re-read; shawn unavailable)",
      "state": "not_started",
      "commit": null
     },

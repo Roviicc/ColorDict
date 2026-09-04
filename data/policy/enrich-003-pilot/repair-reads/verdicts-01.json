@@ -1,0 +1,60 @@
+{"packet": 1, "verdicts": [
+ {"word": "hope", "pos": "verb",
+  "rank": "right", "why": "The four verb sentences (2, 3, 5, 6) all carry 'expect and wish'; sentences 1 and 4 are the noun ('in the hope of') and sentence 1 is not from the book, but neither touches the ranking.",
+  "senses": [
+   {"synset": "oewn-01830665-v", "verdict": "right",
+    "fault": null, "why": "'Want it to happen and look for it to happen' is 'expect and wish' in plain words; both examples are this sense; hope names a feeling without judging its object."},
+   {"synset": "oewn-00707813-v", "verdict": "right",
+    "fault": null, "why": "'Mean to do something you may well be able to do' keeps both the intention and the possibility of fulfilment; the roof example is the intend sense; null is right."},
+   {"synset": "oewn-01815408-v", "verdict": "right",
+    "fault": null, "why": "'Feel that things will turn out well' is the intransitive be-optimistic sense; 'wait and hope' uses it; null is right."}
+  ]},
+ {"word": "contempt", "pos": "noun",
+  "rank": "right", "why": "The sentences split between the feeling (held her in contempt, premeditated contempt, indignant contempt) and open disrespect shown or treated with (sentences 1, 5, 6), and the feeling sense sits first.",
+  "senses": [
+   {"synset": "oewn-07518219-n", "verdict": "right",
+    "fault": null, "why": "'Deserves no respect, together with strong dislike' covers both halves of the gloss; both examples are the inner feeling; the word is the plain name of the feeling, not a judgment of whoever holds it."},
+   {"synset": "oewn-06728866-n", "verdict": "right",
+    "fault": null, "why": "'Disrespect that is shown openly' is the gloss; 'contempt shown to' and 'treat with contempt and ridicule' are both the shown sense; null is right."},
+   {"synset": "oewn-04922864-n", "verdict": "right",
+    "fault": null, "why": "'A way of behaving that shows no respect' is the manner sense; 'an air of lazy contempt' is a manner; null is right."}
+  ]},
+ {"word": "shame", "pos": "noun",
+  "rank": "right", "why": "Five of six sentences carry the painful emotion (gave her all the shame, sense of shame, lost in shame, overpowered by shame) and only 'quite a shame if he does not' is the unfortunate-development sense.",
+  "senses": [
+   {"synset": "oewn-07521808-n", "verdict": "right",
+    "fault": null, "why": "'Knowing you have fallen short or done wrong' is 'awareness of inadequacy or guilt'; both examples are the emotion; the word names the feeling without judging."},
+   {"synset": "oewn-07319716-n", "verdict": "right",
+    "fault": null, "why": "'Something that has turned out badly' is 'an unfortunate development'; the Colonel Forster line is this sense; calling a thing a shame is the speaker's regret at it, so candidate is right."},
+   {"synset": "oewn-14463603-n", "verdict": "right",
+    "fault": null, "why": "'Lost your good name and other people's respect' is 'a state of dishonor'; 'lived in shame after the trial' is this sense; saying someone is in shame marks them as fallen, so candidate is right."}
+  ]},
+ {"word": "virtue", "pos": "noun",
+  "rank": "right", "why": "The sentences split three ways - general moral quality (1, 2), a particular excellence counted as 'every virtue' (3, 4), and sexual morality (5, 6) - and the general sense sits first.",
+  "senses": [
+   {"synset": "oewn-04854529-n", "verdict": "right",
+    "fault": null, "why": "The learner line restates the gloss almost word for word; 'connected him nearer with virtue' is this sense; virtue credits rather than describes, so candidate is right."},
+   {"synset": "oewn-04856990-n", "verdict": "right",
+    "fault": null, "why": "'Right conduct in matters of sex' is the gloss; both examples are about a sister's conduct with Wickham; an approving word for chastity, so candidate is right."},
+   {"synset": "oewn-04854713-n", "verdict": "right",
+    "fault": null, "why": "'One particular good quality of character' is the countable excellence; 'every virtue' uses it; naming a quality as an excellence praises, so candidate is right."}
+  ]},
+ {"word": "elegance", "pos": "noun",
+  "rank": "right", "why": "All four sentences carry the refined-gracefulness sense, including the two ironic ones, and it is listed first.",
+  "senses": [
+   {"synset": "oewn-04819517-n", "verdict": "right",
+    "fault": null, "why": "'Polished quality of being graceful and having good taste' keeps refinement, grace and taste; both examples are this sense; elegance approves, so candidate is right."},
+   {"synset": "oewn-04819885-n", "verdict": "right",
+    "fault": null, "why": "'Neat and cleverly simple way of solving a problem' is the gloss with the science-or-mathematics parenthetical dropped as a domain hint rather than an alternative; the proof example is this sense; candidate is right."}
+  ]},
+ {"word": "buy", "pos": "verb",
+  "rank": "right", "why": "All six sentences are purchase with money, and that sense is first.",
+  "senses": [
+   {"synset": "oewn-02211988-v", "verdict": "right",
+    "fault": null, "why": "'Get something by paying money for it' is the gloss; 'bought this bonnet' and 'buying books' are inflections in this sense; a plain transaction word, so null is right."},
+   {"synset": "oewn-00685589-v", "verdict": "right",
+    "fault": null, "why": "'Accept that something is true' is the gloss; 'I don't buy that' is this sense and shows the colloquial register the informal label names; framing a claim as something being sold casts doubt on it, so candidate is right."},
+   {"synset": "oewn-02288941-v", "verdict": "right",
+    "fault": null, "why": "'Pay someone illegally so that they will help you' is the gloss; 'the inspector had been bought' is this sense; saying a person was bought treats them as purchasable, so candidate is right."}
+  ]}
+]}
