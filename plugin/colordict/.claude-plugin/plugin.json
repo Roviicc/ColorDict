@@ -1,0 +1,10 @@
+{
+  "name": "colordict",
+  "version": "0.1.0",
+  "description": "The four instrument files for the ColorDict connotation dictionary: the Sense Ranker and Enricher that write an entry, and the Entry Reader and Null Auditor that read it blind. Packaged so a session that is not opened on the repo folder can still resolve them by name, with model and effort intact. These files are a measuring stick, not a starting point - a defect rate is only comparable to an older one if they did not move.",
+  "author": {
+    "name": "Roviicc"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": ["dictionary", "wordnet", "connotation", "lexicography", "oewn"]
+}

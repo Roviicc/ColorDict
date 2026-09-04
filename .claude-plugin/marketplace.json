@@ -1,0 +1,14 @@
+{
+  "name": "colordict",
+  "description": "The ColorDict instrument files, packaged so any session can resolve them by name.",
+  "owner": { "name": "Roviicc" },
+  "plugins": [
+    {
+      "name": "colordict",
+      "description": "Sense Ranker, Enricher, Entry Reader and Null Auditor for the ColorDict connotation dictionary, with model and effort carried in frontmatter.",
+      "author": { "name": "Roviicc" },
+      "category": "productivity",
+      "source": { "source": "git-subdir", "url": "https://github.com/Roviicc/ColorDict", "subdir": "plugin/colordict" }
+    }
+  ]
+}

@@ -53,6 +53,15 @@ def check():
     if rc == 0 and out:
         bad.append("untracked file(s) in " + AGENTS + ":\n    "
                    + "\n    ".join(out.splitlines()))
+
+    # The plugin ships a second copy so sessions off this folder can resolve
+    # the instruments. Two copies of a measuring stick drift, so they must be
+    # byte-identical or the run is not comparable to anything.
+    try:
+        import plugin_sync
+        bad.extend(plugin_sync.check())
+    except ImportError:
+        pass
     return bad
 
 
