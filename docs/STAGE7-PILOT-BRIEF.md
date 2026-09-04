@@ -35,8 +35,13 @@ passes wait for you.
 
 ## State
 
-Stages 0–6 closed 2026-09-03. Stage 7 is **not started**. Working tree was clean
-at `d817fd1` apart from four untracked paths this prep added.
+Stages 0–6 closed 2026-09-03. Stage 7 is **in progress** — steps 1–3 of 13 are
+done (select and packetise, the pilot's rank+enrich, the pilot's blind read).
+
+**Do not read state from this paragraph.** The step table with its owners and
+closing commits lives in `data/policy/build-stages.json` and `status.py` prints
+it; that is the copy that gets updated. This file describes how to run the
+pilot, not where the build has got to.
 
 Book one is Pride and Prejudice, 80% coverage band, approved by Shawn
 2026-09-04, blind read sampled at ~10%.

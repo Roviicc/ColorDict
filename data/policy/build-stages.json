@@ -132,9 +132,111 @@
    "stage": "7",
    "title": "Generate book one and bundle it",
    "spend": "the real spend",
-   "state": "not_started",
+   "state": "in_progress",
    "closed_on": null,
-   "closed_by_commit": null
+   "closed_by_commit": null,
+   "steps": [
+    {
+     "n": 1,
+     "step": "Pick coverage band, select and packetise the words",
+     "owner": "manager",
+     "state": "done",
+     "commit": "aa8b806",
+     "note": "928 selected, 50 stage-4 entries excluded, 878 remain in 88 packets"
+    },
+    {
+     "n": 2,
+     "step": "Pilot: rank + enrich 100 stratified entries",
+     "owner": "manager",
+     "state": "done",
+     "commit": "ef0f9ce",
+     "note": "257 senses, 2 validator rejects, 4,711 tokens/entry"
+    },
+    {
+     "n": 3,
+     "step": "Pilot: blind read",
+     "owner": "manager",
+     "state": "done",
+     "commit": "04697ca",
+     "note": "98 entries, 255 senses, 3.14% sense defect, rank_wrong 0"
+    },
+    {
+     "n": 4,
+     "step": "Pilot: null audit the 244 nulls",
+     "owner": "manager",
+     "state": "in_progress",
+     "commit": null,
+     "note": "6 of 8 read faults were false-null on evaluative abstract nouns; this measures the class"
+    },
+    {
+     "n": 5,
+     "step": "Pilot: third-hand repair + blind re-read",
+     "owner": "manager",
+     "state": "not_started",
+     "commit": null
+    },
+    {
+     "n": 6,
+     "step": "The 778 remaining entries: rank + enrich",
+     "owner": "manager",
+     "state": "not_started",
+     "commit": null,
+     "note": "the pilot 100 came out of the 878; subset before running or they are paid for twice"
+    },
+    {
+     "n": 7,
+     "step": "~10% blind read of the 778",
+     "owner": "manager",
+     "state": "not_started",
+     "commit": null
+    },
+    {
+     "n": 8,
+     "step": "Repairs + blind re-read",
+     "owner": "manager",
+     "state": "not_started",
+     "commit": null
+    },
+    {
+     "n": 9,
+     "step": "dict_enrich_apply.py: overlay + derived bulk -> batch",
+     "owner": "cloud",
+     "state": "not_started",
+     "commit": null
+    },
+    {
+     "n": 10,
+     "step": "dict_pipeline --no-build, entry_validate, dict_validate",
+     "owner": "cloud",
+     "state": "not_started",
+     "commit": null
+    },
+    {
+     "n": 11,
+     "step": "stardict_make.py + verify_stardict.py",
+     "owner": "cloud",
+     "state": "not_started",
+     "commit": null
+    },
+    {
+     "n": 12,
+     "step": "Done-check: app opens offline, a book word returns a readable entry",
+     "owner": "cloud",
+     "state": "not_started",
+     "commit": null
+    },
+    {
+     "n": 13,
+     "step": "Write measured numbers into build-stages.json and close stage 7",
+     "owner": "cloud",
+     "state": "not_started",
+     "commit": null
+    }
+   ],
+   "owners": {
+    "manager": "a session opened on this repo folder - it alone can spawn the instruments",
+    "cloud": "a session with no agent access - the deterministic tail only"
+   }
   },
   {
    "stage": "8",

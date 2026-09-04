@@ -325,6 +325,14 @@ def stage_state():
         if st.get("closed_on") or st.get("closed_by_commit"):
             print("         closed %s  %s" % (st.get("closed_on") or "?",
                                               st.get("closed_by_commit") or ""))
+        # Substeps, when a stage has them. Ownership belongs on disk: two
+        # sessions share this build and only one of them can spawn the
+        # instruments, so "who does step 4" must not live in a chat log.
+        for sub in st.get("steps", []):
+            print("         %s %-2s %-46s %-8s %s"
+                  % (MARK.get(sub.get("state", "not_started"), "[?]"),
+                     sub.get("n", "?"), (sub.get("step") or "")[:46],
+                     sub.get("owner") or "", sub.get("commit") or ""))
 
     lane = data.get("always_running") or {}
     if lane:
