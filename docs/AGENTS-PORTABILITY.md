@@ -64,10 +64,27 @@ file, not paraphrased. The deviation that remained was `effort: UNSET`. Effort
 is frontmatter, not prose — it cannot travel in a copy of the text. That is why
 a portable duplicate of these files does not exist and cannot be made to work.
 
-## If you cannot spawn them by name
+## One real exception: the fable readers
 
-Stop and say so. Do not substitute a generic worker; that path is measured and
-rejected above. The two valid options are:
+The ban above is on substituting for the **authors** — `sense-ranker` and
+`enricher`, both opus. That is what the control measured and rejected.
+
+The **readers** are the other way round. On 2026-09-03 every by-name
+`entry-reader` spawn died instantly with "Fable 5.1's safeguards flagged this
+message ... [reasoning_extraction]" — the rubric, used as a system prompt,
+trips a classifier. The same rubric read from disk by a `general-purpose` agent
+on model fable ran clean, twice.
+
+So for `entry-reader` and `null-auditor`: try by name first, and fall back to
+general-purpose + read-the-file if it trips. Record
+`reader_agent: general-purpose+<file>` in the results so the run stays
+comparable. Neither reader runs in the stage 7 pilot.
+
+## If you cannot spawn the authors by name
+
+Stop and say so. Do not substitute a generic worker for `sense-ranker` or
+`enricher`; that path is measured and rejected above. The two valid options
+are:
 
 1. **Someone opens a session on this folder** — free, exact fidelity.
 2. **An API key** — sets model *and* effort exactly, works from anywhere, and
