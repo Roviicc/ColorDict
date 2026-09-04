@@ -1,0 +1,120 @@
+{"packet": 72, "entries": [
+ {"word": "sink", "pos": "verb",
+  "senses": {
+   "oewn-01976145-v": {"learner": "to move into a particular state or condition.",
+                       "examples": ["seemed in danger of sinking into total silence", "His affection for her soon sunk into indifference"],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-00433792-v": {"learner": "to fall hard or all at once, or to go down by a large amount.",
+                       "examples": ["Her power was sinking", "After the bad harvest, grain prices sank."],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-01990883-v": {"learner": "to make something sink below the surface.",
+                       "examples": ["The storm sank two fishing boats off the coast."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "employment", "pos": "noun",
+  "senses": {
+   "oewn-00585404-n": {"learner": "the work you do to earn money.",
+                       "examples": ["He found employment at the mill soon after he came to town."],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-13991539-n": {"learner": "the state of being employed, or of having a job.",
+                       "examples": ["She has been in employment ever since she left school."],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-00948944-n": {"learner": "the act of using something.",
+                       "examples": ["The employment of such harsh words surprised everyone at the table."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "church", "pos": "noun",
+  "senses": {
+   "oewn-08099479-n": {"learner": "one of the groups of Christians that has its own beliefs and its own ways of worship.",
+                       "examples": ["She was raised in the Methodist church and her husband in the Catholic one."],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-03031762-n": {"learner": "a place where people gather for worship, especially Christian worship.",
+                       "examples": ["the bride and bridegroom set off for Kent from the church door"],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-01034400-n": {"learner": "a religious service held in a building used for worship.",
+                       "examples": ["you will have the honour of seeing Lady Catherine de Bourgh on the ensuing Sunday at church", "Church begins at ten on Sunday morning."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "imprudence", "pos": "noun",
+  "senses": {
+   "oewn-04901232-n": {"learner": "not being careful enough in practical matters.",
+                       "examples": ["Elizabeth had frequently united with Jane in an endeavour to check the imprudence of Catherine and Lydia", "I see the imprudence of it."],
+                       "usage_labels": [],
+                       "connotation": {"candidate": true, "why": "attributes a failing to the person spoken of"}}
+  }},
+ {"word": "dread", "pos": "verb",
+  "senses": {
+   "oewn-01784021-v": {"learner": "to be afraid or scared of something.",
+                       "examples": ["She dreaded seeing Wickham again, and was resolved to avoid it as long as possible.", "Not that I am afraid of myself, but I dread other people's remarks."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "amazement", "pos": "noun",
+  "senses": {
+   "oewn-07524811-n": {"learner": "the feeling you have when something is extremely surprising.",
+                       "examples": ["to her utter amazement, she saw Mr. Darcy walk into the room", "Mrs. Bennet found, with amazement and horror, that her husband would not advance a guinea"],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "impatience", "pos": "noun",
+  "senses": {
+   "oewn-14430687-n": {"learner": "a lack of patience; being annoyed by anything that makes you wait.",
+                       "examples": ["I shall not sport with your impatience by reading what he says on that point.", "Her impatience for this second letter was as well rewarded as impatience generally is."],
+                       "usage_labels": [],
+                       "connotation": {"candidate": true, "why": "names a feeling as the absence of a virtue"}},
+   "oewn-04649953-n": {"learner": "a dislike of anything that makes you wait.",
+                       "examples": ["His impatience showed in every queue he ever stood in."],
+                       "usage_labels": [],
+                       "connotation": {"candidate": true, "why": "marks a settled trait as the absence of a virtue"}},
+   "oewn-07529310-n": {"learner": "a restless wish for change and excitement.",
+                       "examples": ["A youthful impatience drove him to leave the quiet town."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "embarrassment", "pos": "noun",
+  "senses": {
+   "oewn-07522337-n": {"learner": "the shame you feel when other people find out that you fell short or did wrong.",
+                       "examples": ["shaking off his embarrassment, he turned to her again", "It was not to be supposed that time would give Lydia that embarrassment from which she had been so wholly free"],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-07320169-n": {"learner": "an event that makes someone feel embarrassed.",
+                       "examples": ["The lost match was an embarrassment for the whole team."],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-14009674-n": {"learner": "the state of being embarrassed, usually because you do not have enough money.",
+                       "examples": ["Years of debt had left the family in real embarrassment."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "secrecy", "pos": "noun",
+  "senses": {
+   "oewn-04659534-n": {"learner": "the quality of keeping things secret.",
+                       "examples": ["Having said thus much, I feel no doubt of your secrecy.", "There were few people on whose secrecy she would have more confidently depended"],
+                       "usage_labels": [],
+                       "connotation": {"candidate": true, "why": "names a person's habit of concealing"}},
+   "oewn-14439493-n": {"learner": "the state of being hidden or kept out of sight.",
+                       "examples": ["unless it is, for very cogent reasons, to remain in the secrecy which Lydia seems to think necessary"],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "difficulty", "pos": "noun",
+  "senses": {
+   "oewn-00625102-n": {"learner": "an effort that causes you trouble.",
+                       "examples": ["I had no difficulty in believing it", "I had difficulty in finding out even so much as this."],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-04716529-n": {"learner": "the quality of being nearly too much for someone to handle and needing great effort to come out well.",
+                       "examples": ["No one had warned us about the difficulty of the final climb."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }}
+]}

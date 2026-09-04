@@ -1,0 +1,47 @@
+{
+ "note": "Entries the enricher validator rejects that a re-run does not clear. Recorded rather than hand-fixed, per the run rules. Not halting: the run rate is far under the 10% line.",
+ "recorded": "2026-09-04",
+ "lexicon_defect": {
+  "what": "derived-bulk.jsonl is missing real irregular inflections and carries bogus regular ones in their place",
+  "cases": {
+   "do": "has did/done/doing/dos/doed but NOT 'does' - while go->goes and have->has are both present",
+   "woman": "has 'womans', missing 'women'",
+   "gentleman": "has 'gentlemans', missing 'gentlemen'"
+  },
+  "impact": "two-fold. (1) enrich_validate's example_mentions rejects correct examples that use the real plural or third-person form. (2) the shipped Resolver cannot take a reader from 'women', 'gentlemen' or 'does' to its headword - a stage 6 search bug on three very common forms.",
+  "not_fixed_here": "regenerating the lexicon mid-run would move the ruler this run is measured against. It belongs with steps 9-13, where derived-bulk is rebuilt anyway.",
+  "entries_blocked": [
+   "do/verb",
+   "woman/noun",
+   "gentleman/noun"
+  ]
+ },
+ "rubric_collision": {
+  "what": "the learner line must be 3-45 words and must not equal the gloss. Some glosses are two words, so a faithful rewrite is either 2 words or the gloss itself.",
+  "entries_blocked": [
+   "word/noun oewn-07241961-n",
+   "hardly/adverb oewn-00002669-r + oewn-00092166-r",
+   "early/adjective oewn-01653059-s",
+   "occur/verb oewn-00340744-v",
+   "delighted/adjective oewn-01810979-s",
+   "seldom/adverb oewn-00035772-r",
+   "introduction/noun oewn-00238889-n",
+   "principal/adjective oewn-01280536-s",
+   "twice/adverb oewn-00065694-r"
+  ],
+  "survived": "each of these was re-run once and came back with the same fault, which is the signal that it is the rubric and not the batch.",
+  "not_fixed_here": "changing enricher.md makes the next run a new baseline rather than a comparison. It is Shawn's call.",
+  "pattern": "9 of the 12 blocked entries fail this way, and every one has a two- or three-word gloss (happen; almost not; seldom; two times; the introduction of something new). A faithful rewrite of a two-word gloss is either the gloss itself or under the 3-word floor, so enricher.md section 1 asks for two things that cannot both hold there. This is a rubric problem, not a batch problem: re-running does not clear it, and it recurred identically across two runs of the same packets."
+ },
+ "final": {
+  "attempted": 778,
+  "accepted": 766,
+  "rejected": 12,
+  "reject_rate": 0.0154,
+  "senses_written": 1998,
+  "null": 1903,
+  "candidate": 95,
+  "halt_line": 0.1,
+  "halted": false
+ }
+}

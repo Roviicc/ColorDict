@@ -180,9 +180,9 @@
      "n": 6,
      "step": "The 778 remaining entries: rank + enrich",
      "owner": "manager (shawn unavailable 2026-09-04)",
-     "state": "in_progress",
+     "state": "done",
      "commit": null,
-     "note": "data/policy/stage7-book1-run/ - 778 entries, 78 packets, carved 2026-09-04; 0 overlap with the pilot or stage 4. Checkpoint passed 2026-09-04: packet 01 ranked by sense-ranker BY NAME, 10/10 accepted, 22.3k tokens."
+     "note": "778 entries / 78 packets. Ranker 778/778 accepted (one packet re-run for a dropped synset id). Enricher 766 accepted, 12 rejected (1.5%), 1,998 senses, 1,903 null / 95 candidate. ~3.7M tokens. Run by the MANAGER, not shawn - see blocked-entries.json for the 12 and for the two defects they expose (lexicon irregular inflections; enricher.md s1 learner-length floor)."
     },
     {
      "n": 7,
