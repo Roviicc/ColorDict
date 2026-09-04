@@ -5,6 +5,25 @@ half. Everything below is prepared and on disk. **Read `docs/BUILD-PLAN.md` §
 Stage 7 and `.claude/skills/orient/SKILL.md` first; this file does not replace
 them.**
 
+## Before you spend anything: probe this session
+
+Spawn a `sense-ranker` agent with the prompt `Reply READY and nothing else.`
+
+- **`READY`** — this session can do the job. Continue.
+- **`Agent type 'sense-ranker' not found`** — it cannot, and nothing you do
+  from inside it will change that. **Stop and tell Shawn.** Do not clone the
+  repo and retry: a session's worker list is fixed from its project folder at
+  the moment it opens, and a clone lands somewhere the registry never reads.
+  That was tested on 2026-09-04, twice, once with the full repo cloned locally.
+  Do not substitute a general-purpose agent for the authors either; see
+  `docs/AGENTS-PORTABILITY.md`.
+
+The probe costs about 4k tokens and takes a second. Run it first.
+
+Attaching or connecting this folder to an already-running session does not
+help — the folder has to be the one the session opened on. Native Claude Code
+opened on the repo is the setup known to pass.
+
 ## Why this file exists
 
 The cloud session cannot spawn `sense-ranker`, `enricher`, `entry-reader` or
