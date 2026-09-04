@@ -1,0 +1,889 @@
+{
+ "packet": 32,
+ "entries": [
+  {
+   "word": "drive",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "I wonder who first discovered the efficacy of poetry in driving away love!\"",
+    "\"Oh no--it is not for me to be driven away by Mr. Darcy.",
+    "Pleased with the preference of one, and offended by the neglect of the other, on the very beginning of our acquaintance, I have courted prepossession and ignorance, and driven reason away where either were concerned.",
+    "Elizabeth, as they drove along, watched for the first appearance of Pemberley Woods with some perturbation; and when at length they turned in at the lodge, her spirits were in a high flutter.",
+    "They descended the hill, crossed the bridge, and drove to the door; and, while examining the nearer aspect of the house, all her apprehension of meeting its owner returned.",
+    "\"I have been thinking it over again, Elizabeth,\" said her uncle, as they drove from the town; \"and really, upon serious consideration, I am much more inclined than I was to judge as your eldest sister does of the matter."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-01934070-v",
+     "gloss": "travel or be transported in a vehicle",
+     "wordnet_examples": [
+      "We drove to the university every morning"
+     ],
+     "synonyms": [
+      "motor"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-01508789-v",
+     "gloss": "cause to move back by force or influence",
+     "wordnet_examples": [],
+     "synonyms": [
+      "repel",
+      "repulse",
+      "force back",
+      "push back",
+      "beat back"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-01934845-v",
+     "gloss": "operate or control a vehicle",
+     "wordnet_examples": [
+      "drive a car or bus",
+      "Can you drive this four-wheel truck?"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-02060895-v",
+     "gloss": "cause someone or something to move by driving",
+     "wordnet_examples": [
+      "She drove me to school every day",
+      "We drove the car to the garage"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-02511007-v",
+     "gloss": "to compel or force or urge relentlessly or exert coercive pressure on, or motivate strongly",
+     "wordnet_examples": [
+      "She is driven by her passion"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-01649842-v",
+     "gloss": "compel somebody to do something, often against their own will or judgment",
+     "wordnet_examples": [
+      "She finally drove him to change jobs"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-01519166-v",
+     "gloss": "force into or from an action or state, either physically or metaphorically",
+     "wordnet_examples": [],
+     "synonyms": [
+      "force",
+      "ram"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-01514891-v",
+     "gloss": "push, propel, or press with force",
+     "wordnet_examples": [
+      "Drive a nail into the wall"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-02061580-v",
+     "gloss": "move by being propelled by a force",
+     "wordnet_examples": [
+      "The car drove around the corner"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-01934453-v",
+     "gloss": "proceed along in a vehicle",
+     "wordnet_examples": [
+      "We drive the turnpike to work"
+     ],
+     "synonyms": [
+      "take"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-01184038-v",
+     "gloss": "cause to function by supplying the force or power for or by controlling",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-01943412-v",
+     "gloss": "urge forward",
+     "wordnet_examples": [
+      "drive the cows into the barn"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-01512216-v",
+     "gloss": "cause to move rapidly by striking or throwing with force",
+     "wordnet_examples": [
+      "drive the ball far out into the field"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-02412046-v",
+     "gloss": "strive and make an effort to reach a goal",
+     "wordnet_examples": [],
+     "synonyms": [
+      "tug",
+      "labor",
+      "labour",
+      "push"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-01028984-v",
+     "gloss": "move into a desired direction of discourse",
+     "wordnet_examples": [],
+     "synonyms": [
+      "get",
+      "aim"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-02413411-v",
+     "gloss": "work as a driver",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-02748107-v",
+     "gloss": "have certain properties when driven",
+     "wordnet_examples": [],
+     "synonyms": [
+      "ride"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-01410376-v",
+     "gloss": "hit very hard, as by swinging a bat horizontally",
+     "wordnet_examples": [
+      "drive a ball"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-01410558-v",
+     "gloss": "strike with a driver, as in teeing off",
+     "wordnet_examples": [
+      "drive a golf ball"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-01313624-v",
+     "gloss": "excavate horizontally",
+     "wordnet_examples": [
+      "drive a tunnel"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-01145082-v",
+     "gloss": "(hunting) search for game",
+     "wordnet_examples": [
+      "drive the forest"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-01144916-v",
+     "gloss": "(hunting) chase from cover into more open ground",
+     "wordnet_examples": [
+      "drive the game"
+     ],
+     "synonyms": [],
+     "write": false
+    }
+   ]
+  },
+  {
+   "word": "nephew",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "Who would have thought of my meeting with--perhaps--a nephew of Lady Catherine de Bourgh in this assembly!",
+    "My sister, who is more than ten years my junior, was left to the guardianship of my mother's nephew, Colonel Fitzwilliam, and myself.",
+    "Has he, has my nephew, made you an offer of marriage?\"",
+    "My daughter and my nephew are formed for each other.",
+    "How far your nephew might approve of your interference in his affairs, I cannot tell; but you have certainly no right to concern yourself in mine.",
+    "\"You have no regard, then, for the honour and credit of my nephew!"
+   ],
+   "senses": [
+    {
+     "synset": "oewn-10373054-n",
+     "gloss": "a son of your brother or sister",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": true
+    }
+   ]
+  },
+  {
+   "word": "recollect",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "\"He does not exactly recollect the circumstances, though he has heard them from Mr. Darcy more than once, but he believes that it was left to him conditionally only.\"",
+    "It must have been a most agreeable surprise to Mr. Bingley to see you all after him so soon; for, if I recollect right, he went but the day before.",
+    "But, no,\" recollecting herself, \"that could never be; my uncle and aunt would have been lost to me; I should not have been allowed to invite them.\"",
+    "Her brother, whose eye she feared to meet, scarcely recollected her interest in the affair; and the very circumstance which had been designed to turn his thoughts from Elizabeth, seemed to have fixed them on her more and more cheerfully.",
+    "cried he, with more feeling than politeness; then recollecting himself, \"I will not detain you a minute; but let me, or let the servant, go after Mr. and Mrs. Gardiner.",
+    "However, I recollected afterwards, that if he had been prevented going, the wedding need not be put off, for Mr. Darcy might have done as well.\""
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00609334-v",
+     "gloss": "recall knowledge from memory; have a recollection",
+     "wordnet_examples": [],
+     "synonyms": [
+      "remember",
+      "retrieve",
+      "recall",
+      "call back",
+      "call up",
+      "think"
+     ],
+     "write": true
+    }
+   ]
+  },
+  {
+   "word": "match",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "It was an animating subject, and Mrs. Bennet seemed incapable of fatigue while enumerating the advantages of the match.",
+    "It was a long time before she became at all reconciled to the idea of so unsuitable a match.",
+    "Remember that she is one of a large family; that as to fortune it is a most eligible match; and be ready to believe, for everybody's sake, that she may feel something like regard and esteem for our cousin.\"",
+    "\"I should never have considered the distance as one of the advantages of the match,\" cried Elizabeth. \"",
+    "So imprudent a match on both sides!",
+    "My motive for cautioning you is as follows:--We have reason to imagine that his aunt, Lady Catherine de Bourgh, does not look on the match with a friendly eye.'"
+   ],
+   "senses": [
+    {
+     "synset": "oewn-08005299-n",
+     "gloss": "a pair of people who live together",
+     "wordnet_examples": [],
+     "synonyms": [
+      "couple",
+      "mates"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-09920434-n",
+     "gloss": "a person regarded as a good matrimonial prospect",
+     "wordnet_examples": [],
+     "synonyms": [
+      "catch"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-03733928-n",
+     "gloss": "lighter consisting of a thin piece of wood or cardboard tipped with combustible chemical; ignites with friction",
+     "wordnet_examples": [],
+     "synonyms": [
+      "lucifer",
+      "friction match"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-07485811-n",
+     "gloss": "a formal contest in which two or more persons or teams compete",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-03734302-n",
+     "gloss": "an exact duplicate",
+     "wordnet_examples": [
+      "when a match is found an entry is made in the notebook"
+     ],
+     "synonyms": [
+      "mate"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-05703985-n",
+     "gloss": "something that resembles or harmonizes with",
+     "wordnet_examples": [
+      "that tie makes a good match with your jacket"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-09649426-n",
+     "gloss": "a person who is of equal standing with another in a group",
+     "wordnet_examples": [],
+     "synonyms": [
+      "peer",
+      "equal",
+      "compeer"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-03734473-n",
+     "gloss": "a burning piece of wood or cardboard",
+     "wordnet_examples": [
+      "if you drop a match in there the whole place will explode"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-13617916-n",
+     "gloss": "the score needed to win a match",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": false
+    }
+   ]
+  },
+  {
+   "word": "reach",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "Mary had neither genius nor taste; and though vanity had given her application, it had given her likewise a pedantic air and conceited manner, which would have injured a higher degree of excellence than she had reached.",
+    "Their other engagements were few, as the style of living of the neighbourhood in general was beyond the Collinses' reach.",
+    "Their journey was performed without much conversation, or any alarm; and within four hours of their leaving Hunsford they reached Mr. Gardiner's house, where they were to remain a few days.",
+    "They soon outstripped the others; and when they had reached the carriage, Mr. and Mrs. Gardiner were half a quarter of a mile behind.",
+    "On reaching the house, they were shown through the hall into the saloon, whose northern aspect rendered it delightful for summer.",
+    "They travelled as expeditiously as possible; and sleeping one night on the road, reached Longbourn by dinnertime the next day."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-02024442-v",
+     "gloss": "reach a destination, either real or abstract",
+     "wordnet_examples": [],
+     "synonyms": [
+      "make",
+      "attain",
+      "hit",
+      "arrive at",
+      "gain"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-02010848-v",
+     "gloss": "reach a point in time, or a certain state or level",
+     "wordnet_examples": [
+      "This car can reach a speed of 140 miles per hour"
+     ],
+     "synonyms": [
+      "hit",
+      "attain"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-01442758-v",
+     "gloss": "move forward or upward in order to touch; also in a metaphorical sense",
+     "wordnet_examples": [],
+     "synonyms": [
+      "reach out"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-00745330-v",
+     "gloss": "be in or establish communication with",
+     "wordnet_examples": [
+      "Our advertisements reach millions"
+     ],
+     "synonyms": [
+      "get through",
+      "get hold of",
+      "contact"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-02691488-v",
+     "gloss": "to extend as far as",
+     "wordnet_examples": [
+      "Can he reach?"
+     ],
+     "synonyms": [
+      "extend to",
+      "touch"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-02026014-v",
+     "gloss": "reach a goal",
+     "wordnet_examples": [],
+     "synonyms": [
+      "make",
+      "get to",
+      "progress to"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-02531751-v",
+     "gloss": "to gain with effort",
+     "wordnet_examples": [],
+     "synonyms": [
+      "achieve",
+      "accomplish",
+      "attain"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-02235554-v",
+     "gloss": "place into the hands or custody of",
+     "wordnet_examples": [],
+     "synonyms": [
+      "pass",
+      "hand",
+      "pass on",
+      "turn over",
+      "give"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-01148517-v",
+     "gloss": "to exert much effort or energy",
+     "wordnet_examples": [],
+     "synonyms": [
+      "strive",
+      "strain"
+     ],
+     "write": false
+    }
+   ]
+  },
+  {
+   "word": "arise",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "A thousand things may arise in six months.\"",
+    "It is as often applied to feelings which arise only from a half hour's acquaintance, as to a real, strong attachment.",
+    "She supposed, if he meant anything, he must mean an allusion to what might arise in that quarter.",
+    "He was fond of the country and of books; and from these tastes had arisen his principal enjoyments.",
+    "The families who had been in town for the winter came back again, and summer finery and summer engagements arose.",
+    "Were the same fair prospect to arise at present, as had flattered them a year ago, everything, she was persuaded, would be hastening to the same vexatious conclusion."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-02631867-v",
+     "gloss": "originate or come into being",
+     "wordnet_examples": [
+      "a question arose"
+     ],
+     "synonyms": [
+      "come up",
+      "bob up"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-00340548-v",
+     "gloss": "result or issue",
+     "wordnet_examples": [
+      "A slight unpleasantness arose from this discussion"
+     ],
+     "synonyms": [
+      "come up"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-02630344-v",
+     "gloss": "come into existence; take on form or shape",
+     "wordnet_examples": [],
+     "synonyms": [
+      "originate",
+      "rise",
+      "develop",
+      "uprise",
+      "spring up",
+      "grow"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-01972576-v",
+     "gloss": "move upward",
+     "wordnet_examples": [
+      "The smoke arose from the forest fire"
+     ],
+     "synonyms": [
+      "rise",
+      "lift",
+      "move up",
+      "go up",
+      "come up",
+      "uprise"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-01987278-v",
+     "gloss": "rise to one's feet",
+     "wordnet_examples": [],
+     "synonyms": [
+      "rise",
+      "uprise",
+      "get up",
+      "stand up"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-00018151-v",
+     "gloss": "get up and out of bed",
+     "wordnet_examples": [],
+     "synonyms": [
+      "get up",
+      "turn out",
+      "uprise",
+      "rise"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-02589224-v",
+     "gloss": "take part in a rebellion; renounce a former allegiance",
+     "wordnet_examples": [],
+     "synonyms": [
+      "rebel",
+      "rise",
+      "rise up"
+     ],
+     "write": false
+    }
+   ]
+  },
+  {
+   "word": "term",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "To make this latter observation quite exact we must not use the term miniature in its restricted sense, and must think rather of Memling at one end of the history of painting and Meissonier at the other, than of Cosway or any of his kind.",
+    "\"There was just such an informality in the terms of the bequest as to give me no hope from law.",
+    "He absolutely started, and for a moment seemed immovable from surprise; but shortly recovering himself, advanced towards the party, and spoke to Elizabeth, if not in terms of perfect composure, at least of perfect civility.",
+    "\"But can you think that Lydia is so lost to everything but love of him, as to consent to live with him on any other terms than marriage?\"",
+    "said Elizabeth; \"but the terms, I suppose, must be complied with.\"",
+    "And though he exclaimed at the term, she found that it had been pretty much the case."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-06314878-n",
+     "gloss": "a word or expression used for some particular thing",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-06783666-n",
+     "gloss": "(usually plural) a statement of what is required as part of an agreement",
+     "wordnet_examples": [],
+     "synonyms": [
+      "condition",
+      "strings"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-15249282-n",
+     "gloss": "a limited period of time",
+     "wordnet_examples": [
+      "a prison term",
+      "he left school before the end of term"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-15251247-n",
+     "gloss": "the end of gestation or point at which birth is imminent",
+     "wordnet_examples": [
+      "a healthy baby born at full term"
+     ],
+     "synonyms": [
+      "full term"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-05864488-n",
+     "gloss": "any distinct quantity contained in a polynomial",
+     "wordnet_examples": [
+      "the general term of an algebraic equation of the n-th degree"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-06764688-n",
+     "gloss": "one of the substantive phrases in a logical proposition",
+     "wordnet_examples": [
+      "the major term of a syllogism must occur twice"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-04420858-n",
+     "gloss": "(architecture) a statue or a human bust or an animal carved out of the top of a square pillar; originally used as a boundary marker in ancient Rome",
+     "wordnet_examples": [],
+     "synonyms": [
+      "terminus",
+      "terminal figure"
+     ],
+     "write": false
+    }
+   ]
+  },
+  {
+   "word": "voice",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "\"Whenever she spoke in a low voice\" 166",
+    "\"I am,\" said he, with a firm voice.",
+    "Far be it from me,\" he presently continued, in a voice that marked his displeasure, \"to resent the behaviour of your daughter.",
+    "At length, in a voice of forced calmness, he said,--",
+    "His countenance, voice, and manner, had established him at once in the possession of every virtue.",
+    "\"When I consider,\" she added, in a yet more agitated voice, \"that I might have prevented it!"
+   ],
+   "senses": [
+    {
+     "synset": "oewn-04989190-n",
+     "gloss": "the distinctive quality or pitch or condition of a person's speech",
+     "wordnet_examples": [
+      "A shrill voice sounded behind us"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-07125323-n",
+     "gloss": "the sound made by the vibration of vocal folds modified by the resonance of the vocal tract",
+     "wordnet_examples": [
+      "a singer takes good care of his voice"
+     ],
+     "synonyms": [
+      "vocalization",
+      "vocalisation",
+      "vocalism",
+      "phonation",
+      "vox"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-05209552-n",
+     "gloss": "the ability to speak",
+     "wordnet_examples": [
+      "he lost his voice"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-00180532-n",
+     "gloss": "a means or agency by which something is expressed or communicated",
+     "wordnet_examples": [
+      "the voice of the law",
+      "the Times is not the voice of New York"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-07292402-n",
+     "gloss": "something suggestive of speech in being a medium of expression",
+     "wordnet_examples": [
+      "the wee small voice of conscience",
+      "the voice of experience"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-07087248-n",
+     "gloss": "expressing in coherent verbal form",
+     "wordnet_examples": [
+      "I gave voice to my feelings"
+     ],
+     "synonyms": [
+      "articulation"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-10657783-n",
+     "gloss": "an advocate who represents someone else's policy or purpose",
+     "wordnet_examples": [],
+     "synonyms": [
+      "spokesperson",
+      "interpreter",
+      "representative"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-07414052-n",
+     "gloss": "a sound suggestive of a vocal utterance",
+     "wordnet_examples": [
+      "the noisy voice of the waterfall"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-13825132-n",
+     "gloss": "(linguistics) the grammatical relation (active or passive) of the grammatical subject of a verb to the action that the verb denotes",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-10778381-n",
+     "gloss": "(metonymy) a singer",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-07044205-n",
+     "gloss": "the melody carried by a particular voice or instrument in polyphonic music",
+     "wordnet_examples": [],
+     "synonyms": [
+      "part"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-92417423-n",
+     "gloss": "A term used in phonetics and phonology to characterize speech sounds, with sounds described as either voiceless (unvoiced) or voiced.",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": false
+    }
+   ]
+  },
+  {
+   "word": "inform",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "\"He never failed to inform them\" 211",
+    "After sitting a few minutes, they were all sent to one of the windows to admire the view, Mr. Collins attending them to point out its beauties, and Lady Catherine kindly informing them that it was much better worth looking at in the summer.",
+    "I might, perhaps, wish to be informed why, with so little endeavour at civility, I am thus rejected.",
+    "Lydia left a few lines for his wife, informing her of their intention.",
+    "And it is the more to be lamented, because there is reason to suppose, as my dear Charlotte informs me, that this licentiousness of behaviour in your",
+    "I have written to Colonel Forster, to inform him of our present arrangements, and to request that he will satisfy the various creditors of Mr. Wickham in and near Brighton with assurances of speedy payment, for which I have pledged myself."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00833312-v",
+     "gloss": "impart knowledge of some fact, state of affairs, or event to",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-00523693-v",
+     "gloss": "give character or essence to",
+     "wordnet_examples": [
+      "The principles that inform modern teaching"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-00834860-v",
+     "gloss": "act as an informer",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": true
+    }
+   ]
+  },
+  {
+   "word": "recommend",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "\"They have none of them much to recommend them,\" replied he: \"they are all silly and ignorant like other girls; but Lizzy has something more of quickness than her sisters.\"",
+    "Bingley urged Mr. Jones's being sent for immediately; while his sisters, convinced that no country advice could be of any service, recommended an express to town for one of the most eminent physicians.",
+    "You will never recommend yourself to his friend by so doing.\"",
+    "I am going to-morrow where I shall find a man who has not one agreeable quality, who has neither manners nor sense to recommend him.",
+    "\"Perhaps,\" said Darcy, \"I should have judged better had I sought an introduction, but I am ill-qualified to recommend myself to strangers.\"",
+    "She was sorry that Mr. Darcy should have delivered his sentiments in a manner so little suited to recommend them; but still more was she grieved for the unhappiness which her sister's refusal must have given him."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00579810-v",
+     "gloss": "make attractive or acceptable",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-00876672-v",
+     "gloss": "push for something",
+     "wordnet_examples": [],
+     "synonyms": [
+      "urge",
+      "advocate"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-00884469-v",
+     "gloss": "express a good opinion of",
+     "wordnet_examples": [],
+     "synonyms": [
+      "commend"
+     ],
+     "write": true
+    }
+   ]
+  }
+ ]
+}

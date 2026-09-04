@@ -180,9 +180,9 @@
      "n": 6,
      "step": "The 778 remaining entries: rank + enrich",
      "owner": "manager (shawn unavailable 2026-09-04)",
-     "state": "not_started",
+     "state": "in_progress",
      "commit": null,
-     "note": "data/policy/stage7-book1-run/ - 778 entries, 78 packets, carved 2026-09-04; 0 overlap with the pilot or stage 4"
+     "note": "data/policy/stage7-book1-run/ - 778 entries, 78 packets, carved 2026-09-04; 0 overlap with the pilot or stage 4. Checkpoint passed 2026-09-04: packet 01 ranked by sense-ranker BY NAME, 10/10 accepted, 22.3k tokens."
     },
     {
      "n": 7,

@@ -1,0 +1,912 @@
+{
+ "packet": 5,
+ "entries": [
+  {
+   "word": "like",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "The elopement of Lydia and Wickham is not, like that of Crawford and Mrs. Rushworth, a coup de théâtre; it connects itself in the strictest way with the course of the story earlier, and brings about the denouement with complete propriety.",
+    "And so, you like this man's sisters, too, do you?",
+    "\"Much more rational, my dear Caroline, I dare say; but it would not be near so much like a ball.\"",
+    "\"I like her appearance,\" said Elizabeth, struck with other ideas. \"",
+    "\"My love, should not you like to see a place of which you have heard so much?\"",
+    "\"Take whatever you like, and get away.\""
+   ],
+   "senses": [
+    {
+     "synset": "oewn-01781131-v",
+     "gloss": "find enjoyable or agreeable",
+     "wordnet_examples": [
+      "I like jogging"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-01780873-v",
+     "gloss": "be fond of",
+     "wordnet_examples": [
+      "I like my nephews"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-01828678-v",
+     "gloss": "to hope, to desire or to prefer to have something, or to do something",
+     "wordnet_examples": [
+      "Would you like to come along to the movies?"
+     ],
+     "synonyms": [
+      "wish",
+      "care"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-01829904-v",
+     "gloss": "want to have",
+     "wordnet_examples": [
+      "I'd like a beer now!"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-00693431-v",
+     "gloss": "feel about or towards; consider, evaluate, or regard",
+     "wordnet_examples": [
+      "How did you like the President's speech last night?"
+     ],
+     "synonyms": [],
+     "write": false
+    }
+   ]
+  },
+  {
+   "word": "place",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "But in the first place, he was like him; he is there--alive, imperishable, more real than hundreds of prime ministers and archbishops, of \"metals, semi-metals, and distinguished philosophers.\"",
+    "I declare I do not know a more awful object than Darcy on particular occasions, and in particular places; at his own house especially, and of a Sunday evening, when he has nothing to do.\"",
+    "These two girls had been above an hour in the place, happily employed in visiting an opposite milliner, watching the sentinel on guard, and dressing a salad and cucumber.",
+    "The possibility of meeting Mr. Darcy, while viewing the place, instantly occurred.",
+    "Had they no apprehension of anything before the elopement took place?",
+    "They are gone down to Newcastle, a place quite northward it seems, and there they are to stay, I do not know how long."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-08659612-n",
+     "gloss": "a general vicinity",
+     "wordnet_examples": [
+      "He comes from a place near Chicago"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-08682181-n",
+     "gloss": "a point located with respect to surface features of some region",
+     "wordnet_examples": [
+      "this is a nice place for a picnic"
+     ],
+     "synonyms": [
+      "topographic point",
+      "spot"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-08530790-n",
+     "gloss": "any area set aside for a particular purpose",
+     "wordnet_examples": [
+      "who owns this place?"
+     ],
+     "synonyms": [
+      "property"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-06495143-n",
+     "gloss": "an item on a list or in a sequence",
+     "wordnet_examples": [
+      "in the second place"
+     ],
+     "synonyms": [
+      "position"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-08577045-n",
+     "gloss": "where you live at a particular time",
+     "wordnet_examples": [
+      "your place or mine?"
+     ],
+     "synonyms": [
+      "home"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-08639173-n",
+     "gloss": "the particular portion of space occupied by something",
+     "wordnet_examples": [
+      "he put the lamp back in its place"
+     ],
+     "synonyms": [
+      "position"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-13949819-n",
+     "gloss": "a particular situation",
+     "wordnet_examples": [
+      "If you were in my place what would you do?"
+     ],
+     "synonyms": [
+      "shoes"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-00722683-n",
+     "gloss": "the post or function properly or customarily occupied or served by another",
+     "wordnet_examples": [
+      "took his place"
+     ],
+     "synonyms": [
+      "stead",
+      "position",
+      "lieu"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-13971047-n",
+     "gloss": "proper or appropriate position or location",
+     "wordnet_examples": [
+      "a woman's place is no longer in the kitchen"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-13970825-n",
+     "gloss": "proper or designated social situation",
+     "wordnet_examples": [
+      "he overstepped his place"
+     ],
+     "synonyms": [
+      "station"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-05619605-n",
+     "gloss": "an abstract mental location",
+     "wordnet_examples": [
+      "he has a special place in my thoughts",
+      "a place in my heart"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-00587299-n",
+     "gloss": "a job in an organization",
+     "wordnet_examples": [],
+     "synonyms": [
+      "position",
+      "post",
+      "berth",
+      "office",
+      "situation"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-08665191-n",
+     "gloss": "a space reserved for sitting (as in a theater or on a train or airplane)",
+     "wordnet_examples": [
+      "he sat in someone else's place"
+     ],
+     "synonyms": [
+      "seat"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-08637370-n",
+     "gloss": "a public square with room for pedestrians",
+     "wordnet_examples": [
+      "Grosvenor Place"
+     ],
+     "synonyms": [
+      "plaza",
+      "piazza"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-06412750-n",
+     "gloss": "the passage that is being read",
+     "wordnet_examples": [
+      "he lost his place on the page"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-06401196-n",
+     "gloss": "a blank area",
+     "wordnet_examples": [],
+     "synonyms": [
+      "space",
+      "blank space"
+     ],
+     "write": false
+    }
+   ]
+  },
+  {
+   "word": "enough",
+   "pos": "adverb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "The plot, though not elaborate, is almost regular enough for Fielding; hardly a character, hardly an incident could be retrenched without loss to the story.",
+    "\"This walk is not wide enough for our party.",
+    "As for my fair cousins, though my absence may not be long enough to render it necessary, I shall now take the liberty of wishing them health and happiness, not excepting my cousin Elizabeth.\"",
+    "\"You, who so well know my feelings towards Mr. Darcy, will readily comprehend how sincerely I must rejoice that he is wise enough to assume even the appearance of what is right.",
+    "That such a consequence as this should ensue, you may easily believe was far enough from my thoughts.\"",
+    "It was hardly enough; but it pleased her."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00146749-r",
+     "gloss": "as much as necessary",
+     "wordnet_examples": [
+      "have I eaten enough?"
+     ],
+     "synonyms": [
+      "plenty"
+     ],
+     "write": true
+    }
+   ]
+  },
+  {
+   "word": "evening",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "He had always intended to visit him, though to the last always assuring his wife that he should not go; and till the evening after the visit was paid she had no knowledge of it.",
+    "Had she merely dined with him, she might only have discovered whether he had a good appetite; but you must remember that four evenings have been also spent together--and four evenings may do a great deal.\"",
+    "The evening conversation, when they were all assembled, had lost much of its animation, and almost all its sense, by the absence of Jane and Elizabeth.",
+    "The day passed most pleasantly away; the morning in bustle and shopping, and the evening at one of the theatres.",
+    "Fatigued as she had been by the morning's walk, they had no sooner dined than she set off again in quest of her former acquaintance, and the evening was spent in the satisfactions of an intercourse renewed after many years' discontinuance.",
+    "\"This must be a most inconvenient sitting-room for the evening in summer: the windows are full west.\""
+   ],
+   "senses": [
+    {
+     "synset": "oewn-15191509-n",
+     "gloss": "the latter part of the day (the period of decreasing daylight from late afternoon until nightfall)",
+     "wordnet_examples": [
+      "he enjoyed the evening light across the lake"
+     ],
+     "synonyms": [
+      "eve",
+      "even",
+      "eventide"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-15192953-n",
+     "gloss": "the early part of night (from dinner until bedtime) spent in a special way",
+     "wordnet_examples": [
+      "an evening at the opera"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-80042148-n",
+     "gloss": "a conventional expression of greeting or farewell, used to wish someone a good evening",
+     "wordnet_examples": [],
+     "synonyms": [
+      "good evening"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-15292923-n",
+     "gloss": "a later concluding time period",
+     "wordnet_examples": [
+      "it was the evening of the Roman Empire"
+     ],
+     "synonyms": [],
+     "write": false
+    }
+   ]
+  },
+  {
+   "word": "just",
+   "pos": "adverb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "Walt Whitman has somewhere a fine and just distinction between \"loving by allowance\" and \"loving with personal love.\"",
+    "The path just admitted three.",
+    "I am, therefore, by no means discouraged by what you have just said, and shall hope to lead you to the altar ere long.\"",
+    "With amazement did she first understand that he believed any apology to be in his power; and steadfastly was she persuaded, that he could have no explanation to give, which a just sense of shame would not conceal.",
+    "it is just as he chooses.",
+    "I have just had a letter from Jane, with such dreadful news."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00033695-r",
+     "gloss": "only a moment ago",
+     "wordnet_examples": [
+      "he has just arrived",
+      "the sun just now came out"
+     ],
+     "synonyms": [
+      "just now"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-00159432-r",
+     "gloss": "indicating exactness or preciseness",
+     "wordnet_examples": [
+      "it was just as he said — the jewel was gone",
+      "it has just enough salt"
+     ],
+     "synonyms": [
+      "precisely",
+      "exactly",
+      "properly"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-00002935-r",
+     "gloss": "by a little",
+     "wordnet_examples": [
+      "I only just caught the bus",
+      "he finished the marathon in just under 3 hours"
+     ],
+     "synonyms": [
+      "barely"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-00005103-r",
+     "gloss": "and nothing more",
+     "wordnet_examples": [
+      "just a scratch"
+     ],
+     "synonyms": [
+      "merely",
+      "simply",
+      "only",
+      "but"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-00247755-r",
+     "gloss": "(used for emphasis) absolutely",
+     "wordnet_examples": [
+      "I just can't take it anymore",
+      "he was just grand as Romeo"
+     ],
+     "synonyms": [
+      "simply"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-00003175-r",
+     "gloss": "exactly at this moment or the moment described",
+     "wordnet_examples": [
+      "we've just finished painting the walls, so don't touch them"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-00002669-r",
+     "gloss": "only a very short time before",
+     "wordnet_examples": [],
+     "synonyms": [
+      "barely",
+      "hardly",
+      "scarcely",
+      "scarce"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-00301750-r",
+     "gloss": "possibly (indicating a slight chance of something being true)",
+     "wordnet_examples": [
+      "it might just happen"
+     ],
+     "synonyms": [],
+     "write": false
+    }
+   ]
+  },
+  {
+   "word": "certainly",
+   "pos": "adverb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "But if the attempt were made, it would certainly not be hampered by any of those loosenesses of construction, which, sometimes disguised by the conveniences of which the novelist can avail himself, appear at once on the stage.",
+    "The rain continued the whole evening without intermission; Jane certainly could not come back.",
+    "But before I am run away with by my feelings on this subject, perhaps it will be advisable for me to state my reasons for marrying--and, moreover, for coming into Hertfordshire with the design of selecting a wife, as I certainly did.\"",
+    "He certainly looked at her friend a great deal, but the expression of that look was disputable.",
+    "There was certainly at this moment, in Elizabeth's mind, a more gentle sensation towards the original than she had ever felt in the height of their acquaintance.",
+    "\"Certainly,\" he replied, biting his lips."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00145758-r",
+     "gloss": "definitely or positively (‘sure’ is sometimes used informally for ‘surely’)",
+     "wordnet_examples": [
+      "she certainly is a hard worker"
+     ],
+     "synonyms": [
+      "surely",
+      "sure",
+      "for sure",
+      "for certain",
+      "sure enough",
+      "sure as shooting"
+     ],
+     "write": true
+    }
+   ]
+  },
+  {
+   "word": "still",
+   "pos": "adverb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "Had he been a bad prig or a bad coxcomb, he might have been still smarting under his rejection, or suspicious that the girl had come husband-hunting.",
+    "He was always to have gone on Saturday, and to Saturday he still meant to stay.",
+    "The park paling was still the boundary on one side, and she soon passed one of the gates into the ground.",
+    "Elizabeth was excessively disappointed: she had set her heart on seeing the Lakes; and still thought there might have been time enough.",
+    "His debts to be discharged, and something still to remain!",
+    "Their situation was awkward enough; but hers she thought was still worse."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00031700-r",
+     "gloss": "with reference to action or condition; without change, interruption, or cessation",
+     "wordnet_examples": [
+      "it's still warm outside",
+      "will you still love me when we're old and grey?"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-00018101-r",
+     "gloss": "to a greater degree or extent; used with comparisons",
+     "wordnet_examples": [
+      "an even (or still) more interesting problem",
+      "still another problem must be solved"
+     ],
+     "synonyms": [
+      "even",
+      "yet"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-00027761-r",
+     "gloss": "despite anything to the contrary (usually preceding a concession)",
+     "wordnet_examples": [
+      "granted that it is dangerous, all the same I still want to go"
+     ],
+     "synonyms": [
+      "however",
+      "nevertheless",
+      "withal",
+      "yet",
+      "all the same",
+      "even so"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-00469307-r",
+     "gloss": "without moving or making a sound",
+     "wordnet_examples": [
+      "he sat still as a statue",
+      "time stood still"
+     ],
+     "synonyms": [
+      "stock-still"
+     ],
+     "write": false
+    }
+   ]
+  },
+  {
+   "word": "return",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "\"But it is,\" returned she; \"for Mrs. Long has just been here, and she told me all about it.\"",
+    "Mr. Collins on his return highly gratified Mrs. Bennet by admiring Mrs. Philips's manners and politeness.",
+    "With proper civilities, the ladies then withdrew; all of them equally surprised to find that he meditated a quick return.",
+    "A short dialogue on the subject of the country ensued, on either side calm and concise--and soon put an end to by the entrance of Charlotte and her sister, just returned from their walk.",
+    "She stood several minutes before the picture, in earnest contemplation, and returned to it again before they quitted the gallery.",
+    "Mr. Darcy was punctual in his return, and, as Lydia informed you, attended the wedding."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-02008888-v",
+     "gloss": "go or come back to place, condition, or activity where one has been before",
+     "wordnet_examples": [
+      "return to your native land"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-00818014-v",
+     "gloss": "answer back",
+     "wordnet_examples": [],
+     "synonyms": [
+      "retort",
+      "come back",
+      "repay",
+      "riposte",
+      "rejoin"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-02314987-v",
+     "gloss": "give back",
+     "wordnet_examples": [],
+     "synonyms": [
+      "render"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-02289796-v",
+     "gloss": "pay back",
+     "wordnet_examples": [],
+     "synonyms": [
+      "refund",
+      "repay",
+      "give back"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-00387981-v",
+     "gloss": "go back to a previous state",
+     "wordnet_examples": [],
+     "synonyms": [
+      "revert",
+      "retrovert",
+      "regress",
+      "turn back"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-02082541-v",
+     "gloss": "bring back to the point of departure",
+     "wordnet_examples": [],
+     "synonyms": [
+      "take back",
+      "bring back"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-00961556-v",
+     "gloss": "go back to something earlier",
+     "wordnet_examples": [],
+     "synonyms": [
+      "hark back",
+      "come back",
+      "recall"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-02362071-v",
+     "gloss": "return in kind",
+     "wordnet_examples": [
+      "return a compliment",
+      "return her love"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-00549233-v",
+     "gloss": "be restored",
+     "wordnet_examples": [],
+     "synonyms": [
+      "come back"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-01632192-v",
+     "gloss": "give or supply",
+     "wordnet_examples": [],
+     "synonyms": [
+      "render",
+      "yield",
+      "give",
+      "generate"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-02406438-v",
+     "gloss": "elect again",
+     "wordnet_examples": [],
+     "synonyms": [
+      "reelect",
+      "re-elect"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-00880549-v",
+     "gloss": "submit (a report, etc.) to someone in authority",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-01435792-v",
+     "gloss": "make a return",
+     "wordnet_examples": [
+      "return a kickback"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-02234332-v",
+     "gloss": "be inherited by",
+     "wordnet_examples": [],
+     "synonyms": [
+      "fall",
+      "pass",
+      "devolve"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-01064275-v",
+     "gloss": "pass down",
+     "wordnet_examples": [],
+     "synonyms": [
+      "render",
+      "deliver"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-02009631-v",
+     "gloss": "return to a previous position; in mathematics",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": false
+    }
+   ]
+  },
+  {
+   "word": "character",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "The plot, though not elaborate, is almost regular enough for Fielding; hardly a character, hardly an incident could be retrenched without loss to the story.",
+    "This is not quite enough to make her understand his character.\"",
+    "\"Merely to the illustration of your character,\" said she, endeavouring to shake off her gravity. \"",
+    "Your character was unfolded in the recital which I received many months ago from Mr. Wickham.",
+    "Elizabeth felt that they had entirely mistaken his character, but said nothing.",
+    "He promises fairly; and I hope among different people, where they may each have a character to preserve, they will both be more prudent."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-04627573-n",
+     "gloss": "the inherent complex of attributes that determines a persons moral and ethical actions and reactions",
+     "wordnet_examples": [
+      "education has for its object the formation of character"
+     ],
+     "synonyms": [
+      "fiber",
+      "fibre"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-09610740-n",
+     "gloss": "an imaginary person represented in a work of fiction (play or film or story)",
+     "wordnet_examples": [
+      "she is the main character in the novel"
+     ],
+     "synonyms": [
+      "fictional character",
+      "fictitious character"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-14462159-n",
+     "gloss": "good repute",
+     "wordnet_examples": [
+      "he is a man of character"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-05857811-n",
+     "gloss": "a characteristic property that defines the apparent individual nature of something",
+     "wordnet_examples": [
+      "the radical character of our demands"
+     ],
+     "synonyms": [
+      "quality",
+      "lineament"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-09928518-n",
+     "gloss": "a person of a specified kind (usually with many eccentricities)",
+     "wordnet_examples": [
+      "a real character",
+      "a strange character"
+     ],
+     "synonyms": [
+      "eccentric",
+      "type",
+      "case"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-06831828-n",
+     "gloss": "a written symbol that is used to represent speech",
+     "wordnet_examples": [],
+     "synonyms": [
+      "graph",
+      "grapheme",
+      "graphic symbol"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-05937794-n",
+     "gloss": "an actor's portrayal of someone in a play",
+     "wordnet_examples": [],
+     "synonyms": [
+      "role",
+      "theatrical role",
+      "part",
+      "persona"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-06707541-n",
+     "gloss": "a formal recommendation by a former employer to a potential future employer describing the person's qualifications and dependability",
+     "wordnet_examples": [
+      "requests for character references are all too often answered evasively"
+     ],
+     "synonyms": [
+      "reference",
+      "character reference"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-04624273-n",
+     "gloss": "(genetics) an attribute (structural or functional) that is determined by a gene or group of genes",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": false
+    }
+   ]
+  },
+  {
+   "word": "appear",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "But if the attempt were made, it would certainly not be hampered by any of those loosenesses of construction, which, sometimes disguised by the conveniences of which the novelist can avail himself, appear at once on the stage.",
+    "Lady Catherine de Bourgh's attention to his wishes, and consideration for his comfort, appeared very remarkable.",
+    "Elizabeth had hoped that his resentment might shorten his visit, but his plan did not appear in the least affected by it.",
+    "How differently did everything now appear in which he was concerned!",
+    "Wickham's alarm now appeared in a heightened complexion and agitated look; for a few minutes he was silent; till, shaking off his embarrassment, he turned to her again, and said in the gentlest of accents,--",
+    "\"And did Colonel Forster appear to think ill of Wickham himself?"
+   ],
+   "senses": [
+    {
+     "synset": "oewn-02137900-v",
+     "gloss": "give a certain impression of being something or having a certain aspect",
+     "wordnet_examples": [],
+     "synonyms": [
+      "look",
+      "seem"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-00423043-v",
+     "gloss": "come into sight or view",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-02139137-v",
+     "gloss": "(of a proposition) seem to be true, probable, or apparent",
+     "wordnet_examples": [],
+     "synonyms": [
+      "seem"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-00426024-v",
+     "gloss": "come into being or existence, or appear on the scene",
+     "wordnet_examples": [],
+     "synonyms": [
+      "come along"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-00426920-v",
+     "gloss": "be issued or published",
+     "wordnet_examples": [
+      "Did your latest book appear yet?"
+     ],
+     "synonyms": [
+      "come out"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-02603759-v",
+     "gloss": "present oneself formally, as before a (judicial) authority",
+     "wordnet_examples": [
+      "He had to appear in court last month"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-01725046-v",
+     "gloss": "appear as a character on stage or appear in a play, etc.",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": false
+    }
+   ]
+  }
+ ]
+}
