@@ -1,0 +1,868 @@
+{
+ "packet": 17,
+ "entries": [
+  {
+   "word": "accept",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "occurrences": 38,
+   "sentences": [
+    "Mr. Bingley was obliged to be in town the following day, and consequently unable to accept the honour of their invitation, etc.",
+    "Mr. Wickham's happiness and her own was perforce delayed a little longer, and Mr. Collins's proposal accepted with as good a grace as she could.",
+    "Your mother insists upon your accepting it.",
+    "The strangeness of Mr. Collins's making two offers of marriage within three days was nothing in comparison of his being now accepted.",
+    "\"You could not have made me the offer of your hand in any possible way that would have tempted me to accept it.\"",
+    "Yes, he had no engagement at all for to-morrow; and her invitation was accepted with alacrity."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00688348-v",
+     "gloss": "consider or hold as true",
+     "wordnet_examples": [
+      "I cannot accept the dogma of this church",
+      "accept an argument"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-02240906-v",
+     "gloss": "receive willingly something given or offered",
+     "wordnet_examples": [
+      "Please accept my present"
+     ],
+     "synonyms": [
+      "take",
+      "have"
+     ]
+    },
+    {
+     "synset": "oewn-00799359-v",
+     "gloss": "give an affirmative reply to; respond favorably to",
+     "wordnet_examples": [
+      "I cannot accept your invitation"
+     ],
+     "synonyms": [
+      "consent",
+      "go for"
+     ]
+    },
+    {
+     "synset": "oewn-00721155-v",
+     "gloss": "react favorably to; consider right and proper",
+     "wordnet_examples": [
+      "People did not accept atonal music at that time",
+      "We accept the idea of universal health care"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-02241406-v",
+     "gloss": "admit into a group or community",
+     "wordnet_examples": [
+      "accept students for graduate study"
+     ],
+     "synonyms": [
+      "admit",
+      "take",
+      "take on"
+     ]
+    },
+    {
+     "synset": "oewn-02306786-v",
+     "gloss": "take on as one's own the expenses or debts of another person",
+     "wordnet_examples": [
+      "I'll accept the charges"
+     ],
+     "synonyms": [
+      "bear",
+      "take over",
+      "assume"
+     ]
+    },
+    {
+     "synset": "oewn-00670723-v",
+     "gloss": "tolerate or accommodate oneself to",
+     "wordnet_examples": [
+      "I shall have to accept these unpleasant working conditions"
+     ],
+     "synonyms": [
+      "live with",
+      "swallow"
+     ]
+    },
+    {
+     "synset": "oewn-02747421-v",
+     "gloss": "be designed to hold or take",
+     "wordnet_examples": [],
+     "synonyms": [
+      "take"
+     ]
+    },
+    {
+     "synset": "oewn-02215404-v",
+     "gloss": "receive (a report) officially, as from a committee",
+     "wordnet_examples": [],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-02214718-v",
+     "gloss": "make use of or accept for some purpose",
+     "wordnet_examples": [],
+     "synonyms": [
+      "take"
+     ]
+    },
+    {
+     "synset": "oewn-00720413-v",
+     "gloss": "be sexually responsive to, used of a female domesticated mammal",
+     "wordnet_examples": [],
+     "synonyms": []
+    }
+   ]
+  },
+  {
+   "word": "respect",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "occurrences": 38,
+   "sentences": [
+    "It is at any rate difficult not to extend to her a share of the respect and affection (affection and respect of a peculiar kind; doubtless), with which one regards Mr. Collins, when she draws the moral of Lydia's fall.",
+    "I am most thankful that the discovery is made in time for me to pay my respects to him, which I am now going to do, and trust he will excuse my not having done it before.",
+    "My feelings in every respect forbid it.",
+    "\"But,\" he added, \"you will of course wish to have your humble respects delivered to them, with your grateful thanks for their kindness to you while you have been here.\"",
+    "The world has been deceived in that respect; and I am happy to say, there will be some little money, even when all his debts are discharged, to settle on my niece, in addition to her own fortune.",
+    "They were certainly no friends to his acquaintance with me, which I cannot wonder at, since he might have chosen so much more advantageously in many respects."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-05828314-n",
+     "gloss": "(usually preceded by ‘in’) a detail or point",
+     "wordnet_examples": [
+      "it differs in that respect"
+     ],
+     "synonyms": [
+      "regard"
+     ]
+    },
+    {
+     "synset": "oewn-14461018-n",
+     "gloss": "the condition of being honored (esteemed or respected or well regarded)",
+     "wordnet_examples": [],
+     "synonyms": [
+      "esteem",
+      "regard"
+     ]
+    },
+    {
+     "synset": "oewn-06216535-n",
+     "gloss": "an attitude of admiration or esteem",
+     "wordnet_examples": [
+      "she lost all respect for him"
+     ],
+     "synonyms": [
+      "esteem",
+      "regard"
+     ]
+    },
+    {
+     "synset": "oewn-01231366-n",
+     "gloss": "a courteous expression (by word or deed) of esteem or regard",
+     "wordnet_examples": [],
+     "synonyms": [
+      "deference"
+     ]
+    },
+    {
+     "synset": "oewn-01135185-n",
+     "gloss": "behavior intended to please your parents",
+     "wordnet_examples": [
+      "he went to law school out of respect for his father's wishes"
+     ],
+     "synonyms": [
+      "obedience"
+     ]
+    },
+    {
+     "synset": "oewn-07560785-n",
+     "gloss": "a feeling of friendship and esteem",
+     "wordnet_examples": [
+      "he inspires respect"
+     ],
+     "synonyms": [
+      "regard"
+     ]
+    },
+    {
+     "synset": "oewn-04921016-n",
+     "gloss": "courteous regard for people's feelings",
+     "wordnet_examples": [
+      "out of respect for his privacy"
+     ],
+     "synonyms": [
+      "deference",
+      "respectfulness"
+     ]
+    }
+   ]
+  },
+  {
+   "word": "connection",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "occurrences": 38,
+   "sentences": [
+    "And I am not so certain that I should myself use the word \"narrow\" in connection with her.",
+    "Something, he supposed, might be attributed to his connection with them, but yet he had never met with so much attention in the whole course of his life.",
+    "They may wish many things besides his happiness: they may wish his increase of wealth and consequence; they may wish him to marry a girl who has all the importance of money, great connections, and pride.\"",
+    "I will only say, farther, that from what passed that evening my opinion of all parties was confirmed, and every inducement heightened, which could have led me before to preserve my friend from what I esteemed a most unhappy connection.",
+    "That he was surprised by the connection was evident: he sustained it, however, with fortitude: and, so far from going away, turned back with them, and entered into conversation with Mr. Gardiner.",
+    "Every kind of pride must revolt from the connection."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-13813601-n",
+     "gloss": "a relation between things or events (as in the case of one causing the other or sharing features with it)",
+     "wordnet_examples": [
+      "there was a connection between eating that pickle and having that nightmare"
+     ],
+     "synonyms": [
+      "connexion",
+      "connectedness"
+     ]
+    },
+    {
+     "synset": "oewn-14442568-n",
+     "gloss": "the state of being connected",
+     "wordnet_examples": [
+      "the connection between church and state is inescapable"
+     ],
+     "synonyms": [
+      "link",
+      "connectedness"
+     ]
+    },
+    {
+     "synset": "oewn-03095830-n",
+     "gloss": "an instrumentality that connects",
+     "wordnet_examples": [
+      "he soldered the connection"
+     ],
+     "synonyms": [
+      "connexion",
+      "connector",
+      "connecter",
+      "connective"
+     ]
+    },
+    {
+     "synset": "oewn-09975626-n",
+     "gloss": "(usually plural) a person who is influential and to whom you are connected in some way (as by family or friendship)",
+     "wordnet_examples": [],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-05771913-n",
+     "gloss": "the process of bringing ideas or events together in memory or imagination",
+     "wordnet_examples": [],
+     "synonyms": [
+      "association",
+      "connexion"
+     ]
+    },
+    {
+     "synset": "oewn-13893444-n",
+     "gloss": "a connecting shape",
+     "wordnet_examples": [],
+     "synonyms": [
+      "connexion",
+      "link"
+     ]
+    },
+    {
+     "synset": "oewn-09975514-n",
+     "gloss": "a supplier (especially of narcotics)",
+     "wordnet_examples": [],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-00317815-n",
+     "gloss": "shifting from one form of transportation to another",
+     "wordnet_examples": [
+      "the plane was late and he missed his connection in Atlanta"
+     ],
+     "synonyms": [
+      "connexion"
+     ]
+    },
+    {
+     "synset": "oewn-00146038-n",
+     "gloss": "the act of bringing two things into contact (especially for communication)",
+     "wordnet_examples": [
+      "there was a connection via the internet"
+     ],
+     "synonyms": [
+      "joining",
+      "connexion"
+     ]
+    }
+   ]
+  },
+  {
+   "word": "rest",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "occurrences": 38,
+   "sentences": [
+    "You get none; you are lucky if, discarding two-thirds of what he gives, you can shape a real impression out of the rest.",
+    "Mr. Darcy danced only once with Mrs. Hurst and once with Miss Bingley, declined being introduced to any other lady, and spent the rest of the evening in walking about the room, speaking occasionally to one of his own party.",
+    "The rest of the evening brought her little amusement.",
+    "I would advise you merely to put on whatever of your clothes is superior to the rest--there is no occasion for anything more.",
+    "He acknowledged the truth of it all; and said that business with his steward had occasioned his coming forward a few hours before the rest of the party with whom he had been travelling. \"",
+    "But in spite of all this fine talking, my dear Lizzy, you may rest perfectly assured that your uncle would never have yielded, if we had not given him credit for another interest in the affair."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-13833030-n",
+     "gloss": "something left after other parts have been taken away",
+     "wordnet_examples": [
+      "he threw away the rest"
+     ],
+     "synonyms": [
+      "remainder",
+      "balance",
+      "residual",
+      "residue",
+      "residuum"
+     ]
+    },
+    {
+     "synset": "oewn-01066072-n",
+     "gloss": "freedom from activity (work or strain or responsibility)",
+     "wordnet_examples": [],
+     "synonyms": [
+      "ease",
+      "repose",
+      "relaxation"
+     ]
+    },
+    {
+     "synset": "oewn-15299060-n",
+     "gloss": "a pause for relaxation",
+     "wordnet_examples": [],
+     "synonyms": [
+      "respite",
+      "relief",
+      "rest period"
+     ]
+    },
+    {
+     "synset": "oewn-14035972-n",
+     "gloss": "a state of inaction",
+     "wordnet_examples": [
+      "a body will continue in a state of rest until acted upon"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-13986101-n",
+     "gloss": "euphemisms for death (based on an analogy between lying in a bed and in a tomb)",
+     "wordnet_examples": [
+      "she was laid to rest beside her husband"
+     ],
+     "synonyms": [
+      "eternal rest",
+      "sleep",
+      "eternal sleep",
+      "quietus"
+     ]
+    },
+    {
+     "synset": "oewn-04088156-n",
+     "gloss": "a support on which things can be put",
+     "wordnet_examples": [
+      "the gun was steadied on a special rest"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-06878227-n",
+     "gloss": "a musical notation indicating a silence of a specified duration",
+     "wordnet_examples": [],
+     "synonyms": []
+    }
+   ]
+  },
+  {
+   "word": "relate",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "occurrences": 38,
+   "sentences": [
+    "\"To whom I have related the affair\" 363",
+    "As they walked home, Elizabeth related to Jane what she had seen pass between the two gentlemen; but though Jane would have defended either or both, had they appeared to be wrong, she could no more explain such behaviour than her sister.",
+    "Lady Catherine was generally speaking--stating the mistakes of the three others, or relating some anecdote of herself.",
+    "Of what he has particularly accused me I am ignorant; but of the truth of what I shall relate I can summon more than one witness of undoubted veracity.",
+    "In confirmation of this, she related the particulars of all the pecuniary transactions in which they had been connected, without actually naming her authority, but stating it to be such as might be relied on.",
+    "\"To whom I have related the affair\""
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00715072-v",
+     "gloss": "make a logical or causal connection",
+     "wordnet_examples": [
+      "I cannot relate these events at all"
+     ],
+     "synonyms": [
+      "associate",
+      "tie in",
+      "link",
+      "colligate",
+      "link up",
+      "connect"
+     ]
+    },
+    {
+     "synset": "oewn-02681865-v",
+     "gloss": "be relevant to",
+     "wordnet_examples": [],
+     "synonyms": [
+      "refer",
+      "pertain",
+      "concern",
+      "come to",
+      "bear on",
+      "touch"
+     ]
+    },
+    {
+     "synset": "oewn-00955090-v",
+     "gloss": "give an account of; narrate",
+     "wordnet_examples": [],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-02730292-v",
+     "gloss": "be in a relationship with",
+     "wordnet_examples": [],
+     "synonyms": [
+      "interrelate"
+     ]
+    },
+    {
+     "synset": "oewn-02463535-v",
+     "gloss": "have or establish a relationship to",
+     "wordnet_examples": [],
+     "synonyms": []
+    }
+   ]
+  },
+  {
+   "word": "less",
+   "pos": "adjective",
+   "book": "Pride and Prejudice",
+   "occurrences": 38,
+   "sentences": [
+    "Her mind was less difficult to develope.",
+    "Among those who are at all his equals in consequence, he is a very different man from what he is to the less prosperous.",
+    "Jane confessed herself a little surprised at the match: but she said less of her astonishment than of her earnest desire for their happiness; nor could Elizabeth persuade her to consider it as improbable.",
+    "Mr. Darcy, who was leaning against the mantel-piece with his eyes fixed on her face, seemed to catch her words with no less resentment than surprise.",
+    "The walk being here less sheltered than on the other side, allowed them to see him before they met.",
+    "I am glad of one thing, that he comes alone; because we shall see the less of him."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-01559809-a",
+     "gloss": "(comparative of ‘little’ usually used with mass nouns) a quantifier meaning not as great in amount or degree",
+     "wordnet_examples": [
+      "of less importance",
+      "less time to spend with the family"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-02355910-s",
+     "gloss": "(usually preceded by ‘no’) lower in quality",
+     "wordnet_examples": [
+      "no less than perfect"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-01561306-s",
+     "gloss": "(nonstandard in some uses but often idiomatic with measure phrases) fewer",
+     "wordnet_examples": [
+      "less than three weeks",
+      "no less than 50 people attended"
+     ],
+     "synonyms": []
+    }
+   ]
+  },
+  {
+   "word": "stand",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "occurrences": 38,
+   "sentences": [
+    "But if we do not venture, somebody else will; and after all, Mrs. Long and her nieces must stand their chance; and, therefore, as she will think it an act of kindness, if you decline the office, I will take it on myself.\"",
+    "\"Mamma,\" cried Lydia, \"my aunt says that Colonel Forster and Captain Carter do not go so often to Miss Watson's as they did when they first came; she sees them now very often standing in Clarke's library.\"",
+    "In vain did she entreat him to stand up with somebody else, and offered to introduce him to any young lady in the room.",
+    "I only fear that the sort of cautiousness to which you, I imagine, have been alluding, is merely adopted on his visits to his aunt, of whose good opinion and judgment he stands much in awe.",
+    "At length, every idea seemed to fail him; and after standing a few moments without saying a word, he suddenly recollected himself, and took leave.",
+    "If he could anyhow discover at what house the coachman had before set down his fare, he determined to make inquiries there, and hoped it might not be impossible to find out the stand and number of the coach."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-01548893-v",
+     "gloss": "be standing; be upright",
+     "wordnet_examples": [
+      "We had to stand for the entire performance!"
+     ],
+     "synonyms": [
+      "stand up"
+     ]
+    },
+    {
+     "synset": "oewn-02617408-v",
+     "gloss": "be in some specified state or condition",
+     "wordnet_examples": [
+      "I stand corrected"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-02740363-v",
+     "gloss": "occupy a place or location, also metaphorically",
+     "wordnet_examples": [
+      "We stand on common ground"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-02707980-v",
+     "gloss": "hold one's ground; maintain a position; be steadfast or upright",
+     "wordnet_examples": [],
+     "synonyms": [
+      "remain firm"
+     ]
+    },
+    {
+     "synset": "oewn-00670017-v",
+     "gloss": "put up with something or somebody unpleasant",
+     "wordnet_examples": [],
+     "synonyms": [
+      "digest",
+      "endure",
+      "stick out",
+      "stomach",
+      "bear",
+      "tolerate"
+     ]
+    },
+    {
+     "synset": "oewn-00672910-v",
+     "gloss": "have or maintain a position or stand on an issue",
+     "wordnet_examples": [
+      "Where do you stand on the War?"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-02712985-v",
+     "gloss": "remain inactive or immobile",
+     "wordnet_examples": [],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-02708878-v",
+     "gloss": "be in effect; be or remain in force",
+     "wordnet_examples": [],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-02708228-v",
+     "gloss": "be tall; have a height of; copula",
+     "wordnet_examples": [],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-01549550-v",
+     "gloss": "put into an upright position",
+     "wordnet_examples": [
+      "Can you stand the bookshelf up?"
+     ],
+     "synonyms": [
+      "stand up",
+      "place upright"
+     ]
+    },
+    {
+     "synset": "oewn-01118334-v",
+     "gloss": "withstand the force of something",
+     "wordnet_examples": [
+      "stand the test of time"
+     ],
+     "synonyms": [
+      "resist",
+      "fend"
+     ]
+    },
+    {
+     "synset": "oewn-01430836-v",
+     "gloss": "be available for stud services",
+     "wordnet_examples": [],
+     "synonyms": []
+    }
+   ]
+  },
+  {
+   "word": "question",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "occurrences": 38,
+   "sentences": [
+    "and his answering immediately to the last question, 'Oh, the eldest Miss Bennet, beyond a doubt: there cannot be two opinions on that point.'\"",
+    "He repeated the question, with some surprise at her silence.",
+    "Maria thought speaking out of the question, and the gentlemen did nothing but eat and admire.",
+    "At length, however, the question was asked by her uncle; and she turned away with alarm, while Mrs. Reynolds replied, that he was; adding, \"But we expect him to-morrow, with a large party of friends.\"",
+    "When they were all in the drawing-room, the questions which Elizabeth had already asked were of course repeated by the others, and they soon found that Jane had no intelligence to give.",
+    "You may ask questions which I shall not choose to answer.\""
+   ],
+   "senses": [
+    {
+     "synset": "oewn-07208256-n",
+     "gloss": "an instance of questioning",
+     "wordnet_examples": [
+      "there was a question about my training"
+     ],
+     "synonyms": [
+      "inquiry",
+      "enquiry",
+      "query",
+      "interrogation"
+     ]
+    },
+    {
+     "synset": "oewn-06796625-n",
+     "gloss": "the subject matter at issue",
+     "wordnet_examples": [
+      "the question of disease merits serious discussion"
+     ],
+     "synonyms": [
+      "head"
+     ]
+    },
+    {
+     "synset": "oewn-07211342-n",
+     "gloss": "a sentence of inquiry that asks for a reply",
+     "wordnet_examples": [
+      "he asked a direct question"
+     ],
+     "synonyms": [
+      "interrogation",
+      "interrogative",
+      "interrogative sentence"
+     ]
+    },
+    {
+     "synset": "oewn-04764777-n",
+     "gloss": "uncertainty about the truth or factuality or existence of something",
+     "wordnet_examples": [
+      "there is no question about the validity of the enterprise"
+     ],
+     "synonyms": [
+      "doubt",
+      "dubiousness",
+      "doubtfulness"
+     ]
+    },
+    {
+     "synset": "oewn-07178244-n",
+     "gloss": "a formal proposal for action made to a deliberative assembly for discussion and vote",
+     "wordnet_examples": [
+      "she called for the question"
+     ],
+     "synonyms": [
+      "motion"
+     ]
+    },
+    {
+     "synset": "oewn-07176710-n",
+     "gloss": "an informal reference to a marriage proposal",
+     "wordnet_examples": [
+      "he was ready to pop the question"
+     ],
+     "synonyms": []
+    }
+   ]
+  },
+  {
+   "word": "attend",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "occurrences": 38,
+   "sentences": [
+    "He began to wish to know more of her; and, as a step towards conversing with her himself, attended to her conversation with others.",
+    "After sitting a little while with Jane, on Miss Bingley's appearance and invitation, the mother and three daughters all attended her into the breakfast parlour.",
+    "The discussion of Mr. Collins's offer was now nearly at an end, and Elizabeth had only to suffer from the uncomfortable feelings necessarily attending it, and occasionally from some peevish allusion of her mother.",
+    "She read with an eagerness which hardly left her power of comprehension; and from impatience of knowing what the next sentence might bring, was incapable of attending to the sense of the one before her eyes.",
+    "Their visit did not continue long after the question and answer above mentioned; and while Mr. Darcy was attending them to their carriage, Miss Bingley was venting her feelings in criticisms on Elizabeth's person, behaviour, and dress.",
+    "Mr. Darcy was punctual in his return, and, as Lydia informed you, attended the wedding."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-02618797-v",
+     "gloss": "be present at (meetings, church services, university), etc.",
+     "wordnet_examples": [
+      "I rarely attend services at my church"
+     ],
+     "synonyms": [
+      "go to"
+     ]
+    },
+    {
+     "synset": "oewn-02555278-v",
+     "gloss": "take charge of or deal with",
+     "wordnet_examples": [
+      "I must attend to this matter"
+     ],
+     "synonyms": [
+      "take care",
+      "look",
+      "see"
+     ]
+    },
+    {
+     "synset": "oewn-02722442-v",
+     "gloss": "to accompany as a circumstance or follow as a result",
+     "wordnet_examples": [],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-02546367-v",
+     "gloss": "work for, or be a servant to",
+     "wordnet_examples": [],
+     "synonyms": [
+      "serve",
+      "attend to",
+      "wait on",
+      "assist"
+     ]
+    },
+    {
+     "synset": "oewn-02174871-v",
+     "gloss": "give heed (to)",
+     "wordnet_examples": [],
+     "synonyms": [
+      "hang",
+      "advert",
+      "pay heed",
+      "give ear"
+     ]
+    }
+   ]
+  },
+  {
+   "word": "long",
+   "pos": "adjective",
+   "book": "Pride and Prejudice",
+   "occurrences": 38,
+   "sentences": [
+    "How long has she been such a favourite?",
+    "The attention of the younger ones was then no longer to be gained by him.",
+    "Mr. Collins's return into Hertfordshire was no longer a matter of pleasure to Mrs. Bennet.",
+    "This he considered sufficient encouragement, and the avowal of all that he felt and had long felt for her immediately followed.",
+    "No; hatred had vanished long ago, and she had almost as long been ashamed of ever feeling a dislike against him, that could be so called.",
+    "Mrs. Bennet, through the assistance of servants, contrived to have the earliest tidings of it, that the period of anxiety and fretfulness on her side be as long as it could."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-01440837-a",
+     "gloss": "primarily temporal sense; being or indicating a relatively great or greater than average duration or passage of time or a duration as specified",
+     "wordnet_examples": [
+      "a long life",
+      "a long boring speech"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-01436368-a",
+     "gloss": "primarily spatial sense; of relatively great or greater than average spatial extension or extension as specified",
+     "wordnet_examples": [
+      "a long road",
+      "a long distance"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-02394693-s",
+     "gloss": "of relatively great height",
+     "wordnet_examples": [
+      "a race of long gaunt men",
+      "looked out the long French windows"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-02012852-a",
+     "gloss": "good at remembering",
+     "wordnet_examples": [],
+     "synonyms": [
+      "retentive",
+      "recollective",
+      "tenacious"
+     ]
+    },
+    {
+     "synset": "oewn-01447325-a",
+     "gloss": "holding securities or commodities in expectation of a rise in prices",
+     "wordnet_examples": [
+      "is long on coffee",
+      "a long position in gold"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-01446913-a",
+     "gloss": "(of speech sounds or syllables) of relatively long duration",
+     "wordnet_examples": [
+      "the English vowel sounds in ‘bate’, ‘beat’, ‘bite’, ‘boat’, ‘boot’ are long"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-02282618-s",
+     "gloss": "involving substantial risk",
+     "wordnet_examples": [
+      "long odds"
+     ],
+     "synonyms": []
+    },
+    {
+     "synset": "oewn-01901363-s",
+     "gloss": "planning prudently for the future",
+     "wordnet_examples": [
+      "took a long view of the geopolitical issues"
+     ],
+     "synonyms": [
+      "farseeing",
+      "farsighted",
+      "foresighted",
+      "foresightful",
+      "prospicient",
+      "longsighted"
+     ]
+    },
+    {
+     "synset": "oewn-00015626-s",
+     "gloss": "having or being more than normal or necessary",
+     "wordnet_examples": [
+      "long on brains",
+      "in long supply"
+     ],
+     "synonyms": []
+    }
+   ]
+  }
+ ]
+}

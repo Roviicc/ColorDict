@@ -171,29 +171,31 @@
     {
      "n": 5,
      "step": "Pilot: third-hand repair + blind re-read",
-     "owner": "manager",
+     "owner": "manager (repair) / shawn (re-read)",
      "state": "not_started",
-     "commit": null
+     "commit": null,
+     "note": "the manager authored the pilot and has seen every enricher rationale, so it cannot read these blind"
     },
     {
      "n": 6,
      "step": "The 778 remaining entries: rank + enrich",
-     "owner": "manager",
+     "owner": "shawn",
      "state": "not_started",
      "commit": null,
-     "note": "the pilot 100 came out of the 878; subset before running or they are paid for twice"
+     "note": "data/policy/stage7-book1-run/ - 778 entries, 78 packets, carved 2026-09-04; 0 overlap with the pilot or stage 4"
     },
     {
      "n": 7,
      "step": "~10% blind read of the 778",
-     "owner": "shawn",
+     "owner": "manager",
      "state": "not_started",
-     "commit": null
+     "commit": null,
+     "note": "roles swap for the 778: shawn authors it, so the manager reads it"
     },
     {
      "n": 8,
      "step": "Repairs + blind re-read",
-     "owner": "manager",
+     "owner": "manager (repair) / shawn (re-read)",
      "state": "not_started",
      "commit": null
     },
@@ -235,8 +237,10 @@
    ],
    "owners": {
     "manager": "a session opened on this repo folder - it alone can spawn the instruments",
-    "cloud": "a session with no agent access - the deterministic tail only"
-   }
+    "cloud": "a session with no agent access - the deterministic tail only",
+    "shawn": "a second session opened on this repo folder - takes the long authoring run and the pilot re-reads"
+   },
+   "role_rule": "The hand that writes is never the hand that reads, and it is now enforced across sessions, not just across models. The manager authored the pilot 100 and has seen every ranker and enricher rationale, so it is contaminated for those entries and must not read them. Neither session has seen the 778, so whichever one does not author it can read it honestly."
   },
   {
    "stage": "8",
