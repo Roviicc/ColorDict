@@ -34,6 +34,8 @@ Usage:
 import argparse
 import json
 import sys
+
+import instrument_gate
 from collections import Counter
 from pathlib import Path
 
@@ -383,6 +385,10 @@ def main():
             s.add_argument("--overlay",
                            default=str(ROOT / "data/entries/overlays/enrich-001.overlay.jsonl"))
     args = ap.parse_args()
+    # The gate, not a warning: a rate produced by a moved instrument is not
+    # comparable to an older one, and the cheapest moment to refuse is before
+    # the number exists. See tools/instrument_gate.py.
+    instrument_gate.enforce("validating the " + args.cmd + " pass")
     return {"ranker": cmd_ranker, "enricher": cmd_enricher, "reads": cmd_reads,
             "nulls": cmd_nulls}[args.cmd](args)
 

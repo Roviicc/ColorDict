@@ -1,0 +1,120 @@
+{"packet": 5, "entries": [
+ {"word": "journey", "pos": "noun",
+  "senses": {
+   "oewn-00307252-n": {"learner": "the act of going from one place to another",
+                       "examples": ["It was a journey of only twenty-four miles, and they began it so early as to be in Gracechurch Street by noon.", "The coach, therefore, took them the first stage of their journey, and brought its master back to Longbourn."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "suffer", "pos": "verb",
+  "senses": {
+   "oewn-00064841-v": {"learner": "to be in pain",
+                       "examples": ["Who should suffer but myself?", "Nobody can tell what I suffer!"],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-02113644-v": {"learner": "to go through something, or to have something done to you",
+                       "examples": ["Mr. Bingley, if he had been imposed on, would have much to suffer when the affair became public."],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-00670017-v": {"learner": "to put up with something or someone that is unpleasant",
+                       "examples": ["She would not suffer such rudeness at her own table."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "address", "pos": "verb",
+  "senses": {
+   "oewn-00899077-v": {"learner": "to speak to someone",
+                       "examples": ["Observing his second daughter employed in trimming a hat, he suddenly addressed her", "he addressed the mother in these words"],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-00992687-v": {"learner": "to go up to someone and speak to them",
+                       "examples": ["A stranger addressed me in the street and asked the way to the station."],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-01163215-v": {"learner": "to turn yourself and your effort to something, such as a question",
+                       "examples": ["She addressed herself to the task of clearing the table."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "inquire", "pos": "verb",
+  "senses": {
+   "oewn-00899241-v": {"learner": "to put a question to someone and expect them to answer",
+                       "examples": ["I inquired after their brother, of course.", "He was then, he said, on his way to Longbourn on purpose to inquire after her."],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-00787624-v": {"learner": "to look into something carefully in order to find out the facts about it",
+                       "examples": ["She then proceeded to inquire into the measures which her father had intended to pursue"],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-00731363-v": {"learner": "to want to know something",
+                       "examples": ["She lay awake, inquiring in her own mind why he had gone away so suddenly."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "alone", "pos": "adverb",
+  "senses": {
+   "oewn-00159090-r": {"learner": "with no other person there and nothing else there",
+                       "examples": ["Eager to be alone, and fearful of inquiries or hints from her uncle and aunt", "Bingley, who wanted to be alone with Jane, proposed their all walking out."],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-00009062-r": {"learner": "with no others counted in or taking part",
+                       "examples": ["He spoke of it as a certain event, of which the time alone could be undecided.", "The reason why all this was to be done by him alone, was such as I have given above."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "directly", "pos": "adverb",
+  "senses": {
+   "oewn-00049277-r": {"learner": "at once, without waiting or hesitating, with no time passing in between",
+                       "examples": ["The express was sent off directly.", "I will speak to her about it myself directly."],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-00506737-r": {"learner": "with no person and no thing coming in between",
+                       "examples": ["She heard the news directly from her uncle, and not from a servant."],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-00052386-r": {"learner": "in a straight line, without turning aside",
+                       "examples": ["The lane runs directly to the church door."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "knowledge", "pos": "noun",
+  "senses": {
+   "oewn-00023451-n": {"learner": "what the mind ends up holding after noticing things, learning and thinking",
+                       "examples": ["Every day added something to their knowledge of the officers' names and connections.", "Your superior knowledge of your sister must make the latter probable."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "latter", "pos": "adjective",
+  "senses": {
+   "oewn-01051260-a": {"learner": "being the second of two people or things that have been named, or the last one or ones of several",
+                       "examples": ["the latter half, which was dated a day later, and written in evident agitation, gave more important intelligence", "To make this latter observation quite exact we must not use the term miniature in its restricted sense"],
+                       "usage_labels": [],
+                       "connotation": null}
+  }},
+ {"word": "deceive", "pos": "verb",
+  "senses": {
+   "oewn-00856102-v": {"learner": "to make someone believe something that is not true",
+                       "examples": ["I never meant to deceive you, but my spirits might often lead me wrong.", "Caroline is incapable of wilfully deceiving anyone"],
+                       "usage_labels": [],
+                       "connotation": {"candidate": true, "why": "lays intentional dishonesty on the one who does it"}},
+   "oewn-02581157-v": {"learner": "to be untrue to someone and dishonest with them",
+                       "examples": ["He deceived the friend who had trusted him most."],
+                       "usage_labels": [],
+                       "connotation": {"candidate": true, "why": "treats the person as having broken faith"}}
+  }},
+ {"word": "change", "pos": "verb",
+  "senses": {
+   "oewn-00122978-v": {"learner": "to become different in some way while still keeping what you or it were before",
+                       "examples": ["The expression of his face changed gradually from indignant contempt to a composed and steady gravity.", "Her colour changed, and she said no more."],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-00126072-v": {"learner": "to make something different from what it was",
+                       "examples": ["She changed a few words in the letter before she sent it."],
+                       "usage_labels": [],
+                       "connotation": null},
+   "oewn-00109468-v": {"learner": "to become different in what you really are, so that you are no longer what you were",
+                       "examples": ["After those years abroad he had changed entirely, and nothing of the old man was left."],
+                       "usage_labels": [],
+                       "connotation": null}
+  }}
+]}

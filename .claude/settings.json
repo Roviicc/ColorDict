@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(.claude/agents/**)",
+      "Write(.claude/agents/**)",
+      "Bash(git push *)"
+    ]
+  }
+}
