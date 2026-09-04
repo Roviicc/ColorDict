@@ -238,7 +238,7 @@
     "oewn-00707813-v": {
      "learner": "to mean to do something that you may well be able to do.",
      "examples": [
-      "was counting the days till she might reasonably hope to hear again"
+      "I hope to finish the roof before the rain comes."
      ],
      "usage_labels": [],
      "connotation": null
@@ -2173,13 +2173,10 @@
     "oewn-04922864-n": {
      "learner": "a way of behaving that shows no respect for people.",
      "examples": [
-      "The expression of his face changed gradually from indignant contempt to a composed and steady gravity."
+      "He listened with an air of lazy contempt."
      ],
      "usage_labels": [],
-     "connotation": {
-      "candidate": true,
-      "why": "names a person's whole manner as showing no respect"
-     }
+     "connotation": null
     }
    }
   },
@@ -2694,7 +2691,10 @@
       "I shall tell Colonel Forster it will be quite a shame if he does not."
      ],
      "usage_labels": [],
-     "connotation": null
+     "connotation": {
+      "candidate": true,
+      "why": "names the speaker's regret at the thing rather than a fact about it"
+     }
     },
     "oewn-14463603-n": {
      "learner": "the condition of having lost your good name and other people's respect",
@@ -2721,7 +2721,10 @@
       "It has connected him nearer with virtue than any other feeling."
      ],
      "usage_labels": [],
-     "connotation": null
+     "connotation": {
+      "candidate": true,
+      "why": "crediting someone with it approves of them rather than describes them"
+     }
     },
     "oewn-04856990-n": {
      "learner": "right conduct in matters of sex",
@@ -2730,7 +2733,10 @@
       "how little of permanent happiness could belong to a couple who were only brought together because their passions were stronger than their virtue"
      ],
      "usage_labels": [],
-     "connotation": null
+     "connotation": {
+      "candidate": true,
+      "why": "an approving and indirect name for chastity rather than a plain one"
+     }
     },
     "oewn-04854713-n": {
      "learner": "one particular good quality of character",
@@ -2738,7 +2744,10 @@
       "His countenance, voice, and manner, had established him at once in the possession of every virtue."
      ],
      "usage_labels": [],
-     "connotation": null
+     "connotation": {
+      "candidate": true,
+      "why": "names the quality as an excellence, so it praises whoever holds it"
+     }
     }
    }
   },
@@ -2905,7 +2914,10 @@
      "usage_labels": [
       "informal"
      ],
-     "connotation": null
+     "connotation": {
+      "candidate": true,
+      "why": "chosen over 'believe' it casts the claim as something being sold"
+     }
     },
     "oewn-02288941-v": {
      "learner": "to pay someone illegally so that they will help you or do what you want",
@@ -2933,7 +2945,10 @@
       "I never saw such capacity, and taste, and application, and elegance, as you describe, united."
      ],
      "usage_labels": [],
-     "connotation": null
+     "connotation": {
+      "candidate": true,
+      "why": "calling something elegance approves of its taste rather than reporting it"
+     }
     },
     "oewn-04819885-n": {
      "learner": "the quality of a way of solving a problem that is neat and cleverly simple",
@@ -2941,7 +2956,10 @@
       "The elegance of her proof lay in its three short lines."
      ],
      "usage_labels": [],
-     "connotation": null
+     "connotation": {
+      "candidate": true,
+      "why": "calling a solution elegant praises it rather than describing its shape"
+     }
     }
    }
   },
@@ -2982,148 +3000,8 @@
  "counts": {
   "accepted": 98,
   "senses_written": 255,
-  "null": 244,
-  "candidate": 11,
+  "null": 238,
+  "candidate": 17,
   "rejected": 2
- },
- "run": "enrich-003-pilot",
- "when": "2026-09-04",
- "authoring": {
-  "ranker": "sense-ranker spawned BY NAME (model opus, effort high from frontmatter)",
-  "enricher": "enricher spawned BY NAME (model opus, effort high from frontmatter)",
-  "spawned_by_name": true,
-  "tool_allowlist_enforced": true,
-  "session": "native Claude Code opened on the repo folder",
-  "instrument_gate": "passed before every validator run - .claude/agents/ unchanged vs HEAD"
- },
- "reading": {
-  "reader_agent": "general-purpose+.claude/agents/entry-reader.md (model fable)",
-  "spawned_by_name": false,
-  "why_fallback": "entry-reader spawned BY NAME died instantly with \"Fable 5.1's safeguards flagged this message ... [reasoning_extraction]\". Tried first, 2026-09-04. Documented reader fallback used: rubric read verbatim from disk by a general-purpose agent on model fable. See docs/AGENTS-PORTABILITY.md.",
-  "rubric": "read verbatim from file, not paraphrased into the prompt",
-  "blind": true,
-  "entries_read": 98,
-  "coverage": "98 of 100 - dining/noun and little/adverb never cleared the enricher gate",
-  "null_auditor": null,
-  "note": "The hand that wrote is not the hand that read: opus authored, fable read."
- },
- "read_result": {
-  "entries": 98,
-  "entries_with_a_fault": 5,
-  "entry_defect_rate": 0.051,
-  "senses": 255,
-  "senses_wrong": 8,
-  "sense_defect_rate": 0.0314,
-  "rank_wrong": 0,
-  "unsure": 5,
-  "faults": {
-   "false-null": 6,
-   "example-wrong-sense": 1,
-   "false-candidate": 1
-  },
-  "stage4_baseline": 0.038,
-  "bands": [
-   {
-    "band": 1,
-    "occurrences": [
-     135,
-     35
-    ],
-    "entries": 25,
-    "senses": 70,
-    "wrong": 1,
-    "rate": 0.014
-   },
-   {
-    "band": 2,
-    "occurrences": [
-     34,
-     19
-    ],
-    "entries": 25,
-    "senses": 58,
-    "wrong": 0,
-    "rate": 0.0
-   },
-   {
-    "band": 3,
-    "occurrences": [
-     19,
-     12
-    ],
-    "entries": 24,
-    "senses": 64,
-    "wrong": 1,
-    "rate": 0.016
-   },
-   {
-    "band": 4,
-    "occurrences": [
-     12,
-     9
-    ],
-    "entries": 24,
-    "senses": 63,
-    "wrong": 6,
-    "rate": 0.095
-   }
-  ],
-  "caveat": "Band 4 is 9.5%, but 5 of its 6 faults are false-null on two words (virtue x3, elegance x2). The band effect is carried by two evaluative abstract nouns, not by thin evidence degrading the work broadly: rank_wrong is 0 in every band."
- },
- "unresolved_rejects": [
-  {
-   "sense": "dining/noun oewn-00842178-n",
-   "gloss": "the act of eating dinner",
-   "why": "two independent enricher agents both wrote the gloss near-verbatim because the gloss is already five plain words; the validator rejects gloss-verbatim learner lines"
-  },
-  {
-   "sense": "little/adverb oewn-00100552-r",
-   "gloss": "not much",
-   "why": "the gloss is two words; the validator wants 3-45. No shorter faithful rendering exists."
-  },
-  {
-   "note": "Reproducible: a fresh re-run on 2026-09-04 produced the same two rejects. A validator floor a minimal gloss cannot clear, not a rubric fault."
-  }
- ],
- "cost": {
-  "ranker_tokens": 207300,
-  "enricher_tokens": 263825,
-  "enricher_rerun_tokens": 47805,
-  "reader_tokens": 841741,
-  "total_tokens": 1360671,
-  "entries": 100,
-  "generation_tokens_per_entry": 4711,
-  "stage4_rank_plus_enrich_per_entry": 5500,
-  "control_forced_model_ranking_only_per_entry": 8094,
-  "note": "reader fallback ~72k/packet against ~24k for a by-name author packet"
- },
- "null_audit": {
-  "auditor_agent": "null-auditor spawned BY NAME (model fable, effort xhigh from frontmatter)",
-  "spawned_by_name": true,
-  "note": "By-name worked for null-auditor. entry-reader by name trips Fable's [reasoning_extraction] safeguard; null-auditor does not, though both are fable/xhigh. The safeguard is rubric-specific, not model-specific.",
-  "nulls_read": 244,
-  "false_nulls": 5,
-  "false_null_rate": 0.0205,
-  "unsure": 0,
-  "cost_tokens": 197123,
-  "cost_note": "~19.7k/packet by name, against ~72k for the reader fallback",
-  "wrong": [
-   "shame/oewn-07319716-n",
-   "virtue/oewn-04856990-n",
-   "buy/oewn-00685589-v",
-   "elegance/oewn-04819517-n",
-   "elegance/oewn-04819885-n"
-  ],
-  "vs_blind_read": {
-   "both_agree_wrong": 4,
-   "reader_only": [
-    "virtue/oewn-04854529-n",
-    "virtue/oewn-04854713-n"
-   ],
-   "auditor_only": [
-    "buy/oewn-00685589-v"
-   ],
-   "reading": "Two independent Fable readers agree on 4 of 7 candidate false-nulls. They disagree on the two general-morality senses of virtue (the auditor upheld null; the reader did not) and on buy=accept-as-true (the auditor faulted it; the reader passed it). The disagreement is about where the line sits for evaluative abstract nouns, not about whether the class exists."
-  }
  }
 }

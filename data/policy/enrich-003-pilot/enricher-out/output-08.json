@@ -1,140 +1,295 @@
-{"packet": 8, "entries": [
- {"word": "attach", "pos": "verb",
-  "senses": {
-   "oewn-02543752-v": {"learner": "to make a social or emotional tie between people.",
-                       "examples": ["Lydia had wanted only encouragement to attach herself to anybody."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01299048-v": {"learner": "to make one thing be joined or fixed to another.",
-                       "examples": ["She attached a label to each of the trunks."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01292858-v": {"learner": "to be joined or fixed to something, or to be touching it.",
-                       "examples": ["The wife of Mr. Darcy must have such extraordinary sources of happiness necessarily attached to her situation."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "apprehension", "pos": "noun",
-  "senses": {
-   "oewn-07536913-n": {"learner": "a feeling of fear about something you think is coming.",
-                       "examples": ["all her apprehension of meeting its owner returned", "the boys were relieved from their apprehension of Charlotte's dying an old maid"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05960433-n": {"learner": "the painful feeling of expecting something.",
-                       "examples": ["With the kindest concern he came on to Longbourn, and broke his apprehensions to us."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00089545-n": {"learner": "the act of catching and holding someone, especially a criminal.",
-                       "examples": ["The apprehension of the thief took the officers only a few hours."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "contempt", "pos": "noun",
-  "senses": {
-   "oewn-07518219-n": {"learner": "a feeling that someone or something deserves no respect, together with strong dislike.",
-                       "examples": ["Elizabeth was convinced that they held her in contempt for it", "cheating a person of their premeditated contempt"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06728866-n": {"learner": "disrespect for a person or thing that is shown openly.",
-                       "examples": ["the contempt shown to the rest of her family", "you can treat the mention of his misfortunes with contempt and ridicule"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04922864-n": {"learner": "a way of behaving that shows no respect for people.",
-                       "examples": ["The expression of his face changed gradually from indignant contempt to a composed and steady gravity."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "names a person's whole manner as showing no respect"}}
-  }},
- {"word": "pronounce", "pos": "verb",
-  "senses": {
-   "oewn-00973682-v": {"learner": "to state your judgment about someone or something.",
-                       "examples": ["they admired her and liked her, and pronounced her to be a sweet girl", "The Bennets were speedily pronounced to be the luckiest family in the world"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00980581-v": {"learner": "to speak or say a word or sound in a certain way.",
-                       "examples": ["As she pronounced these words, Mr. Darcy changed colour."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "assist", "pos": "verb",
-  "senses": {
-   "oewn-02553283-v": {"learner": "to give help to someone, or to be of use to them.",
-                       "examples": ["We are persuaded that he has pledged himself to assist Mr. Wickham with money.", "there are still some who are able and willing to assist him in the army"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02419840-v": {"learner": "to work under someone else, doing a supporting part of their job.",
-                       "examples": ["He assists the head gardener three days a week."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02546367-v": {"learner": "to work for someone, or to be their servant.",
-                       "examples": ["A young footman assisted the family at table for many years."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "exclaim", "pos": "verb",
-  "senses": {
-   "oewn-00914001-v": {"learner": "to say something out loud, often out of surprise, horror, or joy.",
-                       "examples": ["\"To Jane herself,\" she exclaimed, \"there could be no possibility of objection\"", "She wished to discredit it entirely, repeatedly exclaiming, \"This must be false!\""],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00979368-v": {"learner": "to state something, or to announce it.",
-                       "examples": ["He exclaimed his refusal so that the whole hall knew it."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "constant", "pos": "adjective",
-  "senses": {
-   "oewn-00597981-s": {"learner": "going on without a break and continuing for a long time with no end in sight.",
-                       "examples": ["no excellence in music is to be acquired without constant practice", "It was the prospect of constant society, and good society."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02516074-s": {"learner": "staying the same, without changing.",
-                       "examples": ["The oven holds a constant heat all through the baking."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00585590-a": {"learner": "firm and unchanging in what you aim at, or in your devotion, or in your love.",
-                       "examples": ["She was constant in her affection for him through every trouble."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "praises a person for holding firm"}}
-  }},
- {"word": "possess", "pos": "verb",
-  "senses": {
-   "oewn-02638248-v": {"learner": "to have something as a quality, a piece of knowledge, or a skill.",
-                       "examples": ["it is happy for you that you possess the talent of flattering with delicacy", "I certainly have not the talent which some people possess of conversing easily with those I have never seen before"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02209474-v": {"learner": "to own something, or to have it as yours.",
-                       "examples": ["He possesses a small house and a piece of land near the river."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02653395-v": {"learner": "to get inside a person and take control of them, as a feeling or an idea can.",
-                       "examples": ["A sudden fear possessed her, and she could not speak."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "consolation", "pos": "noun",
-  "senses": {
-   "oewn-07507795-n": {"learner": "the comfort you feel when someone eases your disappointment.",
-                       "examples": ["it will then be but poor consolation to believe the world equally in the dark", "\"An excellent consolation in its way,\" said Elizabeth"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01214157-n": {"learner": "the act of comforting someone, giving relief to a person in trouble.",
-                       "examples": ["anything could be either said or done on my part, that might offer consolation to such distress", "pour into the wounded bosoms of each other the balm of sisterly consolation"],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "note", "pos": "noun",
-  "senses": {
-   "oewn-06638793-n": {"learner": "a short letter written to a person you know.",
-                       "examples": ["the entrance of the footman with a note for Miss Bennet; it came from Netherfield", "she requested to have a note sent to Longbourn"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06516453-n": {"learner": "a few words written down to keep a record of something.",
-                       "examples": ["He kept notes of every lesson in a small book."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06878395-n": {"learner": "a written sign that shows how high a musical sound is and how long it lasts.",
-                       "examples": ["She could not yet read the notes on the page."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 8,
+ "entries": [
+  {
+   "word": "attach",
+   "pos": "verb",
+   "senses": {
+    "oewn-02543752-v": {
+     "learner": "to make a social or emotional tie between people.",
+     "examples": [
+      "Lydia had wanted only encouragement to attach herself to anybody."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01299048-v": {
+     "learner": "to make one thing be joined or fixed to another.",
+     "examples": [
+      "She attached a label to each of the trunks."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01292858-v": {
+     "learner": "to be joined or fixed to something, or to be touching it.",
+     "examples": [
+      "The wife of Mr. Darcy must have such extraordinary sources of happiness necessarily attached to her situation."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "apprehension",
+   "pos": "noun",
+   "senses": {
+    "oewn-07536913-n": {
+     "learner": "a feeling of fear about something you think is coming.",
+     "examples": [
+      "all her apprehension of meeting its owner returned",
+      "the boys were relieved from their apprehension of Charlotte's dying an old maid"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05960433-n": {
+     "learner": "the painful feeling of expecting something.",
+     "examples": [
+      "With the kindest concern he came on to Longbourn, and broke his apprehensions to us."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00089545-n": {
+     "learner": "the act of catching and holding someone, especially a criminal.",
+     "examples": [
+      "The apprehension of the thief took the officers only a few hours."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "contempt",
+   "pos": "noun",
+   "senses": {
+    "oewn-07518219-n": {
+     "learner": "a feeling that someone or something deserves no respect, together with strong dislike.",
+     "examples": [
+      "Elizabeth was convinced that they held her in contempt for it",
+      "cheating a person of their premeditated contempt"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06728866-n": {
+     "learner": "disrespect for a person or thing that is shown openly.",
+     "examples": [
+      "the contempt shown to the rest of her family",
+      "you can treat the mention of his misfortunes with contempt and ridicule"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04922864-n": {
+     "learner": "a way of behaving that shows no respect for people.",
+     "examples": [
+      "He listened with an air of lazy contempt."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "pronounce",
+   "pos": "verb",
+   "senses": {
+    "oewn-00973682-v": {
+     "learner": "to state your judgment about someone or something.",
+     "examples": [
+      "they admired her and liked her, and pronounced her to be a sweet girl",
+      "The Bennets were speedily pronounced to be the luckiest family in the world"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00980581-v": {
+     "learner": "to speak or say a word or sound in a certain way.",
+     "examples": [
+      "As she pronounced these words, Mr. Darcy changed colour."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "assist",
+   "pos": "verb",
+   "senses": {
+    "oewn-02553283-v": {
+     "learner": "to give help to someone, or to be of use to them.",
+     "examples": [
+      "We are persuaded that he has pledged himself to assist Mr. Wickham with money.",
+      "there are still some who are able and willing to assist him in the army"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02419840-v": {
+     "learner": "to work under someone else, doing a supporting part of their job.",
+     "examples": [
+      "He assists the head gardener three days a week."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02546367-v": {
+     "learner": "to work for someone, or to be their servant.",
+     "examples": [
+      "A young footman assisted the family at table for many years."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "exclaim",
+   "pos": "verb",
+   "senses": {
+    "oewn-00914001-v": {
+     "learner": "to say something out loud, often out of surprise, horror, or joy.",
+     "examples": [
+      "\"To Jane herself,\" she exclaimed, \"there could be no possibility of objection\"",
+      "She wished to discredit it entirely, repeatedly exclaiming, \"This must be false!\""
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00979368-v": {
+     "learner": "to state something, or to announce it.",
+     "examples": [
+      "He exclaimed his refusal so that the whole hall knew it."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "constant",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00597981-s": {
+     "learner": "going on without a break and continuing for a long time with no end in sight.",
+     "examples": [
+      "no excellence in music is to be acquired without constant practice",
+      "It was the prospect of constant society, and good society."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02516074-s": {
+     "learner": "staying the same, without changing.",
+     "examples": [
+      "The oven holds a constant heat all through the baking."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00585590-a": {
+     "learner": "firm and unchanging in what you aim at, or in your devotion, or in your love.",
+     "examples": [
+      "She was constant in her affection for him through every trouble."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "praises a person for holding firm"
+     }
+    }
+   }
+  },
+  {
+   "word": "possess",
+   "pos": "verb",
+   "senses": {
+    "oewn-02638248-v": {
+     "learner": "to have something as a quality, a piece of knowledge, or a skill.",
+     "examples": [
+      "it is happy for you that you possess the talent of flattering with delicacy",
+      "I certainly have not the talent which some people possess of conversing easily with those I have never seen before"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02209474-v": {
+     "learner": "to own something, or to have it as yours.",
+     "examples": [
+      "He possesses a small house and a piece of land near the river."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02653395-v": {
+     "learner": "to get inside a person and take control of them, as a feeling or an idea can.",
+     "examples": [
+      "A sudden fear possessed her, and she could not speak."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "consolation",
+   "pos": "noun",
+   "senses": {
+    "oewn-07507795-n": {
+     "learner": "the comfort you feel when someone eases your disappointment.",
+     "examples": [
+      "it will then be but poor consolation to believe the world equally in the dark",
+      "\"An excellent consolation in its way,\" said Elizabeth"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01214157-n": {
+     "learner": "the act of comforting someone, giving relief to a person in trouble.",
+     "examples": [
+      "anything could be either said or done on my part, that might offer consolation to such distress",
+      "pour into the wounded bosoms of each other the balm of sisterly consolation"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "note",
+   "pos": "noun",
+   "senses": {
+    "oewn-06638793-n": {
+     "learner": "a short letter written to a person you know.",
+     "examples": [
+      "the entrance of the footman with a note for Miss Bennet; it came from Netherfield",
+      "she requested to have a note sent to Longbourn"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06516453-n": {
+     "learner": "a few words written down to keep a record of something.",
+     "examples": [
+      "He kept notes of every lesson in a small book."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06878395-n": {
+     "learner": "a written sign that shows how high a musical sound is and how long it lasts.",
+     "examples": [
+      "She could not yet read the notes on the page."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

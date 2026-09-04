@@ -1,0 +1,234 @@
+{
+ "packet": 1,
+ "senses": [
+  {
+   "word": "hope",
+   "pos": "verb",
+   "synset": "oewn-00707813-v",
+   "gloss": "intend with some possibility of fulfilment",
+   "sentences": [
+    "Take almost any Frenchman, except the late M. de Maupassant, and watch him laboriously piling up strokes in the hope of giving a complete impression.",
+    "\"I hope, my dear,\" said Mr. Bennet to his wife, as they were at breakfast the next morning, \"that you have ordered a good dinner to-day, because I have reason to expect an addition to our family party.\"",
+    "Jane had sent Caroline an early answer to her letter, and was counting the days till she might reasonably hope to hear again.",
+    "He had by that time reached it also; and, holding out a letter, which she instinctively took, said, with a look of haughty composure, \"I have been walking in the grove some time, in the hope of meeting you.",
+    "He believed him to be imprudent and extravagant; and since this sad affair has taken place, it is said that he left Meryton greatly in debt: but I hope this may be false.\"",
+    "In future, I hope we shall be always of one mind.\""
+   ],
+   "current": {
+    "learner": "to mean to do something that you may well be able to do.",
+    "examples": [
+     "was counting the days till she might reasonably hope to hear again"
+    ],
+    "usage_labels": [],
+    "connotation": null
+   },
+   "fault": "example-wrong-sense",
+   "reader_said": "The learner line is faithful, but 'she might reasonably hope to hear again' is Jane wishing and expecting a letter she cannot intend to receive, so the example is the expect-and-wish sense, not intend-with-some-possibility-of-fulfilment.",
+   "auditor_said": null
+  },
+  {
+   "word": "contempt",
+   "pos": "noun",
+   "synset": "oewn-04922864-n",
+   "gloss": "a manner that is generally disrespectful and contemptuous",
+   "sentences": [
+    "And she lets the injury done to Jane and the contempt shown to the rest of her family aggravate this resentment in the healthiest way in the world.",
+    "That she should have walked three miles so early in the day in such dirty weather, and by herself, was almost incredible to Mrs. Hurst and Miss Bingley; and Elizabeth was convinced that they held her in contempt for it.",
+    "You wanted me, I know, to say 'Yes,' that you might have the pleasure of despising my taste; but I always delight in overthrowing those kind of schemes, and cheating a person of their premeditated contempt.",
+    "The expression of his face changed gradually from indignant contempt to a composed and steady gravity.",
+    "The idea of his returning no more Elizabeth treated with the utmost contempt.",
+    "and yet you can treat the mention of his misfortunes with contempt and ridicule.\""
+   ],
+   "current": {
+    "learner": "a way of behaving that shows no respect for people.",
+    "examples": [
+     "The expression of his face changed gradually from indignant contempt to a composed and steady gravity."
+    ],
+    "usage_labels": [],
+    "connotation": {
+     "candidate": true,
+     "why": "names a person's whole manner as showing no respect"
+    }
+   },
+   "fault": "false-candidate",
+   "reader_said": "The word in the manner sense describes a way of behaving exactly as it does in the feeling and open-disrespect senses that were rightly left null; a contemptuous manner is a bad referent, not a loaded word, and the sole example (an expression that changes in a moment) reads as the feeling shown rather than a general manner.",
+   "auditor_said": null
+  },
+  {
+   "word": "shame",
+   "pos": "noun",
+   "synset": "oewn-07319716-n",
+   "gloss": "an unfortunate development",
+   "sentences": [
+    "I shall tell Colonel Forster it will be quite a shame if he does not.\"",
+    "Mr. Collins, awkward and solemn, apologizing instead of attending, and often moving wrong without being aware of it, gave her all the shame and misery which a disagreeable partner for a couple of dances can give.",
+    "With amazement did she first understand that he believed any apology to be in his power; and steadfastly was she persuaded, that he could have no explanation to give, which a just sense of shame would not conceal.",
+    "Elizabeth tried to be diverted by them; but all sense of pleasure was lost in shame.",
+    "She was overpowered by shame and vexation.",
+    "She was more alive to the disgrace, which her want of new clothes must reflect on her daughter's nuptials, than to any sense of shame at her eloping and living with Wickham a fortnight before they took place."
+   ],
+   "current": {
+    "learner": "something that has turned out badly",
+    "examples": [
+     "I shall tell Colonel Forster it will be quite a shame if he does not."
+    ],
+    "usage_labels": [],
+    "connotation": null
+   },
+   "fault": "false-null",
+   "reader_said": "'It will be quite a shame if he does not' names no fact about the event but only the speaker's regret at it, so the word in this sense judges the thing it is aimed at as regrettable and a learner needs to know it lands as sympathetic regret, not rebuke.",
+   "auditor_said": "In 'it will be quite a shame if he does not' the word is the speaker's own sympathetic regret - informal, gentle disappointment, never disgrace or reproach - which a learner who knows only the guilt sense will misread."
+  },
+  {
+   "word": "virtue",
+   "pos": "noun",
+   "synset": "oewn-04854529-n",
+   "gloss": "the quality of doing what is right and avoiding what is wrong",
+   "sentences": [
+    "It has connected him nearer with virtue than any other feeling.",
+    "She had heard nothing of Lady Catherine that spoke her awful from any extraordinary talents or miraculous virtue, and the mere stateliness of money and rank she thought she could witness without trepidation.",
+    "His countenance, voice, and manner, had established him at once in the possession of every virtue.",
+    "But he is a liberal master, I suppose, and that, in the eye of a servant, comprehends every virtue.\"",
+    "\"It does seem, and it is most shocking, indeed,\" replied Elizabeth, with tears in her eyes, \"that a sister's sense of decency and virtue in such a point should admit of doubt.",
+    "But how little of permanent happiness could belong to a couple who were only brought together because their passions were stronger than their virtue, she could easily conjecture."
+   ],
+   "current": {
+    "learner": "the quality of doing what is right and keeping away from what is wrong",
+    "examples": [
+     "It has connected him nearer with virtue than any other feeling."
+    ],
+    "usage_labels": [],
+    "connotation": null
+   },
+   "fault": "false-null",
+   "reader_said": "The learner line and example are faithful, but 'the quality of doing what is right' is a moral appraisal rather than an observable fact, so saying someone has virtue plainly approves of them and a learner needs to know it lands as praise.",
+   "auditor_said": null
+  },
+  {
+   "word": "virtue",
+   "pos": "noun",
+   "synset": "oewn-04856990-n",
+   "gloss": "morality with respect to sexual relations",
+   "sentences": [
+    "It has connected him nearer with virtue than any other feeling.",
+    "She had heard nothing of Lady Catherine that spoke her awful from any extraordinary talents or miraculous virtue, and the mere stateliness of money and rank she thought she could witness without trepidation.",
+    "His countenance, voice, and manner, had established him at once in the possession of every virtue.",
+    "But he is a liberal master, I suppose, and that, in the eye of a servant, comprehends every virtue.\"",
+    "\"It does seem, and it is most shocking, indeed,\" replied Elizabeth, with tears in her eyes, \"that a sister's sense of decency and virtue in such a point should admit of doubt.",
+    "But how little of permanent happiness could belong to a couple who were only brought together because their passions were stronger than their virtue, she could easily conjecture."
+   ],
+   "current": {
+    "learner": "right conduct in matters of sex",
+    "examples": [
+     "a sister's sense of decency and virtue in such a point should admit of doubt",
+     "how little of permanent happiness could belong to a couple who were only brought together because their passions were stronger than their virtue"
+    ],
+    "usage_labels": [],
+    "connotation": null
+   },
+   "fault": "false-null",
+   "reader_said": "The learner line and both examples are faithful to the sexual-morality sense, but calling chastity 'virtue' endorses it and the word in this sense is an approving, dated and somewhat euphemistic name for it, which a learner needs to know.",
+   "auditor_said": "Moralising and gendered: applied almost only to women, it equates chastity with a person's whole goodness and makes its loss a fall ('a sister's sense of decency and virtue'), a euphemistic frame a learner must not use innocently."
+  },
+  {
+   "word": "virtue",
+   "pos": "noun",
+   "synset": "oewn-04854713-n",
+   "gloss": "a particular moral excellence",
+   "sentences": [
+    "It has connected him nearer with virtue than any other feeling.",
+    "She had heard nothing of Lady Catherine that spoke her awful from any extraordinary talents or miraculous virtue, and the mere stateliness of money and rank she thought she could witness without trepidation.",
+    "His countenance, voice, and manner, had established him at once in the possession of every virtue.",
+    "But he is a liberal master, I suppose, and that, in the eye of a servant, comprehends every virtue.\"",
+    "\"It does seem, and it is most shocking, indeed,\" replied Elizabeth, with tears in her eyes, \"that a sister's sense of decency and virtue in such a point should admit of doubt.",
+    "But how little of permanent happiness could belong to a couple who were only brought together because their passions were stronger than their virtue, she could easily conjecture."
+   ],
+   "current": {
+    "learner": "one particular good quality of character",
+    "examples": [
+     "His countenance, voice, and manner, had established him at once in the possession of every virtue."
+    ],
+    "usage_labels": [],
+    "connotation": null
+   },
+   "fault": "false-null",
+   "reader_said": "The learner line and example are faithful, but 'a particular moral excellence' is by its nature a quality the speaker praises, so 'every virtue' plainly judges its possessor favourably.",
+   "auditor_said": null
+  },
+  {
+   "word": "elegance",
+   "pos": "noun",
+   "synset": "oewn-04819517-n",
+   "gloss": "a refined quality of gracefulness and good taste",
+   "sentences": [
+    "I never saw such capacity, and taste, and application, and elegance, as you describe, united.\"",
+    "\"I do assure you, sir, that I have no pretensions whatever to that kind of elegance which consists in tormenting a respectable man.",
+    "Lady Catherine is far from requiring that elegance of dress in us which becomes herself and daughter.",
+    "\"This is a parade,\" cried he, \"which does one good; it gives such an elegance to misfortune!"
+   ],
+   "current": {
+    "learner": "a polished quality of being graceful and having good taste",
+    "examples": [
+     "Lady Catherine is far from requiring that elegance of dress in us which becomes herself and daughter.",
+     "I never saw such capacity, and taste, and application, and elegance, as you describe, united."
+    ],
+    "usage_labels": [],
+    "connotation": null
+   },
+   "fault": "false-null",
+   "reader_said": "Learner line and examples are faithful, but elegance in this sense is praise of its object, which the ironic sentences (elegance which consists in tormenting a respectable man) rely on, so a learner needs to know how it lands.",
+   "auditor_said": "A compliment word: to call something elegant is to approve of its taste, which is why Mr. Bennet's 'such an elegance to misfortune' works as irony; approving."
+  },
+  {
+   "word": "elegance",
+   "pos": "noun",
+   "synset": "oewn-04819885-n",
+   "gloss": "a quality of neatness and ingenious simplicity in the solution of a problem (especially in science or mathematics)",
+   "sentences": [
+    "I never saw such capacity, and taste, and application, and elegance, as you describe, united.\"",
+    "\"I do assure you, sir, that I have no pretensions whatever to that kind of elegance which consists in tormenting a respectable man.",
+    "Lady Catherine is far from requiring that elegance of dress in us which becomes herself and daughter.",
+    "\"This is a parade,\" cried he, \"which does one good; it gives such an elegance to misfortune!"
+   ],
+   "current": {
+    "learner": "the quality of a way of solving a problem that is neat and cleverly simple",
+    "examples": [
+     "The elegance of her proof lay in its three short lines."
+    ],
+    "usage_labels": [],
+    "connotation": null
+   },
+   "fault": "false-null",
+   "reader_said": "Learner line and example are faithful, but calling a solution elegant is approval of it, not a neutral description.",
+   "auditor_said": "In science and mathematics an 'elegant' solution is high praise, not a neutral description of its shape; admiring."
+  },
+  {
+   "word": "buy",
+   "pos": "verb",
+   "synset": "oewn-00685589-v",
+   "gloss": "accept as true",
+   "sentences": [
+    "\"And then you have added so much to it yourself--you are always buying books.\"",
+    "\"With all my heart: I will buy Pemberley itself, if Darcy will sell it.\"",
+    "Then showing her purchases,--\"Look here, I have bought this bonnet.",
+    "I do not think it is very pretty; but I thought I might as well buy it as not.",
+    "And as for wedding clothes, do not let them wait for that, but tell Lydia she shall have as much money as she chooses to buy them, after they are married.",
+    "A long dispute followed this declaration; but Mr. Bennet was firm: it soon led to another; and Mrs. Bennet found, with amazement and horror, that her husband would not advance a guinea to buy clothes for his daughter."
+   ],
+   "current": {
+    "learner": "to accept that something is true",
+    "examples": [
+     "He says the delay was the weather's fault, but I don't buy that."
+    ],
+    "usage_labels": [
+     "informal"
+    ],
+    "connotation": null
+   },
+   "fault": "false-null",
+   "reader_said": null,
+   "auditor_said": "Chosen over 'believe' it casts the claim as a sales pitch and its believer as a possible dupe ('she bought his story'); sceptical, faintly dismissive of what is accepted."
+  }
+ ],
+ "rankings": []
+}

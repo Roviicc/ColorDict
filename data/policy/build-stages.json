@@ -172,9 +172,9 @@
      "n": 5,
      "step": "Pilot: third-hand repair + blind re-read",
      "owner": "manager (repair) / shawn (re-read)",
-     "state": "not_started",
+     "state": "in_progress",
      "commit": null,
-     "note": "the manager authored the pilot and has seen every enricher rationale, so it cannot read these blind"
+     "note": "repair landed 2026-09-04: 9 senses / 6 entries (union of the blind read's 8 and the null audit's 5). 7 false-nulls -> candidate, 1 false candidate -> null, 1 example replaced. Validator unchanged at 98/2, 255 senses, nulls 244 -> 238, candidates 11 -> 17. repair-read-packets/input-01.json (6 entries, 17 senses) is cut and waiting on shawn's blind re-read."
     },
     {
      "n": 6,
