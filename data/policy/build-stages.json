@@ -338,20 +338,23 @@
      "n": 5,
      "step": "family_merge -> tone_lint -> family_apply -> dict_pipeline --no-build",
      "owner": "manager",
-     "state": "in_progress",
-     "note": "family_merge and tone_lint done. family_apply stops on three families whose members all sit at one charge - goal/end (10 senses, all 0), fib/story (2, both -1), secrecy/silence (3, all 0) - because build_spectrum needs two distinct points. Not a fault: the charge gate admitted only families >=70% charged, a book-drawn candidate passes through no such filter, so a family carrying force and register but no approval gradient is now something that can happen, and the applier has never met one. The authors were right to refuse a quota. Open: emit these senses with no spectrum key (dict_build.py:212 already guards for it; costs one line in dict_validate.py:418, which currently requires the key rather than checking it when present), or hold the three families and lose 15 authored senses. Awaiting the call."
+     "state": "done",
+     "note": "family_merge 87+6 families whole; tone_lint 8/543 = 1%; family_apply after three fixes - no spectrum for a family with one distinct charge, skipped members excluded from the spectrum (brother was shipping as the friend family's mild anchor), and the 28-sense family/Enricher collision adjudicated blind by the null-auditor at 26 null-right / 2 null-wrong. dict_pipeline --no-build: 4,223 entries, 0 errors, 6,597 warnings, all accounted.",
+     "commit": "b6a783c"
     },
     {
      "n": 6,
      "step": "Census 012: stratified read, pre-registered in census-012.json - candidate arm by POS + adjective control arm; 5% per stratum",
      "owner": "shawn",
-     "state": "not_started"
+     "state": "done",
+     "note": "Census 012, complete read of both arms as 007-011 were, 543 senses in 20 packets, population sorted by family so a reader sees siblings together. 539 right, 4 wrong, 0 unsure = 0.7% blended. Per stratum: candidate/noun 3/323 = 0.9%, candidate/verb 0/74, candidate/adjective 1/61 = 1.6%, control/adjective 0/85. No stratum over the 5% gate; strata_over_threshold empty. The composition effect the pre-registration predicted (1.82% -> ~3.2%) did not appear. See census-012-results.json caveats: the rate is on the 543 that survived the collision audit's filter, and the control arm's 0/85 is consistent with 1.82%, not evidence of improvement. Four faults go to the repairer: haste (example belongs to another sense), ultra (note and charge contradict), scheme (wrong-charge), dame (gloss-mismatch - the note describes the slang sense, on a family of five words printing under one identical gloss).",
+     "commit": "pending"
     },
     {
      "n": 7,
      "step": "First third-hand repair pass under repairer.md",
      "owner": "repairer",
-     "state": "not_started"
+     "state": "ready"
     },
     {
      "n": 8,

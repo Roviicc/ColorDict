@@ -1,0 +1,366 @@
+{
+ "packet": 15,
+ "count": 28,
+ "entries": [
+  {
+   "id": "example.oewn-05828980-n",
+   "word": "example",
+   "definition": "an item of information that is typical of a class or group",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain unmarked word for a typical item, carrying neither the explanatory duty of *illustration* nor the scrutiny of *specimen*.",
+   "usage_labels": [],
+   "examples": [
+    "this patient provides a typical example of the syndrome",
+    "there is an example on page 10"
+   ]
+  },
+  {
+   "id": "exception.oewn-05829606-n",
+   "word": "exception",
+   "definition": "an instance that does not conform to a rule or generalization",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Positional rather than evaluative - the instance is defined by not fitting the rule, and the word passes no judgement on it for that.",
+   "usage_labels": [],
+   "examples": [
+    "all her children were brilliant; the only exception was her last child",
+    "an exception tests the rule"
+   ]
+  },
+  {
+   "id": "excuse.oewn-05829462-n",
+   "word": "excuse",
+   "definition": "a poor example",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Flatly dismissive - the thing is put forward as an example and judged to fall short of being one.",
+   "usage_labels": [],
+   "examples": [
+    "a poor excuse for an automobile",
+    "That leaking shed is a poor excuse for a house."
+   ]
+  },
+  {
+   "id": "illustration.oewn-05828980-n",
+   "word": "illustration",
+   "definition": "an item of information that is typical of a class or group",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Neutral, and the instance is offered to make the class visible - explanatory work that *instance* makes no claim to.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "instance.oewn-05828980-n",
+   "word": "instance",
+   "definition": "an item of information that is typical of a class or group",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The barest of the neutral terms - one case counted off, with none of the demonstrative purpose of *illustration*.",
+   "usage_labels": [],
+   "examples": [
+    "About the court, such instances of elegant breeding are not uncommon.",
+    "a wonderful instance of advice being given on such a point without being resented"
+   ]
+  },
+  {
+   "id": "precedent.oewn-05829846-n",
+   "word": "precedent",
+   "definition": "an example that is used to justify similar occurrences at a later time",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Gives the instance forward reach - an example that licenses what comes after it rather than just typifying a group.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "specimen.oewn-05830599-n",
+   "word": "specimen",
+   "definition": "an example regarded as typical of its class",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Clinical - the instance is held up and inspected as a stand-in for its class, where *example* merely names it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "fillip.oewn-05837980-n",
+   "word": "fillip",
+   "definition": "anything that tends to arouse",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Brisk and slightly formal, it names a thing purely by its power to rouse, carrying none of the happiness built into *delight*.",
+   "usage_labels": [],
+   "examples": [
+    "his approval was an added fillip"
+   ]
+  },
+  {
+   "id": "joy.oewn-05838106-n",
+   "word": "joy",
+   "definition": "something or someone that provides a source of happiness",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The fullest of these — the person or thing is named for the depth of happiness it supplies, not for being merely agreeable like *pleasure*.",
+   "usage_labels": [],
+   "examples": [
+    "a joy to behold",
+    "The garden was a joy to everyone who saw it."
+   ]
+  },
+  {
+   "id": "bubble.oewn-05904986-n",
+   "word": "bubble",
+   "definition": "an impracticable and illusory idea",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Adds unworkability to falseness — the idea is not only illusory but could never be carried out, and the word keeps the burst inside it.",
+   "usage_labels": [],
+   "examples": [
+    "he didn't want to burst the newcomer's bubble"
+   ]
+  },
+  {
+   "id": "fancy.oewn-05904666-n",
+   "word": "fancy",
+   "definition": "something many people believe that is false",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The gentlest way to call a widely held belief false, treating the error as a passing notion rather than an indictment of anyone holding it.",
+   "usage_labels": [],
+   "examples": [
+    "The notion that lightning never strikes the same place twice is an old fancy."
+   ]
+  },
+  {
+   "id": "fantasy.oewn-05904666-n",
+   "word": "fantasy",
+   "definition": "something many people believe that is false",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Sharper than *fancy*: the false belief is cast as something wished into being, so holding it looks like self-indulgence rather than a slip.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "play.oewn-00558625-n",
+   "word": "play",
+   "definition": "a preset plan of action in team sports",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely technical - a single move settled in advance and belonging to the team's game, passing no verdict on whether the plan is any good.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "policy.oewn-05910115-n",
+   "word": "policy",
+   "definition": "a plan of action adopted by an individual or social group",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Adoption is what it adds - the plan has been taken up and stands as the settled course of whoever holds it, one person as readily as a whole social group.",
+   "usage_labels": [],
+   "examples": [
+    "it was a policy of retribution"
+   ]
+  },
+  {
+   "id": "scheme.oewn-05913942-n",
+   "word": "scheme",
+   "definition": "an elaborate and systematic plan of action",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The elaborateness is the point and also the catch: a plan worked out in enough system and detail that the working-out itself draws notice, where *system* names only the method.",
+   "usage_labels": [],
+   "examples": [
+    "A scheme of which every part promises delight can never be successful",
+    "It would be such a delicious scheme, and I dare say would hardly cost anything at all."
+   ]
+  },
+  {
+   "id": "system.oewn-05911466-n",
+   "word": "system",
+   "definition": "a procedure or process for obtaining an objective",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flattest member, a procedure or process identified only by the objective it is meant to obtain, with none of *scheme*'s insistence on intricacy.",
+   "usage_labels": [],
+   "examples": [
+    "they had to devise a system that did not depend on cooperation"
+   ]
+  },
+  {
+   "id": "belief.oewn-05925333-n",
+   "word": "belief",
+   "definition": "a vague idea in which some confidence is placed",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The firmest of these, treating the vague idea as accepted rather than merely entertained, so the confidence carries further than in *feeling*.",
+   "usage_labels": [],
+   "examples": [
+    "it strengthened my belief in his sincerity",
+    "She had a belief that the weather would turn, though she could not have said why."
+   ]
+  },
+  {
+   "id": "effect.oewn-05926071-n",
+   "word": "effect",
+   "definition": "an impression (especially one that is artificial or contrived)",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Faintly disparaging: the impression treated as manufactured, something staged to be taken a certain way rather than one that simply arose.",
+   "usage_labels": [],
+   "examples": [
+    "he just did it for effect",
+    "He paused for effect before he said the name."
+   ]
+  },
+  {
+   "id": "feeling.oewn-05925333-n",
+   "word": "feeling",
+   "definition": "a vague idea in which some confidence is placed",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The softest of these, holding the vague idea as sensation and claiming no grounds for it, where *belief* claims firmness.",
+   "usage_labels": [],
+   "examples": [
+    "I had a feeling that she was lying",
+    "I have a feeling that it will rain before evening.",
+    "She had a feeling the shop would be shut."
+   ]
+  },
+  {
+   "id": "hunch.oewn-05927628-n",
+   "word": "hunch",
+   "definition": "an impression that something might be the case",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Informal and unpretentious, owning the guess as a guess and claiming none of the insight *intuition* claims.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "impression.oewn-05925333-n",
+   "word": "impression",
+   "definition": "a vague idea in which some confidence is placed",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plainest word here, naming the idea as something received without judging how well it stands up.",
+   "usage_labels": [],
+   "examples": [
+    "his impression of her was favorable",
+    "I had an impression that the two of them had met before, though neither of them said so."
+   ]
+  },
+  {
+   "id": "intuition.oewn-05927628-n",
+   "word": "intuition",
+   "definition": "an impression that something might be the case",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Dignifies the guess, crediting it as a kind of knowing rather than a stab in the dark.",
+   "usage_labels": [],
+   "examples": [
+    "he had an intuition that something had gone wrong"
+   ]
+  },
+  {
+   "id": "opinion.oewn-05925333-n",
+   "word": "opinion",
+   "definition": "a vague idea in which some confidence is placed",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Dresses the same vague idea as a position one would state and stand behind, more assertive than *impression* though no better founded.",
+   "usage_labels": [],
+   "examples": [
+    "to adopt any opinions that came in her way"
+   ]
+  },
+  {
+   "id": "presence.oewn-05925768-n",
+   "word": "presence",
+   "definition": "the impression that something is present",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Neutral and bodily, naming not a guess about how things are but the sense that something is there.",
+   "usage_labels": [],
+   "examples": [
+    "he felt the presence of an evil force"
+   ]
+  },
+  {
+   "id": "aim.oewn-05991037-n",
+   "word": "aim",
+   "definition": "an anticipated outcome that is intended or that guides your planned actions",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The lightest and most directional of these: it points at the outcome without the justifying weight *purpose* carries.",
+   "usage_labels": [],
+   "examples": [
+    "it was created with the conscious aim of answering immediate needs"
+   ]
+  },
+  {
+   "id": "design.oewn-05991037-n",
+   "word": "design",
+   "definition": "an anticipated outcome that is intended or that guides your planned actions",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Makes the intended outcome sound worked out in advance, a shape already settled on rather than the bare wish *intention* names.",
+   "usage_labels": [],
+   "examples": [
+    "\"Is that his design in settling here?\"",
+    "coming into Hertfordshire with the design of selecting a wife"
+   ]
+  },
+  {
+   "id": "destination.oewn-05990653-n",
+   "word": "destination",
+   "definition": "the ultimate goal for which something is done",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Sets the outcome as the ultimate one, the point everything else is serving, and carries the figure of a journey's end that *object* does not.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "end.oewn-05989760-n",
+   "word": "end",
+   "definition": "the state of affairs that a plan is intended to achieve and that (when achieved) terminates behavior intended to achieve it",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Abstract and cool, naming the outcome as the terminus at which the behaviour stops, where *goal* names the same thing as something worked toward.",
+   "usage_labels": [],
+   "examples": []
+  }
+ ]
+}

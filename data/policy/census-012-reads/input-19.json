@@ -1,0 +1,337 @@
+{
+ "packet": 19,
+ "count": 28,
+ "entries": [
+  {
+   "id": "intimate.oewn-09974118-n",
+   "word": "intimate",
+   "definition": "someone to whom private matters are confided",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Defines the friend entirely by what may be told them, making closeness a matter of trusted secrets rather than time spent together as in *companion*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "light.oewn-10296356-n",
+   "word": "light",
+   "definition": "a person regarded very fondly",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Pure fondness raised as high as the family goes, prizing the person without saying anything about trust or shared company.",
+   "usage_labels": [],
+   "examples": [
+    "the light of my life"
+   ]
+  },
+  {
+   "id": "mate.oewn-10319821-n",
+   "word": "mate",
+   "definition": "informal term for a friend of the same sex",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal and easy, and it specifies a friend of the same sex where *friend* leaves that unsaid.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "fellow.oewn-10103295-n",
+   "word": "fellow",
+   "definition": "a member of a learned society",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Membership as conferred standing — a learned society's name for one of its own, where *member* would only note that someone belongs.",
+   "usage_labels": [],
+   "examples": [
+    "he was elected a fellow of the American Physiological Association"
+   ]
+  },
+  {
+   "id": "member.oewn-10326901-n",
+   "word": "member",
+   "definition": "one of the persons who compose a social group (especially individuals who have joined and participate in a group organization)",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flat term for one of the people a group is composed of, joining and taking part included but no warmth or rank added.",
+   "usage_labels": [],
+   "examples": [
+    "a member of the faculty"
+   ]
+  },
+  {
+   "id": "pledge.oewn-10460984-n",
+   "word": "pledge",
+   "definition": "someone accepted for membership but not yet fully admitted to the group",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Names a person by an admission still unfinished, accepted but held short of the settled standing *member* assumes.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sister.oewn-10621666-n",
+   "word": "sister",
+   "definition": "a female person who is a fellow member of a sorority or labor union or other group",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Turns fellow membership of a sorority, a union or any other group into a family tie between women, warmer than the bare enrolment *member* records.",
+   "usage_labels": [],
+   "examples": [
+    "At the meeting she thanked her union sisters for their support."
+   ]
+  },
+  {
+   "id": "concubine.oewn-09971872-n",
+   "word": "concubine",
+   "definition": "a woman who cohabits with an important man",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "A term of position rather than accusation: it fixes a woman by the household she shares and the standing of the man in it, saying nothing about marriage being broken.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "mistress.oewn-10343410-n",
+   "word": "mistress",
+   "definition": "an adulterous woman; a woman who has an ongoing extramarital sexual relationship with a man",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The censure is inside the definition rather than added by the speaker, since the word names the relationship as adulterous and ongoing; where *concubine* marks a living arrangement, this marks a breach.",
+   "usage_labels": [],
+   "examples": [
+    "He kept a mistress in town for years while his wife stayed in the country."
+   ]
+  },
+  {
+   "id": "granny.oewn-10163050-n",
+   "word": "granny",
+   "definition": "an old woman",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "A diminutive fastened to any old woman at all, grandmother or not - familiar where *mother* is deferential, and it shrinks her to her age.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "hag.oewn-10175045-n",
+   "word": "hag",
+   "definition": "an ugly evil-looking old woman",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Repulsion with nothing added: the same ugly, evil-looking figure as *witch* but stripped of any power, so it jeers where *witch* recoils.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "mother.oewn-10352666-n",
+   "word": "mother",
+   "definition": "a term of address for an elderly woman",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "A way of speaking to an old woman rather than a way of describing her, and it lends her the standing of kin in the act of addressing her.",
+   "usage_labels": [],
+   "examples": [
+    "The soldier took the old woman's basket at the gate and said, \"Let me carry this for you, Mother.\""
+   ]
+  },
+  {
+   "id": "witch.oewn-10175045-n",
+   "word": "witch",
+   "definition": "an ugly evil-looking old woman",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Puts menace behind the ugliness - she does not just look evil, she looks capable of it, which is the charge *hag* leaves off.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "bondsman.oewn-09884297-n",
+   "word": "bondsman",
+   "definition": "a male slave",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and legal in cast, naming the same owned condition as *slave* but of a man specifically, and at a cooler distance.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "creature.oewn-09996081-n",
+   "word": "creature",
+   "definition": "a person who is controlled by others and is used to perform unpleasant or dishonest tasks for someone else",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Damns the person themselves as something another has made and can direct at whatever unpleasant or dishonest work is wanted, where *tool* damns only their usefulness.",
+   "usage_labels": [],
+   "examples": [
+    "He was no free man in that office, only a creature of the duke."
+   ]
+  },
+  {
+   "id": "puppet.oewn-09996081-n",
+   "word": "puppet",
+   "definition": "a person who is controlled by others and is used to perform unpleasant or dishonest tasks for someone else",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Contemptuous with a note of ridicule — the person moves and acts, but the strings and the dishonesty behind the act belong to whoever works them.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "slave.oewn-10628841-n",
+   "word": "slave",
+   "definition": "a person who is owned by someone",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Drops the metaphor that *puppet* and *tool* run on and states ownership flatly, which is what makes it the heaviest word here.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "tool.oewn-09996081-n",
+   "word": "tool",
+   "definition": "a person who is controlled by others and is used to perform unpleasant or dishonest tasks for someone else",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The coldest of the three: the person is an implement taken up for the dirty or merely unpleasant jobs, valued for nothing but being handled.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "alien.oewn-10680441-n",
+   "word": "alien",
+   "definition": "anyone who does not belong in the environment in which they are found",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Hardens the same non-belonging into strangeness of kind - where *stranger* says merely unknown here, this makes the person incompatible with the surroundings.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "stranger.oewn-10680441-n",
+   "word": "stranger",
+   "definition": "anyone who does not belong in the environment in which they are found",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and unjudging - it records only that the person is not of this place, and leaves open that they might belong somewhere else just as ordinarily.",
+   "usage_labels": [],
+   "examples": [
+    "After ten years in the village he was still treated as a stranger."
+   ]
+  },
+  {
+   "id": "affair.oewn-13954922-n",
+   "word": "affair",
+   "definition": "a usually secretive or illicit sexual relationship",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The blunt name for the thing, stating the secrecy or the illicitness plainly where *intimacy* muffles it.",
+   "usage_labels": [],
+   "examples": [
+    "He kept the affair hidden from his wife for years."
+   ]
+  },
+  {
+   "id": "amour.oewn-13954922-n",
+   "word": "amour",
+   "definition": "a usually secretive or illicit sexual relationship",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Lends the secretive or illicit tie a romantic, faintly literary glamour that *affair* denies it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "intimacy.oewn-13954922-n",
+   "word": "intimacy",
+   "definition": "a usually secretive or illicit sexual relationship",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Names the same secretive or illicit tie by its closeness alone, a soft covering over what *affair* says outright.",
+   "usage_labels": [],
+   "examples": [
+    "Their intimacy was discovered, and both families were disgraced."
+   ]
+  },
+  {
+   "id": "annoyance.oewn-14429977-n",
+   "word": "annoyance",
+   "definition": "the psychological state of being irritated or annoyed",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The lightest way to say it, the state at everyday strength without the weight *vexation* adds.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "huff.oewn-14430474-n",
+   "word": "huff",
+   "definition": "a state of irritation or annoyance",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal and faintly belittling — a state one is *in*, flared and conspicuous, next to the settled condition *vexation* describes.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "impatience.oewn-14430687-n",
+   "word": "impatience",
+   "definition": "a lack of patience; irritation with anything that causes delay",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the state by what it lacks, and pins the irritation to one cause — anything that makes you wait.",
+   "usage_labels": [],
+   "examples": [
+    "I shall not sport with your impatience by reading what he says on that point.",
+    "Her impatience for this second letter was as well rewarded as impatience generally is."
+   ]
+  },
+  {
+   "id": "irritation.oewn-14429977-n",
+   "word": "irritation",
+   "definition": "the psychological state of being irritated or annoyed",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain name for the state, carrying no verdict on whether it is deserved.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "restlessness.oewn-14430687-n",
+   "word": "restlessness",
+   "definition": "a lack of patience; irritation with anything that causes delay",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The same shortage of patience heard as agitation that will not settle under delay, where *impatience* hears a demand that things move.",
+   "usage_labels": [],
+   "examples": []
+  }
+ ]
+}

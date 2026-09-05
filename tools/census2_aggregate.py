@@ -30,8 +30,12 @@ Usage:
 
 import argparse
 import json
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from family_apply import slug  # noqa: E402  the one rule that mints a sense id
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -198,7 +202,13 @@ def main():
         sheet = json.loads(Path(path).read_text(encoding="utf-8"))
         for fam in sheet.get("families", []):
             for m in fam.get("members", []):
-                arm_of[f"{m['word'].replace(' ', '_')}.{m['synset']}"] = name
+                # slug() is the rule the rest of the pipeline mints ids with: it
+                # lowercases and drops apostrophes as well as spacing words. A
+                # local near-copy silently dropped *ma'am* out of its arm in
+                # census 012, and would have done the same to any capitalised or
+                # apostrophed word - a sense missing from a stratum the gate is
+                # judged on, reported as "no arm" rather than as the bug it was.
+                arm_of[f"{slug(m['word'])}.{m['synset']}"] = name
 
     tally = Counter()
     faults = Counter()

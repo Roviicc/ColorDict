@@ -1,0 +1,358 @@
+{
+ "packet": 5,
+ "count": 28,
+ "entries": [
+  {
+   "id": "peppy.oewn-00808879-s",
+   "word": "peppy",
+   "definition": "marked by lively action",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal and brisk — lively action as a snap of energy, with none of the dignity *spirited* carries.",
+   "usage_labels": [],
+   "examples": [
+    "the peppy and interesting talk"
+   ]
+  },
+  {
+   "id": "scintillating.oewn-00809380-s",
+   "word": "scintillating",
+   "definition": "marked by high spirits or excitement",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The brightest of the set — high spirits or excitement that flash and dazzle rather than merely bubble.",
+   "usage_labels": [],
+   "examples": [
+    "scintillating personality"
+   ]
+  },
+  {
+   "id": "sparkly.oewn-00809380-s",
+   "word": "sparkly",
+   "definition": "marked by high spirits or excitement",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same flash in a smaller, prettier register — decorative where *scintillating* is dazzling.",
+   "usage_labels": [],
+   "examples": [
+    "a row of sparkly cheerleaders"
+   ]
+  },
+  {
+   "id": "spirited.oewn-00808879-s",
+   "word": "spirited",
+   "definition": "marked by lively action",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The dignified member: lively action with mettle and will behind it, where *peppy* is only pep.",
+   "usage_labels": [],
+   "examples": [
+    "a spirited dance"
+   ]
+  },
+  {
+   "id": "zippy.oewn-00808879-s",
+   "word": "zippy",
+   "definition": "marked by lively action",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal, and here the lively action is speed — quickness rather than the buoyancy of *bouncy*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "ignorant.oewn-00834520-s",
+   "word": "ignorant",
+   "definition": "uneducated in the fundamentals of a given art or branch of learning; lacking knowledge of a specific field",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt and accusing: the missing fundamentals of one art or branch of learning are laid at the person's door rather than at their schooling's, which is what makes it bite where *untutored* does not.",
+   "usage_labels": [],
+   "examples": [
+    "she is ignorant of quantum mechanics",
+    "He is ignorant of chemistry and could not read the label."
+   ]
+  },
+  {
+   "id": "illiterate.oewn-00834520-s",
+   "word": "illiterate",
+   "definition": "uneducated in the fundamentals of a given art or branch of learning; lacking knowledge of a specific field",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Borrows the whole force of being unable to read and drops it on a single field's fundamentals, so a bounded gap in knowledge sounds total — showier scorn than *ignorant*.",
+   "usage_labels": [],
+   "examples": [
+    "he is musically illiterate"
+   ]
+  },
+  {
+   "id": "unstudied.oewn-00835442-s",
+   "word": "unstudied",
+   "definition": "lacking knowledge gained by study often in a particular field",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A flat report that knowledge was not gained by study, with or without a particular field in view, and no reproach travels with it — the coolest word here beside *ignorant*.",
+   "usage_labels": [],
+   "examples": [
+    "is unstudied in Latin as he is in may other matters"
+   ]
+  },
+  {
+   "id": "untutored.oewn-00835235-s",
+   "word": "untutored",
+   "definition": "lacking in schooling",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Mild and almost exculpating, since it puts the deficiency in the schooling that was never had rather than in the head that went without it.",
+   "usage_labels": [],
+   "examples": [
+    "an untutored genius"
+   ]
+  },
+  {
+   "id": "inform.oewn-00834860-v",
+   "word": "inform",
+   "definition": "act as an informer",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Casts the act as a role rather than an occasion — you are not someone who spoke but an informer, and the faint taint sits in that role where *tell* has none.",
+   "usage_labels": [],
+   "examples": [
+    "He informed on his own brother to the police."
+   ]
+  },
+  {
+   "id": "tell.oewn-00956454-v",
+   "word": "tell",
+   "definition": "give evidence",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plainest verb available for producing evidence, naming the act and implying nothing about the one who does it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "amplify.oewn-00841513-v",
+   "word": "amplify",
+   "definition": "to enlarge beyond bounds or the truth",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Says only that something has been swelled; the fault lies in the going beyond, not in the verb, which is why it accuses least of the three.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "betray.oewn-00856102-v",
+   "word": "betray",
+   "definition": "cause someone to believe an untruth",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "The same planting of a false belief, but the word frames it as a breach of the trust that made the believing possible, which is what makes it the heaviest term here.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "deceive.oewn-00856102-v",
+   "word": "deceive",
+   "definition": "cause someone to believe an untruth",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the act by its result — the untruth has landed and is believed — where *mislead* stops at the information handed over.",
+   "usage_labels": [],
+   "examples": [
+    "I never meant to deceive you, but my spirits might often lead me wrong.",
+    "Caroline is incapable of wilfully deceiving anyone"
+   ]
+  },
+  {
+   "id": "exaggerate.oewn-00841513-v",
+   "word": "exaggerate",
+   "definition": "to enlarge beyond bounds or the truth",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain charge of overstatement, taking in both going past reasonable bounds and going past the truth, and always implying the real measure is smaller.",
+   "usage_labels": [],
+   "examples": [
+    "tended to romanticize and exaggerate this ‘gracious Old South’ imagery"
+   ]
+  },
+  {
+   "id": "lie.oewn-00835938-v",
+   "word": "lie",
+   "definition": "tell an untruth; pretend with intent to deceive",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Flat and unsoftened, covering both the untruth spoken and the pretence behind it, with no room left for an innocent reading.",
+   "usage_labels": [],
+   "examples": [
+    "Don't lie to your parents"
+   ]
+  },
+  {
+   "id": "magnify.oewn-00841513-v",
+   "word": "magnify",
+   "definition": "to enlarge beyond bounds or the truth",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Makes the thing itself loom larger, so the overreach shows in the size of the picture rather than in a claim stated outright.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "mislead.oewn-00835688-v",
+   "word": "mislead",
+   "definition": "give false or misleading information to",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "The gentlest of the deceptions: it charges only the false or misleading information given and leaves intent unsettled, where *lie* settles it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "abject.oewn-00907967-s",
+   "word": "abject",
+   "definition": "of the most contemptible kind",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and absolute, it puts the thing at the very floor of the scale with none of *low-down*'s sneer.",
+   "usage_labels": [],
+   "examples": [
+    "abject cowardice"
+   ]
+  },
+  {
+   "id": "contemptible.oewn-00907770-a",
+   "word": "contemptible",
+   "definition": "deserving of contempt or scorn",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The family's plain verdict: it states that scorn is deserved without supplying any of the scorn itself, where *scummy* supplies nothing else.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "low-down.oewn-00907967-s",
+   "word": "low-down",
+   "definition": "of the most contemptible kind",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal, and the trailing particle adds a drawled contempt that flat *low* leaves out.",
+   "usage_labels": [],
+   "examples": [
+    "a low-down sneak"
+   ]
+  },
+  {
+   "id": "low.oewn-00907967-s",
+   "word": "low",
+   "definition": "of the most contemptible kind",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "One blunt syllable for the bottom of the scale, carrying the direction of the fall and nothing more.",
+   "usage_labels": [],
+   "examples": [
+    "a low stunt to pull",
+    "a low-down sneak"
+   ]
+  },
+  {
+   "id": "mean.oewn-00908261-s",
+   "word": "mean",
+   "definition": "of no value or worth",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Writes a thing off as amounting to nothing, a dismissal by worthlessness rather than the earned scorn of *contemptible*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "miserable.oewn-00907967-s",
+   "word": "miserable",
+   "definition": "of the most contemptible kind",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Contempt with wretchedness folded into it, so the thing comes off squalid as well as low.",
+   "usage_labels": [],
+   "examples": [
+    "his miserable treatment of his family",
+    "You miserable skunk!"
+   ]
+  },
+  {
+   "id": "pathetic.oewn-00908403-s",
+   "word": "pathetic",
+   "definition": "inspiring mixed contempt and pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Contempt leads and pity trails: the scorn is the louder half of the mixture.",
+   "usage_labels": [],
+   "examples": [
+    "their efforts were pathetic"
+   ]
+  },
+  {
+   "id": "pitiable.oewn-00908403-s",
+   "word": "pitiable",
+   "definition": "inspiring mixed contempt and pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The gentler face of the same mixed response, letting the pity carry the weight the contempt in *pathetic* takes.",
+   "usage_labels": [],
+   "examples": [
+    "pitiable lack of character"
+   ]
+  },
+  {
+   "id": "pitiful.oewn-00908403-s",
+   "word": "pitiful",
+   "definition": "inspiring mixed contempt and pity",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Holds both halves at once, asking you to feel sorry for the thing and look down on it in the same breath.",
+   "usage_labels": [],
+   "examples": [
+    "pitiful exhibition of cowardice"
+   ]
+  },
+  {
+   "id": "scummy.oewn-00907967-s",
+   "word": "scummy",
+   "definition": "of the most contemptible kind",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most physically disgusted of these, treating the utterly contemptible as filth you would rather not touch.",
+   "usage_labels": [],
+   "examples": [
+    "a scummy rabble"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,342 @@
+{
+ "packet": 12,
+ "count": 28,
+ "entries": [
+  {
+   "id": "mark.oewn-04701248-n",
+   "word": "mark",
+   "definition": "an indication of damage",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flattest word here: it registers that damage happened and passes no verdict, where *scar* insists the damage lasted.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "mole.oewn-04701152-n",
+   "word": "mole",
+   "definition": "a small congenital pigmented spot on the skin",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Purely descriptive: a pigmented spot carried from birth, with no suggestion of damage or fault.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "nick.oewn-04700732-n",
+   "word": "nick",
+   "definition": "an impression in a surface (as made by a blow)",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Smallest of the impressions, and the word makes the blow sound trifling where *dent* concedes real force.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "scar.oewn-04701248-n",
+   "word": "scar",
+   "definition": "an indication of damage",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The heaviest of the damage words: the harm is over but permanently recorded, where *scratch* passes.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "scrape.oewn-04701248-n",
+   "word": "scrape",
+   "definition": "an indication of damage",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Damage dragged across a surface — broader than *scratch* and still shallow.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "scratch.oewn-04701248-n",
+   "word": "scratch",
+   "definition": "an indication of damage",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The slightest indication of damage in the set — thin and superficial where *scar* is permanent.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "stigma.oewn-04703433-n",
+   "word": "stigma",
+   "definition": "a skin lesion that is a diagnostic sign of some disease",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Clinical and grave: the lesion is not merely present but read as evidence, the skin testifying to a disease.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "wart.oewn-04703780-n",
+   "word": "wart",
+   "definition": "(pathology) a firm abnormal elevated blemish on the skin; caused by a virus",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Clinical naming for a raised growth, but abnormality is built into it — not the plain report *mole* makes.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "breeding.oewn-04820771-n",
+   "word": "breeding",
+   "definition": "elegance by virtue of fineness of manner and expression",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Places the elegance in fineness of manner and expression, praising a person's polish rather than any effect they make.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "brilliance.oewn-04821469-n",
+   "word": "brilliance",
+   "definition": "the quality of being magnificent or splendid or grand",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Magnificence that dazzles, adding glitter where *grandeur* adds height.",
+   "usage_labels": [],
+   "examples": [
+    "his ‘Hamlet’ lacks the brilliance that one expects"
+   ]
+  },
+  {
+   "id": "class.oewn-04822408-n",
+   "word": "class",
+   "definition": "elegance in dress or behavior",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Informal and flatly approving: elegance of dress or behaviour named in one blunt syllable.",
+   "usage_labels": [],
+   "examples": [
+    "she has a lot of class"
+   ]
+  },
+  {
+   "id": "daintiness.oewn-04820315-n",
+   "word": "daintiness",
+   "definition": "the quality of being beautiful and delicate in appearance",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The homelier name for beauty in fineness, prettier and less lofty in sound than *delicacy*.",
+   "usage_labels": [],
+   "examples": [
+    "the daintiness of her touch"
+   ]
+  },
+  {
+   "id": "dash.oewn-04820120-n",
+   "word": "dash",
+   "definition": "distinctive and stylish elegance",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The same stylish elegance with spirit in it, brisk and showy where *style* is merely distinctive.",
+   "usage_labels": [],
+   "examples": [
+    "he wooed her with the confident dash of a cavalry officer"
+   ]
+  },
+  {
+   "id": "delicacy.oewn-04820315-n",
+   "word": "delicacy",
+   "definition": "the quality of being beautiful and delicate in appearance",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Praises beauty that is fine rather than bold, the softest note in a family that runs to *grandeur*.",
+   "usage_labels": [],
+   "examples": [
+    "The delicacy of the lace made it look like frost on a window."
+   ]
+  },
+  {
+   "id": "eclat.oewn-04822233-n",
+   "word": "eclat",
+   "definition": "ceremonial elegance and splendor",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Ceremonial splendour with a flourish on it — the dazzle the occasion throws off, where *pomp* is the display itself.",
+   "usage_labels": [],
+   "examples": [
+    "entered with much eclat in a coach drawn by eight white horses"
+   ]
+  },
+  {
+   "id": "elegance.oewn-04819517-n",
+   "word": "elegance",
+   "definition": "a refined quality of gracefulness and good taste",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain central name for the quality — gracefulness and good taste, with no dazzle asked of it.",
+   "usage_labels": [],
+   "examples": [
+    "she conveys an aura of elegance and gentility",
+    "Lady Catherine is far from requiring that elegance of dress in us which becomes herself and daughter.",
+    "I never saw such capacity, and taste, and application, and elegance, as you describe, united."
+   ]
+  },
+  {
+   "id": "grandeur.oewn-04821469-n",
+   "word": "grandeur",
+   "definition": "the quality of being magnificent or splendid or grand",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Elevated and imposing — splendour on a scale that asks to be looked up at.",
+   "usage_labels": [],
+   "examples": [
+    "an imaginative mix of old-fashioned grandeur and colorful art"
+   ]
+  },
+  {
+   "id": "magnificence.oewn-04821469-n",
+   "word": "magnificence",
+   "definition": "the quality of being magnificent or splendid or grand",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The largest word here — grandeur and splendour taken together at full strength, with nothing held back.",
+   "usage_labels": [],
+   "examples": [
+    "for magnificence and personal service there is the Queen's hotel"
+   ]
+  },
+  {
+   "id": "pomp.oewn-04822233-n",
+   "word": "pomp",
+   "definition": "ceremonial elegance and splendor",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Binds the splendour to ceremony, so the praise falls on the staging rather than on the thing staged.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "smartness.oewn-04820943-n",
+   "word": "smartness",
+   "definition": "elegance by virtue of being fashionable",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Measures the elegance by fashion, approving of being current in a way *elegance* never is.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "splendor.oewn-04821469-n",
+   "word": "splendor",
+   "definition": "the quality of being magnificent or splendid or grand",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Full-throated praise for the magnificent, glowing where *grandeur* towers.",
+   "usage_labels": [],
+   "examples": [
+    "it is the university that gives the scene its stately splendor"
+   ]
+  },
+  {
+   "id": "splendour.oewn-04821469-n",
+   "word": "splendour",
+   "definition": "the quality of being magnificent or splendid or grand",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The British spelling of *splendor*, identical to it in force.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "style.oewn-04820120-n",
+   "word": "style",
+   "definition": "distinctive and stylish elegance",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving and self-assured: elegance with a signature on it, where *elegance* alone can be impersonal.",
+   "usage_labels": [],
+   "examples": [
+    "she had no conversation, no style, no taste, no beauty"
+   ]
+  },
+  {
+   "id": "compassion.oewn-04836781-n",
+   "word": "compassion",
+   "definition": "the humane quality of understanding the suffering of others and wanting to do something about it",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The warmest word in the set: understanding that already carries the will to do something, not merely to be moved.",
+   "usage_labels": [],
+   "examples": [
+    "She was proud that in a cause of compassion and honour he had been able to get the better of himself."
+   ]
+  },
+  {
+   "id": "kindness.oewn-04836995-n",
+   "word": "kindness",
+   "definition": "tendency to be kind and forgiving",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The plainest word for the disposition, warm and unceremonious where *mercy* makes the same forgivingness sound grave.",
+   "usage_labels": [],
+   "examples": [
+    "Her kindness was such that she never held anything against him for long."
+   ]
+  },
+  {
+   "id": "mercy.oewn-04836513-n",
+   "word": "mercy",
+   "definition": "a disposition to be kind and forgiving",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Grave and elevated where *kindness* is homely, giving the same forgiving disposition the weight of a virtue.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "mildness.oewn-04837153-n",
+   "word": "mildness",
+   "definition": "mercifulness as a consequence of being lenient or tolerant",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Faintest approval here, since the mercifulness follows from being lenient or tolerant rather than from any felt impulse, so it can shade toward slackness.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "pity.oewn-04836781-n",
+   "word": "pity",
+   "definition": "the humane quality of understanding the suffering of others and wanting to do something about it",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Praise here, since the gloss makes it a humane quality, but the word tilts down toward the sufferer where *compassion* stands level.",
+   "usage_labels": [],
+   "examples": []
+  }
+ ]
+}

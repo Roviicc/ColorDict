@@ -1,0 +1,150 @@
+{
+ "sample": "census-012",
+ "seed": null,
+ "population": 543,
+ "read": 543,
+ "right": 539,
+ "wrong": 4,
+ "unsure": 0,
+ "error_rate_pct": 0.7,
+ "threshold_pct": 5.0,
+ "reader_model": "fable",
+ "reader_effort": "xhigh",
+ "reader_agent": ".claude\\agents\\census-reader.md",
+ "reader_tools": "Read, Write",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
+ "missing_packets": [],
+ "unread": [],
+ "verdicts_for_unknown_ids": [],
+ "reconciled_ids": [],
+ "faults": {
+  "other": 2,
+  "wrong-charge": 1,
+  "gloss-mismatch": 1
+ },
+ "by_part_of_speech": {
+  "adjective": {
+   "read": 146,
+   "right": 145,
+   "wrong": 1,
+   "unsure": 0,
+   "error_rate_pct": 0.7
+  },
+  "noun": {
+   "read": 323,
+   "right": 320,
+   "wrong": 3,
+   "unsure": 0,
+   "error_rate_pct": 0.9
+  },
+  "verb": {
+   "read": 74,
+   "right": 74,
+   "wrong": 0,
+   "unsure": 0,
+   "error_rate_pct": 0.0
+  }
+ },
+ "by_arm": {
+  "candidate": {
+   "read": 458,
+   "right": 454,
+   "wrong": 4,
+   "unsure": 0,
+   "error_rate_pct": 0.9
+  },
+  "control": {
+   "read": 85,
+   "right": 85,
+   "wrong": 0,
+   "unsure": 0,
+   "error_rate_pct": 0.0
+  }
+ },
+ "by_arm_and_pos": {
+  "candidate/adjective": {
+   "read": 61,
+   "right": 60,
+   "wrong": 1,
+   "unsure": 0,
+   "error_rate_pct": 1.6
+  },
+  "candidate/noun": {
+   "read": 323,
+   "right": 320,
+   "wrong": 3,
+   "unsure": 0,
+   "error_rate_pct": 0.9
+  },
+  "candidate/verb": {
+   "read": 74,
+   "right": 74,
+   "wrong": 0,
+   "unsure": 0,
+   "error_rate_pct": 0.0
+  },
+  "control/adjective": {
+   "read": 85,
+   "right": 85,
+   "wrong": 0,
+   "unsure": 0,
+   "error_rate_pct": 0.0
+  }
+ },
+ "strata_over_threshold": [],
+ "note_strata": "the stop condition is judged per stratum in by_arm_and_pos; the blended error_rate_pct above decides nothing",
+ "failures_by_synset": {
+  "oewn-00556685-n": [
+   {
+    "id": "haste.oewn-00556685-n",
+    "word": "haste",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "The example 'make haste and tell us; make haste, my love' is the set phrase for simply hurrying up and carries none of the carelessness this gloss requires, so it belongs to a different sense of haste; the note itself is acceptable.",
+    "definition": "the act of moving hurriedly and in a careless manner",
+    "tone": "Formal and weighty, naming the hurry as a fault to be answered for where *hurry* merely reports it."
+   }
+  ],
+  "oewn-01539365-s": [
+   {
+    "id": "ultra.oewn-01539365-s",
+    "word": "ultra",
+    "verdict": "wrong",
+    "fault": "other",
+    "why": "The note describes a bare positional intensifier that 'says nothing about it beyond how far out it sits' — the same verdict-free force as far, which is labelled neutral — yet the charge is negative; note and charge contradict each other and one must be repaired.",
+    "definition": "(used of opinions and actions) far beyond the norm",
+    "tone": "A bare intensifier of position that shoves an opinion or action to the far edge and says nothing about it beyond how far out it sits."
+   }
+  ],
+  "oewn-05913942-n": [
+   {
+    "id": "scheme.oewn-05913942-n",
+    "word": "scheme",
+    "verdict": "wrong",
+    "fault": "wrong-charge",
+    "why": "The gloss is the neutral 'elaborate and systematic plan of action' and both examples use the word approvingly ('such a delicious scheme'), so a negative charge contradicts it; the note's 'also the catch' only gestures at a disparagement it never states.",
+    "definition": "an elaborate and systematic plan of action",
+    "tone": "The elaborateness is the point and also the catch: a plan worked out in enough system and detail that the working-out itself draws notice, where *system* names only the method."
+   }
+  ],
+  "oewn-10008828-n": [
+   {
+    "id": "dame.oewn-10008828-n",
+    "word": "dame",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "\"Blunt and breezy\" and withholding deference describes the slang sense (dame as an informal word for a woman), not the refined-woman sense glossed here, where the word is formal and courtly.",
+    "definition": "a woman of refinement",
+    "tone": "Blunt and breezy where the rest are courteous — it grants the refinement but withholds the deference."
+   }
+  ]
+ },
+ "caveats": {
+  "the_rate_is_on_survivors": "0.7% is the lowest census rate recorded (previous best 1.3%, census 007), and the population was filtered before it was read. The collision audit withdrew 26 of the tick's 569 authored senses - 4.6% - because a second instrument disagreed with the family author about whether the sense carries connotation at all. Those are not a random 4.6%: they are the senses where two hands already disagreed, which is where faults are likeliest. The census read the 543 that survived that filter. Read 0.7% as the rate on senses no other instrument had already questioned, not as the rate on the tick as authored.",
+  "control_is_not_evidence_of_improvement": "0 of 85 in the control arm against censuses 007-010 pooled at 1.82% looks like a gain and is not one: at 1.82% an 85-sense draw expects about 1.5 faults, and seeing none has probability near 0.21. The control arm did its job - it says the tick itself is sound, which is what the pre-registration asked it for - but it does not say this tick authored better than those.",
+  "the_composition_effect_did_not_appear": "The pre-registration expected composition alone to move the blended rate 1.82% -> ~3.2%, because the candidate draw is ~71% noun and every comparable census was 100% adjective. It did not happen: candidate/noun came in at 0.9% (3 of 323). Nouns are not harder to write connotation for than adjectives at this sample size.",
+  "what_may_actually_have_helped": "Two inputs changed in this tick and neither was measured against a control: the author read the family from a file written by family_packets.py rather than from a manager's retyping, and 28 candidate glosses that had been cut to 90 characters were restored to full length. Both are plausible causes of a lower rate and neither is demonstrated by this census."
+ },
+ "reconciliation": "One verdict id was corrected before aggregating: a reader typed benignity.oewn-01229430-n, the synset of favour, a sibling in the same family and the same packet. The verdict text quotes benignity's own gloss ('a kind act'), and 01229430 has no benignity member, so the card was read and the id mistyped. The id was corrected in verdicts-01.json with the original kept beside it; the verdict itself was not touched.",
+ "instrument_fix": "census2_aggregate keyed arms with word.replace(' ','_') instead of the pipeline's slug(), so *ma'am* fell out of candidate/noun and was reported as belonging to no arm. Fixed to use slug(); regression on census 011 is identical on read/right/wrong/unsure/error_rate_pct/by_part_of_speech/faults with no new keys."
+}

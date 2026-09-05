@@ -1,0 +1,347 @@
+{
+ "packet": 3,
+ "count": 28,
+ "entries": [
+  {
+   "id": "astounding.oewn-00648878-s",
+   "word": "astounding",
+   "definition": "bewildering or striking dumb with wonder",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The heaviest impact here, and it lands on the person rather than rating the claim - covering both being thrown into confusion and being silenced by wonder.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "fabulous.oewn-00649004-s",
+   "word": "fabulous",
+   "definition": "barely credible",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Leaves the thing just this side of belief where *incredible* puts it past, and the strain it puts on belief sounds like extravagance rather than a fault.",
+   "usage_labels": [],
+   "examples": [
+    "the fabulous endurance of a marathon runner"
+   ]
+  },
+  {
+   "id": "improbable.oewn-00649139-s",
+   "word": "improbable",
+   "definition": "too improbable to admit of belief",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flat measuring word of the set - it sets the odds against the thing and leaves the mockery and the wonder to its neighbours.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "incredible.oewn-00648515-a",
+   "word": "incredible",
+   "definition": "beyond belief or understanding",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts the thing wholly outside belief or understanding rather than at the far end of the odds, and says nothing about whether what exceeds them is splendid or appalling.",
+   "usage_labels": [],
+   "examples": [
+    "at incredible speed",
+    "the book's plot is simply incredible"
+   ]
+  },
+  {
+   "id": "marvellous.oewn-00649139-s",
+   "word": "marvellous",
+   "definition": "too improbable to admit of belief",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Refuses belief with wonder still in it: the thing is too wonderful to be admitted, not too flimsy, unlike *tall*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "tall.oewn-00649139-s",
+   "word": "tall",
+   "definition": "too improbable to admit of belief",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Dismissive without heat - the claim is treated as stretched in the telling, where *improbable* only weighs the odds.",
+   "usage_labels": [],
+   "examples": [
+    "a tall story",
+    "He came home with a tall story about wolves in the lane."
+   ]
+  },
+  {
+   "id": "characterize.oewn-02703792-v",
+   "word": "characterize",
+   "definition": "be characteristic of",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flatly descriptive — the trait simply belongs to the thing, and no verdict on its worth comes with it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "differentiate.oewn-00653662-v",
+   "word": "differentiate",
+   "definition": "be a distinctive feature, attribute, or trait; sometimes in a very positive sense",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "The dry one: the trait is what separates this thing from that one, with none of the credit *distinguish* carries.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "distinguish.oewn-00653662-v",
+   "word": "distinguish",
+   "definition": "be a distinctive feature, attribute, or trait; sometimes in a very positive sense",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "The member that leans hardest on the very positive reading the sense allows — the trait does not merely identify the thing, it raises it above what stands beside it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "mark.oewn-00653662-v",
+   "word": "mark",
+   "definition": "be a distinctive feature, attribute, or trait; sometimes in a very positive sense",
+   "part_of_speech": "verb",
+   "label": "positive",
+   "score": null,
+   "tone": "Registers the trait as a sign the thing carries, crediting it lightly where *distinguish* lifts it.",
+   "usage_labels": [],
+   "examples": [
+    "there is that in her features which marks the young woman of distinguished birth",
+    "every sentence of her uncle, which marked his intelligence, his taste, or his good manners"
+   ]
+  },
+  {
+   "id": "believe.oewn-00685199-v",
+   "word": "believe",
+   "definition": "accept as true; take to be true",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "The unmarked word for taking something to be true, carrying no judgement on whether the acceptance was earned.",
+   "usage_labels": [],
+   "examples": [
+    "We didn't believe his stories from the War",
+    "She would not believe the story until she saw the letter herself."
+   ]
+  },
+  {
+   "id": "buy.oewn-00685589-v",
+   "word": "buy",
+   "definition": "accept as true",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Blunt and informal where *believe* is plain, it treats accepting a claim as taking something on offer, so the acceptance sounds weighed rather than simply held.",
+   "usage_labels": [],
+   "examples": [
+    "I can't buy this story",
+    "He says the delay was the weather's fault, but I don't buy that."
+   ]
+  },
+  {
+   "id": "infer.oewn-00594917-v",
+   "word": "infer",
+   "definition": "believe to be the case",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal, and it frames the belief as arrived at rather than merely held, giving it a footing *believe* does not claim.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "swallow.oewn-00603054-v",
+   "word": "swallow",
+   "definition": "believe or accept without questioning or challenge",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Disparaging of the believer rather than the claim, since the gloss builds the absence of questioning into the acceptance itself.",
+   "usage_labels": [],
+   "examples": [
+    "Am I supposed to swallow that story?"
+   ]
+  },
+  {
+   "id": "understand.oewn-00594917-v",
+   "word": "understand",
+   "definition": "believe to be the case",
+   "part_of_speech": "verb",
+   "label": "neutral",
+   "score": null,
+   "tone": "Softer than *believe*: it presents the belief as settled information one has come by, which lets the speaker hold it lightly.",
+   "usage_labels": [],
+   "examples": [
+    "I understand you have no previous experience?",
+    "I understood that there were some very strong objections against the lady."
+   ]
+  },
+  {
+   "id": "distrust.oewn-00689827-v",
+   "word": "distrust",
+   "definition": "regard as untrustworthy; regard with suspicion; have no faith or confidence in",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "Flat and settled — the plain negative of trusting, delivered as a standing verdict rather than as the charge carried by *suspect*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "mistrust.oewn-00689827-v",
+   "word": "mistrust",
+   "definition": "regard as untrustworthy; regard with suspicion; have no faith or confidence in",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "The wariest of the three, sounding like a misgiving felt about someone rather than a conclusion reached about them.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "suspect.oewn-00689827-v",
+   "word": "suspect",
+   "definition": "regard as untrustworthy; regard with suspicion; have no faith or confidence in",
+   "part_of_speech": "verb",
+   "label": "negative",
+   "score": null,
+   "tone": "The most accusing of these: it does not just withhold faith but pins something on its object, where *distrust* only declines to trust.",
+   "usage_labels": [],
+   "examples": [
+    "I suspect her true motives",
+    "She suspected his motives from the first and would not take his help."
+   ]
+  },
+  {
+   "id": "evil.oewn-00746935-n",
+   "word": "evil",
+   "definition": "morally objectionable behavior",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The flat, absolute name for conduct that offends morality, condemning without argument or degree.",
+   "usage_labels": [],
+   "examples": [
+    "there is, I believe, in every disposition a tendency to some particular evil, a natural defect"
+   ]
+  },
+  {
+   "id": "irreverence.oewn-00747530-n",
+   "word": "irreverence",
+   "definition": "a disrespectful act",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The lightest blame here: an act that withholds due respect rather than one that breaks anything.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "violation.oewn-00747530-n",
+   "word": "violation",
+   "definition": "a disrespectful act",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Frames the disrespect as a breach, something owed and transgressed, giving the act a hard formal weight that *irreverence* lacks.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "wickedness.oewn-00746935-n",
+   "word": "wickedness",
+   "definition": "morally objectionable behavior",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Condemns the same conduct with a moralizing relish, as though the wrong were knowingly savoured rather than merely done — fuller-blooded than the bare *evil*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "affectation.oewn-00757016-n",
+   "word": "affectation",
+   "definition": "a deliberate pretense or exaggerated display",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Convicts the pretence of being both calculated and laid on too thick, so the fault is excess as much as falsity.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "appearance.oewn-00756620-n",
+   "word": "appearance",
+   "definition": "pretending that something is the case in order to make a good impression",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The mildest word here for faking it, faulting the wish to look good rather than the falsehood itself, which is where *pretence* puts the blame.",
+   "usage_labels": [],
+   "examples": [
+    "he is wise enough to assume even the appearance of what is right"
+   ]
+  },
+  {
+   "id": "pretence.oewn-00756299-n",
+   "word": "pretence",
+   "definition": "the act of giving a false appearance",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The flat, general name for putting up a false front, with none of the flattering motive that softens *appearance* and no charge of overdoing it; British spelling.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "show.oewn-00756620-n",
+   "word": "show",
+   "definition": "pretending that something is the case in order to make a good impression",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Treats the same impression-making pretence as something staged for onlookers, with more of a sneer at the performance than *appearance* carries.",
+   "usage_labels": [],
+   "examples": [
+    "that ceremony is just for show"
+   ]
+  },
+  {
+   "id": "anger.oewn-00760325-n",
+   "word": "anger",
+   "definition": "belligerence aroused by a real or supposed wrong (personified as one of the deadly sins)",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain name for the belligerence, and the gloss lets the provoking wrong be merely supposed as readily as real, so the blame lands lighter than in *wrath*.",
+   "usage_labels": [],
+   "examples": [
+    "Anger is counted among the seven deadly sins."
+   ]
+  },
+  {
+   "id": "avarice.oewn-00759878-n",
+   "word": "avarice",
+   "definition": "reprehensible acquisitiveness; insatiable desire for wealth (personified as one of the deadly sins)",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Condemns while it defines — acquisitiveness called reprehensible and a wanting of wealth that nothing can fill.",
+   "usage_labels": [],
+   "examples": []
+  }
+ ]
+}

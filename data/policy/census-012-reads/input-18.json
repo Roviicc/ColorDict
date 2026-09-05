@@ -1,0 +1,337 @@
+{
+ "packet": 18,
+ "count": 28,
+ "entries": [
+  {
+   "id": "innocent.oewn-09644529-n",
+   "word": "innocent",
+   "definition": "a person who lacks knowledge of evil",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Names the absence itself rather than cooing over the person, so the warmth of *dear* gives way to something closer to unguardedness.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "lamb.oewn-10263569-n",
+   "word": "lamb",
+   "definition": "a sweet innocent mild-mannered person (especially a child)",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Tender in the same way as *dear* but with the creature behind it, so the gentleness comes with defencelessness attached.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "virgin.oewn-10774925-n",
+   "word": "virgin",
+   "definition": "a person who has never had sex",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "States a plain fact about a person's experience and attaches no fondness or reproach to it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "admirer.oewn-09790858-n",
+   "word": "admirer",
+   "definition": "someone who admires a young woman",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts the feeling entirely on one side — his admiring of her — with nothing in the word saying it is returned.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "baby.oewn-09869006-n",
+   "word": "baby",
+   "definition": "a beloved person; used as terms of endearment",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Tender in a way that casts the beloved as small and to be cosseted, which *sweetheart* does not do.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "darling.oewn-09869006-n",
+   "word": "darling",
+   "definition": "a beloved person; used as terms of endearment",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Doting and unembarrassed, the most lavish of these terms of endearment.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "dear.oewn-09869006-n",
+   "word": "dear",
+   "definition": "a beloved person; used as terms of endearment",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Gentle and well-mannered where *love* is bare — affection kept quiet rather than declared.",
+   "usage_labels": [],
+   "examples": [
+    "Write to me very often, my dear."
+   ]
+  },
+  {
+   "id": "dearest.oewn-09869006-n",
+   "word": "dearest",
+   "definition": "a beloved person; used as terms of endearment",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The superlative does the work — it does not merely call the person dear but sets them above everyone else.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "favourite.oewn-10011405-n",
+   "word": "favourite",
+   "definition": "a special loved one",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Warmth arrived at by comparison: this one is loved specially, which implies others ranked below.",
+   "usage_labels": [],
+   "examples": [
+    "the godson, the friend, the favourite of his father!",
+    "a great favourite with her Longbourn nieces"
+   ]
+  },
+  {
+   "id": "fellow.oewn-09890770-n",
+   "word": "fellow",
+   "definition": "a man who is the lover of a man or woman",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "A bare designation of the man in the relation, carrying none of the warmth that *darling* pours out.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "girl.oewn-10150206-n",
+   "word": "girl",
+   "definition": "a girl or young woman with whom a man is romantically involved",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat beside the endearments: it identifies her wholly by a man's romantic involvement rather than expressing any feeling toward her.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "honey.oewn-09869006-n",
+   "word": "honey",
+   "definition": "a beloved person; used as terms of endearment",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Homely and sweet-tasting warmth, comfortable where *dearest* is fervent.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "love.oewn-09869006-n",
+   "word": "love",
+   "definition": "a beloved person; used as terms of endearment",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The simplest of these endearments, naming the feeling outright with nothing decorative added to it.",
+   "usage_labels": [],
+   "examples": [
+    "Come here, my love, and sit by the fire."
+   ]
+  },
+  {
+   "id": "lover.oewn-09645472-n",
+   "word": "lover",
+   "definition": "a person who loves someone or is loved by someone",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Works from either side of the bond — the one who loves or the one who is loved — and states the relation rather than performing it.",
+   "usage_labels": [],
+   "examples": [
+    "The acknowledged lovers talked and laughed; the unacknowledged were silent.",
+    "these violent young lovers carry everything their own way"
+   ]
+  },
+  {
+   "id": "pet.oewn-10011405-n",
+   "word": "pet",
+   "definition": "a special loved one",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Fondness with a stroking, indulgent hand in it, where *favourite* under the same sense is merely preference.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "squeeze.oewn-10663023-n",
+   "word": "squeeze",
+   "definition": "(slang) a person's girlfriend or boyfriend",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Slang, and breezily physical: it holds a girlfriend or boyfriend at a jaunty distance from the tenderness of *sweetheart*.",
+   "usage_labels": [],
+   "examples": [
+    "she was his main squeeze"
+   ]
+  },
+  {
+   "id": "sweetheart.oewn-09869006-n",
+   "word": "sweetheart",
+   "definition": "a beloved person; used as terms of endearment",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Names the beloved by the heart itself, wholesome and unironic in a way *baby* is not.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "dame.oewn-10008828-n",
+   "word": "dame",
+   "definition": "a woman of refinement",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Blunt and breezy where the rest are courteous — it grants the refinement but withholds the deference.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "gentlewoman.oewn-10008828-n",
+   "word": "gentlewoman",
+   "definition": "a woman of refinement",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The stateliest of the set — it treats refinement as her whole standing rather than a courtesy paid in passing.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "lady.oewn-10008828-n",
+   "word": "lady",
+   "definition": "a woman of refinement",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain word for it — the refinement is granted without ceremony, where *gentlewoman* makes an occasion of it.",
+   "usage_labels": [],
+   "examples": [
+    "a chauffeur opened the door of the limousine for the grand lady",
+    "She behaved like a lady at every moment of the visit."
+   ]
+  },
+  {
+   "id": "maam.oewn-10008828-n",
+   "word": "ma'am",
+   "definition": "a woman of refinement",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Deferential — respect offered to her rather than refinement described about her, and warmer than the starched *madam*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "madam.oewn-10008828-n",
+   "word": "madam",
+   "definition": "a woman of refinement",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal and ceremonious, the courtesy held at a polite distance where *ma'am* closes it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "beginner.oewn-10127072-n",
+   "word": "beginner",
+   "definition": "a person who founds or establishes some institution",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Flat and unadorned - it credits the act of starting an institution and stops there, without the honour *father* confers on the same person.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "father.oewn-10127072-n",
+   "word": "father",
+   "definition": "a person who founds or establishes some institution",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Reverent - it casts the one who established the institution as its progenitor, giving the thing founded a lineage and the founder a claim on gratitude.",
+   "usage_labels": [],
+   "examples": [
+    "George Washington is the father of his country",
+    "He is honoured as the father of the modern hospital.",
+    "The fathers of the new school met to draw up its rules."
+   ]
+  },
+  {
+   "id": "associate.oewn-09965384-n",
+   "word": "associate",
+   "definition": "a friend who is frequently in the company of another",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The coolest of the words for frequent company, recording the habit and withholding any verdict on the affection behind it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "chum.oewn-09897417-n",
+   "word": "chum",
+   "definition": "a close friend who accompanies their buddies in their activities",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Openly affectionate for the same close, always-along friend, where *crony* leaves the fondness unspoken.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "crony.oewn-09897417-n",
+   "word": "crony",
+   "definition": "a close friend who accompanies their buddies in their activities",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Measures closeness in activities shared with a whole set of buddies, so the friendship is company kept rather than confidences given as in *intimate*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "friend.oewn-10132360-n",
+   "word": "friend",
+   "definition": "a person you know well and regard with affection and trust",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The plain, unhedged word for the bond, holding affection and trust together where *associate* names only the company kept.",
+   "usage_labels": [],
+   "examples": [
+    "he was my best friend at the university",
+    "\"Delighted to see their dear friend again\"",
+    "\"I see your design, Bingley,\" said his friend."
+   ]
+  }
+ ]
+}

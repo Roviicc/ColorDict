@@ -1,0 +1,347 @@
+{
+ "packet": 16,
+ "count": 28,
+ "entries": [
+  {
+   "id": "goal.oewn-05989760-n",
+   "word": "goal",
+   "definition": "the state of affairs that a plan is intended to achieve and that (when achieved) terminates behavior intended to achieve it",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plainest everyday word for the achievement a plan runs to and stops at, warmer and less abstract than *end* for the same thing.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "intent.oewn-05991037-n",
+   "word": "intent",
+   "definition": "an anticipated outcome that is intended or that guides your planned actions",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Clipped and formal beside *intention*, stating the outcome as something fixed on rather than merely entertained.",
+   "usage_labels": [],
+   "examples": [
+    "his intent was to provide a new translation"
+   ]
+  },
+  {
+   "id": "intention.oewn-05991037-n",
+   "word": "intention",
+   "definition": "an anticipated outcome that is intended or that guides your planned actions",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts the anticipated outcome in the mind of whoever is acting, so it holds whether or not anything is done about it, unlike *target* with its attainable thing to be hit.",
+   "usage_labels": [],
+   "examples": [
+    "\"We acted with the best intentions.\"",
+    "Thus much for my general intention in favour of matrimony"
+   ]
+  },
+  {
+   "id": "object.oewn-05990115-n",
+   "word": "object",
+   "definition": "the goal intended to be attained (and which is believed to be attainable)",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Dry and formal, presenting the wanted outcome as a definite thing to be got and believed gettable, without *target*'s invitation to score a hit or a miss.",
+   "usage_labels": [],
+   "examples": [
+    "the sole object of her trip was to see her children",
+    "The object of the meeting was to settle the dispute."
+   ]
+  },
+  {
+   "id": "purpose.oewn-05991037-n",
+   "word": "purpose",
+   "definition": "an anticipated outcome that is intended or that guides your planned actions",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The weightiest of the plain words for a wanted outcome: it frames that outcome as what gives the planned action its reason, where *aim* only gives it a direction.",
+   "usage_labels": [],
+   "examples": [
+    "my mother's purpose will be answered",
+    "She was going to the butcher's, she told me, on purpose to order in some meat on Wednesday"
+   ]
+  },
+  {
+   "id": "target.oewn-05990115-n",
+   "word": "target",
+   "definition": "the goal intended to be attained (and which is believed to be attainable)",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The sharpest of these: it makes the attainable outcome a thing to be struck, so falling short of it registers as a miss.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "partiality.oewn-06210871-n",
+   "word": "partiality",
+   "definition": "an inclination to favor one group or view or opinion over alternatives",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain name for an uneven leaning toward one side over the alternatives — it says the scales are tipped without saying the case is already closed, which is what *prejudice* adds.",
+   "usage_labels": [],
+   "examples": [
+    "I do not trust my own partiality.",
+    "the strong sisterly partiality which made any admiration of Elizabeth appear perfectly natural"
+   ]
+  },
+  {
+   "id": "prejudice.oewn-06211643-n",
+   "word": "prejudice",
+   "definition": "a partiality that prevents objective consideration of an issue or situation",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The heaviest word here, because the leaning has hardened into an obstruction: the issue can no longer get an objective hearing at all.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "provincialism.oewn-06212164-n",
+   "word": "provincialism",
+   "definition": "a partiality for some particular place",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the leaning by what it fastens on, one particular place, so the narrowness of the horizon is carried in the word rather than argued separately as it would be with *partiality*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "tilt.oewn-06212031-n",
+   "word": "tilt",
+   "definition": "a slight but noticeable partiality",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Understates by design — a lean small enough to be measured rather than denounced, yet the word still insists it can be seen.",
+   "usage_labels": [],
+   "examples": [
+    "the court's tilt toward conservative rulings"
+   ]
+  },
+  {
+   "id": "defence.oewn-06753339-n",
+   "word": "defence",
+   "definition": "the justification for some act or belief",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain word for the justification of an act or belief, passing no verdict on whether it succeeds and presuming no wrongdoing the way *excuse* does.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "excuse.oewn-06754000-n",
+   "word": "excuse",
+   "definition": "a defense of some offensive behavior or some failure to keep a promise etc.",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Admits the fault while covering it - what is being defended is already offensive behaviour or a promise broken, whereas *defence* presumes nothing against the act at all.",
+   "usage_labels": [],
+   "examples": [
+    "His pride does not offend me so much as pride often does, because there is an excuse for it.",
+    "She was then but fifteen, which must be her excuse."
+   ]
+  },
+  {
+   "id": "vindication.oewn-06753339-n",
+   "word": "vindication",
+   "definition": "the justification for some act or belief",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Carries the outcome inside it - the act or belief comes out justified, where *defence* only puts the case.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "story.oewn-06769768-n",
+   "word": "story",
+   "definition": "a trivial lie",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest softening: it calls a lie by an innocent name, so the falsehood is admitted but treated as too small to bother about.",
+   "usage_labels": [],
+   "examples": [
+    "Sir William, how can you tell such a story?"
+   ]
+  },
+  {
+   "id": "tale.oewn-06769768-n",
+   "word": "tale",
+   "definition": "a trivial lie",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Slightly more arch than *story* - the lie sounds spun and embellished rather than merely told, which makes it faintly amusing as well as false.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "counter.oewn-07214582-n",
+   "word": "counter",
+   "definition": "a quick reply to a question or remark (especially a witty or critical one)",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Frames the quick reply as a move made against the first, so its wit or its criticism lands as opposition rather than mere answer.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "lip.oewn-06734698-n",
+   "word": "lip",
+   "definition": "an impudent or insolent rejoinder",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal and curt where *mouth* is broad, it clips the impudent answer down to a single flick of cheek.",
+   "usage_labels": [],
+   "examples": [
+    "Don't give me any lip, just do as you were told."
+   ]
+  },
+  {
+   "id": "mouth.oewn-06734698-n",
+   "word": "mouth",
+   "definition": "an impudent or insolent rejoinder",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt reproof - the insolent answer reduced to sheer talk, named by the organ that produced it rather than by anything it said.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "rejoinder.oewn-07214582-n",
+   "word": "rejoinder",
+   "definition": "a quick reply to a question or remark (especially a witty or critical one)",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Formal and composed, dignifying the quick reply as a proper answer where *counter* casts it as a blow returned.",
+   "usage_labels": [],
+   "examples": [
+    "it brought a sharp rejoinder from the teacher"
+   ]
+  },
+  {
+   "id": "return.oewn-07214582-n",
+   "word": "return",
+   "definition": "a quick reply to a question or remark (especially a witty or critical one)",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plainest of these - it marks only that something came back quickly, leaving the wit or the criticism unremarked.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "sass.oewn-06734698-n",
+   "word": "sass",
+   "definition": "an impudent or insolent rejoinder",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Informal, and it hears spirit in the impudence that *lip* hears only offence in - still a rebuke, but an amused one.",
+   "usage_labels": [],
+   "examples": [
+    "don't give me any of your sass"
+   ]
+  },
+  {
+   "id": "calamity.oewn-07329438-n",
+   "word": "calamity",
+   "definition": "an event resulting in great loss and misfortune",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Ruin on the scale of *disaster* but declared in a grander, more sonorous register.",
+   "usage_labels": [],
+   "examples": [
+    "the whole city was affected by the irremediable calamity"
+   ]
+  },
+  {
+   "id": "catastrophe.oewn-07329438-n",
+   "word": "catastrophe",
+   "definition": "an event resulting in great loss and misfortune",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The same great loss as *disaster*, pitched as total and past reversing, with nothing left to salvage.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "disaster.oewn-07329438-n",
+   "word": "disaster",
+   "definition": "an event resulting in great loss and misfortune",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Lifts the scale abruptly out of bad luck into great loss, and does it more bluntly than *catastrophe*.",
+   "usage_labels": [],
+   "examples": [
+    "the earthquake was a disaster"
+   ]
+  },
+  {
+   "id": "hardship.oewn-07351363-n",
+   "word": "hardship",
+   "definition": "something that causes or entails suffering",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Covers both what inflicts the suffering and the suffering entailed, a weight borne over time where *mishap* is over in a moment.",
+   "usage_labels": [],
+   "examples": [
+    "I cannot think it a hardship that more indulgence is allowed to men than to women"
+   ]
+  },
+  {
+   "id": "knock.oewn-07351599-n",
+   "word": "knock",
+   "definition": "a bad experience",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Blunt and physical, casting a bad experience as a single blow taken and absorbed.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "mischance.oewn-07329027-n",
+   "word": "mischance",
+   "definition": "an instance of misfortune",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The more formal twin of *mishap*, putting the weight on the luck of the thing rather than the damage done.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "mishap.oewn-07329027-n",
+   "word": "mishap",
+   "definition": "an instance of misfortune",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Shrinks misfortune to one small instance, a thing to be shrugged off rather than suffered.",
+   "usage_labels": [],
+   "examples": []
+  }
+ ]
+}
