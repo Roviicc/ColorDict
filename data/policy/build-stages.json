@@ -228,9 +228,9 @@
      "n": 12,
      "step": "Done-check: app opens offline, a book word returns a readable entry",
      "owner": "manager",
-     "state": "in_progress",
+     "state": "done",
      "commit": null,
-     "note": "ENGINE HALF VERIFIED, ANDROID UI NOT. run-desktop.sh runs the same StarDict engine the Android app uses: it opened the built dictionary with no network and returned readable entries for book words - gentleman, woman, hope, eagerly, countenance, and amiable with its charge, tone and family spectrum intact. Inflected lookups resolve through the real engine with the morphology line shown: 'does - third-person singular of do', 'women - plural of woman', 'gentlemen - a form of gentleman'. app unit tests: 78 tests, 0 failures - after fixing an unclosed string literal in DefinitionRendererTest.java that had blocked the whole suite from compiling since stage 6 (b197ecc), meaning these tests had not run since. WHAT IS LEFT: the app itself on a device or emulator, which is what 'the app opens offline' finally means."
+     "note": "PASSES ON A FRESH INSTALL. Pixel_10_Pro AVD, Android 17, airplane mode on and ping 8.8.8.8 'Network is unreachable'. App launches cold (3.8s) with no crash, and a word sent by ACTION_SEND - the path a book reader actually uses - returns a readable entry. countenance shows the learner line ('the look that a person's face gives') and the book's own sentence about Mr. Bingley; amiable shows the POSITIVE badge, its tone note and the full family spectrum on the mocking->warm axis; does resolves to do with 'does - third-person singular of do'. 78 engine unit tests pass. FOUND WHILE CHECKING - a shipping defect, recorded as stage 7 issue 1 below: the first run of the check silently read a two-day-old dictionary. DictRepository.installBundledIfNeeded copies a bundled dictionary once and guards it with a .installed-<dir> marker, so an EXISTING user who upgrades the APK keeps their old popup-en for ever and never receives book one. Confirmed on device: 11,828,099 B from 2026-09-03 where the new build is 12,035,397 B; pm clear then relaunch installed the new one and the learner lines appeared. Per-dictionary colour, order and enabled state live in DictRegistry keyed by file path, NOT in the dictionary files, so re-copying would not disturb them - the marker's only real job is to keep a dictionary the user DELETED from coming back."
     },
     {
      "n": 13,
@@ -245,7 +245,18 @@
     "cloud": "a session with no agent access - the deterministic tail only",
     "shawn": "a second session opened on this repo folder - takes the long authoring run and the pilot re-reads"
    },
-   "role_rule": "The hand that writes is never the hand that reads, and it is now enforced across sessions, not just across models. The manager authored the pilot 100 and has seen every ranker and enricher rationale, so it is contaminated for those entries and must not read them. Neither session has seen the 778, so whichever one does not author it can read it honestly."
+   "role_rule": "The hand that writes is never the hand that reads, and it is now enforced across sessions, not just across models. The manager authored the pilot 100 and has seen every ranker and enricher rationale, so it is contaminated for those entries and must not read them. Neither session has seen the 778, so whichever one does not author it can read it honestly.",
+   "issues": [
+    {
+     "n": 1,
+     "title": "A bundled dictionary is never refreshed after the first install",
+     "found": "2026-09-05, step 12 done-check",
+     "where": "app/src/main/java/io/github/roviicc/colordict/data/DictRepository.java installBundledIfNeeded",
+     "impact": "book one reaches new installs only. Every existing user upgrades the APK and keeps the old dictionary, so the whole of stage 7 is invisible to them.",
+     "proposed_fix": "keep the marker as the 'user deleted this, do not bring it back' signal, but record the bundled .ifo (wordcount, synwordcount, idxfilesize - all of which move with content) in it and re-copy when the bundled .ifo differs AND the dictionary directory still exists.",
+     "state": "open"
+    }
+   ]
   },
   {
    "stage": "8",
