@@ -35,7 +35,7 @@ public class DefinitionRendererTest {
         int body = html.indexOf("<div class=\"body\">come out</div>");
         assertTrue(hw >= 0 && form > hw && body > form);
         assertFalse(DefinitionRenderer.page("body{}", oneSection(),
-                Collections.emptyList(), LABELS).contains("class=\"form\"));
+                Collections.emptyList(), LABELS).contains("class=\"form\""));
     }
 
     @Test

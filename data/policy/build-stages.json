@@ -219,16 +219,18 @@
     {
      "n": 11,
      "step": "stardict_make.py + verify_stardict.py",
-     "owner": "cloud",
-     "state": "not_started",
-     "commit": null
+     "owner": "manager",
+     "state": "done",
+     "commit": null,
+     "note": "dict_pipeline (full): popup-en built and verified. verify_stardict OK - 111,332 words, 72,289 synonyms, dict 108,912,303 B uncompressed / 12,035,397 B dictzipped, sts='h', bits=32. Tiers: 107,477 derived, 3,855 reviewed. Assets copied into app/src/main/assets/dicts/popup-en. The fixed inflections reach the shipped .syn: does->do (leading the two doe senses), women->woman, gentlemen->gentleman, airmen->airman; toes and hoes still reach only toe and hoe."
     },
     {
      "n": 12,
      "step": "Done-check: app opens offline, a book word returns a readable entry",
-     "owner": "cloud",
-     "state": "not_started",
-     "commit": null
+     "owner": "manager",
+     "state": "in_progress",
+     "commit": null,
+     "note": "ENGINE HALF VERIFIED, ANDROID UI NOT. run-desktop.sh runs the same StarDict engine the Android app uses: it opened the built dictionary with no network and returned readable entries for book words - gentleman, woman, hope, eagerly, countenance, and amiable with its charge, tone and family spectrum intact. Inflected lookups resolve through the real engine with the morphology line shown: 'does - third-person singular of do', 'women - plural of woman', 'gentlemen - a form of gentleman'. app unit tests: 78 tests, 0 failures - after fixing an unclosed string literal in DefinitionRendererTest.java that had blocked the whole suite from compiling since stage 6 (b197ecc), meaning these tests had not run since. WHAT IS LEFT: the app itself on a device or emulator, which is what 'the app opens offline' finally means."
     },
     {
      "n": 13,
