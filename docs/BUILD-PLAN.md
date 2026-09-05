@@ -234,6 +234,86 @@ Nothing is deleted. If readers appear, stage 8 resumes unchanged. `pg74` and
 
 ---
 
+### Stage 9 — The reading loop, proven on the backlog · *small spend*
+
+Lane A and Lane B were two pipelines that shared a corpus and a doctrine and had
+no working connection. The Enricher's `candidate` verdict was a handoff to the
+family path that nothing implemented: 121 senses across four runs — *lady*,
+*civility*, *deceive*, *agreeable* — shipped with a verdict that they judge and
+no note saying how. Invisible by construction: a blind reader shown a card with
+no tone note has nothing to mark wrong. The author found it by using the app.
+
+This stage builds the join and proves it on that backlog. `candidate_families.py`
+routes each candidate to its smallest family, restricted to members the books
+actually use and capped at 20 — 3,958 member senses naive, 516 restricted, 86
+worksheets. One `family-author` per worksheet, blind read, then the **first
+repair pass ever made by a third hand**: `repairer.md` is the instrument, and it
+joins the drift gate alongside `family-author.md` and `census-reader.md`, which
+had been outside it since the gate was written.
+
+The 25 candidates the cap holds back are named in the record file, not dropped.
+They are the uncomfortable part — *man*, *lady*, *woman*, *gentleman*, *child*,
+*servant* — the words carrying the most connotation, held because WordNet offers
+only a hypernym tree for them. That is stage 12's problem, written down here so
+it is not rediscovered.
+
+> **Done when:** every candidate in `data/policy/*/results.json` is either
+> authored or held with a reason, and the blind census on the authored senses is
+> under 5%.
+> **Stop:** if the census on book-restricted families reads worse than 007–011,
+> the cap is the problem — the median worksheet is 5 members, and 55% of existing
+> notes name a sibling. Change the cap in the tool and treat the next run as a
+> new baseline; do not author more under a cap that reads badly.
+
+### Stage 10 — Close book one · *the loop at full width*
+
+Book one's vocabulary still has 6,914 senses on 1,785 words with no connotation
+verdict anyone made: 2,817 ranked but never judged, 4,097 never opened. Run the
+loop over them — Enricher only where a ranking already exists — and let the join
+route whatever candidates fall out.
+
+Do not draw by raw frequency alone. *so*, *say* and *now* head the list with ten
+senses each, all correctly plain; a tick spent confirming that function words do
+not judge is a tick wasted.
+
+> **Done when:** no sense on a book-one word lacks a verdict someone made — null
+> is a claim, not a default.
+> **Stop:** spend cap set before the run. Two consecutive ticks over 5% is a
+> method problem, not a batch problem.
+
+### Stage 11 — Book two · *breadth, after depth*
+
+`pg74` or `pg2701`, both already ingested under `data/build/books/`. The loop
+unchanged. Tone coverage will fall when the book lands, because the denominator
+grows first and the candidates follow; that is expected and should be watched,
+not corrected.
+
+> **Done when:** a second book's vocabulary ships in the StarDict file and the
+> app resolves its words offline.
+
+From here the reading loop is not a project. It is the standing method, and
+adding a book is the unit of work — see §5.
+
+### Stage 12 — The held set · *research, conditional*
+
+A connotation family for *lady* that is not the 603 hyponyms of `woman`. The
+family path works because an author sees siblings and writes contrast; the held
+words have no siblings WordNet can offer at a size anyone could read. Candidate
+mechanisms: adjective satellite links, antonym pairs, pertainyms, co-occurrence
+in the book sentences. None is proven.
+
+This stage exists only if a mechanism is found. Until then the held set stays
+held and visible, and no sense-level author is written to absorb it — a one-word
+author with no neighbour to name reintroduces the 44% fault pattern into a
+corpus whose census cannot see it.
+
+> **Done when:** *lady*, *gentleman*, *woman* and *servant* render on a spectrum
+> a reader of *Pride and Prejudice* would recognise, and it reads under 5%.
+> **Stop:** if no in-repo signal groups these words at ≤20 members, say so in
+> §6 and stop looking.
+
+---
+
 ## 4b. Why this order and not the other one
 
 Stages 0 and 1 are genuine foundation: the lexicon and the validator. Everything
@@ -254,13 +334,32 @@ correction.
 
 ## 5. The lane that never stops
 
-The **connotation path** runs alongside all of it, unchanged: family draw → §5.3
-hand screen → author per family → blind read → third-hand repair → 5% gate. It
-does not have stages because it is not a project; it is the thing that makes this
-dictionary different from Merriam-Webster.
+There was one, and now there is a different one.
+
+Until 2026-09-05 the **connotation path** ran on its own selection: family draw
+→ §5.3 hand screen → author per family → blind read → third-hand repair → 5%
+gate. It built 235 families and 2,885 senses at ~2%, and HANDOFF §2 recorded its
+weakness honestly: about 40% of what the gate admitted was taxonomy, not
+connotation, and no threshold fixes that.
+
+From stage 9 the standing method is the **reading loop**, and the connotation
+path runs *inside* it rather than beside it. A book names the words; the Ranker
+picks the senses a reader meets; the Enricher writes the entry and asks whether
+the sense judges; a candidate summons its family, restricted to the book and
+capped; the author writes the spectrum; a blind reader marks faults; a third
+hand repairs; a fresh reader checks. Same instruments, same three rules, same 5%
+gate. What changed is who chooses the work: a reader, not a charge fraction.
+
+It still does not have stages, for the same reason as before: it is not a
+project, it is the thing that makes this dictionary different from
+Merriam-Webster. Stages 9–11 are the work of standing it up; after that, adding
+a book is the unit of work.
+
+The gate-driven draw is not deleted. `worklist_build.py` and the queues stay on
+disk as filler for when there is no book to draw from, which §6 already said.
 
 Current: 235 families, 2,885 senses, ~2% across censuses 007–011, no outstanding
-repairs.
+repairs. 121 candidates awaiting the join (stage 9).
 
 ---
 
@@ -282,7 +381,7 @@ Nothing is deleted. The queues stay on disk.
 
 Stage state lives in `data/policy/build-stages.json` and `status.py` prints it,
 so a cold session sees where the build is without reading this file. One line per
-stage: `not_started | in_progress | blocked | done`, with the date and the commit
+stage: `not_started | in_progress | blocked | deferred | done`, with the date and the commit
 that closed it.
 
 **The rule that makes tracking honest:** a stage is marked done by its own

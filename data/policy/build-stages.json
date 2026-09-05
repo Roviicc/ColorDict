@@ -1,7 +1,7 @@
 {
  "plan": "docs/BUILD-PLAN.md",
  "approved": true,
- "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes.",
+ "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes. Stages 9-12 proposed 2026-09-05 and NOT yet approved: 9 waits on the plan audit (cap), 12 exists only if a mechanism is found.",
  "stages": [
   {
    "stage": "0",
@@ -277,14 +277,149 @@
     "reversible": "If readers ever appear, stage 8 resumes unchanged - reports_ingest, the deny list, the family grouping and the 5% gate are all still the right design. Nothing here is deleted.",
     "next": "Book two. pg74 (5,432 sentences) and pg2701 (10,254 sentences) are already ingested under data/build/books/."
    }
+  },
+  {
+   "stage": "9",
+   "title": "The reading loop, proven on the backlog",
+   "spend": "small spend",
+   "state": "not_started",
+   "proposed_on": "2026-09-05",
+   "approved": false,
+   "closed_on": null,
+   "closed_by_commit": null,
+   "done_when": "every candidate in data/policy/*/results.json is either authored or held with a reason, and the blind census on the authored senses is under 5%",
+   "stop": "if the census on book-restricted families reads worse than 007-011 the cap is the problem; change it in candidate_families.py and treat the next run as a new baseline",
+   "note": "Builds the join Lane A and Lane B never had. 121 Enricher candidates sat unwritten since enrich-001: enrich_validate.py writes nothing for a candidate and the why dies in results.json. candidate_families.py (commit 9d59909) routes them to book-restricted families capped at 20: 86 worksheets, 516 senses, 25 held - against 3,958 senses naive.",
+   "steps": [
+    {
+     "n": 1,
+     "step": "Place repairer.md; add repairer, family-author, census-reader to instrument_gate",
+     "owner": "manager",
+     "state": "in_progress",
+     "note": "gate edited this commit; repairer.md awaits the author's Copy-Item - .claude/agents/ is write-denied to sessions by design"
+    },
+    {
+     "n": 2,
+     "step": "Plan audit: 4 measurements + 4 adversarial lenses on the design",
+     "owner": "manager",
+     "state": "in_progress",
+     "note": "workflow wf_eb540580-564; holds step 3 until it reports on whether 5-member families support contrast notes"
+    },
+    {
+     "n": 3,
+     "step": "candidate_families.py -> data/families/draft-018.json",
+     "owner": "manager",
+     "state": "not_started"
+    },
+    {
+     "n": 4,
+     "step": "86 family-authors, each writing its own JSON to disk",
+     "owner": "manager",
+     "state": "not_started"
+    },
+    {
+     "n": 5,
+     "step": "family_merge -> tone_lint -> family_apply -> dict_pipeline --no-build",
+     "owner": "manager",
+     "state": "not_started"
+    },
+    {
+     "n": 6,
+     "step": "Blind census of the 516 (census-012)",
+     "owner": "shawn",
+     "state": "not_started"
+    },
+    {
+     "n": 7,
+     "step": "First third-hand repair pass under repairer.md",
+     "owner": "repairer",
+     "state": "not_started"
+    },
+    {
+     "n": 8,
+     "step": "Blind re-read of the repairs by a reader that found none of them",
+     "owner": "shawn",
+     "state": "not_started"
+    },
+    {
+     "n": 9,
+     "step": "Done-check; write measured numbers here",
+     "owner": "manager",
+     "state": "not_started"
+    }
+   ],
+   "held": {
+    "count": 25,
+    "why": "smallest book-restricted family exceeds the cap, or no family in the books",
+    "words": [
+     "man",
+     "lady",
+     "woman",
+     "gentleman",
+     "child",
+     "servant",
+     "beauty",
+     "virtue",
+     "elegance",
+     "agreeable",
+     "ill",
+     "dare",
+     "indeed",
+     "merely",
+     "upstairs",
+     "tolerably"
+    ],
+    "goes_to": "stage 12"
+   }
+  },
+  {
+   "stage": "10",
+   "title": "Close book one",
+   "spend": "the loop at full width",
+   "state": "not_started",
+   "proposed_on": "2026-09-05",
+   "approved": false,
+   "closed_on": null,
+   "closed_by_commit": null,
+   "done_when": "no sense on a book-one word lacks a connotation verdict someone made - null is a claim, not a default",
+   "stop": "spend cap set before the run; two consecutive ticks over 5% is a method problem, not a batch problem",
+   "note": "6,914 senses on 1,785 book-one words with no verdict: 2,817 ranked but never judged (Enricher only), 4,097 never opened (rank + enrich). Draw by book frequency but screen for whether the sense can judge at all - so/say/now head the list and are correctly plain."
+  },
+  {
+   "stage": "11",
+   "title": "Book two",
+   "spend": "breadth, after depth",
+   "state": "not_started",
+   "proposed_on": "2026-09-05",
+   "approved": false,
+   "closed_on": null,
+   "closed_by_commit": null,
+   "done_when": "a second book's vocabulary ships in the StarDict file and the app resolves its words offline",
+   "stop": null,
+   "note": "pg74 (5,432 sentences) or pg2701 (10,254). Tone coverage falls when the book lands because the denominator grows first; expected, watch it, do not correct it. After this the reading loop is the standing method and a book is the unit of work."
+  },
+  {
+   "stage": "12",
+   "title": "The held set",
+   "spend": "research, conditional",
+   "state": "not_started",
+   "proposed_on": "2026-09-05",
+   "approved": false,
+   "closed_on": null,
+   "closed_by_commit": null,
+   "done_when": "lady, gentleman, woman and servant render on a spectrum a reader of Pride and Prejudice would recognise, and it reads under 5%",
+   "stop": "if no in-repo signal groups these words at <=20 members, record that in BUILD-PLAN section 6 and stop looking",
+   "note": "Exists only if a mechanism is found. WordNet has no connotation family for lady, only 603 hyponyms of woman. Candidates: adjective satellite links, antonyms, pertainyms, co-occurrence in book sentences. No sense-level author is written to absorb the held set: a one-word author with no neighbour to name reintroduces the 44% fault pattern into a corpus the census cannot see it in."
   }
  ],
  "always_running": {
-  "lane": "connotation - family draw, blind read, third-hand repair, 5% gate",
+  "lane": "the reading loop - book names the words, Ranker picks the senses, Enricher writes the entry and asks whether it judges, candidates summon book-restricted families, blind read, third-hand repair, 5% gate",
+  "since": "2026-09-05 (stage 9); the gate-driven family draw is filler when there is no book",
   "families": 235,
   "senses": 2885,
   "last_census": "011 at 3.0%",
-  "outstanding_repairs": 0
+  "outstanding_repairs": 0,
+  "candidates_awaiting_join": 121
  },
  "measured_2026_09_03": {
   "shipped_stardict_entries": 111466,

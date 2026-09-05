@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """The instrument gate: refuse to grade a run whose measuring stick moved.
 
-status.py *warns* when the four agent files differ from HEAD. A warning is
+status.py *warns* when the agent files differ from HEAD. A warning is
 advice; by the time anyone reads it the tokens are spent and the number is
 already incomparable. This is the same check as a gate, and enrich_validate.py
 calls it before it will grade anything.
@@ -21,8 +21,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 AGENTS = ".claude/agents/"
+# Seven, not four. The gate began as the stage 7 pipeline's four and left the
+# connotation lane's author and reader outside it - the two instruments whose
+# rates (censuses 007-011) are the most compared numbers in the project. The
+# repairer joins them because a repair outlives the run that made it: a drifted
+# reader mis-scores one tick, a drifted repairer rewrites the corpus.
 INSTRUMENTS = ("sense-ranker.md", "enricher.md", "entry-reader.md",
-               "null-auditor.md")
+               "null-auditor.md", "family-author.md", "census-reader.md",
+               "repairer.md")
 
 
 def git(*args):
@@ -75,7 +81,7 @@ def enforce(context=""):
     for b in bad:
         print("  - " + b, file=sys.stderr)
     print("", file=sys.stderr)
-    print("The four agent files are the measuring stick. A defect rate is only",
+    print("The seven agent files are the measuring stick. A defect rate is only",
           file=sys.stderr)
     print("comparable to an older one if they did not move. Restore them with",
           file=sys.stderr)
