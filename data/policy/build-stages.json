@@ -372,7 +372,18 @@
      "n": 9,
      "step": "Done-check; write measured numbers here",
      "owner": "manager",
-     "state": "ready"
+     "state": "done",
+     "commit": "pending",
+     "note": "DONE-CHECK PASSES. tools/stage9_donecheck.py, written for this step, re-derives the candidate list from data/policy/*/results.json the way candidate_families.py builds it rather than reading stage9-candidates.json, because that file is the router's own account of what it did. Both halves of done_when hold. Every candidate is accounted for: 120 distinct senses, 95 authored, 1 withdrawn with a reason, 24 held with a reason, 0 lost. No stratum over the 5% gate. The stop condition does not fire - the book-restricted draw reads 0.9% against 1.9% pooled across 007-011, so the cap of 20 stands.",
+     "measured": {
+      "candidates": "120 distinct candidate senses from 122 records across 5 Enricher runs. The record counts are what the stage notes carried and they double-count two senses the Enricher marked in two runs; distinct, it is 120 candidates / 96 routed / 24 held, and the rebuilt set and the router's ledger agree on every member in both directions.",
+      "authoring": "93 family-author agents, one per family, packets written by family_packets.py; 87 candidate worksheets + 6 control, 543 notes on disk, 0 structural faults at merge. 30 members carry _skip, all 30 with a reason - 26 withdrawn by the collision audit, of which exactly 1 was itself an Enricher candidate.",
+      "census_012": "543 senses read blind in 20 packets, complete on both arms as 007-011 were. 539 right, 4 wrong, 0 unsure. candidate/noun 3/323 = 0.9%, candidate/verb 0/74, candidate/adjective 1/61 = 1.6%, control/adjective 0/85. No stratum over 5%. The blended 0.7% decides nothing and carries 4 caveats in census-012-results.json - chief among them that the population was filtered by the collision audit before it was read.",
+      "repair_and_reread": "First run of repairer.md: 4 faults, 4 decisions, 0 keeps - 1 drop-example, 3 tone, 2 of those moving a charge. Blind re-read by a fresh census-reader: 4 read, 4 right, 0 wrong. n=4, so this says the four repairs landed and nothing about the pass as a method; the keep path is still untested.",
+      "corpus": "4,223 entries, 0 validation errors, 6,601 warnings - 6,549 of them near-duplicate glosses that predate this stage, 27 the no-spectrum warning across 6 flat families, the rest charged-without-a-note and near-duplicate senses. All 95 authored candidate senses reach the shipped file carrying their note; 8 ship on a neutral label, which is force and register without approval and is normal. 0 withdrawn senses still ship a note. tone_lint 8/543 = 1%.",
+      "not_shipped": "The bundled dictionary in app assets is 8.9h behind data/entries/batch-0001.jsonl: dict_pipeline ran --no-build all stage, so no reader has any of this tick. Not a stage 9 condition - the stage closes on authoring and the census - but the stage 7 done-check found a dictionary two days stale and nothing had said so, and stage9_donecheck.py now says so every run."
+     },
+     "left_standing": "Six known faults the census cannot see by construction, unchanged by this step: 4 superlative collisions flagged by tone_lint and left standing for a decision, and 2 axis labels the step-7 repair moved off their spectra, of which dame's renders. Step 8 established that handing the census reader the family does not surface them - it has no fault class for an axis. Also unresolved: brother null-right against sister null-wrong on mirror glosses, where the sister verdict is the whole basis of hand-candidates.json and sister is one of the 95 authored here; and imbecility kept under 5.3 on the manager's call, which the rule says a human should read."
     }
    ],
    "held": {
