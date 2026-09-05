@@ -206,9 +206,37 @@
   {
    "word": "do",
    "pos": "verb",
-   "accepted": false,
-   "why": "oewn-02566500-v: example does not use the headword: 'He does research on birds.'; oewn-02567910-v: example does not use the headword: 'She does the accounts at the end of each month.'",
-   "senses": {}
+   "accepted": true,
+   "why": null,
+   "senses": {
+    "oewn-01716563-v": {
+     "learner": "to carry out an action",
+     "examples": [
+      "He is now, perhaps, sorry for what he has done, and anxious to re-establish a character.",
+      "representing to her the wickedness of what she had done, and all the unhappiness she had brought on her family"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02566500-v": {
+     "learner": "to take part in something or be busy with it",
+     "examples": [
+      "repeatedly asked what she had been doing with herself since their separation",
+      "He does research on birds."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02567910-v": {
+     "learner": "to get a piece of work finished",
+     "examples": [
+      "He did his lessons before he went out to play.",
+      "She does the accounts at the end of each month."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
   },
   {
    "word": "feeling",
@@ -605,9 +633,39 @@
   {
    "word": "woman",
    "pos": "noun",
-   "accepted": false,
-   "why": "oewn-10807146-n: example does not use the headword: 'But you know married women have never much time for writing.'",
-   "senses": {}
+   "accepted": true,
+   "why": null,
+   "senses": {
+    "oewn-10807146-n": {
+     "learner": "a grown female person, as opposed to a man.",
+     "examples": [
+      "He could not help seeing that you were about five times as pretty as every other woman in the room.",
+      "But you know married women have never much time for writing."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-10808492-n": {
+     "learner": "a female person who has an important place in one man's life, as his wife, his mistress, or his girlfriend.",
+     "examples": [
+      "He would not hear a word said against his woman.",
+      "He came back from the sea to his woman and his children."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "names her by her tie to a particular man"
+     }
+    },
+    "oewn-08494645-n": {
+     "learner": "women taken together as one group.",
+     "examples": [
+      "He liked to make grand speeches about woman and her place in the world."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
   },
   {
    "word": "suppose",
@@ -1111,9 +1169,30 @@
   {
    "word": "gentleman",
    "pos": "noun",
-   "accepted": false,
-   "why": "oewn-10146810-n: example does not use the headword: 'He danced only four dances, though gentlemen were scarce'",
-   "senses": {}
+   "accepted": true,
+   "why": null,
+   "senses": {
+    "oewn-10146810-n": {
+     "learner": "a man with polished manners and refined ways.",
+     "examples": [
+      "He danced only four dances, though gentlemen were scarce",
+      "when the gentlemen entered, Jane was no longer the first object"
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "praises the man's manners rather than just naming him a man"
+     }
+    },
+    "oewn-10765000-n": {
+     "learner": "a male servant who looks after the personal needs of the man he works for.",
+     "examples": [
+      "He travelled with his gentleman, who saw to his clothes and his shaving."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
   },
   {
    "word": "brother",
@@ -23489,10 +23568,10 @@
   }
  ],
  "counts": {
-  "accepted": 766,
-  "senses_written": 1998,
-  "null": 1903,
-  "candidate": 95,
-  "rejected": 12
+  "accepted": 769,
+  "senses_written": 2006,
+  "null": 1909,
+  "candidate": 97,
+  "rejected": 9
  }
 }

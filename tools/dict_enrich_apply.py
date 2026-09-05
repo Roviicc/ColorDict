@@ -34,11 +34,22 @@ from pathlib import Path
 EDITORIAL_SOURCE = "popup-editorial"
 
 
-def load_overlays(paths):
+def load_overlays(paths, contradictions=None):
     """Merge several overlay files. Later files win field by field, so a
     family annotation can add a charge to a word an earlier batch already
-    gave usage labels."""
+    gave usage labels.
+
+    Field-by-field merging is right for adding, and silent for disagreeing.
+    When a later hand answers `neutral` on a sense an earlier hand charged,
+    the merge keeps the neutral and drops the charge with no trace - and the
+    charge's evidence (its tone note, its seat on a family spectrum) stays
+    behind, now sitting under a label that contradicts it. Stage 7's Enricher
+    nulled ten senses the connotation lane had charged; five errored later
+    only because they also carried an `explanation`, and five shipped silently.
+    Two authorities and no precedence rule is a decision, not a merge, so it
+    is recorded here where both sides are still visible."""
     overlay = {}
+    origin = {}
     for path in paths:
         seen_here = set()
         with open(path, encoding="utf-8") as fh:
@@ -56,10 +67,29 @@ def load_overlays(paths):
                 existing = overlay.get(word)
                 if existing is None:
                     overlay[word] = rec
+                    for sid, patch in (rec.get("senses") or {}).items():
+                        if patch.get("label") or (patch.get("family") or {}).get("charge"):
+                            origin[sid] = Path(path).name
                     continue
                 senses = existing.setdefault("senses", {})
                 for sid, patch in (rec.get("senses") or {}).items():
-                    senses.setdefault(sid, {}).update(patch)
+                    prior = senses.setdefault(sid, {})
+                    if contradictions is not None:
+                        was = prior.get("label")
+                        charge = (prior.get("family") or {}).get("charge")
+                        if (patch.get("label") == "neutral"
+                                and (was in ("positive", "negative") or charge)):
+                            contradictions.append({
+                                "sense": sid, "word": word,
+                                "charged_by": origin.get(sid, "?"),
+                                "charged_label": was, "charge": charge,
+                                "had_tone": bool(prior.get("tone")),
+                                "had_explanation": bool(prior.get("explanation")),
+                                "nulled_by": Path(path).name,
+                            })
+                    if patch.get("label"):
+                        origin[sid] = Path(path).name
+                    prior.update(patch)
                 for key, value in rec.items():
                     if key not in ("word", "senses"):
                         existing[key] = value
@@ -224,8 +254,18 @@ def main():
     ap.add_argument("--out", type=Path, required=True)
     args = ap.parse_args()
 
-    overlay = load_overlays(args.overlay)
+    contradictions = []
+    overlay = load_overlays(args.overlay, contradictions)
     problems = []
+    for c in contradictions:
+        charge = f" charge {c['charge']:+d}" if c["charge"] else ""
+        carried = [k for k, v in (("tone", c["had_tone"]),
+                                  ("explanation", c["had_explanation"])) if v]
+        src_note = f" (its {' and '.join(carried)} would be orphaned)" if carried else ""
+        problems.append(
+            f"{c['word']}/{c['sense']}: {c['charged_by']} charged it "
+            f"{c['charged_label'] or 'via family'}{charge}, "
+            f"{c['nulled_by']} answers neutral{src_note}")
     out = []
     with open(args.bulk, encoding="utf-8") as fh:
         for line in fh:

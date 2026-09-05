@@ -203,16 +203,18 @@
     {
      "n": 9,
      "step": "dict_enrich_apply.py: overlay + derived bulk -> batch",
-     "owner": "cloud",
-     "state": "not_started",
-     "commit": null
+     "owner": "manager",
+     "state": "done",
+     "commit": null,
+     "note": "Blocked on first run by a collision the merge had no rule for: stage 7's Enricher answered neutral on 10 senses an earlier hand had charged. 5 errored (batch-0001 explanations on hope n+v, run, hold, understand); 5 were SILENT (eagerly, highly x2, perfectly, seriously - inherited adverb charges), keeping their tone and their seat on a charged family spectrum under a neutral label. Adjudicated blind by null-auditor (fable), never the authoring hand: 9/9 null-right, plus hope.v already null-right in the pilot audit. The 3 whose evidence packet the auditor itself called unrepresentative (highly x2, perfectly - the book uses only the intensifier sense) were re-read on an on-sense packet: 3/3 null-right again. Repaired by dropping the 5 refuted explanations from batch-0001.overlay and adding the 5 adverb senses to adverb-deny.json. dict_enrich_apply.py now records the disagreement at the merge, where both hands are still visible, so a later neutral over an earlier charge halts instead of half-halting. Lexicon defect from step 7 fixed here as blocked-entries.json planned: do->does (the -o rule's len>2 guard excluded the only two two-letter -o verbs; 'does' had been resolving to *doe*, the deer) and 456 -man/-woman plurals incl. women/gentlemen. derived-bulk regenerated: 454 entries changed, every change a pure addition, entry count identical, swn coverage 97.7%. That cleared 3 of the 12 blocked entries: 769 accepted / 9 rejected / 2006 senses (was 766/12/1998). The 9 remaining rejects are all the rubric-collision class, as recorded."
     },
     {
      "n": 10,
      "step": "dict_pipeline --no-build, entry_validate, dict_validate",
-     "owner": "cloud",
-     "state": "not_started",
-     "commit": null
+     "owner": "manager",
+     "state": "done",
+     "commit": null,
+     "note": "dict_pipeline --no-build: 3857 entries, 0 errors, 5924 warnings (near-duplicate glosses, the standing class). entry_validate --refresh: 3857 entries / 14375 senses, clean - every sense traceable, POS agrees, gloss unchanged; 0 errors, 0 warnings."
     },
     {
      "n": 11,

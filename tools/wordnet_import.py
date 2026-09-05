@@ -239,6 +239,50 @@ def _doubles(word):
             and c not in "wxy")
 
 
+# -man/-woman compounds take -men/-women, and OEWN lists the plural for exactly
+# two of the 474 in the lexicon. Without them *women*, *gentlemen* and 470 more
+# resolve to nothing, and the regular rule mints "womans" in their place.
+#
+# The stem test carries most of it: <modifier>+man is a compound when the
+# modifier is itself a headword (air+man, gentle+man) or a headword plus a
+# linking -s (band+s+man). It cannot see the rest, and the rest divides sharply
+# into real compounds and words that merely end in those letters, so the
+# exceptions are listed by hand. Only the true compounds are listed: an
+# unlisted compound loses a plural, while a wrongly listed one would send a
+# reader who types "humen" to *human*. Per this module's rule, the miss is the
+# tolerable failure and the wrong answer is not.
+MEN_EXCEPTIONS = {
+    "man", "woman", "yeoman", "merman", "henchman", "henchwoman", "freedman",
+    "freedwoman", "bedesman", "bedeswoman", "boogeyman", "fugleman",
+    "fuglewoman", "longshoreman", "longshorewoman", "lowerclassman",
+    "midshipman", "midshipwoman", "ombudsman", "ombudswoman",
+    "plainclothesman", "plainclotheswoman",
+}
+# End in -man/-woman without containing the morpheme. Recorded so the reason a
+# plural is absent is visible rather than inferred from the stem test failing.
+NOT_MEN = {
+    "human", "inhuman", "nonhuman", "subhuman", "superhuman", "unhuman",
+    "infrahuman", "hooman", "roman", "shaman", "talisman", "caiman",
+    "ceriman", "brahman", "hanuman", "dragoman", "ottoman", "zaman",
+}
+
+
+def men_plural(lemma, headwords):
+    """The -men/-women plural of a <modifier>+man compound, or None."""
+    w = lemma.lower()
+    if not w.isalpha() or w in NOT_MEN:
+        return None
+    for suf, plural in (("woman", "women"), ("man", "men")):
+        if not w.endswith(suf) or len(w) <= len(suf):
+            if w != suf:
+                continue
+        stem = w[:-len(suf)]
+        if (w in MEN_EXCEPTIONS or stem in headwords
+                or (stem.endswith("s") and stem[:-1] in headwords)):
+            return stem + plural
+    return None
+
+
 def regular_forms(lemma, pos):
     """Rule-generated inflections, so an inflected search resolves.
 
@@ -264,7 +308,16 @@ def regular_forms(lemma, pos):
                 out.append(f)
 
     if pos in ("n", "v"):
-        if _sibilant(w):
+        # _sibilant wants a consonant before the -o (potato -> potatoes, but
+        # radio -> radios), so it requires len > 2. That silently excluded the
+        # only two two-letter -o words in the lexicon that take -es: the verbs
+        # *do* and *go*. OEWN happens to list "goes"; nothing listed "does",
+        # so the index carried "dos" and a reader who typed the commonest verb
+        # form in English was answered with *doe*, the deer. Verbs only - as
+        # nouns these are "dos and don'ts", and relaxing the length for nouns
+        # would mint "toes" for *to* and "hoes" for *ho*, both of which collide
+        # with real headwords. do/go are the only verbs the relaxation reaches.
+        if _sibilant(w) or (pos == "v" and len(w) == 2 and w.endswith("o")):
             s_form = w + "es"
         elif w.endswith("y") and w[-2] not in VOWELS:
             s_form = w[:-1] + "ies"
@@ -443,7 +496,14 @@ def build_entries(entries, synsets, sense_lemma, entry_lemma, scores, ili_map):
         # not. Forms OEWN itself lists are authoritative and never dropped.
         for code in sorted(record["pos_codes"]):
             irregular = bool(record["forms_by_pos"].get(code))
-            for f in regular_forms(lemma, code):
+            generated = regular_forms(lemma, code)
+            if code == "n":
+                men = men_plural(lemma, headwords)
+                if men:
+                    # Ahead of the regular -s: "womans" stays as a tolerated
+                    # misspelling route, but "women" is the form a reader types.
+                    generated = [men] + generated
+            for f in generated:
                 if f in record["forms"]:
                     continue
                 if f in headwords and irregular:
