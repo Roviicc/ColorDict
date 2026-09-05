@@ -354,13 +354,16 @@
      "n": 7,
      "step": "First third-hand repair pass under repairer.md",
      "owner": "repairer",
-     "state": "ready"
+     "state": "done",
+     "note": "First use of repairer.md, and the first repair pass in this project run by a hand that neither authored the note nor found the fault. One packet, four faults, four decisions, no keeps: haste drop-example (the make-haste exhortation, note untouched), ultra tone (resolved the note/charge contradiction toward the charge and handed the pure-location role to *far*, the neutral member two rows down whose note the old one had duplicated), scheme tone + charge -1 -> 0, dame tone + charge 0 -> +1 rewritten off the slang sense onto the printed gloss. census_apply gained an overlay path first: drop-example only knew the family worksheet, where just the 66 gate-drawn members of annotated-001..003 carry examples, so the action would have warned and changed nothing on any book-drawn sense; the same near-copy-of-slug() that dropped *ma'am* out of a census arm was fixed in its index at the same time, with both prior decisions files replaying identically. Applied: 3 members in annotated-018.json, 1 line of 4,217 in the stage-7 overlay. dict_pipeline --no-build: 4,223 entries, 0 errors, 6,601 warnings (+4, all of them scheme's family losing its spectrum). tone_lint unchanged at 8/543 = 1%.",
+     "commit": "pending",
+     "left_standing": "The repair moved two family axis labels off their spectra, and the census cannot see either - census_packets withholds `family`, so a reader is never shown the axis. dame's family now runs lady/ma'am/madam/dame +1 and gentlewoman +2, and its label still reads 'offhand courtesy -> stately dignity' with nothing left at the offhand end; that one ships, because dict_build renders the axis whenever a spectrum exists. lint_axis does not catch it: it returns early on any family with a positive charge, by design, since only all-negative families render backwards. scheme's family is now four members all at 0 with no spectrum, so its axis label does not render at all and the staleness stays internal. Neither is the repairer's doing - it is forbidden to touch a neighbour or a family - and neither has been fixed."
     },
     {
      "n": 8,
      "step": "Blind re-read of the repairs by a reader that found none of them",
      "owner": "shawn",
-     "state": "not_started"
+     "state": "ready"
     },
     {
      "n": 9,
