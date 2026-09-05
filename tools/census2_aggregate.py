@@ -149,6 +149,12 @@ def main():
     ap.add_argument("--strict-ids", action="store_true",
                     help="do not pair a stray verdict with an unread sense of the "
                          "same word; report both as-is, the pre-tick-8 behaviour")
+    ap.add_argument("--arm", action="append", default=[], metavar="NAME=WORKSHEET",
+                    help="a census arm: NAME=path to the family worksheet whose members "
+                         "belong to it. Repeatable. Census 012 has two - candidate and "
+                         "control - because the candidate draw is mostly noun and every "
+                         "comparable census is adjective; the 5%% gate is judged per arm "
+                         "and per arm/POS, never on the blend.")
     ap.add_argument("--reader-model", default=None,
                     help="resolved model ID actually served (e.g. claude-fable-5-1); "
                          "defaults to the alias named in the agent file")
@@ -181,9 +187,24 @@ def main():
     # the pair can be recognised instead of being written off as a short read.
     stray = sorted(i for i in verdicts if i not in entries)
 
+    # sense id -> arm, from the worksheets. A sense in no arm is reported as
+    # such rather than guessed: the strata were pre-registered, so a sense the
+    # registration did not cover is a finding about the packet, not noise.
+    arm_of = {}
+    for spec in args.arm:
+        name, _, path = spec.partition("=")
+        if not path:
+            raise SystemExit(f"--arm needs NAME=WORKSHEET, got {spec!r}")
+        sheet = json.loads(Path(path).read_text(encoding="utf-8"))
+        for fam in sheet.get("families", []):
+            for m in fam.get("members", []):
+                arm_of[f"{m['word'].replace(' ', '_')}.{m['synset']}"] = name
+
     tally = Counter()
     faults = Counter()
     by_pos = defaultdict(Counter)
+    by_arm = defaultdict(Counter)
+    by_arm_pos = defaultdict(Counter)
     by_history = defaultdict(Counter)
     by_synset = defaultdict(list)
 
@@ -196,6 +217,10 @@ def main():
             "censused" if sense_id in prior else "never-censused")
         tally[verdict] += 1
         by_pos[entry.get("part_of_speech", "?")][verdict] += 1
+        if args.arm:
+            arm = arm_of.get(sense_id, "no-arm")
+            by_arm[arm][verdict] += 1
+            by_arm_pos[f"{arm}/{entry.get('part_of_speech', '?')}"][verdict] += 1
         if history:
             by_history[history][verdict] += 1
         if verdict != "right":
@@ -241,6 +266,14 @@ def main():
         "reconciled_ids": reconciled,
         "faults": dict(faults.most_common()),
         "by_part_of_speech": {k: split(v) for k, v in sorted(by_pos.items())},
+        **({"by_arm": {k: split(v) for k, v in sorted(by_arm.items())},
+            "by_arm_and_pos": {k: split(v) for k, v in sorted(by_arm_pos.items())},
+            "strata_over_threshold": sorted(
+                k for k, v in by_arm_pos.items()
+                if sum(v.values()) and 100 * v["wrong"] / sum(v.values()) > 5.0),
+            "note_strata": "the stop condition is judged per stratum in by_arm_and_pos; "
+                           "the blended error_rate_pct above decides nothing"}
+           if args.arm else {}),
         # Key name kept verbatim so census 002's published results still
         # reproduce byte-for-byte; census 003 has no prior and omits it.
         **({"by_census_001_history": {k: split(v) for k, v in sorted(by_history.items())}}
@@ -255,6 +288,14 @@ def main():
           f"wrong {tally['wrong']}  unsure {tally['unsure']}  -> {rate}% (threshold 5.0%)")
     if missing:
         print(f"MISSING packets: {missing}")
+    if args.arm:
+        for k, v in sorted(by_arm_pos.items()):
+            n = sum(v.values())
+            flag = "  <-- OVER 5%" if n and 100 * v["wrong"] / n > 5.0 else ""
+            print(f"  {k:24} read {n:4}  wrong {v['wrong']:3}  "
+                  f"{(100 * v['wrong'] / n) if n else 0:5.1f}%{flag}")
+        if "no-arm" in by_arm:
+            print(f"  {by_arm['no-arm'].total()} read sense(s) belong to no registered arm")
     if reconciled:
         print(f"RECONCILED {len(reconciled)} mistyped id(s) - counted as read:")
         for r in reconciled:

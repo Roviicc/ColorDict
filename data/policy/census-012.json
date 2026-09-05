@@ -63,5 +63,5 @@
   "control ~4%+": "the tick itself is off - instruments or authoring - not the candidate draw",
   "candidate noun >5%, control fine": "book-restricted small families hurt authoring; change the cap before authoring more"
  },
- "aggregate_with": "census2_aggregate.py - needs an arm key alongside by_part_of_speech (not yet implemented)"
+ "aggregate_with": "census2_aggregate.py --arm candidate=data/families/draft-018.json --arm control=data/families/draft-018-control.json - writes by_arm, by_arm_and_pos and strata_over_threshold; the blended error_rate_pct is still written and still decides nothing. Regression: without --arm the output is identical to census-011-results.json."
 }
