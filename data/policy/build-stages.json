@@ -132,8 +132,8 @@
    "stage": "7",
    "title": "Generate book one and bundle it",
    "spend": "the real spend",
-   "state": "in_progress",
-   "closed_on": null,
+   "state": "done",
+   "closed_on": "2026-09-05",
    "closed_by_commit": null,
    "steps": [
     {
@@ -230,14 +230,15 @@
      "owner": "manager",
      "state": "done",
      "commit": null,
-     "note": "PASSES ON A FRESH INSTALL. Pixel_10_Pro AVD, Android 17, airplane mode on and ping 8.8.8.8 'Network is unreachable'. App launches cold (3.8s) with no crash, and a word sent by ACTION_SEND - the path a book reader actually uses - returns a readable entry. countenance shows the learner line ('the look that a person's face gives') and the book's own sentence about Mr. Bingley; amiable shows the POSITIVE badge, its tone note and the full family spectrum on the mocking->warm axis; does resolves to do with 'does - third-person singular of do'. 78 engine unit tests pass. FOUND WHILE CHECKING - a shipping defect, recorded as stage 7 issue 1 below: the first run of the check silently read a two-day-old dictionary. DictRepository.installBundledIfNeeded copies a bundled dictionary once and guards it with a .installed-<dir> marker, so an EXISTING user who upgrades the APK keeps their old popup-en for ever and never receives book one. Confirmed on device: 11,828,099 B from 2026-09-03 where the new build is 12,035,397 B; pm clear then relaunch installed the new one and the learner lines appeared. Per-dictionary colour, order and enabled state live in DictRegistry keyed by file path, NOT in the dictionary files, so re-copying would not disturb them - the marker's only real job is to keep a dictionary the user DELETED from coming back."
+     "note": "PASSES ON A FRESH INSTALL. Pixel_10_Pro AVD, Android 17, airplane mode on and ping 8.8.8.8 'Network is unreachable'. App launches cold (3.8s) with no crash, and a word sent by ACTION_SEND - the path a book reader actually uses - returns a readable entry. countenance shows the learner line ('the look that a person's face gives') and the book's own sentence about Mr. Bingley; amiable shows the POSITIVE badge, its tone note and the full family spectrum on the mocking->warm axis; does resolves to do with 'does - third-person singular of do'. 43 engine unit tests pass across 7 classes (an earlier note said 78; that double-counted a stale results directory). FOUND WHILE CHECKING - a shipping defect, recorded as stage 7 issue 1 below: the first run of the check silently read a two-day-old dictionary. DictRepository.installBundledIfNeeded copies a bundled dictionary once and guards it with a .installed-<dir> marker, so an EXISTING user who upgrades the APK keeps their old popup-en for ever and never receives book one. Confirmed on device: 11,828,099 B from 2026-09-03 where the new build is 12,035,397 B; pm clear then relaunch installed the new one and the learner lines appeared. Per-dictionary colour, order and enabled state live in DictRegistry keyed by file path, NOT in the dictionary files, so re-copying would not disturb them - the marker's only real job is to keep a dictionary the user DELETED from coming back."
     },
     {
      "n": 13,
      "step": "Write measured numbers into build-stages.json and close stage 7",
-     "owner": "cloud",
-     "state": "not_started",
-     "commit": null
+     "owner": "manager",
+     "state": "done",
+     "commit": null,
+     "note": "MEASURED NUMBERS FOR STAGE 7. Enrichment: 769 entries accepted, 9 rejected, 2,006 senses written (1,909 null, 97 candidate). Blind reads: pilot 3.14%, the 778 at 3.09% sense defect, against a 10% halt line; every fault repaired third-hand and re-read blind. Batch: 3,857 entries, 0 validation errors; entry_validate 14,375 senses, all traceable, POS agreed, gloss unchanged. Shipped file: 111,332 words, 72,289 synonyms, 12,035,397 B dictzipped, 107,477 derived and 3,855 reviewed. Connotation health across the shipped corpus: 2,784 charged senses, 2,440 words holding an authored charged sense, 0 missing from the index, 0 failing to render their badge, 0 fabrications (neutral + explanation) and 0 orphaned charges (neutral + charged family). 88 senses still carry a leftover SentiWordNet score, of which 52 are the Enricher's 'candidate' verdicts; dict_build has gated the machine label behind human-written content since plan 11.5, so a reader sees 'not recorded - report this word' and no reader-facing harm exists. Those 52 are a queue, not a defect. Done-check passed offline on a Pixel_10_Pro, fresh install AND upgrade."
     }
    ],
    "owners": {
@@ -254,7 +255,8 @@
      "where": "app/src/main/java/io/github/roviicc/colordict/data/DictRepository.java installBundledIfNeeded",
      "impact": "book one reaches new installs only. Every existing user upgrades the APK and keeps the old dictionary, so the whole of stage 7 is invisible to them.",
      "proposed_fix": "keep the marker as the 'user deleted this, do not bring it back' signal, but record the bundled .ifo (wordcount, synwordcount, idxfilesize - all of which move with content) in it and re-copy when the bundled .ifo differs AND the dictionary directory still exists.",
-     "state": "open"
+     "state": "fixed",
+     "fixed": "2026-09-05. The marker now holds the bundled .ifo it was written for and a difference means re-copy; a marker with no directory beside it still means the user deleted the dictionary and it stays deleted. A legacy \"1\" marker matches no .ifo, so existing installs refresh once and then record the fingerprint. All three branches tested on device: legacy marker + stale dict -> refreshed (1 B marker and 5 B dict became 399 B and 12,035,397 B, log 'bundled popup-en changed; refreshing it'); unchanged asset -> no re-copy, mtime identical, no log line; deleted directory -> not reinstalled."
     }
    ]
   },

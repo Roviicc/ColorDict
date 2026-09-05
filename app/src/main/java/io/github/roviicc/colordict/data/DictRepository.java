@@ -6,7 +6,9 @@ import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 
+import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -238,8 +240,25 @@ public final class DictRepository {
     }
 
     /** Copies every dictionary bundled under assets/dicts/ into internal
-     *  storage once, so new bundled dictionaries appear after an upgrade
-     *  without disturbing ones the user deleted or recolored. */
+     *  storage, so a new bundled dictionary appears after an upgrade and an
+     *  updated one is refreshed, without disturbing ones the user deleted.
+     *
+     *  <p>The marker used to be written once and never read again, which meant
+     *  a reader who already had a dictionary kept it for ever: an APK carrying
+     *  a rebuilt popup-en installed nothing, reported nothing, and left them on
+     *  the old file. A whole generation run reached new installs and nobody
+     *  else. So the marker now holds the bundled .ifo it was written for -
+     *  wordcount, synwordcount and idxfilesize all move when the content does -
+     *  and a difference means re-copy.
+     *
+     *  <p>Deletion is still honoured, and it is the only thing the marker
+     *  really has to protect: colour, order and enabled live in DictRegistry
+     *  keyed by path, not in these files, so re-copying cannot disturb them. A
+     *  marker with no directory beside it means the user threw the dictionary
+     *  away, and it stays thrown away.
+     *
+     *  <p>A legacy marker holds "1", which matches no .ifo, so the first run
+     *  after this change refreshes once and then records the fingerprint. */
     private void installBundledIfNeeded() {
         AssetManager assets = app.getAssets();
         String[] dirs;
@@ -255,10 +274,22 @@ public final class DictRepository {
         boolean legacyMarker = new File(internalDictDir(), LEGACY_SAMPLE_MARKER).exists();
         for (String dir : dirs) {
             File marker = new File(internalDictDir(), ".installed-" + dir);
-            if (marker.exists() || (legacyMarker && "sample-glossary".equals(dir))) {
+            if (legacyMarker && "sample-glossary".equals(dir)) {
                 continue;
             }
             File target = new File(internalDictDir(), dir);
+            String fingerprint = bundledFingerprint(assets, dir);
+            if (marker.exists()) {
+                // Thrown away on purpose: a marker with no directory beside it.
+                if (!target.isDirectory()) {
+                    continue;
+                }
+                // Unchanged, or we cannot tell - either way leave it alone.
+                if (fingerprint == null || fingerprint.equals(readMarker(marker))) {
+                    continue;
+                }
+                Log.i(TAG, "bundled " + dir + " changed; refreshing it");
+            }
             //noinspection ResultOfMethodCallIgnored
             target.mkdirs();
             try {
@@ -277,12 +308,60 @@ public final class DictRepository {
                         }
                     }
                 }
-                try (FileOutputStream m = new FileOutputStream(marker)) {
-                    m.write('1');
+                try (OutputStream m = new FileOutputStream(marker)) {
+                    m.write((fingerprint == null ? "1" : fingerprint)
+                            .getBytes(StandardCharsets.UTF_8));
                 }
             } catch (IOException e) {
                 Log.w(TAG, "could not install bundled dictionary " + dir, e);
             }
+        }
+    }
+
+    /** The bundled .ifo for one dictionary, used as its content fingerprint.
+     *  Null when there is none to read, which is treated as "cannot tell" and
+     *  never as "changed" - a dictionary is not re-copied on a guess. */
+    private String bundledFingerprint(AssetManager assets, String dir) {
+        String[] names;
+        try {
+            names = assets.list(BUNDLED_ASSET_ROOT + "/" + dir);
+        } catch (IOException e) {
+            return null;
+        }
+        if (names == null) {
+            return null;
+        }
+        for (String name : names) {
+            if (!name.endsWith(".ifo")) {
+                continue;
+            }
+            try (InputStream in = assets.open(
+                    BUNDLED_ASSET_ROOT + "/" + dir + "/" + name)) {
+                ByteArrayOutputStream buf = new ByteArrayOutputStream();
+                byte[] chunk = new byte[4096];
+                int n;
+                while ((n = in.read(chunk)) > 0) {
+                    buf.write(chunk, 0, n);
+                }
+                return buf.toString("UTF-8");
+            } catch (IOException e) {
+                return null;
+            }
+        }
+        return null;
+    }
+
+    private String readMarker(File marker) {
+        try (InputStream in = new FileInputStream(marker)) {
+            ByteArrayOutputStream buf = new ByteArrayOutputStream();
+            byte[] chunk = new byte[4096];
+            int n;
+            while ((n = in.read(chunk)) > 0) {
+                buf.write(chunk, 0, n);
+            }
+            return buf.toString("UTF-8");
+        } catch (IOException e) {
+            return null;
         }
     }
 
