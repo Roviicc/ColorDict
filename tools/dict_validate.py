@@ -166,6 +166,16 @@ def check_connotation(rep, where, sense):
     tone = conn.get("tone")
     if tone is not None and (not isinstance(tone, str) or not tone.strip()):
         rep.error(where, "connotation tone must be null or a non-empty string")
+    # The mirror of the fabrication rule above. That rule stops a neutral sense
+    # explaining a charge it does not have; this one stops a charged sense
+    # asserting one with nothing behind it. A reader shown a bare 'negative'
+    # learns only that the dictionary disapproves, not what of - and a blind
+    # census cannot mark it wrong, because there is no note to disagree with.
+    # Warning, not error: 69 legacy senses predate the family path and would
+    # fail the build today (a further 33 carry the old `explanation` field
+    # instead of a tone note, and are left alone until that field is retired).
+    elif label != "neutral" and not tone and not conn.get("explanation"):
+        rep.warn(where, f"label {label!r} asserted with no tone note and no explanation")
     usage = conn.get("usage_labels", [])
     if not isinstance(usage, list):
         rep.error(where, "usage_labels must be an array")
