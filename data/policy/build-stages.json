@@ -272,10 +272,11 @@
    "decision": {
     "what": "Stage 8 is deferred because its mechanism does not exist, not because the work is hard.",
     "why": "Stage 8 IS the demand tick: reports_ingest dedupes by sense and RANKS BY REPORT COUNT. That needs reports from people who are not the author. The author confirmed on 2026-09-05 that there are no such readers - they are the only user. Three reports exist, all from the author's own device, all singletons: counting and ranking three 1s produces no order, which is what HANDOFF means by 'the queue is noise at that size'. Waiting on ~20 distinct reported senses is waiting on something with no path.",
-    "standing_method": "Book-driven selection replaces it, and stage 7 measured it: take a real book, take the coverage band, rank each sense by what a reader of THAT book actually meets. 3.09% sense defect with rank_wrong 0 over 194 senses. The charge gate it displaces was measured in 11.75 at five of eight eligible families being taxonomy rather than connotation. The book is a demand signal that needs no users, and a better proxy than the gate.",
+    "standing_method": "Book-driven selection replaces it, and stage 7 measured it: take a real book, take the coverage band, rank each sense by what a reader of THAT book actually meets. 3.09% sense defect with rank_wrong 0 over 194 senses. The charge gate it displaces was measured in 11.75 at three of eight eligible families being taxonomy and five connotation (corrected 2026-09-05 - this sentence read \"five of eight taxonomy\"). The book is a demand signal that needs no users; the gate is a decent proxy the book supplements rather than beats.",
     "what_this_gives_up": "Every census measures whether the dictionary is CORRECT against a rubric. Nobody has measured whether it is USEFUL to someone reading a novel, and no amount of book-driven work substitutes for that. Accepted deliberately rather than stumbled into.",
     "reversible": "If readers ever appear, stage 8 resumes unchanged - reports_ingest, the deny list, the family grouping and the 5% gate are all still the right design. Nothing here is deleted.",
-    "next": "Book two. pg74 (5,432 sentences) and pg2701 (10,254 sentences) are already ingested under data/build/books/."
+    "next": "Book two. pg74 (5,432 sentences) and pg2701 (10,254 sentences) are already ingested under data/build/books/.",
+    "correction_2026_09_05": "Corrected 2026-09-05. A blind recount of gate-triage-reads/rater-a.json and rater-b.json against the band tags in gate-triage.json gives the eligible band as five connotation, three taxonomy (*irrelevant*, *unfavorable*, *competitive*). The sentence \"five of eight judged taxonomy\" reached that count by adding *inaccurate* and *genuine*, which are hand-picked controls, not eligible families. The gate selects connotation five times in eight - 0.62 against the hand-picked corpus's 0.58 - and the same results file already said so in findings[2]. What survives: roughly 40% of tick effort (3/8) goes to taxonomy, and the threshold should not be lowered. What does not: the gate as a proxy that mostly picks taxonomy, and the demotion of the adjective queue to filler that was argued from it."
    }
   },
   {
@@ -289,7 +290,7 @@
    "closed_by_commit": null,
    "done_when": "every candidate in data/policy/*/results.json is either authored or held with a reason, and the blind census on the authored senses is under 5%",
    "stop": "if the census on book-restricted families reads worse than 007-011 the cap is the problem; change it in candidate_families.py and treat the next run as a new baseline",
-   "note": "Builds the join Lane A and Lane B never had. 121 Enricher candidates sat unwritten since enrich-001: enrich_validate.py writes nothing for a candidate and the why dies in results.json. candidate_families.py (commit 9d59909) routes them to book-restricted families capped at 20: after the audit fixes: 86 worksheets, 480 senses, 24 held - against 3,958 senses naive.",
+   "note": "Builds the join Lane A and Lane B never had. 121 Enricher candidates sat unwritten since enrich-001: enrich_validate.py writes nothing for a candidate and the why dies in results.json. candidate_families.py (commit 9d59909) routes them to book-restricted families capped at 20: after the audit fixes: 86 worksheets, 480 senses, 24 held - against 3,958 senses naive. 2026-09-05 later: 11.75 inversion corrected in 4 files (gate-triage-results.json carries the recount); census 012 pre-registered with a control arm; sister added as a hand candidate.",
    "steps": [
     {
      "n": 1,
@@ -313,14 +314,21 @@
      "note": "Rewritten and re-verified: 121 candidates -> 97 routed / 86 worksheets / 480 senses ({'adjective': 62, 'noun': 342, 'verb': 76}), 24 held with exact reasons. Guards pass: 0 duplicate rows, 0 censused rows redrawn, 0 annotated families redrawn, no anchors key (build_spectrum spans the axis and refuses a flat family), book frequency keyed on (lemma, POS). lady/woman/young/brother now route; man held at 31 (cap 20). A word that is a candidate under two synsets of one family carries one row - the other sense is held and says so (virtue, ignorant). sister/oewn-10621666-n, a recorded false null, was never a candidate and is in no sheet - needs a hand decision."
     },
     {
+     "n": "3b",
+     "step": "Control arm drawn and pre-registered: 6 gate-eligible adjective families, 88 senses (86 annotatable), 5.3 screen read - bastardly pre-skipped, halal kept with note",
+     "owner": "manager",
+     "state": "done"
+    },
+    {
      "n": 3,
      "step": "candidate_families.py -> data/families/draft-018.json",
      "owner": "manager",
-     "state": "not_started"
+     "state": "done",
+     "note": "draft-018.json written: 98 routed / 87 worksheets / 485 senses, 24 held (stage9-candidates.json, which is also the demand log). sister added via data/policy/hand-candidates.json."
     },
     {
      "n": 4,
-     "step": "86 family-authors, each writing its own JSON to disk",
+     "step": "87 family-authors on draft-018 + 6 on draft-018-control, each writing its own JSON to disk",
      "owner": "manager",
      "state": "not_started"
     },
@@ -332,7 +340,7 @@
     },
     {
      "n": 6,
-     "step": "Blind census of the 516 (census-012)",
+     "step": "Census 012: stratified read, pre-registered in census-012.json - candidate arm by POS + adjective control arm; 5% per stratum",
      "owner": "shawn",
      "state": "not_started"
     },

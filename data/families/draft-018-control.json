@@ -1,0 +1,736 @@
+{
+ "batch": "draft-018-control",
+ "families": [
+  {
+   "id": "family-01462344-a",
+   "axis": "condemning → praising",
+   "_head": [
+    "lovable",
+    "loveable"
+   ],
+   "_definition": "having characteristics that attract love or affection",
+   "anchors": [
+    "lovable",
+    "loveable",
+    "adorable",
+    "endearing",
+    "lovely",
+    "angelic"
+   ],
+   "members": [
+    {
+     "word": "lovable",
+     "synset": "oewn-01462344-a",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "having characteristics that attract love or affection"
+    },
+    {
+     "word": "loveable",
+     "synset": "oewn-01462344-a",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "having characteristics that attract love or affection"
+    },
+    {
+     "word": "adorable",
+     "synset": "oewn-01462677-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "lovable especially in a childlike or naive way"
+    },
+    {
+     "word": "endearing",
+     "synset": "oewn-01462677-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "lovable especially in a childlike or naive way"
+    },
+    {
+     "word": "lovely",
+     "synset": "oewn-01462677-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "lovable especially in a childlike or naive way"
+    },
+    {
+     "word": "angelic",
+     "synset": "oewn-01462871-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "having a sweet nature befitting an angel or cherub"
+    },
+    {
+     "word": "angelical",
+     "synset": "oewn-01462871-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "having a sweet nature befitting an angel or cherub"
+    },
+    {
+     "word": "cherubic",
+     "synset": "oewn-01462871-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "having a sweet nature befitting an angel or cherub"
+    },
+    {
+     "word": "seraphic",
+     "synset": "oewn-01462871-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "having a sweet nature befitting an angel or cherub"
+    },
+    {
+     "word": "sweet",
+     "synset": "oewn-01462871-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "having a sweet nature befitting an angel or cherub"
+    },
+    {
+     "word": "cuddlesome",
+     "synset": "oewn-01463188-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "inviting cuddling or hugging"
+    },
+    {
+     "word": "cuddly",
+     "synset": "oewn-01463188-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "inviting cuddling or hugging"
+    }
+   ]
+  },
+  {
+   "id": "family-01884565-a",
+   "axis": "condemning → praising",
+   "_head": [
+    "proper"
+   ],
+   "_definition": "marked by suitability or rightness or appropriateness",
+   "anchors": [
+    "proper",
+    "becoming",
+    "comely",
+    "comme il faut",
+    "decorous",
+    "seemly"
+   ],
+   "members": [
+    {
+     "word": "proper",
+     "synset": "oewn-01884565-a",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "marked by suitability or rightness or appropriateness"
+    },
+    {
+     "word": "becoming",
+     "synset": "oewn-01884969-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "according with custom or propriety"
+    },
+    {
+     "word": "comely",
+     "synset": "oewn-01884969-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "according with custom or propriety"
+    },
+    {
+     "word": "comme il faut",
+     "synset": "oewn-01884969-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "according with custom or propriety"
+    },
+    {
+     "word": "decorous",
+     "synset": "oewn-01884969-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "according with custom or propriety"
+    },
+    {
+     "word": "seemly",
+     "synset": "oewn-01884969-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "according with custom or propriety"
+    },
+    {
+     "word": "correct",
+     "synset": "oewn-01885314-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "socially right or correct"
+    },
+    {
+     "word": "right",
+     "synset": "oewn-01885314-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "socially right or correct"
+    },
+    {
+     "word": "fitting",
+     "synset": "oewn-01885720-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "in harmony with the spirit of particular persons or occasion"
+    },
+    {
+     "word": "decent",
+     "synset": "oewn-01885720-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "in harmony with the spirit of particular persons or occasion"
+    },
+    {
+     "word": "halal",
+     "synset": "oewn-01885994-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "proper or legitimate according to Muslim law",
+     "_note_5_3": "screen flagged religion; kept - the gloss is a dietary-law fact, not a judgement of a faith. The author may withhold."
+    },
+    {
+     "word": "kosher",
+     "synset": "oewn-01886153-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "proper or legitimate"
+    },
+    {
+     "word": "priggish",
+     "synset": "oewn-01886245-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "exaggeratedly proper"
+    },
+    {
+     "word": "prim",
+     "synset": "oewn-01886245-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "exaggeratedly proper"
+    },
+    {
+     "word": "prissy",
+     "synset": "oewn-01886245-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "exaggeratedly proper"
+    },
+    {
+     "word": "prudish",
+     "synset": "oewn-01886245-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "exaggeratedly proper"
+    }
+   ]
+  },
+  {
+   "id": "family-00907770-a",
+   "axis": "condemning → praising",
+   "_head": [
+    "contemptible"
+   ],
+   "_definition": "deserving of contempt or scorn",
+   "anchors": [
+    "contemptible",
+    "abject",
+    "low",
+    "low-down",
+    "miserable",
+    "scummy"
+   ],
+   "members": [
+    {
+     "word": "contemptible",
+     "synset": "oewn-00907770-a",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "deserving of contempt or scorn"
+    },
+    {
+     "word": "abject",
+     "synset": "oewn-00907967-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "of the most contemptible kind"
+    },
+    {
+     "word": "low",
+     "synset": "oewn-00907967-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "of the most contemptible kind"
+    },
+    {
+     "word": "low-down",
+     "synset": "oewn-00907967-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "of the most contemptible kind"
+    },
+    {
+     "word": "miserable",
+     "synset": "oewn-00907967-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "of the most contemptible kind"
+    },
+    {
+     "word": "scummy",
+     "synset": "oewn-00907967-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "of the most contemptible kind"
+    },
+    {
+     "word": "scurvy",
+     "synset": "oewn-00907967-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "of the most contemptible kind"
+    },
+    {
+     "word": "bastardly",
+     "synset": "oewn-00908261-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "of no value or worth",
+     "_skip": true,
+     "_skip_reason": "5.3: birth-status slur, same class as the held family illegitimate - pre-skipped by the session; the author may clear it"
+    },
+    {
+     "word": "mean",
+     "synset": "oewn-00908261-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "of no value or worth"
+    },
+    {
+     "word": "pathetic",
+     "synset": "oewn-00908403-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "inspiring mixed contempt and pity"
+    },
+    {
+     "word": "pitiable",
+     "synset": "oewn-00908403-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "inspiring mixed contempt and pity"
+    },
+    {
+     "word": "pitiful",
+     "synset": "oewn-00908403-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "inspiring mixed contempt and pity"
+    }
+   ]
+  },
+  {
+   "id": "family-02523798-a",
+   "axis": "condemning → praising",
+   "_head": [
+    "wicked"
+   ],
+   "_definition": "morally bad in principle or practice",
+   "anchors": [
+    "wicked",
+    "evil",
+    "vicious",
+    "heavy",
+    "flagitious",
+    "heinous"
+   ],
+   "members": [
+    {
+     "word": "wicked",
+     "synset": "oewn-02523798-a",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "morally bad in principle or practice"
+    },
+    {
+     "word": "evil",
+     "synset": "oewn-02524157-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "having the nature of vice"
+    },
+    {
+     "word": "vicious",
+     "synset": "oewn-02524157-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "having the nature of vice"
+    },
+    {
+     "word": "heavy",
+     "synset": "oewn-02524297-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "(of an actor or role) being or playing the villain"
+    },
+    {
+     "word": "flagitious",
+     "synset": "oewn-02524438-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "extremely wicked, deeply criminal"
+    },
+    {
+     "word": "heinous",
+     "synset": "oewn-02524438-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "extremely wicked, deeply criminal"
+    },
+    {
+     "word": "iniquitous",
+     "synset": "oewn-02524601-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "characterized by iniquity; wicked because it is believed to be a sin"
+    },
+    {
+     "word": "sinful",
+     "synset": "oewn-02524601-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "characterized by iniquity; wicked because it is believed to be a sin"
+    },
+    {
+     "word": "ungodly",
+     "synset": "oewn-02524601-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "characterized by iniquity; wicked because it is believed to be a sin"
+    },
+    {
+     "word": "irreclaimable",
+     "synset": "oewn-02524877-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "insusceptible of reform"
+    },
+    {
+     "word": "irredeemable",
+     "synset": "oewn-02524877-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "insusceptible of reform"
+    },
+    {
+     "word": "unredeemable",
+     "synset": "oewn-02524877-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "insusceptible of reform"
+    },
+    {
+     "word": "unreformable",
+     "synset": "oewn-02524877-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "insusceptible of reform"
+    },
+    {
+     "word": "nefarious",
+     "synset": "oewn-02525059-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "extremely wicked"
+    },
+    {
+     "word": "villainous",
+     "synset": "oewn-02525059-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "extremely wicked"
+    },
+    {
+     "word": "peccable",
+     "synset": "oewn-02525272-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "liable to sin"
+    }
+   ]
+  },
+  {
+   "id": "family-01359531-a",
+   "axis": "condemning → praising",
+   "_head": [
+    "invigorating"
+   ],
+   "_definition": "imparting strength and vitality",
+   "anchors": [
+    "invigorating",
+    "animating",
+    "enlivening",
+    "bracing",
+    "brisk",
+    "fresh"
+   ],
+   "members": [
+    {
+     "word": "invigorating",
+     "synset": "oewn-01359531-a",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "imparting strength and vitality"
+    },
+    {
+     "word": "animating",
+     "synset": "oewn-01359780-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "giving spirit and vivacity"
+    },
+    {
+     "word": "enlivening",
+     "synset": "oewn-01359780-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "giving spirit and vivacity"
+    },
+    {
+     "word": "bracing",
+     "synset": "oewn-01359875-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "imparting vitality and energy"
+    },
+    {
+     "word": "brisk",
+     "synset": "oewn-01359875-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "imparting vitality and energy"
+    },
+    {
+     "word": "fresh",
+     "synset": "oewn-01359875-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "imparting vitality and energy"
+    },
+    {
+     "word": "refreshing",
+     "synset": "oewn-01359875-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "imparting vitality and energy"
+    },
+    {
+     "word": "refreshful",
+     "synset": "oewn-01359875-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "imparting vitality and energy"
+    },
+    {
+     "word": "tonic",
+     "synset": "oewn-01359875-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "imparting vitality and energy"
+    },
+    {
+     "word": "corroborant",
+     "synset": "oewn-01360054-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "used of a medicine that is strengthening",
+     "_skip": true,
+     "_skip_reason": "gloss is a usage restriction, not a definition"
+    },
+    {
+     "word": "exhilarating",
+     "synset": "oewn-01360190-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "making lively and cheerful"
+    },
+    {
+     "word": "stimulating",
+     "synset": "oewn-01360190-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "making lively and cheerful"
+    },
+    {
+     "word": "life-giving",
+     "synset": "oewn-01360332-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "giving or having the power to give life and spirit"
+    },
+    {
+     "word": "vitalizing",
+     "synset": "oewn-01360332-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "giving or having the power to give life and spirit"
+    },
+    {
+     "word": "renewing",
+     "synset": "oewn-01360590-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "tending to impart new life and vigor to"
+    },
+    {
+     "word": "restorative",
+     "synset": "oewn-01360590-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "tending to impart new life and vigor to"
+    }
+   ]
+  },
+  {
+   "id": "family-00808265-a",
+   "axis": "condemning → praising",
+   "_head": [
+    "lively"
+   ],
+   "_definition": "full of life and energy",
+   "anchors": [
+    "lively",
+    "alive",
+    "bouncing",
+    "bouncy",
+    "peppy",
+    "spirited"
+   ],
+   "members": [
+    {
+     "word": "lively",
+     "synset": "oewn-00808265-a",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "full of life and energy"
+    },
+    {
+     "word": "alive",
+     "synset": "oewn-00808685-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "(often followed by ‘with’) full of life and spirit"
+    },
+    {
+     "word": "bouncing",
+     "synset": "oewn-00808879-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "marked by lively action"
+    },
+    {
+     "word": "bouncy",
+     "synset": "oewn-00808879-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "marked by lively action"
+    },
+    {
+     "word": "peppy",
+     "synset": "oewn-00808879-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "marked by lively action"
+    },
+    {
+     "word": "spirited",
+     "synset": "oewn-00808879-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "marked by lively action"
+    },
+    {
+     "word": "zippy",
+     "synset": "oewn-00808879-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "marked by lively action"
+    },
+    {
+     "word": "breezy",
+     "synset": "oewn-00809136-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "fresh and animated"
+    },
+    {
+     "word": "bubbly",
+     "synset": "oewn-00809246-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "full of or showing high spirits"
+    },
+    {
+     "word": "bubbling",
+     "synset": "oewn-00809380-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "marked by high spirits or excitement"
+    },
+    {
+     "word": "effervescent",
+     "synset": "oewn-00809380-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "marked by high spirits or excitement"
+    },
+    {
+     "word": "frothy",
+     "synset": "oewn-00809380-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "marked by high spirits or excitement"
+    },
+    {
+     "word": "scintillating",
+     "synset": "oewn-00809380-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "marked by high spirits or excitement"
+    },
+    {
+     "word": "sparkly",
+     "synset": "oewn-00809380-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "marked by high spirits or excitement"
+    },
+    {
+     "word": "burbling",
+     "synset": "oewn-00809634-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "uttered with unrestrained enthusiasm"
+    },
+    {
+     "word": "burbly",
+     "synset": "oewn-00809634-s",
+     "charge": 0,
+     "tone": "",
+     "_gloss": "uttered with unrestrained enthusiasm"
+    }
+   ]
+  }
+ ],
+ "_purpose": "Census 012 control arm. Six gate-eligible, unauthored adjective families drawn from data/worklist.tsv, authored in the same tick as draft-018 with the same unchanged instruments, so the candidate draw (71% noun) has a stratum directly comparable to censuses 007-010 (100% adjective). The 5% stop condition applies per stratum, never to the blend. Pre-registered before any read: data/policy/census-012.json."
+}

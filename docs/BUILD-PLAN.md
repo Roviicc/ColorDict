@@ -28,7 +28,10 @@ service.
 ## 2. The four decisions this plan rests on
 
 **Books select, not a gate.** The charge gate was a proxy for "does this word
-carry connotation," and 11.75 measured it choosing taxonomy five times in eight.
+carry connotation," and 11.75 measured it choosing connotation five times in
+eight and taxonomy three — as good as the hand-picked corpus, and no better. *(This
+line read "taxonomy five times in eight" until 2026-09-05; the recount is in
+§11.75's results file.)* The case for books does not rest on the gate being bad.
 A word a reader actually meets in prose is not a proxy. Until real users generate
 a report log, a book is the closest stand-in for demand there is.
 
@@ -221,9 +224,10 @@ happened.
 So **book-driven selection is the standing method**, and stage 7 measured it:
 take a real book, take the coverage band, rank each sense by what a reader of
 *that* book meets — 3.09% defect, `rank_wrong` 0. The gate it displaces was
-measured in §11.75 at five of eight eligible families being taxonomy rather than
-connotation. The book is a demand signal that needs no users, and a better proxy
-than the gate.
+measured in §11.75 at three of eight eligible families being taxonomy and five
+connotation *(corrected 2026-09-05 from "five of eight taxonomy")*. The book is a
+demand signal that needs no users; the gate is a decent proxy that the book does
+not need to beat, only to supplement.
 
 What this gives up, stated once: every census measures whether the dictionary is
 **correct**. Nobody has measured whether it is **useful** to someone reading a
@@ -356,7 +360,9 @@ Merriam-Webster. Stages 9–11 are the work of standing it up; after that, addin
 a book is the unit of work.
 
 The gate-driven draw is not deleted. `worklist_build.py` and the queues stay on
-disk as filler for when there is no book to draw from, which §6 already said.
+disk as the second draw — when a book summons nothing, and as the pre-registered
+control arm every candidate census carries (stage 9). §6 records how "filler"
+came to be said and why it was withdrawn.
 
 Current: 235 families, 2,885 senses, ~2% across censuses 007–011, no outstanding
 repairs. 121 candidates awaiting the join (stage 9).
@@ -369,7 +375,7 @@ repairs. 121 candidates awaiting the join (stage 9).
 | --- | --- |
 | Verb screening pass | census 011 answered it: verbs read 2.2% |
 | Noun selection filter | the book keeps *pneumonia* out; no filter needed |
-| Draining the adjective queue as the default | demoted to filler when there is nothing better to draw |
+| Draining the adjective queue as the default | demoted to filler on 2026-09-02 on the sentence "the gate picks taxonomy five times in eight" — which a 2026-09-05 recount of §11.75's raw rater files inverted: five of eight are connotation, 0.62 against the hand-picked 0.58. Kept as the second draw and the census control arm; still not the default, because a book is demand and the gate is a proxy |
 | Lazy generation, the backend, endpoints | bundling removes the need |
 | 9 of the 13 graph-document nodes | speculative before a single user |
 

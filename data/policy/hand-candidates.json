@@ -1,0 +1,14 @@
+{
+ "purpose": "Senses an audit measured as carrying connotation that the Enricher never flagged. candidate_families.py reads this beside the runs' results.json. A false null the null-auditor overturned is a candidate someone measured, not a guess - stage 5 recorded that all three false nulls were routed to the family path, and sister was not, until this file.",
+ "candidates": [
+  {
+   "word": "sister",
+   "pos": "noun",
+   "synset": "oewn-10621666-n",
+   "why": "Extending a kin word to a fellow member claims warmth and solidarity that the plain 'member' or 'colleague' does not; a learner should know it lands as affectionate belonging.",
+   "source": "enrich-002 null audit, verdicts-01.json, null-wrong (null-auditor.md, fable)",
+   "added": "2026-09-05",
+   "note": "The Enricher's own rubric (enricher.md section 4) names sister as its canonical NULL example. For kin, address and approval terms the charge lives in the speaker's choice of word, not in a judgement aimed at the referent - the audit found this; the rubric has not yet learned it."
+  }
+ ]
+}

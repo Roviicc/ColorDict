@@ -170,6 +170,9 @@ def main():
     ap.add_argument("--bulk", type=Path, default=ROOT / "data/entries/derived-bulk.jsonl")
     ap.add_argument("--families", type=Path, default=ROOT / "data/families",
                     help="annotated-*.json shards; already-authored work is not redrawn")
+    ap.add_argument("--extra", type=Path, default=ROOT / "data/policy/hand-candidates.json",
+                    help="hand candidates: senses an audit found charged that the Enricher "
+                         "never flagged, e.g. a null the null-auditor overturned")
     ap.add_argument("--cap", type=int, default=20,
                     help="maximum members per worksheet (default 20)")
     ap.add_argument("--min-members", type=int, default=2,
@@ -184,6 +187,13 @@ def main():
     if args.run:
         runs = [p for p in runs if p.name in set(args.run)]
     candidates = load_candidates(runs)
+    if args.extra.is_file():
+        # A false null the null audit caught is a candidate someone measured,
+        # not one the Enricher missed twice. stage 5 recorded that all three
+        # were routed to the family path; sister was not, until this.
+        for h in json.loads(args.extra.read_text(encoding="utf-8")).get("candidates", []):
+            candidates.append({"run": "hand:" + h.get("source", "?"), "word": h["word"],
+                               "pos": h["pos"], "synset": h["synset"], "why": h["why"]})
     if not candidates:
         print("no candidates found - nothing to route")
         return 1

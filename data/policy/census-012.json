@@ -1,0 +1,67 @@
+{
+ "sample": "census-012",
+ "pre_registered": "2026-09-05",
+ "status": "design - no authoring, no read yet",
+ "why": "The candidate draw is mostly noun; every comparable census (007-010) is 100% adjective. Composition alone moves the expected blended rate 1.82% -> ~3.2% with no change in authoring quality, and the comparability rule (reader_model, reader_agent) cannot see it. So the read is stratified, a control arm is authored in the same tick with the same instruments, and the 5% stop condition is applied per stratum - never to the blend. Strata are fixed here, before any fault is seen.",
+ "instruments": {
+  "author": ".claude/agents/family-author.md",
+  "reader": ".claude/agents/census-reader.md",
+  "repairer": ".claude/agents/repairer.md",
+  "rule": "unchanged from censuses 007-011; the instrument gate must pass before grading"
+ },
+ "arms": {
+  "candidate": {
+   "worksheet": "data/families/draft-018.json",
+   "record": "data/policy/stage9-candidates.json",
+   "families": 87,
+   "annotatable_senses": 483,
+   "by_pos": {
+    "adjective": 62,
+    "noun": 345,
+    "verb": 76
+   },
+   "selection": "Enricher candidates routed by candidate_families.py, cap 20, book-restricted",
+   "comparable_to": "census 011 only (noun n=53, verb n=46) - a new baseline for nouns"
+  },
+  "control": {
+   "worksheet": "data/families/draft-018-control.json",
+   "families": [
+    "family-01462344-a",
+    "family-01884565-a",
+    "family-00907770-a",
+    "family-02523798-a",
+    "family-01359531-a",
+    "family-00808265-a"
+   ],
+   "heads": [
+    "lovable",
+    "proper",
+    "contemptible",
+    "wicked",
+    "invigorating",
+    "lively"
+   ],
+   "annotatable_senses": 86,
+   "by_pos": {
+    "adjective": 86
+   },
+   "selection": "gate-eligible (size>=8, charged>=70%), unauthored, from data/worklist.tsv - the draw censuses 007-010 measured",
+   "comparable_to": "censuses 007-010 pooled 21/1151 = 1.82%",
+   "5.3": "bastardly pre-skipped (birth-status slur); halal kept with a note; the author reads the draw and may overrule either"
+  }
+ },
+ "strata": [
+  "candidate/noun",
+  "candidate/verb",
+  "candidate/adjective",
+  "control/adjective"
+ ],
+ "stop_condition": "any stratum over 5% stops the run for that stratum; the blended rate is reported but decides nothing",
+ "read_design": "full read of the control arm (~86); candidate arm read at the census sampling rate but never fewer than 50 per stratum where the stratum allows; packets built by census_packets.py; reader sees gloss, charge, note - not which arm",
+ "what_a_result_means": {
+  "control ~1.8%, candidate noun ~3%": "pipeline fine; the noun number is a noun number",
+  "control ~4%+": "the tick itself is off - instruments or authoring - not the candidate draw",
+  "candidate noun >5%, control fine": "book-restricted small families hurt authoring; change the cap before authoring more"
+ },
+ "aggregate_with": "census2_aggregate.py - needs an arm key alongside by_part_of_speech (not yet implemented)"
+}

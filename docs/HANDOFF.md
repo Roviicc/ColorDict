@@ -81,11 +81,13 @@ the jump from 178 came from diagnosing a bottleneck (the orchestrating session's
 context) rather than working harder.
 
 **Caveat one — about 40% of what gets annotated is arguably not a connotation
-family.** A blind triage with controls (§11.75) found that five of eight
+family.** A blind triage with controls (§11.75) found that three of eight
 currently-eligible families were judged *taxonomy* rather than *connotation* by
-two independent raters. The gate is still the best available — lowering it makes
-things worse, and it selects at the same quality as the hand-picked corpus — but
-the charge fraction is a weak proxy and no threshold fixes that.
+two independent raters, and five connotation. The gate is still the best
+available — lowering it makes things worse, and it selects at the same quality as
+the hand-picked corpus (0.62 vs 0.58) — but the charge fraction is a weak proxy
+and no threshold fixes that. *(Read "five of eight taxonomy" until 2026-09-05; the
+recount is in §11.75's results file. The 40% figure stands: 3/8.)*
 
 **Caveat two — the adjective line is one of four, and the other three are barely
 started.** See §4.
@@ -160,7 +162,7 @@ more - it is the product's input. See section 5.
 
 | line | pool | done | queue | state |
 | --- | --- | --- | --- | --- |
-| **Adjective** | 5,911 candidate families | 227 families, 2,786 senses | 147 families / 2,434 members | **fallback filler** - drawn only when there is no demand to serve |
+| **Adjective** | 5,911 candidate families | 227 families, 2,786 senses | 147 families / 2,434 members | **second draw** - demoted to filler on 2026-09-02 on a misread of §11.75 (the gate picks connotation 5/8, not taxonomy); from 2026-09-05 drawn when a book summons nothing, and as the census control arm |
 | **Adverb** | 5,571 senses, 2,505 pertainym links | 480 senses | n/a | **self-feeding** - inherited free from adjectives, keep it |
 | **Verb** | 2,494 candidate families | 4 families, 162 senses | 68 book-ranked families / 903 members | **open** - first tick read at 2.2% |
 | **Noun** | 11,484 families / 129,506 members | 4 families, 53 senses | 179 book-ranked families / 2,516 members | **open** - first tick read at 3.8%, Stage E closed by the book, not by a filter |
@@ -188,8 +190,9 @@ guessing which words carry connotation and let the people using the app say so.
 
 **The gate is a proxy; a reported miss is ground truth.** The queue is built
 from size >= 8, charged >= 70%, ranked by wordfreq Zipf. Section 11.75 measured
-what that proxy buys: two independent raters judged five of eight eligible
-families to be taxonomy rather than connotation. A person who looked a word up
+what that proxy buys: two independent raters judged three of eight eligible
+families to be taxonomy rather than connotation, five connotation (corrected
+2026-09-05; the original read "five of eight taxonomy"). A person who looked a word up
 and found no connotation row is not a proxy for demand. They are the demand.
 
 **What this changes, and what it does not.** It changes *selection* only. The
@@ -294,7 +297,7 @@ whether the method survives contact with words it did not select.
 > problem, not a queue problem - the words are not harder, and if the rate says
 > otherwise that finding is worth more than the shard.
 
-### Stage F - fallback filler
+### Stage F - fallback filler *(the demotion rested on an inverted reading of §11.75; corrected 2026-09-05 - see caveat one in §2 and BUILD-PLAN §6)*
 
 147 adjective families / 2,434 members, ranked and gated, ready to draw. Run a
 tick from here whenever there is no demand to serve, and prefer the largest

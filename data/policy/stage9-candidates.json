@@ -1,0 +1,1100 @@
+{
+ "cap": 20,
+ "min_members": 2,
+ "runs": [
+  "census-001-reads",
+  "census-003-reads",
+  "census-004-reads",
+  "census-005-adversarial-reads",
+  "census-005-reads",
+  "census-006-reads",
+  "census-007-reads",
+  "census-008-reads",
+  "census-009-reads",
+  "census-010-reads",
+  "census-011-reads",
+  "enrich-001",
+  "enrich-002",
+  "enrich-003-control",
+  "enrich-003-pilot",
+  "gate-triage-reads",
+  "stage7-book1",
+  "stage7-book1-remaining",
+  "stage7-book1-run",
+  "verdicts"
+ ],
+ "candidates": 122,
+ "routed": 98,
+ "held": 24,
+ "worksheets": 87,
+ "senses_to_author": 485,
+ "senses_by_pos": {
+  "adjective": 62,
+  "noun": 347,
+  "verb": 76
+ },
+ "guards": {
+  "members_already_toned_left_out": [
+   "trust.oewn-00690278-v"
+  ],
+  "duplicate_rows_resolved": 1,
+  "members_dropped_no_gloss": 0,
+  "members_pre_skipped_undefinable": 2
+ },
+ "routing": {
+  "oewn-01651383-a": [
+   {
+    "word": "young",
+    "pos": "adjective",
+    "synset": "oewn-01654162-s",
+    "why": "praises someone as fresh and full of life",
+    "run": "enrich-001"
+   },
+   {
+    "word": "young",
+    "pos": "adjective",
+    "synset": "oewn-01654162-s",
+    "why": "commends what it is aimed at as vigorous and fresh",
+    "run": "enrich-002"
+   }
+  ],
+  "oewn-10396720-n": [
+   {
+    "word": "mother",
+    "pos": "noun",
+    "synset": "oewn-10352666-n",
+    "why": "addresses an older stranger as kin",
+    "run": "enrich-001"
+   }
+  ],
+  "oewn-10008828-n": [
+   {
+    "word": "lady",
+    "pos": "noun",
+    "synset": "oewn-10008828-n",
+    "why": "measures a woman against a standard of refinement",
+    "run": "enrich-001"
+   },
+   {
+    "word": "lady",
+    "pos": "noun",
+    "synset": "oewn-10008828-n",
+    "why": "chosen over plain 'woman' to mark breeding and manners",
+    "run": "enrich-002"
+   }
+  ],
+  "oewn-04919909-n": [
+   {
+    "word": "civility",
+    "pos": "noun",
+    "synset": "oewn-04921310-n",
+    "why": "marks the politeness as form only, not felt",
+    "run": "enrich-003-pilot"
+   }
+  ],
+  "oewn-00835688-v": [
+   {
+    "word": "deceive",
+    "pos": "verb",
+    "synset": "oewn-00856102-v",
+    "why": "lays intentional dishonesty on the one who does it",
+    "run": "enrich-003-pilot"
+   }
+  ],
+  "oewn-02580280-v": [
+   {
+    "word": "deceive",
+    "pos": "verb",
+    "synset": "oewn-02581157-v",
+    "why": "treats the person as having broken faith",
+    "run": "enrich-003-pilot"
+   }
+  ],
+  "oewn-00511975-a": [
+   {
+    "word": "capable",
+    "pos": "adjective",
+    "synset": "oewn-00512273-s",
+    "why": "praises the person as good at what they do",
+    "run": "enrich-003-pilot"
+   }
+  ],
+  "oewn-04836513-n": [
+   {
+    "word": "compassion",
+    "pos": "noun",
+    "synset": "oewn-04836781-n",
+    "why": "set against its plainer neighbour pity",
+    "run": "enrich-003-pilot"
+   },
+   {
+    "word": "kindness",
+    "pos": "noun",
+    "synset": "oewn-04836995-n",
+    "why": "names the trait as one to admire",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00585590-a": [
+   {
+    "word": "constant",
+    "pos": "adjective",
+    "synset": "oewn-00585590-a",
+    "why": "praises a person for holding firm",
+    "run": "enrich-003-pilot"
+   }
+  ],
+  "oewn-07319470-n": [
+   {
+    "word": "shame",
+    "pos": "noun",
+    "synset": "oewn-07319716-n",
+    "why": "names the speaker's regret at the thing rather than a fact about it",
+    "run": "enrich-003-pilot"
+   }
+  ],
+  "oewn-14463603-n": [
+   {
+    "word": "shame",
+    "pos": "noun",
+    "synset": "oewn-14463603-n",
+    "why": "marks someone as fallen in other people's regard",
+    "run": "enrich-003-pilot"
+   },
+   {
+    "word": "reproach",
+    "pos": "noun",
+    "synset": "oewn-14465180-n",
+    "why": "marks the thing named as a source of shame",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-04856472-n": [
+   {
+    "word": "virtue",
+    "pos": "noun",
+    "synset": "oewn-04854529-n",
+    "why": "crediting someone with it approves of them rather than describes them",
+    "run": "enrich-003-pilot"
+   }
+  ],
+  "oewn-04856990-n": [
+   {
+    "word": "virtue",
+    "pos": "noun",
+    "synset": "oewn-04856990-n",
+    "why": "an approving and indirect name for chastity rather than a plain one",
+    "run": "enrich-003-pilot"
+   }
+  ],
+  "oewn-00685199-v": [
+   {
+    "word": "buy",
+    "pos": "verb",
+    "synset": "oewn-00685589-v",
+    "why": "chosen over 'believe' it casts the claim as something being sold",
+    "run": "enrich-003-pilot"
+   }
+  ],
+  "oewn-02288941-v": [
+   {
+    "word": "buy",
+    "pos": "verb",
+    "synset": "oewn-02288941-v",
+    "why": "treats a person as something that can be purchased",
+    "run": "enrich-003-pilot"
+   }
+  ],
+  "oewn-04819517-n": [
+   {
+    "word": "elegance",
+    "pos": "noun",
+    "synset": "oewn-04819517-n",
+    "why": "calling something elegance approves of its taste rather than reporting it",
+    "run": "enrich-003-pilot"
+   },
+   {
+    "word": "style",
+    "pos": "noun",
+    "synset": "oewn-04820120-n",
+    "why": "credits its object with elegance where 'manner' would only describe",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-10127072-n": [
+   {
+    "word": "father",
+    "pos": "noun",
+    "synset": "oewn-10127072-n",
+    "why": "casts the founder as a revered originator",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-09642198-n": [
+   {
+    "word": "woman",
+    "pos": "noun",
+    "synset": "oewn-10808492-n",
+    "why": "names her by her tie to a particular man",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-09645472-n": [
+   {
+    "word": "love",
+    "pos": "noun",
+    "synset": "oewn-09869006-n",
+    "why": "names the person with open fondness instead of neutrally",
+    "run": "stage7-book1-run"
+   },
+   {
+    "word": "dear",
+    "pos": "noun",
+    "synset": "oewn-09869006-n",
+    "why": "an affectionate name rather than a plain word for a person",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-10132360-n": [
+   {
+    "word": "brother",
+    "pos": "noun",
+    "synset": "oewn-09896590-n",
+    "why": "claims warm fellowship with the man addressed",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-14461591-n": [
+   {
+    "word": "character",
+    "pos": "noun",
+    "synset": "oewn-14462159-n",
+    "why": "the sense states that the person's standing is good",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-09631739-n": [
+   {
+    "word": "uncle",
+    "pos": "noun",
+    "synset": "oewn-10755916-n",
+    "why": "casts the helper in a warm, family-like light",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00759528-n": [
+   {
+    "word": "pride",
+    "pos": "noun",
+    "synset": "oewn-00759528-n",
+    "why": "names the self-regard as a failing",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-09644529-n": [
+   {
+    "word": "dear",
+    "pos": "noun",
+    "synset": "oewn-10263569-n",
+    "why": "sets the person down as sweet and harmless",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00756299-n": [
+   {
+    "word": "appearance",
+    "pos": "noun",
+    "synset": "oewn-00756620-n",
+    "why": "presents the thing as put on rather than genuine",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-04847242-n": [
+   {
+    "word": "kindness",
+    "pos": "noun",
+    "synset": "oewn-04847242-n",
+    "why": "names the trait as one to admire",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00035041-n": [
+   {
+    "word": "kindness",
+    "pos": "noun",
+    "synset": "oewn-00035041-n",
+    "why": "counts the act as a good one",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-05911139-n": [
+   {
+    "word": "scheme",
+    "pos": "noun",
+    "synset": "oewn-05913942-n",
+    "why": "stands beside the plain word plan",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-04648804-n": [
+   {
+    "word": "temper",
+    "pos": "noun",
+    "synset": "oewn-04649615-n",
+    "why": "names a fault of character rather than a neutral trait",
+    "run": "stage7-book1-run"
+   },
+   {
+    "word": "impatience",
+    "pos": "noun",
+    "synset": "oewn-04649953-n",
+    "why": "marks a settled trait as the absence of a virtue",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-13954798-n": [
+   {
+    "word": "affair",
+    "pos": "noun",
+    "synset": "oewn-13954922-n",
+    "why": "casts the relationship as improper and hidden",
+    "run": "stage7-book1-run"
+   },
+   {
+    "word": "intimacy",
+    "pos": "noun",
+    "synset": "oewn-13954922-n",
+    "why": "casts the relationship as secret and improper",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-05989760-n": [
+   {
+    "word": "design",
+    "pos": "noun",
+    "synset": "oewn-05991037-n",
+    "why": "stands against the plain 'purpose' or 'intention'",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00834860-v": [
+   {
+    "word": "inform",
+    "pos": "verb",
+    "synset": "oewn-00834860-v",
+    "why": "casts the person as one who tells on others to authority",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-07565835-n": [
+   {
+    "word": "spite",
+    "pos": "noun",
+    "synset": "oewn-07566132-n",
+    "why": "puts a mean motive on the person's feeling",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-04849544-n": [
+   {
+    "word": "spite",
+    "pos": "noun",
+    "synset": "oewn-04849746-n",
+    "why": "names the trait as nasty rather than merely unkind",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-05925333-n": [
+   {
+    "word": "effect",
+    "pos": "noun",
+    "synset": "oewn-05926071-n",
+    "why": "marks the impression as staged rather than genuine",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00746935-n": [
+   {
+    "word": "evil",
+    "pos": "noun",
+    "synset": "oewn-00746935-n",
+    "why": "names conduct as morally condemnable rather than merely wrong",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-05151326-n": [
+   {
+    "word": "evil",
+    "pos": "noun",
+    "synset": "oewn-04859319-n",
+    "why": "condemns what it names rather than simply describing wrongness",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-07563271-n": [
+   {
+    "word": "resentment",
+    "pos": "noun",
+    "synset": "oewn-07564444-n",
+    "why": "names anger held and nursed against someone rather than plain anger",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00645401-a": [
+   {
+    "word": "civil",
+    "pos": "adjective",
+    "synset": "oewn-00645401-a",
+    "why": "sets bare courtesy against warmer politeness",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-07523725-n": [
+   {
+    "word": "vanity",
+    "pos": "noun",
+    "synset": "oewn-07524235-n",
+    "why": "names the pride as more than is warranted",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-04894324-n": [
+   {
+    "word": "vanity",
+    "pos": "noun",
+    "synset": "oewn-04894324-n",
+    "why": "marks the self-regard as undue",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-10628841-n": [
+   {
+    "word": "creature",
+    "pos": "noun",
+    "synset": "oewn-09996081-n",
+    "why": "casts the person as another's owned instrument rather than an agent",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-04679567-n": [
+   {
+    "word": "indifference",
+    "pos": "noun",
+    "synset": "oewn-04680827-n",
+    "why": "casts a calm manner as not caring",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-04643754-n": [
+   {
+    "word": "indifference",
+    "pos": "noun",
+    "synset": "oewn-04643967-n",
+    "why": "faults a person for taking interest in nothing",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-07498762-n": [
+   {
+    "word": "indifference",
+    "pos": "noun",
+    "synset": "oewn-07498922-n",
+    "why": "faults an absence of feeling",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00653662-v": [
+   {
+    "word": "mark",
+    "pos": "verb",
+    "synset": "oewn-00653662-v",
+    "why": "picks a trait out as distinguishing rather than merely present",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00513854-n": [
+   {
+    "word": "folly",
+    "pos": "noun",
+    "synset": "oewn-00513854-n",
+    "why": "names the behaviour foolish rather than merely odd",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-04898528-n": [
+   {
+    "word": "folly",
+    "pos": "noun",
+    "synset": "oewn-04898528-n",
+    "why": "calls the trait stupid rather than merely bold",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00071785-n": [
+   {
+    "word": "folly",
+    "pos": "noun",
+    "synset": "oewn-01250622-n",
+    "why": "calls the mistake stupid rather than a plain error",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-01830237-a": [
+   {
+    "word": "unable",
+    "pos": "adjective",
+    "synset": "oewn-01830798-s",
+    "why": "faults the thing for having no effect",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-01537239-a": [
+   {
+    "word": "extraordinary",
+    "pos": "adjective",
+    "synset": "oewn-01538743-s",
+    "why": "marks the amount as excessive",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00834256-a": [
+   {
+    "word": "ignorant",
+    "pos": "adjective",
+    "synset": "oewn-00834520-s",
+    "why": "treats the gap in one field as a failing",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-01184590-v": [
+   {
+    "word": "gratify",
+    "pos": "verb",
+    "synset": "oewn-01184590-v",
+    "why": "treats the giving-in as indulgence",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-10680441-n": [
+   {
+    "word": "stranger",
+    "pos": "noun",
+    "synset": "oewn-10680441-n",
+    "why": "sets the person apart as not one of us",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00633399-v": [
+   {
+    "word": "suspect",
+    "pos": "verb",
+    "synset": "oewn-00926844-v",
+    "why": "treats the person named as probably guilty",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00689827-v": [
+   {
+    "word": "suspect",
+    "pos": "verb",
+    "synset": "oewn-00689827-v",
+    "why": "casts its object as untrustworthy",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00935783-v": [
+   {
+    "word": "expose",
+    "pos": "verb",
+    "synset": "oewn-00935783-v",
+    "why": "casts what is told as discreditable and deliberately hidden",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-06769768-n": [
+   {
+    "word": "story",
+    "pos": "noun",
+    "synset": "oewn-06769768-n",
+    "why": "names a lie in a softened, small-sounding way",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00648515-a": [
+   {
+    "word": "tall",
+    "pos": "adjective",
+    "synset": "oewn-00649139-s",
+    "why": "casts the account as an exaggeration",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-06210871-n": [
+   {
+    "word": "partiality",
+    "pos": "noun",
+    "synset": "oewn-06210871-n",
+    "why": "marks the favouring as unfair rather than as plain preference",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00759083-n": [
+   {
+    "word": "anger",
+    "pos": "noun",
+    "synset": "oewn-00760325-n",
+    "why": "casts the feeling as one of the deadly sins",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-01075919-n": [
+   {
+    "word": "interference",
+    "pos": "noun",
+    "synset": "oewn-01075919-n",
+    "why": "casts a person's stepping in as unwanted meddling",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-04685309-n": [
+   {
+    "word": "colour",
+    "pos": "noun",
+    "synset": "oewn-04685309-n",
+    "why": "presents the appearance as a pretence put up to deceive",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-05837666-n": [
+   {
+    "word": "joy",
+    "pos": "noun",
+    "synset": "oewn-05838106-n",
+    "why": "singles the thing out as prized",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-06753339-n": [
+   {
+    "word": "excuse",
+    "pos": "noun",
+    "synset": "oewn-06754000-n",
+    "why": "casts the reason given as self-serving cover for a fault",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-05828980-n": [
+   {
+    "word": "excuse",
+    "pos": "noun",
+    "synset": "oewn-05829462-n",
+    "why": "dismisses the thing as falling far short of what it claims to be",
+    "run": "stage7-book1-run"
+   },
+   {
+    "word": "apology",
+    "pos": "noun",
+    "synset": "oewn-05829462-n",
+    "why": "names the thing by how badly it falls short",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00607995-v": [
+   {
+    "word": "din",
+    "pos": "verb",
+    "synset": "oewn-00608245-v",
+    "why": "frames the teaching as wearing repetition forced on the learner",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-07214582-n": [
+   {
+    "word": "lip",
+    "pos": "noun",
+    "synset": "oewn-06734698-n",
+    "why": "casts the reply as disrespectful where 'answer' does not",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-01802947-v": [
+   {
+    "word": "fail",
+    "pos": "verb",
+    "synset": "oewn-01803246-v",
+    "why": "faults the one relied on, where 'leave' does not",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00784574-v": [
+   {
+    "word": "tempt",
+    "pos": "verb",
+    "synset": "oewn-00784574-v",
+    "why": "treats the persuasion as possibly false or overblown",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-01996751-a": [
+   {
+    "word": "steady",
+    "pos": "adjective",
+    "synset": "oewn-01997735-s",
+    "why": "approves of the firmness that a word like obstinate would fault",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00761314-v": [
+   {
+    "word": "insist",
+    "pos": "verb",
+    "synset": "oewn-00779976-v",
+    "why": "chosen over plain 'ask' for pressing, repeated asking",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-04901232-n": [
+   {
+    "word": "imprudence",
+    "pos": "noun",
+    "synset": "oewn-04901232-n",
+    "why": "attributes a failing to the person spoken of",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-14429977-n": [
+   {
+    "word": "impatience",
+    "pos": "noun",
+    "synset": "oewn-14430687-n",
+    "why": "names a feeling as the absence of a virtue",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-04659534-n": [
+   {
+    "word": "secrecy",
+    "pos": "noun",
+    "synset": "oewn-04659534-n",
+    "why": "names a person's habit of concealing",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-04905614-n": [
+   {
+    "word": "propriety",
+    "pos": "noun",
+    "synset": "oewn-04905614-n",
+    "why": "measures behaviour against an accepted standard and approves it",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-05145473-n": [
+   {
+    "word": "merit",
+    "pos": "noun",
+    "synset": "oewn-05146223-n",
+    "why": "names a quality as admirable rather than simply naming it",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-01878713-a": [
+   {
+    "word": "deep",
+    "pos": "adjective",
+    "synset": "oewn-01879131-s",
+    "why": "credits the thinker rather than only describing the thought",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00923709-v": [
+   {
+    "word": "distinguish",
+    "pos": "verb",
+    "synset": "oewn-00924409-v",
+    "why": "singles the person out as deserving the notice",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-05169087-n": [
+   {
+    "word": "defect",
+    "pos": "noun",
+    "synset": "oewn-05170169-n",
+    "why": "names a person's fault as something wrong in them",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-04699505-n": [
+   {
+    "word": "defect",
+    "pos": "noun",
+    "synset": "oewn-04699505-n",
+    "why": "treats a mark on the body as spoiling it",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-00556685-n": [
+   {
+    "word": "haste",
+    "pos": "noun",
+    "synset": "oewn-00556685-n",
+    "why": "the fast moving is treated as careless",
+    "run": "stage7-book1-run"
+   },
+   {
+    "word": "hurry",
+    "pos": "noun",
+    "synset": "oewn-00556685-n",
+    "why": "the fast moving is treated as careless",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-05065291-n": [
+   {
+    "word": "haste",
+    "pos": "noun",
+    "synset": "oewn-05067358-n",
+    "why": "the speed is judged to be more than it should have been",
+    "run": "stage7-book1-run"
+   },
+   {
+    "word": "hurry",
+    "pos": "noun",
+    "synset": "oewn-05067358-n",
+    "why": "the speed is judged to be more than it should have been",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-04647533-n": [
+   {
+    "word": "patience",
+    "pos": "noun",
+    "synset": "oewn-04647895-n",
+    "why": "the putting up with it is praised as good-natured",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-10343410-n": [
+   {
+    "word": "mistress",
+    "pos": "noun",
+    "synset": "oewn-10343410-n",
+    "why": "names a woman by a sexual role held to be improper",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-05904666-n": [
+   {
+    "word": "fancy",
+    "pos": "noun",
+    "synset": "oewn-05904666-n",
+    "why": "sets a shared belief aside as untrue",
+    "run": "stage7-book1-run"
+   }
+  ],
+  "oewn-10326901-n": [
+   {
+    "word": "sister",
+    "pos": "noun",
+    "synset": "oewn-10621666-n",
+    "why": "Extending a kin word to a fellow member claims warmth and solidarity that the plain 'member' or 'colleague' does not; a learner should know it lands as affectionate belonging.",
+    "run": "hand:enrich-002 null audit, verdicts-01.json, null-wrong (null-auditor.md, fable)"
+   }
+  ]
+ },
+ "held_candidates": [
+  {
+   "run": "enrich-001",
+   "word": "man",
+   "pos": "noun",
+   "synset": "oewn-10308700-n",
+   "why": "names all people with the word for males",
+   "held_because": "smallest book-restricted family is 31 members (cap 20)"
+  },
+  {
+   "run": "enrich-001",
+   "word": "lady",
+   "pos": "noun",
+   "synset": "oewn-10262834-n",
+   "why": "chooses a courteous word where a plain one would do",
+   "held_because": "smallest book-restricted family is 38 members (cap 20)"
+  },
+  {
+   "run": "enrich-003-pilot",
+   "word": "indeed",
+   "pos": "adverb",
+   "synset": "oewn-00037864-r",
+   "why": "can aim doubt or irony at what was just said",
+   "held_because": "synset is in no family"
+  },
+  {
+   "run": "enrich-003-pilot",
+   "word": "agreeable",
+   "pos": "adjective",
+   "synset": "oewn-00089736-a",
+   "why": "approves of the person or thing as suiting one's liking",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "enrich-003-pilot",
+   "word": "elegance",
+   "pos": "noun",
+   "synset": "oewn-04819885-n",
+   "why": "calling a solution elegant praises it rather than describing its shape",
+   "held_because": "smallest book-restricted family is 67 members (cap 20)"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "gentleman",
+   "pos": "noun",
+   "synset": "oewn-10146810-n",
+   "why": "praises the man's manners rather than just naming him a man",
+   "held_because": "smallest book-restricted family is 62 members (cap 20)"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "dare",
+   "pos": "verb",
+   "synset": "oewn-02380015-v",
+   "why": "casts the act as overstepping",
+   "held_because": "smallest book-restricted family is 222 members (cap 20)"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "ill",
+   "pos": "adjective",
+   "synset": "oewn-01131841-s",
+   "why": "marks the thing as bad, not merely names it",
+   "held_because": "smallest book-restricted family is 28 members (cap 20)"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "child",
+   "pos": "noun",
+   "synset": "oewn-09938012-n",
+   "why": "marks a grown person as not grown up",
+   "held_because": "smallest book-restricted family is 31 members (cap 20)"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "merely",
+   "pos": "adverb",
+   "synset": "oewn-00005103-r",
+   "why": "cuts what it marks down to nothing more, beside plain 'only'",
+   "held_because": "synset is in no family"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "beauty",
+   "pos": "noun",
+   "synset": "oewn-10633512-n",
+   "why": "names a woman by how attractive she looks",
+   "held_because": "smallest book-restricted family is 38 members (cap 20)"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "servant",
+   "pos": "noun",
+   "synset": "oewn-13975389-n",
+   "why": "sets the thing below another rather than beside it",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "throw",
+   "pos": "verb",
+   "synset": "oewn-01069686-v",
+   "why": "casts the speaking as an act of attack",
+   "held_because": "smallest book-restricted family is 27 members (cap 20)"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "beg",
+   "pos": "verb",
+   "synset": "oewn-02275660-v",
+   "why": "casts the asker as living on other people's charity",
+   "held_because": "book-restricted families are [1, 21] members - none within 2-20"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "match",
+   "pos": "noun",
+   "synset": "oewn-09920434-n",
+   "why": "sizes a person up as a prize to be won in marriage",
+   "held_because": "smallest book-restricted family is 105 members (cap 20)"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "disagreeable",
+   "pos": "adjective",
+   "synset": "oewn-01141382-s",
+   "why": "faults a person's manner",
+   "held_because": "every fitting family is already authored: oewn-01138269-a in annotated-008.json"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "upstairs",
+   "pos": "adverb",
+   "synset": "oewn-00095225-r",
+   "why": "a jokey stand-in for 'in the mind' used when sizing up someone's wits",
+   "held_because": "synset is in no family"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "blame",
+   "pos": "verb",
+   "synset": "oewn-00844451-v",
+   "why": "the gloss casts the criticism as constant harassment of the person",
+   "held_because": "every fitting family is already authored: oewn-00828170-v in annotated-005.json"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "tolerably",
+   "pos": "adverb",
+   "synset": "oewn-00055850-r",
+   "why": "grants only middling approval, stopping short of praise",
+   "held_because": "synset is in no family"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "notion",
+   "pos": "noun",
+   "synset": "oewn-05928143-n",
+   "why": "treats the idea as a passing fancy rather than a real thought",
+   "held_because": "smallest book-restricted family is 21 members (cap 20)"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "neglect",
+   "pos": "verb",
+   "synset": "oewn-00617843-v",
+   "why": "faults the person for care that was not given",
+   "held_because": "smallest book-restricted family is 222 members (cap 20)"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "mistress",
+   "pos": "noun",
+   "synset": "oewn-10579268-n",
+   "why": "carries a picture of the teacher as harsh",
+   "held_because": "book-restricted families are [1, 38] members - none within 2-20"
+  },
+  {
+   "run": "enrich-003-pilot",
+   "word": "virtue",
+   "pos": "noun",
+   "synset": "oewn-04854713-n",
+   "why": "names the quality as an excellence, so it praises whoever holds it",
+   "held_because": "virtue is also a candidate under oewn-04854529-n in oewn-04856472-n, and a worksheet carries one row per word; that sense took the row"
+  },
+  {
+   "run": "stage7-book1-run",
+   "word": "ignorant",
+   "pos": "adjective",
+   "synset": "oewn-00834764-s",
+   "why": "faults the person for having no learning",
+   "held_because": "ignorant is also a candidate under oewn-00834520-s in oewn-00834256-a, and a worksheet carries one row per word; that sense took the row"
+  }
+ ]
+}
