@@ -69,7 +69,8 @@
     "done_when": "'someone who is not the author has looked a word up in it' - the release exists and is installable; the first non-author lookup is what actually closes this and is not observable from the repo. Marked done on the shippable artefact, with this caveat recorded.",
     "on_device": "Pixel_10_Pro emulator, 2026-09-03: report row renders on every unannotated sense; tap -> toast and one JSON line in files/reports.jsonl; second tap deduped; annotated senses unchanged (light sense 4 NEGATIVE beside senses 2-3 report links); Settings > Reported words, remove, and Send share sheet confirmed by hand",
     "tag": "v1.2.0 -> 236ea7d (annotated, on 31bfbe2); release.yml run 33753922696",
-    "release": "https://github.com/Roviicc/ColorDict/releases/tag/v1.2.0 published 2026-09-03T12:18:36Z; run 33753922696 green in 5m45s; assets debug 31,326,662 B / release-unsigned 14,395,024 B; /releases/latest returns v1.2.0 so the landing page updates with no redeploy"
+    "release": "https://github.com/Roviicc/ColorDict/releases/tag/v1.2.0 published 2026-09-03T12:18:36Z; run 33753922696 green in 5m45s; assets debug 31,326,662 B / release-unsigned 14,395,024 B; /releases/latest returns v1.2.0 so the landing page updates with no redeploy",
+    "outcome_still_open_2026_09_05": "The done_when - 'someone who is not the author has looked a word up in it' - has still NOT happened. Confirmed by the author on 2026-09-05: they are the only user. Stage 3 remains closed on the shippable artefact, as its note always said; the outcome it was really for has not occurred, and that is the premise of the stage 8 deferral above."
    }
   },
   {
@@ -264,9 +265,18 @@
    "stage": "8",
    "title": "The first demand tick",
    "spend": "spend follows reports",
-   "state": "not_started",
+   "state": "deferred",
    "closed_on": null,
-   "closed_by_commit": null
+   "closed_by_commit": null,
+   "deferred_on": "2026-09-05",
+   "decision": {
+    "what": "Stage 8 is deferred because its mechanism does not exist, not because the work is hard.",
+    "why": "Stage 8 IS the demand tick: reports_ingest dedupes by sense and RANKS BY REPORT COUNT. That needs reports from people who are not the author. The author confirmed on 2026-09-05 that there are no such readers - they are the only user. Three reports exist, all from the author's own device, all singletons: counting and ranking three 1s produces no order, which is what HANDOFF means by 'the queue is noise at that size'. Waiting on ~20 distinct reported senses is waiting on something with no path.",
+    "standing_method": "Book-driven selection replaces it, and stage 7 measured it: take a real book, take the coverage band, rank each sense by what a reader of THAT book actually meets. 3.09% sense defect with rank_wrong 0 over 194 senses. The charge gate it displaces was measured in 11.75 at five of eight eligible families being taxonomy rather than connotation. The book is a demand signal that needs no users, and a better proxy than the gate.",
+    "what_this_gives_up": "Every census measures whether the dictionary is CORRECT against a rubric. Nobody has measured whether it is USEFUL to someone reading a novel, and no amount of book-driven work substitutes for that. Accepted deliberately rather than stumbled into.",
+    "reversible": "If readers ever appear, stage 8 resumes unchanged - reports_ingest, the deny list, the family grouping and the 5% gate are all still the right design. Nothing here is deleted.",
+    "next": "Book two. pg74 (5,432 sentences) and pg2701 (10,254 sentences) are already ingested under data/build/books/."
+   }
   }
  ],
  "always_running": {

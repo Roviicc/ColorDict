@@ -209,6 +209,29 @@ reported senses into families before queueing.
 > **Stop:** below ~20 distinct reported senses the queue is noise — draw from the
 > book instead.
 
+**Deferred 2026-09-05 — the mechanism does not exist.** Stage 8 *is* the demand
+tick: `reports_ingest` ranks by report count, which needs reports from people who
+are not the author. There are none. The author is the only user, and the three
+reports that exist are all from their own device and all singletons — ranking
+three 1s produces no order, which is exactly the noise the stop condition names.
+Stage 3 closed on the shippable artefact and said so; its real done-check,
+*"someone who is not the author has looked a word up in it"*, still has not
+happened.
+
+So **book-driven selection is the standing method**, and stage 7 measured it:
+take a real book, take the coverage band, rank each sense by what a reader of
+*that* book meets — 3.09% defect, `rank_wrong` 0. The gate it displaces was
+measured in §11.75 at five of eight eligible families being taxonomy rather than
+connotation. The book is a demand signal that needs no users, and a better proxy
+than the gate.
+
+What this gives up, stated once: every census measures whether the dictionary is
+**correct**. Nobody has measured whether it is **useful** to someone reading a
+novel, and book-driven work does not substitute for that. Accepted deliberately.
+
+Nothing is deleted. If readers appear, stage 8 resumes unchanged. `pg74` and
+`pg2701` are already ingested under `data/build/books/`.
+
 ---
 
 ## 4b. Why this order and not the other one

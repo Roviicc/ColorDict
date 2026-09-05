@@ -291,8 +291,11 @@ def lint_state():
 
 STAGES = ROOT / "data/policy/build-stages.json"
 
+# "blocked" is waiting on something identifiable; "deferred" is a stage whose
+# mechanism does not exist and that we have chosen to route around. Stage 8
+# needs reports from readers who are not the author, and there are none.
 MARK = {"done": "[x]", "in_progress": "[~]", "blocked": "[!]",
-        "not_started": "[ ]"}
+        "deferred": "[-]", "not_started": "[ ]"}
 
 
 def stage_state():
