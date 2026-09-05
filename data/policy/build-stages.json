@@ -330,13 +330,16 @@
      "n": 4,
      "step": "87 family-authors on draft-018 + 6 on draft-018-control, each writing its own JSON to disk",
      "owner": "manager",
-     "state": "not_started"
+     "state": "done",
+     "note": "93 family-authors, one per family, each reading its packet from disk and writing its own JSON: 87 candidate (483 senses) + 6 control (86), 569 total. Zero structural faults against family_merge's contract - member sets exact on all 93, every charge an int in -3..3, no undefined member fields, no declines, and all 93 wrote their own axis rather than keeping the worksheet placeholder. Merged whole to annotated-018.json and annotated-018c.json, 4 pre-skipped. tone_lint 9/569 = 1.6%, of which 4 are superlative collisions (two members of one family each claiming the mild end) - a between-sense fault the census cannot see; left standing for a decision. tools/family_packets.py written for this step: the family reaches the author as a file, not as a manager's retyping, and it restores the gloss the worksheet cut to 90 characters (28 of 483 candidate senses, 0 of 86 control - an asymmetry that would have loaded the difference between the two census arms onto the thing census 012 exists to measure).",
+     "commit": "c0d831c, 9c270c1"
     },
     {
      "n": 5,
      "step": "family_merge -> tone_lint -> family_apply -> dict_pipeline --no-build",
      "owner": "manager",
-     "state": "not_started"
+     "state": "in_progress",
+     "note": "family_merge and tone_lint done. family_apply stops on three families whose members all sit at one charge - goal/end (10 senses, all 0), fib/story (2, both -1), secrecy/silence (3, all 0) - because build_spectrum needs two distinct points. Not a fault: the charge gate admitted only families >=70% charged, a book-drawn candidate passes through no such filter, so a family carrying force and register but no approval gradient is now something that can happen, and the applier has never met one. The authors were right to refuse a quota. Open: emit these senses with no spectrum key (dict_build.py:212 already guards for it; costs one line in dict_validate.py:418, which currently requires the key rather than checking it when present), or hold the three families and lose 15 authored senses. Awaiting the call."
     },
     {
      "n": 6,
