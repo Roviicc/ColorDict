@@ -363,13 +363,16 @@
      "n": 8,
      "step": "Blind re-read of the repairs by a reader that found none of them",
      "owner": "shawn",
-     "state": "ready"
+     "state": "done",
+     "note": "Blind re-read of the four repaired senses by a fresh census-reader that authored none of them and found none of the faults, rubric verbatim, reading the rebuilt corpus rather than the decisions file. 4 read, 4 right, 0 wrong, 0 unsure: every repair stands. The packet followed census 010's re-read - the reader was told the notes had been edited, which the rubric handles explicitly ('read them harder, not softer'), and each card carried the other notes in its family, because all three rewritten notes make a named-neighbour claim (*far*, *system*, *ma'am*/*madam*) and a claim about a neighbour cannot be checked without the neighbour. The reader checked all three against those words' own notes and upheld them. n=4: this says the four repairs landed, and nothing about the repair pass as a method.",
+     "commit": "pending",
+     "left_standing": "The re-read was also a test of whether the family lane can be covered by giving the census reader a bigger card, and the answer is no. dame's card carried the stale axis - 'offhand courtesy -> stately dignity' printed above a spectrum reading lady +1, gentlewoman +2, with nothing left at the offhand end - and the reader, unprompted and reading hard enough to write two clauses about dame's register, did not mention it. That is not a lapse: census-reader.md asks whether the note agrees with the gloss and stays inside the word, and it has no fault class for an axis label that no longer describes its spectrum. The evidence was on the card and there was no question that would surface it. A family lane therefore needs its own rubric and its own fault names, not the census reader with more context attached."
     },
     {
      "n": 9,
      "step": "Done-check; write measured numbers here",
      "owner": "manager",
-     "state": "not_started"
+     "state": "ready"
     }
    ],
    "held": {
