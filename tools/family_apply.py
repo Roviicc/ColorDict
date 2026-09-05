@@ -80,8 +80,20 @@ def lint_axis(family, spectrum):
 
 
 def build_spectrum(family):
-    """Anchors if given, else one representative word per distinct charge."""
-    members = family["members"]
+    """Anchors if given, else one representative word per distinct charge.
+
+    May return fewer than two points. A family whose members all sit at one
+    charge has no gradient to draw, and the caller emits it without a spectrum
+    rather than inventing one. This could not happen while families came from
+    the charge gate, which admitted none below 70% charged; a book-drawn
+    candidate passes through no such filter, so a family that carries force and
+    register but no approval gradient is now something that can arrive.
+    """
+    # A skipped member is one nobody judged, and its charge is the worksheet's
+    # zero rather than anyone's answer. Letting it through put *brother* - a
+    # member pre-skipped as a usage restriction - on the shipped spectrum of the
+    # *friend* family, at the mild end, as the first word the row renders.
+    members = [m for m in family["members"] if not m.get("_skip")]
     by_word = {m["word"]: m for m in members}
     if family.get("anchors"):
         picked = [(w, by_word[w]["charge"]) for w in family["anchors"] if w in by_word]
@@ -102,15 +114,20 @@ def main():
     data = json.loads(args.families.read_text(encoding="utf-8"))
     by_word = OrderedDict()
     members_out = 0
+    flat = []      # families with no gradient, reported rather than silently flattened
 
     for family in data["families"]:
         spectrum = build_spectrum(family)
-        if len(spectrum) < 2:
-            sys.exit(f"family {family['id']}: spectrum needs 2+ anchors")
-        complaint = lint_axis(family, spectrum)
-        if complaint:
-            sys.exit(f"family {family['id']}: {complaint}")
-        fam_common = {"id": family["id"], "spectrum": [list(p) for p in spectrum]}
+        fam_common = {"id": family["id"]}
+        if len(spectrum) >= 2:
+            # lint_axis asks whether the label reads the way the row renders.
+            # With one point there is no order to get backwards.
+            complaint = lint_axis(family, spectrum)
+            if complaint:
+                sys.exit(f"family {family['id']}: {complaint}")
+            fam_common["spectrum"] = [list(p) for p in spectrum]
+        else:
+            flat.append(family["id"])
         axis = family.get("axis")
         for m in family["members"]:
             # Keys starting with "_" are worksheet hints (glosses, head words)
@@ -146,6 +163,8 @@ def main():
 
     print(f"{len(data['families'])} families, {members_out} annotated senses "
           f"-> {len(by_word)} overlay words")
+    if flat:
+        print(f"no spectrum ({len(flat)}, every member at one charge): {', '.join(flat)}")
     print(f"wrote {args.out}")
     return 0
 

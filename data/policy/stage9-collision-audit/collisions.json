@@ -1,0 +1,260 @@
+{
+ "purpose": "Senses the family path charged that stage 7's Enricher answered neutral. dict_enrich_apply halts on these rather than orphan a tone note under a neutral label. Adjudicated blind by the null-auditor, as in commit 199289c.",
+ "drawn": "2026-09-05",
+ "count": 28,
+ "collisions": [
+  {
+   "word": "pleasure",
+   "sid": "pleasure.oewn-05838106-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 2,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-05838106-n"
+  },
+  {
+   "word": "brother",
+   "sid": "brother.oewn-09896358-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-09896358-n"
+  },
+  {
+   "word": "able",
+   "sid": "able.oewn-00512273-s",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 2,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-00512273-s"
+  },
+  {
+   "word": "pride",
+   "sid": "pride.oewn-07523725-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-07523725-n"
+  },
+  {
+   "word": "delight",
+   "sid": "delight.oewn-05838106-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 3,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-05838106-n"
+  },
+  {
+   "word": "doubt",
+   "sid": "doubt.oewn-00689424-v",
+   "by": "families-018.overlay.jsonl",
+   "lab": "negative",
+   "ch": -1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-00689424-v"
+  },
+  {
+   "word": "beg",
+   "sid": "beg.oewn-00761314-v",
+   "by": "families-018.overlay.jsonl",
+   "lab": "negative",
+   "ch": -1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-00761314-v"
+  },
+  {
+   "word": "companion",
+   "sid": "companion.oewn-09965384-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-09965384-n"
+  },
+  {
+   "word": "proper",
+   "sid": "proper.oewn-01884565-a",
+   "by": "families-018c.overlay.jsonl",
+   "lab": "positive",
+   "ch": 1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-01884565-a"
+  },
+  {
+   "word": "favour",
+   "sid": "favour.oewn-01229430-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 2,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-01229430-n"
+  },
+  {
+   "word": "loss",
+   "sid": "loss.oewn-05170512-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "negative",
+   "ch": -1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-05170512-n"
+  },
+  {
+   "word": "politeness",
+   "sid": "politeness.oewn-04920159-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-04920159-n"
+  },
+  {
+   "word": "consideration",
+   "sid": "consideration.oewn-04848589-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-04848589-n"
+  },
+  {
+   "word": "misfortune",
+   "sid": "misfortune.oewn-07319470-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "negative",
+   "ch": -2,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-07319470-n"
+  },
+  {
+   "word": "suspicion",
+   "sid": "suspicion.oewn-05927628-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "negative",
+   "ch": -1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-05927628-n"
+  },
+  {
+   "word": "delicacy",
+   "sid": "delicacy.oewn-04820315-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 2,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-04820315-n"
+  },
+  {
+   "word": "goodness",
+   "sid": "goodness.oewn-04856472-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 3,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-04856472-n"
+  },
+  {
+   "word": "fault",
+   "sid": "fault.oewn-05146359-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "negative",
+   "ch": -2,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-05146359-n"
+  },
+  {
+   "word": "fault",
+   "sid": "fault.oewn-00071785-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "negative",
+   "ch": -2,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-00071785-n"
+  },
+  {
+   "word": "vexation",
+   "sid": "vexation.oewn-14429977-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "negative",
+   "ch": -1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-14429977-n"
+  },
+  {
+   "word": "notion",
+   "sid": "notion.oewn-05925333-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "negative",
+   "ch": -1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-05925333-n"
+  },
+  {
+   "word": "fellow",
+   "sid": "fellow.oewn-09965384-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-09965384-n"
+  },
+  {
+   "word": "good",
+   "sid": "good.oewn-04856472-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 3,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-04856472-n"
+  },
+  {
+   "word": "excessively",
+   "sid": "excessively.oewn-00047930-r",
+   "by": "adverbs-001.overlay.jsonl",
+   "lab": "negative",
+   "ch": -1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-00047930-r"
+  },
+  {
+   "word": "apology",
+   "sid": "apology.oewn-06753614-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-06753614-n"
+  },
+  {
+   "word": "mistake",
+   "sid": "mistake.oewn-00071785-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "negative",
+   "ch": -1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-00071785-n"
+  },
+  {
+   "word": "pardon",
+   "sid": "pardon.oewn-01229679-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "positive",
+   "ch": 2,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-01229679-n"
+  },
+  {
+   "word": "spot",
+   "sid": "spot.oewn-04701789-n",
+   "by": "families-018.overlay.jsonl",
+   "lab": "negative",
+   "ch": -1,
+   "null": "stage7-book1-run.overlay.jsonl",
+   "synset": "oewn-04701789-n"
+  }
+ ],
+ "no_book_packet": []
+}

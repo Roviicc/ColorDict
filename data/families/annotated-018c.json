@@ -123,9 +123,15 @@
     {
      "word": "proper",
      "synset": "oewn-01884565-a",
-     "charge": 1,
-     "tone": "The plain baseline of the family - approves a thing as suitable, right or appropriate without naming the standard it is measured by.",
-     "_gloss": "marked by suitability or rightness or appropriateness"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "marked by suitability or rightness or appropriateness",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: Means suitable or fitting; the evaluation is its meaning, like good or suitable, and the prim-and-stuffy shading belongs to a different sense.",
+     "_withdrawn": {
+      "charge": 1,
+      "tone": "The plain baseline of the family - approves a thing as suitable, right or appropriate without naming the standard it is measured by."
+     }
     },
     {
      "word": "becoming",

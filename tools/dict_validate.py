@@ -415,8 +415,17 @@ def check_entry(rep, where, entry, corpus):
                 charge = family.get("charge")
                 if not isinstance(charge, int) or not -3 <= charge <= 3:
                     rep.error(swhere, f"family charge {charge!r} must be an integer in [-3, 3]")
+                # The spectrum is optional, and its absence is a fact about the
+                # family rather than a missing field: a family whose members all
+                # sit at one charge has no gradient, and family_apply emits no
+                # spectrum rather than drawing one from a single point. When the
+                # key is there it must still be a real spectrum - two points or
+                # more - because a one-point row would claim a contrast that is
+                # not in the data.
                 spectrum = family.get("spectrum")
-                if (not isinstance(spectrum, list) or len(spectrum) < 2 or any(
+                if spectrum is None:
+                    rep.warn(swhere, "family carries no spectrum (every member at one charge)")
+                elif (not isinstance(spectrum, list) or len(spectrum) < 2 or any(
                         not isinstance(p, list) or len(p) != 2
                         or not isinstance(p[0], str) or not p[0]
                         or not isinstance(p[1], int) or not -3 <= p[1] <= 3

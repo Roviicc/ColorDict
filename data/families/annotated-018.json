@@ -242,16 +242,28 @@
     {
      "word": "good",
      "synset": "oewn-04856472-n",
-     "charge": 3,
-     "tone": "Takes moral excellence as a thing in itself, austere and absolute, where *goodness* sounds like a trait someone carries.",
-     "_gloss": "moral excellence or admirableness"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "moral excellence or admirableness",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: Same synset as 'goodness': the noun names moral excellence outright, and the approval is its meaning rather than a colouring added on top.",
+     "_withdrawn": {
+      "charge": 3,
+      "tone": "Takes moral excellence as a thing in itself, austere and absolute, where *goodness* sounds like a trait someone carries."
+     }
     },
     {
      "word": "goodness",
      "synset": "oewn-04856472-n",
-     "charge": 3,
-     "tone": "Warm, plain, unreserved praise for moral excellence, fastening the quality to a person as bare *good* does not.",
-     "_gloss": "moral excellence or admirableness"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "moral excellence or admirableness",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: The approval is the whole meaning, not an attitude beyond it; there is no plainer word for moral excellence that the learner could have chosen instead.",
+     "_withdrawn": {
+      "charge": 3,
+      "tone": "Warm, plain, unreserved praise for moral excellence, fastening the quality to a person as bare *good* does not."
+     }
     },
     {
      "word": "beneficence",
@@ -848,9 +860,15 @@
     {
      "word": "politeness",
      "synset": "oewn-04920159-n",
-     "charge": 1,
-     "tone": "Measures the manner against an accepted social standard, approving conduct for meeting the rule rather than for any feeling behind it.",
-     "_gloss": "a courteous manner that respects accepted social usage"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "a courteous manner that respects accepted social usage",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: Describes a courteous manner; the contrast with warmth in some sentences comes from context, not from the word.",
+     "_withdrawn": {
+      "charge": 1,
+      "tone": "Measures the manner against an accepted social standard, approving conduct for meeting the rule rather than for any feeling behind it."
+     }
     },
     {
      "word": "gallantry",
@@ -999,9 +1017,15 @@
     {
      "word": "able",
      "synset": "oewn-00512273-s",
-     "charge": 2,
-     "tone": "Warm, unhedged praise that credits skill and qualification together, where *competent* concedes only that a bar is cleared.",
-     "_gloss": "have the skills and qualifications to do things well"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "have the skills and qualifications to do things well",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: Means competent; the assessment of skill is the denotation, and it sits level with capable or skilled rather than above or below them.",
+     "_withdrawn": {
+      "charge": 2,
+      "tone": "Warm, unhedged praise that credits skill and qualification together, where *competent* concedes only that a bar is cleared."
+     }
     },
     {
      "word": "capable",
@@ -1104,9 +1128,15 @@
     {
      "word": "misfortune",
      "synset": "oewn-07319470-n",
-     "charge": -2,
-     "tone": "Names real trouble while clearing everyone of it — unforeseen and unnecessary, so there is nowhere for blame to land.",
-     "_gloss": "unnecessary and unforeseen trouble resulting from an unfortunate event"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "unnecessary and unforeseen trouble resulting from an unfortunate event",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: A bad referent in a plain word, sitting level with bad luck or trouble rather than colouring the sufferer.",
+     "_withdrawn": {
+      "charge": -2,
+      "tone": "Names real trouble while clearing everyone of it — unforeseen and unnecessary, so there is nowhere for blame to land."
+     }
     },
     {
      "word": "disaster",
@@ -1380,16 +1410,28 @@
     {
      "word": "fellow",
      "synset": "oewn-09965384-n",
-     "charge": 1,
-     "tone": "Puts the weight on being one of a pair, naming the friend by the company they keep rather than by any warmth felt.",
-     "_gloss": "a friend who is frequently in the company of another"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "a friend who is frequently in the company of another",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: In the companion sense it is a plain word for someone who keeps company with another; the familiar 'chap' flavour in the sentences belongs to a different synset.",
+     "_withdrawn": {
+      "charge": 1,
+      "tone": "Puts the weight on being one of a pair, naming the friend by the company they keep rather than by any warmth felt."
+     }
     },
     {
      "word": "companion",
      "synset": "oewn-09965384-n",
-     "charge": 1,
-     "tone": "The warmest way to say constant company — someone who goes along with you, not merely someone who is often there like *associate*.",
-     "_gloss": "a friend who is frequently in the company of another"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "a friend who is frequently in the company of another",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: A plain label for someone habitually in another's company, carrying no approval or dismissal.",
+     "_withdrawn": {
+      "charge": 1,
+      "tone": "The warmest way to say constant company — someone who goes along with you, not merely someone who is often there like *associate*."
+     }
     },
     {
      "word": "crony",
@@ -1636,9 +1678,15 @@
     {
      "word": "consideration",
      "synset": "oewn-04848589-n",
-     "charge": 1,
-     "tone": "The abstract, even-toned name for regard paid to others — approving, but without the personal warmth *thoughtfulness* puts into the same regard.",
-     "_gloss": "kind and considerate regard for others"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "kind and considerate regard for others",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: Names kind regard for others; the positivity is the meaning, with nothing added about the speaker's attitude.",
+     "_withdrawn": {
+      "charge": 1,
+      "tone": "The abstract, even-toned name for regard paid to others — approving, but without the personal warmth *thoughtfulness* puts into the same regard."
+     }
     },
     {
      "word": "benevolence",
@@ -1696,16 +1744,28 @@
     {
      "word": "favour",
      "synset": "oewn-01229430-n",
-     "charge": 2,
-     "tone": "British spelling; the kindness is graciously bestowed, tilting downward from giver to receiver in a way *kindness* does not.",
-     "_gloss": "an act of gracious kindness"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "an act of gracious kindness",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: Names an act of kindness plainly; the goodness is the referent, not a stance of the speaker.",
+     "_withdrawn": {
+      "charge": 2,
+      "tone": "British spelling; the kindness is graciously bestowed, tilting downward from giver to receiver in a way *kindness* does not."
+     }
     },
     {
      "word": "pardon",
      "synset": "oewn-01229679-n",
-     "charge": 2,
-     "tone": "Excusing granted with weight and formality, where *forgiveness* is the same release given personally.",
-     "_gloss": "the act of excusing a mistake or offense"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "the act of excusing a mistake or offense",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: A formal but even-handed name for the act of excusing; it does not colour the offence or the forgiver.",
+     "_withdrawn": {
+      "charge": 2,
+      "tone": "Excusing granted with weight and formality, where *forgiveness* is the same release given personally."
+     }
     },
     {
      "word": "benevolence",
@@ -2001,9 +2061,15 @@
     {
      "word": "suspicion",
      "synset": "oewn-05927628-n",
-     "charge": -1,
-     "tone": "Tilts the guess toward something being wrong, so wariness comes attached where *hunch* stays neutral about what it points at.",
-     "_gloss": "an impression that something might be the case"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "an impression that something might be the case",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: In this sense it names an inkling that something may be so; it takes no side on the thing suspected or on the person suspecting.",
+     "_withdrawn": {
+      "charge": -1,
+      "tone": "Tilts the guess toward something being wrong, so wariness comes attached where *hunch* stays neutral about what it points at."
+     }
     },
     {
      "word": "impression",
@@ -2022,9 +2088,15 @@
     {
      "word": "notion",
      "synset": "oewn-05925333-n",
-     "charge": -1,
-     "tone": "Slightly belittling: the idea sounds light and half-formed, entertained rather than held.",
-     "_gloss": "a vague idea in which some confidence is placed"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "a vague idea in which some confidence is placed",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: The vagueness is in the gloss itself, and the sentences use it level with 'idea'; the dismissive edge in 'his notion of Christian forgiveness' comes from the sentence, not the word.",
+     "_withdrawn": {
+      "charge": -1,
+      "tone": "Slightly belittling: the idea sounds light and half-formed, entertained rather than held."
+     }
     },
     {
      "word": "presence",
@@ -2213,9 +2285,15 @@
     {
      "word": "pride",
      "synset": "oewn-07523725-n",
-     "charge": 1,
-     "tone": "The warranted middle of the family - a felt sense of one's own worth carrying no hint that it has outrun the facts, which is exactly what *vanity* adds.",
-     "_gloss": "a feeling of self-respect and personal worth"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "a feeling of self-respect and personal worth",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: In the self-respect sense printed here the word describes a feeling of worth; the censure in the book's uses belongs to the separate vice sense.",
+     "_withdrawn": {
+      "charge": 1,
+      "tone": "The warranted middle of the family - a felt sense of one's own worth carrying no hint that it has outrun the facts, which is exactly what *vanity* adds."
+     }
     },
     {
      "word": "dignity",
@@ -2595,16 +2673,28 @@
     {
      "word": "mistake",
      "synset": "oewn-00071785-n",
-     "charge": -1,
-     "tone": "The plain word for the wrong action, admitting the bad judgment or ignorance or inattention without adding scorn.",
-     "_gloss": "a wrong action attributable to bad judgment or ignorance or inattention"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "a wrong action attributable to bad judgment or ignorance or inattention",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: The plainest word for a wrong action; it names the lapse without the blame of 'blunder' or the softness of 'slip'.",
+     "_withdrawn": {
+      "charge": -1,
+      "tone": "The plain word for the wrong action, admitting the bad judgment or ignorance or inattention without adding scorn."
+     }
     },
     {
      "word": "fault",
      "synset": "oewn-00071785-n",
-     "charge": -2,
-     "tone": "The same wrong action as *mistake*, but the word turns to look for whoever is answerable for it.",
-     "_gloss": "a wrong action attributable to bad judgment or ignorance or inattention"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "a wrong action attributable to bad judgment or ignorance or inattention",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: As a wrong action it sits level with 'mistake' and 'error'; it names the lapse without sneering at or excusing the person.",
+     "_withdrawn": {
+      "charge": -2,
+      "tone": "The same wrong action as *mistake*, but the word turns to look for whoever is answerable for it."
+     }
     },
     {
      "word": "error",
@@ -2965,9 +3055,15 @@
     {
      "word": "doubt",
      "synset": "oewn-00689424-v",
-     "charge": -1,
-     "tone": "Weakest here, and the mildest thing to say of anyone: confidence is simply absent, with none of the untrustworthiness imputed by *distrust* or *suspect*.",
-     "_gloss": "lack confidence in"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "lack confidence in",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: Reports a state of lacking confidence without taking a side on whoever is doubted or doubting.",
+     "_withdrawn": {
+      "charge": -1,
+      "tone": "Weakest here, and the mildest thing to say of anyone: confidence is simply absent, with none of the untrustworthiness imputed by *distrust* or *suspect*."
+     }
     }
    ]
   },
@@ -3360,16 +3456,28 @@
     {
      "word": "pleasure",
      "synset": "oewn-05838106-n",
-     "charge": 2,
-     "tone": "The mildest way to name a source of happiness — it credits the thing with being agreeable, where *joy* credits it with something far deeper.",
-     "_gloss": "something or someone that provides a source of happiness"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "something or someone that provides a source of happiness",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: Names a source of happiness; the positivity is the meaning itself, with no attitude layered on top of it.",
+     "_withdrawn": {
+      "charge": 2,
+      "tone": "The mildest way to name a source of happiness — it credits the thing with being agreeable, where *joy* credits it with something far deeper."
+     }
     },
     {
      "word": "delight",
      "synset": "oewn-05838106-n",
-     "charge": 3,
-     "tone": "Names the thing by the brightness and quickness of the gladness it produces, more animated than *pleasure* and warmer in the mouth.",
-     "_gloss": "something or someone that provides a source of happiness"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "something or someone that provides a source of happiness",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: A stronger pleasure, but the intensity is meaning, not an attitude beyond it.",
+     "_withdrawn": {
+      "charge": 3,
+      "tone": "Names the thing by the brightness and quickness of the gladness it produces, more animated than *pleasure* and warmer in the mouth."
+     }
     },
     {
      "word": "joy",
@@ -3407,9 +3515,15 @@
     {
      "word": "apology",
      "synset": "oewn-06753614-n",
-     "charge": 1,
-     "tone": "The formal written case made for a conviction held strongly - the most deliberate and constructed member here, and argument in support rather than regret.",
-     "_gloss": "a formal written defense of something you believe in strongly"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "a formal written defense of something you believe in strongly",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: In the apologia sense it is a neutral name for a written defence; the word does not signal whether the writer or the reader thinks the cause worth defending.",
+     "_withdrawn": {
+      "charge": 1,
+      "tone": "The formal written case made for a conviction held strongly - the most deliberate and constructed member here, and argument in support rather than regret."
+     }
     },
     {
      "word": "defence",
@@ -3715,9 +3829,15 @@
     {
      "word": "beg",
      "synset": "oewn-00761314-v",
-     "charge": -1,
-     "tone": "The plainest word here, and the one that most openly puts the asker beneath the person asked.",
-     "_gloss": "call upon in supplication; entreat"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "call upon in supplication; entreat",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: Means to ask humbly and earnestly; the supplication is the denotation, and among entreat, implore and plead this is the plain member, as the polite formulas in the sentences show.",
+     "_withdrawn": {
+      "charge": -1,
+      "tone": "The plainest word here, and the one that most openly puts the asker beneath the person asked."
+     }
     },
     {
      "word": "implore",
@@ -3794,9 +3914,15 @@
     {
      "word": "vexation",
      "synset": "oewn-14429977-n",
-     "charge": -1,
-     "tone": "Formal and weighty for the state *irritation* names plainly, lending the annoyance a gravity the plainer word withholds.",
-     "_gloss": "the psychological state of being irritated or annoyed"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "the psychological state of being irritated or annoyed",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: A slightly formal name for an unpleasant state of mind; the state is disagreeable but the word does not judge the person feeling it.",
+     "_withdrawn": {
+      "charge": -1,
+      "tone": "Formal and weighty for the state *irritation* names plainly, lending the annoyance a gravity the plainer word withholds."
+     }
     },
     {
      "word": "irritation",
@@ -3933,9 +4059,15 @@
     {
      "word": "fault",
      "synset": "oewn-05146359-n",
-     "charge": -2,
-     "tone": "The family's negative pole - the quality named purely as inadequacy, measured against a perfection it misses.",
-     "_gloss": "the quality of being inadequate or falling short of perfection"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "the quality of being inadequate or falling short of perfection",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: The plain word for a shortcoming; the referent is unwelcome but the word itself does not add contempt or sympathy the way 'defect' or 'foible' might.",
+     "_withdrawn": {
+      "charge": -2,
+      "tone": "The family's negative pole - the quality named purely as inadequacy, measured against a perfection it misses."
+     }
     },
     {
      "word": "value",
@@ -4061,9 +4193,15 @@
     {
      "word": "loss",
      "synset": "oewn-05170512-n",
-     "charge": -1,
-     "tone": "Ties the disadvantage to a subtraction — what is worse now is worse because something is gone — rather than to any flaw.",
-     "_gloss": "the disadvantage that results from losing something"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "the disadvantage that results from losing something",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: A bad referent in a plain word; the word takes no side on the thing lost or the one who lost it.",
+     "_withdrawn": {
+      "charge": -1,
+      "tone": "Ties the disadvantage to a subtraction — what is worse now is worse because something is gone — rather than to any flaw."
+     }
     },
     {
      "word": "disadvantage",
@@ -4143,9 +4281,15 @@
     {
      "word": "spot",
      "synset": "oewn-04701789-n",
-     "charge": -1,
-     "tone": "Lightest of the blemishes because dirt is the cause — the surface is soiled rather than harmed.",
-     "_gloss": "a blemish made by dirt"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "a blemish made by dirt",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: The ordinary word for a small mark of dirt; a blemish is an unwelcome thing but the word carries no attitude beyond naming it.",
+     "_withdrawn": {
+      "charge": -1,
+      "tone": "Lightest of the blemishes because dirt is the cause — the surface is soiled rather than harmed."
+     }
     },
     {
      "word": "crack",
@@ -4357,9 +4501,15 @@
     {
      "word": "brother",
      "synset": "oewn-09896358-n",
-     "charge": 1,
-     "tone": "The male counterpart of *sister*, claiming a kinship that a fraternity, a religion or any other group is taken to supply.",
-     "_gloss": "a male person who is a fellow member (of a fraternity or religion or other group)"
+     "charge": 0,
+     "tone": "",
+     "_gloss": "a male person who is a fellow member (of a fraternity or religion or other group)",
+     "_skip": true,
+     "_skip_reason": "null audit (stage9-collision-audit) answered null-right: A membership term; the fellowship it signals is its denotation, not a judgement on the person so called.",
+     "_withdrawn": {
+      "charge": 1,
+      "tone": "The male counterpart of *sister*, claiming a kinship that a fraternity, a religion or any other group is taken to supply."
+     }
     },
     {
      "word": "fellow",
