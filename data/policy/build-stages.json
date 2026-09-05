@@ -289,7 +289,7 @@
    "closed_by_commit": null,
    "done_when": "every candidate in data/policy/*/results.json is either authored or held with a reason, and the blind census on the authored senses is under 5%",
    "stop": "if the census on book-restricted families reads worse than 007-011 the cap is the problem; change it in candidate_families.py and treat the next run as a new baseline",
-   "note": "Builds the join Lane A and Lane B never had. 121 Enricher candidates sat unwritten since enrich-001: enrich_validate.py writes nothing for a candidate and the why dies in results.json. candidate_families.py (commit 9d59909) routes them to book-restricted families capped at 20: 86 worksheets, 516 senses, 25 held - against 3,958 senses naive.",
+   "note": "Builds the join Lane A and Lane B never had. 121 Enricher candidates sat unwritten since enrich-001: enrich_validate.py writes nothing for a candidate and the why dies in results.json. candidate_families.py (commit 9d59909) routes them to book-restricted families capped at 20: after the audit fixes: 86 worksheets, 480 senses, 24 held - against 3,958 senses naive.",
    "steps": [
     {
      "n": 1,
@@ -302,8 +302,15 @@
      "n": 2,
      "step": "Plan audit: 4 measurements + 4 adversarial lenses on the design",
      "owner": "manager",
-     "state": "in_progress",
-     "note": "workflow wf_eb540580-564; holds step 3 until it reports on whether 5-member families support contrast notes"
+     "state": "done",
+     "note": "workflow wf_eb540580-564, 9 agents, 943k tokens. Verdict: yes-with-changes. Coverage projection corrected: 28.6% at exhaustion, not ~39% - the loop is a charged-word detector with a spectrum expander, not a coverage engine. candidate_families.py must not run until fixed: 5 sense ids in two worksheets, 5 rows already carry censused tone, family-01138269-a already annotated, book_members dedups by word while routing tests synset (woman/virtue/ignorant held wrongly; young/brother counted routed but unwritten), load_books is POS-blind (36% of rows mis-credited), held_because prints wrong sizes, anchors freezes a per-book table into the product, docstring stale. Census 012 must be stratified by POS with a pre-registered adjective control arm: the draw is 60 noun / 15 verb / 11 adj against a 100%-adjective baseline. Separately: gate-triage-results.json findings[3] ('five of eight eligible judged taxonomy') appears INVERTED - by_band says 0.62 = 5/8 connotation; propagated to HANDOFF, BUILD-PLAN, DICTIONARY-PLAN and this file. To be recounted from the raw rater files before any doc is changed."
+    },
+    {
+     "n": "2b",
+     "step": "Fix candidate_families.py per audit (guards, dedup, POS key, reasons, anchors, docstring); re-verify",
+     "owner": "manager",
+     "state": "done",
+     "note": "Rewritten and re-verified: 121 candidates -> 97 routed / 86 worksheets / 480 senses ({'adjective': 62, 'noun': 342, 'verb': 76}), 24 held with exact reasons. Guards pass: 0 duplicate rows, 0 censused rows redrawn, 0 annotated families redrawn, no anchors key (build_spectrum spans the axis and refuses a flat family), book frequency keyed on (lemma, POS). lady/woman/young/brother now route; man held at 31 (cap 20). A word that is a candidate under two synsets of one family carries one row - the other sense is held and says so (virtue, ignorant). sister/oewn-10621666-n, a recorded false null, was never a candidate and is in no sheet - needs a hand decision."
     },
     {
      "n": 3,
