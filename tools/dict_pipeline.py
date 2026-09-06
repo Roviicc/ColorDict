@@ -32,7 +32,10 @@ BUILD = ROOT / "data/build"
 PERTAINYMS = BUILD / "pertainyms.json"
 WORDNET = ROOT / "data/source/english-wordnet-2025.xml.gz"
 ASSETS = ROOT / "app/src/main/assets/dicts/popup-en"
-ASSET_FILES = ("popup-en.dict.dz", "popup-en.idx", "popup-en.ifo", "popup-en.syn")
+# popup-en.stamp is the content fingerprint the app compares on upgrade; ship it
+# with the set or an existing install never learns the dictionary changed.
+ASSET_FILES = ("popup-en.dict.dz", "popup-en.idx", "popup-en.ifo",
+               "popup-en.syn", "popup-en.stamp")
 
 
 def run(*args):

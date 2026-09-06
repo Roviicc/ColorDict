@@ -25,6 +25,7 @@ ties broken by a plain byte compare.
 import argparse
 import functools
 import gzip
+import hashlib
 import struct
 import sys
 import zlib
@@ -196,10 +197,56 @@ def build_set(entries, out_dir: Path, base: str, bookname: str, *,
         ifo_lines.append(f"website={website}")
     if description:
         ifo_lines.append("description=" + description.replace("\n", "<br>"))
-    (out_dir / f"{base}.ifo").write_text("\n".join(ifo_lines) + "\n", encoding="utf-8")
+    # write_bytes, not write_text: on Windows write_text translates LF to CRLF,
+    # which made the .ifo nine bytes longer here than in CI. The app compares
+    # this file (and the stamp below) to decide whether a bundled dictionary
+    # changed, and a fingerprint that moves with the build machine is a
+    # fingerprint of the build machine.
+    (out_dir / f"{base}.ifo").write_bytes(("\n".join(ifo_lines) + "\n").encode("utf-8"))
+
+    write_stamp(out_dir, base)
 
     return {"words": len(ordered), "synonyms": len(syn_pairs),
             "dict_bytes": len(dict_blob), "idx_bytes": len(idx_blob)}
+
+
+# The files one StarDict set is made of. Mirrors the extension list the app
+# deletes in DictRepository.delete, so the stamp describes exactly the set that
+# ships and nothing left over from an earlier build in the same directory.
+SET_EXTENSIONS = (".ifo", ".idx", ".idx.gz", ".dict", ".dict.dz", ".syn")
+
+
+def write_stamp(out_dir: Path, base: str) -> str:
+    """Write `<base>.stamp`, the content fingerprint of the set just built.
+
+    The app decides whether to refresh a bundled dictionary after an upgrade by
+    comparing a fingerprint against the one recorded at install, and the .ifo is
+    the wrong one to use. Its counters - wordcount, synwordcount, idxfilesize -
+    move with the *headword list*, not with the content, so a tick that writes
+    notes onto senses of words that already exist leaves the .ifo byte-identical
+    while .dict.dz and .idx both change. That is exactly what the connotation
+    lane produces by design, and it reached no existing reader twice: stage 7
+    issue 1 shipped with no fingerprint at all, issue 2 shipped with this one.
+
+    So the stamp hashes the files themselves. It is derived from content and not
+    from the clock, so an identical rebuild produces an identical stamp and
+    costs the reader no 12 MB re-copy, while any real change moves it. The app
+    reads this file - a few hundred bytes - in place of the 12 MB it stands for.
+    """
+    stamp = out_dir / f"{base}.stamp"
+    lines = [f"stardict stamp 1 {base}"]
+    for ext in SET_EXTENSIONS:
+        path = out_dir / f"{base}{ext}"
+        if not path.is_file():
+            continue
+        digest = hashlib.sha256()
+        with path.open("rb") as fh:
+            for chunk in iter(lambda: fh.read(1 << 20), b""):
+                digest.update(chunk)
+        lines.append(f"{digest.hexdigest()}  {path.stat().st_size}  {path.name}")
+    text = "\n".join(lines) + "\n"
+    stamp.write_bytes(text.encode("utf-8"))
+    return text
 
 
 def main(argv=None):

@@ -29,6 +29,12 @@ gradlew         text eol=lf
 # compressed stream in .dict.dz, and neither failure is visible in a diff.
 *.dict          binary
 *.dict.dz       binary
+# The .ifo and the .stamp are the two files the app compares to decide
+# whether a bundled dictionary changed, so neither may be rewritten on
+# checkout: under `text=auto` this Windows tree got a CRLF .ifo and CI got an
+# LF one, which is a difference in the fingerprint and none in the dictionary.
+*.ifo           binary
+*.stamp         binary
 *.dz            binary
 *.idx           binary
 *.syn           binary

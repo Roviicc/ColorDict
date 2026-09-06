@@ -1,478 +1,510 @@
 {
- "plan": "docs/BUILD-PLAN.md",
- "approved": true,
- "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes. Stages 9-12 proposed 2026-09-05 and NOT yet approved: 9 waits on the plan audit (cap), 12 exists only if a mechanism is found.",
- "stages": [
-  {
-   "stage": "0",
-   "title": "Foundations - OEWN 2025, reconciliation, entry validator, stage tracking",
-   "spend": "free",
-   "state": "done",
-   "closed_on": "2026-09-03",
-   "closed_by_commit": null,
-   "done_check": {
-    "authored_senses_bound_to_live_2025_sense": "2885/2885",
-    "needs_blind_reread": 0,
-    "validation_errors": 0,
-    "validated_entries": 3063,
-    "control": "13134 ids gone and 81 glosses changed lexicon-wide, so the clean result is a measurement",
-    "report": "data/policy/oewn-2025-reconciliation.json"
-   }
-  },
-  {
-   "stage": "1",
-   "title": "Coverage and honest connotation - ship the plain WordNet layer, kill bare labels",
-   "spend": "free",
-   "state": "done",
-   "closed_on": "2026-09-03",
-   "closed_by_commit": null,
-   "done_check": {
-    "bare_sentiwordnet_rows_before": 30545,
-    "bare_sentiwordnet_rows_after": 0,
-    "connotation_rows_all_authored": 3403,
-    "entries_shipped": 111332,
-    "syn_index_words_before": 4491,
-    "syn_index_words_after": 67700,
-    "resolves": "emerged->emerge, markets->market, books->book, skinnier->skinny",
-    "skinny_spectrum": "emaciated -3 ... svelte +3",
-    "note": "1.2 needed no work - the plain WordNet layer was already shipping (wordcount=111466 before this stage). The real gaps were 1.1, the bare-label row, and 1.3, an inflection index covering 4% of entries."
-   }
-  },
-  {
-   "stage": "2",
-   "title": "The report loop - empty state is the report button, local log",
-   "spend": "free",
-   "state": "done",
-   "closed_on": "2026-09-03",
-   "closed_by_commit": null,
-   "done_check": {
-    "report_links_emitted": 163494,
-    "surfaces": "Android (WebView scheme handler, append-only reports.jsonl, Settings > Reported words, share-sheet export via FileProvider); desktop (hyperlink handler, ~/.colordict/reports.jsonl)",
-    "web": "web/ is a landing page, not a dictionary - nothing to report from there",
-    "verified": "compiles on both; renders on desktop headless lookup; NOT yet tapped on a physical device",
-    "size_cost": "dict.dz 8.9 MB -> 11.8 MB after dropping the gloss from the link (15.2 MB with it)",
-    "never_leaves_device": "no network code in the feature; export is an explicit share action"
-   }
-  },
-  {
-   "stage": "3",
-   "title": "Ship it to ten people - APK on Releases, web on Vercel",
-   "spend": "free",
-   "state": "done",
-   "closed_on": "2026-09-03",
-   "closed_by_commit": null,
-   "done_check": {
-    "release_build": "./gradlew test assembleDebug assembleRelease passed locally - 35 tests, 0 failures; debug APK 31.3 MB, release 14.4 MB",
-    "version": "versionCode 3 / versionName 1.2.0 (previous tags v1.0.0, v1.1.0)",
-    "apk_contains": "popup-en.dict.dz 11,828,099 B, activity_reports.xml, report_paths.xml",
-    "trigger": "release.yml runs on push of a v* tag; landing page reads /releases/latest with no redeploy",
-    "done_when": "'someone who is not the author has looked a word up in it' - the release exists and is installable; the first non-author lookup is what actually closes this and is not observable from the repo. Marked done on the shippable artefact, with this caveat recorded.",
-    "on_device": "Pixel_10_Pro emulator, 2026-09-03: report row renders on every unannotated sense; tap -> toast and one JSON line in files/reports.jsonl; second tap deduped; annotated senses unchanged (light sense 4 NEGATIVE beside senses 2-3 report links); Settings > Reported words, remove, and Send share sheet confirmed by hand",
-    "tag": "v1.2.0 -> 236ea7d (annotated, on 31bfbe2); release.yml run 33753922696",
-    "release": "https://github.com/Roviicc/ColorDict/releases/tag/v1.2.0 published 2026-09-03T12:18:36Z; run 33753922696 green in 5m45s; assets debug 31,326,662 B / release-unsigned 14,395,024 B; /releases/latest returns v1.2.0 so the landing page updates with no redeploy",
-    "outcome_still_open_2026_09_05": "The done_when - 'someone who is not the author has looked a word up in it' - has still NOT happened. Confirmed by the author on 2026-09-05: they are the only user. Stage 3 remains closed on the shippable artefact, as its note always said; the outcome it was really for has not occurred, and that is the premise of the stage 8 deferral above."
-   }
-  },
-  {
-   "stage": "4",
-   "title": "Ranker and Enricher, proven on 50 entries",
-   "spend": "first spend, tiny",
-   "state": "done",
-   "closed_on": "2026-09-03",
-   "closed_by_commit": null,
-   "done_check": {
-    "instruments": "sense-ranker.md, enricher.md, entry-reader.md in .claude/agents/, versioned like census-reader/family-author; null-auditor.md added for stage 5",
-    "gate": "tools/enrich_validate.py: a ranking is accepted only as a permutation of the offered synset ids (50/50 both runs); a written sense only with a learner line, headword-bearing examples, listed labels and a null-or-candidate verdict (50/50 both runs); tools/entry_validate.py clean on the batch (gloss unchanged)",
-    "measured_enrich_001": "50 entries, 136 senses; 7.4% of senses wrong (10), 2/50 rankings wrong; ~20,600 tokens/entry incl. read via general-purpose agents - OVER the 5% gate; both rubrics fixed (example fits a neighbouring sense; 'or' glosses narrowed; unattested first sense)",
-    "measured_enrich_002": "same 50, 132 senses under the fixed rubrics; 3.8% of senses wrong (5), 2/50 rankings wrong (make, time); ~12,000 tokens/entry incl. read, ~5,500 without, by-name agents - UNDER the gate; new baseline",
-    "candidates": "1 of 132 senses sent to the family path (lady, woman of refinement); 131 null -> stage 5",
-    "records": "data/policy/enrich-001/enrich-001.json, data/policy/enrich-002/enrich-002.json (packets, outputs, verdicts kept)",
-    "repair": "the 7 faults of enrich-002 repaired by a third hand and re-read blind; see enrich-002/repair-*",
-    "caveat": "cost is the harness's subagent_tokens per packet; enrich-002 ranker packets 1-3 completed but their agents were killed by a rate limit before reporting, so that phase is estimated from packets 4-5"
-   }
-  },
-  {
-   "stage": "5",
-   "title": "The null audit",
-   "spend": "small",
-   "state": "done",
-   "closed_on": "2026-09-03",
-   "closed_by_commit": null,
-   "done_check": {
-    "instrument": ".claude/agents/null-auditor.md, one question per sense; read as general-purpose on claude-fable-5-1 with the file read from disk",
-    "population": "all 131 senses the enrich-002 Enricher marked null, in 6 blind packets (word, POS, gloss, book sentences - no learner line, no Enricher reasoning)",
-    "false_null_rate": 0.0229,
-    "false_null": 3,
-    "unsure": 1,
-    "false_nulls": [
-     "sister / fellow member of a group",
-     "mother / term of address for an elderly woman",
-     "lady / polite name for any woman"
-    ],
-    "note": "two of the three (mother, lady) were candidates in enrich-001 and null in enrich-002 - the Enricher's connotation call is unstable on address terms; the entry reader separately called young/vigorous a false null and the auditor upheld it, so the two instruments disagree there. All three false nulls plus young go to the family path as candidates.",
-    "stop_condition": "not triggered: 2.3% is low; the Enricher keeps the connotation field",
-    "cost_tokens": 319528
-   }
-  },
-  {
-   "stage": "6",
-   "title": "The search side - Resolver, match_type, morphology",
-   "spend": "free",
-   "state": "done",
-   "closed_on": "2026-09-03",
-   "closed_by_commit": null,
-   "done_check": {
-    "resolver": "tools/resolve.py --check: 5/5 - saw -> saw n, saw v, see v (past tense of); emerging -> emerging adj, emerge v (present participle of); better -> better a/n/r/v, good a, well a (comparative of); left -> left a/n/r, leave v (past tense and past participle of); emerged -> emerge v",
-    "app_side": "engine/Morphology.java names the relation from (query, headword, POS set); MorphologyTest asserts the same four words plus regular suffixes and irregular table; ./gradlew test green",
-    "form_line": "DefinitionRenderer.Entry.formLine renders '<query> - <relation> <headword>' between headword and body on Android and desktop; desktop --lookup emerged prints '(emerged - past tense or past participle of emerge)'",
-    "data_fix": "wordnet_import.py keeps a regular form beside a real headword when the lemma has no OEWN irregular in that POS: emerging/verb restored, 3,301 words gained forms, 0 lost; .syn 67,700 -> 71,835",
-    "not_done": "a form OEWN lists that neither the rules nor the small irregular table classify prints 'a form of' - honest, not wrong"
-   }
-  },
-  {
-   "stage": "7",
-   "title": "Generate book one and bundle it",
-   "spend": "the real spend",
-   "state": "done",
-   "closed_on": "2026-09-05",
-   "closed_by_commit": null,
-   "steps": [
+  "plan": "docs/BUILD-PLAN.md",
+  "approved": true,
+  "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes. Stages 9-12 proposed 2026-09-05 and NOT yet approved: 9 waits on the plan audit (cap), 12 exists only if a mechanism is found.",
+  "stages": [
     {
-     "n": 1,
-     "step": "Pick coverage band, select and packetise the words",
-     "owner": "manager",
-     "state": "done",
-     "commit": "aa8b806",
-     "note": "928 selected, 50 stage-4 entries excluded, 878 remain in 88 packets"
+      "stage": "0",
+      "title": "Foundations - OEWN 2025, reconciliation, entry validator, stage tracking",
+      "spend": "free",
+      "state": "done",
+      "closed_on": "2026-09-03",
+      "closed_by_commit": null,
+      "done_check": {
+        "authored_senses_bound_to_live_2025_sense": "2885/2885",
+        "needs_blind_reread": 0,
+        "validation_errors": 0,
+        "validated_entries": 3063,
+        "control": "13134 ids gone and 81 glosses changed lexicon-wide, so the clean result is a measurement",
+        "report": "data/policy/oewn-2025-reconciliation.json"
+      }
     },
     {
-     "n": 2,
-     "step": "Pilot: rank + enrich 100 stratified entries",
-     "owner": "manager",
-     "state": "done",
-     "commit": "ef0f9ce",
-     "note": "257 senses, 2 validator rejects, 4,711 tokens/entry"
+      "stage": "1",
+      "title": "Coverage and honest connotation - ship the plain WordNet layer, kill bare labels",
+      "spend": "free",
+      "state": "done",
+      "closed_on": "2026-09-03",
+      "closed_by_commit": null,
+      "done_check": {
+        "bare_sentiwordnet_rows_before": 30545,
+        "bare_sentiwordnet_rows_after": 0,
+        "connotation_rows_all_authored": 3403,
+        "entries_shipped": 111332,
+        "syn_index_words_before": 4491,
+        "syn_index_words_after": 67700,
+        "resolves": "emerged->emerge, markets->market, books->book, skinnier->skinny",
+        "skinny_spectrum": "emaciated -3 ... svelte +3",
+        "note": "1.2 needed no work - the plain WordNet layer was already shipping (wordcount=111466 before this stage). The real gaps were 1.1, the bare-label row, and 1.3, an inflection index covering 4% of entries."
+      }
     },
     {
-     "n": 3,
-     "step": "Pilot: blind read",
-     "owner": "manager",
-     "state": "done",
-     "commit": "04697ca",
-     "note": "98 entries, 255 senses, 3.14% sense defect, rank_wrong 0"
+      "stage": "2",
+      "title": "The report loop - empty state is the report button, local log",
+      "spend": "free",
+      "state": "done",
+      "closed_on": "2026-09-03",
+      "closed_by_commit": null,
+      "done_check": {
+        "report_links_emitted": 163494,
+        "surfaces": "Android (WebView scheme handler, append-only reports.jsonl, Settings > Reported words, share-sheet export via FileProvider); desktop (hyperlink handler, ~/.colordict/reports.jsonl)",
+        "web": "web/ is a landing page, not a dictionary - nothing to report from there",
+        "verified": "compiles on both; renders on desktop headless lookup; NOT yet tapped on a physical device",
+        "size_cost": "dict.dz 8.9 MB -> 11.8 MB after dropping the gloss from the link (15.2 MB with it)",
+        "never_leaves_device": "no network code in the feature; export is an explicit share action"
+      }
     },
     {
-     "n": 4,
-     "step": "Pilot: null audit the 244 nulls",
-     "owner": "manager (this run) - reading passes move to Shawn from step 7",
-     "state": "done",
-     "commit": null,
-     "note": "244 nulls read, 5 false (2.05%). null-auditor spawned BY NAME, unlike entry-reader."
+      "stage": "3",
+      "title": "Ship it to ten people - APK on Releases, web on Vercel",
+      "spend": "free",
+      "state": "done",
+      "closed_on": "2026-09-03",
+      "closed_by_commit": null,
+      "done_check": {
+        "release_build": "./gradlew test assembleDebug assembleRelease passed locally - 35 tests, 0 failures; debug APK 31.3 MB, release 14.4 MB",
+        "version": "versionCode 3 / versionName 1.2.0 (previous tags v1.0.0, v1.1.0)",
+        "apk_contains": "popup-en.dict.dz 11,828,099 B, activity_reports.xml, report_paths.xml",
+        "trigger": "release.yml runs on push of a v* tag; landing page reads /releases/latest with no redeploy",
+        "done_when": "'someone who is not the author has looked a word up in it' - the release exists and is installable; the first non-author lookup is what actually closes this and is not observable from the repo. Marked done on the shippable artefact, with this caveat recorded.",
+        "on_device": "Pixel_10_Pro emulator, 2026-09-03: report row renders on every unannotated sense; tap -> toast and one JSON line in files/reports.jsonl; second tap deduped; annotated senses unchanged (light sense 4 NEGATIVE beside senses 2-3 report links); Settings > Reported words, remove, and Send share sheet confirmed by hand",
+        "tag": "v1.2.0 -> 236ea7d (annotated, on 31bfbe2); release.yml run 33753922696",
+        "release": "https://github.com/Roviicc/ColorDict/releases/tag/v1.2.0 published 2026-09-03T12:18:36Z; run 33753922696 green in 5m45s; assets debug 31,326,662 B / release-unsigned 14,395,024 B; /releases/latest returns v1.2.0 so the landing page updates with no redeploy",
+        "outcome_still_open_2026_09_05": "The done_when - 'someone who is not the author has looked a word up in it' - has still NOT happened. Confirmed by the author on 2026-09-05: they are the only user. Stage 3 remains closed on the shippable artefact, as its note always said; the outcome it was really for has not occurred, and that is the premise of the stage 8 deferral above."
+      }
     },
     {
-     "n": 5,
-     "step": "Pilot: third-hand repair + blind re-read",
-     "owner": "manager (repair) / manager (re-read; shawn unavailable)",
-     "state": "done",
-     "commit": null,
-     "note": "9 senses / 6 entries repaired third-hand; blind re-read 17/17 right, rank_wrong 0. SPLIT NOT HELD: shawn unavailable 2026-09-04, so the manager session wrote the repairs and orchestrated the read - different-model-fresh-context, as 006-011 ran."
+      "stage": "4",
+      "title": "Ranker and Enricher, proven on 50 entries",
+      "spend": "first spend, tiny",
+      "state": "done",
+      "closed_on": "2026-09-03",
+      "closed_by_commit": null,
+      "done_check": {
+        "instruments": "sense-ranker.md, enricher.md, entry-reader.md in .claude/agents/, versioned like census-reader/family-author; null-auditor.md added for stage 5",
+        "gate": "tools/enrich_validate.py: a ranking is accepted only as a permutation of the offered synset ids (50/50 both runs); a written sense only with a learner line, headword-bearing examples, listed labels and a null-or-candidate verdict (50/50 both runs); tools/entry_validate.py clean on the batch (gloss unchanged)",
+        "measured_enrich_001": "50 entries, 136 senses; 7.4% of senses wrong (10), 2/50 rankings wrong; ~20,600 tokens/entry incl. read via general-purpose agents - OVER the 5% gate; both rubrics fixed (example fits a neighbouring sense; 'or' glosses narrowed; unattested first sense)",
+        "measured_enrich_002": "same 50, 132 senses under the fixed rubrics; 3.8% of senses wrong (5), 2/50 rankings wrong (make, time); ~12,000 tokens/entry incl. read, ~5,500 without, by-name agents - UNDER the gate; new baseline",
+        "candidates": "1 of 132 senses sent to the family path (lady, woman of refinement); 131 null -> stage 5",
+        "records": "data/policy/enrich-001/enrich-001.json, data/policy/enrich-002/enrich-002.json (packets, outputs, verdicts kept)",
+        "repair": "the 7 faults of enrich-002 repaired by a third hand and re-read blind; see enrich-002/repair-*",
+        "caveat": "cost is the harness's subagent_tokens per packet; enrich-002 ranker packets 1-3 completed but their agents were killed by a rate limit before reporting, so that phase is estimated from packets 4-5"
+      }
     },
     {
-     "n": 6,
-     "step": "The 778 remaining entries: rank + enrich",
-     "owner": "manager (shawn unavailable 2026-09-04)",
-     "state": "done",
-     "commit": null,
-     "note": "778 entries / 78 packets. Ranker 778/778 accepted (one packet re-run for a dropped synset id). Enricher 766 accepted, 12 rejected (1.5%), 1,998 senses, 1,903 null / 95 candidate. ~3.7M tokens. Run by the MANAGER, not shawn - see blocked-entries.json for the 12 and for the two defects they expose (lexicon irregular inflections; enricher.md s1 learner-length floor)."
+      "stage": "5",
+      "title": "The null audit",
+      "spend": "small",
+      "state": "done",
+      "closed_on": "2026-09-03",
+      "closed_by_commit": null,
+      "done_check": {
+        "instrument": ".claude/agents/null-auditor.md, one question per sense; read as general-purpose on claude-fable-5-1 with the file read from disk",
+        "population": "all 131 senses the enrich-002 Enricher marked null, in 6 blind packets (word, POS, gloss, book sentences - no learner line, no Enricher reasoning)",
+        "false_null_rate": 0.0229,
+        "false_null": 3,
+        "unsure": 1,
+        "false_nulls": [
+          "sister / fellow member of a group",
+          "mother / term of address for an elderly woman",
+          "lady / polite name for any woman"
+        ],
+        "note": "two of the three (mother, lady) were candidates in enrich-001 and null in enrich-002 - the Enricher's connotation call is unstable on address terms; the entry reader separately called young/vigorous a false null and the auditor upheld it, so the two instruments disagree there. All three false nulls plus young go to the family path as candidates.",
+        "stop_condition": "not triggered: 2.3% is low; the Enricher keeps the connotation field",
+        "cost_tokens": 319528
+      }
     },
     {
-     "n": 7,
-     "step": "~10% blind read of the 778",
-     "owner": "manager",
-     "state": "done",
-     "commit": null,
-     "note": "77 of 766 entries (10.1%, seed 705), 194 senses. 3.09% sense defect, rank_wrong 0, 1 unsure - against the pilot's 3.14% and a 10% halt line. 6 faults: 2 example-wrong-sense, 2 'other' (a badly cut book quote and an invented example that is not idiomatic English), 1 label-unjustified, 1 learner-narrowed. Read from a SCRATCH batch; batch-0001.jsonl untouched, so step 9 is unaffected. Split NOT held (manager authored and orchestrated)."
+      "stage": "6",
+      "title": "The search side - Resolver, match_type, morphology",
+      "spend": "free",
+      "state": "done",
+      "closed_on": "2026-09-03",
+      "closed_by_commit": null,
+      "done_check": {
+        "resolver": "tools/resolve.py --check: 5/5 - saw -> saw n, saw v, see v (past tense of); emerging -> emerging adj, emerge v (present participle of); better -> better a/n/r/v, good a, well a (comparative of); left -> left a/n/r, leave v (past tense and past participle of); emerged -> emerge v",
+        "app_side": "engine/Morphology.java names the relation from (query, headword, POS set); MorphologyTest asserts the same four words plus regular suffixes and irregular table; ./gradlew test green",
+        "form_line": "DefinitionRenderer.Entry.formLine renders '<query> - <relation> <headword>' between headword and body on Android and desktop; desktop --lookup emerged prints '(emerged - past tense or past participle of emerge)'",
+        "data_fix": "wordnet_import.py keeps a regular form beside a real headword when the lemma has no OEWN irregular in that POS: emerging/verb restored, 3,301 words gained forms, 0 lost; .syn 67,700 -> 71,835",
+        "not_done": "a form OEWN lists that neither the rules nor the small irregular table classify prints 'a form of' - honest, not wrong"
+      }
     },
     {
-     "n": 8,
-     "step": "Repairs + blind re-read",
-     "owner": "manager (repair) / manager (re-read; shawn unavailable)",
-     "state": "done",
-     "commit": null,
-     "note": "6 senses repaired third-hand from the 10% read's faults. Blind re-read: 15 of 16 right; the one miss was the repairing hand's own (truth reused the neighbouring sense's example). Re-repaired and re-read clean. Validator unchanged at 766/12."
+      "stage": "7",
+      "title": "Generate book one and bundle it",
+      "spend": "the real spend",
+      "state": "done",
+      "closed_on": "2026-09-05",
+      "closed_by_commit": null,
+      "steps": [
+        {
+          "n": 1,
+          "step": "Pick coverage band, select and packetise the words",
+          "owner": "manager",
+          "state": "done",
+          "commit": "aa8b806",
+          "note": "928 selected, 50 stage-4 entries excluded, 878 remain in 88 packets"
+        },
+        {
+          "n": 2,
+          "step": "Pilot: rank + enrich 100 stratified entries",
+          "owner": "manager",
+          "state": "done",
+          "commit": "ef0f9ce",
+          "note": "257 senses, 2 validator rejects, 4,711 tokens/entry"
+        },
+        {
+          "n": 3,
+          "step": "Pilot: blind read",
+          "owner": "manager",
+          "state": "done",
+          "commit": "04697ca",
+          "note": "98 entries, 255 senses, 3.14% sense defect, rank_wrong 0"
+        },
+        {
+          "n": 4,
+          "step": "Pilot: null audit the 244 nulls",
+          "owner": "manager (this run) - reading passes move to Shawn from step 7",
+          "state": "done",
+          "commit": null,
+          "note": "244 nulls read, 5 false (2.05%). null-auditor spawned BY NAME, unlike entry-reader."
+        },
+        {
+          "n": 5,
+          "step": "Pilot: third-hand repair + blind re-read",
+          "owner": "manager (repair) / manager (re-read; shawn unavailable)",
+          "state": "done",
+          "commit": null,
+          "note": "9 senses / 6 entries repaired third-hand; blind re-read 17/17 right, rank_wrong 0. SPLIT NOT HELD: shawn unavailable 2026-09-04, so the manager session wrote the repairs and orchestrated the read - different-model-fresh-context, as 006-011 ran."
+        },
+        {
+          "n": 6,
+          "step": "The 778 remaining entries: rank + enrich",
+          "owner": "manager (shawn unavailable 2026-09-04)",
+          "state": "done",
+          "commit": null,
+          "note": "778 entries / 78 packets. Ranker 778/778 accepted (one packet re-run for a dropped synset id). Enricher 766 accepted, 12 rejected (1.5%), 1,998 senses, 1,903 null / 95 candidate. ~3.7M tokens. Run by the MANAGER, not shawn - see blocked-entries.json for the 12 and for the two defects they expose (lexicon irregular inflections; enricher.md s1 learner-length floor)."
+        },
+        {
+          "n": 7,
+          "step": "~10% blind read of the 778",
+          "owner": "manager",
+          "state": "done",
+          "commit": null,
+          "note": "77 of 766 entries (10.1%, seed 705), 194 senses. 3.09% sense defect, rank_wrong 0, 1 unsure - against the pilot's 3.14% and a 10% halt line. 6 faults: 2 example-wrong-sense, 2 'other' (a badly cut book quote and an invented example that is not idiomatic English), 1 label-unjustified, 1 learner-narrowed. Read from a SCRATCH batch; batch-0001.jsonl untouched, so step 9 is unaffected. Split NOT held (manager authored and orchestrated)."
+        },
+        {
+          "n": 8,
+          "step": "Repairs + blind re-read",
+          "owner": "manager (repair) / manager (re-read; shawn unavailable)",
+          "state": "done",
+          "commit": null,
+          "note": "6 senses repaired third-hand from the 10% read's faults. Blind re-read: 15 of 16 right; the one miss was the repairing hand's own (truth reused the neighbouring sense's example). Re-repaired and re-read clean. Validator unchanged at 766/12."
+        },
+        {
+          "n": 9,
+          "step": "dict_enrich_apply.py: overlay + derived bulk -> batch",
+          "owner": "manager",
+          "state": "done",
+          "commit": null,
+          "note": "Blocked on first run by a collision the merge had no rule for: stage 7's Enricher answered neutral on 10 senses an earlier hand had charged. 5 errored (batch-0001 explanations on hope n+v, run, hold, understand); 5 were SILENT (eagerly, highly x2, perfectly, seriously - inherited adverb charges), keeping their tone and their seat on a charged family spectrum under a neutral label. Adjudicated blind by null-auditor (fable), never the authoring hand: 9/9 null-right, plus hope.v already null-right in the pilot audit. The 3 whose evidence packet the auditor itself called unrepresentative (highly x2, perfectly - the book uses only the intensifier sense) were re-read on an on-sense packet: 3/3 null-right again. Repaired by dropping the 5 refuted explanations from batch-0001.overlay and adding the 5 adverb senses to adverb-deny.json. dict_enrich_apply.py now records the disagreement at the merge, where both hands are still visible, so a later neutral over an earlier charge halts instead of half-halting. Lexicon defect from step 7 fixed here as blocked-entries.json planned: do->does (the -o rule's len>2 guard excluded the only two two-letter -o verbs; 'does' had been resolving to *doe*, the deer) and 456 -man/-woman plurals incl. women/gentlemen. derived-bulk regenerated: 454 entries changed, every change a pure addition, entry count identical, swn coverage 97.7%. That cleared 3 of the 12 blocked entries: 769 accepted / 9 rejected / 2006 senses (was 766/12/1998). The 9 remaining rejects are all the rubric-collision class, as recorded."
+        },
+        {
+          "n": 10,
+          "step": "dict_pipeline --no-build, entry_validate, dict_validate",
+          "owner": "manager",
+          "state": "done",
+          "commit": null,
+          "note": "dict_pipeline --no-build: 3857 entries, 0 errors, 5924 warnings (near-duplicate glosses, the standing class). entry_validate --refresh: 3857 entries / 14375 senses, clean - every sense traceable, POS agrees, gloss unchanged; 0 errors, 0 warnings."
+        },
+        {
+          "n": 11,
+          "step": "stardict_make.py + verify_stardict.py",
+          "owner": "manager",
+          "state": "done",
+          "commit": null,
+          "note": "dict_pipeline (full): popup-en built and verified. verify_stardict OK - 111,332 words, 72,289 synonyms, dict 108,912,303 B uncompressed / 12,035,397 B dictzipped, sts='h', bits=32. Tiers: 107,477 derived, 3,855 reviewed. Assets copied into app/src/main/assets/dicts/popup-en. The fixed inflections reach the shipped .syn: does->do (leading the two doe senses), women->woman, gentlemen->gentleman, airmen->airman; toes and hoes still reach only toe and hoe."
+        },
+        {
+          "n": 12,
+          "step": "Done-check: app opens offline, a book word returns a readable entry",
+          "owner": "manager",
+          "state": "done",
+          "commit": null,
+          "note": "PASSES ON A FRESH INSTALL. Pixel_10_Pro AVD, Android 17, airplane mode on and ping 8.8.8.8 'Network is unreachable'. App launches cold (3.8s) with no crash, and a word sent by ACTION_SEND - the path a book reader actually uses - returns a readable entry. countenance shows the learner line ('the look that a person's face gives') and the book's own sentence about Mr. Bingley; amiable shows the POSITIVE badge, its tone note and the full family spectrum on the mocking->warm axis; does resolves to do with 'does - third-person singular of do'. 43 engine unit tests pass across 7 classes (an earlier note said 78; that double-counted a stale results directory). FOUND WHILE CHECKING - a shipping defect, recorded as stage 7 issue 1 below: the first run of the check silently read a two-day-old dictionary. DictRepository.installBundledIfNeeded copies a bundled dictionary once and guards it with a .installed-<dir> marker, so an EXISTING user who upgrades the APK keeps their old popup-en for ever and never receives book one. Confirmed on device: 11,828,099 B from 2026-09-03 where the new build is 12,035,397 B; pm clear then relaunch installed the new one and the learner lines appeared. Per-dictionary colour, order and enabled state live in DictRegistry keyed by file path, NOT in the dictionary files, so re-copying would not disturb them - the marker's only real job is to keep a dictionary the user DELETED from coming back."
+        },
+        {
+          "n": 13,
+          "step": "Write measured numbers into build-stages.json and close stage 7",
+          "owner": "manager",
+          "state": "done",
+          "commit": null,
+          "note": "MEASURED NUMBERS FOR STAGE 7. Enrichment: 769 entries accepted, 9 rejected, 2,006 senses written (1,909 null, 97 candidate). Blind reads: pilot 3.14%, the 778 at 3.09% sense defect, against a 10% halt line; every fault repaired third-hand and re-read blind. Batch: 3,857 entries, 0 validation errors; entry_validate 14,375 senses, all traceable, POS agreed, gloss unchanged. Shipped file: 111,332 words, 72,289 synonyms, 12,035,397 B dictzipped, 107,477 derived and 3,855 reviewed. Connotation health across the shipped corpus: 2,784 charged senses, 2,440 words holding an authored charged sense, 0 missing from the index, 0 failing to render their badge, 0 fabrications (neutral + explanation) and 0 orphaned charges (neutral + charged family). 88 senses still carry a leftover SentiWordNet score, of which 52 are the Enricher's 'candidate' verdicts; dict_build has gated the machine label behind human-written content since plan 11.5, so a reader sees 'not recorded - report this word' and no reader-facing harm exists. Those 52 are a queue, not a defect. Done-check passed offline on a Pixel_10_Pro, fresh install AND upgrade."
+        }
+      ],
+      "owners": {
+        "manager": "a session opened on this repo folder - it alone can spawn the instruments",
+        "cloud": "a session with no agent access - the deterministic tail only",
+        "shawn": "a second session opened on this repo folder - takes the long authoring run and the pilot re-reads"
+      },
+      "role_rule": "The hand that writes is never the hand that reads, and it is now enforced across sessions, not just across models. The manager authored the pilot 100 and has seen every ranker and enricher rationale, so it is contaminated for those entries and must not read them. Neither session has seen the 778, so whichever one does not author it can read it honestly.",
+      "issues": [
+        {
+          "n": 1,
+          "title": "A bundled dictionary is never refreshed after the first install",
+          "found": "2026-09-05, step 12 done-check",
+          "where": "app/src/main/java/io/github/roviicc/colordict/data/DictRepository.java installBundledIfNeeded",
+          "impact": "book one reaches new installs only. Every existing user upgrades the APK and keeps the old dictionary, so the whole of stage 7 is invisible to them.",
+          "proposed_fix": "keep the marker as the 'user deleted this, do not bring it back' signal, but record the bundled .ifo (wordcount, synwordcount, idxfilesize - all of which move with content) in it and re-copy when the bundled .ifo differs AND the dictionary directory still exists.",
+          "state": "fixed",
+          "fixed": "2026-09-05. The marker now holds the bundled .ifo it was written for and a difference means re-copy; a marker with no directory beside it still means the user deleted the dictionary and it stays deleted. A legacy \"1\" marker matches no .ifo, so existing installs refresh once and then record the fingerprint. All three branches tested on device: legacy marker + stale dict -> refreshed (1 B marker and 5 B dict became 399 B and 12,035,397 B, log 'bundled popup-en changed; refreshing it'); unchanged asset -> no re-copy, mtime identical, no log line; deleted directory -> not reinstalled."
+        },
+        {
+          "n": 2,
+          "title": "The upgrade fingerprint tracks the headword list, not the content",
+          "found": "2026-09-05, 1.4.0 upgrade test on device",
+          "where": "app/src/main/java/io/github/roviicc/colordict/data/DictRepository.java bundledFingerprint / installBundledIfNeeded",
+          "impact": "Issue 1's fix is real and its signal is wrong, so the same failure returns unchanged: an existing reader upgrading 1.3.0 -> 1.4.0 keeps the old dictionary and receives none of stage 9. The fingerprint is the bundled .ifo, on the stated assumption that 'wordcount, synwordcount and idxfilesize all move when the content does'. They do not. Stage 9 added no headwords - it wrote notes onto senses of words that already existed - so all three counters are unchanged and the .ifo is byte-identical between the two builds, while popup-en.dict.dz goes 12,035,397 -> 12,104,808 B. git status says it in one line: the two files that changed are dict.dz and idx, and the fingerprint looks at neither. Any content-only tick, which is what the connotation lane produces by design, is invisible to every existing install.",
+          "measured": "Pixel_10_Pro AVD, Android 17, airplane mode, ping 8.8.8.8 'Network is unreachable'. Installed 1.3.0 (versionCode 4) fresh: on-device popup-en.dict.dz = 12,035,397 B. Upgraded in place to 1.4.0 (versionCode 5, APK carrying 12,104,808 B) with adb install -r: on-device file unchanged at 12,035,397 B with its original timestamp, no 'bundled popup-en changed' line in logcat. sister sense 2 - authored in stage 9 at charge +1 - reads 'Connotations: not recorded - report this word'. Control, the same 1.4.0 APK installed fresh: 12,104,808 B on device and the same sense reads 'POSITIVE - Turns fellow membership of a sorority, a union or any other group into a family tie between women, warmer than the bare enrolment *member* records.' Two screenshots differing in exactly the line that is the point.",
+          "proposed_fix": "Fingerprint the content, not the counters. Cheapest honest signal is the byte length of every file in the bundled directory alongside the .ifo, since dict.dz and idx both move with content and neither needs reading; a build stamp written by stardict_make.py into a small sidecar file would be stronger still and costs one line at build time. Hashing 12 MB of dict.dz at every launch is not the answer. Whatever is chosen, the test that proves it is the one above - install the previous release, upgrade in place, and read the file size on device - because a fresh-install check passes either way and that is how this got through twice.",
+          "state": "fixed",
+          "fixed": "2026-09-06. The fingerprint is now the content, not a count of it. tools/stardict_make.py writes <base>.stamp beside the set - one sha256 and byte length per file, 379 B standing in for the 12 MB it describes - and DictRepository.bundledFingerprint prefers it, keeping the .ifo as the fallback for a bundled dictionary built without one (sample-glossary still takes that path on device and is not re-copied). The stamp is derived from content and not from the clock, so an identical rebuild produces an identical stamp and costs the reader no re-copy: the whole pipeline was re-run and all four existing files came back byte-identical.",
+          "also_found": "The .ifo was worse than issue 2 recorded. stardict_make wrote it with write_text, which on Windows translates LF to CRLF, so this checkout built a 399-byte .ifo and CI built a 390-byte one from the same content - under `* text=auto` git hands each machine its own line endings. The old fingerprint therefore moved with the build machine and not with the dictionary: the released v1.3.0 APK carries the 390-byte form. Fixed at both ends - the .ifo and the .stamp are now written with write_bytes, and .gitattributes marks *.ifo and *.stamp binary so checkout cannot rewrite either. The shipped .ifo is now 390 B on every platform, byte-identical to what v1.3.0 put on the device, which is what let this test isolate the stamp as the only thing that moved.",
+          "also_fixed": "DictRepository.delete removed the dictionary's files and left its directory standing, and installBundledIfNeeded reads a surviving directory as 'still installed'. That was invisible while the fingerprint never moved; with a fingerprint that works, the next content tick would have handed back the 12 MB the reader had just deleted. delete now removes the emptied directory too, and takes the .stamp with the rest of the set so nothing is left to keep the directory alive. Both states were measured (see verified).",
+          "verified": {
+            "environment": "Pixel_10_Pro AVD, Android 17 (API 37), airplane mode with ping 8.8.8.8 reporting 'Network is unreachable' throughout.",
+            "baseline": "The released v1.3.0 APK could not be upgraded in place from this machine - it is CI-signed and adb returned INSTALL_FAILED_UPDATE_INCOMPATIBLE - so the baseline was built from 42e00a0 (the commit before the dictionary rebuild) with its .ifo normalised to LF. All four bundled files are then byte-identical to the shipped v1.3.0: dict.dz 12,035,397 B, idx 2,197,151 B, ifo 390 B (sha256 238141980bd10da5...), syn 1,036,233 B. The APK differs from the released one by 8 bytes, which is the signing key.",
+            "the_test_that_proves_it": "1.3.0 installed fresh: on-device dict.dz 12,035,397 B, marker 390 B holding the .ifo text. Upgraded in place with adb install -r to 1.4.0 (versionCode 5), no uninstall: on-device dict.dz 12,104,808 B, logcat 'bundled popup-en changed; refreshing it', marker now 379 B holding the stamp. The .ifo is 390 B and byte-identical before and after, so the old fingerprint would have seen nothing - the stamp is the only thing that moved. sister sense 2, authored in stage 9 at +1, reads on the upgraded install, offline: 'POSITIVE - Turns fellow membership of a sorority, a union or any other group into a family tie between women, warmer than the bare enrolment member records.' That is the line that read 'not recorded - report this word' when the defect was found.",
+            "unchanged_asset": "Force-stopped and relaunched with the same APK installed: dict.dz size and mtime identical, zero refresh lines in logcat. No re-copy on a launch that changed nothing.",
+            "deletion_honoured": "Deleted through the app - long-press the row, Delete, confirm - not simulated. The dialog read 'Delete “Pop Up English Dictionary” and its files from app storage'. After it: files/dictionaries/popup-en does not exist ('No such file or directory'), the five files are gone with it, and the 379-byte marker remains as the 'do not bring it back' signal. The marker was then overwritten with '1' so the fingerprint no longer matches - the next content tick - and the app relaunched: popup-en stayed gone, zero refresh lines. Reaching the row needed the workaround in issue 3.",
+            "deletion_counter_test": "The state the old delete() produced - empty popup-en directory left standing, marker '1' - relaunched: the full dictionary came back, 12,104,808 B, with the refresh line in logcat. That is the resurrection the directory removal closes, measured rather than argued.",
+            "regression": "gradlew test: BUILD SUCCESSFUL. dict_pipeline: 4,223 entries, 0 errors, 6,601 warnings, unchanged.",
+            "fresh_install_after": "Uninstalled and installed clean to leave the device in a normal state: all five files present, dict.dz 12,104,808 B, stamp 379 B."
+          }
+        },
+        {
+          "n": 3,
+          "title": "Content is drawn under the system bars on every app-bar screen",
+          "found": "2026-09-06, while trying to delete popup-en in the app for the issue 2 delete test",
+          "where": "the Dictionaries screen",
+          "impact": "targetSdk is 35, which enforces edge-to-edge on Android 15+, and no screen in the app applies window insets - a grep for fitsSystemWindows, WindowInsets, setDecorFitsSystemWindows and windowOptOutEdgeToEdge across app/src/main returns nothing. activity_dictionaries.xml is a FrameLayout holding a match_parent ListView, so the list starts at y=0. Measured with uiautomator on a Pixel_10_Pro AVD, Android 17, portrait: the status bar occupies y=0..156 and the action bar y=156..324, while row 1 (popup-en) sits at y=37..155 and row 2 at y=232..350. Row 1 is therefore entirely under the status bar and cannot be touched at all - a long-press on it does nothing - and row 2 is under the action bar bar a 26-pixel strip. In portrait no dictionary can be enabled, disabled, reordered, recoloured, inspected or deleted. Not confined to this screen: Settings shows its first row, 'Display', at y=24..143, also under the status bar.",
+          "consequence_for_issue_2": "None in the end - the in-app delete was exercised for real by the route above, and delete() removing the emptied directory is measured rather than argued. Without that route the branch would have rested on a filesystem simulation.",
+          "state": "fixed",
+          "workaround": "Rotating to landscape shortens the action bar to y=156..300, which exposes row 2 from y=300 to 350 - enough to long-press. From there the context menu's own 'Move up' on row 2 promotes row 1 into reach. That is how the delete test in issue 2 was run, and it is a workaround for a test, not a thing to ask a reader to do.",
+          "fixed": "2026-09-06. BaseActivity.onContentChanged now applies the window insets it is handed as padding on android.R.id.content, guarded twice: only from API 35, where the enforcement starts, and only when getActionBar() is non-null. That second guard is the whole test for 'does this screen draw under chrome it did not inset for' - MainActivity and PopupActivity have no action bar and MainChrome already applies its own statusBarsPadding, so both are left exactly as they were. Below API 35 the decor still insets the content and this does nothing.",
+          "got_wrong_first": "The obvious-looking version added actionBarSize to the top inset, on the reasoning that the action bar is not a system inset and nothing would report it. It is reported: ActionBarOverlayLayout folds its own height into the top inset it dispatches, so the value arriving is already 324 - 156 of status bar plus 168 of bar - and adding actionBarSize again put the first row at y=549. Measured on device, then removed. The comment in BaseActivity records it so the next reader does not re-derive it.",
+          "verified": {
+            "environment": "Pixel_10_Pro AVD, Android 17 (API 37), portrait unless stated.",
+            "geometry": "The action bar ends at y=324 on every one of these screens. Dictionaries: first row 361..426, was 37..102. Settings: 'Display' 348..467, was 24..143. History and Reports: empty states at 1425..1682, was 1509..1766. All four clear the bar.",
+            "the_thing_that_was_broken": "A long-press on the first Dictionaries row opens its context menu - Move up, Move down, Details, Delete - in portrait. Before the fix the identical gesture did nothing at all, because the row sat under the status bar. The enable switch on that row toggles off and back on.",
+            "not_disturbed": "MainActivity, which has no action bar and was never affected: title 250..338, search field 491..548, unchanged from before the fix.",
+            "regression": "gradlew test: BUILD SUCCESSFUL. The issue 2 upgrade test was re-run end to end on the final APK rather than the one it was first proved on - 1.3.0 fresh 12,035,397 B with a 390-byte marker, upgraded in place to 12,104,808 B with a 379-byte marker and the 'bundled popup-en changed; refreshing it' line, offline throughout."
+          }
+        }
+      ]
     },
     {
-     "n": 9,
-     "step": "dict_enrich_apply.py: overlay + derived bulk -> batch",
-     "owner": "manager",
-     "state": "done",
-     "commit": null,
-     "note": "Blocked on first run by a collision the merge had no rule for: stage 7's Enricher answered neutral on 10 senses an earlier hand had charged. 5 errored (batch-0001 explanations on hope n+v, run, hold, understand); 5 were SILENT (eagerly, highly x2, perfectly, seriously - inherited adverb charges), keeping their tone and their seat on a charged family spectrum under a neutral label. Adjudicated blind by null-auditor (fable), never the authoring hand: 9/9 null-right, plus hope.v already null-right in the pilot audit. The 3 whose evidence packet the auditor itself called unrepresentative (highly x2, perfectly - the book uses only the intensifier sense) were re-read on an on-sense packet: 3/3 null-right again. Repaired by dropping the 5 refuted explanations from batch-0001.overlay and adding the 5 adverb senses to adverb-deny.json. dict_enrich_apply.py now records the disagreement at the merge, where both hands are still visible, so a later neutral over an earlier charge halts instead of half-halting. Lexicon defect from step 7 fixed here as blocked-entries.json planned: do->does (the -o rule's len>2 guard excluded the only two two-letter -o verbs; 'does' had been resolving to *doe*, the deer) and 456 -man/-woman plurals incl. women/gentlemen. derived-bulk regenerated: 454 entries changed, every change a pure addition, entry count identical, swn coverage 97.7%. That cleared 3 of the 12 blocked entries: 769 accepted / 9 rejected / 2006 senses (was 766/12/1998). The 9 remaining rejects are all the rubric-collision class, as recorded."
+      "stage": "8",
+      "title": "The first demand tick",
+      "spend": "spend follows reports",
+      "state": "deferred",
+      "closed_on": null,
+      "closed_by_commit": null,
+      "deferred_on": "2026-09-05",
+      "decision": {
+        "what": "Stage 8 is deferred because its mechanism does not exist, not because the work is hard.",
+        "why": "Stage 8 IS the demand tick: reports_ingest dedupes by sense and RANKS BY REPORT COUNT. That needs reports from people who are not the author. The author confirmed on 2026-09-05 that there are no such readers - they are the only user. Three reports exist, all from the author's own device, all singletons: counting and ranking three 1s produces no order, which is what HANDOFF means by 'the queue is noise at that size'. Waiting on ~20 distinct reported senses is waiting on something with no path.",
+        "standing_method": "Book-driven selection replaces it, and stage 7 measured it: take a real book, take the coverage band, rank each sense by what a reader of THAT book actually meets. 3.09% sense defect with rank_wrong 0 over 194 senses. The charge gate it displaces was measured in 11.75 at three of eight eligible families being taxonomy and five connotation (corrected 2026-09-05 - this sentence read \"five of eight taxonomy\"). The book is a demand signal that needs no users; the gate is a decent proxy the book supplements rather than beats.",
+        "what_this_gives_up": "Every census measures whether the dictionary is CORRECT against a rubric. Nobody has measured whether it is USEFUL to someone reading a novel, and no amount of book-driven work substitutes for that. Accepted deliberately rather than stumbled into.",
+        "reversible": "If readers ever appear, stage 8 resumes unchanged - reports_ingest, the deny list, the family grouping and the 5% gate are all still the right design. Nothing here is deleted.",
+        "next": "Book two. pg74 (5,432 sentences) and pg2701 (10,254 sentences) are already ingested under data/build/books/.",
+        "correction_2026_09_05": "Corrected 2026-09-05. A blind recount of gate-triage-reads/rater-a.json and rater-b.json against the band tags in gate-triage.json gives the eligible band as five connotation, three taxonomy (*irrelevant*, *unfavorable*, *competitive*). The sentence \"five of eight judged taxonomy\" reached that count by adding *inaccurate* and *genuine*, which are hand-picked controls, not eligible families. The gate selects connotation five times in eight - 0.62 against the hand-picked corpus's 0.58 - and the same results file already said so in findings[2]. What survives: roughly 40% of tick effort (3/8) goes to taxonomy, and the threshold should not be lowered. What does not: the gate as a proxy that mostly picks taxonomy, and the demotion of the adjective queue to filler that was argued from it."
+      }
     },
     {
-     "n": 10,
-     "step": "dict_pipeline --no-build, entry_validate, dict_validate",
-     "owner": "manager",
-     "state": "done",
-     "commit": null,
-     "note": "dict_pipeline --no-build: 3857 entries, 0 errors, 5924 warnings (near-duplicate glosses, the standing class). entry_validate --refresh: 3857 entries / 14375 senses, clean - every sense traceable, POS agrees, gloss unchanged; 0 errors, 0 warnings."
+      "stage": "9",
+      "title": "The reading loop, proven on the backlog",
+      "spend": "small spend",
+      "state": "not_started",
+      "proposed_on": "2026-09-05",
+      "approved": false,
+      "closed_on": null,
+      "closed_by_commit": null,
+      "done_when": "every candidate in data/policy/*/results.json is either authored or held with a reason, and the blind census on the authored senses is under 5%",
+      "stop": "if the census on book-restricted families reads worse than 007-011 the cap is the problem; change it in candidate_families.py and treat the next run as a new baseline",
+      "note": "Builds the join Lane A and Lane B never had. 121 Enricher candidates sat unwritten since enrich-001: enrich_validate.py writes nothing for a candidate and the why dies in results.json. candidate_families.py (commit 9d59909) routes them to book-restricted families capped at 20: after the audit fixes: 86 worksheets, 480 senses, 24 held - against 3,958 senses naive. 2026-09-05 later: 11.75 inversion corrected in 4 files (gate-triage-results.json carries the recount); census 012 pre-registered with a control arm; sister added as a hand candidate.",
+      "steps": [
+        {
+          "n": 1,
+          "step": "Place repairer.md; add repairer, family-author, census-reader to instrument_gate",
+          "owner": "manager",
+          "state": "done",
+          "note": "repairer.md placed 2026-09-05 (commit 00ac8c8) and instrument_gate.py extended from four instruments to seven (adds repairer, family-author, census-reader - the connotation lane had been outside the gate since it was written). Both gate modes pass; plugin_sync unchanged and passing. The deny rule on .claude/agents/** was lifted for the copy and restored the same minute: settings.json is byte-identical to HEAD, the five pre-existing instruments show an empty diff vs HEAD, the placed file is sha256-identical to the reviewed draft, and a probe write confirmed the rule enforcing again."
+        },
+        {
+          "n": 2,
+          "step": "Plan audit: 4 measurements + 4 adversarial lenses on the design",
+          "owner": "manager",
+          "state": "done",
+          "note": "workflow wf_eb540580-564, 9 agents, 943k tokens. Verdict: yes-with-changes. Coverage projection corrected: 28.6% at exhaustion, not ~39% - the loop is a charged-word detector with a spectrum expander, not a coverage engine. candidate_families.py must not run until fixed: 5 sense ids in two worksheets, 5 rows already carry censused tone, family-01138269-a already annotated, book_members dedups by word while routing tests synset (woman/virtue/ignorant held wrongly; young/brother counted routed but unwritten), load_books is POS-blind (36% of rows mis-credited), held_because prints wrong sizes, anchors freezes a per-book table into the product, docstring stale. Census 012 must be stratified by POS with a pre-registered adjective control arm: the draw is 60 noun / 15 verb / 11 adj against a 100%-adjective baseline. Separately: gate-triage-results.json findings[3] ('five of eight eligible judged taxonomy') appears INVERTED - by_band says 0.62 = 5/8 connotation; propagated to HANDOFF, BUILD-PLAN, DICTIONARY-PLAN and this file. To be recounted from the raw rater files before any doc is changed."
+        },
+        {
+          "n": "2b",
+          "step": "Fix candidate_families.py per audit (guards, dedup, POS key, reasons, anchors, docstring); re-verify",
+          "owner": "manager",
+          "state": "done",
+          "note": "Rewritten and re-verified: 121 candidates -> 97 routed / 86 worksheets / 480 senses ({'adjective': 62, 'noun': 342, 'verb': 76}), 24 held with exact reasons. Guards pass: 0 duplicate rows, 0 censused rows redrawn, 0 annotated families redrawn, no anchors key (build_spectrum spans the axis and refuses a flat family), book frequency keyed on (lemma, POS). lady/woman/young/brother now route; man held at 31 (cap 20). A word that is a candidate under two synsets of one family carries one row - the other sense is held and says so (virtue, ignorant). sister/oewn-10621666-n, a recorded false null, was never a candidate and is in no sheet - needs a hand decision."
+        },
+        {
+          "n": "3b",
+          "step": "Control arm drawn and pre-registered: 6 gate-eligible adjective families, 88 senses (86 annotatable), 5.3 screen read - bastardly pre-skipped, halal kept with note",
+          "owner": "manager",
+          "state": "done"
+        },
+        {
+          "n": 3,
+          "step": "candidate_families.py -> data/families/draft-018.json",
+          "owner": "manager",
+          "state": "done",
+          "note": "draft-018.json written: 98 routed / 87 worksheets / 485 senses, 24 held (stage9-candidates.json, which is also the demand log). sister added via data/policy/hand-candidates.json."
+        },
+        {
+          "n": 4,
+          "step": "87 family-authors on draft-018 + 6 on draft-018-control, each writing its own JSON to disk",
+          "owner": "manager",
+          "state": "done",
+          "note": "93 family-authors, one per family, each reading its packet from disk and writing its own JSON: 87 candidate (483 senses) + 6 control (86), 569 total. Zero structural faults against family_merge's contract - member sets exact on all 93, every charge an int in -3..3, no undefined member fields, no declines, and all 93 wrote their own axis rather than keeping the worksheet placeholder. Merged whole to annotated-018.json and annotated-018c.json, 4 pre-skipped. tone_lint 9/569 = 1.6%, of which 4 are superlative collisions (two members of one family each claiming the mild end) - a between-sense fault the census cannot see; left standing for a decision. tools/family_packets.py written for this step: the family reaches the author as a file, not as a manager's retyping, and it restores the gloss the worksheet cut to 90 characters (28 of 483 candidate senses, 0 of 86 control - an asymmetry that would have loaded the difference between the two census arms onto the thing census 012 exists to measure).",
+          "commit": "c0d831c, 9c270c1"
+        },
+        {
+          "n": 5,
+          "step": "family_merge -> tone_lint -> family_apply -> dict_pipeline --no-build",
+          "owner": "manager",
+          "state": "done",
+          "note": "family_merge 87+6 families whole; tone_lint 8/543 = 1%; family_apply after three fixes - no spectrum for a family with one distinct charge, skipped members excluded from the spectrum (brother was shipping as the friend family's mild anchor), and the 28-sense family/Enricher collision adjudicated blind by the null-auditor at 26 null-right / 2 null-wrong. dict_pipeline --no-build: 4,223 entries, 0 errors, 6,597 warnings, all accounted.",
+          "commit": "b6a783c"
+        },
+        {
+          "n": 6,
+          "step": "Census 012: stratified read, pre-registered in census-012.json - candidate arm by POS + adjective control arm; 5% per stratum",
+          "owner": "shawn",
+          "state": "done",
+          "note": "Census 012, complete read of both arms as 007-011 were, 543 senses in 20 packets, population sorted by family so a reader sees siblings together. 539 right, 4 wrong, 0 unsure = 0.7% blended. Per stratum: candidate/noun 3/323 = 0.9%, candidate/verb 0/74, candidate/adjective 1/61 = 1.6%, control/adjective 0/85. No stratum over the 5% gate; strata_over_threshold empty. The composition effect the pre-registration predicted (1.82% -> ~3.2%) did not appear. See census-012-results.json caveats: the rate is on the 543 that survived the collision audit's filter, and the control arm's 0/85 is consistent with 1.82%, not evidence of improvement. Four faults go to the repairer: haste (example belongs to another sense), ultra (note and charge contradict), scheme (wrong-charge), dame (gloss-mismatch - the note describes the slang sense, on a family of five words printing under one identical gloss).",
+          "commit": "pending"
+        },
+        {
+          "n": 7,
+          "step": "First third-hand repair pass under repairer.md",
+          "owner": "repairer",
+          "state": "done",
+          "note": "First use of repairer.md, and the first repair pass in this project run by a hand that neither authored the note nor found the fault. One packet, four faults, four decisions, no keeps: haste drop-example (the make-haste exhortation, note untouched), ultra tone (resolved the note/charge contradiction toward the charge and handed the pure-location role to *far*, the neutral member two rows down whose note the old one had duplicated), scheme tone + charge -1 -> 0, dame tone + charge 0 -> +1 rewritten off the slang sense onto the printed gloss. census_apply gained an overlay path first: drop-example only knew the family worksheet, where just the 66 gate-drawn members of annotated-001..003 carry examples, so the action would have warned and changed nothing on any book-drawn sense; the same near-copy-of-slug() that dropped *ma'am* out of a census arm was fixed in its index at the same time, with both prior decisions files replaying identically. Applied: 3 members in annotated-018.json, 1 line of 4,217 in the stage-7 overlay. dict_pipeline --no-build: 4,223 entries, 0 errors, 6,601 warnings (+4, all of them scheme's family losing its spectrum). tone_lint unchanged at 8/543 = 1%.",
+          "commit": "pending",
+          "left_standing": "The repair moved two family axis labels off their spectra, and the census cannot see either - census_packets withholds `family`, so a reader is never shown the axis. dame's family now runs lady/ma'am/madam/dame +1 and gentlewoman +2, and its label still reads 'offhand courtesy -> stately dignity' with nothing left at the offhand end; that one ships, because dict_build renders the axis whenever a spectrum exists. lint_axis does not catch it: it returns early on any family with a positive charge, by design, since only all-negative families render backwards. scheme's family is now four members all at 0 with no spectrum, so its axis label does not render at all and the staleness stays internal. Neither is the repairer's doing - it is forbidden to touch a neighbour or a family - and neither has been fixed."
+        },
+        {
+          "n": 8,
+          "step": "Blind re-read of the repairs by a reader that found none of them",
+          "owner": "shawn",
+          "state": "done",
+          "note": "Blind re-read of the four repaired senses by a fresh census-reader that authored none of them and found none of the faults, rubric verbatim, reading the rebuilt corpus rather than the decisions file. 4 read, 4 right, 0 wrong, 0 unsure: every repair stands. The packet followed census 010's re-read - the reader was told the notes had been edited, which the rubric handles explicitly ('read them harder, not softer'), and each card carried the other notes in its family, because all three rewritten notes make a named-neighbour claim (*far*, *system*, *ma'am*/*madam*) and a claim about a neighbour cannot be checked without the neighbour. The reader checked all three against those words' own notes and upheld them. n=4: this says the four repairs landed, and nothing about the repair pass as a method.",
+          "commit": "pending",
+          "left_standing": "The re-read was also a test of whether the family lane can be covered by giving the census reader a bigger card, and the answer is no. dame's card carried the stale axis - 'offhand courtesy -> stately dignity' printed above a spectrum reading lady +1, gentlewoman +2, with nothing left at the offhand end - and the reader, unprompted and reading hard enough to write two clauses about dame's register, did not mention it. That is not a lapse: census-reader.md asks whether the note agrees with the gloss and stays inside the word, and it has no fault class for an axis label that no longer describes its spectrum. The evidence was on the card and there was no question that would surface it. A family lane therefore needs its own rubric and its own fault names, not the census reader with more context attached."
+        },
+        {
+          "n": 9,
+          "step": "Done-check; write measured numbers here",
+          "owner": "manager",
+          "state": "done",
+          "commit": "pending",
+          "note": "DONE-CHECK PASSES. tools/stage9_donecheck.py, written for this step, re-derives the candidate list from data/policy/*/results.json the way candidate_families.py builds it rather than reading stage9-candidates.json, because that file is the router's own account of what it did. Both halves of done_when hold. Every candidate is accounted for: 120 distinct senses, 95 authored, 1 withdrawn with a reason, 24 held with a reason, 0 lost. No stratum over the 5% gate. The stop condition does not fire - the book-restricted draw reads 0.9% against 1.9% pooled across 007-011, so the cap of 20 stands.",
+          "measured": {
+            "candidates": "120 distinct candidate senses from 122 records across 5 Enricher runs. The record counts are what the stage notes carried and they double-count two senses the Enricher marked in two runs; distinct, it is 120 candidates / 96 routed / 24 held, and the rebuilt set and the router's ledger agree on every member in both directions.",
+            "authoring": "93 family-author agents, one per family, packets written by family_packets.py; 87 candidate worksheets + 6 control, 543 notes on disk, 0 structural faults at merge. 30 members carry _skip, all 30 with a reason - 26 withdrawn by the collision audit, of which exactly 1 was itself an Enricher candidate.",
+            "census_012": "543 senses read blind in 20 packets, complete on both arms as 007-011 were. 539 right, 4 wrong, 0 unsure. candidate/noun 3/323 = 0.9%, candidate/verb 0/74, candidate/adjective 1/61 = 1.6%, control/adjective 0/85. No stratum over 5%. The blended 0.7% decides nothing and carries 4 caveats in census-012-results.json - chief among them that the population was filtered by the collision audit before it was read.",
+            "repair_and_reread": "First run of repairer.md: 4 faults, 4 decisions, 0 keeps - 1 drop-example, 3 tone, 2 of those moving a charge. Blind re-read by a fresh census-reader: 4 read, 4 right, 0 wrong. n=4, so this says the four repairs landed and nothing about the pass as a method; the keep path is still untested.",
+            "corpus": "4,223 entries, 0 validation errors, 6,601 warnings - 6,549 of them near-duplicate glosses that predate this stage, 27 the no-spectrum warning across 6 flat families, the rest charged-without-a-note and near-duplicate senses. All 95 authored candidate senses reach the shipped file carrying their note; 8 ship on a neutral label, which is force and register without approval and is normal. 0 withdrawn senses still ship a note. tone_lint 8/543 = 1%.",
+            "not_shipped": "The bundled dictionary in app assets is 8.9h behind data/entries/batch-0001.jsonl: dict_pipeline ran --no-build all stage, so no reader has any of this tick. Not a stage 9 condition - the stage closes on authoring and the census - but the stage 7 done-check found a dictionary two days stale and nothing had said so, and stage9_donecheck.py now says so every run."
+          },
+          "left_standing": "Six known faults the census cannot see by construction, unchanged by this step: 4 superlative collisions flagged by tone_lint and left standing for a decision, and 2 axis labels the step-7 repair moved off their spectra, of which dame's renders. Step 8 established that handing the census reader the family does not surface them - it has no fault class for an axis. Also unresolved: brother null-right against sister null-wrong on mirror glosses, where the sister verdict is the whole basis of hand-candidates.json and sister is one of the 95 authored here; and imbecility kept under 5.3 on the manager's call, which the rule says a human should read."
+        }
+      ],
+      "held": {
+        "count": 25,
+        "why": "smallest book-restricted family exceeds the cap, or no family in the books",
+        "words": [
+          "man",
+          "lady",
+          "woman",
+          "gentleman",
+          "child",
+          "servant",
+          "beauty",
+          "virtue",
+          "elegance",
+          "agreeable",
+          "ill",
+          "dare",
+          "indeed",
+          "merely",
+          "upstairs",
+          "tolerably"
+        ],
+        "goes_to": "stage 12"
+      }
     },
     {
-     "n": 11,
-     "step": "stardict_make.py + verify_stardict.py",
-     "owner": "manager",
-     "state": "done",
-     "commit": null,
-     "note": "dict_pipeline (full): popup-en built and verified. verify_stardict OK - 111,332 words, 72,289 synonyms, dict 108,912,303 B uncompressed / 12,035,397 B dictzipped, sts='h', bits=32. Tiers: 107,477 derived, 3,855 reviewed. Assets copied into app/src/main/assets/dicts/popup-en. The fixed inflections reach the shipped .syn: does->do (leading the two doe senses), women->woman, gentlemen->gentleman, airmen->airman; toes and hoes still reach only toe and hoe."
+      "stage": "10",
+      "title": "Close book one",
+      "spend": "the loop at full width",
+      "state": "not_started",
+      "proposed_on": "2026-09-05",
+      "approved": false,
+      "closed_on": null,
+      "closed_by_commit": null,
+      "done_when": "no sense on a book-one word lacks a connotation verdict someone made - null is a claim, not a default",
+      "stop": "spend cap set before the run; two consecutive ticks over 5% is a method problem, not a batch problem",
+      "note": "6,914 senses on 1,785 book-one words with no verdict: 2,817 ranked but never judged (Enricher only), 4,097 never opened (rank + enrich). Draw by book frequency but screen for whether the sense can judge at all - so/say/now head the list and are correctly plain."
     },
     {
-     "n": 12,
-     "step": "Done-check: app opens offline, a book word returns a readable entry",
-     "owner": "manager",
-     "state": "done",
-     "commit": null,
-     "note": "PASSES ON A FRESH INSTALL. Pixel_10_Pro AVD, Android 17, airplane mode on and ping 8.8.8.8 'Network is unreachable'. App launches cold (3.8s) with no crash, and a word sent by ACTION_SEND - the path a book reader actually uses - returns a readable entry. countenance shows the learner line ('the look that a person's face gives') and the book's own sentence about Mr. Bingley; amiable shows the POSITIVE badge, its tone note and the full family spectrum on the mocking->warm axis; does resolves to do with 'does - third-person singular of do'. 43 engine unit tests pass across 7 classes (an earlier note said 78; that double-counted a stale results directory). FOUND WHILE CHECKING - a shipping defect, recorded as stage 7 issue 1 below: the first run of the check silently read a two-day-old dictionary. DictRepository.installBundledIfNeeded copies a bundled dictionary once and guards it with a .installed-<dir> marker, so an EXISTING user who upgrades the APK keeps their old popup-en for ever and never receives book one. Confirmed on device: 11,828,099 B from 2026-09-03 where the new build is 12,035,397 B; pm clear then relaunch installed the new one and the learner lines appeared. Per-dictionary colour, order and enabled state live in DictRegistry keyed by file path, NOT in the dictionary files, so re-copying would not disturb them - the marker's only real job is to keep a dictionary the user DELETED from coming back."
+      "stage": "11",
+      "title": "Book two",
+      "spend": "breadth, after depth",
+      "state": "not_started",
+      "proposed_on": "2026-09-05",
+      "approved": false,
+      "closed_on": null,
+      "closed_by_commit": null,
+      "done_when": "a second book's vocabulary ships in the StarDict file and the app resolves its words offline",
+      "stop": null,
+      "note": "pg74 (5,432 sentences) or pg2701 (10,254). Tone coverage falls when the book lands because the denominator grows first; expected, watch it, do not correct it. After this the reading loop is the standing method and a book is the unit of work."
     },
     {
-     "n": 13,
-     "step": "Write measured numbers into build-stages.json and close stage 7",
-     "owner": "manager",
-     "state": "done",
-     "commit": null,
-     "note": "MEASURED NUMBERS FOR STAGE 7. Enrichment: 769 entries accepted, 9 rejected, 2,006 senses written (1,909 null, 97 candidate). Blind reads: pilot 3.14%, the 778 at 3.09% sense defect, against a 10% halt line; every fault repaired third-hand and re-read blind. Batch: 3,857 entries, 0 validation errors; entry_validate 14,375 senses, all traceable, POS agreed, gloss unchanged. Shipped file: 111,332 words, 72,289 synonyms, 12,035,397 B dictzipped, 107,477 derived and 3,855 reviewed. Connotation health across the shipped corpus: 2,784 charged senses, 2,440 words holding an authored charged sense, 0 missing from the index, 0 failing to render their badge, 0 fabrications (neutral + explanation) and 0 orphaned charges (neutral + charged family). 88 senses still carry a leftover SentiWordNet score, of which 52 are the Enricher's 'candidate' verdicts; dict_build has gated the machine label behind human-written content since plan 11.5, so a reader sees 'not recorded - report this word' and no reader-facing harm exists. Those 52 are a queue, not a defect. Done-check passed offline on a Pixel_10_Pro, fresh install AND upgrade."
+      "stage": "12",
+      "title": "The held set",
+      "spend": "research, conditional",
+      "state": "not_started",
+      "proposed_on": "2026-09-05",
+      "approved": false,
+      "closed_on": null,
+      "closed_by_commit": null,
+      "done_when": "lady, gentleman, woman and servant render on a spectrum a reader of Pride and Prejudice would recognise, and it reads under 5%",
+      "stop": "if no in-repo signal groups these words at <=20 members, record that in BUILD-PLAN section 6 and stop looking",
+      "note": "Exists only if a mechanism is found. WordNet has no connotation family for lady, only 603 hyponyms of woman. Candidates: adjective satellite links, antonyms, pertainyms, co-occurrence in book sentences. No sense-level author is written to absorb the held set: a one-word author with no neighbour to name reintroduces the 44% fault pattern into a corpus the census cannot see it in."
     }
-   ],
-   "owners": {
-    "manager": "a session opened on this repo folder - it alone can spawn the instruments",
-    "cloud": "a session with no agent access - the deterministic tail only",
-    "shawn": "a second session opened on this repo folder - takes the long authoring run and the pilot re-reads"
-   },
-   "role_rule": "The hand that writes is never the hand that reads, and it is now enforced across sessions, not just across models. The manager authored the pilot 100 and has seen every ranker and enricher rationale, so it is contaminated for those entries and must not read them. Neither session has seen the 778, so whichever one does not author it can read it honestly.",
-   "issues": [
-    {
-     "n": 1,
-     "title": "A bundled dictionary is never refreshed after the first install",
-     "found": "2026-09-05, step 12 done-check",
-     "where": "app/src/main/java/io/github/roviicc/colordict/data/DictRepository.java installBundledIfNeeded",
-     "impact": "book one reaches new installs only. Every existing user upgrades the APK and keeps the old dictionary, so the whole of stage 7 is invisible to them.",
-     "proposed_fix": "keep the marker as the 'user deleted this, do not bring it back' signal, but record the bundled .ifo (wordcount, synwordcount, idxfilesize - all of which move with content) in it and re-copy when the bundled .ifo differs AND the dictionary directory still exists.",
-     "state": "fixed",
-     "fixed": "2026-09-05. The marker now holds the bundled .ifo it was written for and a difference means re-copy; a marker with no directory beside it still means the user deleted the dictionary and it stays deleted. A legacy \"1\" marker matches no .ifo, so existing installs refresh once and then record the fingerprint. All three branches tested on device: legacy marker + stale dict -> refreshed (1 B marker and 5 B dict became 399 B and 12,035,397 B, log 'bundled popup-en changed; refreshing it'); unchanged asset -> no re-copy, mtime identical, no log line; deleted directory -> not reinstalled."
-    },
-    {
-     "n": 2,
-     "title": "The upgrade fingerprint tracks the headword list, not the content",
-     "found": "2026-09-05, 1.4.0 upgrade test on device",
-     "where": "app/src/main/java/io/github/roviicc/colordict/data/DictRepository.java bundledFingerprint / installBundledIfNeeded",
-     "impact": "Issue 1's fix is real and its signal is wrong, so the same failure returns unchanged: an existing reader upgrading 1.3.0 -> 1.4.0 keeps the old dictionary and receives none of stage 9. The fingerprint is the bundled .ifo, on the stated assumption that 'wordcount, synwordcount and idxfilesize all move when the content does'. They do not. Stage 9 added no headwords - it wrote notes onto senses of words that already existed - so all three counters are unchanged and the .ifo is byte-identical between the two builds, while popup-en.dict.dz goes 12,035,397 -> 12,104,808 B. git status says it in one line: the two files that changed are dict.dz and idx, and the fingerprint looks at neither. Any content-only tick, which is what the connotation lane produces by design, is invisible to every existing install.",
-     "measured": "Pixel_10_Pro AVD, Android 17, airplane mode, ping 8.8.8.8 'Network is unreachable'. Installed 1.3.0 (versionCode 4) fresh: on-device popup-en.dict.dz = 12,035,397 B. Upgraded in place to 1.4.0 (versionCode 5, APK carrying 12,104,808 B) with adb install -r: on-device file unchanged at 12,035,397 B with its original timestamp, no 'bundled popup-en changed' line in logcat. sister sense 2 - authored in stage 9 at charge +1 - reads 'Connotations: not recorded - report this word'. Control, the same 1.4.0 APK installed fresh: 12,104,808 B on device and the same sense reads 'POSITIVE - Turns fellow membership of a sorority, a union or any other group into a family tie between women, warmer than the bare enrolment *member* records.' Two screenshots differing in exactly the line that is the point.",
-     "proposed_fix": "Fingerprint the content, not the counters. Cheapest honest signal is the byte length of every file in the bundled directory alongside the .ifo, since dict.dz and idx both move with content and neither needs reading; a build stamp written by stardict_make.py into a small sidecar file would be stronger still and costs one line at build time. Hashing 12 MB of dict.dz at every launch is not the answer. Whatever is chosen, the test that proves it is the one above - install the previous release, upgrade in place, and read the file size on device - because a fresh-install check passes either way and that is how this got through twice.",
-     "state": "open"
-    }
-   ]
+  ],
+  "always_running": {
+    "lane": "the reading loop - book names the words, Ranker picks the senses, Enricher writes the entry and asks whether it judges, candidates summon book-restricted families, blind read, third-hand repair, 5% gate",
+    "since": "2026-09-05 (stage 9); the gate-driven family draw is filler when there is no book",
+    "families": 235,
+    "senses": 2885,
+    "last_census": "011 at 3.0%",
+    "outstanding_repairs": 0,
+    "candidates_awaiting_join": 121
   },
-  {
-   "stage": "8",
-   "title": "The first demand tick",
-   "spend": "spend follows reports",
-   "state": "deferred",
-   "closed_on": null,
-   "closed_by_commit": null,
-   "deferred_on": "2026-09-05",
-   "decision": {
-    "what": "Stage 8 is deferred because its mechanism does not exist, not because the work is hard.",
-    "why": "Stage 8 IS the demand tick: reports_ingest dedupes by sense and RANKS BY REPORT COUNT. That needs reports from people who are not the author. The author confirmed on 2026-09-05 that there are no such readers - they are the only user. Three reports exist, all from the author's own device, all singletons: counting and ranking three 1s produces no order, which is what HANDOFF means by 'the queue is noise at that size'. Waiting on ~20 distinct reported senses is waiting on something with no path.",
-    "standing_method": "Book-driven selection replaces it, and stage 7 measured it: take a real book, take the coverage band, rank each sense by what a reader of THAT book actually meets. 3.09% sense defect with rank_wrong 0 over 194 senses. The charge gate it displaces was measured in 11.75 at three of eight eligible families being taxonomy and five connotation (corrected 2026-09-05 - this sentence read \"five of eight taxonomy\"). The book is a demand signal that needs no users; the gate is a decent proxy the book supplements rather than beats.",
-    "what_this_gives_up": "Every census measures whether the dictionary is CORRECT against a rubric. Nobody has measured whether it is USEFUL to someone reading a novel, and no amount of book-driven work substitutes for that. Accepted deliberately rather than stumbled into.",
-    "reversible": "If readers ever appear, stage 8 resumes unchanged - reports_ingest, the deny list, the family grouping and the 5% gate are all still the right design. Nothing here is deleted.",
-    "next": "Book two. pg74 (5,432 sentences) and pg2701 (10,254 sentences) are already ingested under data/build/books/.",
-    "correction_2026_09_05": "Corrected 2026-09-05. A blind recount of gate-triage-reads/rater-a.json and rater-b.json against the band tags in gate-triage.json gives the eligible band as five connotation, three taxonomy (*irrelevant*, *unfavorable*, *competitive*). The sentence \"five of eight judged taxonomy\" reached that count by adding *inaccurate* and *genuine*, which are hand-picked controls, not eligible families. The gate selects connotation five times in eight - 0.62 against the hand-picked corpus's 0.58 - and the same results file already said so in findings[2]. What survives: roughly 40% of tick effort (3/8) goes to taxonomy, and the threshold should not be lowered. What does not: the gate as a proxy that mostly picks taxonomy, and the demotion of the adjective queue to filler that was argued from it."
-   }
+  "measured_2026_09_03": {
+    "shipped_stardict_entries": 111466,
+    "reviewed_entries": 3063,
+    "note": "CORRECTION: the earlier draft read 3,058 as the shipped entry count. It is the REVIEWED count. popup-en.ifo reports wordcount=111466 and emerge/market/book/skinny all resolve, so BUILD-PLAN stage 1.2 was already shipped before stage 1 began."
   },
-  {
-   "stage": "9",
-   "title": "The reading loop, proven on the backlog",
-   "spend": "small spend",
-   "state": "not_started",
-   "proposed_on": "2026-09-05",
-   "approved": false,
-   "closed_on": null,
-   "closed_by_commit": null,
-   "done_when": "every candidate in data/policy/*/results.json is either authored or held with a reason, and the blind census on the authored senses is under 5%",
-   "stop": "if the census on book-restricted families reads worse than 007-011 the cap is the problem; change it in candidate_families.py and treat the next run as a new baseline",
-   "note": "Builds the join Lane A and Lane B never had. 121 Enricher candidates sat unwritten since enrich-001: enrich_validate.py writes nothing for a candidate and the why dies in results.json. candidate_families.py (commit 9d59909) routes them to book-restricted families capped at 20: after the audit fixes: 86 worksheets, 480 senses, 24 held - against 3,958 senses naive. 2026-09-05 later: 11.75 inversion corrected in 4 files (gate-triage-results.json carries the recount); census 012 pre-registered with a control arm; sister added as a hand candidate.",
-   "steps": [
-    {
-     "n": 1,
-     "step": "Place repairer.md; add repairer, family-author, census-reader to instrument_gate",
-     "owner": "manager",
-     "state": "done",
-     "note": "repairer.md placed 2026-09-05 (commit 00ac8c8) and instrument_gate.py extended from four instruments to seven (adds repairer, family-author, census-reader - the connotation lane had been outside the gate since it was written). Both gate modes pass; plugin_sync unchanged and passing. The deny rule on .claude/agents/** was lifted for the copy and restored the same minute: settings.json is byte-identical to HEAD, the five pre-existing instruments show an empty diff vs HEAD, the placed file is sha256-identical to the reviewed draft, and a probe write confirmed the rule enforcing again."
-    },
-    {
-     "n": 2,
-     "step": "Plan audit: 4 measurements + 4 adversarial lenses on the design",
-     "owner": "manager",
-     "state": "done",
-     "note": "workflow wf_eb540580-564, 9 agents, 943k tokens. Verdict: yes-with-changes. Coverage projection corrected: 28.6% at exhaustion, not ~39% - the loop is a charged-word detector with a spectrum expander, not a coverage engine. candidate_families.py must not run until fixed: 5 sense ids in two worksheets, 5 rows already carry censused tone, family-01138269-a already annotated, book_members dedups by word while routing tests synset (woman/virtue/ignorant held wrongly; young/brother counted routed but unwritten), load_books is POS-blind (36% of rows mis-credited), held_because prints wrong sizes, anchors freezes a per-book table into the product, docstring stale. Census 012 must be stratified by POS with a pre-registered adjective control arm: the draw is 60 noun / 15 verb / 11 adj against a 100%-adjective baseline. Separately: gate-triage-results.json findings[3] ('five of eight eligible judged taxonomy') appears INVERTED - by_band says 0.62 = 5/8 connotation; propagated to HANDOFF, BUILD-PLAN, DICTIONARY-PLAN and this file. To be recounted from the raw rater files before any doc is changed."
-    },
-    {
-     "n": "2b",
-     "step": "Fix candidate_families.py per audit (guards, dedup, POS key, reasons, anchors, docstring); re-verify",
-     "owner": "manager",
-     "state": "done",
-     "note": "Rewritten and re-verified: 121 candidates -> 97 routed / 86 worksheets / 480 senses ({'adjective': 62, 'noun': 342, 'verb': 76}), 24 held with exact reasons. Guards pass: 0 duplicate rows, 0 censused rows redrawn, 0 annotated families redrawn, no anchors key (build_spectrum spans the axis and refuses a flat family), book frequency keyed on (lemma, POS). lady/woman/young/brother now route; man held at 31 (cap 20). A word that is a candidate under two synsets of one family carries one row - the other sense is held and says so (virtue, ignorant). sister/oewn-10621666-n, a recorded false null, was never a candidate and is in no sheet - needs a hand decision."
-    },
-    {
-     "n": "3b",
-     "step": "Control arm drawn and pre-registered: 6 gate-eligible adjective families, 88 senses (86 annotatable), 5.3 screen read - bastardly pre-skipped, halal kept with note",
-     "owner": "manager",
-     "state": "done"
-    },
-    {
-     "n": 3,
-     "step": "candidate_families.py -> data/families/draft-018.json",
-     "owner": "manager",
-     "state": "done",
-     "note": "draft-018.json written: 98 routed / 87 worksheets / 485 senses, 24 held (stage9-candidates.json, which is also the demand log). sister added via data/policy/hand-candidates.json."
-    },
-    {
-     "n": 4,
-     "step": "87 family-authors on draft-018 + 6 on draft-018-control, each writing its own JSON to disk",
-     "owner": "manager",
-     "state": "done",
-     "note": "93 family-authors, one per family, each reading its packet from disk and writing its own JSON: 87 candidate (483 senses) + 6 control (86), 569 total. Zero structural faults against family_merge's contract - member sets exact on all 93, every charge an int in -3..3, no undefined member fields, no declines, and all 93 wrote their own axis rather than keeping the worksheet placeholder. Merged whole to annotated-018.json and annotated-018c.json, 4 pre-skipped. tone_lint 9/569 = 1.6%, of which 4 are superlative collisions (two members of one family each claiming the mild end) - a between-sense fault the census cannot see; left standing for a decision. tools/family_packets.py written for this step: the family reaches the author as a file, not as a manager's retyping, and it restores the gloss the worksheet cut to 90 characters (28 of 483 candidate senses, 0 of 86 control - an asymmetry that would have loaded the difference between the two census arms onto the thing census 012 exists to measure).",
-     "commit": "c0d831c, 9c270c1"
-    },
-    {
-     "n": 5,
-     "step": "family_merge -> tone_lint -> family_apply -> dict_pipeline --no-build",
-     "owner": "manager",
-     "state": "done",
-     "note": "family_merge 87+6 families whole; tone_lint 8/543 = 1%; family_apply after three fixes - no spectrum for a family with one distinct charge, skipped members excluded from the spectrum (brother was shipping as the friend family's mild anchor), and the 28-sense family/Enricher collision adjudicated blind by the null-auditor at 26 null-right / 2 null-wrong. dict_pipeline --no-build: 4,223 entries, 0 errors, 6,597 warnings, all accounted.",
-     "commit": "b6a783c"
-    },
-    {
-     "n": 6,
-     "step": "Census 012: stratified read, pre-registered in census-012.json - candidate arm by POS + adjective control arm; 5% per stratum",
-     "owner": "shawn",
-     "state": "done",
-     "note": "Census 012, complete read of both arms as 007-011 were, 543 senses in 20 packets, population sorted by family so a reader sees siblings together. 539 right, 4 wrong, 0 unsure = 0.7% blended. Per stratum: candidate/noun 3/323 = 0.9%, candidate/verb 0/74, candidate/adjective 1/61 = 1.6%, control/adjective 0/85. No stratum over the 5% gate; strata_over_threshold empty. The composition effect the pre-registration predicted (1.82% -> ~3.2%) did not appear. See census-012-results.json caveats: the rate is on the 543 that survived the collision audit's filter, and the control arm's 0/85 is consistent with 1.82%, not evidence of improvement. Four faults go to the repairer: haste (example belongs to another sense), ultra (note and charge contradict), scheme (wrong-charge), dame (gloss-mismatch - the note describes the slang sense, on a family of five words printing under one identical gloss).",
-     "commit": "pending"
-    },
-    {
-     "n": 7,
-     "step": "First third-hand repair pass under repairer.md",
-     "owner": "repairer",
-     "state": "done",
-     "note": "First use of repairer.md, and the first repair pass in this project run by a hand that neither authored the note nor found the fault. One packet, four faults, four decisions, no keeps: haste drop-example (the make-haste exhortation, note untouched), ultra tone (resolved the note/charge contradiction toward the charge and handed the pure-location role to *far*, the neutral member two rows down whose note the old one had duplicated), scheme tone + charge -1 -> 0, dame tone + charge 0 -> +1 rewritten off the slang sense onto the printed gloss. census_apply gained an overlay path first: drop-example only knew the family worksheet, where just the 66 gate-drawn members of annotated-001..003 carry examples, so the action would have warned and changed nothing on any book-drawn sense; the same near-copy-of-slug() that dropped *ma'am* out of a census arm was fixed in its index at the same time, with both prior decisions files replaying identically. Applied: 3 members in annotated-018.json, 1 line of 4,217 in the stage-7 overlay. dict_pipeline --no-build: 4,223 entries, 0 errors, 6,601 warnings (+4, all of them scheme's family losing its spectrum). tone_lint unchanged at 8/543 = 1%.",
-     "commit": "pending",
-     "left_standing": "The repair moved two family axis labels off their spectra, and the census cannot see either - census_packets withholds `family`, so a reader is never shown the axis. dame's family now runs lady/ma'am/madam/dame +1 and gentlewoman +2, and its label still reads 'offhand courtesy -> stately dignity' with nothing left at the offhand end; that one ships, because dict_build renders the axis whenever a spectrum exists. lint_axis does not catch it: it returns early on any family with a positive charge, by design, since only all-negative families render backwards. scheme's family is now four members all at 0 with no spectrum, so its axis label does not render at all and the staleness stays internal. Neither is the repairer's doing - it is forbidden to touch a neighbour or a family - and neither has been fixed."
-    },
-    {
-     "n": 8,
-     "step": "Blind re-read of the repairs by a reader that found none of them",
-     "owner": "shawn",
-     "state": "done",
-     "note": "Blind re-read of the four repaired senses by a fresh census-reader that authored none of them and found none of the faults, rubric verbatim, reading the rebuilt corpus rather than the decisions file. 4 read, 4 right, 0 wrong, 0 unsure: every repair stands. The packet followed census 010's re-read - the reader was told the notes had been edited, which the rubric handles explicitly ('read them harder, not softer'), and each card carried the other notes in its family, because all three rewritten notes make a named-neighbour claim (*far*, *system*, *ma'am*/*madam*) and a claim about a neighbour cannot be checked without the neighbour. The reader checked all three against those words' own notes and upheld them. n=4: this says the four repairs landed, and nothing about the repair pass as a method.",
-     "commit": "pending",
-     "left_standing": "The re-read was also a test of whether the family lane can be covered by giving the census reader a bigger card, and the answer is no. dame's card carried the stale axis - 'offhand courtesy -> stately dignity' printed above a spectrum reading lady +1, gentlewoman +2, with nothing left at the offhand end - and the reader, unprompted and reading hard enough to write two clauses about dame's register, did not mention it. That is not a lapse: census-reader.md asks whether the note agrees with the gloss and stays inside the word, and it has no fault class for an axis label that no longer describes its spectrum. The evidence was on the card and there was no question that would surface it. A family lane therefore needs its own rubric and its own fault names, not the census reader with more context attached."
-    },
-    {
-     "n": 9,
-     "step": "Done-check; write measured numbers here",
-     "owner": "manager",
-     "state": "done",
-     "commit": "pending",
-     "note": "DONE-CHECK PASSES. tools/stage9_donecheck.py, written for this step, re-derives the candidate list from data/policy/*/results.json the way candidate_families.py builds it rather than reading stage9-candidates.json, because that file is the router's own account of what it did. Both halves of done_when hold. Every candidate is accounted for: 120 distinct senses, 95 authored, 1 withdrawn with a reason, 24 held with a reason, 0 lost. No stratum over the 5% gate. The stop condition does not fire - the book-restricted draw reads 0.9% against 1.9% pooled across 007-011, so the cap of 20 stands.",
-     "measured": {
-      "candidates": "120 distinct candidate senses from 122 records across 5 Enricher runs. The record counts are what the stage notes carried and they double-count two senses the Enricher marked in two runs; distinct, it is 120 candidates / 96 routed / 24 held, and the rebuilt set and the router's ledger agree on every member in both directions.",
-      "authoring": "93 family-author agents, one per family, packets written by family_packets.py; 87 candidate worksheets + 6 control, 543 notes on disk, 0 structural faults at merge. 30 members carry _skip, all 30 with a reason - 26 withdrawn by the collision audit, of which exactly 1 was itself an Enricher candidate.",
-      "census_012": "543 senses read blind in 20 packets, complete on both arms as 007-011 were. 539 right, 4 wrong, 0 unsure. candidate/noun 3/323 = 0.9%, candidate/verb 0/74, candidate/adjective 1/61 = 1.6%, control/adjective 0/85. No stratum over 5%. The blended 0.7% decides nothing and carries 4 caveats in census-012-results.json - chief among them that the population was filtered by the collision audit before it was read.",
-      "repair_and_reread": "First run of repairer.md: 4 faults, 4 decisions, 0 keeps - 1 drop-example, 3 tone, 2 of those moving a charge. Blind re-read by a fresh census-reader: 4 read, 4 right, 0 wrong. n=4, so this says the four repairs landed and nothing about the pass as a method; the keep path is still untested.",
-      "corpus": "4,223 entries, 0 validation errors, 6,601 warnings - 6,549 of them near-duplicate glosses that predate this stage, 27 the no-spectrum warning across 6 flat families, the rest charged-without-a-note and near-duplicate senses. All 95 authored candidate senses reach the shipped file carrying their note; 8 ship on a neutral label, which is force and register without approval and is normal. 0 withdrawn senses still ship a note. tone_lint 8/543 = 1%.",
-      "not_shipped": "The bundled dictionary in app assets is 8.9h behind data/entries/batch-0001.jsonl: dict_pipeline ran --no-build all stage, so no reader has any of this tick. Not a stage 9 condition - the stage closes on authoring and the census - but the stage 7 done-check found a dictionary two days stale and nothing had said so, and stage9_donecheck.py now says so every run."
-     },
-     "left_standing": "Six known faults the census cannot see by construction, unchanged by this step: 4 superlative collisions flagged by tone_lint and left standing for a decision, and 2 axis labels the step-7 repair moved off their spectra, of which dame's renders. Step 8 established that handing the census reader the family does not surface them - it has no fault class for an axis. Also unresolved: brother null-right against sister null-wrong on mirror glosses, where the sister verdict is the whole basis of hand-candidates.json and sister is one of the 95 authored here; and imbecility kept under 5.3 on the manager's call, which the rule says a human should read."
-    }
-   ],
-   "held": {
-    "count": 25,
-    "why": "smallest book-restricted family exceeds the cap, or no family in the books",
-    "words": [
-     "man",
-     "lady",
-     "woman",
-     "gentleman",
-     "child",
-     "servant",
-     "beauty",
-     "virtue",
-     "elegance",
-     "agreeable",
-     "ill",
-     "dare",
-     "indeed",
-     "merely",
-     "upstairs",
-     "tolerably"
-    ],
-    "goes_to": "stage 12"
-   }
-  },
-  {
-   "stage": "10",
-   "title": "Close book one",
-   "spend": "the loop at full width",
-   "state": "not_started",
-   "proposed_on": "2026-09-05",
-   "approved": false,
-   "closed_on": null,
-   "closed_by_commit": null,
-   "done_when": "no sense on a book-one word lacks a connotation verdict someone made - null is a claim, not a default",
-   "stop": "spend cap set before the run; two consecutive ticks over 5% is a method problem, not a batch problem",
-   "note": "6,914 senses on 1,785 book-one words with no verdict: 2,817 ranked but never judged (Enricher only), 4,097 never opened (rank + enrich). Draw by book frequency but screen for whether the sense can judge at all - so/say/now head the list and are correctly plain."
-  },
-  {
-   "stage": "11",
-   "title": "Book two",
-   "spend": "breadth, after depth",
-   "state": "not_started",
-   "proposed_on": "2026-09-05",
-   "approved": false,
-   "closed_on": null,
-   "closed_by_commit": null,
-   "done_when": "a second book's vocabulary ships in the StarDict file and the app resolves its words offline",
-   "stop": null,
-   "note": "pg74 (5,432 sentences) or pg2701 (10,254). Tone coverage falls when the book lands because the denominator grows first; expected, watch it, do not correct it. After this the reading loop is the standing method and a book is the unit of work."
-  },
-  {
-   "stage": "12",
-   "title": "The held set",
-   "spend": "research, conditional",
-   "state": "not_started",
-   "proposed_on": "2026-09-05",
-   "approved": false,
-   "closed_on": null,
-   "closed_by_commit": null,
-   "done_when": "lady, gentleman, woman and servant render on a spectrum a reader of Pride and Prejudice would recognise, and it reads under 5%",
-   "stop": "if no in-repo signal groups these words at <=20 members, record that in BUILD-PLAN section 6 and stop looking",
-   "note": "Exists only if a mechanism is found. WordNet has no connotation family for lady, only 603 hyponyms of woman. Candidates: adjective satellite links, antonyms, pertainyms, co-occurrence in book sentences. No sense-level author is written to absorb the held set: a one-word author with no neighbour to name reintroduces the 44% fault pattern into a corpus the census cannot see it in."
-  }
- ],
- "always_running": {
-  "lane": "the reading loop - book names the words, Ranker picks the senses, Enricher writes the entry and asks whether it judges, candidates summon book-restricted families, blind read, third-hand repair, 5% gate",
-  "since": "2026-09-05 (stage 9); the gate-driven family draw is filler when there is no book",
-  "families": 235,
-  "senses": 2885,
-  "last_census": "011 at 3.0%",
-  "outstanding_repairs": 0,
-  "candidates_awaiting_join": 121
- },
- "measured_2026_09_03": {
-  "shipped_stardict_entries": 111466,
-  "reviewed_entries": 3063,
-  "note": "CORRECTION: the earlier draft read 3,058 as the shipped entry count. It is the REVIEWED count. popup-en.ifo reports wordcount=111466 and emerge/market/book/skinny all resolve, so BUILD-PLAN stage 1.2 was already shipped before stage 1 began."
- },
- "lexicon": "OEWN 2025 (adopted 2026-09-03); SentiWordNet joined via ili-map-pwn30.tab"
+  "lexicon": "OEWN 2025 (adopted 2026-09-03); SentiWordNet joined via ili-map-pwn30.tab"
 }

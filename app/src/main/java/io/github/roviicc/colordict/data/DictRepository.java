@@ -46,6 +46,8 @@ public final class DictRepository {
     private static final String BUNDLED_ASSET_ROOT = "dicts";
     /** Marker written by pre-popup-en builds; counts as sample-glossary installed. */
     private static final String LEGACY_SAMPLE_MARKER = ".sample-installed";
+    /** Content fingerprint written beside a bundled set by tools/stardict_make.py. */
+    private static final String STAMP_EXT = ".stamp";
 
     public interface Listener {
         void onDictionariesChanged();
@@ -247,9 +249,9 @@ public final class DictRepository {
      *  a reader who already had a dictionary kept it for ever: an APK carrying
      *  a rebuilt popup-en installed nothing, reported nothing, and left them on
      *  the old file. A whole generation run reached new installs and nobody
-     *  else. So the marker now holds the bundled .ifo it was written for -
-     *  wordcount, synwordcount and idxfilesize all move when the content does -
-     *  and a difference means re-copy.
+     *  else. So the marker now holds the bundled dictionary's content
+     *  fingerprint - see {@link #bundledFingerprint} - and a difference means
+     *  re-copy.
      *
      *  <p>Deletion is still honoured, and it is the only thing the marker
      *  really has to protect: colour, order and enabled live in DictRegistry
@@ -257,8 +259,9 @@ public final class DictRepository {
      *  marker with no directory beside it means the user threw the dictionary
      *  away, and it stays thrown away.
      *
-     *  <p>A legacy marker holds "1", which matches no .ifo, so the first run
-     *  after this change refreshes once and then records the fingerprint. */
+     *  <p>A marker from any older build holds either "1" or the .ifo text the
+     *  first attempt at this fingerprint used, and neither can equal a stamp,
+     *  so the first run after an upgrade refreshes once and records the stamp. */
     private void installBundledIfNeeded() {
         AssetManager assets = app.getAssets();
         String[] dirs;
@@ -318,8 +321,21 @@ public final class DictRepository {
         }
     }
 
-    /** The bundled .ifo for one dictionary, used as its content fingerprint.
-     *  Null when there is none to read, which is treated as "cannot tell" and
+    /** The content fingerprint of one bundled dictionary.
+     *
+     *  <p>Prefers the {@code .stamp} written by tools/stardict_make.py: a
+     *  sha256 and a byte length for every file in the set, a few hundred bytes
+     *  standing in for the twelve megabytes it describes.
+     *
+     *  <p>The .ifo was tried first and is not a content fingerprint. Its
+     *  wordcount, synwordcount and idxfilesize move with the headword list, so
+     *  a run that only writes notes onto senses of words that already exist -
+     *  which is what the connotation lane produces by design - leaves the .ifo
+     *  byte-identical while .dict.dz and .idx both change, and every existing
+     *  install kept the old dictionary. It stays as the fallback for a bundled
+     *  dictionary built without a stamp, where it beats having nothing.
+     *
+     *  <p>Null when there is neither, which is treated as "cannot tell" and
      *  never as "changed" - a dictionary is not re-copied on a guess. */
     private String bundledFingerprint(AssetManager assets, String dir) {
         String[] names;
@@ -331,24 +347,34 @@ public final class DictRepository {
         if (names == null) {
             return null;
         }
+        String ifo = null;
         for (String name : names) {
-            if (!name.endsWith(".ifo")) {
-                continue;
-            }
-            try (InputStream in = assets.open(
-                    BUNDLED_ASSET_ROOT + "/" + dir + "/" + name)) {
-                ByteArrayOutputStream buf = new ByteArrayOutputStream();
-                byte[] chunk = new byte[4096];
-                int n;
-                while ((n = in.read(chunk)) > 0) {
-                    buf.write(chunk, 0, n);
+            if (name.endsWith(STAMP_EXT)) {
+                String stamp = readAsset(assets, dir, name);
+                if (stamp != null) {
+                    return stamp;
                 }
-                return buf.toString("UTF-8");
-            } catch (IOException e) {
-                return null;
+            } else if (name.endsWith(".ifo") && ifo == null) {
+                ifo = name;
             }
         }
-        return null;
+        return ifo == null ? null : readAsset(assets, dir, ifo);
+    }
+
+    /** One small asset file as text, or null when it cannot be read. */
+    private String readAsset(AssetManager assets, String dir, String name) {
+        try (InputStream in = assets.open(
+                BUNDLED_ASSET_ROOT + "/" + dir + "/" + name)) {
+            ByteArrayOutputStream buf = new ByteArrayOutputStream();
+            byte[] chunk = new byte[4096];
+            int n;
+            while ((n = in.read(chunk)) > 0) {
+                buf.write(chunk, 0, n);
+            }
+            return buf.toString("UTF-8");
+        } catch (IOException e) {
+            return null;
+        }
     }
 
     private String readMarker(File marker) {
@@ -425,7 +451,11 @@ public final class DictRepository {
             File dir = d.ifoFile.getParentFile();
             String name = d.ifoFile.getName();
             String base = name.substring(0, name.length() - ".ifo".length());
-            String[] exts = {".ifo", ".idx", ".idx.gz", ".dict", ".dict.dz", ".syn"};
+            // The stamp goes with them: a file left behind keeps the
+            // directory alive, and installBundledIfNeeded reads a surviving
+            // directory as "still installed".
+            String[] exts = {".ifo", ".idx", ".idx.gz", ".dict", ".dict.dz",
+                    ".syn", STAMP_EXT};
             for (String ext : exts) {
                 File f = new File(dir, base + ext);
                 if (f.isFile()) {
@@ -433,6 +463,17 @@ public final class DictRepository {
                     f.delete();
                 }
             }
+            // And so does the directory, which is what "the user threw this
+            // away" is actually recorded as - installBundledIfNeeded honours a
+            // deletion by finding no directory beside the marker, and until now
+            // deleting a bundled dictionary left an empty one standing. That
+            // was invisible while the fingerprint never moved; with a fingerprint
+            // that works, the next content tick would have handed the reader
+            // back the twelve megabytes they had just thrown away. delete()
+            // fails on a directory that is not empty, so anything the user put
+            // there keeps it - and keeps the dictionary.
+            //noinspection ResultOfMethodCallIgnored
+            dir.delete();
             registry.remove(d.id);
             scanNow();
         });
