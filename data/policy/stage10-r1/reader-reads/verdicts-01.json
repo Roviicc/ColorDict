@@ -1,0 +1,79 @@
+{"packet": 1, "verdicts": [
+ {"word": "little", "pos": "adjective",
+  "rank": "right", "why": "Every sentence uses 'little' as the quantifier of small amount/degree with mass or abstract nouns (little difficulty, little dependence, said little), which is the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00858857-s", "verdict": "right", "fault": null, "why": "Learner line and 'candidate' verdict both track the gloss's built-in ambivalence (tenderness or its opposite), and the example uses 'little' this way."},
+   {"synset": "oewn-01284018-s", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the informal label is supported by the gloss's own '(informal)' tag, and the example fits the 'unimportant' sense."},
+   {"synset": "oewn-02395180-a", "verdict": "right", "fault": null, "why": "Learner line matches the stature gloss and the example ('a little man') clearly uses that sense; connotation null is reasonable for a physical descriptor."},
+   {"synset": "oewn-01458511-s", "verdict": "right", "fault": null, "why": "Learner line restates 'faint' plainly, the example is a faint-voice usage, and null connotation suits a purely descriptive term."},
+   {"synset": "oewn-01470449-s", "verdict": "right", "fault": null, "why": "Learner line and example correctly capture the lowercase-letter sense with no added judgment."}
+  ]
+ },
+ {"word": "speak", "pos": "verb",
+  "rank": "wrong", "why": "Most sentences (spoke in a low voice, as she thus spoke, as he spoke, to speak with calmness) use the general intransitive 'use language' sense, but that sense is listed third, below senses each matched by only one sentence.",
+  "senses": [
+   {"synset": "oewn-00991233-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example shows addressing an audience, which is this sense."},
+   {"synset": "oewn-02140072-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the drums example is a natural-sound usage with null (non-judging) connotation appropriate."}
+  ]
+ },
+ {"word": "evening", "pos": "noun",
+  "rank": "right", "why": "The sentences split fairly evenly between the plain time-of-day sense and the 'evening spent in a special way' sense, and the time-of-day sense is listed first.",
+  "senses": [
+   {"synset": "oewn-15292923-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the 'evening of his life' example is a standard use of this metaphorical sense."}
+  ]
+ },
+ {"word": "marriage", "pos": "noun",
+  "rank": "right", "why": "Most sentences (happiness in marriage, happiness with him in marriage, run into a marriage) refer to the state of being married, which is the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-14444989-n", "verdict": "right", "fault": null, "why": "Learner line paraphrases 'close and intimate union' faithfully, the example fits, and the word describes a combination without inherently judging it (the praise comes from 'perfect', not 'marriage')."}
+  ]
+ },
+ {"word": "connection", "pos": "noun",
+  "rank": "right", "why": "Most sentences (connection with them, an unhappy connection, revolt from the connection) use 'connection' as a relationship/tie, matching the first-listed 'state of being connected' sense.",
+  "senses": [
+   {"synset": "oewn-00146038-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the two-computers example fits this contact-for-communication sense."},
+   {"synset": "oewn-03095830-n", "verdict": "right", "fault": null, "why": "Learner line matches 'an instrumentality that connects' and the loose-wire example fits."},
+   {"synset": "oewn-05771913-n", "verdict": "right", "fault": null, "why": "Learner line matches the memory/imagination gloss and the example illustrates associative memory correctly."},
+   {"synset": "oewn-00317815-n", "verdict": "right", "fault": null, "why": "Learner line matches the transportation-transfer gloss and the train/ferry example fits."},
+   {"synset": "oewn-13893444-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a connecting shape' and the drawing example fits."},
+   {"synset": "oewn-09975514-n", "verdict": "right", "fault": null, "why": "Learner line matches the supplier gloss, the example fits, and the word itself is a neutral term for the role rather than a judgment (the referent, not the word, is objectionable)."}
+  ]
+ },
+ {"word": "love", "pos": "verb",
+  "rank": "right", "why": "Sentences like 'being in love with each other' and 'do you really love him' use the romantic/enamored sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-01429048-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss plainly and the example ('loved her that night... gone before morning') clearly signals this sense without added judgment."}
+  ]
+ },
+ {"word": "relation", "pos": "noun",
+  "rank": "right", "why": "All six sentences use 'relation(s)' to mean a person connected by blood or marriage, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-07237483-n", "verdict": "right", "fault": null, "why": "Learner line matches 'an act of narration' and the example uses 'relation' as an account of events."},
+   {"synset": "oewn-00847184-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss closely and the example ('had not had relations for months') is the standard idiom for this sense."},
+   {"synset": "oewn-05966295-n", "verdict": "right", "fault": null, "why": "Learner line correctly restates the legal 'relation back' doctrine, the example uses the term correctly, and 'technical' is justified by the gloss's '(law)' tag."}
+  ]
+ },
+ {"word": "expression", "pos": "noun",
+  "rank": "right", "why": "Most sentences ('that expression of violently in love', 'many of his expressions', 'strong expressions') use 'expression' as a word or phrase people use, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-07083988-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the letters example illustrates a personal style of expression."},
+   {"synset": "oewn-06893299-n", "verdict": "right", "fault": null, "why": "Learner line matches 'expression without words' and the hug example fits."},
+   {"synset": "oewn-06744551-n", "verdict": "right", "fault": null, "why": "Learner line matches the math gloss, the example fits, and 'technical' is justified."},
+   {"synset": "oewn-06324641-n", "verdict": "right", "fault": null, "why": "Learner line matches the grammar-constituent gloss, the example fits, and 'technical' is justified."},
+   {"synset": "oewn-13499408-n", "verdict": "right", "fault": null, "why": "Learner line matches the genetics gloss, the example fits, and 'technical' is justified by the explicit '(genetics)' tag."},
+   {"synset": "oewn-00359354-n", "verdict": "right", "fault": null, "why": "Learner line matches the squeezing/pressing gloss and the olive-oil example fits."}
+  ]
+ },
+ {"word": "wait", "pos": "verb",
+  "rank": "unsure", "why": "Three sentences use the archaic 'wait on/upon' meaning to pay a formal visit, which does not clearly match any of the listed senses, making it hard to confirm the first sense is what most sentences carry.",
+  "senses": [
+   {"synset": "oewn-02418420-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the 'waited tables' example is the standard collocation for this sense."}
+  ]
+ },
+ {"word": "nature", "pos": "noun",
+  "rank": "right", "why": "Sentences split between 'inherent character' (by nature inoffensive) and 'essential qualities' (nature of an entail), with the first-listed 'character/attributes' sense part of that split.",
+  "senses": [
+   {"synset": "oewn-09389659-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the hills-walk example uses 'nature' as the natural world."}
+  ]
+ }
+]}

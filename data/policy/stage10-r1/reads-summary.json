@@ -1,0 +1,17 @@
+{
+ "entries_read": 28,
+ "entries_with_a_fault": 2,
+ "entry_defect_rate": 0.0714,
+ "senses_read": 80,
+ "senses_wrong": 0,
+ "sense_defect_rate": 0.0,
+ "rank_wrong": 2,
+ "unsure": 1,
+ "faults": {
+  "rank-wrong": 2
+ },
+ "wrong": [
+  "speak/verb rank: Most sentences (spoke in a low voice, as she thus spoke, as he spoke, to speak with calmness) use the general intransitive 'use language' sense, but that sense is listed third, below senses each matched by only one sentence.",
+  "observation/noun rank: Most sentences (Charlotte's observation, leisure for observation, the observation of a few minutes) use 'the act of observing/watching', which sits below the 'remark' sense used by only two sentences."
+ ]
+}
