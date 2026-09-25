@@ -55,12 +55,21 @@ def main():
         candidates.append({"sense_id": sid, "word": x["word"], "pos": x.get("pos"),
                            "synset": x["synset"], "source": "null audit", "why": x.get("why")})
 
+    # A round over already-ranked words ranked nothing: its ranking.json is a
+    # copy, and ranks shipped from it would override the run that made them.
+    draw = json.loads((run / "draw.json").read_text(encoding="utf-8"))
+    copied_ranks = draw.get("kind") == "ranked"
     out_lines, relabelled = [], 0
     for line in (run / "parked.overlay.jsonl").open(encoding="utf-8"):
         if not line.strip():
             continue
         rec = json.loads(line)
-        for sid, patch in rec["senses"].items():
+        for sid, patch in list(rec["senses"].items()):
+            if copied_ranks:
+                patch.pop("rank", None)
+                if not patch:
+                    del rec["senses"][sid]
+                    continue
             if sid in false_nulls and patch.get("label") == "neutral":
                 del patch["label"]
                 relabelled += 1

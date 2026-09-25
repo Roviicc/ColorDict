@@ -40,13 +40,17 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def runs_holding():
-    """(word, pos) -> (run name, selected entry, ranking entry), earliest run last
-    so the stage 7 run wins where two runs ranked the same word."""
+    """(word, pos) -> (run name, selected entry, ranking entry) for the ranking
+    that ships. Overlays apply in name order, so where two runs ranked a word the
+    later name's ranks are the ones in the batch (stage7-book1-run after
+    enrich-002 after enrich-001). A stage-10 run that only copied a ranking is
+    not a ranking: r1 copied enrich-001's order for *speak* over enrich-002's."""
     held = {}
-    runs = sorted((ROOT / "data/policy").glob("*/ranking.json"),
-                  key=lambda p: (p.parent.name != "stage7-book1-run", p.parent.name))
-    for ranking_path in reversed(runs):
+    for ranking_path in sorted((ROOT / "data/policy").glob("*/ranking.json")):
         run = ranking_path.parent
+        draw = run / "draw.json"
+        if draw.is_file() and json.loads(draw.read_text(encoding="utf-8")).get("kind") == "ranked":
+            continue
         sel_path = run / "selected.json"
         if not sel_path.is_file():
             continue
