@@ -1,0 +1,54 @@
+{"packet": 3, "verdicts": [
+ {"word": "deny", "pos": "verb",
+  "rank": "right", "why": "Sentences split between 'declare untrue/contradict' (e.g. 'you cannot deny the fact', 'denying that I did everything') and 'refuse to let have/grant' uses, and the first-listed sense covers a genuine share of them.",
+  "senses": [
+   {"synset": "oewn-00818664-v", "verdict": "right", "fault": null, "why": "Learner line and example ('kept denying his illness') match 'refuse to accept or believe' exactly."},
+   {"synset": "oewn-00818828-v", "verdict": "right", "fault": null, "why": "Learner line and example ('denied his own brother') match 'refuse to recognize or acknowledge'."},
+   {"synset": "oewn-02217856-v", "verdict": "right", "fault": null, "why": "Learner line and reflexive example ('denied herself sweets') match 'deny oneself; restrain from indulging'."},
+   {"synset": "oewn-01070402-v", "verdict": "right", "fault": null, "why": "Learner line, example, and the 'technical' label all fit the formal-legal-denial gloss."}
+  ]},
+ {"word": "confusion", "pos": "noun",
+  "rank": "right", "why": "Sentences split between 'disorder' (hurry and confusion, whole house in confusion) and 'feeling of embarrassment' (in some confusion, painful confusion), and the first-listed sense is part of that split.",
+  "senses": [
+   {"synset": "oewn-00380562-n", "verdict": "right", "fault": null, "why": "Learner line and the Tower-of-Babel example correctly render 'an act causing a disorderly combination of elements with identities lost'."}
+  ]},
+ {"word": "perform", "pos": "verb",
+  "rank": "right", "why": "The first sense, 'carry out or perform an action', covers most sentences (e.g. 'perform what I look on as a point of duty', 'performed her duty').",
+  "senses": [
+   {"synset": "oewn-02567910-v", "verdict": "right", "fault": null, "why": "Learner line and example ('performed every task on the list') match 'get (something) done'."}
+  ]},
+ {"word": "provoke", "pos": "verb",
+  "rank": "right", "why": "The first sense, 'annoy continually or chronically', matches the largest cluster of sentences (provoked her, quite provoked, unwilling to provoke him).",
+  "senses": [
+   {"synset": "oewn-01650408-v", "verdict": "right", "fault": null, "why": "Learner line and example (rain provoking a landslide) faithfully match 'evoke or provoke to appear or occur'."}
+  ]},
+ {"word": "claim", "pos": "noun",
+  "rank": "right", "why": "Sentences split between an informal-right-to-something sense (claim to assistance, what claims has Lydia) and a demand sense (claims of duty, claim on me), and the first-listed sense is part of that split.",
+  "senses": [
+   {"synset": "oewn-06743312-n", "verdict": "right", "fault": null, "why": "Learner line and example match the gloss, and flagging 'claim' as leaving truth open to doubt (unlike neutral 'statement') is a defensible connotation call."},
+   {"synset": "oewn-05188726-n", "verdict": "right", "fault": null, "why": "Learner line and example ('strong legal claim to the house') match 'an established or recognized right'."},
+   {"synset": "oewn-07206789-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a demand', and the examples reuse the actual book sentences correctly in this sense."}
+  ]},
+ {"word": "sink", "pos": "verb",
+  "rank": "right", "why": "The book's uses are all metaphorical decline/state-change ('sink into indifference', 'sunk into total silence', 'sinking' esteem/power), which occupy the first slots, so nothing plainly used sits beneath an unused sense.",
+  "senses": [
+   {"synset": "oewn-01993887-v", "verdict": "right", "fault": null, "why": "Learner line and example (boat hit a rock and sank) match 'go under'."},
+   {"synset": "oewn-01989937-v", "verdict": "right", "fault": null, "why": "Learner line and example (sank to his knees) match 'fall or descend to a lower place or level'."},
+   {"synset": "oewn-01975943-v", "verdict": "right", "fault": null, "why": "Learner line and example (sank into the armchair) match 'descend into or as if into some soft substance or place'."},
+   {"synset": "oewn-01992900-v", "verdict": "right", "fault": null, "why": "Learner line and example (heart sank) match 'fall or sink heavily'."},
+   {"synset": "oewn-02043524-v", "verdict": "right", "fault": null, "why": "Learner line and example (sun sank behind the hills) match 'appear to move downward'."},
+   {"synset": "oewn-01532886-v", "verdict": "right", "fault": null, "why": "Learner line and example (dog sank its teeth into the bone) match 'embed deeply'."}
+  ]},
+ {"word": "belong", "pos": "verb",
+  "rank": "right", "why": "The first sense, 'be a member/adherent/inhabitant of a group or place', covers the most sentences (first circles, that part of Derbyshire, a servant belonging to it).",
+  "senses": [
+   {"synset": "oewn-02743444-v", "verdict": "right", "fault": null, "why": "Learner line and example (spiders do not belong among the insects) match 'be rightly classified in a class or category'."},
+   {"synset": "oewn-02743599-v", "verdict": "right", "fault": null, "why": "Learner line and example (felt that she did not belong) directly match 'be suitable or acceptable'."},
+   {"synset": "oewn-02725805-v", "verdict": "right", "fault": null, "why": "Learner line and example (the lid that belongs to this pot) match 'be a part or adjunct'."}
+  ]},
+ {"word": "defect", "pos": "noun",
+  "rank": "right", "why": "All six sentences use 'defect' as a general failing or deficiency of character/temper, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-14487589-n", "verdict": "right", "fault": null, "why": "Learner line and example (heart defect) match 'an imperfection in a bodily system', and null connotation fits since the word names the condition without editorializing."}
+  ]}
+]}
