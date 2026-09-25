@@ -1,0 +1,59 @@
+{"packet": 3, "verdicts": [
+ {"word": "cordial", "pos": "adjective",
+  "rank": "right", "why": "The sentences (cordial feelings, cordial reception) sit on the boundary between the near-duplicate senses 'diffusing warmth and friendliness' and 'politely warm and friendly', so the split genuinely includes the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-02541527-s", "verdict": "right", "fault": null, "why": "Learner line matches the gloss plainly, the example shows polite surface warmth despite disagreement, and the candidate connotation (warmth that may stop short of real closeness) is a defensible reading of 'cordial' used of formal relations."}
+  ]},
+ {"word": "eloquence", "pos": "noun",
+  "rank": "right", "why": "The only listed sense fits all three quoted occurrences of the same phrase describing Darcy's persuasive declaration.",
+  "senses": [
+   {"synset": "oewn-07083250-n", "verdict": "right", "fault": null, "why": "Learner line faithfully unpacks 'powerful and effective language', the example uses 'eloquence' in that sense, and the candidate connotation (admiration for skill) matches how the word contrasts with neutral 'speech'."}
+  ]},
+ {"word": "offended", "pos": "adjective",
+  "rank": "right", "why": "All six sentences show the single listed sense of being emotionally hurt or upset.",
+  "senses": [
+   {"synset": "oewn-01812324-s", "verdict": "right", "fault": null, "why": "Learner line matches the gloss without narrowing, both examples use 'offended' in this emotional sense, and null connotation is right since the word only names a feeling, not a judgment."}
+  ]},
+ {"word": "presumption", "pos": "noun",
+  "rank": "right", "why": "The sentences describe audacious, bold overstepping behaviour (removing to a hackney coach, aspiring to the match, lacking presumption/folly), matching sense 1, which is listed first.",
+  "senses": [
+   {"synset": "oewn-04845958-n", "verdict": "right", "fault": null, "why": "Learner line paraphrases 'audacious (even arrogant)' as 'bold, even proud', a common plain rendering, and both examples and the candidate connotation (condemns overstepping) fit the gloss."},
+   {"synset": "oewn-05901963-n", "verdict": "right", "fault": null, "why": "Learner line and invented example match the neutral 'assumption taken for granted' sense, and null connotation is appropriate for a plain premise."},
+   {"synset": "oewn-01228051-n", "verdict": "right", "fault": null, "why": "Learner line and example correctly depict a specific discourteous act of presuming, and the candidate connotation (names a breach of manners) fits the gloss."},
+   {"synset": "oewn-05789344-n", "verdict": "right", "fault": null, "why": "Learner line accurately unpacks the legal gloss, the example is a textbook legal presumption, 'technical' is justified by the '(law)' tag in the gloss, and null connotation is correct for a neutral legal term."}
+  ]},
+ {"word": "rapid", "pos": "adjective",
+  "rank": "right", "why": "Two of the three sentences describe fast movement (imagination jumping, conjectures hurrying), matching sense 1 which is listed first, while the sentences genuinely brush against sense 2 as well.",
+  "senses": [
+   {"synset": "oewn-00983053-s", "verdict": "right", "fault": null, "why": "Learner line matches the speed gloss and both examples (conjectures hurrying, a rapid river) depict physical/mental speed rather than brief duration; null connotation is fitting for a plain descriptor."},
+   {"synset": "oewn-00982888-s", "verdict": "right", "fault": null, "why": "Learner line matches 'brief period of time' and the example (rapid recovery) depicts short duration rather than speed of movement; null connotation is fitting."}
+  ]},
+ {"word": "supply", "pos": "noun",
+  "rank": "right", "why": "Only the first sentence uses 'supply' as a noun ('a supply of clothes'), matching sense 1 which is listed first; the other two sentences use 'supply' as a verb and are not relevant to the noun sense ranking.",
+  "senses": [
+   {"synset": "oewn-13799556-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (bring back a supply of clothes) uses the headword in this exact sense; null connotation is right for a neutral quantity term."},
+   {"synset": "oewn-13584725-n", "verdict": "right", "fault": null, "why": "Learner line matches the economic gloss and the example ('supply is low and demand is high') is the standard collocation for this sense; null connotation is right."},
+   {"synset": "oewn-01059124-n", "verdict": "right", "fault": null, "why": "Learner line matches 'the activity of supplying' and the example (supply of water to the town) depicts the ongoing activity rather than a quantity or market sense; null connotation is right."}
+  ]},
+ {"word": "writer", "pos": "noun",
+  "rank": "right", "why": "All three sentences refer to the specific person who wrote a given letter, matching sense 1, which is listed first.",
+  "senses": [
+   {"synset": "oewn-10820913-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples use 'writer' to mean the author of a specific letter, not a professional; null connotation is right for a neutral role term."},
+   {"synset": "oewn-10813654-n", "verdict": "right", "fault": null, "why": "Learner line matches the professional-writer gloss and the example (worked as a writer for a travel magazine) uses that sense correctly; null connotation is right."}
+  ]},
+ {"word": "finer", "pos": "adjective",
+  "rank": "right", "why": "All four sentences use 'finer' as the comparative of 'fine' meaning greater quality or excellence, the only sense listed.",
+  "senses": [
+   {"synset": "oewn-00232532-s", "verdict": "right", "fault": null, "why": "Learner line matches the gloss plainly and both examples use 'finer' in the comparative-quality sense; null connotation is right since the word states a comparison rather than adding a hidden judgment beyond its literal meaning."}
+  ]},
+ {"word": "obliging", "pos": "adjective",
+  "rank": "right", "why": "The two adjective occurrences of 'obliging' (a friendly, willing-to-help trait) match the single listed sense; the other two occurrences are the gerund of the verb 'oblige' and are not relevant to this adjective sense.",
+  "senses": [
+   {"synset": "oewn-00021147-s", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples use 'obliging' as the personality-trait adjective; null connotation is right since it is a plain positive trait descriptor without an added backhanded or ironic spin."}
+  ]},
+ {"word": "mercenary", "pos": "noun",
+  "rank": "wrong", "why": "All five sentences use 'mercenary' as an adjective meaning motivated by money ('think our friend mercenary', 'he is mercenary', 'views... solely and hatefully mercenary'), never the noun 'hired soldier' sense that is the only one listed.",
+  "senses": [
+   {"synset": "oewn-10329281-n", "verdict": "right", "fault": null, "why": "Taken on its own terms, the learner line and invented example correctly depict a hired-soldier, and the candidate connotation (paid loyalty vs. plain 'soldier') is a fair reading of the gloss, even though no book sentence actually uses this sense."}
+  ]}
+]}
