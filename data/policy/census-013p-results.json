@@ -1,0 +1,38 @@
+{
+ "sample": "census-013p",
+ "seed": null,
+ "population": 16,
+ "read": 16,
+ "right": 16,
+ "wrong": 0,
+ "unsure": 0,
+ "error_rate_pct": 0.0,
+ "threshold_pct": 5.0,
+ "reader_model": "claude-fable-5-1",
+ "reader_effort": "xhigh",
+ "reader_agent": ".claude/agents/census-reader.md",
+ "reader_tools": "Read, Write",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
+ "missing_packets": [],
+ "unread": [],
+ "verdicts_for_unknown_ids": [],
+ "reconciled_ids": [],
+ "faults": {},
+ "by_part_of_speech": {
+  "adjective": {
+   "read": 12,
+   "right": 12,
+   "wrong": 0,
+   "unsure": 0,
+   "error_rate_pct": 0.0
+  },
+  "verb": {
+   "read": 4,
+   "right": 4,
+   "wrong": 0,
+   "unsure": 0,
+   "error_rate_pct": 0.0
+  }
+ },
+ "failures_by_synset": {}
+}

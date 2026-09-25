@@ -1,0 +1,26 @@
+{
+ "sample": "census-014-reread",
+ "pre_registered": "2026-09-25",
+ "status": "population drawn; read not started",
+ "scope": "blind re-read of the one census-014 repair, by a reader that found none of it",
+ "reading": "rubric verbatim from census-reader.md",
+ "stop_condition": "over 5% stops the run",
+ "population": 1,
+ "drawn": 1,
+ "entries": [
+  {
+   "id": "maam.oewn-10008828-n",
+   "word": "ma'am",
+   "definition": "a woman of refinement",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Carries the same respect as *madam* for a refined woman, but said more softly and briefly.",
+   "usage_labels": [],
+   "examples": [],
+   "_family": "family-10008828-n",
+   "_shard": "annotated-019r.json"
+  }
+ ],
+ "read_order": "sorted by family"
+}
