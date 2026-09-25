@@ -224,13 +224,21 @@ def cmd_enricher(args):
     selected = {(e["word"], e["pos"]): e
                 for e in json.loads((out / "selected.json").read_text(encoding="utf-8"))}
     ranking = json.loads((out / "ranking.json").read_text(encoding="utf-8"))
+    # Stage 10: every sense still without a verdict is written, so the write set
+    # is the open list (book_verdicts.py) rather than the met-plus-top rule.
+    open_syns = None
+    if args.write_open:
+        open_syns = {k: set(v) for k, v in
+                     json.loads(Path(args.write_open).read_text(encoding="utf-8")).items()}
     entries = []
     for r in ranking["entries"]:
         e = selected[(r["word"], r["pos"])]
         by_syn = {s["synset"]: s for s in e["senses"]}
         met = set(r["met"])
         enrich = []
-        for syn in r["order"]:
+        if open_syns is not None:
+            enrich = [syn for syn in r["order"] if syn in open_syns[f"{r['word']}|{r['pos']}"]]
+        for syn in ([] if open_syns is not None else r["order"]):
             if syn in met or len(enrich) < ENRICH_MIN:
                 if len(enrich) < ENRICH_MAX:
                     enrich.append(syn)
@@ -342,6 +350,8 @@ def main():
     s.add_argument("--out", required=True)
     e = sub.add_parser("enricher")
     e.add_argument("--out", required=True)
+    e.add_argument("--write-open", default=None,
+                   help="stage 10: a JSON map 'word|pos' -> synsets to write (all still open)")
     r = sub.add_parser("reader")
     r.add_argument("--out", required=True)
     r.add_argument("--batch", default=str(ROOT / "data/entries/batch-0001.jsonl"))

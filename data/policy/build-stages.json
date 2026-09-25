@@ -565,7 +565,7 @@
       "stage": "10",
       "title": "Close book one",
       "spend": "the loop at full width",
-      "state": "not_started",
+      "state": "in_progress",
       "proposed_on": "2026-09-05",
       "approved": true,
       "approved_on": "2026-09-26",
@@ -579,6 +579,46 @@
       "closed_by_commit": null,
       "done_when": "no sense on a book-one word lacks a connotation verdict someone made - null is a claim, not a default",
       "stop": "spend cap set before the run; two consecutive ticks over 5% is a method problem, not a batch problem",
+      "steps": [
+        {
+          "n": 1,
+          "step": "Re-ingest book one; measure what is open (tools/book_verdicts.py)",
+          "owner": "manager",
+          "state": "done",
+          "measured": "pg1342.txt hashes to 3f6bb9d6f78e0293; the ingest reproduces stage 7's 928 selections exactly. A sense has a verdict when it ships with a tone note, an explanation or an Enricher's learner line. Open, among words with the 3 usable sentences the Ranker needs: 1,683 words / 7,157 senses - 526 ranked / 2,819 senses (Enricher only), 1,157 never opened / 4,338 senses. The plan's 1,785 / 6,914 was the same count at an earlier commit. A further 2,507 words have fewer than 3 usable sentences and sit outside the select rule."
+        },
+        {
+          "n": 2,
+          "step": "Pilot r1: 30 ranked words, Enricher only, every open sense written (tools/stage10_draw.py ranked; enrich_packets --write-open)",
+          "owner": "enricher",
+          "state": "in_progress",
+          "measured": "Stratified over 3 frequency bands, seed 10, from a pool of 413. Held back: 47 function words and 66 words with more than 8 open senses (make 46, give 40), pending the author's word on how they are judged. 89 open senses, 3 packets."
+        },
+        {
+          "n": 3,
+          "step": "Pilot r1 reads: a complete blind read (entry-reader) and the null audit (null-auditor); third-hand repairs - a fresh enricher or sense-ranker on the faulted items only - and a blind re-read",
+          "owner": "entry-reader / null-auditor",
+          "state": "not_started"
+        },
+        {
+          "n": 4,
+          "step": "Round r2: never-opened words, Ranker then Enricher, the same reads",
+          "owner": "sense-ranker / enricher",
+          "state": "not_started"
+        },
+        {
+          "n": 5,
+          "step": "Candidates the Enricher raises go to the join (candidate_families.py) and the family path",
+          "owner": "manager / family-author",
+          "state": "not_started"
+        },
+        {
+          "n": 6,
+          "step": "The held words - function words, words with many open senses, words with under 3 usable sentences: the author decides how they are judged",
+          "owner": "author",
+          "state": "not_started"
+        }
+      ],
       "note": "6,914 senses on 1,785 book-one words with no verdict: 2,817 ranked but never judged (Enricher only), 4,097 never opened (rank + enrich). Draw by book frequency but screen for whether the sense can judge at all - so/say/now head the list and are correctly plain."
     },
     {

@@ -1,0 +1,217 @@
+{
+ "kind": "ranked",
+ "population": "data/policy/stage10/population.json",
+ "counts": {
+  "book_words": 4779,
+  "book_senses": 17705,
+  "open": {
+   "words": 4190,
+   "senses": 14340
+  },
+  "open_ranked": {
+   "words": 526,
+   "senses": 2819
+  },
+  "open_never_opened": {
+   "words": 3664,
+   "senses": 11521
+  },
+  "open_stop_words": {
+   "words": 118,
+   "senses": 628
+  },
+  "unserved_records": 1
+ },
+ "pool": 413,
+ "skipped": {
+  "function word": 47,
+  "over 8 open senses": 66,
+  "no earlier run holds it": 0
+ },
+ "n": 30,
+ "strata": 3,
+ "seed": 10,
+ "max_open": 8,
+ "words": [
+  {
+   "word": "little",
+   "pos": "adjective",
+   "occurrences": 181,
+   "open": 5
+  },
+  {
+   "word": "speak",
+   "pos": "verb",
+   "occurrences": 164,
+   "open": 2
+  },
+  {
+   "word": "evening",
+   "pos": "noun",
+   "occurrences": 78,
+   "open": 1
+  },
+  {
+   "word": "marriage",
+   "pos": "noun",
+   "occurrences": 67,
+   "open": 1
+  },
+  {
+   "word": "answer",
+   "pos": "noun",
+   "occurrences": 51,
+   "open": 2
+  },
+  {
+   "word": "connection",
+   "pos": "noun",
+   "occurrences": 38,
+   "open": 6
+  },
+  {
+   "word": "love",
+   "pos": "verb",
+   "occurrences": 37,
+   "open": 1
+  },
+  {
+   "word": "relation",
+   "pos": "noun",
+   "occurrences": 36,
+   "open": 3
+  },
+  {
+   "word": "expression",
+   "pos": "noun",
+   "occurrences": 35,
+   "open": 6
+  },
+  {
+   "word": "wait",
+   "pos": "verb",
+   "occurrences": 33,
+   "open": 1
+  },
+  {
+   "word": "nature",
+   "pos": "noun",
+   "occurrences": 29,
+   "open": 1
+  },
+  {
+   "word": "acknowledge",
+   "pos": "verb",
+   "occurrences": 27,
+   "open": 3
+  },
+  {
+   "word": "expectation",
+   "pos": "noun",
+   "occurrences": 26,
+   "open": 1
+  },
+  {
+   "word": "proper",
+   "pos": "adjective",
+   "occurrences": 22,
+   "open": 1
+  },
+  {
+   "word": "admit",
+   "pos": "verb",
+   "occurrences": 19,
+   "open": 4
+  },
+  {
+   "word": "intelligence",
+   "pos": "noun",
+   "occurrences": 19,
+   "open": 2
+  },
+  {
+   "word": "loss",
+   "pos": "noun",
+   "occurrences": 19,
+   "open": 5
+  },
+  {
+   "word": "tone",
+   "pos": "noun",
+   "occurrences": 19,
+   "open": 7
+  },
+  {
+   "word": "observation",
+   "pos": "noun",
+   "occurrences": 18,
+   "open": 2
+  },
+  {
+   "word": "law",
+   "pos": "noun",
+   "occurrences": 17,
+   "open": 4
+  },
+  {
+   "word": "single",
+   "pos": "adjective",
+   "occurrences": 13,
+   "open": 4
+  },
+  {
+   "word": "deny",
+   "pos": "verb",
+   "occurrences": 12,
+   "open": 4
+  },
+  {
+   "word": "confusion",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "introduction",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 7
+  },
+  {
+   "word": "perform",
+   "pos": "verb",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "provoke",
+   "pos": "verb",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "claim",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 3
+  },
+  {
+   "word": "sink",
+   "pos": "verb",
+   "occurrences": 10,
+   "open": 6
+  },
+  {
+   "word": "belong",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 3
+  },
+  {
+   "word": "defect",
+   "pos": "noun",
+   "occurrences": 9,
+   "open": 1
+  }
+ ]
+}
