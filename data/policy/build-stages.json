@@ -1,7 +1,7 @@
 {
   "plan": "docs/BUILD-PLAN.md",
   "approved": true,
-  "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes. Stages 9-12 proposed 2026-09-05. Stage 9 approved and closed by the author 2026-09-26 on its step-9 done-check. Stage 9b (plain words) approved 2026-09-26: max 24 words, no minimum, run cap 4 ticks. Stages 10-12 NOT yet approved: 10 needs its approval and a spend cap (book one is reachable from the cloud since 2026-09-26 and hashes to its recorded id), 12 exists only if a mechanism is found.",
+  "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes. Stages 9-12 proposed 2026-09-05. Stage 9 approved and closed by the author 2026-09-26 on its step-9 done-check. Stage 9b (plain words) approved 2026-09-26: max 24 words, no minimum, run cap 4 ticks; closed by the author 2026-09-26 05:40 UTC+8 on its step-10 done-check. Stages 10-12 NOT yet approved: 10 needs its approval and a spend cap (book one is reachable from the cloud since 2026-09-26 and hashes to its recorded id), 12 exists only if a mechanism is found.",
   "stages": [
     {
       "stage": "0",
@@ -458,12 +458,13 @@
       "stage": "9b",
       "title": "Plain words - a note the learner can read",
       "spend": "about one tick",
-      "state": "in_progress",
+      "state": "done",
       "proposed_on": "2026-09-26",
       "approved": true,
       "approved_on": "2026-09-26",
-      "closed_on": null,
+      "closed_on": "2026-09-26",
       "closed_by_commit": null,
+      "closed_note": "Closed by the author on the step-10 done-check (973fce4): \"Close 9b, and go clean-up!\" (05:40 UTC+8). The author accepted the learner read as it stands - 97.6% easy, calibration 11/12, the one miss (hazardously) a control picked hard only because plain_lint read the verb 'registers' as the grammar term. The clean-up approved with the close is follow-up work, not part of the done-check: see author_decisions_2026_09_26.cleanup.",
       "rule": "One sentence, at most 24 words, NO minimum - most good notes land at 10-20. Everyday words: the only hard words allowed are the headword and a named *neighbour*, plus one more when no everyday phrase does its work. No grammar terms in the note. Chosen by the author 2026-09-26 over a 16-24 band: 1,181 notes (34%) are under 16 words and the short ones are among the clearest in the corpus (asinine, 7 words); a floor would pad them, and padding adds claims - the shape the first audit measured at 44% wrong.",
       "why": "The census asks whether a note is TRUE against its gloss. Nothing had ever asked whether the learner can READ it, and the notes drifted without anyone deciding they should: shards 001-009 median ~12 words, 010-018 median ~20. The author reported notes that were not simple enough to understand.",
       "measured_2026_09_26": "plain_lint.py --all on 3,420 notes: 517 flagged (15%) in 232 of 328 families - too-long 274, hard-words 127, grammar 146; median 18 words, longest 36. Shards 001-009 flag 1-11%; 010-018 flag 11-28%, annotated-018 highest at 28%.",
@@ -471,12 +472,14 @@
       "author_decisions_2026_09_26": {
         "rule": "max 24 words, no minimum (chosen over a strict 16-24 band and over max 20)",
         "cap": "4 ticks a night; stop by 08:00 UTC+8; nothing to main, no release",
-        "run": "NOT started. The overnight run waits for the author's explicit go ('go' or /overnight) - planning only on 2026-09-26",
+        "run": "Go given by the author 2026-09-26 (\"Gooo!\"); the night ran tick 1, the pilot and the full pass, logged in docs/overnight/2026-09-26.md",
         "pilot": "author, 2026-09-26 03:00 UTC+8: agents check the pilot instead of the author, who is no longer the test reader. Approved by the author 03:18 (\"Yes to all, go!\") and placed by the author's own commit 2b358d1: .claude/agents/learner-reader.md, model fable, sha256 4378d289 identical to the reviewed draft in data/policy/instrument-drafts/. In instrument_gate.py since then - the next pass that uses it is a new baseline. It reads each rewritten note blind as a B2 learner, easy or hard, quoting what stops the learner; a pilot passes at 9 in 10 easy. Its reviewer asks that learner packets seed unlabelled controls (two flagged originals, two short clean notes), scored apart from the rate.",
         "from_scratch": "author: 'if we can start from scratch as long as our approach is efficient we can do it'. Applied to the 2 stale-axis families (2 authors + a small blind read). NOT applied to the whole corpus: re-authoring 3,420 notes is ~12 ticks, ~10x the targeted pass, and discards notes read blind at ~2%; if the passing notes still read hard to the author, tighten the rule and rerun the targeted pass instead",
         "models": "orchestrator Opus 5.5 at max effort (this session); writers per their files (opus), readers per theirs (fable = claude-fable-5-1, unchanged, which keeps census rates comparable)",
         "gutenberg": "allowed, and measured from the cloud 2026-09-26: www.gutenberg.org and cdn.jsdelivr.net answer, and https://www.gutenberg.org/cache/epub/1342/pg1342.txt (772,386 bytes) hashes to book one's id 3f6bb9d6f78e0293. Stage 10 no longer waits on the host; it still waits on its own approval and spend cap",
         "census_floor": "author, 2026-09-26 03:34 UTC+8 (\"resume, add the floor\"): the 5% stop decides only from 50 read senses up. Below 50, every fault is repaired third-hand and re-read blind and the run continues; the rate is recorded either way. Prompted by census 014, where one fault in 13 read 7.7%.",
+        "close": "author, 2026-09-26 05:40 UTC+8: \"Close 9b, and go clean-up!\" - stage 9b closed on its step-10 done-check",
+        "cleanup": "author, 2026-09-26 05:40 UTC+8, same message: (1) a second simplifier round on the 12 rewrites learner-001 read hard; (2) a repairer on asleep/pass, both 'the gentlest' way to say dead; (3) a repairer looks at the 5 tone_lint flags the pass added (15 -> 20), fixing or declining each; (4) status.py follows the census floor. Every changed note is read blind again for truth (census-reader) and ease (learner-reader); below 50 read senses, faults are repaired third-hand and re-read, per the floor",
         "author_can_help": "name words whose notes confused them (they go first in the pass); confirm the timezone if not UTC+8; optionally read 5 before/after pairs in the morning"
       },
       "done_when": "every note plain_lint flags is rewritten or kept with a stated reason; plain_lint --all reports 0 notes over 24 words other than listed keeps; and a complete blind census of the rewrites reads under 5%",
@@ -554,7 +557,7 @@
           "measured": "done_when checked: every flagged note rewritten (513 incl. the pilot, 0 keeps); plain_lint 0 notes over 24 words; the complete blind census of the rewrites read 1.6%, under 5%. The done-check passes. Stage close is the author's, as stage 9's was. Log: docs/overnight/2026-09-26.md."
         }
       ],
-      "done_check_2026_09_26": "passes (step 10): awaiting the author's close. Learner-read calibration is the open question - see step 8."
+      "done_check_2026_09_26": "passes (step 10); closed by the author 2026-09-26 05:40 UTC+8, calibration accepted as recorded in step 8."
     },
     {
       "stage": "10",
