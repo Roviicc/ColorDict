@@ -1,0 +1,32 @@
+{
+ "pass": "data/policy/learner-003/ids.json",
+ "also": [],
+ "instrument": ".claude/agents/learner-reader.md",
+ "seed": 2026,
+ "key": {
+  "agitating.oewn-01902992-s": "rewrite",
+  "amplify.oewn-00841513-v": "rewrite",
+  "dame.oewn-10008828-n": "rewrite",
+  "feeling.oewn-05925333-n": "rewrite",
+  "gentlewoman.oewn-10008828-n": "rewrite",
+  "heaven-sent.oewn-01052675-s": "rewrite",
+  "impression.oewn-05925333-n": "rewrite",
+  "intelligent.oewn-01932488-s": "rewrite",
+  "lady.oewn-10008828-n": "rewrite",
+  "longanimous.oewn-01740820-s": "rewrite",
+  "maam.oewn-10008828-n": "rewrite",
+  "madam.oewn-10008828-n": "rewrite",
+  "musty.oewn-01073758-s": "rewrite",
+  "peccable.oewn-02525272-s": "rewrite",
+  "play.oewn-00558625-n": "rewrite",
+  "policy.oewn-05910115-n": "rewrite",
+  "scheme.oewn-05913942-n": "rewrite",
+  "system.oewn-05911466-n": "rewrite",
+  "tawdry.oewn-02354846-s": "rewrite",
+  "unreformable.oewn-02524877-s": "rewrite",
+  "better_off.oewn-01051901-s": "control-hard",
+  "drab.oewn-00365961-s": "control-hard",
+  "omniscient.oewn-02580010-s": "control-easy",
+  "perish.oewn-00359085-v": "control-easy"
+ }
+}

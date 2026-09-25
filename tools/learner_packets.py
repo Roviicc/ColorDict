@@ -20,6 +20,9 @@ Usage:
     python3 tools/learner_packets.py draw --dir data/policy/plain-001 \
         --out data/policy/learner-001 [--packets 4] [--controls 4]
     python3 tools/learner_packets.py aggregate --dir data/policy/learner-001
+
+--ids reads notes that changed outside a plain-words pass (a repair, a
+re-authored family): the rewrites are exactly the ids listed, as they ship.
 """
 
 import argparse
@@ -67,14 +70,20 @@ def everyday(note, word):
 
 
 def draw(args):
-    decisions = json.loads((args.dir / "decisions.json").read_text(encoding="utf-8"))
+    batch = load_batch()
+    if args.ids:
+        decisions = {}
+        for sid in json.loads(args.ids.read_text(encoding="utf-8")):
+            tone = ((batch[sid][1].get("connotation") or {}).get("tone") or "").strip()
+            decisions[sid] = {"action": "tone", "tone": tone}
+    else:
+        decisions = json.loads((args.dir / "decisions.json").read_text(encoding="utf-8"))
     for extra in args.also:
         # A repair pass read in the same round: its rewrites are read like the rest.
         for sid, d in json.loads(extra.read_text(encoding="utf-8")).items():
             if sid in decisions:
-                sys.exit(f"{sid}: decided in both {args.dir.name} and {extra.name}")
+                sys.exit(f"{sid}: decided twice, again in {extra.name}")
             decisions[sid] = d
-    batch = load_batch()
     rows, key = [], {}
     for sid, d in ({} if args.controls_only else decisions).items():
         if d.get("action") != "tone":
@@ -140,7 +149,7 @@ def draw(args):
                 json.dumps({"packet": i + 1, "notes": chunk}, indent=1,
                            ensure_ascii=False) + "\n", encoding="utf-8")
     (args.out / "key.json").write_text(json.dumps(
-        {"pass": args.dir.name, "also": [str(p) for p in args.also],
+        {"pass": args.dir.name if args.dir else str(args.ids), "also": [str(p) for p in args.also],
          "instrument": ".claude/agents/learner-reader.md",
          "seed": args.seed, "key": key}, indent=1, ensure_ascii=False) + "\n",
         encoding="utf-8")
@@ -191,7 +200,8 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
     d = sub.add_parser("draw")
-    d.add_argument("--dir", type=Path, required=True, help="plain-words pass directory")
+    d.add_argument("--dir", type=Path, help="plain-words pass directory")
+    d.add_argument("--ids", type=Path, help="a JSON list of sense ids to read as they ship")
     d.add_argument("--out", type=Path, required=True)
     d.add_argument("--packets", type=int, default=1)
     d.add_argument("--controls", type=int, default=4)
@@ -204,6 +214,8 @@ def main():
     a = sub.add_parser("aggregate")
     a.add_argument("--dir", type=Path, required=True)
     args = ap.parse_args()
+    if args.cmd == "draw" and not (args.dir or args.ids):
+        ap.error("draw needs --dir or --ids")
     {"draw": draw, "aggregate": aggregate}[args.cmd](args)
 
 
