@@ -573,6 +573,7 @@
         "approve": "author, 06:22 UTC+8, asked what the next night should run: 'Stage 10, capped'",
         "cap": "4 rounds a night; stop by 08:00 UTC+8; nothing to main, no tag, no release",
         "start": "the next night, on the author's go - the overnight runbook still starts only on 'go' or /overnight",
+        "entry_reader_model": "author, 06:58 UTC+8, asked what to do while Fable refuses entry-reader.md: 'Reader on Sonnet for now'. The file is used verbatim; only the model is overridden (sonnet), and the run resumes to 10:35. A NEW BASELINE: a rate read on Sonnet is not compared with stage 7's reads on Fable. The one-sentence fix in instrument-drafts/entry-reader.md still waits for the author, to bring the reader back to Fable.",
         "go_2026_09_26": "author, 06:35 UTC+8: 'Can we run for next 4 hours again?' - a daytime run, 06:35-10:35 UTC+8, in place of the night's 08:00 stop. Order: tawdry and unreformable (read hard in learner-003) through a simplifier and both blind reads; stage 10's plan written here with measured numbers; then a pilot round, and further rounds only if the pilot's blind reads pass, up to the cap of 4"
       },
       "closed_on": null,
@@ -598,7 +599,7 @@
           "n": 3,
           "step": "Pilot r1 reads: a complete blind read (entry-reader) and the null audit (null-auditor); third-hand repairs - a fresh enricher or sense-ranker on the faulted items only - and a blind re-read",
           "owner": "entry-reader / null-auditor",
-          "state": "blocked",
+          "state": "in_progress",
           "measured": "Null audit: 4 null-auditors, 81,475 tokens, 77 read, 3 false = 3.9% (stage 7's pilot 2.05%): evening 'later concluding time period', love 'have sexual intercourse with', loss 'the death of someone' - all three softenings, so candidates for the family path. Entry read BLOCKED: the API refused all 3 entry-readers before they read ('Fable 5.1's safeguards flagged this message', [reasoning_extraction]), and one retry was refused the same way - the run's stop on a tool failing twice. entry-reader.md is unchanged since 2026-09-03; its line 'you are not shown what that hand was thinking' is the likely trigger. A one-sentence fix waits in data/policy/instrument-drafts/entry-reader.md for the author to place. The unread enrichment is parked in data/policy/stage10-r1/parked.overlay.jsonl; the batch is byte-identical to before the pilot. Stopped 06:55 UTC+8."
         },
         {
