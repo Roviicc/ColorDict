@@ -472,11 +472,11 @@
         "rule": "max 24 words, no minimum (chosen over a strict 16-24 band and over max 20)",
         "cap": "4 ticks a night; stop by 08:00 UTC+8; nothing to main, no release",
         "run": "NOT started. The overnight run waits for the author's explicit go ('go' or /overnight) - planning only on 2026-09-26",
-        "pilot": "offered, not yet chosen: before the full pass, one simplifier packet (~15 notes) shown to the author as before/after. The author is the reader these notes are for and asked to help; a pilot costs one agent",
+        "pilot": "author, 2026-09-26 03:00 UTC+8: agents check the pilot instead of the author, who is no longer the test reader. Proposed, awaiting the author's go: a blind learner-reader instrument (fable) marks each rewrite easy or hard; the full pass runs only if 9 in 10 read easy and the pilot census stays under 5%. It needs the .claude/agents unlock; without it plain_lint and census-reader check the pilot. The night plan: docs/overnight/2026-09-26.md",
         "from_scratch": "author: 'if we can start from scratch as long as our approach is efficient we can do it'. Applied to the 2 stale-axis families (2 authors + a small blind read). NOT applied to the whole corpus: re-authoring 3,420 notes is ~12 ticks, ~10x the targeted pass, and discards notes read blind at ~2%; if the passing notes still read hard to the author, tighten the rule and rerun the targeted pass instead",
         "models": "orchestrator Opus 5.5 at max effort (this session); writers per their files (opus), readers per theirs (fable = claude-fable-5-1, unchanged, which keeps census rates comparable)",
         "gutenberg": "allowed, and measured from the cloud 2026-09-26: www.gutenberg.org and cdn.jsdelivr.net answer, and https://www.gutenberg.org/cache/epub/1342/pg1342.txt (772,386 bytes) hashes to book one's id 3f6bb9d6f78e0293. Stage 10 no longer waits on the host; it still waits on its own approval and spend cap",
-        "author_can_help": "be the test reader for the pilot; name words whose notes confused them (they go first in the pass); confirm the timezone if not UTC+8"
+        "author_can_help": "name words whose notes confused them (they go first in the pass); confirm the timezone if not UTC+8; optionally read 5 before/after pairs in the morning"
       },
       "done_when": "every note plain_lint flags is rewritten or kept with a stated reason; plain_lint --all reports 0 notes over 24 words other than listed keeps; and a complete blind census of the rewrites reads under 5%",
       "stop": "a census over 5% on the rewrites stops the pass - it would mean simplifying changes meaning, a method problem before a batch problem",
