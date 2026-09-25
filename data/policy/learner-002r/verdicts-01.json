@@ -1,0 +1,15 @@
+{"packet": 1,
+ "verdicts": {
+  "omniscient.oewn-02580010-s": {"verdict": "easy"},
+  "drab.oewn-00365961-s": {"verdict": "hard",
+           "stops": [{"kind": "word", "quote": "Dejection"},
+                     {"kind": "word", "quote": "dispiriting"}],
+           "why": "Two words the learner would meet only in books, dejection and dispiriting, sit in one short sentence."},
+  "better_off.oewn-01051901-s": {"verdict": "hard",
+           "stops": [{"kind": "grammar", "quote": "Comparative by construction"}],
+           "why": "Comparative is a grammar term the learner would have to look up, and the note opens with it."},
+  "lacerated.oewn-01321879-s": {"verdict": "easy"},
+  "fair.oewn-00959321-a": {"verdict": "easy"},
+  "perish.oewn-00359085-v": {"verdict": "easy"}
+ }
+}

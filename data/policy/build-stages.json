@@ -557,7 +557,8 @@
           "measured": "done_when checked: every flagged note rewritten (513 incl. the pilot, 0 keeps); plain_lint 0 notes over 24 words; the complete blind census of the rewrites read 1.6%, under 5%. The done-check passes. Stage close is the author's, as stage 9's was. Log: docs/overnight/2026-09-26.md."
         }
       ],
-      "done_check_2026_09_26": "passes (step 10); closed by the author 2026-09-26 05:40 UTC+8, calibration accepted as recorded in step 8."
+      "done_check_2026_09_26": "passes (step 10); closed by the author 2026-09-26 05:40 UTC+8, calibration accepted as recorded in step 8.",
+      "cleanup_2026_09_26": "Done 05:59 UTC+8, 9 agents, 182,131 tokens. The 12 learner-hard notes: second simplifier round (plain-002), all 12 read easy (learner-002: 15/16 easy, controls 4/4, PASS). asleep/pass: 'the gentlest' replaced by one contrast each (cleanup-001). The 6 notes the pass newly flagged in tone_lint: 2 rewritten (clear, fair), 4 kept as pattern misfires. Census 015 read all 16 changed notes: 1 wrong = 6.2%, under the 50 floor (lacerated, 'the usual -ed form', a frequency claim), repaired third-hand; fair re-simplified after learner-002 read it hard (plain-003); both re-read blind: 2/2 right (census-015-reread), 2/2 easy with controls 4/4 (learner-002r). status.py follows the floor. plain_lint --all 2 -> 1 (apology, read easy by learner-001); tone_lint --all 20 -> 19."
     },
     {
       "stage": "10",

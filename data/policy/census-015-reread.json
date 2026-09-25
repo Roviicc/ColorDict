@@ -1,7 +1,7 @@
 {
  "sample": "census-015-reread",
  "pre_registered": "2026-09-25",
- "status": "population drawn; read not started",
+ "status": "read 2026-09-26 by a fresh census-reader: 2 right, 0 wrong (verdicts in census-015-reread-reads)",
  "why": "The fix round of the 9b clean-up: census 015's one fault (lacerated) repaired third-hand, and fair rewritten after learner 002 read it hard. Both changed notes are read blind, as repairs are.",
  "instruments": {
   "author": ".claude/agents/simplifier.md (plain-003), .claude/agents/repairer.md (census-015-repairs)",
