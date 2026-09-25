@@ -1,0 +1,83 @@
+{
+ "pass": "plain-002",
+ "drawn": "2026-09-25",
+ "instrument": ".claude/agents/simplifier.md",
+ "rule": {
+  "max_words": 24,
+  "rare_zipf": 3.0,
+  "rare_limit": 2,
+  "grammar": [
+   "register",
+   "gloss",
+   "superlative",
+   "comparative",
+   "participle",
+   "participial",
+   "negation",
+   "evaluative",
+   "euphemism",
+   "euphemistic",
+   "intensifier",
+   "prefix",
+   "suffix",
+   "adjectival",
+   "adverbial",
+   "diminutive",
+   "pejorative",
+   "collocation",
+   "lemma",
+   "synset",
+   "hypernym",
+   "hyponym",
+   "denotation"
+  ]
+ },
+ "flagged_by": "data/policy/learner-001/results.json",
+ "families": 10,
+ "rewrite": 12,
+ "by_rule": {
+  "figure": 5,
+  "sentence": 2,
+  "hard-words": 9
+ },
+ "packets": [
+  {
+   "packet": 1,
+   "families": [
+    "family-00339715-a",
+    "family-01523886-a",
+    "family-01648062-a",
+    "family-01811138-a",
+    "family-01320916-a",
+    "family-05621958-n"
+   ],
+   "rewrite": [
+    "reassured.oewn-00340497-s",
+    "arrant.oewn-01524174-s",
+    "anile.oewn-01649409-s",
+    "roiled.oewn-01811355-s",
+    "stung.oewn-01811355-s",
+    "hurt.oewn-01321683-s",
+    "lacerated.oewn-01321879-s",
+    "discreetness.oewn-05623283-n"
+   ]
+  },
+  {
+   "packet": 2,
+   "families": [
+    "family-00746935-n",
+    "family-00645401-a",
+    "family-04685309-n",
+    "family-01884565-a"
+   ],
+   "rewrite": [
+    "wickedness.oewn-00746935-n",
+    "polite.oewn-00645401-a",
+    "colour.oewn-04685309-n",
+    "priggish.oewn-01886245-s"
+   ]
+  }
+ ],
+ "wordfreq": true,
+ "gloss_from_shard_possibly_cut": 0
+}

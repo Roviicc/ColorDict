@@ -1,0 +1,859 @@
+{
+ "repairs": [
+  {
+   "id": "asleep.oewn-00096726-s",
+   "word": "asleep",
+   "gloss": "dead",
+   "charge": 3,
+   "current_note": "The gentlest way to say *dead* - death softened into rest.",
+   "fault": "other",
+   "reader_said": "Reads as the euphemistic sense the gloss 'dead' covers, softening death into rest; a warm positive charge is plausible for a softening euphemism (though 'the gentlest' collides with the same claim under 'pass').",
+   "axis": "bluntest → gentlest",
+   "examples": [],
+   "collides_with": {
+    "word": "pass",
+    "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+    "charge": 2,
+    "tone": "Even shorter and softer than *pass away* - the gentlest way of putting it."
+   },
+   "synset_siblings": [
+    {
+     "word": "deceased",
+     "charge": 0,
+     "tone": "The neutral official term - legal forms and medical records, no feeling either way."
+    },
+    {
+     "word": "departed",
+     "charge": 0,
+     "tone": "A gentler way to say *dead* - it softens the statement rather than praising the person."
+    },
+    {
+     "word": "gone",
+     "charge": 2,
+     "tone": "Soft and everyday - what people say when 'dead' is too hard to say."
+    },
+    {
+     "word": "at peace",
+     "charge": 3,
+     "tone": "The most consoling form - reframes death as rest and the end of suffering."
+    },
+    {
+     "word": "at rest",
+     "charge": 3,
+     "tone": "Gravestone language - comfort offered to the living."
+    }
+   ],
+   "whole_family": [
+    {
+     "word": "stone-dead",
+     "gloss": "as lifeless as a stone",
+     "charge": -3,
+     "tone": "Maximally blunt - leaves no room for hope or softening."
+    },
+    {
+     "word": "dead",
+     "gloss": "no longer having or seeming to have or expecting to have life",
+     "charge": -2,
+     "tone": "The plain word. Direct and unsoftened; every other word in this family exists to avoid it."
+    },
+    {
+     "word": "lifeless",
+     "gloss": "deprived of life; no longer living",
+     "charge": -1,
+     "tone": "Clinical and detached: it names the absence of life rather than mourning it."
+    },
+    {
+     "word": "deceased",
+     "gloss": "dead",
+     "charge": 0,
+     "tone": "The neutral official term - legal forms and medical records, no feeling either way."
+    },
+    {
+     "word": "late",
+     "gloss": "having died recently",
+     "charge": 1,
+     "tone": "Respectful and gentle - names the death while keeping the person in view."
+    },
+    {
+     "word": "departed",
+     "gloss": "dead",
+     "charge": 0,
+     "tone": "A gentler way to say *dead* - it softens the statement rather than praising the person."
+    },
+    {
+     "word": "gone",
+     "gloss": "dead",
+     "charge": 2,
+     "tone": "Soft and everyday - what people say when 'dead' is too hard to say."
+    },
+    {
+     "word": "at peace",
+     "gloss": "dead",
+     "charge": 3,
+     "tone": "The most consoling form - reframes death as rest and the end of suffering."
+    },
+    {
+     "word": "at rest",
+     "gloss": "dead",
+     "charge": 3,
+     "tone": "Gravestone language - comfort offered to the living."
+    },
+    {
+     "word": "asleep",
+     "gloss": "dead",
+     "charge": 3,
+     "tone": "The gentlest way to say *dead* - death softened into rest."
+    }
+   ]
+  },
+  {
+   "id": "pass.oewn-00359085-v",
+   "word": "pass",
+   "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+   "charge": 2,
+   "current_note": "Even shorter and softer than *pass away* - the gentlest way of putting it.",
+   "fault": "other",
+   "reader_said": "Places the word against its neighbour 'pass away' as a shorter, softer euphemism for the glossed dying; positive charge plausible for a softening euphemism (superlative 'gentlest' duplicates the claim under 'asleep').",
+   "axis": "bluntest → gentlest",
+   "examples": [],
+   "collides_with": {
+    "word": "asleep",
+    "gloss": "dead",
+    "charge": 3,
+    "tone": "The gentlest way to say *dead* - death softened into rest."
+   },
+   "synset_siblings": [
+    {
+     "word": "croak",
+     "charge": -3,
+     "tone": "Crude and flippant - it reduces a death to a joke."
+    },
+    {
+     "word": "snuff it",
+     "charge": -3,
+     "tone": "British slang, jokey and dismissive."
+    },
+    {
+     "word": "kick the bucket",
+     "charge": -3,
+     "tone": "A comic idiom - keeps death at arm's length by making light of it."
+    },
+    {
+     "word": "drop dead",
+     "charge": -3,
+     "tone": "Abrupt and unsentimental - emphasises the suddenness."
+    },
+    {
+     "word": "pop off",
+     "charge": -3,
+     "tone": "Casual to the point of dismissive."
+    },
+    {
+     "word": "buy the farm",
+     "charge": -3,
+     "tone": "Military slang - gallows humour rather than disrespect."
+    },
+    {
+     "word": "die",
+     "charge": -2,
+     "tone": "The plain, honest verb - direct without being cruel."
+    },
+    {
+     "word": "perish",
+     "charge": -1,
+     "tone": "Grave and literary - deaths in numbers, or deaths that should not have happened."
+    },
+    {
+     "word": "expire",
+     "charge": 0,
+     "tone": "Clinical and detached - the word on a chart, not at a graveside."
+    },
+    {
+     "word": "decease",
+     "charge": 0,
+     "tone": "Legal wording: the death is an event on a form."
+    },
+    {
+     "word": "pass away",
+     "charge": 2,
+     "tone": "The standard gentle phrase - what you say to someone who has just lost a person."
+    },
+    {
+     "word": "give-up the ghost",
+     "charge": 1,
+     "tone": "Grand phrasing for an ordinary end, which is why it turns comic."
+    }
+   ],
+   "whole_family": [
+    {
+     "word": "croak",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -3,
+     "tone": "Crude and flippant - it reduces a death to a joke."
+    },
+    {
+     "word": "snuff it",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -3,
+     "tone": "British slang, jokey and dismissive."
+    },
+    {
+     "word": "kick the bucket",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -3,
+     "tone": "A comic idiom - keeps death at arm's length by making light of it."
+    },
+    {
+     "word": "drop dead",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -3,
+     "tone": "Abrupt and unsentimental - emphasises the suddenness."
+    },
+    {
+     "word": "pop off",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -3,
+     "tone": "Casual to the point of dismissive."
+    },
+    {
+     "word": "buy the farm",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -3,
+     "tone": "Military slang - gallows humour rather than disrespect."
+    },
+    {
+     "word": "die",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -2,
+     "tone": "The plain, honest verb - direct without being cruel."
+    },
+    {
+     "word": "perish",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -1,
+     "tone": "Grave and literary - deaths in numbers, or deaths that should not have happened."
+    },
+    {
+     "word": "succumb",
+     "gloss": "be fatally overwhelmed",
+     "charge": -1,
+     "tone": "Death framed as losing a long fight - respectful of the struggle."
+    },
+    {
+     "word": "expire",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": 0,
+     "tone": "Clinical and detached - the word on a chart, not at a graveside."
+    },
+    {
+     "word": "decease",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": 0,
+     "tone": "Legal wording: the death is an event on a form."
+    },
+    {
+     "word": "fall",
+     "gloss": "die, as in battle or in a hunt",
+     "charge": 1,
+     "tone": "A soft, dignifying word for a death in the field - soldier or quarry, the fall sounds fated rather than inflicted."
+    },
+    {
+     "word": "pass away",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": 2,
+     "tone": "The standard gentle phrase - what you say to someone who has just lost a person."
+    },
+    {
+     "word": "pass",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": 2,
+     "tone": "Even shorter and softer than *pass away* - the gentlest way of putting it."
+    },
+    {
+     "word": "give-up the ghost",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": 1,
+     "tone": "Grand phrasing for an ordinary end, which is why it turns comic."
+    }
+   ]
+  },
+  {
+   "id": "clear.oewn-01754557-s",
+   "word": "clear",
+   "gloss": "free from flaw or blemish or impurity",
+   "charge": 2,
+   "current_note": "Goes beyond flaws and marks to anything mixed in that spoils it, so it can describe a substance, not only a performance.",
+   "fault": "other",
+   "reader_said": "tone_lint, rule narrowing, matched \"describe a substance, not\": do not restrict the sense further than the gloss does",
+   "axis": "no fault found in it → complete and consummate perfection",
+   "examples": [
+    "a clear perfect diamond",
+    "the clear complexion of a healthy young woman"
+   ],
+   "synset_siblings": [],
+   "whole_family": [
+    {
+     "word": "perfect",
+     "gloss": "being complete of its kind and without defect or blemish",
+     "charge": 2,
+     "tone": "The unqualified standard here, claiming completeness of its kind as well as the absence of blemish, where *flawless* claims only the absence."
+    },
+    {
+     "word": "clean",
+     "gloss": "(of a record) having no marks of discredit or offense",
+     "charge": 1,
+     "tone": "Praise by absence - a record with nothing marked against it, a narrower claim than the completeness *perfect* asserts."
+    },
+    {
+     "word": "clear",
+     "gloss": "free from flaw or blemish or impurity",
+     "charge": 2,
+     "tone": "Goes beyond flaws and marks to anything mixed in that spoils it, so it can describe a substance, not only a performance."
+    },
+    {
+     "word": "cold",
+     "gloss": "marked by errorless familiarity",
+     "charge": 2,
+     "tone": "Perfection as drilled familiarity - the thing is known so thoroughly that error does not arise, where *errorless* only reports that none did."
+    },
+    {
+     "word": "complete",
+     "gloss": "perfect and complete in every respect; having all necessary qualities",
+     "charge": 2,
+     "tone": "Asserts that every necessary quality is present, the opposite test from *flawless*: nothing missing rather than nothing wrong."
+    },
+    {
+     "word": "consummate",
+     "gloss": "perfect and complete in every respect; having all necessary qualities",
+     "charge": 3,
+     "tone": "Formal where *complete* is plain, and it turns having every needed quality into the highest kind of praise."
+    },
+    {
+     "word": "down",
+     "gloss": "understood perfectly",
+     "charge": 1,
+     "tone": "Puts the perfection in the grasp rather than in the thing - the understanding is finished, and it says so flatly."
+    },
+    {
+     "word": "down pat",
+     "gloss": "understood perfectly",
+     "charge": 2,
+     "tone": "The idiom tightens *down* into exactness: not merely understood but understood to the letter."
+    },
+    {
+     "word": "mastered",
+     "gloss": "understood perfectly",
+     "charge": 2,
+     "tone": "Dignifies the same perfect understanding as an attainment, where *down* merely reports the state."
+    },
+    {
+     "word": "errorless",
+     "gloss": "free from error",
+     "charge": 1,
+     "tone": "A flat count of no errors, the coolest word in the family beside *impeccable*'s admiration."
+    },
+    {
+     "word": "faultless",
+     "gloss": "without fault or error",
+     "charge": 2,
+     "tone": "Takes in fault as well as error, so it acquits the conduct and not just the execution."
+    },
+    {
+     "word": "immaculate",
+     "gloss": "without fault or error",
+     "charge": 3,
+     "tone": "Lifts the same absence of fault into something untouched, admiring where *errorless* is merely accurate."
+    },
+    {
+     "word": "impeccable",
+     "gloss": "without fault or error",
+     "charge": 3,
+     "tone": "Reads the absence of fault as a standard held to - admiration rather than measurement."
+    },
+    {
+     "word": "incorrupted",
+     "gloss": "without fault or error",
+     "charge": 1,
+     "tone": "Treats being without fault as something kept whole rather than achieved, and sounds stiffer than *faultless*."
+    },
+    {
+     "word": "flawless",
+     "gloss": "without a flaw",
+     "charge": 2,
+     "tone": "Single-minded - one flaw would undo it, where *complete* asks instead whether everything is there."
+    },
+    {
+     "word": "unflawed",
+     "gloss": "without a flaw",
+     "charge": 1,
+     "tone": "Simply says there is no flaw, without the admiration that *flawless* carries."
+    }
+   ]
+  },
+  {
+   "id": "despairing.oewn-01232699-s",
+   "word": "despairing",
+   "gloss": "arising from or marked by despair or loss of hope",
+   "charge": -2,
+   "current_note": "Points at the despair itself, whether a thing comes from lost hope or just shows it, where *hopeless* points at the chances.",
+   "fault": "other",
+   "reader_said": "tone_lint, rule etymology, matched \"comes from\": drop the origin story unless it has been checked against a source",
+   "axis": "faint hope still left → hope wholly gone and the collapse showing",
+   "examples": [
+    "a despairing view of the world situation",
+    "the last despairing plea of the condemned criminal"
+   ],
+   "synset_siblings": [
+    {
+     "word": "desperate",
+     "charge": -2,
+     "tone": "The straining side of the same despair — something arising from lost hope rather than merely showing it, so it pushes where *despairing* only mourns."
+    }
+   ],
+   "whole_family": [
+    {
+     "word": "hopeless",
+     "gloss": "without hope because there seems to be no possibility of comfort or success",
+     "charge": -2,
+     "tone": "The plain verdict: no hope because no comfort or success looks possible - about the odds, where *despairing* is about the feeling."
+    },
+    {
+     "word": "abject",
+     "gloss": "showing utter resignation or hopelessness",
+     "charge": -3,
+     "tone": "The most degrading member: utter resignation or hopelessness worn openly, so that the giving-up is itself what gets judged."
+    },
+    {
+     "word": "unhopeful",
+     "gloss": "showing utter resignation or hopelessness",
+     "charge": -1,
+     "tone": "Simply “not hopeful”: the same utter resignation or hopelessness as *abject*, but without the scorn, saying less than it means."
+    },
+    {
+     "word": "black",
+     "gloss": "offering little or no hope",
+     "charge": -2,
+     "tone": "Paints the little-or-no hope rather than measuring it, and paints it unrelieved, which is what puts it past *dim*."
+    },
+    {
+     "word": "bleak",
+     "gloss": "offering little or no hope",
+     "charge": -2,
+     "tone": "The same shortage of hope felt as bareness and exposure rather than as the darkness of *black*."
+    },
+    {
+     "word": "dim",
+     "gloss": "offering little or no hope",
+     "charge": -1,
+     "tone": "The mildest of the three, since it sits on the “little” rather than the “no” — hope faint but not yet out."
+    },
+    {
+     "word": "despairing",
+     "gloss": "arising from or marked by despair or loss of hope",
+     "charge": -2,
+     "tone": "Points at the despair itself, whether a thing comes from lost hope or just shows it, where *hopeless* points at the chances."
+    },
+    {
+     "word": "desperate",
+     "gloss": "arising from or marked by despair or loss of hope",
+     "charge": -2,
+     "tone": "The straining side of the same despair — something arising from lost hope rather than merely showing it, so it pushes where *despairing* only mourns."
+    },
+    {
+     "word": "despondent",
+     "gloss": "without or almost without hope",
+     "charge": -2,
+     "tone": "A sunk, settled state with hope gone or all but gone, heavier than *dim* and far quieter than *desperate*."
+    },
+    {
+     "word": "heartsick",
+     "gloss": "without or almost without hope",
+     "charge": -2,
+     "tone": "Puts that same absent-or-nearly-absent hope in the body, a sickness felt rather than the low weight of *despondent*."
+    },
+    {
+     "word": "forlorn",
+     "gloss": "marked by or showing hopelessness",
+     "charge": -2,
+     "tone": "Hopelessness that is marked or shown in a way inviting pity, not the reproach *abject* invites."
+    },
+    {
+     "word": "futureless",
+     "gloss": "having no prospect or hope of a future",
+     "charge": -2,
+     "tone": "Turns the loss forward — neither prospect nor hope of a future — a flat structural verdict beside the mood of *forlorn*."
+    },
+    {
+     "word": "helpless",
+     "gloss": "unable to function; without help",
+     "charge": -2,
+     "tone": "Two failures at once, unable to function and no help at hand, so it sounds like a plea, not *hopeless*'s verdict."
+    },
+    {
+     "word": "lost",
+     "gloss": "unable to function; without help",
+     "charge": -2,
+     "tone": "Unable to function and without help, like *helpless*, but as a settled state rather than a moment, so it sounds beyond rescue."
+    },
+    {
+     "word": "insoluble",
+     "gloss": "without hope of solution",
+     "charge": 0,
+     "tone": "Aimed at the problem, not at anyone: a flat statement that no solution can be hoped for, with no blame in it."
+    }
+   ]
+  },
+  {
+   "id": "fair.oewn-00959321-a",
+   "word": "fair",
+   "gloss": "free from favoritism or self-interest or bias or deception; conforming with established standards or rules",
+   "charge": 2,
+   "current_note": "Plain approval no one can argue with: it confirms nobody was favored or tricked, without the weight of principle *just* carries.",
+   "fault": "other",
+   "reader_said": "tone_lint, rule hedge-claim, matched \"no one can\": a claim about all speakers is a distribution claim in disguise",
+   "axis": "neutral naming of rules against unfair dealing → emphatic praise for dealing fairly",
+   "examples": [
+    "a fair referee",
+    "fair deal",
+    "on a fair footing",
+    "a fair fight",
+    "by fair means or foul"
+   ],
+   "synset_siblings": [
+    {
+     "word": "just",
+     "charge": 2,
+     "tone": "Heavier than *fair* - the same absence of bias, but weighted as a standard rightly upheld rather than a condition merely met."
+    }
+   ],
+   "whole_family": [
+    {
+     "word": "fair",
+     "gloss": "free from favoritism or self-interest or bias or deception; conforming with established standards or rules",
+     "charge": 2,
+     "tone": "Plain approval no one can argue with: it confirms nobody was favored or tricked, without the weight of principle *just* carries."
+    },
+    {
+     "word": "just",
+     "gloss": "free from favoritism or self-interest or bias or deception; conforming with established standards or rules",
+     "charge": 2,
+     "tone": "Heavier than *fair* - the same absence of bias, but weighted as a standard rightly upheld rather than a condition merely met."
+    },
+    {
+     "word": "antimonopoly",
+     "gloss": "of laws and regulations; designed to protect trade and commerce from unfair business practices",
+     "charge": 0,
+     "tone": "Purely classificatory - it says what a law or regulation is built to protect trade from, and commends no one."
+    },
+    {
+     "word": "antitrust",
+     "gloss": "of laws and regulations; designed to protect trade and commerce from unfair business practices",
+     "charge": 0,
+     "tone": "Technical and as neutral as *antimonopoly*, marking a regulation's protective purpose rather than approving anybody's conduct."
+    },
+    {
+     "word": "clean",
+     "gloss": "exhibiting or calling for sportsmanship or fair play",
+     "charge": 2,
+     "tone": "Praises by what is missing - nothing foul in the play - where *sportsmanlike* names the good quality directly."
+    },
+    {
+     "word": "sporting",
+     "gloss": "exhibiting or calling for sportsmanship or fair play",
+     "charge": 2,
+     "tone": "Warmer and easier than *clean*, crediting fair play as a spirit brought to the contest rather than a rule left unbroken."
+    },
+    {
+     "word": "sporty",
+     "gloss": "exhibiting or calling for sportsmanship or fair play",
+     "charge": 1,
+     "tone": "The most casual of these, informal and light, granting the same approval with none of *sportsmanlike*'s weight."
+    },
+    {
+     "word": "sportsmanlike",
+     "gloss": "exhibiting or calling for sportsmanship or fair play",
+     "charge": 2,
+     "tone": "The formal member - it measures conduct against a named standard of sportsmanship instead of merely reporting, as *clean* does, that nothing foul happened."
+    },
+    {
+     "word": "fair-minded",
+     "gloss": "of a person; just and impartial; not prejudiced",
+     "charge": 2,
+     "tone": "Praises a settled cast of mind rather than a single dealing - the impartiality is lodged in the person."
+    },
+    {
+     "word": "fair-and-square",
+     "gloss": "just and honest",
+     "charge": 3,
+     "tone": "The emphatic one - its doubled phrasing insists there is nothing left to question, where *just* simply states that the standard was met."
+    }
+   ]
+  },
+  {
+   "id": "outclassed.oewn-02349202-s",
+   "word": "outclassed",
+   "gloss": "decisively surpassed by something else so as to appear to be of a lower class",
+   "charge": -2,
+   "current_note": "The strongest here: the low standing comes from a contest clearly lost, and carries the humiliation of the comparison.",
+   "fault": "other",
+   "reader_said": "tone_lint, rule etymology, matched \"comes from\": drop the origin story unless it has been checked against a source",
+   "axis": "neutral placement on a scale of rank → dismissive verdict of standing beneath others",
+   "examples": [],
+   "synset_siblings": [],
+   "whole_family": [
+    {
+     "word": "inferior",
+     "gloss": "of or characteristic of low rank or importance",
+     "charge": -1,
+     "tone": "Puts a thing below others and lets that ranking carry the sting, where *humble* names the same low place without ranking it."
+    },
+    {
+     "word": "humble",
+     "gloss": "low or inferior in station or quality",
+     "charge": 0,
+     "tone": "Names low station with a quiet grace, so the lowness reads as unpretending rather than deficient."
+    },
+    {
+     "word": "low",
+     "gloss": "low or inferior in station or quality",
+     "charge": -1,
+     "tone": "The blunt monosyllable for that station, stating the bottom position flatly and with none of the softening in *humble*."
+    },
+    {
+     "word": "lowly",
+     "gloss": "low or inferior in station or quality",
+     "charge": 0,
+     "tone": "Adds a meek, faintly literary air to the low position, so it sounds borne rather than merely recorded."
+    },
+    {
+     "word": "modest",
+     "gloss": "low or inferior in station or quality",
+     "charge": 0,
+     "tone": "The tactful word for the same lowness, declining to call it poor and leaving the thing its dignity."
+    },
+    {
+     "word": "small",
+     "gloss": "low or inferior in station or quality",
+     "charge": -1,
+     "tone": "Shrinks rather than ranks: the low quality comes across as being unimportant, not as a place on a ladder."
+    },
+    {
+     "word": "indifferent",
+     "gloss": "fairly poor to not very good",
+     "charge": -1,
+     "tone": "Damns by withholding: it refuses praise rather than delivering a charge, and the refusal is the verdict."
+    },
+    {
+     "word": "low-level",
+     "gloss": "at a low level in rank or importance",
+     "charge": 0,
+     "tone": "Purely positional, marking a rung on a scale of rank without judging the worth of whatever stands there."
+    },
+    {
+     "word": "middle-level",
+     "gloss": "intermediate in rank or position",
+     "charge": 0,
+     "tone": "A coordinate rather than a verdict, fixing a point between top and bottom and claiming nothing about quality."
+    },
+    {
+     "word": "outclassed",
+     "gloss": "decisively surpassed by something else so as to appear to be of a lower class",
+     "charge": -2,
+     "tone": "The strongest here: the low standing comes from a contest clearly lost, and carries the humiliation of the comparison."
+    }
+   ]
+  },
+  {
+   "id": "unaccountable.oewn-02006185-s",
+   "word": "unaccountable",
+   "gloss": "free from control or responsibility",
+   "charge": 0,
+   "current_note": "Simply states where someone stands - there is no one to answer to, and the person is not judged for it.",
+   "fault": "other",
+   "reader_said": "tone_lint, rule hedge-claim, matched \"no one to\": a claim about all speakers is a distribution claim in disguise",
+   "axis": "irresponsibility indulged as charm → irresponsibility condemned as unfitness",
+   "examples": [],
+   "synset_siblings": [],
+   "whole_family": [
+    {
+     "word": "irresponsible",
+     "gloss": "showing lack of care for consequences",
+     "charge": -2,
+     "tone": "The plain charge the rest take their colour from - blame falls on the consequences left unweighed, with none of the cheer of *carefree*."
+    },
+    {
+     "word": "carefree",
+     "gloss": "cheerfully irresponsible",
+     "charge": 2,
+     "tone": "The most forgiving word here - the missing care reads as freedom from burden rather than neglect of duty."
+    },
+    {
+     "word": "devil-may-care",
+     "gloss": "cheerfully irresponsible",
+     "charge": 1,
+     "tone": "Showy boldness rather than lightness - it shows off not caring, where *carefree* simply has no worry to shed."
+    },
+    {
+     "word": "freewheeling",
+     "gloss": "cheerfully irresponsible",
+     "charge": 1,
+     "tone": "Motion with the brakes off - it approves the ease while leaving the absent check audible."
+    },
+    {
+     "word": "happy-go-lucky",
+     "gloss": "cheerfully irresponsible",
+     "charge": 1,
+     "tone": "Indulgent - it credits a temperament rather than charging a fault."
+    },
+    {
+     "word": "harum-scarum",
+     "gloss": "cheerfully irresponsible",
+     "charge": -1,
+     "tone": "Its sing-song rhyme makes the cheer sound silly and disorganized, tipping into criticism where *happy-go-lucky* stays fond."
+    },
+    {
+     "word": "slaphappy",
+     "gloss": "cheerfully irresponsible",
+     "charge": -1,
+     "tone": "The cheer here undercuts the person as giddy and unfit to be trusted, where *carefree* leaves them intact."
+    },
+    {
+     "word": "do-nothing",
+     "gloss": "characterized by inability or unwillingness to work toward a goal or assume responsibility",
+     "charge": -2,
+     "tone": "Flatly dismissive - it writes someone off by what they never get done, with no charm allowed into the failing."
+    },
+    {
+     "word": "feckless",
+     "gloss": "not fit to assume responsibility",
+     "charge": -3,
+     "tone": "A verdict of unfitness rather than a report of behaviour, and the most withering word in the set."
+    },
+    {
+     "word": "idle",
+     "gloss": "lacking a sense of restraint or responsibility",
+     "charge": -1,
+     "tone": "A light word for the fault - what is missing is restraint, not any active wrongdoing."
+    },
+    {
+     "word": "loose",
+     "gloss": "lacking a sense of restraint or responsibility",
+     "charge": -2,
+     "tone": "Carries a moral edge *idle* does not - the restraint gone slack is the kind a person is expected to hold."
+    },
+    {
+     "word": "trigger-happy",
+     "gloss": "irresponsible in the use of firearms",
+     "charge": -2,
+     "tone": "The cheerful *-happy* ending set against carelessness with a gun is the whole sting of it."
+    },
+    {
+     "word": "unaccountable",
+     "gloss": "free from control or responsibility",
+     "charge": 0,
+     "tone": "Simply states where someone stands - there is no one to answer to, and the person is not judged for it."
+    },
+    {
+     "word": "unreliable",
+     "gloss": "lacking a sense of responsibility",
+     "charge": -2,
+     "tone": "Judged from outside - where *irresponsible* looks at the consequences, this looks at whoever was depending."
+    }
+   ]
+  },
+  {
+   "id": "unnoticed.oewn-01612846-a",
+   "word": "unnoticed",
+   "gloss": "not noticed",
+   "charge": 0,
+   "current_note": "The flat, basic word: it says only that the thing was not noticed, blaming no one and giving it no claim on attention.",
+   "fault": "other",
+   "reader_said": "tone_lint, rule hedge-claim, matched \"no one and\": a claim about all speakers is a distribution claim in disguise",
+   "axis": "bare absence of notice → attention withheld from something with a claim on it",
+   "examples": [
+    "hoped his departure had passed unnoticed"
+   ],
+   "synset_siblings": [],
+   "whole_family": [
+    {
+     "word": "unnoticed",
+     "gloss": "not noticed",
+     "charge": 0,
+     "tone": "The flat, basic word: it says only that the thing was not noticed, blaming no one and giving it no claim on attention."
+    },
+    {
+     "word": "disregarded",
+     "gloss": "not noticed inadvertently",
+     "charge": 0,
+     "tone": "In this sense the passing-over is accidental, so the word marks a lapse rather than a snub."
+    },
+    {
+     "word": "forgotten",
+     "gloss": "not noticed inadvertently",
+     "charge": -1,
+     "tone": "The same accidental slip as *disregarded*, but implying the thing once held attention and lost it, leaving it a little less important."
+    },
+    {
+     "word": "ignored",
+     "gloss": "disregarded",
+     "charge": -2,
+     "tone": "The one where withholding attention reads as chosen - a snub rather than an oversight, and the sting sits in that choice."
+    },
+    {
+     "word": "neglected",
+     "gloss": "disregarded",
+     "charge": -2,
+     "tone": "Puts the weight on attention that was owed and not paid, so it carries a sense of duty unmet that *ignored* does not."
+    },
+    {
+     "word": "unheeded",
+     "gloss": "disregarded",
+     "charge": -1,
+     "tone": "The mildest of the three: something was there to attend to, without *ignored*'s choice or *neglected*'s failure of care."
+    },
+    {
+     "word": "overlooked",
+     "gloss": "not taken into account",
+     "charge": -1,
+     "tone": "A miss rather than a refusal - it concedes that the thing should have entered the reckoning and quietly admits the error."
+    },
+    {
+     "word": "unmarked",
+     "gloss": "not taken into account",
+     "charge": 0,
+     "tone": "Flat where *overlooked* is apologetic: it says only that nothing was made of the thing, conceding no mistake."
+    },
+    {
+     "word": "unnoted",
+     "gloss": "not taken into account",
+     "charge": 0,
+     "tone": "The barest of the three - the plain negative of taking something into account, with no suggestion that anyone should have."
+    },
+    {
+     "word": "unobserved",
+     "gloss": "unnoticed",
+     "charge": 0,
+     "tone": "Carries the shadow of someone who might have noticed, so it can be a relief as easily as a slight."
+    },
+    {
+     "word": "unseen",
+     "gloss": "unnoticed",
+     "charge": 0,
+     "tone": "Flatly sensory beside *unobserved* - nothing registered, with no watcher implied for the thing to have escaped."
+    },
+    {
+     "word": "unperceived",
+     "gloss": "not perceived or commented on",
+     "charge": 0,
+     "tone": "Formal and abstract, covering both not noticing a thing and saying nothing of it, with the weight on the noticing."
+    },
+    {
+     "word": "unremarked",
+     "gloss": "not perceived or commented on",
+     "charge": 0,
+     "tone": "Leans the other way from *unperceived*: the thing may well have been seen, and the point is that nothing was said of it."
+    }
+   ]
+  }
+ ]
+}

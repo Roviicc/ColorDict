@@ -29,9 +29,18 @@ still reads a file rather than a manager's retyping of one.
 
 Usage:
     python3 tools/plain_packets.py draw   --out data/policy/plain-001 [--per-packet 8]
+    python3 tools/plain_packets.py draw   --out data/policy/plain-002 \
+        --learner-hard data/policy/learner-001/results.json
     python3 tools/plain_packets.py check  --dir data/policy/plain-001
     python3 tools/plain_packets.py census --dir data/policy/plain-001 \
-        --sample census-013 --out data/policy/census-013.json
+        --sample census-013 --out data/policy/census-013.json \
+        [--also data/policy/cleanup-001/repairs.json]
+
+A second round (--learner-hard) rewrites exactly the notes a blind learner read
+found hard, each flagged for what stopped the reader: its `word` stops are
+plain_lint's hard-words, and its other kinds (grammar, sentence, figure) keep
+their names. --also joins a repair pass's decisions to the census population,
+so one blind read covers every note the round changed.
 """
 
 import argparse
@@ -63,8 +72,20 @@ def load_batch():
     return senses
 
 
+def learner_flags(path):
+    flags = {}
+    for sid, v in json.loads(path.read_text(encoding="utf-8"))["hard"].items():
+        why = {}
+        for stop in v.get("stops", []):
+            key = "hard-words" if stop["kind"] == "word" else stop["kind"]
+            why[key] = f"{why[key]}, {stop['quote']}" if key in why else stop["quote"]
+        flags[sid] = why
+    return flags
+
+
 def draw(args):
     batch = load_batch()
+    learner = learner_flags(args.learner_hard) if args.learner_hard else None
     families, rewrite, by_rule, short_gloss = [], 0, Counter(), 0
     for path in sorted(SHARDS.glob("annotated-*.json")):
         data = json.loads(path.read_text(encoding="utf-8"))
@@ -80,6 +101,8 @@ def draw(args):
                     gloss = m.get("_gloss", "")
                     short_gloss += len(gloss) >= 90
                 hits = plain_lint.check(m["tone"], m["word"])
+                if learner is not None:
+                    hits = list(learner.get(sid, {}).items())
                 row = {"id": sid, "word": m["word"], "gloss": gloss,
                        "charge": m.get("charge"), "tone": m["tone"],
                        "rewrite": bool(hits)}
@@ -94,6 +117,10 @@ def draw(args):
                 families.append({"family": fam["id"], "axis": fam.get("axis", ""),
                                  "members": members})
                 rewrite += marked
+    if learner is not None:
+        drawn = {r["id"] for f in families for r in f["members"] if r["rewrite"]}
+        if set(learner) - drawn:
+            sys.exit(f"not in any shard: {', '.join(sorted(set(learner) - drawn))}")
     if args.limit:
         families = families[:args.limit]
         rewrite = sum(r["rewrite"] for f in families for r in f["members"])
@@ -115,6 +142,7 @@ def draw(args):
                                   if r["rewrite"]]})
     manifest = {"pass": args.out.name, "drawn": str(datetime.date.today()),
                 "instrument": ".claude/agents/simplifier.md", "rule": rule,
+                "flagged_by": str(args.learner_hard) if learner is not None else "plain_lint",
                 "families": len(families), "rewrite": rewrite,
                 "by_rule": dict(by_rule), "packets": index,
                 "wordfreq": plain_lint.zipf_frequency is not None,
@@ -196,6 +224,11 @@ def check(args):
 def census(args):
     manifest = json.loads((args.dir / "manifest.json").read_text(encoding="utf-8"))
     decisions = json.loads((args.dir / "decisions.json").read_text(encoding="utf-8"))
+    for extra in args.also:
+        for sid, d in json.loads(extra.read_text(encoding="utf-8")).items():
+            if sid in decisions:
+                sys.exit(f"{sid}: decided in both {args.dir.name} and {extra.name}")
+            decisions[sid] = d
     batch = load_batch()
     family_of = {}
     for p in manifest["packets"]:
@@ -204,6 +237,11 @@ def census(args):
         for f in packet["families"]:
             for r in f["members"]:
                 family_of[r["id"]] = f["family"]
+    if args.also:
+        for path in sorted(SHARDS.glob("annotated-*.json")):
+            for fam in json.loads(path.read_text(encoding="utf-8"))["families"]:
+                for m in fam["members"]:
+                    family_of.setdefault(f"{slug(m['word'])}.{m['synset']}", fam["id"])
     entries, missing, stale = [], [], []
     for sid, d in decisions.items():
         if d.get("action") != "tone":
@@ -251,7 +289,8 @@ def census(args):
         "read_design": ("complete read of every rewrite; census_packets.py slices "
                         "contiguously; reader sees gloss, charge label and note, "
                         "never the old note or that it was rewritten"),
-        "scope": f"every tone decision in {args.dir.name}/decisions.json",
+        "scope": f"every tone decision in {args.dir.name}/decisions.json"
+                 + "".join(f" and {p}" for p in args.also),
         "population": len(entries),
         "drawn": len(entries),
         "entries": entries,
@@ -269,12 +308,16 @@ def main():
     d.add_argument("--out", type=Path, required=True)
     d.add_argument("--per-packet", type=int, default=8, help="families per packet")
     d.add_argument("--limit", type=int, default=0, help="first N families only (pilot)")
+    d.add_argument("--learner-hard", type=Path,
+                   help="a learner_packets results.json: rewrite the notes it read hard")
     c = sub.add_parser("check")
     c.add_argument("--dir", type=Path, required=True)
     s = sub.add_parser("census")
     s.add_argument("--dir", type=Path, required=True)
     s.add_argument("--sample", required=True)
     s.add_argument("--out", type=Path, required=True)
+    s.add_argument("--also", type=Path, action="append", default=[],
+                   help="a repair pass's decisions to read in the same census")
     args = ap.parse_args()
     {"draw": draw, "check": check, "census": census}[args.cmd](args)
 

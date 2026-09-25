@@ -1,0 +1,764 @@
+{
+ "packet": 1,
+ "families": [
+  {
+   "family": "family-00339715-a",
+   "axis": "confidence restored or plainly held → confidence carried past what warrants it",
+   "members": [
+    {
+     "id": "confident.oewn-00339715-a",
+     "word": "confident",
+     "gloss": "having or marked by confidence or assurance",
+     "charge": 0,
+     "tone": "The plain baseline of the family, reporting that the assurance is there without passing any verdict on whether it is warranted.",
+     "rewrite": false
+    },
+    {
+     "id": "assured.oewn-00340055-s",
+     "word": "assured",
+     "gloss": "marked by assurance; exhibiting confidence",
+     "charge": 1,
+     "tone": "Shifts from the inner state to the visible one, crediting a confidence you can see in the bearing where *confident* merely records it.",
+     "rewrite": false
+    },
+    {
+     "id": "cocksure.oewn-00340186-s",
+     "word": "cocksure",
+     "gloss": "marked by excessive confidence",
+     "charge": -2,
+     "tone": "Jeering and informal - the excess is not diagnosed but mocked, a swagger the word refuses to take seriously beside the flat *overconfident*.",
+     "rewrite": false
+    },
+    {
+     "id": "overconfident.oewn-00340186-s",
+     "word": "overconfident",
+     "gloss": "marked by excessive confidence",
+     "charge": -2,
+     "tone": "The straight clinical name for the fault, marking the confidence as more than warranted and leaving the derision to *cocksure*.",
+     "rewrite": false
+    },
+    {
+     "id": "positive.oewn-00340186-s",
+     "word": "positive",
+     "gloss": "marked by excessive confidence",
+     "charge": -1,
+     "tone": "The mildest word for too much confidence: an everyday word that lets the excess come across as a shrug, not an accusation.",
+     "rewrite": false
+    },
+    {
+     "id": "reassured.oewn-00340497-s",
+     "word": "reassured",
+     "gloss": "having confidence restored; freed from anxiety",
+     "charge": 1,
+     "tone": "The settled calm of confidence handed back as worry lifts, where the rest of the family never mentions it having been shaken.",
+     "rewrite": true,
+     "flagged_for": {
+      "figure": "the rest of the family",
+      "sentence": "never mentions it having been shaken"
+     }
+    },
+    {
+     "id": "self-assured.oewn-00340640-s",
+     "word": "self-assured",
+     "gloss": "showing poise and confidence in your own worth",
+     "charge": 1,
+     "tone": "Turns the poise inward onto one's own worth and lets it show as composure, steadier-sounding than the bare *confident*.",
+     "rewrite": false
+    },
+    {
+     "id": "self-confident.oewn-00340640-s",
+     "word": "self-confident",
+     "gloss": "showing poise and confidence in your own worth",
+     "charge": 1,
+     "tone": "The plainest label for that same belief in one's own worth, stating it where *self-assured* leans on the outward steadiness.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01523886-a",
+   "axis": "bare totalizing → totalizing that also condemns",
+   "members": [
+    {
+     "id": "unmitigated.oewn-01523886-a",
+     "word": "unmitigated",
+     "gloss": "not diminished or moderated in intensity or severity; sometimes used as an intensifier",
+     "charge": -1,
+     "tone": "Names the absence of relief - the intensity or severity has had nothing taken off it - where *utter* only says the quality is entire.",
+     "rewrite": false
+    },
+    {
+     "id": "arrant.oewn-01524174-s",
+     "word": "arrant",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -2,
+     "tone": "Openly scornful, not just total - it sneers at the very thing it strengthens, where *complete* only measures it.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "scornful, sneers"
+     }
+    },
+    {
+     "id": "complete.oewn-01524174-s",
+     "word": "complete",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": 0,
+     "tone": "The plainest amplifier of the set - it adds fullness and takes whatever scorn is already in the noun.",
+     "rewrite": false
+    },
+    {
+     "id": "consummate.oewn-01524174-s",
+     "word": "consummate",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -1,
+     "tone": "Makes the quality total as if it were a finished achievement, and that mismatch gives it a dry humour *utter* lacks.",
+     "rewrite": false
+    },
+    {
+     "id": "double-dyed.oewn-01524174-s",
+     "word": "double-dyed",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -2,
+     "tone": "Condemning - it presents the quality as set fast and past removing, going further than *thorough*, which only says it runs all the way through.",
+     "rewrite": false
+    },
+    {
+     "id": "everlasting.oewn-01524174-s",
+     "word": "everlasting",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -1,
+     "tone": "Adds a fed-up annoyance, insisting the quality never lets up, where *utter* simply states how far it goes.",
+     "rewrite": false
+    },
+    {
+     "id": "gross.oewn-01524174-s",
+     "word": "gross",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -2,
+     "tone": "Blunt and coarse - it enlarges the quality and looks down on it in a single move.",
+     "rewrite": false
+    },
+    {
+     "id": "perfect.oewn-01524174-s",
+     "word": "perfect",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -1,
+     "tone": "Turns a word of flawlessness into a measure of extent, and gains its edge over *complete* through that mismatch.",
+     "rewrite": false
+    },
+    {
+     "id": "pure.oewn-01524174-s",
+     "word": "pure",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": 0,
+     "tone": "Intensifies by denying any admixture - the quality stands undiluted, which is a different claim from *utter*'s nothing-left-over.",
+     "rewrite": false
+    },
+    {
+     "id": "sodding.oewn-01524174-s",
+     "word": "sodding",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -3,
+     "tone": "British and profane - the most abusive of these, spending contempt before it has said anything about degree at all.",
+     "rewrite": false
+    },
+    {
+     "id": "stark.oewn-01524174-s",
+     "word": "stark",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -1,
+     "tone": "Bleak in its emphasis, leaving the quality bare and unrelieved rather than merely entire as *complete* does.",
+     "rewrite": false
+    },
+    {
+     "id": "staring.oewn-01524174-s",
+     "word": "staring",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -1,
+     "tone": "Makes the quality conspicuous as well as total - impossible to overlook, where *utter* says nothing about how visible it is.",
+     "rewrite": false
+    },
+    {
+     "id": "thorough.oewn-01524174-s",
+     "word": "thorough",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": 0,
+     "tone": "Amplifies by saying the quality runs the whole way through, a claim about extent with no scorn of its own.",
+     "rewrite": false
+    },
+    {
+     "id": "thoroughgoing.oewn-01524174-s",
+     "word": "thoroughgoing",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": 0,
+     "tone": "Heavier on the tongue than *thorough*, and the extra weight is insistence on completeness rather than added disparagement.",
+     "rewrite": false
+    },
+    {
+     "id": "utter.oewn-01524174-s",
+     "word": "utter",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": 0,
+     "tone": "Flat and absolute - it allows no remainder, and unlike *arrant* it supplies no sneer of its own.",
+     "rewrite": false
+    },
+    {
+     "id": "unadulterated.oewn-01524174-s",
+     "word": "unadulterated",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": 0,
+     "tone": "The most deliberate of these, spelling out that nothing was mixed in to weaken the quality, where *pure* says it in a breath.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01648062-a",
+   "axis": "a plain count of years → age as infirmity worth mocking",
+   "members": [
+    {
+     "id": "old.oewn-01648062-a",
+     "word": "old",
+     "gloss": "(used especially of persons) having lived for a relatively long time or attained a specific age",
+     "charge": 0,
+     "tone": "Flat and neutral, it covers both a long life lived and simply a stated age reached, where *of age* means only the second.",
+     "rewrite": false
+    },
+    {
+     "id": "aged.oewn-01648667-s",
+     "word": "aged",
+     "gloss": "advanced in years; (‘aged’ is pronounced as two syllables)",
+     "charge": 0,
+     "tone": "Formal and weighty, it presents advanced years as a settled state, where *older* only marks a point on a scale.",
+     "rewrite": false
+    },
+    {
+     "id": "elderly.oewn-01648667-s",
+     "word": "elderly",
+     "gloss": "advanced in years; (‘aged’ is pronounced as two syllables)",
+     "charge": 0,
+     "tone": "The courteous way to say advanced in years, gentler in force than *aged* and careful to claim nothing further about the person.",
+     "rewrite": false
+    },
+    {
+     "id": "older.oewn-01648667-s",
+     "word": "older",
+     "gloss": "advanced in years; (‘aged’ is pronounced as two syllables)",
+     "charge": 0,
+     "tone": "An *-er* form used as plain description, which makes it the softest word here: it suggests a scale rather than naming a state.",
+     "rewrite": false
+    },
+    {
+     "id": "senior.oewn-01648667-s",
+     "word": "senior",
+     "gloss": "advanced in years; (‘aged’ is pronounced as two syllables)",
+     "charge": 1,
+     "tone": "Carries a note of standing rather than decline, making it the one flattering way in this set to say advanced in years.",
+     "rewrite": false
+    },
+    {
+     "id": "of_age.oewn-01648983-s",
+     "word": "of age",
+     "gloss": "having attained a specific age; (‘aged’ is pronounced as one syllable)",
+     "charge": 0,
+     "tone": "Purely a threshold reached, with none of the weight of accumulated years that *aged* brings with it.",
+     "rewrite": false
+    },
+    {
+     "id": "aging.oewn-01649151-s",
+     "word": "aging",
+     "gloss": "growing old",
+     "charge": -1,
+     "tone": "Puts age in motion rather than in place - the process, not the state - and that forward motion carries its faint edge of decline.",
+     "rewrite": false
+    },
+    {
+     "id": "ageing.oewn-01649151-s",
+     "word": "ageing",
+     "gloss": "growing old",
+     "charge": -1,
+     "tone": "The British spelling of the same word, carrying the identical sense of decline already under way.",
+     "rewrite": false
+    },
+    {
+     "id": "senescent.oewn-01649151-s",
+     "word": "senescent",
+     "gloss": "growing old",
+     "charge": 0,
+     "tone": "Clinical and detached: the same growing old as *aging*, in a style that feels nothing about it.",
+     "rewrite": false
+    },
+    {
+     "id": "ancient.oewn-01649289-s",
+     "word": "ancient",
+     "gloss": "very old",
+     "charge": -1,
+     "tone": "Pure intensification — *old* taken to its limit, and the size of the exaggeration is what gives it its edge.",
+     "rewrite": false
+    },
+    {
+     "id": "anile.oewn-01649409-s",
+     "word": "anile",
+     "gloss": "of or like a feeble old woman",
+     "charge": -2,
+     "tone": "Formal-sounding but withering, covering both being a feeble old woman and merely being like one; the scorn is in the word itself.",
+     "rewrite": true,
+     "flagged_for": {
+      "figure": "withering",
+      "hard-words": "scorn"
+     }
+    },
+    {
+     "id": "centenarian.oewn-01649490-s",
+     "word": "centenarian",
+     "gloss": "being at least 100 years old",
+     "charge": 0,
+     "tone": "Purely quantitative — it fixes a number where *ancient* only gestures at extremity, and passes no verdict with it.",
+     "rewrite": false
+    },
+    {
+     "id": "darkened.oewn-01649594-s",
+     "word": "darkened",
+     "gloss": "(of fabrics and paper) grown dark in color over time",
+     "charge": 0,
+     "tone": "The only word here about what time does to the colour of cloth or paper, not to a life, and it judges nothing.",
+     "rewrite": false
+    },
+    {
+     "id": "doddering.oewn-01649738-s",
+     "word": "doddering",
+     "gloss": "mentally or physically infirm with age",
+     "charge": -2,
+     "tone": "Scornful where *aged* is not: weakness of mind or body from age becomes the whole of what it says about the person.",
+     "rewrite": false
+    },
+    {
+     "id": "doddery.oewn-01649738-s",
+     "word": "doddery",
+     "gloss": "mentally or physically infirm with age",
+     "charge": -2,
+     "tone": "The same judgement of weakness from age as *doddering*, but the shorter form makes the mockery sound casual rather than deliberate.",
+     "rewrite": false
+    },
+    {
+     "id": "gaga.oewn-01649738-s",
+     "word": "gaga",
+     "gloss": "mentally or physically infirm with age",
+     "charge": -3,
+     "tone": "Informal and blunt - the same weakness from age as *doddering*, in a word too jokey to leave the person any dignity.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01811138-a",
+   "axis": "cool displeasure → provoked past patience into revulsion",
+   "members": [
+    {
+     "id": "displeased.oewn-01811138-a",
+     "word": "displeased",
+     "gloss": "not pleased; experiencing or manifesting displeasure",
+     "charge": 0,
+     "tone": "The coolest word here: it names a lack of pleasure, felt or shown, without any heat in it.",
+     "rewrite": false
+    },
+    {
+     "id": "annoyed.oewn-01811355-s",
+     "word": "annoyed",
+     "gloss": "aroused to impatience or anger",
+     "charge": -1,
+     "tone": "The plain, unheated name for the state: impatience or anger without the colouring that *miffed* or *steamed* add to it.",
+     "rewrite": false
+    },
+    {
+     "id": "irritated.oewn-01811355-s",
+     "word": "irritated",
+     "gloss": "aroused to impatience or anger",
+     "charge": -1,
+     "tone": "Friction rather than flare: the same impatience or anger, but felt as something rubbing on and on rather than landing once like *stung*.",
+     "rewrite": false
+    },
+    {
+     "id": "miffed.oewn-01811355-s",
+     "word": "miffed",
+     "gloss": "aroused to impatience or anger",
+     "charge": -1,
+     "tone": "Light: it treats the feeling as a small thing and the person as easily upset, where *annoyed* judges neither.",
+     "rewrite": false
+    },
+    {
+     "id": "nettled.oewn-01811355-s",
+     "word": "nettled",
+     "gloss": "aroused to impatience or anger",
+     "charge": -1,
+     "tone": "Prickled and smarting: the state as something that caught and stings still, sharper in point than *annoyed* and briefer than *irritated*.",
+     "rewrite": false
+    },
+    {
+     "id": "peeved.oewn-01811355-s",
+     "word": "peeved",
+     "gloss": "aroused to impatience or anger",
+     "charge": -1,
+     "tone": "Small and faintly comic, it scales the impatience or anger down to a grievance worth mentioning but not worth raising your voice over.",
+     "rewrite": false
+    },
+    {
+     "id": "pissed.oewn-01811355-s",
+     "word": "pissed",
+     "gloss": "aroused to impatience or anger",
+     "charge": -2,
+     "tone": "Rude and blunt: the crudest way in this group to say it, and everything *displeased* holds back.",
+     "rewrite": false
+    },
+    {
+     "id": "pissed_off.oewn-01811355-s",
+     "word": "pissed off",
+     "gloss": "aroused to impatience or anger",
+     "charge": -2,
+     "tone": "Carries the coarse charge of *pissed* with the particle adding follow-through, anger sent outward rather than merely held.",
+     "rewrite": false
+    },
+    {
+     "id": "riled.oewn-01811355-s",
+     "word": "riled",
+     "gloss": "aroused to impatience or anger",
+     "charge": -2,
+     "tone": "Stirred up rather than simply arrived at: it puts the impatience or anger down to having been worked into someone.",
+     "rewrite": false
+    },
+    {
+     "id": "roiled.oewn-01811355-s",
+     "word": "roiled",
+     "gloss": "aroused to impatience or anger",
+     "charge": -2,
+     "tone": "Churning, not flaring: the feeling is muddy and unsettled all through, where *stung* is one sharp point.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "Churning, flaring"
+     }
+    },
+    {
+     "id": "steamed.oewn-01811355-s",
+     "word": "steamed",
+     "gloss": "aroused to impatience or anger",
+     "charge": -2,
+     "tone": "Pressure made visible, the heat contained but plainly building, hotter than *peeved* and short of the coarseness of *pissed off*.",
+     "rewrite": false
+    },
+    {
+     "id": "stung.oewn-01811355-s",
+     "word": "stung",
+     "gloss": "aroused to impatience or anger",
+     "charge": -1,
+     "tone": "Something landed, and the feeling is the sudden pull back from it, where *irritated* only wears on.",
+     "rewrite": true,
+     "flagged_for": {
+      "figure": "Something landed",
+      "hard-words": "wears on"
+     }
+    },
+    {
+     "id": "exasperated.oewn-01811732-s",
+     "word": "exasperated",
+     "gloss": "greatly annoyed; out of patience",
+     "charge": -2,
+     "tone": "The end of the line, annoyance carried far enough that patience is spent, which is exactly what *annoyed* still holds in reserve.",
+     "rewrite": false
+    },
+    {
+     "id": "cheesed_off.oewn-01811732-s",
+     "word": "cheesed off",
+     "gloss": "greatly annoyed; out of patience",
+     "charge": -1,
+     "tone": "British, and it takes the drama out: patience fully lost, in a phrase too casual to shout, where *exasperated* keeps its calm.",
+     "rewrite": false
+    },
+    {
+     "id": "browned_off.oewn-01811732-s",
+     "word": "browned off",
+     "gloss": "greatly annoyed; out of patience",
+     "charge": -1,
+     "tone": "Flat, worn British informality, the patience gone by erosion rather than blown out like *steamed*.",
+     "rewrite": false
+    },
+    {
+     "id": "disgusted.oewn-01811926-s",
+     "word": "disgusted",
+     "gloss": "having a strong distaste from surfeit",
+     "charge": -3,
+     "tone": "Strong dislike from having had too much of something - the stomach turning, not anger aimed at anyone.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01320916-a",
+   "axis": "harm merely reported → damage shown in graphic bodily detail",
+   "members": [
+    {
+     "id": "injured.oewn-01320916-a",
+     "word": "injured",
+     "gloss": "harmed",
+     "charge": 0,
+     "tone": "The flat report that harm was done, holding back every picture of it that *mangled* insists on showing.",
+     "rewrite": false
+    },
+    {
+     "id": "battle-scarred.oewn-01321194-s",
+     "word": "battle-scarred",
+     "gloss": "scarred by battle",
+     "charge": 1,
+     "tone": "Here the marks stand as proof of what was come through, so the damage reads as standing earned rather than harm suffered.",
+     "rewrite": false
+    },
+    {
+     "id": "black-and-blue.oewn-01321272-s",
+     "word": "black-and-blue",
+     "gloss": "discolored by coagulation of blood beneath the skin",
+     "charge": 0,
+     "tone": "Names the bruise by its two colours, homely and concrete beside the graver *livid*.",
+     "rewrite": false
+    },
+    {
+     "id": "livid.oewn-01321272-s",
+     "word": "livid",
+     "gloss": "discolored by coagulation of blood beneath the skin",
+     "charge": -1,
+     "tone": "The same bruising, but heavy and grim, as if something has gone badly wrong under the skin, where *black-and-blue* stays almost homely.",
+     "rewrite": false
+    },
+    {
+     "id": "disjointed.oewn-01321452-s",
+     "word": "disjointed",
+     "gloss": "separated at the joint",
+     "charge": 0,
+     "tone": "Structural and bloodless: the joint has come apart, and the word says nothing at all about pain.",
+     "rewrite": false
+    },
+    {
+     "id": "dislocated.oewn-01321452-s",
+     "word": "dislocated",
+     "gloss": "separated at the joint",
+     "charge": 0,
+     "tone": "The exact term for a joint driven out of place, diagnostic where *disjointed* sounds merely come-apart.",
+     "rewrite": false
+    },
+    {
+     "id": "separated.oewn-01321452-s",
+     "word": "separated",
+     "gloss": "separated at the joint",
+     "charge": 0,
+     "tone": "The barest statement of the same parting at the joint — it neither winces nor diagnoses.",
+     "rewrite": false
+    },
+    {
+     "id": "eviscerate.oewn-01321601-s",
+     "word": "eviscerate",
+     "gloss": "having been disembowelled",
+     "charge": -2,
+     "tone": "The most graphic member: the body opened and emptied, damage gone past anything that could still be called a wound.",
+     "rewrite": false
+    },
+    {
+     "id": "hurt.oewn-01321683-s",
+     "word": "hurt",
+     "gloss": "suffering from physical injury especially that suffered in battle",
+     "charge": 0,
+     "tone": "The softest word here for real physical injury: it carries its lean toward battle lightly and shows nothing of the wound.",
+     "rewrite": true,
+     "flagged_for": {
+      "figure": "carries its lean toward battle lightly"
+     }
+    },
+    {
+     "id": "wounded.oewn-01321683-s",
+     "word": "wounded",
+     "gloss": "suffering from physical injury especially that suffered in battle",
+     "charge": 0,
+     "tone": "Graver and more formal than *hurt* for the same injury, dignifying the damage and letting the battlefield sit close without shutting out other harm.",
+     "rewrite": false
+    },
+    {
+     "id": "lacerate.oewn-01321879-s",
+     "word": "lacerate",
+     "gloss": "having edges that are jagged from injury",
+     "charge": -1,
+     "tone": "The clipped form for flesh left with jagged edges, cool in shape even though the picture it raises is not.",
+     "rewrite": false
+    },
+    {
+     "id": "lacerated.oewn-01321879-s",
+     "word": "lacerated",
+     "gloss": "having edges that are jagged from injury",
+     "charge": -1,
+     "tone": "The ordinary *-ed* form for that same ragged tearing, felt rather than measured, where *lacerate* stays curt.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "ragged, curt"
+     }
+    },
+    {
+     "id": "mangled.oewn-01321879-s",
+     "word": "mangled",
+     "gloss": "having edges that are jagged from injury",
+     "charge": -2,
+     "tone": "The most violent of these: the jagged edges read as wreckage, the thing ruined rather than merely cut.",
+     "rewrite": false
+    },
+    {
+     "id": "torn.oewn-01321879-s",
+     "word": "torn",
+     "gloss": "having edges that are jagged from injury",
+     "charge": -1,
+     "tone": "The plainest word for a ragged injured edge — it names the tearing and stops, where *mangled* piles on ruin.",
+     "rewrite": false
+    },
+    {
+     "id": "raw.oewn-01322003-s",
+     "word": "raw",
+     "gloss": "having the surface exposed and painful",
+     "charge": -1,
+     "tone": "Reports pain where the jagged-edge words report shape: the covering is gone, leaving what lies under it exposed and stinging.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-05621958-n",
+   "axis": "plainly naming the faculty of judging → praising it as fine, sound or tactful",
+   "members": [
+    {
+     "id": "sagacity.oewn-05621958-n",
+     "word": "sagacity",
+     "gloss": "the mental ability to understand and discriminate between relations",
+     "charge": 2,
+     "tone": "Lofty praise - credits a penetrating grasp of how things stand in relation, where *judgment* only names the faculty.",
+     "rewrite": false
+    },
+    {
+     "id": "sagaciousness.oewn-05621958-n",
+     "word": "sagaciousness",
+     "gloss": "the mental ability to understand and discriminate between relations",
+     "charge": 2,
+     "tone": "The same commendation built plainly off the adjective, heavier in the mouth than *sagacity* and less polished for it.",
+     "rewrite": false
+    },
+    {
+     "id": "judgment.oewn-05621958-n",
+     "word": "judgment",
+     "gloss": "the mental ability to understand and discriminate between relations",
+     "charge": 1,
+     "tone": "The flat name for the ability to tell relations apart, stating the capacity without the admiration *sagacity* loads onto it.",
+     "rewrite": false
+    },
+    {
+     "id": "judgement.oewn-05621958-n",
+     "word": "judgement",
+     "gloss": "the mental ability to understand and discriminate between relations",
+     "charge": 0,
+     "tone": "The flat name for the ability to tell relations apart, saying only that it is there, without the admiration *sagacity* adds.",
+     "rewrite": false
+    },
+    {
+     "id": "discernment.oewn-05621958-n",
+     "word": "discernment",
+     "gloss": "the mental ability to understand and discriminate between relations",
+     "charge": 2,
+     "tone": "Praise pitched at fineness - the stress falls on discriminating what a coarser mind would run together.",
+     "rewrite": false
+    },
+    {
+     "id": "eye.oewn-05622259-n",
+     "word": "eye",
+     "gloss": "good discernment (either visually or as if visually)",
+     "charge": 2,
+     "tone": "Compact and admiring, with 'good' built into the word, and it covers seeing with the eyes or the figurative equivalent alike.",
+     "rewrite": false
+    },
+    {
+     "id": "common_sense.oewn-05622440-n",
+     "word": "common sense",
+     "gloss": "sound practical judgment",
+     "charge": 1,
+     "tone": "Approving at the workaday end - soundness in practical matters, the kind expected of anyone rather than marvelled at.",
+     "rewrite": false
+    },
+    {
+     "id": "good_sense.oewn-05622440-n",
+     "word": "good sense",
+     "gloss": "sound practical judgment",
+     "charge": 1,
+     "tone": "The bare commendation, with 'good' carrying the whole judgement and no claim past soundness.",
+     "rewrite": false
+    },
+    {
+     "id": "gumption.oewn-05622440-n",
+     "word": "gumption",
+     "gloss": "sound practical judgment",
+     "charge": 1,
+     "tone": "Informal and hearty - the same practical soundness spoken of as a homely possession rather than an intellectual one.",
+     "rewrite": false
+    },
+    {
+     "id": "horse_sense.oewn-05622440-n",
+     "word": "horse sense",
+     "gloss": "sound practical judgment",
+     "charge": 1,
+     "tone": "Informal and blunt, naming what *common sense* names with a grin at its own plainness.",
+     "rewrite": false
+    },
+    {
+     "id": "sense.oewn-05622440-n",
+     "word": "sense",
+     "gloss": "sound practical judgment",
+     "charge": 1,
+     "tone": "The barest member - practical soundness in one syllable, with nothing qualifying it.",
+     "rewrite": false
+    },
+    {
+     "id": "mother_wit.oewn-05622440-n",
+     "word": "mother wit",
+     "gloss": "sound practical judgment",
+     "charge": 1,
+     "tone": "Homely and affectionate where *good sense* is flatly commendatory, though the soundness praised is the same.",
+     "rewrite": false
+    },
+    {
+     "id": "judiciousness.oewn-05623156-n",
+     "word": "judiciousness",
+     "gloss": "good judgment",
+     "charge": 2,
+     "tone": "Formal praise for judgment that comes out well, not merely for having the faculty at all.",
+     "rewrite": false
+    },
+    {
+     "id": "discretion.oewn-05623283-n",
+     "word": "discretion",
+     "gloss": "knowing how to avoid embarrassment or distress",
+     "charge": 2,
+     "tone": "Praise for a tactful kind of knowing - steering clear of what would embarrass or distress before it arises.",
+     "rewrite": false
+    },
+    {
+     "id": "discreetness.oewn-05623283-n",
+     "word": "discreetness",
+     "gloss": "knowing how to avoid embarrassment or distress",
+     "charge": 1,
+     "tone": "Mild approval for the knack of heading off embarrassment or distress, a plain quality where *discretion* sounds like a virtue you are praised for.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "knack, heading off"
+     }
+    },
+    {
+     "id": "circumspection.oewn-05623283-n",
+     "word": "circumspection",
+     "gloss": "knowing how to avoid embarrassment or distress",
+     "charge": 1,
+     "tone": "Tilts the same skill toward wariness - looking all round a situation for the embarrassment or distress in it.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

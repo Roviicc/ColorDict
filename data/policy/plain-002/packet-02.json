@@ -1,0 +1,266 @@
+{
+ "packet": 2,
+ "families": [
+  {
+   "family": "family-00746935-n",
+   "axis": "a single act of disrespect → conduct condemned as morally evil",
+   "members": [
+    {
+     "id": "evil.oewn-00746935-n",
+     "word": "evil",
+     "gloss": "morally objectionable behavior",
+     "charge": -3,
+     "tone": "The flat, absolute name for conduct that offends morality, condemning without argument or degree.",
+     "rewrite": false
+    },
+    {
+     "id": "wickedness.oewn-00746935-n",
+     "word": "wickedness",
+     "gloss": "morally objectionable behavior",
+     "charge": -3,
+     "tone": "Condemns the same conduct with preachy relish, as if the wrong were knowingly enjoyed, not just done: more vivid than the bare *evil*.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "preachy, relish"
+     }
+    },
+    {
+     "id": "violation.oewn-00747530-n",
+     "word": "violation",
+     "gloss": "a disrespectful act",
+     "charge": -2,
+     "tone": "Frames the disrespect as a breach, something owed and transgressed, giving the act a hard formal weight that *irreverence* lacks.",
+     "rewrite": false
+    },
+    {
+     "id": "irreverence.oewn-00747530-n",
+     "word": "irreverence",
+     "gloss": "a disrespectful act",
+     "charge": -1,
+     "tone": "The lightest blame here: an act that withholds due respect rather than one that breaks anything.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00645401-a",
+   "axis": "bare absence of rudeness → the social forms actually observed",
+   "members": [
+    {
+     "id": "civil.oewn-00645401-a",
+     "word": "civil",
+     "gloss": "not rude; marked by satisfactory (or especially minimal) adherence to social usages and sufficient but not noteworthy consideration for others",
+     "charge": 1,
+     "tone": "Approval at its lowest: it grants only that the manner was not rude, where *polite* can stretch to social rules kept well enough.",
+     "rewrite": false
+    },
+    {
+     "id": "polite.oewn-00645401-a",
+     "word": "polite",
+     "gloss": "not rude; marked by satisfactory (or especially minimal) adherence to social usages and sufficient but not noteworthy consideration for others",
+     "charge": 2,
+     "tone": "Credits the social rules as kept, not merely rudeness avoided.",
+     "rewrite": true,
+     "flagged_for": {
+      "sentence": "Credits the social rules as kept"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-04685309-n",
+   "axis": "a surface that merely shades the truth → a covering got up to misrepresent it",
+   "members": [
+    {
+     "id": "colour.oewn-04685309-n",
+     "word": "colour",
+     "gloss": "an outward or token appearance or form that is deliberately misleading",
+     "charge": -1,
+     "tone": "British spelling of the same misleading surface: a respectable tint lent to something so it passes, only a tint, where *disguise* covers.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "tint",
+      "figure": "so it passes"
+     }
+    },
+    {
+     "id": "semblance.oewn-04685309-n",
+     "word": "semblance",
+     "gloss": "an outward or token appearance or form that is deliberately misleading",
+     "charge": -1,
+     "tone": "The barest word here, naming only the outward or token form and leaving the deceit unsaid, where *pretence* puts the trick on show.",
+     "rewrite": false
+    },
+    {
+     "id": "color.oewn-04685309-n",
+     "word": "color",
+     "gloss": "an outward or token appearance or form that is deliberately misleading",
+     "charge": -1,
+     "tone": "A respectable-looking surface lent to something so it seems defensible; it does not hide the thing underneath, it only shades it.",
+     "rewrite": false
+    },
+    {
+     "id": "gloss.oewn-04685309-n",
+     "word": "gloss",
+     "gloss": "an outward or token appearance or form that is deliberately misleading",
+     "charge": -2,
+     "tone": "Carries the idea of a polish worked onto the outside, so the deceit is one of finish rather than of concealment as in *disguise*.",
+     "rewrite": false
+    },
+    {
+     "id": "disguise.oewn-04686431-n",
+     "word": "disguise",
+     "gloss": "an outward semblance that misrepresents the true nature of something",
+     "charge": -2,
+     "tone": "The most covering word here, not a shading of the truth but an outward form that actively misrepresents what lies under it.",
+     "rewrite": false
+    },
+    {
+     "id": "pretence.oewn-04686265-n",
+     "word": "pretence",
+     "gloss": "an artful or simulated semblance",
+     "charge": -2,
+     "tone": "British spelling, and it foregrounds the artfulness, naming the semblance as something got up rather than something merely appearing.",
+     "rewrite": false
+    },
+    {
+     "id": "guise.oewn-04686265-n",
+     "word": "guise",
+     "gloss": "an artful or simulated semblance",
+     "charge": -1,
+     "tone": "Like *pretence*, a cunning or faked appearance, but pictured as something put on and worn, so the deceit lies in taking it on.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01884565-a",
+   "axis": "plainly suitable → propriety pushed past its purpose",
+   "members": [
+    {
+     "id": "becoming.oewn-01884969-s",
+     "word": "becoming",
+     "gloss": "according with custom or propriety",
+     "charge": 2,
+     "tone": "Warm approval - what accords with custom is credited with grace rather than mere compliance, unlike the dry *decorous*.",
+     "rewrite": false
+    },
+    {
+     "id": "comely.oewn-01884969-s",
+     "word": "comely",
+     "gloss": "according with custom or propriety",
+     "charge": 2,
+     "tone": "Gentle and pleased - it finds conduct agreeable in its accord with propriety rather than measuring it against a rule.",
+     "rewrite": false
+    },
+    {
+     "id": "comme_il_faut.oewn-01884969-s",
+     "word": "comme il faut",
+     "gloss": "according with custom or propriety",
+     "charge": 1,
+     "tone": "A phrase rather than a word, and formal to the point of ceremony - approval delivered by invoking the code instead of describing the conduct.",
+     "rewrite": false
+    },
+    {
+     "id": "decorous.oewn-01884969-s",
+     "word": "decorous",
+     "gloss": "according with custom or propriety",
+     "charge": 2,
+     "tone": "Cool and external - conduct is held up against a standard of propriety and passes, with none of the warmth of *becoming*.",
+     "rewrite": false
+    },
+    {
+     "id": "seemly.oewn-01884969-s",
+     "word": "seemly",
+     "gloss": "according with custom or propriety",
+     "charge": 2,
+     "tone": "Understated - grants that conduct accords with propriety without the ceremony *decorous* brings to the same verdict.",
+     "rewrite": false
+    },
+    {
+     "id": "correct.oewn-01885314-s",
+     "word": "correct",
+     "gloss": "socially right or correct",
+     "charge": 1,
+     "tone": "Approval as a verdict - the social rule was met, and nothing warmer than that is claimed.",
+     "rewrite": false
+    },
+    {
+     "id": "right.oewn-01885314-s",
+     "word": "right",
+     "gloss": "socially right or correct",
+     "charge": 1,
+     "tone": "The bluntest way to render the same social judgement as *correct*, carrying no formality at all.",
+     "rewrite": false
+    },
+    {
+     "id": "fitting.oewn-01885720-s",
+     "word": "fitting",
+     "gloss": "in harmony with the spirit of particular persons or occasion",
+     "charge": 2,
+     "tone": "Approval keyed to the occasion and the people in it rather than to any code - it praises harmony where *correct* praises compliance.",
+     "rewrite": false
+    },
+    {
+     "id": "decent.oewn-01885720-s",
+     "word": "decent",
+     "gloss": "in harmony with the spirit of particular persons or occasion",
+     "charge": 1,
+     "tone": "Modest and human - it grants that a thing suits the persons and the moment, with less deliberation than *fitting*.",
+     "rewrite": false
+    },
+    {
+     "id": "halal.oewn-01885994-s",
+     "word": "halal",
+     "gloss": "proper or legitimate according to Muslim law",
+     "charge": 0,
+     "tone": "A label, not praise: something is proper or legitimate under Muslim law, and the approval is the law's, not the speaker's.",
+     "rewrite": false
+    },
+    {
+     "id": "kosher.oewn-01886153-s",
+     "word": "kosher",
+     "gloss": "proper or legitimate",
+     "charge": 1,
+     "tone": "Informal and reassuring - declares a thing proper or legitimate, above board and open to no objection.",
+     "rewrite": false
+    },
+    {
+     "id": "priggish.oewn-01886245-s",
+     "word": "priggish",
+     "gloss": "exaggeratedly proper",
+     "charge": -2,
+     "tone": "Scornful: being too proper is taken as smugness, correct behaviour shown off as a mark of being better than others.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "Scornful, smugness"
+     }
+    },
+    {
+     "id": "prim.oewn-01886245-s",
+     "word": "prim",
+     "gloss": "exaggeratedly proper",
+     "charge": -1,
+     "tone": "The mildest fault here: a sense of what is proper held so tightly it goes stiff, mocked rather than condemned.",
+     "rewrite": false
+    },
+    {
+     "id": "prissy.oewn-01886245-s",
+     "word": "prissy",
+     "gloss": "exaggeratedly proper",
+     "charge": -2,
+     "tone": "Dismissive and faintly ridiculing - the overdone propriety is treated as fussiness, silly rather than severe like *priggish*.",
+     "rewrite": false
+    },
+    {
+     "id": "prudish.oewn-01886245-s",
+     "word": "prudish",
+     "gloss": "exaggeratedly proper",
+     "charge": -2,
+     "tone": "Too proper to the point of being easily shocked, and so a harsher word than *prim*.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

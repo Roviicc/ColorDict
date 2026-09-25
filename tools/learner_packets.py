@@ -68,6 +68,12 @@ def everyday(note, word):
 
 def draw(args):
     decisions = json.loads((args.dir / "decisions.json").read_text(encoding="utf-8"))
+    for extra in args.also:
+        # A repair pass read in the same round: its rewrites are read like the rest.
+        for sid, d in json.loads(extra.read_text(encoding="utf-8")).items():
+            if sid in decisions:
+                sys.exit(f"{sid}: decided in both {args.dir.name} and {extra.name}")
+            decisions[sid] = d
     batch = load_batch()
     rows, key = [], {}
     for sid, d in ({} if args.controls_only else decisions).items():
@@ -134,7 +140,8 @@ def draw(args):
                 json.dumps({"packet": i + 1, "notes": chunk}, indent=1,
                            ensure_ascii=False) + "\n", encoding="utf-8")
     (args.out / "key.json").write_text(json.dumps(
-        {"pass": args.dir.name, "instrument": ".claude/agents/learner-reader.md",
+        {"pass": args.dir.name, "also": [str(p) for p in args.also],
+         "instrument": ".claude/agents/learner-reader.md",
          "seed": args.seed, "key": key}, indent=1, ensure_ascii=False) + "\n",
         encoding="utf-8")
     counts = {k: list(key.values()).count(k) for k in ("rewrite", "control-hard", "control-easy")}
@@ -190,6 +197,8 @@ def main():
     d.add_argument("--controls", type=int, default=4)
     d.add_argument("--seed", type=int, default=2026)
     d.add_argument("--hard-from", help="git revision to draw hard controls from")
+    d.add_argument("--also", type=Path, action="append", default=[],
+                   help="a repair pass's decisions whose rewrites join the read")
     d.add_argument("--controls-only", action="store_true",
                    help="controls alone: re-check the reader's calibration")
     a = sub.add_parser("aggregate")
