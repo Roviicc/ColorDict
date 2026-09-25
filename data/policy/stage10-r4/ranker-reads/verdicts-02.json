@@ -1,32 +1,130 @@
-{"packet": 2, "entries": [
- {"word": "spar", "pos": "verb",
-  "order": ["oewn-00775967-v", "oewn-01422848-v", "oewn-01422958-v", "oewn-02367699-v"],
-  "met": []},
- {"word": "consent", "pos": "noun",
-  "order": ["oewn-06702412-n"],
-  "met": ["oewn-06702412-n"]},
- {"word": "delicate", "pos": "adjective",
-  "order": ["oewn-00750606-s", "oewn-00712660-s", "oewn-00709335-a", "oewn-02457397-s", "oewn-02235089-s", "oewn-01955211-s", "oewn-02111262-s"],
-  "met": ["oewn-00750606-s", "oewn-00712660-s"]},
- {"word": "gallantry", "pos": "noun",
-  "order": ["oewn-01231281-n", "oewn-04864969-n", "oewn-04920915-n"],
-  "met": ["oewn-01231281-n"]},
- {"word": "oppose", "pos": "verb",
-  "order": ["oewn-00777876-v", "oewn-02672590-v", "oewn-01093838-v", "oewn-02383714-v", "oewn-00778104-v", "oewn-01083545-v"],
-  "met": ["oewn-00777876-v", "oewn-02672590-v"]},
- {"word": "quarrel", "pos": "verb",
-  "order": ["oewn-00777201-v"],
-  "met": ["oewn-00777201-v"]},
- {"word": "renew", "pos": "verb",
-  "order": ["oewn-01634614-v", "oewn-00167460-v"],
-  "met": ["oewn-01634614-v"]},
- {"word": "sex", "pos": "noun",
-  "order": ["oewn-08015733-n", "oewn-00845915-n", "oewn-05014082-n", "oewn-07502835-n"],
-  "met": ["oewn-08015733-n"]},
- {"word": "strongly", "pos": "adverb",
-  "order": ["oewn-00178775-r", "oewn-00430156-r"],
-  "met": ["oewn-00178775-r"]},
- {"word": "unknown", "pos": "adjective",
-  "order": ["oewn-00969942-s", "oewn-01379820-a", "oewn-01126357-s", "oewn-00121594-s", "oewn-02379193-s"],
-  "met": ["oewn-00969942-s"]}
-]}
+{
+ "packet": 2,
+ "entries": [
+  {
+   "word": "spar",
+   "pos": "verb",
+   "order": [
+    "oewn-00775967-v",
+    "oewn-01422848-v",
+    "oewn-01422958-v",
+    "oewn-02367699-v"
+   ],
+   "met": []
+  },
+  {
+   "word": "consent",
+   "pos": "noun",
+   "order": [
+    "oewn-06702412-n"
+   ],
+   "met": [
+    "oewn-06702412-n"
+   ]
+  },
+  {
+   "word": "delicate",
+   "pos": "adjective",
+   "order": [
+    "oewn-00750606-s",
+    "oewn-00712660-s",
+    "oewn-00709335-a",
+    "oewn-02457397-s",
+    "oewn-02235089-s",
+    "oewn-01955211-s",
+    "oewn-02111262-s"
+   ],
+   "met": [
+    "oewn-00750606-s",
+    "oewn-00712660-s"
+   ]
+  },
+  {
+   "word": "gallantry",
+   "pos": "noun",
+   "order": [
+    "oewn-01231281-n",
+    "oewn-04864969-n",
+    "oewn-04920915-n"
+   ],
+   "met": [
+    "oewn-01231281-n"
+   ]
+  },
+  {
+   "word": "oppose",
+   "pos": "verb",
+   "order": [
+    "oewn-00777876-v",
+    "oewn-02672590-v",
+    "oewn-01093838-v",
+    "oewn-02383714-v",
+    "oewn-00778104-v",
+    "oewn-01083545-v"
+   ],
+   "met": [
+    "oewn-00777876-v",
+    "oewn-02672590-v"
+   ]
+  },
+  {
+   "word": "quarrel",
+   "pos": "verb",
+   "order": [
+    "oewn-00777201-v"
+   ],
+   "met": [
+    "oewn-00777201-v"
+   ]
+  },
+  {
+   "word": "renew",
+   "pos": "verb",
+   "order": [
+    "oewn-01634614-v",
+    "oewn-00167460-v"
+   ],
+   "met": [
+    "oewn-01634614-v"
+   ]
+  },
+  {
+   "word": "sex",
+   "pos": "noun",
+   "order": [
+    "oewn-08015733-n",
+    "oewn-00845915-n",
+    "oewn-05014082-n",
+    "oewn-07502835-n"
+   ],
+   "met": [
+    "oewn-08015733-n"
+   ]
+  },
+  {
+   "word": "strongly",
+   "pos": "adverb",
+   "order": [
+    "oewn-00178775-r",
+    "oewn-00430156-r"
+   ],
+   "met": [
+    "oewn-00178775-r"
+   ]
+  },
+  {
+   "word": "unknown",
+   "pos": "adjective",
+   "order": [
+    "oewn-00969942-s",
+    "oewn-01379820-a",
+    "oewn-01126357-s",
+    "oewn-00121594-s",
+    "oewn-02379193-s"
+   ],
+   "met": [
+    "oewn-00969942-s"
+   ]
+  }
+ ]
+}

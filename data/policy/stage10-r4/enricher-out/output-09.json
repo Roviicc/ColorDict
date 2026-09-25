@@ -1,116 +1,256 @@
-{"packet": 9, "entries": [
- {"word": "insupportable", "pos": "adjective",
-  "senses": {
-   "oewn-01726584-s": {"learner": "not able to be shown to be right, or not able to be explained.",
-                       "examples": ["The judge called the harsh sentence insupportable, since nothing could justify it."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "condemns a claim or act as having no defence, against plain 'unexplained'"}}
-  }},
- {"word": "material", "pos": "noun",
-  "senses": {
-   "oewn-14604877-n": {"learner": "the solid stuff that a physical thing is made of.",
-                       "examples": ["Wood is a strong material for building houses."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06648034-n": {"learner": "facts, ideas, or things someone has noticed that can be used or worked into a finished piece of work.",
-                       "examples": ["She gathered material for her book from old family letters."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03314753-n": {"learner": "cloth made from natural or man-made threads by weaving, knitting, crocheting, or pressing them together (felting).",
-                       "examples": ["She bought three metres of blue material to make a dress."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03735442-n": {"learner": "the things you need to do or make something.",
-                       "examples": ["Pens, paper, and other writing materials were laid out on the desk."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-10320321-n": {"learner": "a person who is thought good enough to be let into a place such as a school, or to be given a job.",
-                       "examples": ["Her teachers agreed that she was university material."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "rates a person as fit for a place or job, against plain 'candidate'"}}
-  }},
- {"word": "overpower", "pos": "verb",
-  "senses": {
-   "oewn-01813288-v": {"learner": "to overcome someone completely, as a strong feeling or a strong sight, sound, or smell can.",
-                       "examples": ["She was overpowered by shame and vexation.", "the sight of such rooms, so many servants, and so splendid a dinner, might not wholly overpower them."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01112928-v": {"learner": "to defeat someone by being stronger than they are.",
-                       "examples": ["The guards overpowered the thief and took away his knife."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "poorly", "pos": "adverb",
-  "senses": {
-   "oewn-00011978-r": {"learner": "in a bad, wrong, or unsatisfying way; not well.",
-                       "examples": ["Elizabeth's congratulations were given with a sincerity, a warmth, a delight, which words could but poorly express."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "punish", "pos": "verb",
-  "senses": {
-   "oewn-02505278-v": {"learner": "to give someone a penalty; to make someone suffer as a punishment.",
-                       "examples": ["How shall we punish him for such a speech?", "We can all plague and punish one another."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "rejection", "pos": "noun",
-  "senses": {
-   "oewn-13960587-n": {"learner": "the state of having been turned away or not accepted.",
-                       "examples": ["Had he been a bad prig or a bad coxcomb, he might have been still smarting under his rejection"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00204191-n": {"learner": "the act of refusing to accept something.",
-                       "examples": ["Her rejection of the old family customs surprised everyone."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07221933-n": {"learner": "the act of saying that you will not accept something.",
-                       "examples": ["I must, therefore, conclude that you are not serious in your rejection of me"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-11525736-n": {"learner": "in medicine, the way the body's defence system refuses to accept substances or living things that it sees as foreign.",
-                       "examples": ["The doctors gave him drugs to prevent rejection of his new kidney."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "repetition", "pos": "noun",
-  "senses": {
-   "oewn-01020572-n": {"learner": "the act of doing something again.",
-                       "examples": ["Be not alarmed, madam, on receiving this letter, by the apprehension of its containing any repetition of those sentiments, or renewal of those offers"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07356649-n": {"learner": "something that happens again, in the same way as before.",
-                       "examples": ["This year's flood was a repetition of the one we had last spring."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07113937-n": {"learner": "the use of the same word or pattern of words again and again as a planned technique in speech or writing.",
-                       "examples": ["The poet's repetition of the word 'never' gives the last line its power."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "repine", "pos": "verb",
-  "senses": {
-   "oewn-00912844-v": {"learner": "to show or say that you are unhappy or not satisfied.",
-                       "examples": ["One ought not to repine", "Mrs. Bennet still continued to wonder and repine at his returning no more"],
-                       "usage_labels": ["literary"],
-                       "connotation": {"candidate": true, "why": "discontent voiced as fretting, against plain 'complain'"}}
-  }},
- {"word": "disgust", "pos": "verb",
-  "senses": {
-   "oewn-02199359-v": {"learner": "to fill someone with a feeling of dislike.",
-                       "examples": ["She had even learnt to detect, in the very gentleness which had first delighted her, an affectation and a sameness to disgust and weary."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "marks the thing as repellent, against plain 'displease'"}},
-   "oewn-01812341-v": {"learner": "to cause strong dislike in someone, or to offend their sense of what is right.",
-                       "examples": ["Everybody is disgusted with his pride.", "Elizabeth was disgusted, and even Miss Bennet was shocked."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "condemns the thing as morally offensive, against plain 'upset'"}}
-  }},
- {"word": "express", "pos": "adjective",
-  "senses": {
-   "oewn-00980890-s": {"learner": "making no stops that are not needed.",
-                       "examples": ["We took the express train, so we reached the city in an hour."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 9,
+ "entries": [
+  {
+   "word": "insupportable",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01726584-s": {
+     "learner": "not able to be shown to be right, or not able to be explained.",
+     "examples": [
+      "The judge called the harsh sentence insupportable, since nothing could justify it."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "condemns a claim or act as having no defence, against plain 'unexplained'"
+     }
+    }
+   }
+  },
+  {
+   "word": "material",
+   "pos": "noun",
+   "senses": {
+    "oewn-14604877-n": {
+     "learner": "the solid stuff that a physical thing is made of.",
+     "examples": [
+      "Wood is a strong material for building houses."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06648034-n": {
+     "learner": "facts, ideas, or things someone has noticed that can be used or worked into a finished piece of work.",
+     "examples": [
+      "She gathered material for her book from old family letters."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03314753-n": {
+     "learner": "cloth made from natural or man-made threads by weaving, knitting, crocheting, or pressing them together (felting).",
+     "examples": [
+      "She bought three metres of blue material to make a dress."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03735442-n": {
+     "learner": "the things you need to do or make something.",
+     "examples": [
+      "Pens, paper, and other writing materials were laid out on the desk."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-10320321-n": {
+     "learner": "a person who is thought good enough to be let into a place such as a school, or to be given a job.",
+     "examples": [
+      "Her teachers agreed that she was university material."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "rates a person as fit for a place or job, against plain 'candidate'"
+     }
+    }
+   }
+  },
+  {
+   "word": "overpower",
+   "pos": "verb",
+   "senses": {
+    "oewn-01813288-v": {
+     "learner": "to overcome someone completely, as a strong feeling or a strong sight, sound, or smell can.",
+     "examples": [
+      "She was overpowered by shame and vexation.",
+      "the sight of such rooms, so many servants, and so splendid a dinner, might not wholly overpower them."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01112928-v": {
+     "learner": "to defeat someone by being stronger than they are.",
+     "examples": [
+      "The guards overpowered the thief and took away his knife."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "poorly",
+   "pos": "adverb",
+   "senses": {
+    "oewn-00011978-r": {
+     "learner": "in a bad, wrong, or unsatisfying way; not well.",
+     "examples": [
+      "Elizabeth's congratulations were given with a sincerity, a warmth, a delight, which words could but poorly express."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "punish",
+   "pos": "verb",
+   "senses": {
+    "oewn-02505278-v": {
+     "learner": "to give someone a penalty; to make someone suffer as a punishment.",
+     "examples": [
+      "How shall we punish him for such a speech?",
+      "We can all plague and punish one another."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "rejection",
+   "pos": "noun",
+   "senses": {
+    "oewn-13960587-n": {
+     "learner": "the state of having been turned away or not accepted.",
+     "examples": [
+      "Had he been a bad prig or a bad coxcomb, he might have been still smarting under his rejection"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00204191-n": {
+     "learner": "the act of refusing to accept something.",
+     "examples": [
+      "Her rejection of the old family customs surprised everyone."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07221933-n": {
+     "learner": "the act of saying that you will not accept something.",
+     "examples": [
+      "I must, therefore, conclude that you are not serious in your rejection of me"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-11525736-n": {
+     "learner": "in medicine, the way the body's defence system refuses to accept substances or living things that it sees as foreign.",
+     "examples": [
+      "The doctors gave him drugs to prevent rejection of his new kidney."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "repetition",
+   "pos": "noun",
+   "senses": {
+    "oewn-01020572-n": {
+     "learner": "the act of doing something again.",
+     "examples": [
+      "Be not alarmed, madam, on receiving this letter, by the apprehension of its containing any repetition of those sentiments, or renewal of those offers"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07356649-n": {
+     "learner": "something that happens again, in the same way as before.",
+     "examples": [
+      "This year's flood was a repetition of the one we had last spring."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07113937-n": {
+     "learner": "the use of the same word or pattern of words again and again as a planned technique in speech or writing.",
+     "examples": [
+      "The poet's repetition of the word 'never' gives the last line its power."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "repine",
+   "pos": "verb",
+   "senses": {
+    "oewn-00912844-v": {
+     "learner": "to show or say that you are unhappy or not satisfied.",
+     "examples": [
+      "One ought not to repine",
+      "Mrs. Bennet still continued to wonder and repine at his returning no more"
+     ],
+     "usage_labels": [
+      "literary"
+     ],
+     "connotation": {
+      "candidate": true,
+      "why": "discontent voiced as fretting, against plain 'complain'"
+     }
+    }
+   }
+  },
+  {
+   "word": "disgust",
+   "pos": "verb",
+   "senses": {
+    "oewn-02199359-v": {
+     "learner": "to fill someone with a feeling of dislike.",
+     "examples": [
+      "She had even learnt to detect, in the very gentleness which had first delighted her, an affectation and a sameness to disgust and weary."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "marks the thing as repellent, against plain 'displease'"
+     }
+    },
+    "oewn-01812341-v": {
+     "learner": "to cause strong dislike in someone, or to offend their sense of what is right.",
+     "examples": [
+      "Everybody is disgusted with his pride.",
+      "Elizabeth was disgusted, and even Miss Bennet was shocked."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "condemns the thing as morally offensive, against plain 'upset'"
+     }
+    }
+   }
+  },
+  {
+   "word": "express",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00980890-s": {
+     "learner": "making no stops that are not needed.",
+     "examples": [
+      "We took the express train, so we reached the city in an hour."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

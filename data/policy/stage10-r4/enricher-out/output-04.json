@@ -1,172 +1,376 @@
-{"packet": 4, "entries": [
- {"word": "abominable", "pos": "adjective",
-  "senses": {
-   "oewn-01463601-s": {"learner": "so hateful that there can be no doubt about it.",
-                       "examples": ["Oh, that abominable Mr. Darcy!", "Can such abominable pride as his have ever done him good?"],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "condemns its target outright, against a plain 'bad' or 'unpleasant'"}}
-  }},
- {"word": "arrange", "pos": "verb",
-  "senses": {
-   "oewn-01466592-v": {"learner": "to put things in the right order, or in an order that follows a plan.",
-                       "examples": ["everything was fitted up and arranged with a neatness and consistency, of which Elizabeth gave Charlotte all the credit."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01023638-v": {"learner": "to make the plans and preparations needed for something.",
-                       "examples": ["We arranged a meeting with the lawyer for Friday."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00737576-v": {"learner": "to put thoughts, ideas, or events in time into an order.",
-                       "examples": ["She arranged her ideas before she began to write.", "I need to arrange my schedule for next week."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00038562-v": {"learner": "to put something in place so that it looks nice.",
-                       "examples": ["She arranged her hair before the dance.", "He arranged the flowers in a tall vase."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01651668-v": {"learner": "to plan an event, get it ready, and then make it happen.",
-                       "examples": ["The club arranged a dance in the village hall and ran it themselves."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01709988-v": {"learner": "to change a piece, such as a song, so that it can be performed in a different way.",
-                       "examples": ["He arranged the old folk song for piano and voice."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01748949-v": {"learner": "to set printed text out in a particular layout.",
-                       "examples": ["The printer arranged the text in two columns on each page."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "boy", "pos": "noun",
-  "senses": {
-   "oewn-10305010-n": {"learner": "a young male person.",
-                       "examples": ["he was always the sweetest tempered, most generous-hearted boy in the world.", "The boy protested that she should not"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-10643436-n": {"learner": "someone's son.",
-                       "examples": ["Her boy is forty now and has children of his own."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-09890332-n": {"learner": "a friendly, informal word for a grown man.",
-                       "examples": ["He went out for a drink with the boys from work."],
-                       "usage_labels": ["informal"],
-                       "connotation": {"candidate": true, "why": "calls a grown man 'boy' where 'man' is the plain word"}},
-   "oewn-84496658-n": {"learner": "an offensive, insulting word used for a Black man.",
-                       "examples": ["Calling a Black man 'boy' was a way of insulting him."],
-                       "usage_labels": ["offensive", "derogatory"],
-                       "connotation": {"candidate": true, "why": "ethnic slur aimed at Black men"}}
-  }},
- {"word": "condition", "pos": "noun",
-  "senses": {
-   "oewn-13943868-n": {"learner": "the state that something or someone is in at a certain time.",
-                       "examples": ["But the spiritless condition which this event threw her into was shortly relieved"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06783666-n": {"learner": "a statement of what must be done or accepted as part of an agreement, usually used in the plural.",
-                       "examples": ["These are conditions which, considering everything, I had no hesitation in complying with"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06768279-n": {"learner": "something that must be true first for something else to be valid or to have its effect.",
-                       "examples": ["Trust is a necessary condition for any friendship to last."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13943462-n": {"learner": "the way a person or thing exists, or the kind of life or being they have.",
-                       "examples": ["to congratulate myself on the hope of relations whose condition in life is so decidedly beneath my own?", "Fear of death is part of the human condition."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05831106-n": {"learner": "a fact that you should keep in mind when you decide something.",
-                       "examples": ["Before choosing, think about every condition: the cost, the time, and the risk."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13946473-n": {"learner": "an illness, a disease, or some other health problem.",
-                       "examples": ["She has a heart condition and must not run."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-14569829-n": {"learner": "how healthy and fit someone is, as in 'in condition' or 'out of condition'.",
-                       "examples": ["After the long winter I was out of condition and could not run far."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05806871-n": {"learner": "in an experiment, the way of doing things that is changed so that its effect can be compared with an unchanged control.",
-                       "examples": ["Half the mice were placed in the test condition and half in the control condition."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "denial", "pos": "noun",
-  "senses": {
-   "oewn-00206498-n": {"learner": "giving up what is good for yourself so that other people can have what is good for them.",
-                       "examples": ["Her life was one of quiet denial, always putting her family's needs before her own."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07219061-n": {"learner": "the act of refusing to do what is asked, for example by a request.",
-                       "examples": ["if, under such a circumstance, I were to give a flat denial, and ride off as fast as I could."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07218900-n": {"learner": "the act of saying that something people claim is not true.",
-                       "examples": ["The minister's denial of the story came too late."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13483154-n": {"learner": "in psychiatry, a way the mind protects itself by refusing to accept painful thoughts.",
-                       "examples": ["After the diagnosis she was in denial for weeks."],
-                       "usage_labels": ["clinical"],
-                       "connotation": {"candidate": true, "why": "said of a person, against a plain 'does not accept it'"}},
-   "oewn-01201240-n": {"learner": "the answer someone accused gives in court, saying that the charges against them are not true.",
-                       "examples": ["The court heard the defendant's denial of all the charges."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "emotion", "pos": "noun",
-  "senses": {
-   "oewn-07495208-n": {"learner": "a strong feeling of any kind.",
-                       "examples": ["acknowledged, with the liveliest emotion, that she was the happiest creature in the world.", "Mr. Darcy changed colour; but the emotion was short"],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "express", "pos": "noun",
-  "senses": {
-   "oewn-06276128-n": {"learner": "mail that is carried by a fast and well-run system.",
-                       "examples": ["don't you know there is an express come for master from Mr. Gardiner?", "The express was sent off directly."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03311330-n": {"learner": "a fast train or bus that stops at only a few planned places.",
-                       "examples": ["We caught the express to London and were there in an hour."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01108365-n": {"learner": "the fast carrying of goods from one place to another.",
-                       "examples": ["The company ships its furniture by express."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "falsehood", "pos": "noun",
-  "senses": {
-   "oewn-06769118-n": {"learner": "a statement that is not true.",
-                       "examples": ["I know it must be a scandalous falsehood"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00752233-n": {"learner": "the act of making something false, for example by dishonestly changing papers or measures, or by making fakes.",
-                       "examples": ["He was charged with falsehood for changing the figures in the company's books."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "rid", "pos": "verb",
-  "senses": {
-   "oewn-02355171-v": {"learner": "to free a person or place from something.",
-                       "examples": ["She had got rid of two of the secrets which had weighed on her for a fortnight", "They worked all day to rid the house of mice."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "shop", "pos": "noun",
-  "senses": {
-   "oewn-04209460-n": {"learner": "a place of business where goods or services are sold to the public.",
-                       "examples": ["you must lend us the money, for we have just spent ours at the shop out there."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04610439-n": {"learner": "a small place where things are made by hand or by machine.",
-                       "examples": ["In his shop behind the house, the carpenter builds chairs by hand."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00893934-n": {"learner": "a class in which you learn a trade, such as woodwork or electrical work.",
-                       "examples": ["In shop we learned how to wire a lamp."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 4,
+ "entries": [
+  {
+   "word": "abominable",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01463601-s": {
+     "learner": "so hateful that there can be no doubt about it.",
+     "examples": [
+      "Oh, that abominable Mr. Darcy!",
+      "Can such abominable pride as his have ever done him good?"
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "condemns its target outright, against a plain 'bad' or 'unpleasant'"
+     }
+    }
+   }
+  },
+  {
+   "word": "arrange",
+   "pos": "verb",
+   "senses": {
+    "oewn-01466592-v": {
+     "learner": "to put things in the right order, or in an order that follows a plan.",
+     "examples": [
+      "everything was fitted up and arranged with a neatness and consistency, of which Elizabeth gave Charlotte all the credit."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01023638-v": {
+     "learner": "to make the plans and preparations needed for something.",
+     "examples": [
+      "We arranged a meeting with the lawyer for Friday."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00737576-v": {
+     "learner": "to put thoughts, ideas, or events in time into an order.",
+     "examples": [
+      "She arranged her ideas before she began to write.",
+      "I need to arrange my schedule for next week."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00038562-v": {
+     "learner": "to put something in place so that it looks nice.",
+     "examples": [
+      "She arranged her hair before the dance.",
+      "He arranged the flowers in a tall vase."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01651668-v": {
+     "learner": "to plan an event, get it ready, and then make it happen.",
+     "examples": [
+      "The club arranged a dance in the village hall and ran it themselves."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01709988-v": {
+     "learner": "to change a piece, such as a song, so that it can be performed in a different way.",
+     "examples": [
+      "He arranged the old folk song for piano and voice."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01748949-v": {
+     "learner": "to set printed text out in a particular layout.",
+     "examples": [
+      "The printer arranged the text in two columns on each page."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "boy",
+   "pos": "noun",
+   "senses": {
+    "oewn-10305010-n": {
+     "learner": "a young male person.",
+     "examples": [
+      "he was always the sweetest tempered, most generous-hearted boy in the world.",
+      "The boy protested that she should not"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-10643436-n": {
+     "learner": "someone's son.",
+     "examples": [
+      "Her boy is forty now and has children of his own."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-09890332-n": {
+     "learner": "a friendly, informal word for a grown man.",
+     "examples": [
+      "He went out for a drink with the boys from work."
+     ],
+     "usage_labels": [
+      "informal"
+     ],
+     "connotation": {
+      "candidate": true,
+      "why": "calls a grown man 'boy' where 'man' is the plain word"
+     }
+    },
+    "oewn-84496658-n": {
+     "learner": "an offensive, insulting word used for a Black man.",
+     "examples": [
+      "Calling a Black man 'boy' was a way of insulting him."
+     ],
+     "usage_labels": [
+      "offensive",
+      "derogatory"
+     ],
+     "connotation": {
+      "candidate": true,
+      "why": "ethnic slur aimed at Black men"
+     }
+    }
+   }
+  },
+  {
+   "word": "condition",
+   "pos": "noun",
+   "senses": {
+    "oewn-13943868-n": {
+     "learner": "the state that something or someone is in at a certain time.",
+     "examples": [
+      "But the spiritless condition which this event threw her into was shortly relieved"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06783666-n": {
+     "learner": "a statement of what must be done or accepted as part of an agreement, usually used in the plural.",
+     "examples": [
+      "These are conditions which, considering everything, I had no hesitation in complying with"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06768279-n": {
+     "learner": "something that must be true first for something else to be valid or to have its effect.",
+     "examples": [
+      "Trust is a necessary condition for any friendship to last."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13943462-n": {
+     "learner": "the way a person or thing exists, or the kind of life or being they have.",
+     "examples": [
+      "to congratulate myself on the hope of relations whose condition in life is so decidedly beneath my own?",
+      "Fear of death is part of the human condition."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05831106-n": {
+     "learner": "a fact that you should keep in mind when you decide something.",
+     "examples": [
+      "Before choosing, think about every condition: the cost, the time, and the risk."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13946473-n": {
+     "learner": "an illness, a disease, or some other health problem.",
+     "examples": [
+      "She has a heart condition and must not run."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-14569829-n": {
+     "learner": "how healthy and fit someone is, as in 'in condition' or 'out of condition'.",
+     "examples": [
+      "After the long winter I was out of condition and could not run far."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05806871-n": {
+     "learner": "in an experiment, the way of doing things that is changed so that its effect can be compared with an unchanged control.",
+     "examples": [
+      "Half the mice were placed in the test condition and half in the control condition."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "denial",
+   "pos": "noun",
+   "senses": {
+    "oewn-00206498-n": {
+     "learner": "giving up what is good for yourself so that other people can have what is good for them.",
+     "examples": [
+      "Her life was one of quiet denial, always putting her family's needs before her own."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07219061-n": {
+     "learner": "the act of refusing to do what is asked, for example by a request.",
+     "examples": [
+      "if, under such a circumstance, I were to give a flat denial, and ride off as fast as I could."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07218900-n": {
+     "learner": "the act of saying that something people claim is not true.",
+     "examples": [
+      "The minister's denial of the story came too late."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13483154-n": {
+     "learner": "in psychiatry, a way the mind protects itself by refusing to accept painful thoughts.",
+     "examples": [
+      "After the diagnosis she was in denial for weeks."
+     ],
+     "usage_labels": [
+      "clinical"
+     ],
+     "connotation": {
+      "candidate": true,
+      "why": "said of a person, against a plain 'does not accept it'"
+     }
+    },
+    "oewn-01201240-n": {
+     "learner": "the answer someone accused gives in court, saying that the charges against them are not true.",
+     "examples": [
+      "The court heard the defendant's denial of all the charges."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "emotion",
+   "pos": "noun",
+   "senses": {
+    "oewn-07495208-n": {
+     "learner": "a strong feeling of any kind.",
+     "examples": [
+      "acknowledged, with the liveliest emotion, that she was the happiest creature in the world.",
+      "Mr. Darcy changed colour; but the emotion was short"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "express",
+   "pos": "noun",
+   "senses": {
+    "oewn-06276128-n": {
+     "learner": "mail that is carried by a fast and well-run system.",
+     "examples": [
+      "don't you know there is an express come for master from Mr. Gardiner?",
+      "The express was sent off directly."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03311330-n": {
+     "learner": "a fast train or bus that stops at only a few planned places.",
+     "examples": [
+      "We caught the express to London and were there in an hour."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01108365-n": {
+     "learner": "the fast carrying of goods from one place to another.",
+     "examples": [
+      "The company ships its furniture by express."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "falsehood",
+   "pos": "noun",
+   "senses": {
+    "oewn-06769118-n": {
+     "learner": "a statement that is not true.",
+     "examples": [
+      "I know it must be a scandalous falsehood"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00752233-n": {
+     "learner": "the act of making something false, for example by dishonestly changing papers or measures, or by making fakes.",
+     "examples": [
+      "He was charged with falsehood for changing the figures in the company's books."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "rid",
+   "pos": "verb",
+   "senses": {
+    "oewn-02355171-v": {
+     "learner": "to free a person or place from something.",
+     "examples": [
+      "She had got rid of two of the secrets which had weighed on her for a fortnight",
+      "They worked all day to rid the house of mice."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "shop",
+   "pos": "noun",
+   "senses": {
+    "oewn-04209460-n": {
+     "learner": "a place of business where goods or services are sold to the public.",
+     "examples": [
+      "you must lend us the money, for we have just spent ours at the shop out there."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04610439-n": {
+     "learner": "a small place where things are made by hand or by machine.",
+     "examples": [
+      "In his shop behind the house, the carpenter builds chairs by hand."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00893934-n": {
+     "learner": "a class in which you learn a trade, such as woodwork or electrical work.",
+     "examples": [
+      "In shop we learned how to wire a lamp."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

@@ -1,32 +1,124 @@
-{"packet": 7, "entries": [
- {"word": "entitle", "pos": "verb",
-  "order": ["oewn-02452235-v", "oewn-01031533-v", "oewn-02403605-v"],
-  "met": ["oewn-02452235-v"]},
- {"word": "loud", "pos": "adjective",
-  "order": ["oewn-01455372-a", "oewn-02402358-s", "oewn-01461579-a"],
-  "met": ["oewn-01455372-a"]},
- {"word": "luck", "pos": "noun",
-  "order": ["oewn-11438574-n", "oewn-11438252-n", "oewn-14496806-n"],
-  "met": ["oewn-11438574-n"]},
- {"word": "luckily", "pos": "adverb",
-  "order": ["oewn-00042664-r"],
-  "met": ["oewn-00042664-r"]},
- {"word": "nerve", "pos": "noun",
-  "order": ["oewn-05481998-n", "oewn-04864721-n", "oewn-04845441-n"],
-  "met": []},
- {"word": "pardon", "pos": "verb",
-  "order": ["oewn-00907805-v", "oewn-00907352-v"],
-  "met": ["oewn-00907805-v"]},
- {"word": "passion", "pos": "noun",
-  "order": ["oewn-07496036-n", "oewn-07503928-n", "oewn-05821331-n", "oewn-04635549-n", "oewn-14062661-n", "oewn-09204454-n"],
-  "met": ["oewn-07496036-n"]},
- {"word": "path", "pos": "noun",
-  "order": ["oewn-03905025-n", "oewn-00416689-n", "oewn-09410115-n", "oewn-08633886-n"],
-  "met": ["oewn-03905025-n"]},
- {"word": "qualified", "pos": "adjective",
-  "order": ["oewn-01917434-a", "oewn-01919581-a", "oewn-01965069-s", "oewn-00558400-s", "oewn-01545039-s"],
-  "met": ["oewn-01917434-a"]},
- {"word": "anecdote", "pos": "noun",
-  "order": ["oewn-07235246-n"],
-  "met": ["oewn-07235246-n"]}
-]}
+{
+ "packet": 7,
+ "entries": [
+  {
+   "word": "entitle",
+   "pos": "verb",
+   "order": [
+    "oewn-02452235-v",
+    "oewn-01031533-v",
+    "oewn-02403605-v"
+   ],
+   "met": [
+    "oewn-02452235-v"
+   ]
+  },
+  {
+   "word": "loud",
+   "pos": "adjective",
+   "order": [
+    "oewn-01455372-a",
+    "oewn-02402358-s",
+    "oewn-01461579-a"
+   ],
+   "met": [
+    "oewn-01455372-a"
+   ]
+  },
+  {
+   "word": "luck",
+   "pos": "noun",
+   "order": [
+    "oewn-11438574-n",
+    "oewn-11438252-n",
+    "oewn-14496806-n"
+   ],
+   "met": [
+    "oewn-11438574-n"
+   ]
+  },
+  {
+   "word": "luckily",
+   "pos": "adverb",
+   "order": [
+    "oewn-00042664-r"
+   ],
+   "met": [
+    "oewn-00042664-r"
+   ]
+  },
+  {
+   "word": "nerve",
+   "pos": "noun",
+   "order": [
+    "oewn-05481998-n",
+    "oewn-04864721-n",
+    "oewn-04845441-n"
+   ],
+   "met": []
+  },
+  {
+   "word": "pardon",
+   "pos": "verb",
+   "order": [
+    "oewn-00907805-v",
+    "oewn-00907352-v"
+   ],
+   "met": [
+    "oewn-00907805-v"
+   ]
+  },
+  {
+   "word": "passion",
+   "pos": "noun",
+   "order": [
+    "oewn-07496036-n",
+    "oewn-07503928-n",
+    "oewn-05821331-n",
+    "oewn-04635549-n",
+    "oewn-14062661-n",
+    "oewn-09204454-n"
+   ],
+   "met": [
+    "oewn-07496036-n"
+   ]
+  },
+  {
+   "word": "path",
+   "pos": "noun",
+   "order": [
+    "oewn-03905025-n",
+    "oewn-00416689-n",
+    "oewn-09410115-n",
+    "oewn-08633886-n"
+   ],
+   "met": [
+    "oewn-03905025-n"
+   ]
+  },
+  {
+   "word": "qualified",
+   "pos": "adjective",
+   "order": [
+    "oewn-01917434-a",
+    "oewn-01919581-a",
+    "oewn-01965069-s",
+    "oewn-00558400-s",
+    "oewn-01545039-s"
+   ],
+   "met": [
+    "oewn-01917434-a"
+   ]
+  },
+  {
+   "word": "anecdote",
+   "pos": "noun",
+   "order": [
+    "oewn-07235246-n"
+   ],
+   "met": [
+    "oewn-07235246-n"
+   ]
+  }
+ ]
+}

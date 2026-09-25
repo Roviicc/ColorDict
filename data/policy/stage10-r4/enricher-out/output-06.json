@@ -1,168 +1,363 @@
-{"packet": 6, "entries": [
- {"word": "narrow", "pos": "adjective",
-  "senses": {
-   "oewn-02572618-a": {"learner": "not wide; small in size from one side to the other.",
-                       "examples": ["to the edge of the water, and one of its narrowest parts", "They crossed the stream on a narrow bridge."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01418331-s": {"learner": "limited in how far something reaches or how much it covers.",
-                       "examples": ["for this contention in such narrow space as is permitted to me, I propose here to show cause."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00288506-a": {"learner": "not accepting of other people or ideas, not able to change, or not seeing things in a broad way.",
-                       "examples": ["He holds narrow opinions and will not listen to any other view."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "faults a person's mind or views, against plain 'firm' or 'traditional'"}},
-   "oewn-02574040-a": {"learner": "very small in degree; by only a little.",
-                       "examples": ["She won the vote by a narrow margin."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "reading", "pos": "noun",
-  "senses": {
-   "oewn-05816802-n": {"learner": "the mental act of understanding words that are written down.",
-                       "examples": ["Do you prefer reading to cards?", "to all she must yet add something more substantial in the improvement of her mind by extensive reading."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07188417-n": {"learner": "one particular way of understanding something, or one particular way of performing it.",
-                       "examples": ["He was famous for his reading of Mozart."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06610383-n": {"learner": "written things that are meant for people to read.",
-                       "examples": ["She took some light reading for the long train trip."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05824916-n": {"learner": "a number or amount about the state of something that a meter or similar tool shows you.",
-                       "examples": ["The reading on the thermometer was ten degrees."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05937299-n": {"learner": "an idea in your mind of what something means or why it matters.",
-                       "examples": ["My reading of the situation is that she wants to leave."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07249541-n": {"learner": "a time when someone says aloud in public something prepared before, or repeats it from memory.",
-                       "examples": ["The poet gave a reading of her new poems at the library."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01006524-n": {"learner": "the act of measuring something with a meter or a similar tool.",
-                       "examples": ["He has a job doing meter reading for the gas company."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "reconcile", "pos": "verb",
-  "senses": {
-   "oewn-00734417-v": {"learner": "to accept something because it cannot be avoided.",
-                       "examples": ["It was a long time before she became at all reconciled to the idea of so unsuitable a match."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00483824-v": {"learner": "to make one thing able to fit or agree with another.",
-                       "examples": ["I will not admit that one speech or one action of this inestimable man is incapable of being reconciled with reality"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00766947-v": {"learner": "to reach an agreement with someone.",
-                       "examples": ["The two brothers reconciled after years of not speaking."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00483404-v": {"learner": "to bring things into agreement so that they fit well together.",
-                       "examples": ["She tried to reconcile the two different stories."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "result", "pos": "noun",
-  "senses": {
-   "oewn-11430739-n": {"learner": "something that happens because something else happened before it.",
-                       "examples": ["May I ask whether these pleasing attentions proceed from the impulse of the moment, or are the result of previous study?"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07307418-n": {"learner": "what comes out of something; the way it ends up.",
-                       "examples": ["\"Your examination of Mr. Darcy is over, I presume,\" said Miss Bingley; \"and pray what is the result?\""],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06756201-n": {"learner": "an answer that solves a problem, or that explains how to solve it.",
-                       "examples": ["He worked out the result to four decimal places."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06344278-n": {"learner": "the role of a noun phrase naming something that exists only because of the action of the verb in the sentence.",
-                       "examples": ["In \"she baked a cake\", the cake has the role of result."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "temper", "pos": "verb",
-  "senses": {
-   "oewn-00295646-v": {"learner": "to make something milder, more acceptable, or more suitable by adding something else to it.",
-                       "examples": ["your wit and vivacity, I think, must be acceptable to her, especially when tempered with the silence and respect which her rank will inevitably excite."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00203298-v": {"learner": "to change something by holding it back or making it less strong.",
-                       "examples": ["She tempered her anger and spoke calmly."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00303656-v": {"learner": "to make metal harder by heating it again and then cooling it in oil.",
-                       "examples": ["The smith tempered the steel for the blade."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-00303837-v": {"learner": "to give something the right thickness, feel, or hardness by slowly heating it and cooling it.",
-                       "examples": ["The factory tempers the glass by heating and cooling it slowly."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-00296035-v": {"learner": "to adjust the pitch of the notes of a piano.",
-                       "examples": ["The tuner tempered the old piano."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "unjust", "pos": "adjective",
-  "senses": {
-   "oewn-00960366-a": {"learner": "not fair, because it shows injustice, favours one side, or tricks people.",
-                       "examples": ["No motive can excuse the unjust and ungenerous part you acted there.", "all the unjust accusations accompanying her rejection."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "condemns an act as morally wrong, weightier than plain 'unfair'"}},
-   "oewn-01373517-a": {"learner": "going against the basic rules of what is just and right.",
-                       "examples": ["The prisoner was given an unjust punishment."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "condemns a judge or act as wrong, against neutral 'unlawful' or 'harsh'"}},
-   "oewn-00961901-a": {"learner": "not treating people equally, or not fair.",
-                       "examples": ["The land was divided among the sons in an unjust way."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "judges a sharing as wrong, against plain 'unequal'"}}
-  }},
- {"word": "agitated", "pos": "adjective",
-  "senses": {
-   "oewn-00085733-a": {"learner": "upset and troubled in your feelings, usually very deeply.",
-                       "examples": ["After a silence of several minutes, he came towards her in an agitated manner", "she added, in a yet more agitated voice, \"that I might have prevented it!"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00088039-a": {"learner": "moved about, shaken, or stirred up by something physical.",
-                       "examples": ["The agitated mixture foamed and bubbled."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "copse", "pos": "noun",
-  "senses": {
-   "oewn-08454507-n": {"learner": "a thick group of bushes growing close together.",
-                       "examples": ["If you are looking for my master, ma'am, he is walking towards the little copse.", "As soon as they entered the copse, Lady Catherine began in the following manner"],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "decidedly", "pos": "adverb",
-  "senses": {
-   "oewn-00037329-r": {"learner": "clearly and without any doubt.",
-                       "examples": ["it was settled that Mr. Jones should be sent for early in the morning, if Miss Bennet were not decidedly better.", "relations whose condition in life is so decidedly beneath my own?"],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "discourage", "pos": "verb",
-  "senses": {
-   "oewn-00910052-v": {"learner": "to try to stop something from happening, or to show that you are against it.",
-                       "examples": ["Perhaps it will be as well if you discourage his coming here so very often."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01823114-v": {"learner": "to take away someone's courage or hope.",
-                       "examples": ["I am, therefore, by no means discouraged by what you have just said"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00872241-v": {"learner": "to give someone advice about how they should behave.",
-                       "examples": ["The doctor discouraged him from eating late at night."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 6,
+ "entries": [
+  {
+   "word": "narrow",
+   "pos": "adjective",
+   "senses": {
+    "oewn-02572618-a": {
+     "learner": "not wide; small in size from one side to the other.",
+     "examples": [
+      "to the edge of the water, and one of its narrowest parts",
+      "They crossed the stream on a narrow bridge."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01418331-s": {
+     "learner": "limited in how far something reaches or how much it covers.",
+     "examples": [
+      "for this contention in such narrow space as is permitted to me, I propose here to show cause."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00288506-a": {
+     "learner": "not accepting of other people or ideas, not able to change, or not seeing things in a broad way.",
+     "examples": [
+      "He holds narrow opinions and will not listen to any other view."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "faults a person's mind or views, against plain 'firm' or 'traditional'"
+     }
+    },
+    "oewn-02574040-a": {
+     "learner": "very small in degree; by only a little.",
+     "examples": [
+      "She won the vote by a narrow margin."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "reading",
+   "pos": "noun",
+   "senses": {
+    "oewn-05816802-n": {
+     "learner": "the mental act of understanding words that are written down.",
+     "examples": [
+      "Do you prefer reading to cards?",
+      "to all she must yet add something more substantial in the improvement of her mind by extensive reading."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07188417-n": {
+     "learner": "one particular way of understanding something, or one particular way of performing it.",
+     "examples": [
+      "He was famous for his reading of Mozart."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06610383-n": {
+     "learner": "written things that are meant for people to read.",
+     "examples": [
+      "She took some light reading for the long train trip."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05824916-n": {
+     "learner": "a number or amount about the state of something that a meter or similar tool shows you.",
+     "examples": [
+      "The reading on the thermometer was ten degrees."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05937299-n": {
+     "learner": "an idea in your mind of what something means or why it matters.",
+     "examples": [
+      "My reading of the situation is that she wants to leave."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07249541-n": {
+     "learner": "a time when someone says aloud in public something prepared before, or repeats it from memory.",
+     "examples": [
+      "The poet gave a reading of her new poems at the library."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01006524-n": {
+     "learner": "the act of measuring something with a meter or a similar tool.",
+     "examples": [
+      "He has a job doing meter reading for the gas company."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "reconcile",
+   "pos": "verb",
+   "senses": {
+    "oewn-00734417-v": {
+     "learner": "to accept something because it cannot be avoided.",
+     "examples": [
+      "It was a long time before she became at all reconciled to the idea of so unsuitable a match."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00483824-v": {
+     "learner": "to make one thing able to fit or agree with another.",
+     "examples": [
+      "I will not admit that one speech or one action of this inestimable man is incapable of being reconciled with reality"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00766947-v": {
+     "learner": "to reach an agreement with someone.",
+     "examples": [
+      "The two brothers reconciled after years of not speaking."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00483404-v": {
+     "learner": "to bring things into agreement so that they fit well together.",
+     "examples": [
+      "She tried to reconcile the two different stories."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "result",
+   "pos": "noun",
+   "senses": {
+    "oewn-11430739-n": {
+     "learner": "something that happens because something else happened before it.",
+     "examples": [
+      "May I ask whether these pleasing attentions proceed from the impulse of the moment, or are the result of previous study?"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07307418-n": {
+     "learner": "what comes out of something; the way it ends up.",
+     "examples": [
+      "\"Your examination of Mr. Darcy is over, I presume,\" said Miss Bingley; \"and pray what is the result?\""
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06756201-n": {
+     "learner": "an answer that solves a problem, or that explains how to solve it.",
+     "examples": [
+      "He worked out the result to four decimal places."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06344278-n": {
+     "learner": "the role of a noun phrase naming something that exists only because of the action of the verb in the sentence.",
+     "examples": [
+      "In \"she baked a cake\", the cake has the role of result."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "temper",
+   "pos": "verb",
+   "senses": {
+    "oewn-00295646-v": {
+     "learner": "to make something milder, more acceptable, or more suitable by adding something else to it.",
+     "examples": [
+      "your wit and vivacity, I think, must be acceptable to her, especially when tempered with the silence and respect which her rank will inevitably excite."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00203298-v": {
+     "learner": "to change something by holding it back or making it less strong.",
+     "examples": [
+      "She tempered her anger and spoke calmly."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00303656-v": {
+     "learner": "to make metal harder by heating it again and then cooling it in oil.",
+     "examples": [
+      "The smith tempered the steel for the blade."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-00303837-v": {
+     "learner": "to give something the right thickness, feel, or hardness by slowly heating it and cooling it.",
+     "examples": [
+      "The factory tempers the glass by heating and cooling it slowly."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-00296035-v": {
+     "learner": "to adjust the pitch of the notes of a piano.",
+     "examples": [
+      "The tuner tempered the old piano."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "unjust",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00960366-a": {
+     "learner": "not fair, because it shows injustice, favours one side, or tricks people.",
+     "examples": [
+      "No motive can excuse the unjust and ungenerous part you acted there.",
+      "all the unjust accusations accompanying her rejection."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "condemns an act as morally wrong, weightier than plain 'unfair'"
+     }
+    },
+    "oewn-01373517-a": {
+     "learner": "going against the basic rules of what is just and right.",
+     "examples": [
+      "The prisoner was given an unjust punishment."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "condemns a judge or act as wrong, against neutral 'unlawful' or 'harsh'"
+     }
+    },
+    "oewn-00961901-a": {
+     "learner": "not treating people equally, or not fair.",
+     "examples": [
+      "The land was divided among the sons in an unjust way."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "judges a sharing as wrong, against plain 'unequal'"
+     }
+    }
+   }
+  },
+  {
+   "word": "agitated",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00085733-a": {
+     "learner": "upset and troubled in your feelings, usually very deeply.",
+     "examples": [
+      "After a silence of several minutes, he came towards her in an agitated manner",
+      "she added, in a yet more agitated voice, \"that I might have prevented it!"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00088039-a": {
+     "learner": "moved about, shaken, or stirred up by something physical.",
+     "examples": [
+      "The agitated mixture foamed and bubbled."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "copse",
+   "pos": "noun",
+   "senses": {
+    "oewn-08454507-n": {
+     "learner": "a thick group of bushes growing close together.",
+     "examples": [
+      "If you are looking for my master, ma'am, he is walking towards the little copse.",
+      "As soon as they entered the copse, Lady Catherine began in the following manner"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "decidedly",
+   "pos": "adverb",
+   "senses": {
+    "oewn-00037329-r": {
+     "learner": "clearly and without any doubt.",
+     "examples": [
+      "it was settled that Mr. Jones should be sent for early in the morning, if Miss Bennet were not decidedly better.",
+      "relations whose condition in life is so decidedly beneath my own?"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "discourage",
+   "pos": "verb",
+   "senses": {
+    "oewn-00910052-v": {
+     "learner": "to try to stop something from happening, or to show that you are against it.",
+     "examples": [
+      "Perhaps it will be as well if you discourage his coming here so very often."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01823114-v": {
+     "learner": "to take away someone's courage or hope.",
+     "examples": [
+      "I am, therefore, by no means discouraged by what you have just said"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00872241-v": {
+     "learner": "to give someone advice about how they should behave.",
+     "examples": [
+      "The doctor discouraged him from eating late at night."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

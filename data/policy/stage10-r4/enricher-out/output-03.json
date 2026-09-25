@@ -1,164 +1,350 @@
-{"packet": 3, "entries": [
- {"word": "usually", "pos": "adverb",
-  "senses": {
-   "oewn-00107608-r": {"learner": "When things are as they normally are.",
-                       "examples": ["I will venture to say that my investigations and decisions are not usually influenced by my hopes or fears.", "They triumphantly displayed a table set out with such cold meat as an inn larder usually affords."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "wretched", "pos": "adjective",
-  "senses": {
-   "oewn-02355625-s": {"learner": "Of very bad quality, or in very bad condition.",
-                       "examples": ["\"This is a wretched beginning, indeed!", "They lived in a wretched hut with a leaking roof."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "condemns quality with feeling, against plain 'poor'"}},
-   "oewn-01153708-s": {"learner": "Very unhappy and full of misery.",
-                       "examples": ["She felt wretched for weeks after her friend moved away."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01136517-s": {"learner": "Morally bad in a way that deserves blame.",
-                       "examples": ["That they should marry, small as is their chance of happiness, and wretched as is his character, we are forced to rejoice!"],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "condemns a person's morals, against plain 'bad'"}},
-   "oewn-01054589-s": {"learner": "So sad or unlucky that people feel sorry for it, or that it makes people feel sorry.",
-                       "examples": ["The old dog was a wretched sight, thin and shaking in the rain."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "casts the one described as pitiful, against plain 'unlucky'"}}
-  }},
- {"word": "anticipate", "pos": "verb",
-  "senses": {
-   "oewn-00721658-v": {"learner": "To think that something will probably happen.",
-                       "examples": ["The organizers anticipate a large crowd tonight."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00722732-v": {"learner": "To understand or know something before it happens.",
-                       "examples": ["He had anticipated the danger long before anyone else saw it."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02571406-v": {"learner": "To act before something happens, or to deal with it ahead of time.",
-                       "examples": ["The general anticipated the attack and moved his troops out of the valley."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01808928-v": {"learner": "To feel excited or worried about something that is going to happen.",
-                       "examples": ["It suddenly struck her that it might be from Lady Catherine, and she anticipated with dismay all the consequent explanations."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00919743-v": {"learner": "To say what will happen before it happens.",
-                       "examples": ["The old man anticipated the storm, telling everyone it would come by nightfall."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00343295-v": {"learner": "To come before something, or to happen earlier than it.",
-                       "examples": ["His early paintings anticipated the modern style by fifty years."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "distinction", "pos": "noun",
-  "senses": {
-   "oewn-05756230-n": {"learner": "The act of seeing or showing that things are different, because of what each one is like.",
-                       "examples": ["Walt Whitman has somewhere a fine and just distinction between \"loving by allowance\" and \"loving with personal love.\""],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-14458911-n": {"learner": "A high and important position that comes from being clearly better than others.",
-                       "examples": ["It is something to think of, and gives her a sort of distinction among her companions."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "honours the one it is given to, against plain 'status'"}},
-   "oewn-04756794-n": {"learner": "A difference that sets apart things or people that are alike.",
-                       "examples": ["She likes to have the distinction of rank preserved."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06719080-n": {"learner": "An honour given to someone because of what they have achieved or because they are better than others.",
-                       "examples": ["She passed her final exams with distinction."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "governess", "pos": "noun",
-  "senses": {
-   "oewn-10159689-n": {"learner": "A woman who is trusted to look after a child and watch over what it does, especially in a private home.",
-                       "examples": ["Five daughters brought up at home without a governess!", "\"Has your governess left you?\""],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "meditate", "pos": "verb",
-  "senses": {
-   "oewn-00632042-v": {"learner": "To think deeply about something.",
-                       "examples": ["Mr. Collins, meanwhile, was meditating in solitude on what had passed.", "I have been meditating on the very great pleasure which a pair of fine eyes in the face of a pretty woman can bestow."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00706154-v": {"learner": "To think hard and for a long time, for example for religious or spiritual reasons.",
-                       "examples": ["Every morning she sits quietly and meditates for twenty minutes."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "quest", "pos": "noun",
-  "senses": {
-   "oewn-00948466-n": {"learner": "The act of looking for something.",
-                       "examples": ["Their eyes were immediately wandering up the street in quest of the officers", "Elizabeth walked on in quest of the only face whose features would be known to her."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05778388-n": {"learner": "A search for something that matches what you have decided you need.",
-                       "examples": ["They were always moving from place to place in quest of a cheap situation"],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "trace", "pos": "verb",
-  "senses": {
-   "oewn-00731071-v": {"learner": "To follow, find, or work out the way something has developed.",
-                       "examples": ["almost all his actions may be traced to pride; and pride has often been his best friend.", "She traced her family back to a farmer who lived three hundred years ago."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02160493-v": {"learner": "To find signs that show where someone or something has been.",
-                       "examples": ["They left Brighton together on Sunday night, and were traced almost to London, but not beyond"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01585566-v": {"learner": "To draw a mark or lines on a surface.",
-                       "examples": ["She traced a heart in the sand with her finger."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01698271-v": {"learner": "To copy a drawing by laying a sheet you can see through on top of it and following its lines.",
-                       "examples": ["The child traced the map onto a sheet of thin paper."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02008366-v": {"learner": "To go back over the same way again.",
-                       "examples": ["We traced our path back to the gate."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02007615-v": {"learner": "To chase or follow someone without ever giving up.",
-                       "examples": ["The hunters traced the wolf for days across the hills."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01999981-v": {"learner": "To travel along a path, or to pass over, around, or along something.",
-                       "examples": ["The road traces the edge of the lake for ten miles."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00627767-v": {"learner": "To read something that is hard to make out.",
-                       "examples": ["He could barely trace the faded words on the old stone."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "vary", "pos": "verb",
-  "senses": {
-   "oewn-00122978-v": {"learner": "To change in some way while still staying what it was at heart.",
-                       "examples": ["Though her manner varied, however, her determination never did.", "His plan did not vary on seeing them."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00437832-v": {"learner": "To make something more mixed, with more different kinds in it.",
-                       "examples": ["After playing some Italian songs, Miss Bingley varied the charm by a lively Scotch air"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02668375-v": {"learner": "To change according to something else that changes.",
-                       "examples": ["The price of fruit varies with the season."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02667330-v": {"learner": "To be different from something, or not in line with it.",
-                       "examples": ["His story varies from what the other witnesses said."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "abhorrence", "pos": "noun",
-  "senses": {
-   "oewn-07518669-n": {"learner": "Strong hate mixed with disgust.",
-                       "examples": ["As her successor in that house, she regarded her with jealous abhorrence.", "I cannot think of it without abhorrence."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 3,
+ "entries": [
+  {
+   "word": "usually",
+   "pos": "adverb",
+   "senses": {
+    "oewn-00107608-r": {
+     "learner": "When things are as they normally are.",
+     "examples": [
+      "I will venture to say that my investigations and decisions are not usually influenced by my hopes or fears.",
+      "They triumphantly displayed a table set out with such cold meat as an inn larder usually affords."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "wretched",
+   "pos": "adjective",
+   "senses": {
+    "oewn-02355625-s": {
+     "learner": "Of very bad quality, or in very bad condition.",
+     "examples": [
+      "\"This is a wretched beginning, indeed!",
+      "They lived in a wretched hut with a leaking roof."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "condemns quality with feeling, against plain 'poor'"
+     }
+    },
+    "oewn-01153708-s": {
+     "learner": "Very unhappy and full of misery.",
+     "examples": [
+      "She felt wretched for weeks after her friend moved away."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01136517-s": {
+     "learner": "Morally bad in a way that deserves blame.",
+     "examples": [
+      "That they should marry, small as is their chance of happiness, and wretched as is his character, we are forced to rejoice!"
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "condemns a person's morals, against plain 'bad'"
+     }
+    },
+    "oewn-01054589-s": {
+     "learner": "So sad or unlucky that people feel sorry for it, or that it makes people feel sorry.",
+     "examples": [
+      "The old dog was a wretched sight, thin and shaking in the rain."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "casts the one described as pitiful, against plain 'unlucky'"
+     }
+    }
+   }
+  },
+  {
+   "word": "anticipate",
+   "pos": "verb",
+   "senses": {
+    "oewn-00721658-v": {
+     "learner": "To think that something will probably happen.",
+     "examples": [
+      "The organizers anticipate a large crowd tonight."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00722732-v": {
+     "learner": "To understand or know something before it happens.",
+     "examples": [
+      "He had anticipated the danger long before anyone else saw it."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02571406-v": {
+     "learner": "To act before something happens, or to deal with it ahead of time.",
+     "examples": [
+      "The general anticipated the attack and moved his troops out of the valley."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01808928-v": {
+     "learner": "To feel excited or worried about something that is going to happen.",
+     "examples": [
+      "It suddenly struck her that it might be from Lady Catherine, and she anticipated with dismay all the consequent explanations."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00919743-v": {
+     "learner": "To say what will happen before it happens.",
+     "examples": [
+      "The old man anticipated the storm, telling everyone it would come by nightfall."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00343295-v": {
+     "learner": "To come before something, or to happen earlier than it.",
+     "examples": [
+      "His early paintings anticipated the modern style by fifty years."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "distinction",
+   "pos": "noun",
+   "senses": {
+    "oewn-05756230-n": {
+     "learner": "The act of seeing or showing that things are different, because of what each one is like.",
+     "examples": [
+      "Walt Whitman has somewhere a fine and just distinction between \"loving by allowance\" and \"loving with personal love.\""
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-14458911-n": {
+     "learner": "A high and important position that comes from being clearly better than others.",
+     "examples": [
+      "It is something to think of, and gives her a sort of distinction among her companions."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "honours the one it is given to, against plain 'status'"
+     }
+    },
+    "oewn-04756794-n": {
+     "learner": "A difference that sets apart things or people that are alike.",
+     "examples": [
+      "She likes to have the distinction of rank preserved."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06719080-n": {
+     "learner": "An honour given to someone because of what they have achieved or because they are better than others.",
+     "examples": [
+      "She passed her final exams with distinction."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "governess",
+   "pos": "noun",
+   "senses": {
+    "oewn-10159689-n": {
+     "learner": "A woman who is trusted to look after a child and watch over what it does, especially in a private home.",
+     "examples": [
+      "Five daughters brought up at home without a governess!",
+      "\"Has your governess left you?\""
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "meditate",
+   "pos": "verb",
+   "senses": {
+    "oewn-00632042-v": {
+     "learner": "To think deeply about something.",
+     "examples": [
+      "Mr. Collins, meanwhile, was meditating in solitude on what had passed.",
+      "I have been meditating on the very great pleasure which a pair of fine eyes in the face of a pretty woman can bestow."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00706154-v": {
+     "learner": "To think hard and for a long time, for example for religious or spiritual reasons.",
+     "examples": [
+      "Every morning she sits quietly and meditates for twenty minutes."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "quest",
+   "pos": "noun",
+   "senses": {
+    "oewn-00948466-n": {
+     "learner": "The act of looking for something.",
+     "examples": [
+      "Their eyes were immediately wandering up the street in quest of the officers",
+      "Elizabeth walked on in quest of the only face whose features would be known to her."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05778388-n": {
+     "learner": "A search for something that matches what you have decided you need.",
+     "examples": [
+      "They were always moving from place to place in quest of a cheap situation"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "trace",
+   "pos": "verb",
+   "senses": {
+    "oewn-00731071-v": {
+     "learner": "To follow, find, or work out the way something has developed.",
+     "examples": [
+      "almost all his actions may be traced to pride; and pride has often been his best friend.",
+      "She traced her family back to a farmer who lived three hundred years ago."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02160493-v": {
+     "learner": "to find signs or marks that someone or something has left behind",
+     "examples": [
+      "as he looked at her, he was trying to trace a resemblance.",
+      "The doctors could not trace any poison in her blood."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01585566-v": {
+     "learner": "To draw a mark or lines on a surface.",
+     "examples": [
+      "She traced a heart in the sand with her finger."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01698271-v": {
+     "learner": "To copy a drawing by laying a sheet you can see through on top of it and following its lines.",
+     "examples": [
+      "The child traced the map onto a sheet of thin paper."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02008366-v": {
+     "learner": "To go back over the same way again.",
+     "examples": [
+      "We traced our path back to the gate."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02007615-v": {
+     "learner": "To chase or follow someone without ever giving up.",
+     "examples": [
+      "The hunters traced the wolf for days across the hills."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01999981-v": {
+     "learner": "To travel along a path, or to pass over, around, or along something.",
+     "examples": [
+      "The road traces the edge of the lake for ten miles."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00627767-v": {
+     "learner": "To read something that is hard to make out.",
+     "examples": [
+      "He could barely trace the faded words on the old stone."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "vary",
+   "pos": "verb",
+   "senses": {
+    "oewn-00122978-v": {
+     "learner": "To change in some way while still staying what it was at heart.",
+     "examples": [
+      "Though her manner varied, however, her determination never did.",
+      "His plan did not vary on seeing them."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00437832-v": {
+     "learner": "To make something more mixed, with more different kinds in it.",
+     "examples": [
+      "After playing some Italian songs, Miss Bingley varied the charm by a lively Scotch air"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02668375-v": {
+     "learner": "To change according to something else that changes.",
+     "examples": [
+      "The price of fruit varies with the season."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02667330-v": {
+     "learner": "To be different from something, or not in line with it.",
+     "examples": [
+      "His story varies from what the other witnesses said."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "abhorrence",
+   "pos": "noun",
+   "senses": {
+    "oewn-07518669-n": {
+     "learner": "Strong hate mixed with disgust.",
+     "examples": [
+      "As her successor in that house, she regarded her with jealous abhorrence.",
+      "I cannot think of it without abhorrence."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}
