@@ -1,0 +1,138 @@
+{
+ "sample": "census-013",
+ "seed": null,
+ "population": 497,
+ "read": 497,
+ "right": 489,
+ "wrong": 8,
+ "unsure": 0,
+ "error_rate_pct": 1.6,
+ "threshold_pct": 5.0,
+ "reader_model": "claude-fable-5-1",
+ "reader_effort": "xhigh",
+ "reader_agent": ".claude/agents/census-reader.md",
+ "reader_tools": "Read, Write",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
+ "missing_packets": [],
+ "unread": [],
+ "verdicts_for_unknown_ids": [],
+ "reconciled_ids": [],
+ "faults": {
+  "restriction": 4,
+  "gloss-mismatch": 3,
+  "wrong-charge": 1
+ },
+ "by_part_of_speech": {
+  "adjective": {
+   "read": 395,
+   "right": 388,
+   "wrong": 7,
+   "unsure": 0,
+   "error_rate_pct": 1.8
+  },
+  "noun": {
+   "read": 77,
+   "right": 77,
+   "wrong": 0,
+   "unsure": 0,
+   "error_rate_pct": 0.0
+  },
+  "verb": {
+   "read": 25,
+   "right": 24,
+   "wrong": 1,
+   "unsure": 0,
+   "error_rate_pct": 4.0
+  }
+ },
+ "failures_by_synset": {
+  "oewn-00841513-v": [
+   {
+    "id": "amplify.oewn-00841513-v",
+    "word": "amplify",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "The gloss builds the excess into the word ('enlarge beyond bounds or the truth'), but the note says it 'only says something was made bigger' and puts the fault outside the word, which describes the plain make-larger sense and drives an implausible neutral charge.",
+    "definition": "to enlarge beyond bounds or the truth",
+    "tone": "Only says something was made bigger; the fault is in going too far, not the word, so it accuses least of the three."
+   }
+  ],
+  "oewn-01052675-s": [
+   {
+    "id": "heaven-sent.oewn-01052675-s",
+    "word": "heaven-sent",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "The note makes the word about timing ('the timing was so right'), but the gloss covers anything peculiarly fortunate or appropriate, including a person or a gift, not just a well-timed event.",
+    "definition": "peculiarly fortunate or appropriate; as if by divine intervention",
+    "tone": "Deeply thankful - the timing was so right it tempts you to say heaven stepped in."
+   }
+  ],
+  "oewn-01073758-s": [
+   {
+    "id": "musty.oewn-01073758-s",
+    "word": "musty",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "The note confines the word to mold 'on the food or smelled off it', but the gloss is 'covered with or smelling of mold' with no food limit, and the only example is a bare odor.",
+    "definition": "covered with or smelling of mold",
+    "tone": "The gentlest of the three words for mold seen on the food or smelled off it, with none of *moldy*'s bluntness."
+   }
+  ],
+  "oewn-01303596-s": [
+   {
+    "id": "disciplinary.oewn-01303596-s",
+    "word": "disciplinary",
+    "verdict": "wrong",
+    "fault": "wrong-charge",
+    "why": "The note itself says the word names correction 'in neutral, official language' and the gloss 'designed to promote discipline' carries no disparagement, yet the charge is negative; note and charge cannot both be right.",
+    "definition": "designed to promote discipline",
+    "tone": "Names correction or punishment in neutral, official language."
+   }
+  ],
+  "oewn-01740820-s": [
+   {
+    "id": "longanimous.oewn-01740820-s",
+    "word": "longanimous",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "The gloss covers restraint under adversity generally (its own example is 'in the face of suffering'), but the note reduces it to 'patience when provoked', dropping the bearing-of-suffering half.",
+    "definition": "showing patient and unruffled self-control and restraint under adversity; slow to retaliate or express resentment",
+    "tone": "Patience when provoked, in the most formal word for it."
+   }
+  ],
+  "oewn-01902992-s": [
+   {
+    "id": "agitating.oewn-01902992-s",
+    "word": "agitating",
+    "verdict": "wrong",
+    "fault": "restriction",
+    "why": "The gloss covers 'causing or tending to cause', but the note claims the -ing form means anger 'being stirred now' and hands the settled, dispositional reading to *agitative*, narrowing this word past its gloss on the strength of an invented aspect distinction.",
+    "definition": "causing or tending to cause anger or resentment",
+    "tone": "The *-ing* form keeps the effect happening: anger or resentment being stirred now, where *agitative* names a settled quality."
+   }
+  ],
+  "oewn-01932488-s": [
+   {
+    "id": "intelligent.oewn-01932488-s",
+    "word": "intelligent",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "This gloss is the bare capacity-to-reason sense ('intelligent life', beside *reasoning* and *thinking*), which classifies rather than praises; the note's 'turns it into a compliment' and the positive charge import the word's commonest high-degree sense.",
+    "definition": "endowed with the capacity to reason",
+    "tone": "Turns the simple ability to reason into a compliment, where *reasoning* and *thinking* only note that the ability is there."
+   }
+  ],
+  "oewn-02354846-s": [
+   {
+    "id": "tawdry.oewn-02354846-s",
+    "word": "tawdry",
+    "verdict": "wrong",
+    "fault": "gloss-mismatch",
+    "why": "The gloss is plain inferior workmanship and materials, but the note grounds the scorn in 'trying to look flashy', which is the separate tastelessly-showy sense.",
+    "definition": "made of inferior workmanship and materials",
+    "tone": "Cheapness trying to look flashy - which is what makes it worth scorn, not merely poor."
+   }
+  ]
+ }
+}

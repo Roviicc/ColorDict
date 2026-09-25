@@ -1,0 +1,783 @@
+{
+ "repairs": [
+  {
+   "id": "amplify.oewn-00841513-v",
+   "word": "amplify",
+   "gloss": "to enlarge beyond bounds or the truth",
+   "charge": 0,
+   "current_note": "Only says something was made bigger; the fault is in going too far, not the word, so it accuses least of the three.",
+   "fault": "gloss-mismatch",
+   "reader_said": "The gloss builds the excess into the word ('enlarge beyond bounds or the truth'), but the note says it 'only says something was made bigger' and puts the fault outside the word, which describes the plain make-larger sense and drives an implausible neutral charge.",
+   "axis": "swelling something past its true size → planting an outright falsehood in a believer",
+   "examples": [],
+   "synset_siblings": [
+    {
+     "word": "magnify",
+     "charge": -1,
+     "tone": "Makes the thing itself loom larger, so the overreach shows in the size of the picture rather than in a claim stated outright."
+    },
+    {
+     "word": "exaggerate",
+     "charge": -2,
+     "tone": "The plain accusation of overstating - past reasonable limits or past the truth - always implying the real size is smaller."
+    }
+   ],
+   "whole_family": [
+    {
+     "word": "deceive",
+     "gloss": "cause someone to believe an untruth",
+     "charge": -2,
+     "tone": "Names the act by its result — the untruth has landed and is believed — where *mislead* stops at the information handed over."
+    },
+    {
+     "word": "betray",
+     "gloss": "cause someone to believe an untruth",
+     "charge": -3,
+     "tone": "The same planting of a false belief as *deceive*, but seen as breaking the trust that made the believing possible."
+    },
+    {
+     "word": "lie",
+     "gloss": "tell an untruth; pretend with intent to deceive",
+     "charge": -3,
+     "tone": "Flat and unsoftened, covering both the untruth spoken and the pretence behind it, with no room left for an innocent reading."
+    },
+    {
+     "word": "mislead",
+     "gloss": "give false or misleading information to",
+     "charge": -1,
+     "tone": "The gentlest of the deceptions: it charges only the false or misleading information given and leaves intent unsettled, where *lie* settles it."
+    },
+    {
+     "word": "magnify",
+     "gloss": "to enlarge beyond bounds or the truth",
+     "charge": -1,
+     "tone": "Makes the thing itself loom larger, so the overreach shows in the size of the picture rather than in a claim stated outright."
+    },
+    {
+     "word": "exaggerate",
+     "gloss": "to enlarge beyond bounds or the truth",
+     "charge": -2,
+     "tone": "The plain accusation of overstating - past reasonable limits or past the truth - always implying the real size is smaller."
+    },
+    {
+     "word": "amplify",
+     "gloss": "to enlarge beyond bounds or the truth",
+     "charge": 0,
+     "tone": "Only says something was made bigger; the fault is in going too far, not the word, so it accuses least of the three."
+    }
+   ]
+  },
+  {
+   "id": "heaven-sent.oewn-01052675-s",
+   "word": "heaven-sent",
+   "gloss": "peculiarly fortunate or appropriate; as if by divine intervention",
+   "charge": 3,
+   "current_note": "Deeply thankful - the timing was so right it tempts you to say heaven stepped in.",
+   "fault": "restriction",
+   "reader_said": "The note makes the word about timing ('the timing was so right'), but the gloss covers anything peculiarly fortunate or appropriate, including a person or a gift, not just a well-timed event.",
+   "axis": "lucky by chance → as if intended",
+   "examples": [
+    "a heaven-sent rain saved the crops"
+   ],
+   "synset_siblings": [
+    {
+     "word": "providential",
+     "charge": 3,
+     "tone": "The graver word for that aptness, and it treats the rescue as intended rather than lucky."
+    },
+    {
+     "word": "miraculous",
+     "charge": 3,
+     "tone": "The strongest of the three: it does not merely note the aptness, it marvels at it."
+    }
+   ],
+   "whole_family": [
+    {
+     "word": "fortunate",
+     "gloss": "having unexpected good fortune",
+     "charge": 3,
+     "tone": "Approval with the surprise kept in - the good turn was neither earned nor expected."
+    },
+    {
+     "word": "better off",
+     "gloss": "in a more fortunate or prosperous condition",
+     "charge": 2,
+     "tone": "Built as a comparison - it always means better than something, and never says what."
+    },
+    {
+     "word": "felicitous",
+     "gloss": "marked by good fortune",
+     "charge": 3,
+     "tone": "Formal and pleased, treating the good fortune as elegant rather than merely welcome."
+    },
+    {
+     "word": "happy",
+     "gloss": "marked by good fortune",
+     "charge": 2,
+     "tone": "Good fortune, not gladness - the luck sits in the outcome rather than in anyone's feelings."
+    },
+    {
+     "word": "fortuitous",
+     "gloss": "occurring by happy chance",
+     "charge": 2,
+     "tone": "Insists on the chance: the good outcome arrived unsteered."
+    },
+    {
+     "word": "good",
+     "gloss": "resulting favorably",
+     "charge": 2,
+     "tone": "The barest approval available - the result went the right way, and nothing more is claimed."
+    },
+    {
+     "word": "well",
+     "gloss": "resulting favorably",
+     "charge": 2,
+     "tone": "Approval of how a thing turned out, judged by the ending rather than by the doing."
+    },
+    {
+     "word": "heaven-sent",
+     "gloss": "peculiarly fortunate or appropriate; as if by divine intervention",
+     "charge": 3,
+     "tone": "Deeply thankful - the timing was so right it tempts you to say heaven stepped in."
+    },
+    {
+     "word": "providential",
+     "gloss": "peculiarly fortunate or appropriate; as if by divine intervention",
+     "charge": 3,
+     "tone": "The graver word for that aptness, and it treats the rescue as intended rather than lucky."
+    },
+    {
+     "word": "miraculous",
+     "gloss": "peculiarly fortunate or appropriate; as if by divine intervention",
+     "charge": 3,
+     "tone": "The strongest of the three: it does not merely note the aptness, it marvels at it."
+    },
+    {
+     "word": "lucky",
+     "gloss": "occurring by chance",
+     "charge": 2,
+     "tone": "Plain and cheerful; it credits the chance and takes nothing away from the person."
+    },
+    {
+     "word": "well-off",
+     "gloss": "fortunately situated",
+     "charge": 2,
+     "tone": "Fortune as a position someone occupies rather than an event that befell them."
+    }
+   ]
+  },
+  {
+   "id": "musty.oewn-01073758-s",
+   "word": "musty",
+   "gloss": "covered with or smelling of mold",
+   "charge": -1,
+   "current_note": "The gentlest of the three words for mold seen on the food or smelled off it, with none of *moldy*'s bluntness.",
+   "fault": "restriction",
+   "reader_said": "The note confines the word to mold 'on the food or smelled off it', but the gloss is 'covered with or smelling of mold' with no food limit, and the only example is a bare odor.",
+   "axis": "merely past its freshness → rotted, foul and crawling",
+   "examples": [
+    "a moldy (or musty) odor"
+   ],
+   "synset_siblings": [
+    {
+     "word": "moldy",
+     "charge": -2,
+     "tone": "A specific and repellent charge — the growth seen on the food or smelled off it — where *bad* offers only a ruling."
+    },
+    {
+     "word": "mouldy",
+     "charge": -2,
+     "tone": "British spelling of *moldy*, just as exact about mold either seen or smelled."
+    }
+   ],
+   "whole_family": [
+    {
+     "word": "stale",
+     "gloss": "lacking freshness, palatability, or showing deterioration from age",
+     "charge": -1,
+     "tone": "The plainest word for lost freshness - taste gone, or condition gone with age - where *bad* goes further: unfit to eat."
+    },
+    {
+     "word": "addled",
+     "gloss": "(of eggs) no longer edible",
+     "charge": -2,
+     "tone": "A flat verdict on an egg: not merely aging but past eating, and far blunter about it than *stale*."
+    },
+    {
+     "word": "bad",
+     "gloss": "(of foodstuffs) not in an edible or usable condition",
+     "charge": -2,
+     "tone": "The blankest possible condemnation — no mold, no smell, no rot named, just the ruling that the food can no longer be eaten or used."
+    },
+    {
+     "word": "spoiled",
+     "gloss": "(of foodstuffs) not in an edible or usable condition",
+     "charge": -2,
+     "tone": "Frames the same loss — no longer edible or usable — as damage done to the food, a ruin rather than *bad*'s bare verdict."
+    },
+    {
+     "word": "spoilt",
+     "gloss": "(of foodstuffs) not in an edible or usable condition",
+     "charge": -2,
+     "tone": "British spelling of *spoiled*, identical in force and equally final about food past eating or using."
+    },
+    {
+     "word": "cold",
+     "gloss": "having lost freshness through passage of time",
+     "charge": -1,
+     "tone": "Understated, almost a gentler way to say *stale*: it notes only that time has passed and taken the freshness with it."
+    },
+    {
+     "word": "day-old",
+     "gloss": "not fresh today",
+     "charge": 0,
+     "tone": "Purely a matter of the calendar — it dates the food and leaves the verdict unspoken, where *stale* delivers one."
+    },
+    {
+     "word": "hard",
+     "gloss": "dried out",
+     "charge": -1,
+     "tone": "Names lost moisture, not foulness: a fault of texture, with none of the disgust in *rotten* or *rancid*."
+    },
+    {
+     "word": "flyblown",
+     "gloss": "spoiled and covered with eggs and larvae of flies",
+     "charge": -3,
+     "tone": "Disgust made literal: the ruin is not merely named but shown, with the flies' eggs and larvae sitting on it."
+    },
+    {
+     "word": "maggoty",
+     "gloss": "spoiled and covered with eggs and larvae of flies",
+     "charge": -3,
+     "tone": "The same eggs and larvae as *flyblown*, but with the crawling maggots right in front of you - the harder word to hear."
+    },
+    {
+     "word": "moldy",
+     "gloss": "covered with or smelling of mold",
+     "charge": -2,
+     "tone": "A specific and repellent charge — the growth seen on the food or smelled off it — where *bad* offers only a ruling."
+    },
+    {
+     "word": "mouldy",
+     "gloss": "covered with or smelling of mold",
+     "charge": -2,
+     "tone": "British spelling of *moldy*, just as exact about mold either seen or smelled."
+    },
+    {
+     "word": "musty",
+     "gloss": "covered with or smelling of mold",
+     "charge": -1,
+     "tone": "The gentlest of the three words for mold seen on the food or smelled off it, with none of *moldy*'s bluntness."
+    },
+    {
+     "word": "rancid",
+     "gloss": "(used of decomposing oils or fats) having a rank smell or taste usually due to a chemical change or decomposition",
+     "charge": -2,
+     "tone": "Names the strong, foul smell or taste of decaying fats and oils - an accusation from the senses, not *bad*'s bare ruling."
+    },
+    {
+     "word": "rotten",
+     "gloss": "having decayed or disintegrated; usually implies foulness",
+     "charge": -3,
+     "tone": "The word for full collapse — decay carried through to disintegration, and foulness with it."
+    },
+    {
+     "word": "corrupt",
+     "gloss": "touched by rot or decay",
+     "charge": -2,
+     "tone": "Formal, almost delicate for what it names: rot or decay has only touched the thing, not finished it as in *rotten*."
+    }
+   ]
+  },
+  {
+   "id": "disciplinary.oewn-01303596-s",
+   "word": "disciplinary",
+   "gloss": "designed to promote discipline",
+   "charge": -1,
+   "current_note": "Names correction or punishment in neutral, official language.",
+   "fault": "wrong-charge",
+   "reader_said": "The note itself says the word names correction 'in neutral, official language' and the gloss 'designed to promote discipline' carries no disparagement, yet the charge is negative; note and charge cannot both be right.",
+   "axis": "moralising severity → plain strictness",
+   "examples": [
+    "the mother was stern and disciplinary"
+   ],
+   "synset_siblings": [
+    {
+     "word": "corrective",
+     "charge": 0,
+     "tone": "Official, and a gentler way to name discipline - it is what discipline is called in a report."
+    },
+    {
+     "word": "disciplinal",
+     "charge": -1,
+     "tone": "The stiffer twin of *disciplinary*, with the same official flatness."
+    }
+   ],
+   "whole_family": [
+    {
+     "word": "nonindulgent",
+     "gloss": "characterized by strictness, severity, or restraint",
+     "charge": 0,
+     "tone": "A dictionary word rather than a spoken one; it names the absence and stops."
+    },
+    {
+     "word": "strict",
+     "gloss": "characterized by strictness, severity, or restraint",
+     "charge": 0,
+     "tone": "Neutral in the balance - a strict teacher is a complaint or a compliment depending on the year."
+    },
+    {
+     "word": "austere",
+     "gloss": "of a stern or strict bearing or demeanor; forbidding in aspect",
+     "charge": -1,
+     "tone": "Stern without malice - a coldness of bearing rather than of intent."
+    },
+    {
+     "word": "stern",
+     "gloss": "of a stern or strict bearing or demeanor; forbidding in aspect",
+     "charge": -1,
+     "tone": "The face more than the rule; sternness is something the other person can see."
+    },
+    {
+     "word": "blue",
+     "gloss": "morally rigorous and strict",
+     "charge": -1,
+     "tone": "Strictness of the Sabbath-law kind: moral rigour written into rules."
+    },
+    {
+     "word": "puritanic",
+     "gloss": "morally rigorous and strict",
+     "charge": -2,
+     "tone": "Borrows a whole religious movement to say *no pleasure allowed*."
+    },
+    {
+     "word": "puritanical",
+     "gloss": "morally rigorous and strict",
+     "charge": -2,
+     "tone": "The accusing form - it makes a fault of the strictness rather than a virtue."
+    },
+    {
+     "word": "corrective",
+     "gloss": "designed to promote discipline",
+     "charge": 0,
+     "tone": "Official, and a gentler way to name discipline - it is what discipline is called in a report."
+    },
+    {
+     "word": "disciplinary",
+     "gloss": "designed to promote discipline",
+     "charge": -1,
+     "tone": "Names correction or punishment in neutral, official language."
+    },
+    {
+     "word": "disciplinal",
+     "gloss": "designed to promote discipline",
+     "charge": -1,
+     "tone": "The stiffer twin of *disciplinary*, with the same official flatness."
+    },
+    {
+     "word": "monkish",
+     "gloss": "befitting a monk; inclined to self-denial",
+     "charge": -1,
+     "tone": "Self-denial by vocation, and slightly mocking when applied outside a monastery."
+    }
+   ]
+  },
+  {
+   "id": "longanimous.oewn-01740820-s",
+   "word": "longanimous",
+   "gloss": "showing patient and unruffled self-control and restraint under adversity; slow to retaliate or express resentment",
+   "charge": 1,
+   "current_note": "Patience when provoked, in the most formal word for it.",
+   "fault": "restriction",
+   "reader_said": "The gloss covers restraint under adversity generally (its own example is 'in the face of suffering'), but the note reduces it to 'patience when provoked', dropping the bearing-of-suffering half.",
+   "axis": "dogged → serene",
+   "examples": [
+    "was longanimous in the face of suffering"
+   ],
+   "synset_siblings": [
+    {
+     "word": "forbearing",
+     "charge": 3,
+     "tone": "Restraint under provocation, when retaliation was available and was declined."
+    }
+   ],
+   "whole_family": [
+    {
+     "word": "patient",
+     "gloss": "enduring trying circumstances with even temper or characterized by such endurance",
+     "charge": 3,
+     "tone": "Endurance with an even temper - the temper is what distinguishes it from mere waiting."
+    },
+    {
+     "word": "diligent",
+     "gloss": "quietly and steadily persevering especially in detail or exactness",
+     "charge": 2,
+     "tone": "Patience aimed at work, and it praises the steadiness rather than the result."
+    },
+    {
+     "word": "persevering",
+     "gloss": "quietly and steadily persevering especially in detail or exactness",
+     "charge": 2,
+     "tone": "The same steadiness against resistance; it presumes there was reason to stop."
+    },
+    {
+     "word": "enduring",
+     "gloss": "patiently bearing continual wrongs or trouble",
+     "charge": 2,
+     "tone": "Praise for the bearing - the wrongs are continual and the patience holds."
+    },
+    {
+     "word": "long-suffering",
+     "gloss": "patiently bearing continual wrongs or trouble",
+     "charge": 1,
+     "tone": "Faintly complaining on the person's behalf - the trouble should have ended by now."
+    },
+    {
+     "word": "forbearing",
+     "gloss": "showing patient and unruffled self-control and restraint under adversity; slow to retaliate or express resentment",
+     "charge": 3,
+     "tone": "Restraint under provocation, when retaliation was available and was declined."
+    },
+    {
+     "word": "longanimous",
+     "gloss": "showing patient and unruffled self-control and restraint under adversity; slow to retaliate or express resentment",
+     "charge": 1,
+     "tone": "Patience when provoked, in the most formal word for it."
+    },
+    {
+     "word": "tolerant",
+     "gloss": "showing the capacity for endurance",
+     "charge": 2,
+     "tone": "Endurance credited as a virtue - hardship borne without complaint."
+    },
+    {
+     "word": "patient of",
+     "gloss": "showing the capacity for endurance",
+     "charge": 1,
+     "tone": "A construction rather than a word - *patient of delay* - and formal to the point of stiffness."
+    }
+   ]
+  },
+  {
+   "id": "agitating.oewn-01902992-s",
+   "word": "agitating",
+   "gloss": "causing or tending to cause anger or resentment",
+   "charge": -2,
+   "current_note": "The *-ing* form keeps the effect happening: anger or resentment being stirred now, where *agitative* names a settled quality.",
+   "fault": "restriction",
+   "reader_said": "The gloss covers 'causing or tending to cause', but the note claims the -ing form means anger 'being stirred now' and hands the settled, dispositional reading to *agitative*, narrowing this word past its gloss on the strength of an invented aspect distinction.",
+   "axis": "stirring discussion → inciting revolt",
+   "examples": [],
+   "synset_siblings": [
+    {
+     "word": "agitative",
+     "charge": -2,
+     "tone": "Flat and clinical for what it describes, labelling a thing as anger-producing by disposition rather than catching the anger or resentment in the act."
+    },
+    {
+     "word": "provoking",
+     "charge": -2,
+     "tone": "Blunt and personal beside the clinical *agitative* - the anger or resentment it names is felt as an affront by someone in particular."
+    }
+   ],
+   "whole_family": [
+    {
+     "word": "provocative",
+     "gloss": "serving or tending to provoke, excite, or stimulate; stimulating discussion or exciting controversy",
+     "charge": 0,
+     "tone": "Neutral: the power to excite, stir or set off controversy, without saying if that is welcome, where *provoking* narrows it to anger."
+    },
+    {
+     "word": "agitative",
+     "gloss": "causing or tending to cause anger or resentment",
+     "charge": -2,
+     "tone": "Flat and clinical for what it describes, labelling a thing as anger-producing by disposition rather than catching the anger or resentment in the act."
+    },
+    {
+     "word": "agitating",
+     "gloss": "causing or tending to cause anger or resentment",
+     "charge": -2,
+     "tone": "The *-ing* form keeps the effect happening: anger or resentment being stirred now, where *agitative* names a settled quality."
+    },
+    {
+     "word": "provoking",
+     "gloss": "causing or tending to cause anger or resentment",
+     "charge": -2,
+     "tone": "Blunt and personal beside the clinical *agitative* - the anger or resentment it names is felt as an affront by someone in particular."
+    },
+    {
+     "word": "challenging",
+     "gloss": "disturbingly provocative",
+     "charge": 0,
+     "tone": "The disturbance is set before you as something to be met, so the discomfort arrives with a demand attached rather than a verdict."
+    },
+    {
+     "word": "intriguing",
+     "gloss": "disturbingly provocative",
+     "charge": 1,
+     "tone": "Here the disturbance pulls instead of repelling - what unsettles is also what fascinates, where *challenging* wants an answer out of you."
+    },
+    {
+     "word": "charged",
+     "gloss": "capable of producing violent emotion or arousing controversy",
+     "charge": -1,
+     "tone": "A load waiting to go off: violent feeling or controversy stored up, where *inflammatory* is already at work."
+    },
+    {
+     "word": "incendiary",
+     "gloss": "arousing to action or rebellion",
+     "charge": -2,
+     "tone": "Carries the image of a fire set on purpose, so stirring people to act or to rise is treated as damage waiting to happen."
+    },
+    {
+     "word": "incitive",
+     "gloss": "arousing to action or rebellion",
+     "charge": -1,
+     "tone": "A bare, near-technical label for the same power to move people to action or revolt, with none of the heat *incendiary* puts under it."
+    },
+    {
+     "word": "inflammatory",
+     "gloss": "arousing to action or rebellion",
+     "charge": -2,
+     "tone": "The heat is the whole point: the thing is what lights the fire of action or rebellion, not just the occasion for it."
+    },
+    {
+     "word": "instigative",
+     "gloss": "arousing to action or rebellion",
+     "charge": -1,
+     "tone": "Points past the blaze to the hand behind it, naming what starts the action or the rising rather than how fiercely it burns."
+    },
+    {
+     "word": "rabble-rousing",
+     "gloss": "arousing to action or rebellion",
+     "charge": -3,
+     "tone": "Contempt running both ways - it belittles those stirred to act as a mob and denies the stirring any cause worth having."
+    },
+    {
+     "word": "seditious",
+     "gloss": "arousing to action or rebellion",
+     "charge": -3,
+     "tone": "The gravest word here - it treats rousing people to action or revolt as an offence against authority, where *incendiary* only warns of the fire."
+    },
+    {
+     "word": "rousing",
+     "gloss": "rousing to activity or heightened action as by spurring or goading",
+     "charge": 1,
+     "tone": "The one welcome stirring here, though the push behind it keeps an edge of being driven to act rather than persuaded."
+    }
+   ]
+  },
+  {
+   "id": "intelligent.oewn-01932488-s",
+   "word": "intelligent",
+   "gloss": "endowed with the capacity to reason",
+   "charge": 1,
+   "current_note": "Turns the simple ability to reason into a compliment, where *reasoning* and *thinking* only note that the ability is there.",
+   "fault": "gloss-mismatch",
+   "reader_said": "This gloss is the bare capacity-to-reason sense ('intelligent life', beside *reasoning* and *thinking*), which classifies rather than praises; the note's 'turns it into a compliment' and the positive charge import the word's commonest high-degree sense.",
+   "axis": "bare possession of the reasoning faculty → reason praised as sound judgment",
+   "examples": [],
+   "synset_siblings": [
+    {
+     "word": "reasoning",
+     "charge": 0,
+     "tone": "Purely descriptive - states that the faculty is present and stops, extending none of the credit *intelligent* does for it."
+    },
+    {
+     "word": "thinking",
+     "charge": 0,
+     "tone": "Neutral in the way *reasoning* is, marking the capacity as a plain attribute rather than a merit."
+    }
+   ],
+   "whole_family": [
+    {
+     "word": "rational",
+     "gloss": "consistent with or based on or using reason",
+     "charge": 1,
+     "tone": "Approves by pointing at the grounds - the thing rests on reason - where *reasonable* praises the quality of the judgment actually reached."
+    },
+    {
+     "word": "coherent",
+     "gloss": "capable of thinking and expressing yourself in a clear and consistent manner",
+     "charge": 1,
+     "tone": "Praise at its lowest setting: the thought holds together and comes out clear, a floor cleared rather than the brightness *lucid* claims."
+    },
+    {
+     "word": "logical",
+     "gloss": "capable of thinking and expressing yourself in a clear and consistent manner",
+     "charge": 1,
+     "tone": "Dry, near-technical commendation - the clear consistent thinking treated as something that works by rule, with none of *lucid*'s warmth."
+    },
+    {
+     "word": "lucid",
+     "gloss": "capable of thinking and expressing yourself in a clear and consistent manner",
+     "charge": 2,
+     "tone": "The warmest of the three: the same clear consistent thinking praised as brightness, where *coherent* merely reports that it hangs together."
+    },
+    {
+     "word": "demythologized",
+     "gloss": "having mythical elements removed",
+     "charge": 0,
+     "tone": "Flatly descriptive - records that the mythical element is gone without approving or regretting its removal."
+    },
+    {
+     "word": "demythologised",
+     "gloss": "having mythical elements removed",
+     "charge": 0,
+     "tone": "Carries no more judgment than *demythologized*: the stripping of myth is stated, not celebrated or mourned."
+    },
+    {
+     "word": "intelligent",
+     "gloss": "endowed with the capacity to reason",
+     "charge": 1,
+     "tone": "Turns the simple ability to reason into a compliment, where *reasoning* and *thinking* only note that the ability is there."
+    },
+    {
+     "word": "reasoning",
+     "gloss": "endowed with the capacity to reason",
+     "charge": 0,
+     "tone": "Purely descriptive - states that the faculty is present and stops, extending none of the credit *intelligent* does for it."
+    },
+    {
+     "word": "thinking",
+     "gloss": "endowed with the capacity to reason",
+     "charge": 0,
+     "tone": "Neutral in the way *reasoning* is, marking the capacity as a plain attribute rather than a merit."
+    },
+    {
+     "word": "reasonable",
+     "gloss": "marked by sound judgment; having good reason",
+     "charge": 2,
+     "tone": "Solid approval of judgment exercised well, going past *rational*'s weaker claim that reason was involved at all."
+    },
+    {
+     "word": "sane",
+     "gloss": "marked by sound judgment; having good reason",
+     "charge": 2,
+     "tone": "Sound judgment as the basic standard a mind must meet, not a prize it wins, which gives it a weight *reasonable* lacks."
+    }
+   ]
+  },
+  {
+   "id": "tawdry.oewn-02354846-s",
+   "word": "tawdry",
+   "gloss": "made of inferior workmanship and materials",
+   "charge": -3,
+   "current_note": "Cheapness trying to look flashy - which is what makes it worth scorn, not merely poor.",
+   "fault": "gloss-mismatch",
+   "reader_said": "The gloss is plain inferior workmanship and materials, but the note grounds the scorn in 'trying to look flashy', which is the separate tastelessly-showy sense.",
+   "axis": "worthless → merely second-rate",
+   "examples": [],
+   "synset_siblings": [
+    {
+     "word": "cheapjack",
+     "charge": -3,
+     "tone": "Shoddy goods and the hard sell that moves them; it doubts the seller as much as the thing."
+    },
+    {
+     "word": "shoddy",
+     "charge": -3,
+     "tone": "Poor work passed off as sound - the pretence is as much of the charge as the quality."
+    }
+   ],
+   "whole_family": [
+    {
+     "word": "inferior",
+     "gloss": "of low or inferior quality",
+     "charge": -2,
+     "tone": "A cold comparison - it needs something better to exist before it means anything."
+    },
+    {
+     "word": "bad",
+     "gloss": "below average in quality or performance",
+     "charge": -2,
+     "tone": "The broadest word in English doing narrow work: below average, and nothing more."
+    },
+    {
+     "word": "base",
+     "gloss": "(used of metals) consisting of or alloyed with inferior metal",
+     "charge": -1,
+     "tone": "Technical of metals - a grading judgement, not a moral one."
+    },
+    {
+     "word": "bum",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "American and dismissive - *a bum deal*, *a bum knee*."
+    },
+    {
+     "word": "cheap",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "Price used as a verdict on quality, which is the oldest trick in the word."
+    },
+    {
+     "word": "cheesy",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "Poor quality worn openly - the contempt can carry affection, the badness part of the appeal."
+    },
+    {
+     "word": "chintzy",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "Cheapness with a whiff of the shabby-genteel about it."
+    },
+    {
+     "word": "crummy",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "Plain and unliterary, and it complains about the thing rather than sneering at it."
+    },
+    {
+     "word": "punk",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -1,
+     "tone": "Dated slang for poor quality - shabby, and slightly comic for being so dated."
+    },
+    {
+     "word": "sleazy",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -3,
+     "tone": "Adds moral squalor to shoddiness - the thing is cheap and slightly corrupt."
+    },
+    {
+     "word": "tinny",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -1,
+     "tone": "Cheapness of material - flimsy, as if pressed from thin metal."
+    },
+    {
+     "word": "bush-league",
+     "gloss": "not of the highest quality or sophistication",
+     "charge": -2,
+     "tone": "Condescension rather than anger - it rates the thing as small-time and leaves it there."
+    },
+    {
+     "word": "bush",
+     "gloss": "not of the highest quality or sophistication",
+     "charge": -2,
+     "tone": "Dismissive - amateur, small-time, second-rate."
+    },
+    {
+     "word": "cheapjack",
+     "gloss": "made of inferior workmanship and materials",
+     "charge": -3,
+     "tone": "Shoddy goods and the hard sell that moves them; it doubts the seller as much as the thing."
+    },
+    {
+     "word": "shoddy",
+     "gloss": "made of inferior workmanship and materials",
+     "charge": -3,
+     "tone": "Poor work passed off as sound - the pretence is as much of the charge as the quality."
+    },
+    {
+     "word": "tawdry",
+     "gloss": "made of inferior workmanship and materials",
+     "charge": -3,
+     "tone": "Cheapness trying to look flashy - which is what makes it worth scorn, not merely poor."
+    }
+   ]
+  }
+ ]
+}
