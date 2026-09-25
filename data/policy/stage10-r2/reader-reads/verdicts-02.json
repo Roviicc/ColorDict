@@ -1,0 +1,79 @@
+{"packet": 2, "verdicts": [
+ {"word": "history", "pos": "noun",
+  "rank": "right", "why": "Two of three sentences (Wickham's invented account, Lydia's histories of parties) use the narrative-description sense listed first, while the painting sentence fits the continuum sense listed fourth.",
+  "senses": [
+   {"synset": "oewn-06526084-n", "verdict": "right", "fault": null, "why": "Learner line and example (Wickham's invented history) both match the narrative-description gloss."},
+   {"synset": "oewn-15146348-n", "verdict": "right", "fault": null, "why": "\"the town's history\" as aggregate of past events matches the gloss and learner line."},
+   {"synset": "oewn-06165265-n", "verdict": "right", "fault": null, "why": "\"studying history at university\" matches the academic-discipline gloss."},
+   {"synset": "oewn-15148913-n", "verdict": "right", "fault": null, "why": "The example places Memling and Meissonier 'at one end' and 'the other' of a timeline, matching the continuum-of-events gloss."},
+   {"synset": "oewn-06166450-n", "verdict": "right", "fault": null, "why": "\"recorded history\" matches the gloss about what is preserved in writing."}
+  ]},
+ {"word": "induce", "pos": "verb",
+  "rank": "right", "why": "All five book sentences use induce to mean causing someone to act a certain way, matching the sense listed first.",
+  "senses": [
+   {"synset": "oewn-00772482-v", "verdict": "right", "fault": null, "why": "Learner line and both examples match 'cause to do; cause to act in a specified manner'."},
+   {"synset": "oewn-01647592-v", "verdict": "right", "fault": null, "why": "\"induced a crisis\" matches 'cause to arise'."},
+   {"synset": "oewn-01648064-v", "verdict": "right", "fault": null, "why": "\"induce labour\" is the standard example for this sense and matches the gloss."},
+   {"synset": "oewn-00638103-v", "verdict": "right", "fault": null, "why": "Example and learner line match reasoning by induction, and 'technical' is a fair label for this logical/scientific usage."},
+   {"synset": "oewn-01741298-v", "verdict": "right", "fault": null, "why": "Example matches producing current by magnetic induction, and 'technical' is clearly justified for this physics term."}
+  ]},
+ {"word": "pain", "pos": "verb",
+  "rank": "right", "why": "The only genuine verb occurrence ('did not pain her') matches the emotional-anguish sense listed first; the other five sentences use 'pain' as a noun.",
+  "senses": [
+   {"synset": "oewn-01796596-v", "verdict": "right", "fault": null, "why": "Learner line and example match causing emotional anguish/misery without adding judgment."},
+   {"synset": "oewn-00070587-v", "verdict": "right", "fault": null, "why": "Example ('old wound still pains him') matches the bodily-suffering gloss."}
+  ]},
+ {"word": "voluntarily", "pos": "adverb",
+  "rank": "right", "why": "All six sentences use voluntarily to mean acting from free will, the only sense listed.",
+  "senses": [
+   {"synset": "oewn-00233496-r", "verdict": "right", "fault": null, "why": "Learner line and both examples match 'out of your own free will'."}
+  ]},
+ {"word": "discuss", "pos": "verb",
+  "rank": "right", "why": "All three sentences show people talking something over together, matching the sense listed first.",
+  "senses": [
+   {"synset": "oewn-00815640-v", "verdict": "right", "fault": null, "why": "Learner line and both examples match talking something over with others."},
+   {"synset": "oewn-01036184-v", "verdict": "right", "fault": null, "why": "Example ('chapter discusses the causes') matches examining a subject in writing."}
+  ]},
+ {"word": "joke", "pos": "noun",
+  "rank": "right", "why": "Three of four sentences (the good joke about going out, Lydia's good jokes, 'what a good joke it will be') use the humorous-anecdote sense listed first.",
+  "senses": [
+   {"synset": "oewn-06790941-n", "verdict": "right", "fault": null, "why": "Learner line and example match a funny remark meant to provoke laughter."},
+   {"synset": "oewn-00428583-n", "verdict": "right", "fault": null, "why": "Example (hiding shoes as a prank) matches a silly act done for fun."},
+   {"synset": "oewn-05180970-n", "verdict": "right", "fault": null, "why": "Example ('his plan... was a joke') matches dismissing something as trivial, and the candidate connotation is justified since calling something 'a joke' this way is dismissive."},
+   {"synset": "oewn-00431990-n", "verdict": "right", "fault": null, "why": "Example ('half in joke, half in earnest') matches activity characterized by good humor."}
+  ]},
+ {"word": "office", "pos": "noun",
+  "rank": "right", "why": "All three sentences use office to mean a duty or task assigned/expected, matching the sense listed first.",
+  "senses": [
+   {"synset": "oewn-00721817-n", "verdict": "right", "fault": null, "why": "Learner line covers all three alternatives (given, must do, expected) and both examples match."},
+   {"synset": "oewn-03847186-n", "verdict": "right", "fault": null, "why": "Example matches a workplace building/room."},
+   {"synset": "oewn-00587299-n", "verdict": "right", "fault": null, "why": "Example ('held the office of treasurer') matches a job/position."},
+   {"synset": "oewn-13968154-n", "verdict": "right", "fault": null, "why": "Example ('in office, he cut taxes') matches being in power."},
+   {"synset": "oewn-08369230-n", "verdict": "right", "fault": null, "why": "Example ('the whole office went out for lunch') matches the collective-workers sense."},
+   {"synset": "oewn-08354251-n", "verdict": "right", "fault": null, "why": "Example ('the Foreign Office issued a statement') matches an administrative government unit."},
+   {"synset": "oewn-01035490-n", "verdict": "right", "fault": null, "why": "Example ('read the office for the dead') matches a prescribed religious rite."}
+  ]},
+ {"word": "attack", "pos": "verb",
+  "rank": "right", "why": "The verb instance ('is attacked'/'attacks first') and the surrounding noun uses of attack in the same passages all describe verbal hostility/criticism, matching the sense listed first.",
+  "senses": [
+   {"synset": "oewn-00864347-v", "verdict": "right", "fault": null, "why": "Learner line and example match attacking in speech, and the candidate connotation is justified since calling criticism an 'attack' frames it as hostile aggression."},
+   {"synset": "oewn-01121587-v", "verdict": "right", "fault": null, "why": "Example ('the army attacked the town') matches launching a military assault, a neutral descriptive military term."},
+   {"synset": "oewn-01122487-v", "verdict": "right", "fault": null, "why": "Example (mugging in the street) matches physically attacking someone."},
+   {"synset": "oewn-01120867-v", "verdict": "right", "fault": null, "why": "Example (team attacking in the second half) matches taking the offensive in sport."},
+   {"synset": "oewn-00348264-v", "verdict": "right", "fault": null, "why": "Example ('attacked the pile of letters') matches vigorously starting a task."},
+   {"synset": "oewn-00019785-v", "verdict": "right", "fault": null, "why": "Example ('disease attacks the lungs') matches beginning to injure."}
+  ]},
+ {"word": "consistent", "pos": "adjective",
+  "rank": "right", "why": "All three sentences use consistent (with) to mean in agreement/reliable, the sense listed first.",
+  "senses": [
+   {"synset": "oewn-00579031-a", "verdict": "right", "fault": null, "why": "Learner line preserves both alternatives (agreement, reliable) and both examples match."},
+   {"synset": "oewn-01203638-s", "verdict": "right", "fault": null, "why": "Example (paint colour with no streaks) matches uniform composition throughout."},
+   {"synset": "oewn-00466504-a", "verdict": "right", "fault": null, "why": "Example (novel's consistent world) matches an orderly, logical relation of parts."},
+   {"synset": "oewn-01873946-a", "verdict": "right", "fault": null, "why": "Example (other labs getting the same numbers) matches reproducibility."}
+  ]},
+ {"word": "obey", "pos": "verb",
+  "rank": "right", "why": "All four sentences use obey to mean being obedient to a person or rule, the only sense listed.",
+  "senses": [
+   {"synset": "oewn-02548492-v", "verdict": "right", "fault": null, "why": "Learner line and both examples match 'be obedient to'."}
+  ]}
+]}
