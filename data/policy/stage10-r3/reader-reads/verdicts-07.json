@@ -1,0 +1,72 @@
+{"packet": 7, "verdicts": [
+ {"word": "describe", "pos": "verb",
+  "rank": "right", "why": "All six sentences use describe to mean giving a verbal account of something, and the first sense (or its near-synonym second sense) is genuinely one of the split.",
+  "senses": [
+   {"synset": "oewn-00654017-v", "verdict": "right", "fault": null, "why": "Learner line and example correctly show the taxonomic identification sense, and the technical label and null connotation are justified."}
+  ]},
+ {"word": "seat", "pos": "verb",
+  "rank": "right", "why": "All six sentences show a person being placed in or on a seat, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-01619805-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the camera/tripod example correctly shows fixing something firmly on a base."},
+   {"synset": "oewn-02338975-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example correctly shows furnishing a hall with seats."},
+   {"synset": "oewn-02389417-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the bishop example correctly shows a ceremonial installation."},
+   {"synset": "oewn-02339298-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example correctly shows fitting a new seat onto a chair."}
+  ]},
+ {"word": "distress", "pos": "noun",
+  "rank": "right", "why": "Most sentences use distress for psychological suffering, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-00086649-n", "verdict": "right", "fault": null, "why": "Learner line matches the legal seizure gloss, the example correctly uses this sense, and the technical label and null connotation are justified."}
+  ]},
+ {"word": "expose", "pos": "verb",
+  "rank": "wrong", "why": "Four of six sentences use the reflexive idiom 'expose oneself/himself', meaning to put oneself in a disadvantageous or embarrassing position, which is the fourth-listed sense, while only two sentences match the first sense (revealing secret information).",
+  "senses": [
+   {"synset": "oewn-01038191-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the crew example correctly illustrates being put in a disadvantageous position."},
+   {"synset": "oewn-02142175-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the trapdoor example correctly shows revealing something by removing a cover."},
+   {"synset": "oewn-01342187-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the example correctly uses this sense, and the candidate connotation is justified since indecent exposure inherently judges the act."},
+   {"synset": "oewn-00854877-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the example correctly shows ridiculing false claims, and the candidate connotation is justified since the gloss itself casts the target as pretentious."},
+   {"synset": "oewn-02117913-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the film example correctly uses this sense, and the technical label is justified."},
+   {"synset": "oewn-00616135-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example correctly shows the historical sense of abandoning a baby outdoors."}
+  ]},
+ {"word": "overcome", "pos": "verb",
+  "rank": "right", "why": "Most sentences show someone overcome by emotion, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-01106429-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the outnumbered-army example correctly shows defeat through no fault of the one overcome."}
+  ]},
+ {"word": "provide", "pos": "verb",
+  "rank": "right", "why": "Most sentences use provide for in the sense of giving support, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-01065210-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the will example correctly shows stipulating a condition."},
+   {"synset": "oewn-02224224-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example correctly shows the intransitive earn-a-living sense."},
+   {"synset": "oewn-02727313-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the hall example correctly shows making room possible."},
+   {"synset": "oewn-02381380-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the defence example correctly shows mounting a defence."}
+  ]},
+ {"word": "relief", "pos": "noun",
+  "rank": "right", "why": "The sentences cluster among the closely related top senses of relief, and the first sense is one of them.",
+  "senses": [
+   {"synset": "oewn-01211710-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the flood example correctly shows disaster assistance."},
+   {"synset": "oewn-15299060-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the hour's-relief example correctly shows a rest break."},
+   {"synset": "oewn-07371701-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the weather example correctly shows a change for the better."},
+   {"synset": "oewn-01090092-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the on-relief example correctly shows aid for the indigent."},
+   {"synset": "oewn-10667676-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the guard example correctly shows a shift replacement."},
+   {"synset": "oewn-13312014-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the court example correctly uses this sense, and the technical label is justified by the law tag in the gloss."},
+   {"synset": "oewn-04080781-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the temple-wall example correctly shows carved sculpture."},
+   {"synset": "oewn-01077491-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the general's-troops example correctly shows freeing a besieged city."}
+  ]},
+ {"word": "tea", "pos": "noun",
+  "rank": "right", "why": "Most sentences use tea for the light afternoon meal/gathering, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-12950543-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example correctly uses tea as the cultivated plant."}
+  ]},
+ {"word": "shortly", "pos": "adverb",
+  "rank": "right", "why": "All six sentences use shortly to mean 'soon, in the near future', matching the first sense.",
+  "senses": [
+   {"synset": "oewn-00298575-r", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the example correctly shows curt speech, and the candidate connotation is justified by the gloss's own 'discourteous'."},
+   {"synset": "oewn-00034695-r", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the skirt example correctly shows the short-distance sense."}
+  ]},
+ {"word": "stay", "pos": "noun",
+  "rank": "wrong", "why": "All six sentences use 'stay' as a verb meaning to remain, but every listed sense is a noun sense that none of the sentences actually illustrate.",
+  "senses": [
+   {"synset": "oewn-04314757-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the corset example correctly uses this sense."},
+   {"synset": "oewn-04314557-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the example correctly uses this sense, and the technical label is justified by the nautical tag in the gloss."}
+  ]}
+]}

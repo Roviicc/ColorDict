@@ -1,0 +1,76 @@
+{"packet": 8, "verdicts": [
+ {"word": "study", "pos": "noun",
+  "rank": "right", "why": "Sentences split between 'a detailed critical inspection' and 'attentive consideration and meditation' as the two most-used senses, and the first sense is one of that split.",
+  "senses": [
+   {"synset": "oewn-04352106-n", "verdict": "right", "fault": null, "why": "Learner line and example match the 'room for reading/writing/studying' sense, and null connotation fits a plain room."},
+   {"synset": "oewn-06005806-n", "verdict": "right", "fault": null, "why": "Learner line 'an area of knowledge' matches 'a branch of knowledge' and the botany example uses the word correctly."},
+   {"synset": "oewn-05792247-n", "verdict": "right", "fault": null, "why": "Learner paraphrase matches 'attentive consideration and meditation' and the example (from the book) fits this deliberation sense."},
+   {"synset": "oewn-05713302-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a state of deep mental absorption' and the 'deep study' example uses the idiom correctly."},
+   {"synset": "oewn-07233130-n", "verdict": "right", "fault": null, "why": "Learner line and 'new study shows' example correctly match the written-findings sense."},
+   {"synset": "oewn-07062685-n", "verdict": "right", "fault": null, "why": "Learner line and the piano-study example correctly match the technique-composition sense."},
+   {"synset": "oewn-10685903-n", "verdict": "right", "fault": null, "why": "Learner line and 'quick study' example correctly match the fast-memorizer sense."}
+  ]},
+ {"word": "assembly", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'assembly' for the public dance/gathering event, which corresponds to the first-listed 'group of persons gathered' sense.",
+  "senses": [
+   {"synset": "oewn-02752958-n", "verdict": "right", "fault": null, "why": "Learner line and shelving-unit example correctly match the fitted-components sense with a neutral connotation."},
+   {"synset": "oewn-02752795-n", "verdict": "right", "fault": null, "why": "Learner line and brake-assembly example correctly match the self-contained machine-parts sense."},
+   {"synset": "oewn-00913832-n", "verdict": "right", "fault": null, "why": "Learner line and engine-assembly example correctly match the act-of-constructing sense."}
+  ]},
+ {"word": "fail", "pos": "verb",
+  "rank": "right", "why": "Sentences split evenly between the 'abandon/prove undependable' sense and the 'fail to do something' sense, and the first-listed sense is part of that split.",
+  "senses": [
+   {"synset": "oewn-02605525-v", "verdict": "right", "fault": null, "why": "Learner line 'not be able to do something' matches 'be unable' and the example uses this sense correctly."},
+   {"synset": "oewn-00435327-v", "verdict": "right", "fault": null, "why": "Learner line and brakes example correctly match the stop-functioning sense."},
+   {"synset": "oewn-02527985-v", "verdict": "right", "fault": null, "why": "Learner line and duty example correctly match the fall-short-of-expectation sense, and null fits its descriptive tone."},
+   {"synset": "oewn-00561324-v", "verdict": "right", "fault": null, "why": "Learner line and food-supply example correctly match the prove-insufficient sense."},
+   {"synset": "oewn-02529187-v", "verdict": "right", "fault": null, "why": "Learner line and driving-test example correctly match the fail-a-test sense."},
+   {"synset": "oewn-00172922-v", "verdict": "right", "fault": null, "why": "Learner line and eyesight example correctly match the deteriorate sense."},
+   {"synset": "oewn-02529450-v", "verdict": "right", "fault": null, "why": "Learner line and examiner example correctly match the judge-unacceptable sense."},
+   {"synset": "oewn-02323383-v", "verdict": "right", "fault": null, "why": "Learner line and small-banks example correctly match the become-insolvent sense."}
+  ]},
+ {"word": "fashion", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'fashion' for stylishness/elegance, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00416239-n", "verdict": "right", "fault": null, "why": "Learner line and rise-early example correctly match the characteristic-practice sense with a neutral connotation."}
+  ]},
+ {"word": "fellow", "pos": "noun",
+  "rank": "right", "why": "All sentences use 'fellow' as a generic word for a man, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-10103127-n", "verdict": "right", "fault": null, "why": "Learner line, example, and 'informal' label all correctly match the address-term sense."},
+   {"synset": "oewn-13765240-n", "verdict": "right", "fault": null, "why": "Learner line and glove example correctly match the one-of-a-pair sense."}
+  ]},
+ {"word": "lip", "pos": "noun",
+  "rank": "right", "why": "All sentences use 'lip' for the physical body part, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-11712326-n", "verdict": "right", "fault": null, "why": "Learner line accurately unpacks the botanical gloss and the example uses the word in this technical sense."},
+   {"synset": "oewn-01944179-n", "verdict": "right", "fault": null, "why": "Learner line accurately unpacks the gastropod-shell gloss and the example uses the word in this technical sense."}
+  ]},
+ {"word": "tempt", "pos": "verb",
+  "rank": "right", "why": "Most sentences use 'tempt' in the general entice/incline sense, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00778568-v", "verdict": "right", "fault": null, "why": "Learner line and dance example correctly match the charm-induced sense, and null fits its non-loaded framing."},
+   {"synset": "oewn-01811737-v", "verdict": "right", "fault": null, "why": "Learner line and serpent-and-Eve example correctly match 'try to seduce', and the candidate call is justified since the sense frames the enticement as leading to wrongdoing."},
+   {"synset": "oewn-00786231-v", "verdict": "right", "fault": null, "why": "Learner line and 'tempting fate' example correctly match 'try presumptuously', and the candidate call is justified since 'presumptuously' is itself judgmental."}
+  ]},
+ {"word": "vexation", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'vexation' for the state of being irritated, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00419407-n", "verdict": "right", "fault": null, "why": "Learner line and teacher example correctly match the act-of-annoying sense with a neutral connotation."}
+  ]},
+ {"word": "youth", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'youth' for the time period of early life, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-07960326-n", "verdict": "right", "fault": null, "why": "Learner line and town-square example correctly match the young-people-collectively sense."},
+   {"synset": "oewn-04935762-n", "verdict": "right", "fault": null, "why": "Learner line and sixty-year-old example correctly match the vitality sense with a neutral, descriptive connotation."},
+   {"synset": "oewn-15290845-n", "verdict": "right", "fault": null, "why": "Learner line and railway example correctly match the early-period-of-development sense."}
+  ]},
+ {"word": "authority", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'authority' for a trusted source/informant, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-09844011-n", "verdict": "right", "fault": null, "why": "Learner line and flooded-road example correctly match the plural governing-persons sense."},
+   {"synset": "oewn-08354251-n", "verdict": "right", "fault": null, "why": "Learner line and water-authority example correctly match the government-body sense."},
+   {"synset": "oewn-05705328-n", "verdict": "right", "fault": null, "why": "Learner line and piano example correctly match the self-assurance sense with a neutral, descriptive connotation."},
+   {"synset": "oewn-06423235-n", "verdict": "right", "fault": null, "why": "Learner line and dictionary example correctly match the authoritative-written-work sense."}
+  ]}
+]}

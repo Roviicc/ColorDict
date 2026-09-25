@@ -1,0 +1,90 @@
+{"packet": 2, "verdicts": [
+ {"word": "like", "pos": "verb",
+  "rank": "right", "why": "The verb uses split between fondness/enjoyment ('you like this man's sisters', 'I like her appearance') and desire ('should not you like to see', 'whatever you like'), and 'find enjoyable or agreeable' is a fair first pick among the fondness pair.",
+  "senses": [
+   {"synset": "oewn-01829904-v", "verdict": "right", "fault": null, "why": "Learner line and 'I'd like a glass of water' both match 'want to have' exactly."},
+   {"synset": "oewn-00693431-v", "verdict": "right", "fault": null, "why": "'How did you like the play last night?' is the classic opinion/evaluation use matching 'consider, evaluate, or regard'."}
+  ]
+ },
+ {"word": "continue", "pos": "verb",
+  "rank": "right", "why": "Five of six sentences are speech-tag uses ('he continued', 'continued Bingley') matching 'continue talking', the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-02733337-v", "verdict": "right", "fault": null, "why": "Learner line and example ('continued in her job') both match staying in a position."},
+   {"synset": "oewn-02753584-v", "verdict": "right", "fault": null, "why": "Example about resuming after a lunch break matches 'continue after an interruption'."},
+   {"synset": "oewn-00118331-v", "verdict": "right", "fault": null, "why": "Example about a friendship lasting years matches 'exist over a prolonged period'."},
+   {"synset": "oewn-02685709-v", "verdict": "right", "fault": null, "why": "Example about continuing a family tradition matches the transitive 'cause to remain or last'."},
+   {"synset": "oewn-02753797-v", "verdict": "right", "fault": null, "why": "Example about repeated interrupting despite requests matches 'no intention to stop'."},
+   {"synset": "oewn-02693758-v", "verdict": "right", "fault": null, "why": "Example about a wall continuing to the river matches spanning a distance."},
+   {"synset": "oewn-02415305-v", "verdict": "right", "fault": null, "why": "Example about keeping a manager in his post matches 'allow to remain in a place or position', and the learner line keeps both gloss alternatives."}
+  ]
+ },
+ {"word": "observe", "pos": "verb",
+  "rank": "right", "why": "Four of six sentences are speech tags ('observed Miss Bingley', 'Lady Catherine observed') matching 'make mention of', the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-02173796-v", "verdict": "right", "fault": null, "why": "Example about students watching a reaction closely matches 'watch attentively'."},
+   {"synset": "oewn-02460829-v", "verdict": "right", "fault": null, "why": "Example about following a ship with the eyes matches 'follow with the eyes or the mind'."},
+   {"synset": "oewn-02584957-v", "verdict": "right", "fault": null, "why": "The example reuses the book's own decorum sentence, which genuinely uses this conform-to-custom sense."},
+   {"synset": "oewn-00734575-v", "verdict": "right", "fault": null, "why": "Example about dancers keeping to the beat matches 'stick to correctly or closely'."},
+   {"synset": "oewn-02462665-v", "verdict": "right", "fault": null, "why": "Example about observing elders' wishes plausibly matches 'show respect towards'."},
+   {"synset": "oewn-02584595-v", "verdict": "right", "fault": null, "why": "Example about observing Ramadan matches behaving as expected during a religious rite."}
+  ]
+ },
+ {"word": "stay", "pos": "verb",
+  "rank": "wrong", "why": "All five verb sentences ('stay where you are', 'stay quietly at home', 'stay two months', 'stayed with them only long enough') are about remaining/not leaving rather than dwelling, so 'be in a certain place and not leave' fits better than the first-listed 'dwell'.",
+  "senses": [
+   {"synset": "oewn-02733337-v", "verdict": "right", "fault": null, "why": "Example about staying on as head of school matches continuing in a position."},
+   {"synset": "oewn-00461855-v", "verdict": "right", "fault": null, "why": "Example about staying an attack matches 'stop or halt'."},
+   {"synset": "oewn-02625202-v", "verdict": "right", "fault": null, "why": "Example about runners staying the course matches enduring to the end of a trial."},
+   {"synset": "oewn-02565847-v", "verdict": "right", "fault": null, "why": "Example about a judge staying an execution matches stopping a judicial process."},
+   {"synset": "oewn-01196647-v", "verdict": "right", "fault": null, "why": "Example about eating bread to stay hunger matches 'overcome or allay'."},
+   {"synset": "oewn-01347325-v", "verdict": "right", "fault": null, "why": "Example about sailors staying the mast matches 'fasten with stays'."}
+  ]
+ },
+ {"word": "ball", "pos": "noun",
+  "rank": "right", "why": "All six sentences use 'ball(s)' for the formal dance, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-02782458-n", "verdict": "right", "fault": null, "why": "Example about a baby rolling a ball matches the plaything sense."},
+   {"synset": "oewn-07977630-n", "verdict": "right", "fault": null, "why": "Example about a ball of wet paper matches 'a compact mass'."},
+   {"synset": "oewn-05583825-n", "verdict": "right", "fault": null, "why": "Example about the balls of the feet matches the anatomical sense."},
+   {"synset": "oewn-00472688-n", "verdict": "right", "fault": null, "why": "Example about 'big-league ball' matches the baseball-game sense."},
+   {"synset": "oewn-00108220-n", "verdict": "right", "fault": null, "why": "Example about the umpire calling a pitch a ball matches the strike-zone sense, and 'technical' is a defensible label for the rule-specific jargon."},
+   {"synset": "oewn-03807768-n", "verdict": "right", "fault": null, "why": "Example about loading powder and ball into muskets matches the musket-projectile sense."},
+   {"synset": "oewn-05532266-n", "verdict": "right", "fault": null, "why": "Example about a kick to the balls matches the vulgar anatomical sense, and 'vulgar' is a justified register label while the word itself does not judge its referent."}
+  ]
+ },
+ {"word": "door", "pos": "noun",
+  "rank": "right", "why": "Most sentences ('the door was shut', 'she opened the door', 'shut the door') refer to the physical door, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-03227021-n", "verdict": "right", "fault": null, "why": "Example 'lives two doors down' matches a house counted along a row."},
+   {"synset": "oewn-03226879-n", "verdict": "right", "fault": null, "why": "Example about the 'second door on the right' being an office matches a room entered via a door."}
+  ]
+ },
+ {"word": "occasion", "pos": "noun",
+  "rank": "right", "why": "Three of six sentences ('occasion of introducing him', 'occasion for dictating', 'happy on every occasion to offer') use 'opportunity', the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-07461861-n", "verdict": "right", "fault": null, "why": "Example about a wedding as a grand occasion matches a formal social gathering."},
+   {"synset": "oewn-07431314-n", "verdict": "right", "fault": null, "why": "Example about a crisis calling for quick decisions matches an event at a critical time."}
+  ]
+ },
+ {"word": "happen", "pos": "verb",
+  "rank": "right", "why": "Four of six sentences ('what has happened', 'how many things have happened', 'this could not have happened') match 'come to pass', the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00344828-v", "verdict": "right", "fault": null, "why": "Example about a promised pay rise never happening matches 'come into being; become reality'."},
+   {"synset": "oewn-02253273-v", "verdict": "right", "fault": null, "why": "Example about happening upon an old letter matches 'come upon, as if by accident'."}
+  ]
+ },
+ {"word": "visit", "pos": "noun",
+  "rank": "right", "why": "The sentences split between a short act of seeing someone ('longed for such a visit') and an extended stay ('first fortnight of her visit'), and the first-listed sense covers part of that split.",
+  "senses": [
+   {"synset": "oewn-08402011-n", "verdict": "right", "fault": null, "why": "Example about a booked visit with the doctor matches a professional appointment."},
+   {"synset": "oewn-01235407-n", "verdict": "right", "fault": null, "why": "Example about an inspector's visit matches visiting in an official capacity."}
+  ]
+ },
+ {"word": "country", "pos": "noun",
+  "rank": "right", "why": "Most sentences ('the country... can supply few subjects', 'when I am in the country... when I am in town', 'country attorney') contrast rural area with town, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-08183451-n", "verdict": "right", "fault": null, "why": "Example about the whole country mourning a king matches the people of a nation."},
+   {"synset": "oewn-08514304-n", "verdict": "right", "fault": null, "why": "Example about driving through 'wine country' matches a region known for its distinguishing character."}
+  ]
+ }
+]}
