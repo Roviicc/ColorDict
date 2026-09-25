@@ -1,0 +1,29 @@
+{
+ "entries_read": 90,
+ "entries_with_a_fault": 11,
+ "entry_defect_rate": 0.1222,
+ "senses_read": 301,
+ "senses_wrong": 3,
+ "sense_defect_rate": 0.01,
+ "rank_wrong": 9,
+ "unsure": 1,
+ "faults": {
+  "rank-wrong": 9,
+  "false-null": 2,
+  "other": 1
+ },
+ "wrong": [
+  "time/noun rank: Most sentences use 'an indefinite period' (after a time, for some time, It was some time) or 'an instance/occasion' (at all times, for the first time), not the abstract continuum sense listed first, which no sentence plainly carries.",
+  "stay/verb rank: All five verb sentences ('stay where you are', 'stay quietly at home', 'stay two months', 'stayed with them only long enough') are about remaining/not leaving rather than dwelling, so 'be in a certain place and not leave' fits better than the first-listed 'dwell'.",
+  "head/verb rank: All five sentences are 'Heading to Chapter X' captions from the list of illustrations, matching the sense 'be in front of or on top of' (whose own example is 'a short poem heads each chapter'), not the first-listed sense 'to go or travel towards', which no sentence uses.",
+  "head/oewn-02630209-v other: The learner line ('to form a head, or to come or grow to a head') just repeats the gloss's own use of 'head' without explaining the plant sense of 'head', so it fails to plainly clarify the meaning for a learner.",
+  "promise/verb rank: Nearly all sentences follow the pattern 'promised to do/give something', which precisely matches the lower-ranked sense 'promise to undertake or give', while the first sense 'make a promise or commitment' is not the best fit for any single sentence.",
+  "natural/oewn-01338661-s false-null: Calling someone 'a natural leader' praises an innate gift, so the word judges favorably rather than merely describing, contrary to the null verdict.",
+  "hop/verb rank: None of the six sentences actually contain 'hop' or an inflection of it (they all use forms of 'hope' instead), so the first sense, or any listed sense of 'hop', is not the one the sentences use.",
+  "suffer/oewn-02725682-v false-null: Saying someone 'suffers from' a tendency (rather than simply 'has' it) frames that tendency as an unwanted affliction, so the word judges instead of merely describing.",
+  "want/noun rank: All six sentences use \"want\" as a verb (wish, need, or lack), so none illustrate any of the listed noun senses including the first.",
+  "drawing/noun rank: All six sentences use the fixed compound \"drawing-room\" (a parlour), not any of the listed senses of \"drawing\" as picture, illustration, lottery, extraction, or pulling.",
+  "expose/verb rank: Four of six sentences use the reflexive idiom 'expose oneself/himself', meaning to put oneself in a disadvantageous or embarrassing position, which is the fourth-listed sense, while only two sentences match the first sense (revealing secret information).",
+  "stay/noun rank: All six sentences use 'stay' as a verb meaning to remain, but every listed sense is a noun sense that none of the sentences actually illustrate."
+ ]
+}
