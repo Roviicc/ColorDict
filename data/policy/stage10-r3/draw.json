@@ -1,0 +1,637 @@
+{
+ "kind": "ranked",
+ "population": "data/policy/stage10/population-r3.json",
+ "counts": {
+  "book_words": 4779,
+  "book_senses": 17705,
+  "open": {
+   "words": 4162,
+   "senses": 14260
+  },
+  "open_ranked": {
+   "words": 528,
+   "senses": 2820
+  },
+  "open_never_opened": {
+   "words": 3634,
+   "senses": 11440
+  },
+  "open_stop_words": {
+   "words": 118,
+   "senses": 628
+  },
+  "unserved_records": 1
+ },
+ "pool": 383,
+ "skipped": {
+  "function word": 47,
+  "over 8 open senses": 66,
+  "no earlier run holds it": 0
+ },
+ "n": 100,
+ "strata": 4,
+ "seed": 13,
+ "max_open": 8,
+ "words": [
+  {
+   "word": "time",
+   "pos": "noun",
+   "occurrences": 220,
+   "open": 6
+  },
+  {
+   "word": "day",
+   "pos": "noun",
+   "occurrences": 180,
+   "open": 6
+  },
+  {
+   "word": "tell",
+   "pos": "verb",
+   "occurrences": 149,
+   "open": 4
+  },
+  {
+   "word": "believe",
+   "pos": "verb",
+   "occurrences": 139,
+   "open": 2
+  },
+  {
+   "word": "feeling",
+   "pos": "noun",
+   "occurrences": 114,
+   "open": 3
+  },
+  {
+   "word": "pleasure",
+   "pos": "noun",
+   "occurrences": 99,
+   "open": 2
+  },
+  {
+   "word": "woman",
+   "pos": "noun",
+   "occurrences": 88,
+   "open": 1
+  },
+  {
+   "word": "girl",
+   "pos": "noun",
+   "occurrences": 86,
+   "open": 1
+  },
+  {
+   "word": "add",
+   "pos": "verb",
+   "occurrences": 85,
+   "open": 3
+  },
+  {
+   "word": "expect",
+   "pos": "verb",
+   "occurrences": 84,
+   "open": 3
+  },
+  {
+   "word": "moment",
+   "pos": "noun",
+   "occurrences": 82,
+   "open": 3
+  },
+  {
+   "word": "word",
+   "pos": "noun",
+   "occurrences": 81,
+   "open": 8
+  },
+  {
+   "word": "like",
+   "pos": "verb",
+   "occurrences": 79,
+   "open": 2
+  },
+  {
+   "word": "continue",
+   "pos": "verb",
+   "occurrences": 56,
+   "open": 7
+  },
+  {
+   "word": "hardly",
+   "pos": "adverb",
+   "occurrences": 50,
+   "open": 1
+  },
+  {
+   "word": "observe",
+   "pos": "verb",
+   "occurrences": 46,
+   "open": 6
+  },
+  {
+   "word": "stay",
+   "pos": "verb",
+   "occurrences": 46,
+   "open": 6
+  },
+  {
+   "word": "ball",
+   "pos": "noun",
+   "occurrences": 45,
+   "open": 7
+  },
+  {
+   "word": "door",
+   "pos": "noun",
+   "occurrences": 45,
+   "open": 2
+  },
+  {
+   "word": "minute",
+   "pos": "noun",
+   "occurrences": 45,
+   "open": 3
+  },
+  {
+   "word": "occasion",
+   "pos": "noun",
+   "occurrences": 45,
+   "open": 2
+  },
+  {
+   "word": "happen",
+   "pos": "verb",
+   "occurrences": 44,
+   "open": 2
+  },
+  {
+   "word": "visit",
+   "pos": "noun",
+   "occurrences": 44,
+   "open": 2
+  },
+  {
+   "word": "country",
+   "pos": "noun",
+   "occurrences": 43,
+   "open": 2
+  },
+  {
+   "word": "lose",
+   "pos": "verb",
+   "occurrences": 43,
+   "open": 7
+  },
+  {
+   "word": "afraid",
+   "pos": "adjective",
+   "occurrences": 37,
+   "open": 1
+  },
+  {
+   "word": "sort",
+   "pos": "noun",
+   "occurrences": 37,
+   "open": 1
+  },
+  {
+   "word": "walk",
+   "pos": "noun",
+   "occurrences": 33,
+   "open": 4
+  },
+  {
+   "word": "length",
+   "pos": "noun",
+   "occurrences": 32,
+   "open": 2
+  },
+  {
+   "word": "open",
+   "pos": "verb",
+   "occurrences": 32,
+   "open": 7
+  },
+  {
+   "word": "head",
+   "pos": "verb",
+   "occurrences": 29,
+   "open": 6
+  },
+  {
+   "word": "promise",
+   "pos": "verb",
+   "occurrences": 29,
+   "open": 1
+  },
+  {
+   "word": "view",
+   "pos": "noun",
+   "occurrences": 29,
+   "open": 7
+  },
+  {
+   "word": "attachment",
+   "pos": "noun",
+   "occurrences": 28,
+   "open": 4
+  },
+  {
+   "word": "information",
+   "pos": "noun",
+   "occurrences": 27,
+   "open": 2
+  },
+  {
+   "word": "intend",
+   "pos": "verb",
+   "occurrences": 27,
+   "open": 1
+  },
+  {
+   "word": "interest",
+   "pos": "noun",
+   "occurrences": 27,
+   "open": 4
+  },
+  {
+   "word": "natural",
+   "pos": "adjective",
+   "occurrences": 27,
+   "open": 7
+  },
+  {
+   "word": "credit",
+   "pos": "noun",
+   "occurrences": 26,
+   "open": 6
+  },
+  {
+   "word": "temper",
+   "pos": "noun",
+   "occurrences": 26,
+   "open": 1
+  },
+  {
+   "word": "cause",
+   "pos": "noun",
+   "occurrences": 25,
+   "open": 2
+  },
+  {
+   "word": "objection",
+   "pos": "noun",
+   "occurrences": 25,
+   "open": 1
+  },
+  {
+   "word": "degree",
+   "pos": "noun",
+   "occurrences": 24,
+   "open": 4
+  },
+  {
+   "word": "hop",
+   "pos": "verb",
+   "occurrences": 24,
+   "open": 3
+  },
+  {
+   "word": "assurance",
+   "pos": "noun",
+   "occurrences": 23,
+   "open": 1
+  },
+  {
+   "word": "suffer",
+   "pos": "verb",
+   "occurrences": 23,
+   "open": 5
+  },
+  {
+   "word": "care",
+   "pos": "verb",
+   "occurrences": 22,
+   "open": 2
+  },
+  {
+   "word": "seek",
+   "pos": "verb",
+   "occurrences": 22,
+   "open": 2
+  },
+  {
+   "word": "visit",
+   "pos": "verb",
+   "occurrences": 22,
+   "open": 5
+  },
+  {
+   "word": "want",
+   "pos": "noun",
+   "occurrences": 22,
+   "open": 1
+  },
+  {
+   "word": "drawing",
+   "pos": "noun",
+   "occurrences": 20,
+   "open": 3
+  },
+  {
+   "word": "approach",
+   "pos": "verb",
+   "occurrences": 19,
+   "open": 2
+  },
+  {
+   "word": "prepare",
+   "pos": "verb",
+   "occurrences": 19,
+   "open": 5
+  },
+  {
+   "word": "resolution",
+   "pos": "noun",
+   "occurrences": 19,
+   "open": 8
+  },
+  {
+   "word": "state",
+   "pos": "noun",
+   "occurrences": 19,
+   "open": 4
+  },
+  {
+   "word": "civil",
+   "pos": "adjective",
+   "occurrences": 18,
+   "open": 3
+  },
+  {
+   "word": "ground",
+   "pos": "noun",
+   "occurrences": 18,
+   "open": 8
+  },
+  {
+   "word": "grow",
+   "pos": "verb",
+   "occurrences": 18,
+   "open": 7
+  },
+  {
+   "word": "park",
+   "pos": "noun",
+   "occurrences": 18,
+   "open": 2
+  },
+  {
+   "word": "prospect",
+   "pos": "noun",
+   "occurrences": 18,
+   "open": 2
+  },
+  {
+   "word": "conclude",
+   "pos": "verb",
+   "occurrences": 17,
+   "open": 2
+  },
+  {
+   "word": "contain",
+   "pos": "verb",
+   "occurrences": 17,
+   "open": 3
+  },
+  {
+   "word": "direction",
+   "pos": "noun",
+   "occurrences": 17,
+   "open": 6
+  },
+  {
+   "word": "hint",
+   "pos": "noun",
+   "occurrences": 17,
+   "open": 2
+  },
+  {
+   "word": "sight",
+   "pos": "noun",
+   "occurrences": 17,
+   "open": 5
+  },
+  {
+   "word": "decide",
+   "pos": "verb",
+   "occurrences": 16,
+   "open": 1
+  },
+  {
+   "word": "folly",
+   "pos": "noun",
+   "occurrences": 16,
+   "open": 1
+  },
+  {
+   "word": "produce",
+   "pos": "verb",
+   "occurrences": 16,
+   "open": 4
+  },
+  {
+   "word": "describe",
+   "pos": "verb",
+   "occurrences": 15,
+   "open": 1
+  },
+  {
+   "word": "dining",
+   "pos": "noun",
+   "occurrences": 15,
+   "open": 1
+  },
+  {
+   "word": "seat",
+   "pos": "verb",
+   "occurrences": 15,
+   "open": 4
+  },
+  {
+   "word": "distress",
+   "pos": "noun",
+   "occurrences": 14,
+   "open": 1
+  },
+  {
+   "word": "expose",
+   "pos": "verb",
+   "occurrences": 14,
+   "open": 6
+  },
+  {
+   "word": "overcome",
+   "pos": "verb",
+   "occurrences": 14,
+   "open": 1
+  },
+  {
+   "word": "provide",
+   "pos": "verb",
+   "occurrences": 13,
+   "open": 4
+  },
+  {
+   "word": "relief",
+   "pos": "noun",
+   "occurrences": 13,
+   "open": 8
+  },
+  {
+   "word": "tea",
+   "pos": "noun",
+   "occurrences": 13,
+   "open": 1
+  },
+  {
+   "word": "shortly",
+   "pos": "adverb",
+   "occurrences": 12,
+   "open": 2
+  },
+  {
+   "word": "stay",
+   "pos": "noun",
+   "occurrences": 12,
+   "open": 2
+  },
+  {
+   "word": "study",
+   "pos": "noun",
+   "occurrences": 12,
+   "open": 7
+  },
+  {
+   "word": "assembly",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 3
+  },
+  {
+   "word": "fail",
+   "pos": "verb",
+   "occurrences": 11,
+   "open": 8
+  },
+  {
+   "word": "fashion",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "fellow",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 2
+  },
+  {
+   "word": "lip",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 2
+  },
+  {
+   "word": "tempt",
+   "pos": "verb",
+   "occurrences": 11,
+   "open": 3
+  },
+  {
+   "word": "vexation",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "youth",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 3
+  },
+  {
+   "word": "authority",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 4
+  },
+  {
+   "word": "coach",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 2
+  },
+  {
+   "word": "embarrassment",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 1
+  },
+  {
+   "word": "feature",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 3
+  },
+  {
+   "word": "little",
+   "pos": "adverb",
+   "occurrences": 10,
+   "open": 1
+  },
+  {
+   "word": "preference",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 1
+  },
+  {
+   "word": "establish",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 5
+  },
+  {
+   "word": "excite",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 5
+  },
+  {
+   "word": "formal",
+   "pos": "adjective",
+   "occurrences": 9,
+   "open": 3
+  },
+  {
+   "word": "language",
+   "pos": "noun",
+   "occurrences": 9,
+   "open": 3
+  },
+  {
+   "word": "occupy",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 5
+  },
+  {
+   "word": "unite",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 3
+  }
+ ]
+}

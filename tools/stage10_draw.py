@@ -63,6 +63,16 @@ def runs_holding():
     return held
 
 
+def drawn_before():
+    """Words an earlier round already drew: a parked round's words still read as
+    open until it ships, and must not be drawn twice."""
+    seen = set()
+    for draw in (ROOT / "data/policy").glob("stage10-r*/draw.json"):
+        for w in json.loads(draw.read_text(encoding="utf-8"))["words"]:
+            seen.add((w["word"].lower(), w["pos"]))
+    return seen
+
+
 def stratified(words, n, strata, rng):
     size = len(words) / strata
     per, picked = n // strata, []
@@ -76,10 +86,11 @@ def stratified(words, n, strata, rng):
 def cmd_ranked(args):
     pop = json.loads(args.population.read_text(encoding="utf-8"))
     held = runs_holding()
+    before = drawn_before()
     pool, skipped = [], {"function word": 0, f"over {args.max_open} open senses": 0,
                          "no earlier run holds it": 0}
     for w in pop["words"]:
-        if not w["ranked"]:
+        if not w["ranked"] or (w["word"].lower(), w["pos"]) in before:
             continue
         if w["stop"]:
             skipped["function word"] += 1
@@ -140,9 +151,9 @@ def cmd_new(args):
                 forms[(r["lemma"].lower(), ep.UPOS_TO_POS[r["part_of_speech"]])] = r
     pool, skipped = [], {"function word": 0, f"over {args.max_open} senses": 0,
                          f"under {ep.MIN_SENTENCES} usable sentences": 0}
-    samples = {}
+    samples, before = {}, drawn_before()
     for w in pop["words"]:
-        if w["ranked"]:
+        if w["ranked"] or (w["word"].lower(), w["pos"]) in before:
             continue
         if w["stop"]:
             skipped["function word"] += 1
