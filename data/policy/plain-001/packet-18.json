@@ -1,0 +1,981 @@
+{
+ "packet": 18,
+ "families": [
+  {
+   "family": "family-00531471-a",
+   "axis": "untroubled stillness → unshakeable command of oneself under pressure",
+   "members": [
+    {
+     "id": "composed.oewn-00531471-a",
+     "word": "composed",
+     "gloss": "serenely self-possessed and free from agitation especially in times of stress",
+     "charge": 2,
+     "tone": "Approving of steadiness held on purpose - the serenity is a bearing kept up while the pressure is on, not the luck of an easy hour.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "calm.oewn-00531862-s",
+     "word": "calm",
+     "gloss": "not agitated; without losing self-possession",
+     "charge": 1,
+     "tone": "The plain word of the family - mildly approving, naming the absence of agitation without the lift *serene* gives the same state.",
+     "rewrite": false
+    },
+    {
+     "id": "unagitated.oewn-00531862-s",
+     "word": "unagitated",
+     "gloss": "not agitated; without losing self-possession",
+     "charge": 0,
+     "tone": "Flatly descriptive: it registers that agitation is absent without crediting anyone for holding it off.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "serene.oewn-00531862-s",
+     "word": "serene",
+     "gloss": "not agitated; without losing self-possession",
+     "charge": 2,
+     "tone": "Raises the same unagitated state into something luminous and admired, where *calm* merely reports it.",
+     "rewrite": false
+    },
+    {
+     "id": "tranquil.oewn-00531862-s",
+     "word": "tranquil",
+     "gloss": "not agitated; without losing self-possession",
+     "charge": 1,
+     "tone": "The stillest word here - the self-possession sounds effortless rather than exerted, unlike the braced steadiness of *composed*.",
+     "rewrite": false
+    },
+    {
+     "id": "imperturbable.oewn-00532252-s",
+     "word": "imperturbable",
+     "gloss": "not easily perturbed or excited or upset; marked by extreme calm and composure",
+     "charge": 2,
+     "tone": "Stately and strong: it describes calm that cannot be shaken, not merely calm that happens to be unshaken.",
+     "rewrite": false
+    },
+    {
+     "id": "unflappable.oewn-00532252-s",
+     "word": "unflappable",
+     "gloss": "not easily perturbed or excited or upset; marked by extreme calm and composure",
+     "charge": 2,
+     "tone": "Informal and warmly admiring where *imperturbable* is dignified, praising the same immunity to upset in cheerful terms.",
+     "rewrite": false
+    },
+    {
+     "id": "collected.oewn-00532559-s",
+     "word": "collected",
+     "gloss": "in full control of your faculties",
+     "charge": 1,
+     "tone": "Plain approval for having one's faculties gathered and in hand - steady rather than impressive.",
+     "rewrite": false
+    },
+    {
+     "id": "equanimous.oewn-00532559-s",
+     "word": "equanimous",
+     "gloss": "in full control of your faculties",
+     "charge": 1,
+     "tone": "Formal, and it prizes evenness above all: control that holds the level rather than control that shows.",
+     "rewrite": false
+    },
+    {
+     "id": "poised.oewn-00532559-s",
+     "word": "poised",
+     "gloss": "in full control of your faculties",
+     "charge": 2,
+     "tone": "Adds bearing to the control - the faculties are not just held but held gracefully, which *collected* never claims.",
+     "rewrite": false
+    },
+    {
+     "id": "self-collected.oewn-00532559-s",
+     "word": "self-collected",
+     "gloss": "in full control of your faculties",
+     "charge": 1,
+     "tone": "Credits the control explicitly to the person exercising it, sounding more effortful than the smooth *poised*.",
+     "rewrite": false
+    },
+    {
+     "id": "self-contained.oewn-00532559-s",
+     "word": "self-contained",
+     "gloss": "in full control of your faculties",
+     "charge": 1,
+     "tone": "Praises control that needs nothing from anyone else, with a reserve at its edge that *poised* does not carry.",
+     "rewrite": false
+    },
+    {
+     "id": "self-possessed.oewn-00532559-s",
+     "word": "self-possessed",
+     "gloss": "in full control of your faculties",
+     "charge": 2,
+     "tone": "Weightier than *collected*: the faculties are owned rather than merely gathered, and the ownership is the compliment.",
+     "rewrite": false
+    },
+    {
+     "id": "cool.oewn-00532977-s",
+     "word": "cool",
+     "gloss": "marked by calm self-control (especially in trying circumstances); unemotional",
+     "charge": 1,
+     "tone": "Informal approval with a chill in it - the self-control reads as unbothered, and the unemotional side can tip into indifference.",
+     "rewrite": false
+    },
+    {
+     "id": "coolheaded.oewn-00532977-s",
+     "word": "coolheaded",
+     "gloss": "marked by calm self-control (especially in trying circumstances); unemotional",
+     "charge": 2,
+     "tone": "Puts the weight on judgement rather than temperature, praising the head that keeps working when circumstances turn trying.",
+     "rewrite": false
+    },
+    {
+     "id": "nerveless.oewn-00532977-s",
+     "word": "nerveless",
+     "gloss": "marked by calm self-control (especially in trying circumstances); unemotional",
+     "charge": 0,
+     "tone": "Frames the composure as the sheer absence of nerves, which reads as coldness as readily as courage.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02332106-a",
+   "axis": "plainly noting a want of strength → dismissing a thing as too weak to count",
+   "members": [
+    {
+     "id": "weak.oewn-02332106-a",
+     "word": "weak",
+     "gloss": "wanting in physical strength",
+     "charge": -1,
+     "tone": "The flat baseline of the family - it names the missing physical strength and stops there, where every sharper member adds an attitude to the same fact.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "anemic.oewn-02332508-s",
+     "word": "anemic",
+     "gloss": "lacking vigor or energy",
+     "charge": -2,
+     "tone": "Turns the missing vigor into something thin and drained, as though what is left had been diluted rather than merely reduced.",
+     "rewrite": false
+    },
+    {
+     "id": "anaemic.oewn-02332508-s",
+     "word": "anaemic",
+     "gloss": "lacking vigor or energy",
+     "charge": -2,
+     "tone": "The British spelling, carrying the identical sting - vigor thinned out, not simply lessened.",
+     "rewrite": false
+    },
+    {
+     "id": "adynamic.oewn-02332671-s",
+     "word": "adynamic",
+     "gloss": "lacking energy or vitality",
+     "charge": 0,
+     "tone": "Clinical in register, presenting the absence of energy as a condition to be observed rather than a failing to be scored.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "asthenic.oewn-02332671-s",
+     "word": "asthenic",
+     "gloss": "lacking energy or vitality",
+     "charge": 0,
+     "tone": "Technical rather than evaluative - the want of vitality reads as a settled characteristic, not the temporary drain that *enervated* implies.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "evaluative"
+     }
+    },
+    {
+     "id": "debilitated.oewn-02332671-s",
+     "word": "debilitated",
+     "gloss": "lacking energy or vitality",
+     "charge": -1,
+     "tone": "Implies vitality that was once there and has been taken away, so it asks for sympathy where *lame* asks for scorn.",
+     "rewrite": false
+    },
+    {
+     "id": "enervated.oewn-02332671-s",
+     "word": "enervated",
+     "gloss": "lacking energy or vitality",
+     "charge": -1,
+     "tone": "The vitality has gone slack rather than been broken, leaving a limp, unstrung quality that *debilitated* renders as damage.",
+     "rewrite": false
+    },
+    {
+     "id": "faint.oewn-02332825-s",
+     "word": "faint",
+     "gloss": "lacking strength or vigor",
+     "charge": -1,
+     "tone": "The mildest way of falling short - strength barely registering rather than failing, nearer to almost-nothing than to inadequacy.",
+     "rewrite": false
+    },
+    {
+     "id": "feeble.oewn-02332825-s",
+     "word": "feeble",
+     "gloss": "lacking strength or vigor",
+     "charge": -2,
+     "tone": "Harsher than *faint* for the same shortfall - the lack sounds pitiable, and pity here shades into a verdict that it was never going to be enough.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "lame.oewn-02333032-s",
+     "word": "lame",
+     "gloss": "pathetically lacking in force or effectiveness",
+     "charge": -3,
+     "tone": "Withering - the failure is not merely ineffective but embarrassing, contemptible for having been attempted at all.",
+     "rewrite": false
+    },
+    {
+     "id": "flimsy.oewn-02333212-s",
+     "word": "flimsy",
+     "gloss": "lacking solidity or strength",
+     "charge": -2,
+     "tone": "The weakness is structural and imminent: the thing will give way under any real pressure.",
+     "rewrite": false
+    },
+    {
+     "id": "insubstantial.oewn-02333212-s",
+     "word": "insubstantial",
+     "gloss": "lacking solidity or strength",
+     "charge": -1,
+     "tone": "Cooler and more formal than *flimsy* - there is simply not enough there to be solid, with no promise of collapse attached.",
+     "rewrite": false
+    },
+    {
+     "id": "jerry-built.oewn-02333471-s",
+     "word": "jerry-built",
+     "gloss": "badly or hastily built",
+     "charge": -3,
+     "tone": "Damns the making rather than the thing - it says somebody rushed it or botched it, and the word will not let that go.",
+     "rewrite": false
+    },
+    {
+     "id": "pale.oewn-02333753-s",
+     "word": "pale",
+     "gloss": "(of light) lacking in intensity or brightness; dim or feeble",
+     "charge": 0,
+     "tone": "Of light, it reports thin brightness plainly, without the sickliness *pallid* or the melancholy *wan* brings to the same dimness.",
+     "rewrite": false
+    },
+    {
+     "id": "pallid.oewn-02333753-s",
+     "word": "pallid",
+     "gloss": "(of light) lacking in intensity or brightness; dim or feeble",
+     "charge": -1,
+     "tone": "Makes the dim light sound drained and washed out, an unwell version of what *pale* states neutrally.",
+     "rewrite": false
+    },
+    {
+     "id": "wan.oewn-02333753-s",
+     "word": "wan",
+     "gloss": "(of light) lacking in intensity or brightness; dim or feeble",
+     "charge": -1,
+     "tone": "The weak light sounds dispirited, a dimness with something melancholy in it that *pale* would only measure.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01323940-a",
+   "axis": "liable to a penalty → condemned for grave wrong",
+   "members": [
+    {
+     "id": "guilty.oewn-01323940-a",
+     "word": "guilty",
+     "gloss": "responsible for or chargeable with a reprehensible act",
+     "charge": -2,
+     "tone": "The family's plain verdict, covering both the one who did the reprehensible act and the one merely chargeable with it - responsibility and accusation under a single word.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words",
+      "hard-words": "reprehensible, chargeable"
+     }
+    },
+    {
+     "id": "at_fault.oewn-01324381-s",
+     "word": "at fault",
+     "gloss": "deserving blame",
+     "charge": -1,
+     "tone": "Mildest of the blame words, locating blame without characterising the deed, where *guilty* already calls the act reprehensible.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "characterising, reprehensible"
+     }
+    },
+    {
+     "id": "blameworthy.oewn-01324481-s",
+     "word": "blameworthy",
+     "gloss": "deserving blame or censure as being wrong or evil or injurious",
+     "charge": -2,
+     "tone": "Weighs the deed and finds it has earned censure, a considered verdict rather than *at fault*'s bare attribution.",
+     "rewrite": false
+    },
+    {
+     "id": "blamable.oewn-01324481-s",
+     "word": "blamable",
+     "gloss": "deserving blame or censure as being wrong or evil or injurious",
+     "charge": -2,
+     "tone": "Flat and formal, stating only that blame may properly be laid, without *blameworthy*'s sense that the deed went out and earned it.",
+     "rewrite": false
+    },
+    {
+     "id": "blameable.oewn-01324481-s",
+     "word": "blameable",
+     "gloss": "deserving blame or censure as being wrong or evil or injurious",
+     "charge": -2,
+     "tone": "Equally impersonal, taking the wrong, the evil and the merely injurious alike without changing temperature.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "impersonal, injurious"
+     }
+    },
+    {
+     "id": "blameful.oewn-01324481-s",
+     "word": "blameful",
+     "gloss": "deserving blame or censure as being wrong or evil or injurious",
+     "charge": -2,
+     "tone": "Puts the blame inside the thing as a quality it is full of, where *blameworthy* says only that blame is deserved.",
+     "rewrite": false
+    },
+    {
+     "id": "censurable.oewn-01324481-s",
+     "word": "censurable",
+     "gloss": "deserving blame or censure as being wrong or evil or injurious",
+     "charge": -2,
+     "tone": "Pitches the fault toward reproof that could be pronounced out loud, the most public-facing of these.",
+     "rewrite": false
+    },
+    {
+     "id": "culpable.oewn-01324481-s",
+     "word": "culpable",
+     "gloss": "deserving blame or censure as being wrong or evil or injurious",
+     "charge": -2,
+     "tone": "The coolest of these, recording fault as a determination, which is why it sits as easily on the injurious as on the evil.",
+     "rewrite": false
+    },
+    {
+     "id": "bloodguilty.oewn-01324891-s",
+     "word": "bloodguilty",
+     "gloss": "guilty of murder or bloodshed",
+     "charge": -3,
+     "tone": "The gravest here - guilt of killing rather than of a misdeed, and the word treats it as a stain carried rather than a charge answered.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "chargeable.oewn-01324996-s",
+     "word": "chargeable",
+     "gloss": "liable to be accused, or cause for such liability",
+     "charge": 0,
+     "tone": "Neutral and procedural, recording exposure to accusation and resting as readily on the cause as on the person, so it asserts no wrong.",
+     "rewrite": false
+    },
+    {
+     "id": "indictable.oewn-01324996-s",
+     "word": "indictable",
+     "gloss": "liable to be accused, or cause for such liability",
+     "charge": -1,
+     "tone": "Weights that same liability toward formal accusation, sounding graver than *chargeable* while claiming no more guilt.",
+     "rewrite": false
+    },
+    {
+     "id": "conscience-smitten.oewn-01325188-s",
+     "word": "conscience-smitten",
+     "gloss": "affected by conscience",
+     "charge": 0,
+     "tone": "The one inward member, guilt felt from inside rather than laid on from outside, with the conscience itself doing the striking.",
+     "rewrite": false
+    },
+    {
+     "id": "criminal.oewn-01325275-s",
+     "word": "criminal",
+     "gloss": "guilty of crime or serious offense",
+     "charge": -3,
+     "tone": "Hard and total, making the wrongdoing a category the person belongs to, and it reaches past crime proper to any serious offense.",
+     "rewrite": false
+    },
+    {
+     "id": "delinquent.oewn-01325440-s",
+     "word": "delinquent",
+     "gloss": "guilty of a misdeed",
+     "charge": -1,
+     "tone": "Lighter than *criminal* by the size of the deed, chiding a misdeed rather than condemning a crime.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "chiding, misdeed"
+     }
+    },
+    {
+     "id": "finable.oewn-01325573-s",
+     "word": "finable",
+     "gloss": "liable to a fine",
+     "charge": 0,
+     "tone": "Purely procedural, measuring the offence as money owed and judging the offender not at all.",
+     "rewrite": false
+    },
+    {
+     "id": "fineable.oewn-01325573-s",
+     "word": "fineable",
+     "gloss": "liable to a fine",
+     "charge": 0,
+     "tone": "As bloodless as *finable* - a penalty attaches, and nothing is said about the wrong or the wrongdoer.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "bloodless, wrongdoer"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-01260684-a",
+   "axis": "feeling simply absent → chill aimed at someone as disdain",
+   "members": [
+    {
+     "id": "cold.oewn-01260684-a",
+     "word": "cold",
+     "gloss": "extended meanings; especially of psychological coldness; without human warmth or emotion",
+     "charge": -1,
+     "tone": "The flat, unfigured term for the whole condition, naming the missing human warmth without deciding whether it is a settled nature or a rebuff aimed at someone.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "emotionless.oewn-01261062-s",
+     "word": "emotionless",
+     "gloss": "unmoved by feeling",
+     "charge": -1,
+     "tone": "Near-clinical: it reports feeling as simply absent from the person, with none of the unfriendliness *icy* points at a target.",
+     "rewrite": false
+    },
+    {
+     "id": "passionless.oewn-01261062-s",
+     "word": "passionless",
+     "gloss": "unmoved by feeling",
+     "charge": -1,
+     "tone": "Where *emotionless* records no feeling at all, this faults a missing ardour, the flatness of something that ought to have had fire in it.",
+     "rewrite": false
+    },
+    {
+     "id": "frigid.oewn-01261336-s",
+     "word": "frigid",
+     "gloss": "devoid of warmth and cordiality; expressive of unfriendliness or disdain",
+     "charge": -2,
+     "tone": "Severe and unbending, the coldness hardened into a settled refusal of cordiality rather than the passing chill of *frosty*.",
+     "rewrite": false
+    },
+    {
+     "id": "frosty.oewn-01261336-s",
+     "word": "frosty",
+     "gloss": "devoid of warmth and cordiality; expressive of unfriendliness or disdain",
+     "charge": -1,
+     "tone": "The lightest chill of the group, a manner cooled and capable of thawing, not the fixed disdain of *glacial*.",
+     "rewrite": false
+    },
+    {
+     "id": "frozen.oewn-01261336-s",
+     "word": "frozen",
+     "gloss": "devoid of warmth and cordiality; expressive of unfriendliness or disdain",
+     "charge": -2,
+     "tone": "Coldness as arrest: cordiality not merely withheld but stopped dead, the unfriendliness locked in place.",
+     "rewrite": false
+    },
+    {
+     "id": "glacial.oewn-01261336-s",
+     "word": "glacial",
+     "gloss": "devoid of warmth and cordiality; expressive of unfriendliness or disdain",
+     "charge": -3,
+     "tone": "The heaviest cold here, vast and immovable, a disdain that takes no trouble to hide itself.",
+     "rewrite": false
+    },
+    {
+     "id": "icy.oewn-01261336-s",
+     "word": "icy",
+     "gloss": "devoid of warmth and cordiality; expressive of unfriendliness or disdain",
+     "charge": -2,
+     "tone": "Cold with an edge on it, the chill pointed at someone and meant to cut, where *wintry* only surrounds them.",
+     "rewrite": false
+    },
+    {
+     "id": "wintry.oewn-01261336-s",
+     "word": "wintry",
+     "gloss": "devoid of warmth and cordiality; expressive of unfriendliness or disdain",
+     "charge": -2,
+     "tone": "Bleak rather than sharp, an unwelcoming climate about the person instead of the single stroke of *icy*.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01192305-a",
+   "axis": "wearing enough to tire → weighing down hard enough to smother",
+   "members": [
+    {
+     "id": "heavy.oewn-01192305-a",
+     "word": "heavy",
+     "gloss": "marked by great psychological weight; weighted down especially with sadness or troubles or weariness",
+     "charge": -1,
+     "tone": "The plainest name for the condition itself, sadness or trouble felt as weight from inside, where *burdensome* describes the load from outside.",
+     "rewrite": false
+    },
+    {
+     "id": "burdensome.oewn-01192652-s",
+     "word": "burdensome",
+     "gloss": "not easily borne; wearing",
+     "charge": -2,
+     "tone": "Puts the difficulty in the thing rather than the bearer: a load fixed on you that has to be carried, not merely a strain that tires.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "onerous.oewn-01192652-s",
+     "word": "onerous",
+     "gloss": "not easily borne; wearing",
+     "charge": -2,
+     "tone": "The formal member, and the heaviest-sounding of the three, where *taxing* keeps the same complaint everyday.",
+     "rewrite": false
+    },
+    {
+     "id": "taxing.oewn-01192652-s",
+     "word": "taxing",
+     "gloss": "not easily borne; wearing",
+     "charge": -1,
+     "tone": "Leans on the wearing half of the sense, draining strength steadily rather than crushing, the lightest of the three.",
+     "rewrite": false
+    },
+    {
+     "id": "distressing.oewn-01192929-s",
+     "word": "distressing",
+     "gloss": "causing distress or worry or anxiety",
+     "charge": -2,
+     "tone": "The plain, full-strength member of the group, naming real hurt and not merely unease.",
+     "rewrite": false
+    },
+    {
+     "id": "distressful.oewn-01192929-s",
+     "word": "distressful",
+     "gloss": "causing distress or worry or anxiety",
+     "charge": -2,
+     "tone": "The stiffer, more formal shape of *distressing*, with the same weight of hurt behind it.",
+     "rewrite": false
+    },
+    {
+     "id": "disturbing.oewn-01192929-s",
+     "word": "disturbing",
+     "gloss": "causing distress or worry or anxiety",
+     "charge": -2,
+     "tone": "Aimed at composure rather than comfort, it unsettles and goes on unsettling, where *distressing* simply hurts.",
+     "rewrite": false
+    },
+    {
+     "id": "perturbing.oewn-01192929-s",
+     "word": "perturbing",
+     "gloss": "causing distress or worry or anxiety",
+     "charge": -1,
+     "tone": "Takes the trouble as agitation rather than dread - a settled mind stirred out of its even running - which makes it a lighter and more momentary thing than the unsettling *disturbing* keeps up.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "32 words"
+     }
+    },
+    {
+     "id": "troubling.oewn-01192929-s",
+     "word": "troubling",
+     "gloss": "causing distress or worry or anxiety",
+     "charge": -2,
+     "tone": "Quiet and persistent, a worry that nags at you instead of striking, understated beside *distressing*.",
+     "rewrite": false
+    },
+    {
+     "id": "worrisome.oewn-01192929-s",
+     "word": "worrisome",
+     "gloss": "causing distress or worry or anxiety",
+     "charge": -2,
+     "tone": "Treats the power to cause anxiety as a standing property of the thing, where *worrying* reports what it is doing now.",
+     "rewrite": false
+    },
+    {
+     "id": "worrying.oewn-01192929-s",
+     "word": "worrying",
+     "gloss": "causing distress or worry or anxiety",
+     "charge": -2,
+     "tone": "Keeps to the worry-and-anxiety end of the sense, unease rather than the hurt *distressing* names.",
+     "rewrite": false
+    },
+    {
+     "id": "leaden.oewn-01193396-s",
+     "word": "leaden",
+     "gloss": "made heavy or weighted down with weariness",
+     "charge": -2,
+     "tone": "The most physical word in the family, heaviness and weariness fused into dead metal, dull and unliftable.",
+     "rewrite": false
+    },
+    {
+     "id": "weighted.oewn-01193396-s",
+     "word": "weighted",
+     "gloss": "made heavy or weighted down with weariness",
+     "charge": -1,
+     "tone": "The flattest member, recording that the weight has been put on without making the weariness of it felt as *leaden* does.",
+     "rewrite": false
+    },
+    {
+     "id": "oppressive.oewn-01193541-s",
+     "word": "oppressive",
+     "gloss": "weighing heavily on the senses or spirit",
+     "charge": -3,
+     "tone": "The strongest weight here, pressing on the senses as much as on the spirit and leaving no room to breathe.",
+     "rewrite": false
+    },
+    {
+     "id": "weighty.oewn-01193711-s",
+     "word": "weighty",
+     "gloss": "weighing heavily on the spirit; causing anxiety or worry",
+     "charge": -2,
+     "tone": "Grave rather than smothering, the weight registering as anxiety carried, where *oppressive* closes in.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00777882-a",
+   "axis": "bare capacity to tell things apart → refined taste that earns praise",
+   "members": [
+    {
+     "id": "discriminating.oewn-00777882-a",
+     "word": "discriminating",
+     "gloss": "showing or indicating careful judgment and discernment especially in matters of taste",
+     "charge": 2,
+     "tone": "Praise for judgment fine enough to show itself in taste, where *selective* reports only that choices are being made.",
+     "rewrite": false
+    },
+    {
+     "id": "appreciative.oewn-00778235-s",
+     "word": "appreciative",
+     "gloss": "having or showing appreciation or a favorable critical judgment or opinion",
+     "charge": 2,
+     "tone": "Warm rather than cool - the judgment it names is a favourable one, or else plain appreciation, where *discriminating* says only that the judgment is fine.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "diacritic.oewn-00778470-s",
+     "word": "diacritic",
+     "gloss": "capable of distinguishing",
+     "charge": 0,
+     "tone": "Flatly technical: a capacity to tell things apart, carrying none of the credit *discriminating* hands whoever has it.",
+     "rewrite": false
+    },
+    {
+     "id": "diacritical.oewn-00778470-s",
+     "word": "diacritical",
+     "gloss": "capable of distinguishing",
+     "charge": 0,
+     "tone": "The same bare power of distinguishing, stated as a property of the thing that separates rather than a compliment to it.",
+     "rewrite": false
+    },
+    {
+     "id": "discerning.oewn-00778694-s",
+     "word": "discerning",
+     "gloss": "able to make or detect effects of great subtlety; sensitive",
+     "charge": 2,
+     "tone": "Praise aimed at fineness of perception - it can both produce and catch effects too subtle for a coarser eye, where *selective* only picks among what is already plain.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "discriminative.oewn-00778860-s",
+     "word": "discriminative",
+     "gloss": "capable of making fine distinctions",
+     "charge": 0,
+     "tone": "A faculty word - the fineness sits in the distinctions themselves, not in any credit to whoever makes them.",
+     "rewrite": false
+    },
+    {
+     "id": "discriminatory.oewn-00778860-s",
+     "word": "discriminatory",
+     "gloss": "capable of making fine distinctions",
+     "charge": 0,
+     "tone": "Names the same capacity as *discriminative* and stays as neutral about it, describing a power to separate rather than approving its exercise.",
+     "rewrite": false
+    },
+    {
+     "id": "eclectic.oewn-00779045-s",
+     "word": "eclectic",
+     "gloss": "selecting what seems best of various styles or ideas",
+     "charge": 1,
+     "tone": "Approving of breadth: the choosing ranges across styles and takes the best of each, where *selective* only narrows.",
+     "rewrite": false
+    },
+    {
+     "id": "good.oewn-00779170-s",
+     "word": "good",
+     "gloss": "generally admired",
+     "charge": 2,
+     "tone": "The broadest approval here - admiration granted with none of the account of the judgment behind it that *discriminating* insists on.",
+     "rewrite": false
+    },
+    {
+     "id": "selective.oewn-00779252-s",
+     "word": "selective",
+     "gloss": "tending to select; characterized by careful choice",
+     "charge": 1,
+     "tone": "Mild credit for care in choosing, covering both the habit of picking and the carefulness of the pick, without claiming the taste *discriminating* asserts.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01095835-a",
+   "axis": "neutral report that something is not working → blunt condemnation of the thing that failed",
+   "members": [
+    {
+     "id": "malfunctioning.oewn-01095835-a",
+     "word": "malfunctioning",
+     "gloss": "not performing or able to perform its regular function",
+     "charge": 0,
+     "tone": "Clinical and blameless — it reports the failure as something happening in the working, where *bad* condemns the thing outright.",
+     "rewrite": false
+    },
+    {
+     "id": "nonfunctional.oewn-01095835-a",
+     "word": "nonfunctional",
+     "gloss": "not performing or able to perform its regular function",
+     "charge": 0,
+     "tone": "Flatly negative where *malfunctioning* implies a thing still trying: the function is simply absent, stated as a condition rather than a misbehaviour.",
+     "rewrite": false
+    },
+    {
+     "id": "amiss.oewn-01096064-s",
+     "word": "amiss",
+     "gloss": "not functioning properly",
+     "charge": -1,
+     "tone": "The gentlest word here — it registers that something is off without saying how far or how badly.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "awry.oewn-01096064-s",
+     "word": "awry",
+     "gloss": "not functioning properly",
+     "charge": -1,
+     "tone": "More visual than *amiss*, the working gone crooked rather than merely faltering, but pressing no harder.",
+     "rewrite": false
+    },
+    {
+     "id": "haywire.oewn-01096064-s",
+     "word": "haywire",
+     "gloss": "not functioning properly",
+     "charge": -2,
+     "tone": "Informal and loud — not a quiet fault but a thing thrashing beyond control.",
+     "rewrite": false
+    },
+    {
+     "id": "wrong.oewn-01096064-s",
+     "word": "wrong",
+     "gloss": "not functioning properly",
+     "charge": -1,
+     "tone": "The barest of them, saying only that something is not as it should be, with none of *haywire*'s noise.",
+     "rewrite": false
+    },
+    {
+     "id": "bad.oewn-01096265-s",
+     "word": "bad",
+     "gloss": "not working properly",
+     "charge": -2,
+     "tone": "Blunt and wholesale — it writes the thing off as no good instead of naming what has gone wrong inside it.",
+     "rewrite": false
+    },
+    {
+     "id": "defective.oewn-01096265-s",
+     "word": "defective",
+     "gloss": "not working properly",
+     "charge": -2,
+     "tone": "Puts the fault inside the thing as a flaw it carries, cooler and more damning than *bad*.",
+     "rewrite": false
+    },
+    {
+     "id": "out_of_whack.oewn-01096420-s",
+     "word": "out of whack",
+     "gloss": "out of balance or out of adjustment",
+     "charge": -1,
+     "tone": "Informal and forgiving — the trouble is balance or adjustment, something slipped rather than broken.",
+     "rewrite": false
+    },
+    {
+     "id": "run-down.oewn-01096582-s",
+     "word": "run-down",
+     "gloss": "having the spring unwound",
+     "charge": 0,
+     "tone": "Purely mechanical: the spring has unwound, a state to be wound back and no reflection on the thing.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01058772-a",
+   "axis": "a smell merely reported → a smell pinned to one named source",
+   "members": [
+    {
+     "id": "odorous.oewn-01058772-a",
+     "word": "odorous",
+     "gloss": "having odor or a characteristic odor",
+     "charge": 0,
+     "tone": "The family's base term, covering both that a smell is present at all and that the thing has a smell of its own, and alone here it never says which smell.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "31 words"
+     }
+    },
+    {
+     "id": "alliaceous.oewn-01059381-s",
+     "word": "alliaceous",
+     "gloss": "smelling of onions or garlic",
+     "charge": 0,
+     "tone": "Formal where the rest of the family is plain compounding, and it holds onion and garlic together rather than settling on either.",
+     "rewrite": false
+    },
+    {
+     "id": "almond-scented.oewn-01059466-s",
+     "word": "almond-scented",
+     "gloss": "smelling of almond",
+     "charge": 0,
+     "tone": "A flat identification of the source, describing the smell as almond's without any suggestion that this is welcome.",
+     "rewrite": false
+    },
+    {
+     "id": "anise-scented.oewn-01059545-s",
+     "word": "anise-scented",
+     "gloss": "smelling of anise",
+     "charge": 0,
+     "tone": "Names a licorice-sharp source where *almond-scented* names a softer one, though the word itself is equally free of praise or complaint.",
+     "rewrite": false
+    },
+    {
+     "id": "apple-scented.oewn-01059622-s",
+     "word": "apple-scented",
+     "gloss": "smelling of apples",
+     "charge": 0,
+     "tone": "Takes its smell from a fruit rather than a spice or a resin, and like every compound here it identifies without evaluating.",
+     "rewrite": false
+    },
+    {
+     "id": "balsam-scented.oewn-01059700-s",
+     "word": "balsam-scented",
+     "gloss": "smelling of balsam resin",
+     "charge": 0,
+     "tone": "Fixes the smell to the resin rather than to the tree, making it the most exactly specified member of the family.",
+     "rewrite": false
+    },
+    {
+     "id": "candy-scented.oewn-01059785-s",
+     "word": "candy-scented",
+     "gloss": "smelling of candy",
+     "charge": 0,
+     "tone": "The one compound whose source is a made thing rather than a plant, and it names that smell with no verdict attached.",
+     "rewrite": false
+    },
+    {
+     "id": "cedar-scented.oewn-01059862-s",
+     "word": "cedar-scented",
+     "gloss": "smelling like cedar",
+     "charge": 0,
+     "tone": "Takes its smell from a wood, not from a spice, a fruit or a sweet, and names the tree whole where *balsam-scented* narrows to a resin.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "cinnamon-scented.oewn-01059941-s",
+     "word": "cinnamon-scented",
+     "gloss": "smelling of cinnamon",
+     "charge": 0,
+     "tone": "Warm where *mint-scented* is cool, though the warmth belongs to the spice and not to the compound, which identifies the smell as flatly as *clove-scented* names a sharper one.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "29 words"
+     }
+    },
+    {
+     "id": "clove-scented.oewn-01060024-s",
+     "word": "clove-scented",
+     "gloss": "smelling of clove",
+     "charge": 0,
+     "tone": "Names the sharper of the two baking spices here, yet the word passes judgement no more than *cinnamon-scented* does.",
+     "rewrite": false
+    },
+    {
+     "id": "ginger-scented.oewn-01060101-s",
+     "word": "ginger-scented",
+     "gloss": "smelling of ginger",
+     "charge": 0,
+     "tone": "Third of the kitchen spices in the family, labelling a smell by its source without hinting whether it pleases.",
+     "rewrite": false
+    },
+    {
+     "id": "honey-scented.oewn-01060180-s",
+     "word": "honey-scented",
+     "gloss": "smelling of honey",
+     "charge": 0,
+     "tone": "The sweetness sits in the source, not in the word, which reports it as flatly as *musk-scented* reports a heavier smell.",
+     "rewrite": false
+    },
+    {
+     "id": "lemon-scented.oewn-01060257-s",
+     "word": "lemon-scented",
+     "gloss": "smelling of lemons",
+     "charge": 0,
+     "tone": "Borrows a fruit as *apple-scented* does, the sour one against the sweet, with neither compound taking a side.",
+     "rewrite": false
+    },
+    {
+     "id": "mint-scented.oewn-01060335-s",
+     "word": "mint-scented",
+     "gloss": "smelling of mint",
+     "charge": 0,
+     "tone": "Cool where *cinnamon-scented* is warm, but that contrast belongs to the sources named and not to anything the words themselves approve.",
+     "rewrite": false
+    },
+    {
+     "id": "musk-scented.oewn-01060410-s",
+     "word": "musk-scented",
+     "gloss": "smelling of musk",
+     "charge": 0,
+     "tone": "The one animal source among plants, spices and sweets, and the compound states it without the faintest verdict.",
+     "rewrite": false
+    },
+    {
+     "id": "musky-scented.oewn-01060410-s",
+     "word": "musky-scented",
+     "gloss": "smelling of musk",
+     "charge": 0,
+     "tone": "Carries the same sense as *musk-scented*, the -y form loosening the compound without changing what it identifies.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,588 @@
+{
+ "packet": 27,
+ "families": [
+  {
+   "family": "family-01878713-a",
+   "axis": "quiet intellectual depth → penetrating depth of mind or feeling",
+   "members": [
+    {
+     "id": "deep.oewn-01879131-s",
+     "word": "deep",
+     "gloss": "marked by depth of thinking",
+     "charge": 2,
+     "tone": "Plain, unshowy praise that locates the depth in the thinking itself rather than in the person's habit of it, as *thoughtful* does.",
+     "rewrite": false
+    },
+    {
+     "id": "profound.oewn-01878713-a",
+     "word": "profound",
+     "gloss": "showing intellectual penetration or emotional depth",
+     "charge": 3,
+     "tone": "The strongest of these and the widest, crediting either a mind that cuts through or a feeling that runs deep, where *deep* and *thoughtful* stay with the intellect.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "thoughtful.oewn-01879263-s",
+     "word": "thoughtful",
+     "gloss": "having intellectual depth",
+     "charge": 2,
+     "tone": "Mild, steady approval for possessing intellectual depth, without the reach *profound* claims.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00923709-v",
+   "axis": "putting a marker on a thing → setting a thing apart as worth notice",
+   "members": [
+    {
+     "id": "distinguish.oewn-00924409-v",
+     "word": "distinguish",
+     "gloss": "make conspicuous or noteworthy",
+     "charge": 2,
+     "tone": "The only member that raises its object rather than merely labelling it, conferring either conspicuousness or the status of being worth remark, where *mark* just designates.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "mark.oewn-00923709-v",
+     "word": "mark",
+     "gloss": "designate as if by a mark",
+     "charge": 0,
+     "tone": "The plain designating verb, working by figure as readily as by an actual mark and passing no judgement on what it singles out.",
+     "rewrite": false
+    },
+    {
+     "id": "blaze.oewn-00923996-v",
+     "word": "blaze",
+     "gloss": "indicate by marking trees with blazes",
+     "charge": 0,
+     "tone": "Literal where *mark* is figurative: the sign is cut into trees, so the word carries its instrument and nothing evaluative.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "evaluative"
+     }
+    },
+    {
+     "id": "buoy.oewn-00924742-v",
+     "word": "buoy",
+     "gloss": "mark with a buoy",
+     "charge": 0,
+     "tone": "The whole force of the word sits in the marker it names, so it points a thing out without commenting on it.",
+     "rewrite": false
+    },
+    {
+     "id": "dimension.oewn-00924113-v",
+     "word": "dimension",
+     "gloss": "indicate the dimensions on",
+     "charge": 0,
+     "tone": "Technical and flatly informative — what it puts on a thing is measurements, with none of the singling-out for notice that *distinguish* carries.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-04699505-n",
+   "axis": "a mark merely registered on a surface → a flaw that spoils or condemns the thing it is on",
+   "members": [
+    {
+     "id": "defect.oewn-04699505-n",
+     "word": "defect",
+     "gloss": "a mark or flaw that spoils the appearance of something (especially on a person's body)",
+     "charge": -2,
+     "tone": "Names the spoiling mark as a fault, so the thing carrying it is judged wanting rather than merely marked.",
+     "rewrite": false
+    },
+    {
+     "id": "blemish.oewn-04699505-n",
+     "word": "blemish",
+     "gloss": "a mark or flaw that spoils the appearance of something (especially on a person's body)",
+     "charge": -1,
+     "tone": "Keeps the damage at the level of appearance — the thing is spoiled to look at, where *defect* calls it faulty.",
+     "rewrite": false
+    },
+    {
+     "id": "mark.oewn-04701248-n",
+     "word": "mark",
+     "gloss": "an indication of damage",
+     "charge": 0,
+     "tone": "The flattest word here: it registers that damage happened and passes no verdict, where *scar* insists the damage lasted.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "crack.oewn-04700444-n",
+     "word": "crack",
+     "gloss": "a blemish resulting from a break without complete separation of the parts",
+     "charge": -2,
+     "tone": "Graver than *chip* or *scratch*, since the break runs through the thing and only the parts still holding together keep it whole.",
+     "rewrite": false
+    },
+    {
+     "id": "chip.oewn-04700256-n",
+     "word": "chip",
+     "gloss": "a mark left after a small piece has been chopped or broken off of something",
+     "charge": -1,
+     "tone": "Something is gone rather than merely marked, and the word makes the loss sound abrupt.",
+     "rewrite": false
+    },
+    {
+     "id": "wart.oewn-04703780-n",
+     "word": "wart",
+     "gloss": "(pathology) a firm abnormal elevated blemish on the skin; caused by a virus",
+     "charge": -1,
+     "tone": "Clinical naming for a raised growth, but abnormality is built into it — not the plain report *mole* makes.",
+     "rewrite": false
+    },
+    {
+     "id": "dent.oewn-04700732-n",
+     "word": "dent",
+     "gloss": "an impression in a surface (as made by a blow)",
+     "charge": -1,
+     "tone": "The surface has given way under a blow without breaking, so nothing is lost and it stays milder than *chip*.",
+     "rewrite": false
+    },
+    {
+     "id": "scrape.oewn-04701248-n",
+     "word": "scrape",
+     "gloss": "an indication of damage",
+     "charge": -1,
+     "tone": "Damage dragged across a surface — broader than *scratch* and still shallow.",
+     "rewrite": false
+    },
+    {
+     "id": "mole.oewn-04701152-n",
+     "word": "mole",
+     "gloss": "a small congenital pigmented spot on the skin",
+     "charge": 0,
+     "tone": "Purely descriptive: a pigmented spot carried from birth, with no suggestion of damage or fault.",
+     "rewrite": false
+    },
+    {
+     "id": "scratch.oewn-04701248-n",
+     "word": "scratch",
+     "gloss": "an indication of damage",
+     "charge": -1,
+     "tone": "The slightest indication of damage in the set — thin and superficial where *scar* is permanent.",
+     "rewrite": false
+    },
+    {
+     "id": "scar.oewn-04701248-n",
+     "word": "scar",
+     "gloss": "an indication of damage",
+     "charge": -2,
+     "tone": "The heaviest of the damage words: the harm is over but permanently recorded, where *scratch* passes.",
+     "rewrite": false
+    },
+    {
+     "id": "ding.oewn-04700732-n",
+     "word": "ding",
+     "gloss": "an impression in a surface (as made by a blow)",
+     "charge": -1,
+     "tone": "Informal and belittling — the same blow-struck impression as *dent*, named in a way that makes light of it.",
+     "rewrite": false
+    },
+    {
+     "id": "burn.oewn-04701438-n",
+     "word": "burn",
+     "gloss": "a place or area that has been burned (especially on a person's body)",
+     "charge": -2,
+     "tone": "Names the place by the violence that made it, which gives it a weight *mark* has not.",
+     "rewrite": false
+    },
+    {
+     "id": "birthmark.oewn-04699986-n",
+     "word": "birthmark",
+     "gloss": "a blemish on the skin that is formed before birth",
+     "charge": 0,
+     "tone": "Traces the blemish to birth rather than to any injury, so nothing is blamed for it.",
+     "rewrite": false
+    },
+    {
+     "id": "check.oewn-04700256-n",
+     "word": "check",
+     "gloss": "a mark left after a small piece has been chopped or broken off of something",
+     "charge": 0,
+     "tone": "The colourless name for the same loss *chip* reports, with none of the sound of breaking in it.",
+     "rewrite": false
+    },
+    {
+     "id": "nick.oewn-04700732-n",
+     "word": "nick",
+     "gloss": "an impression in a surface (as made by a blow)",
+     "charge": -1,
+     "tone": "Smallest of the impressions, and the word makes the blow sound trifling where *dent* concedes real force.",
+     "rewrite": false
+    },
+    {
+     "id": "stigma.oewn-04703433-n",
+     "word": "stigma",
+     "gloss": "a skin lesion that is a diagnostic sign of some disease",
+     "charge": -1,
+     "tone": "Clinical and grave: the lesion is not merely present but read as evidence, the skin testifying to a disease.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-10343410-n",
+   "axis": "a woman placed beside a powerful man → a woman named as adulterous",
+   "members": [
+    {
+     "id": "mistress.oewn-10343410-n",
+     "word": "mistress",
+     "gloss": "an adulterous woman; a woman who has an ongoing extramarital sexual relationship with a man",
+     "charge": -2,
+     "tone": "The censure is inside the definition rather than added by the speaker, since the word names the relationship as adulterous and ongoing; where *concubine* marks a living arrangement, this marks a breach.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "32 words",
+      "hard-words": "censure, adulterous"
+     }
+    },
+    {
+     "id": "concubine.oewn-09971872-n",
+     "word": "concubine",
+     "gloss": "a woman who cohabits with an important man",
+     "charge": -1,
+     "tone": "A term of position rather than accusation: it fixes a woman by the household she shares and the standing of the man in it, saying nothing about marriage being broken.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "30 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-05904666-n",
+   "axis": "a false belief dismissed as a light notion → a false idea condemned as hollow and unworkable",
+   "members": [
+    {
+     "id": "fancy.oewn-05904666-n",
+     "word": "fancy",
+     "gloss": "something many people believe that is false",
+     "charge": -1,
+     "tone": "The gentlest way to call a widely held belief false, treating the error as a passing notion rather than an indictment of anyone holding it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "fantasy.oewn-05904666-n",
+     "word": "fantasy",
+     "gloss": "something many people believe that is false",
+     "charge": -2,
+     "tone": "Sharper than *fancy*: the false belief is cast as something wished into being, so holding it looks like self-indulgence rather than a slip.",
+     "rewrite": false
+    },
+    {
+     "id": "bubble.oewn-05904986-n",
+     "word": "bubble",
+     "gloss": "an impracticable and illusory idea",
+     "charge": -2,
+     "tone": "Adds unworkability to falseness — the idea is not only illusory but could never be carried out, and the word keeps the burst inside it.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "unworkability, illusory"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-10326901-n",
+   "axis": "membership not yet complete → belonging claimed as kinship or honour",
+   "members": [
+    {
+     "id": "sister.oewn-10621666-n",
+     "word": "sister",
+     "gloss": "a female person who is a fellow member of a sorority or labor union or other group",
+     "charge": 1,
+     "tone": "Turns fellow membership of a sorority, a union or any other group into a family tie between women, warmer than the bare enrolment *member* records.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "fellow.oewn-10103295-n",
+     "word": "fellow",
+     "gloss": "a member of a learned society",
+     "charge": 1,
+     "tone": "Membership as conferred standing — a learned society's name for one of its own, where *member* would only note that someone belongs.",
+     "rewrite": false
+    },
+    {
+     "id": "member.oewn-10326901-n",
+     "word": "member",
+     "gloss": "one of the persons who compose a social group (especially individuals who have joined and participate in a group organization)",
+     "charge": 0,
+     "tone": "The flat term for one of the people a group is composed of, joining and taking part included but no warmth or rank added.",
+     "rewrite": false
+    },
+    {
+     "id": "pledge.oewn-10460984-n",
+     "word": "pledge",
+     "gloss": "someone accepted for membership but not yet fully admitted to the group",
+     "charge": -1,
+     "tone": "Names a person by an admission still unfinished, accepted but held short of the settled standing *member* assumes.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01462344-a",
+   "axis": "worth loving → irresistibly sweet",
+   "members": [
+    {
+     "id": "lovable.oewn-01462344-a",
+     "word": "lovable",
+     "gloss": "having characteristics that attract love or affection",
+     "charge": 2,
+     "tone": "The family's plain baseline - it says the thing has whatever draws love, without dressing the quality up as innocence or sweetness.",
+     "rewrite": false
+    },
+    {
+     "id": "loveable.oewn-01462344-a",
+     "word": "loveable",
+     "gloss": "having characteristics that attract love or affection",
+     "charge": 2,
+     "tone": "The full-spelt form, identical in warmth and force to *lovable*.",
+     "rewrite": false
+    },
+    {
+     "id": "adorable.oewn-01462677-s",
+     "word": "adorable",
+     "gloss": "lovable especially in a childlike or naive way",
+     "charge": 3,
+     "tone": "Superlative where *lovable* is merely descriptive - affection is not attracted but compelled, and the childlike or naive streak is what compels it.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "superlative, childlike",
+      "grammar": "superlative"
+     }
+    },
+    {
+     "id": "endearing.oewn-01462677-s",
+     "word": "endearing",
+     "gloss": "lovable especially in a childlike or naive way",
+     "charge": 2,
+     "tone": "Puts the effect in motion rather than the quality at rest: it wins affection over, where *adorable* simply announces the winning is done.",
+     "rewrite": false
+    },
+    {
+     "id": "lovely.oewn-01462677-s",
+     "word": "lovely",
+     "gloss": "lovable especially in a childlike or naive way",
+     "charge": 2,
+     "tone": "Broad, easy warmth for the same childlike appeal, without the surrender *adorable* implies.",
+     "rewrite": false
+    },
+    {
+     "id": "angelic.oewn-01462871-s",
+     "word": "angelic",
+     "gloss": "having a sweet nature befitting an angel or cherub",
+     "charge": 3,
+     "tone": "Lifts sweetness to an ideal - praise that leaves no room for a fault in the nature described.",
+     "rewrite": false
+    },
+    {
+     "id": "angelical.oewn-01462871-s",
+     "word": "angelical",
+     "gloss": "having a sweet nature befitting an angel or cherub",
+     "charge": 3,
+     "tone": "The extended form of *angelic*, reaching for the same unblemished sweetness with a more formal ring.",
+     "rewrite": false
+    },
+    {
+     "id": "cherubic.oewn-01462871-s",
+     "word": "cherubic",
+     "gloss": "having a sweet nature befitting an angel or cherub",
+     "charge": 2,
+     "tone": "Takes the cherub rather than the angel: sweetness that is small, round and fond instead of exalted.",
+     "rewrite": false
+    },
+    {
+     "id": "seraphic.oewn-01462871-s",
+     "word": "seraphic",
+     "gloss": "having a sweet nature befitting an angel or cherub",
+     "charge": 3,
+     "tone": "The most rarefied of the angel words - sweetness raised to something radiant and remote, well past the homely warmth of *cherubic*.",
+     "rewrite": false
+    },
+    {
+     "id": "sweet.oewn-01462871-s",
+     "word": "sweet",
+     "gloss": "having a sweet nature befitting an angel or cherub",
+     "charge": 2,
+     "tone": "The unadorned name for the nature the angel words put wings on - the same quality with none of the exaltation.",
+     "rewrite": false
+    },
+    {
+     "id": "cuddlesome.oewn-01463188-s",
+     "word": "cuddlesome",
+     "gloss": "inviting cuddling or hugging",
+     "charge": 2,
+     "tone": "Carries the invitation in its build - a thing that asks to be held, stated more deliberately than *cuddly*.",
+     "rewrite": false
+    },
+    {
+     "id": "cuddly.oewn-01463188-s",
+     "word": "cuddly",
+     "gloss": "inviting cuddling or hugging",
+     "charge": 2,
+     "tone": "Soft, offhand and physical: the appeal is being huggable, not being good-natured as in *sweet*.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "offhand, huggable"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-01884565-a",
+   "axis": "plainly suitable → propriety pushed past its purpose",
+   "members": [
+    {
+     "id": "becoming.oewn-01884969-s",
+     "word": "becoming",
+     "gloss": "according with custom or propriety",
+     "charge": 2,
+     "tone": "Warm approval - what accords with custom is credited with grace rather than mere compliance, unlike the dry *decorous*.",
+     "rewrite": false
+    },
+    {
+     "id": "comely.oewn-01884969-s",
+     "word": "comely",
+     "gloss": "according with custom or propriety",
+     "charge": 2,
+     "tone": "Gentle and pleased - it finds conduct agreeable in its accord with propriety rather than measuring it against a rule.",
+     "rewrite": false
+    },
+    {
+     "id": "comme_il_faut.oewn-01884969-s",
+     "word": "comme il faut",
+     "gloss": "according with custom or propriety",
+     "charge": 1,
+     "tone": "A phrase rather than a word, and formal to the point of ceremony - approval delivered by invoking the code instead of describing the conduct.",
+     "rewrite": false
+    },
+    {
+     "id": "decorous.oewn-01884969-s",
+     "word": "decorous",
+     "gloss": "according with custom or propriety",
+     "charge": 2,
+     "tone": "Cool and external - conduct is held up against a standard of propriety and passes, with none of the warmth of *becoming*.",
+     "rewrite": false
+    },
+    {
+     "id": "seemly.oewn-01884969-s",
+     "word": "seemly",
+     "gloss": "according with custom or propriety",
+     "charge": 2,
+     "tone": "Understated - grants that conduct accords with propriety without the ceremony *decorous* brings to the same verdict.",
+     "rewrite": false
+    },
+    {
+     "id": "correct.oewn-01885314-s",
+     "word": "correct",
+     "gloss": "socially right or correct",
+     "charge": 1,
+     "tone": "Approval as a verdict - the social rule was met, and nothing warmer than that is claimed.",
+     "rewrite": false
+    },
+    {
+     "id": "right.oewn-01885314-s",
+     "word": "right",
+     "gloss": "socially right or correct",
+     "charge": 1,
+     "tone": "The bluntest way to render the same social judgement as *correct*, carrying no formality at all.",
+     "rewrite": false
+    },
+    {
+     "id": "fitting.oewn-01885720-s",
+     "word": "fitting",
+     "gloss": "in harmony with the spirit of particular persons or occasion",
+     "charge": 2,
+     "tone": "Approval keyed to the occasion and the people in it rather than to any code - it praises harmony where *correct* praises compliance.",
+     "rewrite": false
+    },
+    {
+     "id": "decent.oewn-01885720-s",
+     "word": "decent",
+     "gloss": "in harmony with the spirit of particular persons or occasion",
+     "charge": 1,
+     "tone": "Modest and human - it grants that a thing suits the persons and the moment, with less deliberation than *fitting*.",
+     "rewrite": false
+    },
+    {
+     "id": "halal.oewn-01885994-s",
+     "word": "halal",
+     "gloss": "proper or legitimate according to Muslim law",
+     "charge": 0,
+     "tone": "A designation rather than a compliment - it states that something is proper or legitimate under a named law, and the approval belongs to that law and not to the speaker.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "30 words"
+     }
+    },
+    {
+     "id": "kosher.oewn-01886153-s",
+     "word": "kosher",
+     "gloss": "proper or legitimate",
+     "charge": 1,
+     "tone": "Informal and reassuring - declares a thing proper or legitimate, above board and open to no objection.",
+     "rewrite": false
+    },
+    {
+     "id": "priggish.oewn-01886245-s",
+     "word": "priggish",
+     "gloss": "exaggeratedly proper",
+     "charge": -2,
+     "tone": "Contemptuous - the excess of propriety is read as self-satisfaction, correctness worn as superiority over others.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "contemptuous, propriety"
+     }
+    },
+    {
+     "id": "prim.oewn-01886245-s",
+     "word": "prim",
+     "gloss": "exaggeratedly proper",
+     "charge": -1,
+     "tone": "The lightest fault in this group - propriety held so tightly it stiffens, mocked rather than condemned.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "propriety, stiffens"
+     }
+    },
+    {
+     "id": "prissy.oewn-01886245-s",
+     "word": "prissy",
+     "gloss": "exaggeratedly proper",
+     "charge": -2,
+     "tone": "Dismissive and faintly ridiculing - the overdone propriety is treated as fussiness, silly rather than severe like *priggish*.",
+     "rewrite": false
+    },
+    {
+     "id": "prudish.oewn-01886245-s",
+     "word": "prudish",
+     "gloss": "exaggeratedly proper",
+     "charge": -2,
+     "tone": "Propriety inflated into squeamishness - more disapproving than *prim*, since the excess is taken as a readiness to be shocked.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "propriety, squeamishness"
+     }
+    }
+   ]
+  }
+ ]
+}

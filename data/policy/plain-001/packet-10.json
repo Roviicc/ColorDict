@@ -1,0 +1,926 @@
+{
+ "packet": 10,
+ "families": [
+  {
+   "family": "family-01871147-a",
+   "axis": "flat statement that something bears or can bear → praise for abundant yield",
+   "members": [
+    {
+     "id": "productive.oewn-01871147-a",
+     "word": "productive",
+     "gloss": "producing or capable of producing (especially abundantly)",
+     "charge": 1,
+     "tone": "Plain approval of output that covers both actual yield and the bare capacity for it, where *prolific* insists the yield is already there.",
+     "rewrite": false
+    },
+    {
+     "id": "amentiferous.oewn-01871590-s",
+     "word": "amentiferous",
+     "gloss": "(of plants) bearing or characterized by aments or catkins",
+     "charge": 0,
+     "tone": "Technical and classifying: it records that the plant carries catkins and offers no verdict at all on how much it yields.",
+     "rewrite": false
+    },
+    {
+     "id": "amentaceous.oewn-01871590-s",
+     "word": "amentaceous",
+     "gloss": "(of plants) bearing or characterized by aments or catkins",
+     "charge": 0,
+     "tone": "Places a plant by the catkins that characterize it, as flatly as *amentiferous* and with as little praise in it.",
+     "rewrite": false
+    },
+    {
+     "id": "arable.oewn-01871757-s",
+     "word": "arable",
+     "gloss": "(of farmland) capable of being farmed productively",
+     "charge": 1,
+     "tone": "A settled favourable verdict on land, but only that it could be farmed well - potential where *rich* asserts the yield itself.",
+     "rewrite": false
+    },
+    {
+     "id": "cultivable.oewn-01871757-s",
+     "word": "cultivable",
+     "gloss": "(of farmland) capable of being farmed productively",
+     "charge": 1,
+     "tone": "States the same promise as *arable* transparently through the act of cultivating, so it reads as an open possibility rather than a standing classification of the land.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "cultivatable.oewn-01871757-s",
+     "word": "cultivatable",
+     "gloss": "(of farmland) capable of being farmed productively",
+     "charge": 1,
+     "tone": "Heavier and more literal than *cultivable*, claiming no more than that the work of cultivation can be done here.",
+     "rewrite": false
+    },
+    {
+     "id": "tillable.oewn-01871757-s",
+     "word": "tillable",
+     "gloss": "(of farmland) capable of being farmed productively",
+     "charge": 1,
+     "tone": "The most physical of the land words, tying the ground's promise to the labour of tilling it where *arable* keeps the judgement abstract.",
+     "rewrite": false
+    },
+    {
+     "id": "fecund.oewn-01871917-s",
+     "word": "fecund",
+     "gloss": "intellectually productive",
+     "charge": 2,
+     "tone": "Elevated praise for a mind that generates abundantly, richer and more admiring than a flat *productive*.",
+     "rewrite": false
+    },
+    {
+     "id": "fertile.oewn-01871917-s",
+     "word": "fertile",
+     "gloss": "intellectually productive",
+     "charge": 2,
+     "tone": "Praises a mind as ground ideas grow from - readiness and promise, where *prolific* counts what has actually come out of it.",
+     "rewrite": false
+    },
+    {
+     "id": "prolific.oewn-01871917-s",
+     "word": "prolific",
+     "gloss": "intellectually productive",
+     "charge": 2,
+     "tone": "Admiration measured by sheer quantity of intellectual output, where *fecund* admires its richness instead.",
+     "rewrite": false
+    },
+    {
+     "id": "fur-bearing.oewn-01872079-s",
+     "word": "fur-bearing",
+     "gloss": "of animals having fur (especially of commercial quality)",
+     "charge": 0,
+     "tone": "Coolly appraising rather than approving - it marks an animal as carrying fur worth having, without any compliment to the animal.",
+     "rewrite": false
+    },
+    {
+     "id": "nut-bearing.oewn-01872193-s",
+     "word": "nut-bearing",
+     "gloss": "(of shrubs or trees) producing nuts",
+     "charge": 0,
+     "tone": "A bare compound naming what the plant puts out, with none of the claim about quantity that *productive* carries.",
+     "rewrite": false
+    },
+    {
+     "id": "oil-bearing.oewn-01872286-s",
+     "word": "oil-bearing",
+     "gloss": "containing oil",
+     "charge": 0,
+     "tone": "Says only that oil is present inside - containing rather than yielding, so nothing is being produced here at all.",
+     "rewrite": false
+    },
+    {
+     "id": "rich.oewn-01872379-s",
+     "word": "rich",
+     "gloss": "very productive",
+     "charge": 2,
+     "tone": "Short, everyday and emphatic, asserting abundance outright where *productive* still allows mere capacity.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01842067-a",
+   "axis": "unsuited to practical use → derided as senseless",
+   "members": [
+    {
+     "id": "impractical.oewn-01842067-a",
+     "word": "impractical",
+     "gloss": "not practical; not workable or not given to practical matters",
+     "charge": -1,
+     "tone": "The plain term of the family - it states the unworkability and stops there, without the ridicule *crazy* and *half-baked* carry.",
+     "rewrite": false
+    },
+    {
+     "id": "crazy.oewn-01842483-s",
+     "word": "crazy",
+     "gloss": "foolish; totally unsound",
+     "charge": -2,
+     "tone": "Blunt and total - it leaves the notion nothing salvageable, where *impractical* leaves it merely unworkable.",
+     "rewrite": false
+    },
+    {
+     "id": "half-baked.oewn-01842483-s",
+     "word": "half-baked",
+     "gloss": "foolish; totally unsound",
+     "charge": -2,
+     "tone": "Contemptuous - it casts the unsoundness as thinking abandoned before it was finished, faulting the effort as much as the result.",
+     "rewrite": false
+    },
+    {
+     "id": "screwball.oewn-01842483-s",
+     "word": "screwball",
+     "gloss": "foolish; totally unsound",
+     "charge": -1,
+     "tone": "Flippant - the foolishness is treated as entertaining eccentricity, so it stings less than *crazy* at the same verdict.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "flippant, eccentricity"
+     }
+    },
+    {
+     "id": "softheaded.oewn-01842483-s",
+     "word": "softheaded",
+     "gloss": "foolish; totally unsound",
+     "charge": -2,
+     "tone": "Insulting in a way the others are not - it puts the unsoundness down to a mind too soft to hold a firm thought.",
+     "rewrite": false
+    },
+    {
+     "id": "meshugge.oewn-01842742-s",
+     "word": "meshugge",
+     "gloss": "senseless; crazy",
+     "charge": -2,
+     "tone": "Colloquial and flat - it calls the thing senseless outright, with none of the picture-making *half-baked* offers.",
+     "rewrite": false
+    },
+    {
+     "id": "meshugga.oewn-01842742-s",
+     "word": "meshugga",
+     "gloss": "senseless; crazy",
+     "charge": -2,
+     "tone": "A variant spelling of *meshugge* and no gentler for it - the same unadorned charge of senselessness.",
+     "rewrite": false
+    },
+    {
+     "id": "meshuga.oewn-01842742-s",
+     "word": "meshuga",
+     "gloss": "senseless; crazy",
+     "charge": -2,
+     "tone": "The barest of these spellings, and the shortness suits a word that makes no argument, only a verdict.",
+     "rewrite": false
+    },
+    {
+     "id": "meshuggeneh.oewn-01842742-s",
+     "word": "meshuggeneh",
+     "gloss": "senseless; crazy",
+     "charge": -2,
+     "tone": "The extra syllables give it a flourish the shorter spellings lack, but the judgement of senselessness is unchanged.",
+     "rewrite": false
+    },
+    {
+     "id": "meshuggener.oewn-01842742-s",
+     "word": "meshuggener",
+     "gloss": "senseless; crazy",
+     "charge": -2,
+     "tone": "Another form of the same dismissal - senselessness stated as settled fact, where *quixotic* would at least credit an aim.",
+     "rewrite": false
+    },
+    {
+     "id": "quixotic.oewn-01842899-s",
+     "word": "quixotic",
+     "gloss": "not sensible about practical matters; idealistic and unrealistic",
+     "charge": -1,
+     "tone": "Faults the want of practical sense while crediting the ideals behind it, so the disapproval comes out half-admiring.",
+     "rewrite": false
+    },
+    {
+     "id": "romantic.oewn-01842899-s",
+     "word": "romantic",
+     "gloss": "not sensible about practical matters; idealistic and unrealistic",
+     "charge": -1,
+     "tone": "The gentlest of these - the unrealism is charged to an idealizing temperament rather than a defect, and can be said almost fondly.",
+     "rewrite": false
+    },
+    {
+     "id": "wild-eyed.oewn-01842899-s",
+     "word": "wild-eyed",
+     "gloss": "not sensible about practical matters; idealistic and unrealistic",
+     "charge": -2,
+     "tone": "Puts a look of fanaticism on the same unrealism, so where *romantic* indulges it this one warns against it.",
+     "rewrite": false
+    },
+    {
+     "id": "unfunctional.oewn-01843204-s",
+     "word": "unfunctional",
+     "gloss": "not related to or suitable for everyday needs or activities",
+     "charge": 0,
+     "tone": "Carries no verdict at all - it records unsuitability for everyday needs where *impractical* implies a fault.",
+     "rewrite": false
+    },
+    {
+     "id": "unwieldy.oewn-01843322-s",
+     "word": "unwieldy",
+     "gloss": "difficult to work or manipulate",
+     "charge": -1,
+     "tone": "Locates the trouble in the handling rather than in anyone's judgement, so a thoroughly sensible thing can still earn it.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01452455-a",
+   "axis": "temporarily out of place → gone for good through waste",
+   "members": [
+    {
+     "id": "lost.oewn-01452455-a",
+     "word": "lost",
+     "gloss": "no longer in your possession or control; unable to be found or recovered",
+     "charge": -1,
+     "tone": "The flat, final member - it puts a thing beyond holding and beyond recovery both, naming a deprivation rather than a mishap.",
+     "rewrite": false
+    },
+    {
+     "id": "mislaid.oewn-01452757-s",
+     "word": "mislaid",
+     "gloss": "lost temporarily; as especially put in an unaccustomed or forgotten place",
+     "charge": 0,
+     "tone": "Gentlest here - the thing is still somewhere, merely not where it was put, so the loss is provisional and faintly self-excusing.",
+     "rewrite": false
+    },
+    {
+     "id": "misplaced.oewn-01452757-s",
+     "word": "misplaced",
+     "gloss": "lost temporarily; as especially put in an unaccustomed or forgotten place",
+     "charge": 0,
+     "tone": "The same provisional loss as *mislaid* in a flatter, more formal register, faulting the position a thing ended up in rather than the act of setting it down.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words",
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "missing.oewn-01452957-s",
+     "word": "missing",
+     "gloss": "not able to be found",
+     "charge": 0,
+     "tone": "Pure report of absence - it says only that the thing cannot be found, and unlike *lost* leaves recovery open.",
+     "rewrite": false
+    },
+    {
+     "id": "squandered.oewn-01453072-s",
+     "word": "squandered",
+     "gloss": "not used to good advantage",
+     "charge": -2,
+     "tone": "The condemning member - what was had was spent to no purpose, and the word insists someone did the spending.",
+     "rewrite": false
+    },
+    {
+     "id": "wasted.oewn-01453072-s",
+     "word": "wasted",
+     "gloss": "not used to good advantage",
+     "charge": -1,
+     "tone": "Registers value come to nothing without fixing on a culprit, which is the accusation *squandered* adds.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "stray.oewn-01453222-s",
+     "word": "stray",
+     "gloss": "(of an animal) having no home or having wandered away from home",
+     "charge": -1,
+     "tone": "Of an animal, and it covers both the one with no home and the one that has wandered off, carrying pity and a touch of nuisance at once.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "straying.oewn-01453386-s",
+     "word": "straying",
+     "gloss": "unable to find your way",
+     "charge": 0,
+     "tone": "Names only the predicament of being unable to find your way - a passing disorientation beside the standing state *stray* describes, with no blame in it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-02066198-a",
+   "axis": "outcome merely left to chance → grave or deliberately aimed danger",
+   "members": [
+    {
+     "id": "dangerous.oewn-02066198-a",
+     "word": "dangerous",
+     "gloss": "involving or causing danger or risk; liable to hurt or harm",
+     "charge": 0,
+     "tone": "Flat and unarguable - it states that harm can follow and leaves the judging to someone else, where *unsafe* already faults the thing.",
+     "rewrite": false
+    },
+    {
+     "id": "unsafe.oewn-02066198-a",
+     "word": "unsafe",
+     "gloss": "involving or causing danger or risk; liable to hurt or harm",
+     "charge": -1,
+     "tone": "Measures the thing against a standard of safety it fails, so the danger arrives with a fault attached that *dangerous* leaves off.",
+     "rewrite": false
+    },
+    {
+     "id": "breakneck.oewn-02066684-s",
+     "word": "breakneck",
+     "gloss": "moving at very high speed",
+     "charge": 0,
+     "tone": "The danger sits in the picture rather than in any verdict - a pace fast enough to break a neck, which can sound thrilling as readily as reckless.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "chancy.oewn-02066785-s",
+     "word": "chancy",
+     "gloss": "of uncertain outcome; especially fraught with risk",
+     "charge": -1,
+     "tone": "Informal and shrugging - the outcome is handed to luck, which is enough to mark the thing as not worth counting on.",
+     "rewrite": false
+    },
+    {
+     "id": "chanceful.oewn-02066785-s",
+     "word": "chanceful",
+     "gloss": "of uncertain outcome; especially fraught with risk",
+     "charge": 0,
+     "tone": "The bare formation, saying only that an outcome is full of chance, without the wariness *chancy* packs into the same idea.",
+     "rewrite": false
+    },
+    {
+     "id": "dicey.oewn-02066785-s",
+     "word": "dicey",
+     "gloss": "of uncertain outcome; especially fraught with risk",
+     "charge": -1,
+     "tone": "Informal, with a gambler's wince in it - the odds are being felt rather than merely noted.",
+     "rewrite": false
+    },
+    {
+     "id": "dodgy.oewn-02066785-s",
+     "word": "dodgy",
+     "gloss": "of uncertain outcome; especially fraught with risk",
+     "charge": -2,
+     "tone": "British and dismissive - the thing is not just uncertain but not to be relied on, the most distrustful way of putting the same risk.",
+     "rewrite": false
+    },
+    {
+     "id": "desperate.oewn-02067030-s",
+     "word": "desperate",
+     "gloss": "(of persons) dangerously reckless or violent as from urgency or despair",
+     "charge": -2,
+     "tone": "Aimed at a person rather than a situation - past caution and liable to violence, and the despair behind it does nothing to soften the warning.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "hazardous.oewn-02067215-s",
+     "word": "hazardous",
+     "gloss": "involving risk or danger",
+     "charge": 0,
+     "tone": "Formal and classifying - it registers danger as a property to be assessed, cooler than *risky*, which sounds like advice.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "risky.oewn-02067215-s",
+     "word": "risky",
+     "gloss": "involving risk or danger",
+     "charge": 0,
+     "tone": "Everyday and weighing - it frames the danger as something one might knowingly take on, where *hazardous* only labels it.",
+     "rewrite": false
+    },
+    {
+     "id": "wild.oewn-02067215-s",
+     "word": "wild",
+     "gloss": "involving risk or danger",
+     "charge": 0,
+     "tone": "Relishes the danger instead of warning against it, giving the same risk a heat that *hazardous* keeps out.",
+     "rewrite": false
+    },
+    {
+     "id": "insidious.oewn-02067510-s",
+     "word": "insidious",
+     "gloss": "intended to entrap",
+     "charge": -3,
+     "tone": "Condemns outright, because here the danger is designed - something is laying a trap, and the word says so.",
+     "rewrite": false
+    },
+    {
+     "id": "mordacious.oewn-02067602-s",
+     "word": "mordacious",
+     "gloss": "biting or given to biting",
+     "charge": -1,
+     "tone": "Formal and dry for something with teeth - it will serve for the act of biting or for the disposition toward it.",
+     "rewrite": false
+    },
+    {
+     "id": "on_the_hook.oewn-02067763-s",
+     "word": "on the hook",
+     "gloss": "caught in a difficult or dangerous situation",
+     "charge": 0,
+     "tone": "Informal, and the image does the work: the danger is a trap someone is caught in rather than a failing of theirs.",
+     "rewrite": false
+    },
+    {
+     "id": "parlous.oewn-02067900-s",
+     "word": "parlous",
+     "gloss": "fraught with danger",
+     "charge": 0,
+     "tone": "Heightened and declamatory - it announces danger with a flourish that *perilous* manages without.",
+     "rewrite": false
+    },
+    {
+     "id": "perilous.oewn-02067900-s",
+     "word": "perilous",
+     "gloss": "fraught with danger",
+     "charge": 0,
+     "tone": "Grave and unironic - danger at full weight, more formal than *dangerous* and with none of the hedging in *chancy*.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02072149-a",
+   "axis": "merely unlike → completely opposed",
+   "members": [
+    {
+     "id": "different.oewn-02072149-a",
+     "word": "different",
+     "gloss": "unlike in nature or quality or form or degree",
+     "charge": 0,
+     "tone": "The bare statement of unlikeness, fixing no degree — it says two things are not the same and stops there.",
+     "rewrite": false
+    },
+    {
+     "id": "antithetic.oewn-02072808-s",
+     "word": "antithetic",
+     "gloss": "sharply contrasted in character or purpose",
+     "charge": 0,
+     "tone": "Casts the unlikeness as a matched opposition, two things defined against each other rather than merely unalike as in *different*.",
+     "rewrite": false
+    },
+    {
+     "id": "antithetical.oewn-02072808-s",
+     "word": "antithetical",
+     "gloss": "sharply contrasted in character or purpose",
+     "charge": 0,
+     "tone": "The fuller and weightier-sounding form beside *antithetic*, carrying the same sense of two things set squarely against each other.",
+     "rewrite": false
+    },
+    {
+     "id": "assorted.oewn-02073069-s",
+     "word": "assorted",
+     "gloss": "of many different kinds purposefully arranged but lacking any uniformity",
+     "charge": 0,
+     "tone": "Turns difference into a made mixture — the variety is arranged, though nothing in it matches.",
+     "rewrite": false
+    },
+    {
+     "id": "various.oewn-02073069-s",
+     "word": "various",
+     "gloss": "of many different kinds purposefully arranged but lacking any uniformity",
+     "charge": 0,
+     "tone": "Spreads the same idea across the kinds themselves, a plural of difference, where *assorted* keeps attention on the mixing.",
+     "rewrite": false
+    },
+    {
+     "id": "contrary.oewn-02073362-s",
+     "word": "contrary",
+     "gloss": "very opposed in nature or character or purpose",
+     "charge": 0,
+     "tone": "Marks unlikeness strong enough to amount to opposition, past the plain difference of *different* but short of the total inversion of *diametric*.",
+     "rewrite": false
+    },
+    {
+     "id": "contrasting.oewn-02073546-s",
+     "word": "contrasting",
+     "gloss": "strikingly different; tending to contrast",
+     "charge": 0,
+     "tone": "Makes the difference visible — the unlikeness is what strikes you when the two are set side by side.",
+     "rewrite": false
+    },
+    {
+     "id": "contrastive.oewn-02073546-s",
+     "word": "contrastive",
+     "gloss": "strikingly different; tending to contrast",
+     "charge": 0,
+     "tone": "Frames that same striking unlikeness as a property a thing has rather than an effect it produces, the more analytic-sounding of the pair with *contrasting*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "diametric.oewn-02073716-s",
+     "word": "diametric",
+     "gloss": "characterized by opposite extremes; completely opposed",
+     "charge": 0,
+     "tone": "Puts the two at opposite ends of a single line, so the difference is total rather than merely sharp as in *contrasting*.",
+     "rewrite": false
+    },
+    {
+     "id": "diametrical.oewn-02073716-s",
+     "word": "diametrical",
+     "gloss": "characterized by opposite extremes; completely opposed",
+     "charge": 0,
+     "tone": "The extended form of *diametric*, identical in force and a shade more formal in shape.",
+     "rewrite": false
+    },
+    {
+     "id": "opposite.oewn-02073716-s",
+     "word": "opposite",
+     "gloss": "characterized by opposite extremes; completely opposed",
+     "charge": 0,
+     "tone": "The plainest way to state complete opposition, where *diametric* and *polar* dress the same total reversal in a figure.",
+     "rewrite": false
+    },
+    {
+     "id": "polar.oewn-02073716-s",
+     "word": "polar",
+     "gloss": "characterized by opposite extremes; completely opposed",
+     "charge": 0,
+     "tone": "Renders the opposition as two extremes with nothing between them, giving the contrast a fixed maximum that *contrary* leaves open-ended.",
+     "rewrite": false
+    },
+    {
+     "id": "divergent.oewn-02074066-s",
+     "word": "divergent",
+     "gloss": "diverging from another or from a standard",
+     "charge": 0,
+     "tone": "Makes the difference a moving apart rather than a settled state, and lets a standard be the thing departed from, where *disparate* simply finds two things unlike.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "disparate.oewn-02074240-s",
+     "word": "disparate",
+     "gloss": "fundamentally different or distinct in quality or kind",
+     "charge": 0,
+     "tone": "Places the unlikeness at the root — a difference of kind rather than of degree, deeper than the surface difference of *different*.",
+     "rewrite": false
+    },
+    {
+     "id": "distinct.oewn-02074467-s",
+     "word": "distinct",
+     "gloss": "(often followed by ‘from’) not alike; different in nature or quality",
+     "charge": 0,
+     "tone": "States the unlikeness as a clean separation of one thing from another, without any of the extremity of *diametric*.",
+     "rewrite": false
+    },
+    {
+     "id": "distinguishable.oewn-02074467-s",
+     "word": "distinguishable",
+     "gloss": "(often followed by ‘from’) not alike; different in nature or quality",
+     "charge": 0,
+     "tone": "Puts the same unlikeness in terms of what can be told apart, so the difference is one that survives inspection, where *distinct* just asserts it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00888937-a",
+   "axis": "plain keenness → enthusiasm intense enough to stop being creditable",
+   "members": [
+    {
+     "id": "enthusiastic.oewn-00888937-a",
+     "word": "enthusiastic",
+     "gloss": "having or showing great excitement and interest",
+     "charge": 1,
+     "tone": "The plain term for the state - it reports the excitement and interest without ruling on whether they are deserved, which is exactly what *overenthusiastic* rules on.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "ardent.oewn-00889359-s",
+     "word": "ardent",
+     "gloss": "characterized by strong enthusiasm",
+     "charge": 2,
+     "tone": "Enthusiasm with heat in it, steady and burning rather than merely eager, where *warm* only glows.",
+     "rewrite": false
+    },
+    {
+     "id": "warm.oewn-00889359-s",
+     "word": "warm",
+     "gloss": "characterized by strong enthusiasm",
+     "charge": 1,
+     "tone": "The mildest way to call enthusiasm strong - felt and unmistakable, but temperate beside *ardent*.",
+     "rewrite": false
+    },
+    {
+     "id": "avid.oewn-00889495-s",
+     "word": "avid",
+     "gloss": "marked by active interest and enthusiasm",
+     "charge": 1,
+     "tone": "Enthusiasm with appetite in it: the interest is active and reaches for more of what it likes.",
+     "rewrite": false
+    },
+    {
+     "id": "zealous.oewn-00889495-s",
+     "word": "zealous",
+     "gloss": "marked by active interest and enthusiasm",
+     "charge": 1,
+     "tone": "The same active interest as *avid*, hardened into commitment - an edge that can read as admirable drive or as too much of it.",
+     "rewrite": false
+    },
+    {
+     "id": "crazy.oewn-00889690-s",
+     "word": "crazy",
+     "gloss": "intensely enthusiastic about or preoccupied with",
+     "charge": 1,
+     "tone": "Informal, and the enthusiasm is put as a loss of one's senses - the overstatement is the compliment.",
+     "rewrite": false
+    },
+    {
+     "id": "wild.oewn-00889690-s",
+     "word": "wild",
+     "gloss": "intensely enthusiastic about or preoccupied with",
+     "charge": 1,
+     "tone": "Enthusiasm as sheer unrestrained force, less self-mocking than *crazy* and more like something the enthusiast cannot rein in.",
+     "rewrite": false
+    },
+    {
+     "id": "dotty.oewn-00889690-s",
+     "word": "dotty",
+     "gloss": "intensely enthusiastic about or preoccupied with",
+     "charge": 0,
+     "tone": "Informal and British; it makes the preoccupation faintly comic without actually condemning it.",
+     "rewrite": false
+    },
+    {
+     "id": "gaga.oewn-00889690-s",
+     "word": "gaga",
+     "gloss": "intensely enthusiastic about or preoccupied with",
+     "charge": -1,
+     "tone": "Informal, and the least flattering of the preoccupied words - the enthusiasm has swamped the wits and left the enthusiast looking foolish.",
+     "rewrite": false
+    },
+    {
+     "id": "evangelical.oewn-00889973-s",
+     "word": "evangelical",
+     "gloss": "marked by ardent or zealous enthusiasm for a cause",
+     "charge": 1,
+     "tone": "Enthusiasm fastened to a cause rather than a taste, so it reads as conviction and not just liking.",
+     "rewrite": false
+    },
+    {
+     "id": "evangelistic.oewn-00889973-s",
+     "word": "evangelistic",
+     "gloss": "marked by ardent or zealous enthusiasm for a cause",
+     "charge": 1,
+     "tone": "Carries the same cause-driven fervour as *evangelical* with the weight shifted onto pressing it outward rather than simply holding it.",
+     "rewrite": false
+    },
+    {
+     "id": "glowing.oewn-00890096-s",
+     "word": "glowing",
+     "gloss": "highly enthusiastic",
+     "charge": 2,
+     "tone": "The enthusiasm is on the surface and radiating - warmly, unambiguously approving in a way *zealous* never is.",
+     "rewrite": false
+    },
+    {
+     "id": "gung_ho.oewn-00890187-s",
+     "word": "gung ho",
+     "gloss": "very enthusiastic and dedicated",
+     "charge": 2,
+     "tone": "Informal; enthusiasm welded to dedication and straining to be put to use, keener to act than to weigh.",
+     "rewrite": false
+    },
+    {
+     "id": "overenthusiastic.oewn-00890272-s",
+     "word": "overenthusiastic",
+     "gloss": "unduly enthusiastic",
+     "charge": -1,
+     "tone": "The one word here that passes judgement: it grants the enthusiasm and marks it as more than the occasion warranted.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00851498-a",
+   "axis": "expected by convention → binding with no escape",
+   "members": [
+    {
+     "id": "obligatory.oewn-00851498-a",
+     "word": "obligatory",
+     "gloss": "morally or legally constraining or binding",
+     "charge": 0,
+     "tone": "The family's plain statement that something binds, holding the moral and the legal together without saying which one is doing the work.",
+     "rewrite": false
+    },
+    {
+     "id": "bounden.oewn-00851799-s",
+     "word": "bounden",
+     "gloss": "morally obligatory",
+     "charge": 1,
+     "tone": "Formal and solemn — the duty is owned and honoured rather than enforced, where *compulsory* has a rule pressing from outside.",
+     "rewrite": false
+    },
+    {
+     "id": "compulsory.oewn-00851890-s",
+     "word": "compulsory",
+     "gloss": "required by rule",
+     "charge": -1,
+     "tone": "Lets the force show: the point is that you are made to, not merely that a rule exists, which is all *required* settles for.",
+     "rewrite": false
+    },
+    {
+     "id": "mandatory.oewn-00851890-s",
+     "word": "mandatory",
+     "gloss": "required by rule",
+     "charge": 0,
+     "tone": "Flat and impersonal — the rule simply states itself, with none of the pressure *compulsory* puts on the person obeying.",
+     "rewrite": false
+    },
+    {
+     "id": "required.oewn-00851890-s",
+     "word": "required",
+     "gloss": "required by rule",
+     "charge": 0,
+     "tone": "The plainest of these: it names the rule's demand and stops, dramatizing neither the force behind it nor the duty in it.",
+     "rewrite": false
+    },
+    {
+     "id": "de_rigueur.oewn-00852103-s",
+     "word": "de rigueur",
+     "gloss": "required by etiquette or usage or fashion",
+     "charge": 0,
+     "tone": "Mannered, and the binding is social only — taste and custom hold it up, with nothing of the rule that stands behind *mandatory*.",
+     "rewrite": false
+    },
+    {
+     "id": "imposed.oewn-00852262-s",
+     "word": "imposed",
+     "gloss": "set forth authoritatively as obligatory",
+     "charge": -1,
+     "tone": "Puts the source in view — an authority has laid this down — where *required* leaves the hand that requires unnamed.",
+     "rewrite": false
+    },
+    {
+     "id": "incumbent_on.oewn-00852407-s",
+     "word": "incumbent on",
+     "gloss": "morally binding or necessary",
+     "charge": 0,
+     "tone": "Formal and weighty, fastening the obligation onto whoever it rests upon instead of stating it as a general rule the way *mandatory* does.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "weighty, fastening"
+     }
+    },
+    {
+     "id": "indispensable.oewn-00852532-s",
+     "word": "indispensable",
+     "gloss": "unavoidable",
+     "charge": 0,
+     "tone": "Shuts off escape: no exception or excuse gets you out of it, where *compulsory* claims only that a rule stands behind the demand.",
+     "rewrite": false
+    },
+    {
+     "id": "prerequisite.oewn-00852656-s",
+     "word": "prerequisite",
+     "gloss": "required as a prior condition or course of study",
+     "charge": 0,
+     "tone": "Purely positional — it orders things, marking what must be satisfied first, and passes no judgement on the obligation at all.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00151470-a",
+   "axis": "the bare capacity for speech → speech praised for its polish and force",
+   "members": [
+    {
+     "id": "articulate.oewn-00151470-a",
+     "word": "articulate",
+     "gloss": "expressing yourself easily or characterized by clear expressive language",
+     "charge": 1,
+     "tone": "Plain approval of clear, easy expression - it credits a speaker with getting the thought out whole, without *eloquent*'s claim on beauty.",
+     "rewrite": false
+    },
+    {
+     "id": "eloquent.oewn-00151773-s",
+     "word": "eloquent",
+     "gloss": "expressing yourself readily, clearly, effectively",
+     "charge": 2,
+     "tone": "The strongest praise in the family - expression so ready and effective that the manner of it is admired alongside the matter.",
+     "rewrite": false
+    },
+    {
+     "id": "facile.oewn-00151773-s",
+     "word": "facile",
+     "gloss": "expressing yourself readily, clearly, effectively",
+     "charge": 1,
+     "tone": "A cool compliment: it names the effortlessness of the speaking and stops there, where *eloquent* reaches for admiration.",
+     "rewrite": false
+    },
+    {
+     "id": "fluent.oewn-00151773-s",
+     "word": "fluent",
+     "gloss": "expressing yourself readily, clearly, effectively",
+     "charge": 1,
+     "tone": "Praise for speech that runs without a catch in it - flow, where *eloquent* claims power.",
+     "rewrite": false
+    },
+    {
+     "id": "silver.oewn-00151773-s",
+     "word": "silver",
+     "gloss": "expressing yourself readily, clearly, effectively",
+     "charge": 2,
+     "tone": "Figurative and frankly ornamental - it admires the sound of the speaking, where *articulate* admires only its clarity.",
+     "rewrite": false
+    },
+    {
+     "id": "silver-tongued.oewn-00151773-s",
+     "word": "silver-tongued",
+     "gloss": "expressing yourself readily, clearly, effectively",
+     "charge": 2,
+     "tone": "The figure spelled out at full length, praise with a flourish that plain *fluent* never attempts.",
+     "rewrite": false
+    },
+    {
+     "id": "smooth-spoken.oewn-00151773-s",
+     "word": "smooth-spoken",
+     "gloss": "expressing yourself readily, clearly, effectively",
+     "charge": 1,
+     "tone": "Approving of the delivery itself - words that arrive without friction - and plainer in register than *eloquent*.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "speech-endowed.oewn-00152103-s",
+     "word": "speech-endowed",
+     "gloss": "capable of speech",
+     "charge": 0,
+     "tone": "Purely descriptive and formal: it records the capacity to speak and passes no verdict on how well.",
+     "rewrite": false
+    },
+    {
+     "id": "speaking.oewn-00152103-s",
+     "word": "speaking",
+     "gloss": "capable of speech",
+     "charge": 0,
+     "tone": "The bare fact of having speech at all, carrying none of the approval that *articulate* does.",
+     "rewrite": false
+    },
+    {
+     "id": "well-spoken.oewn-00152204-s",
+     "word": "well-spoken",
+     "gloss": "speaking or spoken fittingly or pleasingly",
+     "charge": 2,
+     "tone": "Approves speech that fits the occasion and pleases the ear, judging fitness as much as skill, where *fluent* asks only that the words come easily.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,417 @@
+{
+ "packet": 28,
+ "families": [
+  {
+   "family": "family-02523798-a",
+   "axis": "merely liable to sin → wicked past any reform",
+   "members": [
+    {
+     "id": "wicked.oewn-02523798-a",
+     "word": "wicked",
+     "gloss": "morally bad in principle or practice",
+     "charge": -3,
+     "tone": "The plain, unhedged moral verdict, and it covers both the settled principle and the actual practice rather than choosing between them.",
+     "rewrite": false
+    },
+    {
+     "id": "evil.oewn-02524157-s",
+     "word": "evil",
+     "gloss": "having the nature of vice",
+     "charge": -3,
+     "tone": "Names the thing as vice itself rather than describing a fault in it, which makes it absolute where *wicked* is merely damning.",
+     "rewrite": false
+    },
+    {
+     "id": "vicious.oewn-02524157-s",
+     "word": "vicious",
+     "gloss": "having the nature of vice",
+     "charge": -3,
+     "tone": "Presents vice as the settled bent of the thing, so it sounds like a diagnosis of character beside *evil*'s flat sentence.",
+     "rewrite": false
+    },
+    {
+     "id": "heavy.oewn-02524297-s",
+     "word": "heavy",
+     "gloss": "(of an actor or role) being or playing the villain",
+     "charge": 0,
+     "tone": "A casting word: it marks the villain's part, or the actor filling it, and condemns nobody.",
+     "rewrite": false
+    },
+    {
+     "id": "flagitious.oewn-02524438-s",
+     "word": "flagitious",
+     "gloss": "extremely wicked, deeply criminal",
+     "charge": -3,
+     "tone": "Formal and heavy-syllabled, delivering the same extreme-and-criminal verdict as *heinous* in a more elevated register.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "heinous.oewn-02524438-s",
+     "word": "heinous",
+     "gloss": "extremely wicked, deeply criminal",
+     "charge": -3,
+     "tone": "The blunt public condemnation, wickedness pitched so far into the criminal that the word works almost as a sentence.",
+     "rewrite": false
+    },
+    {
+     "id": "iniquitous.oewn-02524601-s",
+     "word": "iniquitous",
+     "gloss": "characterized by iniquity; wicked because it is believed to be a sin",
+     "charge": -3,
+     "tone": "The gravest of its group, weighing the wrong as an enormity rather than simply logging it as sin like *sinful*.",
+     "rewrite": false
+    },
+    {
+     "id": "sinful.oewn-02524601-s",
+     "word": "sinful",
+     "gloss": "characterized by iniquity; wicked because it is believed to be a sin",
+     "charge": -2,
+     "tone": "The plainest naming of wickedness-as-sin, condemnatory without the swell of *iniquitous*.",
+     "rewrite": false
+    },
+    {
+     "id": "ungodly.oewn-02524601-s",
+     "word": "ungodly",
+     "gloss": "characterized by iniquity; wicked because it is believed to be a sin",
+     "charge": -2,
+     "tone": "Measures the wickedness as distance from godliness, so the fault is a standing away rather than *sinful*'s committed offence.",
+     "rewrite": false
+    },
+    {
+     "id": "irreclaimable.oewn-02524877-s",
+     "word": "irreclaimable",
+     "gloss": "insusceptible of reform",
+     "charge": -2,
+     "tone": "Pictures reform as recovery and denies it — nothing here can be got back.",
+     "rewrite": false
+    },
+    {
+     "id": "irredeemable.oewn-02524877-s",
+     "word": "irredeemable",
+     "gloss": "insusceptible of reform",
+     "charge": -3,
+     "tone": "The heaviest of these four, since redemption is what it withholds: a final verdict rather than a prognosis.",
+     "rewrite": false
+    },
+    {
+     "id": "unredeemable.oewn-02524877-s",
+     "word": "unredeemable",
+     "gloss": "insusceptible of reform",
+     "charge": -2,
+     "tone": "The same refusal built on a blunt negative prefix, more workaday in sound than *irredeemable*.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "prefix"
+     }
+    },
+    {
+     "id": "unreformable.oewn-02524877-s",
+     "word": "unreformable",
+     "gloss": "insusceptible of reform",
+     "charge": -2,
+     "tone": "States only that reform will not take, a practical verdict without *irredeemable*'s sense of a soul past saving.",
+     "rewrite": false
+    },
+    {
+     "id": "nefarious.oewn-02525059-s",
+     "word": "nefarious",
+     "gloss": "extremely wicked",
+     "charge": -3,
+     "tone": "Condemns the wickedness in the abstract, where *villainous* points instead at the one committing it.",
+     "rewrite": false
+    },
+    {
+     "id": "villainous.oewn-02525059-s",
+     "word": "villainous",
+     "gloss": "extremely wicked",
+     "charge": -3,
+     "tone": "Casts the extreme wickedness as a villain's, making it a fact of character rather than of the deed.",
+     "rewrite": false
+    },
+    {
+     "id": "peccable.oewn-02525272-s",
+     "word": "peccable",
+     "gloss": "liable to sin",
+     "charge": -1,
+     "tone": "Concedes only that sin is possible, not that any has been done, where *sinful* finds the wrong already there.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01359531-a",
+   "axis": "a passing freshening → the imparting of life itself",
+   "members": [
+    {
+     "id": "invigorating.oewn-01359531-a",
+     "word": "invigorating",
+     "gloss": "imparting strength and vitality",
+     "charge": 2,
+     "tone": "The plain, full-strength word for the effect, and the only one here that promises strength as well as liveliness, where *enlivening* offers spirit alone.",
+     "rewrite": false
+    },
+    {
+     "id": "animating.oewn-01359780-s",
+     "word": "animating",
+     "gloss": "giving spirit and vivacity",
+     "charge": 2,
+     "tone": "Warm approval aimed at spirit rather than muscle - what it gives is vivacity, not the strength *invigorating* claims.",
+     "rewrite": false
+    },
+    {
+     "id": "enlivening.oewn-01359780-s",
+     "word": "enlivening",
+     "gloss": "giving spirit and vivacity",
+     "charge": 2,
+     "tone": "The same gift of spirit as *animating*, but framed as a lift applied to something that was flat before.",
+     "rewrite": false
+    },
+    {
+     "id": "bracing.oewn-01359875-s",
+     "word": "bracing",
+     "gloss": "imparting vitality and energy",
+     "charge": 2,
+     "tone": "Approval with a bite in it - the energy arrives sharply, where *refreshing* delivers the same energy gently.",
+     "rewrite": false
+    },
+    {
+     "id": "brisk.oewn-01359875-s",
+     "word": "brisk",
+     "gloss": "imparting vitality and energy",
+     "charge": 1,
+     "tone": "Mild and matter-of-fact praise that renders vitality as pace and snap rather than as depth of force.",
+     "rewrite": false
+    },
+    {
+     "id": "fresh.oewn-01359875-s",
+     "word": "fresh",
+     "gloss": "imparting vitality and energy",
+     "charge": 2,
+     "tone": "The simplest word in the group for this energy, crediting clarity and cleanness with the lift that *bracing* wins by sharpness.",
+     "rewrite": false
+    },
+    {
+     "id": "refreshing.oewn-01359875-s",
+     "word": "refreshing",
+     "gloss": "imparting vitality and energy",
+     "charge": 2,
+     "tone": "Easy, grateful approval - the energy it names reads as relief from tiredness rather than as a charge of power.",
+     "rewrite": false
+    },
+    {
+     "id": "refreshful.oewn-01359875-s",
+     "word": "refreshful",
+     "gloss": "imparting vitality and energy",
+     "charge": 2,
+     "tone": "Identical in force to *refreshing* but stiffer in build, which lends the same lift a formal weight.",
+     "rewrite": false
+    },
+    {
+     "id": "tonic.oewn-01359875-s",
+     "word": "tonic",
+     "gloss": "imparting vitality and energy",
+     "charge": 1,
+     "tone": "Cool, measured approval that credits a thing with steadying and energizing rather than delighting, unlike the showier *exhilarating*.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "energizing, showier"
+     }
+    },
+    {
+     "id": "exhilarating.oewn-01360190-s",
+     "word": "exhilarating",
+     "gloss": "making lively and cheerful",
+     "charge": 3,
+     "tone": "The high end of the family - the lift goes past energy into open cheerfulness, which *stimulating* stops short of.",
+     "rewrite": false
+    },
+    {
+     "id": "stimulating.oewn-01360190-s",
+     "word": "stimulating",
+     "gloss": "making lively and cheerful",
+     "charge": 2,
+     "tone": "Cooler than *exhilarating* for the same effect, naming the rousing of liveliness and good cheer without saying how high it rises.",
+     "rewrite": false
+    },
+    {
+     "id": "life-giving.oewn-01360332-s",
+     "word": "life-giving",
+     "gloss": "giving or having the power to give life and spirit",
+     "charge": 3,
+     "tone": "The most absolute claim available here, since what it grants is life and spirit outright rather than a boost to either.",
+     "rewrite": false
+    },
+    {
+     "id": "vitalizing.oewn-01360332-s",
+     "word": "vitalizing",
+     "gloss": "giving or having the power to give life and spirit",
+     "charge": 2,
+     "tone": "The same gift of life and spirit as *life-giving*, stated as a working effect rather than as the grand attribute.",
+     "rewrite": false
+    },
+    {
+     "id": "renewing.oewn-01360590-s",
+     "word": "renewing",
+     "gloss": "tending to impart new life and vigor to",
+     "charge": 2,
+     "tone": "Approval for a lift that is a return of something lost - new life and vigor given back, not given for the first time as in *life-giving*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "restorative.oewn-01360590-s",
+     "word": "restorative",
+     "gloss": "tending to impart new life and vigor to",
+     "charge": 2,
+     "tone": "Names the same power of return as a settled property of the thing, calmer and more formal than the active *renewing*.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00808265-a",
+   "axis": "plain vitality → spirits fizzing over into speech",
+   "members": [
+    {
+     "id": "lively.oewn-00808265-a",
+     "word": "lively",
+     "gloss": "full of life and energy",
+     "charge": 2,
+     "tone": "The plain measure of the family — life and energy stated without a metaphor attached, so every other member here is a way of colouring it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "alive.oewn-00808685-s",
+     "word": "alive",
+     "gloss": "(often followed by ‘with’) full of life and spirit",
+     "charge": 2,
+     "tone": "Credits life and spirit rather than motion, and leans on a following 'with' to name whatever the thing is brimming over with.",
+     "rewrite": false
+    },
+    {
+     "id": "bouncing.oewn-00808879-s",
+     "word": "bouncing",
+     "gloss": "marked by lively action",
+     "charge": 2,
+     "tone": "Liveliness as vigorous springing action — sturdier and more robust than *bouncy*, which makes the same spring sound weightless.",
+     "rewrite": false
+    },
+    {
+     "id": "bouncy.oewn-00808879-s",
+     "word": "bouncy",
+     "gloss": "marked by lively action",
+     "charge": 2,
+     "tone": "The spring taken as a temperament rather than a feat — lighter and more playful than *bouncing*.",
+     "rewrite": false
+    },
+    {
+     "id": "peppy.oewn-00808879-s",
+     "word": "peppy",
+     "gloss": "marked by lively action",
+     "charge": 2,
+     "tone": "Informal and brisk — lively action as a snap of energy, with none of the dignity *spirited* carries.",
+     "rewrite": false
+    },
+    {
+     "id": "spirited.oewn-00808879-s",
+     "word": "spirited",
+     "gloss": "marked by lively action",
+     "charge": 2,
+     "tone": "The dignified member: lively action with mettle and will behind it, where *peppy* is only pep.",
+     "rewrite": false
+    },
+    {
+     "id": "zippy.oewn-00808879-s",
+     "word": "zippy",
+     "gloss": "marked by lively action",
+     "charge": 2,
+     "tone": "Informal, and here the lively action is speed — quickness rather than the buoyancy of *bouncy*.",
+     "rewrite": false
+    },
+    {
+     "id": "breezy.oewn-00809136-s",
+     "word": "breezy",
+     "gloss": "fresh and animated",
+     "charge": 2,
+     "tone": "Puts freshness beside the animation, so the liveliness comes across as light and easy where *spirited* comes across as strong.",
+     "rewrite": false
+    },
+    {
+     "id": "bubbly.oewn-00809246-s",
+     "word": "bubbly",
+     "gloss": "full of or showing high spirits",
+     "charge": 2,
+     "tone": "Covers both being full of high spirits and showing them, naming the outward fizz and the inward supply at once.",
+     "rewrite": false
+    },
+    {
+     "id": "bubbling.oewn-00809380-s",
+     "word": "bubbling",
+     "gloss": "marked by high spirits or excitement",
+     "charge": 2,
+     "tone": "High spirits or excitement caught in the act of rising — a thing in motion where *bubbly* names a settled quality.",
+     "rewrite": false
+    },
+    {
+     "id": "effervescent.oewn-00809380-s",
+     "word": "effervescent",
+     "gloss": "marked by high spirits or excitement",
+     "charge": 2,
+     "tone": "The polished word for the same fizz — high spirits or excitement described with a formality the shorter members refuse.",
+     "rewrite": false
+    },
+    {
+     "id": "frothy.oewn-00809380-s",
+     "word": "frothy",
+     "gloss": "marked by high spirits or excitement",
+     "charge": 1,
+     "tone": "The weakest approval of the fizz: the high spirits or excitement are granted, but froth lets them look light and easily dispersed.",
+     "rewrite": false
+    },
+    {
+     "id": "scintillating.oewn-00809380-s",
+     "word": "scintillating",
+     "gloss": "marked by high spirits or excitement",
+     "charge": 3,
+     "tone": "The brightest of the set — high spirits or excitement that flash and dazzle rather than merely bubble.",
+     "rewrite": false
+    },
+    {
+     "id": "sparkly.oewn-00809380-s",
+     "word": "sparkly",
+     "gloss": "marked by high spirits or excitement",
+     "charge": 2,
+     "tone": "The same flash in a smaller, prettier register — decorative where *scintillating* is dazzling.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "burbling.oewn-00809634-s",
+     "word": "burbling",
+     "gloss": "uttered with unrestrained enthusiasm",
+     "charge": 1,
+     "tone": "Moves the fizz into the voice: enthusiasm uttered with nothing holding it back, warm but with an ear on the overflow.",
+     "rewrite": false
+    },
+    {
+     "id": "burbly.oewn-00809634-s",
+     "word": "burbly",
+     "gloss": "uttered with unrestrained enthusiasm",
+     "charge": 1,
+     "tone": "Names the quality of that unrestrained enthusiasm rather than a burst of it — looser and more casual than *burbling*.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

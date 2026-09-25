@@ -1,0 +1,869 @@
+{
+ "packet": 8,
+ "families": [
+  {
+   "family": "family-00587481-a",
+   "axis": "neutral capacity to shape or structure → approving of what builds or restores to good condition",
+   "members": [
+    {
+     "id": "constructive.oewn-00587481-a",
+     "word": "constructive",
+     "gloss": "constructing or tending to construct or improve or promote development",
+     "charge": 2,
+     "tone": "Approving on two counts at once - it builds and it improves, where *formative* only shapes and leaves the worth of the result open.",
+     "rewrite": false
+    },
+    {
+     "id": "creative.oewn-00587863-s",
+     "word": "creative",
+     "gloss": "promoting construction or creation",
+     "charge": 1,
+     "tone": "Approving at one remove: it credits what fosters making rather than the making itself, a lighter claim than the improvement built into *constructive*.",
+     "rewrite": false
+    },
+    {
+     "id": "formative.oewn-00588059-s",
+     "word": "formative",
+     "gloss": "forming or capable of forming or molding or fashioning",
+     "charge": 0,
+     "tone": "Neutral - it names the power to shape without saying the shaping is for the better, which is exactly what *constructive* asserts.",
+     "rewrite": false
+    },
+    {
+     "id": "shaping.oewn-00588059-s",
+     "word": "shaping",
+     "gloss": "forming or capable of forming or molding or fashioning",
+     "charge": 0,
+     "tone": "Bare and unweighted, the act of forming stated as such, where *formative* points instead at the capacity to form.",
+     "rewrite": false
+    },
+    {
+     "id": "plastic.oewn-00588059-s",
+     "word": "plastic",
+     "gloss": "forming or capable of forming or molding or fashioning",
+     "charge": 0,
+     "tone": "Treats the power to mold as a flat property of a thing rather than a merit, which keeps it cooler than *creative*.",
+     "rewrite": false
+    },
+    {
+     "id": "inferential.oewn-00588444-s",
+     "word": "inferential",
+     "gloss": "based on interpretation; not directly expressed",
+     "charge": 0,
+     "tone": "Carries no approval at all - it marks how something is arrived at, by interpretation rather than statement, where *constructive* judges the worth of what is done.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "reconstructive.oewn-00588549-s",
+     "word": "reconstructive",
+     "gloss": "helping to restore to good condition",
+     "charge": 2,
+     "tone": "Approving of repair: the good it names is a return to sound condition rather than the new making in *constructive*.",
+     "rewrite": false
+    },
+    {
+     "id": "rehabilitative.oewn-00588549-s",
+     "word": "rehabilitative",
+     "gloss": "helping to restore to good condition",
+     "charge": 2,
+     "tone": "The same restoring good as *reconstructive*, but the longer, more formal word makes the helping sound like a sustained process rather than a single fix.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "structural.oewn-00588753-s",
+     "word": "structural",
+     "gloss": "concerned with systematic structure in a particular field of study",
+     "charge": 0,
+     "tone": "Purely descriptive - it places a thing within a system of study and does none of the approving that runs through *constructive*.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01009264-a",
+   "axis": "neutral record of an unworked state → shortfall measured against the state wanted",
+   "members": [
+    {
+     "id": "unfinished.oewn-01009264-a",
+     "word": "unfinished",
+     "gloss": "not brought to the desired final state",
+     "charge": -1,
+     "tone": "Carries a faint reproach because the thing is measured against the final state that was wanted, so it records a shortfall rather than merely a stage.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "roughhewn.oewn-01009605-s",
+     "word": "roughhewn",
+     "gloss": "of stone or timber; shaped roughly without finishing",
+     "charge": 0,
+     "tone": "Neutral about workmanship - the shaping has been done and only the finishing has not, where *unhewn* denies the shaping altogether.",
+     "rewrite": false
+    },
+    {
+     "id": "rough-cut.oewn-01009605-s",
+     "word": "rough-cut",
+     "gloss": "of stone or timber; shaped roughly without finishing",
+     "charge": 0,
+     "tone": "Flatter and more matter-of-fact than *roughhewn*, naming the cut alone without that word's suggestion of ruggedly worked bulk.",
+     "rewrite": false
+    },
+    {
+     "id": "undressed.oewn-01009725-s",
+     "word": "undressed",
+     "gloss": "of lumber or stone or hides; not finished or dressed",
+     "charge": 0,
+     "tone": "Names one specific operation left undone rather than a general falling-short, which keeps it cooler and more technical than *unfinished*.",
+     "rewrite": false
+    },
+    {
+     "id": "unfattened.oewn-01009873-s",
+     "word": "unfattened",
+     "gloss": "(of market animals) not optimal for marketing",
+     "charge": -1,
+     "tone": "Coolly commercial disparagement - the animal is graded short of what the market wants, a deficiency stated as plain fact rather than complaint.",
+     "rewrite": false
+    },
+    {
+     "id": "unhewn.oewn-01009975-s",
+     "word": "unhewn",
+     "gloss": "(of stone especially) not given a finished form by or as if by hewing",
+     "charge": 0,
+     "tone": "Denies the shaping outright where *roughhewn* concedes a first pass, and its as-if reach lets it settle on things no tool was ever near.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00970318-a",
+   "axis": "merely out of the ordinary → oddness that repels or frightens",
+   "members": [
+    {
+     "id": "strange.oewn-00970318-a",
+     "word": "strange",
+     "gloss": "being definitely out of the ordinary and unexpected; slightly odd or even a bit weird",
+     "charge": 0,
+     "tone": "Carries a faint edge of unease that *unusual* does not - what is strange is not merely rare but slightly off.",
+     "rewrite": false
+    },
+    {
+     "id": "unusual.oewn-00970318-a",
+     "word": "unusual",
+     "gloss": "being definitely out of the ordinary and unexpected; slightly odd or even a bit weird",
+     "charge": 0,
+     "tone": "The flat member of the pair - it records a departure from the expected without *strange*'s hint that something is amiss.",
+     "rewrite": false
+    },
+    {
+     "id": "antic.oewn-00970835-s",
+     "word": "antic",
+     "gloss": "ludicrously odd",
+     "charge": -2,
+     "tone": "Odd to the point of being laughed at - the strangeness reads as clownish rather than menacing.",
+     "rewrite": false
+    },
+    {
+     "id": "fantastic.oewn-00970835-s",
+     "word": "fantastic",
+     "gloss": "ludicrously odd",
+     "charge": -1,
+     "tone": "Oddness inflated past what belief will carry, so the extravagance itself is the fault.",
+     "rewrite": false
+    },
+    {
+     "id": "fantastical.oewn-00970835-s",
+     "word": "fantastical",
+     "gloss": "ludicrously odd",
+     "charge": -1,
+     "tone": "The more elaborate twin of *fantastic* - the oddness sounds invented rather than merely met with.",
+     "rewrite": false
+    },
+    {
+     "id": "grotesque.oewn-00970835-s",
+     "word": "grotesque",
+     "gloss": "ludicrously odd",
+     "charge": -2,
+     "tone": "The harshest of these - the oddness is distorted enough to repel, where *antic* only invites laughter.",
+     "rewrite": false
+    },
+    {
+     "id": "crazy.oewn-00971086-s",
+     "word": "crazy",
+     "gloss": "bizarre or fantastic",
+     "charge": -1,
+     "tone": "Blunt and informal - it throws up its hands at the strangeness instead of examining it.",
+     "rewrite": false
+    },
+    {
+     "id": "curious.oewn-00971199-s",
+     "word": "curious",
+     "gloss": "beyond or deviating from the usual or expected",
+     "charge": 1,
+     "tone": "The oddness is inviting - it asks to be looked into, where *queer* asks to be backed away from.",
+     "rewrite": false
+    },
+    {
+     "id": "funny.oewn-00971199-s",
+     "word": "funny",
+     "gloss": "beyond or deviating from the usual or expected",
+     "charge": -1,
+     "tone": "Marks something as not quite right without saying what is wrong with it, and the vagueness is the unease.",
+     "rewrite": false
+    },
+    {
+     "id": "odd.oewn-00971199-s",
+     "word": "odd",
+     "gloss": "beyond or deviating from the usual or expected",
+     "charge": -1,
+     "tone": "Registers the deviation flatly, with none of *peculiar*'s second look.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "peculiar.oewn-00971199-s",
+     "word": "peculiar",
+     "gloss": "beyond or deviating from the usual or expected",
+     "charge": -1,
+     "tone": "Fastens the oddness onto the thing itself, as a quality it owns rather than an impression it gives.",
+     "rewrite": false
+    },
+    {
+     "id": "queer.oewn-00971199-s",
+     "word": "queer",
+     "gloss": "beyond or deviating from the usual or expected",
+     "charge": -1,
+     "tone": "Adds a wariness *odd* lacks - the deviation feels wrong rather than merely noticeable.",
+     "rewrite": false
+    },
+    {
+     "id": "rum.oewn-00971199-s",
+     "word": "rum",
+     "gloss": "beyond or deviating from the usual or expected",
+     "charge": 0,
+     "tone": "Informal and offhand - the oddness gets a shrug rather than a verdict.",
+     "rewrite": false
+    },
+    {
+     "id": "rummy.oewn-00971199-s",
+     "word": "rummy",
+     "gloss": "beyond or deviating from the usual or expected",
+     "charge": 0,
+     "tone": "A lighter, more throwaway ring than *rum*, the same shrug loosened further.",
+     "rewrite": false
+    },
+    {
+     "id": "singular.oewn-00971199-s",
+     "word": "singular",
+     "gloss": "beyond or deviating from the usual or expected",
+     "charge": 1,
+     "tone": "Deviation read as standing apart rather than as going wrong, so the oddity comes out as distinction where *curious* only makes it inviting.",
+     "rewrite": false
+    },
+    {
+     "id": "eerie.oewn-00971711-s",
+     "word": "eerie",
+     "gloss": "inspiring a feeling of fear; strange and frightening",
+     "charge": -2,
+     "tone": "The strangeness has turned frightening - it works on the nerves rather than on the judgement.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01876839-a",
+   "axis": "bare statement that money comes back → relish at how large the return is",
+   "members": [
+    {
+     "id": "profitable.oewn-01876839-a",
+     "word": "profitable",
+     "gloss": "yielding material gain or profit",
+     "charge": 0,
+     "tone": "The flat baseline of the family - it reports that a return exists and says nothing about its size or how welcome it is, which is the whole of what *juicy* adds.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "31 words"
+     }
+    },
+    {
+     "id": "bankable.oewn-01877172-s",
+     "word": "bankable",
+     "gloss": "guaranteed to bring a profit",
+     "charge": 2,
+     "tone": "Approves through certainty rather than size - the profit is treated as already secured, where *profitable* claims only that it is there.",
+     "rewrite": false
+    },
+    {
+     "id": "fat.oewn-01877317-s",
+     "word": "fat",
+     "gloss": "lucrative",
+     "charge": 2,
+     "tone": "Relish rather than accounting - it praises a return by its sheer thickness, where *profitable* merely records one.",
+     "rewrite": false
+    },
+    {
+     "id": "juicy.oewn-01877317-s",
+     "word": "juicy",
+     "gloss": "lucrative",
+     "charge": 2,
+     "tone": "Appetite - it makes the profit tempting, something to be got at, where *fat* only makes it thick.",
+     "rewrite": false
+    },
+    {
+     "id": "gainful.oewn-01877441-s",
+     "word": "gainful",
+     "gloss": "yielding a fair profit",
+     "charge": 1,
+     "tone": "Measured approval - the return it names is a fair one rather than a large one, which keeps it clear of the greed in *juicy*.",
+     "rewrite": false
+    },
+    {
+     "id": "paid.oewn-01877441-s",
+     "word": "paid",
+     "gloss": "yielding a fair profit",
+     "charge": 0,
+     "tone": "Understated for a return that is fair rather than large - the profit is granted without being praised.",
+     "rewrite": false
+    },
+    {
+     "id": "paying.oewn-01877441-s",
+     "word": "paying",
+     "gloss": "yielding a fair profit",
+     "charge": 1,
+     "tone": "Mildly approving - it treats the return as something the thing keeps doing, where *paid* records only that it happened.",
+     "rewrite": false
+    },
+    {
+     "id": "economic.oewn-01877533-s",
+     "word": "economic",
+     "gloss": "financially rewarding",
+     "charge": 1,
+     "tone": "The dry member - it approves by the ledger, granting a reward without any of the appetite in *fat* or *juicy*.",
+     "rewrite": false
+    },
+    {
+     "id": "lucrative.oewn-01877742-s",
+     "word": "lucrative",
+     "gloss": "producing a sizeable profit",
+     "charge": 2,
+     "tone": "Formal and emphatic at once - the size of the profit is the entire claim, stated without the hunger of *juicy*.",
+     "rewrite": false
+    },
+    {
+     "id": "moneymaking.oewn-01877742-s",
+     "word": "moneymaking",
+     "gloss": "producing a sizeable profit",
+     "charge": 1,
+     "tone": "Blunt where *lucrative* is formal - it names the money outright and lets that stand as the praise.",
+     "rewrite": false
+    },
+    {
+     "id": "remunerative.oewn-01877742-s",
+     "word": "remunerative",
+     "gloss": "producing a sizeable profit",
+     "charge": 2,
+     "tone": "The most formal way to say it - it lends a sizeable profit a decorum that *moneymaking* makes no attempt at.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02341445-a",
+   "axis": "a bare failed outcome → finished, with nothing left and nothing coming",
+   "members": [
+    {
+     "id": "unsuccessful.oewn-02341445-a",
+     "word": "unsuccessful",
+     "gloss": "not successful; having failed or having an unfavorable outcome",
+     "charge": 0,
+     "tone": "The flat baseline of the family - it records the unfavorable outcome and passes no verdict on whoever met it.",
+     "rewrite": false
+    },
+    {
+     "id": "attempted.oewn-02341872-s",
+     "word": "attempted",
+     "gloss": "tried unsuccessfully",
+     "charge": 0,
+     "tone": "Marks the act as the thing that failed rather than the one who made it, which is where it parts from *defeated*.",
+     "rewrite": false
+    },
+    {
+     "id": "defeated.oewn-02341968-s",
+     "word": "defeated",
+     "gloss": "disappointingly unsuccessful",
+     "charge": -1,
+     "tone": "Failure recast as a loss to something stronger, carrying the sting of being beaten that *unsuccessful* leaves out.",
+     "rewrite": false
+    },
+    {
+     "id": "disappointed.oewn-02341968-s",
+     "word": "disappointed",
+     "gloss": "disappointingly unsuccessful",
+     "charge": -1,
+     "tone": "The softest of the blocked set - the failure sits in a hope let down rather than in any force that stopped it, unlike *thwarted*.",
+     "rewrite": false
+    },
+    {
+     "id": "discomfited.oewn-02341968-s",
+     "word": "discomfited",
+     "gloss": "disappointingly unsuccessful",
+     "charge": -1,
+     "tone": "Formal, and it puts the disappointment into the failure itself rather than into the effort that led there.",
+     "rewrite": false
+    },
+    {
+     "id": "foiled.oewn-02341968-s",
+     "word": "foiled",
+     "gloss": "disappointingly unsuccessful",
+     "charge": -1,
+     "tone": "Sounds the note of a scheme blocked at the last moment, lighter and more gleeful than the grim *thwarted*.",
+     "rewrite": false
+    },
+    {
+     "id": "frustrated.oewn-02341968-s",
+     "word": "frustrated",
+     "gloss": "disappointingly unsuccessful",
+     "charge": -1,
+     "tone": "Puts the weight on effort spent for nothing, so the failure feels drawn out rather than delivered in one blow like *defeated*.",
+     "rewrite": false
+    },
+    {
+     "id": "thwarted.oewn-02341968-s",
+     "word": "thwarted",
+     "gloss": "disappointingly unsuccessful",
+     "charge": -1,
+     "tone": "The hardest of the blocked set - something outside did the stopping, and the word gives that force a weight *foiled* does not.",
+     "rewrite": false
+    },
+    {
+     "id": "done_for.oewn-02342313-s",
+     "word": "done for",
+     "gloss": "doomed to extinction",
+     "charge": -2,
+     "tone": "Informal and final, a verdict pronounced with none of the room for recovery that *frustrated* still leaves open.",
+     "rewrite": false
+    },
+    {
+     "id": "ruined.oewn-02342313-s",
+     "word": "ruined",
+     "gloss": "doomed to extinction",
+     "charge": -2,
+     "tone": "Grave rather than colloquial: the ending is total and stated without relish, where *washed-up* sneers.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "colloquial, sneers"
+     }
+    },
+    {
+     "id": "sunk.oewn-02342313-s",
+     "word": "sunk",
+     "gloss": "doomed to extinction",
+     "charge": -2,
+     "tone": "Blunt and informal, a one-syllable verdict that closes the matter faster than *ruined* does.",
+     "rewrite": false
+    },
+    {
+     "id": "undone.oewn-02342313-s",
+     "word": "undone",
+     "gloss": "doomed to extinction",
+     "charge": -2,
+     "tone": "Formal and near-elegiac, treating the end as something that came apart rather than something that was smashed.",
+     "rewrite": false
+    },
+    {
+     "id": "washed-up.oewn-02342313-s",
+     "word": "washed-up",
+     "gloss": "doomed to extinction",
+     "charge": -3,
+     "tone": "The most contemptuous of the doomed set - it dismisses as much as it describes, which *undone* never does.",
+     "rewrite": false
+    },
+    {
+     "id": "down-and-out.oewn-02342428-s",
+     "word": "down-and-out",
+     "gloss": "lacking resources (or any prospect of resources)",
+     "charge": -2,
+     "tone": "Widens the failure to a whole condition, nothing held and nothing coming, with a bleakness *empty-handed* keeps at arm's length.",
+     "rewrite": false
+    },
+    {
+     "id": "empty-handed.oewn-02342553-s",
+     "word": "empty-handed",
+     "gloss": "having acquired or gained nothing",
+     "charge": -1,
+     "tone": "Concrete where *unrewarded* is abstract - it shows the nothing instead of naming it.",
+     "rewrite": false
+    },
+    {
+     "id": "unrewarded.oewn-02342553-s",
+     "word": "unrewarded",
+     "gloss": "having acquired or gained nothing",
+     "charge": 0,
+     "tone": "Neutral and faintly on the subject's side, recording that nothing came of it without calling the effort wasted.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01229113-a",
+   "axis": "entitled to respect → held in profound reverence",
+   "members": [
+    {
+     "id": "honorable.oewn-01229113-a",
+     "word": "honorable",
+     "gloss": "worthy of being honored; entitled to honor and respect",
+     "charge": 2,
+     "tone": "The plain claim of the family - it certifies that respect is deserved, without the awe *august* and *venerable* pile on top.",
+     "rewrite": false
+    },
+    {
+     "id": "honourable.oewn-01229113-a",
+     "word": "honourable",
+     "gloss": "worthy of being honored; entitled to honor and respect",
+     "charge": 2,
+     "tone": "The British spelling, carrying exactly the same entitlement to respect as *honorable* with nothing added or softened.",
+     "rewrite": false
+    },
+    {
+     "id": "august.oewn-01229533-s",
+     "word": "august",
+     "gloss": "profoundly honored",
+     "charge": 3,
+     "tone": "Lofty and formal - it raises the honor so high it puts distance between subject and speaker, where *honorable* stays level with you.",
+     "rewrite": false
+    },
+    {
+     "id": "revered.oewn-01229533-s",
+     "word": "revered",
+     "gloss": "profoundly honored",
+     "charge": 3,
+     "tone": "Locates the honor in those who feel it - the regard is actively given, not merely owed as with *honorable*.",
+     "rewrite": false
+    },
+    {
+     "id": "venerable.oewn-01229533-s",
+     "word": "venerable",
+     "gloss": "profoundly honored",
+     "charge": 3,
+     "tone": "Solemn - it wraps the honor in a hush of reverence rather than the ceremonial elevation of *august*.",
+     "rewrite": false
+    },
+    {
+     "id": "laureate.oewn-01229682-s",
+     "word": "laureate",
+     "gloss": "worthy of the greatest honor or distinction",
+     "charge": 3,
+     "tone": "Superlative - it does not merely grant honor but sets its object at the summit of it, where *honorable* only confirms the desert.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "superlative"
+     }
+    },
+    {
+     "id": "time-honored.oewn-01229870-s",
+     "word": "time-honored",
+     "gloss": "honored because of age or long usage",
+     "charge": 2,
+     "tone": "Approval with its grounds stated - the honor is credited to having lasted, where *honorable* and *venerable* name the honor without saying what earned it.",
+     "rewrite": false
+    },
+    {
+     "id": "time-honoured.oewn-01229870-s",
+     "word": "time-honoured",
+     "gloss": "honored because of age or long usage",
+     "charge": 2,
+     "tone": "The British spelling, endorsing a thing for its endurance in precisely the terms *time-honored* uses.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02005010-a",
+   "axis": "irresponsibility indulged as charm → irresponsibility condemned as unfitness",
+   "members": [
+    {
+     "id": "irresponsible.oewn-02005010-a",
+     "word": "irresponsible",
+     "gloss": "showing lack of care for consequences",
+     "charge": -2,
+     "tone": "The plain charge the rest take their colour from - blame falls on the consequences left unweighed, with none of the cheer of *carefree*.",
+     "rewrite": false
+    },
+    {
+     "id": "carefree.oewn-02005360-s",
+     "word": "carefree",
+     "gloss": "cheerfully irresponsible",
+     "charge": 2,
+     "tone": "The most forgiving word here - the missing care reads as freedom from burden rather than neglect of duty.",
+     "rewrite": false
+    },
+    {
+     "id": "devil-may-care.oewn-02005360-s",
+     "word": "devil-may-care",
+     "gloss": "cheerfully irresponsible",
+     "charge": 1,
+     "tone": "Bravado rather than lightness - it flaunts the disregard where *carefree* simply has no worry to shed.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "bravado, flaunts"
+     }
+    },
+    {
+     "id": "freewheeling.oewn-02005360-s",
+     "word": "freewheeling",
+     "gloss": "cheerfully irresponsible",
+     "charge": 1,
+     "tone": "Motion with the brakes off - it approves the ease while leaving the absent check audible.",
+     "rewrite": false
+    },
+    {
+     "id": "happy-go-lucky.oewn-02005360-s",
+     "word": "happy-go-lucky",
+     "gloss": "cheerfully irresponsible",
+     "charge": 1,
+     "tone": "Indulgent - it credits a temperament rather than charging a fault.",
+     "rewrite": false
+    },
+    {
+     "id": "harum-scarum.oewn-02005360-s",
+     "word": "harum-scarum",
+     "gloss": "cheerfully irresponsible",
+     "charge": -1,
+     "tone": "Its jingling repetition makes the cheer sound scatterbrained, tipping into scolding where *happy-go-lucky* stays fond.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "scatterbrained, scolding"
+     }
+    },
+    {
+     "id": "slaphappy.oewn-02005360-s",
+     "word": "slaphappy",
+     "gloss": "cheerfully irresponsible",
+     "charge": -1,
+     "tone": "The cheer here undercuts the person as giddy and unfit to be trusted, where *carefree* leaves them intact.",
+     "rewrite": false
+    },
+    {
+     "id": "do-nothing.oewn-02005635-s",
+     "word": "do-nothing",
+     "gloss": "characterized by inability or unwillingness to work toward a goal or assume responsibility",
+     "charge": -2,
+     "tone": "Flatly dismissive - it writes someone off by what they never get done, with no charm allowed into the failing.",
+     "rewrite": false
+    },
+    {
+     "id": "feckless.oewn-02005830-s",
+     "word": "feckless",
+     "gloss": "not fit to assume responsibility",
+     "charge": -3,
+     "tone": "A verdict of unfitness rather than a report of behaviour, and the most withering word in the set.",
+     "rewrite": false
+    },
+    {
+     "id": "idle.oewn-02005935-s",
+     "word": "idle",
+     "gloss": "lacking a sense of restraint or responsibility",
+     "charge": -1,
+     "tone": "A light word for the fault - what is missing is restraint, not any active wrongdoing.",
+     "rewrite": false
+    },
+    {
+     "id": "loose.oewn-02005935-s",
+     "word": "loose",
+     "gloss": "lacking a sense of restraint or responsibility",
+     "charge": -2,
+     "tone": "Carries a moral edge *idle* does not - the restraint gone slack is the kind a person is expected to hold.",
+     "rewrite": false
+    },
+    {
+     "id": "trigger-happy.oewn-02006089-s",
+     "word": "trigger-happy",
+     "gloss": "irresponsible in the use of firearms",
+     "charge": -2,
+     "tone": "The cheerful *-happy* ending set against carelessness with a gun is the whole sting of it.",
+     "rewrite": false
+    },
+    {
+     "id": "unaccountable.oewn-02006185-s",
+     "word": "unaccountable",
+     "gloss": "free from control or responsibility",
+     "charge": 0,
+     "tone": "Positional rather than evaluative - it states the absence of anyone to answer to, without judging the person for it.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "evaluative"
+     }
+    },
+    {
+     "id": "unreliable.oewn-02006280-s",
+     "word": "unreliable",
+     "gloss": "lacking a sense of responsibility",
+     "charge": -2,
+     "tone": "Judged from outside - where *irresponsible* looks at the consequences, this looks at whoever was depending.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01911832-a",
+   "axis": "unmixed as a bare fact → purity admired as flawlessness",
+   "members": [
+    {
+     "id": "pure.oewn-01911832-a",
+     "word": "pure",
+     "gloss": "free of extraneous elements of any kind",
+     "charge": 1,
+     "tone": "The unrestricted term of the family — nothing extraneous of any kind survives it, where *clean* answers only to impurity.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "extraneous, impurity"
+     }
+    },
+    {
+     "id": "axenic.oewn-01912370-s",
+     "word": "axenic",
+     "gloss": "(used of cultures of microorganisms) completely free from other organisms",
+     "charge": 0,
+     "tone": "Technical and exact: it certifies that a culture of microorganisms holds no other organism, a specification rather than a compliment.",
+     "rewrite": false
+    },
+    {
+     "id": "clean.oewn-01912517-s",
+     "word": "clean",
+     "gloss": "free from impurities",
+     "charge": 1,
+     "tone": "Approving in a plain, physical way — the impurities are gone, and it says so without the ceremony of *pristine*.",
+     "rewrite": false
+    },
+    {
+     "id": "fresh.oewn-01912517-s",
+     "word": "fresh",
+     "gloss": "free from impurities",
+     "charge": 1,
+     "tone": "Names the same absence of impurity as *clean* but with a livelier, more inviting force.",
+     "rewrite": false
+    },
+    {
+     "id": "clear.oewn-01912661-s",
+     "word": "clear",
+     "gloss": "(of sound or color) free from anything that dulls or dims",
+     "charge": 1,
+     "tone": "Praise for a sound or colour that nothing dulls or dims — the brightness is the point, not the absence of dirt that *clean* answers to.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "light.oewn-01912661-s",
+     "word": "light",
+     "gloss": "(of sound or color) free from anything that dulls or dims",
+     "charge": 1,
+     "tone": "Softer and less emphatic than *clear* for the same undulled sound or colour, approving without insisting.",
+     "rewrite": false
+    },
+    {
+     "id": "unclouded.oewn-01912661-s",
+     "word": "unclouded",
+     "gloss": "(of sound or color) free from anything that dulls or dims",
+     "charge": 1,
+     "tone": "The negative form makes the dimness explicit, praising a sound or colour by naming what fails to cloud it where *clear* simply asserts the brightness.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "fine.oewn-01913014-s",
+     "word": "fine",
+     "gloss": "free from impurities; having a high or specified degree of purity",
+     "charge": 1,
+     "tone": "Gradable where the rest are absolute: purity here is a degree that can be high or specified, so it measures where *pure* merely declares.",
+     "rewrite": false
+    },
+    {
+     "id": "native.oewn-01913172-s",
+     "word": "native",
+     "gloss": "as found in nature in the elemental form",
+     "charge": 0,
+     "tone": "Descriptive rather than evaluative — it records that the thing already stands in its elemental form in nature, and attaches no credit to that.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "evaluative"
+     }
+    },
+    {
+     "id": "plain.oewn-01913300-s",
+     "word": "plain",
+     "gloss": "not mixed with extraneous elements",
+     "charge": 0,
+     "tone": "The flattest word here, stating that nothing extraneous is mixed in and neither admiring nor disparaging the fact.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "extraneous, disparaging"
+     }
+    },
+    {
+     "id": "sheer.oewn-01913300-s",
+     "word": "sheer",
+     "gloss": "not mixed with extraneous elements",
+     "charge": 0,
+     "tone": "Absolute in force where *plain* is merely factual, pressing on the totality of the unmixedness rather than reporting it.",
+     "rewrite": false
+    },
+    {
+     "id": "unmingled.oewn-01913300-s",
+     "word": "unmingled",
+     "gloss": "not mixed with extraneous elements",
+     "charge": 0,
+     "tone": "Formal and slightly stiff, denying admixture in so many words rather than asserting purity outright as *pure* does.",
+     "rewrite": false
+    },
+    {
+     "id": "unmixed.oewn-01913300-s",
+     "word": "unmixed",
+     "gloss": "not mixed with extraneous elements",
+     "charge": 0,
+     "tone": "The blunt, unceremonious form of that same denial — *unmingled* says it formally, this says it flatly.",
+     "rewrite": false
+    },
+    {
+     "id": "pristine.oewn-01913490-s",
+     "word": "pristine",
+     "gloss": "completely free from dirt or contamination",
+     "charge": 2,
+     "tone": "The admiring extreme — not merely unmixed but wholly untouched by dirt or contamination, a completeness *clean* never claims.",
+     "rewrite": false
+    },
+    {
+     "id": "straight_up.oewn-01913613-s",
+     "word": "straight up",
+     "gloss": "(of an alcoholic drink) stirred or shaken with ice, but served without it",
+     "charge": 0,
+     "tone": "A serving instruction rather than a judgement: the drink met the ice and was left without it, and the phrase passes no verdict on the result.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "sublimate.oewn-01913797-s",
+     "word": "sublimate",
+     "gloss": "made pure",
+     "charge": 0,
+     "tone": "The opposite arrival from *native* — purity reached by being made, stated as a result rather than praised.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

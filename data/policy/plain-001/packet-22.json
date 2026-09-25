@@ -1,0 +1,383 @@
+{
+ "packet": 22,
+ "families": [
+  {
+   "family": "family-00585590-a",
+   "axis": "unchanging as a bare fact → steadiness that never tires",
+   "members": [
+    {
+     "id": "constant.oewn-00585590-a",
+     "word": "constant",
+     "gloss": "steadfast in purpose or devotion or affection",
+     "charge": 2,
+     "tone": "Straightforward praise for not wavering, and it covers purpose, devotion and affection alike rather than loyalty alone.",
+     "rewrite": false
+    },
+    {
+     "id": "steadfast.oewn-00586061-s",
+     "word": "steadfast",
+     "gloss": "firm and dependable especially in loyalty",
+     "charge": 3,
+     "tone": "Weightier than *constant* because it adds dependability, making the firmness something others can lean on.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "weightier, dependability"
+     }
+    },
+    {
+     "id": "immutable.oewn-00585950-s",
+     "word": "immutable",
+     "gloss": "constant and unchanging",
+     "charge": 0,
+     "tone": "Absolute and cool: it reports that a thing does not change rather than crediting it with holding fast, so no praise attaches the way it does to *steadfast*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "unfailing.oewn-00586322-s",
+     "word": "unfailing",
+     "gloss": "tireless",
+     "charge": 2,
+     "tone": "Approving of what never runs out, measuring steadiness by supply rather than by the refusal to vary that *constant* asks for.",
+     "rewrite": false
+    },
+    {
+     "id": "unflagging.oewn-00586322-s",
+     "word": "unflagging",
+     "gloss": "tireless",
+     "charge": 2,
+     "tone": "The same tirelessness as *unfailing*, but figured as a pace that never slackens rather than a store that never empties.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "slackens, empties"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-07319470-n",
+   "axis": "a passing piece of bad luck → an event of ruinous loss",
+   "members": [
+    {
+     "id": "pity.oewn-07319716-n",
+     "word": "pity",
+     "gloss": "an unfortunate development",
+     "charge": -1,
+     "tone": "The lightest way here to mark a thing having gone wrong — regret at the turn events took, with no weight of loss behind it.",
+     "rewrite": false
+    },
+    {
+     "id": "shame.oewn-07319716-n",
+     "word": "shame",
+     "gloss": "an unfortunate development",
+     "charge": -1,
+     "tone": "Meets the same unfortunate turn as *pity* with a sharper note of protest, as though the outcome were one that need not have happened.",
+     "rewrite": false
+    },
+    {
+     "id": "disaster.oewn-07329438-n",
+     "word": "disaster",
+     "gloss": "an event resulting in great loss and misfortune",
+     "charge": -3,
+     "tone": "Lifts the scale abruptly out of bad luck into great loss, and does it more bluntly than *catastrophe*.",
+     "rewrite": false
+    },
+    {
+     "id": "catastrophe.oewn-07329438-n",
+     "word": "catastrophe",
+     "gloss": "an event resulting in great loss and misfortune",
+     "charge": -3,
+     "tone": "The same great loss as *disaster*, pitched as total and past reversing, with nothing left to salvage.",
+     "rewrite": false
+    },
+    {
+     "id": "tragedy.oewn-07329438-n",
+     "word": "tragedy",
+     "gloss": "an event resulting in great loss and misfortune",
+     "charge": -3,
+     "tone": "Loads the great loss with grief and waste, asking that it be mourned rather than merely counted up.",
+     "rewrite": false
+    },
+    {
+     "id": "mishap.oewn-07329027-n",
+     "word": "mishap",
+     "gloss": "an instance of misfortune",
+     "charge": -1,
+     "tone": "Shrinks misfortune to one small instance, a thing to be shrugged off rather than suffered.",
+     "rewrite": false
+    },
+    {
+     "id": "calamity.oewn-07329438-n",
+     "word": "calamity",
+     "gloss": "an event resulting in great loss and misfortune",
+     "charge": -3,
+     "tone": "Ruin on the scale of *disaster* but declared in a grander, more sonorous register.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "hardship.oewn-07351363-n",
+     "word": "hardship",
+     "gloss": "something that causes or entails suffering",
+     "charge": -2,
+     "tone": "Covers both what inflicts the suffering and the suffering entailed, a weight borne over time where *mishap* is over in a moment.",
+     "rewrite": false
+    },
+    {
+     "id": "knock.oewn-07351599-n",
+     "word": "knock",
+     "gloss": "a bad experience",
+     "charge": -1,
+     "tone": "Blunt and physical, casting a bad experience as a single blow taken and absorbed.",
+     "rewrite": false
+    },
+    {
+     "id": "mischance.oewn-07329027-n",
+     "word": "mischance",
+     "gloss": "an instance of misfortune",
+     "charge": -1,
+     "tone": "The more formal twin of *mishap*, putting the weight on the luck of the thing rather than the damage done.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-04856990-n",
+   "axis": "sexual morality named as conduct → sexual morality named as a woman's standing",
+   "members": [
+    {
+     "id": "virtue.oewn-04856990-n",
+     "word": "virtue",
+     "gloss": "morality with respect to sexual relations",
+     "charge": 1,
+     "tone": "Approving but plain, naming sexual conduct as a moral good in itself without *honour*'s sense of a reputation that can be taken away.",
+     "rewrite": false
+    },
+    {
+     "id": "honour.oewn-04857203-n",
+     "word": "honour",
+     "gloss": "a woman's virtue or chastity",
+     "charge": 2,
+     "tone": "Raises a woman's chastity to a matter of standing — something she is credited with and can be stripped of — where *virtue* only calls it moral; British spelling of *honor*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "29 words"
+     }
+    },
+    {
+     "id": "honor.oewn-04857203-n",
+     "word": "honor",
+     "gloss": "a woman's virtue or chastity",
+     "charge": 2,
+     "tone": "The same weighted word as *honour* in its American spelling: a woman's chastity treated as her good name rather than as conduct.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00685199-v",
+   "axis": "reasoned assent → uncritical credulity",
+   "members": [
+    {
+     "id": "buy.oewn-00685589-v",
+     "word": "buy",
+     "gloss": "accept as true",
+     "charge": 0,
+     "tone": "Blunt and informal where *believe* is plain, it treats accepting a claim as taking something on offer, so the acceptance sounds weighed rather than simply held.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "believe.oewn-00685199-v",
+     "word": "believe",
+     "gloss": "accept as true; take to be true",
+     "charge": 0,
+     "tone": "The unmarked word for taking something to be true, carrying no judgement on whether the acceptance was earned.",
+     "rewrite": false
+    },
+    {
+     "id": "understand.oewn-00594917-v",
+     "word": "understand",
+     "gloss": "believe to be the case",
+     "charge": 0,
+     "tone": "Softer than *believe*: it presents the belief as settled information one has come by, which lets the speaker hold it lightly.",
+     "rewrite": false
+    },
+    {
+     "id": "swallow.oewn-00603054-v",
+     "word": "swallow",
+     "gloss": "believe or accept without questioning or challenge",
+     "charge": -2,
+     "tone": "Disparaging of the believer rather than the claim, since the gloss builds the absence of questioning into the acceptance itself.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "gloss"
+     }
+    },
+    {
+     "id": "infer.oewn-00594917-v",
+     "word": "infer",
+     "gloss": "believe to be the case",
+     "charge": 0,
+     "tone": "Formal, and it frames the belief as arrived at rather than merely held, giving it a footing *believe* does not claim.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02288941-v",
+   "axis": "the person had a price → the payment named as the offence",
+   "members": [
+    {
+     "id": "buy.oewn-02288941-v",
+     "word": "buy",
+     "gloss": "make illegal payments to in exchange for favors or influence",
+     "charge": -2,
+     "tone": "The plain word for a purchase turned on a person, so the contempt lies in the implication - they had a price - where *bribe* states the illegality outright.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "bribe.oewn-02288941-v",
+     "word": "bribe",
+     "gloss": "make illegal payments to in exchange for favors or influence",
+     "charge": -3,
+     "tone": "Names the payment as the offence it is, an accusation rather than the sardonic understatement of *buy*.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-10127072-n",
+   "axis": "plain originator of an institution → revered progenitor of it",
+   "members": [
+    {
+     "id": "father.oewn-10127072-n",
+     "word": "father",
+     "gloss": "a person who founds or establishes some institution",
+     "charge": 2,
+     "tone": "Reverent - it casts the one who established the institution as its progenitor, giving the thing founded a lineage and the founder a claim on gratitude.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words",
+      "hard-words": "reverent, progenitor"
+     }
+    },
+    {
+     "id": "beginner.oewn-10127072-n",
+     "word": "beginner",
+     "gloss": "a person who founds or establishes some institution",
+     "charge": 0,
+     "tone": "Flat and unadorned - it credits the act of starting an institution and stops there, without the honour *father* confers on the same person.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-09642198-n",
+   "axis": "bare classification by sex → a person defined by her tie to a particular man",
+   "members": [
+    {
+     "id": "woman.oewn-10808492-n",
+     "word": "woman",
+     "gloss": "a female person who plays a significant role (wife or mistress or girlfriend) in the life of a particular man",
+     "charge": -1,
+     "tone": "Fixes a person by her attachment to one man and leaves the exact tie open — wife, mistress or girlfriend all answer to it — which is the possessive edge *female* has none of.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "32 words"
+     }
+    },
+    {
+     "id": "girl.oewn-10104064-n",
+     "word": "girl",
+     "gloss": "a youthful female person",
+     "charge": 0,
+     "tone": "Marks youth and nothing else, saying nothing about who she is to anyone, unlike *woman* here.",
+     "rewrite": false
+    },
+    {
+     "id": "female.oewn-09642198-n",
+     "word": "female",
+     "gloss": "a person who belongs to the sex that can have babies",
+     "charge": 0,
+     "tone": "Flat classification by the sex that bears children, carrying neither the age of *girl* nor the relational claim of *woman*.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-10132360-n",
+   "axis": "someone who is simply often in your company → someone cherished and confided in",
+   "members": [
+    {
+     "id": "friend.oewn-10132360-n",
+     "word": "friend",
+     "gloss": "a person you know well and regard with affection and trust",
+     "charge": 2,
+     "tone": "The plain, unhedged word for the bond, holding affection and trust together where *associate* names only the company kept.",
+     "rewrite": false
+    },
+    {
+     "id": "light.oewn-10296356-n",
+     "word": "light",
+     "gloss": "a person regarded very fondly",
+     "charge": 3,
+     "tone": "Pure fondness raised as high as the family goes, prizing the person without saying anything about trust or shared company.",
+     "rewrite": false
+    },
+    {
+     "id": "mate.oewn-10319821-n",
+     "word": "mate",
+     "gloss": "informal term for a friend of the same sex",
+     "charge": 1,
+     "tone": "Informal and easy, and it specifies a friend of the same sex where *friend* leaves that unsaid.",
+     "rewrite": false
+    },
+    {
+     "id": "crony.oewn-09897417-n",
+     "word": "crony",
+     "gloss": "a close friend who accompanies their buddies in their activities",
+     "charge": 1,
+     "tone": "Measures closeness in activities shared with a whole set of buddies, so the friendship is company kept rather than confidences given as in *intimate*.",
+     "rewrite": false
+    },
+    {
+     "id": "chum.oewn-09897417-n",
+     "word": "chum",
+     "gloss": "a close friend who accompanies their buddies in their activities",
+     "charge": 2,
+     "tone": "Openly affectionate for the same close, always-along friend, where *crony* leaves the fondness unspoken.",
+     "rewrite": false
+    },
+    {
+     "id": "associate.oewn-09965384-n",
+     "word": "associate",
+     "gloss": "a friend who is frequently in the company of another",
+     "charge": 0,
+     "tone": "The coolest of the words for frequent company, recording the habit and withholding any verdict on the affection behind it.",
+     "rewrite": false
+    },
+    {
+     "id": "intimate.oewn-09974118-n",
+     "word": "intimate",
+     "gloss": "someone to whom private matters are confided",
+     "charge": 2,
+     "tone": "Defines the friend entirely by what may be told them, making closeness a matter of trusted secrets rather than time spent together as in *companion*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    }
+   ]
+  }
+ ]
+}

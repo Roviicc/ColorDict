@@ -1,0 +1,765 @@
+{
+ "packet": 4,
+ "families": [
+  {
+   "family": "family-00609798-a",
+   "axis": "flat naming of dullness → slangy contempt for rigid, predictable sameness",
+   "members": [
+    {
+     "id": "conventional.oewn-00609798-a",
+     "word": "conventional",
+     "gloss": "unimaginative and conformist",
+     "charge": -1,
+     "tone": "Flat and unheated, naming the conformity without delivering the disapproval, so the verdict has to be inferred.",
+     "rewrite": false
+    },
+    {
+     "id": "button-down.oewn-00610033-s",
+     "word": "button-down",
+     "gloss": "unimaginatively conventional",
+     "charge": -2,
+     "tone": "Informal and needling, making the conventionality sound like a tidy uniform where *conventional* merely states it.",
+     "rewrite": false
+    },
+    {
+     "id": "buttoned-down.oewn-00610033-s",
+     "word": "buttoned-down",
+     "gloss": "unimaginatively conventional",
+     "charge": -2,
+     "tone": "The same needle with an extra syllable of drawl, drawing the mockery out a beat longer than *button-down*.",
+     "rewrite": false
+    },
+    {
+     "id": "conservative.oewn-00610033-s",
+     "word": "conservative",
+     "gloss": "unimaginatively conventional",
+     "charge": -1,
+     "tone": "So understated it can pass for plain description, framing the dullness as caution and letting the sting arrive quietly.",
+     "rewrite": false
+    },
+    {
+     "id": "square.oewn-00610234-s",
+     "word": "square",
+     "gloss": "rigidly conventional or old-fashioned",
+     "charge": -2,
+     "tone": "Slangy and dismissive, writing someone off as comically out of step rather than merely dull.",
+     "rewrite": false
+    },
+    {
+     "id": "straight.oewn-00610234-s",
+     "word": "straight",
+     "gloss": "rigidly conventional or old-fashioned",
+     "charge": -1,
+     "tone": "Flat slang for the same rigidity, labelling rather than jeering, so it lands softer than *square*.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "rigidity, jeering"
+     }
+    },
+    {
+     "id": "stereotyped.oewn-00610354-s",
+     "word": "stereotyped",
+     "gloss": "lacking spontaneity or originality or individuality",
+     "charge": -2,
+     "tone": "Damning by diagnosis, treating the sameness as fixed and mechanically repeated rather than just uninspired.",
+     "rewrite": false
+    },
+    {
+     "id": "stereotypic.oewn-00610354-s",
+     "word": "stereotypic",
+     "gloss": "lacking spontaneity or originality or individuality",
+     "charge": -1,
+     "tone": "Drier and more technical, its clinical flatness muting the derision that *stereotypical* carries.",
+     "rewrite": false
+    },
+    {
+     "id": "stereotypical.oewn-00610354-s",
+     "word": "stereotypical",
+     "gloss": "lacking spontaneity or originality or individuality",
+     "charge": -2,
+     "tone": "Everyday and derisive, the predictability sharp enough that the thing is seen coming.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "derisive, predictability"
+     }
+    },
+    {
+     "id": "unimaginative.oewn-00610354-s",
+     "word": "unimaginative",
+     "gloss": "lacking spontaneity or originality or individuality",
+     "charge": -2,
+     "tone": "The plainest naming of the deficit, no slang and no figure, just the absence stated as the fault.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01378100-a",
+   "axis": "bare certainty of knowledge → esteem so vast it passes into legend",
+   "members": [
+    {
+     "id": "known.oewn-01378100-a",
+     "word": "known",
+     "gloss": "apprehended with certainty",
+     "charge": 0,
+     "tone": "Flat and bare, asserting certainty about a thing with no admiration attached, the zero point the rest of the family builds on.",
+     "rewrite": false
+    },
+    {
+     "id": "best-known.oewn-01378472-s",
+     "word": "best-known",
+     "gloss": "most familiar or renowned",
+     "charge": 2,
+     "tone": "Superlative but measured, ranking one above all others for familiarity without claiming any grandeur beyond that ranking.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "superlative"
+     }
+    },
+    {
+     "id": "better-known.oewn-01378615-s",
+     "word": "better-known",
+     "gloss": "more familiar or renowned than the other of two",
+     "charge": 1,
+     "tone": "Comparative and narrow, weighing exactly two and awarding the margin rather than any absolute standing like *best-known*.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "comparative"
+     }
+    },
+    {
+     "id": "celebrated.oewn-01378757-s",
+     "word": "celebrated",
+     "gloss": "widely known and esteemed",
+     "charge": 2,
+     "tone": "Esteem heard as applause, the acclaim voiced aloud where *noted* keeps it under its breath.",
+     "rewrite": false
+    },
+    {
+     "id": "famed.oewn-01378757-s",
+     "word": "famed",
+     "gloss": "widely known and esteemed",
+     "charge": 2,
+     "tone": "A literary lift over *famous*, the same esteem sounding sung rather than simply reported.",
+     "rewrite": false
+    },
+    {
+     "id": "far-famed.oewn-01378757-s",
+     "word": "far-famed",
+     "gloss": "widely known and esteemed",
+     "charge": 3,
+     "tone": "Heightened and balladic, stretching the esteem across distance until it sounds too grand for plain prose.",
+     "rewrite": false
+    },
+    {
+     "id": "famous.oewn-01378757-s",
+     "word": "famous",
+     "gloss": "widely known and esteemed",
+     "charge": 2,
+     "tone": "The unadorned member, stating full esteem without ceremony, the plain standard *illustrious* and *far-famed* rise above.",
+     "rewrite": false
+    },
+    {
+     "id": "illustrious.oewn-01378757-s",
+     "word": "illustrious",
+     "gloss": "widely known and esteemed",
+     "charge": 3,
+     "tone": "Formal and lofty, loading the esteem with dignity and splendour that *famous* never claims.",
+     "rewrite": false
+    },
+    {
+     "id": "notable.oewn-01378757-s",
+     "word": "notable",
+     "gloss": "widely known and esteemed",
+     "charge": 1,
+     "tone": "The faintest esteem in the group, granting that someone is worth remarking on rather than widely admired.",
+     "rewrite": false
+    },
+    {
+     "id": "noted.oewn-01378757-s",
+     "word": "noted",
+     "gloss": "widely known and esteemed",
+     "charge": 1,
+     "tone": "Dry and restrained, conceding the esteem without raising its voice, next to the applause in *celebrated*.",
+     "rewrite": false
+    },
+    {
+     "id": "renowned.oewn-01378757-s",
+     "word": "renowned",
+     "gloss": "widely known and esteemed",
+     "charge": 3,
+     "tone": "Grand and resonant, the esteem sounding proclaimed rather than merely acknowledged as in *noted*.",
+     "rewrite": false
+    },
+    {
+     "id": "identified.oewn-01379134-s",
+     "word": "identified",
+     "gloss": "having the identity known or established",
+     "charge": 0,
+     "tone": "Coolly procedural, pinning down which thing it is and saying nothing whatever about standing.",
+     "rewrite": false
+    },
+    {
+     "id": "legendary.oewn-01379281-s",
+     "word": "legendary",
+     "gloss": "so celebrated as to having taken on the nature of a legend",
+     "charge": 3,
+     "tone": "The extreme of the family, where esteem has swollen past fact into story and outstrips even *illustrious*.",
+     "rewrite": false
+    },
+    {
+     "id": "proverbial.oewn-01379448-s",
+     "word": "proverbial",
+     "gloss": "widely known and spoken of",
+     "charge": 0,
+     "tone": "Familiarity by constant repetition, the thing quoted as a byword rather than admired as *famous* implies.",
+     "rewrite": false
+    },
+    {
+     "id": "well-known.oewn-01379631-s",
+     "word": "well-known",
+     "gloss": "widely or fully known",
+     "charge": 0,
+     "tone": "Broad and flat, measuring how far knowledge reaches while withholding the esteem carried by *famous*.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01047939-a",
+   "axis": "bare absence of formality → emphatic, warm familiarity",
+   "members": [
+    {
+     "id": "informal.oewn-01047939-a",
+     "word": "informal",
+     "gloss": "not formal",
+     "charge": 0,
+     "tone": "The flat negative of formal, marking the absence and nothing more - no warmth, no reproach, no picture of the occasion.",
+     "rewrite": false
+    },
+    {
+     "id": "casual.oewn-01048256-s",
+     "word": "casual",
+     "gloss": "appropriate for ordinary or routine occasions",
+     "charge": 0,
+     "tone": "Carries the ease of the ordinary occasion rather than its regularity, lighter on the tongue than *everyday*.",
+     "rewrite": false
+    },
+    {
+     "id": "everyday.oewn-01048256-s",
+     "word": "everyday",
+     "gloss": "appropriate for ordinary or routine occasions",
+     "charge": 0,
+     "tone": "Plain and matter-of-fact, fixing suitability to the routine occasion instead of to a relaxed manner.",
+     "rewrite": false
+    },
+    {
+     "id": "daily.oewn-01048256-s",
+     "word": "daily",
+     "gloss": "appropriate for ordinary or routine occasions",
+     "charge": 0,
+     "tone": "The most literal of the routine words here, measuring fitness by the recurring occasion with no suggestion of ease at all.",
+     "rewrite": false
+    },
+    {
+     "id": "free-and-easy.oewn-01048429-s",
+     "word": "free-and-easy",
+     "gloss": "natural and unstudied",
+     "charge": 1,
+     "tone": "Approving and chatty - informality as unforced naturalness, praising what is unstudied rather than merely noting what is absent.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "chatty, informality"
+     }
+    },
+    {
+     "id": "folksy.oewn-01048621-s",
+     "word": "folksy",
+     "gloss": "very informal and familiar",
+     "charge": 1,
+     "tone": "Pushes informality into warm closeness, a homely familiarity well past *casual*'s mere ease.",
+     "rewrite": false
+    },
+    {
+     "id": "unceremonious.oewn-01048766-s",
+     "word": "unceremonious",
+     "gloss": "without ceremony or formality",
+     "charge": 0,
+     "tone": "Frames the informality as ceremony stripped off, with a brusqueness *casual* never carries.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "informality, brusqueness"
+     }
+    },
+    {
+     "id": "unceremonial.oewn-01048766-s",
+     "word": "unceremonial",
+     "gloss": "without ceremony or formality",
+     "charge": 0,
+     "tone": "The flatter, more clinical twin of *unceremonious*, stating the lack of ceremony without the abrupt edge.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00019169-a",
+   "axis": "bare capability of being reached → easy, welcome, convenient nearness",
+   "members": [
+    {
+     "id": "accessible.oewn-00019169-a",
+     "word": "accessible",
+     "gloss": "capable of being reached",
+     "charge": 0,
+     "tone": "The plain, unemotional member: reachability stated as a bare fact, with none of the ease that *approachable* grants.",
+     "rewrite": false
+    },
+    {
+     "id": "approachable.oewn-00019387-s",
+     "word": "approachable",
+     "gloss": "easily approached",
+     "charge": 1,
+     "tone": "Warmer than *reachable* - the ease reads as a small compliment to the thing reached.",
+     "rewrite": false
+    },
+    {
+     "id": "reachable.oewn-00019387-s",
+     "word": "reachable",
+     "gloss": "easily approached",
+     "charge": 0,
+     "tone": "Flat and literal where *approachable* is inviting: it registers the ease and adds nothing to it.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "come-at-able.oewn-00019543-s",
+     "word": "come-at-able",
+     "gloss": "capable of being reached or attained",
+     "charge": 0,
+     "tone": "A homely, knockabout compound that sounds improvised beside the smooth *accessible*, and stretches past places to things attained.",
+     "rewrite": false
+    },
+    {
+     "id": "get-at-able.oewn-00019543-s",
+     "word": "get-at-able",
+     "gloss": "capable of being reached or attained",
+     "charge": 0,
+     "tone": "Blunter and more physical than *come-at-able*, its hyphens staging a bit of effort in the getting.",
+     "rewrite": false
+    },
+    {
+     "id": "getatable.oewn-00019543-s",
+     "word": "getatable",
+     "gloss": "capable of being reached or attained",
+     "charge": 0,
+     "tone": "The same colloquial compound run into one lump, clumsier on the page than hyphenated *get-at-able* and no different in force.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "colloquial, hyphenated"
+     }
+    },
+    {
+     "id": "handy.oewn-00019769-s",
+     "word": "handy",
+     "gloss": "easy to reach",
+     "charge": 2,
+     "tone": "Openly approving and informal: closeness treated as a convenience worth having, not the neutral fact *accessible* records.",
+     "rewrite": false
+    },
+    {
+     "id": "ready_to_hand.oewn-00019769-s",
+     "word": "ready to hand",
+     "gloss": "easy to reach",
+     "charge": 1,
+     "tone": "A measured phrase rather than a word, stating immediate availability with a poise that *handy* cheerfully drops.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00191603-a",
+   "axis": "flat registration that one knows something → keen, quickened responsiveness of mind",
+   "members": [
+    {
+     "id": "aware.oewn-00191603-a",
+     "word": "aware",
+     "gloss": "(sometimes followed by ‘of’) having or showing knowledge or understanding or realization or perception",
+     "charge": 0,
+     "tone": "The plain, unweighted term for holding something in mind, stating the knowing without praising or grading the mind that holds it.",
+     "rewrite": false
+    },
+    {
+     "id": "cognizant.oewn-00191603-a",
+     "word": "cognizant",
+     "gloss": "(sometimes followed by ‘of’) having or showing knowledge or understanding or realization or perception",
+     "charge": 0,
+     "tone": "Formal and stiff where *aware* is plain, giving the same knowledge an official, almost declarative weight.",
+     "rewrite": false
+    },
+    {
+     "id": "cognisant.oewn-00191603-a",
+     "word": "cognisant",
+     "gloss": "(sometimes followed by ‘of’) having or showing knowledge or understanding or realization or perception",
+     "charge": 0,
+     "tone": "The British spelling of *cognizant*, carrying the identical formal stiffness and no extra force.",
+     "rewrite": false
+    },
+    {
+     "id": "alert.oewn-00192141-s",
+     "word": "alert",
+     "gloss": "mentally perceptive and responsive",
+     "charge": 2,
+     "tone": "Praises the mind as quick on its feet - perception poised to respond, not merely present as in *aware*.",
+     "rewrite": false
+    },
+    {
+     "id": "alive.oewn-00192141-s",
+     "word": "alive",
+     "gloss": "mentally perceptive and responsive",
+     "charge": 2,
+     "tone": "Casts perceptiveness as vitality, a mind quickened and answering rather than simply watchful.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "perceptiveness, quickened"
+     }
+    },
+    {
+     "id": "awake.oewn-00192141-s",
+     "word": "awake",
+     "gloss": "mentally perceptive and responsive",
+     "charge": 1,
+     "tone": "Frames the perceptive mind as roused and taking things in, with dullness implied as what it has risen out of.",
+     "rewrite": false
+    },
+    {
+     "id": "conscious.oewn-00192448-s",
+     "word": "conscious",
+     "gloss": "(followed by ‘of’) showing realization or recognition of something",
+     "charge": 0,
+     "tone": "Aims the awareness at a particular thing and marks it as recognized, more deliberate and pointed than bare *aware*.",
+     "rewrite": false
+    },
+    {
+     "id": "sensible.oewn-00192753-s",
+     "word": "sensible",
+     "gloss": "aware intuitively or intellectually of something sensed",
+     "charge": 0,
+     "tone": "Formal and faintly literary, giving the awareness a felt quality - something registered as much as reasoned.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01843460-a",
+   "axis": "bare exactness → exactness pushed past its use",
+   "members": [
+    {
+     "id": "precise.oewn-01843460-a",
+     "word": "precise",
+     "gloss": "sharply exact or accurate or delimited",
+     "charge": 0,
+     "tone": "The family's flat baseline: states that something is exact or sharply bounded, passing no verdict on whether the exactness is welcome.",
+     "rewrite": false
+    },
+    {
+     "id": "dead.oewn-01843885-s",
+     "word": "dead",
+     "gloss": "unerringly accurate",
+     "charge": 2,
+     "tone": "Absolute and informal, an intensifier of accuracy that allows no margin of error at all, where *precise* still admits degrees.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "intensifier"
+     }
+    },
+    {
+     "id": "fine.oewn-01843987-s",
+     "word": "fine",
+     "gloss": "minutely precise especially in differences in meaning",
+     "charge": 1,
+     "tone": "Approving of exactness at the smallest scale, the drawing of distinctions almost too slight to mark, without *finespun*'s charge of overdoing it.",
+     "rewrite": false
+    },
+    {
+     "id": "finespun.oewn-01844113-s",
+     "word": "finespun",
+     "gloss": "developed in excessively fine detail",
+     "charge": -1,
+     "tone": "Disapproval delivered gently, as an aesthetic complaint: the detail is delicate but spun out finer than the thing can bear.",
+     "rewrite": false
+    },
+    {
+     "id": "hairsplitting.oewn-01844113-s",
+     "word": "hairsplitting",
+     "gloss": "developed in excessively fine detail",
+     "charge": -2,
+     "tone": "Blunt dismissal of the same excess *finespun* deprecates, naming it a quarrel over distinctions too small to be worth drawing.",
+     "rewrite": false
+    },
+    {
+     "id": "meticulous.oewn-01844263-s",
+     "word": "meticulous",
+     "gloss": "marked by precise accordance with details",
+     "charge": 1,
+     "tone": "Warm praise for care taken over every detail, crediting the attention rather than the rulebook.",
+     "rewrite": false
+    },
+    {
+     "id": "punctilious.oewn-01844263-s",
+     "word": "punctilious",
+     "gloss": "marked by precise accordance with details",
+     "charge": 0,
+     "tone": "Formal and stiff, treating exact detail as an observance to be complied with, where *meticulous* treats it as care.",
+     "rewrite": false
+    },
+    {
+     "id": "microscopic.oewn-01844506-s",
+     "word": "microscopic",
+     "gloss": "extremely precise with great attention to details",
+     "charge": 1,
+     "tone": "Hyperbolic magnification of *meticulous*, exactness pushed to a scale where the smallest detail is still under the lens.",
+     "rewrite": false
+    },
+    {
+     "id": "nice.oewn-01844650-s",
+     "word": "nice",
+     "gloss": "done with delicacy and skill",
+     "charge": 2,
+     "tone": "Praise for a fine touch, exactness felt as delicacy of hand rather than accumulated care.",
+     "rewrite": false
+    },
+    {
+     "id": "skillful.oewn-01844650-s",
+     "word": "skillful",
+     "gloss": "done with delicacy and skill",
+     "charge": 2,
+     "tone": "Open, unsubtle praise of the doer's competence, where *nice* praises the fineness of the execution itself.",
+     "rewrite": false
+    },
+    {
+     "id": "on_the_nose.oewn-01844833-s",
+     "word": "on the nose",
+     "gloss": "being precise with regard to a prescribed or specified criterion",
+     "charge": 1,
+     "tone": "Informal and satisfied: a verdict that the thing landed square on the stated mark, not a description of exactness in the abstract.",
+     "rewrite": false
+    },
+    {
+     "id": "on_the_button.oewn-01844833-s",
+     "word": "on the button",
+     "gloss": "being precise with regard to a prescribed or specified criterion",
+     "charge": 1,
+     "tone": "The same informal verdict of an exact hit as *on the nose*, with a crisper, more percussive snap to it.",
+     "rewrite": false
+    },
+    {
+     "id": "refined.oewn-01845051-s",
+     "word": "refined",
+     "gloss": "precise to a fine degree",
+     "charge": 1,
+     "tone": "Approving of precision arrived at by paring away the coarse, a finished quality rather than an effort under way.",
+     "rewrite": false
+    },
+    {
+     "id": "very.oewn-01845232-s",
+     "word": "very",
+     "gloss": "precisely as stated",
+     "charge": 0,
+     "tone": "A bare intensifier of identity, insisting the thing is exactly the one stated and carrying no praise or blame with it.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "intensifier"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00480005-a",
+   "axis": "faint bodily unease → outright physical misery",
+   "members": [
+    {
+     "id": "uncomfortable.oewn-00480005-a",
+     "word": "uncomfortable",
+     "gloss": "providing or experiencing physical discomfort",
+     "charge": 0,
+     "tone": "The plain cover term, working equally for the thing that gives the discomfort and the body that feels it, which is what keeps it so flat.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "bad.oewn-00480301-s",
+     "word": "bad",
+     "gloss": "feeling physical discomfort or pain (‘tough’ is occasionally used colloquially for ‘bad’)",
+     "charge": -1,
+     "tone": "Blunt and unspecific about the body feeling wrong, naming neither the site nor the sharpness of what is felt.",
+     "rewrite": false
+    },
+    {
+     "id": "tough.oewn-00480301-s",
+     "word": "tough",
+     "gloss": "feeling physical discomfort or pain (‘tough’ is occasionally used colloquially for ‘bad’)",
+     "charge": -1,
+     "tone": "The colloquial counterpart to *bad*, looser and more offhand about the same felt discomfort.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "colloquial, offhand"
+     }
+    },
+    {
+     "id": "comfortless.oewn-00480580-s",
+     "word": "comfortless",
+     "gloss": "without comfort",
+     "charge": -1,
+     "tone": "States a lack rather than a hurt — the bleakness sits in what is missing, which makes it colder than *uncomfortable*.",
+     "rewrite": false
+    },
+    {
+     "id": "irritating.oewn-00480675-s",
+     "word": "irritating",
+     "gloss": "causing physical discomfort",
+     "charge": -1,
+     "tone": "Points at discomfort that nags and chafes, a lower-grade complaint than *painful* though the two name the same effect.",
+     "rewrite": false
+    },
+    {
+     "id": "painful.oewn-00480675-s",
+     "word": "painful",
+     "gloss": "causing physical discomfort",
+     "charge": -2,
+     "tone": "The heavier word for that same effect, putting the discomfort on the scale of hurt rather than annoyance.",
+     "rewrite": false
+    },
+    {
+     "id": "miserable.oewn-00480862-s",
+     "word": "miserable",
+     "gloss": "characterized by physical misery",
+     "charge": -2,
+     "tone": "Gathers the discomfort into a whole bodily condition instead of a single sensation, so it reads as total rather than local.",
+     "rewrite": false
+    },
+    {
+     "id": "wretched.oewn-00480862-s",
+     "word": "wretched",
+     "gloss": "characterized by physical misery",
+     "charge": -3,
+     "tone": "A degree past *miserable* on the same misery — abject, with no dignity left to the body it describes.",
+     "rewrite": false
+    },
+    {
+     "id": "uneasy.oewn-00481063-s",
+     "word": "uneasy",
+     "gloss": "relating to bodily unease that causes discomfort",
+     "charge": -1,
+     "tone": "The faintest of these: a bodily unsettledness that has not hardened into pain, more a hint than a hurt.",
+     "rewrite": false
+    },
+    {
+     "id": "warm.oewn-00481182-s",
+     "word": "warm",
+     "gloss": "uncomfortable because of possible danger or trouble",
+     "charge": 0,
+     "tone": "Locates the discomfort in looming danger or trouble rather than in the flesh, and its mildness is exactly what makes it sound like a warning.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00959321-a",
+   "axis": "neutral naming of rules against unfair dealing → emphatic praise for dealing fairly",
+   "members": [
+    {
+     "id": "fair.oewn-00959321-a",
+     "word": "fair",
+     "gloss": "free from favoritism or self-interest or bias or deception; conforming with established standards or rules",
+     "charge": 2,
+     "tone": "Plain, unarguable approval - it certifies that no favoritism or deception got in, without the weight of principle *just* carries.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "unarguable, certifies, favoritism"
+     }
+    },
+    {
+     "id": "just.oewn-00959321-a",
+     "word": "just",
+     "gloss": "free from favoritism or self-interest or bias or deception; conforming with established standards or rules",
+     "charge": 2,
+     "tone": "Heavier than *fair* - the same absence of bias, but weighted as a standard rightly upheld rather than a condition merely met.",
+     "rewrite": false
+    },
+    {
+     "id": "antimonopoly.oewn-00959758-s",
+     "word": "antimonopoly",
+     "gloss": "of laws and regulations; designed to protect trade and commerce from unfair business practices",
+     "charge": 0,
+     "tone": "Purely classificatory - it says what a law or regulation is built to protect trade from, and commends no one.",
+     "rewrite": false
+    },
+    {
+     "id": "antitrust.oewn-00959758-s",
+     "word": "antitrust",
+     "gloss": "of laws and regulations; designed to protect trade and commerce from unfair business practices",
+     "charge": 0,
+     "tone": "Technical and as neutral as *antimonopoly*, marking a regulation's protective purpose rather than approving anybody's conduct.",
+     "rewrite": false
+    },
+    {
+     "id": "clean.oewn-00959923-s",
+     "word": "clean",
+     "gloss": "exhibiting or calling for sportsmanship or fair play",
+     "charge": 2,
+     "tone": "Approves by negation - nothing foul in the play - where *sportsmanlike* names the virtue outright.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "negation"
+     }
+    },
+    {
+     "id": "sporting.oewn-00959923-s",
+     "word": "sporting",
+     "gloss": "exhibiting or calling for sportsmanship or fair play",
+     "charge": 2,
+     "tone": "Warmer and easier than *clean*, crediting fair play as a spirit brought to the contest rather than a rule left unbroken.",
+     "rewrite": false
+    },
+    {
+     "id": "sporty.oewn-00959923-s",
+     "word": "sporty",
+     "gloss": "exhibiting or calling for sportsmanship or fair play",
+     "charge": 1,
+     "tone": "The most casual of these, informal and light, granting the same approval with none of *sportsmanlike*'s weight.",
+     "rewrite": false
+    },
+    {
+     "id": "sportsmanlike.oewn-00959923-s",
+     "word": "sportsmanlike",
+     "gloss": "exhibiting or calling for sportsmanship or fair play",
+     "charge": 2,
+     "tone": "The formal member - it measures conduct against a named standard of sportsmanship instead of merely reporting, as *clean* does, that nothing foul happened.",
+     "rewrite": false
+    },
+    {
+     "id": "fair-minded.oewn-00960166-s",
+     "word": "fair-minded",
+     "gloss": "of a person; just and impartial; not prejudiced",
+     "charge": 2,
+     "tone": "Praises a settled cast of mind rather than a single dealing - the impartiality is lodged in the person.",
+     "rewrite": false
+    },
+    {
+     "id": "fair-and-square.oewn-00960289-s",
+     "word": "fair-and-square",
+     "gloss": "just and honest",
+     "charge": 3,
+     "tone": "The emphatic one - its doubled phrasing insists there is nothing left to question, where *just* simply states that the standard was met.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

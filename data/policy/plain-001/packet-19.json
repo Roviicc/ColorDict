@@ -1,0 +1,1038 @@
+{
+ "packet": 19,
+ "families": [
+  {
+   "family": "family-00248306-a",
+   "axis": "blood merely present → appetite for killing",
+   "members": [
+    {
+     "id": "bloody.oewn-00248306-a",
+     "word": "bloody",
+     "gloss": "having or covered with or accompanied by blood",
+     "charge": 0,
+     "tone": "The plain base of the family, equally at home with blood held, blood on the surface, or blood merely attending, and judging none of the three.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "blood-filled.oewn-00248735-s",
+     "word": "blood-filled",
+     "gloss": "containing blood",
+     "charge": 0,
+     "tone": "Purely locational where *bloody* is open - the blood is inside the thing, a fact of contents with no verdict attached.",
+     "rewrite": false
+    },
+    {
+     "id": "bloodstained.oewn-00248860-s",
+     "word": "bloodstained",
+     "gloss": "covered with blood",
+     "charge": -1,
+     "tone": "Treats the covering as a mark left behind, so the blood mars what it lies on rather than simply coating it.",
+     "rewrite": false
+    },
+    {
+     "id": "gory.oewn-00248860-s",
+     "word": "gory",
+     "gloss": "covered with blood",
+     "charge": -2,
+     "tone": "Lurid where *bloodstained* is sober - the same covering turned into spectacle, with the recoil built in.",
+     "rewrite": false
+    },
+    {
+     "id": "bloodsucking.oewn-00248985-s",
+     "word": "bloodsucking",
+     "gloss": "drawing blood from the body of another",
+     "charge": -2,
+     "tone": "Frames the drawing of blood as feeding off another, so the offence is parasitism rather than violence.",
+     "rewrite": false
+    },
+    {
+     "id": "bloodthirsty.oewn-00249118-s",
+     "word": "bloodthirsty",
+     "gloss": "marked by eagerness to resort to violence and bloodshed",
+     "charge": -3,
+     "tone": "Makes the violence an appetite - it condemns the wanting, not the doing.",
+     "rewrite": false
+    },
+    {
+     "id": "bloody-minded.oewn-00249118-s",
+     "word": "bloody-minded",
+     "gloss": "marked by eagerness to resort to violence and bloodshed",
+     "charge": -3,
+     "tone": "Sites the same eagerness in the temperament, a settled cast of mind rather than the thirst *bloodthirsty* makes of it.",
+     "rewrite": false
+    },
+    {
+     "id": "sanguinary.oewn-00249118-s",
+     "word": "sanguinary",
+     "gloss": "marked by eagerness to resort to violence and bloodshed",
+     "charge": -3,
+     "tone": "Formal, and the cool register lands strangely on an eagerness for bloodshed, condemning at arm's length where *bloodthirsty* condemns close up.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "crimson.oewn-00249427-s",
+     "word": "crimson",
+     "gloss": "characterized by violence or bloodshed",
+     "charge": -2,
+     "tone": "Names violence by its colour, so the judgement arrives as an image and the word never has to state it.",
+     "rewrite": false
+    },
+    {
+     "id": "red.oewn-00249427-s",
+     "word": "red",
+     "gloss": "characterized by violence or bloodshed",
+     "charge": -1,
+     "tone": "The barest of the figures - the colour carries the violence with none of the heightening *crimson* brings to it.",
+     "rewrite": false
+    },
+    {
+     "id": "violent.oewn-00249427-s",
+     "word": "violent",
+     "gloss": "characterized by violence or bloodshed",
+     "charge": -2,
+     "tone": "Says outright what *crimson* and *red* say by figure, and holds whether blood is shed or only violence done.",
+     "rewrite": false
+    },
+    {
+     "id": "homicidal.oewn-00249704-s",
+     "word": "homicidal",
+     "gloss": "characteristic of or capable of or having a tendency toward killing another human being",
+     "charge": -3,
+     "tone": "Clinical in register and wide in reach, covering the settled tendency, the bare capacity, and the character of the act alike.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "murderous.oewn-00249704-s",
+     "word": "murderous",
+     "gloss": "characteristic of or capable of or having a tendency toward killing another human being",
+     "charge": -3,
+     "tone": "Brings the weight of the crime to the same range *homicidal* covers coolly, condemning in the act of describing.",
+     "rewrite": false
+    },
+    {
+     "id": "sanguineous.oewn-00249970-s",
+     "word": "sanguineous",
+     "gloss": "accompanied by bloodshed",
+     "charge": -1,
+     "tone": "Formal and cool, marking only that bloodshed attends - a circumstance noted, not an appetite exposed.",
+     "rewrite": false
+    },
+    {
+     "id": "slaughterous.oewn-00249970-s",
+     "word": "slaughterous",
+     "gloss": "accompanied by bloodshed",
+     "charge": -2,
+     "tone": "Makes the attending bloodshed sound wholesale, its weight falling on scale where *sanguineous* stays even.",
+     "rewrite": false
+    },
+    {
+     "id": "butcherly.oewn-00249970-s",
+     "word": "butcherly",
+     "gloss": "accompanied by bloodshed",
+     "charge": -3,
+     "tone": "Puts a butcher's hand on the bloodshed - crude and workmanlike, contemptuous of the doer where *slaughterous* is merely grand.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "workmanlike, contemptuous, doer"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00429900-a",
+   "axis": "obviousness held against a thing → clarity counted to its credit",
+   "members": [
+    {
+     "id": "clear.oewn-00429900-a",
+     "word": "clear",
+     "gloss": "readily apparent to the mind",
+     "charge": 0,
+     "tone": "The plain term for the property, stating that a thing reaches the mind without effort and passing no judgement on whether that is a merit.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "broad.oewn-00430374-s",
+     "word": "broad",
+     "gloss": "lacking subtlety; obvious",
+     "charge": -1,
+     "tone": "Faintly disapproving - the obviousness is heard as something laid on too thickly, an excess where *unsubtle* reports only a lack.",
+     "rewrite": false
+    },
+    {
+     "id": "unsubtle.oewn-00430374-s",
+     "word": "unsubtle",
+     "gloss": "lacking subtlety; obvious",
+     "charge": -1,
+     "tone": "Criticism by subtraction - it names the delicacy that is missing rather than the heaviness that replaced it, so the fault reads as a deficiency.",
+     "rewrite": false
+    },
+    {
+     "id": "clear-cut.oewn-00430512-s",
+     "word": "clear-cut",
+     "gloss": "clearly or sharply defined to the mind",
+     "charge": 1,
+     "tone": "Approving of edges - the outline is sharp enough that there is no blurred margin left to argue over.",
+     "rewrite": false
+    },
+    {
+     "id": "distinct.oewn-00430512-s",
+     "word": "distinct",
+     "gloss": "clearly or sharply defined to the mind",
+     "charge": 0,
+     "tone": "The cool member of its group - sharpness of definition reported as a fact, without the approval in *clear-cut* or the bite of *trenchant*.",
+     "rewrite": false
+    },
+    {
+     "id": "trenchant.oewn-00430512-s",
+     "word": "trenchant",
+     "gloss": "clearly or sharply defined to the mind",
+     "charge": 2,
+     "tone": "Praise with an edge on it - the definition cuts rather than merely bounds, a force *distinct* never claims.",
+     "rewrite": false
+    },
+    {
+     "id": "limpid.oewn-00430851-s",
+     "word": "limpid",
+     "gloss": "(of language) transparently clear; easily understandable",
+     "charge": 2,
+     "tone": "Praise for language that offers no resistance at all, clarity felt as smoothness rather than as precision.",
+     "rewrite": false
+    },
+    {
+     "id": "lucid.oewn-00430851-s",
+     "word": "lucid",
+     "gloss": "(of language) transparently clear; easily understandable",
+     "charge": 2,
+     "tone": "Plainer praise than *limpid* - the clarity is credited to the ordering of the thought rather than to the ease of the surface.",
+     "rewrite": false
+    },
+    {
+     "id": "luculent.oewn-00430851-s",
+     "word": "luculent",
+     "gloss": "(of language) transparently clear; easily understandable",
+     "charge": 2,
+     "tone": "Formal to the point of ornament - the compliment is paid in exactly the diction the clarity it commends would strip out.",
+     "rewrite": false
+    },
+    {
+     "id": "pellucid.oewn-00430851-s",
+     "word": "pellucid",
+     "gloss": "(of language) transparently clear; easily understandable",
+     "charge": 2,
+     "tone": "Polished praise - the language is treated as something seen straight through, admired for the absence of anything between reader and sense.",
+     "rewrite": false
+    },
+    {
+     "id": "crystal_clear.oewn-00430851-s",
+     "word": "crystal clear",
+     "gloss": "(of language) transparently clear; easily understandable",
+     "charge": 2,
+     "tone": "The blunt, emphatic option - it insists nothing has been left to misread, with none of the polish of *pellucid*.",
+     "rewrite": false
+    },
+    {
+     "id": "perspicuous.oewn-00430851-s",
+     "word": "perspicuous",
+     "gloss": "(of language) transparently clear; easily understandable",
+     "charge": 1,
+     "tone": "Formal and assessing - clarity approved as a property the language can be judged to have, not a pleasure it gives.",
+     "rewrite": false
+    },
+    {
+     "id": "prima_facie.oewn-00431289-s",
+     "word": "prima facie",
+     "gloss": "as it seems at first sight",
+     "charge": 0,
+     "tone": "Neutral and provisional - it marks how a thing stands on first sight and reserves whatever a closer look might overturn.",
+     "rewrite": false
+    },
+    {
+     "id": "unmistakable.oewn-00431405-s",
+     "word": "unmistakable",
+     "gloss": "clearly evident to the mind",
+     "charge": 0,
+     "tone": "Force without approval - it makes clarity a matter of no other reading being available, which serves the unwelcome as readily as the welcome.",
+     "rewrite": false
+    },
+    {
+     "id": "vivid.oewn-00431537-s",
+     "word": "vivid",
+     "gloss": "having the clarity and freshness of immediate experience",
+     "charge": 2,
+     "tone": "Warm praise - the clarity comes with the freshness of something being undergone now, not merely well set out.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00365559-a",
+   "axis": "cheer merely absent → gloom that presses hard",
+   "members": [
+    {
+     "id": "depressing.oewn-00365559-a",
+     "word": "depressing",
+     "gloss": "causing sad feelings of gloom and inadequacy",
+     "charge": -2,
+     "tone": "Blunt and unhedged, it names the effect on the person outright, reaching self-regard as well as mood where *cheerless* only reports what is missing.",
+     "rewrite": false
+    },
+    {
+     "id": "cheerless.oewn-00365559-a",
+     "word": "cheerless",
+     "gloss": "causing sad feelings of gloom and inadequacy",
+     "charge": -2,
+     "tone": "Works by absence — nothing here to lift anyone — so it sinks the spirits without ever accusing the thing of anything.",
+     "rewrite": false
+    },
+    {
+     "id": "uncheerful.oewn-00365559-a",
+     "word": "uncheerful",
+     "gloss": "causing sad feelings of gloom and inadequacy",
+     "charge": -1,
+     "tone": "The flattest of these, a bare negation registering the missing cheer without the settled bleakness *cheerless* carries.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "negation"
+     }
+    },
+    {
+     "id": "blue.oewn-00365961-s",
+     "word": "blue",
+     "gloss": "causing dejection",
+     "charge": -1,
+     "tone": "Informal, and it tints the mood rather than convicting the thing - dejection carried as a colour, where *dark* throws a shadow over what it names and *dismal* passes sentence on it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "31 words"
+     }
+    },
+    {
+     "id": "dark.oewn-00365961-s",
+     "word": "dark",
+     "gloss": "causing dejection",
+     "charge": -2,
+     "tone": "The dejection is cast over a thing rather than sitting inside it — a shadow, where *dreary* is a long dull stretch.",
+     "rewrite": false
+    },
+    {
+     "id": "dingy.oewn-00365961-s",
+     "word": "dingy",
+     "gloss": "causing dejection",
+     "charge": -2,
+     "tone": "Dispirits in a small, unfreshened way, too minor for the sweep of *dismal* but enough to flatten a mood.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "dispirits, unfreshened, flatten"
+     }
+    },
+    {
+     "id": "disconsolate.oewn-00365961-s",
+     "word": "disconsolate",
+     "gloss": "causing dejection",
+     "charge": -2,
+     "tone": "It marks a thing as past consoling, so the dejection comes with no way out of it, heavier in that than *gloomy*.",
+     "rewrite": false
+    },
+    {
+     "id": "dismal.oewn-00365961-s",
+     "word": "dismal",
+     "gloss": "causing dejection",
+     "charge": -3,
+     "tone": "A flat, sweeping verdict of bleakness that sinks the spirits harder than *gloomy* and leaves nothing to salvage.",
+     "rewrite": false
+    },
+    {
+     "id": "gloomy.oewn-00365961-s",
+     "word": "gloomy",
+     "gloss": "causing dejection",
+     "charge": -2,
+     "tone": "The plain middle of the family, naming the dejection without heightening it, where *dismal* passes judgement on it.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "dejection, heightening"
+     }
+    },
+    {
+     "id": "grim.oewn-00365961-s",
+     "word": "grim",
+     "gloss": "causing dejection",
+     "charge": -3,
+     "tone": "The hardest here, the gloom it causes carrying an edge of harshness, where *dreary* only wears you down.",
+     "rewrite": false
+    },
+    {
+     "id": "sorry.oewn-00365961-s",
+     "word": "sorry",
+     "gloss": "causing dejection",
+     "charge": -2,
+     "tone": "Dejection mixed with contempt: what it names is not merely dispiriting but pitiable, which *gloomy* never implies.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "dejection, dispiriting, pitiable"
+     }
+    },
+    {
+     "id": "drab.oewn-00365961-s",
+     "word": "drab",
+     "gloss": "causing dejection",
+     "charge": -2,
+     "tone": "Dejection by monotony — it flattens rather than darkens, dispiriting without the menace of *grim*.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "dejection, monotony, flattens, darkens, dispiriting"
+     }
+    },
+    {
+     "id": "drear.oewn-00365961-s",
+     "word": "drear",
+     "gloss": "causing dejection",
+     "charge": -2,
+     "tone": "Barer and more literary than *dreary*, the same gloom in a word with nothing spare left in it.",
+     "rewrite": false
+    },
+    {
+     "id": "dreary.oewn-00365961-s",
+     "word": "dreary",
+     "gloss": "causing dejection",
+     "charge": -2,
+     "tone": "Gloom that goes on and wearies, so where *dismal* can be a single verdict this one drags.",
+     "rewrite": false
+    },
+    {
+     "id": "somber.oewn-00366341-s",
+     "word": "somber",
+     "gloss": "grave or even gloomy in character",
+     "charge": -1,
+     "tone": "Gravity first and gloom only at its far end, which lets it carry dignity in a way *dismal* cannot.",
+     "rewrite": false
+    },
+    {
+     "id": "sombre.oewn-00366341-s",
+     "word": "sombre",
+     "gloss": "grave or even gloomy in character",
+     "charge": -1,
+     "tone": "The British spelling and the same word entirely: grave in weight, gloomy only when pushed to its limit.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02104548-a",
+   "axis": "attraction offered openly → attraction that works as a cover for harm",
+   "members": [
+    {
+     "id": "seductive.oewn-02104548-a",
+     "word": "seductive",
+     "gloss": "tending to entice into a desired action or state",
+     "charge": 0,
+     "tone": "The plain name for the pull itself, and since the action drawn toward is one that is wanted, the word rates the force without rating where it leads, unlike *corrupting*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "30 words"
+     }
+    },
+    {
+     "id": "alluring.oewn-02104760-s",
+     "word": "alluring",
+     "gloss": "highly attractive and able to arouse hope or desire",
+     "charge": 2,
+     "tone": "Openly admiring - the attraction is a brightness that draws from a distance, with none of the spell-work *beguiling* implies.",
+     "rewrite": false
+    },
+    {
+     "id": "beguiling.oewn-02104760-s",
+     "word": "beguiling",
+     "gloss": "highly attractive and able to arouse hope or desire",
+     "charge": 1,
+     "tone": "The attraction works like a charm that holds you rather than a shine that catches you, so the hope it raises feels conjured where *alluring* simply glows.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "enticing.oewn-02104760-s",
+     "word": "enticing",
+     "gloss": "highly attractive and able to arouse hope or desire",
+     "charge": 2,
+     "tone": "The appeal arrives as an offer, pointing at a particular thing to be had, where *alluring* is a quality the thing merely possesses.",
+     "rewrite": false
+    },
+    {
+     "id": "tempting.oewn-02104760-s",
+     "word": "tempting",
+     "gloss": "highly attractive and able to arouse hope or desire",
+     "charge": 1,
+     "tone": "The desire it raises is one you may have to weigh against yourself, so the pull is felt as pressure rather than as the clean invitation of *enticing*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "corrupting.oewn-02105076-s",
+     "word": "corrupting",
+     "gloss": "seducing into corrupt practices",
+     "charge": -3,
+     "tone": "Flatly condemning - it fixes on the ruin at the end of the pull rather than on the appeal that carries it there.",
+     "rewrite": false
+    },
+    {
+     "id": "insidious.oewn-02105164-s",
+     "word": "insidious",
+     "gloss": "beguiling but harmful",
+     "charge": -2,
+     "tone": "The whole warning sits in the pairing: the charm is real and is exactly what keeps the harm out of sight, where *corrupting* announces the damage plainly.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "teasing.oewn-02105282-s",
+     "word": "teasing",
+     "gloss": "arousing sexual desire without intending to satisfy it",
+     "charge": -1,
+     "tone": "A light reproach - desire is raised deliberately and then left standing, so the fault named is the withholding rather than the attraction.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00155165-a",
+   "axis": "a passing inward discomfort → a public and settled loss of standing",
+   "members": [
+    {
+     "id": "ashamed.oewn-00155165-a",
+     "word": "ashamed",
+     "gloss": "feeling shame or guilt or embarrassment or remorse",
+     "charge": 0,
+     "tone": "The plain inward word for the state, wide enough to hold guilt and remorse as well as shame, and unlike *disgraced* it reports the feeling without pronouncing on the person's standing.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "31 words"
+     }
+    },
+    {
+     "id": "discredited.oewn-00155430-s",
+     "word": "discredited",
+     "gloss": "suffering shame",
+     "charge": -2,
+     "tone": "The shame lands as a withdrawal of belief, where *disgraced* takes away the standing itself.",
+     "rewrite": false
+    },
+    {
+     "id": "disgraced.oewn-00155430-s",
+     "word": "disgraced",
+     "gloss": "suffering shame",
+     "charge": -3,
+     "tone": "Total and public, the shame settled into a condition rather than the passing sting of *embarrassed*.",
+     "rewrite": false
+    },
+    {
+     "id": "dishonored.oewn-00155430-s",
+     "word": "dishonored",
+     "gloss": "suffering shame",
+     "charge": -3,
+     "tone": "The gravest and most formal of these, shame weighed against honour, where *shamed* is blunt and unceremonious.",
+     "rewrite": false
+    },
+    {
+     "id": "shamed.oewn-00155430-s",
+     "word": "shamed",
+     "gloss": "suffering shame",
+     "charge": -2,
+     "tone": "Bare and unadorned: shame worked on someone from outside, where *ashamed* is shame felt from within.",
+     "rewrite": false
+    },
+    {
+     "id": "embarrassed.oewn-00155537-s",
+     "word": "embarrassed",
+     "gloss": "made to feel uncomfortable because of shame or wounded pride",
+     "charge": -1,
+     "tone": "The mildest and most survivable discomfort here, and the sting can be to pride as easily as to conscience.",
+     "rewrite": false
+    },
+    {
+     "id": "humiliated.oewn-00155537-s",
+     "word": "humiliated",
+     "gloss": "made to feel uncomfortable because of shame or wounded pride",
+     "charge": -2,
+     "tone": "Where *mortified* measures how sharp the discomfort is, this measures how far down it puts a person - shame or wounded pride, and no hand required to arrange the fall.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "29 words"
+     }
+    },
+    {
+     "id": "mortified.oewn-00155537-s",
+     "word": "mortified",
+     "gloss": "made to feel uncomfortable because of shame or wounded pride",
+     "charge": -2,
+     "tone": "Hyperbolic in force: the discomfort is unbearable rather than merely awkward, and it can be pride that smarts.",
+     "rewrite": false
+    },
+    {
+     "id": "guilty.oewn-00155850-s",
+     "word": "guilty",
+     "gloss": "showing a sense of guilt",
+     "charge": -1,
+     "tone": "The plainest of the words for guilt that shows, naming what is visible without the picture *hangdog* draws.",
+     "rewrite": false
+    },
+    {
+     "id": "hangdog.oewn-00155850-s",
+     "word": "hangdog",
+     "gloss": "showing a sense of guilt",
+     "charge": -2,
+     "tone": "Contemptuous and pictorial, the guilt showing as a cowering, beaten posture, and the word relishes saying so.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "contemptuous, cowering"
+     }
+    },
+    {
+     "id": "shamefaced.oewn-00155850-s",
+     "word": "shamefaced",
+     "gloss": "showing a sense of guilt",
+     "charge": -1,
+     "tone": "Puts the guilt exactly where it shows, on the face, without the whole cringing body of *hangdog*.",
+     "rewrite": false
+    },
+    {
+     "id": "sheepish.oewn-00156104-s",
+     "word": "sheepish",
+     "gloss": "showing a sense of shame",
+     "charge": -1,
+     "tone": "Faintly comic and forgiving, the shame it shows small enough to be smiled at, where *hangdog* invites contempt.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01163575-a",
+   "axis": "bare capacity to do damage → damage deliberately dealt to a person or a name",
+   "members": [
+    {
+     "id": "harmful.oewn-01163575-a",
+     "word": "harmful",
+     "gloss": "causing or capable of causing harm",
+     "charge": -1,
+     "tone": "States damage done or damage merely possible and stops there, flatter and cooler than *abusive* or *bruising*, which put a victim in the sentence.",
+     "rewrite": false
+    },
+    {
+     "id": "abusive.oewn-01164128-s",
+     "word": "abusive",
+     "gloss": "characterized by physical or psychological maltreatment",
+     "charge": -3,
+     "tone": "The heaviest word here, since the harm is maltreatment of a person in body or mind rather than the impersonal damage *harmful* allows.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "maltreatment, impersonal"
+     }
+    },
+    {
+     "id": "bad.oewn-01164319-s",
+     "word": "bad",
+     "gloss": "capable of harming",
+     "charge": -1,
+     "tone": "The blunt monosyllable for the capacity *harmful* names, warning that a thing can hurt without saying how or how much.",
+     "rewrite": false
+    },
+    {
+     "id": "bruising.oewn-01164424-s",
+     "word": "bruising",
+     "gloss": "causing mental or emotional injury",
+     "charge": -2,
+     "tone": "Lends the body's word to injury of the mind, so the damage arrives as an impact that leaves a mark rather than *harmful*'s abstract capacity.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "deleterious.oewn-01164603-s",
+     "word": "deleterious",
+     "gloss": "harmful to living things",
+     "charge": -1,
+     "tone": "Formal and clinical, it registers damage to living things as a finding rather than a complaint, cooling what *hurtful* says plainly.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "hurtful.oewn-01164603-s",
+     "word": "hurtful",
+     "gloss": "harmful to living things",
+     "charge": -2,
+     "tone": "The plain-spoken member of its trio, naming the same damage to living things in the everyday register that *deleterious* and *injurious* refuse.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "injurious.oewn-01164603-s",
+     "word": "injurious",
+     "gloss": "harmful to living things",
+     "charge": -2,
+     "tone": "Formal like *deleterious* but weightier, treating the damage as an injury sustained rather than an effect observed.",
+     "rewrite": false
+    },
+    {
+     "id": "calumniatory.oewn-01164777-s",
+     "word": "calumniatory",
+     "gloss": "(used of statements) harmful and often untrue; tending to discredit or malign",
+     "charge": -3,
+     "tone": "Elevated and heavy-tongued, it condemns the statement with a formality that makes the objection sound like a charge being laid.",
+     "rewrite": false
+    },
+    {
+     "id": "calumnious.oewn-01164777-s",
+     "word": "calumnious",
+     "gloss": "(used of statements) harmful and often untrue; tending to discredit or malign",
+     "charge": -3,
+     "tone": "The trimmer form of *calumniatory* and no gentler for it, the statement still handled as malice dressed up as report.",
+     "rewrite": false
+    },
+    {
+     "id": "defamatory.oewn-01164777-s",
+     "word": "defamatory",
+     "gloss": "(used of statements) harmful and often untrue; tending to discredit or malign",
+     "charge": -3,
+     "tone": "The plainest of these, condemning the statement squarely for the damage it does to a name and doing without *calumnious*'s elevation.",
+     "rewrite": false
+    },
+    {
+     "id": "denigrative.oewn-01164777-s",
+     "word": "denigrative",
+     "gloss": "(used of statements) harmful and often untrue; tending to discredit or malign",
+     "charge": -2,
+     "tone": "Puts the weight on the blackening of the subject rather than on the untruth, and is the stiffest of the three denigrat- forms.",
+     "rewrite": false
+    },
+    {
+     "id": "denigrating.oewn-01164777-s",
+     "word": "denigrating",
+     "gloss": "(used of statements) harmful and often untrue; tending to discredit or malign",
+     "charge": -2,
+     "tone": "The most immediate of its trio, catching the statement in the act of running someone down.",
+     "rewrite": false
+    },
+    {
+     "id": "denigratory.oewn-01164777-s",
+     "word": "denigratory",
+     "gloss": "(used of statements) harmful and often untrue; tending to discredit or malign",
+     "charge": -2,
+     "tone": "Formal and dispositional, marking the statement as the belittling kind rather than *denigrating*'s act in progress.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "dispositional, belittling"
+     }
+    },
+    {
+     "id": "libellous.oewn-01164777-s",
+     "word": "libellous",
+     "gloss": "(used of statements) harmful and often untrue; tending to discredit or malign",
+     "charge": -3,
+     "tone": "British spelling of *libelous*, and it carries the same weight, an accusation levelled at the statement rather than a description of it.",
+     "rewrite": false
+    },
+    {
+     "id": "libelous.oewn-01164777-s",
+     "word": "libelous",
+     "gloss": "(used of statements) harmful and often untrue; tending to discredit or malign",
+     "charge": -3,
+     "tone": "Accusatory where *defamatory* is merely descriptive, charging the statement with the harm instead of noting that it does harm.",
+     "rewrite": false
+    },
+    {
+     "id": "slanderous.oewn-01164777-s",
+     "word": "slanderous",
+     "gloss": "(used of statements) harmful and often untrue; tending to discredit or malign",
+     "charge": -3,
+     "tone": "The hottest of the set, hearing deliberate malice in the discrediting rather than *defamatory*'s cooler damage to reputation.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00536071-a",
+   "axis": "a difficulty the reader can work at → understanding shut out entirely",
+   "members": [
+    {
+     "id": "incomprehensible.oewn-00536071-a",
+     "word": "incomprehensible",
+     "gloss": "difficult to understand",
+     "charge": -1,
+     "tone": "States the difficulty and nothing more, with no hint of whether the fault lies in the style, the subject or the reader.",
+     "rewrite": false
+    },
+    {
+     "id": "uncomprehensible.oewn-00536071-a",
+     "word": "uncomprehensible",
+     "gloss": "difficult to understand",
+     "charge": -1,
+     "tone": "Carries exactly the force of *incomprehensible* with a makeshift ring, the un- prefix doing plainer work than the in-.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "prefix"
+     }
+    },
+    {
+     "id": "dark.oewn-00536470-s",
+     "word": "dark",
+     "gloss": "marked by difficulty of style or expression",
+     "charge": -1,
+     "tone": "Makes the hard style feel withheld rather than merely difficult, as though something were being kept unlit.",
+     "rewrite": false
+    },
+    {
+     "id": "obscure.oewn-00536470-s",
+     "word": "obscure",
+     "gloss": "marked by difficulty of style or expression",
+     "charge": -1,
+     "tone": "The same fault in the writing stated without *dark*'s metaphor: the style is at fault, and that is all it says.",
+     "rewrite": false
+    },
+    {
+     "id": "enigmatic.oewn-00536744-s",
+     "word": "enigmatic",
+     "gloss": "not clear to the understanding",
+     "charge": 1,
+     "tone": "The one member that makes unclarity attractive, so that what is not clear reads as worth puzzling over rather than as a failing.",
+     "rewrite": false
+    },
+    {
+     "id": "enigmatical.oewn-00536744-s",
+     "word": "enigmatical",
+     "gloss": "not clear to the understanding",
+     "charge": 1,
+     "tone": "Formal where *enigmatic* is quick, the longer ending adding stiffness without adding any mystery.",
+     "rewrite": false
+    },
+    {
+     "id": "puzzling.oewn-00536744-s",
+     "word": "puzzling",
+     "gloss": "not clear to the understanding",
+     "charge": 0,
+     "tone": "The mildest of the three, making the unclarity a snag to be worked at rather than *enigmatic*'s standing invitation.",
+     "rewrite": false
+    },
+    {
+     "id": "unfathomable.oewn-00537047-s",
+     "word": "unfathomable",
+     "gloss": "incapable of being fully understood",
+     "charge": 0,
+     "tone": "Depth is the image, and it grants that understanding goes some way down and simply never reaches the bottom.",
+     "rewrite": false
+    },
+    {
+     "id": "impenetrable.oewn-00537141-s",
+     "word": "impenetrable",
+     "gloss": "impossible to understand",
+     "charge": -2,
+     "tone": "Absolute and sealed: where *unfathomable* leaves partial understanding possible, this shuts it out altogether.",
+     "rewrite": false
+    },
+    {
+     "id": "indecipherable.oewn-00537265-s",
+     "word": "indecipherable",
+     "gloss": "impossible to determine the meaning of",
+     "charge": -1,
+     "tone": "Treats the thing as a code that will not yield, so the defeat is at the level of meaning rather than of style as in *obscure*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "lost.oewn-00537393-s",
+     "word": "lost",
+     "gloss": "not caught with the senses or the mind",
+     "charge": 0,
+     "tone": "Lays blame nowhere, reporting only that the thing failed to arrive, slipping past the senses or past the mind.",
+     "rewrite": false
+    },
+    {
+     "id": "missed.oewn-00537393-s",
+     "word": "missed",
+     "gloss": "not caught with the senses or the mind",
+     "charge": 0,
+     "tone": "Hangs the same failure of catching on the one who did not catch it, where *lost* leaves the thing merely gone astray.",
+     "rewrite": false
+    },
+    {
+     "id": "opaque.oewn-00537516-s",
+     "word": "opaque",
+     "gloss": "hard or impossible to understand",
+     "charge": -1,
+     "tone": "A surface that shows nothing through it, stretching from hard going to flatly impossible.",
+     "rewrite": false
+    },
+    {
+     "id": "unintelligible.oewn-00537516-s",
+     "word": "unintelligible",
+     "gloss": "hard or impossible to understand",
+     "charge": -1,
+     "tone": "Blunt where *opaque* is figurative, and it reaches the same distance: from hard to make out to not to be made out at all.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-05621958-n",
+   "axis": "plainly naming the faculty of judging → praising it as fine, sound or tactful",
+   "members": [
+    {
+     "id": "sagacity.oewn-05621958-n",
+     "word": "sagacity",
+     "gloss": "the mental ability to understand and discriminate between relations",
+     "charge": 2,
+     "tone": "Lofty praise - credits a penetrating grasp of how things stand in relation, where *judgment* only names the faculty.",
+     "rewrite": false
+    },
+    {
+     "id": "sagaciousness.oewn-05621958-n",
+     "word": "sagaciousness",
+     "gloss": "the mental ability to understand and discriminate between relations",
+     "charge": 2,
+     "tone": "The same commendation built plainly off the adjective, heavier in the mouth than *sagacity* and less polished for it.",
+     "rewrite": false
+    },
+    {
+     "id": "judgment.oewn-05621958-n",
+     "word": "judgment",
+     "gloss": "the mental ability to understand and discriminate between relations",
+     "charge": 1,
+     "tone": "The flat name for the ability to tell relations apart, stating the capacity without the admiration *sagacity* loads onto it.",
+     "rewrite": false
+    },
+    {
+     "id": "judgement.oewn-05621958-n",
+     "word": "judgement",
+     "gloss": "the mental ability to understand and discriminate between relations",
+     "charge": 0,
+     "tone": "The flat name of the faculty itself, stating that the capacity to tell relations apart is present without the admiration *sagacity* adds or the fineness *discernment* implies.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "discernment.oewn-05621958-n",
+     "word": "discernment",
+     "gloss": "the mental ability to understand and discriminate between relations",
+     "charge": 2,
+     "tone": "Praise pitched at fineness - the stress falls on discriminating what a coarser mind would run together.",
+     "rewrite": false
+    },
+    {
+     "id": "eye.oewn-05622259-n",
+     "word": "eye",
+     "gloss": "good discernment (either visually or as if visually)",
+     "charge": 2,
+     "tone": "Compact and admiring, with 'good' built into the word, and it covers seeing with the eyes or the figurative equivalent alike.",
+     "rewrite": false
+    },
+    {
+     "id": "common_sense.oewn-05622440-n",
+     "word": "common sense",
+     "gloss": "sound practical judgment",
+     "charge": 1,
+     "tone": "Approving at the workaday end - soundness in practical matters, the kind expected of anyone rather than marvelled at.",
+     "rewrite": false
+    },
+    {
+     "id": "good_sense.oewn-05622440-n",
+     "word": "good sense",
+     "gloss": "sound practical judgment",
+     "charge": 1,
+     "tone": "The bare commendation, with 'good' carrying the whole judgement and no claim past soundness.",
+     "rewrite": false
+    },
+    {
+     "id": "gumption.oewn-05622440-n",
+     "word": "gumption",
+     "gloss": "sound practical judgment",
+     "charge": 1,
+     "tone": "Informal and hearty - the same practical soundness spoken of as a homely possession rather than an intellectual one.",
+     "rewrite": false
+    },
+    {
+     "id": "horse_sense.oewn-05622440-n",
+     "word": "horse sense",
+     "gloss": "sound practical judgment",
+     "charge": 1,
+     "tone": "Informal and blunt, naming what *common sense* names with a grin at its own plainness.",
+     "rewrite": false
+    },
+    {
+     "id": "sense.oewn-05622440-n",
+     "word": "sense",
+     "gloss": "sound practical judgment",
+     "charge": 1,
+     "tone": "The barest member - practical soundness in one syllable, with nothing qualifying it.",
+     "rewrite": false
+    },
+    {
+     "id": "mother_wit.oewn-05622440-n",
+     "word": "mother wit",
+     "gloss": "sound practical judgment",
+     "charge": 1,
+     "tone": "Homely and affectionate where *good sense* is flatly commendatory, though the soundness praised is the same.",
+     "rewrite": false
+    },
+    {
+     "id": "judiciousness.oewn-05623156-n",
+     "word": "judiciousness",
+     "gloss": "good judgment",
+     "charge": 2,
+     "tone": "Formal praise for judgment that comes out well, not merely for having the faculty at all.",
+     "rewrite": false
+    },
+    {
+     "id": "discretion.oewn-05623283-n",
+     "word": "discretion",
+     "gloss": "knowing how to avoid embarrassment or distress",
+     "charge": 2,
+     "tone": "Praise for a tactful kind of knowing - steering clear of what would embarrass or distress before it arises.",
+     "rewrite": false
+    },
+    {
+     "id": "discreetness.oewn-05623283-n",
+     "word": "discreetness",
+     "gloss": "knowing how to avoid embarrassment or distress",
+     "charge": 1,
+     "tone": "Mild approval for the knack of heading off embarrassment or distress, stated as a plain quality where *discretion* sounds like a virtue one is credited with and *circumspection* like wariness.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "30 words"
+     }
+    },
+    {
+     "id": "circumspection.oewn-05623283-n",
+     "word": "circumspection",
+     "gloss": "knowing how to avoid embarrassment or distress",
+     "charge": 1,
+     "tone": "Tilts the same skill toward wariness - looking all round a situation for the embarrassment or distress in it.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

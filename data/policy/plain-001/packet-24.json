@@ -1,0 +1,437 @@
+{
+ "packet": 24,
+ "families": [
+  {
+   "family": "family-00645401-a",
+   "axis": "bare absence of rudeness → the social forms actually observed",
+   "members": [
+    {
+     "id": "civil.oewn-00645401-a",
+     "word": "civil",
+     "gloss": "not rude; marked by satisfactory (or especially minimal) adherence to social usages and sufficient but not noteworthy consideration for others",
+     "charge": 1,
+     "tone": "Approval at its floor: it grants only that the manner was not rude, the minimal end of what *polite* also lets stretch to a satisfactory observance.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "polite.oewn-00645401-a",
+     "word": "polite",
+     "gloss": "not rude; marked by satisfactory (or especially minimal) adherence to social usages and sufficient but not noteworthy consideration for others",
+     "charge": 2,
+     "tone": "Credits the social usages as kept rather than merely the offence as avoided, though the consideration it reports stays sufficient and unremarkable rather than warm.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-07523725-n",
+   "axis": "esteem one is genuinely owed → self-regard swollen past what is owed",
+   "members": [
+    {
+     "id": "vanity.oewn-07524235-n",
+     "word": "vanity",
+     "gloss": "feelings of excessive pride",
+     "charge": -2,
+     "tone": "Deflating - names the same excess as *conceit* but treats it as a preening softness, something faintly ridiculous rather than offensive.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "deflating, preening"
+     }
+    },
+    {
+     "id": "conceit.oewn-07524235-n",
+     "word": "conceit",
+     "gloss": "feelings of excessive pride",
+     "charge": -2,
+     "tone": "Harder-edged than *vanity* - the excess sits as a fixed overestimate of oneself, the kind that invites resentment rather than amusement.",
+     "rewrite": false
+    },
+    {
+     "id": "dignity.oewn-04894076-n",
+     "word": "dignity",
+     "gloss": "the quality of being worthy of esteem or respect",
+     "charge": 2,
+     "tone": "Loftiest and steadiest here - not a feeling held about oneself but a worth that earns respect from outside, so it cannot be accused of excess the way *conceit* can.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "29 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-10628841-n",
+   "axis": "a person worked as someone else's instrument → a person owned outright",
+   "members": [
+    {
+     "id": "creature.oewn-09996081-n",
+     "word": "creature",
+     "gloss": "a person who is controlled by others and is used to perform unpleasant or dishonest tasks for someone else",
+     "charge": -2,
+     "tone": "Damns the person themselves as something another has made and can direct at whatever unpleasant or dishonest work is wanted, where *tool* damns only their usefulness.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "tool.oewn-09996081-n",
+     "word": "tool",
+     "gloss": "a person who is controlled by others and is used to perform unpleasant or dishonest tasks for someone else",
+     "charge": -2,
+     "tone": "The coldest of the three: the person is an implement taken up for the dirty or merely unpleasant jobs, valued for nothing but being handled.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "puppet.oewn-09996081-n",
+     "word": "puppet",
+     "gloss": "a person who is controlled by others and is used to perform unpleasant or dishonest tasks for someone else",
+     "charge": -2,
+     "tone": "Contemptuous with a note of ridicule — the person moves and acts, but the strings and the dishonesty behind the act belong to whoever works them.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "slave.oewn-10628841-n",
+     "word": "slave",
+     "gloss": "a person who is owned by someone",
+     "charge": -2,
+     "tone": "Drops the metaphor that *puppet* and *tool* run on and states ownership flatly, which is what makes it the heaviest word here.",
+     "rewrite": false
+    },
+    {
+     "id": "bondsman.oewn-09884297-n",
+     "word": "bondsman",
+     "gloss": "a male slave",
+     "charge": -1,
+     "tone": "Formal and legal in cast, naming the same owned condition as *slave* but of a man specifically, and at a cooler distance.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-04679567-n",
+   "axis": "placid absence of worry → settled failure to care",
+   "members": [
+    {
+     "id": "indifference.oewn-04680827-n",
+     "word": "indifference",
+     "gloss": "the trait of remaining calm and seeming not to care; a casual lack of concern",
+     "charge": -1,
+     "tone": "Leans on the not-caring half of the sense rather than the calm half, so the composure reads as something missing and carries a faint reproach that *unconcern* escapes.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "unconcern.oewn-04680827-n",
+     "word": "unconcern",
+     "gloss": "the trait of remaining calm and seeming not to care; a casual lack of concern",
+     "charge": 0,
+     "tone": "Weights the calm, casual side instead — an untroubled evenness that may be only a seeming, and names the absent worry without *indifference*'s hint that nothing is felt at all.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "30 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-07498762-n",
+   "axis": "soft flagging of interest and energy → blank absence of feeling",
+   "members": [
+    {
+     "id": "indifference.oewn-07498922-n",
+     "word": "indifference",
+     "gloss": "apathy demonstrated by an absence of emotional reactions",
+     "charge": -1,
+     "tone": "The measured word for the state - it reports only that no emotional reaction came, where *stolidity* reads the same blankness as a thickness in the person.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "stolidity.oewn-07498922-n",
+     "word": "stolidity",
+     "gloss": "apathy demonstrated by an absence of emotional reactions",
+     "charge": -2,
+     "tone": "Heavier and less forgiving than *indifference*: the missing reaction is treated as dullness of feeling rather than as a stance.",
+     "rewrite": false
+    },
+    {
+     "id": "languor.oewn-07499249-n",
+     "word": "languor",
+     "gloss": "a feeling of lack of interest or energy",
+     "charge": 0,
+     "tone": "The softest word here - the same lack of interest and energy carried as a slow, heavy-lidded mood rather than as a fault.",
+     "rewrite": false
+    },
+    {
+     "id": "apathy.oewn-07498762-n",
+     "word": "apathy",
+     "gloss": "an absence of emotion or enthusiasm",
+     "charge": -2,
+     "tone": "The flat, general name for the condition, taking in both the missing emotion and the missing enthusiasm, and treating the whole absence as a deficiency.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "lassitude.oewn-07499249-n",
+     "word": "lassitude",
+     "gloss": "a feeling of lack of interest or energy",
+     "charge": -1,
+     "tone": "Formal and weary-sounding - the flagging interest and energy are framed as something drained away, where *listlessness* simply reports them gone.",
+     "rewrite": false
+    },
+    {
+     "id": "listlessness.oewn-07499249-n",
+     "word": "listlessness",
+     "gloss": "a feeling of lack of interest or energy",
+     "charge": -1,
+     "tone": "Plain and unadorned: the flat want of interest and energy named outright, without *languor*'s softness or *lassitude*'s formality.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00653662-v",
+   "axis": "a trait that merely tells one thing from another → a trait that sets a thing above the rest",
+   "members": [
+    {
+     "id": "mark.oewn-00653662-v",
+     "word": "mark",
+     "gloss": "be a distinctive feature, attribute, or trait; sometimes in a very positive sense",
+     "charge": 1,
+     "tone": "Registers the trait as a sign the thing carries, crediting it lightly where *distinguish* lifts it.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "distinguish.oewn-00653662-v",
+     "word": "distinguish",
+     "gloss": "be a distinctive feature, attribute, or trait; sometimes in a very positive sense",
+     "charge": 2,
+     "tone": "The member that leans hardest on the very positive reading the sense allows — the trait does not merely identify the thing, it raises it above what stands beside it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "29 words"
+     }
+    },
+    {
+     "id": "differentiate.oewn-00653662-v",
+     "word": "differentiate",
+     "gloss": "be a distinctive feature, attribute, or trait; sometimes in a very positive sense",
+     "charge": 0,
+     "tone": "The dry one: the trait is what separates this thing from that one, with none of the credit *distinguish* carries.",
+     "rewrite": false
+    },
+    {
+     "id": "characterize.oewn-02703792-v",
+     "word": "characterize",
+     "gloss": "be characteristic of",
+     "charge": 0,
+     "tone": "Flatly descriptive — the trait simply belongs to the thing, and no verdict on its worth comes with it.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00513854-n",
+   "axis": "senselessness treated indulgently → senselessness condemned as madness",
+   "members": [
+    {
+     "id": "folly.oewn-00513854-n",
+     "word": "folly",
+     "gloss": "foolish or senseless behavior",
+     "charge": -2,
+     "tone": "Weighty and censorious - it treats the behaviour as a failure of judgement grave enough to be named, where *craziness* simply calls it mad.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "weighty, censorious"
+     }
+    },
+    {
+     "id": "indulgence.oewn-00513854-n",
+     "word": "indulgence",
+     "gloss": "foolish or senseless behavior",
+     "charge": -1,
+     "tone": "The softest way of naming senseless behaviour here, framing it as something permitted or allowed oneself rather than something to be condemned.",
+     "rewrite": false
+    },
+    {
+     "id": "lunacy.oewn-00513854-n",
+     "word": "lunacy",
+     "gloss": "foolish or senseless behavior",
+     "charge": -3,
+     "tone": "The hardest word in the set - it does not call the behaviour unwise but insane, and means the charge to land.",
+     "rewrite": false
+    },
+    {
+     "id": "craziness.oewn-00513854-n",
+     "word": "craziness",
+     "gloss": "foolish or senseless behavior",
+     "charge": -2,
+     "tone": "Plain and unbuttoned beside the grander *lunacy*, making the same accusation of madness without the formality.",
+     "rewrite": false
+    },
+    {
+     "id": "frivolity.oewn-00514412-n",
+     "word": "frivolity",
+     "gloss": "acting like a clown or buffoon",
+     "charge": -1,
+     "tone": "Aimed at clowning and buffoonery - antic performance rather than the misjudgement *folly* names, so the disapproval comes with amusement in it.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "buffoonery, antic, misjudgement"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00071785-n",
+   "axis": "a wrong action plainly registered → a mistake that discredits the person who made it",
+   "members": [
+    {
+     "id": "folly.oewn-01250622-n",
+     "word": "folly",
+     "gloss": "a stupid mistake",
+     "charge": -2,
+     "tone": "Weightier than *foolishness* - the mistake is named as an act of unwisdom, and the word sounds like a verdict on it.",
+     "rewrite": false
+    },
+    {
+     "id": "stupidity.oewn-01250622-n",
+     "word": "stupidity",
+     "gloss": "a stupid mistake",
+     "charge": -3,
+     "tone": "Blunt: the mistake is named by the mental failing behind it, so the contempt lands on the doer rather than the act.",
+     "rewrite": false
+    },
+    {
+     "id": "foolishness.oewn-01250622-n",
+     "word": "foolishness",
+     "gloss": "a stupid mistake",
+     "charge": -2,
+     "tone": "The mildest of the stupid-mistake words, chiding where *stupidity* condemns.",
+     "rewrite": false
+    },
+    {
+     "id": "imbecility.oewn-01250622-n",
+     "word": "imbecility",
+     "gloss": "a stupid mistake",
+     "charge": -3,
+     "tone": "The harshest here - a mistake treated as proof of an almost total want of mind.",
+     "rewrite": false
+    },
+    {
+     "id": "spot.oewn-00073081-n",
+     "word": "spot",
+     "gloss": "an act that brings discredit to the person who does it",
+     "charge": -2,
+     "tone": "The discrediting act figured as a small mark - smaller, and easier to rub out, than *stain*.",
+     "rewrite": false
+    },
+    {
+     "id": "error.oewn-00071785-n",
+     "word": "error",
+     "gloss": "a wrong action attributable to bad judgment or ignorance or inattention",
+     "charge": -1,
+     "tone": "The flattest of these three - the action is simply recorded as wrong, with no reach toward blame.",
+     "rewrite": false
+    },
+    {
+     "id": "confusion.oewn-00073293-n",
+     "word": "confusion",
+     "gloss": "a mistake that results from taking one thing to be another",
+     "charge": -1,
+     "tone": "Names the mechanism - one thing taken for another - which lets the mistake sound explicable rather than culpable.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "explicable, culpable"
+     }
+    },
+    {
+     "id": "blunder.oewn-00075610-n",
+     "word": "blunder",
+     "gloss": "an embarrassing mistake",
+     "charge": -2,
+     "tone": "Heavy and clumsy, a mistake big enough to leave the maker embarrassed by it.",
+     "rewrite": false
+    },
+    {
+     "id": "stain.oewn-00073081-n",
+     "word": "stain",
+     "gloss": "an act that brings discredit to the person who does it",
+     "charge": -3,
+     "tone": "The discredit sticks - where *spot* can be wiped off, this one is taken to mark the doer.",
+     "rewrite": false
+    },
+    {
+     "id": "slip.oewn-00074648-n",
+     "word": "slip",
+     "gloss": "a minor inadvertent mistake usually observed in speech or writing or in small accidents or memory lapses etc.",
+     "charge": -1,
+     "tone": "The smallest and most forgivable, an unmeant slight miss in speech or writing, a small mishap, a memory that skipped.",
+     "rewrite": false
+    },
+    {
+     "id": "lapse.oewn-00075344-n",
+     "word": "lapse",
+     "gloss": "a mistake resulting from inattention",
+     "charge": -1,
+     "tone": "Attention gave way for a moment - blameable, but only lightly, and without the clumsiness of *blunder*.",
+     "rewrite": false
+    },
+    {
+     "id": "omission.oewn-00075444-n",
+     "word": "omission",
+     "gloss": "a mistake resulting from neglect",
+     "charge": -2,
+     "tone": "The mistake lies in what went undone, and the neglect in it presses harder than the bare inattention of *oversight*.",
+     "rewrite": false
+    },
+    {
+     "id": "distortion.oewn-00074533-n",
+     "word": "distortion",
+     "gloss": "the mistake of misrepresenting the facts",
+     "charge": -2,
+     "tone": "Named by its result - the facts come out bent - which makes it sound graver than a simple miss like *slip*.",
+     "rewrite": false
+    },
+    {
+     "id": "oversight.oewn-00075344-n",
+     "word": "oversight",
+     "gloss": "a mistake resulting from inattention",
+     "charge": -1,
+     "tone": "Something went unnoticed, and the word half-excuses the mistake in the act of naming it.",
+     "rewrite": false
+    },
+    {
+     "id": "botch.oewn-00075610-n",
+     "word": "botch",
+     "gloss": "an embarrassing mistake",
+     "charge": -2,
+     "tone": "Informal and dismissive - the embarrassment is over a job made a mess of, not the single wrong step of *blunder*.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

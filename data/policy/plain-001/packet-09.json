@@ -1,0 +1,860 @@
+{
+ "packet": 9,
+ "families": [
+  {
+   "family": "family-01285124-a",
+   "axis": "an impression that registers → an impression that overwhelms",
+   "members": [
+    {
+     "id": "impressive.oewn-01285124-a",
+     "word": "impressive",
+     "gloss": "making a strong or vivid impression",
+     "charge": 2,
+     "tone": "The family's plain measure of approval - something lands strongly, with none of the claim to flatten you that *staggering* makes.",
+     "rewrite": false
+    },
+    {
+     "id": "amazing.oewn-01285602-s",
+     "word": "amazing",
+     "gloss": "inspiring awe or admiration or wonder",
+     "charge": 3,
+     "tone": "Unguarded warmth, all wonder and no weight, where *awe-inspiring* holds the same admiration at arm's length.",
+     "rewrite": false
+    },
+    {
+     "id": "awe-inspiring.oewn-01285602-s",
+     "word": "awe-inspiring",
+     "gloss": "inspiring awe or admiration or wonder",
+     "charge": 2,
+     "tone": "Formal, and it names the effect instead of voicing it - it reports what a thing does to an onlooker where *amazing* simply exclaims.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "onlooker, exclaims"
+     }
+    },
+    {
+     "id": "awesome.oewn-01285602-s",
+     "word": "awesome",
+     "gloss": "inspiring awe or admiration or wonder",
+     "charge": 3,
+     "tone": "Names the reaction rather than the quality that provoked it - the response is the whole of the claim.",
+     "rewrite": false
+    },
+    {
+     "id": "awful.oewn-01285602-s",
+     "word": "awful",
+     "gloss": "inspiring awe or admiration or wonder",
+     "charge": 2,
+     "tone": "Sits at the awe end of this sense - the impression overpowers rather than pleases, which is the whole distance between it and *amazing*.",
+     "rewrite": false
+    },
+    {
+     "id": "awing.oewn-01285602-s",
+     "word": "awing",
+     "gloss": "inspiring awe or admiration or wonder",
+     "charge": 1,
+     "tone": "A flat participle that states the effect and stops, carrying none of the speaker's own delight that *awesome* puts on show.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "participle"
+     }
+    },
+    {
+     "id": "arresting.oewn-01286013-s",
+     "word": "arresting",
+     "gloss": "commanding attention",
+     "charge": 2,
+     "tone": "Attention is seized and held - it stops you mid-stride, where *impressive* only invites you to admire at your leisure.",
+     "rewrite": false
+    },
+    {
+     "id": "sensational.oewn-01286013-s",
+     "word": "sensational",
+     "gloss": "commanding attention",
+     "charge": 1,
+     "tone": "The attention is commanded by display, and the word grants that the display worked.",
+     "rewrite": false
+    },
+    {
+     "id": "stunning.oewn-01286013-s",
+     "word": "stunning",
+     "gloss": "commanding attention",
+     "charge": 3,
+     "tone": "Commands attention by knocking it loose - the looking is involuntary, not the considered halt of *arresting*.",
+     "rewrite": false
+    },
+    {
+     "id": "astonishing.oewn-01286247-s",
+     "word": "astonishing",
+     "gloss": "so surprisingly impressive as to stun or overwhelm",
+     "charge": 2,
+     "tone": "Surprise is the mechanism here: it overwhelms because it exceeds what you were braced for, not because it is merely large.",
+     "rewrite": false
+    },
+    {
+     "id": "astounding.oewn-01286247-s",
+     "word": "astounding",
+     "gloss": "so surprisingly impressive as to stun or overwhelm",
+     "charge": 2,
+     "tone": "A heavier landing than *astonishing* - the surprise does not just register, it takes the ground out from under.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "staggering.oewn-01286247-s",
+     "word": "staggering",
+     "gloss": "so surprisingly impressive as to stun or overwhelm",
+     "charge": 2,
+     "tone": "The overwhelm is bodily - it arrives as weight and puts you off balance, where *astonishing* works on the expectations instead.",
+     "rewrite": false
+    },
+    {
+     "id": "stupefying.oewn-01286247-s",
+     "word": "stupefying",
+     "gloss": "so surprisingly impressive as to stun or overwhelm",
+     "charge": 1,
+     "tone": "The stun taken to its blank end, where the mind goes slack rather than sharp, so the admiration comes dulled.",
+     "rewrite": false
+    },
+    {
+     "id": "baronial.oewn-01286600-s",
+     "word": "baronial",
+     "gloss": "impressive in size, manner, or appearance",
+     "charge": 2,
+     "tone": "Grandeur with rank in it - the scale reads as lordly, claiming consequence rather than just filling space.",
+     "rewrite": false
+    },
+    {
+     "id": "imposing.oewn-01286600-s",
+     "word": "imposing",
+     "gloss": "impressive in size, manner, or appearance",
+     "charge": 1,
+     "tone": "Impressiveness that presses down on the onlooker, commanding respect from a slight distance and closer to daunting than to inviting.",
+     "rewrite": false
+    },
+    {
+     "id": "noble.oewn-01286600-s",
+     "word": "noble",
+     "gloss": "impressive in size, manner, or appearance",
+     "charge": 2,
+     "tone": "The bulk or bearing reads as dignity, an elevation of quality, where *imposing* achieves its effect by weight alone.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01564906-a",
+   "axis": "feeling merely aroused → deep feeling that gladdens, rouses or disquiets",
+   "members": [
+    {
+     "id": "moving.oewn-01564906-a",
+     "word": "moving",
+     "gloss": "arousing or capable of arousing deep emotion",
+     "charge": 1,
+     "tone": "The plainest full-strength term here — it credits depth of feeling without saying what the feeling is, where *heartwarming* and *haunting* each name its colour.",
+     "rewrite": false
+    },
+    {
+     "id": "affecting.oewn-01565214-s",
+     "word": "affecting",
+     "gloss": "arousing affect",
+     "charge": 0,
+     "tone": "The barest of the three that share this sense — it reports that feeling was produced and stops there, where *poignant* and *touching* each put a force behind it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "poignant.oewn-01565214-s",
+     "word": "poignant",
+     "gloss": "arousing affect",
+     "charge": 1,
+     "tone": "The keenest of the three — the feeling it names arrives with an edge, where *touching* arrives softly.",
+     "rewrite": false
+    },
+    {
+     "id": "touching.oewn-01565214-s",
+     "word": "touching",
+     "gloss": "arousing affect",
+     "charge": 1,
+     "tone": "The mildest of the three — a small stir of feeling rather than the keen pull *poignant* exerts.",
+     "rewrite": false
+    },
+    {
+     "id": "haunting.oewn-01565472-s",
+     "word": "haunting",
+     "gloss": "having a deeply disquieting or disturbing effect",
+     "charge": 0,
+     "tone": "The one member whose effect is unwelcome — it credits real depth while naming the disturbance, where *heartwarming* credits only the pleasure.",
+     "rewrite": false
+    },
+    {
+     "id": "heartwarming.oewn-01565673-s",
+     "word": "heartwarming",
+     "gloss": "causing gladness and pleasure",
+     "charge": 2,
+     "tone": "Unmixed warmth — the only member that guarantees the feeling is a glad one, where *moving* leaves the kind of emotion open.",
+     "rewrite": false
+    },
+    {
+     "id": "stirring.oewn-01565822-s",
+     "word": "stirring",
+     "gloss": "exciting strong but not unpleasant emotions",
+     "charge": 2,
+     "tone": "Rousing rather than tender — it makes the emotion strong and forward-moving while ruling out the discomfort *haunting* trades in.",
+     "rewrite": false
+    },
+    {
+     "id": "soul-stirring.oewn-01565822-s",
+     "word": "soul-stirring",
+     "gloss": "exciting strong but not unpleasant emotions",
+     "charge": 3,
+     "tone": "The emphatic form of the same sense — it puts the whole self behind the feeling *stirring* merely raises.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00440447-a",
+   "axis": "plain quickness of mind → shrewdness honed by self-interest and survival",
+   "members": [
+    {
+     "id": "smart.oewn-00440447-a",
+     "word": "smart",
+     "gloss": "showing mental alertness and calculation and resourcefulness",
+     "charge": 2,
+     "tone": "The family's plain approving term - alertness and resourcefulness credited straight, with none of the self-interested edge *cagey* carries.",
+     "rewrite": false
+    },
+    {
+     "id": "astute.oewn-00440649-s",
+     "word": "astute",
+     "gloss": "marked by practical hardheaded intelligence",
+     "charge": 2,
+     "tone": "Praise for judgement that sees through a situation, formal in register and weightier than *sharp*, which credits speed instead.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "sharp.oewn-00440649-s",
+     "word": "sharp",
+     "gloss": "marked by practical hardheaded intelligence",
+     "charge": 2,
+     "tone": "The same practical intelligence as *astute*, but felt as quickness and edge rather than depth.",
+     "rewrite": false
+    },
+    {
+     "id": "shrewd.oewn-00440649-s",
+     "word": "shrewd",
+     "gloss": "marked by practical hardheaded intelligence",
+     "charge": 1,
+     "tone": "Approves the hardheaded part out loud, so the compliment comes with a coolness *astute* does not have.",
+     "rewrite": false
+    },
+    {
+     "id": "cagey.oewn-00440992-s",
+     "word": "cagey",
+     "gloss": "showing self-interest and shrewdness in dealing with others",
+     "charge": 0,
+     "tone": "Credits the shrewdness while flagging the guardedness - intelligence held close and used defensively, which is why the approval is only half given.",
+     "rewrite": false
+    },
+    {
+     "id": "cagy.oewn-00440992-s",
+     "word": "cagy",
+     "gloss": "showing self-interest and shrewdness in dealing with others",
+     "charge": 0,
+     "tone": "An alternate spelling carrying exactly the force of *cagey*, wariness and self-interest both.",
+     "rewrite": false
+    },
+    {
+     "id": "canny.oewn-00440992-s",
+     "word": "canny",
+     "gloss": "showing self-interest and shrewdness in dealing with others",
+     "charge": 1,
+     "tone": "Makes the self-interest sound like sound sense rather than concealment, warming what *cagey* leaves guarded.",
+     "rewrite": false
+    },
+    {
+     "id": "clever.oewn-00440992-s",
+     "word": "clever",
+     "gloss": "showing self-interest and shrewdness in dealing with others",
+     "charge": 1,
+     "tone": "The double-edged member - it grants the quickness while letting the self-interest show, so it can compliment and needle in one word.",
+     "rewrite": false
+    },
+    {
+     "id": "streetwise.oewn-00441171-s",
+     "word": "streetwise",
+     "gloss": "having the shrewd resourcefulness needed to survive in an urban environment",
+     "charge": 2,
+     "tone": "Respect for intelligence proved under pressure rather than taught - resourcefulness measured by whether it keeps a person going in a city.",
+     "rewrite": false
+    },
+    {
+     "id": "street_smart.oewn-00441171-s",
+     "word": "street smart",
+     "gloss": "having the shrewd resourcefulness needed to survive in an urban environment",
+     "charge": 2,
+     "tone": "Says what *streetwise* says with the parts laid bare, the street and the smartness named separately, which makes it land blunter.",
+     "rewrite": false
+    },
+    {
+     "id": "with-it.oewn-00441171-s",
+     "word": "with-it",
+     "gloss": "having the shrewd resourcefulness needed to survive in an urban environment",
+     "charge": 1,
+     "tone": "Informal and light, it makes the same survival-sharpness sound like being clued in rather than hardened by it.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00671807-a",
+   "axis": "merely not of the present moment → wholly finished and out of use",
+   "members": [
+    {
+     "id": "noncurrent.oewn-00671807-a",
+     "word": "noncurrent",
+     "gloss": "not current or belonging to the present time",
+     "charge": 0,
+     "tone": "The flattest term here - a bare negation of present-day standing, without the verdict *obsolete* passes.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "negation"
+     }
+    },
+    {
+     "id": "back.oewn-00672052-s",
+     "word": "back",
+     "gloss": "of an earlier date",
+     "charge": 0,
+     "tone": "Purely positional - it sets something at an earlier date and judges nothing about it.",
+     "rewrite": false
+    },
+    {
+     "id": "dead.oewn-00672155-s",
+     "word": "dead",
+     "gloss": "no longer having force or relevance",
+     "charge": -1,
+     "tone": "Blunt and absolute - force and relevance are gone outright, not ebbing as in *obsolescent*.",
+     "rewrite": false
+    },
+    {
+     "id": "disused.oewn-00672257-s",
+     "word": "disused",
+     "gloss": "no longer in use",
+     "charge": 0,
+     "tone": "States the plain fact of non-use and leaves the reason alone.",
+     "rewrite": false
+    },
+    {
+     "id": "obsolete.oewn-00672257-s",
+     "word": "obsolete",
+     "gloss": "no longer in use",
+     "charge": -1,
+     "tone": "The same non-use as *disused*, but delivered as a verdict rather than an observation.",
+     "rewrite": false
+    },
+    {
+     "id": "outdated.oewn-00672374-s",
+     "word": "outdated",
+     "gloss": "old; no longer valid or fashionable",
+     "charge": -2,
+     "tone": "Faults the thing for its age, withdrawing validity and fashion in one stroke.",
+     "rewrite": false
+    },
+    {
+     "id": "out-of-date.oewn-00672374-s",
+     "word": "out-of-date",
+     "gloss": "old; no longer valid or fashionable",
+     "charge": -1,
+     "tone": "Plain and unemphatic - it reports the same lapse *outdated* reports, with less of the reproach.",
+     "rewrite": false
+    },
+    {
+     "id": "superannuated.oewn-00672374-s",
+     "word": "superannuated",
+     "gloss": "old; no longer valid or fashionable",
+     "charge": -2,
+     "tone": "Formal and faintly withering - age is treated as having disqualified the thing.",
+     "rewrite": false
+    },
+    {
+     "id": "obsolescent.oewn-00672603-s",
+     "word": "obsolescent",
+     "gloss": "becoming obsolete",
+     "charge": -1,
+     "tone": "Marks the slide rather than the arrival - on its way to what *obsolete* already is.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02042744-a",
+   "axis": "a wrong opinion recorded → conduct deserving severe censure",
+   "members": [
+    {
+     "id": "wrong.oewn-02042744-a",
+     "word": "wrong",
+     "gloss": "contrary to conscience or morality or law",
+     "charge": -2,
+     "tone": "The family's flat verdict, condemning without heat and reaching conscience, morality and law with the same single word.",
+     "rewrite": false
+    },
+    {
+     "id": "condemnable.oewn-02043172-s",
+     "word": "condemnable",
+     "gloss": "bringing or deserving severe rebuke or censure",
+     "charge": -2,
+     "tone": "States the desert rather than colouring it - the thing has earned rebuke, and the word says so and stops.",
+     "rewrite": false
+    },
+    {
+     "id": "criminal.oewn-02043172-s",
+     "word": "criminal",
+     "gloss": "bringing or deserving severe rebuke or censure",
+     "charge": -3,
+     "tone": "Puts the weight of a legal charge behind a censure that is moral rather than legal, which makes it an outcry where *condemnable* is a ruling.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "deplorable.oewn-02043172-s",
+     "word": "deplorable",
+     "gloss": "bringing or deserving severe rebuke or censure",
+     "charge": -2,
+     "tone": "Voices the disapproval as dismay - the thing is bad enough to be lamented, not merely bad enough to be rebuked.",
+     "rewrite": false
+    },
+    {
+     "id": "reprehensible.oewn-02043172-s",
+     "word": "reprehensible",
+     "gloss": "bringing or deserving severe rebuke or censure",
+     "charge": -3,
+     "tone": "Formal and judicial in weight, handing the blame down as a finding rather than an outburst - the cold end of *criminal*.",
+     "rewrite": false
+    },
+    {
+     "id": "vicious.oewn-02043172-s",
+     "word": "vicious",
+     "gloss": "bringing or deserving severe rebuke or censure",
+     "charge": -3,
+     "tone": "Puts the fault in the thing itself rather than in the verdict on it, imputing wickedness where *reprehensible* only assigns blame.",
+     "rewrite": false
+    },
+    {
+     "id": "base.oewn-02043484-s",
+     "word": "base",
+     "gloss": "not adhering to ethical or moral principles",
+     "charge": -3,
+     "tone": "Contemptuous - it ranks the character as low, not merely at fault, where *immoral* records the failure and leaves the person's standing alone.",
+     "rewrite": false
+    },
+    {
+     "id": "immoral.oewn-02043484-s",
+     "word": "immoral",
+     "gloss": "not adhering to ethical or moral principles",
+     "charge": -2,
+     "tone": "The flat categorical charge: measured against a standard and found outside it, with the force sitting in the standard rather than in the tone.",
+     "rewrite": false
+    },
+    {
+     "id": "misguided.oewn-02043804-s",
+     "word": "misguided",
+     "gloss": "wrong in e.g. opinion or judgment",
+     "charge": -1,
+     "tone": "Faults the judgment while leaving the intention unblamed - being led wrong is a softer charge than being wrong.",
+     "rewrite": false
+    },
+    {
+     "id": "mistaken.oewn-02043804-s",
+     "word": "mistaken",
+     "gloss": "wrong in e.g. opinion or judgment",
+     "charge": 0,
+     "tone": "Records the error and nothing else, no reproach attaching, where *misguided* still suggests the opinion was badly arrived at.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01575756-a",
+   "axis": "plainly made rather than natural → so made it has no substance behind it",
+   "members": [
+    {
+     "id": "artificial.oewn-01575756-a",
+     "word": "artificial",
+     "gloss": "contrived by art rather than nature",
+     "charge": 0,
+     "tone": "The family's flat baseline: it says a thing was contrived rather than grown and stops there, where *unreal* goes on to deny it.",
+     "rewrite": false
+    },
+    {
+     "id": "unreal.oewn-01575756-a",
+     "word": "unreal",
+     "gloss": "contrived by art rather than nature",
+     "charge": -2,
+     "tone": "Sets the made thing against the natural one, so what it withholds is naturalness rather than existence.",
+     "rewrite": false
+    },
+    {
+     "id": "arranged.oewn-01576262-s",
+     "word": "arranged",
+     "gloss": "deliberately arranged for effect",
+     "charge": -1,
+     "tone": "Names the deliberation and no more — the effect was composed, which is a fact before it is a complaint.",
+     "rewrite": false
+    },
+    {
+     "id": "staged.oewn-01576262-s",
+     "word": "staged",
+     "gloss": "deliberately arranged for effect",
+     "charge": -2,
+     "tone": "Makes that arrangement a performance put on for an onlooker, so what looked spontaneous reads as put-up — the accusation *arranged* stops short of.",
+     "rewrite": false
+    },
+    {
+     "id": "bionic.oewn-01576402-s",
+     "word": "bionic",
+     "gloss": "having particular physiological functions augmented or replaced by electronic or electromechanical components",
+     "charge": 0,
+     "tone": "Strictly technical — it reports function augmented or replaced by machinery and carries none of the deficiency the rest of the family hangs on the made.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "bleached.oewn-01576564-s",
+     "word": "bleached",
+     "gloss": "(used of color) artificially produced; not natural",
+     "charge": -1,
+     "tone": "Colour got by stripping rather than adding, and the word keeps the drained, washed-out feel of that.",
+     "rewrite": false
+    },
+    {
+     "id": "colored.oewn-01576564-s",
+     "word": "colored",
+     "gloss": "(used of color) artificially produced; not natural",
+     "charge": 0,
+     "tone": "The blankest of these — the colour was put there, with no hint of how or how deep.",
+     "rewrite": false
+    },
+    {
+     "id": "coloured.oewn-01576564-s",
+     "word": "coloured",
+     "gloss": "(used of color) artificially produced; not natural",
+     "charge": 0,
+     "tone": "The British spelling, identical in force to *colored*: applied colour, stated without comment.",
+     "rewrite": false
+    },
+    {
+     "id": "dyed.oewn-01576564-s",
+     "word": "dyed",
+     "gloss": "(used of color) artificially produced; not natural",
+     "charge": 0,
+     "tone": "Puts the colour in deep rather than on the surface, more concrete than *colored* and no harsher for it.",
+     "rewrite": false
+    },
+    {
+     "id": "cardboard.oewn-01576718-s",
+     "word": "cardboard",
+     "gloss": "without substance",
+     "charge": -3,
+     "tone": "Withering — the thing is flat, propped up, and has nothing behind it.",
+     "rewrite": false
+    },
+    {
+     "id": "unlifelike.oewn-01576718-s",
+     "word": "unlifelike",
+     "gloss": "without substance",
+     "charge": -1,
+     "tone": "A plain report of the shortfall, measuring the thing against life and finding it thin, with none of *cardboard*'s contempt.",
+     "rewrite": false
+    },
+    {
+     "id": "celluloid.oewn-01576851-s",
+     "word": "celluloid",
+     "gloss": "artificial as if portrayed in a film",
+     "charge": -2,
+     "tone": "Gives the thing the sheen of a screen image and the same nothing behind the surface.",
+     "rewrite": false
+    },
+    {
+     "id": "synthetic.oewn-01576851-s",
+     "word": "synthetic",
+     "gloss": "artificial as if portrayed in a film",
+     "charge": -2,
+     "tone": "Manufactured-feeling rather than lived — the same screen-thin unreality as *celluloid*, without the sheen.",
+     "rewrite": false
+    },
+    {
+     "id": "conventionalized.oewn-01576997-s",
+     "word": "conventionalized",
+     "gloss": "using artistic forms and conventions to create effects; not natural or spontaneous",
+     "charge": -1,
+     "tone": "Says the form was settled by convention rather than felt in the moment — cool and analytic, a shortfall of spontaneity rather than of substance.",
+     "rewrite": false
+    },
+    {
+     "id": "conventionalised.oewn-01576997-s",
+     "word": "conventionalised",
+     "gloss": "using artistic forms and conventions to create effects; not natural or spontaneous",
+     "charge": -1,
+     "tone": "The British spelling, carrying exactly the measured, analytic weight of *conventionalized*.",
+     "rewrite": false
+    },
+    {
+     "id": "stylized.oewn-01576997-s",
+     "word": "stylized",
+     "gloss": "using artistic forms and conventions to create effects; not natural or spontaneous",
+     "charge": 0,
+     "tone": "The one here that can name a deliberate artistic manner rather than a failure, where *unlifelike* is only a falling short.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01756665-a",
+   "axis": "bare shortfall from perfect → a fault that spoils and discredits the thing",
+   "members": [
+    {
+     "id": "imperfect.oewn-01756665-a",
+     "word": "imperfect",
+     "gloss": "not perfect; defective or inadequate",
+     "charge": -1,
+     "tone": "The plain word for falling short of perfect - it states the shortfall and stops there, without *defective*'s implication that something inside has gone wrong.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "blemished.oewn-01757051-s",
+     "word": "blemished",
+     "gloss": "having a blemish or flaw",
+     "charge": -1,
+     "tone": "Puts the fault on the surface - a mark on something otherwise sound, where *flawed* lets the fault run through it.",
+     "rewrite": false
+    },
+    {
+     "id": "flawed.oewn-01757051-s",
+     "word": "flawed",
+     "gloss": "having a blemish or flaw",
+     "charge": -2,
+     "tone": "The same defect read as structural rather than a spot, which is why it lands harder than *blemished*.",
+     "rewrite": false
+    },
+    {
+     "id": "broken.oewn-01757160-s",
+     "word": "broken",
+     "gloss": "imperfectly spoken or written",
+     "charge": -1,
+     "tone": "Grades speech or writing as falling short of fluent - a shortfall in the language itself, not *defective*'s fault built into a thing.",
+     "rewrite": false
+    },
+    {
+     "id": "corrupt.oewn-01757260-s",
+     "word": "corrupt",
+     "gloss": "containing errors or alterations",
+     "charge": -2,
+     "tone": "Says errors and alterations have got in, so the thing can no longer be trusted as it stands - heavier than *flawed*, which admits a fault without unsettling the whole.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "29 words"
+     }
+    },
+    {
+     "id": "corrupted.oewn-01757260-s",
+     "word": "corrupted",
+     "gloss": "containing errors or alterations",
+     "charge": -2,
+     "tone": "The participle points back at a sound original that errors have since entered, where *corrupt* simply reports the state.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "participle"
+     }
+    },
+    {
+     "id": "defective.oewn-01757421-s",
+     "word": "defective",
+     "gloss": "having a defect",
+     "charge": -2,
+     "tone": "Names the defect as a verdict on the whole item - colder and more final than *faulty*.",
+     "rewrite": false
+    },
+    {
+     "id": "faulty.oewn-01757421-s",
+     "word": "faulty",
+     "gloss": "having a defect",
+     "charge": -1,
+     "tone": "Workaday and remediable - it locates a fault to be put right rather than writing the thing off the way *defective* does.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "workaday, remediable"
+     }
+    },
+    {
+     "id": "imperfectible.oewn-01757608-s",
+     "word": "imperfectible",
+     "gloss": "capable of being made imperfect",
+     "charge": 0,
+     "tone": "Purely a statement of capacity - it says imperfection could be introduced and passes no judgement, where *defective* and *corrupt* both condemn.",
+     "rewrite": false
+    },
+    {
+     "id": "irregular.oewn-01757717-s",
+     "word": "irregular",
+     "gloss": "failing to meet a standard of manufacture due to an imperfection",
+     "charge": -1,
+     "tone": "Grades an item as missing the standard of manufacture, registering the imperfection while cushioning it - far short of calling it *defective*.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02339254-a",
+   "axis": "a favorable outcome stated as plain fact → success loud enough to be proclaimed",
+   "members": [
+    {
+     "id": "successful.oewn-02339254-a",
+     "word": "successful",
+     "gloss": "having succeeded or being marked by a favorable outcome",
+     "charge": 1,
+     "tone": "The family's flat statement that the outcome went well, carrying none of the swagger *boffo* brings to the same result.",
+     "rewrite": false
+    },
+    {
+     "id": "boffo.oewn-02339713-s",
+     "word": "boffo",
+     "gloss": "resoundingly successful and popular",
+     "charge": 3,
+     "tone": "Informal and exuberant - a hit rather than a result, success that arrives with applause attached.",
+     "rewrite": false
+    },
+    {
+     "id": "booming.oewn-02339849-s",
+     "word": "booming",
+     "gloss": "very lively and profitable",
+     "charge": 2,
+     "tone": "Profit heard as noise, busy enough to be audible, where *flourishing* keeps its liveliness quiet.",
+     "rewrite": false
+    },
+    {
+     "id": "flourishing.oewn-02339849-s",
+     "word": "flourishing",
+     "gloss": "very lively and profitable",
+     "charge": 2,
+     "tone": "Liveliness figured as healthy growth, organic where *booming* is loud.",
+     "rewrite": false
+    },
+    {
+     "id": "palmy.oewn-02339849-s",
+     "word": "palmy",
+     "gloss": "very lively and profitable",
+     "charge": 2,
+     "tone": "Ornate and faintly grand, giving profitable liveliness a costume that *thriving* does without.",
+     "rewrite": false
+    },
+    {
+     "id": "prospering.oewn-02339849-s",
+     "word": "prospering",
+     "gloss": "very lively and profitable",
+     "charge": 2,
+     "tone": "The participle keeps the gain in motion - still climbing, where *prosperous* names a state already reached.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "participle"
+     }
+    },
+    {
+     "id": "prosperous.oewn-02339849-s",
+     "word": "prosperous",
+     "gloss": "very lively and profitable",
+     "charge": 2,
+     "tone": "Settled rather than surging: comfortable profit as a condition, not a rush.",
+     "rewrite": false
+    },
+    {
+     "id": "roaring.oewn-02339849-s",
+     "word": "roaring",
+     "gloss": "very lively and profitable",
+     "charge": 2,
+     "tone": "The loudest word in the set - profit at full volume, and it refuses to be understated.",
+     "rewrite": false
+    },
+    {
+     "id": "thriving.oewn-02339849-s",
+     "word": "thriving",
+     "gloss": "very lively and profitable",
+     "charge": 2,
+     "tone": "Vitality as the measure of profit, doing well the way a living thing does and with none of *roaring*'s noise.",
+     "rewrite": false
+    },
+    {
+     "id": "burgeoning.oewn-02339849-s",
+     "word": "burgeoning",
+     "gloss": "very lively and profitable",
+     "charge": 2,
+     "tone": "Swelling growth caught mid-expansion, promising more where *prosperous* implies arrival.",
+     "rewrite": false
+    },
+    {
+     "id": "in.oewn-02340196-s",
+     "word": "in",
+     "gloss": "holding office",
+     "charge": 0,
+     "tone": "Purely positional - it records that the office is held and passes no judgement on the holding.",
+     "rewrite": false
+    },
+    {
+     "id": "made.oewn-02340278-s",
+     "word": "made",
+     "gloss": "successful or assured of success",
+     "charge": 2,
+     "tone": "Blunt finality: the success is banked and out of doubt, unlike *sure-fire*, which is confident about what has yet to happen.",
+     "rewrite": false
+    },
+    {
+     "id": "no-hit.oewn-02340413-s",
+     "word": "no-hit",
+     "gloss": "of a game (or the pitching) in which a pitcher allows the opponent no hits",
+     "charge": 0,
+     "tone": "A technical description of what the pitching allowed, recording the fact where the rest of the family evaluates.",
+     "rewrite": false
+    },
+    {
+     "id": "productive.oewn-02340596-s",
+     "word": "productive",
+     "gloss": "yielding positive results",
+     "charge": 1,
+     "tone": "Measured, almost accounting approval - results were yielded, with none of *boffo*'s noise about them.",
+     "rewrite": false
+    },
+    {
+     "id": "self-made.oewn-02340696-s",
+     "word": "self-made",
+     "gloss": "having achieved success or recognition by your own efforts",
+     "charge": 2,
+     "tone": "Approval aimed at the person rather than the outcome, crediting the effort behind the success.",
+     "rewrite": false
+    },
+    {
+     "id": "sure-fire.oewn-02340837-s",
+     "word": "sure-fire",
+     "gloss": "certain to be successful",
+     "charge": 2,
+     "tone": "Confidence issued in advance, guaranteeing a success that *made* can already report as done.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

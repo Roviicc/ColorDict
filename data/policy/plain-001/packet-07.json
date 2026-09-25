@@ -1,0 +1,778 @@
+{
+ "packet": 7,
+ "families": [
+  {
+   "family": "family-00064738-a",
+   "axis": "advantage merely registered → good actively credited",
+   "members": [
+    {
+     "id": "advantageous.oewn-00064738-a",
+     "word": "advantageous",
+     "gloss": "giving an advantage",
+     "charge": 1,
+     "tone": "Cool, calculating approval — it rates a thing by the edge it hands you and says nothing about whether that edge is deserved or does any good.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "favorable.oewn-00064738-a",
+     "word": "favorable",
+     "gloss": "giving an advantage",
+     "charge": 1,
+     "tone": "Warmer than *advantageous*: the advantage reads as conditions tilting your way rather than as an edge coldly reckoned up.",
+     "rewrite": false
+    },
+    {
+     "id": "favourable.oewn-00064738-a",
+     "word": "favourable",
+     "gloss": "giving an advantage",
+     "charge": 1,
+     "tone": "The British spelling of *favorable*, carrying the identical tilt-in-your-favour approval with no shift in force.",
+     "rewrite": false
+    },
+    {
+     "id": "beneficial.oewn-00065107-s",
+     "word": "beneficial",
+     "gloss": "promoting or enhancing well-being",
+     "charge": 2,
+     "tone": "Formal and firmly approving — it credits the thing with actually improving matters, where *advantageous* only counts the edge gained.",
+     "rewrite": false
+    },
+    {
+     "id": "good.oewn-00065107-s",
+     "word": "good",
+     "gloss": "promoting or enhancing well-being",
+     "charge": 2,
+     "tone": "The same claim as *beneficial* stripped of its formality, asserting the benefit flatly instead of arguing for it.",
+     "rewrite": false
+    },
+    {
+     "id": "plus.oewn-00065384-s",
+     "word": "plus",
+     "gloss": "involving advantage or good",
+     "charge": 1,
+     "tone": "Brisk and informal — it books a thing on the credit side without pausing to weigh how much good is in it.",
+     "rewrite": false
+    },
+    {
+     "id": "positive.oewn-00065384-s",
+     "word": "positive",
+     "gloss": "involving advantage or good",
+     "charge": 1,
+     "tone": "Broad and unemphatic approval that places a thing on the good side without naming the advantage, where *beneficial* names it.",
+     "rewrite": false
+    },
+    {
+     "id": "discriminatory.oewn-00065504-s",
+     "word": "discriminatory",
+     "gloss": "manifesting partiality",
+     "charge": -2,
+     "tone": "Accusatory where its neighbours approve — it treats the partiality itself as the offence rather than as a favour worth having.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "accusatory, partiality"
+     }
+    },
+    {
+     "id": "preferential.oewn-00065504-s",
+     "word": "preferential",
+     "gloss": "manifesting partiality",
+     "charge": 0,
+     "tone": "Flat and administrative: it records that partiality is in play and leaves untouched the question *discriminatory* settles against it.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00736491-a",
+   "axis": "mildly preferable → hotly craved",
+   "members": [
+    {
+     "id": "desirable.oewn-00736491-a",
+     "word": "desirable",
+     "gloss": "worth having or seeking or achieving",
+     "charge": 2,
+     "tone": "The measured, unheated verdict — it says a thing is worth having without claiming anyone is straining after it, which is what *coveted* adds.",
+     "rewrite": false
+    },
+    {
+     "id": "coveted.oewn-00736828-s",
+     "word": "coveted",
+     "gloss": "much wanted",
+     "charge": 2,
+     "tone": "Loads the wanting with hunger, so the thing is not merely worth having but longed for hard, far greedier than the flat *in demand*.",
+     "rewrite": false
+    },
+    {
+     "id": "in_demand.oewn-00736828-s",
+     "word": "in demand",
+     "gloss": "much wanted",
+     "charge": 1,
+     "tone": "States much-wantedness as a plain fact about a thing's standing, with none of the appetite audible in *coveted*.",
+     "rewrite": false
+    },
+    {
+     "id": "sought_after.oewn-00736828-s",
+     "word": "sought after",
+     "gloss": "much wanted",
+     "charge": 2,
+     "tone": "Puts the wanting into motion — the thing is actively pursued, where *in demand* leaves it a standing condition.",
+     "rewrite": false
+    },
+    {
+     "id": "sought-after.oewn-00736828-s",
+     "word": "sought-after",
+     "gloss": "much wanted",
+     "charge": 2,
+     "tone": "The hyphen compresses that same pursuit into a single modifier that can sit in front of the noun it flatters.",
+     "rewrite": false
+    },
+    {
+     "id": "delectable.oewn-00736942-s",
+     "word": "delectable",
+     "gloss": "capable of arousing sexual desire",
+     "charge": 2,
+     "tone": "Relishing rather than clinical, it savours the desire the thing arouses where *sexually attractive* merely reports it.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "savours, arouses"
+     }
+    },
+    {
+     "id": "sexually_attractive.oewn-00736942-s",
+     "word": "sexually attractive",
+     "gloss": "capable of arousing sexual desire",
+     "charge": 1,
+     "tone": "Flat and explicit, naming the arousal outright without a trace of the relish in *delectable*.",
+     "rewrite": false
+    },
+    {
+     "id": "enviable.oewn-00737084-s",
+     "word": "enviable",
+     "gloss": "causing envy",
+     "charge": 2,
+     "tone": "Praises a thing by pointing at the sourness it stirs in whoever lacks it, so the approval arrives through someone else's discontent.",
+     "rewrite": false
+    },
+    {
+     "id": "plummy.oewn-00737175-s",
+     "word": "plummy",
+     "gloss": "very desirable",
+     "charge": 3,
+     "tone": "Informal and relishing, it heaps the desirability higher than the sober *desirable* and sounds pleased with itself for saying so.",
+     "rewrite": false
+    },
+    {
+     "id": "preferable.oewn-00737286-s",
+     "word": "preferable",
+     "gloss": "more desirable than another",
+     "charge": 1,
+     "tone": "A comparative and nothing more — it rates one thing above another without claiming either is wanted much at all.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "comparative"
+     }
+    },
+    {
+     "id": "preferred.oewn-00737286-s",
+     "word": "preferred",
+     "gloss": "more desirable than another",
+     "charge": 1,
+     "tone": "Settles the comparison that *preferable* is still arguing, presenting the ranking as already decided rather than urged.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02505035-a",
+   "axis": "a thing handled wrongly → a person wholly cast as the victim of it",
+   "members": [
+    {
+     "id": "misused.oewn-02505035-a",
+     "word": "misused",
+     "gloss": "used incorrectly or carelessly or for an improper purpose",
+     "charge": -1,
+     "tone": "The flattest of these - it faults the handling, whether careless or deliberate, without yet accusing anyone of cruelty.",
+     "rewrite": false
+    },
+    {
+     "id": "abused.oewn-02505253-s",
+     "word": "abused",
+     "gloss": "used improperly or excessively especially drugs",
+     "charge": -2,
+     "tone": "Harder than *misused* because excess joins impropriety - the fault lies in how much as well as how, drugs squarely included.",
+     "rewrite": false
+    },
+    {
+     "id": "exploited.oewn-02505376-s",
+     "word": "exploited",
+     "gloss": "(of persons) taken advantage of",
+     "charge": -2,
+     "tone": "Cold and calculating beside *ill-used* - it implies someone drew profit from the person, and names the gain rather than the hurt.",
+     "rewrite": false
+    },
+    {
+     "id": "ill-used.oewn-02505376-s",
+     "word": "ill-used",
+     "gloss": "(of persons) taken advantage of",
+     "charge": -2,
+     "tone": "Formal and plain-spoken - a verdict that a wrong was done, without *exploited*'s implication that anyone gained by it.",
+     "rewrite": false
+    },
+    {
+     "id": "put-upon.oewn-02505376-s",
+     "word": "put-upon",
+     "gloss": "(of persons) taken advantage of",
+     "charge": -1,
+     "tone": "Informal, and the only one of these that shows the wrong from the sufferer's side - the person is imposed on and visibly feels it, where *ill-used* and *exploited* merely report what was done to them.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "35 words"
+     }
+    },
+    {
+     "id": "used.oewn-02505376-s",
+     "word": "used",
+     "gloss": "(of persons) taken advantage of",
+     "charge": -2,
+     "tone": "Bare and cutting - the unmodified participle reduces the person to an instrument, saying far less than *exploited* and landing colder for it.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "participle"
+     }
+    },
+    {
+     "id": "victimized.oewn-02505376-s",
+     "word": "victimized",
+     "gloss": "(of persons) taken advantage of",
+     "charge": -3,
+     "tone": "The strongest of the set - it does not merely report the wrong but makes the person's whole standing consist in having suffered it.",
+     "rewrite": false
+    },
+    {
+     "id": "victimised.oewn-02505376-s",
+     "word": "victimised",
+     "gloss": "(of persons) taken advantage of",
+     "charge": -3,
+     "tone": "British spelling of *victimized*, and it carries the same total verdict - the person defined by the wrong rather than merely subjected to it.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00682414-a",
+   "axis": "damage named with contempt → damage merely recorded",
+   "members": [
+    {
+     "id": "damaged.oewn-00682414-a",
+     "word": "damaged",
+     "gloss": "harmed or injured or spoiled",
+     "charge": 0,
+     "tone": "The family's flat baseline: harm has occurred, and the word passes no verdict on the state it left, where *dilapidated* passes little else.",
+     "rewrite": false
+    },
+    {
+     "id": "battered.oewn-00682829-s",
+     "word": "battered",
+     "gloss": "damaged by blows or hard usage",
+     "charge": -1,
+     "tone": "Puts the cause inside the word - blows and hard usage - where *damaged* leaves the cause blank.",
+     "rewrite": false
+    },
+    {
+     "id": "beat-up.oewn-00682829-s",
+     "word": "beat-up",
+     "gloss": "damaged by blows or hard usage",
+     "charge": -1,
+     "tone": "Informal where *battered* is neutral in register, treating the same hard usage as something to shrug at rather than record.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "beaten-up.oewn-00682829-s",
+     "word": "beaten-up",
+     "gloss": "damaged by blows or hard usage",
+     "charge": -1,
+     "tone": "The fuller form of *beat-up*, equally informal, with a little more of the beating still audible in it.",
+     "rewrite": false
+    },
+    {
+     "id": "bedraggled.oewn-00682984-s",
+     "word": "bedraggled",
+     "gloss": "in deplorable condition",
+     "charge": -2,
+     "tone": "Wears the deplorable condition on the surface, making it look pitiable rather than shameful, where *derelict* makes it a reproach.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "pitiable, reproach"
+     }
+    },
+    {
+     "id": "broken-down.oewn-00682984-s",
+     "word": "broken-down",
+     "gloss": "in deplorable condition",
+     "charge": -2,
+     "tone": "Names the deplorable state as something that has given way, plainer and more mechanical than *tatterdemalion*.",
+     "rewrite": false
+    },
+    {
+     "id": "derelict.oewn-00682984-s",
+     "word": "derelict",
+     "gloss": "in deplorable condition",
+     "charge": -2,
+     "tone": "Condemning rather than descriptive - the deplorable state reads as neglect that was allowed to happen, where *dented* is only a fact about a shape.",
+     "rewrite": false
+    },
+    {
+     "id": "dilapidated.oewn-00682984-s",
+     "word": "dilapidated",
+     "gloss": "in deplorable condition",
+     "charge": -2,
+     "tone": "The formal word for the deplorable state, presenting it as advanced and cumulative decay rather than the single mishap *dented* records.",
+     "rewrite": false
+    },
+    {
+     "id": "ramshackle.oewn-00682984-s",
+     "word": "ramshackle",
+     "gloss": "in deplorable condition",
+     "charge": -2,
+     "tone": "Adds precariousness to the deplorable state - the thing is not merely poor but barely holding together, which *damaged* never implies.",
+     "rewrite": false
+    },
+    {
+     "id": "tatterdemalion.oewn-00682984-s",
+     "word": "tatterdemalion",
+     "gloss": "in deplorable condition",
+     "charge": -2,
+     "tone": "The most ornate word in this set, and the flourish makes the contempt sound almost relished beside plain *broken-down*.",
+     "rewrite": false
+    },
+    {
+     "id": "tumble-down.oewn-00682984-s",
+     "word": "tumble-down",
+     "gloss": "in deplorable condition",
+     "charge": -2,
+     "tone": "Plain-spoken where *tatterdemalion* is ornate, and it leaves the deplorable state one shove from collapse.",
+     "rewrite": false
+    },
+    {
+     "id": "bent.oewn-00683272-s",
+     "word": "bent",
+     "gloss": "of metal e.g.",
+     "charge": 0,
+     "tone": "Damage as deformation rather than breakage: the shape has gone but not necessarily the use, which *broken* denies outright.",
+     "rewrite": false
+    },
+    {
+     "id": "crumpled.oewn-00683272-s",
+     "word": "crumpled",
+     "gloss": "of metal e.g.",
+     "charge": 0,
+     "tone": "Deformation taken across the whole of a thing rather than along one line, so it reads as more thorough than *bent* while judging just as little.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "dented.oewn-00683272-s",
+     "word": "dented",
+     "gloss": "of metal e.g.",
+     "charge": 0,
+     "tone": "The most local of these three - one blow's worth of deformation, where *crumpled* takes the whole surface.",
+     "rewrite": false
+    },
+    {
+     "id": "broken.oewn-00683423-s",
+     "word": "broken",
+     "gloss": "out of working order (‘busted’ is an informal substitute for ‘broken’)",
+     "charge": 0,
+     "tone": "A verdict on function alone: the thing does not work, and the word says nothing about how it got there, where *battered* says little else.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "busted.oewn-00683423-s",
+     "word": "busted",
+     "gloss": "out of working order (‘busted’ is an informal substitute for ‘broken’)",
+     "charge": -1,
+     "tone": "The informal substitute for *broken*, and the drop in register makes the same failure sound offhand rather than serious.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-02278101-a",
+   "axis": "sound knowledge → worldly experience so complete nothing impresses",
+   "members": [
+    {
+     "id": "sophisticated.oewn-02278101-a",
+     "word": "sophisticated",
+     "gloss": "having or appealing to those having worldly knowledge and refinement and savoir-faire",
+     "charge": 2,
+     "tone": "Praises worldly knowledge and refinement together, and it settles on the thing made for such a person as easily as on the person - a reach *urbane* lacks.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "blase.oewn-02278541-s",
+     "word": "blase",
+     "gloss": "very sophisticated especially because of surfeit; versed in the ways of the world",
+     "charge": -1,
+     "tone": "The sophistication is charged to surfeit, which sours the praise - it marks a person as past being impressed where *worldly* only marks them as experienced.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "worldly.oewn-02278541-s",
+     "word": "worldly",
+     "gloss": "very sophisticated especially because of surfeit; versed in the ways of the world",
+     "charge": 1,
+     "tone": "Takes the versed-in-the-ways-of-the-world half of the sense straight, crediting the experience without the taint of excess *blase* carries.",
+     "rewrite": false
+    },
+    {
+     "id": "intelligent.oewn-02278811-s",
+     "word": "intelligent",
+     "gloss": "possessing sound knowledge",
+     "charge": 1,
+     "tone": "The approval is for sound knowledge itself, with none of the social finish *sophisticated* insists on.",
+     "rewrite": false
+    },
+    {
+     "id": "well-informed.oewn-02278811-s",
+     "word": "well-informed",
+     "gloss": "possessing sound knowledge",
+     "charge": 1,
+     "tone": "Flatter than *intelligent* - the credit goes to what a person knows, not to anything in the knower.",
+     "rewrite": false
+    },
+    {
+     "id": "polished.oewn-02278936-s",
+     "word": "polished",
+     "gloss": "showing a high degree of refinement and the assurance that comes from wide social experience",
+     "charge": 2,
+     "tone": "Praise for the finish, where the assurance is the visible surface and *refined* names the quality under it.",
+     "rewrite": false
+    },
+    {
+     "id": "refined.oewn-02278936-s",
+     "word": "refined",
+     "gloss": "showing a high degree of refinement and the assurance that comes from wide social experience",
+     "charge": 2,
+     "tone": "Names the refinement itself rather than its display, so it praises without the suggestion of buffing that *polished* carries.",
+     "rewrite": false
+    },
+    {
+     "id": "urbane.oewn-02278936-s",
+     "word": "urbane",
+     "gloss": "showing a high degree of refinement and the assurance that comes from wide social experience",
+     "charge": 2,
+     "tone": "The formal member, putting the weight on assured ease of manner rather than the surface shine *polished* names.",
+     "rewrite": false
+    },
+    {
+     "id": "worldly-wise.oewn-02279187-s",
+     "word": "worldly-wise",
+     "gloss": "experienced in and wise to the ways of the world",
+     "charge": 1,
+     "tone": "Praises shrewdness rather than polish - it says a person cannot be fooled, which *urbane* never claims.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00119378-a",
+   "axis": "merely having life in one → brimming with it",
+   "members": [
+    {
+     "id": "animated.oewn-00119378-a",
+     "word": "animated",
+     "gloss": "having life or vigor or spirit",
+     "charge": 1,
+     "tone": "Mild approval - credits a thing with visible vigor without claiming it brims over the way *lively* does.",
+     "rewrite": false
+    },
+    {
+     "id": "alive.oewn-00119378-a",
+     "word": "alive",
+     "gloss": "having life or vigor or spirit",
+     "charge": 1,
+     "tone": "Praise cut back to a bare condition - where *animated* shows the vigor off, this only asserts that it is there.",
+     "rewrite": false
+    },
+    {
+     "id": "enlivened.oewn-00119655-s",
+     "word": "enlivened",
+     "gloss": "made lively or spirited",
+     "charge": 1,
+     "tone": "Flat and causal - the liveliness was put in from outside, so the word credits the doing rather than the thing.",
+     "rewrite": false
+    },
+    {
+     "id": "spirited.oewn-00119655-s",
+     "word": "spirited",
+     "gloss": "made lively or spirited",
+     "charge": 2,
+     "tone": "Frankly admiring where *enlivened* stays descriptive - the same imparted liveliness heard as a virtue rather than an effect.",
+     "rewrite": false
+    },
+    {
+     "id": "lively.oewn-00119817-s",
+     "word": "lively",
+     "gloss": "full of spirit; full of life",
+     "charge": 2,
+     "tone": "A step past *animated*'s mere possession of spirit to fullness of it, and the warmth rises with the quantity.",
+     "rewrite": false
+    },
+    {
+     "id": "vital.oewn-00119817-s",
+     "word": "vital",
+     "gloss": "full of spirit; full of life",
+     "charge": 2,
+     "tone": "Elevated in register - the same fullness of life as *lively*, but weightier, sounding like a force within rather than a liveliness on show.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "reanimated.oewn-00120089-s",
+     "word": "reanimated",
+     "gloss": "given fresh life or vigor or spirit",
+     "charge": 1,
+     "tone": "States the restoration plainly - fresh vigor recorded as an outcome, with none of the relief *revived* carries.",
+     "rewrite": false
+    },
+    {
+     "id": "revived.oewn-00120089-s",
+     "word": "revived",
+     "gloss": "given fresh life or vigor or spirit",
+     "charge": 2,
+     "tone": "Warmer than *reanimated* for the same return of vigor - the fresh life sounds like a recovery worth welcoming.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01372590-a",
+   "axis": "a bare warrant that something passes → rightness actively inflicted as deserts",
+   "members": [
+    {
+     "id": "conscionable.oewn-01372980-s",
+     "word": "conscionable",
+     "gloss": "acceptable to your conscience",
+     "charge": 1,
+     "tone": "The bar it sets is internal and low - the thing clears your conscience rather than being right in itself, so it approves far more faintly than *fitting*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "fitting.oewn-01373068-s",
+     "word": "fitting",
+     "gloss": "being precisely fitting and right",
+     "charge": 2,
+     "tone": "Approval by exactness rather than permission - not merely allowable but precisely right, and it says so plainly where *meet* pronounces.",
+     "rewrite": false
+    },
+    {
+     "id": "meet.oewn-01373068-s",
+     "word": "meet",
+     "gloss": "being precisely fitting and right",
+     "charge": 2,
+     "tone": "The same verdict as *fitting* delivered as a formal pronouncement, weighty and a little ceremonious, so the rightness sounds handed down rather than observed.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "pronouncement, weighty, ceremonious"
+     }
+    },
+    {
+     "id": "retributive.oewn-01373232-s",
+     "word": "retributive",
+     "gloss": "given or inflicted in requital according to merits or deserts",
+     "charge": 1,
+     "tone": "Cool and measured - what it approves is the fit between deserts and what is dealt out, not whatever it lands on, and it never softens the fact that the thing is inflicted.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "32 words"
+     }
+    },
+    {
+     "id": "retributory.oewn-01373232-s",
+     "word": "retributory",
+     "gloss": "given or inflicted in requital according to merits or deserts",
+     "charge": 1,
+     "tone": "Carries the same verdict as *retributive* with more machinery in the mouth, sounding like the working of paying back rather than the principle behind it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "vindicatory.oewn-01373232-s",
+     "word": "vindicatory",
+     "gloss": "given or inflicted in requital according to merits or deserts",
+     "charge": 1,
+     "tone": "Points at the rightness rather than the sting - where *retributive* names the paying back, this frames the same act as a claim made good.",
+     "rewrite": false
+    },
+    {
+     "id": "rightful.oewn-01373402-s",
+     "word": "rightful",
+     "gloss": "legally valid",
+     "charge": 1,
+     "tone": "Approval of the coldest kind - a warrant rather than a compliment, resting on validity where *conscionable* rests on conscience.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02233368-a",
+   "axis": "competence acknowledged → supreme mastery admired",
+   "members": [
+    {
+     "id": "skilled.oewn-02233368-a",
+     "word": "skilled",
+     "gloss": "having or showing or requiring special skill",
+     "charge": 2,
+     "tone": "Plain, checkable praise — it credits capability without admiring it, and can sit on the work that demands the skill as easily as on the person who has it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "accomplished.oewn-02233868-s",
+     "word": "accomplished",
+     "gloss": "highly skilled",
+     "charge": 3,
+     "tone": "Praise with attainment behind it — skill brought to a high finish, warmer and more admiring than the flat *skilled*.",
+     "rewrite": false
+    },
+    {
+     "id": "complete.oewn-02233868-s",
+     "word": "complete",
+     "gloss": "highly skilled",
+     "charge": 2,
+     "tone": "Approves by totality rather than dazzle — it says nothing is missing from the skill, a cooler verdict than *accomplished*.",
+     "rewrite": false
+    },
+    {
+     "id": "adept.oewn-02234002-s",
+     "word": "adept",
+     "gloss": "having or showing knowledge and skill and aptitude",
+     "charge": 2,
+     "tone": "Praise for deft, unlaboured sureness — it admires the aptitude in the doing where *expert* admires the knowing.",
+     "rewrite": false
+    },
+    {
+     "id": "expert.oewn-02234002-s",
+     "word": "expert",
+     "gloss": "having or showing knowledge and skill and aptitude",
+     "charge": 2,
+     "tone": "The authoritative member: it grants knowledge that can be leaned on and vouched for, weightier and less warm than *good*.",
+     "rewrite": false
+    },
+    {
+     "id": "good.oewn-02234002-s",
+     "word": "good",
+     "gloss": "having or showing knowledge and skill and aptitude",
+     "charge": 1,
+     "tone": "The mildest approval here — it concedes competence and stops, where *expert* confers standing.",
+     "rewrite": false
+    },
+    {
+     "id": "practiced.oewn-02234002-s",
+     "word": "practiced",
+     "gloss": "having or showing knowledge and skill and aptitude",
+     "charge": 2,
+     "tone": "Credits skill that has been worked in until it is habitual, steadier and less brilliant than *virtuoso*.",
+     "rewrite": false
+    },
+    {
+     "id": "proficient.oewn-02234002-s",
+     "word": "proficient",
+     "gloss": "having or showing knowledge and skill and aptitude",
+     "charge": 2,
+     "tone": "Measured, almost certifying approval — it reports that the standard is met, with none of the admiration in *masterful*.",
+     "rewrite": false
+    },
+    {
+     "id": "skillful.oewn-02234002-s",
+     "word": "skillful",
+     "gloss": "having or showing knowledge and skill and aptitude",
+     "charge": 2,
+     "tone": "Approves the handling itself — visible dexterity in execution, more concrete than the standing implied by *expert*.",
+     "rewrite": false
+    },
+    {
+     "id": "skilful.oewn-02234002-s",
+     "word": "skilful",
+     "gloss": "having or showing knowledge and skill and aptitude",
+     "charge": 2,
+     "tone": "The British spelling, carrying exactly the approving weight of *skillful* for deftness in execution.",
+     "rewrite": false
+    },
+    {
+     "id": "consummate.oewn-02234724-s",
+     "word": "consummate",
+     "gloss": "having or revealing supreme mastery or skill",
+     "charge": 3,
+     "tone": "Superlative praise — skill carried to its finish with nothing left to add, far above the workaday *proficient*.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "superlative, workaday",
+      "grammar": "superlative"
+     }
+    },
+    {
+     "id": "masterful.oewn-02234724-s",
+     "word": "masterful",
+     "gloss": "having or revealing supreme mastery or skill",
+     "charge": 3,
+     "tone": "Praise that hears authority in the skill — command of the craft, where *accomplished* only reports a high finish.",
+     "rewrite": false
+    },
+    {
+     "id": "masterly.oewn-02234724-s",
+     "word": "masterly",
+     "gloss": "having or revealing supreme mastery or skill",
+     "charge": 3,
+     "tone": "Admires mastery in the execution rather than in the person, the quieter of the pair beside *masterful*.",
+     "rewrite": false
+    },
+    {
+     "id": "virtuoso.oewn-02234724-s",
+     "word": "virtuoso",
+     "gloss": "having or revealing supreme mastery or skill",
+     "charge": 3,
+     "tone": "Praise pitched at display — mastery brilliant enough to be watched, showier than the sober *consummate*.",
+     "rewrite": false
+    },
+    {
+     "id": "delicate.oewn-02235089-s",
+     "word": "delicate",
+     "gloss": "marked by great skill especially in meticulous technique",
+     "charge": 2,
+     "tone": "Praise for fineness of touch — skill admired for precision and restraint rather than the power heard in *masterful*.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

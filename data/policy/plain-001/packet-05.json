@@ -1,0 +1,715 @@
+{
+ "packet": 5,
+ "families": [
+  {
+   "family": "family-02473921-a",
+   "axis": "cool certification that something checks out -> warm, whole-character avowal of faith in it",
+   "members": [
+    {
+     "id": "trustworthy.oewn-02473921-a",
+     "word": "trustworthy",
+     "gloss": "worthy of trust or belief",
+     "charge": 2,
+     "tone": "The plain, unhedged verdict of the family - approval stated flatly, with no warmth or ceremony added to it.",
+     "rewrite": false
+    },
+    {
+     "id": "trusty.oewn-02473921-a",
+     "word": "trusty",
+     "gloss": "worthy of trust or belief",
+     "charge": 2,
+     "tone": "Approving with a homely, affectionate warmth that *trustworthy* keeps out, and a faint pat on the head with it.",
+     "rewrite": false
+    },
+    {
+     "id": "authentic.oewn-02474343-s",
+     "word": "authentic",
+     "gloss": "conforming to fact and therefore worthy of belief",
+     "charge": 2,
+     "tone": "The belief is earned by checking out against the facts, so the praise is for genuineness rather than for any goodwill.",
+     "rewrite": false
+    },
+    {
+     "id": "reliable.oewn-02474343-s",
+     "word": "reliable",
+     "gloss": "conforming to fact and therefore worthy of belief",
+     "charge": 2,
+     "tone": "Sober and unexcited - it credits a thing with holding up under scrutiny and claims nothing more stirring than that.",
+     "rewrite": false
+    },
+    {
+     "id": "creditworthy.oewn-02474578-s",
+     "word": "creditworthy",
+     "gloss": "having an acceptable credit rating",
+     "charge": 1,
+     "tone": "Technical and bloodless, certifying a bar cleared rather than praising anything about the one who cleared it.",
+     "rewrite": false
+    },
+    {
+     "id": "responsible.oewn-02474578-s",
+     "word": "responsible",
+     "gloss": "having an acceptable credit rating",
+     "charge": 1,
+     "tone": "A quiet nod at financial standing, softer and less procedural-sounding than *creditworthy* though it settles the same question.",
+     "rewrite": false
+    },
+    {
+     "id": "dependable.oewn-02474747-s",
+     "word": "dependable",
+     "gloss": "worthy of being depended on",
+     "charge": 2,
+     "tone": "Praise for weight-bearing steadiness - it promises the thing will hold, where *authentic* only says it is what it claims.",
+     "rewrite": false
+    },
+    {
+     "id": "honest.oewn-02474747-s",
+     "word": "honest",
+     "gloss": "worthy of being depended on",
+     "charge": 2,
+     "tone": "Warmer and broader than *dependable*, resting the approval on the whole character rather than on any record of performance.",
+     "rewrite": false
+    },
+    {
+     "id": "true.oewn-02474747-s",
+     "word": "true",
+     "gloss": "worthy of being depended on",
+     "charge": 3,
+     "tone": "Elevated and absolute - constancy raised to a virtue, with a solemn ring that *dependable* never reaches for.",
+     "rewrite": false
+    },
+    {
+     "id": "fiducial.oewn-02475134-s",
+     "word": "fiducial",
+     "gloss": "based on trust",
+     "charge": 0,
+     "tone": "Technical and classifying - it marks a thing as resting on trust without any opinion on whether that trust is deserved.",
+     "rewrite": false
+    },
+    {
+     "id": "sure.oewn-02475203-s",
+     "word": "sure",
+     "gloss": "(of persons) worthy of trust or confidence",
+     "charge": 2,
+     "tone": "Blunt and unqualified, the whole verdict compressed into one syllable that leaves no room for hedging.",
+     "rewrite": false
+    },
+    {
+     "id": "trusted.oewn-02475203-s",
+     "word": "trusted",
+     "gloss": "(of persons) worthy of trust or confidence",
+     "charge": 2,
+     "tone": "The participle makes the standing something conferred, where *sure* names a quality the person carries on their own.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "participle"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-01709214-a",
+   "axis": "merely observable → unconcealed to the point of effrontery",
+   "members": [
+    {
+     "id": "overt.oewn-01709214-a",
+     "word": "overt",
+     "gloss": "open and observable; not secret or hidden",
+     "charge": 0,
+     "tone": "Flat and formal - it marks a thing as out where it can be seen and stops there, with none of the affront *barefaced* adds.",
+     "rewrite": false
+    },
+    {
+     "id": "open.oewn-01709214-a",
+     "word": "open",
+     "gloss": "open and observable; not secret or hidden",
+     "charge": 0,
+     "tone": "The plain everyday word for the same state, weightless where *overt* sounds like a term of art.",
+     "rewrite": false
+    },
+    {
+     "id": "bald.oewn-01709541-s",
+     "word": "bald",
+     "gloss": "with no effort to conceal",
+     "charge": -1,
+     "tone": "Blunt - concealment is not just absent but conspicuously unattempted, and the missing softening reads as harshness.",
+     "rewrite": false
+    },
+    {
+     "id": "barefaced.oewn-01709541-s",
+     "word": "barefaced",
+     "gloss": "with no effort to conceal",
+     "charge": -2,
+     "tone": "Accusatory where *bald* is merely blunt - the failure to conceal registers as nerve, something the doer should have been ashamed to show.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "accusatory, doer",
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "naked.oewn-01709648-s",
+     "word": "naked",
+     "gloss": "devoid of elaboration or diminution or concealment; bare and pure",
+     "charge": 0,
+     "tone": "Stark - nothing added and nothing subtracted, so the thing stands in its own unsoftened proportions.",
+     "rewrite": false
+    },
+    {
+     "id": "raw.oewn-01709648-s",
+     "word": "raw",
+     "gloss": "devoid of elaboration or diminution or concealment; bare and pure",
+     "charge": 0,
+     "tone": "Coarser-grained than *naked* - unworked rather than merely stripped, with the roughness of the thing left on it.",
+     "rewrite": false
+    },
+    {
+     "id": "undisguised.oewn-01709871-s",
+     "word": "undisguised",
+     "gloss": "plain to see",
+     "charge": 0,
+     "tone": "Names concealment in order to deny it, so what is plain to see carries the sense of something that could have been hidden and was not.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "visible.oewn-01709966-s",
+     "word": "visible",
+     "gloss": "obvious to the eye",
+     "charge": 0,
+     "tone": "Purely descriptive and the mildest of the set - it reports what the eye catches, without implying anything was ever kept back.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01920096-a",
+   "axis": "bare report that nothing limits it → emphatic refusal to admit any reservation or exception",
+   "members": [
+    {
+     "id": "unqualified.oewn-01920096-a",
+     "word": "unqualified",
+     "gloss": "not limited or restricted",
+     "charge": 0,
+     "tone": "The bare statement of the case — nothing limits or restricts the thing — with none of the insistence *categorical* puts behind it.",
+     "rewrite": false
+    },
+    {
+     "id": "categoric.oewn-01920312-s",
+     "word": "categoric",
+     "gloss": "not modified or restricted by reservations",
+     "charge": 0,
+     "tone": "Formal and clipped, it shuts the door on reservations like a ruling handed down, where *unqualified* merely reports that there are none.",
+     "rewrite": false
+    },
+    {
+     "id": "categorical.oewn-01920312-s",
+     "word": "categorical",
+     "gloss": "not modified or restricted by reservations",
+     "charge": 0,
+     "tone": "The unclipped form of *categoric*, and the extra syllable lands as extra weight: reservations are not merely absent but refused.",
+     "rewrite": false
+    },
+    {
+     "id": "flat.oewn-01920312-s",
+     "word": "flat",
+     "gloss": "not modified or restricted by reservations",
+     "charge": 0,
+     "tone": "Blunt and monosyllabic — the refusal of reservations delivered as a door shutting, where *categorical* delivers it as a pronouncement.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "monosyllabic, pronouncement"
+     }
+    },
+    {
+     "id": "unconditional.oewn-01920312-s",
+     "word": "unconditional",
+     "gloss": "not modified or restricted by reservations",
+     "charge": 0,
+     "tone": "Formal and absolute, it presents the missing reservations as terms deliberately not imposed rather than as *flat*'s curt refusal to entertain them.",
+     "rewrite": false
+    },
+    {
+     "id": "clean.oewn-01920489-s",
+     "word": "clean",
+     "gloss": "free of restrictions or qualifications",
+     "charge": 1,
+     "tone": "Faintly approving — freedom from qualifications felt as tidiness, nothing left clinging, where *unqualified* only records that nothing is attached.",
+     "rewrite": false
+    },
+    {
+     "id": "clear.oewn-01920489-s",
+     "word": "clear",
+     "gloss": "free of restrictions or qualifications",
+     "charge": 0,
+     "tone": "The same freedom as *clean*, but as an unobstructed way through rather than a tidy finish: nothing in the way rather than nothing left over.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "outright.oewn-01920788-s",
+     "word": "outright",
+     "gloss": "without reservation or exception",
+     "charge": 0,
+     "tone": "Emphatic and forceful, it presses the thing all the way through with no exception admitted, well past *unqualified*'s bare report.",
+     "rewrite": false
+    },
+    {
+     "id": "straight-out.oewn-01920788-s",
+     "word": "straight-out",
+     "gloss": "without reservation or exception",
+     "charge": 0,
+     "tone": "Informal and plain-spoken, it admits no reservation or exception exactly as *outright* does, but without the ceremony.",
+     "rewrite": false
+    },
+    {
+     "id": "unlimited.oewn-01920788-s",
+     "word": "unlimited",
+     "gloss": "without reservation or exception",
+     "charge": 0,
+     "tone": "Reads as sheer extent — nothing bounds the thing — where *outright* reads as manner, nothing qualifying it.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02348283-a",
+   "axis": "neutral placement on a scale of rank → dismissive verdict of standing beneath others",
+   "members": [
+    {
+     "id": "inferior.oewn-02348283-a",
+     "word": "inferior",
+     "gloss": "of or characteristic of low rank or importance",
+     "charge": -1,
+     "tone": "The bare comparative of the set: it grades a thing below others and lets the ranking itself carry the sting, where *humble* names the same position without grading it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "29 words",
+      "grammar": "comparative"
+     }
+    },
+    {
+     "id": "humble.oewn-02348528-s",
+     "word": "humble",
+     "gloss": "low or inferior in station or quality",
+     "charge": 0,
+     "tone": "Names low station with a quiet grace, so the lowness reads as unpretending rather than deficient.",
+     "rewrite": false
+    },
+    {
+     "id": "low.oewn-02348528-s",
+     "word": "low",
+     "gloss": "low or inferior in station or quality",
+     "charge": -1,
+     "tone": "The blunt monosyllable for that station, stating the bottom position flatly and with none of the softening in *humble*.",
+     "rewrite": false
+    },
+    {
+     "id": "lowly.oewn-02348528-s",
+     "word": "lowly",
+     "gloss": "low or inferior in station or quality",
+     "charge": 0,
+     "tone": "Adds a meek, faintly literary air to the low position, so it sounds borne rather than merely recorded.",
+     "rewrite": false
+    },
+    {
+     "id": "modest.oewn-02348528-s",
+     "word": "modest",
+     "gloss": "low or inferior in station or quality",
+     "charge": 0,
+     "tone": "The tactful word for the same lowness, declining to call it poor and leaving the thing its dignity.",
+     "rewrite": false
+    },
+    {
+     "id": "small.oewn-02348528-s",
+     "word": "small",
+     "gloss": "low or inferior in station or quality",
+     "charge": -1,
+     "tone": "Shrinks rather than ranks, so the low quality registers as insignificance instead of a place on a ladder.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "indifferent.oewn-02348780-s",
+     "word": "indifferent",
+     "gloss": "fairly poor to not very good",
+     "charge": -1,
+     "tone": "Damns by withholding: it refuses praise rather than delivering a charge, and the refusal is the verdict.",
+     "rewrite": false
+    },
+    {
+     "id": "low-level.oewn-02348948-s",
+     "word": "low-level",
+     "gloss": "at a low level in rank or importance",
+     "charge": 0,
+     "tone": "Purely positional, marking a rung on a scale of rank without judging the worth of whatever stands there.",
+     "rewrite": false
+    },
+    {
+     "id": "middle-level.oewn-02349084-s",
+     "word": "middle-level",
+     "gloss": "intermediate in rank or position",
+     "charge": 0,
+     "tone": "A coordinate rather than a verdict, fixing a point between top and bottom and claiming nothing about quality.",
+     "rewrite": false
+    },
+    {
+     "id": "outclassed.oewn-02349202-s",
+     "word": "outclassed",
+     "gloss": "decisively surpassed by something else so as to appear to be of a lower class",
+     "charge": -2,
+     "tone": "The strongest of the set: the low standing is the outcome of a contest already decisively lost, so the word carries the humiliation of the comparison.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-01335338-a",
+   "axis": "bare description of mental engagement → approving claim of cultivation",
+   "members": [
+    {
+     "id": "intellectual.oewn-01335338-a",
+     "word": "intellectual",
+     "gloss": "appealing to or using the intellect",
+     "charge": 0,
+     "tone": "The plain term of the family - it names the faculty being engaged and passes no verdict on it.",
+     "rewrite": false
+    },
+    {
+     "id": "highbrow.oewn-01335859-s",
+     "word": "highbrow",
+     "gloss": "highly cultured or educated",
+     "charge": 1,
+     "tone": "Makes the cultivation conspicuous, so the compliment carries an edge *intellectual* does not.",
+     "rewrite": false
+    },
+    {
+     "id": "highbrowed.oewn-01335859-s",
+     "word": "highbrowed",
+     "gloss": "highly cultured or educated",
+     "charge": 1,
+     "tone": "The same claim to high cultivation as *highbrow*, but the participial form sits heavier and stiffer.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "participial"
+     }
+    },
+    {
+     "id": "rational.oewn-01336070-s",
+     "word": "rational",
+     "gloss": "having its source in or being guided by the intellect (as distinguished from experience or emotion)",
+     "charge": 0,
+     "tone": "Positional rather than approving - it places the source of the thinking in the intellect as against experience.",
+     "rewrite": false
+    },
+    {
+     "id": "reflective.oewn-01336283-s",
+     "word": "reflective",
+     "gloss": "devoted to matters of the mind",
+     "charge": 1,
+     "tone": "Quieter and warmer than *intellectual* - a mind given over to its own concerns rather than one showing power.",
+     "rewrite": false
+    },
+    {
+     "id": "good.oewn-01336429-s",
+     "word": "good",
+     "gloss": "appealing to the mind",
+     "charge": 1,
+     "tone": "The barest approval here - it grants appeal to the mind without characterizing that appeal at all.",
+     "rewrite": false
+    },
+    {
+     "id": "serious.oewn-01336429-s",
+     "word": "serious",
+     "gloss": "appealing to the mind",
+     "charge": 1,
+     "tone": "Weightier than *good* for the same appeal to the mind, casting it as demanding rather than merely worth having.",
+     "rewrite": false
+    },
+    {
+     "id": "sophisticated.oewn-01336561-s",
+     "word": "sophisticated",
+     "gloss": "intellectually appealing",
+     "charge": 2,
+     "tone": "The warmest of these - it treats appeal to the intellect as refinement rather than plain substance.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01931771-a",
+   "axis": "bare possession of the reasoning faculty → reason praised as sound judgment",
+   "members": [
+    {
+     "id": "rational.oewn-01931771-a",
+     "word": "rational",
+     "gloss": "consistent with or based on or using reason",
+     "charge": 1,
+     "tone": "Approves by pointing at the grounds - the thing rests on reason - where *reasonable* praises the quality of the judgment actually reached.",
+     "rewrite": false
+    },
+    {
+     "id": "coherent.oewn-01932107-s",
+     "word": "coherent",
+     "gloss": "capable of thinking and expressing yourself in a clear and consistent manner",
+     "charge": 1,
+     "tone": "Praise at its lowest setting: the thought holds together and comes out clear, a floor cleared rather than the brightness *lucid* claims.",
+     "rewrite": false
+    },
+    {
+     "id": "logical.oewn-01932107-s",
+     "word": "logical",
+     "gloss": "capable of thinking and expressing yourself in a clear and consistent manner",
+     "charge": 1,
+     "tone": "Dry, near-technical commendation - the clear consistent thinking treated as something that works by rule, with none of *lucid*'s warmth.",
+     "rewrite": false
+    },
+    {
+     "id": "lucid.oewn-01932107-s",
+     "word": "lucid",
+     "gloss": "capable of thinking and expressing yourself in a clear and consistent manner",
+     "charge": 2,
+     "tone": "The warmest of the three: the same clear consistent thinking praised as brightness, where *coherent* merely reports that it hangs together.",
+     "rewrite": false
+    },
+    {
+     "id": "demythologized.oewn-01932378-s",
+     "word": "demythologized",
+     "gloss": "having mythical elements removed",
+     "charge": 0,
+     "tone": "Flatly descriptive - records that the mythical element is gone without approving or regretting its removal.",
+     "rewrite": false
+    },
+    {
+     "id": "demythologised.oewn-01932378-s",
+     "word": "demythologised",
+     "gloss": "having mythical elements removed",
+     "charge": 0,
+     "tone": "Carries no more judgment than *demythologized*: the stripping of myth is stated, not celebrated or mourned.",
+     "rewrite": false
+    },
+    {
+     "id": "intelligent.oewn-01932488-s",
+     "word": "intelligent",
+     "gloss": "endowed with the capacity to reason",
+     "charge": 1,
+     "tone": "Turns the bare endowment into a compliment, where *reasoning* and *thinking* only register that the capacity is there.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "reasoning.oewn-01932488-s",
+     "word": "reasoning",
+     "gloss": "endowed with the capacity to reason",
+     "charge": 0,
+     "tone": "Purely descriptive - states that the faculty is present and stops, extending none of the credit *intelligent* does for it.",
+     "rewrite": false
+    },
+    {
+     "id": "thinking.oewn-01932488-s",
+     "word": "thinking",
+     "gloss": "endowed with the capacity to reason",
+     "charge": 0,
+     "tone": "Neutral in the way *reasoning* is, marking the capacity as a plain attribute rather than a merit.",
+     "rewrite": false
+    },
+    {
+     "id": "reasonable.oewn-01932628-s",
+     "word": "reasonable",
+     "gloss": "marked by sound judgment; having good reason",
+     "charge": 2,
+     "tone": "Solid approval of judgment exercised well, going past *rational*'s weaker claim that reason was involved at all.",
+     "rewrite": false
+    },
+    {
+     "id": "sane.oewn-01932628-s",
+     "word": "sane",
+     "gloss": "marked by sound judgment; having good reason",
+     "charge": 2,
+     "tone": "The same sound judgment, but pitched as the bar a mind must clear rather than a distinction it earns, which gives it a weight *reasonable* has not.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-01784531-a",
+   "axis": "plain and broad, the mind is involved → technical and exact, the mind rather than the body is the source",
+   "members": [
+    {
+     "id": "mental.oewn-01784531-a",
+     "word": "mental",
+     "gloss": "involving the mind or an intellectual process",
+     "charge": 0,
+     "tone": "The plainest of these, taking in any process the mind performs without the technical precision *psychological* carries.",
+     "rewrite": false
+    },
+    {
+     "id": "intellectual.oewn-01784888-s",
+     "word": "intellectual",
+     "gloss": "of or associated with or requiring the use of the mind",
+     "charge": 0,
+     "tone": "Points at the mind as the thing engaged, in a register more elevated than *mental* - a label for the domain rather than a verdict on the work done in it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "30 words",
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "rational.oewn-01784888-s",
+     "word": "rational",
+     "gloss": "of or associated with or requiring the use of the mind",
+     "charge": 0,
+     "tone": "Points at the mind as the faculty at work rather than at the soundness of what it produces, making it a label and not a verdict.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "noetic.oewn-01784888-s",
+     "word": "noetic",
+     "gloss": "of or associated with or requiring the use of the mind",
+     "charge": 0,
+     "tone": "The most abstract and learned of the set, naming mind-work in a lofty register that *mental* keeps flat.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "moral.oewn-01785141-s",
+     "word": "moral",
+     "gloss": "psychological rather than physical or tangible in effect",
+     "charge": 0,
+     "tone": "Names not the mind itself but the kind of effect that lands there, real in force with nothing tangible behind it.",
+     "rewrite": false
+    },
+    {
+     "id": "psychic.oewn-01785285-s",
+     "word": "psychic",
+     "gloss": "affecting or influenced by the human mind",
+     "charge": 0,
+     "tone": "Reaches in both directions at once, covering what the mind acts on and what acts on the mind, where *psychogenic* narrows to where a thing began.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "psychical.oewn-01785285-s",
+     "word": "psychical",
+     "gloss": "affecting or influenced by the human mind",
+     "charge": 0,
+     "tone": "The heavier, more formal twin of *psychic*, identical in what it covers and stiffer in the saying.",
+     "rewrite": false
+    },
+    {
+     "id": "psychogenic.oewn-01785482-s",
+     "word": "psychogenic",
+     "gloss": "mental or emotional rather than physiological in origin",
+     "charge": 0,
+     "tone": "Technical and exact about causation, placing the starting point in the mind rather than the body instead of merely sorting by nature.",
+     "rewrite": false
+    },
+    {
+     "id": "psychological.oewn-01785621-s",
+     "word": "psychological",
+     "gloss": "mental or emotional as opposed to physical in nature",
+     "charge": 0,
+     "tone": "The workaday technical term here, sorting a thing by what it is in nature rather than, as *psychogenic* does, by where it came from.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00339715-a",
+   "axis": "confidence restored or plainly held → confidence carried past what warrants it",
+   "members": [
+    {
+     "id": "confident.oewn-00339715-a",
+     "word": "confident",
+     "gloss": "having or marked by confidence or assurance",
+     "charge": 0,
+     "tone": "The plain baseline of the family, reporting that the assurance is there without passing any verdict on whether it is warranted.",
+     "rewrite": false
+    },
+    {
+     "id": "assured.oewn-00340055-s",
+     "word": "assured",
+     "gloss": "marked by assurance; exhibiting confidence",
+     "charge": 1,
+     "tone": "Shifts from the inner state to the visible one, crediting a confidence you can see in the bearing where *confident* merely records it.",
+     "rewrite": false
+    },
+    {
+     "id": "cocksure.oewn-00340186-s",
+     "word": "cocksure",
+     "gloss": "marked by excessive confidence",
+     "charge": -2,
+     "tone": "Jeering and informal - the excess is not diagnosed but mocked, a swagger the word refuses to take seriously beside the flat *overconfident*.",
+     "rewrite": false
+    },
+    {
+     "id": "overconfident.oewn-00340186-s",
+     "word": "overconfident",
+     "gloss": "marked by excessive confidence",
+     "charge": -2,
+     "tone": "The straight clinical name for the fault, marking the confidence as more than warranted and leaving the derision to *cocksure*.",
+     "rewrite": false
+    },
+    {
+     "id": "positive.oewn-00340186-s",
+     "word": "positive",
+     "gloss": "marked by excessive confidence",
+     "charge": -1,
+     "tone": "The mildest carrier of that same excess, an everyday word that lets the overreach register as a shrug rather than an accusation.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "reassured.oewn-00340497-s",
+     "word": "reassured",
+     "gloss": "having confidence restored; freed from anxiety",
+     "charge": 1,
+     "tone": "Confidence handed back rather than held all along - the settled calm of anxiety lifted, where the rest of the family says nothing about anything having been shaken.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "self-assured.oewn-00340640-s",
+     "word": "self-assured",
+     "gloss": "showing poise and confidence in your own worth",
+     "charge": 1,
+     "tone": "Turns the poise inward onto one's own worth and lets it show as composure, steadier-sounding than the bare *confident*.",
+     "rewrite": false
+    },
+    {
+     "id": "self-confident.oewn-00340640-s",
+     "word": "self-confident",
+     "gloss": "showing poise and confidence in your own worth",
+     "charge": 1,
+     "tone": "The plainest label for that same belief in one's own worth, stating it where *self-assured* leans on the outward steadiness.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,429 @@
+{
+ "packet": 26,
+ "families": [
+  {
+   "family": "family-06753339-n",
+   "axis": "a plea that concedes the fault it covers → a justification that clears the act outright",
+   "members": [
+    {
+     "id": "excuse.oewn-06754000-n",
+     "word": "excuse",
+     "gloss": "a defense of some offensive behavior or some failure to keep a promise etc.",
+     "charge": -1,
+     "tone": "Admits the fault while covering it - what is being defended is already offensive behaviour or a promise broken, whereas *defence* presumes nothing against the act at all.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "defence.oewn-06753339-n",
+     "word": "defence",
+     "gloss": "the justification for some act or belief",
+     "charge": 0,
+     "tone": "The plain word for the justification of an act or belief, passing no verdict on whether it succeeds and presuming no wrongdoing the way *excuse* does.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "vindication.oewn-06753339-n",
+     "word": "vindication",
+     "gloss": "the justification for some act or belief",
+     "charge": 2,
+     "tone": "Carries the outcome inside it - the act or belief comes out justified, where *defence* only puts the case.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-07214582-n",
+   "axis": "a quick answer named neutrally → an answer marked as impudence",
+   "members": [
+    {
+     "id": "mouth.oewn-06734698-n",
+     "word": "mouth",
+     "gloss": "an impudent or insolent rejoinder",
+     "charge": -2,
+     "tone": "Blunt reproof - the insolent answer reduced to sheer talk, named by the organ that produced it rather than by anything it said.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "reproof, insolent"
+     }
+    },
+    {
+     "id": "lip.oewn-06734698-n",
+     "word": "lip",
+     "gloss": "an impudent or insolent rejoinder",
+     "charge": -2,
+     "tone": "Informal and curt where *mouth* is broad, it clips the impudent answer down to a single flick of cheek.",
+     "rewrite": false
+    },
+    {
+     "id": "sass.oewn-06734698-n",
+     "word": "sass",
+     "gloss": "an impudent or insolent rejoinder",
+     "charge": -2,
+     "tone": "Informal, and it hears spirit in the impudence that *lip* hears only offence in - still a rebuke, but an amused one.",
+     "rewrite": false
+    },
+    {
+     "id": "return.oewn-07214582-n",
+     "word": "return",
+     "gloss": "a quick reply to a question or remark (especially a witty or critical one)",
+     "charge": 0,
+     "tone": "The plainest of these - it marks only that something came back quickly, leaving the wit or the criticism unremarked.",
+     "rewrite": false
+    },
+    {
+     "id": "counter.oewn-07214582-n",
+     "word": "counter",
+     "gloss": "a quick reply to a question or remark (especially a witty or critical one)",
+     "charge": 0,
+     "tone": "Frames the quick reply as a move made against the first, so its wit or its criticism lands as opposition rather than mere answer.",
+     "rewrite": false
+    },
+    {
+     "id": "rejoinder.oewn-07214582-n",
+     "word": "rejoinder",
+     "gloss": "a quick reply to a question or remark (especially a witty or critical one)",
+     "charge": 0,
+     "tone": "Formal and composed, dignifying the quick reply as a proper answer where *counter* casts it as a blow returned.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01802947-v",
+   "axis": "hopes left unmet → trust broken and the person deserted",
+   "members": [
+    {
+     "id": "fail.oewn-01803246-v",
+     "word": "fail",
+     "gloss": "disappoint, prove undependable to; abandon, forsake",
+     "charge": -2,
+     "tone": "Puts the weight on not being there when relied on, covering both the proving undependable and the walking away, but stated as a lapse rather than a wrong.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "betray.oewn-01803246-v",
+     "word": "betray",
+     "gloss": "disappoint, prove undependable to; abandon, forsake",
+     "charge": -3,
+     "tone": "The same desertion as *fail*, but framed as trust broken against the person left behind, which is why it is the heaviest word here.",
+     "rewrite": false
+    },
+    {
+     "id": "disappoint.oewn-01802947-v",
+     "word": "disappoint",
+     "gloss": "fail to meet the hopes or expectations of",
+     "charge": -1,
+     "tone": "The mildest of the three: hopes or expectations simply come up short, with none of *fail*'s claim that someone was depended on and abandoned.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00784574-v",
+   "axis": "an offer dangled → the trap sprung",
+   "members": [
+    {
+     "id": "tempt.oewn-00784574-v",
+     "word": "tempt",
+     "gloss": "provoke someone to do something through (often false or exaggerated) promises or persuasion",
+     "charge": -1,
+     "tone": "The lightest of the three: a promise held out to someone still standing free of it, where *lure* already has them moving.",
+     "rewrite": false
+    },
+    {
+     "id": "entice.oewn-00784574-v",
+     "word": "entice",
+     "gloss": "provoke someone to do something through (often false or exaggerated) promises or persuasion",
+     "charge": -1,
+     "tone": "Works by making the promise attractive rather than by baiting a spot, so the persuasion sounds pleasant even when it is the exaggerated kind.",
+     "rewrite": false
+    },
+    {
+     "id": "lure.oewn-00784574-v",
+     "word": "lure",
+     "gloss": "provoke someone to do something through (often false or exaggerated) promises or persuasion",
+     "charge": -2,
+     "tone": "Draws the person somewhere rather than merely dangling something, and of the three it keeps the falseness of the promise nearest the surface.",
+     "rewrite": false
+    },
+    {
+     "id": "call.oewn-00785570-v",
+     "word": "call",
+     "gloss": "lure by imitating the characteristic call of an animal",
+     "charge": 0,
+     "tone": "Neutral and technical here: the enticement is a mimicked animal cry, so the whole of the deception sits in the sound and none of it in any promise.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words",
+      "hard-words": "enticement, mimicked"
+     }
+    },
+    {
+     "id": "hook.oewn-00785089-v",
+     "word": "hook",
+     "gloss": "entice and trap",
+     "charge": -2,
+     "tone": "The enticing is only half of it — the closing of the trap is the other half, which is what makes this land harder than *entice*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-01996751-a",
+   "axis": "not easily moved from a purpose → immovably fixed on it whatever the cost",
+   "members": [
+    {
+     "id": "steady.oewn-01997735-s",
+     "word": "steady",
+     "gloss": "marked by firm determination or resolution; not shakable",
+     "charge": 2,
+     "tone": "The evenest word here - determination as a level that never dips, without the hardness *firm* and *stiff* put into it.",
+     "rewrite": false
+    },
+    {
+     "id": "firm.oewn-01997735-s",
+     "word": "firm",
+     "gloss": "marked by firm determination or resolution; not shakable",
+     "charge": 2,
+     "tone": "Resolution felt as something pressed against and not giving - resistance where *steady* offers only constancy.",
+     "rewrite": false
+    },
+    {
+     "id": "stiff.oewn-01997735-s",
+     "word": "stiff",
+     "gloss": "marked by firm determination or resolution; not shakable",
+     "charge": 1,
+     "tone": "Unshakable, but by rigidity - the resolve reads as unbending as much as strong.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "unshakable, rigidity"
+     }
+    },
+    {
+     "id": "steadfast.oewn-01997735-s",
+     "word": "steadfast",
+     "gloss": "marked by firm determination or resolution; not shakable",
+     "charge": 3,
+     "tone": "The warmest of the unshakable four - firmness praised as something held faithfully over time.",
+     "rewrite": false
+    },
+    {
+     "id": "determined.oewn-01997455-s",
+     "word": "determined",
+     "gloss": "characterized by great determination",
+     "charge": 2,
+     "tone": "Says the will outright and says there is a lot of it, with none of the hardness metaphor carried by *firm* or *stiff*.",
+     "rewrite": false
+    },
+    {
+     "id": "desperate.oewn-01997589-s",
+     "word": "desperate",
+     "gloss": "desperately determined",
+     "charge": -1,
+     "tone": "Determination pushed to its extreme edge, where the resolve looks driven rather than chosen.",
+     "rewrite": false
+    },
+    {
+     "id": "stout.oewn-01998668-s",
+     "word": "stout",
+     "gloss": "dependable",
+     "charge": 2,
+     "tone": "Hearty approval - dependable in the way something sturdy is, solid enough to take weight.",
+     "rewrite": false
+    },
+    {
+     "id": "bent.oewn-01997254-s",
+     "word": "bent",
+     "gloss": "fixed in your purpose",
+     "charge": 0,
+     "tone": "States only that the purpose is fixed and passes no verdict on it, where *steadfast* and *stalwart* praise.",
+     "rewrite": false
+    },
+    {
+     "id": "stalwart.oewn-01998668-s",
+     "word": "stalwart",
+     "gloss": "dependable",
+     "charge": 3,
+     "tone": "Dependability raised to staunchness - stronger praise than *stout*, and it suggests standing by as well as standing up.",
+     "rewrite": false
+    },
+    {
+     "id": "undaunted.oewn-01998865-s",
+     "word": "undaunted",
+     "gloss": "unshaken in purpose",
+     "charge": 3,
+     "tone": "The purpose holds against something that might have cowed it - it implies the attempt was made and failed.",
+     "rewrite": false
+    },
+    {
+     "id": "unshaken.oewn-01998865-s",
+     "word": "unshaken",
+     "gloss": "unshaken in purpose",
+     "charge": 2,
+     "tone": "The flat negative of the same idea - the purpose simply did not move, without the note of fear faced down in *undaunted*.",
+     "rewrite": false
+    },
+    {
+     "id": "resolute.oewn-01996751-a",
+     "word": "resolute",
+     "gloss": "firm in purpose or belief; characterized by firmness and determination",
+     "charge": 3,
+     "tone": "Formal and settled, and it covers belief as well as purpose - firmness treated as a standing quality of the person, not a stand taken once.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00761314-v",
+   "axis": "earnest asking → pressing, self-lowering entreaty",
+   "members": [
+    {
+     "id": "insist.oewn-00779976-v",
+     "word": "insist",
+     "gloss": "beg persistently and urgently",
+     "charge": 0,
+     "tone": "Pressing rather than abject - the force sits in refusing to let the asking drop, where *implore* puts it in the emotion behind it.",
+     "rewrite": false
+    },
+    {
+     "id": "importune.oewn-00779976-v",
+     "word": "importune",
+     "gloss": "beg persistently and urgently",
+     "charge": -1,
+     "tone": "Formal, and the persistence lands as a burden on the person asked, where *insist* marks only the asker's refusal to stop.",
+     "rewrite": false
+    },
+    {
+     "id": "pray.oewn-00761314-v",
+     "word": "pray",
+     "gloss": "call upon in supplication; entreat",
+     "charge": 0,
+     "tone": "The entreaty in its most formal dress, an appeal made in the posture of supplication rather than *beg*'s bare asking.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "entreaty, supplication"
+     }
+    },
+    {
+     "id": "implore.oewn-00761314-v",
+     "word": "implore",
+     "gloss": "call upon in supplication; entreat",
+     "charge": 0,
+     "tone": "Raises the same entreaty to a pitch of desperation that *beg* states flatly.",
+     "rewrite": false
+    },
+    {
+     "id": "crave.oewn-00760583-v",
+     "word": "crave",
+     "gloss": "plead or ask for earnestly",
+     "charge": 0,
+     "tone": "Asking in a formal key, urged by earnestness rather than by *importune*'s wearing repetition.",
+     "rewrite": false
+    },
+    {
+     "id": "supplicate.oewn-00760672-v",
+     "word": "supplicate",
+     "gloss": "ask humbly (for something)",
+     "charge": 0,
+     "tone": "The humility is the whole of it, stated outright and with ceremony, where *beg* leaves the asker's lowness implied.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-04901232-n",
+   "axis": "caution missing from practical dealings → a settled disposition to act headlong",
+   "members": [
+    {
+     "id": "imprudence.oewn-04901232-n",
+     "word": "imprudence",
+     "gloss": "a lack of caution in practical affairs",
+     "charge": -1,
+     "tone": "Names the fault as an absence — caution simply not brought to practical affairs — and stops short of accusing anyone of charging ahead, which *rashness* does.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "rashness.oewn-04901399-n",
+     "word": "rashness",
+     "gloss": "the trait of acting rashly and without prudence",
+     "charge": -2,
+     "tone": "Heavier because it fixes the fault as a trait of the person rather than a gap in a decision: acting, and acting without prudence, not merely lacking it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-05145473-n",
+   "axis": "a shortfall counted against a thing → a high quality counted admiringly in its favour",
+   "members": [
+    {
+     "id": "virtue.oewn-05146223-n",
+     "word": "virtue",
+     "gloss": "any admirable quality or attribute",
+     "charge": 2,
+     "tone": "Presents an attribute as admirable in itself, already judged and approved, where *value* only weighs.",
+     "rewrite": false
+    },
+    {
+     "id": "merit.oewn-05146223-n",
+     "word": "merit",
+     "gloss": "any admirable quality or attribute",
+     "charge": 2,
+     "tone": "The same admirable attribute framed as something to a thing's credit, weighable point by point against *fault*.",
+     "rewrite": false
+    },
+    {
+     "id": "value.oewn-05145753-n",
+     "word": "value",
+     "gloss": "the quality (positive or negative) that renders something desirable or valuable",
+     "charge": 0,
+     "tone": "Unsigned by design: it takes the quality positive or negative alike, so it appraises where *virtue* and *fault* have already decided.",
+     "rewrite": false
+    },
+    {
+     "id": "price.oewn-05148930-n",
+     "word": "price",
+     "gloss": "the high value or worth of something",
+     "charge": 2,
+     "tone": "Puts the height into the word itself - not worth but worth pitched high, where *worth* names the quality without ranking it.",
+     "rewrite": false
+    },
+    {
+     "id": "worth.oewn-05145473-n",
+     "word": "worth",
+     "gloss": "the quality that renders something desirable or valuable or useful",
+     "charge": 1,
+     "tone": "Plainly positive and broad, covering what makes a thing desirable, valuable or merely useful, with none of *price*'s insistence that the quality is great.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    }
+   ]
+  }
+ ]
+}

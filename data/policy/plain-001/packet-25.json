@@ -1,0 +1,567 @@
+{
+ "packet": 25,
+ "families": [
+  {
+   "family": "family-01537239-a",
+   "axis": "registering a degree past the norm → denouncing it as past all reason",
+   "members": [
+    {
+     "id": "extraordinary.oewn-01538743-s",
+     "word": "extraordinary",
+     "gloss": "far more than usual or expected",
+     "charge": 1,
+     "tone": "The one member whose excess can flatter, registering a degree far past what was expected as remarkable rather than as a fault.",
+     "rewrite": false
+    },
+    {
+     "id": "sinful.oewn-01538743-s",
+     "word": "sinful",
+     "gloss": "far more than usual or expected",
+     "charge": -2,
+     "tone": "Sizes an excess by calling it a wrong, so the same far-more-than-expected that *extraordinary* admires becomes something to answer for.",
+     "rewrite": false
+    },
+    {
+     "id": "extreme.oewn-01538953-s",
+     "word": "extreme",
+     "gloss": "far beyond a norm in quantity or amount or degree; to an utmost degree",
+     "charge": 0,
+     "tone": "Names the utmost degree flatly, measuring how far a quantity, amount or degree sits from the norm without ruling on whether that is a fault.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "far.oewn-01539576-s",
+     "word": "far",
+     "gloss": "beyond a norm in opinion or actions",
+     "charge": 0,
+     "tone": "Purely positional: it sets an opinion or action out past the norm and leaves the verdict to whoever is looking, where *outrageous* is all verdict.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "stark.oewn-01539678-s",
+     "word": "stark",
+     "gloss": "complete or extreme",
+     "charge": 0,
+     "tone": "Absolute rather than excessive, saying a thing is complete or extreme with nothing softening it, so its force is bleakness rather than blame.",
+     "rewrite": false
+    },
+    {
+     "id": "unreasonable.oewn-01538069-s",
+     "word": "unreasonable",
+     "gloss": "beyond normal limits",
+     "charge": -2,
+     "tone": "Convicts the overstepping of having no argument for itself, a heavier charge than the plain over-the-limit of *excessive*.",
+     "rewrite": false
+    },
+    {
+     "id": "steep.oewn-01538377-s",
+     "word": "steep",
+     "gloss": "greatly exceeding bounds of reason or moderation",
+     "charge": -1,
+     "tone": "Informal and dry, registering a large overshoot as a grumble rather than the protest that *outrageous* makes of the same gloss.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "gloss"
+     }
+    },
+    {
+     "id": "excessive.oewn-01538069-s",
+     "word": "excessive",
+     "gloss": "beyond normal limits",
+     "charge": -1,
+     "tone": "The flat statement of the case, that the limit has been passed, without the indignation *unreasonable* adds to it.",
+     "rewrite": false
+    },
+    {
+     "id": "inordinate.oewn-01538069-s",
+     "word": "inordinate",
+     "gloss": "beyond normal limits",
+     "charge": -1,
+     "tone": "Formal and cool, sizing the overshoot rather than complaining about it as *unreasonable* does.",
+     "rewrite": false
+    },
+    {
+     "id": "outrageous.oewn-01538377-s",
+     "word": "outrageous",
+     "gloss": "greatly exceeding bounds of reason or moderation",
+     "charge": -3,
+     "tone": "The hottest word here: the excess is treated as an affront, and the word demands that someone object.",
+     "rewrite": false
+    },
+    {
+     "id": "undue.oewn-01538069-s",
+     "word": "undue",
+     "gloss": "beyond normal limits",
+     "charge": -1,
+     "tone": "Faults the excess for not being warranted rather than for its bulk, the quietest complaint among the words sharing its gloss.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "gloss"
+     }
+    },
+    {
+     "id": "radical.oewn-01539365-s",
+     "word": "radical",
+     "gloss": "(used of opinions and actions) far beyond the norm",
+     "charge": -1,
+     "tone": "Marks opinions and actions as standing well past the norm by commitment rather than by accident of degree, and eyes that commitment with reserve.",
+     "rewrite": false
+    },
+    {
+     "id": "ultra.oewn-01539365-s",
+     "word": "ultra",
+     "gloss": "(used of opinions and actions) far beyond the norm",
+     "charge": -1,
+     "tone": "Not just distance but too much distance - it drives an opinion or action past the limit its own position would have kept to, where *far* marks the same remove and leaves the verdict open.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "34 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-10680441-n",
+   "axis": "unfamiliar presence → marked outsider",
+   "members": [
+    {
+     "id": "stranger.oewn-10680441-n",
+     "word": "stranger",
+     "gloss": "anyone who does not belong in the environment in which they are found",
+     "charge": 0,
+     "tone": "Flat and unjudging - it records only that the person is not of this place, and leaves open that they might belong somewhere else just as ordinarily.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "alien.oewn-10680441-n",
+     "word": "alien",
+     "gloss": "anyone who does not belong in the environment in which they are found",
+     "charge": -2,
+     "tone": "Hardens the same non-belonging into strangeness of kind - where *stranger* says merely unknown here, this makes the person incompatible with the surroundings.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00935783-v",
+   "axis": "flat publication of what was hidden → a confidence spilled to the teller's discredit",
+   "members": [
+    {
+     "id": "break.oewn-00935783-v",
+     "word": "break",
+     "gloss": "make known to the public information that was previously known only to a few people or that was meant to be kept a secret",
+     "charge": 0,
+     "tone": "Puts the hidden thing into public circulation all at once, with the abruptness of the arrival rather than any blame as its whole character.",
+     "rewrite": false
+    },
+    {
+     "id": "discover.oewn-00935783-v",
+     "word": "discover",
+     "gloss": "make known to the public information that was previously known only to a few people or that was meant to be kept a secret",
+     "charge": 0,
+     "tone": "Here the act is the telling, not the finding: flat about how the thing got out and saying only that it is now public.",
+     "rewrite": false
+    },
+    {
+     "id": "reveal.oewn-00935783-v",
+     "word": "reveal",
+     "gloss": "make known to the public information that was previously known only to a few people or that was meant to be kept a secret",
+     "charge": 0,
+     "tone": "The neutral centre the others specialise — something hidden is made visible, with no comment on who loses by it.",
+     "rewrite": false
+    },
+    {
+     "id": "expose.oewn-00935783-v",
+     "word": "expose",
+     "gloss": "make known to the public information that was previously known only to a few people or that was meant to be kept a secret",
+     "charge": -1,
+     "tone": "Strips the cover off with the implication that the thing was kept back for a reason, so the telling lands as a charge against whoever kept it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "disclose.oewn-00935783-v",
+     "word": "disclose",
+     "gloss": "make known to the public information that was previously known only to a few people or that was meant to be kept a secret",
+     "charge": 0,
+     "tone": "Formal and procedural: it makes the matter public without the flavour of trust broken that *divulge* carries.",
+     "rewrite": false
+    },
+    {
+     "id": "divulge.oewn-00935783-v",
+     "word": "divulge",
+     "gloss": "make known to the public information that was previously known only to a few people or that was meant to be kept a secret",
+     "charge": -1,
+     "tone": "Keeps the secrecy in view — what is told was meant to be kept, so the telling registers as a breach.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "uncover.oewn-00935783-v",
+     "word": "uncover",
+     "gloss": "make known to the public information that was previously known only to a few people or that was meant to be kept a secret",
+     "charge": 0,
+     "tone": "Treats the matter as buried rather than merely untold, so the digging is part of the word in a way it is not in *reveal*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "talk.oewn-00939238-v",
+     "word": "talk",
+     "gloss": "divulge confidential information or secrets",
+     "charge": -1,
+     "tone": "The bare verb for someone entrusted failing to stay quiet; it names no content, only that the confidence got out of them.",
+     "rewrite": false
+    },
+    {
+     "id": "blow.oewn-00936997-v",
+     "word": "blow",
+     "gloss": "cause to be revealed and jeopardized",
+     "charge": -2,
+     "tone": "The revealing wrecks what it reveals — where *disclose* only makes a thing known, this one endangers it in the same motion.",
+     "rewrite": false
+    },
+    {
+     "id": "sing.oewn-00939238-v",
+     "word": "sing",
+     "gloss": "divulge confidential information or secrets",
+     "charge": -2,
+     "tone": "Contemptuous: the secret is handed over the way an informer hands it over, and the handing over is the disgrace.",
+     "rewrite": false
+    },
+    {
+     "id": "spring.oewn-00937859-v",
+     "word": "spring",
+     "gloss": "produce or disclose suddenly or unexpectedly",
+     "charge": 0,
+     "tone": "All timing and no secrecy — whether the thing is produced or disclosed, the force of the word is that it arrives with no warning.",
+     "rewrite": false
+    },
+    {
+     "id": "betray.oewn-00938362-v",
+     "word": "betray",
+     "gloss": "reveal unintentionally",
+     "charge": -1,
+     "tone": "The teller never meant to tell: the thing escapes and gives the person away, so the fault is in the letting slip rather than the intent.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "leak.oewn-00939053-v",
+     "word": "leak",
+     "gloss": "tell anonymously",
+     "charge": 0,
+     "tone": "What the word specifies is the missing name — the telling happens with the teller kept out of sight, and it passes no verdict on what is told.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "confide.oewn-00938497-v",
+     "word": "confide",
+     "gloss": "reveal in private; tell confidentially",
+     "charge": 1,
+     "tone": "The one telling here that keeps the secret a secret: it goes to a single hearer in trust, where *divulge* gives it away.",
+     "rewrite": false
+    },
+    {
+     "id": "blab.oewn-00939238-v",
+     "word": "blab",
+     "gloss": "divulge confidential information or secrets",
+     "charge": -2,
+     "tone": "Dismissive — the confidence falls out of an ungoverned mouth for no motive beyond the pleasure of talking.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00648515-a",
+   "axis": "long odds against believing → belief overwhelmed and struck dumb",
+   "members": [
+    {
+     "id": "tall.oewn-00649139-s",
+     "word": "tall",
+     "gloss": "too improbable to admit of belief",
+     "charge": -1,
+     "tone": "Dismissive without heat - the claim is treated as stretched in the telling, where *improbable* only weighs the odds.",
+     "rewrite": false
+    },
+    {
+     "id": "marvellous.oewn-00649139-s",
+     "word": "marvellous",
+     "gloss": "too improbable to admit of belief",
+     "charge": 0,
+     "tone": "Refuses belief with wonder still in it: the thing is too wonderful to be admitted, not too flimsy, unlike *tall*.",
+     "rewrite": false
+    },
+    {
+     "id": "improbable.oewn-00649139-s",
+     "word": "improbable",
+     "gloss": "too improbable to admit of belief",
+     "charge": 0,
+     "tone": "The flat measuring word of the set - it sets the odds against the thing and leaves the mockery and the wonder to its neighbours.",
+     "rewrite": false
+    },
+    {
+     "id": "incredible.oewn-00648515-a",
+     "word": "incredible",
+     "gloss": "beyond belief or understanding",
+     "charge": 0,
+     "tone": "Puts the thing wholly outside belief or understanding rather than at the far end of the odds, and says nothing about whether what exceeds them is splendid or appalling.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "29 words"
+     }
+    },
+    {
+     "id": "fabulous.oewn-00649004-s",
+     "word": "fabulous",
+     "gloss": "barely credible",
+     "charge": 1,
+     "tone": "Leaves the thing just this side of belief where *incredible* puts it past, and the strain it puts on belief sounds like extravagance rather than a fault.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "astounding.oewn-00648878-s",
+     "word": "astounding",
+     "gloss": "bewildering or striking dumb with wonder",
+     "charge": 2,
+     "tone": "The heaviest impact here, and it lands on the person rather than rating the claim - covering both being thrown into confusion and being silenced by wonder.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-06210871-n",
+   "axis": "a slight noticeable lean → a bias that shuts out fair judgement",
+   "members": [
+    {
+     "id": "partiality.oewn-06210871-n",
+     "word": "partiality",
+     "gloss": "an inclination to favor one group or view or opinion over alternatives",
+     "charge": -2,
+     "tone": "The plain name for an uneven leaning toward one side over the alternatives — it says the scales are tipped without saying the case is already closed, which is what *prejudice* adds.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "31 words"
+     }
+    },
+    {
+     "id": "prejudice.oewn-06211643-n",
+     "word": "prejudice",
+     "gloss": "a partiality that prevents objective consideration of an issue or situation",
+     "charge": -3,
+     "tone": "The heaviest word here, because the leaning has hardened into an obstruction: the issue can no longer get an objective hearing at all.",
+     "rewrite": false
+    },
+    {
+     "id": "tilt.oewn-06212031-n",
+     "word": "tilt",
+     "gloss": "a slight but noticeable partiality",
+     "charge": -1,
+     "tone": "Understates by design — a lean small enough to be measured rather than denounced, yet the word still insists it can be seen.",
+     "rewrite": false
+    },
+    {
+     "id": "provincialism.oewn-06212164-n",
+     "word": "provincialism",
+     "gloss": "a partiality for some particular place",
+     "charge": -2,
+     "tone": "Names the leaning by what it fastens on, one particular place, so the narrowness of the horizon is carried in the word rather than argued separately as it would be with *partiality*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "32 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00759083-n",
+   "axis": "a fault plainly named → a vice condemned as damning",
+   "members": [
+    {
+     "id": "anger.oewn-00760325-n",
+     "word": "anger",
+     "gloss": "belligerence aroused by a real or supposed wrong (personified as one of the deadly sins)",
+     "charge": -2,
+     "tone": "The plain name for the belligerence, and the gloss lets the provoking wrong be merely supposed as readily as real, so the blame lands lighter than in *wrath*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words",
+      "grammar": "gloss"
+     }
+    },
+    {
+     "id": "wrath.oewn-00760325-n",
+     "word": "wrath",
+     "gloss": "belligerence aroused by a real or supposed wrong (personified as one of the deadly sins)",
+     "charge": -3,
+     "tone": "The same belligerence at real or supposed wrong raised to solemn weight — a word sized for a sin, where *anger* is sized for a mood.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "envy.oewn-00759688-n",
+     "word": "envy",
+     "gloss": "spite and resentment at seeing the success of another (personified as one of the deadly sins)",
+     "charge": -3,
+     "tone": "Not simple wanting what another has: the gloss puts spite and resentment at the centre, so the ill-will toward the successful is the sense itself.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words",
+      "grammar": "gloss"
+     }
+    },
+    {
+     "id": "avarice.oewn-00759878-n",
+     "word": "avarice",
+     "gloss": "reprehensible acquisitiveness; insatiable desire for wealth (personified as one of the deadly sins)",
+     "charge": -3,
+     "tone": "Condemns while it defines — acquisitiveness called reprehensible and a wanting of wealth that nothing can fill.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "acquisitiveness, reprehensible"
+     }
+    },
+    {
+     "id": "rapacity.oewn-00759878-n",
+     "word": "rapacity",
+     "gloss": "reprehensible acquisitiveness; insatiable desire for wealth (personified as one of the deadly sins)",
+     "charge": -3,
+     "tone": "The same insatiable greed for wealth as *avarice*, but with a grasping, predatory force in the word rather than a hoarder's.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01075919-n",
+   "axis": "slowing something down → stopping it outright",
+   "members": [
+    {
+     "id": "interference.oewn-01075919-n",
+     "word": "interference",
+     "gloss": "the act of hindering or obstructing or impeding",
+     "charge": -1,
+     "tone": "The broadest of the three, covering hindering, obstructing and impeding alike, and it frames the act as a course disrupted from outside rather than a way simply blocked.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "bar.oewn-01079274-n",
+     "word": "bar",
+     "gloss": "the act of preventing",
+     "charge": 0,
+     "tone": "Flat and absolute: where *interference* only slows or hampers, this names prevention accomplished, with no hint of how it was done.",
+     "rewrite": false
+    },
+    {
+     "id": "obstruction.oewn-01076422-n",
+     "word": "obstruction",
+     "gloss": "the act of obstructing",
+     "charge": -1,
+     "tone": "Puts something in the way, so the check is felt as a mass to be got around rather than *bar*'s clean stop.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-04685309-n",
+   "axis": "a surface that merely shades the truth → a covering got up to misrepresent it",
+   "members": [
+    {
+     "id": "colour.oewn-04685309-n",
+     "word": "colour",
+     "gloss": "an outward or token appearance or form that is deliberately misleading",
+     "charge": -1,
+     "tone": "British spelling of the same deceptive surface: a creditable tint lent to something so it passes, and no more than a tint, where *disguise* covers.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "semblance.oewn-04685309-n",
+     "word": "semblance",
+     "gloss": "an outward or token appearance or form that is deliberately misleading",
+     "charge": -1,
+     "tone": "The barest word in the set, naming only the outward or token form and leaving the misleading to be inferred, where *pretence* puts the artifice on show.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "color.oewn-04685309-n",
+     "word": "color",
+     "gloss": "an outward or token appearance or form that is deliberately misleading",
+     "charge": -1,
+     "tone": "A respectable-looking surface lent to something so it seems defensible; it does not hide the thing underneath, it only shades it.",
+     "rewrite": false
+    },
+    {
+     "id": "gloss.oewn-04685309-n",
+     "word": "gloss",
+     "gloss": "an outward or token appearance or form that is deliberately misleading",
+     "charge": -2,
+     "tone": "Carries the idea of a polish worked onto the outside, so the deceit is one of finish rather than of concealment as in *disguise*.",
+     "rewrite": false
+    },
+    {
+     "id": "disguise.oewn-04686431-n",
+     "word": "disguise",
+     "gloss": "an outward semblance that misrepresents the true nature of something",
+     "charge": -2,
+     "tone": "The most covering word here, not a shading of the truth but an outward form that actively misrepresents what lies under it.",
+     "rewrite": false
+    },
+    {
+     "id": "pretence.oewn-04686265-n",
+     "word": "pretence",
+     "gloss": "an artful or simulated semblance",
+     "charge": -2,
+     "tone": "British spelling, and it foregrounds the artfulness, naming the semblance as something got up rather than something merely appearing.",
+     "rewrite": false
+    },
+    {
+     "id": "guise.oewn-04686265-n",
+     "word": "guise",
+     "gloss": "an artful or simulated semblance",
+     "charge": -1,
+     "tone": "The same artful or simulated semblance as *pretence*, but framed as a form put on and worn, so the deceit sits in the assuming of it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1035 @@
+{
+ "packet": 13,
+ "families": [
+  {
+   "family": "family-00630690-a",
+   "axis": "bare possession of a body → a body specified closely enough to flatter or fault",
+   "members": [
+    {
+     "id": "bodied.oewn-00630690-a",
+     "word": "bodied",
+     "gloss": "having a body or a body of a specified kind; often used in combination",
+     "charge": 0,
+     "tone": "The unmarked base of the set - it says only that a body is there, or that one of a stated kind is, and waits for a word in front of it to say which.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "34 words"
+     }
+    },
+    {
+     "id": "incarnate.oewn-00631042-s",
+     "word": "incarnate",
+     "gloss": "invested with a bodily form especially of a human body",
+     "charge": 0,
+     "tone": "The one member that treats embodiment as something conferred rather than measured, and it carries a gravity the shape words never reach for.",
+     "rewrite": false
+    },
+    {
+     "id": "lithe-bodied.oewn-00631195-s",
+     "word": "lithe-bodied",
+     "gloss": "having a lithe body",
+     "charge": 1,
+     "tone": "Praises suppleness rather than outline - where *slim-bodied* reports a shape, this admires the ease of one.",
+     "rewrite": false
+    },
+    {
+     "id": "long-bodied.oewn-00631273-s",
+     "word": "long-bodied",
+     "gloss": "having a relatively long body",
+     "charge": 0,
+     "tone": "Pure measurement along a single axis, and a comparative one at that - it reports length against other bodies without admiring or faulting it.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "comparative"
+     }
+    },
+    {
+     "id": "narrow-bodied.oewn-00631360-s",
+     "word": "narrow-bodied",
+     "gloss": "having a relatively narrow body",
+     "charge": 0,
+     "tone": "Measures across where *long-bodied* measures along, and is just as uncommitted about whether narrowness is a virtue.",
+     "rewrite": false
+    },
+    {
+     "id": "oval-bodied.oewn-00631451-s",
+     "word": "oval-bodied",
+     "gloss": "having an oval body",
+     "charge": 0,
+     "tone": "Names a whole outline instead of one dimension - the most purely geometric word here and the least interested in judging what it draws.",
+     "rewrite": false
+    },
+    {
+     "id": "short-bodied.oewn-00631528-s",
+     "word": "short-bodied",
+     "gloss": "having a relatively short body",
+     "charge": 0,
+     "tone": "The mirror of *long-bodied* and just as flat - shortness is given as a proportion, not held against the thing that has it.",
+     "rewrite": false
+    },
+    {
+     "id": "silver-bodied.oewn-00631617-s",
+     "word": "silver-bodied",
+     "gloss": "having a silver-colored body",
+     "charge": 0,
+     "tone": "Names the colour flatly, letting the metal's name stand in for the shade.",
+     "rewrite": false
+    },
+    {
+     "id": "silvery-bodied.oewn-00631617-s",
+     "word": "silvery-bodied",
+     "gloss": "having a silver-colored body",
+     "charge": 0,
+     "tone": "The suffix softens the same colour into resemblance - a sheen suggested where *silver-bodied* names the shade outright.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "suffix"
+     }
+    },
+    {
+     "id": "slim-bodied.oewn-00631722-s",
+     "word": "slim-bodied",
+     "gloss": "having a slim body",
+     "charge": 1,
+     "tone": "Slimness stated with quiet approval - the plainest of the favourable three, complimentary without reaching for grace.",
+     "rewrite": false
+    },
+    {
+     "id": "thin-bodied.oewn-00631722-s",
+     "word": "thin-bodied",
+     "gloss": "having a slim body",
+     "charge": 0,
+     "tone": "The same slimness with the compliment drained out - where *slim-bodied* approves, this can land as merely scant.",
+     "rewrite": false
+    },
+    {
+     "id": "slender-bodied.oewn-00631722-s",
+     "word": "slender-bodied",
+     "gloss": "having a slim body",
+     "charge": 1,
+     "tone": "The most admiring way to report slimness, lending it an elegance *thin-bodied* withholds.",
+     "rewrite": false
+    },
+    {
+     "id": "smooth-bodied.oewn-00631829-s",
+     "word": "smooth-bodied",
+     "gloss": "having a smooth body",
+     "charge": 0,
+     "tone": "Reports surface rather than dimension, and the agreeableness in it belongs to the texture rather than to any verdict on the body.",
+     "rewrite": false
+    },
+    {
+     "id": "thick-bodied.oewn-00631909-s",
+     "word": "thick-bodied",
+     "gloss": "having a thick body",
+     "charge": -1,
+     "tone": "The one dimension word here that can land as a verdict instead of a measurement, reading as bulk where *slim-bodied* reads as trim.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01523886-a",
+   "axis": "bare totalizing → totalizing that also condemns",
+   "members": [
+    {
+     "id": "unmitigated.oewn-01523886-a",
+     "word": "unmitigated",
+     "gloss": "not diminished or moderated in intensity or severity; sometimes used as an intensifier",
+     "charge": -1,
+     "tone": "Names the absence of relief - the intensity or severity has had nothing taken off it - where *utter* only says the quality is entire.",
+     "rewrite": false
+    },
+    {
+     "id": "arrant.oewn-01524174-s",
+     "word": "arrant",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -2,
+     "tone": "Openly contemptuous rather than merely absolute - it disparages the thing it magnifies, where *complete* only measures it.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "contemptuous, disparages, magnifies"
+     }
+    },
+    {
+     "id": "complete.oewn-01524174-s",
+     "word": "complete",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": 0,
+     "tone": "The plainest amplifier of the set - it adds fullness and takes whatever scorn is already in the noun.",
+     "rewrite": false
+    },
+    {
+     "id": "consummate.oewn-01524174-s",
+     "word": "consummate",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -1,
+     "tone": "Totalizes with an air of accomplishment, as though the quality had been brought to a finish, and that mismatch gives it a wryness *utter* has none of.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words",
+      "hard-words": "totalizes, wryness"
+     }
+    },
+    {
+     "id": "double-dyed.oewn-01524174-s",
+     "word": "double-dyed",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -2,
+     "tone": "Condemning - it presents the quality as set fast and past removing, going further than *thorough*, which only says it runs all the way through.",
+     "rewrite": false
+    },
+    {
+     "id": "everlasting.oewn-01524174-s",
+     "word": "everlasting",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -1,
+     "tone": "Carries exasperation into the intensifier, insisting the quality will not let up, where *utter* simply fixes its extent.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "intensifier"
+     }
+    },
+    {
+     "id": "gross.oewn-01524174-s",
+     "word": "gross",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -2,
+     "tone": "Blunt and coarse - it enlarges the quality and looks down on it in a single move.",
+     "rewrite": false
+    },
+    {
+     "id": "perfect.oewn-01524174-s",
+     "word": "perfect",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -1,
+     "tone": "Turns a word of flawlessness into a measure of extent, and gains its edge over *complete* through that mismatch.",
+     "rewrite": false
+    },
+    {
+     "id": "pure.oewn-01524174-s",
+     "word": "pure",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": 0,
+     "tone": "Intensifies by denying any admixture - the quality stands undiluted, which is a different claim from *utter*'s nothing-left-over.",
+     "rewrite": false
+    },
+    {
+     "id": "sodding.oewn-01524174-s",
+     "word": "sodding",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -3,
+     "tone": "British and profane - the most abusive of these, spending contempt before it has said anything about degree at all.",
+     "rewrite": false
+    },
+    {
+     "id": "stark.oewn-01524174-s",
+     "word": "stark",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -1,
+     "tone": "Bleak in its emphasis, leaving the quality bare and unrelieved rather than merely entire as *complete* does.",
+     "rewrite": false
+    },
+    {
+     "id": "staring.oewn-01524174-s",
+     "word": "staring",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": -1,
+     "tone": "Makes the quality conspicuous as well as total - impossible to overlook, where *utter* says nothing about how visible it is.",
+     "rewrite": false
+    },
+    {
+     "id": "thorough.oewn-01524174-s",
+     "word": "thorough",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": 0,
+     "tone": "Amplifies by saying the quality runs the whole way through, a claim about extent with no scorn of its own.",
+     "rewrite": false
+    },
+    {
+     "id": "thoroughgoing.oewn-01524174-s",
+     "word": "thoroughgoing",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": 0,
+     "tone": "Heavier on the tongue than *thorough*, and the extra weight is insistence on completeness rather than added disparagement.",
+     "rewrite": false
+    },
+    {
+     "id": "utter.oewn-01524174-s",
+     "word": "utter",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": 0,
+     "tone": "Flat and absolute - it allows no remainder, and unlike *arrant* it supplies no sneer of its own.",
+     "rewrite": false
+    },
+    {
+     "id": "unadulterated.oewn-01524174-s",
+     "word": "unadulterated",
+     "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+     "charge": 0,
+     "tone": "The most deliberate of these amplifiers, spelling out that nothing has been mixed in to weaken the quality where *pure* asserts it in a breath.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-01886613-a",
+   "axis": "a mismatch with established procedure → an offense against accepted standards",
+   "members": [
+    {
+     "id": "improper.oewn-01886613-a",
+     "word": "improper",
+     "gloss": "not suitable or right or appropriate",
+     "charge": -1,
+     "tone": "The flattest disapproval here - it marks a thing as not fitting without naming the standard it fails, where *unseemly* and *indecent* both point at one.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "indecent.oewn-01887000-s",
+     "word": "indecent",
+     "gloss": "not in keeping with accepted standards of what is right or proper in polite society",
+     "charge": -2,
+     "tone": "Blunt and severe where *indecorous* is measured - the same breach of what polite society accepts, named with nothing held back.",
+     "rewrite": false
+    },
+    {
+     "id": "indecorous.oewn-01887000-s",
+     "word": "indecorous",
+     "gloss": "not in keeping with accepted standards of what is right or proper in polite society",
+     "charge": -1,
+     "tone": "Formal and cool, faulting the breach as a lapse of decorum rather than an outrage, which is exactly where it parts from *indecent*.",
+     "rewrite": false
+    },
+    {
+     "id": "unbecoming.oewn-01887000-s",
+     "word": "unbecoming",
+     "gloss": "not in keeping with accepted standards of what is right or proper in polite society",
+     "charge": -2,
+     "tone": "Measures the breach against whoever commits it - the conduct falls below what suits them, where *indecorous* faults the conduct alone.",
+     "rewrite": false
+    },
+    {
+     "id": "uncomely.oewn-01887000-s",
+     "word": "uncomely",
+     "gloss": "not in keeping with accepted standards of what is right or proper in polite society",
+     "charge": -1,
+     "tone": "Faint and formal - it registers the breach of accepted standards as unattractive rather than shocking, staying well back from *indecent*.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "unseemly.oewn-01887000-s",
+     "word": "unseemly",
+     "gloss": "not in keeping with accepted standards of what is right or proper in polite society",
+     "charge": -2,
+     "tone": "Firm and plain-spoken: the conduct does not fit at all, which is more pointed than *indecorous* and less scandalized than *indecent*.",
+     "rewrite": false
+    },
+    {
+     "id": "untoward.oewn-01887000-s",
+     "word": "untoward",
+     "gloss": "not in keeping with accepted standards of what is right or proper in polite society",
+     "charge": -1,
+     "tone": "The most restrained of this set, glancing at the breach rather than rebuking it as *unseemly* does.",
+     "rewrite": false
+    },
+    {
+     "id": "out-of-the-way.oewn-01887447-s",
+     "word": "out-of-the-way",
+     "gloss": "improper or even offensive",
+     "charge": -2,
+     "tone": "Mild in shape but broad in reach - it runs from merely improper right through to offensive, and the understatement is what makes the far end land.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "out_of_the_way.oewn-01887447-s",
+     "word": "out of the way",
+     "gloss": "improper or even offensive",
+     "charge": -2,
+     "tone": "The spaced spelling carries the same span, improper at its softest and offensive at its hardest, with no more heat in it than *out-of-the-way*.",
+     "rewrite": false
+    },
+    {
+     "id": "wrong.oewn-01887577-s",
+     "word": "wrong",
+     "gloss": "not in accord with established usage or procedure",
+     "charge": 0,
+     "tone": "Purely a measure against established usage or procedure - it records a mismatch rather than passing judgement, which is what separates it from *improper*.",
+     "rewrite": false
+    },
+    {
+     "id": "incorrect.oewn-01887577-s",
+     "word": "incorrect",
+     "gloss": "not in accord with established usage or procedure",
+     "charge": 0,
+     "tone": "Cooler and more technical than *wrong* - the same failure to accord with established procedure, stated as a matter of record.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01668036-a",
+   "axis": "plain expectation of a good outcome → optimism so complete it no longer checks against fact",
+   "members": [
+    {
+     "id": "optimistic.oewn-01668036-a",
+     "word": "optimistic",
+     "gloss": "expecting the best in this best of all possible worlds",
+     "charge": 1,
+     "tone": "The unmarked term for expecting the best, and the only one here that neither congratulates the expectation nor doubts it.",
+     "rewrite": false
+    },
+    {
+     "id": "bullish.oewn-01668381-s",
+     "word": "bullish",
+     "gloss": "expecting a rise in prices",
+     "charge": 0,
+     "tone": "Positional rather than evaluative: it names an expectation that prices will rise, taking no view of the person holding it the way *optimistic* does.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "evaluative"
+     }
+    },
+    {
+     "id": "cheerful.oewn-01668480-s",
+     "word": "cheerful",
+     "gloss": "pleasantly (even unrealistically) optimistic",
+     "charge": 1,
+     "tone": "Leads with the pleasantness and leaves the unrealism in the background, where *pollyannaish* brings it to the front.",
+     "rewrite": false
+    },
+    {
+     "id": "pollyannaish.oewn-01668480-s",
+     "word": "pollyannaish",
+     "gloss": "pleasantly (even unrealistically) optimistic",
+     "charge": -2,
+     "tone": "Hangs its whole weight on the unrealistic half of the same pleasant optimism, so the good cheer itself becomes the failing.",
+     "rewrite": false
+    },
+    {
+     "id": "upbeat.oewn-01668480-s",
+     "word": "upbeat",
+     "gloss": "pleasantly (even unrealistically) optimistic",
+     "charge": 1,
+     "tone": "Buoyant and forward-leaning where *cheerful* is merely pleasant, and it carries the least doubt of the three.",
+     "rewrite": false
+    },
+    {
+     "id": "rose-colored.oewn-01668621-s",
+     "word": "rose-colored",
+     "gloss": "reflecting optimism",
+     "charge": 1,
+     "tone": "Puts the optimism into what is being shown rather than into the one holding it, so it colours a view instead of judging a temperament.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "rosy.oewn-01668621-s",
+     "word": "rosy",
+     "gloss": "reflecting optimism",
+     "charge": 1,
+     "tone": "The shorter, warmer form beside *rose-colored*, and the readier of the two to stand as simple praise for how a prospect looks.",
+     "rewrite": false
+    },
+    {
+     "id": "starry-eyed.oewn-01668775-s",
+     "word": "starry-eyed",
+     "gloss": "unrealistically or naively optimistic",
+     "charge": -2,
+     "tone": "Marks the optimism as a fault either way — whether it has outrun the facts or never met them — and the dreaminess is the point.",
+     "rewrite": false
+    },
+    {
+     "id": "sanguine.oewn-01668920-s",
+     "word": "sanguine",
+     "gloss": "confidently optimistic and cheerful",
+     "charge": 2,
+     "tone": "Adds steadiness to the cheer: confidence held, not merely expectation entertained, which is what lifts it past *optimistic*.",
+     "rewrite": false
+    },
+    {
+     "id": "sanguineous.oewn-01668920-s",
+     "word": "sanguineous",
+     "gloss": "confidently optimistic and cheerful",
+     "charge": 2,
+     "tone": "The heavier, more formal twin of *sanguine* for the same confident cheer, the weight falling on the word rather than the mood.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00706554-a",
+   "axis": "a mild dip in spirits → spirits utterly cast down",
+   "members": [
+    {
+     "id": "dejected.oewn-00706554-a",
+     "word": "dejected",
+     "gloss": "affected or marked by low spirits",
+     "charge": -1,
+     "tone": "The plain, unmarked word for the state - it reports low spirits without the finality of *amort* or the weather of *gloomy*.",
+     "rewrite": false
+    },
+    {
+     "id": "amort.oewn-00706811-s",
+     "word": "amort",
+     "gloss": "utterly cast down",
+     "charge": -3,
+     "tone": "Absolute rather than graded - 'utterly' leaves no degrees to argue about, putting it at the far end from a merely *low* mood.",
+     "rewrite": false
+    },
+    {
+     "id": "chapfallen.oewn-00706899-s",
+     "word": "chapfallen",
+     "gloss": "brought low in spirit",
+     "charge": -2,
+     "tone": "Identical in sense to *chopfallen*, and like it stresses being brought low - a spirit put down from a height rather than one that was always down.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "chopfallen.oewn-00706899-s",
+     "word": "chopfallen",
+     "gloss": "brought low in spirit",
+     "charge": -2,
+     "tone": "The blunter-sounding twin of *chapfallen*: the force is in the fall, not in the level reached.",
+     "rewrite": false
+    },
+    {
+     "id": "crestfallen.oewn-00706899-s",
+     "word": "crestfallen",
+     "gloss": "brought low in spirit",
+     "charge": -2,
+     "tone": "Implies the spirit stood higher before it was lowered, which *gloomy* and *low* do not.",
+     "rewrite": false
+    },
+    {
+     "id": "deflated.oewn-00706899-s",
+     "word": "deflated",
+     "gloss": "brought low in spirit",
+     "charge": -1,
+     "tone": "Flatness rather than darkness - the spirit reads as having gone out of something, the mildest and most deadpan of the brought-low set.",
+     "rewrite": false
+    },
+    {
+     "id": "gloomy.oewn-00707060-s",
+     "word": "gloomy",
+     "gloss": "filled with melancholy and despondency",
+     "charge": -2,
+     "tone": "Suffuses rather than strikes - the despondency reads as a settled climate around the person, where *deflated* reads as one blow.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "suffuses, despondency"
+     }
+    },
+    {
+     "id": "grim.oewn-00707060-s",
+     "word": "grim",
+     "gloss": "filled with melancholy and despondency",
+     "charge": -2,
+     "tone": "Hard-edged where *gloomy* is merely overcast - melancholy that has set and will not be coaxed out of.",
+     "rewrite": false
+    },
+    {
+     "id": "blue.oewn-00707060-s",
+     "word": "blue",
+     "gloss": "filled with melancholy and despondency",
+     "charge": -1,
+     "tone": "The softest word here - it makes despondency sound like a passing shade, understating what the sense actually covers.",
+     "rewrite": false
+    },
+    {
+     "id": "depressed.oewn-00707060-s",
+     "word": "depressed",
+     "gloss": "filled with melancholy and despondency",
+     "charge": -2,
+     "tone": "States the weight flatly and without consolation, none of the softening that *blue* or *down* carry.",
+     "rewrite": false
+    },
+    {
+     "id": "dispirited.oewn-00707060-s",
+     "word": "dispirited",
+     "gloss": "filled with melancholy and despondency",
+     "charge": -2,
+     "tone": "Names the loss rather than the mood - the spirit has been drained out, which registers as depletion beside *gloomy*'s heaviness.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "down.oewn-00707060-s",
+     "word": "down",
+     "gloss": "filled with melancholy and despondency",
+     "charge": -1,
+     "tone": "Informal and brief; it says the level and stops, understating beside *depressed*.",
+     "rewrite": false
+    },
+    {
+     "id": "downcast.oewn-00707060-s",
+     "word": "downcast",
+     "gloss": "filled with melancholy and despondency",
+     "charge": -2,
+     "tone": "More picture than *down* - the whole bearing is lowered, not only the mood.",
+     "rewrite": false
+    },
+    {
+     "id": "downhearted.oewn-00707060-s",
+     "word": "downhearted",
+     "gloss": "filled with melancholy and despondency",
+     "charge": -1,
+     "tone": "Gentle and sympathetic, seating the despondency in the heart and inviting comfort where *grim* forecloses it.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "despondency, forecloses"
+     }
+    },
+    {
+     "id": "down_in_the_mouth.oewn-00707060-s",
+     "word": "down in the mouth",
+     "gloss": "filled with melancholy and despondency",
+     "charge": -1,
+     "tone": "Informal and faintly wry - it points at a visible droop instead of naming the feeling, making the state sound smaller than it is.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "wry, droop"
+     }
+    },
+    {
+     "id": "low.oewn-00707060-s",
+     "word": "low",
+     "gloss": "filled with melancholy and despondency",
+     "charge": -1,
+     "tone": "The barest term available - it gives the level and nothing else, so *downhearted*'s warmth and *grim*'s hardness both fall away.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00610798-a",
+   "axis": "strangeness conspicuous enough to be a verdict → plain non-conformity",
+   "members": [
+    {
+     "id": "unconventional.oewn-00610798-a",
+     "word": "unconventional",
+     "gloss": "not conventional or conformist",
+     "charge": 0,
+     "tone": "The flat, judgement-free naming of the departure itself, which *bizarre* and *outlandish* charge up into a verdict.",
+     "rewrite": false
+    },
+    {
+     "id": "alternative.oewn-00611045-s",
+     "word": "alternative",
+     "gloss": "pertaining to unconventional choices",
+     "charge": 0,
+     "tone": "Treats the unconventionality as something chosen, and a choice is describable without being deplored.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "unconventionality, describable, deplored"
+     }
+    },
+    {
+     "id": "bizarre.oewn-00611168-s",
+     "word": "bizarre",
+     "gloss": "conspicuously or grossly unconventional or unusual",
+     "charge": -2,
+     "tone": "Strong and faintly appalled — the oddity is loud enough to unsettle, not merely to be noticed.",
+     "rewrite": false
+    },
+    {
+     "id": "eccentric.oewn-00611168-s",
+     "word": "eccentric",
+     "gloss": "conspicuously or grossly unconventional or unusual",
+     "charge": -1,
+     "tone": "The most tolerant reading of the same conspicuous oddity, allowing it to be indulged where *freakish* will not.",
+     "rewrite": false
+    },
+    {
+     "id": "freakish.oewn-00611168-s",
+     "word": "freakish",
+     "gloss": "conspicuously or grossly unconventional or unusual",
+     "charge": -2,
+     "tone": "Pushes the strangeness toward the unnatural, so the deviation sounds like a defect of kind rather than a quirk.",
+     "rewrite": false
+    },
+    {
+     "id": "freaky.oewn-00611168-s",
+     "word": "freaky",
+     "gloss": "conspicuously or grossly unconventional or unusual",
+     "charge": -1,
+     "tone": "The informal, offhand counterpart to *freakish*, registering the strangeness as a jolt rather than a fault.",
+     "rewrite": false
+    },
+    {
+     "id": "flaky.oewn-00611168-s",
+     "word": "flaky",
+     "gloss": "conspicuously or grossly unconventional or unusual",
+     "charge": -2,
+     "tone": "Informal and dismissive — the oddity is treated as too insubstantial to be taken seriously.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "oddity, insubstantial"
+     }
+    },
+    {
+     "id": "flakey.oewn-00611168-s",
+     "word": "flakey",
+     "gloss": "conspicuously or grossly unconventional or unusual",
+     "charge": -2,
+     "tone": "The variant spelling of *flaky*, carrying the identical shrug at strangeness that will not be weighed.",
+     "rewrite": false
+    },
+    {
+     "id": "gonzo.oewn-00611168-s",
+     "word": "gonzo",
+     "gloss": "conspicuously or grossly unconventional or unusual",
+     "charge": 0,
+     "tone": "Informal and almost relishing — the same conspicuous excess sounds enjoyed here, where *freakish* deplores it.",
+     "rewrite": false
+    },
+    {
+     "id": "off-the-wall.oewn-00611168-s",
+     "word": "off-the-wall",
+     "gloss": "conspicuously or grossly unconventional or unusual",
+     "charge": -1,
+     "tone": "Informal and blunt, putting the oddity outside any expected range without making it a flaw of character.",
+     "rewrite": false
+    },
+    {
+     "id": "outlandish.oewn-00611168-s",
+     "word": "outlandish",
+     "gloss": "conspicuously or grossly unconventional or unusual",
+     "charge": -2,
+     "tone": "The strangeness is excessive to the edge of absurdity, and the word scorns it where *eccentric* would indulge it.",
+     "rewrite": false
+    },
+    {
+     "id": "outre.oewn-00611168-s",
+     "word": "outre",
+     "gloss": "conspicuously or grossly unconventional or unusual",
+     "charge": -1,
+     "tone": "Formal and cool, naming the same conspicuous strangeness with a raised eyebrow instead of *outlandish*'s scorn.",
+     "rewrite": false
+    },
+    {
+     "id": "devil-may-care.oewn-00611718-s",
+     "word": "devil-may-care",
+     "gloss": "marked by a carefree unconventionality or disreputableness",
+     "charge": 0,
+     "tone": "Puts its weight on the carefreeness itself, which is what the word names whether the result reads as dash or as disrepute.",
+     "rewrite": false
+    },
+    {
+     "id": "raffish.oewn-00611718-s",
+     "word": "raffish",
+     "gloss": "marked by a carefree unconventionality or disreputableness",
+     "charge": 0,
+     "tone": "Tilts toward the disreputable half of the sense, though the carefreeness keeps it amused rather than condemning.",
+     "rewrite": false
+    },
+    {
+     "id": "rakish.oewn-00611718-s",
+     "word": "rakish",
+     "gloss": "marked by a carefree unconventionality or disreputableness",
+     "charge": 1,
+     "tone": "Hears dash in the same carefree disrepute that *raffish* hears a shabbiness in.",
+     "rewrite": false
+    },
+    {
+     "id": "far-out.oewn-00611941-s",
+     "word": "far-out",
+     "gloss": "(informal) strikingly unconventional",
+     "charge": 1,
+     "tone": "Informal, and the striking quality lands as a thrill rather than a fault — the approving end of a family whose middle condemns.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02595419-a",
+   "axis": "bare merit worth acknowledging → merit that sets the standard for others",
+   "members": [
+    {
+     "id": "worthy.oewn-02595419-a",
+     "word": "worthy",
+     "gloss": "having worth or merit or value; being honorable or admirable",
+     "charge": 2,
+     "tone": "The plain baseline of the family, covering both simply having value and being honorable, without fixing what praise is owed.",
+     "rewrite": false
+    },
+    {
+     "id": "applaudable.oewn-02595965-s",
+     "word": "applaudable",
+     "gloss": "worthy of high praise",
+     "charge": 3,
+     "tone": "The most demonstrative way to claim high praise, casting approval as something shown rather than merely stated, where *commendable* keeps it measured.",
+     "rewrite": false
+    },
+    {
+     "id": "commendable.oewn-02595965-s",
+     "word": "commendable",
+     "gloss": "worthy of high praise",
+     "charge": 3,
+     "tone": "Measured and official, granting high praise as though it were being formally entered rather than felt.",
+     "rewrite": false
+    },
+    {
+     "id": "laudable.oewn-02595965-s",
+     "word": "laudable",
+     "gloss": "worthy of high praise",
+     "charge": 3,
+     "tone": "The most formal of the high-praise set, elevated enough to sound ceremonious beside plainer *praiseworthy*.",
+     "rewrite": false
+    },
+    {
+     "id": "praiseworthy.oewn-02595965-s",
+     "word": "praiseworthy",
+     "gloss": "worthy of high praise",
+     "charge": 3,
+     "tone": "Names high praise directly and without ornament, saying what *laudable* says with none of its formality.",
+     "rewrite": false
+    },
+    {
+     "id": "creditable.oewn-02596339-s",
+     "word": "creditable",
+     "gloss": "worthy of often limited commendation",
+     "charge": 1,
+     "tone": "Praise with a ceiling built in - it grants real merit while conceding the commendation is a limited one, stopping well short of *commendable*.",
+     "rewrite": false
+    },
+    {
+     "id": "cum_laude.oewn-02596509-s",
+     "word": "cum laude",
+     "gloss": "with honor; with academic distinction",
+     "charge": 2,
+     "tone": "A fixed formal honors formula, conferring academic distinction by rank instead of describing what earned it.",
+     "rewrite": false
+    },
+    {
+     "id": "deserving.oewn-02596626-s",
+     "word": "deserving",
+     "gloss": "(often used ironically) worthy of being treated in a particular way",
+     "charge": 0,
+     "tone": "Neutral on its face: it fixes only that some treatment is fitting, never that the treatment is a good one, which is exactly what lets it turn ironic.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "worth.oewn-02596626-s",
+     "word": "worth",
+     "gloss": "(often used ironically) worthy of being treated in a particular way",
+     "charge": 0,
+     "tone": "The barer form of the same judgement, stating that a treatment is merited without the weight *deserving* carries, and equally able to land ironically.",
+     "rewrite": false
+    },
+    {
+     "id": "exemplary.oewn-02596887-s",
+     "word": "exemplary",
+     "gloss": "worthy of imitation",
+     "charge": 3,
+     "tone": "The strongest claim here - not merely praised but held up as the standard others should copy.",
+     "rewrite": false
+    },
+    {
+     "id": "model.oewn-02596887-s",
+     "word": "model",
+     "gloss": "worthy of imitation",
+     "charge": 3,
+     "tone": "Fastens to the thing as a label rather than a verdict, naming it the pattern to be imitated where *exemplary* judges it.",
+     "rewrite": false
+    },
+    {
+     "id": "magna_cum_laude.oewn-02597049-s",
+     "word": "magna cum laude",
+     "gloss": "with high honor; with high academic distinction",
+     "charge": 3,
+     "tone": "The graded step above *cum laude*, raising the honor a rank while keeping the same formal formula.",
+     "rewrite": false
+    },
+    {
+     "id": "meritorious.oewn-02597188-s",
+     "word": "meritorious",
+     "gloss": "deserving reward or praise",
+     "charge": 2,
+     "tone": "Adds the idea of something owed - the praise is earned, and a reward is due along with it.",
+     "rewrite": false
+    },
+    {
+     "id": "meritable.oewn-02597188-s",
+     "word": "meritable",
+     "gloss": "deserving reward or praise",
+     "charge": 2,
+     "tone": "The plainer formation of the same claim, carrying the earned reward without the ceremonious ring of *meritorious*.",
+     "rewrite": false
+    },
+    {
+     "id": "quotable.oewn-02597398-s",
+     "word": "quotable",
+     "gloss": "suitable for or worthy of quotation",
+     "charge": 1,
+     "tone": "The mildest and most particular worth in the family, judging fitness for quotation as much as merit in it.",
+     "rewrite": false
+    },
+    {
+     "id": "sacred.oewn-02597576-s",
+     "word": "sacred",
+     "gloss": "worthy of respect or dedication",
+     "charge": 2,
+     "tone": "Asks for reverence rather than applause - what it marks is to be respected or given over to, not simply admired as *worthy* things are.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01691099-a",
+   "axis": "not copied from a model → unprecedented enough to found what follows",
+   "members": [
+    {
+     "id": "original.oewn-01691099-a",
+     "word": "original",
+     "gloss": "being or productive of something fresh and unusual; or being as first made or thought of",
+     "charge": 1,
+     "tone": "Does double duty - mild approval for something fresh and unusual, and a flat statement that a thing stands as first made or thought of.",
+     "rewrite": false
+    },
+    {
+     "id": "avant-garde.oewn-01691548-s",
+     "word": "avant-garde",
+     "gloss": "radically new or original",
+     "charge": 2,
+     "tone": "Approval for newness pushed to its edge, where the break with what came before is the whole of the claim - a bigger assertion than *fresh* makes.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "daring.oewn-01691548-s",
+     "word": "daring",
+     "gloss": "radically new or original",
+     "charge": 2,
+     "tone": "Praises the same radical newness as *avant-garde* but hears nerve in it, as though the thing is new because someone risked making it so.",
+     "rewrite": false
+    },
+    {
+     "id": "freehand.oewn-01691672-s",
+     "word": "freehand",
+     "gloss": "done by hand without mechanical aids or devices",
+     "charge": 0,
+     "tone": "Purely a statement of method - the hand working without mechanical aid or device - and it carries none of the approval the words beside it do.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "freehanded.oewn-01691672-s",
+     "word": "freehanded",
+     "gloss": "done by hand without mechanical aids or devices",
+     "charge": 0,
+     "tone": "Says exactly what *freehand* says and no more, still describing how a thing was done rather than passing any judgement on it.",
+     "rewrite": false
+    },
+    {
+     "id": "fresh.oewn-01691809-s",
+     "word": "fresh",
+     "gloss": "original and of a kind not seen before",
+     "charge": 2,
+     "tone": "The warmest of the three that share this sense: not merely without precedent but welcome for it, where *new* only records the absence.",
+     "rewrite": false
+    },
+    {
+     "id": "new.oewn-01691809-s",
+     "word": "new",
+     "gloss": "original and of a kind not seen before",
+     "charge": 1,
+     "tone": "The plainest way to make the claim - a thing is original and unlike anything seen before - with almost no approval loaded onto it.",
+     "rewrite": false
+    },
+    {
+     "id": "novel.oewn-01691809-s",
+     "word": "novel",
+     "gloss": "original and of a kind not seen before",
+     "charge": 1,
+     "tone": "Cooler and more formal than *fresh*, treating the unlikeness to anything before as a fact worth remarking rather than a pleasure.",
+     "rewrite": false
+    },
+    {
+     "id": "germinal.oewn-01692005-s",
+     "word": "germinal",
+     "gloss": "containing seeds of later development",
+     "charge": 2,
+     "tone": "Praise pointed forward - the thing is valued for the later development it holds in seed, not for what it already amounts to.",
+     "rewrite": false
+    },
+    {
+     "id": "originative.oewn-01692005-s",
+     "word": "originative",
+     "gloss": "containing seeds of later development",
+     "charge": 1,
+     "tone": "The flattest of the three: it credits the power to start something without *germinal*'s picture of a seed and its growth.",
+     "rewrite": false
+    },
+    {
+     "id": "seminal.oewn-01692005-s",
+     "word": "seminal",
+     "gloss": "containing seeds of later development",
+     "charge": 3,
+     "tone": "The heaviest praise here, treating the thing as the source everything afterwards grows out of - a standing *germinal* only promises.",
+     "rewrite": false
+    },
+    {
+     "id": "innovative.oewn-01692228-s",
+     "word": "innovative",
+     "gloss": "being or producing something like nothing done or experienced or created before",
+     "charge": 2,
+     "tone": "Approval that lands on the making: not simply that a thing is unprecedented but that someone brought something unprecedented about.",
+     "rewrite": false
+    },
+    {
+     "id": "innovational.oewn-01692228-s",
+     "word": "innovational",
+     "gloss": "being or producing something like nothing done or experienced or created before",
+     "charge": 1,
+     "tone": "The dry variant of *innovative*, sounding more like a classification of the thing than any compliment paid to it.",
+     "rewrite": false
+    },
+    {
+     "id": "groundbreaking.oewn-01692228-s",
+     "word": "groundbreaking",
+     "gloss": "being or producing something like nothing done or experienced or created before",
+     "charge": 3,
+     "tone": "The most emphatic way to say it - first through unbroken ground - where *innovative* states the same feat without the flourish.",
+     "rewrite": false
+    },
+    {
+     "id": "underivative.oewn-01692607-s",
+     "word": "underivative",
+     "gloss": "not derivative or imitative",
+     "charge": 1,
+     "tone": "Praise made by subtraction: it clears a thing of owing itself to a source and of copying a model, without claiming freshness the way *original* does.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,917 @@
+{
+ "packet": 6,
+ "families": [
+  {
+   "family": "family-01591485-a",
+   "axis": "offensive or unpleasant → actively malicious",
+   "members": [
+    {
+     "id": "nasty.oewn-01591485-a",
+     "word": "nasty",
+     "gloss": "offensive or even (of persons) malicious",
+     "charge": -2,
+     "tone": "Condemns without naming the fault, covering plain offensiveness and shading into outright ill will, where *hateful* puts the malice at the centre.",
+     "rewrite": false
+    },
+    {
+     "id": "awful.oewn-01591485-a",
+     "word": "awful",
+     "gloss": "offensive or even (of persons) malicious",
+     "charge": -3,
+     "tone": "Absolute rather than pointed - the condemnation is total in degree where *nasty* keeps a needling edge.",
+     "rewrite": false
+    },
+    {
+     "id": "dirty.oewn-01591882-s",
+     "word": "dirty",
+     "gloss": "vile; despicable",
+     "charge": -3,
+     "tone": "Contempt by way of defilement - it treats what it hits as unclean rather than merely offensive, a heavier verdict than *grotty*.",
+     "rewrite": false
+    },
+    {
+     "id": "filthy.oewn-01591882-s",
+     "word": "filthy",
+     "gloss": "vile; despicable",
+     "charge": -3,
+     "tone": "The disgust in *dirty* pushed to its limit, vileness so thorough it lands as a moral verdict.",
+     "rewrite": false
+    },
+    {
+     "id": "lousy.oewn-01591882-s",
+     "word": "lousy",
+     "gloss": "vile; despicable",
+     "charge": -2,
+     "tone": "Contempt thrown off casually - the despising is real but carries none of the weight that *filthy* brings to it.",
+     "rewrite": false
+    },
+    {
+     "id": "grotty.oewn-01592051-s",
+     "word": "grotty",
+     "gloss": "very unpleasant or offensive",
+     "charge": -2,
+     "tone": "British and slangy, it registers offensiveness as squalid distaste rather than the moral condemnation in *filthy*.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "slangy, squalid, distaste",
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "hateful.oewn-01592194-s",
+     "word": "hateful",
+     "gloss": "characterized by malice",
+     "charge": -3,
+     "tone": "Makes ill will the whole of the charge, naming the malice itself where *nasty* only shades toward it.",
+     "rewrite": false
+    },
+    {
+     "id": "mean.oewn-01592194-s",
+     "word": "mean",
+     "gloss": "characterized by malice",
+     "charge": -2,
+     "tone": "The plainest word for malice, stating the ill will flatly where *hateful* makes it sound monstrous.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00453543-a",
+   "axis": "bare nearness or resemblance → settled, felt intimacy",
+   "members": [
+    {
+     "id": "close.oewn-00453543-a",
+     "word": "close",
+     "gloss": "close in relevance or relationship",
+     "charge": 0,
+     "tone": "The plain measure of nearness in relevance or relationship, stating the proximity without the warmth or the suspicion the rest of the set add.",
+     "rewrite": false
+    },
+    {
+     "id": "approximate.oewn-00453905-s",
+     "word": "approximate",
+     "gloss": "very close in resemblance",
+     "charge": 0,
+     "tone": "Measuring and cool - it rates a resemblance as very close while stopping short of calling it the same thing.",
+     "rewrite": false
+    },
+    {
+     "id": "near.oewn-00453905-s",
+     "word": "near",
+     "gloss": "very close in resemblance",
+     "charge": 0,
+     "tone": "Blunter than *approximate* for the same degree of resemblance - it asserts the likeness flatly instead of hedging it.",
+     "rewrite": false
+    },
+    {
+     "id": "boon.oewn-00454053-s",
+     "word": "boon",
+     "gloss": "very close and convivial",
+     "charge": 2,
+     "tone": "Warm and a little grand - closeness with good cheer inside it, heartier than the merely matey *chummy*.",
+     "rewrite": false
+    },
+    {
+     "id": "chummy.oewn-00454147-s",
+     "word": "chummy",
+     "gloss": "(used informally) associated on close terms",
+     "charge": 1,
+     "tone": "Informal and light - friendly association on easy terms, without the depth *intimate* claims.",
+     "rewrite": false
+    },
+    {
+     "id": "buddy-buddy.oewn-00454147-s",
+     "word": "buddy-buddy",
+     "gloss": "(used informally) associated on close terms",
+     "charge": 1,
+     "tone": "The doubled informal form makes the closeness emphatic and knowing where *chummy* keeps it mild.",
+     "rewrite": false
+    },
+    {
+     "id": "thick.oewn-00454147-s",
+     "word": "thick",
+     "gloss": "(used informally) associated on close terms",
+     "charge": 0,
+     "tone": "Blunt informal shorthand for being closely associated, reporting the tie without the warmth *chummy* supplies.",
+     "rewrite": false
+    },
+    {
+     "id": "close-knit.oewn-00454440-s",
+     "word": "close-knit",
+     "gloss": "held together as by social or cultural ties",
+     "charge": 1,
+     "tone": "Approving of cohesion - the bond is what holds people together, structural where *dear* is personal.",
+     "rewrite": false
+    },
+    {
+     "id": "closely_knit.oewn-00454440-s",
+     "word": "closely knit",
+     "gloss": "held together as by social or cultural ties",
+     "charge": 1,
+     "tone": "The open form spells the binding out and reads more deliberate and descriptive than the compact *close-knit*.",
+     "rewrite": false
+    },
+    {
+     "id": "confidential.oewn-00454638-s",
+     "word": "confidential",
+     "gloss": "denoting confidence or intimacy",
+     "charge": 1,
+     "tone": "Closeness figured as trust - what passes inside it is entrusted, where *chummy* is merely companionable.",
+     "rewrite": false
+    },
+    {
+     "id": "cozy.oewn-00454806-s",
+     "word": "cozy",
+     "gloss": "suggesting connivance",
+     "charge": -2,
+     "tone": "Insinuating - the closeness is treated as connivance, so the snugness of the word becomes the accusation.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "insinuating, connivance"
+     }
+    },
+    {
+     "id": "cosy.oewn-00454806-s",
+     "word": "cosy",
+     "gloss": "suggesting connivance",
+     "charge": -2,
+     "tone": "The British spelling carrying the same imputation of connivance, warmth named in order to be distrusted.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "imputation, connivance"
+     }
+    },
+    {
+     "id": "dear.oewn-00454916-s",
+     "word": "dear",
+     "gloss": "with or in a close or intimate relationship",
+     "charge": 2,
+     "tone": "Affectionate and avowed - the close relationship is felt as fondness, where *thick* merely reports the association.",
+     "rewrite": false
+    },
+    {
+     "id": "good.oewn-00454916-s",
+     "word": "good",
+     "gloss": "with or in a close or intimate relationship",
+     "charge": 1,
+     "tone": "Plain and understated for the same close relationship - it vouches for the bond rather than professing feeling as *dear* does.",
+     "rewrite": false
+    },
+    {
+     "id": "familiar.oewn-00455086-s",
+     "word": "familiar",
+     "gloss": "having mutual interests or affections; of established friendship",
+     "charge": 1,
+     "tone": "Closeness worn as ease - an established friendship that needs no ceremony, less ardent than *intimate*.",
+     "rewrite": false
+    },
+    {
+     "id": "intimate.oewn-00455086-s",
+     "word": "intimate",
+     "gloss": "having mutual interests or affections; of established friendship",
+     "charge": 2,
+     "tone": "The strongest claim in the set - mutual affection and settled friendship, closer and more private than *familiar*.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00930819-a",
+   "axis": "a bare statement that something is not there → total emptiness, or existence ended altogether",
+   "members": [
+    {
+     "id": "nonexistent.oewn-00930819-a",
+     "word": "nonexistent",
+     "gloss": "not having existence or being or actuality",
+     "charge": 0,
+     "tone": "Flat and absolute - the thing simply has no being, without the sense in *missing* that it was expected somewhere.",
+     "rewrite": false
+    },
+    {
+     "id": "lacking.oewn-00931073-s",
+     "word": "lacking",
+     "gloss": "nonexistent",
+     "charge": -1,
+     "tone": "Registers the nonexistence as a deficiency rather than a bare fact, which *absent* does not.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "absent.oewn-00931073-s",
+     "word": "absent",
+     "gloss": "nonexistent",
+     "charge": 0,
+     "tone": "Neutral and faintly formal, stating the nonexistence with none of the note of shortfall in *lacking*.",
+     "rewrite": false
+    },
+    {
+     "id": "missing.oewn-00931073-s",
+     "word": "missing",
+     "gloss": "nonexistent",
+     "charge": 0,
+     "tone": "Points at the gap - the nonexistence is felt as a hole where something belonged.",
+     "rewrite": false
+    },
+    {
+     "id": "wanting.oewn-00931073-s",
+     "word": "wanting",
+     "gloss": "nonexistent",
+     "charge": -1,
+     "tone": "The most judging of these - the nonexistence reads as falling short of a mark, not merely as nothing being there.",
+     "rewrite": false
+    },
+    {
+     "id": "barren.oewn-00931219-s",
+     "word": "barren",
+     "gloss": "completely wanting or lacking",
+     "charge": -2,
+     "tone": "Bleak - the total lack is a desolate condition rather than the cool fact *devoid* states.",
+     "rewrite": false
+    },
+    {
+     "id": "destitute.oewn-00931219-s",
+     "word": "destitute",
+     "gloss": "completely wanting or lacking",
+     "charge": -2,
+     "tone": "Severe - the complete lack sounds like deprivation, emptiness that hurts.",
+     "rewrite": false
+    },
+    {
+     "id": "devoid.oewn-00931219-s",
+     "word": "devoid",
+     "gloss": "completely wanting or lacking",
+     "charge": 0,
+     "tone": "Formal and absolute, naming total emptiness while passing no verdict on it.",
+     "rewrite": false
+    },
+    {
+     "id": "free.oewn-00931219-s",
+     "word": "free",
+     "gloss": "completely wanting or lacking",
+     "charge": 2,
+     "tone": "The approving member - the same complete lack is a relief, the absent thing one you are better off without.",
+     "rewrite": false
+    },
+    {
+     "id": "innocent.oewn-00931219-s",
+     "word": "innocent",
+     "gloss": "completely wanting or lacking",
+     "charge": 1,
+     "tone": "Light and wry - complete absence made to sound blameless, the opposite colouring to *destitute*.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "wry, blameless"
+     }
+    },
+    {
+     "id": "nonextant.oewn-00931479-s",
+     "word": "nonextant",
+     "gloss": "no longer existing or inaccessible through loss or destruction",
+     "charge": 0,
+     "tone": "Technical and dry - marks the thing as gone through loss or destruction and judges nothing about it.",
+     "rewrite": false
+    },
+    {
+     "id": "vanished.oewn-00931655-s",
+     "word": "vanished",
+     "gloss": "having passed out of existence",
+     "charge": 0,
+     "tone": "Carries the drama of a disappearance - existence not merely denied but ended, where *nonexistent* implies no before.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01622205-a",
+   "axis": "easy to see → so complete it needs no proof or explanation",
+   "members": [
+    {
+     "id": "obvious.oewn-01622205-a",
+     "word": "obvious",
+     "gloss": "easily perceived and understood",
+     "charge": 0,
+     "tone": "The flat baseline of the group: a thing takes no effort to see or grasp, without *palpable*'s pressure or *axiomatic*'s claim about proof.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "apparent.oewn-01622528-s",
+     "word": "apparent",
+     "gloss": "clearly revealed to the mind or the senses or judgment",
+     "charge": 0,
+     "tone": "The lightest way here of saying the thing shows itself — it reports the showing rather than pressing it, unlike *unmistakable*.",
+     "rewrite": false
+    },
+    {
+     "id": "evident.oewn-01622528-s",
+     "word": "evident",
+     "gloss": "clearly revealed to the mind or the senses or judgment",
+     "charge": 0,
+     "tone": "Plain and unemphatic: the thing is simply there to be seen, with none of the display *manifest* makes of it.",
+     "rewrite": false
+    },
+    {
+     "id": "manifest.oewn-01622528-s",
+     "word": "manifest",
+     "gloss": "clearly revealed to the mind or the senses or judgment",
+     "charge": 0,
+     "tone": "Formal and expansive — the thing does not merely show but puts itself on show, a grander word than *evident* for the same clarity.",
+     "rewrite": false
+    },
+    {
+     "id": "palpable.oewn-01622528-s",
+     "word": "palpable",
+     "gloss": "clearly revealed to the mind or the senses or judgment",
+     "charge": 0,
+     "tone": "Pushes the showing towards touch, so the thing is felt as much as seen — heavier in the hand than *apparent*.",
+     "rewrite": false
+    },
+    {
+     "id": "patent.oewn-01622528-s",
+     "word": "patent",
+     "gloss": "clearly revealed to the mind or the senses or judgment",
+     "charge": 0,
+     "tone": "Formal and declarative: the clarity is stated as settled fact rather than offered as an impression, where *palpable* appeals to the senses.",
+     "rewrite": false
+    },
+    {
+     "id": "plain.oewn-01622528-s",
+     "word": "plain",
+     "gloss": "clearly revealed to the mind or the senses or judgment",
+     "charge": 0,
+     "tone": "The homeliest word here — clarity with no ceremony at all, exactly what *manifest* supplies in excess.",
+     "rewrite": false
+    },
+    {
+     "id": "unmistakable.oewn-01622528-s",
+     "word": "unmistakable",
+     "gloss": "clearly revealed to the mind or the senses or judgment",
+     "charge": 0,
+     "tone": "Works by ruling out the alternative: the thing cannot be read as anything else, a firmer guarantee than *apparent* gives.",
+     "rewrite": false
+    },
+    {
+     "id": "axiomatic.oewn-01623076-s",
+     "word": "axiomatic",
+     "gloss": "evident without proof or argument",
+     "charge": 0,
+     "tone": "Formal and absolute — the thing stands with no argument put behind it, a larger claim than being merely *evident*.",
+     "rewrite": false
+    },
+    {
+     "id": "self-evident.oewn-01623076-s",
+     "word": "self-evident",
+     "gloss": "evident without proof or argument",
+     "charge": 0,
+     "tone": "The plainer word for the same standing as *axiomatic*: the thing carries its own warrant and asks for none to be brought.",
+     "rewrite": false
+    },
+    {
+     "id": "taken_for_granted.oewn-01623076-s",
+     "word": "taken for granted",
+     "gloss": "evident without proof or argument",
+     "charge": 0,
+     "tone": "An ordinary-language phrase that concedes the standing rather than asserting it — the thing passes without argument instead of being shown to need none.",
+     "rewrite": false
+    },
+    {
+     "id": "demonstrable.oewn-01623286-s",
+     "word": "demonstrable",
+     "gloss": "capable of being demonstrated or proved",
+     "charge": 0,
+     "tone": "Shifts from what is seen to what can be shown: the clarity is available on demand rather than immediate, unlike *obvious*.",
+     "rewrite": false
+    },
+    {
+     "id": "provable.oewn-01623286-s",
+     "word": "provable",
+     "gloss": "capable of being demonstrated or proved",
+     "charge": 0,
+     "tone": "The blunter twin of *demonstrable*, resting the whole claim on proof being possible.",
+     "rewrite": false
+    },
+    {
+     "id": "frank.oewn-01623560-s",
+     "word": "frank",
+     "gloss": "clearly manifest; evident",
+     "charge": 0,
+     "tone": "Technical and unemphatic — it flags the thing as clearly there and does nothing more with it, where *manifest* makes a display.",
+     "rewrite": false
+    },
+    {
+     "id": "open-and-shut.oewn-01623656-s",
+     "word": "open-and-shut",
+     "gloss": "so obvious as to be easily solved or decided",
+     "charge": 0,
+     "tone": "Informal and conclusive: the obviousness is enough to settle the matter, not merely to be seen — a force *plain* never reaches.",
+     "rewrite": false
+    },
+    {
+     "id": "self-explanatory.oewn-01623785-s",
+     "word": "self-explanatory",
+     "gloss": "needing no explanation",
+     "charge": 0,
+     "tone": "The thing supplies its own account, so nothing need be added to it — a different job from *obvious*, which only says it is easy to grasp.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-01812521-a",
+   "axis": "faint, matter-of-fact approval → superlative delight",
+   "members": [
+    {
+     "id": "pleasing.oewn-01812521-a",
+     "word": "pleasing",
+     "gloss": "giving pleasure and satisfaction",
+     "charge": 2,
+     "tone": "Plain, unraised approval - it states the pleasure and satisfaction given and leaves it there, where *delightful* insists.",
+     "rewrite": false
+    },
+    {
+     "id": "admirable.oewn-01812870-s",
+     "word": "admirable",
+     "gloss": "inspiring admiration or approval",
+     "charge": 2,
+     "tone": "Approval with esteem in it - it asks you to look up at the thing rather than merely enjoy it, a graver register than *charming*.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "charming.oewn-01813064-s",
+     "word": "charming",
+     "gloss": "pleasing or delighting",
+     "charge": 2,
+     "tone": "Warm and disarming - the pleasure sounds like an appeal exerted on you, gentler than *delightful*'s enthusiasm.",
+     "rewrite": false
+    },
+    {
+     "id": "delightful.oewn-01813229-s",
+     "word": "delightful",
+     "gloss": "greatly pleasing or entertaining",
+     "charge": 3,
+     "tone": "Enthusiastic - the pleasure is raised to a high pitch and given an edge of entertainment that *pleasing* lacks.",
+     "rewrite": false
+    },
+    {
+     "id": "delicious.oewn-01813229-s",
+     "word": "delicious",
+     "gloss": "greatly pleasing or entertaining",
+     "charge": 3,
+     "tone": "Savouring - it makes high pleasure sound like something relished, richer and more indulgent than *delightful*.",
+     "rewrite": false
+    },
+    {
+     "id": "easy.oewn-01813404-s",
+     "word": "easy",
+     "gloss": "affording pleasure",
+     "charge": 1,
+     "tone": "Understated to the edge of neutrality - it concedes that pleasure is afforded without any warmth of praise behind it.",
+     "rewrite": false
+    },
+    {
+     "id": "fabulous.oewn-01813492-s",
+     "word": "fabulous",
+     "gloss": "extremely pleasing",
+     "charge": 3,
+     "tone": "Extravagant - praise pitched at the ceiling and past plausibility, far louder than *pleasing*.",
+     "rewrite": false
+    },
+    {
+     "id": "fab.oewn-01813492-s",
+     "word": "fab",
+     "gloss": "extremely pleasing",
+     "charge": 3,
+     "tone": "Slangy and clipped - the same top-of-the-scale praise as *fabulous*, tossed off rather than declared.",
+     "rewrite": false
+    },
+    {
+     "id": "good.oewn-01813594-s",
+     "word": "good",
+     "gloss": "capable of pleasing",
+     "charge": 1,
+     "tone": "All-purpose and colourless - it grants no more than the capacity to please, where *pleasing* reports pleasure actually given.",
+     "rewrite": false
+    },
+    {
+     "id": "gratifying.oewn-01813678-s",
+     "word": "gratifying",
+     "gloss": "pleasing to the mind or feeling",
+     "charge": 2,
+     "tone": "Sober and faintly formal - it puts the pleasure in the mind or the feelings rather than on the surface, weightier than *sweet*.",
+     "rewrite": false
+    },
+    {
+     "id": "sweet.oewn-01813678-s",
+     "word": "sweet",
+     "gloss": "pleasing to the mind or feeling",
+     "charge": 2,
+     "tone": "Warm and informal - the same inward pleasure as *gratifying*, but tender and unguarded rather than composed.",
+     "rewrite": false
+    },
+    {
+     "id": "ingratiating.oewn-01813809-s",
+     "word": "ingratiating",
+     "gloss": "capable of winning favor",
+     "charge": 0,
+     "tone": "It measures pleasing by the favour won rather than by the pleasure given, which tilts it away from praising the thing at all, unlike *charming*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00748528-a",
+   "axis": "difficulty framed as a stretch worth making → difficulty framed as a predicament no one would want",
+   "members": [
+    {
+     "id": "difficult.oewn-00748528-a",
+     "word": "difficult",
+     "gloss": "not easy; requiring great physical or mental effort to accomplish or comprehend or endure",
+     "charge": 0,
+     "tone": "Flat and unemotive - it registers that effort is required to do, grasp or bear the thing, without hinting whether that effort is worth spending, as *challenging* does.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words",
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "hard.oewn-00748528-a",
+     "word": "hard",
+     "gloss": "not easy; requiring great physical or mental effort to accomplish or comprehend or endure",
+     "charge": 0,
+     "tone": "The blunt, plain-spoken version of *difficult* for the same demand, taking effort of body, mind or endurance as it comes and softening none of it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "ambitious.oewn-00749254-s",
+     "word": "ambitious",
+     "gloss": "requiring full use of your abilities or resources",
+     "charge": 1,
+     "tone": "Approving - it treats the full call on your abilities and resources as a reach worth making rather than a weight to be borne.",
+     "rewrite": false
+    },
+    {
+     "id": "challenging.oewn-00749254-s",
+     "word": "challenging",
+     "gloss": "requiring full use of your abilities or resources",
+     "charge": 1,
+     "tone": "Turns that same full call on everything you have into an invitation to rise to it, so the demand reads as a spur where *problematic* reads as a fault.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "29 words"
+     }
+    },
+    {
+     "id": "arduous.oewn-00749470-s",
+     "word": "arduous",
+     "gloss": "difficult to accomplish; demanding considerable mental effort and skill",
+     "charge": 0,
+     "tone": "Formal and weighty - it dwells on the sustained mental effort and skill the thing exacts before it will be accomplished, heavier in the mouth than *hard*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "awkward.oewn-00749659-s",
+     "word": "awkward",
+     "gloss": "hard to deal with; especially causing pain or embarrassment",
+     "charge": -1,
+     "tone": "Mildly disapproving - the difficulty sits in the handling, since any move you make risks the pain or embarrassment the thing carries.",
+     "rewrite": false
+    },
+    {
+     "id": "embarrassing.oewn-00749659-s",
+     "word": "embarrassing",
+     "gloss": "hard to deal with; especially causing pain or embarrassment",
+     "charge": -2,
+     "tone": "Puts the discomfort squarely on the face of whoever has to deal with it, naming the exposure that *awkward* leaves implied.",
+     "rewrite": false
+    },
+    {
+     "id": "sticky.oewn-00749659-s",
+     "word": "sticky",
+     "gloss": "hard to deal with; especially causing pain or embarrassment",
+     "charge": -1,
+     "tone": "Informal - it makes the trouble something you are caught in and cannot step cleanly out of, lighter in tone than *unenviable* and no easier to escape.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "unenviable.oewn-00749659-s",
+     "word": "unenviable",
+     "gloss": "hard to deal with; especially causing pain or embarrassment",
+     "charge": -2,
+     "tone": "An understated verdict that condemns by observation - the thing is framed as unwished-for, and the word damns it without raising its voice.",
+     "rewrite": false
+    },
+    {
+     "id": "baffling.oewn-00750063-s",
+     "word": "baffling",
+     "gloss": "making great mental demands; hard to comprehend or solve or believe",
+     "charge": 0,
+     "tone": "Puts the great mental demand where understanding fails - the thing does not merely resist solution, it leaves you at a loss.",
+     "rewrite": false
+    },
+    {
+     "id": "elusive.oewn-00750063-s",
+     "word": "elusive",
+     "gloss": "making great mental demands; hard to comprehend or solve or believe",
+     "charge": 0,
+     "tone": "The difficulty is in the slipping away: comprehension seems within reach and will not close on it, unlike the frank obstruction of *knotty*.",
+     "rewrite": false
+    },
+    {
+     "id": "knotty.oewn-00750063-s",
+     "word": "knotty",
+     "gloss": "making great mental demands; hard to comprehend or solve or believe",
+     "charge": 0,
+     "tone": "Gives the mental demand a shape - a tangle to be picked apart strand by strand, rather than the blank wall of *baffling*.",
+     "rewrite": false
+    },
+    {
+     "id": "problematic.oewn-00750063-s",
+     "word": "problematic",
+     "gloss": "making great mental demands; hard to comprehend or solve or believe",
+     "charge": -1,
+     "tone": "Labels the demanding thing a problem outright, a mild verdict against it where *tough* only reports the demand.",
+     "rewrite": false
+    },
+    {
+     "id": "problematical.oewn-00750063-s",
+     "word": "problematical",
+     "gloss": "making great mental demands; hard to comprehend or solve or believe",
+     "charge": -1,
+     "tone": "Stiffer and more formal than *problematic* for the same verdict, its extra syllable adding weight rather than force.",
+     "rewrite": false
+    },
+    {
+     "id": "tough.oewn-00750063-s",
+     "word": "tough",
+     "gloss": "making great mental demands; hard to comprehend or solve or believe",
+     "charge": 0,
+     "tone": "Informal and almost respectful of the difficulty - it sizes up the mental demand as something to be taken on and says nothing against it.",
+     "rewrite": false
+    },
+    {
+     "id": "catchy.oewn-00750431-s",
+     "word": "catchy",
+     "gloss": "having concealed difficulty",
+     "charge": -1,
+     "tone": "Warns of a snare - the difficulty is concealed until you are into it, so the word marks the thing as harder than it lets on.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00713705-a",
+   "axis": "requiring more than usual → severe and impossible to satisfy",
+   "members": [
+    {
+     "id": "demanding.oewn-00713705-a",
+     "word": "demanding",
+     "gloss": "requiring more than usually expected or thought due; especially great patience and effort and skill",
+     "charge": 0,
+     "tone": "Plain and unheated - it names the size of what is asked without ruling on whether asking it is fair, where *hard-to-please* has already convicted someone.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "exigent.oewn-00714030-s",
+     "word": "exigent",
+     "gloss": "requiring precise accuracy",
+     "charge": 0,
+     "tone": "The formal, cool-surfaced twin of *exacting* - the same insistence on precision, pitched at a distance.",
+     "rewrite": false
+    },
+    {
+     "id": "exacting.oewn-00714030-s",
+     "word": "exacting",
+     "gloss": "requiring precise accuracy",
+     "charge": 0,
+     "tone": "Puts the weight on the standard itself, so the precision reads as a measure to be met rather than a temper to be humoured.",
+     "rewrite": false
+    },
+    {
+     "id": "hard-to-please.oewn-00714186-s",
+     "word": "hard-to-please",
+     "gloss": "(of persons) fussy and demanding",
+     "charge": -2,
+     "tone": "Disparaging - the fussiness makes the demand a flaw in the person, which *exacting* never does.",
+     "rewrite": false
+    },
+    {
+     "id": "hard_to_please.oewn-00714186-s",
+     "word": "hard to please",
+     "gloss": "(of persons) fussy and demanding",
+     "charge": -2,
+     "tone": "The open spelling carries the same verdict but reads as a running remark about someone rather than a label fixed to them.",
+     "rewrite": false
+    },
+    {
+     "id": "needy.oewn-00714375-s",
+     "word": "needy",
+     "gloss": "demanding or needing attention, affection, or reassurance to an excessive degree",
+     "charge": -2,
+     "tone": "Belittling and intimate - the excess is emotional appetite, and the word tips toward pity where *hard-to-please* stays at irritation.",
+     "rewrite": false
+    },
+    {
+     "id": "rigorous.oewn-00714525-s",
+     "word": "rigorous",
+     "gloss": "demanding strict attention to rules and procedures",
+     "charge": 1,
+     "tone": "Approving - the strictness registers as discipline worth having, where *tight* only pinches.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "stringent.oewn-00714525-s",
+     "word": "stringent",
+     "gloss": "demanding strict attention to rules and procedures",
+     "charge": 0,
+     "tone": "Cool and administrative, stating how tightly the rules bind without either praising or resenting the binding.",
+     "rewrite": false
+    },
+    {
+     "id": "tight.oewn-00714525-s",
+     "word": "tight",
+     "gloss": "demanding strict attention to rules and procedures",
+     "charge": -1,
+     "tone": "The informal one, and the constriction is felt - the rules squeeze rather than uphold anything.",
+     "rewrite": false
+    },
+    {
+     "id": "stern.oewn-00714774-s",
+     "word": "stern",
+     "gloss": "severe and unremitting in making demands",
+     "charge": -1,
+     "tone": "Adds a forbidding manner to the severity - the unrelenting demand arrives with a chill that *strict* does not carry.",
+     "rewrite": false
+    },
+    {
+     "id": "strict.oewn-00714774-s",
+     "word": "strict",
+     "gloss": "severe and unremitting in making demands",
+     "charge": 0,
+     "tone": "The flat word for the same unrelenting severity, stating it without colouring it as harshness.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01295251-a",
+   "axis": "a light leaning that could go either way → a tendency fixed hard enough to be counted on",
+   "members": [
+    {
+     "id": "inclined.oewn-01295251-a",
+     "word": "inclined",
+     "gloss": "(often followed by ‘to’) having a preference, disposition, or tendency",
+     "charge": 0,
+     "tone": "Mild and non-committal - the leaning is stated lightly enough to leave room for doing otherwise, where *prone* fixes it in place.",
+     "rewrite": false
+    },
+    {
+     "id": "apt.oewn-01295534-s",
+     "word": "apt",
+     "gloss": "(usually followed by ‘to’) naturally disposed toward",
+     "charge": 0,
+     "tone": "Neutral but predictive - it treats the leaning as a matter of the subject's nature, so what follows sounds expected rather than merely possible.",
+     "rewrite": false
+    },
+    {
+     "id": "disposed.oewn-01295534-s",
+     "word": "disposed",
+     "gloss": "(usually followed by ‘to’) naturally disposed toward",
+     "charge": 0,
+     "tone": "Formal and dry - the leaning sounds like a settled arrangement of temperament rather than an appetite, cooler than *given*.",
+     "rewrite": false
+    },
+    {
+     "id": "given.oewn-01295534-s",
+     "word": "given",
+     "gloss": "(usually followed by ‘to’) naturally disposed toward",
+     "charge": 0,
+     "tone": "Blunt and settled - the disposition sounds ingrained rather than merely present, heavier and more everyday than *disposed*.",
+     "rewrite": false
+    },
+    {
+     "id": "minded.oewn-01295534-s",
+     "word": "minded",
+     "gloss": "(usually followed by ‘to’) naturally disposed toward",
+     "charge": 0,
+     "tone": "Puts the disposition in the subject's cast of mind rather than in what it does, which is what separates it from *tending*.",
+     "rewrite": false
+    },
+    {
+     "id": "tending.oewn-01295534-s",
+     "word": "tending",
+     "gloss": "(usually followed by ‘to’) naturally disposed toward",
+     "charge": 0,
+     "tone": "The plainest of these - it names the direction of the leaning and claims nothing about temperament or liking.",
+     "rewrite": false
+    },
+    {
+     "id": "fond.oewn-01295806-s",
+     "word": "fond",
+     "gloss": "(followed by ‘of’ or ‘to’) having a strong preference or liking for",
+     "charge": 0,
+     "tone": "Warm - the leaning is felt as liking rather than as mere direction, which is what lifts it clear of *inclined*.",
+     "rewrite": false
+    },
+    {
+     "id": "partial.oewn-01295806-s",
+     "word": "partial",
+     "gloss": "(followed by ‘of’ or ‘to’) having a strong preference or liking for",
+     "charge": 0,
+     "tone": "Lighter and more indulgent than *fond* - it casts the strong liking as a weakness cheerfully admitted.",
+     "rewrite": false
+    },
+    {
+     "id": "prone.oewn-01296007-s",
+     "word": "prone",
+     "gloss": "having a tendency (to); often used in combination",
+     "charge": 0,
+     "tone": "Flat and fixing - it states the tendency as a standing liability rather than a leaning, and welds straight onto whatever is tended toward.",
+     "rewrite": false
+    },
+    {
+     "id": "accident-prone.oewn-01296172-s",
+     "word": "accident-prone",
+     "gloss": "having more than the average number of accidents",
+     "charge": -1,
+     "tone": "Mildly damning - it turns a count of mishaps into a standing property of whatever it is aimed at, so the accidents read as owed to it rather than to chance.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "30 words"
+     }
+    }
+   ]
+  }
+ ]
+}

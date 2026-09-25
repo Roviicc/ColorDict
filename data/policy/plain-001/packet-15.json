@@ -1,0 +1,943 @@
+{
+ "packet": 15,
+ "families": [
+  {
+   "family": "family-01753804-a",
+   "axis": "no fault found in it → complete and consummate perfection",
+   "members": [
+    {
+     "id": "perfect.oewn-01753804-a",
+     "word": "perfect",
+     "gloss": "being complete of its kind and without defect or blemish",
+     "charge": 2,
+     "tone": "The unqualified standard here, claiming completeness of its kind as well as the absence of blemish, where *flawless* claims only the absence.",
+     "rewrite": false
+    },
+    {
+     "id": "clean.oewn-01754399-s",
+     "word": "clean",
+     "gloss": "(of a record) having no marks of discredit or offense",
+     "charge": 1,
+     "tone": "Praise by absence - a record with nothing marked against it, a narrower claim than the completeness *perfect* asserts.",
+     "rewrite": false
+    },
+    {
+     "id": "clear.oewn-01754557-s",
+     "word": "clear",
+     "gloss": "free from flaw or blemish or impurity",
+     "charge": 2,
+     "tone": "Reaches past flaw and blemish to impurity as well, so it can clear a substance and not only a performance.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "blemish, impurity"
+     }
+    },
+    {
+     "id": "cold.oewn-01754740-s",
+     "word": "cold",
+     "gloss": "marked by errorless familiarity",
+     "charge": 2,
+     "tone": "Perfection as drilled familiarity - the thing is known so thoroughly that error does not arise, where *errorless* only reports that none did.",
+     "rewrite": false
+    },
+    {
+     "id": "complete.oewn-01754870-s",
+     "word": "complete",
+     "gloss": "perfect and complete in every respect; having all necessary qualities",
+     "charge": 2,
+     "tone": "Asserts that every necessary quality is present, the opposite test from *flawless*: nothing missing rather than nothing wrong.",
+     "rewrite": false
+    },
+    {
+     "id": "consummate.oewn-01754870-s",
+     "word": "consummate",
+     "gloss": "perfect and complete in every respect; having all necessary qualities",
+     "charge": 3,
+     "tone": "Formal and superlative where *complete* is plain, pitching the same total sufficiency as an accolade.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "superlative, accolade",
+      "grammar": "superlative"
+     }
+    },
+    {
+     "id": "down.oewn-01755101-s",
+     "word": "down",
+     "gloss": "understood perfectly",
+     "charge": 1,
+     "tone": "Puts the perfection in the grasp rather than in the thing - the understanding is finished, and it says so flatly.",
+     "rewrite": false
+    },
+    {
+     "id": "down_pat.oewn-01755101-s",
+     "word": "down pat",
+     "gloss": "understood perfectly",
+     "charge": 2,
+     "tone": "The idiom tightens *down* into exactness: not merely understood but understood to the letter.",
+     "rewrite": false
+    },
+    {
+     "id": "mastered.oewn-01755101-s",
+     "word": "mastered",
+     "gloss": "understood perfectly",
+     "charge": 2,
+     "tone": "Dignifies the same perfect understanding as an attainment, where *down* merely reports the state.",
+     "rewrite": false
+    },
+    {
+     "id": "errorless.oewn-01755230-s",
+     "word": "errorless",
+     "gloss": "free from error",
+     "charge": 1,
+     "tone": "A flat count of no errors, the coolest word in the family beside *impeccable*'s admiration.",
+     "rewrite": false
+    },
+    {
+     "id": "faultless.oewn-01755331-s",
+     "word": "faultless",
+     "gloss": "without fault or error",
+     "charge": 2,
+     "tone": "Takes in fault as well as error, so it acquits the conduct and not just the execution.",
+     "rewrite": false
+    },
+    {
+     "id": "immaculate.oewn-01755331-s",
+     "word": "immaculate",
+     "gloss": "without fault or error",
+     "charge": 3,
+     "tone": "Lifts the same absence of fault into something untouched, admiring where *errorless* is merely accurate.",
+     "rewrite": false
+    },
+    {
+     "id": "impeccable.oewn-01755331-s",
+     "word": "impeccable",
+     "gloss": "without fault or error",
+     "charge": 3,
+     "tone": "Reads the absence of fault as a standard held to - admiration rather than measurement.",
+     "rewrite": false
+    },
+    {
+     "id": "incorrupted.oewn-01755331-s",
+     "word": "incorrupted",
+     "gloss": "without fault or error",
+     "charge": 1,
+     "tone": "Frames faultlessness as something kept intact rather than achieved, and in a stiffer register than *faultless*.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "flawless.oewn-01755578-s",
+     "word": "flawless",
+     "gloss": "without a flaw",
+     "charge": 2,
+     "tone": "Single-minded - one flaw would undo it, where *complete* asks instead whether everything is there.",
+     "rewrite": false
+    },
+    {
+     "id": "unflawed.oewn-01755578-s",
+     "word": "unflawed",
+     "gloss": "without a flaw",
+     "charge": 1,
+     "tone": "The plain negation beside *flawless*, denying the flaw without carrying the admiration.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "negation"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00478809-a",
+   "axis": "plain physical ease → warm, enveloping comfort",
+   "members": [
+    {
+     "id": "comfortable.oewn-00478809-a",
+     "word": "comfortable",
+     "gloss": "providing or experiencing physical well-being or relief (‘comfy’ is informal)",
+     "charge": 1,
+     "tone": "The plain baseline of the set, covering both the chair and the person sitting in it, without the warmth *cozy* adds.",
+     "rewrite": false
+    },
+    {
+     "id": "comfy.oewn-00478809-a",
+     "word": "comfy",
+     "gloss": "providing or experiencing physical well-being or relief (‘comfy’ is informal)",
+     "charge": 1,
+     "tone": "Informal and fond where *comfortable* is plain, claiming no more ease than it does — only a softer way of saying it.",
+     "rewrite": false
+    },
+    {
+     "id": "cozy.oewn-00479274-s",
+     "word": "cozy",
+     "gloss": "enjoying or affording comforting warmth and shelter especially in a small space",
+     "charge": 2,
+     "tone": "Adds warmth and shelter to *comfortable*'s bare ease, the comfort of being enclosed and kept warm.",
+     "rewrite": false
+    },
+    {
+     "id": "cosy.oewn-00479274-s",
+     "word": "cosy",
+     "gloss": "enjoying or affording comforting warmth and shelter especially in a small space",
+     "charge": 2,
+     "tone": "Carries exactly *cozy*'s sheltered warmth; the difference is one of spelling, not of force.",
+     "rewrite": false
+    },
+    {
+     "id": "snug.oewn-00479274-s",
+     "word": "snug",
+     "gloss": "enjoying or affording comforting warmth and shelter especially in a small space",
+     "charge": 2,
+     "tone": "Puts the weight on close fit — comfort from being tucked into a small space rather than merely warmed, more bodily than *cozy*.",
+     "rewrite": false
+    },
+    {
+     "id": "easy.oewn-00479543-s",
+     "word": "easy",
+     "gloss": "affording comfort",
+     "charge": 1,
+     "tone": "The thinnest word here: it says a thing affords comfort and stops, with none of *cozy*'s warmth or *soothing*'s relief.",
+     "rewrite": false
+    },
+    {
+     "id": "homelike.oewn-00479651-s",
+     "word": "homelike",
+     "gloss": "having a feeling of home; cozy and comfortable",
+     "charge": 2,
+     "tone": "Locates the comfort in the feeling of home, so it praises a place for putting you at ease rather than for warmth alone as *cozy* does.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "homely.oewn-00479651-s",
+     "word": "homely",
+     "gloss": "having a feeling of home; cozy and comfortable",
+     "charge": 2,
+     "tone": "The same home-feeling approval as *homelike*, settled and unshowy — the praise is for the ease of the place, not its grandeur.",
+     "rewrite": false
+    },
+    {
+     "id": "homey.oewn-00479651-s",
+     "word": "homey",
+     "gloss": "having a feeling of home; cozy and comfortable",
+     "charge": 2,
+     "tone": "Informal where *homelike* is plainly descriptive, saying the same home-comfort more casually.",
+     "rewrite": false
+    },
+    {
+     "id": "homy.oewn-00479651-s",
+     "word": "homy",
+     "gloss": "having a feeling of home; cozy and comfortable",
+     "charge": 2,
+     "tone": "A spelling variant of *homey*, identical in its fond, informal warmth toward a place that feels like home.",
+     "rewrite": false
+    },
+    {
+     "id": "soothing.oewn-00479886-s",
+     "word": "soothing",
+     "gloss": "affording physical relief",
+     "charge": 2,
+     "tone": "Comfort framed as active relief — where *easy* merely affords comfort, this one implies a physical discomfort being eased.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01811138-a",
+   "axis": "cool displeasure → provoked past patience into revulsion",
+   "members": [
+    {
+     "id": "displeased.oewn-01811138-a",
+     "word": "displeased",
+     "gloss": "not pleased; experiencing or manifesting displeasure",
+     "charge": 0,
+     "tone": "The family's coolest term: it registers the absence of pleasure and lets it show, without conceding any heat to it.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "annoyed.oewn-01811355-s",
+     "word": "annoyed",
+     "gloss": "aroused to impatience or anger",
+     "charge": -1,
+     "tone": "The plain, unheated name for the state: impatience or anger without the colouring that *miffed* or *steamed* add to it.",
+     "rewrite": false
+    },
+    {
+     "id": "irritated.oewn-01811355-s",
+     "word": "irritated",
+     "gloss": "aroused to impatience or anger",
+     "charge": -1,
+     "tone": "Friction rather than flare: the same impatience or anger, but felt as something rubbing on and on rather than landing once like *stung*.",
+     "rewrite": false
+    },
+    {
+     "id": "miffed.oewn-01811355-s",
+     "word": "miffed",
+     "gloss": "aroused to impatience or anger",
+     "charge": -1,
+     "tone": "Light and slightly diminishing, it sizes the impatience or anger as a small thing and the person holding it as easily put out, where *annoyed* passes no such judgement.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "29 words"
+     }
+    },
+    {
+     "id": "nettled.oewn-01811355-s",
+     "word": "nettled",
+     "gloss": "aroused to impatience or anger",
+     "charge": -1,
+     "tone": "Prickled and smarting: the state as something that caught and stings still, sharper in point than *annoyed* and briefer than *irritated*.",
+     "rewrite": false
+    },
+    {
+     "id": "peeved.oewn-01811355-s",
+     "word": "peeved",
+     "gloss": "aroused to impatience or anger",
+     "charge": -1,
+     "tone": "Small and faintly comic, it scales the impatience or anger down to a grievance worth mentioning but not worth raising your voice over.",
+     "rewrite": false
+    },
+    {
+     "id": "pissed.oewn-01811355-s",
+     "word": "pissed",
+     "gloss": "aroused to impatience or anger",
+     "charge": -2,
+     "tone": "Vulgar and blunt, it states the same impatience or anger in the coarsest register the family has, which is everything *displeased* withholds.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "pissed_off.oewn-01811355-s",
+     "word": "pissed off",
+     "gloss": "aroused to impatience or anger",
+     "charge": -2,
+     "tone": "Carries the coarse charge of *pissed* with the particle adding follow-through, anger sent outward rather than merely held.",
+     "rewrite": false
+    },
+    {
+     "id": "riled.oewn-01811355-s",
+     "word": "riled",
+     "gloss": "aroused to impatience or anger",
+     "charge": -2,
+     "tone": "Stirred up rather than simply arrived at: it puts the impatience or anger down to having been worked into someone.",
+     "rewrite": false
+    },
+    {
+     "id": "roiled.oewn-01811355-s",
+     "word": "roiled",
+     "gloss": "aroused to impatience or anger",
+     "charge": -2,
+     "tone": "Churn instead of flare, the impatience or anger turbid and unsettled all through, where *stung* is one sharp point.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "impatience, turbid"
+     }
+    },
+    {
+     "id": "steamed.oewn-01811355-s",
+     "word": "steamed",
+     "gloss": "aroused to impatience or anger",
+     "charge": -2,
+     "tone": "Pressure made visible, the heat contained but plainly building, hotter than *peeved* and short of the coarseness of *pissed off*.",
+     "rewrite": false
+    },
+    {
+     "id": "stung.oewn-01811355-s",
+     "word": "stung",
+     "gloss": "aroused to impatience or anger",
+     "charge": -1,
+     "tone": "The state as recoil: something landed, and the impatience or anger is the flinch back from it, where *irritated* only wears on.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "impatience, flinch"
+     }
+    },
+    {
+     "id": "exasperated.oewn-01811732-s",
+     "word": "exasperated",
+     "gloss": "greatly annoyed; out of patience",
+     "charge": -2,
+     "tone": "The end of the line, annoyance carried far enough that patience is spent, which is exactly what *annoyed* still holds in reserve.",
+     "rewrite": false
+    },
+    {
+     "id": "cheesed_off.oewn-01811732-s",
+     "word": "cheesed off",
+     "gloss": "greatly annoyed; out of patience",
+     "charge": -1,
+     "tone": "British and deflating: a full loss of patience carried in a phrase too offhand to shout, where *exasperated* keeps its composure.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "deflating, offhand"
+     }
+    },
+    {
+     "id": "browned_off.oewn-01811732-s",
+     "word": "browned off",
+     "gloss": "greatly annoyed; out of patience",
+     "charge": -1,
+     "tone": "Flat, worn British informality, the patience gone by erosion rather than blown out like *steamed*.",
+     "rewrite": false
+    },
+    {
+     "id": "disgusted.oewn-01811926-s",
+     "word": "disgusted",
+     "gloss": "having a strong distaste from surfeit",
+     "charge": -3,
+     "tone": "Strong distaste from having had too much of a thing, the surfeited turn of the stomach rather than heat aimed at anyone, and the family's furthest recoil.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words",
+      "hard-words": "distaste, surfeited"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-01124687-a",
+   "axis": "visible brilliance → excellence exalted past the human",
+   "members": [
+    {
+     "id": "glorious.oewn-01124687-a",
+     "word": "glorious",
+     "gloss": "having or deserving or conferring glory",
+     "charge": 3,
+     "tone": "The family's full measure - glory had, glory deserved and glory handed on, where *illustrious* claims only the having and the conferring.",
+     "rewrite": false
+    },
+    {
+     "id": "bright.oewn-01125000-s",
+     "word": "bright",
+     "gloss": "splendid",
+     "charge": 2,
+     "tone": "Praise at its plainest - splendid, with none of the awe *sublime* carries or the record standing behind *storied*.",
+     "rewrite": false
+    },
+    {
+     "id": "celebrated.oewn-01125164-s",
+     "word": "celebrated",
+     "gloss": "having an illustrious past",
+     "charge": 2,
+     "tone": "The illustrious past registered as acclaim - others have noticed, which *historied* does not bother to say.",
+     "rewrite": false
+    },
+    {
+     "id": "historied.oewn-01125164-s",
+     "word": "historied",
+     "gloss": "having an illustrious past",
+     "charge": 2,
+     "tone": "The same illustrious past stated as plain fact rather than applause, and more formal for it than *celebrated*.",
+     "rewrite": false
+    },
+    {
+     "id": "storied.oewn-01125164-s",
+     "word": "storied",
+     "gloss": "having an illustrious past",
+     "charge": 2,
+     "tone": "The illustrious past turned into something worth recounting - it implies a tale, where *celebrated* implies only admirers.",
+     "rewrite": false
+    },
+    {
+     "id": "divine.oewn-01125269-s",
+     "word": "divine",
+     "gloss": "being of such surpassing excellence as to suggest inspiration by the gods",
+     "charge": 3,
+     "tone": "Excellence pushed past the human scale until it reads as god-given rather than merely achieved.",
+     "rewrite": false
+    },
+    {
+     "id": "elysian.oewn-01125269-s",
+     "word": "elysian",
+     "gloss": "being of such surpassing excellence as to suggest inspiration by the gods",
+     "charge": 3,
+     "tone": "The most rarefied way to say that same god-touched excellence - ornate where *divine* is direct.",
+     "rewrite": false
+    },
+    {
+     "id": "inspired.oewn-01125269-s",
+     "word": "inspired",
+     "gloss": "being of such surpassing excellence as to suggest inspiration by the gods",
+     "charge": 2,
+     "tone": "The mildest of the three - it credits the surpassing excellence to something breathed in from outside without naming the gods as *divine* and *elysian* do.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "empyreal.oewn-01125519-s",
+     "word": "empyreal",
+     "gloss": "inspiring awe",
+     "charge": 2,
+     "tone": "Awe pitched at its loftiest and most ornate, where *sublime* delivers the same awe in a word that can be said plainly.",
+     "rewrite": false
+    },
+    {
+     "id": "empyrean.oewn-01125519-s",
+     "word": "empyrean",
+     "gloss": "inspiring awe",
+     "charge": 2,
+     "tone": "Matched to *empyreal* in force - awe as sheer altitude, something the eye has to be raised to.",
+     "rewrite": false
+    },
+    {
+     "id": "sublime.oewn-01125519-s",
+     "word": "sublime",
+     "gloss": "inspiring awe",
+     "charge": 3,
+     "tone": "Awe that arrests rather than merely pleases - the word here that admits to being overwhelmed.",
+     "rewrite": false
+    },
+    {
+     "id": "illustrious.oewn-01125751-s",
+     "word": "illustrious",
+     "gloss": "having or conferring glory",
+     "charge": 3,
+     "tone": "Glory as both possession and gift - it holds glory and lends it out, without *glorious*'s further claim that the glory is deserved.",
+     "rewrite": false
+    },
+    {
+     "id": "incandescent.oewn-01125883-s",
+     "word": "incandescent",
+     "gloss": "characterized by ardent emotion or intensity or brilliance",
+     "charge": 2,
+     "tone": "Praise for a white heat, whether of ardent feeling, of intensity or of sheer brilliance - it burns where *lustrous* only shines.",
+     "rewrite": false
+    },
+    {
+     "id": "lustrous.oewn-01126031-s",
+     "word": "lustrous",
+     "gloss": "brilliant",
+     "charge": 2,
+     "tone": "Brilliance as a finish on the surface - it gleams, where *incandescent* burns from inside.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00944754-a",
+   "axis": "simply not put into words → lodged in the nature of the thing itself",
+   "members": [
+    {
+     "id": "implicit.oewn-00944754-a",
+     "word": "implicit",
+     "gloss": "implied though not directly expressed; inherent in the nature of something",
+     "charge": 0,
+     "tone": "Neutral and two-sided, covering both the meaning that was never spelled out and the one that sits in a thing's nature, where *unspoken* reaches only the first.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "inexplicit.oewn-00944754-a",
+     "word": "inexplicit",
+     "gloss": "implied though not directly expressed; inherent in the nature of something",
+     "charge": -1,
+     "tone": "Built as a negation, it frames the same implicitness as a shortfall in the telling, where *implicit* frames it as a property of the thing.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words",
+      "grammar": "negation"
+     }
+    },
+    {
+     "id": "implicit_in.oewn-00945209-s",
+     "word": "implicit in",
+     "gloss": "in the nature of something though not readily apparent",
+     "charge": 0,
+     "tone": "A relational phrase rather than a quality — it must name the thing the sense is lodged in, which the bare adjectives beside it need not do.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "inherent.oewn-00945209-s",
+     "word": "inherent",
+     "gloss": "in the nature of something though not readily apparent",
+     "charge": 0,
+     "tone": "The firmest claim of the three: not hidden by accident but built into what the thing is, and so not detachable from it.",
+     "rewrite": false
+    },
+    {
+     "id": "underlying.oewn-00945209-s",
+     "word": "underlying",
+     "gloss": "in the nature of something though not readily apparent",
+     "charge": 0,
+     "tone": "Puts the sense beneath a surface rather than inside a nature, implying something could be uncovered, where *inherent* makes it permanent.",
+     "rewrite": false
+    },
+    {
+     "id": "silent.oewn-00945432-s",
+     "word": "silent",
+     "gloss": "implied by or inferred from actions or statements",
+     "charge": 0,
+     "tone": "The plain everyday word for a meaning that rides along with an act or a statement without being spoken, lighter in weight than *tacit*.",
+     "rewrite": false
+    },
+    {
+     "id": "tacit.oewn-00945432-s",
+     "word": "tacit",
+     "gloss": "implied by or inferred from actions or statements",
+     "charge": 0,
+     "tone": "Formal, and it treats the unspoken meaning as settled and binding — something one is held to, which *silent* does not insist on.",
+     "rewrite": false
+    },
+    {
+     "id": "understood.oewn-00945432-s",
+     "word": "understood",
+     "gloss": "implied by or inferred from actions or statements",
+     "charge": 1,
+     "tone": "Adds successful uptake: the meaning was not merely implied but taken up on both sides, where *tacit* says only that it went unsaid.",
+     "rewrite": false
+    },
+    {
+     "id": "unexpressed.oewn-00945649-s",
+     "word": "unexpressed",
+     "gloss": "not made explicit",
+     "charge": 0,
+     "tone": "Neutral and general — it says the thing found no outward form at all, without insisting that words in particular were what went missing.",
+     "rewrite": false
+    },
+    {
+     "id": "unsaid.oewn-00945649-s",
+     "word": "unsaid",
+     "gloss": "not made explicit",
+     "charge": 0,
+     "tone": "The plainest of the negatives, and it carries a faint sense of something held back, where *unexpressed* is a flat report.",
+     "rewrite": false
+    },
+    {
+     "id": "unstated.oewn-00945649-s",
+     "word": "unstated",
+     "gloss": "not made explicit",
+     "charge": 0,
+     "tone": "Dry and procedural, marking the absence the way one notes a missing entry, beside the more human *unsaid*.",
+     "rewrite": false
+    },
+    {
+     "id": "unuttered.oewn-00945649-s",
+     "word": "unuttered",
+     "gloss": "not made explicit",
+     "charge": 0,
+     "tone": "Elevated and faintly literary, shaping the omission as something never let out rather than merely never recorded.",
+     "rewrite": false
+    },
+    {
+     "id": "unverbalized.oewn-00945649-s",
+     "word": "unverbalized",
+     "gloss": "not made explicit",
+     "charge": 0,
+     "tone": "Clinical in register, framing the gap as a failure to convert into words rather than a silence with any weight to it.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "unverbalised.oewn-00945649-s",
+     "word": "unverbalised",
+     "gloss": "not made explicit",
+     "charge": 0,
+     "tone": "The British spelling of the same clinical term, identical in force to *unverbalized*.",
+     "rewrite": false
+    },
+    {
+     "id": "unvoiced.oewn-00945649-s",
+     "word": "unvoiced",
+     "gloss": "not made explicit",
+     "charge": 0,
+     "tone": "Implies a voice was available and went unused, which gives it more pull than the flat *unverbalized*.",
+     "rewrite": false
+    },
+    {
+     "id": "unspoken.oewn-00945649-s",
+     "word": "unspoken",
+     "gloss": "not made explicit",
+     "charge": 0,
+     "tone": "The most loaded of the plain negatives — what is unspoken feels present and deliberately left alone, where *unstated* is only a blank.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01354915-a",
+   "axis": "pushing in where one is unwanted → offensive meddling in what is not one's business",
+   "members": [
+    {
+     "id": "intrusive.oewn-01354915-a",
+     "word": "intrusive",
+     "gloss": "tending to intrude (especially upon privacy)",
+     "charge": -2,
+     "tone": "The plain term for the fault: it names the pushing-in itself, without the added charge of trespass that *encroaching* carries or the contempt in *meddlesome*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "encroaching.oewn-01355168-s",
+     "word": "encroaching",
+     "gloss": "gradually intrusive without right or permission",
+     "charge": -2,
+     "tone": "Stresses the slowness of it - the ground is taken a little at a time, so no single step looks like the violation that *invasive* makes it sound.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "invasive.oewn-01355168-s",
+     "word": "invasive",
+     "gloss": "gradually intrusive without right or permission",
+     "charge": -3,
+     "tone": "The same gradual advance, framed as spread into ground that is not its own, where *encroaching* keeps the emphasis on the edging forward.",
+     "rewrite": false
+    },
+    {
+     "id": "trespassing.oewn-01355168-s",
+     "word": "trespassing",
+     "gloss": "gradually intrusive without right or permission",
+     "charge": -2,
+     "tone": "Puts the intrusion in terms of a line crossed without permission, naming the wrong outright where *encroaching* only lets it accumulate.",
+     "rewrite": false
+    },
+    {
+     "id": "interfering.oewn-01355409-s",
+     "word": "interfering",
+     "gloss": "intrusive in a meddling or offensive manner",
+     "charge": -2,
+     "tone": "The flattest of the meddling group - it faults the getting-in-the-way rather than heaping on the contempt that *meddlesome* carries.",
+     "rewrite": false
+    },
+    {
+     "id": "meddlesome.oewn-01355409-s",
+     "word": "meddlesome",
+     "gloss": "intrusive in a meddling or offensive manner",
+     "charge": -3,
+     "tone": "Makes the offensive prying a settled trait of the person, not the single act that *meddling* catches them at.",
+     "rewrite": false
+    },
+    {
+     "id": "meddling.oewn-01355409-s",
+     "word": "meddling",
+     "gloss": "intrusive in a meddling or offensive manner",
+     "charge": -3,
+     "tone": "Condemns the deed in progress, where *meddlesome* condemns the character behind it.",
+     "rewrite": false
+    },
+    {
+     "id": "officious.oewn-01355409-s",
+     "word": "officious",
+     "gloss": "intrusive in a meddling or offensive manner",
+     "charge": -3,
+     "tone": "Formal and cold beside the homely *busybodied*, delivering the same charge of offensive meddling as a verdict rather than a complaint.",
+     "rewrite": false
+    },
+    {
+     "id": "busy.oewn-01355409-s",
+     "word": "busy",
+     "gloss": "intrusive in a meddling or offensive manner",
+     "charge": -2,
+     "tone": "An everyday word carrying the whole meddling charge, so the disparagement lands quietly where *officious* announces itself.",
+     "rewrite": false
+    },
+    {
+     "id": "busybodied.oewn-01355409-s",
+     "word": "busybodied",
+     "gloss": "intrusive in a meddling or offensive manner",
+     "charge": -3,
+     "tone": "Turns the offender into a type, dismissing the whole person rather than the one act *meddling* points to.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01004300-a",
+   "axis": "regrettably unsuitable → graceless to the point of incompetence",
+   "members": [
+    {
+     "id": "infelicitous.oewn-01004300-a",
+     "word": "infelicitous",
+     "gloss": "not appropriate in application; defective",
+     "charge": -1,
+     "tone": "Formal and softened - it marks a thing as both misapplied and defective while keeping an apologetic surface, where *inept* simply condemns.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "misapplied, apologetic"
+     }
+    },
+    {
+     "id": "awkward.oewn-01004599-s",
+     "word": "awkward",
+     "gloss": "not elegant or graceful in expression",
+     "charge": -1,
+     "tone": "Mild - the expression stumbles without collapsing, and no verdict is passed on the ability behind it, unlike *inept*.",
+     "rewrite": false
+    },
+    {
+     "id": "clumsy.oewn-01004599-s",
+     "word": "clumsy",
+     "gloss": "not elegant or graceful in expression",
+     "charge": -2,
+     "tone": "Heavier than *awkward* - the expression is not merely ungainly but handled with a thick hand.",
+     "rewrite": false
+    },
+    {
+     "id": "cumbersome.oewn-01004599-s",
+     "word": "cumbersome",
+     "gloss": "not elegant or graceful in expression",
+     "charge": -1,
+     "tone": "Faults the expression for weight and unwieldiness, landing on the shape of the thing where *clumsy* lands on the handling.",
+     "rewrite": false
+    },
+    {
+     "id": "inapt.oewn-01004599-s",
+     "word": "inapt",
+     "gloss": "not elegant or graceful in expression",
+     "charge": -1,
+     "tone": "The dry, measured option - it records an expression as not fitting, with none of *clumsy*'s picture of bungled handling.",
+     "rewrite": false
+    },
+    {
+     "id": "inept.oewn-01004599-s",
+     "word": "inept",
+     "gloss": "not elegant or graceful in expression",
+     "charge": -2,
+     "tone": "The hardest of these words - it shifts the fault from the phrasing to the ability behind it, so gracelessness reads as incompetence.",
+     "rewrite": false
+    },
+    {
+     "id": "ill-chosen.oewn-01004599-s",
+     "word": "ill-chosen",
+     "gloss": "not elegant or graceful in expression",
+     "charge": -1,
+     "tone": "Blames the selection rather than the person, faulting the words picked where *inept* faults whoever picked them.",
+     "rewrite": false
+    },
+    {
+     "id": "unfortunate.oewn-01004966-s",
+     "word": "unfortunate",
+     "gloss": "unsuitable or regrettable",
+     "charge": -1,
+     "tone": "The gentlest wording available - it calls a thing unsuitable and regrettable at once, treating the fault as bad luck rather than bad work.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00104850-a",
+   "axis": "mild wish for advancement → ambition pressed past what it can carry",
+   "members": [
+    {
+     "id": "ambitious.oewn-00104850-a",
+     "word": "ambitious",
+     "gloss": "having a strong desire for success or achievement",
+     "charge": 1,
+     "tone": "The plain name for the desire itself, favourable but only mildly, and carrying no fault until *overambitious* attaches one.",
+     "rewrite": false
+    },
+    {
+     "id": "pushful.oewn-00105117-s",
+     "word": "pushful",
+     "gloss": "marked by aggressive ambition and energy and initiative",
+     "charge": -1,
+     "tone": "States the aggression as a quality of the person and still counts the energy and initiative in, so it stings less than *pushy*.",
+     "rewrite": false
+    },
+    {
+     "id": "pushy.oewn-00105117-s",
+     "word": "pushy",
+     "gloss": "marked by aggressive ambition and energy and initiative",
+     "charge": -2,
+     "tone": "The complaint form of that same drive: the energy is conceded, the aggression is what the word is actually for.",
+     "rewrite": false
+    },
+    {
+     "id": "aspirant.oewn-00105332-s",
+     "word": "aspirant",
+     "gloss": "desiring or striving for recognition or advancement",
+     "charge": 0,
+     "tone": "Formal and cool — it registers the reaching for recognition or advancement without any verdict on it, where *aspiring* sounds warm.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "aspiring.oewn-00105332-s",
+     "word": "aspiring",
+     "gloss": "desiring or striving for recognition or advancement",
+     "charge": 1,
+     "tone": "Treats the reaching as a credit to the person, though it promises nothing beyond the wanting and the effort themselves.",
+     "rewrite": false
+    },
+    {
+     "id": "wishful.oewn-00105332-s",
+     "word": "wishful",
+     "gloss": "desiring or striving for recognition or advancement",
+     "charge": 0,
+     "tone": "Puts its weight on the wanting rather than on any force behind it, making it the gentlest way to say what *pushy* says harshly.",
+     "rewrite": false
+    },
+    {
+     "id": "compulsive.oewn-00105498-s",
+     "word": "compulsive",
+     "gloss": "strongly motivated to succeed",
+     "charge": -1,
+     "tone": "Frames the motivation as something that has hold of the person, so it lands closer to a diagnosis than to the compliment *determined* pays.",
+     "rewrite": false
+    },
+    {
+     "id": "determined.oewn-00105498-s",
+     "word": "determined",
+     "gloss": "strongly motivated to succeed",
+     "charge": 2,
+     "tone": "The approving way to say it — the motivation reads as steadiness of will rather than as pressure, which is what separates it from *driven*.",
+     "rewrite": false
+    },
+    {
+     "id": "driven.oewn-00105498-s",
+     "word": "driven",
+     "gloss": "strongly motivated to succeed",
+     "charge": 1,
+     "tone": "Keeps the admiration but not the comfort: the motivation is felt as something pushing from behind rather than chosen.",
+     "rewrite": false
+    },
+    {
+     "id": "manque.oewn-00105624-s",
+     "word": "manque",
+     "gloss": "unfulfilled or frustrated in realizing an ambition",
+     "charge": -1,
+     "tone": "Formal, and it files the ambition as one that came to nothing — the same verdict *would-be* delivers far more bluntly.",
+     "rewrite": false
+    },
+    {
+     "id": "would-be.oewn-00105624-s",
+     "word": "would-be",
+     "gloss": "unfulfilled or frustrated in realizing an ambition",
+     "charge": -2,
+     "tone": "Deflating in one stroke: it grants the ambition and withholds the achievement in the same breath.",
+     "rewrite": false
+    },
+    {
+     "id": "overambitious.oewn-00105741-s",
+     "word": "overambitious",
+     "gloss": "excessively ambitious",
+     "charge": -2,
+     "tone": "Turns the quantity of the ambition into the fault, condemning as excess exactly what *ambitious* merely reports.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

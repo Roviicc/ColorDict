@@ -187,7 +187,9 @@ commit it with the tick.
 
 Stop the run - finish the step in hand safely, commit, push, report - when:
 
-- any census stratum reads over 5%
+- any census stratum reads over 5% - **from 50 read senses up** (the author's floor,
+  2026-09-26: at n=13 one fault is 7.7%). Below 50, every fault is repaired
+  third-hand and re-read blind, and the run goes on; the rate is still recorded.
 - the instrument gate fails, or a tool fails twice on the same input
 - `plain_lint --max-long 0` fails on a new shard after one re-run of the
   offending author

@@ -1,0 +1,998 @@
+{
+ "packet": 12,
+ "families": [
+  {
+   "family": "family-01289803-a",
+   "axis": "just barely made out → noticeable to the point of intruding",
+   "members": [
+    {
+     "id": "noticeable.oewn-01289803-a",
+     "word": "noticeable",
+     "gloss": "capable or worthy of being noticed",
+     "charge": 0,
+     "tone": "The plain, unjudged term of the set — it rates a thing as able or worth noticing without saying whether the noticing is welcome, which is exactly what *obtrusive* adds.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "29 words"
+     }
+    },
+    {
+     "id": "broad.oewn-01290162-s",
+     "word": "broad",
+     "gloss": "(of speech) heavily and noticeably regional",
+     "charge": 0,
+     "tone": "A speech word: it grades how thickly the regional colouring comes through, not how plainly a thing shows itself.",
+     "rewrite": false
+    },
+    {
+     "id": "detectable.oewn-01290284-s",
+     "word": "detectable",
+     "gloss": "easily seen or detected",
+     "charge": 0,
+     "tone": "Near-instrumental in feel — it frames the thing as something a look or a test turns up, where *perceptible* frames it as something the senses take in.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "perceptible.oewn-01290284-s",
+     "word": "perceptible",
+     "gloss": "easily seen or detected",
+     "charge": 0,
+     "tone": "Pitches the same easy visibility at the observer's senses rather than at a search, which is what sets it apart from *detectable*.",
+     "rewrite": false
+    },
+    {
+     "id": "discernible.oewn-01290488-s",
+     "word": "discernible",
+     "gloss": "capable of being seen or noticed",
+     "charge": 0,
+     "tone": "The most guarded of the three — it grants only that the thing can be picked out, without *evident*'s suggestion that it announces itself.",
+     "rewrite": false
+    },
+    {
+     "id": "evident.oewn-01290488-s",
+     "word": "evident",
+     "gloss": "capable of being seen or noticed",
+     "charge": 0,
+     "tone": "Stronger than *discernible* on the same footing: what is evident presents itself rather than waiting to be made out.",
+     "rewrite": false
+    },
+    {
+     "id": "observable.oewn-01290488-s",
+     "word": "observable",
+     "gloss": "capable of being seen or noticed",
+     "charge": 0,
+     "tone": "The flattest of the three — a bare statement that observation is possible, carrying none of *evident*'s force.",
+     "rewrite": false
+    },
+    {
+     "id": "marked.oewn-01290810-s",
+     "word": "marked",
+     "gloss": "strongly marked; easily noticeable",
+     "charge": 0,
+     "tone": "Raises the degree rather than the ease — the thing stands out by how strongly it is set off, not by how little effort finding it takes.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "pronounced.oewn-01290810-s",
+     "word": "pronounced",
+     "gloss": "strongly marked; easily noticeable",
+     "charge": 0,
+     "tone": "Carries the same heightened degree as *marked*, but with the sense of a quality pushed forward until it cannot be missed.",
+     "rewrite": false
+    },
+    {
+     "id": "obtrusive.oewn-01290974-s",
+     "word": "obtrusive",
+     "gloss": "undesirably noticeable",
+     "charge": -2,
+     "tone": "The one member that judges: it puts the noticing at the top of the scale and calls it unwanted, where *marked* only measures how far the scale runs.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00194616-a",
+   "axis": "unease at a danger noticed → terror at full strength",
+   "members": [
+    {
+     "id": "alarming.oewn-00194616-a",
+     "word": "alarming",
+     "gloss": "frightening because of an awareness of danger",
+     "charge": -1,
+     "tone": "The mildest force here — fear pinned to a danger you can recognise, which makes it a warning rather than the sheer horror of *horrifying*.",
+     "rewrite": false
+    },
+    {
+     "id": "appalling.oewn-00194968-s",
+     "word": "appalling",
+     "gloss": "causing consternation",
+     "charge": -2,
+     "tone": "Consternation at full weight — it knocks the composure sideways, where *dismaying* only unsettles it.",
+     "rewrite": false
+    },
+    {
+     "id": "dismaying.oewn-00194968-s",
+     "word": "dismaying",
+     "gloss": "causing consternation",
+     "charge": -1,
+     "tone": "The gentler consternation: spirits sink rather than reel, and the thing is not condemned outright as *appalling* condemns it.",
+     "rewrite": false
+    },
+    {
+     "id": "atrocious.oewn-00195081-s",
+     "word": "atrocious",
+     "gloss": "provoking horror",
+     "charge": -3,
+     "tone": "Condemns as much as it describes — the horror is charged to the thing as a fault, where *horrifying* only reports the effect.",
+     "rewrite": false
+    },
+    {
+     "id": "frightful.oewn-00195081-s",
+     "word": "frightful",
+     "gloss": "provoking horror",
+     "charge": -2,
+     "tone": "Fright rather than full horror — the same sense worn lightly enough to sound almost decorous beside *horrifying*.",
+     "rewrite": false
+    },
+    {
+     "id": "horrifying.oewn-00195081-s",
+     "word": "horrifying",
+     "gloss": "provoking horror",
+     "charge": -3,
+     "tone": "Keeps the verb's live action, the thing doing the horrifying to you as you watch, where *horrible* merely names the quality.",
+     "rewrite": false
+    },
+    {
+     "id": "horrible.oewn-00195081-s",
+     "word": "horrible",
+     "gloss": "provoking horror",
+     "charge": -2,
+     "tone": "The plain, all-purpose word for the quality — it states the horror without staging it.",
+     "rewrite": false
+    },
+    {
+     "id": "ugly.oewn-00195081-s",
+     "word": "ugly",
+     "gloss": "provoking horror",
+     "charge": -2,
+     "tone": "Nothing to do with looks here: a blunt, unadorned word for what provokes horror, and the flatness is the whole of its force.",
+     "rewrite": false
+    },
+    {
+     "id": "awful.oewn-00195400-s",
+     "word": "awful",
+     "gloss": "causing fear or dread or terror",
+     "charge": -2,
+     "tone": "Broad and unspecific — it names the terror without picturing it, where *fearsome* gives the thing a shape.",
+     "rewrite": false
+    },
+    {
+     "id": "dire.oewn-00195400-s",
+     "word": "dire",
+     "gloss": "causing fear or dread or terror",
+     "charge": -2,
+     "tone": "Grave and flat, treating the terror as a settled fact of the situation with none of the flourish of *direful*.",
+     "rewrite": false
+    },
+    {
+     "id": "direful.oewn-00195400-s",
+     "word": "direful",
+     "gloss": "causing fear or dread or terror",
+     "charge": -2,
+     "tone": "The heightened form, reaching for a weight that *dire* carries without effort.",
+     "rewrite": false
+    },
+    {
+     "id": "dread.oewn-00195400-s",
+     "word": "dread",
+     "gloss": "causing fear or dread or terror",
+     "charge": -2,
+     "tone": "Elevated, almost ceremonial — the terror is stated as an attribute the thing simply has, not an effect it works on you.",
+     "rewrite": false
+    },
+    {
+     "id": "dreaded.oewn-00195400-s",
+     "word": "dreaded",
+     "gloss": "causing fear or dread or terror",
+     "charge": -2,
+     "tone": "The participle turns the fear around: the thing is defined by the dread already aimed at it, where *dreadful* says it causes dread.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "participle"
+     }
+    },
+    {
+     "id": "dreadful.oewn-00195400-s",
+     "word": "dreadful",
+     "gloss": "causing fear or dread or terror",
+     "charge": -2,
+     "tone": "Says plainly that the thing causes dread — the workaday partner to *dread*'s elevation.",
+     "rewrite": false
+    },
+    {
+     "id": "fearful.oewn-00195400-s",
+     "word": "fearful",
+     "gloss": "causing fear or dread or terror",
+     "charge": -2,
+     "tone": "Points outward at what causes the fear rather than inward at whoever feels it, the opposite reading to the one the word's shape invites.",
+     "rewrite": false
+    },
+    {
+     "id": "fearsome.oewn-00195400-s",
+     "word": "fearsome",
+     "gloss": "causing fear or dread or terror",
+     "charge": -1,
+     "tone": "Concedes stature to what frightens — the terror it names is formidable, not merely nasty as in *horrible*.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01758923-a",
+   "axis": "lasts a long while → never ends",
+   "members": [
+    {
+     "id": "permanent.oewn-01758923-a",
+     "word": "permanent",
+     "gloss": "continuing or enduring without marked change in status or condition or place",
+     "charge": 0,
+     "tone": "Flat and factual — the bare statement that a condition holds, without the warmth *lasting* can pick up.",
+     "rewrite": false
+    },
+    {
+     "id": "lasting.oewn-01758923-a",
+     "word": "lasting",
+     "gloss": "continuing or enduring without marked change in status or condition or place",
+     "charge": 0,
+     "tone": "Softer than *permanent* — duration sounds like something the thing has rather than a status fixed onto it.",
+     "rewrite": false
+    },
+    {
+     "id": "abiding.oewn-01759375-s",
+     "word": "abiding",
+     "gloss": "lasting a long time",
+     "charge": 1,
+     "tone": "Makes long duration sound like constancy, where *enduring* makes it sound like resistance.",
+     "rewrite": false
+    },
+    {
+     "id": "enduring.oewn-01759375-s",
+     "word": "enduring",
+     "gloss": "lasting a long time",
+     "charge": 1,
+     "tone": "Long duration framed as strength, as though the thing had to hold out to reach it.",
+     "rewrite": false
+    },
+    {
+     "id": "imperishable.oewn-01759375-s",
+     "word": "imperishable",
+     "gloss": "lasting a long time",
+     "charge": 2,
+     "tone": "The strongest of the long-lasting three: not holding out like *enduring* but beyond decay altogether, which treats what it names as worth keeping.",
+     "rewrite": false
+    },
+    {
+     "id": "ageless.oewn-01759536-s",
+     "word": "ageless",
+     "gloss": "continuing forever or indefinitely",
+     "charge": 2,
+     "tone": "Presents going on indefinitely as something to be envied rather than merely measured, where *perpetual* only records the running on.",
+     "rewrite": false
+    },
+    {
+     "id": "aeonian.oewn-01759536-s",
+     "word": "aeonian",
+     "gloss": "continuing forever or indefinitely",
+     "charge": 0,
+     "tone": "Lofty and bookish — endlessness stated in the grandest available terms with no judgement attached to it.",
+     "rewrite": false
+    },
+    {
+     "id": "eonian.oewn-01759536-s",
+     "word": "eonian",
+     "gloss": "continuing forever or indefinitely",
+     "charge": 0,
+     "tone": "Carries the same elevated, uncommitted weight as *aeonian*, adding nothing and softening nothing.",
+     "rewrite": false
+    },
+    {
+     "id": "eternal.oewn-01759536-s",
+     "word": "eternal",
+     "gloss": "continuing forever or indefinitely",
+     "charge": 0,
+     "tone": "Solemn and absolute — it makes endlessness a property of the thing rather than a stretch of time, and still approves of nothing.",
+     "rewrite": false
+    },
+    {
+     "id": "everlasting.oewn-01759536-s",
+     "word": "everlasting",
+     "gloss": "continuing forever or indefinitely",
+     "charge": 1,
+     "tone": "Warmer than *eternal* — the endlessness sounds like something held onto rather than a fact declared.",
+     "rewrite": false
+    },
+    {
+     "id": "perpetual.oewn-01759536-s",
+     "word": "perpetual",
+     "gloss": "continuing forever or indefinitely",
+     "charge": 0,
+     "tone": "Endlessness as plain mechanism, running on without the grandeur *eternal* brings to the same span.",
+     "rewrite": false
+    },
+    {
+     "id": "unending.oewn-01759536-s",
+     "word": "unending",
+     "gloss": "continuing forever or indefinitely",
+     "charge": 0,
+     "tone": "Frames endlessness as the plain absence of a stop, without the grandeur *eternal* brings or the warmth of *everlasting*.",
+     "rewrite": false
+    },
+    {
+     "id": "unceasing.oewn-01759536-s",
+     "word": "unceasing",
+     "gloss": "continuing forever or indefinitely",
+     "charge": -1,
+     "tone": "Presses on the missing pause, so what continues indefinitely reads as relentless rather than simply long.",
+     "rewrite": false
+    },
+    {
+     "id": "standing.oewn-01760020-s",
+     "word": "standing",
+     "gloss": "not created for a particular occasion",
+     "charge": 0,
+     "tone": "Positional rather than evaluative — it marks a thing as kept ready for whatever comes instead of raised for one occasion.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "evaluative"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-01173787-a",
+   "axis": "health as a plain condition → health as visible, spilling-over vigour",
+   "members": [
+    {
+     "id": "healthy.oewn-01173787-a",
+     "word": "healthy",
+     "gloss": "having or indicating good health in body or mind; free from infirmity or disease",
+     "charge": 1,
+     "tone": "The flat baseline of the family, a verdict passed on body or mind alike with none of the visible glow *rosy* insists on.",
+     "rewrite": false
+    },
+    {
+     "id": "flushed.oewn-01174367-s",
+     "word": "flushed",
+     "gloss": "having the pinkish flush of health",
+     "charge": 1,
+     "tone": "Reads health off the skin's colour instead of declaring it, offering evidence where *healthy* offers a judgement.",
+     "rewrite": false
+    },
+    {
+     "id": "rose-cheeked.oewn-01174367-s",
+     "word": "rose-cheeked",
+     "gloss": "having the pinkish flush of health",
+     "charge": 1,
+     "tone": "Puts the same pink flush in one place, the cheeks, which turns *flushed*'s observation into a portrait.",
+     "rewrite": false
+    },
+    {
+     "id": "rosy.oewn-01174367-s",
+     "word": "rosy",
+     "gloss": "having the pinkish flush of health",
+     "charge": 1,
+     "tone": "The single unadorned stroke of the pink-flush words, letting the glow stand alone rather than pinning it to a face as *rosy-cheeked* does.",
+     "rewrite": false
+    },
+    {
+     "id": "rosy-cheeked.oewn-01174367-s",
+     "word": "rosy-cheeked",
+     "gloss": "having the pinkish flush of health",
+     "charge": 1,
+     "tone": "Spells out where *rosy*'s glow sits, and the extra word makes it fonder and more picturesque.",
+     "rewrite": false
+    },
+    {
+     "id": "bouncing.oewn-01174528-s",
+     "word": "bouncing",
+     "gloss": "vigorously healthy",
+     "charge": 2,
+     "tone": "Health with energy spilling out of it, so where *healthy* reports a condition this one moves.",
+     "rewrite": false
+    },
+    {
+     "id": "firm.oewn-01174620-s",
+     "word": "firm",
+     "gloss": "possessing the tone and resiliency of healthy tissue",
+     "charge": 1,
+     "tone": "Judges health by touch, tone and resilience in the tissue itself, not the colour *rosy* shows nor the vigour *bouncing* spends.",
+     "rewrite": false
+    },
+    {
+     "id": "good.oewn-01174757-s",
+     "word": "good",
+     "gloss": "in excellent physical condition",
+     "charge": 2,
+     "tone": "The unshowy top of the scale, excellent condition stated without a flourish where *hale* reaches for one.",
+     "rewrite": false
+    },
+    {
+     "id": "sound.oewn-01174757-s",
+     "word": "sound",
+     "gloss": "in excellent physical condition",
+     "charge": 2,
+     "tone": "Says the same excellent condition as *good* with the ring of a verdict rather than a compliment.",
+     "rewrite": false
+    },
+    {
+     "id": "hale.oewn-01174940-s",
+     "word": "hale",
+     "gloss": "exhibiting or restored to vigorous good health",
+     "charge": 2,
+     "tone": "Formal and a little grand, and it covers vigour regained as readily as vigour never lost.",
+     "rewrite": false
+    },
+    {
+     "id": "whole.oewn-01174940-s",
+     "word": "whole",
+     "gloss": "exhibiting or restored to vigorous good health",
+     "charge": 2,
+     "tone": "Frames that same vigorous health as entirety, leaning on the restored side where *hale* leans on the display.",
+     "rewrite": false
+    },
+    {
+     "id": "hearty.oewn-01175150-s",
+     "word": "hearty",
+     "gloss": "consuming abundantly and with gusto",
+     "charge": 1,
+     "tone": "Approves through appetite, abundance taken with relish, so it praises how someone eats rather than how they are.",
+     "rewrite": false
+    },
+    {
+     "id": "full-blooded.oewn-01175290-s",
+     "word": "full-blooded",
+     "gloss": "endowed with or exhibiting great bodily or mental health",
+     "charge": 2,
+     "tone": "Treats great health of body or mind as something carried in the constitution, possessed as much as shown.",
+     "rewrite": false
+    },
+    {
+     "id": "lusty.oewn-01175290-s",
+     "word": "lusty",
+     "gloss": "endowed with or exhibiting great bodily or mental health",
+     "charge": 2,
+     "tone": "Pitches the same great bodily or mental health as raw force, louder and more physical than *full-blooded*.",
+     "rewrite": false
+    },
+    {
+     "id": "red-blooded.oewn-01175290-s",
+     "word": "red-blooded",
+     "gloss": "endowed with or exhibiting great bodily or mental health",
+     "charge": 2,
+     "tone": "Sounds like a boast, great health of body or mind worn as vitality rather than merely reported as *healthy* would.",
+     "rewrite": false
+    },
+    {
+     "id": "anicteric.oewn-01175499-s",
+     "word": "anicteric",
+     "gloss": "not affected by jaundice",
+     "charge": 0,
+     "tone": "Clinical and purely negative in shape, saying only that jaundice is absent and carrying none of the approval the rest of the family trades in.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-01902545-a",
+   "axis": "stirring discussion → inciting revolt",
+   "members": [
+    {
+     "id": "provocative.oewn-01902545-a",
+     "word": "provocative",
+     "gloss": "serving or tending to provoke, excite, or stimulate; stimulating discussion or exciting controversy",
+     "charge": 0,
+     "tone": "The neutral base of the family - it names the power to excite, stimulate or set off controversy without settling whether that is welcome, where *provoking* fixes the reaction as anger.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "30 words"
+     }
+    },
+    {
+     "id": "agitative.oewn-01902992-s",
+     "word": "agitative",
+     "gloss": "causing or tending to cause anger or resentment",
+     "charge": -2,
+     "tone": "Flat and clinical for what it describes, labelling a thing as anger-producing by disposition rather than catching the anger or resentment in the act.",
+     "rewrite": false
+    },
+    {
+     "id": "agitating.oewn-01902992-s",
+     "word": "agitating",
+     "gloss": "causing or tending to cause anger or resentment",
+     "charge": -2,
+     "tone": "The participle keeps the effect live - anger and resentment being stirred now, where *agitative* states a settled property.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "participle"
+     }
+    },
+    {
+     "id": "provoking.oewn-01902992-s",
+     "word": "provoking",
+     "gloss": "causing or tending to cause anger or resentment",
+     "charge": -2,
+     "tone": "Blunt and personal beside the clinical *agitative* - the anger or resentment it names is felt as an affront by someone in particular.",
+     "rewrite": false
+    },
+    {
+     "id": "challenging.oewn-01903173-s",
+     "word": "challenging",
+     "gloss": "disturbingly provocative",
+     "charge": 0,
+     "tone": "The disturbance is set before you as something to be met, so the discomfort arrives with a demand attached rather than a verdict.",
+     "rewrite": false
+    },
+    {
+     "id": "intriguing.oewn-01903173-s",
+     "word": "intriguing",
+     "gloss": "disturbingly provocative",
+     "charge": 1,
+     "tone": "Here the disturbance pulls instead of repelling - what unsettles is also what fascinates, where *challenging* wants an answer out of you.",
+     "rewrite": false
+    },
+    {
+     "id": "charged.oewn-01903291-s",
+     "word": "charged",
+     "gloss": "capable of producing violent emotion or arousing controversy",
+     "charge": -1,
+     "tone": "Names a load waiting to go off, the violent feeling or the controversy stored in the thing and not yet released, where *inflammatory* names something already doing the work.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "29 words"
+     }
+    },
+    {
+     "id": "incendiary.oewn-01903445-s",
+     "word": "incendiary",
+     "gloss": "arousing to action or rebellion",
+     "charge": -2,
+     "tone": "Carries the image of a fire set on purpose, so stirring people to act or to rise is treated as damage waiting to happen.",
+     "rewrite": false
+    },
+    {
+     "id": "incitive.oewn-01903445-s",
+     "word": "incitive",
+     "gloss": "arousing to action or rebellion",
+     "charge": -1,
+     "tone": "A bare, near-technical label for the same power to move people to action or revolt, with none of the heat *incendiary* puts under it.",
+     "rewrite": false
+    },
+    {
+     "id": "inflammatory.oewn-01903445-s",
+     "word": "inflammatory",
+     "gloss": "arousing to action or rebellion",
+     "charge": -2,
+     "tone": "The heat is the whole point - it treats the thing as what sets the action or the rebellion alight, not merely the occasion for it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "instigative.oewn-01903445-s",
+     "word": "instigative",
+     "gloss": "arousing to action or rebellion",
+     "charge": -1,
+     "tone": "Points past the blaze to the hand behind it, naming what starts the action or the rising rather than how fiercely it burns.",
+     "rewrite": false
+    },
+    {
+     "id": "rabble-rousing.oewn-01903445-s",
+     "word": "rabble-rousing",
+     "gloss": "arousing to action or rebellion",
+     "charge": -3,
+     "tone": "Contempt running both ways - it belittles those stirred to act as a mob and denies the stirring any cause worth having.",
+     "rewrite": false
+    },
+    {
+     "id": "seditious.oewn-01903445-s",
+     "word": "seditious",
+     "gloss": "arousing to action or rebellion",
+     "charge": -3,
+     "tone": "The gravest word here - it treats rousing people to action or revolt as an offence against authority, where *incendiary* only warns of the fire.",
+     "rewrite": false
+    },
+    {
+     "id": "rousing.oewn-01903674-s",
+     "word": "rousing",
+     "gloss": "rousing to activity or heightened action as by spurring or goading",
+     "charge": 1,
+     "tone": "The one stirring in the family that is welcome, though the spurring and goading in it keep an edge of being driven to act rather than persuaded.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-01231893-a",
+   "axis": "faint hope still left → hope wholly gone and the collapse showing",
+   "members": [
+    {
+     "id": "hopeless.oewn-01231893-a",
+     "word": "hopeless",
+     "gloss": "without hope because there seems to be no possibility of comfort or success",
+     "charge": -2,
+     "tone": "The family's plain verdict, hope absent because no comfort or success looks possible — a reading of the odds where *despairing* is a reading of the feeling.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "abject.oewn-01232308-s",
+     "word": "abject",
+     "gloss": "showing utter resignation or hopelessness",
+     "charge": -3,
+     "tone": "The most degrading member: utter resignation or hopelessness worn openly, so that the giving-up is itself what gets judged.",
+     "rewrite": false
+    },
+    {
+     "id": "unhopeful.oewn-01232308-s",
+     "word": "unhopeful",
+     "gloss": "showing utter resignation or hopelessness",
+     "charge": -1,
+     "tone": "A bare negation covering the same utter resignation or hopelessness as *abject*, but with the contempt drained out and understatement left to carry it.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "negation"
+     }
+    },
+    {
+     "id": "black.oewn-01232434-s",
+     "word": "black",
+     "gloss": "offering little or no hope",
+     "charge": -2,
+     "tone": "Paints the little-or-no hope rather than measuring it, and paints it unrelieved, which is what puts it past *dim*.",
+     "rewrite": false
+    },
+    {
+     "id": "bleak.oewn-01232434-s",
+     "word": "bleak",
+     "gloss": "offering little or no hope",
+     "charge": -2,
+     "tone": "The same shortage of hope felt as bareness and exposure rather than as the darkness of *black*.",
+     "rewrite": false
+    },
+    {
+     "id": "dim.oewn-01232434-s",
+     "word": "dim",
+     "gloss": "offering little or no hope",
+     "charge": -1,
+     "tone": "The mildest of the three, since it sits on the “little” rather than the “no” — hope faint but not yet out.",
+     "rewrite": false
+    },
+    {
+     "id": "despairing.oewn-01232699-s",
+     "word": "despairing",
+     "gloss": "arising from or marked by despair or loss of hope",
+     "charge": -2,
+     "tone": "Points at the despair itself, whether a thing arises from that loss of hope or merely bears its mark, where *hopeless* points at the prospects.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "desperate.oewn-01232699-s",
+     "word": "desperate",
+     "gloss": "arising from or marked by despair or loss of hope",
+     "charge": -2,
+     "tone": "The straining side of the same despair — something arising from lost hope rather than merely showing it, so it pushes where *despairing* only mourns.",
+     "rewrite": false
+    },
+    {
+     "id": "despondent.oewn-01233026-s",
+     "word": "despondent",
+     "gloss": "without or almost without hope",
+     "charge": -2,
+     "tone": "A sunk, settled state with hope gone or all but gone, heavier than *dim* and far quieter than *desperate*.",
+     "rewrite": false
+    },
+    {
+     "id": "heartsick.oewn-01233026-s",
+     "word": "heartsick",
+     "gloss": "without or almost without hope",
+     "charge": -2,
+     "tone": "Puts that same absent-or-nearly-absent hope in the body, a sickness felt rather than the low weight of *despondent*.",
+     "rewrite": false
+    },
+    {
+     "id": "forlorn.oewn-01233260-s",
+     "word": "forlorn",
+     "gloss": "marked by or showing hopelessness",
+     "charge": -2,
+     "tone": "Hopelessness that is marked or shown in a way inviting pity, not the reproach *abject* invites.",
+     "rewrite": false
+    },
+    {
+     "id": "futureless.oewn-01233394-s",
+     "word": "futureless",
+     "gloss": "having no prospect or hope of a future",
+     "charge": -2,
+     "tone": "Turns the loss forward — neither prospect nor hope of a future — a flat structural verdict beside the mood of *forlorn*.",
+     "rewrite": false
+    },
+    {
+     "id": "helpless.oewn-01233489-s",
+     "word": "helpless",
+     "gloss": "unable to function; without help",
+     "charge": -2,
+     "tone": "Two failures at once, no power to function and no help at hand, which makes it sound like a plea rather than the verdict *hopeless* delivers.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "lost.oewn-01233489-s",
+     "word": "lost",
+     "gloss": "unable to function; without help",
+     "charge": -2,
+     "tone": "Carries the same inability and the same want of help as *helpless*, but as a settled condition rather than a moment of one, so it sounds past rescue.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "insoluble.oewn-01233601-s",
+     "word": "insoluble",
+     "gloss": "without hope of solution",
+     "charge": 0,
+     "tone": "The member aimed at what admits no solution rather than at anyone, a flat statement that none is to be hoped for, carrying no reproach of its own.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-02127738-a",
+   "axis": "harmless lightness → unseriousness mocked as a defect of mind",
+   "members": [
+    {
+     "id": "frivolous.oewn-02127738-a",
+     "word": "frivolous",
+     "gloss": "not serious in content or attitude or behavior",
+     "charge": -1,
+     "tone": "The family's plain term and its widest, attaching to content, attitude or behaviour alike without the picture of a hollow head that the compounds beside it supply.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "airheaded.oewn-02128108-s",
+     "word": "airheaded",
+     "gloss": "lacking seriousness; given to frivolity",
+     "charge": -2,
+     "tone": "Blunt mockery that explains the unseriousness by putting air where the thinking should be, where *frivolous* just reports the lack.",
+     "rewrite": false
+    },
+    {
+     "id": "dizzy.oewn-02128108-s",
+     "word": "dizzy",
+     "gloss": "lacking seriousness; given to frivolity",
+     "charge": -1,
+     "tone": "Whirl rather than vacancy, the lightest hit in the group and closer to teasing than to the contempt in *empty-headed*.",
+     "rewrite": false
+    },
+    {
+     "id": "empty-headed.oewn-02128108-s",
+     "word": "empty-headed",
+     "gloss": "lacking seriousness; given to frivolity",
+     "charge": -2,
+     "tone": "Mockery that goes past unseriousness to vacancy - it does not merely find the person frivolous but alleges there is nothing inside to be serious with, where *dizzy* only sets the head spinning.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "32 words"
+     }
+    },
+    {
+     "id": "featherbrained.oewn-02128108-s",
+     "word": "featherbrained",
+     "gloss": "lacking seriousness; given to frivolity",
+     "charge": -2,
+     "tone": "Mockery by weighing the brain, making the frivolity ridiculous rather than merely noting it as *silly* does.",
+     "rewrite": false
+    },
+    {
+     "id": "giddy.oewn-02128108-s",
+     "word": "giddy",
+     "gloss": "lacking seriousness; given to frivolity",
+     "charge": -1,
+     "tone": "Lightness with a lift to it, the unseriousness felt as high spirits, so it stings far less than *empty-headed*.",
+     "rewrite": false
+    },
+    {
+     "id": "light-headed.oewn-02128108-s",
+     "word": "light-headed",
+     "gloss": "lacking seriousness; given to frivolity",
+     "charge": -1,
+     "tone": "The same charge as *giddy* stated as a property of the head rather than a mood, and a light head is still not the vacant one *empty-headed* alleges.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "lightheaded.oewn-02128108-s",
+     "word": "lightheaded",
+     "gloss": "lacking seriousness; given to frivolity",
+     "charge": -1,
+     "tone": "The unhyphenated twin of *light-headed*, identical in force: a light head, not an empty one.",
+     "rewrite": false
+    },
+    {
+     "id": "silly.oewn-02128108-s",
+     "word": "silly",
+     "gloss": "lacking seriousness; given to frivolity",
+     "charge": -1,
+     "tone": "The plainest and most forgiving word for the fault, naming the frivolity without a metaphor for the head and leaving room for fondness that *airheaded* forecloses.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words",
+      "hard-words": "frivolity, forecloses"
+     }
+    },
+    {
+     "id": "flighty.oewn-02128403-s",
+     "word": "flighty",
+     "gloss": "guided by whim and fancy",
+     "charge": -2,
+     "tone": "Whim read as unreliability, so it warns about conduct where *head-in-the-clouds* only pictures a drift.",
+     "rewrite": false
+    },
+    {
+     "id": "flyaway.oewn-02128403-s",
+     "word": "flyaway",
+     "gloss": "guided by whim and fancy",
+     "charge": -1,
+     "tone": "The lightest reading of a life run by whim and fancy: loose and ungoverned rather than a fault to be answered for.",
+     "rewrite": false
+    },
+    {
+     "id": "head-in-the-clouds.oewn-02128403-s",
+     "word": "head-in-the-clouds",
+     "gloss": "guided by whim and fancy",
+     "charge": -1,
+     "tone": "Indulgent almost to fondness, the whim and fancy carrying the person off rather than damning them, unlike *scatterbrained*'s charge of disorder.",
+     "rewrite": false
+    },
+    {
+     "id": "scatterbrained.oewn-02128403-s",
+     "word": "scatterbrained",
+     "gloss": "guided by whim and fancy",
+     "charge": -2,
+     "tone": "Whim as scatter: the fault is that attention will not hold together, which *flighty* leaves as mere changeability.",
+     "rewrite": false
+    },
+    {
+     "id": "flippant.oewn-02128570-s",
+     "word": "flippant",
+     "gloss": "showing inappropriate levity",
+     "charge": -2,
+     "tone": "The verdict is built in, the levity being out of place, so the word rebukes a manner rather than diagnosing a mind as *empty-headed* does.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "light-minded.oewn-02128570-s",
+     "word": "light-minded",
+     "gloss": "showing inappropriate levity",
+     "charge": -1,
+     "tone": "The measured version of *flippant*'s fault, locating the misplaced levity in a cast of mind instead of throwing it back at the offender.",
+     "rewrite": false
+    },
+    {
+     "id": "idle.oewn-02128704-s",
+     "word": "idle",
+     "gloss": "silly or trivial",
+     "charge": -1,
+     "tone": "It runs to two things at once, the silly and the trivial, so the dismissal is as much about weightlessness as about foolishness.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00687757-a",
+   "axis": "holding the power to settle an outcome → settling it with a weight that shuts everything else down",
+   "members": [
+    {
+     "id": "decisive.oewn-00687757-a",
+     "word": "decisive",
+     "gloss": "determining or having the power to determine an outcome",
+     "charge": 0,
+     "tone": "The family's plain baseline, covering both the thing that actually determines an outcome and the thing merely holding the power to, and taking no view on how the outcome falls.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "30 words"
+     }
+    },
+    {
+     "id": "deciding.oewn-00688059-s",
+     "word": "deciding",
+     "gloss": "having the power or quality of deciding",
+     "charge": 0,
+     "tone": "The plainest member — the power or quality of deciding stated with no formality at all, where *determinative* says as much in a starched collar.",
+     "rewrite": false
+    },
+    {
+     "id": "determinant.oewn-00688059-s",
+     "word": "determinant",
+     "gloss": "having the power or quality of deciding",
+     "charge": 0,
+     "tone": "Formal and analytic, naming the deciding power as a property a factor holds rather than anything it is seen to do.",
+     "rewrite": false
+    },
+    {
+     "id": "determinative.oewn-00688059-s",
+     "word": "determinative",
+     "gloss": "having the power or quality of deciding",
+     "charge": 0,
+     "tone": "Formal, and tilted toward deciding as a standing quality, where *determining* is that same power caught in the act.",
+     "rewrite": false
+    },
+    {
+     "id": "determining.oewn-00688059-s",
+     "word": "determining",
+     "gloss": "having the power or quality of deciding",
+     "charge": 0,
+     "tone": "The deciding power shown in use rather than merely held, which gives it a motion *determinant* lacks.",
+     "rewrite": false
+    },
+    {
+     "id": "fateful.oewn-00688390-s",
+     "word": "fateful",
+     "gloss": "having momentous consequences; of decisive importance",
+     "charge": -1,
+     "tone": "Adds gravity to plain importance — consequences big enough to feel handed down, with a shadow across them that *deciding* has no room for.",
+     "rewrite": false
+    },
+    {
+     "id": "fatal.oewn-00688390-s",
+     "word": "fatal",
+     "gloss": "having momentous consequences; of decisive importance",
+     "charge": -2,
+     "tone": "The darkest way this family has of saying momentous — it makes decisive importance sound like doom arriving, where *fateful* only makes it weighty.",
+     "rewrite": false
+    },
+    {
+     "id": "peremptory.oewn-00688642-s",
+     "word": "peremptory",
+     "gloss": "putting an end to all debate or action",
+     "charge": -2,
+     "tone": "Force with no courtesy in it: rather than settle an outcome it slams the door on debate and action alike, leaving nothing to answer.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

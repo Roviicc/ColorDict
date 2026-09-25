@@ -1,0 +1,395 @@
+{
+ "packet": 23,
+ "families": [
+  {
+   "family": "family-14461591-n",
+   "axis": "bare standing that could go either way → being held in high esteem and honor",
+   "members": [
+    {
+     "id": "character.oewn-14462159-n",
+     "word": "character",
+     "gloss": "good repute",
+     "charge": 2,
+     "tone": "The good is built into the word here, so unlike *name* it needs no adjective to come out favorable.",
+     "rewrite": false
+    },
+    {
+     "id": "name.oewn-14462254-n",
+     "word": "name",
+     "gloss": "a person's reputation",
+     "charge": 0,
+     "tone": "The plainest term for what a person is held to be, carrying no verdict of its own and taking whatever *character* or disgrace is attached to it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "stock.oewn-14462007-n",
+     "word": "stock",
+     "gloss": "the reputation and popularity a person has",
+     "charge": 0,
+     "tone": "Treats standing as a quantity that rises and falls, and pairs it with popularity rather than the honor *reputation* names.",
+     "rewrite": false
+    },
+    {
+     "id": "reputation.oewn-14461591-n",
+     "word": "reputation",
+     "gloss": "the state of being held in high esteem and honor",
+     "charge": 3,
+     "tone": "The full weight of the family: not merely being thought well of but being held in high esteem and honor.",
+     "rewrite": false
+    },
+    {
+     "id": "fame.oewn-14462364-n",
+     "word": "fame",
+     "gloss": "favorable public reputation",
+     "charge": 2,
+     "tone": "Adds breadth to approval — the favor is public, where *character* keeps good standing a private matter.",
+     "rewrite": false
+    },
+    {
+     "id": "repute.oewn-14461591-n",
+     "word": "repute",
+     "gloss": "the state of being held in high esteem and honor",
+     "charge": 3,
+     "tone": "The formal counterpart to *reputation*, stating the same high esteem and honor in a more elevated register.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-09631739-n",
+   "axis": "a standing source of help and counsel → a rescuer from actual danger",
+   "members": [
+    {
+     "id": "uncle.oewn-10755916-n",
+     "word": "uncle",
+     "gloss": "a source of help and advice and encouragement",
+     "charge": 2,
+     "tone": "Warm and informal, casting the helper as a standing resource of help, advice and encouragement rather than a one-off saviour like *deliverer*.",
+     "rewrite": false
+    },
+    {
+     "id": "patron.oewn-10427699-n",
+     "word": "patron",
+     "gloss": "someone who supports or champions something",
+     "charge": 2,
+     "tone": "Approving, but aimed at a thing supported or championed rather than at a person in trouble, so the credit is for backing and advocacy rather than for relief.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "deliverer.oewn-10573233-n",
+     "word": "deliverer",
+     "gloss": "a person who rescues you from harm or danger",
+     "charge": 3,
+     "tone": "The most elevated of the three and the most urgent, since the help it names is rescue from harm or danger, not the encouragement of *uncle*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00759528-n",
+   "axis": "self-esteem swollen past reason → that swollen self-esteem turned outward as a superior manner toward those below",
+   "members": [
+    {
+     "id": "pride.oewn-00759528-n",
+     "word": "pride",
+     "gloss": "unreasonable and inordinate self-esteem (personified as one of the deadly sins)",
+     "charge": -2,
+     "tone": "Here the word is a vice and not a virtue - self-esteem grown unreasonable and past all proportion, and grave enough to stand as one of the deadly sins.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "arrogance.oewn-04895107-n",
+     "word": "arrogance",
+     "gloss": "overbearing pride evidenced by a superior manner toward inferiors",
+     "charge": -3,
+     "tone": "A flat accusation: the swollen self-regard of *pride* has stopped being inward and is now overbearing, worn as a superior manner toward those it counts as inferior.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "hauteur.oewn-04895107-n",
+     "word": "hauteur",
+     "gloss": "overbearing pride evidenced by a superior manner toward inferiors",
+     "charge": -2,
+     "tone": "Formal and chilly, naming the same overbearing pride as a bearing one carries above inferiors rather than levelling the blunt charge *arrogance* makes.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00756299-n",
+   "axis": "a face kept up to impress → a deliberate, overdone pose",
+   "members": [
+    {
+     "id": "appearance.oewn-00756620-n",
+     "word": "appearance",
+     "gloss": "pretending that something is the case in order to make a good impression",
+     "charge": -1,
+     "tone": "The mildest word here for faking it, faulting the wish to look good rather than the falsehood itself, which is where *pretence* puts the blame.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "show.oewn-00756620-n",
+     "word": "show",
+     "gloss": "pretending that something is the case in order to make a good impression",
+     "charge": -2,
+     "tone": "Treats the same impression-making pretence as something staged for onlookers, with more of a sneer at the performance than *appearance* carries.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "pretence, onlookers, sneer"
+     }
+    },
+    {
+     "id": "affectation.oewn-00757016-n",
+     "word": "affectation",
+     "gloss": "a deliberate pretense or exaggerated display",
+     "charge": -2,
+     "tone": "Convicts the pretence of being both calculated and laid on too thick, so the fault is excess as much as falsity.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "pretence, falsity"
+     }
+    },
+    {
+     "id": "pretence.oewn-00756299-n",
+     "word": "pretence",
+     "gloss": "the act of giving a false appearance",
+     "charge": -2,
+     "tone": "The flat, general name for putting up a false front, with none of the flattering motive that softens *appearance* and no charge of overdoing it; British spelling.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-05989760-n",
+   "axis": "an outcome loosely held in mind → a fixed point aimed at that ends the effort",
+   "members": [
+    {
+     "id": "purpose.oewn-05991037-n",
+     "word": "purpose",
+     "gloss": "an anticipated outcome that is intended or that guides your planned actions",
+     "charge": 0,
+     "tone": "The weightiest of the plain words for a wanted outcome: it frames that outcome as what gives the planned action its reason, where *aim* only gives it a direction.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "29 words"
+     }
+    },
+    {
+     "id": "intention.oewn-05991037-n",
+     "word": "intention",
+     "gloss": "an anticipated outcome that is intended or that guides your planned actions",
+     "charge": 0,
+     "tone": "Puts the anticipated outcome in the mind of whoever is acting, so it holds whether or not anything is done about it, unlike *target* with its attainable thing to be hit.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "31 words"
+     }
+    },
+    {
+     "id": "design.oewn-05991037-n",
+     "word": "design",
+     "gloss": "an anticipated outcome that is intended or that guides your planned actions",
+     "charge": 0,
+     "tone": "Makes the intended outcome sound worked out in advance, a shape already settled on rather than the bare wish *intention* names.",
+     "rewrite": false
+    },
+    {
+     "id": "intent.oewn-05991037-n",
+     "word": "intent",
+     "gloss": "an anticipated outcome that is intended or that guides your planned actions",
+     "charge": 0,
+     "tone": "Clipped and formal beside *intention*, stating the outcome as something fixed on rather than merely entertained.",
+     "rewrite": false
+    },
+    {
+     "id": "aim.oewn-05991037-n",
+     "word": "aim",
+     "gloss": "an anticipated outcome that is intended or that guides your planned actions",
+     "charge": 0,
+     "tone": "The lightest and most directional of these: it points at the outcome without the justifying weight *purpose* carries.",
+     "rewrite": false
+    },
+    {
+     "id": "end.oewn-05989760-n",
+     "word": "end",
+     "gloss": "the state of affairs that a plan is intended to achieve and that (when achieved) terminates behavior intended to achieve it",
+     "charge": 0,
+     "tone": "Abstract and cool, naming the outcome as the terminus at which the behaviour stops, where *goal* names the same thing as something worked toward.",
+     "rewrite": false
+    },
+    {
+     "id": "object.oewn-05990115-n",
+     "word": "object",
+     "gloss": "the goal intended to be attained (and which is believed to be attainable)",
+     "charge": 0,
+     "tone": "Dry and formal, presenting the wanted outcome as a definite thing to be got and believed gettable, without *target*'s invitation to score a hit or a miss.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "goal.oewn-05989760-n",
+     "word": "goal",
+     "gloss": "the state of affairs that a plan is intended to achieve and that (when achieved) terminates behavior intended to achieve it",
+     "charge": 0,
+     "tone": "The plainest everyday word for the achievement a plan runs to and stops at, warmer and less abstract than *end* for the same thing.",
+     "rewrite": false
+    },
+    {
+     "id": "destination.oewn-05990653-n",
+     "word": "destination",
+     "gloss": "the ultimate goal for which something is done",
+     "charge": 0,
+     "tone": "Sets the outcome as the ultimate one, the point everything else is serving, and carries the figure of a journey's end that *object* does not.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "target.oewn-05990115-n",
+     "word": "target",
+     "gloss": "the goal intended to be attained (and which is believed to be attainable)",
+     "charge": 0,
+     "tone": "The sharpest of these: it makes the attainable outcome a thing to be struck, so falling short of it registers as a miss.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00834860-v",
+   "axis": "bare giving of evidence → taking on the role of informer",
+   "members": [
+    {
+     "id": "inform.oewn-00834860-v",
+     "word": "inform",
+     "gloss": "act as an informer",
+     "charge": -1,
+     "tone": "Casts the act as a role rather than an occasion — you are not someone who spoke but an informer, and the faint taint sits in that role where *tell* has none.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "31 words"
+     }
+    },
+    {
+     "id": "tell.oewn-00956454-v",
+     "word": "tell",
+     "gloss": "give evidence",
+     "charge": 0,
+     "tone": "The plainest verb available for producing evidence, naming the act and implying nothing about the one who does it.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-04849544-n",
+   "axis": "nastiness of temper → a quality that threatens evil",
+   "members": [
+    {
+     "id": "spite.oewn-04849746-n",
+     "word": "spite",
+     "gloss": "malevolence by virtue of being malicious or spiteful or nasty",
+     "charge": -2,
+     "tone": "Malevolence run down to nastiness — it takes in the merely nasty as readily as the truly malicious, so it can bite without carrying the threat *malice* carries.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "malice.oewn-04849544-n",
+     "word": "malice",
+     "gloss": "the quality of threatening evil",
+     "charge": -3,
+     "tone": "The heaviest word here: not an unpleasant streak but a quality that holds evil over someone.",
+     "rewrite": false
+    },
+    {
+     "id": "cruelty.oewn-04852706-n",
+     "word": "cruelty",
+     "gloss": "the quality of being cruel and causing tension or annoyance",
+     "charge": -2,
+     "tone": "Names the cruel disposition itself, but pitched at the tension and annoyance it inflicts rather than at any graver damage.",
+     "rewrite": false
+    },
+    {
+     "id": "meanness.oewn-04852915-n",
+     "word": "meanness",
+     "gloss": "the quality of being deliberately mean",
+     "charge": -2,
+     "tone": "Deliberateness is the whole of the charge — not a lapse or a bad mood but meanness meant, which is what condemns it.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00746935-n",
+   "axis": "a single act of disrespect → conduct condemned as morally evil",
+   "members": [
+    {
+     "id": "evil.oewn-00746935-n",
+     "word": "evil",
+     "gloss": "morally objectionable behavior",
+     "charge": -3,
+     "tone": "The flat, absolute name for conduct that offends morality, condemning without argument or degree.",
+     "rewrite": false
+    },
+    {
+     "id": "wickedness.oewn-00746935-n",
+     "word": "wickedness",
+     "gloss": "morally objectionable behavior",
+     "charge": -3,
+     "tone": "Condemns the same conduct with a moralizing relish, as though the wrong were knowingly savoured rather than merely done — fuller-blooded than the bare *evil*.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "moralizing, savoured"
+     }
+    },
+    {
+     "id": "violation.oewn-00747530-n",
+     "word": "violation",
+     "gloss": "a disrespectful act",
+     "charge": -2,
+     "tone": "Frames the disrespect as a breach, something owed and transgressed, giving the act a hard formal weight that *irreverence* lacks.",
+     "rewrite": false
+    },
+    {
+     "id": "irreverence.oewn-00747530-n",
+     "word": "irreverence",
+     "gloss": "a disrespectful act",
+     "charge": -1,
+     "tone": "The lightest blame here: an act that withholds due respect rather than one that breaks anything.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

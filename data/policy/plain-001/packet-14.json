@@ -1,0 +1,844 @@
+{
+ "packet": 14,
+ "families": [
+  {
+   "family": "family-01673111-a",
+   "axis": "merely unmethodical → snarled into total wreckage",
+   "members": [
+    {
+     "id": "disorganized.oewn-01673111-a",
+     "word": "disorganized",
+     "gloss": "lacking order or methodical arrangement or function",
+     "charge": -1,
+     "tone": "The family's plain statement of the fault - order, methodical arrangement and working function all simply absent, with none of the wreckage *chaotic* pictures.",
+     "rewrite": false
+    },
+    {
+     "id": "disorganised.oewn-01673111-a",
+     "word": "disorganised",
+     "gloss": "lacking order or methodical arrangement or function",
+     "charge": -1,
+     "tone": "Carries exactly the force of *disorganized*; the spelling is the whole of the difference.",
+     "rewrite": false
+    },
+    {
+     "id": "broken.oewn-01673499-s",
+     "word": "broken",
+     "gloss": "thrown into a state of disarray or confusion",
+     "charge": -2,
+     "tone": "Of a thing thrown into disarray rather than snapped in two - the confusion reads as damage done to it, not merely order gone missing.",
+     "rewrite": false
+    },
+    {
+     "id": "confused.oewn-01673499-s",
+     "word": "confused",
+     "gloss": "thrown into a state of disarray or confusion",
+     "charge": -1,
+     "tone": "Puts the muddle in the thing itself rather than in anyone's head - it is the arrangement that is tangled, not a mind.",
+     "rewrite": false
+    },
+    {
+     "id": "disordered.oewn-01673499-s",
+     "word": "disordered",
+     "gloss": "thrown into a state of disarray or confusion",
+     "charge": -1,
+     "tone": "Names the loss of order as a state the thing has been put into and leaves it there, without the damage *broken* implies or the fresh upheaval *upset* pictures.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "29 words"
+     }
+    },
+    {
+     "id": "upset.oewn-01673499-s",
+     "word": "upset",
+     "gloss": "thrown into a state of disarray or confusion",
+     "charge": -1,
+     "tone": "Pictures the disarray as a tipping-over: the arrangement knocked out of place rather than destroyed, and the upheaval still fresh.",
+     "rewrite": false
+    },
+    {
+     "id": "chaotic.oewn-01673760-s",
+     "word": "chaotic",
+     "gloss": "lacking a visible order or organization",
+     "charge": -2,
+     "tone": "Sharpens the charge into a spectacle - not a trace of order or organization to be seen, where *disorganized* merely notes the lack.",
+     "rewrite": false
+    },
+    {
+     "id": "helter-skelter.oewn-01673760-s",
+     "word": "helter-skelter",
+     "gloss": "lacking a visible order or organization",
+     "charge": -1,
+     "tone": "Its jingling shape makes the same invisible order sound hectic and headlong, far lighter in judgement than *chaotic*.",
+     "rewrite": false
+    },
+    {
+     "id": "fucked-up.oewn-01673870-s",
+     "word": "fucked-up",
+     "gloss": "snarled or stalled in complete confusion",
+     "charge": -3,
+     "tone": "Coarse and total - a snarl or dead stop treated as a botch someone is answerable for, the harshest word in the family.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "snarl, botch, answerable"
+     }
+    },
+    {
+     "id": "snafu.oewn-01673870-s",
+     "word": "snafu",
+     "gloss": "snarled or stalled in complete confusion",
+     "charge": -2,
+     "tone": "Names the same total snarl-up or standstill with a clipped, almost breezy label - rueful where *fucked-up* is furious.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "snarl-up, rueful"
+     }
+    },
+    {
+     "id": "scrambled.oewn-01674027-s",
+     "word": "scrambled",
+     "gloss": "thrown together in a disorderly fashion",
+     "charge": -1,
+     "tone": "Faults the making rather than the thing: pieces flung together in haste, so the disorder sits in how it was put together.",
+     "rewrite": false
+    },
+    {
+     "id": "unmethodical.oewn-01674152-s",
+     "word": "unmethodical",
+     "gloss": "not efficient or methodical",
+     "charge": -1,
+     "tone": "The coolest reproach here - it faults the missing method and the inefficiency that comes with it, and pictures no wreckage at all.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "reproach, inefficiency"
+     }
+    },
+    {
+     "id": "unstuck.oewn-01674290-s",
+     "word": "unstuck",
+     "gloss": "thrown into a state of disorganization or incoherence",
+     "charge": -2,
+     "tone": "Pictures the collapse as a coming-apart - what was holding gives way, and the disorganization or incoherence follows from that.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "disorganization, incoherence"
+     }
+    },
+    {
+     "id": "undone.oewn-01674290-s",
+     "word": "undone",
+     "gloss": "thrown into a state of disorganization or incoherence",
+     "charge": -2,
+     "tone": "Sounds the same collapse as an unmaking, graver and more final than *unstuck* - the thing not merely loosened but ruined.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01744456-a",
+   "axis": "warm love of country → that love turned fanatical",
+   "members": [
+    {
+     "id": "patriotic.oewn-01744456-a",
+     "word": "patriotic",
+     "gloss": "inspired by love for your country",
+     "charge": 2,
+     "tone": "The plain approving word for love of country, holding the feeling at a warmth that *jingoistic* has already burned past.",
+     "rewrite": false
+    },
+    {
+     "id": "loyal.oewn-01744456-a",
+     "word": "loyal",
+     "gloss": "inspired by love for your country",
+     "charge": 2,
+     "tone": "Casts the same love as steadfast attachment rather than ardour, quieter and less demonstrative than *patriotic*.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "ardour, demonstrative"
+     }
+    },
+    {
+     "id": "chauvinistic.oewn-01744607-s",
+     "word": "chauvinistic",
+     "gloss": "fanatically patriotic",
+     "charge": -2,
+     "tone": "Condemning: the country's superiority held as an article of faith, all conviction and no judgement.",
+     "rewrite": false
+    },
+    {
+     "id": "flag-waving.oewn-01744607-s",
+     "word": "flag-waving",
+     "gloss": "fanatically patriotic",
+     "charge": -2,
+     "tone": "Mocks the display rather than the belief, reducing the fanaticism to noisy show where *chauvinistic* attacks the conviction behind it.",
+     "rewrite": false
+    },
+    {
+     "id": "jingoistic.oewn-01744607-s",
+     "word": "jingoistic",
+     "gloss": "fanatically patriotic",
+     "charge": -3,
+     "tone": "The sharpest edge in the group, hearing the fanaticism as belligerence rather than mere excess of zeal.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "fanaticism, belligerence"
+     }
+    },
+    {
+     "id": "nationalistic.oewn-01744607-s",
+     "word": "nationalistic",
+     "gloss": "fanatically patriotic",
+     "charge": -2,
+     "tone": "The coolest-sounding of the fanatical set, naming the excess as a doctrine where *flag-waving* names its noise.",
+     "rewrite": false
+    },
+    {
+     "id": "ultranationalistic.oewn-01744607-s",
+     "word": "ultranationalistic",
+     "gloss": "fanatically patriotic",
+     "charge": -3,
+     "tone": "Pushed past *nationalistic* to an extremity that leaves no reading in which the word admires what it describes.",
+     "rewrite": false
+    },
+    {
+     "id": "superpatriotic.oewn-01744607-s",
+     "word": "superpatriotic",
+     "gloss": "fanatically patriotic",
+     "charge": -2,
+     "tone": "Sarcastic: patriotism inflated past the point of belief, so the swelling itself is the accusation.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01648062-a",
+   "axis": "a plain count of years → age as infirmity worth mocking",
+   "members": [
+    {
+     "id": "old.oewn-01648062-a",
+     "word": "old",
+     "gloss": "(used especially of persons) having lived for a relatively long time or attained a specific age",
+     "charge": 0,
+     "tone": "Flat and unloaded, and it holds both readings at once — a long life lived or simply a stated age attained — where *of age* carries only the second.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "aged.oewn-01648667-s",
+     "word": "aged",
+     "gloss": "advanced in years; (‘aged’ is pronounced as two syllables)",
+     "charge": 0,
+     "tone": "Formal and weighty where *older* is merely comparative, presenting advanced years as a settled condition rather than a point on a scale.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "comparative"
+     }
+    },
+    {
+     "id": "elderly.oewn-01648667-s",
+     "word": "elderly",
+     "gloss": "advanced in years; (‘aged’ is pronounced as two syllables)",
+     "charge": 0,
+     "tone": "The courteous way to say advanced in years, gentler in force than *aged* and careful to claim nothing further about the person.",
+     "rewrite": false
+    },
+    {
+     "id": "older.oewn-01648667-s",
+     "word": "older",
+     "gloss": "advanced in years; (‘aged’ is pronounced as two syllables)",
+     "charge": 0,
+     "tone": "A comparative doing the work of a plain description, which is what makes it the softest term here — it implies a scale instead of naming a state.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words",
+      "grammar": "comparative"
+     }
+    },
+    {
+     "id": "senior.oewn-01648667-s",
+     "word": "senior",
+     "gloss": "advanced in years; (‘aged’ is pronounced as two syllables)",
+     "charge": 1,
+     "tone": "Carries a note of standing rather than decline, making it the one flattering way in this set to say advanced in years.",
+     "rewrite": false
+    },
+    {
+     "id": "of_age.oewn-01648983-s",
+     "word": "of age",
+     "gloss": "having attained a specific age; (‘aged’ is pronounced as one syllable)",
+     "charge": 0,
+     "tone": "Purely a threshold reached, with none of the weight of accumulated years that *aged* brings with it.",
+     "rewrite": false
+    },
+    {
+     "id": "aging.oewn-01649151-s",
+     "word": "aging",
+     "gloss": "growing old",
+     "charge": -1,
+     "tone": "Puts age in motion rather than in place - the process, not the state - and that forward motion carries its faint edge of decline.",
+     "rewrite": false
+    },
+    {
+     "id": "ageing.oewn-01649151-s",
+     "word": "ageing",
+     "gloss": "growing old",
+     "charge": -1,
+     "tone": "The British spelling of the same word, carrying the identical sense of decline already under way.",
+     "rewrite": false
+    },
+    {
+     "id": "senescent.oewn-01649151-s",
+     "word": "senescent",
+     "gloss": "growing old",
+     "charge": 0,
+     "tone": "Clinical and detached: it states the same growing old as *aging* in a register that declines to feel anything about it.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "ancient.oewn-01649289-s",
+     "word": "ancient",
+     "gloss": "very old",
+     "charge": -1,
+     "tone": "Pure intensification — *old* taken to its limit, and the size of the exaggeration is what gives it its edge.",
+     "rewrite": false
+    },
+    {
+     "id": "anile.oewn-01649409-s",
+     "word": "anile",
+     "gloss": "of or like a feeble old woman",
+     "charge": -2,
+     "tone": "Formal in shape but withering in effect, covering both actually being a feeble old woman and merely resembling one, with the contempt built into the word rather than the sentence.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "30 words"
+     }
+    },
+    {
+     "id": "centenarian.oewn-01649490-s",
+     "word": "centenarian",
+     "gloss": "being at least 100 years old",
+     "charge": 0,
+     "tone": "Purely quantitative — it fixes a number where *ancient* only gestures at extremity, and passes no verdict with it.",
+     "rewrite": false
+    },
+    {
+     "id": "darkened.oewn-01649594-s",
+     "word": "darkened",
+     "gloss": "(of fabrics and paper) grown dark in color over time",
+     "charge": 0,
+     "tone": "The one member describing what time does to the colour of a material rather than to a life, and it carries no judgement at all.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "doddering.oewn-01649738-s",
+     "word": "doddering",
+     "gloss": "mentally or physically infirm with age",
+     "charge": -2,
+     "tone": "Contemptuous where *aged* is not, making the infirmity — of mind or of body — the whole of what it says about the person.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "contemptuous, infirmity"
+     }
+    },
+    {
+     "id": "doddery.oewn-01649738-s",
+     "word": "doddery",
+     "gloss": "mentally or physically infirm with age",
+     "charge": -2,
+     "tone": "The same verdict of age-borne infirmity as *doddering*, its shorter form making the mockery sound offhand rather than deliberate.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "infirmity, offhand"
+     }
+    },
+    {
+     "id": "gaga.oewn-01649738-s",
+     "word": "gaga",
+     "gloss": "mentally or physically infirm with age",
+     "charge": -3,
+     "tone": "Informal and blunt — the same infirmity as *doddering*, named in a word too flippant to leave the person any dignity.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "infirmity, flippant"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-02429932-a",
+   "axis": "grudging withholding → resource-care counted as a virtue",
+   "members": [
+    {
+     "id": "thrifty.oewn-02429932-a",
+     "word": "thrifty",
+     "gloss": "careful and diligent in the use of resources",
+     "charge": 2,
+     "tone": "Approving outright - care with resources treated as a settled virtue, where *penny-wise* grants that same care in miniature.",
+     "rewrite": false
+    },
+    {
+     "id": "economical.oewn-02430138-s",
+     "word": "economical",
+     "gloss": "avoiding waste",
+     "charge": 1,
+     "tone": "The cool one of the waste-avoiders — credits efficiency without implying any self-denial, which is what *frugal* adds.",
+     "rewrite": false
+    },
+    {
+     "id": "frugal.oewn-02430138-s",
+     "word": "frugal",
+     "gloss": "avoiding waste",
+     "charge": 2,
+     "tone": "The same waste-avoidance as *economical*, but worn as a discipline rather than run as an efficiency.",
+     "rewrite": false
+    },
+    {
+     "id": "scotch.oewn-02430138-s",
+     "word": "scotch",
+     "gloss": "avoiding waste",
+     "charge": -1,
+     "tone": "Barbed — the identical waste-avoidance of *economical* recast as an accusation of tightness.",
+     "rewrite": false
+    },
+    {
+     "id": "sparing.oewn-02430138-s",
+     "word": "sparing",
+     "gloss": "avoiding waste",
+     "charge": 0,
+     "tone": "Neutral — names the holding back itself and leaves it unjudged, where *thrifty* has already decided the holding back is good.",
+     "rewrite": false
+    },
+    {
+     "id": "stinting.oewn-02430138-s",
+     "word": "stinting",
+     "gloss": "avoiding waste",
+     "charge": -1,
+     "tone": "Tips into fault — the restraint reads as giving less than is due, where *sparing* keeps the same restraint blameless.",
+     "rewrite": false
+    },
+    {
+     "id": "penny-wise.oewn-02430607-s",
+     "word": "penny-wise",
+     "gloss": "thrifty in small matters only",
+     "charge": -1,
+     "tone": "Faint mockery — grants real thrift but confines it to small sums, so the praise arrives already qualified.",
+     "rewrite": false
+    },
+    {
+     "id": "saving.oewn-02430693-s",
+     "word": "saving",
+     "gloss": "characterized by thriftiness",
+     "charge": 1,
+     "tone": "The flat attributive — ascribes thriftiness as a standing trait without pressing the approval *thrifty* carries.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "attributive, ascribes"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-01592579-a",
+   "axis": "elevation conferred or plainly noted → elevation that awes and gives freely",
+   "members": [
+    {
+     "id": "noble.oewn-01592579-a",
+     "word": "noble",
+     "gloss": "having or showing or indicative of high or elevated character",
+     "charge": 2,
+     "tone": "The family's base term for the thing itself: it takes in character that is high, character that shows it, and anything that merely points to it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "26 words"
+     }
+    },
+    {
+     "id": "dignifying.oewn-01592833-s",
+     "word": "dignifying",
+     "gloss": "investing with dignity or honor",
+     "charge": 2,
+     "tone": "Names what confers standing rather than what holds it - the honour is being handed over, where *noble* already has it.",
+     "rewrite": false
+    },
+    {
+     "id": "ennobling.oewn-01592833-s",
+     "word": "ennobling",
+     "gloss": "investing with dignity or honor",
+     "charge": 2,
+     "tone": "More lift than *dignifying*: it raises what it touches rather than only decorating it with honour.",
+     "rewrite": false
+    },
+    {
+     "id": "exalted.oewn-01593026-s",
+     "word": "exalted",
+     "gloss": "of high moral or intellectual value; elevated in nature or style",
+     "charge": 3,
+     "tone": "Reverent praise - it speaks of the height as though awe were owed to it, where *elevated* just records the same height.",
+     "rewrite": false
+    },
+    {
+     "id": "elevated.oewn-01593026-s",
+     "word": "elevated",
+     "gloss": "of high moral or intellectual value; elevated in nature or style",
+     "charge": 2,
+     "tone": "The measured word for that height, stating the value with no lift in the voice at all.",
+     "rewrite": false
+    },
+    {
+     "id": "sublime.oewn-01593026-s",
+     "word": "sublime",
+     "gloss": "of high moral or intellectual value; elevated in nature or style",
+     "charge": 3,
+     "tone": "The furthest reach here - elevation that overwhelms rather than merely impresses, beside which *grand* is only large.",
+     "rewrite": false
+    },
+    {
+     "id": "grand.oewn-01593026-s",
+     "word": "grand",
+     "gloss": "of high moral or intellectual value; elevated in nature or style",
+     "charge": 2,
+     "tone": "Praises the sheer scale of the elevation where *exalted* praises its worth, so it impresses more than it moves.",
+     "rewrite": false
+    },
+    {
+     "id": "high-flown.oewn-01593026-s",
+     "word": "high-flown",
+     "gloss": "of high moral or intellectual value; elevated in nature or style",
+     "charge": 1,
+     "tone": "The most emphatic in manner - elevation pitched loudly enough to be heard, where *elevated* keeps its voice level.",
+     "rewrite": false
+    },
+    {
+     "id": "high-minded.oewn-01593026-s",
+     "word": "high-minded",
+     "gloss": "of high moral or intellectual value; elevated in nature or style",
+     "charge": 2,
+     "tone": "Sober, earnest approval: it admires the height without supplying any of the grandeur *grand* does.",
+     "rewrite": false
+    },
+    {
+     "id": "lofty.oewn-01593026-s",
+     "word": "lofty",
+     "gloss": "of high moral or intellectual value; elevated in nature or style",
+     "charge": 2,
+     "tone": "Height with distance in it - approving, but it sets the thing above the ordinary rather than among it.",
+     "rewrite": false
+    },
+    {
+     "id": "rarefied.oewn-01593026-s",
+     "word": "rarefied",
+     "gloss": "of high moral or intellectual value; elevated in nature or style",
+     "charge": 1,
+     "tone": "Praise with thin air in it: the elevation is so far up that it reads as select rather than shared.",
+     "rewrite": false
+    },
+    {
+     "id": "rarified.oewn-01593026-s",
+     "word": "rarified",
+     "gloss": "of high moral or intellectual value; elevated in nature or style",
+     "charge": 1,
+     "tone": "The same select, thin-aired elevation as *rarefied*, spelled the other way.",
+     "rewrite": false
+    },
+    {
+     "id": "idealistic.oewn-01593026-s",
+     "word": "idealistic",
+     "gloss": "of high moral or intellectual value; elevated in nature or style",
+     "charge": 1,
+     "tone": "The least awed of these - it credits the pitch of the standard rather than any grandeur in the thing.",
+     "rewrite": false
+    },
+    {
+     "id": "noble-minded.oewn-01593026-s",
+     "word": "noble-minded",
+     "gloss": "of high moral or intellectual value; elevated in nature or style",
+     "charge": 2,
+     "tone": "Puts *noble* in plainer and more personal terms, naming high character straight out without the ceremony *exalted* carries.",
+     "rewrite": false
+    },
+    {
+     "id": "greathearted.oewn-01593452-s",
+     "word": "greathearted",
+     "gloss": "noble and generous in spirit",
+     "charge": 3,
+     "tone": "The warm end of the family - nobility felt as open generosity, and plain-spoken where *magnanimous* is formal.",
+     "rewrite": false
+    },
+    {
+     "id": "magnanimous.oewn-01593452-s",
+     "word": "magnanimous",
+     "gloss": "noble and generous in spirit",
+     "charge": 3,
+     "tone": "The formal, weighty word for that same generous nobility, stated as a virtue rather than felt as warmth.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02398903-a",
+   "axis": "control merely absent → excitement past the reach of reason",
+   "members": [
+    {
+     "id": "wild.oewn-02398903-a",
+     "word": "wild",
+     "gloss": "marked by extreme lack of restraint or control",
+     "charge": -1,
+     "tone": "Names the extremity of the missing restraint without colouring it, and tips negative only because the gloss calls the lack extreme rather than partial.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "gloss"
+     }
+    },
+    {
+     "id": "chaotic.oewn-02399137-s",
+     "word": "chaotic",
+     "gloss": "completely unordered and unpredictable and confusing",
+     "charge": -2,
+     "tone": "Faults the state for what it does to anyone trying to follow it — unordered, unpredictable and confusing at once, where *wild* only says the reins are off.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    },
+    {
+     "id": "disorderly.oewn-02399137-s",
+     "word": "disorderly",
+     "gloss": "completely unordered and unpredictable and confusing",
+     "charge": -2,
+     "tone": "Carries the same absence of order as *chaotic* but frames it as an order failed rather than an order never present.",
+     "rewrite": false
+    },
+    {
+     "id": "delirious.oewn-02399292-s",
+     "word": "delirious",
+     "gloss": "marked by uncontrolled excitement or emotion",
+     "charge": -1,
+     "tone": "Pitches the uncontrolled feeling high enough to suggest the senses have gone with it, which *excited* never implies.",
+     "rewrite": false
+    },
+    {
+     "id": "excited.oewn-02399292-s",
+     "word": "excited",
+     "gloss": "marked by uncontrolled excitement or emotion",
+     "charge": 0,
+     "tone": "The unloaded member: it records the uncontrolled excitement and leaves the verdict to whoever is listening.",
+     "rewrite": false
+    },
+    {
+     "id": "frantic.oewn-02399292-s",
+     "word": "frantic",
+     "gloss": "marked by uncontrolled excitement or emotion",
+     "charge": -2,
+     "tone": "Adds hurry and distress to the same uncontrolled feeling, so the energy reads as flailing rather than pleasure.",
+     "rewrite": false
+    },
+    {
+     "id": "mad.oewn-02399292-s",
+     "word": "mad",
+     "gloss": "marked by uncontrolled excitement or emotion",
+     "charge": -2,
+     "tone": "Blunt and dismissive — it calls the uncontrolled emotion unreason outright instead of merely hinting at it as *delirious* does.",
+     "rewrite": false
+    },
+    {
+     "id": "unrestrained.oewn-02399292-s",
+     "word": "unrestrained",
+     "gloss": "marked by uncontrolled excitement or emotion",
+     "charge": -1,
+     "tone": "The coolest word here, naming the control that is missing rather than picturing the emotion that fills the gap.",
+     "rewrite": false
+    },
+    {
+     "id": "frenzied.oewn-02399571-s",
+     "word": "frenzied",
+     "gloss": "affected with or marked by frenzy or mania uncontrolled by reason",
+     "charge": -2,
+     "tone": "Reason is overrun rather than loosened, and the word fits both the person seized by the frenzy and the scene that shows it.",
+     "rewrite": false
+    },
+    {
+     "id": "manic.oewn-02399571-s",
+     "word": "manic",
+     "gloss": "affected with or marked by frenzy or mania uncontrolled by reason",
+     "charge": -2,
+     "tone": "Gives the same reasonless frenzy a clinical ring, where *frenzied* stays pure motion.",
+     "rewrite": false
+    },
+    {
+     "id": "unsubdued.oewn-02399910-s",
+     "word": "unsubdued",
+     "gloss": "not brought under control",
+     "charge": 0,
+     "tone": "A flat negative that says only that control was never imposed, so it can read as endurance as easily as excess.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00686462-a",
+   "axis": "impropriety merely hinted at → indecency flagrant enough to provoke",
+   "members": [
+    {
+     "id": "indecent.oewn-00686462-a",
+     "word": "indecent",
+     "gloss": "offensive to good taste especially in sexual matters",
+     "charge": -2,
+     "tone": "The family's flat verdict of offence to good taste, sexual matters foremost though not only those, condemning without the flagrancy *crude* insists on.",
+     "rewrite": false
+    },
+    {
+     "id": "crude.oewn-00686808-s",
+     "word": "crude",
+     "gloss": "conspicuously and tastelessly indecent",
+     "charge": -3,
+     "tone": "Blunt and graceless force: the indecency is out in the open with no refinement over it, where *indecent* only names the offence.",
+     "rewrite": false
+    },
+    {
+     "id": "earthy.oewn-00686808-s",
+     "word": "earthy",
+     "gloss": "conspicuously and tastelessly indecent",
+     "charge": -2,
+     "tone": "The mildest-sounding word for the same conspicuous, tasteless indecency, its plainness softening what *gross* spits out.",
+     "rewrite": false
+    },
+    {
+     "id": "gross.oewn-00686808-s",
+     "word": "gross",
+     "gloss": "conspicuously and tastelessly indecent",
+     "charge": -3,
+     "tone": "Registers revulsion rather than disapproval, the indecency coarse enough to sicken, and the word is the flinch.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "revulsion, indecency, sicken, flinch",
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "vulgar.oewn-00686808-s",
+     "word": "vulgar",
+     "gloss": "conspicuously and tastelessly indecent",
+     "charge": -3,
+     "tone": "Passes judgement on the sensibility behind the indecency as much as on the act, a verdict of cheapness that *earthy* declines to pass.",
+     "rewrite": false
+    },
+    {
+     "id": "indelicate.oewn-00687331-s",
+     "word": "indelicate",
+     "gloss": "verging on the indecent",
+     "charge": -1,
+     "tone": "The lightest reproof here, indecency approached but not arrived at, so it rebukes where *obscene* accuses.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "reproof, indecency"
+     }
+    },
+    {
+     "id": "obscene.oewn-00687440-s",
+     "word": "obscene",
+     "gloss": "designed to incite to indecency or lust",
+     "charge": -3,
+     "tone": "The heaviest charge in the family: not merely offensive but built to incite indecency or lust, design rather than effect.",
+     "rewrite": false
+    },
+    {
+     "id": "suggestive.oewn-00687611-s",
+     "word": "suggestive",
+     "gloss": "tending to suggest something improper or indecent",
+     "charge": -1,
+     "tone": "Works by implication, pointing toward the improper or the indecent without stating it, and accuses more lightly than *crude* for that reason.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02444489-a",
+   "axis": "hard to bear → past all bearing or defending",
+   "members": [
+    {
+     "id": "intolerable.oewn-02444489-a",
+     "word": "intolerable",
+     "gloss": "incapable of being tolerated or endured",
+     "charge": -3,
+     "tone": "The flat verdict of the three - it rules the thing out rather than measuring what holding it costs, which is what *unbearable* does.",
+     "rewrite": false
+    },
+    {
+     "id": "unbearable.oewn-02444489-a",
+     "word": "unbearable",
+     "gloss": "incapable of being tolerated or endured",
+     "charge": -2,
+     "tone": "Puts the weight on whoever is carrying it, so the limit reached is a person's capacity rather than the judgement *intolerable* hands down.",
+     "rewrite": false
+    },
+    {
+     "id": "unendurable.oewn-02444489-a",
+     "word": "unendurable",
+     "gloss": "incapable of being tolerated or endured",
+     "charge": -2,
+     "tone": "The same limit measured in duration - what cannot be lasted out, where *unbearable* is what cannot be held up under.",
+     "rewrite": false
+    },
+    {
+     "id": "bitter.oewn-02444782-s",
+     "word": "bitter",
+     "gloss": "very difficult to accept or bear",
+     "charge": -2,
+     "tone": "The one member that concedes the thing can be accepted or borne, at a price the others say is past paying at all.",
+     "rewrite": false
+    },
+    {
+     "id": "insufferable.oewn-02444906-s",
+     "word": "insufferable",
+     "gloss": "too extreme to bear",
+     "charge": -3,
+     "tone": "Names the excess itself - the thing has gone past a limit, where *intolerable* simply refuses it without saying by how much.",
+     "rewrite": false
+    },
+    {
+     "id": "unsufferable.oewn-02444906-s",
+     "word": "unsufferable",
+     "gloss": "too extreme to bear",
+     "charge": -3,
+     "tone": "Says exactly what *insufferable* says, and the difference is flatness rather than degree.",
+     "rewrite": false
+    },
+    {
+     "id": "impossible.oewn-02445119-s",
+     "word": "impossible",
+     "gloss": "(used of persons or their behavior) not acceptable or reasonable",
+     "charge": -3,
+     "tone": "Exasperated rather than judicial - it writes a person or their conduct off as beyond dealing with, where *unacceptable* files a ruling.",
+     "rewrite": false
+    },
+    {
+     "id": "unacceptable.oewn-02445119-s",
+     "word": "unacceptable",
+     "gloss": "(used of persons or their behavior) not acceptable or reasonable",
+     "charge": -2,
+     "tone": "The cool, formal counterpart of *impossible*: it finds the person or the behaviour unreasonable without any of the heat.",
+     "rewrite": false
+    },
+    {
+     "id": "unsupportable.oewn-02445449-s",
+     "word": "unsupportable",
+     "gloss": "not able to be supported or defended",
+     "charge": -2,
+     "tone": "Shifts the fault from what cannot be borne to what cannot be defended, so the weakness is in the thing's own standing rather than in anyone's strain.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "27 words"
+     }
+    }
+   ]
+  }
+ ]
+}

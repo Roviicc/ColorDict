@@ -1,0 +1,915 @@
+{
+ "packet": 1,
+ "families": [
+  {
+   "family": "family-00009997-a",
+   "axis": "swinish → merely hungry",
+   "members": [
+    {
+     "id": "gluttonous.oewn-00009997-a",
+     "word": "gluttonous",
+     "gloss": "given to excess in consumption of especially food or drink",
+     "charge": -3,
+     "tone": "Names one of the seven deadly sins; the excess is a moral failure, not an appetite.",
+     "rewrite": false
+    },
+    {
+     "id": "crapulous.oewn-00010404-s",
+     "word": "crapulous",
+     "gloss": "given to gross intemperance in eating or drinking",
+     "charge": -3,
+     "tone": "Formal and disgusted, and about drink as much as food.",
+     "rewrite": false
+    },
+    {
+     "id": "crapulent.oewn-00010556-s",
+     "word": "crapulent",
+     "gloss": "suffering from excessive eating or drinking",
+     "charge": -2,
+     "tone": "Describes the sick aftermath rather than the appetite - more pitiable than blamed.",
+     "rewrite": false
+    },
+    {
+     "id": "edacious.oewn-00010745-s",
+     "word": "edacious",
+     "gloss": "devouring or craving food in great quantities",
+     "charge": -1,
+     "tone": "Too bookish to wound - the oddity of the word softens the greed into comedy.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "bookish, oddity"
+     }
+    },
+    {
+     "id": "esurient.oewn-00010745-s",
+     "word": "esurient",
+     "gloss": "devouring or craving food in great quantities",
+     "charge": -1,
+     "tone": "Literary and dry - hunger stated as if from a distance.",
+     "rewrite": false
+    },
+    {
+     "id": "rapacious.oewn-00010745-s",
+     "word": "rapacious",
+     "gloss": "devouring or craving food in great quantities",
+     "charge": -3,
+     "tone": "The hunger is predatory - devouring as though by seizure.",
+     "rewrite": false
+    },
+    {
+     "id": "ravening.oewn-00010745-s",
+     "word": "ravening",
+     "gloss": "devouring or craving food in great quantities",
+     "charge": -3,
+     "tone": "Predatory and archaic-sounding, as of a beast that has not eaten.",
+     "rewrite": false
+    },
+    {
+     "id": "ravenous.oewn-00010745-s",
+     "word": "ravenous",
+     "gloss": "devouring or craving food in great quantities",
+     "charge": -1,
+     "tone": "Hunger at full strength, and no fault in it.",
+     "rewrite": false
+    },
+    {
+     "id": "voracious.oewn-00010745-s",
+     "word": "voracious",
+     "gloss": "devouring or craving food in great quantities",
+     "charge": -1,
+     "tone": "Appetite at full stretch - the eating is hard to satisfy.",
+     "rewrite": false
+    },
+    {
+     "id": "wolfish.oewn-00010745-s",
+     "word": "wolfish",
+     "gloss": "devouring or craving food in great quantities",
+     "charge": -2,
+     "tone": "Adds hunger to the manner of eating; it watches the food the way a predator would.",
+     "rewrite": false
+    },
+    {
+     "id": "greedy.oewn-00011179-s",
+     "word": "greedy",
+     "gloss": "wanting to eat or drink more than one can reasonably consume",
+     "charge": -2,
+     "tone": "The everyday charge for appetite: wanting more than one can use.",
+     "rewrite": false
+    },
+    {
+     "id": "hoggish.oewn-00011346-s",
+     "word": "hoggish",
+     "gloss": "resembling swine; coarsely gluttonous or greedy",
+     "charge": -3,
+     "tone": "Compares the person to a pig outright, with none of the softening *piggy* has.",
+     "rewrite": false
+    },
+    {
+     "id": "piggish.oewn-00011346-s",
+     "word": "piggish",
+     "gloss": "resembling swine; coarsely gluttonous or greedy",
+     "charge": -3,
+     "tone": "Greed and coarseness laid on with the farm animal - the comparison does the insulting.",
+     "rewrite": false
+    },
+    {
+     "id": "piggy.oewn-00011346-s",
+     "word": "piggy",
+     "gloss": "resembling swine; coarsely gluttonous or greedy",
+     "charge": -2,
+     "tone": "Diminutive, and small enough to carry no real anger.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "diminutive"
+     }
+    },
+    {
+     "id": "porcine.oewn-00011346-s",
+     "word": "porcine",
+     "gloss": "resembling swine; coarsely gluttonous or greedy",
+     "charge": -2,
+     "tone": "Formal and cold - the comparison to swine delivered clinically, which sharpens it.",
+     "rewrite": false
+    },
+    {
+     "id": "swinish.oewn-00011346-s",
+     "word": "swinish",
+     "gloss": "resembling swine; coarsely gluttonous or greedy",
+     "charge": -3,
+     "tone": "Broader than eating: it condemns the whole manner of the person.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01116284-a",
+   "axis": "contemptible → merely careful",
+   "members": [
+    {
+     "id": "stingy.oewn-01116284-a",
+     "word": "stingy",
+     "gloss": "unwilling to spend (money, time, resources, etc.)",
+     "charge": -2,
+     "tone": "The plain word. Its mirror image is *thrifty*, which praises the identical behaviour.",
+     "rewrite": false
+    },
+    {
+     "id": "ungenerous.oewn-01116284-a",
+     "word": "ungenerous",
+     "gloss": "unwilling to spend (money, time, resources, etc.)",
+     "charge": -2,
+     "tone": "Names the missing virtue rather than the present vice, which makes it the politer complaint.",
+     "rewrite": false
+    },
+    {
+     "id": "beggarly.oewn-01116711-s",
+     "word": "beggarly",
+     "gloss": "(used of sums of money) so small in amount as to deserve contempt",
+     "charge": -3,
+     "tone": "Said of the sum, not the person - an amount so small it insults whoever receives it.",
+     "rewrite": false
+    },
+    {
+     "id": "mean.oewn-01116711-s",
+     "word": "mean",
+     "gloss": "(used of sums of money) so small in amount as to deserve contempt",
+     "charge": -2,
+     "tone": "Of the amount, not the giver - a sum small enough to read as an insult.",
+     "rewrite": false
+    },
+    {
+     "id": "cheap.oewn-01116856-s",
+     "word": "cheap",
+     "gloss": "embarrassingly stingy",
+     "charge": -3,
+     "tone": "Stinginess as a public embarrassment - the shame is the point.",
+     "rewrite": false
+    },
+    {
+     "id": "chinchy.oewn-01116856-s",
+     "word": "chinchy",
+     "gloss": "embarrassingly stingy",
+     "charge": -2,
+     "tone": "Regional American and dismissive.",
+     "rewrite": false
+    },
+    {
+     "id": "chintzy.oewn-01116856-s",
+     "word": "chintzy",
+     "gloss": "embarrassingly stingy",
+     "charge": -2,
+     "tone": "Stinginess with the embarrassment built in - the cheapness shows.",
+     "rewrite": false
+    },
+    {
+     "id": "cheeseparing.oewn-01116967-s",
+     "word": "cheeseparing",
+     "gloss": "giving or spending with reluctance",
+     "charge": -2,
+     "tone": "Formal and disdainful: economy pursued past the point of dignity.",
+     "rewrite": false
+    },
+    {
+     "id": "close.oewn-01116967-s",
+     "word": "close",
+     "gloss": "giving or spending with reluctance",
+     "charge": -1,
+     "tone": "Euphemistic. *Close with money* is what you say when you do not want to say stingy.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "euphemistic"
+     }
+    },
+    {
+     "id": "near.oewn-01116967-s",
+     "word": "near",
+     "gloss": "giving or spending with reluctance",
+     "charge": -1,
+     "tone": "A euphemism - stinginess softened into mere 'closeness' with money.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "euphemism"
+     }
+    },
+    {
+     "id": "penny-pinching.oewn-01116967-s",
+     "word": "penny-pinching",
+     "gloss": "giving or spending with reluctance",
+     "charge": -2,
+     "tone": "Pictures the act, and the smallness of the coin does the condemning.",
+     "rewrite": false
+    },
+    {
+     "id": "skinny.oewn-01116967-s",
+     "word": "skinny",
+     "gloss": "giving or spending with reluctance",
+     "charge": -1,
+     "tone": "Stinginess as thinness - giving kept as lean as the frame.",
+     "rewrite": false
+    },
+    {
+     "id": "closefisted.oewn-01117247-s",
+     "word": "closefisted",
+     "gloss": "unwilling to part with money",
+     "charge": -2,
+     "tone": "The hand that will not open - refusal made physical.",
+     "rewrite": false
+    },
+    {
+     "id": "hardfisted.oewn-01117247-s",
+     "word": "hardfisted",
+     "gloss": "unwilling to part with money",
+     "charge": -2,
+     "tone": "Harder than 'closefisted' by a shade - the fist has closed tighter.",
+     "rewrite": false
+    },
+    {
+     "id": "tightfisted.oewn-01117247-s",
+     "word": "tightfisted",
+     "gloss": "unwilling to part with money",
+     "charge": -2,
+     "tone": "The most vivid of the fists - the hand is shut and stays shut.",
+     "rewrite": false
+    },
+    {
+     "id": "grudging.oewn-01117378-s",
+     "word": "grudging",
+     "gloss": "petty or reluctant in giving or spending",
+     "charge": -2,
+     "tone": "The money was given - resentfully, which is what makes it worse than refusal for some.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02105605-a",
+   "axis": "calculating → merely inattentive",
+   "members": [
+    {
+     "id": "selfish.oewn-02105605-a",
+     "word": "selfish",
+     "gloss": "concerned chiefly or only with yourself and your advantage to the exclusion of others",
+     "charge": -2,
+     "tone": "The plain moral word - a direct accusation, nothing clinical in it.",
+     "rewrite": false
+    },
+    {
+     "id": "egoistic.oewn-02105605-a",
+     "word": "egoistic",
+     "gloss": "concerned chiefly or only with yourself and your advantage to the exclusion of others",
+     "charge": -2,
+     "tone": "It names a doctrine as much as a habit, which cools the accusation.",
+     "rewrite": false
+    },
+    {
+     "id": "egoistical.oewn-02105605-a",
+     "word": "egoistical",
+     "gloss": "concerned chiefly or only with yourself and your advantage to the exclusion of others",
+     "charge": -2,
+     "tone": "The same word with an extra syllable, and no extra force.",
+     "rewrite": false
+    },
+    {
+     "id": "egocentric.oewn-02105605-a",
+     "word": "egocentric",
+     "gloss": "concerned chiefly or only with yourself and your advantage to the exclusion of others",
+     "charge": -2,
+     "tone": "The clinical-sounding member of the family - reads as diagnosis more than accusation.",
+     "rewrite": false
+    },
+    {
+     "id": "self-centered.oewn-02105605-a",
+     "word": "self-centered",
+     "gloss": "concerned chiefly or only with yourself and your advantage to the exclusion of others",
+     "charge": -2,
+     "tone": "Softer than *selfish* - it describes where attention sits rather than what was taken.",
+     "rewrite": false
+    },
+    {
+     "id": "self-centred.oewn-02105605-a",
+     "word": "self-centred",
+     "gloss": "concerned chiefly or only with yourself and your advantage to the exclusion of others",
+     "charge": -2,
+     "tone": "The British spelling, identical in force.",
+     "rewrite": false
+    },
+    {
+     "id": "self-serving.oewn-02105605-a",
+     "word": "self-serving",
+     "gloss": "concerned chiefly or only with yourself and your advantage to the exclusion of others",
+     "charge": -3,
+     "tone": "Adds calculation: the generous-looking act had a private purpose.",
+     "rewrite": false
+    },
+    {
+     "id": "self-seeking.oewn-02105605-a",
+     "word": "self-seeking",
+     "gloss": "concerned chiefly or only with yourself and your advantage to the exclusion of others",
+     "charge": -3,
+     "tone": "The same charge, aimed at a career rather than a single act.",
+     "rewrite": false
+    },
+    {
+     "id": "egotistic.oewn-02105974-s",
+     "word": "egotistic",
+     "gloss": "characteristic of those having an inflated idea of their own importance",
+     "charge": -2,
+     "tone": "Vanity rather than greed - about talking of oneself, not taking for oneself.",
+     "rewrite": false
+    },
+    {
+     "id": "egotistical.oewn-02105974-s",
+     "word": "egotistical",
+     "gloss": "characteristic of those having an inflated idea of their own importance",
+     "charge": -2,
+     "tone": "Flat contempt for self-importance - the inflation is visible to everyone but its owner.",
+     "rewrite": false
+    },
+    {
+     "id": "narcissistic.oewn-02105974-s",
+     "word": "narcissistic",
+     "gloss": "characteristic of those having an inflated idea of their own importance",
+     "charge": -3,
+     "tone": "A clinical diagnosis used as an insult, which is what makes it land so hard.",
+     "rewrite": false
+    },
+    {
+     "id": "self-loving.oewn-02105974-s",
+     "word": "self-loving",
+     "gloss": "characteristic of those having an inflated idea of their own importance",
+     "charge": -1,
+     "tone": "The literal compound turned accusation - love pointed at the wrong object.",
+     "rewrite": false
+    },
+    {
+     "id": "self-absorbed.oewn-00102878-s",
+     "word": "self-absorbed",
+     "gloss": "absorbed in your own interests or thoughts etc",
+     "charge": -1,
+     "tone": "Inattentive rather than grasping; the harm is what gets overlooked.",
+     "rewrite": false
+    },
+    {
+     "id": "self-involved.oewn-00102878-s",
+     "word": "self-involved",
+     "gloss": "absorbed in your own interests or thoughts etc",
+     "charge": -1,
+     "tone": "The same forgivable fault, and the milder of the two phrasings.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "forgivable, phrasings"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-01899020-a",
+   "axis": "brought low → modest by choice",
+   "members": [
+    {
+     "id": "humble.oewn-01899020-a",
+     "word": "humble",
+     "gloss": "marked by meekness or modesty; not arrogant or prideful",
+     "charge": 1,
+     "tone": "Praise for modesty worn willingly - the opposite of arrogance, and credited for it.",
+     "rewrite": false
+    },
+    {
+     "id": "broken.oewn-01899370-s",
+     "word": "broken",
+     "gloss": "subdued or brought low in condition or status",
+     "charge": -3,
+     "tone": "Not modesty at all: something was done to this person and it worked.",
+     "rewrite": false
+    },
+    {
+     "id": "crushed.oewn-01899370-s",
+     "word": "crushed",
+     "gloss": "subdued or brought low in condition or status",
+     "charge": -3,
+     "tone": "The heaviest word in the family, and always about defeat rather than character.",
+     "rewrite": false
+    },
+    {
+     "id": "humbled.oewn-01899370-s",
+     "word": "humbled",
+     "gloss": "subdued or brought low in condition or status",
+     "charge": -1,
+     "tone": "Brought down and knowing it - the word reports the defeat and expects it to be admitted.",
+     "rewrite": false
+    },
+    {
+     "id": "humiliated.oewn-01899370-s",
+     "word": "humiliated",
+     "gloss": "subdued or brought low in condition or status",
+     "charge": -3,
+     "tone": "Requires an audience - the lowering had to be seen to count.",
+     "rewrite": false
+    },
+    {
+     "id": "low.oewn-01899370-s",
+     "word": "low",
+     "gloss": "subdued or brought low in condition or status",
+     "charge": -2,
+     "tone": "Status, not disposition - fallen in condition rather than in spirits.",
+     "rewrite": false
+    },
+    {
+     "id": "meek.oewn-01899577-s",
+     "word": "meek",
+     "gloss": "humble in spirit or manner; suggesting retiring mildness or even cowed submissiveness",
+     "charge": 0,
+     "tone": "Mildness that shades into submission - the virtue and the weakness share the word.",
+     "rewrite": false
+    },
+    {
+     "id": "mild.oewn-01899577-s",
+     "word": "mild",
+     "gloss": "humble in spirit or manner; suggesting retiring mildness or even cowed submissiveness",
+     "charge": 1,
+     "tone": "Gentleness of manner with no claim about the will behind it.",
+     "rewrite": false
+    },
+    {
+     "id": "modest.oewn-01899577-s",
+     "word": "modest",
+     "gloss": "humble in spirit or manner; suggesting retiring mildness or even cowed submissiveness",
+     "charge": 2,
+     "tone": "Approving of a retiring manner - mildness as virtue, though the gloss lets it border on submissiveness.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "gloss"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00420808-a",
+   "axis": "foul → merely grubby",
+   "members": [
+    {
+     "id": "dirty.oewn-00420808-a",
+     "word": "dirty",
+     "gloss": "soiled or likely to soil with dirt or grime",
+     "charge": -2,
+     "tone": "The plain word for soiling - direct, and mildly reproachful.",
+     "rewrite": false
+    },
+    {
+     "id": "soiled.oewn-00420808-a",
+     "word": "soiled",
+     "gloss": "soiled or likely to soil with dirt or grime",
+     "charge": -1,
+     "tone": "Clinical and euphemistic - a softer word chosen to avoid 'dirty'.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "euphemistic"
+     }
+    },
+    {
+     "id": "unclean.oewn-00420808-a",
+     "word": "unclean",
+     "gloss": "soiled or likely to soil with dirt or grime",
+     "charge": -2,
+     "tone": "Condemns the thing as unfit rather than merely dirty.",
+     "rewrite": false
+    },
+    {
+     "id": "bedraggled.oewn-00421806-s",
+     "word": "bedraggled",
+     "gloss": "limp and soiled as if dragged in the mud",
+     "charge": -1,
+     "tone": "Pitiable rather than blamed - the rain did this, not the person.",
+     "rewrite": false
+    },
+    {
+     "id": "draggled.oewn-00421806-s",
+     "word": "draggled",
+     "gloss": "limp and soiled as if dragged in the mud",
+     "charge": -1,
+     "tone": "A form of 'bedraggled', with the same sympathy for whatever got dragged through the mud.",
+     "rewrite": false
+    },
+    {
+     "id": "befouled.oewn-00421999-s",
+     "word": "befouled",
+     "gloss": "made dirty or foul",
+     "charge": -2,
+     "tone": "Formal and disgusted, and it implies an agent: someone fouled this.",
+     "rewrite": false
+    },
+    {
+     "id": "fouled.oewn-00421999-s",
+     "word": "fouled",
+     "gloss": "made dirty or foul",
+     "charge": -2,
+     "tone": "The plainer form of 'befouled' - the same dirtying stated without relish.",
+     "rewrite": false
+    },
+    {
+     "id": "begrimed.oewn-00422169-s",
+     "word": "begrimed",
+     "gloss": "thickly covered with ingrained dirt or soot",
+     "charge": -1,
+     "tone": "Heavy, literary dirt - ingrained past any quick washing.",
+     "rewrite": false
+    },
+    {
+     "id": "grimy.oewn-00422169-s",
+     "word": "grimy",
+     "gloss": "thickly covered with ingrained dirt or soot",
+     "charge": -1,
+     "tone": "Descriptive and physical; grime is a fact about a surface, not a fault.",
+     "rewrite": false
+    },
+    {
+     "id": "grubby.oewn-00422169-s",
+     "word": "grubby",
+     "gloss": "thickly covered with ingrained dirt or soot",
+     "charge": -1,
+     "tone": "Mild enough to be affectionate - dirt of the kind a child comes home in.",
+     "rewrite": false
+    },
+    {
+     "id": "grungy.oewn-00422169-s",
+     "word": "grungy",
+     "gloss": "thickly covered with ingrained dirt or soot",
+     "charge": -2,
+     "tone": "Informal and unimpressed - dirt that has been let settle in for good.",
+     "rewrite": false
+    },
+    {
+     "id": "raunchy.oewn-00422169-s",
+     "word": "raunchy",
+     "gloss": "thickly covered with ingrained dirt or soot",
+     "charge": -1,
+     "tone": "Dated - grime so thick it has worked into the thing itself.",
+     "rewrite": false
+    },
+    {
+     "id": "black.oewn-00422521-s",
+     "word": "black",
+     "gloss": "soiled with dirt or soot",
+     "charge": -1,
+     "tone": "Literal soot in this sense, and one of a great many senses this word carries.",
+     "rewrite": false
+    },
+    {
+     "id": "smutty.oewn-00422521-s",
+     "word": "smutty",
+     "gloss": "soiled with dirt or soot",
+     "charge": -1,
+     "tone": "Soot rather than filth - the dirt is superficial and comes off.",
+     "rewrite": false
+    },
+    {
+     "id": "buggy.oewn-00422721-s",
+     "word": "buggy",
+     "gloss": "infested with bugs",
+     "charge": -2,
+     "tone": "Disgust with a squirm in it - not merely dirty but inhabited.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00852781-a",
+   "axis": "affected → effortless",
+   "members": [
+    {
+     "id": "elegant.oewn-00852781-a",
+     "word": "elegant",
+     "gloss": "refined and tasteful in appearance or behavior or style",
+     "charge": 3,
+     "tone": "Restraint doing the work - the highest praise in the family, and the quietest.",
+     "rewrite": false
+    },
+    {
+     "id": "dandified.oewn-00853318-s",
+     "word": "dandified",
+     "gloss": "affecting extreme elegance in dress and manner",
+     "charge": -1,
+     "tone": "Elegance turned into a project, and visibly so.",
+     "rewrite": false
+    },
+    {
+     "id": "dandyish.oewn-00853318-s",
+     "word": "dandyish",
+     "gloss": "affecting extreme elegance in dress and manner",
+     "charge": -1,
+     "tone": "Vanity of dress as a character trait - the dandy made an adjective.",
+     "rewrite": false
+    },
+    {
+     "id": "foppish.oewn-00853318-s",
+     "word": "foppish",
+     "gloss": "affecting extreme elegance in dress and manner",
+     "charge": -2,
+     "tone": "Beyond dandified: the appearance has crowded out everything else.",
+     "rewrite": false
+    },
+    {
+     "id": "deluxe.oewn-00853459-s",
+     "word": "deluxe",
+     "gloss": "elegant and sumptuous",
+     "charge": 1,
+     "tone": "A marketing word more than a compliment - it still sounds like packaging.",
+     "rewrite": false
+    },
+    {
+     "id": "de_luxe.oewn-00853459-s",
+     "word": "de luxe",
+     "gloss": "elegant and sumptuous",
+     "charge": 1,
+     "tone": "The spaced spelling, slightly more formal than 'deluxe'.",
+     "rewrite": false
+    },
+    {
+     "id": "luxe.oewn-00853459-s",
+     "word": "luxe",
+     "gloss": "elegant and sumptuous",
+     "charge": 1,
+     "tone": "Clipped and fashion-trade; it names a look rather than a quality.",
+     "rewrite": false
+    },
+    {
+     "id": "fine.oewn-00853589-s",
+     "word": "fine",
+     "gloss": "characterized by elegance or refinement or accomplishment",
+     "charge": 2,
+     "tone": "In this sense, genuine praise - refinement noticed and credited.",
+     "rewrite": false
+    },
+    {
+     "id": "high-class.oewn-00853840-s",
+     "word": "high-class",
+     "gloss": "pretentiously elegant",
+     "charge": -1,
+     "tone": "Pretension built in - it announces a rank rather than showing one.",
+     "rewrite": false
+    },
+    {
+     "id": "high-toned.oewn-00853840-s",
+     "word": "high-toned",
+     "gloss": "pretentiously elegant",
+     "charge": -1,
+     "tone": "Sneers at the elegance as put on - the height is affectation.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "sneers, affectation"
+     }
+    },
+    {
+     "id": "exquisite.oewn-00853958-s",
+     "word": "exquisite",
+     "gloss": "lavishly elegant and refined",
+     "charge": 3,
+     "tone": "Praise at the limit, and it implies the observer noticed every detail.",
+     "rewrite": false
+    },
+    {
+     "id": "recherche.oewn-00853958-s",
+     "word": "recherche",
+     "gloss": "lavishly elegant and refined",
+     "charge": 1,
+     "tone": "Rare and studied. Whether that is praise depends on how hard the search shows.",
+     "rewrite": false
+    },
+    {
+     "id": "ritzy.oewn-00854054-s",
+     "word": "ritzy",
+     "gloss": "luxuriously elegant",
+     "charge": 0,
+     "tone": "Luxury with a raised eyebrow: elegance that announces its own price.",
+     "rewrite": false
+    },
+    {
+     "id": "soigne.oewn-00854162-s",
+     "word": "soigne",
+     "gloss": "polished and well-groomed; showing sophisticated elegance",
+     "charge": 2,
+     "tone": "Grooming and polish rather than taste; it is about the finish.",
+     "rewrite": false
+    },
+    {
+     "id": "soignee.oewn-00854162-s",
+     "word": "soignee",
+     "gloss": "polished and well-groomed; showing sophisticated elegance",
+     "charge": 2,
+     "tone": "Admiring: polish so complete the effort disappears.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01739985-a",
+   "axis": "dogged → serene",
+   "members": [
+    {
+     "id": "patient.oewn-01739985-a",
+     "word": "patient",
+     "gloss": "enduring trying circumstances with even temper or characterized by such endurance",
+     "charge": 3,
+     "tone": "Endurance with an even temper - the temper is what distinguishes it from mere waiting.",
+     "rewrite": false
+    },
+    {
+     "id": "diligent.oewn-01740371-s",
+     "word": "diligent",
+     "gloss": "quietly and steadily persevering especially in detail or exactness",
+     "charge": 2,
+     "tone": "Patience aimed at work, and it praises the steadiness rather than the result.",
+     "rewrite": false
+    },
+    {
+     "id": "persevering.oewn-01740371-s",
+     "word": "persevering",
+     "gloss": "quietly and steadily persevering especially in detail or exactness",
+     "charge": 2,
+     "tone": "The same steadiness against resistance; it presumes there was reason to stop.",
+     "rewrite": false
+    },
+    {
+     "id": "enduring.oewn-01740633-s",
+     "word": "enduring",
+     "gloss": "patiently bearing continual wrongs or trouble",
+     "charge": 2,
+     "tone": "Praise for the bearing - the wrongs are continual and the patience holds.",
+     "rewrite": false
+    },
+    {
+     "id": "long-suffering.oewn-01740633-s",
+     "word": "long-suffering",
+     "gloss": "patiently bearing continual wrongs or trouble",
+     "charge": 1,
+     "tone": "Faintly complaining on the person's behalf - the trouble should have ended by now.",
+     "rewrite": false
+    },
+    {
+     "id": "forbearing.oewn-01740820-s",
+     "word": "forbearing",
+     "gloss": "showing patient and unruffled self-control and restraint under adversity; slow to retaliate or express resentment",
+     "charge": 3,
+     "tone": "Restraint under provocation, when retaliation was available and was declined.",
+     "rewrite": false
+    },
+    {
+     "id": "longanimous.oewn-01740820-s",
+     "word": "longanimous",
+     "gloss": "showing patient and unruffled self-control and restraint under adversity; slow to retaliate or express resentment",
+     "charge": 1,
+     "tone": "Patience under provocation, named in its most formal register.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "tolerant.oewn-01741132-s",
+     "word": "tolerant",
+     "gloss": "showing the capacity for endurance",
+     "charge": 2,
+     "tone": "Endurance credited as a virtue - hardship borne without complaint.",
+     "rewrite": false
+    },
+    {
+     "id": "patient_of.oewn-01741132-s",
+     "word": "patient of",
+     "gloss": "showing the capacity for endurance",
+     "charge": 1,
+     "tone": "A construction rather than a word - *patient of delay* - and formal to the point of stiffness.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00667636-a",
+   "axis": "prying → genuinely interested",
+   "members": [
+    {
+     "id": "curious.oewn-00667636-a",
+     "word": "curious",
+     "gloss": "eager to investigate and learn or learn more (sometimes about others' concerns)",
+     "charge": 1,
+     "tone": "Approving of the mind and faintly wary of the manner - the gloss admits both.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "gloss"
+     }
+    },
+    {
+     "id": "inquisitive.oewn-00668084-s",
+     "word": "inquisitive",
+     "gloss": "showing curiosity",
+     "charge": 1,
+     "tone": "Praise for a child, and a hint of too many questions for an adult.",
+     "rewrite": false
+    },
+    {
+     "id": "speculative.oewn-00668084-s",
+     "word": "speculative",
+     "gloss": "showing curiosity",
+     "charge": 0,
+     "tone": "Curiosity held at a distance - it wonders and weighs rather than asks.",
+     "rewrite": false
+    },
+    {
+     "id": "questioning.oewn-00668084-s",
+     "word": "questioning",
+     "gloss": "showing curiosity",
+     "charge": 0,
+     "tone": "The plainest form: the questions are being asked, and nothing is implied about why.",
+     "rewrite": false
+    },
+    {
+     "id": "wondering.oewn-00668084-s",
+     "word": "wondering",
+     "gloss": "showing curiosity",
+     "charge": 1,
+     "tone": "Curiosity with the wonder still in it, and no agenda attached.",
+     "rewrite": false
+    },
+    {
+     "id": "nosy.oewn-00668361-s",
+     "word": "nosy",
+     "gloss": "offensively curious or inquisitive",
+     "charge": -2,
+     "tone": "The everyday accusation, and it is about other people's business specifically.",
+     "rewrite": false
+    },
+    {
+     "id": "nosey.oewn-00668361-s",
+     "word": "nosey",
+     "gloss": "offensively curious or inquisitive",
+     "charge": -2,
+     "tone": "The same accusation as 'nosy' - curiosity that has crossed into prying.",
+     "rewrite": false
+    },
+    {
+     "id": "prying.oewn-00668361-s",
+     "word": "prying",
+     "gloss": "offensively curious or inquisitive",
+     "charge": -2,
+     "tone": "Names the act rather than the character - the person is doing it right now.",
+     "rewrite": false
+    },
+    {
+     "id": "snoopy.oewn-00668361-s",
+     "word": "snoopy",
+     "gloss": "offensively curious or inquisitive",
+     "charge": -2,
+     "tone": "Informal and slightly comic, which takes some of the sting out.",
+     "rewrite": false
+    },
+    {
+     "id": "overcurious.oewn-00668707-s",
+     "word": "overcurious",
+     "gloss": "showing excessive curiosity",
+     "charge": -1,
+     "tone": "The formal way of saying nosy, and it grants that curiosity itself was fine.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

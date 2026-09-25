@@ -1,0 +1,957 @@
+{
+ "packet": 2,
+ "families": [
+  {
+   "family": "family-01302836-a",
+   "axis": "moralising severity → plain strictness",
+   "members": [
+    {
+     "id": "nonindulgent.oewn-01302836-a",
+     "word": "nonindulgent",
+     "gloss": "characterized by strictness, severity, or restraint",
+     "charge": 0,
+     "tone": "A dictionary word rather than a spoken one; it names the absence and stops.",
+     "rewrite": false
+    },
+    {
+     "id": "strict.oewn-01302836-a",
+     "word": "strict",
+     "gloss": "characterized by strictness, severity, or restraint",
+     "charge": 0,
+     "tone": "Neutral in the balance - a strict teacher is a complaint or a compliment depending on the year.",
+     "rewrite": false
+    },
+    {
+     "id": "austere.oewn-01303135-s",
+     "word": "austere",
+     "gloss": "of a stern or strict bearing or demeanor; forbidding in aspect",
+     "charge": -1,
+     "tone": "Stern without malice - a coldness of bearing rather than of intent.",
+     "rewrite": false
+    },
+    {
+     "id": "stern.oewn-01303135-s",
+     "word": "stern",
+     "gloss": "of a stern or strict bearing or demeanor; forbidding in aspect",
+     "charge": -1,
+     "tone": "The face more than the rule; sternness is something the other person can see.",
+     "rewrite": false
+    },
+    {
+     "id": "blue.oewn-01303318-s",
+     "word": "blue",
+     "gloss": "morally rigorous and strict",
+     "charge": -1,
+     "tone": "Strictness of the Sabbath-law kind: moral rigour written into rules.",
+     "rewrite": false
+    },
+    {
+     "id": "puritanic.oewn-01303318-s",
+     "word": "puritanic",
+     "gloss": "morally rigorous and strict",
+     "charge": -2,
+     "tone": "Borrows a whole religious movement to say *no pleasure allowed*.",
+     "rewrite": false
+    },
+    {
+     "id": "puritanical.oewn-01303318-s",
+     "word": "puritanical",
+     "gloss": "morally rigorous and strict",
+     "charge": -2,
+     "tone": "The accusing form - it makes a fault of the strictness rather than a virtue.",
+     "rewrite": false
+    },
+    {
+     "id": "corrective.oewn-01303596-s",
+     "word": "corrective",
+     "gloss": "designed to promote discipline",
+     "charge": 0,
+     "tone": "Institutional and euphemistic - it is what discipline is called in a report.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "euphemistic"
+     }
+    },
+    {
+     "id": "disciplinary.oewn-01303596-s",
+     "word": "disciplinary",
+     "gloss": "designed to promote discipline",
+     "charge": -1,
+     "tone": "Names correction or punishment in the neutral, official register.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "disciplinal.oewn-01303596-s",
+     "word": "disciplinal",
+     "gloss": "designed to promote discipline",
+     "charge": -1,
+     "tone": "The stiffer twin of *disciplinary*, with the same official flatness.",
+     "rewrite": false
+    },
+    {
+     "id": "monkish.oewn-01303896-s",
+     "word": "monkish",
+     "gloss": "befitting a monk; inclined to self-denial",
+     "charge": -1,
+     "tone": "Self-denial by vocation, and slightly mocking when applied outside a monastery.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01138269-a",
+   "axis": "explosive → merely prickly",
+   "members": [
+    {
+     "id": "ill-natured.oewn-01138269-a",
+     "word": "ill-natured",
+     "gloss": "having an irritable and unpleasant disposition",
+     "charge": -2,
+     "tone": "Places the fault in the nature, which leaves no room for a bad day.",
+     "rewrite": false
+    },
+    {
+     "id": "atrabilious.oewn-01138769-s",
+     "word": "atrabilious",
+     "gloss": "irritable as if suffering from indigestion",
+     "charge": -2,
+     "tone": "Archaic and ornate - irritability dressed as a bodily ailment, hard to say with a straight face.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "irritability, ailment"
+     }
+    },
+    {
+     "id": "bilious.oewn-01138769-s",
+     "word": "bilious",
+     "gloss": "irritable as if suffering from indigestion",
+     "charge": -2,
+     "tone": "Makes the temper sound like a symptom - irritability explained by the gut, and slightly mocked for it.",
+     "rewrite": false
+    },
+    {
+     "id": "dyspeptic.oewn-01138769-s",
+     "word": "dyspeptic",
+     "gloss": "irritable as if suffering from indigestion",
+     "charge": -1,
+     "tone": "Sourness of temper with indigestion behind the image - sharp rather than furious.",
+     "rewrite": false
+    },
+    {
+     "id": "liverish.oewn-01138769-s",
+     "word": "liverish",
+     "gloss": "irritable as if suffering from indigestion",
+     "charge": -1,
+     "tone": "British and dated - the liver as the seat of a bad mood.",
+     "rewrite": false
+    },
+    {
+     "id": "bristly.oewn-01138920-s",
+     "word": "bristly",
+     "gloss": "very irritable",
+     "charge": -1,
+     "tone": "The animal image is doing the work: approach and something goes up.",
+     "rewrite": false
+    },
+    {
+     "id": "prickly.oewn-01138920-s",
+     "word": "prickly",
+     "gloss": "very irritable",
+     "charge": -1,
+     "tone": "Quick to bristle - the spines are in the metaphor, and handling is at your own risk.",
+     "rewrite": false
+    },
+    {
+     "id": "splenetic.oewn-01138920-s",
+     "word": "splenetic",
+     "gloss": "very irritable",
+     "charge": -2,
+     "tone": "The most literary word for a bad temper - irritability dressed for print.",
+     "rewrite": false
+    },
+    {
+     "id": "waspish.oewn-01138920-s",
+     "word": "waspish",
+     "gloss": "very irritable",
+     "charge": -2,
+     "tone": "Small, quick and stinging - it describes the remarks more than the mood.",
+     "rewrite": false
+    },
+    {
+     "id": "cantankerous.oewn-01139173-s",
+     "word": "cantankerous",
+     "gloss": "having a difficult and contrary disposition",
+     "charge": -1,
+     "tone": "Difficult by habit rather than by temper; the contrariness is settled, almost fond.",
+     "rewrite": false
+    },
+    {
+     "id": "crotchety.oewn-01139173-s",
+     "word": "crotchety",
+     "gloss": "having a difficult and contrary disposition",
+     "charge": -1,
+     "tone": "Difficulty over small things, and comic rather than frightening.",
+     "rewrite": false
+    },
+    {
+     "id": "ornery.oewn-01139173-s",
+     "word": "ornery",
+     "gloss": "having a difficult and contrary disposition",
+     "charge": -1,
+     "tone": "American, and it can be said with affection - an ornery mule is being described, not blamed.",
+     "rewrite": false
+    },
+    {
+     "id": "choleric.oewn-01139414-s",
+     "word": "choleric",
+     "gloss": "quickly aroused to anger",
+     "charge": -2,
+     "tone": "Anger that arrives fast and is presented as constitutional - temper as temperament.",
+     "rewrite": false
+    },
+    {
+     "id": "irascible.oewn-01139414-s",
+     "word": "irascible",
+     "gloss": "quickly aroused to anger",
+     "charge": -2,
+     "tone": "The formal word for a short fuse, and the most neutral in tone.",
+     "rewrite": false
+    },
+    {
+     "id": "hotheaded.oewn-01139414-s",
+     "word": "hotheaded",
+     "gloss": "quickly aroused to anger",
+     "charge": -2,
+     "tone": "Anger plus poor judgement - the heat is in the thinking.",
+     "rewrite": false
+    },
+    {
+     "id": "hot-tempered.oewn-01139414-s",
+     "word": "hot-tempered",
+     "gloss": "quickly aroused to anger",
+     "charge": -2,
+     "tone": "The plain compound - anger as heat, immediate and undisguised.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02353767-a",
+   "axis": "worthless → merely second-rate",
+   "members": [
+    {
+     "id": "inferior.oewn-02353767-a",
+     "word": "inferior",
+     "gloss": "of low or inferior quality",
+     "charge": -2,
+     "tone": "Comparative and cold - it needs something better to exist before it means anything.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "comparative"
+     }
+    },
+    {
+     "id": "bad.oewn-02354208-s",
+     "word": "bad",
+     "gloss": "below average in quality or performance",
+     "charge": -2,
+     "tone": "The broadest word in English doing narrow work: below average, and nothing more.",
+     "rewrite": false
+    },
+    {
+     "id": "base.oewn-02354354-s",
+     "word": "base",
+     "gloss": "(used of metals) consisting of or alloyed with inferior metal",
+     "charge": -1,
+     "tone": "Technical of metals - a grading judgement, not a moral one.",
+     "rewrite": false
+    },
+    {
+     "id": "bum.oewn-02354508-s",
+     "word": "bum",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "American and dismissive - *a bum deal*, *a bum knee*.",
+     "rewrite": false
+    },
+    {
+     "id": "cheap.oewn-02354508-s",
+     "word": "cheap",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "Price used as a verdict on quality, which is the oldest trick in the word.",
+     "rewrite": false
+    },
+    {
+     "id": "cheesy.oewn-02354508-s",
+     "word": "cheesy",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "Poor quality worn openly - the contempt can carry affection, the badness part of the appeal.",
+     "rewrite": false
+    },
+    {
+     "id": "chintzy.oewn-02354508-s",
+     "word": "chintzy",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "Cheapness with a whiff of the shabby-genteel about it.",
+     "rewrite": false
+    },
+    {
+     "id": "crummy.oewn-02354508-s",
+     "word": "crummy",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "Plain and unliterary, and it complains about the thing rather than sneering at it.",
+     "rewrite": false
+    },
+    {
+     "id": "punk.oewn-02354508-s",
+     "word": "punk",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -1,
+     "tone": "Dated slang for poor quality - shabby, and slightly comic for being so dated.",
+     "rewrite": false
+    },
+    {
+     "id": "sleazy.oewn-02354508-s",
+     "word": "sleazy",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -3,
+     "tone": "Adds moral squalor to shoddiness - the thing is cheap and slightly corrupt.",
+     "rewrite": false
+    },
+    {
+     "id": "tinny.oewn-02354508-s",
+     "word": "tinny",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -1,
+     "tone": "Cheapness of material - flimsy, as if pressed from thin metal.",
+     "rewrite": false
+    },
+    {
+     "id": "bush-league.oewn-02354737-s",
+     "word": "bush-league",
+     "gloss": "not of the highest quality or sophistication",
+     "charge": -2,
+     "tone": "Condescension rather than anger - it rates the thing as small-time and leaves it there.",
+     "rewrite": false
+    },
+    {
+     "id": "bush.oewn-02354737-s",
+     "word": "bush",
+     "gloss": "not of the highest quality or sophistication",
+     "charge": -2,
+     "tone": "Dismissive - amateur, small-time, second-rate.",
+     "rewrite": false
+    },
+    {
+     "id": "cheapjack.oewn-02354846-s",
+     "word": "cheapjack",
+     "gloss": "made of inferior workmanship and materials",
+     "charge": -3,
+     "tone": "Shoddy goods and the hard sell that moves them; it doubts the seller as much as the thing.",
+     "rewrite": false
+    },
+    {
+     "id": "shoddy.oewn-02354846-s",
+     "word": "shoddy",
+     "gloss": "made of inferior workmanship and materials",
+     "charge": -3,
+     "tone": "Poor work passed off as sound - the pretence is as much of the charge as the quality.",
+     "rewrite": false
+    },
+    {
+     "id": "tawdry.oewn-02354846-s",
+     "word": "tawdry",
+     "gloss": "made of inferior workmanship and materials",
+     "charge": -3,
+     "tone": "Cheapness trying to look showy, which is what makes it contemptible rather than merely poor.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "showy, contemptible"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-02590887-a",
+   "axis": "derelict → merely frayed",
+   "members": [
+    {
+     "id": "worn.oewn-02590887-a",
+     "word": "worn",
+     "gloss": "affected by wear; damaged by long use",
+     "charge": -1,
+     "tone": "Neutral and factual; use leaves marks, and the word says only that.",
+     "rewrite": false
+    },
+    {
+     "id": "aged.oewn-02591485-s",
+     "word": "aged",
+     "gloss": "at an advanced stage of erosion (pronounced as one syllable)",
+     "charge": 0,
+     "tone": "The geological sense - a landscape at an advanced stage of erosion.",
+     "rewrite": false
+    },
+    {
+     "id": "attrited.oewn-02591610-s",
+     "word": "attrited",
+     "gloss": "worn by rubbing or friction",
+     "charge": -1,
+     "tone": "Dry and technical - wear stated as a process, not a complaint.",
+     "rewrite": false
+    },
+    {
+     "id": "battered.oewn-02591692-s",
+     "word": "battered",
+     "gloss": "damaged especially by hard usage",
+     "charge": -2,
+     "tone": "Implies force rather than time - the damage was dealt in blows.",
+     "rewrite": false
+    },
+    {
+     "id": "clapped_out.oewn-02591803-s",
+     "word": "clapped out",
+     "gloss": "worn from age or heavy use and no longer able to operate (of cars or machines or people)",
+     "charge": -2,
+     "tone": "British, and it works equally on a car, a machine or a person - which is the joke.",
+     "rewrite": false
+    },
+    {
+     "id": "creaky.oewn-02591968-s",
+     "word": "creaky",
+     "gloss": "worn and broken down by hard use",
+     "charge": -1,
+     "tone": "The sound stands in for the condition; it suggests one more use might be too many.",
+     "rewrite": false
+    },
+    {
+     "id": "decrepit.oewn-02591968-s",
+     "word": "decrepit",
+     "gloss": "worn and broken down by hard use",
+     "charge": -3,
+     "tone": "Broken down past repair, and cruel when turned on a person.",
+     "rewrite": false
+    },
+    {
+     "id": "derelict.oewn-02591968-s",
+     "word": "derelict",
+     "gloss": "worn and broken down by hard use",
+     "charge": -3,
+     "tone": "Worn past repair - hard use has run all the way through it.",
+     "rewrite": false
+    },
+    {
+     "id": "flea-bitten.oewn-02591968-s",
+     "word": "flea-bitten",
+     "gloss": "worn and broken down by hard use",
+     "charge": -3,
+     "tone": "Contemptuous and vivid; it adds squalor to mere wear.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "contemptuous, squalor"
+     }
+    },
+    {
+     "id": "run-down.oewn-02591968-s",
+     "word": "run-down",
+     "gloss": "worn and broken down by hard use",
+     "charge": -2,
+     "tone": "Worn past shabbiness by hard use - the thing has been driven to exhaustion.",
+     "rewrite": false
+    },
+    {
+     "id": "woebegone.oewn-02591968-s",
+     "word": "woebegone",
+     "gloss": "worn and broken down by hard use",
+     "charge": -2,
+     "tone": "Run-down and wearing it mournfully - the ruin looks as if it grieves for itself.",
+     "rewrite": false
+    },
+    {
+     "id": "dog-eared.oewn-02592267-s",
+     "word": "dog-eared",
+     "gloss": "worn or shabby from overuse or (of pages) from having corners turned down",
+     "charge": -1,
+     "tone": "Nearly affectionate - the wear says the thing was handled, read, even loved.",
+     "rewrite": false
+    },
+    {
+     "id": "eared.oewn-02592267-s",
+     "word": "eared",
+     "gloss": "worn or shabby from overuse or (of pages) from having corners turned down",
+     "charge": -1,
+     "tone": "Shabby from use, and slightly fond about it.",
+     "rewrite": false
+    },
+    {
+     "id": "eroded.oewn-02592502-s",
+     "word": "eroded",
+     "gloss": "worn away as by water or ice or wind",
+     "charge": 0,
+     "tone": "Geological and neutral; erosion is a process, not a fault.",
+     "rewrite": false
+    },
+    {
+     "id": "scoured.oewn-02592502-s",
+     "word": "scoured",
+     "gloss": "worn away as by water or ice or wind",
+     "charge": -1,
+     "tone": "Worn by water or wind - the surface stripped rather than damaged.",
+     "rewrite": false
+    },
+    {
+     "id": "frayed.oewn-02592601-s",
+     "word": "frayed",
+     "gloss": "worn away or tattered along the edges",
+     "charge": -1,
+     "tone": "Edges only, and forgiving - *frayed nerves* borrows exactly that mildness.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01051573-a",
+   "axis": "lucky by chance → as if intended",
+   "members": [
+    {
+     "id": "fortunate.oewn-01051573-a",
+     "word": "fortunate",
+     "gloss": "having unexpected good fortune",
+     "charge": 3,
+     "tone": "Approval with the surprise kept in - the good turn was neither earned nor expected.",
+     "rewrite": false
+    },
+    {
+     "id": "better_off.oewn-01051901-s",
+     "word": "better off",
+     "gloss": "in a more fortunate or prosperous condition",
+     "charge": 2,
+     "tone": "Comparative by construction - it always implies something being compared against, and never says what.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "comparative"
+     }
+    },
+    {
+     "id": "felicitous.oewn-01052105-s",
+     "word": "felicitous",
+     "gloss": "marked by good fortune",
+     "charge": 3,
+     "tone": "Formal and pleased, treating the good fortune as elegant rather than merely welcome.",
+     "rewrite": false
+    },
+    {
+     "id": "happy.oewn-01052105-s",
+     "word": "happy",
+     "gloss": "marked by good fortune",
+     "charge": 2,
+     "tone": "Good fortune, not gladness - the luck sits in the outcome rather than in anyone's feelings.",
+     "rewrite": false
+    },
+    {
+     "id": "fortuitous.oewn-01052286-s",
+     "word": "fortuitous",
+     "gloss": "occurring by happy chance",
+     "charge": 2,
+     "tone": "Insists on the chance: the good outcome arrived unsteered.",
+     "rewrite": false
+    },
+    {
+     "id": "good.oewn-01052461-s",
+     "word": "good",
+     "gloss": "resulting favorably",
+     "charge": 2,
+     "tone": "The barest approval available - the result went the right way, and nothing more is claimed.",
+     "rewrite": false
+    },
+    {
+     "id": "well.oewn-01052461-s",
+     "word": "well",
+     "gloss": "resulting favorably",
+     "charge": 2,
+     "tone": "Approval of how a thing turned out, judged by the ending rather than by the doing.",
+     "rewrite": false
+    },
+    {
+     "id": "heaven-sent.oewn-01052675-s",
+     "word": "heaven-sent",
+     "gloss": "peculiarly fortunate or appropriate; as if by divine intervention",
+     "charge": 3,
+     "tone": "Gratitude pitched high - the timing was so apt it invites the comparison the gloss makes.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "gloss"
+     }
+    },
+    {
+     "id": "providential.oewn-01052675-s",
+     "word": "providential",
+     "gloss": "peculiarly fortunate or appropriate; as if by divine intervention",
+     "charge": 3,
+     "tone": "The graver word for that aptness, and it treats the rescue as intended rather than lucky.",
+     "rewrite": false
+    },
+    {
+     "id": "miraculous.oewn-01052675-s",
+     "word": "miraculous",
+     "gloss": "peculiarly fortunate or appropriate; as if by divine intervention",
+     "charge": 3,
+     "tone": "The strongest of the three: it does not merely note the aptness, it marvels at it.",
+     "rewrite": false
+    },
+    {
+     "id": "lucky.oewn-01052909-s",
+     "word": "lucky",
+     "gloss": "occurring by chance",
+     "charge": 2,
+     "tone": "Plain and cheerful; it credits the chance and takes nothing away from the person.",
+     "rewrite": false
+    },
+    {
+     "id": "well-off.oewn-01053051-s",
+     "word": "well-off",
+     "gloss": "fortunately situated",
+     "charge": 2,
+     "tone": "Fortune as a position someone occupies rather than an event that befell them.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00229099-a",
+   "axis": "high in the ranking → unsurpassed",
+   "members": [
+    {
+     "id": "best.oewn-00229099-a",
+     "word": "best",
+     "gloss": "(superlative of ‘good’) having the most positive qualities",
+     "charge": 3,
+     "tone": "The superlative itself - it closes the comparison rather than making one.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "superlative"
+     }
+    },
+    {
+     "id": "champion.oewn-00229617-s",
+     "word": "champion",
+     "gloss": "holding first place in a contest",
+     "charge": 3,
+     "tone": "First place won against others; the contest comes with the praise.",
+     "rewrite": false
+    },
+    {
+     "id": "prizewinning.oewn-00229617-s",
+     "word": "prizewinning",
+     "gloss": "holding first place in a contest",
+     "charge": 3,
+     "tone": "The same first place, evidenced - it points at the award rather than at the quality.",
+     "rewrite": false
+    },
+    {
+     "id": "high-grade.oewn-00229765-s",
+     "word": "high-grade",
+     "gloss": "surpassing in quality",
+     "charge": 2,
+     "tone": "Quality stated as a classification, the way a supplier states it.",
+     "rewrite": false
+    },
+    {
+     "id": "top-quality.oewn-00229765-s",
+     "word": "top-quality",
+     "gloss": "surpassing in quality",
+     "charge": 3,
+     "tone": "The plainest strong claim about quality, with nothing held back and nothing specified.",
+     "rewrite": false
+    },
+    {
+     "id": "top-grade.oewn-00229765-s",
+     "word": "top-grade",
+     "gloss": "surpassing in quality",
+     "charge": 3,
+     "tone": "Grading language again, pushed to the top of the scale rather than merely high on it.",
+     "rewrite": false
+    },
+    {
+     "id": "first.oewn-00229886-s",
+     "word": "first",
+     "gloss": "ranking above all others",
+     "charge": 3,
+     "tone": "Rank asserted flatly; it orders things and leaves the reason unsaid.",
+     "rewrite": false
+    },
+    {
+     "id": "foremost.oewn-00229886-s",
+     "word": "foremost",
+     "gloss": "ranking above all others",
+     "charge": 3,
+     "tone": "Formal and a little ceremonious - it places something ahead as a matter of standing.",
+     "rewrite": false
+    },
+    {
+     "id": "world-class.oewn-00229886-s",
+     "word": "world-class",
+     "gloss": "ranking above all others",
+     "charge": 3,
+     "tone": "Sets the comparison as wide as it will go, which is the whole of the compliment.",
+     "rewrite": false
+    },
+    {
+     "id": "optimum.oewn-00230237-s",
+     "word": "optimum",
+     "gloss": "most desirable possible under a restriction expressed or implied",
+     "charge": 2,
+     "tone": "Best within limits - it carries the constraint it is best under wherever it goes.",
+     "rewrite": false
+    },
+    {
+     "id": "optimal.oewn-00230237-s",
+     "word": "optimal",
+     "gloss": "most desirable possible under a restriction expressed or implied",
+     "charge": 2,
+     "tone": "The same bounded best, worn as an adjective of analysis rather than of praise.",
+     "rewrite": false
+    },
+    {
+     "id": "primo.oewn-00230468-s",
+     "word": "primo",
+     "gloss": "the best of its kind",
+     "charge": 3,
+     "tone": "Slangy and enthusiastic; the enthusiasm is the point, not the grading.",
+     "rewrite": false
+    },
+    {
+     "id": "record-breaking.oewn-00230559-s",
+     "word": "record-breaking",
+     "gloss": "surpassing any previously established record",
+     "charge": 3,
+     "tone": "Best measured against history rather than against rivals present.",
+     "rewrite": false
+    },
+    {
+     "id": "second-best.oewn-00230722-s",
+     "word": "second-best",
+     "gloss": "next to the best",
+     "charge": 1,
+     "tone": "Praise with the loss inside it - a high place named together with the fact of not holding the highest.",
+     "rewrite": false
+    },
+    {
+     "id": "superfine.oewn-00230819-s",
+     "word": "superfine",
+     "gloss": "(used especially of merchandise) very fine in quality",
+     "charge": 2,
+     "tone": "A grading word for goods, pitched a step above *fine* and doing its work by the pitch alone.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00303560-a",
+   "axis": "bare absence of wind or wave → stillness treated as something to be enjoyed",
+   "members": [
+    {
+     "id": "calm.oewn-00303560-a",
+     "word": "calm",
+     "gloss": "(of weather) free from storm or wind",
+     "charge": 0,
+     "tone": "The family's plain, unmarked term for weather with the storm taken out of it - it states the condition where *tranquil* admires it.",
+     "rewrite": false
+    },
+    {
+     "id": "placid.oewn-00303750-s",
+     "word": "placid",
+     "gloss": "(of a body of water) free from disturbance by heavy waves",
+     "charge": 1,
+     "tone": "Mildly approving: the water is not merely flat but easy, where *smooth* reports nothing beyond the texture of the surface.",
+     "rewrite": false
+    },
+    {
+     "id": "quiet.oewn-00303750-s",
+     "word": "quiet",
+     "gloss": "(of a body of water) free from disturbance by heavy waves",
+     "charge": 0,
+     "tone": "The homeliest word here - heavy waves are simply absent, with none of the admiration *tranquil* adds.",
+     "rewrite": false
+    },
+    {
+     "id": "still.oewn-00303750-s",
+     "word": "still",
+     "gloss": "(of a body of water) free from disturbance by heavy waves",
+     "charge": 0,
+     "tone": "The absolute end of the scale of motion - *smooth* allows a swell that never breaks, this allows nothing moving at all.",
+     "rewrite": false
+    },
+    {
+     "id": "tranquil.oewn-00303750-s",
+     "word": "tranquil",
+     "gloss": "(of a body of water) free from disturbance by heavy waves",
+     "charge": 2,
+     "tone": "The most admiring member, treating unbroken water as something to be enjoyed rather than merely recorded, which *quiet* does not.",
+     "rewrite": false
+    },
+    {
+     "id": "smooth.oewn-00303750-s",
+     "word": "smooth",
+     "gloss": "(of a body of water) free from disturbance by heavy waves",
+     "charge": 0,
+     "tone": "A flat physical report on the water's surface - level to the eye and the hull, without the repose *placid* suggests.",
+     "rewrite": false
+    },
+    {
+     "id": "unruffled.oewn-00303750-s",
+     "word": "unruffled",
+     "gloss": "(of a body of water) free from disturbance by heavy waves",
+     "charge": 1,
+     "tone": "Built as a negative - not a ripple has been raised - so it carries a faint sense of water that has held its surface, where *smooth* simply describes one.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "settled.oewn-00304279-s",
+     "word": "settled",
+     "gloss": "not changeable",
+     "charge": 1,
+     "tone": "Approves steadiness over stretches of time rather than the momentary quiet of *calm*: the weather has stopped shifting.",
+     "rewrite": false
+    },
+    {
+     "id": "windless.oewn-00304378-s",
+     "word": "windless",
+     "gloss": "without or almost without wind",
+     "charge": 0,
+     "tone": "The bare measurement of the family, naming the absent air with none of the approval *tranquil* carries, and its own reading admits a near-miss rather than an absolute.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-00782933-a",
+   "axis": "plainly perceptible → edge cut to a razor's precision",
+   "members": [
+    {
+     "id": "distinct.oewn-00782933-a",
+     "word": "distinct",
+     "gloss": "easy to perceive; especially clearly outlined",
+     "charge": 0,
+     "tone": "The plain baseline of the family: something registers separately, with no claim about how fine or admirable its edge is.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "chiseled.oewn-00783378-s",
+     "word": "chiseled",
+     "gloss": "having a clean and distinct outline as if precisely cut along the edges",
+     "charge": 1,
+     "tone": "Credits the outline with the look of deliberate workmanship, where *well-defined* merely reports that the edge holds.",
+     "rewrite": false
+    },
+    {
+     "id": "well-defined.oewn-00783378-s",
+     "word": "well-defined",
+     "gloss": "having a clean and distinct outline as if precisely cut along the edges",
+     "charge": 0,
+     "tone": "Flat and almost technical - the boundary is firm, and nothing in the word admires it.",
+     "rewrite": false
+    },
+    {
+     "id": "clear.oewn-00783570-s",
+     "word": "clear",
+     "gloss": "clear and distinct to the senses; easily perceptible",
+     "charge": 0,
+     "tone": "The most unmarked term here for being easy to perceive, carrying no metaphor of cutting at all.",
+     "rewrite": false
+    },
+    {
+     "id": "clean-cut.oewn-00783570-s",
+     "word": "clean-cut",
+     "gloss": "clear and distinct to the senses; easily perceptible",
+     "charge": 1,
+     "tone": "Adds tidiness to the sharpness - nothing ragged is left at the edge.",
+     "rewrite": false
+    },
+    {
+     "id": "clear-cut.oewn-00783570-s",
+     "word": "clear-cut",
+     "gloss": "clear and distinct to the senses; easily perceptible",
+     "charge": 0,
+     "tone": "Presses on the absence of blur or ambiguity rather than on the fineness of the edge.",
+     "rewrite": false
+    },
+    {
+     "id": "crisp.oewn-00783911-s",
+     "word": "crisp",
+     "gloss": "(of something seen or heard) clearly defined",
+     "charge": 1,
+     "tone": "Makes definition feel brisk and pleasurable, a freshness *sharp* does not supply.",
+     "rewrite": false
+    },
+    {
+     "id": "sharp.oewn-00783911-s",
+     "word": "sharp",
+     "gloss": "(of something seen or heard) clearly defined",
+     "charge": 0,
+     "tone": "The bare edge-metaphor for something seen or heard: keenly resolved, with none of the appeal *crisp* adds.",
+     "rewrite": false
+    },
+    {
+     "id": "crystalline.oewn-00784134-s",
+     "word": "crystalline",
+     "gloss": "distinctly or sharply outlined",
+     "charge": 1,
+     "tone": "Elevated and gleaming, making an outline sound not merely distinct but hard and faceted.",
+     "rewrite": false
+    },
+    {
+     "id": "defined.oewn-00784271-s",
+     "word": "defined",
+     "gloss": "showing clearly the outline or profile or boundary",
+     "charge": 0,
+     "tone": "Neutral and structural - the boundary shows, and the word stops there.",
+     "rewrite": false
+    },
+    {
+     "id": "outlined.oewn-00784271-s",
+     "word": "outlined",
+     "gloss": "showing clearly the outline or profile or boundary",
+     "charge": 0,
+     "tone": "Purely descriptive of the profile being visible, passing no verdict on how fine or pleasing it is.",
+     "rewrite": false
+    },
+    {
+     "id": "knifelike.oewn-00784503-s",
+     "word": "knifelike",
+     "gloss": "having a sharp or distinct edge",
+     "charge": 0,
+     "tone": "Pushes the edge metaphor to an implement, so the distinctness carries a faint menace *sharp* does not.",
+     "rewrite": false
+    },
+    {
+     "id": "razor-sharp.oewn-00784620-s",
+     "word": "razor-sharp",
+     "gloss": "very clearly delineated",
+     "charge": 1,
+     "tone": "Superlative - takes delineation to its extreme, next to which *sharp* sounds merely adequate.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "superlative, delineation",
+      "grammar": "superlative"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,770 @@
+{
+ "packet": 20,
+ "families": [
+  {
+   "family": "family-04910990-n",
+   "axis": "keeping steady under stress → wholly untroubled evenness of temper",
+   "members": [
+    {
+     "id": "composure.oewn-04910990-n",
+     "word": "composure",
+     "gloss": "steadiness of mind under stress",
+     "charge": 1,
+     "tone": "The plain name for holding steady when pressure is on, with none of the flourish *aplomb* brings to the same feat.",
+     "rewrite": false
+    },
+    {
+     "id": "calm.oewn-04910990-n",
+     "word": "calm",
+     "gloss": "steadiness of mind under stress",
+     "charge": 1,
+     "tone": "Bare and short — names the steady state itself rather than the effort of keeping it, which is what *composure* implies.",
+     "rewrite": false
+    },
+    {
+     "id": "calmness.oewn-04910990-n",
+     "word": "calmness",
+     "gloss": "steadiness of mind under stress",
+     "charge": 1,
+     "tone": "The flat quality-noun, describing the steadiness rather than admiring it as *equanimity* does.",
+     "rewrite": false
+    },
+    {
+     "id": "equanimity.oewn-04910990-n",
+     "word": "equanimity",
+     "gloss": "steadiness of mind under stress",
+     "charge": 2,
+     "tone": "Elevated and admiring — steadiness under stress treated as an evenness of temper worth crediting, well above workaday *calmness*.",
+     "rewrite": false
+    },
+    {
+     "id": "aplomb.oewn-04911339-n",
+     "word": "aplomb",
+     "gloss": "great coolness and composure under strain",
+     "charge": 2,
+     "tone": "Praise with a flourish: the coolness under strain reads as polished and assured, not merely maintained.",
+     "rewrite": false
+    },
+    {
+     "id": "assuredness.oewn-04911339-n",
+     "word": "assuredness",
+     "gloss": "great coolness and composure under strain",
+     "charge": 1,
+     "tone": "Puts the weight on self-certainty as the root of the coolness, plainer and less stylish than *aplomb*.",
+     "rewrite": false
+    },
+    {
+     "id": "cool.oewn-04911339-n",
+     "word": "cool",
+     "gloss": "great coolness and composure under strain",
+     "charge": 2,
+     "tone": "Informal and offhand — makes great steadiness under strain sound like something a person simply has, and can lose, where *sang-froid* makes it formal.",
+     "rewrite": false
+    },
+    {
+     "id": "poise.oewn-04911339-n",
+     "word": "poise",
+     "gloss": "great coolness and composure under strain",
+     "charge": 2,
+     "tone": "Adds balance and bearing to the coolness, praising how the strain is carried as much as the nerve behind it.",
+     "rewrite": false
+    },
+    {
+     "id": "sang-froid.oewn-04911339-n",
+     "word": "sang-froid",
+     "gloss": "great coolness and composure under strain",
+     "charge": 2,
+     "tone": "Formal and faintly glamorous — nerve praised as a chill that strain cannot reach, more theatrical than *composure*.",
+     "rewrite": false
+    },
+    {
+     "id": "repose.oewn-04911529-n",
+     "word": "repose",
+     "gloss": "a disposition free from stress or emotion",
+     "charge": 1,
+     "tone": "The freedom from stress sounds like an ease rested in, warmer than the unstirred flatness of *placidity*.",
+     "rewrite": false
+    },
+    {
+     "id": "quiet.oewn-04911529-n",
+     "word": "quiet",
+     "gloss": "a disposition free from stress or emotion",
+     "charge": 1,
+     "tone": "The plainest of these: a temperament with no emotional weather in it, and none of the loftiness of *serenity*.",
+     "rewrite": false
+    },
+    {
+     "id": "placidity.oewn-04911529-n",
+     "word": "placidity",
+     "gloss": "a disposition free from stress or emotion",
+     "charge": 0,
+     "tone": "Even and unruffled, the absence of emotion sounding closer to a settled flatness than to any achievement.",
+     "rewrite": false
+    },
+    {
+     "id": "serenity.oewn-04911529-n",
+     "word": "serenity",
+     "gloss": "a disposition free from stress or emotion",
+     "charge": 2,
+     "tone": "Lofty and admiring — an untroubled disposition raised almost to a grace, far above bare *quiet*.",
+     "rewrite": false
+    },
+    {
+     "id": "tranquillity.oewn-04911529-n",
+     "word": "tranquillity",
+     "gloss": "a disposition free from stress or emotion",
+     "charge": 1,
+     "tone": "Soothing rather than exalted: the stressless disposition praised as restfulness, without *serenity*'s elevation.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "stressless, restfulness"
+     }
+    },
+    {
+     "id": "tranquility.oewn-04911529-n",
+     "word": "tranquility",
+     "gloss": "a disposition free from stress or emotion",
+     "charge": 1,
+     "tone": "The same restful freedom from stress and emotion as *tranquillity*, carried under the single-l spelling.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-05693168-n",
+   "axis": "a complexity that confuses → a knot of unresolvable, unwelcome choice",
+   "members": [
+    {
+     "id": "perplexity.oewn-05693168-n",
+     "word": "perplexity",
+     "gloss": "trouble or confusion resulting from complexity",
+     "charge": -1,
+     "tone": "Names both the trouble and the confusion together, and locates the cause in complexity rather than in the person confused.",
+     "rewrite": false
+    },
+    {
+     "id": "mystery.oewn-05693343-n",
+     "word": "mystery",
+     "gloss": "something that baffles understanding and cannot be explained",
+     "charge": 0,
+     "tone": "The plain word for what defeats understanding outright, and the one that can carry wonder alongside the bafflement rather than only frustration.",
+     "rewrite": false
+    },
+    {
+     "id": "enigma.oewn-05693343-n",
+     "word": "enigma",
+     "gloss": "something that baffles understanding and cannot be explained",
+     "charge": 0,
+     "tone": "Formal, and frames the inexplicable thing as a posed puzzle rather than the open blankness of *mystery*.",
+     "rewrite": false
+    },
+    {
+     "id": "secret.oewn-05693343-n",
+     "word": "secret",
+     "gloss": "something that baffles understanding and cannot be explained",
+     "charge": 0,
+     "tone": "Casts what cannot be explained as something withheld, as though understanding were being kept from you rather than simply out of reach.",
+     "rewrite": false
+    },
+    {
+     "id": "closed_book.oewn-05693343-n",
+     "word": "closed book",
+     "gloss": "something that baffles understanding and cannot be explained",
+     "charge": -1,
+     "tone": "Idiomatic and flat: shut to understanding with none of the allure *mystery* can carry, and no expectation of opening.",
+     "rewrite": false
+    },
+    {
+     "id": "tangle.oewn-05693684-n",
+     "word": "tangle",
+     "gloss": "something jumbled or confused",
+     "charge": -1,
+     "tone": "The confusion pictured as physically knotted, so the exasperation is with the mess itself rather than with any difficulty of thought.",
+     "rewrite": false
+    },
+    {
+     "id": "snarl.oewn-05693684-n",
+     "word": "snarl",
+     "gloss": "something jumbled or confused",
+     "charge": -2,
+     "tone": "Harsher than *tangle* - a jumble pulled tight, sounding hostile and past unpicking.",
+     "rewrite": false
+    },
+    {
+     "id": "maze.oewn-05693684-n",
+     "word": "maze",
+     "gloss": "something jumbled or confused",
+     "charge": -1,
+     "tone": "Makes the jumble something you are inside and lost in, with an intricacy *tangle* does not suggest.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "jumble, intricacy"
+     }
+    },
+    {
+     "id": "dilemma.oewn-05693891-n",
+     "word": "dilemma",
+     "gloss": "state of uncertainty or perplexity especially as requiring a choice between equally unfavorable options",
+     "charge": -2,
+     "tone": "Puts the weight on the shape of the trap - two branches, neither of them good - so the uncertainty has a hard structure to it.",
+     "rewrite": false
+    },
+    {
+     "id": "quandary.oewn-05693891-n",
+     "word": "quandary",
+     "gloss": "state of uncertainty or perplexity especially as requiring a choice between equally unfavorable options",
+     "charge": -1,
+     "tone": "Softer than *dilemma*, dwelling on the wavering state of the person stuck rather than on how bad the options are.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02488014-v",
+   "axis": "killing softened into slang or euphemism → killing named outright as murder",
+   "members": [
+    {
+     "id": "murder.oewn-02488014-v",
+     "word": "murder",
+     "gloss": "kill intentionally and with premeditation",
+     "charge": -3,
+     "tone": "The flat, full-weight name for the act, leaving the premeditation showing where *dispatch* and *remove* tidy it out of sight.",
+     "rewrite": false
+    },
+    {
+     "id": "slay.oewn-02488014-v",
+     "word": "slay",
+     "gloss": "kill intentionally and with premeditation",
+     "charge": -1,
+     "tone": "Elevated and grave where *off* is curt, giving a planned killing a weight of ceremony rather than condemning it.",
+     "rewrite": false
+    },
+    {
+     "id": "hit.oewn-02488014-v",
+     "word": "hit",
+     "gloss": "kill intentionally and with premeditation",
+     "charge": -1,
+     "tone": "Slang that treats a premeditated killing as a job done, the coolness of the word doing the work *murder* does with weight.",
+     "rewrite": false
+    },
+    {
+     "id": "dispatch.oewn-02488014-v",
+     "word": "dispatch",
+     "gloss": "kill intentionally and with premeditation",
+     "charge": -1,
+     "tone": "Brisk and efficient, filing the killing under business concluded rather than under wrongdoing.",
+     "rewrite": false
+    },
+    {
+     "id": "bump_off.oewn-02488014-v",
+     "word": "bump off",
+     "gloss": "kill intentionally and with premeditation",
+     "charge": -1,
+     "tone": "Slang with a shrug in it, making the killing offhand and almost comic in a way *slay* never allows.",
+     "rewrite": false
+    },
+    {
+     "id": "off.oewn-02488014-v",
+     "word": "off",
+     "gloss": "kill intentionally and with premeditation",
+     "charge": -1,
+     "tone": "One cold slang syllable, the deliberate act shrunk to a word too small to hold it.",
+     "rewrite": false
+    },
+    {
+     "id": "polish_off.oewn-02488014-v",
+     "word": "polish off",
+     "gloss": "kill intentionally and with premeditation",
+     "charge": -1,
+     "tone": "Informal and jaunty, its air of finishing a task neatly is exactly what makes it callous here.",
+     "rewrite": false
+    },
+    {
+     "id": "remove.oewn-02488014-v",
+     "word": "remove",
+     "gloss": "kill intentionally and with premeditation",
+     "charge": 0,
+     "tone": "The furthest euphemism in the set, rendering a premeditated killing as an act of tidying and hiding the intent inside the blandness.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "euphemism, premeditated",
+      "grammar": "euphemism"
+     }
+    },
+    {
+     "id": "burke.oewn-02488373-v",
+     "word": "burke",
+     "gloss": "murder without leaving a trace on the body",
+     "charge": -2,
+     "tone": "Names the killing by its method, leaving no mark on the body, and is chilling precisely because it is that specific where *murder* is general.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "execute.oewn-02489797-v",
+     "word": "execute",
+     "gloss": "murder in a planned fashion",
+     "charge": -2,
+     "tone": "Lends a planned murder the cold air of sentence carried out, borrowing an authority the act does not have.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00690278-v",
+   "axis": "faint expectation → confidence staked whole",
+   "members": [
+    {
+     "id": "trust.oewn-00690278-v",
+     "word": "trust",
+     "gloss": "have confidence or faith in",
+     "charge": 1,
+     "tone": "The plain word of the family, giving confidence or faith directly, with none of the reckoning *calculate* brings or the staking *bet* brings.",
+     "rewrite": false
+    },
+    {
+     "id": "credit.oewn-00685849-v",
+     "word": "credit",
+     "gloss": "have trust in; trust in the truth or veracity of",
+     "charge": 1,
+     "tone": "Aims the trust at whether a thing is true rather than whether it will hold, granting belief where *lean* grants weight.",
+     "rewrite": false
+    },
+    {
+     "id": "lean.oewn-00690162-v",
+     "word": "lean",
+     "gloss": "rely on for support",
+     "charge": 0,
+     "tone": "Casts the reliance as bodily weight put on a support, carrying the hint that the one leaning could not stand unaided.",
+     "rewrite": false
+    },
+    {
+     "id": "count.oewn-00714537-v",
+     "word": "count",
+     "gloss": "have faith or confidence in",
+     "charge": 0,
+     "tone": "Treats the confidence as already entered in the tally, so the thing believed in is settled rather than merely hoped for.",
+     "rewrite": false
+    },
+    {
+     "id": "bet.oewn-00714537-v",
+     "word": "bet",
+     "gloss": "have faith or confidence in",
+     "charge": 0,
+     "tone": "Frames the faith as a stake laid down, conceding in the same breath that it could be lost, where *rely* concedes nothing of the kind.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "depend.oewn-00714537-v",
+     "word": "depend",
+     "gloss": "have faith or confidence in",
+     "charge": 0,
+     "tone": "The confidence has need underneath it, with nothing else holding the one who depends upright.",
+     "rewrite": false
+    },
+    {
+     "id": "swear.oewn-00714537-v",
+     "word": "swear",
+     "gloss": "have faith or confidence in",
+     "charge": 1,
+     "tone": "Emphatic to the point of vouching, the faith declared aloud rather than quietly kept as in *rely*.",
+     "rewrite": false
+    },
+    {
+     "id": "rely.oewn-00714537-v",
+     "word": "rely",
+     "gloss": "have faith or confidence in",
+     "charge": 0,
+     "tone": "Steady and unemphatic: confidence as a standing arrangement rather than the wager *bet* makes of it.",
+     "rewrite": false
+    },
+    {
+     "id": "bank.oewn-00714537-v",
+     "word": "bank",
+     "gloss": "have faith or confidence in",
+     "charge": 0,
+     "tone": "Puts the faith down like a deposit, everything in one place and nothing held back.",
+     "rewrite": false
+    },
+    {
+     "id": "look.oewn-00714537-v",
+     "word": "look",
+     "gloss": "have faith or confidence in",
+     "charge": 0,
+     "tone": "The faintest of the set, confidence as expectation turned toward a thing without the weight *lean* or *bank* place on it.",
+     "rewrite": false
+    },
+    {
+     "id": "calculate.oewn-00714537-v",
+     "word": "calculate",
+     "gloss": "have faith or confidence in",
+     "charge": 0,
+     "tone": "Makes the confidence the outcome of working something out, so it sounds arrived at rather than felt.",
+     "rewrite": false
+    },
+    {
+     "id": "reckon.oewn-00714537-v",
+     "word": "reckon",
+     "gloss": "have faith or confidence in",
+     "charge": 0,
+     "tone": "Informal, stating the faith as a settled count, plainer than *swear* and less deliberate than *calculate*.",
+     "rewrite": false
+    },
+    {
+     "id": "depend_on.oewn-02670095-v",
+     "word": "depend on",
+     "gloss": "put trust in with confidence",
+     "charge": 1,
+     "tone": "Settled and unhedged - the trust is already placed and resting there, with none of the risk still audible in *bet* and none of the need implied by *lean*.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "28 words"
+     }
+    },
+    {
+     "id": "depend_upon.oewn-02670095-v",
+     "word": "depend upon",
+     "gloss": "put trust in with confidence",
+     "charge": 1,
+     "tone": "The weightier, more formal cast of *depend on*, claiming exactly the same confident placing of trust.",
+     "rewrite": false
+    },
+    {
+     "id": "rely_on.oewn-02670095-v",
+     "word": "rely on",
+     "gloss": "put trust in with confidence",
+     "charge": 1,
+     "tone": "Trust placed with assurance, active and chosen where *depend on* keeps the note of need.",
+     "rewrite": false
+    },
+    {
+     "id": "rely_upon.oewn-02670095-v",
+     "word": "rely upon",
+     "gloss": "put trust in with confidence",
+     "charge": 1,
+     "tone": "Formal beside *rely on*, the same confident placing of trust carried with a stiffer bearing.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01651383-a",
+   "axis": "bare marking of early age → youth as vigour and freshness",
+   "members": [
+    {
+     "id": "young.oewn-01654162-s",
+     "word": "young",
+     "gloss": "suggestive of youth; vigorous and fresh",
+     "charge": 2,
+     "tone": "Warm and direct, counting no years at all but the vigour and freshness that read as youth, and asserting it flatly where *youngish* hedges.",
+     "rewrite": false
+    },
+    {
+     "id": "youthful.oewn-01654162-s",
+     "word": "youthful",
+     "gloss": "suggestive of youth; vigorous and fresh",
+     "charge": 2,
+     "tone": "Puts youth forward as a resemblance rather than a fact, so the freshness carries the whole of the claim.",
+     "rewrite": false
+    },
+    {
+     "id": "vernal.oewn-01654162-s",
+     "word": "vernal",
+     "gloss": "suggestive of youth; vigorous and fresh",
+     "charge": 2,
+     "tone": "Literary and elevated where *young* and *youthful* are plain, admiring the vigour rather than merely reporting it.",
+     "rewrite": false
+    },
+    {
+     "id": "little.oewn-01653473-s",
+     "word": "little",
+     "gloss": "(of children and animals) young, immature",
+     "charge": 1,
+     "tone": "Warmth sits in the diminutive: the child or young animal is made endearing, where *small* only measures.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "diminutive"
+     }
+    },
+    {
+     "id": "small.oewn-01653473-s",
+     "word": "small",
+     "gloss": "(of children and animals) young, immature",
+     "charge": 0,
+     "tone": "Plain and unsentimental about the same young creature as *little*, sized rather than cherished.",
+     "rewrite": false
+    },
+    {
+     "id": "early.oewn-01653059-s",
+     "word": "early",
+     "gloss": "very young",
+     "charge": 0,
+     "tone": "Neutral and intensifying, pushing youth to its very beginning and saying how far along rather than how it looks.",
+     "rewrite": false
+    },
+    {
+     "id": "tender.oewn-01654003-s",
+     "word": "tender",
+     "gloss": "young and immature",
+     "charge": 0,
+     "tone": "Youth felt as softness, the immaturity something breakable rather than something admired.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "immaturity, breakable"
+     }
+    },
+    {
+     "id": "junior.oewn-01653333-s",
+     "word": "junior",
+     "gloss": "including or intended for youthful persons",
+     "charge": 0,
+     "tone": "Purely classificatory, sorting by who is taken in or aimed at, with none of the approval in *youthful*.",
+     "rewrite": false
+    },
+    {
+     "id": "boyish.oewn-01652755-s",
+     "word": "boyish",
+     "gloss": "befitting or characteristic of a young boy",
+     "charge": 1,
+     "tone": "Mildly fond, measuring against a young boy whether the thing suits one or simply resembles one.",
+     "rewrite": false
+    },
+    {
+     "id": "youngish.oewn-01654093-s",
+     "word": "youngish",
+     "gloss": "somewhat young",
+     "charge": 0,
+     "tone": "Hedged and faintly grudging, granting youth only approximately where *young* grants it outright.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-04836513-n",
+   "axis": "kindness arrived at by leniency → felt fellow-feeling that moves to act",
+   "members": [
+    {
+     "id": "kindness.oewn-04836995-n",
+     "word": "kindness",
+     "gloss": "tendency to be kind and forgiving",
+     "charge": 2,
+     "tone": "The plainest word for the disposition, warm and unceremonious where *mercy* makes the same forgivingness sound grave.",
+     "rewrite": false
+    },
+    {
+     "id": "pity.oewn-04836781-n",
+     "word": "pity",
+     "gloss": "the humane quality of understanding the suffering of others and wanting to do something about it",
+     "charge": 1,
+     "tone": "Praise here, since the gloss makes it a humane quality, but the word tilts down toward the sufferer where *compassion* stands level.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "gloss"
+     }
+    },
+    {
+     "id": "compassion.oewn-04836781-n",
+     "word": "compassion",
+     "gloss": "the humane quality of understanding the suffering of others and wanting to do something about it",
+     "charge": 3,
+     "tone": "The warmest word in the set: understanding that already carries the will to do something, not merely to be moved.",
+     "rewrite": false
+    },
+    {
+     "id": "mercy.oewn-04836513-n",
+     "word": "mercy",
+     "gloss": "a disposition to be kind and forgiving",
+     "charge": 2,
+     "tone": "Grave and elevated where *kindness* is homely, giving the same forgiving disposition the weight of a virtue.",
+     "rewrite": false
+    },
+    {
+     "id": "mildness.oewn-04837153-n",
+     "word": "mildness",
+     "gloss": "mercifulness as a consequence of being lenient or tolerant",
+     "charge": 1,
+     "tone": "Faintest approval here, since the mercifulness follows from being lenient or tolerant rather than from any felt impulse, so it can shade toward slackness.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-14463603-n",
+   "axis": "dishonor named plainly → dishonor at its most abject",
+   "members": [
+    {
+     "id": "shame.oewn-14463603-n",
+     "word": "shame",
+     "gloss": "a state of dishonor",
+     "charge": -2,
+     "tone": "The plain name for the condition of being dishonored, weighted no heavier than the fall itself.",
+     "rewrite": false
+    },
+    {
+     "id": "reproach.oewn-14465180-n",
+     "word": "reproach",
+     "gloss": "disgrace or shame",
+     "charge": -2,
+     "tone": "Names the disgrace or the shame as something laid at a person's door, so blame is audible in it where *shame* only records the state.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "disgrace.oewn-14463603-n",
+     "word": "disgrace",
+     "gloss": "a state of dishonor",
+     "charge": -2,
+     "tone": "Puts the weight on standing forfeited rather than on anything felt, a blunter word than *shame* for the same condition.",
+     "rewrite": false
+    },
+    {
+     "id": "ignominy.oewn-14463603-n",
+     "word": "ignominy",
+     "gloss": "a state of dishonor",
+     "charge": -3,
+     "tone": "Formal and absolute, pitching the dishonor so low that *disgrace* sounds like an understatement.",
+     "rewrite": false
+    },
+    {
+     "id": "humiliation.oewn-14463954-n",
+     "word": "humiliation",
+     "gloss": "state of disgrace or loss of self-respect",
+     "charge": -3,
+     "tone": "Reaches both ways at once, the outward disgrace and the inward loss of self-respect, so it degrades the person and not only the position.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-09645472-n",
+   "axis": "plain naming of the beloved → open, doting endearment",
+   "members": [
+    {
+     "id": "love.oewn-09869006-n",
+     "word": "love",
+     "gloss": "a beloved person; used as terms of endearment",
+     "charge": 2,
+     "tone": "The simplest of these endearments, naming the feeling outright with nothing decorative added to it.",
+     "rewrite": false
+    },
+    {
+     "id": "dear.oewn-09869006-n",
+     "word": "dear",
+     "gloss": "a beloved person; used as terms of endearment",
+     "charge": 2,
+     "tone": "Gentle and well-mannered where *love* is bare — affection kept quiet rather than declared.",
+     "rewrite": false
+    },
+    {
+     "id": "baby.oewn-09869006-n",
+     "word": "baby",
+     "gloss": "a beloved person; used as terms of endearment",
+     "charge": 1,
+     "tone": "Tender in a way that casts the beloved as small and to be cosseted, which *sweetheart* does not do.",
+     "rewrite": false
+    },
+    {
+     "id": "dearest.oewn-09869006-n",
+     "word": "dearest",
+     "gloss": "a beloved person; used as terms of endearment",
+     "charge": 3,
+     "tone": "The superlative does the work — it does not merely call the person dear but sets them above everyone else.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "superlative"
+     }
+    },
+    {
+     "id": "honey.oewn-09869006-n",
+     "word": "honey",
+     "gloss": "a beloved person; used as terms of endearment",
+     "charge": 2,
+     "tone": "Homely and sweet-tasting warmth, comfortable where *dearest* is fervent.",
+     "rewrite": false
+    },
+    {
+     "id": "darling.oewn-09869006-n",
+     "word": "darling",
+     "gloss": "a beloved person; used as terms of endearment",
+     "charge": 3,
+     "tone": "Doting and unembarrassed, the most lavish of these terms of endearment.",
+     "rewrite": false
+    },
+    {
+     "id": "sweetheart.oewn-09869006-n",
+     "word": "sweetheart",
+     "gloss": "a beloved person; used as terms of endearment",
+     "charge": 2,
+     "tone": "Names the beloved by the heart itself, wholesome and unironic in a way *baby* is not.",
+     "rewrite": false
+    },
+    {
+     "id": "girl.oewn-10150206-n",
+     "word": "girl",
+     "gloss": "a girl or young woman with whom a man is romantically involved",
+     "charge": 0,
+     "tone": "Flat beside the endearments: it identifies her wholly by a man's romantic involvement rather than expressing any feeling toward her.",
+     "rewrite": false
+    },
+    {
+     "id": "fellow.oewn-09890770-n",
+     "word": "fellow",
+     "gloss": "a man who is the lover of a man or woman",
+     "charge": 0,
+     "tone": "A bare designation of the man in the relation, carrying none of the warmth that *darling* pours out.",
+     "rewrite": false
+    },
+    {
+     "id": "lover.oewn-09645472-n",
+     "word": "lover",
+     "gloss": "a person who loves someone or is loved by someone",
+     "charge": 0,
+     "tone": "Works from either side of the bond — the one who loves or the one who is loved — and states the relation rather than performing it.",
+     "rewrite": true,
+     "flagged_for": {
+      "too-long": "25 words"
+     }
+    },
+    {
+     "id": "favourite.oewn-10011405-n",
+     "word": "favourite",
+     "gloss": "a special loved one",
+     "charge": 1,
+     "tone": "Warmth arrived at by comparison: this one is loved specially, which implies others ranked below.",
+     "rewrite": false
+    },
+    {
+     "id": "admirer.oewn-09790858-n",
+     "word": "admirer",
+     "gloss": "someone who admires a young woman",
+     "charge": 0,
+     "tone": "Puts the feeling entirely on one side — his admiring of her — with nothing in the word saying it is returned.",
+     "rewrite": false
+    },
+    {
+     "id": "squeeze.oewn-10663023-n",
+     "word": "squeeze",
+     "gloss": "(slang) a person's girlfriend or boyfriend",
+     "charge": 0,
+     "tone": "Slang, and breezily physical: it holds a girlfriend or boyfriend at a jaunty distance from the tenderness of *sweetheart*.",
+     "rewrite": false
+    },
+    {
+     "id": "pet.oewn-10011405-n",
+     "word": "pet",
+     "gloss": "a special loved one",
+     "charge": 1,
+     "tone": "Fondness with a stroking, indulgent hand in it, where *favourite* under the same sense is merely preference.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}
