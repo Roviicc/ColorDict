@@ -1,7 +1,7 @@
 {
   "plan": "docs/BUILD-PLAN.md",
   "approved": true,
-  "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes. Stages 9-12 proposed 2026-09-05. Stage 9 approved and closed by the author 2026-09-26 on its step-9 done-check. Stage 9b (plain words) approved 2026-09-26: max 24 words, no minimum, run cap 4 ticks. Stages 10-12 NOT yet approved: 10 needs book one reachable from the session that runs it and a spend cap, 12 exists only if a mechanism is found.",
+  "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes. Stages 9-12 proposed 2026-09-05. Stage 9 approved and closed by the author 2026-09-26 on its step-9 done-check. Stage 9b (plain words) approved 2026-09-26: max 24 words, no minimum, run cap 4 ticks. Stages 10-12 NOT yet approved: 10 needs its approval and a spend cap (book one is reachable from the cloud since 2026-09-26 and hashes to its recorded id), 12 exists only if a mechanism is found.",
   "stages": [
     {
       "stage": "0",
@@ -475,8 +475,8 @@
         "pilot": "offered, not yet chosen: before the full pass, one simplifier packet (~15 notes) shown to the author as before/after. The author is the reader these notes are for and asked to help; a pilot costs one agent",
         "from_scratch": "author: 'if we can start from scratch as long as our approach is efficient we can do it'. Applied to the 2 stale-axis families (2 authors + a small blind read). NOT applied to the whole corpus: re-authoring 3,420 notes is ~12 ticks, ~10x the targeted pass, and discards notes read blind at ~2%; if the passing notes still read hard to the author, tighten the rule and rerun the targeted pass instead",
         "models": "orchestrator Opus 5.5 at max effort (this session); writers per their files (opus), readers per theirs (fable = claude-fable-5-1, unchanged, which keeps census rates comparable)",
-        "gutenberg": "author will allow www.gutenberg.org from another session; stage 10 waits on it and on its own approval and spend cap",
-        "author_can_help": "be the test reader for the pilot; name words whose notes confused them (they go first in the pass); allow the host; confirm the timezone if not UTC+8"
+        "gutenberg": "allowed, and measured from the cloud 2026-09-26: www.gutenberg.org and cdn.jsdelivr.net answer, and https://www.gutenberg.org/cache/epub/1342/pg1342.txt (772,386 bytes) hashes to book one's id 3f6bb9d6f78e0293. Stage 10 no longer waits on the host; it still waits on its own approval and spend cap",
+        "author_can_help": "be the test reader for the pilot; name words whose notes confused them (they go first in the pass); confirm the timezone if not UTC+8"
       },
       "done_when": "every note plain_lint flags is rewritten or kept with a stated reason; plain_lint --all reports 0 notes over 24 words other than listed keeps; and a complete blind census of the rewrites reads under 5%",
       "stop": "a census over 5% on the rewrites stops the pass - it would mean simplifying changes meaning, a method problem before a batch problem",

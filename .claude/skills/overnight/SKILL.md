@@ -44,8 +44,8 @@ writes never reads, and instruments are spawned **by name** and used verbatim.
    python tools/dict_pipeline.py --no-build     # 0 errors, and git status clean
    ```
    sha256 of the three sources as first fetched: OEWN `9ca6d1dc`, SentiWordNet
-   `4fc9b253`, ili-map `13b67413`. cdn.jsdelivr.net and www.gutenberg.org are
-   refused by the cloud network policy; GitHub is not.
+   `4fc9b253`, ili-map `13b67413`. www.gutenberg.org and cdn.jsdelivr.net
+   answer from the cloud since 2026-09-26; both were refused before.
 3. `python tools/instrument_gate.py` passes - eight instruments, unchanged.
 4. Open the log: `docs/overnight/<YYYY-MM-DD>.md`, dated in UTC+8. Write the
    plan for the night into it before anything is spent.
@@ -65,7 +65,9 @@ step.
 | 3-4 | adjective queue ticks | - |
 
 When 9b is closed, every tick is a queue tick until stage 10 is approved.
-Stage 10 needs book one, which the cloud cannot fetch; do not work around that.
+Book one can be fetched now (HANDOFF §6 has the URL and the hash), but that
+approves nothing: stage 10 still needs its own approval and a spend cap, and a
+"go" for the night is neither.
 
 ### Tick 1 - the carried faults
 

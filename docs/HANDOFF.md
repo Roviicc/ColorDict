@@ -440,12 +440,15 @@ asked for.
   `data/build/` and `data/entries/derived-bulk.jsonl` are gitignored, so a fresh
   clone cannot run a tick until they are rebuilt — the recipe is in
   `.claude/skills/overnight/SKILL.md` and reproduces the committed dictionary
-  byte for byte. Book text (`data/build/books/`) is gitignored too, and the
-  cloud network policy refuses www.gutenberg.org and cdn.jsdelivr.net, so
-  stage 10 cannot run in the cloud until the author allows the host or supplies
-  the file. Book ids are content hashes: a fresh download must match
+  byte for byte. Book text (`data/build/books/`) is gitignored too. Since
+  2026-09-26 the cloud reaches www.gutenberg.org and cdn.jsdelivr.net; both
+  were refused before. Book ids are content hashes: a fresh download must match
   `3f6bb9d6f78e0293` or it is a different book as far as every record is
-  concerned.
+  concerned. `https://www.gutenberg.org/cache/epub/1342/pg1342.txt` (772,386
+  bytes; `ebooks/1342.txt.utf-8` serves the same file) matched on 2026-09-26.
+  `files/1342/1342-0.txt` and both EPUBs are different bytes, so to every record
+  they are different books. Gutenberg reissues files, so check the hash on every
+  fetch. Stage 10 still waits on its own approval and spend cap.
 
 ---
 
