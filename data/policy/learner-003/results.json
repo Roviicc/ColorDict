@@ -1,0 +1,53 @@
+{
+ "rewrites_read": 20,
+ "easy": 18,
+ "easy_rate": 0.9,
+ "threshold": 0.9,
+ "controls": {
+  "better_off.oewn-01051901-s": [
+   "control-hard",
+   "hard"
+  ],
+  "drab.oewn-00365961-s": [
+   "control-hard",
+   "hard"
+  ],
+  "omniscient.oewn-02580010-s": [
+   "control-easy",
+   "easy"
+  ],
+  "perish.oewn-00359085-v": [
+   "control-easy",
+   "easy"
+  ]
+ },
+ "controls_right": true,
+ "passes": true,
+ "hard": {
+  "tawdry.oewn-02354846-s": {
+   "verdict": "hard",
+   "stops": [
+    {
+     "kind": "figure",
+     "quote": "fixes on poor work passed off as sound"
+    },
+    {
+     "kind": "figure",
+     "quote": "written off whole as trash"
+    }
+   ],
+   "why": "A learner reads *fixes* as repairs and *sound* as a noise, and *passed off as* and *written off whole* are idioms whose plain words leave them with nothing."
+  },
+  "unreformable.oewn-02524877-s": {
+   "verdict": "hard",
+   "stops": [
+    {
+     "kind": "figure",
+     "quote": "reform will not take"
+    }
+   ],
+   "why": "*Take* here means succeed or hold, a sense the learner cannot get from the plain word, so the first half of the note says nothing to them."
+  }
+ },
+ "errors": []
+}

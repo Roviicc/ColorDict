@@ -39,8 +39,11 @@ RULES = [
         r"nowadays|these days|now (?:used|said|aimed|mostly|almost|largely|"
         r"chiefly|entirely)|frequently|typically|generally|as a rule|"
         r"rarely used|hardly ever|almost always|almost never|"
-        r"far more often|much more often|equally likely|tends to be"
-        r")\b", re.I),
+        r"far more often|much more often|equally likely|tends to be|"
+        # "the usual -ed form" (census 015's one fault) claims how often a
+        # form is used; "strays from the usual or expected" names the meaning.
+        r"(?:the|its|a|their) (?:more |most )?usual (?!or\b|as\b|and\b)(?=[\w*])"
+        r")", re.I),
      "state what the word does, not how often people do it"),
 
     ("narrowing", re.compile(
@@ -55,14 +58,23 @@ RULES = [
     ("etymology", re.compile(
         r"\b("
         r"from the (?:latin|greek|french|old english|german|norse)|"
-        r"named (?:for|after)|comes from|derives? from|"
+        # "comes from" only as an origin: "the low standing comes from a contest
+        # clearly lost" states a cause, and three such notes were kept as right.
+        r"named (?:for|after)|(?:word|name|term|form|spelling) comes from|"
+        r"comes from (?:the )?(?:latin|greek|french|old english|middle english|"
+        r"german|norse|dutch|italian|spanish|arabic|hebrew|sanskrit)|derives? from|"
         r"originally (?:meant|a|an|the)|in origin|the root is|"
         r"latin for|greek for|french for"
         r")\b", re.I),
      "drop the origin story unless it has been checked against a source"),
 
+    # A claim about all speakers or hearers ("no one can argue with it"), not a
+    # "no one" that is the meaning ("no one to answer to", "blaming no one").
     ("hedge-claim", re.compile(
-        r"\b(everyone|nobody|no one|anybody) \w+", re.I),
+        r"\b(everyone|nobody|no one|anybody) (?:would|could|can|will|should|must|"
+        r"might|says?|said|uses?|used|calls?|called|thinks?|thought|knows?|knew|"
+        r"hears?|heard|reads?|agrees?|argues?|objects?|minds?|den(?:y|ies)|"
+        r"disputes?|doubts?|questions?|means?|understands?|expects?|cares?)\b", re.I),
      "a claim about all speakers is a distribution claim in disguise"),
 
     ("speaker", re.compile(
