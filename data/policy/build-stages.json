@@ -506,7 +506,8 @@
           "n": 4,
           "step": "The six carried faults, before any rewrite touches their families",
           "owner": "repairer / family-author / census-reader",
-          "state": "not_started",
+          "state": "done",
+          "measured": "Overnight 2026-09-26, tick 1: 4 superlative collisions repaired (4 tone, 0 keeps; tone_lint superlative-collision 4 -> 0); the 2 stale-axis families re-authored from scratch as annotated-019r (9 senses, tone_lint and plain_lint --max-long 0 both 0/9; annotated-018 87 -> 85, rest byte-identical). Census 014 read all 13 changed notes: 1 wrong (ma'am, provenance) = 7.7%, which fired the 5% stop; repaired third-hand and re-read right. Pilot for step 5-6: 16 notes from the first 11 families, 16 tone, 0 keeps, census 013p 0/16 wrong. Log: docs/overnight/2026-09-26.md.",
           "note": "4 superlative collisions go to the repairer as lint findings - repairer.md already names the repair ('name one neighbour instead of ranking all of them') and may decline, since superlative-collision flags a pair of which only one half may be the fault. Every changed note is then read blind by a census-reader. The 2 stale axes cannot be patched in place - the repairer may not touch a family, census_apply has no axis action, and re-merging annotated-018 would undo the stage 9 repairs applied to it - so, on the author's decision of 2026-09-26, both families are re-authored FROM SCRATCH: family-10008828-n (lady, ma'am, madam, dame, gentlewoman; axis 'offhand courtesy -> stately dignity') and family-05911139-n (scheme, play, system, policy; all at 0). They move out of annotated-018.json into a new draft-019r.json / annotated-019r.json, get one family-author each under the new plain-words rule, and every note is read blind. Runbook: .claude/skills/overnight/SKILL.md, tick 1."
         },
         {
