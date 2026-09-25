@@ -591,14 +591,15 @@
           "n": 2,
           "step": "Pilot r1: 30 ranked words, Enricher only, every open sense written (tools/stage10_draw.py ranked; enrich_packets --write-open)",
           "owner": "enricher",
-          "state": "in_progress",
-          "measured": "Stratified over 3 frequency bands, seed 10, from a pool of 413. Held back: 47 function words and 66 words with more than 8 open senses (make 46, give 40), pending the author's word on how they are judged. 89 open senses, 3 packets."
+          "state": "done",
+          "measured": "Stratified over 3 frequency bands, seed 10, from a pool of 413. Held back: 47 function words and 66 words with more than 8 open senses (make 46, give 40), pending the author's word on how they are judged. 89 open senses, 3 packets. 3 enrichers, 83,885 tokens (~2,800 a word): 28 entries accepted, 2 rejected by the validator (answer: a 53-word learner line; introduction: learner lines repeating the gloss); 80 senses, 77 null / 3 candidate. Every example invented - these are the senses the book does not use."
         },
         {
           "n": 3,
           "step": "Pilot r1 reads: a complete blind read (entry-reader) and the null audit (null-auditor); third-hand repairs - a fresh enricher or sense-ranker on the faulted items only - and a blind re-read",
           "owner": "entry-reader / null-auditor",
-          "state": "not_started"
+          "state": "blocked",
+          "measured": "Null audit: 4 null-auditors, 81,475 tokens, 77 read, 3 false = 3.9% (stage 7's pilot 2.05%): evening 'later concluding time period', love 'have sexual intercourse with', loss 'the death of someone' - all three softenings, so candidates for the family path. Entry read BLOCKED: the API refused all 3 entry-readers before they read ('Fable 5.1's safeguards flagged this message', [reasoning_extraction]), and one retry was refused the same way - the run's stop on a tool failing twice. entry-reader.md is unchanged since 2026-09-03; its line 'you are not shown what that hand was thinking' is the likely trigger. A one-sentence fix waits in data/policy/instrument-drafts/entry-reader.md for the author to place. The unread enrichment is parked in data/policy/stage10-r1/parked.overlay.jsonl; the batch is byte-identical to before the pilot. Stopped 06:55 UTC+8."
         },
         {
           "n": 4,
