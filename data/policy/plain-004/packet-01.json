@@ -1,0 +1,279 @@
+{
+ "packet": 1,
+ "families": [
+  {
+   "family": "family-02353767-a",
+   "axis": "worthless → merely second-rate",
+   "members": [
+    {
+     "id": "inferior.oewn-02353767-a",
+     "word": "inferior",
+     "gloss": "of low or inferior quality",
+     "charge": -2,
+     "tone": "A cold comparison - it needs something better to exist before it means anything.",
+     "rewrite": false
+    },
+    {
+     "id": "bad.oewn-02354208-s",
+     "word": "bad",
+     "gloss": "below average in quality or performance",
+     "charge": -2,
+     "tone": "The broadest word in English doing narrow work: below average, and nothing more.",
+     "rewrite": false
+    },
+    {
+     "id": "base.oewn-02354354-s",
+     "word": "base",
+     "gloss": "(used of metals) consisting of or alloyed with inferior metal",
+     "charge": -1,
+     "tone": "Technical of metals - a grading judgement, not a moral one.",
+     "rewrite": false
+    },
+    {
+     "id": "bum.oewn-02354508-s",
+     "word": "bum",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "American and dismissive - *a bum deal*, *a bum knee*.",
+     "rewrite": false
+    },
+    {
+     "id": "cheap.oewn-02354508-s",
+     "word": "cheap",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "Price used as a verdict on quality, which is the oldest trick in the word.",
+     "rewrite": false
+    },
+    {
+     "id": "cheesy.oewn-02354508-s",
+     "word": "cheesy",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "Poor quality worn openly - the contempt can carry affection, the badness part of the appeal.",
+     "rewrite": false
+    },
+    {
+     "id": "chintzy.oewn-02354508-s",
+     "word": "chintzy",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "Cheapness with a whiff of the shabby-genteel about it.",
+     "rewrite": false
+    },
+    {
+     "id": "crummy.oewn-02354508-s",
+     "word": "crummy",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -2,
+     "tone": "Plain and unliterary, and it complains about the thing rather than sneering at it.",
+     "rewrite": false
+    },
+    {
+     "id": "punk.oewn-02354508-s",
+     "word": "punk",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -1,
+     "tone": "Dated slang for poor quality - shabby, and slightly comic for being so dated.",
+     "rewrite": false
+    },
+    {
+     "id": "sleazy.oewn-02354508-s",
+     "word": "sleazy",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -3,
+     "tone": "Adds moral squalor to shoddiness - the thing is cheap and slightly corrupt.",
+     "rewrite": false
+    },
+    {
+     "id": "tinny.oewn-02354508-s",
+     "word": "tinny",
+     "gloss": "of very poor quality; flimsy",
+     "charge": -1,
+     "tone": "Cheapness of material - flimsy, as if pressed from thin metal.",
+     "rewrite": false
+    },
+    {
+     "id": "bush-league.oewn-02354737-s",
+     "word": "bush-league",
+     "gloss": "not of the highest quality or sophistication",
+     "charge": -2,
+     "tone": "Condescension rather than anger - it rates the thing as small-time and leaves it there.",
+     "rewrite": false
+    },
+    {
+     "id": "bush.oewn-02354737-s",
+     "word": "bush",
+     "gloss": "not of the highest quality or sophistication",
+     "charge": -2,
+     "tone": "Dismissive - amateur, small-time, second-rate.",
+     "rewrite": false
+    },
+    {
+     "id": "cheapjack.oewn-02354846-s",
+     "word": "cheapjack",
+     "gloss": "made of inferior workmanship and materials",
+     "charge": -3,
+     "tone": "Shoddy goods and the hard sell that moves them; it doubts the seller as much as the thing.",
+     "rewrite": false
+    },
+    {
+     "id": "shoddy.oewn-02354846-s",
+     "word": "shoddy",
+     "gloss": "made of inferior workmanship and materials",
+     "charge": -3,
+     "tone": "Poor work passed off as sound - the pretence is as much of the charge as the quality.",
+     "rewrite": false
+    },
+    {
+     "id": "tawdry.oewn-02354846-s",
+     "word": "tawdry",
+     "gloss": "made of inferior workmanship and materials",
+     "charge": -3,
+     "tone": "Cheap stuff cheaply made, and written off whole as trash, where *shoddy* fixes on poor work passed off as sound.",
+     "rewrite": true,
+     "flagged_for": {
+      "figure": "fixes on poor work passed off as sound, written off whole as trash"
+     }
+    }
+   ]
+  },
+  {
+   "family": "family-02523798-a",
+   "axis": "merely liable to sin → wicked past any reform",
+   "members": [
+    {
+     "id": "wicked.oewn-02523798-a",
+     "word": "wicked",
+     "gloss": "morally bad in principle or practice",
+     "charge": -3,
+     "tone": "The plain, unhedged moral verdict, and it covers both the settled principle and the actual practice rather than choosing between them.",
+     "rewrite": false
+    },
+    {
+     "id": "evil.oewn-02524157-s",
+     "word": "evil",
+     "gloss": "having the nature of vice",
+     "charge": -3,
+     "tone": "Names the thing as vice itself rather than describing a fault in it, which makes it absolute where *wicked* is merely damning.",
+     "rewrite": false
+    },
+    {
+     "id": "vicious.oewn-02524157-s",
+     "word": "vicious",
+     "gloss": "having the nature of vice",
+     "charge": -3,
+     "tone": "Presents vice as the settled bent of the thing, so it sounds like a diagnosis of character beside *evil*'s flat sentence.",
+     "rewrite": false
+    },
+    {
+     "id": "heavy.oewn-02524297-s",
+     "word": "heavy",
+     "gloss": "(of an actor or role) being or playing the villain",
+     "charge": 0,
+     "tone": "A casting word: it marks the villain's part, or the actor filling it, and condemns nobody.",
+     "rewrite": false
+    },
+    {
+     "id": "flagitious.oewn-02524438-s",
+     "word": "flagitious",
+     "gloss": "extremely wicked, deeply criminal",
+     "charge": -3,
+     "tone": "Formal and heavy in sound: the same extreme, deeply criminal verdict as *heinous*, in grander words.",
+     "rewrite": false
+    },
+    {
+     "id": "heinous.oewn-02524438-s",
+     "word": "heinous",
+     "gloss": "extremely wicked, deeply criminal",
+     "charge": -3,
+     "tone": "The blunt public condemnation, wickedness pitched so far into the criminal that the word works almost as a sentence.",
+     "rewrite": false
+    },
+    {
+     "id": "iniquitous.oewn-02524601-s",
+     "word": "iniquitous",
+     "gloss": "characterized by iniquity; wicked because it is believed to be a sin",
+     "charge": -3,
+     "tone": "The gravest of its group, weighing the wrong as an enormity rather than simply logging it as sin like *sinful*.",
+     "rewrite": false
+    },
+    {
+     "id": "sinful.oewn-02524601-s",
+     "word": "sinful",
+     "gloss": "characterized by iniquity; wicked because it is believed to be a sin",
+     "charge": -2,
+     "tone": "The plainest naming of wickedness-as-sin, condemnatory without the swell of *iniquitous*.",
+     "rewrite": false
+    },
+    {
+     "id": "ungodly.oewn-02524601-s",
+     "word": "ungodly",
+     "gloss": "characterized by iniquity; wicked because it is believed to be a sin",
+     "charge": -2,
+     "tone": "Measures the wickedness as distance from godliness, so the fault is a standing away rather than *sinful*'s committed offence.",
+     "rewrite": false
+    },
+    {
+     "id": "irreclaimable.oewn-02524877-s",
+     "word": "irreclaimable",
+     "gloss": "insusceptible of reform",
+     "charge": -2,
+     "tone": "Pictures reform as recovery and denies it — nothing here can be got back.",
+     "rewrite": false
+    },
+    {
+     "id": "irredeemable.oewn-02524877-s",
+     "word": "irredeemable",
+     "gloss": "insusceptible of reform",
+     "charge": -3,
+     "tone": "The heaviest of these four, since redemption is what it withholds: a final verdict rather than a prognosis.",
+     "rewrite": false
+    },
+    {
+     "id": "unredeemable.oewn-02524877-s",
+     "word": "unredeemable",
+     "gloss": "insusceptible of reform",
+     "charge": -2,
+     "tone": "Makes the same refusal - it cannot be reformed - but its blunt *un-* start sounds more everyday than *irredeemable*.",
+     "rewrite": false
+    },
+    {
+     "id": "unreformable.oewn-02524877-s",
+     "word": "unreformable",
+     "gloss": "insusceptible of reform",
+     "charge": -2,
+     "tone": "States only that reform will not take, a practical verdict without *irredeemable*'s sense of a soul past saving.",
+     "rewrite": true,
+     "flagged_for": {
+      "figure": "reform will not take"
+     }
+    },
+    {
+     "id": "nefarious.oewn-02525059-s",
+     "word": "nefarious",
+     "gloss": "extremely wicked",
+     "charge": -3,
+     "tone": "Condemns the wickedness in the abstract, where *villainous* points instead at the one committing it.",
+     "rewrite": false
+    },
+    {
+     "id": "villainous.oewn-02525059-s",
+     "word": "villainous",
+     "gloss": "extremely wicked",
+     "charge": -3,
+     "tone": "Casts the extreme wickedness as a villain's, making it a fact of character rather than of the deed.",
+     "rewrite": false
+    },
+    {
+     "id": "peccable.oewn-02525272-s",
+     "word": "peccable",
+     "gloss": "liable to sin",
+     "charge": -1,
+     "tone": "Concedes only that sin is possible, not that any has been done, where *sinful* finds the wrong already there.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

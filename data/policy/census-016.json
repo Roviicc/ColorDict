@@ -1,0 +1,44 @@
+{
+ "sample": "census-016",
+ "pre_registered": "2026-09-25",
+ "status": "population drawn; read not started",
+ "why": "tawdry and unreformable read hard in learner-003 and went to a simplifier (plain-004); both rewrites are read blind, as repairs are.",
+ "instruments": {
+  "author": ".claude/agents/simplifier.md",
+  "reader": ".claude/agents/census-reader.md",
+  "repairer": ".claude/agents/repairer.md",
+  "rule": "census-reader.md unchanged from censuses 007-012: the reader measures truth, not ease, so this rate compares with theirs; the instrument gate must pass before grading"
+ },
+ "stop_condition": "over 5% stops the run from 50 read senses up (the author's floor); under it, every fault is repaired third-hand and re-read blind",
+ "read_design": "complete read of every rewrite; census_packets.py slices contiguously; reader sees gloss, charge label and note, never the old note or that it was rewritten",
+ "scope": "every tone decision in plain-004/decisions.json",
+ "population": 2,
+ "drawn": 2,
+ "entries": [
+  {
+   "id": "tawdry.oewn-02354846-s",
+   "word": "tawdry",
+   "definition": "made of inferior workmanship and materials",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Cheap stuff cheaply made, the whole thing called trash, where *shoddy* is about poor work pretending to be solid.",
+   "usage_labels": [],
+   "examples": [],
+   "_family": "family-02353767-a"
+  },
+  {
+   "id": "unreformable.oewn-02524877-s",
+   "word": "unreformable",
+   "definition": "insusceptible of reform",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Says only that reform will not work - a practical judgement, without *irredeemable*'s sense of a soul that cannot be saved.",
+   "usage_labels": [],
+   "examples": [],
+   "_family": "family-02523798-a"
+  }
+ ],
+ "read_order": "sorted by family so a packet carries a family's rewrites together"
+}
