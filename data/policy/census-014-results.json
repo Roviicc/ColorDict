@@ -1,0 +1,52 @@
+{
+ "sample": "census-014",
+ "seed": null,
+ "population": 13,
+ "read": 13,
+ "right": 12,
+ "wrong": 1,
+ "unsure": 0,
+ "error_rate_pct": 7.7,
+ "threshold_pct": 5.0,
+ "reader_model": "claude-fable-5-1",
+ "reader_effort": "xhigh",
+ "reader_agent": ".claude/agents/census-reader.md",
+ "reader_tools": "Read, Write",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
+ "missing_packets": [],
+ "unread": [],
+ "verdicts_for_unknown_ids": [],
+ "reconciled_ids": [],
+ "faults": {
+  "provenance": 1
+ },
+ "by_part_of_speech": {
+  "adjective": {
+   "read": 2,
+   "right": 2,
+   "wrong": 0,
+   "unsure": 0,
+   "error_rate_pct": 0.0
+  },
+  "noun": {
+   "read": 11,
+   "right": 10,
+   "wrong": 1,
+   "unsure": 0,
+   "error_rate_pct": 9.1
+  }
+ },
+ "failures_by_synset": {
+  "oewn-10008828-n": [
+   {
+    "id": "maam.oewn-10008828-n",
+    "word": "ma'am",
+    "verdict": "wrong",
+    "fault": "provenance",
+    "why": "Opens with 'A shortened *madam*', a derivation story about where the form came from, the same kind of claim as 'back-formation'; the rest of the note is fine.",
+    "definition": "a woman of refinement",
+    "tone": "A shortened *madam*: the same respect for a refined woman, said more softly and briefly."
+   }
+  ]
+ }
+}
