@@ -515,39 +515,46 @@
           "n": 5,
           "step": "plain_packets draw -> data/policy/plain-001",
           "owner": "manager",
-          "state": "not_started"
+          "state": "done",
+          "measured": "plain-001 drawn after tick 1 and the pilot: 219 families, 497 notes (too-long 270, grammar 138, hard-words 119 with wordfreq), 28 packets. The pilot (plain-000-pilot, 16 notes, first 11 families) ran first: 16 tone, 0 keeps, census 013p 0/16, learner-000-pilot 16/16 easy with 4/4 controls."
         },
         {
           "n": 6,
           "step": "One simplifier agent per packet, each reading its packet from disk and writing decisions-NN.json",
           "owner": "simplifier",
-          "state": "not_started"
+          "state": "done",
+          "measured": "28 simplifiers (20 at a time). check refused 3 errors first (one mis-keyed synset, one 25-word note); each went back to its own simplifier. Then 497 tone, 0 keeps, 2 hard-words warnings."
         },
         {
           "n": 7,
           "step": "plain_packets check -> census_apply -> family_apply (every shard) -> dict_pipeline --no-build -> plain_lint",
           "owner": "manager",
-          "state": "not_started"
+          "state": "done",
+          "measured": "Applied to every shard; dict_pipeline 0 errors. plain_lint --all 497 -> 2 flagged: too-long 270 -> 0, grammar 138 -> 0, hard-words 119 -> 2; median 18 words, longest 24. tone_lint 15 -> 20 (hedge-claim +3, etymology +2; most read as false positives, and the census passed them)."
         },
         {
           "n": 8,
           "step": "Census 013: complete blind read of every rewrite, census-reader.md verbatim",
           "owner": "census-reader",
-          "state": "not_started"
+          "state": "done",
+          "measured": "Census 013, all 497 rewrites, 18 census-readers: 8 wrong = 1.6% (adjective 7/395 1.8%, noun 0/77, verb 1/25 4.0% under the 50 floor). restriction 4, gloss-mismatch 3, wrong-charge 1. Learner read (learner-001, learner-reader.md, first full use = new baseline): 485/497 easy = 97.6%; controls 5/8, and all 3 misses were bad controls (hard only by *adverb*); the calibration re-check learner-001c got 11/12 (missed hazardously). Both recorded as FAIL by the all-controls rule."
         },
         {
           "n": 9,
           "step": "Third-hand repair of census 013 faults, then a blind re-read",
           "owner": "repairer / census-reader",
-          "state": "not_started"
+          "state": "done",
+          "measured": "1 repairer on the 8: 7 tone, 1 charge; charges moved on amplify, disciplinary (-1 -> 0), intelligent (-> 0). Blind re-read by a fresh census-reader: 8/8 right."
         },
         {
           "n": 10,
           "step": "Done-check; write measured numbers here",
           "owner": "manager",
-          "state": "not_started"
+          "state": "done",
+          "measured": "done_when checked: every flagged note rewritten (513 incl. the pilot, 0 keeps); plain_lint 0 notes over 24 words; the complete blind census of the rewrites read 1.6%, under 5%. The done-check passes. Stage close is the author's, as stage 9's was. Log: docs/overnight/2026-09-26.md."
         }
-      ]
+      ],
+      "done_check_2026_09_26": "passes (step 10): awaiting the author's close. Learner-read calibration is the open question - see step 8."
     },
     {
       "stage": "10",
