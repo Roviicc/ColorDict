@@ -1,0 +1,79 @@
+{"packet": 2, "verdicts": [
+ {"word": "spar", "pos": "verb",
+  "rank": "wrong", "why": "Every sentence contains 'spared', the past tense of the unrelated verb 'spare' (one r), not 'sparred' (two r's); none of the four spar senses (fight verbally, box lightly, fight with spurs, furnish with spars) is used by any sentence, so the first sense is not the one the sentences use.",
+  "senses": [
+   {"synset": "oewn-00775967-v", "verdict": "right", "fault": null, "why": "Learner line and example ('The two brothers sparred all evening about who should drive') faithfully match the 'fight verbally' gloss, independent of the mismatched book sentences."},
+   {"synset": "oewn-01422848-v", "verdict": "right", "fault": null, "why": "Learner line and boxing example match the 'box lightly' gloss."},
+   {"synset": "oewn-01422958-v", "verdict": "right", "fault": null, "why": "Learner line and rooster example match the 'fight with spurs' gloss."},
+   {"synset": "oewn-02367699-v", "verdict": "right", "fault": null, "why": "Learner line, boat example, and the 'technical' label all fit the nautical 'furnish with spars' gloss."}
+  ]
+ },
+ {"word": "consent", "pos": "noun",
+  "rank": "right", "why": "Of the four sentences where 'consent' is a noun (the other two use it as a verb, 'will consent'/'should consent'), all mean permission, matching the single listed sense.",
+  "senses": [
+   {"synset": "oewn-06702412-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss plainly and both examples use the noun 'consent' meaning permission."}
+  ]
+ },
+ {"word": "gallantry", "pos": "noun",
+  "rank": "right", "why": "All six sentences use gallantry to mean polite/courteous behaviour toward women, matching the first listed sense.",
+  "senses": [
+   {"synset": "oewn-01231281-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples use 'gallantry' for polite attention to women; the candidate call (chosen over plain 'politeness') is defensible."},
+   {"synset": "oewn-04864969-n", "verdict": "right", "fault": null, "why": "Learner line matches the heroic-courage gloss and the medal example fits; treating this as a plain description of a possessed quality (like the 'very unhappy' sense of wretched) makes null defensible."}
+  ]
+ },
+ {"word": "oppose", "pos": "verb",
+  "rank": "right", "why": "Most sentences ('could not oppose such a wish', 'steadily opposed the scheme', 'opposed their brother's') use the general 'be against' sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00777876-v", "verdict": "right", "fault": null, "why": "Learner line and both examples match 'be against; express opposition to'."},
+   {"synset": "oewn-02672590-v", "verdict": "right", "fault": null, "why": "Learner line and the equal-and-opposite-push example match the 'contrast with equal weight or force' gloss."},
+   {"synset": "oewn-01093838-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the book example ('strenuously have opposed it') fits strong resistance."},
+   {"synset": "oewn-02383714-v", "verdict": "right", "fault": null, "why": "Learner line and medicine/poison example match 'act against or in opposition to'."},
+   {"synset": "oewn-00778104-v", "verdict": "right", "fault": null, "why": "Learner line and the rule-change example fit 'be resistant to'."},
+   {"synset": "oewn-01083545-v", "verdict": "right", "fault": null, "why": "Learner line and the sports-final example fit 'set into opposition or rivalry'."}
+  ]
+ },
+ {"word": "quarrel", "pos": "verb",
+  "rank": "right", "why": "The verb-form sentences ('quarrel about', 'quarrelling with/about') all describe having a disagreement, matching the single listed sense.",
+  "senses": [
+   {"synset": "oewn-00777201-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, both examples use the verb correctly, and the candidate call (quarrel implies more than plain 'disagree') is reasonable."}
+  ]
+ },
+ {"word": "renew", "pos": "verb",
+  "rank": "right", "why": "All three sentences describe re-establishing an acquaintance or a scheme, matching the first listed sense.",
+  "senses": [
+   {"synset": "oewn-01634614-v", "verdict": "right", "fault": null, "why": "Learner line keeps both alternatives from the gloss (reestablish, or make new/like new) and both examples use the headword in this sense."},
+   {"synset": "oewn-00167460-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the legend/play example fits 'cause to appear in a new form'."}
+  ]
+ },
+ {"word": "sex", "pos": "noun",
+  "rank": "right", "why": "All four sentences use 'sex' for the male/female category, matching the first listed sense.",
+  "senses": [
+   {"synset": "oewn-08015733-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both book examples use 'sex' as the male/female category."},
+   {"synset": "oewn-00845915-n", "verdict": "right", "fault": null, "why": "Learner line and example match the sexual-activity sense."},
+   {"synset": "oewn-05014082-n", "verdict": "right", "fault": null, "why": "Learner line and the baby example match the biological-sex-determination gloss."},
+   {"synset": "oewn-07502835-n", "verdict": "right", "fault": null, "why": "Learner line and example match the sexual-feelings gloss."}
+  ]
+ },
+ {"word": "strongly", "pos": "adverb",
+  "rank": "right", "why": "Most sentences use 'strongly' as a general intensifier ('so strongly', 'strongly inclined', 'strongly-marked'), matching the first listed sense.",
+  "senses": [
+   {"synset": "oewn-00178775-r", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both book examples use 'strongly' as a general intensifier."},
+   {"synset": "oewn-00430156-r", "verdict": "right", "fault": null, "why": "Learner line and drug example match 'in a powerful manner'."}
+  ]
+ },
+ {"word": "usually", "pos": "adverb",
+  "rank": "right", "why": "All sentences use 'usually' to mean under normal/typical conditions, matching the single listed sense.",
+  "senses": [
+   {"synset": "oewn-00107608-r", "verdict": "right", "fault": null, "why": "Learner line paraphrases the gloss faithfully and both examples use 'usually' in this sense."}
+  ]
+ },
+ {"word": "wretched", "pos": "adjective",
+  "rank": "right", "why": "Poor-quality/condition uses ('wretched mistake', 'wretched business', 'wretched beginning') are the most frequent among the six sentences and that sense is listed first.",
+  "senses": [
+   {"synset": "oewn-02355625-s", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, both examples fit, and the candidate call (wretched condemns quality more than plain 'poor') is reasonable."},
+   {"synset": "oewn-01153708-s", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example fits; treated as a plain report of an inner emotional state rather than a judgment cast on an external target, null is defensible."},
+   {"synset": "oewn-01136517-s", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the book example (his wretched character) fits, and the moral-condemnation candidate call is justified."},
+   {"synset": "oewn-01054589-s", "verdict": "right", "fault": null, "why": "Learner line preserves both 'deserving' and 'inciting' pity from the gloss, the example fits, and the pity-casting candidate call is justified."}
+  ]
+ }
+]}

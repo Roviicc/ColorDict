@@ -1,0 +1,74 @@
+{"packet": 7, "verdicts": [
+ {"word": "luckily", "pos": "adverb",
+  "rank": "right", "why": "All three sentences use 'luckily' to mean 'by good fortune', matching the single sense given.",
+  "senses": [
+   {"synset": "oewn-00042664-r", "verdict": "right", "fault": null, "why": "Learner line restates the gloss plainly, both examples use 'luckily' in this sense, and the word is a neutral fortune-marker with no judgment, so null connotation is correct."}
+  ]}
+ ,
+ {"word": "nerve", "pos": "noun",
+  "rank": "right", "why": "The 'poor nerves' quotes point to the nervous-system sense (the closest of the three listed) more than to courage or impudence, and that sense is listed first.",
+  "senses": [
+   {"synset": "oewn-05481998-n", "verdict": "right", "fault": null, "why": "Learner line matches the anatomical gloss, the example uses 'nerve' literally in this sense, and it is a plain body-part description with no judgment."},
+   {"synset": "oewn-04864721-n", "verdict": "right", "fault": null, "why": "Learner line matches 'the courage to carry on', the example ('lost her nerve') fits, and naming a trait as courage is descriptive rather than evaluative."},
+   {"synset": "oewn-04845441-n", "verdict": "right", "fault": null, "why": "Learner line matches 'impudent aggressiveness', the idiom example fits, the informal label is supportable, and the candidate connotation is justified since the word casts the boldness as rude."}
+  ]}
+ ,
+ {"word": "pardon", "pos": "verb",
+  "rank": "right", "why": "Most quotes use 'pardon' as a fixed noun phrase ('beg pardon'), but the one genuine verb use ('disposed to pardon his interference') matches the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00907805-v", "verdict": "right", "fault": null, "why": "Learner line matches 'accept an excuse for', the example is a genuine verb use in this sense, and forgiving someone is a neutral action word."},
+   {"synset": "oewn-00907352-v", "verdict": "right", "fault": null, "why": "Learner line matches 'grant a pardon to', the invented example fits an official legal pardon, and the act itself is described neutrally."}
+  ]}
+ ,
+ {"word": "path", "pos": "noun",
+  "rank": "right", "why": "The garden-path quotes describe a walkway built for a purpose, matching the first-listed 'designed for a particular use' sense.",
+  "senses": [
+   {"synset": "oewn-03905025-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples use 'path' in this literal, purpose-built sense with no judgment implied."},
+   {"synset": "oewn-00416689-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a course of conduct' and the example uses 'path' figuratively in that sense, neutrally."},
+   {"synset": "oewn-09410115-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the storm example correctly uses this moving-route sense, described neutrally."},
+   {"synset": "oewn-08633886-n", "verdict": "right", "fault": null, "why": "Learner line matches 'an established line of travel or access' and the example fits a customary route, described neutrally."}
+  ]}
+ ,
+ {"word": "qualified", "pos": "adjective",
+  "rank": "right", "why": "All quoted uses concern meeting or lacking the standards/training for a role, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-01917434-a", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples (including 'ill qualified') use the word in this competence sense, described neutrally."},
+   {"synset": "oewn-01919581-a", "verdict": "right", "fault": null, "why": "Learner line matches 'limited or restricted; not absolute' and the committee example fits, with no judgment implied."},
+   {"synset": "oewn-01965069-s", "verdict": "right", "fault": null, "why": "Learner line matches the gloss about official documentation and the pilot example fits, described neutrally."},
+   {"synset": "oewn-00558400-s", "verdict": "right", "fault": null, "why": "Learner line matches 'contingent on something else' and the example uses the word in that conditional sense."},
+   {"synset": "oewn-01545039-s", "verdict": "right", "fault": null, "why": "Learner line matches the grammatical gloss exactly, the example is the same technical usage, and the technical label is supported."}
+  ]}
+ ,
+ {"word": "anecdote", "pos": "noun",
+  "rank": "right", "why": "Both usable quotes describe a short told account, matching the single sense given.",
+  "senses": [
+   {"synset": "oewn-07235246-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, both examples use 'anecdote' in this sense, and the word describes without judging."}
+  ]}
+ ,
+ {"word": "attorney", "pos": "noun",
+  "rank": "right", "why": "All three quotes refer to the legal-profession sense, the only sense given.",
+  "senses": [
+   {"synset": "oewn-10269647-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the example uses 'attorney' in this sense, and the profession is named neutrally."}
+  ]}
+ ,
+ {"word": "blush", "pos": "noun",
+  "rank": "right", "why": "The book quotes describe sudden facial reddening, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00119088-n", "verdict": "right", "fault": null, "why": "Learner line covers the gloss's listed causes, both examples use 'blush' in this sense, and a physical reaction is described neutrally."},
+   {"synset": "oewn-14074353-n", "verdict": "right", "fault": null, "why": "Learner line matches the healthy-color gloss and the example fits, described neutrally as a physical trait."},
+   {"synset": "oewn-04119846-n", "verdict": "right", "fault": null, "why": "Learner line matches the makeup gloss and the example correctly uses 'blush' as a cosmetic."}
+  ]}
+ ,
+ {"word": "characteristic", "pos": "adjective",
+  "rank": "right", "why": "The adjective quotes use 'characteristic' to mean typical/distinctive, matching the single sense given.",
+  "senses": [
+   {"synset": "oewn-00358006-a", "verdict": "right", "fault": null, "why": "Learner line preserves both 'typical' and 'distinctive' from the gloss, the example fits, and the word describes without judging."}
+  ]}
+ ,
+ {"word": "cross", "pos": "adjective",
+  "rank": "right", "why": "Most quotes ('sickly and cross', 'cross word', 'too cross to write') use the irritable sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-01139748-s", "verdict": "right", "fault": null, "why": "Learner line matches 'annoyed and irritable', both examples fit, and describing a temporary mood as cross is a mild, non-judging descriptor."},
+   {"synset": "oewn-01448808-s", "verdict": "right", "fault": null, "why": "Learner line matches the crosswise-direction gloss and the 'cross walk' example fits this spatial sense, described neutrally."}
+  ]}
+]}

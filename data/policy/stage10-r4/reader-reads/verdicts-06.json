@@ -1,0 +1,70 @@
+{"packet": 6, "verdicts": [
+ {"word": "result", "pos": "noun",
+  "rank": "right", "why": "Two of three sentences (whispering's result; result of previous study) use the 'caused by a previous phenomenon' sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-11430739-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (result of previous study) uses this sense correctly."},
+   {"synset": "oewn-07307418-n", "verdict": "right", "fault": null, "why": "Learner line matches the base gloss and the example (asking 'what is the result?') fits an outcome/entity sense."},
+   {"synset": "oewn-06756201-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (worked out the result to four decimal places) fits a computed answer."},
+   {"synset": "oewn-06344278-n", "verdict": "right", "fault": null, "why": "Learner line matches the technical semantic-role gloss and the example correctly illustrates it; 'technical' label is justified."}
+  ]},
+ {"word": "temper", "pos": "verb",
+  "rank": "right", "why": "Only one sentence uses the verb 'temper' itself (tempered with silence and respect), and it matches the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00295646-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the book example correctly instantiates it."},
+   {"synset": "oewn-00203298-v", "verdict": "right", "fault": null, "why": "Learner line preserves both restraining and moderating, and the example fits."},
+   {"synset": "oewn-00303656-v", "verdict": "right", "fault": null, "why": "Learner line matches the metallurgy gloss; example and 'technical' label are justified."},
+   {"synset": "oewn-00303837-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss; example (tempering glass) and 'technical' label fit."},
+   {"synset": "oewn-00296035-v", "verdict": "right", "fault": null, "why": "Learner line matches the piano-tuning gloss; example and 'technical' label are justified."}
+  ]},
+ {"word": "unjust", "pos": "adjective",
+  "rank": "right", "why": "All three sentences use the general 'not fair' sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00960366-a", "verdict": "right", "fault": null, "why": "Learner line covers all three alternatives (injustice, partiality, deception) and the candidate connotation is justified since 'unjust' morally condemns its target."},
+   {"synset": "oewn-01373517-a", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, example fits a justice-system context, and the candidate connotation is reasonable."},
+   {"synset": "oewn-00961901-a", "verdict": "right", "fault": null, "why": "Learner line matches 'not equitable or fair', example fits an unequal division, and candidate connotation is reasonable."}
+  ]},
+ {"word": "agitated", "pos": "adjective",
+  "rank": "right", "why": "All three sentences describe emotional agitation, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00085733-a", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples use the emotional sense; null connotation is reasonable for a state descriptor."},
+   {"synset": "oewn-00088039-a", "verdict": "right", "fault": null, "why": "Learner line matches the physical-disturbance gloss and the example (agitated mixture) fits."}
+  ]},
+ {"word": "copse", "pos": "noun",
+  "rank": "right", "why": "All sentences refer to the same small wood/thicket, matching the single sense.",
+  "senses": [
+   {"synset": "oewn-08454507-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples use 'copse' correctly."}
+  ]},
+ {"word": "decidedly", "pos": "adverb",
+  "rank": "right", "why": "All sentences use 'decidedly' as an intensifier meaning 'without doubt', matching the single sense.",
+  "senses": [
+   {"synset": "oewn-00037329-r", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples use 'decidedly' correctly; null connotation fits an intensifier."}
+  ]},
+ {"word": "discourage", "pos": "verb",
+  "rank": "right", "why": "Two of three sentences use the 'try to prevent/oppose' sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00910052-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (discourage his coming here) fits."},
+   {"synset": "oewn-01823114-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (not discouraged by what you said) fits."},
+   {"synset": "oewn-00872241-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss's general advise/counsel wording and the constructed example fits."}
+  ]},
+ {"word": "entitle", "pos": "verb",
+  "rank": "right", "why": "All three sentences use the 'give the right to' sense, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-02452235-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples correctly use 'entitled' in this sense."},
+   {"synset": "oewn-01031533-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (entitled her book) fits this sense specifically."},
+   {"synset": "oewn-02403605-v", "verdict": "right", "fault": null, "why": "Learner line matches the nobility gloss and the example fits."}
+  ]},
+ {"word": "loud", "pos": "adjective",
+  "rank": "right", "why": "Two of three sentences use the volume sense (spoken/laughed so loud), matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-01455372-a", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the constructed example uses the volume sense correctly."},
+   {"synset": "oewn-02402358-s", "verdict": "right", "fault": null, "why": "Learner line matches 'tastelessly showy', the example (loud shirt) fits, and the candidate connotation is justified since the word itself conveys poor taste."},
+   {"synset": "oewn-01461579-a", "verdict": "right", "fault": null, "why": "Learner line matches the musical-direction gloss and the example fits."}
+  ]},
+ {"word": "luck", "pos": "noun",
+  "rank": "right", "why": "All four sentences use the favorable-outcome sense, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-11438574-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples use 'good luck' in the favorable sense."},
+   {"synset": "oewn-11438252-n", "verdict": "right", "fault": null, "why": "Learner line matches the neutral-chance gloss and the coin-flip example fits."},
+   {"synset": "oewn-14496806-n", "verdict": "right", "fault": null, "why": "Learner line matches the 'circumstances in life' gloss and the example fits."}
+  ]}
+]}

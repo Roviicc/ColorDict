@@ -1,0 +1,69 @@
+{"packet": 8, "verdicts": [
+ {"word": "familiar", "pos": "adjective",
+  "rank": "right", "why": "The three sentences split across the 'well informed with' sense, an 'established-friendship' sense, and the 'well known' sense, and the first-listed sense (well known) is one of that split.",
+  "senses": [
+   {"synset": "oewn-00968795-a", "verdict": "right", "fault": null, "why": "Learner line restates 'well known or easily recognized' plainly and the example ('were familiar to them') uses this sense correctly."},
+   {"synset": "oewn-01310022-s", "verdict": "right", "fault": null, "why": "Learner line matches 'well informed about or knowing thoroughly' and the example uses 'familiar with' in this sense."},
+   {"synset": "oewn-00973438-a", "verdict": "right", "fault": null, "why": "Learner line matches 'within normal everyday experience; common and ordinary' and the invented example fits this sense."}
+  ]},
+ {"word": "hither", "pos": "adverb",
+  "rank": "right", "why": "All three sentences use 'hither' to mean 'to this place', matching the single listed sense.",
+  "senses": [
+   {"synset": "oewn-00109415-r", "verdict": "right", "fault": null, "why": "Learner line and examples faithfully match the gloss, and 'archaic' is a reasonable label for this old-fashioned word."}
+  ]},
+ {"word": "impartial", "pos": "adjective",
+  "rank": "right", "why": "Two of the three sentences (impossible to be impartial; impartial conviction) show freedom from bias, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00287080-a", "verdict": "right", "fault": null, "why": "Learner line matches 'free from undue bias or preconceived opinions' and the example uses this sense correctly."},
+   {"synset": "oewn-01727525-a", "verdict": "right", "fault": null, "why": "Learner line matches 'showing lack of favoritism' and the invented example fits this sense."}
+  ]},
+ {"word": "incline", "pos": "verb",
+  "rank": "right", "why": "All six sentences use 'inclined to' to mean having a tendency or disposition, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-02725274-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples use 'inclined to' in this tendency sense."},
+   {"synset": "oewn-01776093-v", "verdict": "right", "fault": null, "why": "Learner line matches 'feel favorably disposed or willing' and the example correctly shows willingness."},
+   {"synset": "oewn-00682760-v", "verdict": "right", "fault": null, "why": "Learner line matches the causative gloss and the example shows something making a person willing to believe."},
+   {"synset": "oewn-02066946-v", "verdict": "right", "fault": null, "why": "Learner line matches 'lower or bend the head, as in a nod' and the example shows this physical action."},
+   {"synset": "oewn-02040935-v", "verdict": "right", "fault": null, "why": "Learner line matches 'be at an angle' and the example shows a road inclining."},
+   {"synset": "oewn-02175766-v", "verdict": "right", "fault": null, "why": "Learner line matches 'bend one's ear to listen' and the example shows this exact action."}
+  ]},
+ {"word": "injury", "pos": "noun",
+  "rank": "right", "why": "All three sentences use 'injury' to mean a wrong unjustly done to someone, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00745603-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples use 'injury' as a wrong done to a person."},
+   {"synset": "oewn-14309164-n", "verdict": "right", "fault": null, "why": "Learner line matches the physical-damage gloss and the example (knee injury) fits."},
+   {"synset": "oewn-07328236-n", "verdict": "right", "fault": null, "why": "Learner line matches 'an accident resulting in physical damage' and the example reports such accidents."},
+   {"synset": "oewn-00745741-n", "verdict": "right", "fault": null, "why": "Learner line matches 'an act that causes physical damage' and the example describes the act of injuring animals."},
+   {"synset": "oewn-07354849-n", "verdict": "right", "fault": null, "why": "Learner line matches the military-casualty gloss and the example reports battle injuries."}
+  ]},
+ {"word": "insupportable", "pos": "adjective",
+  "rank": "wrong", "why": "All three sentences use 'insupportable' to mean unbearable/intolerable to endure, not 'incapable of being justified or explained', which is the only sense listed.",
+  "senses": [
+   {"synset": "oewn-01726584-s", "verdict": "right", "fault": null, "why": "Taken on its own terms, the learner line and invented example correctly render 'incapable of being justified', and the candidate connotation is a reasonable reading of that sense."}
+  ]},
+ {"word": "material", "pos": "noun",
+  "rank": "wrong", "why": "Every sentence uses 'material' as an adjective meaning important/significant, not as any of the listed noun senses.",
+  "senses": [
+   {"synset": "oewn-14604877-n", "verdict": "right", "fault": null, "why": "Learner line matches the tangible-substance gloss and the example (wood as a building material) fits."},
+   {"synset": "oewn-06648034-n", "verdict": "right", "fault": null, "why": "Learner line matches the information-for-a-finished-work gloss and the example fits."},
+   {"synset": "oewn-03314753-n", "verdict": "right", "fault": null, "why": "Learner line matches the woven/knitted-fabric gloss and the example (buying material for a dress) fits."},
+   {"synset": "oewn-03735442-n", "verdict": "right", "fault": null, "why": "Learner line matches 'things needed for doing or making something' and the example fits."},
+   {"synset": "oewn-10320321-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a person judged suitable for admission or employment' and the candidate connotation reasonably flags the evaluative 'university material' use."}
+  ]},
+ {"word": "overpower", "pos": "verb",
+  "rank": "right", "why": "All four sentences show being overcome by emotion or an overwhelming sight, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-01813288-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples show being overcome by feeling or a strong sight."},
+   {"synset": "oewn-01112928-v", "verdict": "right", "fault": null, "why": "Learner line matches 'overcome by superior force' and the example shows a physical defeat."}
+  ]},
+ {"word": "poorly", "pos": "adverb",
+  "rank": "wrong", "why": "Two of the three sentences use 'poorly' as an adjective meaning unwell/ill, a sense not present in this adverb entry, while only one sentence supports the listed manner sense.",
+  "senses": [
+   {"synset": "oewn-00011978-r", "verdict": "right", "fault": null, "why": "Learner line matches 'in a poor or unsatisfactory manner; not well' and the example ('words could but poorly express') correctly uses this manner sense."}
+  ]},
+ {"word": "punish", "pos": "verb",
+  "rank": "right", "why": "All three sentences use 'punish' to mean impose a penalty, matching the sole listed sense.",
+  "senses": [
+   {"synset": "oewn-02505278-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples use 'punish' in this sense."}
+  ]}
+]}

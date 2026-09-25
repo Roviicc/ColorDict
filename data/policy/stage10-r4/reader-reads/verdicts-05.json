@@ -1,0 +1,93 @@
+{"packet": 5, "verdicts": [
+ {"word": "acutely", "pos": "adverb",
+  "rank": "right", "why": "All three sentences use 'acutely' to intensify a feeling or sensation ('ached acutely', 'feel it most acutely'), matching the first, keen/penetrating sense.",
+  "senses": [
+   {"synset": "oewn-00386914-r", "verdict": "right", "fault": null, "why": "Learner line restates 'keen or penetrating' plainly and both examples use the word for intense feeling as the gloss requires."},
+   {"synset": "oewn-00141793-r", "verdict": "right", "fault": null, "why": "Learner line matches 'having a rapid onset' and the example ('acutely ill') is the standard collocation for this sense."},
+   {"synset": "oewn-00274018-r", "verdict": "right", "fault": null, "why": "Learner line captures 'shrewd' and the example (acutely insightful about rivals' wants) reads as shrewdness rather than mere sensory keenness."},
+   {"synset": "oewn-00505194-r", "verdict": "right", "fault": null, "why": "Learner line matches 'changing suddenly in direction and degree' and 'acutely pointed toes' is the standard sharp-angle usage."}
+  ]
+ },
+ {"word": "affected", "pos": "adjective",
+  "rank": "right", "why": "The sentences genuinely split between an artificial-manner sense, an influenced/acted-upon sense, and an emotionally-moved sense; the first listed sense (artificial) is one of those actually used ('her manner affected', 'affected incredulity').",
+  "senses": [
+   {"synset": "oewn-00073656-a", "verdict": "right", "fault": null, "why": "Learner line matches the gloss (artificial behaviour to impress), the example uses the headword in that sense, and the negative candidate connotation is justified by the put-on quality the gloss describes."},
+   {"synset": "oewn-01564296-a", "verdict": "right", "fault": null, "why": "Learner line matches 'excited or provoked to the expression of an emotion' and the example ('deeply affected') fits; the word here is a neutral report of an emotional state, so null connotation is fine."}
+  ]
+ },
+ {"word": "discretion", "pos": "noun",
+  "rank": "right", "why": "The sentences turn on tact/prudence about avoiding an awkward or embarrassing outcome (Kitty's ill-timed coughs, Mr. Collins's 'formality and discretion'), which is the first, unwritten sense.",
+  "senses": [
+   {"synset": "oewn-14019309-n", "verdict": "right", "fault": null, "why": "Learner line matches 'freedom to act or judge on one's own' and the tipping example is a standard use of that sense."},
+   {"synset": "oewn-04898205-n", "verdict": "right", "fault": null, "why": "Learner line matches 'judging wisely and objectively' and the judge example fits that sense without adding an evaluative charge to the word itself."},
+   {"synset": "oewn-05759704-n", "verdict": "right", "fault": null, "why": "Learner line matches 'refined taste; tact' and the decorating example uses the headword in that aesthetic sense."},
+   {"synset": "oewn-05206024-n", "verdict": "right", "fault": null, "why": "Learner line matches 'power of making free choices unconstrained by external agencies' and the preacher example fits that free-will sense."}
+  ]
+ },
+ {"word": "discussion", "pos": "noun",
+  "rank": "right", "why": "All three sentences describe people exchanging views on a topic (Mr. Collins's offer, the Brighton scheme), matching the first sense.",
+  "senses": [
+   {"synset": "oewn-07155367-n", "verdict": "right", "fault": null, "why": "Learner line matches 'exchange of views' and both examples are book sentences using the word in that sense."},
+   {"synset": "oewn-07152793-n", "verdict": "right", "fault": null, "why": "Learner line matches 'extended communication ... dealing with some particular topic' and the book example fits a written treatment of a subject."}
+  ]
+ },
+ {"word": "flow", "pos": "verb",
+  "rank": "right", "why": "The sentences use 'flow' for wit, ideas, and congratulations moving freely and abundantly, matching the first 'move/progress freely as a stream' sense.",
+  "senses": [
+   {"synset": "oewn-02070438-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples (wit, ideas) are book sentences in this metaphorical-movement sense."},
+   {"synset": "oewn-02070867-v", "verdict": "right", "fault": null, "why": "Learner line matches 'move along, of liquids' and the river example is a literal liquid use."},
+   {"synset": "oewn-01545450-v", "verdict": "right", "fault": null, "why": "Learner line matches 'fall or flow in a certain way' and the hair example is the standard collocation for this sense."},
+   {"synset": "oewn-02749602-v", "verdict": "right", "fault": null, "why": "Learner line matches 'be abundantly present' and the wine example is the idiomatic use of this sense."},
+   {"synset": "oewn-02071617-v", "verdict": "right", "fault": null, "why": "Learner line matches the causative gloss 'cause to flow' and the engineers example is a transitive causative use."},
+   {"synset": "oewn-00217853-v", "verdict": "right", "fault": null, "why": "Learner line matches 'cover or swamp with water' and the rice-field example uses the headword transitively in that sense."},
+   {"synset": "oewn-00061974-v", "verdict": "right", "fault": null, "why": "Learner line matches 'undergo menstruation' and the example uses the headword in that sense."}
+  ]
+ },
+ {"word": "hearing", "pos": "noun",
+  "rank": "wrong", "why": "All six sentences use 'hearing' for the act of listening to or receiving something (a story, a letter, a person speaking), a sense that sits fifth in the list, while the first sense (the general ability to hear) is not used by any of the sentences.",
+  "senses": [
+   {"synset": "oewn-05665563-n", "verdict": "right", "fault": null, "why": "Learner line matches 'the ability to hear; the auditory faculty' and the example is a standard use of that sense, even though it is not the sense the book sentences use."},
+   {"synset": "oewn-01202187-n", "verdict": "right", "fault": null, "why": "Learner line matches the legal-proceeding gloss and the court example fits that sense."},
+   {"synset": "oewn-14508362-n", "verdict": "right", "fault": null, "why": "Learner line matches 'an opportunity to state your case and be heard' and the example fits that sense."},
+   {"synset": "oewn-08578322-n", "verdict": "right", "fault": null, "why": "Learner line matches 'the range within which a voice can be heard' and the 'out of hearing' example fits that sense."},
+   {"synset": "oewn-00883837-n", "verdict": "right", "fault": null, "why": "Learner line matches 'the act of hearing attentively' and the 'give it a hearing' example fits that sense, which is the sense most of the book sentences actually use."},
+   {"synset": "oewn-07161975-n", "verdict": "right", "fault": null, "why": "Learner line matches the committee/grand-jury session gloss and the example fits that sense."}
+  ]
+ },
+ {"word": "inn", "pos": "noun",
+  "rank": "right", "why": "All three sentences refer to a lodging place for travelers, the only listed sense.",
+  "senses": [
+   {"synset": "oewn-03546876-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example is a book sentence using the word in this sense."}
+  ]
+ },
+ {"word": "narrow", "pos": "adjective",
+  "rank": "right", "why": "The sentences split across physical narrowness, limited scope, and narrow-mindedness; the first sense (not wide) is genuinely among them ('one of its narrowest parts').",
+  "senses": [
+   {"synset": "oewn-02572618-a", "verdict": "right", "fault": null, "why": "Learner line matches 'not wide' and both examples (the water's narrowest parts, a narrow bridge) use the headword in that physical sense."},
+   {"synset": "oewn-01418331-s", "verdict": "right", "fault": null, "why": "Learner line matches 'limited in extent or scope' and the book example ('such narrow space as is permitted to me') fits that sense."},
+   {"synset": "oewn-00288506-a", "verdict": "right", "fault": null, "why": "Learner line preserves all three strands of the gloss (tolerance, flexibility, breadth of view), the example fits, and the negative candidate connotation is justified since the sense faults a person's mind."},
+   {"synset": "oewn-02574040-a", "verdict": "right", "fault": null, "why": "Learner line matches 'very limited in degree' and the narrow-margin example is a standard use of this sense."}
+  ]
+ },
+ {"word": "reading", "pos": "noun",
+  "rank": "right", "why": "All six sentences use 'reading' for the general activity or process of reading, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-05816802-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples are book sentences using the word for the activity of reading."},
+   {"synset": "oewn-07188417-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a particular interpretation or performance' and the Mozart example fits that sense."},
+   {"synset": "oewn-06610383-n", "verdict": "right", "fault": null, "why": "Learner line matches 'written material intended to be read' and the train-trip example fits that sense."},
+   {"synset": "oewn-05824916-n", "verdict": "right", "fault": null, "why": "Learner line matches the meter-datum gloss and the thermometer example fits that sense."},
+   {"synset": "oewn-05937299-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a mental representation of the meaning or significance of something' and the situation example fits that sense."},
+   {"synset": "oewn-07249541-n", "verdict": "right", "fault": null, "why": "Learner line matches the public-recitation gloss and the poet example fits that sense."},
+   {"synset": "oewn-01006524-n", "verdict": "right", "fault": null, "why": "Learner line matches 'the act of measuring with meters or similar instruments' and the meter-reading job example fits that sense."}
+  ]
+ },
+ {"word": "reconcile", "pos": "verb",
+  "rank": "right", "why": "Most sentences ('reconciled to the idea', 'reconciled to myself') use the accept-as-inevitable sense listed first, with one sentence using the make-compatible sense.",
+  "senses": [
+   {"synset": "oewn-00734417-v", "verdict": "right", "fault": null, "why": "Learner line matches 'accept as inevitable' and the book example ('reconciled to the idea of so unsuitable a match') fits that sense."},
+   {"synset": "oewn-00483824-v", "verdict": "right", "fault": null, "why": "Learner line matches 'make (one thing) compatible with (another)' and the book example ('reconciled with reality') fits that sense."},
+   {"synset": "oewn-00766947-v", "verdict": "right", "fault": null, "why": "Learner line matches 'come to terms' and the brothers example fits the interpersonal-reconciliation sense."},
+   {"synset": "oewn-00483404-v", "verdict": "right", "fault": null, "why": "Learner line matches 'bring into consonance or accord' and the two-stories example fits that sense."}
+  ]
+ }
+]}

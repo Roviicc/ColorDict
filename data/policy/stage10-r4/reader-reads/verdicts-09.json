@@ -1,0 +1,75 @@
+{"packet": 9, "verdicts": [
+ {"word": "rejection", "pos": "noun",
+  "rank": "right", "why": "The first sentence's 'smarting under his rejection' names the state of having been rejected, which is listed first, and the later sentences split across the other listed senses without contradicting the order.",
+  "senses": [
+   {"synset": "oewn-13960587-n", "verdict": "right", "fault": null, "why": "Learner line and example both give the neutral state of having been rejected, matching the gloss."},
+   {"synset": "oewn-00204191-n", "verdict": "right", "fault": null, "why": "Learner line matches 'the act of rejecting something' and the example uses the headword in that sense without judgment."},
+   {"synset": "oewn-07221933-n", "verdict": "right", "fault": null, "why": "The example is Collins calling Elizabeth's spoken refusal her 'rejection,' which is exactly the speech-act sense."},
+   {"synset": "oewn-11525736-n", "verdict": "right", "fault": null, "why": "Learner line and example correctly restate the medical immune-rejection sense, and 'technical' is a fair label for a medical term."}
+  ]
+ },
+ {"word": "repetition", "pos": "noun",
+  "rank": "right", "why": "All three quoted sentences use 'repetition' for the act of doing or saying something again, which is the sense listed first.",
+  "senses": [
+   {"synset": "oewn-01020572-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example is one of the book sentences used correctly."},
+   {"synset": "oewn-07356649-n", "verdict": "right", "fault": null, "why": "Learner line matches 'an event that repeats' and the invented example uses the headword in that sense."},
+   {"synset": "oewn-07113937-n", "verdict": "right", "fault": null, "why": "Learner line and example correctly describe the rhetorical-device sense of repeated wording."}
+  ]
+ },
+ {"word": "repine", "pos": "verb",
+  "rank": "right", "why": "All three sentences show characters expressing discontent, matching the single listed sense.",
+  "senses": [
+   {"synset": "oewn-00912844-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, both examples use the headword in this sense, 'literary' fits a dated word from a Regency-era novel, and the candidate connotation of fretful complaint against plain 'complain' is reasonable."}
+  ]
+ },
+ {"word": "disgust", "pos": "verb",
+  "rank": "wrong", "why": "Most of the relevant sentences ('disgusted with his pride,' 'disgusted, and even ... shocked,' 'disgusted with the women ... for your approbation alone') show moral offense, which is the second sense, while only one sentence fits the general 'fill with distaste' sense placed first.",
+  "senses": [
+   {"synset": "oewn-02199359-v", "verdict": "right", "fault": null, "why": "Learner line and example match 'fill with distaste,' and the candidate connotation (marks the thing as repellent) is a fair reading of the word."},
+   {"synset": "oewn-01812341-v", "verdict": "right", "fault": null, "why": "Learner line covers both aversion and moral offense from the gloss, the examples fit, and the candidate connotation is justified."}
+  ]
+ },
+ {"word": "express", "pos": "adjective",
+  "rank": "right", "why": "The only sentence using 'express' as an adjective ('the express authority of both your excellent parents') means 'not tacit or implied,' the sense listed first; the other sentences use 'express' as a noun or verb.",
+  "senses": [
+   {"synset": "oewn-00980890-s", "verdict": "right", "fault": null, "why": "Learner line matches 'without unnecessary stops' and the invented example uses the headword correctly in that sense."}
+  ]
+ },
+ {"word": "grave", "pos": "noun",
+  "rank": "right", "why": "The only noun use of 'grave' in the sentences ('cold in his grave') refers to a burial place, matching the sense listed first; the remaining sentences use 'grave' as an adjective meaning serious.",
+  "senses": [
+   {"synset": "oewn-03459977-n", "verdict": "right", "fault": null, "why": "Learner line and example both describe a literal burial place, matching the gloss neutrally."},
+   {"synset": "oewn-15168686-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss exactly and the idiom 'took it with him to the grave' is the classic example of this sense."},
+   {"synset": "oewn-06835587-n", "verdict": "right", "fault": null, "why": "Learner line and the French-word example correctly describe the diacritic mark sense."}
+  ]
+ },
+ {"word": "increase", "pos": "noun",
+  "rank": "right", "why": "The only sentence using 'increase' as a noun ('his increase of wealth and consequence') fits the general process sense listed first; the rest use 'increase' as a verb.",
+  "senses": [
+   {"synset": "oewn-13518338-n", "verdict": "right", "fault": null, "why": "Learner line keeps all the gloss's alternatives (bigger, longer, more numerous, more important) and the example is from the book sentences."},
+   {"synset": "oewn-05116247-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the dollar example clearly shows a specific added amount."},
+   {"synset": "oewn-07371276-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a change resulting in an increase' and the bus-fares example fits that instance sense."},
+   {"synset": "oewn-00364086-n", "verdict": "right", "fault": null, "why": "Learner line matches 'the act of increasing something' and 'asked for an increase in her pay' is a standard example of requesting that act."},
+   {"synset": "oewn-13776433-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a quantity that is added' and the lambs example shows an addition to an existing group."}
+  ]
+ },
+ {"word": "believing", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'believing' as a gerund noun for the mental process of forming a conviction, matching the single listed sense.",
+  "senses": [
+   {"synset": "oewn-05734038-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and 'seeing is believing' is a standard example of this cognitive-process sense."}
+  ]
+ },
+ {"word": "dissatisfy", "pos": "verb",
+  "rank": "right", "why": "All three sentences use 'dissatisfied' for failing to be satisfied, matching the single listed sense.",
+  "senses": [
+   {"synset": "oewn-01820612-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss plainly and both examples are book sentences using the headword in this sense."}
+  ]
+ },
+ {"word": "hackney", "pos": "noun",
+  "rank": "right", "why": "All three sentences use 'hackney' within 'hackney coach,' referring to a carriage for hire, matching the sense listed first.",
+  "senses": [
+   {"synset": "oewn-03479758-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a carriage for hire' and the example is a book sentence using the headword in this sense."},
+   {"synset": "oewn-02388876-n", "verdict": "right", "fault": null, "why": "Learner line matches the horse-breed gloss and the invented example uses the headword correctly in that sense."}
+  ]
+ }
+]}

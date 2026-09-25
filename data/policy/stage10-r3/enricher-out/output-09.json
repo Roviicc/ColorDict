@@ -1,148 +1,309 @@
-{"packet": 9, "entries": [
- {"word": "assembly", "pos": "noun",
-  "senses": {
-   "oewn-02752958-n": {"learner": "a single thing made of parts that have been fitted together",
-                       "examples": ["The display stand was a wooden assembly of shelves and panels."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02752795-n": {"learner": "a set of machine parts that fit together to make one unit that works on its own",
-                       "examples": ["The mechanic replaced the whole brake assembly."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00913832-n": {"learner": "the act of building something, such as a machine",
-                       "examples": ["Assembly of the engine took two days."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "fail", "pos": "verb",
-  "senses": {
-   "oewn-02605525-v": {"learner": "to not be able to do something",
-                       "examples": ["I fail to see why you are so angry."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00435327-v": {"learner": "to stop working",
-                       "examples": ["The brakes failed halfway down the hill."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02527985-v": {"learner": "to not do as much as is expected of you",
-                       "examples": ["He failed in his duty to protect them."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00561324-v": {"learner": "to turn out to be not enough",
-                       "examples": ["By the end of the winter the food supply had failed."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02529187-v": {"learner": "to not get a good enough mark to pass a test or a course",
-                       "examples": ["She failed her driving test twice."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00172922-v": {"learner": "to become weaker or worse",
-                       "examples": ["His eyesight began to fail as he grew old."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02529450-v": {"learner": "to decide that someone or something is not acceptable",
-                       "examples": ["The examiner failed him for driving too fast."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02323383-v": {"learner": "to be unable to pay debts, or to run out of money and close down",
-                       "examples": ["Many small banks failed during the crisis."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "fashion", "pos": "noun",
-  "senses": {
-   "oewn-00416239-n": {"learner": "the usual way that a person or group does things",
-                       "examples": ["It was his fashion to rise early and walk before breakfast."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "fellow", "pos": "noun",
-  "senses": {
-   "oewn-10103127-n": {"learner": "an informal word used when speaking directly to a man",
-                       "examples": ["Say, fellow, you dropped your hat!"],
-                       "usage_labels": ["informal"],
-                       "connotation": null},
-   "oewn-13765240-n": {"learner": "either one of a pair of things",
-                       "examples": ["One glove was on the table, but its fellow was never found."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "lip", "pos": "noun",
-  "senses": {
-   "oewn-11712326-n": {"learner": "in the study of plants, either of the two parts into which a flower's ring of petals, or the green cup around it, is split",
-                       "examples": ["The lower lip of the flower gives bees a place to land."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-01944179-n": {"learner": "either the outer edge or the inner edge of the opening of the shell of a snail or a related animal",
-                       "examples": ["The outer lip of the shell was thick and smooth."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "tempt", "pos": "verb",
-  "senses": {
-   "oewn-00778568-v": {"learner": "to get someone to do something by being charming",
-                       "examples": ["With her warm smile she tempted the shy boy to join the dance."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01811737-v": {"learner": "to try to lead someone into sex or into doing something wrong",
-                       "examples": ["The serpent tempted Eve in the garden."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "frames the attraction as leading toward wrongdoing"}},
-   "oewn-00786231-v": {"learner": "to test something too boldly, as if nothing could go wrong",
-                       "examples": ["Climbing without a rope is tempting fate."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "casts the risk-taking as overconfident presumption"}}
-  }},
- {"word": "vexation", "pos": "noun",
-  "senses": {
-   "oewn-00419407-n": {"learner": "the act of bothering or annoying someone",
-                       "examples": ["The children's endless vexation of their teacher wore her out."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "youth", "pos": "noun",
-  "senses": {
-   "oewn-07960326-n": {"learner": "young people as a group",
-                       "examples": ["The youth of the town gathered in the square."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04935762-n": {"learner": "the fresh, lively quality that a young person has",
-                       "examples": ["At sixty he still had the youth and energy of a boy."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-15290845-n": {"learner": "an early stage in the growth of something",
-                       "examples": ["In the youth of the railway, trains were slow and uncomfortable."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "authority", "pos": "noun",
-  "senses": {
-   "oewn-09844011-n": {"learner": "the people who are in charge and control others, usually called the authorities",
-                       "examples": ["The authorities closed the road after the flood."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-08354251-n": {"learner": "a government body set up to run some part of public business",
-                       "examples": ["The local water authority raised its prices."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05705328-n": {"learner": "the feeling of being sure, and of believing in yourself and what you can do",
-                       "examples": ["She played the piano with such authority that no one doubted her."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06423235-n": {"learner": "a book or other piece of writing that people trust as the final word on a subject",
-                       "examples": ["This dictionary is the standard authority on English spelling."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "coach", "pos": "noun",
-  "senses": {
-   "oewn-09950876-n": {"learner": "a person who teaches someone privately, for example in singing or acting",
-                       "examples": ["She hired a voice coach before the audition."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03901563-n": {"learner": "a railway car that passengers ride in",
-                       "examples": ["We found two empty seats in the last coach of the train."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 9,
+ "entries": [
+  {
+   "word": "assembly",
+   "pos": "noun",
+   "senses": {
+    "oewn-02752958-n": {
+     "learner": "a single thing made of parts that have been fitted together",
+     "examples": [
+      "The display stand was a wooden assembly of shelves and panels."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02752795-n": {
+     "learner": "a set of machine parts that fit together to make one unit that works on its own",
+     "examples": [
+      "The mechanic replaced the whole brake assembly."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00913832-n": {
+     "learner": "the act of building something, such as a machine",
+     "examples": [
+      "Assembly of the engine took two days."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "fail",
+   "pos": "verb",
+   "senses": {
+    "oewn-02605525-v": {
+     "learner": "to not be able to do something",
+     "examples": [
+      "I fail to see why you are so angry."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00435327-v": {
+     "learner": "to stop working",
+     "examples": [
+      "The brakes failed halfway down the hill."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02527985-v": {
+     "learner": "to not do as much as is expected of you",
+     "examples": [
+      "He failed in his duty to protect them."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00561324-v": {
+     "learner": "to turn out to be not enough",
+     "examples": [
+      "By the end of the winter the food supply had failed."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02529187-v": {
+     "learner": "to not get a good enough mark to pass a test or a course",
+     "examples": [
+      "She failed her driving test twice."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00172922-v": {
+     "learner": "to become weaker or worse",
+     "examples": [
+      "His eyesight began to fail as he grew old."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02529450-v": {
+     "learner": "to decide that someone or something is not acceptable",
+     "examples": [
+      "The examiner failed him for driving too fast."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02323383-v": {
+     "learner": "to be unable to pay debts, or to run out of money and close down",
+     "examples": [
+      "Many small banks failed during the crisis."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "fashion",
+   "pos": "noun",
+   "senses": {
+    "oewn-00416239-n": {
+     "learner": "the usual way that a person or group does things",
+     "examples": [
+      "It was his fashion to rise early and walk before breakfast."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "fellow",
+   "pos": "noun",
+   "senses": {
+    "oewn-10103127-n": {
+     "learner": "an informal word used when speaking directly to a man",
+     "examples": [
+      "Say, fellow, you dropped your hat!"
+     ],
+     "usage_labels": [
+      "informal"
+     ],
+     "connotation": null
+    },
+    "oewn-13765240-n": {
+     "learner": "either one of a pair of things",
+     "examples": [
+      "One glove was on the table, but its fellow was never found."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "lip",
+   "pos": "noun",
+   "senses": {
+    "oewn-11712326-n": {
+     "learner": "in the study of plants, either of the two parts into which a flower's ring of petals, or the green cup around it, is split",
+     "examples": [
+      "The lower lip of the flower gives bees a place to land."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-01944179-n": {
+     "learner": "either the outer edge or the inner edge of the opening of the shell of a snail or a related animal",
+     "examples": [
+      "The outer lip of the shell was thick and smooth."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "tempt",
+   "pos": "verb",
+   "senses": {
+    "oewn-00778568-v": {
+     "learner": "to get someone to do something by being charming",
+     "examples": [
+      "With her warm smile she tempted the shy boy to join the dance."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01811737-v": {
+     "learner": "to try to lead someone into sex or into doing something wrong",
+     "examples": [
+      "The serpent tempted Eve in the garden."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "frames the attraction as leading toward wrongdoing"
+     }
+    },
+    "oewn-00786231-v": {
+     "learner": "to test something too boldly, as if nothing could go wrong",
+     "examples": [
+      "Climbing without a rope is tempting fate."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "casts the risk-taking as overconfident presumption"
+     }
+    }
+   }
+  },
+  {
+   "word": "vexation",
+   "pos": "noun",
+   "senses": {
+    "oewn-00419407-n": {
+     "learner": "the act of bothering or annoying someone",
+     "examples": [
+      "The children's endless vexation of their teacher wore her out."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "youth",
+   "pos": "noun",
+   "senses": {
+    "oewn-07960326-n": {
+     "learner": "young people as a group",
+     "examples": [
+      "The youth of the town gathered in the square."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04935762-n": {
+     "learner": "the fresh, lively quality that a young person has",
+     "examples": [
+      "At sixty he still had the youth and energy of a boy."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-15290845-n": {
+     "learner": "an early stage in the growth of something",
+     "examples": [
+      "In the youth of the railway, trains were slow and uncomfortable."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "authority",
+   "pos": "noun",
+   "senses": {
+    "oewn-09844011-n": {
+     "learner": "the people who are in charge and control others, usually called the authorities",
+     "examples": [
+      "The authorities closed the road after the flood."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-08354251-n": {
+     "learner": "a government body set up to run some part of public business",
+     "examples": [
+      "The local water authority raised its prices."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05705328-n": {
+     "learner": "the feeling of being sure, and of believing in yourself and what you can do",
+     "examples": [
+      "She played the piano with such authority that no one doubted her."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06423235-n": {
+     "learner": "a book or other piece of writing that people trust as the final word on a subject",
+     "examples": [
+      "This dictionary is the standard authority on English spelling."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "coach",
+   "pos": "noun",
+   "senses": {
+    "oewn-09950876-n": {
+     "learner": "a person who teaches someone privately, for example in singing or acting",
+     "examples": [
+      "She hired a voice coach before the audition."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03901563-n": {
+     "learner": "a railway car that passengers ride in",
+     "examples": [
+      "We found two empty seats in the last coach of the train."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

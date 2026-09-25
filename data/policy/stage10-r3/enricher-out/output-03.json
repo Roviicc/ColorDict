@@ -1,152 +1,308 @@
-{"packet": 3, "entries": [
- {"word": "occasion", "pos": "noun",
-  "senses": {
-   "oewn-07461861-n": {"learner": "a formal or official event where people come together, such as a party or a ceremony",
-                       "examples": ["The wedding was a grand occasion, and all the guests wore their best clothes."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07431314-n": {"learner": "an event that happens at a very important moment, when things could go one way or another",
-                       "examples": ["The crisis was an occasion that called for quick decisions."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "happen", "pos": "verb",
-  "senses": {
-   "oewn-00344828-v": {"learner": "to come into being, or to become real",
-                       "examples": ["The pay rise we were promised never happened."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02253273-v": {"learner": "to come across something as if by accident, or to meet with it",
-                       "examples": ["She happened upon an old letter at the back of the drawer."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "visit", "pos": "noun",
-  "senses": {
-   "oewn-08402011-n": {"learner": "a meeting you arrange to see someone, such as a doctor or a lawyer, to get treatment or advice",
-                       "examples": ["He has a visit with the doctor booked for next Tuesday."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01235407-n": {"learner": "the act of going somewhere as an official, for example to inspect it",
-                       "examples": ["The whole school was cleaned before the inspector's visit."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "country", "pos": "noun",
-  "senses": {
-   "oewn-08183451-n": {"learner": "all the people who live in a nation",
-                       "examples": ["The whole country mourned when the old king died."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-08514304-n": {"learner": "an area of land with no exact borders, which usually has a special use or is known for its people, its culture, or its land",
-                       "examples": ["They drove slowly through wine country, stopping at small farms along the way."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "lose", "pos": "verb",
-  "senses": {
-   "oewn-01799093-v": {"learner": "to have a person taken from you, because they die or are taken away",
-                       "examples": ["She lost her father when she was ten."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02201537-v": {"learner": "to let someone or something go out of your sight or out of your mind",
-                       "examples": ["We took a side path up the hill to lose the crowds."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02293000-v": {"learner": "to not get something, or not manage to obtain it",
-                       "examples": ["He lost the chance to study abroad because he sent his form in too late."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02132318-v": {"learner": "to fail to notice or take in something, with your senses or with your mind",
-                       "examples": ["The room was so noisy that I lost part of what she said."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00497220-v": {"learner": "to draw away in your mind from what is real around you",
-                       "examples": ["He lost himself in his music and forgot the time."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02293733-v": {"learner": "to end up with less money from a business than you put in, or to fail to make a profit",
-                       "examples": ["The shop lost money every month that winter."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00205234-v": {"learner": "to be put in a worse or weaker position",
-                       "examples": ["When prices fall, the small farmers lose most."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "afraid", "pos": "adjective",
-  "senses": {
-   "oewn-01296519-s": {"learner": "feeling a dislike of something, or not wanting to do it",
-                       "examples": ["He has never been afraid of hard work."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "frames plain unwillingness as fear, against 'unwilling' or 'reluctant'"}}
-  }},
- {"word": "sort", "pos": "noun",
-  "senses": {
-   "oewn-13579899-n": {"learner": "the act of putting things into groups according to a set rule",
-                       "examples": ["The computer ran a sort on the list and put the names in order by age."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "walk", "pos": "noun",
-  "senses": {
-   "oewn-05010255-n": {"learner": "the way someone walks",
-                       "examples": ["I knew him at once by his slow, heavy walk."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00585285-n": {"learner": "jobs and kinds of work in general",
-                       "examples": ["People from every walk of life came to the meeting."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00287986-n": {"learner": "a slow way for a horse to move, in which two of its feet are always on the ground",
-                       "examples": ["The rider slowed her horse to a walk."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00128106-n": {"learner": "in baseball, the batter's move to first base after the pitcher throws four pitches called balls",
-                       "examples": ["The pitcher gave up a walk to the next batter."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "length", "pos": "noun",
-  "senses": {
-   "oewn-05136830-n": {"learner": "how big the gap is between two places",
-                       "examples": ["She worked out the length of the shortest path between the two houses."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03661557-n": {"learner": "a piece of something that is long and narrow",
-                       "examples": ["He tied the gate shut with a length of rope."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "open", "pos": "verb",
-  "senses": {
-   "oewn-02430309-v": {"learner": "to begin something such as a meeting, a speech, or a concert, or to set it going",
-                       "examples": ["The mayor opened the meeting with a short speech."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01582662-v": {"learner": "to spread something out, or open it, from a closed or folded state",
-                       "examples": ["She opened the map on the kitchen table."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00541016-v": {"learner": "to make something available",
-                       "examples": ["The library opened its old records to researchers."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00541181-v": {"learner": "to become available",
-                       "examples": ["A place on the course opened when another student left."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02750526-v": {"learner": "to have an opening, a passage, or a way out",
-                       "examples": ["The kitchen opens onto the garden."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02145103-v": {"learner": "to show what is inside a file, or to start a program, as on a computer",
-                       "examples": ["Open the file and look at the second page."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01080280-v": {"learner": "to make the first move",
-                       "examples": ["In chess, the player with the white pieces always opens."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 3,
+ "entries": [
+  {
+   "word": "occasion",
+   "pos": "noun",
+   "senses": {
+    "oewn-07461861-n": {
+     "learner": "a formal or official event where people come together, such as a party or a ceremony",
+     "examples": [
+      "The wedding was a grand occasion, and all the guests wore their best clothes."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07431314-n": {
+     "learner": "an event that happens at a very important moment, when things could go one way or another",
+     "examples": [
+      "The crisis was an occasion that called for quick decisions."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "happen",
+   "pos": "verb",
+   "senses": {
+    "oewn-00344828-v": {
+     "learner": "to come into being, or to become real",
+     "examples": [
+      "The pay rise we were promised never happened."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02253273-v": {
+     "learner": "to come across something as if by accident, or to meet with it",
+     "examples": [
+      "She happened upon an old letter at the back of the drawer."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "visit",
+   "pos": "noun",
+   "senses": {
+    "oewn-08402011-n": {
+     "learner": "a meeting you arrange to see someone, such as a doctor or a lawyer, to get treatment or advice",
+     "examples": [
+      "He has a visit with the doctor booked for next Tuesday."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01235407-n": {
+     "learner": "the act of going somewhere as an official, for example to inspect it",
+     "examples": [
+      "The whole school was cleaned before the inspector's visit."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "country",
+   "pos": "noun",
+   "senses": {
+    "oewn-08183451-n": {
+     "learner": "all the people who live in a nation",
+     "examples": [
+      "The whole country mourned when the old king died."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-08514304-n": {
+     "learner": "an area of land with no exact borders, which usually has a special use or is known for its people, its culture, or its land",
+     "examples": [
+      "They drove slowly through wine country, stopping at small farms along the way."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "lose",
+   "pos": "verb",
+   "senses": {
+    "oewn-01799093-v": {
+     "learner": "to have a person taken from you, because they die or are taken away",
+     "examples": [
+      "She lost her father when she was ten."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02201537-v": {
+     "learner": "to let someone or something go out of your sight or out of your mind",
+     "examples": [
+      "We took a side path up the hill to lose the crowds."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02293000-v": {
+     "learner": "to not get something, or not manage to obtain it",
+     "examples": [
+      "He lost the chance to study abroad because he sent his form in too late."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02132318-v": {
+     "learner": "to fail to notice or take in something, with your senses or with your mind",
+     "examples": [
+      "The room was so noisy that I lost part of what she said."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00497220-v": {
+     "learner": "to draw away in your mind from what is real around you",
+     "examples": [
+      "He lost himself in his music and forgot the time."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02293733-v": {
+     "learner": "to end up with less money from a business than you put in, or to fail to make a profit",
+     "examples": [
+      "The shop lost money every month that winter."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00205234-v": {
+     "learner": "to be put in a worse or weaker position",
+     "examples": [
+      "When prices fall, the small farmers lose most."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "afraid",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01296519-s": {
+     "learner": "feeling a dislike of something, or not wanting to do it",
+     "examples": [
+      "He has never been afraid of hard work."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "frames plain unwillingness as fear, against 'unwilling' or 'reluctant'"
+     }
+    }
+   }
+  },
+  {
+   "word": "sort",
+   "pos": "noun",
+   "senses": {
+    "oewn-13579899-n": {
+     "learner": "the act of putting things into groups according to a set rule",
+     "examples": [
+      "The computer ran a sort on the list and put the names in order by age."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "walk",
+   "pos": "noun",
+   "senses": {
+    "oewn-05010255-n": {
+     "learner": "the way someone walks",
+     "examples": [
+      "I knew him at once by his slow, heavy walk."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00585285-n": {
+     "learner": "jobs and kinds of work in general",
+     "examples": [
+      "People from every walk of life came to the meeting."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00287986-n": {
+     "learner": "a slow way for a horse to move, in which two of its feet are always on the ground",
+     "examples": [
+      "The rider slowed her horse to a walk."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00128106-n": {
+     "learner": "in baseball, the batter's move to first base after the pitcher throws four pitches called balls",
+     "examples": [
+      "The pitcher gave up a walk to the next batter."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "length",
+   "pos": "noun",
+   "senses": {
+    "oewn-05136830-n": {
+     "learner": "how big the gap is between two places",
+     "examples": [
+      "She worked out the length of the shortest path between the two houses."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03661557-n": {
+     "learner": "a piece of something that is long and narrow",
+     "examples": [
+      "He tied the gate shut with a length of rope."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "open",
+   "pos": "verb",
+   "senses": {
+    "oewn-02430309-v": {
+     "learner": "to begin something such as a meeting, a speech, or a concert, or to set it going",
+     "examples": [
+      "The mayor opened the meeting with a short speech."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01582662-v": {
+     "learner": "to spread something out, or open it, from a closed or folded state",
+     "examples": [
+      "She opened the map on the kitchen table."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00541016-v": {
+     "learner": "to make something available",
+     "examples": [
+      "The library opened its old records to researchers."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00541181-v": {
+     "learner": "to become available",
+     "examples": [
+      "A place on the course opened when another student left."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02750526-v": {
+     "learner": "to have an opening, a passage, or a way out",
+     "examples": [
+      "The kitchen opens onto the garden."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02145103-v": {
+     "learner": "to show what is inside a file, or to start a program, as on a computer",
+     "examples": [
+      "Open the file and look at the second page."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01080280-v": {
+     "learner": "to make the first move",
+     "examples": [
+      "In chess, the player with the white pieces always opens."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

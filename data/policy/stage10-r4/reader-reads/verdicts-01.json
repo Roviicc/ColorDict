@@ -1,0 +1,72 @@
+{"packet": 1, "verdicts": [
+ {"word": "high", "pos": "adjective",
+  "rank": "wrong", "why": "The literal-elevation sense is listed first, but most sentences ('highest merit', 'highest opinion', 'highest terms') use 'high' for an elevated degree of a quality, a sense listed lower.",
+  "senses": [
+   {"synset": "oewn-01207229-a", "verdict": "right", "fault": null, "why": "Learner restates the literal-elevation gloss plainly and the example (the woody hills) uses 'high' in that sense with no added judgment."},
+   {"synset": "oewn-00708942-s", "verdict": "right", "fault": null, "why": "Learner matches 'happy and excited and energetic' and the example ('spirits oppressively high') uses the word in that sense; the state is described, not judged."},
+   {"synset": "oewn-01213526-a", "verdict": "right", "fault": null, "why": "Learner faithfully restates 'greater than normal in quantity or amount' and the example ('the price of bread is very high') matches that sense."},
+   {"synset": "oewn-01215869-a", "verdict": "right", "fault": null, "why": "Learner and example ('a high, clear voice') correctly match the pitch sense with a neutral connotation."},
+   {"synset": "oewn-00802795-s", "verdict": "right", "fault": null, "why": "Learner covers both alcohol and drug intoxication as the gloss does, the example fits, and 'informal' is a fair label for this slang usage."},
+   {"synset": "oewn-01057746-s", "verdict": "right", "fault": null, "why": "Learner and example ('the meat...was a little high') correctly match the spoiled-meat sense, described neutrally."}
+  ]},
+ {"word": "anxious", "pos": "adjective",
+  "rank": "right", "why": "All six sentences describe worry or uneasy attention, matching the first-listed 'fraught with or showing anxiety' sense.",
+  "senses": [
+   {"synset": "oewn-02465209-s", "verdict": "right", "fault": null, "why": "Learner restates all three strands of the gloss (causing, fraught with, showing anxiety) and both examples use 'anxious' in that sense without added judgment."}
+  ]},
+ {"word": "common", "pos": "adjective",
+  "rank": "right", "why": "The plurality of sentences ('not out of the common way', 'common and indifferent acquaintance', etc.) use the ordinary/usual sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00487699-a", "verdict": "right", "fault": null, "why": "Learner captures all three strands of the gloss and the example matches the ordinary/usual sense."},
+   {"synset": "oewn-02159888-s", "verdict": "right", "fault": null, "why": "Learner and example ('a common friend') correctly match the shared-by-two-parties sense."},
+   {"synset": "oewn-00973799-s", "verdict": "right", "fault": null, "why": "Learner and the book-quoted example ('a very common failing') correctly match the commonly-encountered sense."},
+   {"synset": "oewn-00494722-a", "verdict": "right", "fault": null, "why": "Learner and example ('the common good') correctly match the community/public sense."},
+   {"synset": "oewn-01597504-s", "verdict": "right", "fault": null, "why": "This synset also contains 'plebeian' and 'unwashed', so the class-marking word plausibly judges, supporting the candidate call."},
+   {"synset": "oewn-01678370-s", "verdict": "right", "fault": null, "why": "Learner and example ('common decency') correctly match the 'to be expected; standard' sense."},
+   {"synset": "oewn-01049925-s", "verdict": "right", "fault": null, "why": "Learner and example ('in common speech') correctly match the everyday-language sense."},
+   {"synset": "oewn-02355096-s", "verdict": "right", "fault": null, "why": "Learner restates 'inferior quality or value', the example ('common cloth') fits, and the explicitly evaluative gloss supports the candidate call."}
+  ]},
+ {"word": "noble", "pos": "adjective",
+  "rank": "right", "why": "Most sentences ('noble birth', 'noble names', 'her noble guest', 'noble kindred') use the hereditary-aristocracy sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-01594522-a", "verdict": "right", "fault": null, "why": "Learner faithfully restates the hereditary-aristocracy gloss and both examples use 'noble' in that sense, described neutrally as a class label."},
+   {"synset": "oewn-01936643-s", "verdict": "right", "fault": null, "why": "Learner and example ('a noble metal') correctly match the chemistry sense, and 'technical' is a fair label for it."}
+  ]},
+ {"word": "comfortable", "pos": "adjective",
+  "rank": "right", "why": "Most sentences (the game, the dwelling, 'neat and comfortable') use the physical-well-being sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00481320-a", "verdict": "right", "fault": null, "why": "Learner restates 'free from stress...peace of mind' and the example ('Neither Jane nor Elizabeth were comfortable on this subject') matches that mental-ease sense."},
+   {"synset": "oewn-02344316-s", "verdict": "right", "fault": null, "why": "Learner and the book-quoted example ('a comfortable income') correctly match the 'sufficient to provide comfort' sense."},
+   {"synset": "oewn-02573924-s", "verdict": "right", "fault": null, "why": "Learner and example ('won the race by a comfortable distance') correctly match the wide-margin sense, described neutrally."}
+  ]},
+ {"word": "low", "pos": "adjective",
+  "rank": "right", "why": "The six sentences split fairly evenly between volume, physical elevation, and social station, and the first-listed volume sense is part of that split.",
+  "senses": [
+   {"synset": "oewn-01458667-s", "verdict": "right", "fault": null, "why": "Learner and example ('speak lower') correctly match the low-volume sense."},
+   {"synset": "oewn-01209146-a", "verdict": "right", "fault": null, "why": "Learner and both examples ('low phaeton', 'lowest points') correctly match the physical-elevation sense."},
+   {"synset": "oewn-01215141-a", "verdict": "right", "fault": null, "why": "Learner and example ('prices...low this week') correctly match the 'less than normal in degree' sense."},
+   {"synset": "oewn-01218092-a", "verdict": "right", "fault": null, "why": "Learner and example ('a long, low note') correctly match the low-pitch sense."},
+   {"synset": "oewn-01957830-s", "verdict": "right", "fault": null, "why": "Learner and example ('low jokes') correctly match 'unrefined in character', and that evaluative gloss supports the candidate call."},
+   {"synset": "oewn-02344737-s", "verdict": "right", "fault": null, "why": "Learner and example ('food supplies are getting low') correctly match the 'no longer sufficient' sense."}
+  ]},
+ {"word": "desirable", "pos": "adjective",
+  "rank": "right", "why": "Most sentences ('desirable measure', 'desirable situation', etc.) use the general worth-having sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00855376-s", "verdict": "unsure", "fault": null, "why": "The quoted line is literally about a dance partner, so it is genuinely unclear whether it illustrates the general worth sense or this spouse-specific sense."}
+  ]},
+ {"word": "worth", "pos": "adjective",
+  "rank": "right", "why": "All six sentences use 'worth' to mean worthy of being treated a certain way (pleasing, hearing, knowing), the sense listed first.",
+  "senses": [
+   {"synset": "oewn-02511965-s", "verdict": "right", "fault": null, "why": "Learner and example ('worth a hundred pounds') correctly match the specified-value sense, described neutrally."}
+  ]},
+ {"word": "boast", "pos": "verb",
+  "rank": "right", "why": "Most sentences use 'boast' for verbal self-praise or showing off, the sense listed first.",
+  "senses": [
+   {"synset": "oewn-02637740-v", "verdict": "right", "fault": null, "why": "Learner and example ('boasting a bright new silk gown') correctly match the literal wear/display sense, and the ostentatious framing supports the candidate call."}
+  ]},
+ {"word": "sincerely", "pos": "adverb",
+  "rank": "right", "why": "All six sentences use 'sincerely' to mean genuinely and without pretense, the sense listed first.",
+  "senses": [
+   {"synset": "oewn-00161285-r", "verdict": "right", "fault": null, "why": "Learner and example ('Yours sincerely') correctly match the letter-closing-formula sense."}
+  ]}
+]}

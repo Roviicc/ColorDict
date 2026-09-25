@@ -1,188 +1,391 @@
-{"packet": 4, "entries": [
- {"word": "head", "pos": "verb",
-  "senses": {
-   "oewn-01935739-v": {"learner": "To steer something, or to decide which way it travels.",
-                       "examples": ["She headed the boat toward the shore."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02734898-v": {"learner": "To be the first or leading member of a group and do better than the rest.",
-                       "examples": ["Our school heads the league again this year."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02700129-v": {"learner": "To be at the front of something, or on top of it.",
-                       "examples": ["A short poem heads each chapter of the book."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02630209-v": {"learner": "To form a head, or to come or grow to a head.",
-                       "examples": ["The cabbages in the garden are starting to head."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02760338-v": {"learner": "To have its beginning or source somewhere.",
-                       "examples": ["These rivers head in the high mountains to the north."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01593836-v": {"learner": "To take off the head of something.",
-                       "examples": ["She headed the fish before cooking them."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "promise", "pos": "verb",
-  "senses": {
-   "oewn-00919743-v": {"learner": "To say what will happen before it happens.",
-                       "examples": ["Old Tom looked at the dark sky and promised a storm by evening."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "view", "pos": "noun",
-  "senses": {
-   "oewn-06218486-n": {"learner": "A way of looking at a situation, a subject, or something like them.",
-                       "examples": ["From a business view, the plan makes good sense."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05954491-n": {"learner": "A personal belief or judgement that is not based on proof or on being sure.",
-                       "examples": ["In my view, he is the better player."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06794876-n": {"learner": "A message that says what someone believes, or the stating of a belief that someone holds firmly but cannot prove.",
-                       "examples": ["She wrote to the newspaper to set out her views on the new road."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00883327-n": {"learner": "The act of looking at, seeing, or watching something.",
-                       "examples": ["He climbed onto the wall to get a better view of the fight."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04682218-n": {"learner": "The way something looks from the outside.",
-                       "examples": ["To outward view, the house was quiet and ordinary."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05135047-n": {"learner": "The range of things that you can expect to take an interest in or to do.",
-                       "examples": ["Questions of money lie outside the view of this report."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04151847-n": {"learner": "A picture or photograph that shows something as it is seen, such as a place.",
-                       "examples": ["She bought a small painted view of the harbour."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "attachment", "pos": "noun",
-  "senses": {
-   "oewn-01215372-n": {"learner": "Loyal support for a cause, a political party, or a religion.",
-                       "examples": ["His attachment to the old party never weakened."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00380230-n": {"learner": "The act of attaching or fixing something onto something else.",
-                       "examples": ["The attachment of the label took only a second."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00148415-n": {"learner": "The act of fastening things together.",
-                       "examples": ["The attachment of the wagons to the engine took an hour."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06566972-n": {"learner": "A written court order that allows someone's property to be taken in case it is needed to pay what a court decides they owe.",
-                       "examples": ["The court issued an attachment against the farmer's land."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "information", "pos": "noun",
-  "senses": {
-   "oewn-07252221-n": {"learner": "An official charge saying that someone has committed a crime.",
-                       "examples": ["The prosecutor filed an information against him for theft."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-05098731-n": {"learner": "In the study of communication, a number that measures how uncertain an outcome is.",
-                       "examples": ["Each toss of a fair coin gives one bit of information."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "intend", "pos": "verb",
-  "senses": {
-   "oewn-00933814-v": {"learner": "To stand for something, or to suggest it.",
-                       "examples": ["In the old story, the dark forest intends danger."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "interest", "pos": "noun",
-  "senses": {
-   "oewn-05150324-n": {"learner": "A reason for wanting something done.",
-                       "examples": ["your uncle would never have yielded, if we had not given him credit for another interest in the affair.", "The road was closed in the interest of safety."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13307824-n": {"learner": "A legal right to a share of something, or a money stake in something.",
-                       "examples": ["She sold her interest in the family business."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00432492-n": {"learner": "An activity that fills your time and thoughts, usually in a pleasant way.",
-                       "examples": ["His main interests are fishing and chess."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07984994-n": {"learner": "A group of people who control some area of activity and share the same aims.",
-                       "examples": ["The new law was fought by powerful farming interests."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "natural", "pos": "adjective",
-  "senses": {
-   "oewn-01574358-a": {"learner": "Following the ways of nature, or having to do with nature.",
-                       "examples": ["She loves books about natural history."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01338661-s": {"learner": "Having a talent because of qualities you were born with.",
-                       "examples": ["She is a natural leader."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02290719-s": {"learner": "Done without thinking, because of instinct or as if because of instinct.",
-                       "examples": ["He threw up his hands in a natural move to guard his face."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01578429-a": {"learner": "Belonging to or in keeping with nature and the world we can see, and not magic or beyond nature.",
-                       "examples": ["There was a perfectly natural explanation for the strange noise."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01408930-a": {"learner": "Of a parent or child: related by blood.",
-                       "examples": ["He never met his natural father."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01959465-s": {"learner": "Not processed, or made in only very simple ways, used especially of food and other goods.",
-                       "examples": ["She buys natural honey from a local farm."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01582180-a": {"learner": "Of a musical note: neither raised nor lowered by a half step.",
-                       "examples": ["Play a B natural there, not a B flat."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "credit", "pos": "noun",
-  "senses": {
-   "oewn-13399691-n": {"learner": "Money that a customer is allowed to borrow.",
-                       "examples": ["She still has two thousand dollars of credit left on her card."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06358051-n": {"learner": "A name on the list of people who helped to make a film or a piece of writing.",
-                       "examples": ["Her first film credit was as a sound assistant."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06776392-n": {"learner": "A short note that says where some information or a quoted passage came from.",
-                       "examples": ["The credit at the foot of the page names the book the quotation came from."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00066675-n": {"learner": "Official recognition by a college or university that you have finished a course of study, usually counted in hours.",
-                       "examples": ["She earned three credits for the history course."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05811755-n": {"learner": "A judgement, based on how they have handled money before, of how well a person or a company can pay what they owe.",
-                       "examples": ["His credit is good, so the bank is happy to lend to him."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13426819-n": {"learner": "An entry in a set of accounts that records money coming in or capital.",
-                       "examples": ["The refund appears as a credit on your statement."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "temper", "pos": "noun",
-  "senses": {
-   "oewn-05028701-n": {"learner": "How hard and springy a metal object is, which lets it take a lot of force before it cracks.",
-                       "examples": ["The old sword had kept its temper after years of use."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 4,
+ "entries": [
+  {
+   "word": "head",
+   "pos": "verb",
+   "senses": {
+    "oewn-01935739-v": {
+     "learner": "To steer something, or to decide which way it travels.",
+     "examples": [
+      "She headed the boat toward the shore."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02734898-v": {
+     "learner": "To be the first or leading member of a group and do better than the rest.",
+     "examples": [
+      "Our school heads the league again this year."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02700129-v": {
+     "learner": "To be at the front of something, or on top of it.",
+     "examples": [
+      "A short poem heads each chapter of the book."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02630209-v": {
+     "learner": "to form a head, or to come or grow to the point of having a head.",
+     "examples": [
+      "The lettuce heads in early summer.",
+      "By August the cabbages were heading nicely."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02760338-v": {
+     "learner": "To have its beginning or source somewhere.",
+     "examples": [
+      "These rivers head in the high mountains to the north."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01593836-v": {
+     "learner": "To take off the head of something.",
+     "examples": [
+      "She headed the fish before cooking them."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "promise",
+   "pos": "verb",
+   "senses": {
+    "oewn-00919743-v": {
+     "learner": "To say what will happen before it happens.",
+     "examples": [
+      "Old Tom looked at the dark sky and promised a storm by evening."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "view",
+   "pos": "noun",
+   "senses": {
+    "oewn-06218486-n": {
+     "learner": "A way of looking at a situation, a subject, or something like them.",
+     "examples": [
+      "From a business view, the plan makes good sense."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05954491-n": {
+     "learner": "A personal belief or judgement that is not based on proof or on being sure.",
+     "examples": [
+      "In my view, he is the better player."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06794876-n": {
+     "learner": "A message that says what someone believes, or the stating of a belief that someone holds firmly but cannot prove.",
+     "examples": [
+      "She wrote to the newspaper to set out her views on the new road."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00883327-n": {
+     "learner": "The act of looking at, seeing, or watching something.",
+     "examples": [
+      "He climbed onto the wall to get a better view of the fight."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04682218-n": {
+     "learner": "The way something looks from the outside.",
+     "examples": [
+      "To outward view, the house was quiet and ordinary."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05135047-n": {
+     "learner": "The range of things that you can expect to take an interest in or to do.",
+     "examples": [
+      "Questions of money lie outside the view of this report."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04151847-n": {
+     "learner": "A picture or photograph that shows something as it is seen, such as a place.",
+     "examples": [
+      "She bought a small painted view of the harbour."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "attachment",
+   "pos": "noun",
+   "senses": {
+    "oewn-01215372-n": {
+     "learner": "Loyal support for a cause, a political party, or a religion.",
+     "examples": [
+      "His attachment to the old party never weakened."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00380230-n": {
+     "learner": "The act of attaching or fixing something onto something else.",
+     "examples": [
+      "The attachment of the label took only a second."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00148415-n": {
+     "learner": "The act of fastening things together.",
+     "examples": [
+      "The attachment of the wagons to the engine took an hour."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06566972-n": {
+     "learner": "A written court order that allows someone's property to be taken in case it is needed to pay what a court decides they owe.",
+     "examples": [
+      "The court issued an attachment against the farmer's land."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "information",
+   "pos": "noun",
+   "senses": {
+    "oewn-07252221-n": {
+     "learner": "An official charge saying that someone has committed a crime.",
+     "examples": [
+      "The prosecutor filed an information against him for theft."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-05098731-n": {
+     "learner": "In the study of communication, a number that measures how uncertain an outcome is.",
+     "examples": [
+      "Each toss of a fair coin gives one bit of information."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "intend",
+   "pos": "verb",
+   "senses": {
+    "oewn-00933814-v": {
+     "learner": "To stand for something, or to suggest it.",
+     "examples": [
+      "In the old story, the dark forest intends danger."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "interest",
+   "pos": "noun",
+   "senses": {
+    "oewn-05150324-n": {
+     "learner": "A reason for wanting something done.",
+     "examples": [
+      "your uncle would never have yielded, if we had not given him credit for another interest in the affair.",
+      "The road was closed in the interest of safety."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13307824-n": {
+     "learner": "A legal right to a share of something, or a money stake in something.",
+     "examples": [
+      "She sold her interest in the family business."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00432492-n": {
+     "learner": "An activity that fills your time and thoughts, usually in a pleasant way.",
+     "examples": [
+      "His main interests are fishing and chess."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07984994-n": {
+     "learner": "A group of people who control some area of activity and share the same aims.",
+     "examples": [
+      "The new law was fought by powerful farming interests."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "natural",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01574358-a": {
+     "learner": "Following the ways of nature, or having to do with nature.",
+     "examples": [
+      "She loves books about natural history."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01338661-s": {
+     "learner": "Having a talent because of qualities you were born with.",
+     "examples": [
+      "She is a natural leader."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02290719-s": {
+     "learner": "Done without thinking, because of instinct or as if because of instinct.",
+     "examples": [
+      "He threw up his hands in a natural move to guard his face."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01578429-a": {
+     "learner": "Belonging to or in keeping with nature and the world we can see, and not magic or beyond nature.",
+     "examples": [
+      "There was a perfectly natural explanation for the strange noise."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01408930-a": {
+     "learner": "Of a parent or child: related by blood.",
+     "examples": [
+      "He never met his natural father."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01959465-s": {
+     "learner": "Not processed, or made in only very simple ways, used especially of food and other goods.",
+     "examples": [
+      "She buys natural honey from a local farm."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01582180-a": {
+     "learner": "Of a musical note: neither raised nor lowered by a half step.",
+     "examples": [
+      "Play a B natural there, not a B flat."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "credit",
+   "pos": "noun",
+   "senses": {
+    "oewn-13399691-n": {
+     "learner": "Money that a customer is allowed to borrow.",
+     "examples": [
+      "She still has two thousand dollars of credit left on her card."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06358051-n": {
+     "learner": "A name on the list of people who helped to make a film or a piece of writing.",
+     "examples": [
+      "Her first film credit was as a sound assistant."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06776392-n": {
+     "learner": "A short note that says where some information or a quoted passage came from.",
+     "examples": [
+      "The credit at the foot of the page names the book the quotation came from."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00066675-n": {
+     "learner": "Official recognition by a college or university that you have finished a course of study, usually counted in hours.",
+     "examples": [
+      "She earned three credits for the history course."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05811755-n": {
+     "learner": "A judgement, based on how they have handled money before, of how well a person or a company can pay what they owe.",
+     "examples": [
+      "His credit is good, so the bank is happy to lend to him."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13426819-n": {
+     "learner": "An entry in a set of accounts that records money coming in or capital.",
+     "examples": [
+      "The refund appears as a credit on your statement."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "temper",
+   "pos": "noun",
+   "senses": {
+    "oewn-05028701-n": {
+     "learner": "How hard and springy a metal object is, which lets it take a lot of force before it cracks.",
+     "examples": [
+      "The old sword had kept its temper after years of use."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

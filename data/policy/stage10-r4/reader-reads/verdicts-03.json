@@ -1,0 +1,88 @@
+{"packet": 3, "verdicts": [
+ {"word": "anticipate", "pos": "verb",
+  "rank": "right", "why": "Sentences split between expecting/foreseeing an outcome (sentences 1,2,5) and feeling excited or anxious about one (sentences 3,4), and the first-listed sense covers the larger share.",
+  "senses": [
+   {"synset": "oewn-00721658-v", "verdict": "right", "fault": null, "why": "Learner line and example match 'regard as probable' and the sentences about expecting how a visit or a family's reaction would go fit this sense."},
+   {"synset": "oewn-00722732-v", "verdict": "right", "fault": null, "why": "Learner line matches 'realize beforehand' and the invented example uses the word correctly in that sense."},
+   {"synset": "oewn-02571406-v", "verdict": "right", "fault": null, "why": "Learner line and example (general anticipating an attack and acting on it) match 'act in advance of; deal with ahead of time'."},
+   {"synset": "oewn-01808928-v", "verdict": "right", "fault": null, "why": "Learner line matches 'be excited or anxious about', and the book example ('anticipated with dismay') is a clean fit."},
+   {"synset": "oewn-00919743-v", "verdict": "right", "fault": null, "why": "Learner line and example (predicting the storm) match 'make a prediction about; tell in advance'."},
+   {"synset": "oewn-00343295-v", "verdict": "right", "fault": null, "why": "Learner line and example (paintings anticipating a later style) match 'be a forerunner of or occur earlier than'."}
+  ]
+ },
+ {"word": "distinction", "pos": "noun",
+  "rank": "right", "why": "Sentences split between drawing a conceptual difference (the Whitman-quote sentences) and having a mark of superior status ('among her companions'), and the first-listed sense covers a genuine share of that split.",
+  "senses": [
+   {"synset": "oewn-05756230-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss plainly and the example (Whitman's distinction between two kinds of loving) is a clean fit for a neutral, descriptive sense."},
+   {"synset": "oewn-14458911-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example fits; the candidate connotation is fair since 'distinction' here praises the one who holds it, unlike a plain word like 'status'."},
+   {"synset": "oewn-04756794-n", "verdict": "right", "fault": null, "why": "Learner line and the 'distinction of rank' example match a plain, non-judging difference between people."},
+   {"synset": "oewn-06719080-n", "verdict": "unsure", "fault": null, "why": "Learner line and example fit the gloss, but it is unclear why this honor-for-achievement sense is null while the closely related 'high status from superiority' sense in the same entry is marked a connotation candidate."}
+  ]
+ },
+ {"word": "governess", "pos": "noun",
+  "rank": "right", "why": "All six sentences use the one listed sense of a woman who cares for and supervises children in a home.",
+  "senses": [
+   {"synset": "oewn-10159689-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss plainly, the examples use the headword in this sense, and null connotation is correct for a plain occupation term."}
+  ]
+ },
+ {"word": "meditate", "pos": "verb",
+  "rank": "right", "why": "All five sentences can be read as deep reflection on a topic (including 'meditating a dance/return/elopement' as turning something over in the mind), matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00632042-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples (Mr. Collins meditating in solitude, and meditating on a pair of fine eyes) fit deep reflection."},
+   {"synset": "oewn-00706154-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the invented example (sitting quietly to meditate) fits spiritual/contemplative practice."}
+  ]
+ },
+ {"word": "quest", "pos": "noun",
+  "rank": "right", "why": "Five of six sentences use 'quest' as plain searching for something or someone, matching the first-listed sense; only the 'cheap situation' sentence needs the second sense.",
+  "senses": [
+   {"synset": "oewn-00948466-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss plainly and both examples are genuine book fragments using the word in this sense."},
+   {"synset": "oewn-05778388-n", "verdict": "right", "fault": null, "why": "Learner line captures 'meets cognitive criteria' as 'matches what you have decided you need', and the example (quest of a cheap situation) fits."}
+  ]
+ },
+ {"word": "trace", "pos": "verb",
+  "rank": "wrong", "why": "Three sentences (tracing Wickham and Lydia to Clapham/near London, and trying to trace a resemblance) plainly use 'discover traces of', which outnumbers the one clear use of the first-listed 'course of development' sense, yet that sense is listed second.",
+  "senses": [
+   {"synset": "oewn-00731071-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the book example ('actions may be traced to pride') is a clean case of tracing a cause or course of development."},
+   {"synset": "oewn-02160493-v", "verdict": "wrong", "fault": "learner-narrowed", "why": "The gloss 'discover traces of' is general, but the learner line and its only example restrict it to finding someone's whereabouts, missing the book's other clear use of this sense ('trying to trace a resemblance')."},
+   {"synset": "oewn-01585566-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the invented example (tracing a heart in the sand) fits making marks on a surface."},
+   {"synset": "oewn-01698271-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (tracing a map onto thin paper) fits copying via a transparent sheet."},
+   {"synset": "oewn-02008366-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (tracing a path back to the gate) fits going back over the same way."},
+   {"synset": "oewn-02007615-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (hunters tracing a wolf for days) fits a sustained, relentless pursuit."},
+   {"synset": "oewn-01999981-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (a road tracing the edge of a lake) fits a path's own course."},
+   {"synset": "oewn-00627767-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (tracing faded words) fits reading something with difficulty."}
+  ]
+ },
+ {"word": "vary", "pos": "verb",
+  "rank": "right", "why": "Most sentences (his plan, her manner, varying circumstances) use 'vary' to mean becoming different while remaining essentially the same thing, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00122978-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both book examples (his plan, her manner) fit changing without losing one's essence."},
+   {"synset": "oewn-00437832-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the book example (varying the charm with a Scotch air) fits making something more diverse."},
+   {"synset": "oewn-02668375-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (fruit prices varying with season) fits changing with a variable."},
+   {"synset": "oewn-02667330-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (a story varying from witnesses' accounts) fits being at variance with something."}
+  ]
+ },
+ {"word": "abhorrence", "pos": "noun",
+  "rank": "right", "why": "All three sentences use the one listed sense of intense hatred mixed with disgust.",
+  "senses": [
+   {"synset": "oewn-07518669-n", "verdict": "wrong", "fault": "false-null", "why": "Abhorrence names an intensely condemnatory attitude (hate plus disgust) toward its object, directly parallel to 'abominable' which this same packet correctly marks a connotation candidate, so a learner needs to know it signals strong condemnation rather than neutral description."}
+  ]
+ },
+ {"word": "abominable", "pos": "adjective",
+  "rank": "right", "why": "All four sentences use 'abominable' to condemn something or someone outright, matching the first-listed 'unequivocally detestable' sense (the second sense has no write-up to compare).",
+  "senses": [
+   {"synset": "oewn-01463601-s", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, both examples ('that abominable Mr. Darcy', 'abominable pride') fit, and the candidate connotation is justified since the word outright condemns its target."}
+  ]
+ },
+ {"word": "arrange", "pos": "verb",
+  "rank": "right", "why": "The sentences about fitting up a room and arranging a footstool plainly use 'put into proper order', and the other sentences are consistent with that same first-listed sense.",
+  "senses": [
+   {"synset": "oewn-01466592-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the book example (everything fitted up and arranged with neatness) fits putting things into proper order."},
+   {"synset": "oewn-01023638-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (arranging a meeting with the lawyer) fits making arrangements for something."},
+   {"synset": "oewn-00737576-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples (arranging ideas, arranging a schedule) fit ordering thoughts or events in time."},
+   {"synset": "oewn-00038562-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples (hair before a dance, flowers in a vase) fit arranging attractively."},
+   {"synset": "oewn-01651668-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (the club arranging and running a dance) fits planning and carrying out an event."},
+   {"synset": "oewn-01709988-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (arranging a folk song for piano and voice) fits adapting a piece for different performance."},
+   {"synset": "oewn-01748949-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example (arranging text into columns) fits setting printed matter into a format."}
+  ]
+ }
+]}

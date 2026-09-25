@@ -1,0 +1,81 @@
+{"packet": 4, "verdicts": [
+ {"word": "condition", "pos": "noun",
+  "rank": "right", "why": "sentences genuinely split across state-at-a-time, agreement-terms, and mode-of-being senses, and the first listed sense (state at a particular time, matched by 'spiritless condition') is one of that split.",
+  "senses": [
+   {"synset": "oewn-13943868-n", "verdict": "right", "fault": null, "why": "learner line restates 'a state at a particular time' plainly and the example ('spiritless condition') uses the word in that sense."},
+   {"synset": "oewn-06783666-n", "verdict": "right", "fault": null, "why": "learner line matches the agreement-terms gloss and the example ('conditions ... I had no hesitation in complying with') fits."},
+   {"synset": "oewn-06768279-n", "verdict": "right", "fault": null, "why": "learner line faithfully restates the assumption/validity gloss and the invented example ('necessary condition for any friendship') matches it."},
+   {"synset": "oewn-13943462-n", "verdict": "right", "fault": null, "why": "learner line matches 'mode of being or form of existence' and both examples ('condition in life', 'human condition') use the word in that sense."},
+   {"synset": "oewn-05831106-n", "verdict": "right", "fault": null, "why": "learner line matches the 'information to keep in mind when deciding' gloss and the example lists factors to weigh before choosing."},
+   {"synset": "oewn-13946473-n", "verdict": "right", "fault": null, "why": "learner line matches the medical-problem gloss, example uses the word correctly, and null connotation is appropriate since the word names the referent without judging it."},
+   {"synset": "oewn-14569829-n", "verdict": "right", "fault": null, "why": "learner line and example ('out of condition') match the fitness-state gloss faithfully."},
+   {"synset": "oewn-05806871-n", "verdict": "right", "fault": null, "why": "learner line matches the experimental-procedure gloss, the 'technical' label is justified by the specialized subject matter, and the example uses the word correctly."}
+  ]
+ },
+ {"word": "denial", "pos": "noun",
+  "rank": "right", "why": "two of three sentences use 'self-denial' (renunciation sense, listed first) and the third uses the refusal-to-comply sense also present in the list.",
+  "senses": [
+   {"synset": "oewn-00206498-n", "verdict": "right", "fault": null, "why": "learner line matches the renunciation-for-others gloss and the example uses the word in that sense; null connotation is defensible as a plain description of an act rather than a judgment of the person."},
+   {"synset": "oewn-07219061-n", "verdict": "right", "fault": null, "why": "learner line matches 'refusing to comply' and the book example ('a flat denial, and ride off') fits that sense."},
+   {"synset": "oewn-07218900-n", "verdict": "right", "fault": null, "why": "learner line matches the asserting-untrue gloss and the example ('minister's denial of the story') fits."},
+   {"synset": "oewn-13483154-n", "verdict": "right", "fault": null, "why": "learner line matches the psychiatric defense-mechanism gloss, the 'clinical' label is supported by the '(psychiatry)' gloss tag, the example ('in denial for weeks') fits, and the candidate connotation is justified since calling a person 'in denial' is a judgment, not a neutral description."},
+   {"synset": "oewn-01201240-n", "verdict": "right", "fault": null, "why": "learner line matches the defendant's-plea gloss, the example fits, and 'technical' is a fair label for this legal usage."}
+  ]
+ },
+ {"word": "emotion", "pos": "noun",
+  "rank": "right", "why": "the single sense (any strong feeling) is used by all quoted sentences.",
+  "senses": [
+   {"synset": "oewn-07495208-n", "verdict": "right", "fault": null, "why": "learner line restates the gloss exactly and both examples use the word in that sense."}
+  ]
+ },
+ {"word": "express", "pos": "noun",
+  "rank": "right", "why": "of the sentences that actually use 'express' as a noun, most (an express sent for a physician, sent off directly, sent to Longbourn) match the first sense (rapid mail); the other two quoted sentences use 'express' as a verb or adjective and do not bear on noun-sense ranking.",
+  "senses": [
+   {"synset": "oewn-06276128-n", "verdict": "right", "fault": null, "why": "learner line matches the rapid-mail gloss and both examples use the word for an urgently dispatched message."},
+   {"synset": "oewn-03311330-n", "verdict": "right", "fault": null, "why": "learner line matches the fast-train-or-bus gloss and the example uses the word correctly in that sense."},
+   {"synset": "oewn-01108365-n", "verdict": "right", "fault": null, "why": "learner line matches the rapid-transport-of-goods gloss and the example ('ships its furniture by express') fits."}
+  ]
+ },
+ {"word": "falsehood", "pos": "noun",
+  "rank": "right", "why": "most sentences ('a scandalous falsehood', 'a little falsehood') use the first sense, a false statement.",
+  "senses": [
+   {"synset": "oewn-06769118-n", "verdict": "right", "fault": null, "why": "learner line restates the gloss exactly and the example ('a scandalous falsehood') matches; null connotation is defensible as a factual label for an untrue statement rather than an added judgment."},
+   {"synset": "oewn-00752233-n", "verdict": "right", "fault": null, "why": "learner line matches the fraudulent-alteration gloss and the invented example (charged with falsehood for changing figures) fits that specific sense."}
+  ]
+ },
+ {"word": "rid", "pos": "verb",
+  "rank": "right", "why": "all quoted sentences use 'got rid of' in the single listed sense.",
+  "senses": [
+   {"synset": "oewn-02355171-v", "verdict": "right", "fault": null, "why": "learner line matches 'relieve from' and both examples ('got rid of two of the secrets', 'rid the house of mice') use the word in that sense."}
+  ]
+ },
+ {"word": "shop", "pos": "noun",
+  "rank": "right", "why": "all quoted sentences use 'shop(s)' for a retail establishment, the first listed sense.",
+  "senses": [
+   {"synset": "oewn-04209460-n", "verdict": "right", "fault": null, "why": "learner line matches the retail-establishment gloss and the example fits."},
+   {"synset": "oewn-04610439-n", "verdict": "right", "fault": null, "why": "learner line matches the handcraft/manufacturing-workplace gloss and the invented example (carpenter's shop) fits."},
+   {"synset": "oewn-00893934-n", "verdict": "right", "fault": null, "why": "learner line matches the trade-class gloss and the example ('In shop we learned how to wire a lamp') fits."}
+  ]
+ },
+ {"word": "suspense", "pos": "noun",
+  "rank": "right", "why": "all quoted sentences use 'suspense' as anxious apprehension about the future, the first listed sense.",
+  "senses": [
+   {"synset": "oewn-07537871-n", "verdict": "right", "fault": null, "why": "learner line matches the apprehension gloss and both examples are drawn from sentences that plainly use that sense."},
+   {"synset": "oewn-07526477-n", "verdict": "right", "fault": null, "why": "learner line matches the excited-anticipation-of-a-climax gloss and the invented film example fits."},
+   {"synset": "oewn-05707735-n", "verdict": "right", "fault": null, "why": "learner line matches the uncertain-cognitive-state gloss and the invented example ('stayed in suspense for years') fits."}
+  ]
+ },
+ {"word": "violently", "pos": "adverb",
+  "rank": "right", "why": "it is the only sense listed and the OEWN gloss is broad enough to be the intended mapping for all three 'violently in love' sentences.",
+  "senses": [
+   {"synset": "oewn-00225476-r", "verdict": "unsure", "fault": "other", "why": "the learner line's added specificity ('rough and sudden force') reads as literal physical violence, and it is unclear whether that covers the figurative 'violently in love' usage that all three quoted sentences actually show, especially since the supplied example avoids the book's own (figurative) usage entirely."}
+  ]
+ },
+ {"word": "witness", "pos": "verb",
+  "rank": "right", "why": "of the sentences that use 'witness' as a verb, most ('witnessed in him', 'first witnessing his altered behaviour') match the first sense, perceive/be contemporaneous with; two other quoted sentences use 'witness' as a noun and do not bear on verb-sense ranking.",
+  "senses": [
+   {"synset": "oewn-02133338-v", "verdict": "right", "fault": null, "why": "learner line captures both halves of the gloss (perceive, and be contemporaneous with) and both examples illustrate each half respectively."},
+   {"synset": "oewn-02132751-v", "verdict": "right", "fault": null, "why": "learner line adds plain phrasing ('to be there and see it happen') to the terse gloss and the example (witnessing an accident) fits that sense."}
+  ]
+ }
+]}
