@@ -1,0 +1,29 @@
+{
+ "entries_read": 94,
+ "entries_with_a_fault": 11,
+ "entry_defect_rate": 0.117,
+ "senses_read": 272,
+ "senses_wrong": 2,
+ "sense_defect_rate": 0.0074,
+ "rank_wrong": 10,
+ "unsure": 3,
+ "faults": {
+  "rank-wrong": 10,
+  "learner-narrowed": 1,
+  "false-null": 1
+ },
+ "wrong": [
+  "high/adjective rank: The literal-elevation sense is listed first, but most sentences ('highest merit', 'highest opinion', 'highest terms') use 'high' for an elevated degree of a quality, a sense listed lower.",
+  "spar/verb rank: Every sentence contains 'spared', the past tense of the unrelated verb 'spare' (one r), not 'sparred' (two r's); none of the four spar senses (fight verbally, box lightly, fight with spurs, furnish with spars) is used by any sentence, so the first sense is not the one the sentences use.",
+  "trace/verb rank: Three sentences (tracing Wickham and Lydia to Clapham/near London, and trying to trace a resemblance) plainly use 'discover traces of', which outnumbers the one clear use of the first-listed 'course of development' sense, yet that sense is listed second.",
+  "trace/oewn-02160493-v learner-narrowed: The gloss 'discover traces of' is general, but the learner line and its only example restrict it to finding someone's whereabouts, missing the book's other clear use of this sense ('trying to trace a resemblance').",
+  "abhorrence/oewn-07518669-n false-null: Abhorrence names an intensely condemnatory attitude (hate plus disgust) toward its object, directly parallel to 'abominable' which this same packet correctly marks a connotation candidate, so a learner needs to know it signals strong condemnation rather than neutral description.",
+  "hearing/noun rank: All six sentences use 'hearing' for the act of listening to or receiving something (a story, a letter, a person speaking), a sense that sits fifth in the list, while the first sense (the general ability to hear) is not used by any of the sentences.",
+  "insupportable/adjective rank: All three sentences use 'insupportable' to mean unbearable/intolerable to endure, not 'incapable of being justified or explained', which is the only sense listed.",
+  "material/noun rank: Every sentence uses 'material' as an adjective meaning important/significant, not as any of the listed noun senses.",
+  "poorly/adverb rank: Two of the three sentences use 'poorly' as an adjective meaning unwell/ill, a sense not present in this adverb entry, while only one sentence supports the listed manner sense.",
+  "disgust/verb rank: Most of the relevant sentences ('disgusted with his pride,' 'disgusted, and even ... shocked,' 'disgusted with the women ... for your approbation alone') show moral offense, which is the second sense, while only one sentence fits the general 'fill with distaste' sense placed first.",
+  "plain/adverb rank: All four sentences use 'plain' as an adjective (unattractive-looking, or evident/obvious), not as the adverb 'unmistakably' that is the only sense listed.",
+  "real/noun rank: All six sentences use 'real' as an adjective meaning genuine/actual, not any of the three noun senses listed (real number, Brazilian currency, Spanish coin)."
+ ]
+}
