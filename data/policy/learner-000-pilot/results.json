@@ -1,0 +1,28 @@
+{
+ "rewrites_read": 16,
+ "easy": 16,
+ "easy_rate": 1.0,
+ "threshold": 0.9,
+ "controls": {
+  "corrupted.oewn-01757260-s": [
+   "control-hard",
+   "hard"
+  ],
+  "jingoistic.oewn-01744607-s": [
+   "control-hard",
+   "hard"
+  ],
+  "preservable.oewn-00741163-s": [
+   "control-easy",
+   "easy"
+  ],
+  "questioning.oewn-02473075-s": [
+   "control-easy",
+   "easy"
+  ]
+ },
+ "controls_right": true,
+ "passes": true,
+ "hard": {},
+ "errors": []
+}
