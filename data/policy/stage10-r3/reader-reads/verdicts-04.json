@@ -1,0 +1,73 @@
+{"packet": 4, "verdicts": [
+ {"word": "intend", "pos": "verb",
+  "rank": "right", "why": "All six sentences use 'intend' to mean having something in mind as a purpose, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00933814-v", "verdict": "right", "fault": null, "why": "Learner line and example ('the dark forest intends danger') correctly render 'denote or connote', and the neutral connotation is appropriate."}
+  ]},
+ {"word": "natural", "pos": "adjective",
+  "rank": "right", "why": "The sentences genuinely split across several closely related senses of 'natural' (unaffected manner, produced-by-nature, and normal/expected), and the first-listed sense is plausibly part of that split.",
+  "senses": [
+   {"synset": "oewn-01574358-a", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the 'natural history' example fits this sense with a neutral connotation."},
+   {"synset": "oewn-01338661-s", "verdict": "wrong", "fault": "false-null", "why": "Calling someone 'a natural leader' praises an innate gift, so the word judges favorably rather than merely describing, contrary to the null verdict."},
+   {"synset": "oewn-02290719-s", "verdict": "right", "fault": null, "why": "Learner line and example match 'unthinking, prompted by instinct' and the connotation is plausibly neutral."},
+   {"synset": "oewn-01578429-a", "verdict": "right", "fault": null, "why": "Learner line and example ('perfectly natural explanation') match the non-supernatural sense with a neutral connotation."},
+   {"synset": "oewn-01408930-a", "verdict": "right", "fault": null, "why": "Learner line and 'natural father' example match the blood-relation sense and the connotation is neutral."},
+   {"synset": "oewn-01959465-s", "verdict": "right", "fault": null, "why": "Learner line and 'natural honey' example match the unprocessed-commodity sense, which is essentially descriptive like 'raw', so null is defensible."},
+   {"synset": "oewn-01582180-a", "verdict": "right", "fault": null, "why": "Learner line, the 'B natural' example, and the technical label all match the musical-note sense."}
+  ]},
+ {"word": "credit", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'credit' to mean approval or reputation (do credit to, credit and feelings, honour and credit), matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-13399691-n", "verdict": "right", "fault": null, "why": "Learner line and example about card credit match the borrowable-money sense with a neutral connotation."},
+   {"synset": "oewn-06358051-n", "verdict": "right", "fault": null, "why": "Learner line and film-credit example match the gloss with a neutral connotation."},
+   {"synset": "oewn-06776392-n", "verdict": "right", "fault": null, "why": "Learner line and example about a page credit match the source-note sense with a neutral connotation."},
+   {"synset": "oewn-00066675-n", "verdict": "right", "fault": null, "why": "Learner line and example about earned credits match the academic sense with a neutral connotation."},
+   {"synset": "oewn-05811755-n", "verdict": "right", "fault": null, "why": "Learner line and example about good credit match the creditworthiness sense; the noun itself is neutral, not the loaded part."},
+   {"synset": "oewn-13426819-n", "verdict": "right", "fault": null, "why": "Learner line and refund example match the accounting-entry sense, and 'technical' is justified for this bookkeeping term."}
+  ]},
+ {"word": "temper", "pos": "noun",
+  "rank": "right", "why": "All six sentences describe temper as an habitual disposition or state of feeling, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-05028701-n", "verdict": "right", "fault": null, "why": "Learner line and sword example match the metallurgical sense, and 'technical' plus null connotation are both justified."}
+  ]},
+ {"word": "cause", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'cause' to mean a justification or reason (show cause, cause for satisfaction, cause of disapprobation), matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00799906-n", "verdict": "right", "fault": null, "why": "Learner line and example about the cause of clean water match the gloss, and the word itself is neutral without modifiers."},
+   {"synset": "oewn-01185144-n", "verdict": "right", "fault": null, "why": "Learner line and courtroom example match the legal-proceeding sense, and 'technical' is justified."}
+  ]},
+ {"word": "objection", "pos": "noun",
+  "rank": "right", "why": "All six sentences use 'objection' for the general act or instance of objecting, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-01027620-n", "verdict": "right", "fault": null, "why": "Learner line and courtroom example match the legal-objection sense, and 'technical' plus null connotation are justified."}
+  ]},
+ {"word": "degree", "pos": "noun",
+  "rank": "right", "why": "All six sentences use 'degree' for a position on a scale of amount or intensity, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-13736289-n", "verdict": "right", "fault": null, "why": "Learner line and boiling-water example match the temperature-unit sense with a neutral connotation."},
+   {"synset": "oewn-13632450-n", "verdict": "right", "fault": null, "why": "Learner line and right-angle example match the angle-unit sense with a neutral connotation."},
+   {"synset": "oewn-05101827-n", "verdict": "right", "fault": null, "why": "Learner line and 'murder in the first degree' example match the seriousness sense; the word itself doesn't moralize beyond its bad referent."},
+   {"synset": "oewn-05869901-n", "verdict": "right", "fault": null, "why": "Learner line and equation example match the polynomial-degree sense, and 'technical' is justified."}
+  ]},
+ {"word": "hop", "pos": "verb",
+  "rank": "wrong", "why": "None of the six sentences actually contain 'hop' or an inflection of it (they all use forms of 'hope' instead), so the first sense, or any listed sense of 'hop', is not the one the sentences use.",
+  "senses": [
+   {"synset": "oewn-01844678-v", "verdict": "right", "fault": null, "why": "Learner line and 'hopped a bus' example match this travel sense, and 'informal' is a reasonable label."},
+   {"synset": "oewn-02099200-v", "verdict": "right", "fault": null, "why": "Learner line and 'hopped the little stream' example match the jump-across sense with a neutral connotation."},
+   {"synset": "oewn-02099338-v", "verdict": "right", "fault": null, "why": "Learner line and 'hopped the Atlantic' example match the sense, and 'informal' is a reasonable label."}
+  ]},
+ {"word": "assurance", "pos": "noun",
+  "rank": "right", "why": "The sentences split between self-confidence (had increased into assurance, easy assurance) and a promised statement (assurances of speedy payment), and the first-listed self-confidence sense is part of that split.",
+  "senses": [
+   {"synset": "oewn-13366301-n", "verdict": "right", "fault": null, "why": "Learner line and 'life assurance' example match the British-insurance sense, and 'regional' plus null connotation are justified."}
+  ]},
+ {"word": "suffer", "pos": "verb",
+  "rank": "right", "why": "Most sentences ('what I suffer', 'what he must have suffered') describe being in pain, matching the first-listed sense, apart from one sentence using the 'permit' sense.",
+  "senses": [
+   {"synset": "oewn-00065410-v", "verdict": "right", "fault": null, "why": "Learner line and broken-leg example match undergoing an injury, and the verb itself isn't adding judgment beyond the already-bad referent."},
+   {"synset": "oewn-02114536-v", "verdict": "right", "fault": null, "why": "Learner line and shipwreck example match the general undergo sense with a neutral connotation."},
+   {"synset": "oewn-00205234-v", "verdict": "right", "fault": null, "why": "Learner line and honest-traders example match being put at a disadvantage with a neutral connotation."},
+   {"synset": "oewn-00205112-v", "verdict": "right", "fault": null, "why": "Learner line and example about work quality declining match the gloss with a neutral connotation."},
+   {"synset": "oewn-02725682-v", "verdict": "wrong", "fault": "false-null", "why": "Saying someone 'suffers from' a tendency (rather than simply 'has' it) frames that tendency as an unwanted affliction, so the word judges instead of merely describing."}
+  ]}
+]}

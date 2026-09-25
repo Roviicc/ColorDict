@@ -1,0 +1,74 @@
+{"packet": 6, "verdicts": [
+ {"word": "ground", "pos": "noun",
+  "rank": "right", "why": "most sentences use ground/land for a physical surface or the land of an estate (rising ground, windows opening to the ground, grounds of Pemberley, warn me off his grounds), and among the given senses the first (the solid part of the earth's surface) is the closest available match for all of them.",
+  "senses": [
+   {"synset": "oewn-09358146-n", "verdict": "right", "fault": null, "why": "learner and example match the soil-for-growing sense faithfully."},
+   {"synset": "oewn-13813124-n", "verdict": "right", "fault": null, "why": "\"common ground\" example fits a foundation-relation sense, and the learner line keeps the gloss's meaning."},
+   {"synset": "oewn-08597662-n", "verdict": "right", "fault": null, "why": "learner and examples (gained ground, give ground) match the battle-position sense without narrowing it."},
+   {"synset": "oewn-05942570-n", "verdict": "right", "fault": null, "why": "learner and example both describe the background of a picture, matching the gloss."},
+   {"synset": "oewn-03467679-n", "verdict": "right", "fault": null, "why": "learner and example correctly describe the electrical-ground sense; technical label is justified."},
+   {"synset": "oewn-05939360-n", "verdict": "right", "fault": null, "why": "learner and figure-ground example match the perceptual-background gloss."},
+   {"synset": "oewn-03467526-n", "verdict": "right", "fault": null, "why": "learner and example match the art-surface-for-painting sense."},
+   {"synset": "oewn-03365691-n", "verdict": "right", "fault": null, "why": "learner and example match the first-coat-of-paint sense."}
+  ]},
+ {"word": "grow", "pos": "verb",
+  "rank": "right", "why": "the majority of sentences (mannish grown, grow unlike, grew ashamed, grow worse) use \"become\" and that sense is listed first.",
+  "senses": [
+   {"synset": "oewn-00231983-v", "verdict": "right", "fault": null, "why": "learner and tree example match natural increase in size."},
+   {"synset": "oewn-01743695-v", "verdict": "right", "fault": null, "why": "learner and tomato example match cultivating crops."},
+   {"synset": "oewn-00094214-v", "verdict": "right", "fault": null, "why": "learner and beard example match acquiring a physical feature."},
+   {"synset": "oewn-02630344-v", "verdict": "right", "fault": null, "why": "learner and friendship example match coming into existence."},
+   {"synset": "oewn-00544490-v", "verdict": "right", "fault": null, "why": "learner and example match emotional growth; the word describes a developmental change rather than passing judgment."},
+   {"synset": "oewn-00246343-v", "verdict": "right", "fault": null, "why": "learner and business example match the causative sense."},
+   {"synset": "oewn-00251425-v", "verdict": "right", "fault": null, "why": "learner and healed-bone example match growing together."}
+  ]},
+ {"word": "park", "pos": "noun",
+  "rank": "right", "why": "all six sentences describe the large enclosed grounds of a country estate, which the first sense (large natural area) fits far better than the urban-recreational sense listed second.",
+  "senses": [
+   {"synset": "oewn-02785801-n", "verdict": "right", "fault": null, "why": "learner and baseball example match the ball-game facility sense."},
+   {"synset": "oewn-03896578-n", "verdict": "right", "fault": null, "why": "learner and car example match the gear-position sense."}
+  ]},
+ {"word": "prospect", "pos": "noun",
+  "rank": "right", "why": "most sentences (the prospect of the ball, of such delights, of Lydia's situation, the fair prospect) use a mental picture of the future, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-09910201-n", "verdict": "right", "fault": null, "why": "learner and sports example match a person being considered for something."},
+   {"synset": "oewn-00154485-n", "verdict": "right", "fault": null, "why": "learner and doctor's example match a prediction of a disease's course."}
+  ]},
+ {"word": "conclude", "pos": "verb",
+  "rank": "right", "why": "the sentences split evenly between inferring (conclude that... / I conclude) and finishing a speech, and the first sense (draw a conclusion) is part of that genuine split.",
+  "senses": [
+   {"synset": "oewn-01023429-v", "verdict": "right", "fault": null, "why": "learner and jury example match reaching a conclusion after deliberation."},
+   {"synset": "oewn-01073784-v", "verdict": "right", "fault": null, "why": "learner and trade-agreement example match reaching agreement on something."}
+  ]},
+ {"word": "contain", "pos": "verb",
+  "rank": "right", "why": "all but one sentence (unable to contain herself) use contain to mean include/hold content, which the first sense captures.",
+  "senses": [
+   {"synset": "oewn-02707070-v", "verdict": "right", "fault": null, "why": "learner and hall example match capacity to hold."},
+   {"synset": "oewn-01133899-v", "verdict": "right", "fault": null, "why": "learner and firefighter example match holding back a danger's spread."},
+   {"synset": "oewn-02753162-v", "verdict": "right", "fault": null, "why": "learner and twelve/three/four example match divisibility, and the technical label fits a mathematical sense."}
+  ]},
+ {"word": "hint", "pos": "noun",
+  "rank": "right", "why": "most sentences (take/give/drop the hint) use an indirect suggestion, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-13796315-n", "verdict": "right", "fault": null, "why": "learner and lemon-juice example match a slight but noticeable amount."},
+   {"synset": "oewn-06664322-n", "verdict": "right", "fault": null, "why": "learner and job example match an indication of an opportunity."}
+  ]},
+ {"word": "decide", "pos": "verb",
+  "rank": "right", "why": "the sentences genuinely split between reaching a decision (decide on my own performance, decide on the propriety) and being settled/fixed (decided fashion, character was decided, opinion was decided), and the first sense is part of that split.",
+  "senses": [
+   {"synset": "oewn-00701251-v", "verdict": "right", "fault": null, "why": "learner and rain example match the causative sense of making someone decide."}
+  ]},
+ {"word": "folly", "pos": "noun",
+  "rank": "right", "why": "the sentences split between general foolish behavior (follies and nonsense, ignorance and folly) and a specific foolish act (vanity has been my folly, Lydia's folly), and the first sense is part of that genuine split.",
+  "senses": [
+   {"synset": "oewn-05655001-n", "verdict": "right", "fault": null, "why": "learner and mountain-crossing example match the quality of being rash and foolish, and the candidate connotation is right since calling something folly asserts it is foolish."}
+  ]},
+ {"word": "produce", "pos": "verb",
+  "rank": "right", "why": "the majority of sentences (do not produce the same expression, effects... might produce, happiness... produced) use \"cause to happen,\" matching the first sense.",
+  "senses": [
+   {"synset": "oewn-01756303-v", "verdict": "right", "fault": null, "why": "learner and apple-tree example match bringing forth or yielding."},
+   {"synset": "oewn-02161530-v", "verdict": "right", "fault": null, "why": "learner and studio-films example match releasing something to the market."},
+   {"synset": "oewn-01743695-v", "verdict": "right", "fault": null, "why": "learner and rice example match agricultural cultivation."},
+   {"synset": "oewn-00094214-v", "verdict": "right", "fault": null, "why": "learner and antlers example match acquiring a physical feature."}
+  ]}
+]}

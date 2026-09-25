@@ -1,0 +1,84 @@
+{"packet": 1, "verdicts": [
+ {"word": "time", "pos": "noun",
+  "rank": "wrong", "why": "Most sentences use 'an indefinite period' (after a time, for some time, It was some time) or 'an instance/occasion' (at all times, for the first time), not the abstract continuum sense listed first, which no sentence plainly carries.",
+  "senses": [
+   {"synset": "oewn-00028468-n", "verdict": "right", "fault": null, "why": "Learner line and example ('Time passes slowly') faithfully render the continuum gloss."},
+   {"synset": "oewn-15154879-n", "verdict": "right", "fault": null, "why": "Learner line and clock-checking example match the gloss precisely."},
+   {"synset": "oewn-07302920-n", "verdict": "right", "fault": null, "why": "'We had a wonderful time' correctly instantiates a person's experience on an occasion."},
+   {"synset": "oewn-04998860-n", "verdict": "right", "fault": null, "why": "'Clapped in time with the music' correctly matches the rhythm sense."},
+   {"synset": "oewn-15249488-n", "verdict": "right", "fault": null, "why": "'Did time' correctly matches the prison-sentence sense and 'informal' is a fair label for that idiom."},
+   {"synset": "oewn-15160774-n", "verdict": "right", "fault": null, "why": "Learner line and physics example match the fourth-dimension gloss, and 'technical' is justified."}
+  ]
+ },
+ {"word": "day", "pos": "noun",
+  "rank": "right", "why": "The sentences split across the day-as-duration-unit sense (a day later, some days, not a day went by), a specific-day sense, and an era sense, and the duration-unit sense listed first is the best represented.",
+  "senses": [
+   {"synset": "oewn-15190004-n", "verdict": "right", "fault": null, "why": "Owls example correctly shows the daylight-hours sense."},
+   {"synset": "oewn-15161405-n", "verdict": "right", "fault": null, "why": "'Long day at the office' correctly matches waking/working-hours sense."},
+   {"synset": "oewn-15182185-n", "verdict": "right", "fault": null, "why": "Mother's Day example correctly matches a day set apart for observance."},
+   {"synset": "oewn-14508100-n", "verdict": "right", "fault": null, "why": "'Day in court' idiom correctly matches the period-of-opportunity sense."},
+   {"synset": "oewn-15233336-n", "verdict": "right", "fault": null, "why": "Jupiter example correctly matches another planet's rotation-day sense."},
+   {"synset": "oewn-15233129-n", "verdict": "right", "fault": null, "why": "Sidereal-day example and 'technical' label match the gloss."}
+  ]
+ },
+ {"word": "tell", "pos": "verb",
+  "rank": "right", "why": "Nearly all sentences use 'told'/'tell' to mean informing someone of something, matching the first sense 'let something be known'.",
+  "senses": [
+   {"synset": "oewn-00748704-v", "verdict": "right", "fault": null, "why": "Teacher example correctly matches directing someone with authority."},
+   {"synset": "oewn-00722885-v", "verdict": "right", "fault": null, "why": "'I could tell she was upset' correctly matches discern/comprehend."},
+   {"synset": "oewn-00652006-v", "verdict": "right", "fault": null, "why": "'Tell them apart' correctly matches marking as different."},
+   {"synset": "oewn-01021652-v", "verdict": "right", "fault": null, "why": "'I tell you' correctly matches informing with certainty and confidence."}
+  ]
+ },
+ {"word": "believe", "pos": "verb",
+  "rank": "right", "why": "Most sentences use the 'believe X (to be) Y' construction (believed him attached, believed him capable, believed him to be sincere) matching the first sense 'judge or regard'.",
+  "senses": [
+   {"synset": "oewn-00685987-v", "verdict": "right", "fault": null, "why": "'Don't believe him; he never tells the truth' correctly matches crediting a person with veracity."},
+   {"synset": "oewn-00686192-v", "verdict": "right", "fault": null, "why": "'Began to believe' after the preacher correctly matches being a believer/following a faith."}
+  ]
+ },
+ {"word": "feeling", "pos": "noun",
+  "rank": "right", "why": "All sentences use 'feeling(s)' to mean emotional states, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-05715665-n", "verdict": "right", "fault": null, "why": "'A real feeling for colour and design' correctly matches intuitive understanding."},
+   {"synset": "oewn-14549784-n", "verdict": "right", "fault": null, "why": "'Warm, friendly feeling' of the house correctly matches general atmosphere."},
+   {"synset": "oewn-05730374-n", "verdict": "right", "fault": null, "why": "'Silky feeling under her fingers' correctly matches skin/pressure sensation."}
+  ]
+ },
+ {"word": "woman", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'woman/women' to refer to individual adult female persons, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-84187159-n", "verdict": "right", "fault": null, "why": "'Her women to hold the bridge' correctly matches a female member of the armed forces."}
+  ]
+ },
+ {"word": "girl", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'girl(s)' to mean young unmarried women, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-10149967-n", "verdict": "right", "fault": null, "why": "'Going out with the girls from the office' correctly matches the informal reference to grown women, and the candidate connotation is defensible for a childhood word applied to adults."}
+  ]
+ },
+ {"word": "add", "pos": "verb",
+  "rank": "right", "why": "All six sentences use 'added'/'add' in speech tags meaning 'state further', matching the first sense.",
+  "senses": [
+   {"synset": "oewn-02751047-v", "verdict": "right", "fault": null, "why": "'The new garden adds to the value' correctly matches constituting an addition."},
+   {"synset": "oewn-02329474-v", "verdict": "right", "fault": null, "why": "'Added charm' correctly matches bestowing a quality."},
+   {"synset": "oewn-00951320-v", "verdict": "right", "fault": null, "why": "'Added the guests... over two hundred' correctly matches determining a sum."}
+  ]
+ },
+ {"word": "expect", "pos": "verb",
+  "rank": "right", "why": "Most sentences use 'expect' to mean regarding something as probable, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-00594097-v", "verdict": "right", "fault": null, "why": "'Fair to expect an apology' correctly matches considering something reasonable or due."},
+   {"synset": "oewn-00059147-v", "verdict": "right", "fault": null, "why": "'Sam and his wife are expecting' (plural, including the father) correctly matches looking forward to a birth."},
+   {"synset": "oewn-00058790-v", "verdict": "right", "fault": null, "why": "'She is expecting twins' correctly matches being pregnant with."}
+  ]
+ },
+ {"word": "moment", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'moment(s)' to mean a short indefinite time (a few moments, in a moment), matching the first sense.",
+  "senses": [
+   {"synset": "oewn-05178101-n", "verdict": "right", "fault": null, "why": "'A decision of great moment' correctly matches the importance sense."},
+   {"synset": "oewn-11503385-n", "verdict": "right", "fault": null, "why": "Hinge/force example and 'technical' label correctly match the physics turning-force sense."},
+   {"synset": "oewn-06031858-n", "verdict": "right", "fault": null, "why": "Variance example and 'technical' label correctly match the statistical moment sense."}
+  ]
+ }
+]}

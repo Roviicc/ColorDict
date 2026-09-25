@@ -1,0 +1,77 @@
+{"packet": 5, "verdicts": [
+ {"word": "care", "pos": "verb",
+  "rank": "right", "why": "Most verb instances (\"should not care how proud\", \"should not care about it\", \"cared for none of her friends\") carry feel-concern/interest, the plurality, and it is listed first.",
+  "senses": [
+   {"synset": "oewn-01770600-v", "verdict": "unsure", "fault": null, "why": "the gloss \"be concerned with\" does not itself specify worry, so it is unclear whether \"so that you worry about it\" is a faithful plain rendering or an added narrowing toward anxiety."},
+   {"synset": "oewn-02441196-v", "verdict": "right", "fault": null, "why": "the learner line keeps all three alternatives (in charge of, act on, dispose of) and the accounts example fits the management sense, not the nursing one."}
+  ]},
+ {"word": "seek", "pos": "verb",
+  "rank": "right", "why": "Most sentences (\"seek legal redress\", \"sought an introduction\", \"seek comfort\", \"let him seek it\") carry try-to-get-or-reach, matching the first listed sense.",
+  "senses": [
+   {"synset": "oewn-01843112-v", "verdict": "right", "fault": null, "why": "the learner line matches the gloss and the boat/harbour example uses \"sought\" in the go-toward sense."},
+   {"synset": "oewn-01072011-v", "verdict": "right", "fault": null, "why": "the learner line matches \"inquire for\" and the directions example correctly shows asking someone for information."}
+  ]},
+ {"word": "visit", "pos": "verb",
+  "rank": "right", "why": "The two clear verb instances (\"intended to visit him\", \"visiting about with her daughter\") both carry pay-a-brief-visit, the first sense, though most sentences here are actually the noun \"visit\".",
+  "senses": [
+   {"synset": "oewn-02625504-v", "verdict": "right", "fault": null, "why": "the learner line matches the gloss and the aunt example shows an extended stay as a guest."},
+   {"synset": "oewn-01847990-v", "verdict": "right", "fault": null, "why": "the learner line matches the gloss and the inspector example is clearly an official-capacity visit."},
+   {"synset": "oewn-01040538-v", "verdict": "right", "fault": null, "why": "the learner line matches the gloss and the porch example shows friendly chatting rather than a call."},
+   {"synset": "oewn-00750288-v", "verdict": "right", "fault": null, "why": "the learner line matches \"impose something unpleasant\" and the example (\"crimes...visited on his children\") fits and is neutral, not judging."},
+   {"synset": "oewn-00261028-v", "verdict": "right", "fault": null, "why": "the learner line correctly glosses \"assail\" as attack, and the fever example matches the affliction sense without being judgmental of anyone."}
+  ]},
+ {"word": "want", "pos": "noun",
+  "rank": "wrong", "why": "All six sentences use \"want\" as a verb (wish, need, or lack), so none illustrate any of the listed noun senses including the first.",
+  "senses": [
+   {"synset": "oewn-14517010-n", "verdict": "right", "fault": null, "why": "the learner line matches \"a state of extreme poverty\" exactly and the example correctly uses \"want\" as this noun sense."}
+  ]},
+ {"word": "drawing", "pos": "noun",
+  "rank": "wrong", "why": "All six sentences use the fixed compound \"drawing-room\" (a parlour), not any of the listed senses of \"drawing\" as picture, illustration, lottery, extraction, or pulling.",
+  "senses": [
+   {"synset": "oewn-00509102-n", "verdict": "right", "fault": null, "why": "the learner line preserves the \"buy or are given\" alternative and the bicycle-raffle example uses \"drawing\" correctly in this sense."},
+   {"synset": "oewn-00392901-n", "verdict": "right", "fault": null, "why": "the learner line matches the gloss and the well-water example correctly shows extracting a liquid."},
+   {"synset": "oewn-00116487-n", "verdict": "right", "fault": null, "why": "the learner line reasonably renders \"drawing or pulling\" as pulling (avoiding circularity with the headword), and the horses example fits."}
+  ]},
+ {"word": "approach", "pos": "verb",
+  "rank": "right", "why": "Most sentences (\"On his approaching them\", \"Darcy approaching them\", \"someone's approach\", \"the gentlemen's approaching\") carry move-towards, the plurality, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-00992424-v", "verdict": "right", "fault": null, "why": "the learner line matches the gloss and the companies example correctly shows an approach with an offer, not physical movement."},
+   {"synset": "oewn-02709812-v", "verdict": "right", "fault": null, "why": "the learner line preserves all the gloss's alternatives (near, resemble, nearer in quality) and the piano-skill example fits."}
+  ]},
+ {"word": "prepare", "pos": "verb",
+  "rank": "right", "why": "Nearly all sentences (\"preparing to see him\", \"prepared in the highest spirits\", \"prepare for something dreadful\", \"to prepare\", \"be prepared for the worst\") carry make-ready, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-00604200-v", "verdict": "right", "fault": null, "why": "the learner line matches the gloss and the \"preparing for the law\" example fits training for a profession."},
+   {"synset": "oewn-02392176-v", "verdict": "right", "fault": null, "why": "the learner line matches \"educate for a future role\" and the manager/assistant example shows preparing someone else."},
+   {"synset": "oewn-00604693-v", "verdict": "right", "fault": null, "why": "the learner line matches \"create by training and teaching\" and the college/nurses example fits."},
+   {"synset": "oewn-01654986-v", "verdict": "right", "fault": null, "why": "the learner line matches \"systematic planning and united effort\" and the committee/campaign example fits."},
+   {"synset": "oewn-02184359-v", "verdict": "right", "fault": null, "why": "the learner line accurately unpacks the technical music gloss, the label fits, and the composer example matches."}
+  ]},
+ {"word": "resolution", "pos": "noun",
+  "rank": "right", "why": "Most sentences (\"declared her resolution\", \"resolution of hunting for them\", \"consoled by this resolution\", \"forming a desperate resolution\") carry a-decision-to-do-something, the plurality, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-05797094-n", "verdict": "right", "fault": null, "why": "the learner line matches the gloss and the differences example shows an agreed outcome, distinct from a personal decision."},
+   {"synset": "oewn-11526370-n", "verdict": "right", "fault": null, "why": "the learner line matches the computing gloss, the technical label fits, and the screen example is on point."},
+   {"synset": "oewn-00154629-n", "verdict": "right", "fault": null, "why": "the learner line matches \"finding a solution\" and the example shows the act of solving, distinct from the outcome sense."},
+   {"synset": "oewn-06756201-n", "verdict": "right", "fault": null, "why": "the learner line preserves both alternatives in the gloss and the puzzle example fits."},
+   {"synset": "oewn-11526187-n", "verdict": "right", "fault": null, "why": "the learner line matches the gloss, the technical label fits, and the telescope example matches the instrument-specific sense."},
+   {"synset": "oewn-05790881-n", "verdict": "right", "fault": null, "why": "the learner line matches \"analysis into clear-cut components\" and the prism example fits."},
+   {"synset": "oewn-07041708-n", "verdict": "right", "fault": null, "why": "the learner line matches the music gloss, the technical label fits, and the chord example is on point."},
+   {"synset": "oewn-07434817-n", "verdict": "right", "fault": null, "why": "the learner line matches the medical gloss, the clinical label fits, and the lung-infection example matches."}
+  ]},
+ {"word": "state", "pos": "noun",
+  "rank": "right", "why": "Most sentences (\"unregenerate state\", \"marriage state\", \"state of such insensibility\", \"state of poverty\", \"state of improvement\") carry the generic condition sense, matching the first sense (one sentence uses \"state\" as a verb).",
+  "senses": [
+   {"synset": "oewn-08195465-n", "verdict": "right", "fault": null, "why": "the learner line matches the gloss and the tax example correctly uses \"the state\" for the governing body."},
+   {"synset": "oewn-14011983-n", "verdict": "right", "fault": null, "why": "the learner line preserves both alternatives (depression/agitation), the informal label is reasonable for this idiom, and the example fits."},
+   {"synset": "oewn-08562388-n", "verdict": "right", "fault": null, "why": "the learner line matches \"territory of a nation\" and the Luxembourg example is correctly distinguished from an internal administrative district."},
+   {"synset": "oewn-14503199-n", "verdict": "right", "fault": null, "why": "the learner line accurately renders the three states of matter, the technical label fits, and the ice example matches."}
+  ]},
+ {"word": "civil", "pos": "adjective",
+  "rank": "right", "why": "All six sentences (\"civil self-command\", \"unaffectedly civil\", \"civil assents\", \"civil inquiries\") carry not-rude/polite, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-01522244-s", "verdict": "right", "fault": null, "why": "the learner line matches \"citizens as contrasted with the military\" and the post-war authorities example fits."},
+   {"synset": "oewn-00413432-s", "verdict": "right", "fault": null, "why": "the learner line matches the gloss, and the candidate connotation is well justified since \"civil peoples\" implicitly ranks other peoples as unordered or wild."},
+   {"synset": "oewn-00645956-a", "verdict": "right", "fault": null, "why": "the learner line matches the legal-time gloss, the technical label fits, and the \"civil day\" example is exactly the standard case."}
+  ]}
+]}
