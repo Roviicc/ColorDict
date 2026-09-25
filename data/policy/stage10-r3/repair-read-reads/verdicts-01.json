@@ -1,0 +1,13 @@
+{"packet": 1, "verdicts": [
+ {"word": "time", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'time' as an indefinite period ('for some time', 'after a time', 'It was some time'), matching the first-listed sense, though a couple of sentences shade toward the later-listed 'occasion' and 'resource' senses.",
+  "senses": []},
+ {"word": "promise", "pos": "verb",
+  "rank": "right", "why": "Most sentences show 'promised' meaning to undertake or give a specific thing/action ('promised to introduce him', 'promised... another letter', 'promised to write again'), matching the first-listed sense; only 'promises well' fits a different, later-listed sense.",
+  "senses": []},
+ {"word": "head", "pos": "verb",
+  "rank": "unsure", "why": "All the sample sentences are book front-matter captions ('Heading to Chapter XVIII') where 'Heading' reads as a noun for a chapter headpiece illustration rather than a conjugated verb, so it is genuinely unclear which verb sense, including the first-listed 'go or travel towards', they actually evidence.",
+  "senses": [
+   {"synset": "oewn-02630209-v", "verdict": "right", "fault": null, "why": "The learner line faithfully restates both alternatives of the gloss, both examples ('heads', 'heading') use the word in this plant-forming-a-head sense, and null connotation is correct since the sense is purely descriptive."}
+  ]}
+]}
