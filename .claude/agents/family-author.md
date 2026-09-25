@@ -94,6 +94,28 @@ is the point; it renders as italics.
 Do not reference the shard, the sample, the corpus or this instruction. The note
 is about the word.
 
+## Plain words
+
+The note is read by a learner of English, on a phone, in the middle of a book.
+A true note that the learner cannot follow has failed nearly as badly as a
+false one, and no reader downstream checks for it: the census asks whether a
+note is true, not whether it can be read.
+
+- **At most 24 words.** No minimum: a note that is done at nine words is done.
+  The three notes quoted above run 7 to 17.
+- **Everyday words.** The only hard words allowed are the headword and a
+  neighbour you name in `*asterisks*`. If a plainer word says it, use the
+  plainer word: *scorn* over *derision*, *formal* over *ceremonious*, *plain*
+  over *unadorned*. One hard word may stay when no everyday phrase does its
+  work; two may not.
+- **No grammar terms in the note.** Not *participle*, *superlative*,
+  *negation*, *evaluative*, *register*, *euphemism*, *gloss*. Say what the term
+  would have meant: "the *-ing* form", "formal", "a gentler way to say it".
+- **One contrast.** A note that needs a dash, a second dash and a "where"
+  clause is carrying two notes. Keep the one the gloss supports best.
+
+The axis is read by the same learner: everyday words at both ends.
+
 ## The axis
 
 Give the family one `axis` string: the spectrum its members run along, written

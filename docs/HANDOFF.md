@@ -141,7 +141,8 @@ One unit of work, ~25 families / ~290 senses:
 5. `family_merge.py` collects them, strictly: only `charge` and `tone`, only for
    members the worksheet lists, and a family that does not match is left
    unannotated rather than partly annotated
-6. `tone_lint.py`, `family_apply.py`, `dict_pipeline.py --no-build`
+6. `tone_lint.py`, `plain_lint.py --max-long 0` on the new shard (stage 9b: no
+   note over 24 words), `family_apply.py`, `dict_pipeline.py --no-build`
 7. `census_packets.py` → blind read → `census2_aggregate.py`
 8. repair, re-read the repairs blind, commit
 
@@ -427,6 +428,24 @@ asked for.
   do not undo that, and do not weaken `example_mentions` back to a substring
   test — "pellucid prose" passed as an example of *lucid* for the whole project
   until census 010 read it (11.80).
+- **A fix to `family_apply.py` reaches only the shards you re-apply.** Stage 9
+  taught it to keep `_skip` members off spectra, and re-applied the shards it
+  was working on. `families-006.overlay.jsonl` was last generated on 3 Sep, so
+  *roughshod* — skipped in its shard — shipped for three weeks as the mild end
+  of the cruelty family's spectrum on 23 entries. Found on 26 Sep by
+  regenerating every overlay into a scratch directory and comparing; 006 was
+  the only stale one. After any change to `family_apply.py`, re-apply every
+  shard, not just the new one.
+- **A cloud checkout is not the Windows checkout.** `data/source/`,
+  `data/build/` and `data/entries/derived-bulk.jsonl` are gitignored, so a fresh
+  clone cannot run a tick until they are rebuilt — the recipe is in
+  `.claude/skills/overnight/SKILL.md` and reproduces the committed dictionary
+  byte for byte. Book text (`data/build/books/`) is gitignored too, and the
+  cloud network policy refuses www.gutenberg.org and cdn.jsdelivr.net, so
+  stage 10 cannot run in the cloud until the author allows the host or supplies
+  the file. Book ids are content hashes: a fresh download must match
+  `3f6bb9d6f78e0293` or it is a different book as far as every record is
+  concerned.
 
 ---
 

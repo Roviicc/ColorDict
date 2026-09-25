@@ -1,6 +1,6 @@
 # ColorDict — the staged build plan
 
-**Status: stages 0-6 done on 2026-09-03; stage 7 waits for approval.**
+**Status: stages 0-7 and 9 done (9 closed 2026-09-26); 8 deferred; 9b in progress.**
 **Stage state is measured by `python tools/status.py`, not by this line.**
 
 This replaces the forward-looking half of `HANDOFF.md` and supersedes both
@@ -268,6 +268,38 @@ it is not rediscovered.
 > the cap is the problem — the median worksheet is 5 members, and 55% of existing
 > notes name a sibling. Change the cap in the tool and treat the next run as a
 > new baseline; do not author more under a cap that reads badly.
+
+### Stage 9b — Plain words · *about one tick* · approved 2026-09-26
+
+Every census asks whether a note is **true** against its gloss. None asks whether
+the learner can **read** it, and the notes drifted without anyone deciding they
+should: shards 001–009 have a median of about 12 words, 010–018 about 20. The
+author found notes that were not simple enough to understand.
+
+The rule, chosen by the author: **one sentence, at most 24 words, no minimum.**
+Everyday words — the headword and a named *neighbour* may be hard, and one more
+word when no everyday phrase does its work. No grammar terms in the note. A
+16–24 band was considered and refused: 1,181 notes (34%) are under 16 words, the
+short ones are among the clearest we have, and a floor would pad them — padding
+adds claims, the shape the first audit measured at 44% wrong.
+
+`tools/plain_lint.py` measures it (`status.py` prints it): on 2026-09-26, 517 of
+3,420 notes (15%) in 232 families — 274 over 24 words, 127 with two or more rare
+words, 146 with grammar terms. The pass rewrites **only** those, because a
+rewrite is a new note and carries the same risk as the one it replaces. A new
+instrument, `simplifier.md`, does the rewriting — same meaning, same charge,
+same contrast, and it may decline. `tools/plain_packets.py` draws the packets,
+checks what comes back, and builds the census; every rewrite is read blind.
+
+`family-author.md` and `repairer.md` gained the same rule, so the next authored
+tick is a **new baseline**. `census-reader.md` did not change: the reader
+measures truth, not ease, and its rates stay comparable across this stage.
+
+> **Done when:** every flagged note is rewritten or kept with a stated reason,
+> none is over 24 words except listed keeps, and a complete blind census of the
+> rewrites reads under 5%.
+> **Stop:** a census over 5% on the rewrites means simplifying changes meaning —
+> a method problem before a batch problem.
 
 ### Stage 10 — Close book one · *the loop at full width*
 

@@ -289,6 +289,20 @@ def lint_state():
     print("  A flag is not a verdict, and absence of flags is not clearance.")
 
 
+def plain_state():
+    rule("PLAIN WORDS - can the learner read it? (stage 9b)")
+    out = subprocess.run([sys.executable, str(ROOT / "tools/plain_lint.py"),
+                          "--all", "--quiet"], capture_output=True, text=True)
+    lines = [l.rstrip() for l in out.stdout.splitlines() if l.strip()]
+    tail = [l for l in lines if l.startswith("TOTAL")]
+    counts = [l for l in lines if l.startswith("  ")]
+    for line in tail + counts:
+        print("  " + line.strip())
+    print("")
+    print("  A true note can still be too hard to read; the census cannot see it.")
+    print("  too-long is the rule (max 24, no minimum); the other two are alarms.")
+
+
 STAGES = ROOT / "data/policy/build-stages.json"
 
 # "blocked" is waiting on something identifiable; "deferred" is a stage whose
@@ -362,6 +376,7 @@ def main():
     queue_state()
     census_state()
     lint_state()
+    plain_state()
 
     rule("NEXT")
     print("  docs/BUILD-PLAN.md is the plan; the BUILD STAGES block above is its")

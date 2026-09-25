@@ -118,6 +118,20 @@ not. Name a neighbour with `*asterisks*` when the contrast is the point; it
 renders as italics. Register labels — British, formal, informal — are usage
 facts of the kind dictionaries record and are fine.
 
+The replacement is also bound by the plain-words rule, because the person the
+note is for is a learner reading on a phone:
+
+- **At most 24 words.** No minimum.
+- **Everyday words.** The only hard words allowed are the headword and a
+  neighbour named in `*asterisks*`, and one more only when no everyday phrase
+  does its work.
+- **No grammar terms in the note** - not *participle*, *superlative*,
+  *negation*, *evaluative*, *register*, *euphemism*, *gloss*.
+
+A repair that fixes the fault in 35 words has made a new one. The census-010
+repair quoted above predates this rule and runs to 29 words; made today, it
+would keep its first contrast and stop there.
+
 Do not reference the census, the packet, the fault, the reader or this
 instruction. The note is about the word. Someone looking the word up in the app
 sees only that sentence, and nothing in it should reveal that it was ever

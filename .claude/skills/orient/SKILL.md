@@ -46,12 +46,16 @@ The tick loop is HANDOFF §3. One tick is ~25 families / ~290 senses:
 3. `family_worksheet.py` → annotation skeleton
 4. one `family-author` agent per family, each **writing its own JSON to disk**
    (returning it through the orchestrator is the known bottleneck)
-5. `family_merge.py` → `tone_lint.py` → `family_apply.py` → `dict_pipeline.py --no-build`
+5. `family_merge.py` → `tone_lint.py` → `plain_lint.py <new shard> --max-long 0` →
+   `family_apply.py` → `dict_pipeline.py --no-build`
 6. `census_packets.py` → blind read → `census2_aggregate.py`
 7. repair, re-read the repairs blind, commit, push
 
 **Stop condition: a tick over 5% stops the run. Two consecutive over 5% is a
 method problem, not a batch problem.**
+
+To run ticks unattended while the author sleeps, the runbook is
+`.claude/skills/overnight/SKILL.md` - and only when the author says go.
 
 ## Rules that are not negotiable
 

@@ -1,7 +1,7 @@
 {
   "plan": "docs/BUILD-PLAN.md",
   "approved": true,
-  "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes. Stages 9-12 proposed 2026-09-05 and NOT yet approved: 9 waits on the plan audit (cap), 12 exists only if a mechanism is found.",
+  "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes. Stages 9-12 proposed 2026-09-05. Stage 9 approved and closed by the author 2026-09-26 on its step-9 done-check. Stage 9b (plain words) approved 2026-09-26: max 24 words, no minimum, run cap 4 ticks. Stages 10-12 NOT yet approved: 10 needs book one reachable from the session that runs it and a spend cap, 12 exists only if a mechanism is found.",
   "stages": [
     {
       "stage": "0",
@@ -325,11 +325,13 @@
       "stage": "9",
       "title": "The reading loop, proven on the backlog",
       "spend": "small spend",
-      "state": "not_started",
+      "state": "done",
       "proposed_on": "2026-09-05",
-      "approved": false,
-      "closed_on": null,
+      "approved": true,
+      "approved_on": "2026-09-26",
+      "closed_on": "2026-09-26",
       "closed_by_commit": null,
+      "closed_note": "Closed by the author on the step-9 done-check (42e00a0), which the manager left open because approving and closing a stage is not the manager's call. The six faults step 9 left standing are carried, not closed: they are the first job of the next run, before stage 9b's rewrites touch the same families.",
       "done_when": "every candidate in data/policy/*/results.json is either authored or held with a reason, and the blind census on the authored senses is under 5%",
       "stop": "if the census on book-restricted families reads worse than 007-011 the cap is the problem; change it in candidate_families.py and treat the next run as a new baseline",
       "note": "Builds the join Lane A and Lane B never had. 121 Enricher candidates sat unwritten since enrich-001: enrich_validate.py writes nothing for a candidate and the why dies in results.json. candidate_families.py (commit 9d59909) routes them to book-restricted families capped at 20: after the audit fixes: 86 worksheets, 480 senses, 24 held - against 3,958 senses naive. 2026-09-05 later: 11.75 inversion corrected in 4 files (gate-triage-results.json carries the recount); census 012 pre-registered with a control arm; sister added as a hand candidate.",
@@ -390,7 +392,7 @@
           "owner": "shawn",
           "state": "done",
           "note": "Census 012, complete read of both arms as 007-011 were, 543 senses in 20 packets, population sorted by family so a reader sees siblings together. 539 right, 4 wrong, 0 unsure = 0.7% blended. Per stratum: candidate/noun 3/323 = 0.9%, candidate/verb 0/74, candidate/adjective 1/61 = 1.6%, control/adjective 0/85. No stratum over the 5% gate; strata_over_threshold empty. The composition effect the pre-registration predicted (1.82% -> ~3.2%) did not appear. See census-012-results.json caveats: the rate is on the 543 that survived the collision audit's filter, and the control arm's 0/85 is consistent with 1.82%, not evidence of improvement. Four faults go to the repairer: haste (example belongs to another sense), ultra (note and charge contradict), scheme (wrong-charge), dame (gloss-mismatch - the note describes the slang sense, on a family of five words printing under one identical gloss).",
-          "commit": "pending"
+          "commit": "135f51a"
         },
         {
           "n": 7,
@@ -398,7 +400,7 @@
           "owner": "repairer",
           "state": "done",
           "note": "First use of repairer.md, and the first repair pass in this project run by a hand that neither authored the note nor found the fault. One packet, four faults, four decisions, no keeps: haste drop-example (the make-haste exhortation, note untouched), ultra tone (resolved the note/charge contradiction toward the charge and handed the pure-location role to *far*, the neutral member two rows down whose note the old one had duplicated), scheme tone + charge -1 -> 0, dame tone + charge 0 -> +1 rewritten off the slang sense onto the printed gloss. census_apply gained an overlay path first: drop-example only knew the family worksheet, where just the 66 gate-drawn members of annotated-001..003 carry examples, so the action would have warned and changed nothing on any book-drawn sense; the same near-copy-of-slug() that dropped *ma'am* out of a census arm was fixed in its index at the same time, with both prior decisions files replaying identically. Applied: 3 members in annotated-018.json, 1 line of 4,217 in the stage-7 overlay. dict_pipeline --no-build: 4,223 entries, 0 errors, 6,601 warnings (+4, all of them scheme's family losing its spectrum). tone_lint unchanged at 8/543 = 1%.",
-          "commit": "pending",
+          "commit": "ed17120",
           "left_standing": "The repair moved two family axis labels off their spectra, and the census cannot see either - census_packets withholds `family`, so a reader is never shown the axis. dame's family now runs lady/ma'am/madam/dame +1 and gentlewoman +2, and its label still reads 'offhand courtesy -> stately dignity' with nothing left at the offhand end; that one ships, because dict_build renders the axis whenever a spectrum exists. lint_axis does not catch it: it returns early on any family with a positive charge, by design, since only all-negative families render backwards. scheme's family is now four members all at 0 with no spectrum, so its axis label does not render at all and the staleness stays internal. Neither is the repairer's doing - it is forbidden to touch a neighbour or a family - and neither has been fixed."
         },
         {
@@ -407,7 +409,7 @@
           "owner": "shawn",
           "state": "done",
           "note": "Blind re-read of the four repaired senses by a fresh census-reader that authored none of them and found none of the faults, rubric verbatim, reading the rebuilt corpus rather than the decisions file. 4 read, 4 right, 0 wrong, 0 unsure: every repair stands. The packet followed census 010's re-read - the reader was told the notes had been edited, which the rubric handles explicitly ('read them harder, not softer'), and each card carried the other notes in its family, because all three rewritten notes make a named-neighbour claim (*far*, *system*, *ma'am*/*madam*) and a claim about a neighbour cannot be checked without the neighbour. The reader checked all three against those words' own notes and upheld them. n=4: this says the four repairs landed, and nothing about the repair pass as a method.",
-          "commit": "pending",
+          "commit": "992967f",
           "left_standing": "The re-read was also a test of whether the family lane can be covered by giving the census reader a bigger card, and the answer is no. dame's card carried the stale axis - 'offhand courtesy -> stately dignity' printed above a spectrum reading lady +1, gentlewoman +2, with nothing left at the offhand end - and the reader, unprompted and reading hard enough to write two clauses about dame's register, did not mention it. That is not a lapse: census-reader.md asks whether the note agrees with the gloss and stays inside the word, and it has no fault class for an axis label that no longer describes its spectrum. The evidence was on the card and there was no question that would surface it. A family lane therefore needs its own rubric and its own fault names, not the census reader with more context attached."
         },
         {
@@ -415,7 +417,7 @@
           "step": "Done-check; write measured numbers here",
           "owner": "manager",
           "state": "done",
-          "commit": "pending",
+          "commit": "42e00a0",
           "note": "DONE-CHECK PASSES. tools/stage9_donecheck.py, written for this step, re-derives the candidate list from data/policy/*/results.json the way candidate_families.py builds it rather than reading stage9-candidates.json, because that file is the router's own account of what it did. Both halves of done_when hold. Every candidate is accounted for: 120 distinct senses, 95 authored, 1 withdrawn with a reason, 24 held with a reason, 0 lost. No stratum over the 5% gate. The stop condition does not fire - the book-restricted draw reads 0.9% against 1.9% pooled across 007-011, so the cap of 20 stands.",
           "measured": {
             "candidates": "120 distinct candidate senses from 122 records across 5 Enricher runs. The record counts are what the stage notes carried and they double-count two senses the Enricher marked in two runs; distinct, it is 120 candidates / 96 routed / 24 held, and the rebuilt set and the router's ledger agree on every member in both directions.",
@@ -451,6 +453,89 @@
         ],
         "goes_to": "stage 12"
       }
+    },
+    {
+      "stage": "9b",
+      "title": "Plain words - a note the learner can read",
+      "spend": "about one tick",
+      "state": "in_progress",
+      "proposed_on": "2026-09-26",
+      "approved": true,
+      "approved_on": "2026-09-26",
+      "closed_on": null,
+      "closed_by_commit": null,
+      "rule": "One sentence, at most 24 words, NO minimum - most good notes land at 10-20. Everyday words: the only hard words allowed are the headword and a named *neighbour*, plus one more when no everyday phrase does its work. No grammar terms in the note. Chosen by the author 2026-09-26 over a 16-24 band: 1,181 notes (34%) are under 16 words and the short ones are among the clearest in the corpus (asinine, 7 words); a floor would pad them, and padding adds claims - the shape the first audit measured at 44% wrong.",
+      "why": "The census asks whether a note is TRUE against its gloss. Nothing had ever asked whether the learner can READ it, and the notes drifted without anyone deciding they should: shards 001-009 median ~12 words, 010-018 median ~20. The author reported notes that were not simple enough to understand.",
+      "measured_2026_09_26": "plain_lint.py --all on 3,420 notes: 517 flagged (15%) in 232 of 328 families - too-long 274, hard-words 127, grammar 146; median 18 words, longest 36. Shards 001-009 flag 1-11%; 010-018 flag 11-28%, annotated-018 highest at 28%.",
+      "baseline": "family-author.md and repairer.md gained the plain-words rule and simplifier.md was placed, so the next authored tick is a NEW BASELINE for anything compared across ticks. census-reader.md is deliberately unchanged: the reader measures truth, not ease, so census rates before and after this stage stay comparable because that ruler did not move.",
+      "done_when": "every note plain_lint flags is rewritten or kept with a stated reason; plain_lint --all reports 0 notes over 24 words other than listed keeps; and a complete blind census of the rewrites reads under 5%",
+      "stop": "a census over 5% on the rewrites stops the pass - it would mean simplifying changes meaning, a method problem before a batch problem",
+      "steps": [
+        {
+          "n": 1,
+          "step": "Plain-words rule into family-author.md and repairer.md; simplifier.md placed; instrument_gate extended to eight",
+          "owner": "manager",
+          "state": "done",
+          "note": "Author approved the unlock 2026-09-26. The deny rule on .claude/agents/** was lifted, three reviewed drafts copied in, and the rule restored the same minute: settings.json byte-identical to HEAD, each placed file sha256-identical to its draft (family-author 8ccec66b, repairer 2d8bf93c, simplifier 3f89b8f4), the five other instruments unchanged vs HEAD, and a probe Write to .claude/agents/ refused by the restored rule. Both edits are pure insertions (22 and 14 lines). repairer.md now says its own census-010 example (29 words) predates the rule. plugin_sync unchanged and passing - the plugin still ships the four stage-7 instruments."
+        },
+        {
+          "n": 2,
+          "step": "tools/plain_lint.py and status.py's PLAIN WORDS block",
+          "owner": "manager",
+          "state": "done",
+          "note": "too-long is the rule (a tick checks its new shard with --max-long 0); hard-words (2+ words under Zipf 3.0 on their base form, headword and named neighbours exempt) and grammar (23 terms, counted on the corpus first - spelling, noun, verb, metaphor left out as school English) are smoke alarms. Needs pip install wordfreq; without it hard-words is skipped and says so. tone_lint.py is untouched, so its totals stay comparable."
+        },
+        {
+          "n": 3,
+          "step": "tools/plain_packets.py - draw, check, census - proven end to end",
+          "owner": "manager",
+          "state": "done",
+          "note": "Dry draw: 232 families, 517 rewrites, 29 packets of <= 8 families (11-30 rewrites each), every gloss full-length from batch-0001.jsonl. check refused, on synthetic input, an unanswered id, a 30-word rewrite, a decision carrying a charge and an id nobody asked for. End to end on a throwaway worktree: 3 tone decisions -> census_apply -> family_apply on every shard -> dict_pipeline --no-build (4,223 entries, 0 errors) -> census built 3 entries read from the shipped batch; census refuses when a decision has not landed. The same run found families-006.overlay.jsonl stale (see 2026-09-26 roughshod commit)."
+        },
+        {
+          "n": 4,
+          "step": "The six carried faults, before any rewrite touches their families",
+          "owner": "repairer / family-author / census-reader",
+          "state": "not_started",
+          "note": "4 superlative collisions go to the repairer as lint findings - repairer.md already names the repair ('name one neighbour instead of ranking all of them') and may decline, since superlative-collision flags a pair of which only one half may be the fault. Every changed note is then read blind by a census-reader. The 2 stale axes (dame's family, scheme's family) have no mechanism that lands them and wait for the author: the repairer may not touch a family, census_apply has no axis action, and family_merge writes whole shards, so re-merging annotated-018 would undo the stage 9 repairs already applied to it."
+        },
+        {
+          "n": 5,
+          "step": "plain_packets draw -> data/policy/plain-001",
+          "owner": "manager",
+          "state": "not_started"
+        },
+        {
+          "n": 6,
+          "step": "One simplifier agent per packet, each reading its packet from disk and writing decisions-NN.json",
+          "owner": "simplifier",
+          "state": "not_started"
+        },
+        {
+          "n": 7,
+          "step": "plain_packets check -> census_apply -> family_apply (every shard) -> dict_pipeline --no-build -> plain_lint",
+          "owner": "manager",
+          "state": "not_started"
+        },
+        {
+          "n": 8,
+          "step": "Census 013: complete blind read of every rewrite, census-reader.md verbatim",
+          "owner": "census-reader",
+          "state": "not_started"
+        },
+        {
+          "n": 9,
+          "step": "Third-hand repair of census 013 faults, then a blind re-read",
+          "owner": "repairer / census-reader",
+          "state": "not_started"
+        },
+        {
+          "n": 10,
+          "step": "Done-check; write measured numbers here",
+          "owner": "manager",
+          "state": "not_started"
+        }
+      ]
     },
     {
       "stage": "10",
@@ -495,11 +580,13 @@
   "always_running": {
     "lane": "the reading loop - book names the words, Ranker picks the senses, Enricher writes the entry and asks whether it judges, candidates summon book-restricted families, blind read, third-hand repair, 5% gate",
     "since": "2026-09-05 (stage 9); the gate-driven family draw is filler when there is no book",
-    "families": 235,
-    "senses": 2885,
-    "last_census": "011 at 3.0%",
+    "families": 328,
+    "senses": 3428,
+    "last_census": "012 at 0.7% blended, highest stratum candidate/adjective 1.6% - read 007-011 (~2%) for the comparable rate",
     "outstanding_repairs": 0,
-    "candidates_awaiting_join": 121
+    "candidates_awaiting_join": 0,
+    "counted_on": "2026-09-26, from the shards by status.py's CORPUS block; this block had read 235 / 2885 / census 011 since before stage 9 authored 93 families",
+    "carried_faults": "6 the census cannot see: 4 superlative collisions (tone_lint) and 2 axis labels moved by the stage-9 repair (dame's renders; scheme's does not)"
   },
   "measured_2026_09_03": {
     "shipped_stardict_entries": 111466,
