@@ -1,0 +1,1199 @@
+{
+ "packet": 1,
+ "families": [
+  {
+   "family": "death",
+   "axis": "bluntest → gentlest",
+   "members": [
+    {
+     "id": "stone-dead.oewn-00099303-s",
+     "word": "stone-dead",
+     "gloss": "as lifeless as a stone",
+     "charge": -3,
+     "tone": "Maximally blunt - leaves no room for hope or softening.",
+     "rewrite": false
+    },
+    {
+     "id": "dead.oewn-00096133-a",
+     "word": "dead",
+     "gloss": "no longer having or seeming to have or expecting to have life",
+     "charge": -2,
+     "tone": "The plain word. Direct and unsoftened; every other word in this family exists to avoid it.",
+     "rewrite": false
+    },
+    {
+     "id": "lifeless.oewn-00098621-s",
+     "word": "lifeless",
+     "gloss": "deprived of life; no longer living",
+     "charge": -1,
+     "tone": "Clinical and detached: it names the absence of life rather than mourning it.",
+     "rewrite": false
+    },
+    {
+     "id": "deceased.oewn-00096726-s",
+     "word": "deceased",
+     "gloss": "dead",
+     "charge": 0,
+     "tone": "The neutral official term - legal forms and medical records, no feeling either way.",
+     "rewrite": false
+    },
+    {
+     "id": "late.oewn-00098527-s",
+     "word": "late",
+     "gloss": "having died recently",
+     "charge": 1,
+     "tone": "Respectful and gentle - names the death while keeping the person in view.",
+     "rewrite": false
+    },
+    {
+     "id": "departed.oewn-00096726-s",
+     "word": "departed",
+     "gloss": "dead",
+     "charge": 0,
+     "tone": "A euphemism for dead. It softens the statement rather than praising the person.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "euphemism"
+     }
+    },
+    {
+     "id": "gone.oewn-00096726-s",
+     "word": "gone",
+     "gloss": "dead",
+     "charge": 2,
+     "tone": "Soft and everyday - what people say when 'dead' is too hard to say.",
+     "rewrite": false
+    },
+    {
+     "id": "at_peace.oewn-00096726-s",
+     "word": "at peace",
+     "gloss": "dead",
+     "charge": 3,
+     "tone": "The most consoling form - reframes death as rest and the end of suffering.",
+     "rewrite": false
+    },
+    {
+     "id": "at_rest.oewn-00096726-s",
+     "word": "at rest",
+     "gloss": "dead",
+     "charge": 3,
+     "tone": "Gravestone language - comfort offered to the living.",
+     "rewrite": false
+    },
+    {
+     "id": "asleep.oewn-00096726-s",
+     "word": "asleep",
+     "gloss": "dead",
+     "charge": 3,
+     "tone": "The gentlest euphemism - death softened into rest.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "euphemism"
+     }
+    }
+   ]
+  },
+  {
+   "family": "poverty",
+   "axis": "severest → lightest",
+   "members": [
+    {
+     "id": "hard_up.oewn-02030912-s",
+     "word": "hard up",
+     "gloss": "not having enough money to pay for necessities",
+     "charge": -1,
+     "tone": "Temporary and undramatic - short of money this month, not poor in life.",
+     "rewrite": false
+    },
+    {
+     "id": "broke.oewn-02030538-s",
+     "word": "broke",
+     "gloss": "lacking funds",
+     "charge": -1,
+     "tone": "Casual - out of money right now, a state rather than a condition.",
+     "rewrite": false
+    },
+    {
+     "id": "skint.oewn-02030538-s",
+     "word": "skint",
+     "gloss": "lacking funds",
+     "charge": -1,
+     "tone": "British slang, cheerfully blunt.",
+     "rewrite": false
+    },
+    {
+     "id": "poor.oewn-02030204-a",
+     "word": "poor",
+     "gloss": "having little money or few possessions",
+     "charge": -2,
+     "tone": "The plain word for a lasting condition - factual, and heavy for being so plain.",
+     "rewrite": false
+    },
+    {
+     "id": "impecunious.oewn-02030912-s",
+     "word": "impecunious",
+     "gloss": "not having enough money to pay for necessities",
+     "charge": -2,
+     "tone": "Genteel and bookish - poverty at a polite distance.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "genteel, bookish"
+     }
+    },
+    {
+     "id": "penniless.oewn-02030912-s",
+     "word": "penniless",
+     "gloss": "not having enough money to pay for necessities",
+     "charge": -2,
+     "tone": "Absolute and vivid - not a coin left.",
+     "rewrite": false
+    },
+    {
+     "id": "needy.oewn-02030681-s",
+     "word": "needy",
+     "gloss": "poor enough to need help from others",
+     "charge": -2,
+     "tone": "Frames poverty as requiring help; of a person's temperament it means something else entirely.",
+     "rewrite": false
+    },
+    {
+     "id": "impoverished.oewn-02030681-s",
+     "word": "impoverished",
+     "gloss": "poor enough to need help from others",
+     "charge": -3,
+     "tone": "Made poor - the word implies something was taken away.",
+     "rewrite": false
+    },
+    {
+     "id": "indigent.oewn-02030681-s",
+     "word": "indigent",
+     "gloss": "poor enough to need help from others",
+     "charge": -3,
+     "tone": "The legal and administrative term for qualifying poverty.",
+     "rewrite": false
+    },
+    {
+     "id": "destitute.oewn-02030681-s",
+     "word": "destitute",
+     "gloss": "poor enough to need help from others",
+     "charge": -3,
+     "tone": "Total and grave - without even the means to live.",
+     "rewrite": false
+    },
+    {
+     "id": "poverty-stricken.oewn-02030681-s",
+     "word": "poverty-stricken",
+     "gloss": "poor enough to need help from others",
+     "charge": -3,
+     "tone": "Poverty as an affliction that has struck, not a state chosen.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "courage",
+   "axis": "steady → heroic",
+   "members": [
+    {
+     "id": "game.oewn-00264860-s",
+     "word": "game",
+     "gloss": "willing to face danger",
+     "charge": 1,
+     "tone": "Willing to try - courage as good sportsmanship rather than heroism.",
+     "rewrite": false
+    },
+    {
+     "id": "gritty.oewn-00264860-s",
+     "word": "gritty",
+     "gloss": "willing to face danger",
+     "charge": 2,
+     "tone": "Courage as endurance - staying in when it hurts.",
+     "rewrite": false
+    },
+    {
+     "id": "spunky.oewn-00264860-s",
+     "word": "spunky",
+     "gloss": "willing to face danger",
+     "charge": 2,
+     "tone": "Affectionate praise for spirit - the courage is admired rather than feared.",
+     "rewrite": false
+    },
+    {
+     "id": "brave.oewn-00263658-a",
+     "word": "brave",
+     "gloss": "possessing or displaying courage; able to face and deal with danger or fear without flinching",
+     "charge": 2,
+     "tone": "The plain, universal praise - facing what frightens you.",
+     "rewrite": false
+    },
+    {
+     "id": "courageous.oewn-00263658-a",
+     "word": "courageous",
+     "gloss": "possessing or displaying courage; able to face and deal with danger or fear without flinching",
+     "charge": 3,
+     "tone": "Weightier than 'brave' - implies moral choice, not just nerve.",
+     "rewrite": false
+    },
+    {
+     "id": "gallant.oewn-00264706-s",
+     "word": "gallant",
+     "gloss": "unflinching in battle or action",
+     "charge": 3,
+     "tone": "Chivalrous courage - noble and old-fashioned.",
+     "rewrite": false
+    },
+    {
+     "id": "valiant.oewn-00265436-s",
+     "word": "valiant",
+     "gloss": "having or showing valor",
+     "charge": 3,
+     "tone": "Heroic register, at home in battle and legend.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "undaunted.oewn-00265325-s",
+     "word": "undaunted",
+     "gloss": "resolutely courageous",
+     "charge": 3,
+     "tone": "Courage defined by what failed to stop it.",
+     "rewrite": false
+    },
+    {
+     "id": "lionhearted.oewn-00265044-s",
+     "word": "lionhearted",
+     "gloss": "extraordinarily courageous",
+     "charge": 3,
+     "tone": "The superlative - courage as legend.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "superlative"
+     }
+    },
+    {
+     "id": "heroic.oewn-00264329-s",
+     "word": "heroic",
+     "gloss": "showing extreme courage; especially of actions courageously undertaken in desperation as a last resort",
+     "charge": 3,
+     "tone": "Courage beyond what could be asked of anyone.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "cowardice",
+   "axis": "most contemptuous → most sympathetic",
+   "members": [
+    {
+     "id": "timid.oewn-00266855-s",
+     "word": "timid",
+     "gloss": "lacking conviction or boldness or courage",
+     "charge": -1,
+     "tone": "Soft censure - the courage is missing, but the word pities more than it blames.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "censure, pities"
+     }
+    },
+    {
+     "id": "fainthearted.oewn-00266855-s",
+     "word": "fainthearted",
+     "gloss": "lacking conviction or boldness or courage",
+     "charge": -1,
+     "tone": "Lacking boldness - the mildest word in the family, closer to pity than contempt.",
+     "rewrite": false
+    },
+    {
+     "id": "fearful.oewn-00265642-a",
+     "word": "fearful",
+     "gloss": "lacking courage; ignobly timid and faint-hearted",
+     "charge": -2,
+     "tone": "Cowardice named as a fault of character, not a passing fear.",
+     "rewrite": false
+    },
+    {
+     "id": "cowardly.oewn-00265642-a",
+     "word": "cowardly",
+     "gloss": "lacking courage; ignobly timid and faint-hearted",
+     "charge": -2,
+     "tone": "The plain accusation - fear that led to failing others.",
+     "rewrite": false
+    },
+    {
+     "id": "chicken.oewn-00266180-s",
+     "word": "chicken",
+     "gloss": "easily frightened",
+     "charge": -2,
+     "tone": "Playground taunt - mocking rather than grave.",
+     "rewrite": false
+    },
+    {
+     "id": "lily-livered.oewn-00266180-s",
+     "word": "lily-livered",
+     "gloss": "easily frightened",
+     "charge": -3,
+     "tone": "Dated, theatrical scorn - the pale liver standing in for a missing spine.",
+     "rewrite": false
+    },
+    {
+     "id": "yellow.oewn-00266180-s",
+     "word": "yellow",
+     "gloss": "easily frightened",
+     "charge": -3,
+     "tone": "Blunt slang accusation of cowardice.",
+     "rewrite": false
+    },
+    {
+     "id": "craven.oewn-00266362-s",
+     "word": "craven",
+     "gloss": "lacking even the rudiments of courage; abjectly fearful",
+     "charge": -3,
+     "tone": "Abject cowardice - formal and thoroughly contemptuous.",
+     "rewrite": false
+    },
+    {
+     "id": "dastardly.oewn-00266631-s",
+     "word": "dastardly",
+     "gloss": "despicably cowardly",
+     "charge": -3,
+     "tone": "Cowardice joined to malice - the blow struck from safety.",
+     "rewrite": false
+    },
+    {
+     "id": "pusillanimous.oewn-00267286-s",
+     "word": "pusillanimous",
+     "gloss": "lacking in courage and manly strength and resolution; contemptibly fearful",
+     "charge": -3,
+     "tone": "Bookish contempt - small-spirited in the face of difficulty.",
+     "rewrite": false
+    },
+    {
+     "id": "craven.oewn-00266362-s",
+     "word": "craven",
+     "gloss": "lacking even the rudiments of courage; abjectly fearful",
+     "charge": -3,
+     "tone": "Abject cowardice - formal and thoroughly contemptuous.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "dying",
+   "axis": "bluntest → gentlest",
+   "members": [
+    {
+     "id": "croak.oewn-00359085-v",
+     "word": "croak",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -3,
+     "tone": "Crude and flippant - it reduces a death to a joke.",
+     "rewrite": false
+    },
+    {
+     "id": "snuff_it.oewn-00359085-v",
+     "word": "snuff it",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -3,
+     "tone": "British slang, jokey and dismissive.",
+     "rewrite": false
+    },
+    {
+     "id": "kick_the_bucket.oewn-00359085-v",
+     "word": "kick the bucket",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -3,
+     "tone": "A comic idiom - keeps death at arm's length by making light of it.",
+     "rewrite": false
+    },
+    {
+     "id": "drop_dead.oewn-00359085-v",
+     "word": "drop dead",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -3,
+     "tone": "Abrupt and unsentimental - emphasises the suddenness.",
+     "rewrite": false
+    },
+    {
+     "id": "pop_off.oewn-00359085-v",
+     "word": "pop off",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -3,
+     "tone": "Casual to the point of dismissive.",
+     "rewrite": false
+    },
+    {
+     "id": "buy_the_farm.oewn-00359085-v",
+     "word": "buy the farm",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -3,
+     "tone": "Military slang - gallows humour rather than disrespect.",
+     "rewrite": false
+    },
+    {
+     "id": "die.oewn-00359085-v",
+     "word": "die",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -2,
+     "tone": "The plain, honest verb - direct without being cruel.",
+     "rewrite": false
+    },
+    {
+     "id": "perish.oewn-00359085-v",
+     "word": "perish",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": -1,
+     "tone": "Grave and literary - deaths in numbers, or deaths that should not have happened.",
+     "rewrite": false
+    },
+    {
+     "id": "succumb.oewn-02626546-v",
+     "word": "succumb",
+     "gloss": "be fatally overwhelmed",
+     "charge": -1,
+     "tone": "Death framed as losing a long fight - respectful of the struggle.",
+     "rewrite": false
+    },
+    {
+     "id": "expire.oewn-00359085-v",
+     "word": "expire",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": 0,
+     "tone": "Clinical and detached - the word on a chart, not at a graveside.",
+     "rewrite": false
+    },
+    {
+     "id": "decease.oewn-00359085-v",
+     "word": "decease",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": 0,
+     "tone": "Legal register: the death is an event on a form.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "fall.oewn-02626293-v",
+     "word": "fall",
+     "gloss": "die, as in battle or in a hunt",
+     "charge": 1,
+     "tone": "A soft, dignifying word for a death in the field - soldier or quarry, the fall sounds fated rather than inflicted.",
+     "rewrite": false
+    },
+    {
+     "id": "pass_away.oewn-00359085-v",
+     "word": "pass away",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": 2,
+     "tone": "The standard gentle phrase - what you say to someone who has just lost a person.",
+     "rewrite": false
+    },
+    {
+     "id": "pass.oewn-00359085-v",
+     "word": "pass",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": 2,
+     "tone": "Even shorter and softer than 'pass away' - the gentlest form of the euphemism.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "euphemism"
+     }
+    },
+    {
+     "id": "give-up_the_ghost.oewn-00359085-v",
+     "word": "give-up the ghost",
+     "gloss": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+     "charge": 1,
+     "tone": "Grand phrasing for an ordinary end, which is why it turns comic.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01078338-a",
+   "axis": "mocking → warm",
+   "members": [
+    {
+     "id": "friendly.oewn-01078338-a",
+     "word": "friendly",
+     "gloss": "characteristic of or befitting a friend",
+     "charge": 2,
+     "tone": "The unarguable positive: it describes behaviour nobody objects to and implies nothing further.",
+     "rewrite": false
+    },
+    {
+     "id": "affable.oewn-01078866-s",
+     "word": "affable",
+     "gloss": "diffusing warmth and friendliness",
+     "charge": 2,
+     "tone": "Easy, unforced warmth of manner - friendliness that costs its owner nothing.",
+     "rewrite": false
+    },
+    {
+     "id": "amiable.oewn-01078866-s",
+     "word": "amiable",
+     "gloss": "diffusing warmth and friendliness",
+     "charge": 2,
+     "tone": "Mild, slightly old-fashioned praise; pleasantness rather than depth.",
+     "rewrite": false
+    },
+    {
+     "id": "cordial.oewn-01078866-s",
+     "word": "cordial",
+     "gloss": "diffusing warmth and friendliness",
+     "charge": 1,
+     "tone": "Warmth actively given off - genial, easy friendliness that puts people at ease.",
+     "rewrite": false
+    },
+    {
+     "id": "genial.oewn-01078866-s",
+     "word": "genial",
+     "gloss": "diffusing warmth and friendliness",
+     "charge": 2,
+     "tone": "Warmth that puts a room at ease.",
+     "rewrite": false
+    },
+    {
+     "id": "chummy.oewn-01079212-s",
+     "word": "chummy",
+     "gloss": "(used colloquially) having the relationship of friends or pals",
+     "charge": -1,
+     "tone": "Faintly disapproving of other people's friendships - it hints the closeness came too fast or too conveniently.",
+     "rewrite": false
+    },
+    {
+     "id": "matey.oewn-01079212-s",
+     "word": "matey",
+     "gloss": "(used colloquially) having the relationship of friends or pals",
+     "charge": 1,
+     "tone": "British and blokeish: friendly in a way that insists on being equals.",
+     "rewrite": false
+    },
+    {
+     "id": "pally.oewn-01079212-s",
+     "word": "pally",
+     "gloss": "(used colloquially) having the relationship of friends or pals",
+     "charge": -1,
+     "tone": "It raises an eyebrow at a friendship that looks more like an arrangement.",
+     "rewrite": false
+    },
+    {
+     "id": "palsy-walsy.oewn-01079212-s",
+     "word": "palsy-walsy",
+     "gloss": "(used colloquially) having the relationship of friends or pals",
+     "charge": -2,
+     "tone": "Openly mocking - the reduplication does the sneering for you.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "reduplication, sneering"
+     }
+    },
+    {
+     "id": "companionate.oewn-01079430-s",
+     "word": "companionate",
+     "gloss": "like a companion",
+     "charge": 1,
+     "tone": "Technical and cool - it describes the fit, not the affection.",
+     "rewrite": false
+    },
+    {
+     "id": "comradely.oewn-01079552-s",
+     "word": "comradely",
+     "gloss": "heartily friendly and congenial",
+     "charge": 1,
+     "tone": "Hearty warmth between equals - friendliness declared out loud rather than implied.",
+     "rewrite": false
+    },
+    {
+     "id": "hail-fellow.oewn-01079552-s",
+     "word": "hail-fellow",
+     "gloss": "heartily friendly and congenial",
+     "charge": 0,
+     "tone": "Heartiness offered to everyone alike - friendliness worn as a manner.",
+     "rewrite": false
+    },
+    {
+     "id": "hail-fellow-well-met.oewn-01079552-s",
+     "word": "hail-fellow-well-met",
+     "gloss": "heartily friendly and congenial",
+     "charge": -1,
+     "tone": "Backhanded: friendly to everyone, and so to no one in particular.",
+     "rewrite": false
+    },
+    {
+     "id": "couthie.oewn-01079712-s",
+     "word": "couthie",
+     "gloss": "(chiefly Scottish) agreeable and genial",
+     "charge": 2,
+     "tone": "Scots for a cosy, unforced warmth; affectionate and close to untranslatable.",
+     "rewrite": false
+    },
+    {
+     "id": "couthy.oewn-01079712-s",
+     "word": "couthy",
+     "gloss": "(chiefly Scottish) agreeable and genial",
+     "charge": 2,
+     "tone": "A spelling of 'couthie', with the same Scots warmth.",
+     "rewrite": false
+    },
+    {
+     "id": "cozy.oewn-01079833-s",
+     "word": "cozy",
+     "gloss": "having or fostering a warm or friendly and informal atmosphere",
+     "charge": 1,
+     "tone": "Of an atmosphere rather than a person - warmth kept at a small and informal scale.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01953883-a",
+   "axis": "affected → cultivated",
+   "members": [
+    {
+     "id": "refined.oewn-01953883-a",
+     "word": "refined",
+     "gloss": "(used of persons and their behavior) cultivated and genteel",
+     "charge": 2,
+     "tone": "Praises taste without naming what it consists of - which is how it also flatters the speaker's own.",
+     "rewrite": false
+    },
+    {
+     "id": "civilized.oewn-01954376-s",
+     "word": "civilized",
+     "gloss": "marked by refinement in taste and manners",
+     "charge": 1,
+     "tone": "Sets a bar and implies others fall below it - praise with a hierarchy inside it.",
+     "rewrite": false
+    },
+    {
+     "id": "civilised.oewn-01954376-s",
+     "word": "civilised",
+     "gloss": "marked by refinement in taste and manners",
+     "charge": 1,
+     "tone": "The British spelling; the same compliment with the same hierarchy inside it.",
+     "rewrite": false
+    },
+    {
+     "id": "cultivated.oewn-01954376-s",
+     "word": "cultivated",
+     "gloss": "marked by refinement in taste and manners",
+     "charge": 2,
+     "tone": "Praises the work, not the birth - it says the taste was acquired on purpose.",
+     "rewrite": false
+    },
+    {
+     "id": "cultured.oewn-01954376-s",
+     "word": "cultured",
+     "gloss": "marked by refinement in taste and manners",
+     "charge": 2,
+     "tone": "Warmer and less effortful than cultivated; it suggests taste that was absorbed rather than studied.",
+     "rewrite": false
+    },
+    {
+     "id": "genteel.oewn-01954376-s",
+     "word": "genteel",
+     "gloss": "marked by refinement in taste and manners",
+     "charge": 1,
+     "tone": "Refinement praised, but primly - the word can carry a faintly pitying edge, as in 'shabby-genteel'.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "primly, shabby-genteel"
+     }
+    },
+    {
+     "id": "polite.oewn-01954376-s",
+     "word": "polite",
+     "gloss": "marked by refinement in taste and manners",
+     "charge": 2,
+     "tone": "Not courtesy but cultivation - the refinement a whole circle credits itself with.",
+     "rewrite": false
+    },
+    {
+     "id": "couth.oewn-01954649-s",
+     "word": "couth",
+     "gloss": "(used facetiously) refined and well-mannered",
+     "charge": 0,
+     "tone": "The joke is in the word itself - refinement praised with one eyebrow raised.",
+     "rewrite": false
+    },
+    {
+     "id": "mincing.oewn-01954782-s",
+     "word": "mincing",
+     "gloss": "affectedly dainty or refined",
+     "charge": -2,
+     "tone": "Mocks refinement as performance - the daintiness is put on.",
+     "rewrite": false
+    },
+    {
+     "id": "niminy-piminy.oewn-01954782-s",
+     "word": "niminy-piminy",
+     "gloss": "affectedly dainty or refined",
+     "charge": -3,
+     "tone": "Pure contempt - the invented, mincing sound does the sneering.",
+     "rewrite": false
+    },
+    {
+     "id": "prim.oewn-01954782-s",
+     "word": "prim",
+     "gloss": "affectedly dainty or refined",
+     "charge": -1,
+     "tone": "Disapproves gently: correct manners held so tightly they have become a fault.",
+     "rewrite": false
+    },
+    {
+     "id": "twee.oewn-01954782-s",
+     "word": "twee",
+     "gloss": "affectedly dainty or refined",
+     "charge": -2,
+     "tone": "British and withering - sweetness pushed past charm into embarrassment.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-01114727-a",
+   "axis": "matter-of-fact → warm",
+   "members": [
+    {
+     "id": "generous.oewn-01114727-a",
+     "word": "generous",
+     "gloss": "willing to give and share unstintingly",
+     "charge": 2,
+     "tone": "The plain, unqualified praise - it credits both the giving and the spirit behind it.",
+     "rewrite": false
+    },
+    {
+     "id": "benevolent.oewn-01115023-s",
+     "word": "benevolent",
+     "gloss": "generous in providing aid to others",
+     "charge": 2,
+     "tone": "Praises the disposition rather than any particular gift.",
+     "rewrite": false
+    },
+    {
+     "id": "freehearted.oewn-01115023-s",
+     "word": "freehearted",
+     "gloss": "generous in providing aid to others",
+     "charge": 2,
+     "tone": "Warm - the giving is presented as coming from feeling, not duty.",
+     "rewrite": false
+    },
+    {
+     "id": "big.oewn-01115129-s",
+     "word": "big",
+     "gloss": "given or giving freely",
+     "charge": 1,
+     "tone": "Praise with a shrug - 'big of you' can be sincere or sarcastic.",
+     "rewrite": false
+    },
+    {
+     "id": "bighearted.oewn-01115129-s",
+     "word": "bighearted",
+     "gloss": "given or giving freely",
+     "charge": 2,
+     "tone": "Entirely sincere - it praises the person, not the sum.",
+     "rewrite": false
+    },
+    {
+     "id": "bounteous.oewn-01115129-s",
+     "word": "bounteous",
+     "gloss": "given or giving freely",
+     "charge": 1,
+     "tone": "Biblical in flavour - generosity on a grand scale.",
+     "rewrite": false
+    },
+    {
+     "id": "bountiful.oewn-01115129-s",
+     "word": "bountiful",
+     "gloss": "given or giving freely",
+     "charge": 1,
+     "tone": "Abundance more than kindness - the giving is a matter of plenty.",
+     "rewrite": false
+    },
+    {
+     "id": "freehanded.oewn-01115129-s",
+     "word": "freehanded",
+     "gloss": "given or giving freely",
+     "charge": 1,
+     "tone": "Describes the habit of giving easily, with no comment on why.",
+     "rewrite": false
+    },
+    {
+     "id": "handsome.oewn-01115129-s",
+     "word": "handsome",
+     "gloss": "given or giving freely",
+     "charge": 2,
+     "tone": "Praises the scale of the giving, and implies it exceeded what was owed.",
+     "rewrite": false
+    },
+    {
+     "id": "giving.oewn-01115129-s",
+     "word": "giving",
+     "gloss": "given or giving freely",
+     "charge": 1,
+     "tone": "Slightly therapeutic in register; it names a personality type rather than an act.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "liberal.oewn-01115129-s",
+     "word": "liberal",
+     "gloss": "given or giving freely",
+     "charge": 1,
+     "tone": "Abundance framed as generosity - the giving is ample rather than measured.",
+     "rewrite": false
+    },
+    {
+     "id": "openhanded.oewn-01115129-s",
+     "word": "openhanded",
+     "gloss": "given or giving freely",
+     "charge": 2,
+     "tone": "A vivid old word: the hand is not closed, and neither is the person.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-02334687-a",
+   "axis": "condemning → admiring",
+   "members": [
+    {
+     "id": "stubborn.oewn-02334687-a",
+     "word": "stubborn",
+     "gloss": "tenaciously unwilling or marked by tenacious unwillingness to yield",
+     "charge": -1,
+     "tone": "Refusal held past the point of reason - the word faults the persistence.",
+     "rewrite": false
+    },
+    {
+     "id": "obstinate.oewn-02334687-a",
+     "word": "obstinate",
+     "gloss": "tenaciously unwilling or marked by tenacious unwillingness to yield",
+     "charge": -2,
+     "tone": "Colder and more formal than stubborn; it withholds the affection stubborn allows.",
+     "rewrite": false
+    },
+    {
+     "id": "unregenerate.oewn-02334687-a",
+     "word": "unregenerate",
+     "gloss": "tenaciously unwilling or marked by tenacious unwillingness to yield",
+     "charge": -2,
+     "tone": "The refusal is a refusal to be reformed, and the speaker has given up on it.",
+     "rewrite": false
+    },
+    {
+     "id": "bloody-minded.oewn-02335070-s",
+     "word": "bloody-minded",
+     "gloss": "stubbornly obstructive and unwilling to cooperate",
+     "charge": -3,
+     "tone": "British and furious - it says the obstruction is the whole point.",
+     "rewrite": false
+    },
+    {
+     "id": "cantankerous.oewn-02335070-s",
+     "word": "cantankerous",
+     "gloss": "stubbornly obstructive and unwilling to cooperate",
+     "charge": -2,
+     "tone": "Almost fond, in the way one is fond of a difficult relative; the word is too comic to wound.",
+     "rewrite": false
+    },
+    {
+     "id": "bolshy.oewn-02335307-s",
+     "word": "bolshy",
+     "gloss": "obstreperous",
+     "charge": -2,
+     "tone": "Frames the refusal as insubordination rather than character - mutinous, not merely difficult.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "insubordination, mutinous"
+     }
+    },
+    {
+     "id": "stroppy.oewn-02335307-s",
+     "word": "stroppy",
+     "gloss": "obstreperous",
+     "charge": -2,
+     "tone": "British; it makes the defiance sound adolescent, which is the insult.",
+     "rewrite": false
+    },
+    {
+     "id": "bullheaded.oewn-02335420-s",
+     "word": "bullheaded",
+     "gloss": "obstinate and stupid",
+     "charge": -3,
+     "tone": "Adds stupidity to the charge - not just unmoving but unable to see why it should move.",
+     "rewrite": false
+    },
+    {
+     "id": "bullet-headed.oewn-02335420-s",
+     "word": "bullet-headed",
+     "gloss": "obstinate and stupid",
+     "charge": -3,
+     "tone": "The same accusation with a harder image, and unkind about the head as well.",
+     "rewrite": false
+    },
+    {
+     "id": "pigheaded.oewn-02335420-s",
+     "word": "pigheaded",
+     "gloss": "obstinate and stupid",
+     "charge": -3,
+     "tone": "The most contemptuous of the stubborn words: obstinacy treated as stupidity.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "contemptuous, obstinacy"
+     }
+    },
+    {
+     "id": "dogged.oewn-02335561-s",
+     "word": "dogged",
+     "gloss": "stubbornly unyielding",
+     "charge": 1,
+     "tone": "The same refusal to yield, entirely admired - dogged is what stubborn is called when it wins.",
+     "rewrite": false
+    },
+    {
+     "id": "dour.oewn-02335561-s",
+     "word": "dour",
+     "gloss": "stubbornly unyielding",
+     "charge": -1,
+     "tone": "Unyielding and unsmiling; it judges the manner as much as the will.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00295041-a",
+   "axis": "accusing → enviable",
+   "members": [
+    {
+     "id": "idle.oewn-00295041-a",
+     "word": "idle",
+     "gloss": "not in action or at work",
+     "charge": -1,
+     "tone": "Describes the state, not the person - machinery and money are idle too.",
+     "rewrite": false
+    },
+    {
+     "id": "bone-idle.oewn-00295329-s",
+     "word": "bone-idle",
+     "gloss": "constitutionally lazy or idle",
+     "charge": -3,
+     "tone": "British and total: the laziness is presented as going all the way through.",
+     "rewrite": false
+    },
+    {
+     "id": "bone-lazy.oewn-00295329-s",
+     "word": "bone-lazy",
+     "gloss": "constitutionally lazy or idle",
+     "charge": -3,
+     "tone": "The same accusation in the plainer word; no part of the person is exempted.",
+     "rewrite": false
+    },
+    {
+     "id": "faineant.oewn-00295445-s",
+     "word": "faineant",
+     "gloss": "disinclined to work or exertion",
+     "charge": -2,
+     "tone": "A do-nothing word for a do-nothing; it condemns from a distance.",
+     "rewrite": false
+    },
+    {
+     "id": "indolent.oewn-00295445-s",
+     "word": "indolent",
+     "gloss": "disinclined to work or exertion",
+     "charge": -2,
+     "tone": "The softest of the real accusations - it sounds almost like a temperament.",
+     "rewrite": false
+    },
+    {
+     "id": "lazy.oewn-00295445-s",
+     "word": "lazy",
+     "gloss": "disinclined to work or exertion",
+     "charge": -2,
+     "tone": "The everyday charge, and a moral one: the work was there and was not done.",
+     "rewrite": false
+    },
+    {
+     "id": "otiose.oewn-00295445-s",
+     "word": "otiose",
+     "gloss": "disinclined to work or exertion",
+     "charge": -1,
+     "tone": "Idleness stated with Latinate coolness - disinclination to effort, judged from a height.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "latinate, disinclination"
+     }
+    },
+    {
+     "id": "slothful.oewn-00295445-s",
+     "word": "slothful",
+     "gloss": "disinclined to work or exertion",
+     "charge": -3,
+     "tone": "Names one of the seven deadly sins; the laziness is a fault of the soul.",
+     "rewrite": false
+    },
+    {
+     "id": "work-shy.oewn-00295445-s",
+     "word": "work-shy",
+     "gloss": "disinclined to work or exertion",
+     "charge": -3,
+     "tone": "Accusing - unwillingness to work treated as a character fault, not a circumstance.",
+     "rewrite": false
+    },
+    {
+     "id": "lackadaisical.oewn-00295877-s",
+     "word": "lackadaisical",
+     "gloss": "idle or indolent especially in a dreamy way",
+     "charge": -1,
+     "tone": "Comic rather than damning; the failing is a lack of spirit, not of will.",
+     "rewrite": false
+    },
+    {
+     "id": "leisured.oewn-00296101-s",
+     "word": "leisured",
+     "gloss": "free from duties or responsibilities",
+     "charge": 1,
+     "tone": "Idleness admired - because it is assumed to have been paid for.",
+     "rewrite": false
+    },
+    {
+     "id": "unengaged.oewn-00296373-s",
+     "word": "unengaged",
+     "gloss": "not busy or occupied; free",
+     "charge": 0,
+     "tone": "Purely factual: not currently occupied, with no view taken on why.",
+     "rewrite": false
+    }
+   ]
+  },
+  {
+   "family": "family-00858506-v",
+   "axis": "insincere → sincere",
+   "members": [
+    {
+     "id": "praise.oewn-00858506-v",
+     "word": "praise",
+     "gloss": "express approval of",
+     "charge": 2,
+     "tone": "The plain word, and the honest one: approval expressed and meant.",
+     "rewrite": false
+    },
+    {
+     "id": "troll.oewn-00829262-v",
+     "word": "troll",
+     "gloss": "praise or celebrate in song",
+     "charge": 0,
+     "tone": "Archaic and hearty - praise sung out in a full round voice.",
+     "rewrite": false
+    },
+    {
+     "id": "salute.oewn-00858952-v",
+     "word": "salute",
+     "gloss": "express commendation of",
+     "charge": 2,
+     "tone": "Borrows the gesture from the military; it praises formally and briefly, as an act of respect.",
+     "rewrite": false
+    },
+    {
+     "id": "applaud.oewn-00861956-v",
+     "word": "applaud",
+     "gloss": "express that something is worthy of praise",
+     "charge": 2,
+     "tone": "Public by nature - the praise is performed so that others see it given.",
+     "rewrite": false
+    },
+    {
+     "id": "laud.oewn-00862284-v",
+     "word": "laud",
+     "gloss": "praise, glorify, or honor",
+     "charge": 2,
+     "tone": "Ceremonial - it lifts the praise onto a formal, liturgical register.",
+     "rewrite": true,
+     "flagged_for": {
+      "grammar": "register"
+     }
+    },
+    {
+     "id": "extol.oewn-00862284-v",
+     "word": "extol",
+     "gloss": "praise, glorify, or honor",
+     "charge": 2,
+     "tone": "Praise at length and without reservation - the enthusiasm is part of the meaning.",
+     "rewrite": false
+    },
+    {
+     "id": "exalt.oewn-00862284-v",
+     "word": "exalt",
+     "gloss": "praise, glorify, or honor",
+     "charge": 2,
+     "tone": "Raises the subject rather than merely approving of them; close to worship.",
+     "rewrite": false
+    },
+    {
+     "id": "glorify.oewn-00862284-v",
+     "word": "glorify",
+     "gloss": "praise, glorify, or honor",
+     "charge": 1,
+     "tone": "Praise raised toward worship - and it turns accusatory the moment the object does not deserve it.",
+     "rewrite": false
+    },
+    {
+     "id": "proclaim.oewn-00862284-v",
+     "word": "proclaim",
+     "gloss": "praise, glorify, or honor",
+     "charge": 1,
+     "tone": "About the volume, not the sincerity: praise announced rather than felt.",
+     "rewrite": false
+    },
+    {
+     "id": "flatter.oewn-00881748-v",
+     "word": "flatter",
+     "gloss": "praise somewhat dishonestly",
+     "charge": -2,
+     "tone": "Praise with a purpose: the compliment is a means to something.",
+     "rewrite": false
+    },
+    {
+     "id": "blandish.oewn-00881748-v",
+     "word": "blandish",
+     "gloss": "praise somewhat dishonestly",
+     "charge": -2,
+     "tone": "Flattery with coaxing added - the praise is a lever being worked.",
+     "rewrite": true,
+     "flagged_for": {
+      "hard-words": "flattery, coaxing"
+     }
+    },
+    {
+     "id": "eulogize.oewn-00882301-v",
+     "word": "eulogize",
+     "gloss": "praise formally and eloquently",
+     "charge": 1,
+     "tone": "Ceremonial praise, expected by the occasion, which discounts it slightly.",
+     "rewrite": false
+    },
+    {
+     "id": "eulogise.oewn-00882301-v",
+     "word": "eulogise",
+     "gloss": "praise formally and eloquently",
+     "charge": 1,
+     "tone": "The British spelling of the same funeral-shaped praise.",
+     "rewrite": false
+    },
+    {
+     "id": "compliment.oewn-00883182-v",
+     "word": "compliment",
+     "gloss": "say something to someone that expresses praise",
+     "charge": 2,
+     "tone": "Small, direct and social - one remark, given to a person's face.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

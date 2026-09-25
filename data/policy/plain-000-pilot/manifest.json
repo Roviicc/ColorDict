@@ -1,0 +1,80 @@
+{
+ "pass": "plain-000-pilot",
+ "drawn": "2026-09-25",
+ "instrument": ".claude/agents/simplifier.md",
+ "rule": {
+  "max_words": 24,
+  "rare_zipf": 3.0,
+  "rare_limit": 2,
+  "grammar": [
+   "register",
+   "gloss",
+   "superlative",
+   "comparative",
+   "participle",
+   "participial",
+   "negation",
+   "evaluative",
+   "euphemism",
+   "euphemistic",
+   "intensifier",
+   "prefix",
+   "suffix",
+   "adjectival",
+   "adverbial",
+   "diminutive",
+   "pejorative",
+   "collocation",
+   "lemma",
+   "synset",
+   "hypernym",
+   "hyponym",
+   "denotation"
+  ]
+ },
+ "families": 11,
+ "rewrite": 16,
+ "by_rule": {
+  "grammar": 146,
+  "hard-words": 127,
+  "too-long": 274
+ },
+ "packets": [
+  {
+   "packet": 1,
+   "families": [
+    "death",
+    "poverty",
+    "courage",
+    "cowardice",
+    "dying",
+    "family-01078338-a",
+    "family-01953883-a",
+    "family-01114727-a",
+    "family-02334687-a",
+    "family-00295041-a",
+    "family-00858506-v"
+   ],
+   "rewrite": [
+    "departed.oewn-00096726-s",
+    "asleep.oewn-00096726-s",
+    "impecunious.oewn-02030912-s",
+    "valiant.oewn-00265436-s",
+    "lionhearted.oewn-00265044-s",
+    "timid.oewn-00266855-s",
+    "decease.oewn-00359085-v",
+    "pass.oewn-00359085-v",
+    "palsy-walsy.oewn-01079212-s",
+    "genteel.oewn-01954376-s",
+    "giving.oewn-01115129-s",
+    "bolshy.oewn-02335307-s",
+    "pigheaded.oewn-02335420-s",
+    "otiose.oewn-00295445-s",
+    "laud.oewn-00862284-v",
+    "blandish.oewn-00881748-v"
+   ]
+  }
+ ],
+ "wordfreq": true,
+ "gloss_from_shard_possibly_cut": 0
+}
