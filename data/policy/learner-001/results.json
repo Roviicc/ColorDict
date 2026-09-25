@@ -1,0 +1,205 @@
+{
+ "rewrites_read": 497,
+ "easy": 485,
+ "easy_rate": 0.976,
+ "threshold": 0.9,
+ "controls": {
+  "fabulously.oewn-00032576-r": [
+   "control-hard",
+   "hard"
+  ],
+  "obscenely.oewn-00414231-r": [
+   "control-hard",
+   "easy"
+  ],
+  "unfeignedly.oewn-00380195-r": [
+   "control-hard",
+   "easy"
+  ],
+  "utterly.oewn-00009459-r": [
+   "control-hard",
+   "easy"
+  ],
+  "sloppy.oewn-00313416-s": [
+   "control-easy",
+   "easy"
+  ],
+  "cluttered.oewn-02433722-s": [
+   "control-easy",
+   "easy"
+  ],
+  "disused.oewn-00672257-s": [
+   "control-easy",
+   "easy"
+  ],
+  "scrape.oewn-04701248-n": [
+   "control-easy",
+   "easy"
+  ]
+ },
+ "controls_right": false,
+ "passes": false,
+ "hard": {
+  "reassured.oewn-00340497-s": {
+   "verdict": "hard",
+   "stops": [
+    {
+     "kind": "figure",
+     "quote": "the rest of the family"
+    },
+    {
+     "kind": "sentence",
+     "quote": "never mentions it having been shaken"
+    }
+   ],
+   "why": "Nothing says 'the family' is a family of words, so the plain reading gives people, and 'it having been shaken' must be read twice to find what 'it' is."
+  },
+  "arrant.oewn-01524174-s": {
+   "verdict": "hard",
+   "stops": [
+    {
+     "kind": "word",
+     "quote": "scornful"
+    },
+    {
+     "kind": "word",
+     "quote": "sneers"
+    }
+   ],
+   "why": "'scornful' and 'sneers' are two book words the learner would not know, and the note's meaning rests on both."
+  },
+  "anile.oewn-01649409-s": {
+   "verdict": "hard",
+   "stops": [
+    {
+     "kind": "figure",
+     "quote": "withering"
+    },
+    {
+     "kind": "word",
+     "quote": "scorn"
+    }
+   ],
+   "why": "'withering' read plainly means drying up, which tells the learner nothing about tone, and 'scorn' is a book word."
+  },
+  "roiled.oewn-01811355-s": {
+   "verdict": "hard",
+   "stops": [
+    {
+     "kind": "word",
+     "quote": "Churning"
+    },
+    {
+     "kind": "word",
+     "quote": "flaring"
+    }
+   ],
+   "why": "The note opens on two words a learner would meet only in books, and the contrast between them is the whole point of the first half."
+  },
+  "stung.oewn-01811355-s": {
+   "verdict": "hard",
+   "stops": [
+    {
+     "kind": "figure",
+     "quote": "Something landed"
+    },
+    {
+     "kind": "word",
+     "quote": "wears on"
+    }
+   ],
+   "why": "Nothing says what landed, so the plain reading gives the learner no picture, and 'wears on' read plainly says nothing about a feeling that keeps going."
+  },
+  "hurt.oewn-01321683-s": {
+   "verdict": "hard",
+   "stops": [
+    {
+     "kind": "figure",
+     "quote": "carries its lean toward battle lightly"
+    }
+   ],
+   "why": "'lean' as a noun and 'carries ... lightly' as a figure leave the learner with no plain picture of what the word does."
+  },
+  "lacerated.oewn-01321879-s": {
+   "verdict": "hard",
+   "stops": [
+    {
+     "kind": "word",
+     "quote": "ragged"
+    },
+    {
+     "kind": "word",
+     "quote": "curt"
+    }
+   ],
+   "why": "'ragged' and 'curt' are both words the learner would meet only in books."
+  },
+  "discreetness.oewn-05623283-n": {
+   "verdict": "hard",
+   "stops": [
+    {
+     "kind": "word",
+     "quote": "knack"
+    },
+    {
+     "kind": "word",
+     "quote": "heading off"
+    }
+   ],
+   "why": "'knack' is an informal word the learner would not know, and 'heading off' read plainly means leaving, not preventing."
+  },
+  "wickedness.oewn-00746935-n": {
+   "verdict": "hard",
+   "stops": [
+    {
+     "kind": "word",
+     "quote": "preachy"
+    },
+    {
+     "kind": "word",
+     "quote": "relish"
+    }
+   ],
+   "why": "'preachy' and 'relish' are both words the learner would meet only in books, and they carry the whole tone of the note."
+  },
+  "polite.oewn-00645401-a": {
+   "verdict": "hard",
+   "stops": [
+    {
+     "kind": "sentence",
+     "quote": "Credits the social rules as kept"
+    }
+   ],
+   "why": "The learner cannot tell on one pass what it means to 'credit' rules 'as kept'; the sentence is so compressed that its verbs are missing and it must be read twice."
+  },
+  "colour.oewn-04685309-n": {
+   "verdict": "hard",
+   "stops": [
+    {
+     "kind": "word",
+     "quote": "tint"
+    },
+    {
+     "kind": "figure",
+     "quote": "so it passes"
+    }
+   ],
+   "why": "'tint' is a word the learner would not know, and 'so it passes' read plainly means goes by, not is accepted."
+  },
+  "priggish.oewn-01886245-s": {
+   "verdict": "hard",
+   "stops": [
+    {
+     "kind": "word",
+     "quote": "Scornful"
+    },
+    {
+     "kind": "word",
+     "quote": "smugness"
+    }
+   ],
+   "why": "'Scornful' and 'smugness' are two words the learner would not know, and the note opens on one of them."
+  }
+ },
+ "errors": []
+}

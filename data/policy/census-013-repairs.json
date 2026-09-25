@@ -1,0 +1,44 @@
+{
+ "amplify.oewn-00841513-v": {
+  "action": "tone",
+  "tone": "Builds a thing up past its limits or past the truth, the same overreach as *exaggerate* but named with less open blame.",
+  "charge": -1,
+  "reasoning": "The gloss puts the excess inside the word ('beyond bounds or the truth'). The old note said the word only means 'made bigger' and placed the fault outside it, which is the plain enlarge sense. It also ranked the whole synset ('accuses least of the three'). The new note builds the overreach into the word and covers both halves of the gloss, limits and truth. It names one neighbour instead of ranking three: the overreach is the same as exaggerate's, only blamed less openly. Charge moves from 0 to -1 because the word now carries the fault, and it stays a step milder than exaggerate (-2)."
+ },
+ "heaven-sent.oewn-01052675-s": {
+  "action": "tone",
+  "tone": "Deeply thankful - something so lucky or so fitting is pictured as a gift from above, warmer than *providential*'s sense of a plan.",
+  "reasoning": "The old note tied the word to timing ('the timing was so right'). The gloss covers anything peculiarly fortunate or appropriate, which can be a person or an object as well as a well-timed event. The new note keeps 'Deeply thankful' and the heaven image. It widens the subject to anything lucky or fitting and takes the vividness from 'sent', the gift-from-above picture. It contrasts with providential on warmth rather than on timing, and it does not contradict providential's note (intended rather than lucky). Charge unchanged."
+ },
+ "musty.oewn-01073758-s": {
+  "action": "tone",
+  "tone": "Mold on a thing or in its smell, taken as stale and damp, where *moldy* makes it disgusting.",
+  "reasoning": "The old note limited the word to food ('on the food or smelled off it'), but the gloss has no food limit and the only example is a bare odour. The old note also ranked the synset ('the gentlest of the three'). The new note covers both halves of the gloss, mold on a thing or in its smell, with no food limit. The -1 charge now rests on a quality instead of a ranking: stale and damp versus moldy's disgust. It names one neighbour. Charge unchanged."
+ },
+ "disciplinary.oewn-01303596-s": {
+  "action": "charge",
+  "charge": 0,
+  "reasoning": "The note says the word names correction 'in neutral, official language', but the charge was -1. The note and the charge contradicted each other. The gloss 'designed to promote discipline' carries no disapproval, so the note is right and the charge moves to 0. This matches corrective (0) in the same synset. The note text stands. Sibling disciplinal stays at -1 and its note says 'same official flatness'. That now reads a little oddly against 0 here, but it was not in this packet and I left it alone."
+ },
+ "longanimous.oewn-01740820-s": {
+  "action": "tone",
+  "tone": "Calm, patient restraint under hardship or insult alike, in a stiff, bookish word beside the plainer *forbearing*.",
+  "reasoning": "The old note cut the word down to 'patience when provoked' and dropped the bearing-of-adversity half that the gloss and its example ('in the face of suffering') both carry. It also claimed a family-wide top rank ('the most formal word for it'). The new note covers hardship and insult together and keeps the calm ('unruffled') from the gloss. It replaces the top-rank claim with a register contrast against one named neighbour, forbearing. Charge unchanged."
+ },
+ "agitating.oewn-01902992-s": {
+  "action": "tone",
+  "tone": "The plainer word for what stirs up anger or resentment, or tends to, keeping the shaken-up feel that clinical *agitative* flattens out.",
+  "reasoning": "The old note invented a split between happening-now and settled quality based on the -ing ending. It gave the 'tends to cause' reading to agitative, narrowing this word past its gloss, and it used a grammar term ('-ing form'). The new note covers both 'causing' and 'tending to cause'. It contrasts with agitative on register and picture (plain, with the stir-and-shake image) instead of on time. It does not contradict agitative's own 'flat and clinical' note, which still carries the aspect claim. That note was not in this packet. Charge unchanged."
+ },
+ "intelligent.oewn-01932488-s": {
+  "action": "tone",
+  "tone": "Marks a being as able to reason at all - a kind of mind, not a clever one, as in *intelligent life*.",
+  "charge": 0,
+  "reasoning": "This gloss is the bare capacity to reason, the classifying sense that sits beside reasoning and thinking. The old note turned it into a compliment and was charged +1, which brought in the common 'clever' sense. The new note keeps the contrast with cleverness and makes it the point: the word sorts minds rather than praising them. Charge moves to 0, and the note asserts the neutrality, so I changed both. Heads-up: the passed sibling notes for reasoning and thinking describe intelligent as extending credit ('none of the credit *intelligent* does for it'). They now contradict this sense and should be looked at in a later pass. I did not touch them here."
+ },
+ "tawdry.oewn-02354846-s": {
+  "action": "tone",
+  "tone": "Cheap stuff cheaply made, and written off whole as trash, where *shoddy* fixes on poor work passed off as sound.",
+  "reasoning": "The old note based its scorn on 'trying to look flashy', which belongs to tawdry's separate tastelessly-showy sense, not to this gloss about inferior workmanship and materials. The new note covers both halves of the gloss ('cheap stuff' for the materials, 'cheaply made' for the workmanship). It keeps the -3 contempt by writing the whole thing off as trash rather than by pointing to showiness. It separates tawdry from shoddy, whose note is about pretence. Charge unchanged."
+ }
+}

@@ -36,6 +36,20 @@ from plain_packets import load_batch  # noqa: E402
 
 PASS_EASY = 0.9
 EVERYDAY_ZIPF = 4.0  # an easy control uses only words met every week
+# School words learner-reader.md counts as everyday. plain_lint's zipf test
+# flags some of them (*adverb*), so a hard control needs two rare words
+# besides these - learner-001's first draw used three that did not (the
+# reader rightly read them easy).
+SCHOOL = {"adverb", "adverbs", "noun", "nouns", "verb", "verbs", "adjective",
+          "adjectives", "spelling", "metaphor", "literal", "formal", "informal",
+          "slang", "british"}
+
+
+def hard_enough(hits):
+    if "grammar" in hits:
+        return True
+    rare = [w.strip() for w in hits.get("hard-words", "").split(",")]
+    return len([w for w in rare if w and w.lower() not in SCHOOL]) >= 2
 
 
 def everyday(note, word):
@@ -56,7 +70,7 @@ def draw(args):
     decisions = json.loads((args.dir / "decisions.json").read_text(encoding="utf-8"))
     batch = load_batch()
     rows, key = [], {}
-    for sid, d in decisions.items():
+    for sid, d in ({} if args.controls_only else decisions).items():
         if d.get("action") != "tone":
             continue
         word, sense = batch[sid]
@@ -70,16 +84,34 @@ def draw(args):
     # so the draw can be repeated.
     rng = random.Random(args.seed)
     hard, easy = [], []
+    if args.hard_from:
+        # After a pass the shipped corpus has almost no hard notes left, so
+        # hard controls come from the notes as they stood at an earlier commit.
+        import subprocess
+        raw = subprocess.run(["git", "show", f"{args.hard_from}:data/entries/batch-0001.jsonl"],
+                             cwd=str(ROOT), capture_output=True, text=True, check=True).stdout
+        old = {}
+        for line in raw.splitlines():
+            if line.strip():
+                e = json.loads(line)
+                for sn in e.get("senses") or []:
+                    old[sn["id"]] = (e["word"], sn)
+        for sid, (word, sense) in sorted(old.items()):
+            tone = ((sense.get("connotation") or {}).get("tone") or "").strip()
+            hits = dict(plain_lint.check(tone, word)) if tone else {}
+            if tone and hard_enough(hits) and "too-long" not in hits:
+                hard.append({"id": sid, "word": word, "gloss": sense.get("definition"), "note": tone})
     for sid, (word, sense) in sorted(batch.items()):
-        if sid in key:
+        if sid in key or sid in decisions:
             continue
         tone = ((sense.get("connotation") or {}).get("tone") or "").strip()
         if not tone:
             continue
         hits = dict(plain_lint.check(tone, word))
         row = {"id": sid, "word": word, "gloss": sense.get("definition"), "note": tone}
-        if ("hard-words" in hits or "grammar" in hits) and "too-long" not in hits:
-            hard.append(row)
+        if hard_enough(hits) and "too-long" not in hits:
+            if not args.hard_from:
+                hard.append(row)
         elif not hits and len(tone.split()) <= 14 and everyday(tone, word):
             easy.append(row)
     n = args.controls // 2
@@ -157,6 +189,9 @@ def main():
     d.add_argument("--packets", type=int, default=1)
     d.add_argument("--controls", type=int, default=4)
     d.add_argument("--seed", type=int, default=2026)
+    d.add_argument("--hard-from", help="git revision to draw hard controls from")
+    d.add_argument("--controls-only", action="store_true",
+                   help="controls alone: re-check the reader's calibration")
     a = sub.add_parser("aggregate")
     a.add_argument("--dir", type=Path, required=True)
     args = ap.parse_args()
