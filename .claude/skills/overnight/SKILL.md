@@ -46,7 +46,7 @@ writes never reads, and instruments are spawned **by name** and used verbatim.
    sha256 of the three sources as first fetched: OEWN `9ca6d1dc`, SentiWordNet
    `4fc9b253`, ili-map `13b67413`. www.gutenberg.org and cdn.jsdelivr.net
    answer from the cloud since 2026-09-26; both were refused before.
-3. `python tools/instrument_gate.py` passes - eight instruments, unchanged.
+3. `python tools/instrument_gate.py` passes - nine instruments, unchanged (learner-reader.md joined 2026-09-26).
 4. Open the log: `docs/overnight/<YYYY-MM-DD>.md`, dated in UTC+8. Write the
    plan for the night into it before anything is spent.
 5. Arm the watchdog: `send_later` in 90 minutes - "Overnight check-in: read

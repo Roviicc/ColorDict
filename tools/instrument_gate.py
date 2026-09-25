@@ -28,9 +28,11 @@ AGENTS = ".claude/agents/"
 # reader mis-scores one tick, a drifted repairer rewrites the corpus.
 # The simplifier (stage 9b) joins for the same reason as the repairer: it
 # rewrites notes that were already read and judged true.
+# The learner reader (stage 9b, placed 2026-09-26) joins because its easy/hard
+# rate decides whether a plain-words pass goes ahead.
 INSTRUMENTS = ("sense-ranker.md", "enricher.md", "entry-reader.md",
                "null-auditor.md", "family-author.md", "census-reader.md",
-               "repairer.md", "simplifier.md")
+               "repairer.md", "simplifier.md", "learner-reader.md")
 
 
 def git(*args):
