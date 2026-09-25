@@ -1,0 +1,94 @@
+{
+ "packet": 1,
+ "families": [
+  {
+   "family": "family-00959321-a",
+   "axis": "neutral naming of rules against unfair dealing → emphatic praise for dealing fairly",
+   "members": [
+    {
+     "id": "fair.oewn-00959321-a",
+     "word": "fair",
+     "gloss": "free from favoritism or self-interest or bias or deception; conforming with established standards or rules",
+     "charge": 2,
+     "tone": "Plain approval that nobody was favored or tricked and the rules were kept, without the weight of principle *just* carries.",
+     "rewrite": true,
+     "flagged_for": {
+      "sentence": "without the weight of principle *just* carries"
+     }
+    },
+    {
+     "id": "just.oewn-00959321-a",
+     "word": "just",
+     "gloss": "free from favoritism or self-interest or bias or deception; conforming with established standards or rules",
+     "charge": 2,
+     "tone": "Heavier than *fair* - the same absence of bias, but weighted as a standard rightly upheld rather than a condition merely met.",
+     "rewrite": false
+    },
+    {
+     "id": "antimonopoly.oewn-00959758-s",
+     "word": "antimonopoly",
+     "gloss": "of laws and regulations; designed to protect trade and commerce from unfair business practices",
+     "charge": 0,
+     "tone": "Purely classificatory - it says what a law or regulation is built to protect trade from, and commends no one.",
+     "rewrite": false
+    },
+    {
+     "id": "antitrust.oewn-00959758-s",
+     "word": "antitrust",
+     "gloss": "of laws and regulations; designed to protect trade and commerce from unfair business practices",
+     "charge": 0,
+     "tone": "Technical and as neutral as *antimonopoly*, marking a regulation's protective purpose rather than approving anybody's conduct.",
+     "rewrite": false
+    },
+    {
+     "id": "clean.oewn-00959923-s",
+     "word": "clean",
+     "gloss": "exhibiting or calling for sportsmanship or fair play",
+     "charge": 2,
+     "tone": "Praises by what is missing - nothing foul in the play - where *sportsmanlike* names the good quality directly.",
+     "rewrite": false
+    },
+    {
+     "id": "sporting.oewn-00959923-s",
+     "word": "sporting",
+     "gloss": "exhibiting or calling for sportsmanship or fair play",
+     "charge": 2,
+     "tone": "Warmer and easier than *clean*, crediting fair play as a spirit brought to the contest rather than a rule left unbroken.",
+     "rewrite": false
+    },
+    {
+     "id": "sporty.oewn-00959923-s",
+     "word": "sporty",
+     "gloss": "exhibiting or calling for sportsmanship or fair play",
+     "charge": 1,
+     "tone": "The most casual of these, informal and light, granting the same approval with none of *sportsmanlike*'s weight.",
+     "rewrite": false
+    },
+    {
+     "id": "sportsmanlike.oewn-00959923-s",
+     "word": "sportsmanlike",
+     "gloss": "exhibiting or calling for sportsmanship or fair play",
+     "charge": 2,
+     "tone": "The formal member - it measures conduct against a named standard of sportsmanship instead of merely reporting, as *clean* does, that nothing foul happened.",
+     "rewrite": false
+    },
+    {
+     "id": "fair-minded.oewn-00960166-s",
+     "word": "fair-minded",
+     "gloss": "of a person; just and impartial; not prejudiced",
+     "charge": 2,
+     "tone": "Praises a settled cast of mind rather than a single dealing - the impartiality is lodged in the person.",
+     "rewrite": false
+    },
+    {
+     "id": "fair-and-square.oewn-00960289-s",
+     "word": "fair-and-square",
+     "gloss": "just and honest",
+     "charge": 3,
+     "tone": "The emphatic one - its doubled phrasing insists there is nothing left to question, where *just* simply states that the standard was met.",
+     "rewrite": false
+    }
+   ]
+  }
+ ]
+}

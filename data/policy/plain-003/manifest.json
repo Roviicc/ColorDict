@@ -1,0 +1,54 @@
+{
+ "pass": "plain-003",
+ "drawn": "2026-09-25",
+ "instrument": ".claude/agents/simplifier.md",
+ "rule": {
+  "max_words": 24,
+  "rare_zipf": 3.0,
+  "rare_limit": 2,
+  "grammar": [
+   "register",
+   "gloss",
+   "superlative",
+   "comparative",
+   "participle",
+   "participial",
+   "negation",
+   "evaluative",
+   "euphemism",
+   "euphemistic",
+   "intensifier",
+   "prefix",
+   "suffix",
+   "adjectival",
+   "adverbial",
+   "diminutive",
+   "pejorative",
+   "collocation",
+   "lemma",
+   "synset",
+   "hypernym",
+   "hyponym",
+   "denotation"
+  ]
+ },
+ "flagged_by": "data/policy/learner-002/results.json",
+ "families": 1,
+ "rewrite": 1,
+ "by_rule": {
+  "sentence": 1
+ },
+ "packets": [
+  {
+   "packet": 1,
+   "families": [
+    "family-00959321-a"
+   ],
+   "rewrite": [
+    "fair.oewn-00959321-a"
+   ]
+  }
+ ],
+ "wordfreq": true,
+ "gloss_from_shard_possibly_cut": 0
+}

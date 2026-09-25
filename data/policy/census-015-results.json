@@ -1,0 +1,59 @@
+{
+ "sample": "census-015",
+ "seed": null,
+ "population": 16,
+ "read": 16,
+ "right": 15,
+ "wrong": 1,
+ "unsure": 0,
+ "error_rate_pct": 6.2,
+ "threshold_pct": 5.0,
+ "reader_model": "claude-fable-5-1",
+ "reader_effort": "xhigh",
+ "reader_agent": ".claude/agents/census-reader.md",
+ "reader_tools": "Read, Write",
+ "note": "blind read - readers saw only gloss, charge and note, and did not author or repair the corpus",
+ "missing_packets": [],
+ "unread": [],
+ "verdicts_for_unknown_ids": [],
+ "reconciled_ids": [],
+ "faults": {
+  "distribution": 1
+ },
+ "by_part_of_speech": {
+  "adjective": {
+   "read": 12,
+   "right": 11,
+   "wrong": 1,
+   "unsure": 0,
+   "error_rate_pct": 8.3
+  },
+  "noun": {
+   "read": 3,
+   "right": 3,
+   "wrong": 0,
+   "unsure": 0,
+   "error_rate_pct": 0.0
+  },
+  "verb": {
+   "read": 1,
+   "right": 1,
+   "wrong": 0,
+   "unsure": 0,
+   "error_rate_pct": 0.0
+  }
+ },
+ "failures_by_synset": {
+  "oewn-01321879-s": [
+   {
+    "id": "lacerated.oewn-01321879-s",
+    "word": "lacerated",
+    "verdict": "wrong",
+    "fault": "distribution",
+    "why": "'The usual *-ed* form' is a frequency claim about which form is used, which we have no corpus to support; it also leans on 'that same' tearing from a note the reader cannot see.",
+    "definition": "having edges that are jagged from injury",
+    "tone": "The usual *-ed* form for that same uneven tearing, felt rather than measured, where *lacerate* stays short and cool."
+   }
+  ]
+ }
+}
