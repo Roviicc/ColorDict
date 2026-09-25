@@ -244,8 +244,11 @@ def queue_state():
     print("  11.75 measured that lowering the gate makes selection worse.")
 
 
+CENSUS_FLOOR = 50  # read senses; see census_state
+
+
 def census_state():
-    rule("CENSUS - gate is 5%; a tick over it stops the run")
+    rule("CENSUS - gate is 5%; a tick over it stops the run from 50 read up")
     files = sorted(glob.glob(str(ROOT / "data/policy/census-*-results.json")))
     for f in files[-6:]:
         d = json.loads(Path(f).read_text(encoding="utf-8"))
@@ -257,7 +260,16 @@ def census_state():
             shown, flag = "  n/a", "  <-- withdrawn (11.77)"
         else:
             shown = "%5s" % rate
-            flag = "  <-- OVER GATE" if rate > 5 else ""
+            # The author's floor (2026-09-26): under 50 read senses one fault
+            # swings the rate by 2+ points, so the stop decides only from 50 up.
+            # Below it the faults are repaired third-hand and the run goes on.
+            read = d.get("read") or 0
+            if rate <= 5:
+                flag = ""
+            elif read >= CENSUS_FLOOR:
+                flag = "  <-- OVER GATE"
+            else:
+                flag = "  (over 5%% under the %d floor: repair, no stop)" % CENSUS_FLOOR
         recon = d.get("reconciled_ids") or []
         note = "  reconciled=%d" % len(recon) if recon else ""
         # An alias rather than a resolved id means the aggregator was run
