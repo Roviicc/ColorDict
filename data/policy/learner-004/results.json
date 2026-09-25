@@ -1,0 +1,28 @@
+{
+ "rewrites_read": 2,
+ "easy": 2,
+ "easy_rate": 1.0,
+ "threshold": 0.9,
+ "controls": {
+  "better_off.oewn-01051901-s": [
+   "control-hard",
+   "hard"
+  ],
+  "drab.oewn-00365961-s": [
+   "control-hard",
+   "hard"
+  ],
+  "naif.oewn-02279294-a": [
+   "control-easy",
+   "easy"
+  ],
+  "neandertal.oewn-01956681-s": [
+   "control-easy",
+   "easy"
+  ]
+ },
+ "controls_right": true,
+ "passes": true,
+ "hard": {},
+ "errors": []
+}

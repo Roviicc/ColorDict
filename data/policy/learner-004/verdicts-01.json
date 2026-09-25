@@ -1,0 +1,16 @@
+{"packet": 1,
+ "verdicts": {
+  "naif.oewn-02279294-a": {"verdict": "easy"},
+  "drab.oewn-00365961-s": {"verdict": "hard",
+           "stops": [{"kind": "word", "quote": "dispiriting"},
+                     {"kind": "word", "quote": "monotony"},
+                     {"kind": "word", "quote": "Dejection"}],
+           "why": "Three words a learner would meet only in books sit in one short line, so the sentence gives them nothing to hold on to."},
+  "better_off.oewn-01051901-s": {"verdict": "hard",
+           "stops": [{"kind": "grammar", "quote": "Comparative by construction"}],
+           "why": "The note opens with a grammar term the learner would have to look up."},
+  "unreformable.oewn-02524877-s": {"verdict": "easy"},
+  "tawdry.oewn-02354846-s": {"verdict": "easy"},
+  "neandertal.oewn-01956681-s": {"verdict": "easy"}
+ }
+}
