@@ -1,0 +1,360 @@
+{
+ "packet": 9,
+ "count": 28,
+ "entries": [
+  {
+   "id": "obtrusive.oewn-01290974-s",
+   "word": "obtrusive",
+   "definition": "undesirably noticeable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The one word here that judges: as noticeable as it gets, and unwanted, where *marked* only measures how much.",
+   "usage_labels": [],
+   "examples": [
+    "the obtrusive behavior of a spoiled child",
+    "equally obtrusive was the graffiti"
+   ]
+  },
+  {
+   "id": "accident-prone.oewn-01296172-s",
+   "word": "accident-prone",
+   "definition": "having more than the average number of accidents",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Mildly blaming - it turns a count of accidents into a fixed quality, so they seem caused by whatever it describes, not by chance.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "corrective.oewn-01303596-s",
+   "word": "corrective",
+   "definition": "designed to promote discipline",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Official, and a gentler way to name discipline - it is what discipline is called in a report.",
+   "usage_labels": [
+    "euphemistic"
+   ],
+   "examples": [
+    "the teacher's action was corrective rather than instructional"
+   ]
+  },
+  {
+   "id": "disciplinary.oewn-01303596-s",
+   "word": "disciplinary",
+   "definition": "designed to promote discipline",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Names correction or punishment in neutral, official language.",
+   "usage_labels": [
+    "formal"
+   ],
+   "examples": [
+    "the mother was stern and disciplinary"
+   ]
+  },
+  {
+   "id": "hurt.oewn-01321683-s",
+   "word": "hurt",
+   "definition": "suffering from physical injury especially that suffered in battle",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The softest word here for real physical injury: it carries its lean toward battle lightly and shows nothing of the wound.",
+   "usage_labels": [],
+   "examples": [
+    "ambulances … for the hurt men and women"
+   ]
+  },
+  {
+   "id": "lacerated.oewn-01321879-s",
+   "word": "lacerated",
+   "definition": "having edges that are jagged from injury",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The ordinary *-ed* form for that same ragged tearing, felt rather than measured, where *lacerate* stays curt.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "livid.oewn-01321272-s",
+   "word": "livid",
+   "definition": "discolored by coagulation of blood beneath the skin",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The same bruising, but heavy and grim, as if something has gone badly wrong under the skin, where *black-and-blue* stays almost homely.",
+   "usage_labels": [],
+   "examples": [
+    "livid bruises"
+   ]
+  },
+  {
+   "id": "raw.oewn-01322003-s",
+   "word": "raw",
+   "definition": "having the surface exposed and painful",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Reports pain where the jagged-edge words report shape: the covering is gone, leaving what lies under it exposed and stinging.",
+   "usage_labels": [],
+   "examples": [
+    "a raw wound"
+   ]
+  },
+  {
+   "id": "at_fault.oewn-01324381-s",
+   "word": "at fault",
+   "definition": "deserving blame",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The mildest blame word: it says where blame lies but not what kind of act it was, while *guilty* calls the act wrong.",
+   "usage_labels": [],
+   "examples": [
+    "admitted to being at fault"
+   ]
+  },
+  {
+   "id": "blameable.oewn-01324481-s",
+   "word": "blameable",
+   "definition": "deserving blame or censure as being wrong or evil or injurious",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Like *blamable*, it shows no personal feeling, treating the wrong, the evil and the merely harmful alike, in one steady tone.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "bloodguilty.oewn-01324891-s",
+   "word": "bloodguilty",
+   "definition": "guilty of murder or bloodshed",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The most serious here: guilt for killing, which the word treats as a stain carried rather than a charge answered.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "delinquent.oewn-01325440-s",
+   "word": "delinquent",
+   "definition": "guilty of a misdeed",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Lighter than *criminal* because the deed is smaller: it scolds a wrong rather than condemning a crime.",
+   "usage_labels": [],
+   "examples": [
+    "delinquent minors"
+   ]
+  },
+  {
+   "id": "fineable.oewn-01325573-s",
+   "word": "fineable",
+   "definition": "liable to a fine",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "As dry as *finable*: a penalty applies, and nothing is said about the wrong or the person who did it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "guilty.oewn-01323940-a",
+   "word": "guilty",
+   "definition": "responsible for or chargeable with a reprehensible act",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain verdict, covering both the one who did the wrong and the one who could merely be charged with it.",
+   "usage_labels": [],
+   "examples": [
+    "guilty of murder",
+    "the guilty person",
+    "secret guilty deeds"
+   ]
+  },
+  {
+   "id": "highbrowed.oewn-01335859-s",
+   "word": "highbrowed",
+   "definition": "highly cultured or educated",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same claim to being highly cultured as *highbrow*, but the *-ed* ending makes it sit heavier and stiffer.",
+   "usage_labels": [],
+   "examples": [
+    "a highbrowed literary critic"
+   ]
+  },
+  {
+   "id": "newsworthy.oewn-01347682-s",
+   "word": "newsworthy",
+   "definition": "sufficiently interesting to be reported in a newspaper",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "A bar to clear, not a compliment: it asks whether something has enough interest to report, where *interesting* describes the pull itself.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "encroaching.oewn-01355168-s",
+   "word": "encroaching",
+   "definition": "gradually intrusive without right or permission",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "It stresses slowness: ground taken bit by bit, so no single step looks like the violation *invasive* makes it sound.",
+   "usage_labels": [],
+   "examples": [
+    "we moved back from the encroaching tide"
+   ]
+  },
+  {
+   "id": "intrusive.oewn-01354915-a",
+   "word": "intrusive",
+   "definition": "tending to intrude (especially upon privacy)",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain word for the fault: it names the pushing-in itself, without the scorn in *meddlesome*.",
+   "usage_labels": [],
+   "examples": [
+    "she felt her presence there was intrusive"
+   ]
+  },
+  {
+   "id": "renewing.oewn-01360590-s",
+   "word": "renewing",
+   "definition": "tending to impart new life and vigor to",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approval for a lift that brings back lost life and energy, rather than giving them for the first time like *life-giving*.",
+   "usage_labels": [],
+   "examples": [
+    "the renewing warmth of the sunshine"
+   ]
+  },
+  {
+   "id": "tonic.oewn-01359875-s",
+   "word": "tonic",
+   "definition": "imparting vitality and energy",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Cool, calm approval: it steadies you and gives you energy, but does not delight you like the louder *exhilarating*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "conscionable.oewn-01372980-s",
+   "word": "conscionable",
+   "definition": "acceptable to your conscience",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "A low, inner bar: the thing satisfies your conscience rather than being right in itself - far weaker approval than *fitting*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "meet.oewn-01373068-s",
+   "word": "meet",
+   "definition": "being precisely fitting and right",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same verdict as *fitting*, declared in a serious, formal way, so the rightness sounds handed down rather than noticed.",
+   "usage_labels": [],
+   "examples": [
+    "it is only meet that she should be seated first"
+   ]
+  },
+  {
+   "id": "retributive.oewn-01373232-s",
+   "word": "retributive",
+   "definition": "given or inflicted in requital according to merits or deserts",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Cool and measured: it approves the match between what is deserved and what is dealt out, not what is dealt out itself.",
+   "usage_labels": [],
+   "examples": [
+    "retributive justice"
+   ]
+  },
+  {
+   "id": "retributory.oewn-01373232-s",
+   "word": "retributory",
+   "definition": "given or inflicted in requital according to merits or deserts",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The same verdict as *retributive*, but more mechanical - it sounds like the machinery of paying back, not the principle behind it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "best-known.oewn-01378472-s",
+   "word": "best-known",
+   "definition": "most familiar or renowned",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Ranks one above all the rest for being known, but claims nothing grander than that first place.",
+   "usage_labels": [],
+   "examples": [
+    "Stevenson's best-known work is probably ‘Treasure Island’"
+   ]
+  },
+  {
+   "id": "better-known.oewn-01378615-s",
+   "word": "better-known",
+   "definition": "more familiar or renowned than the other of two",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Narrow - it compares exactly two and gives one the edge, not the top spot among all as *best-known* does.",
+   "usage_labels": [],
+   "examples": [
+    "the better-known book of the two"
+   ]
+  },
+  {
+   "id": "misplaced.oewn-01452757-s",
+   "word": "misplaced",
+   "definition": "lost temporarily; as especially put in an unaccustomed or forgotten place",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The same temporary loss as *mislaid*, but the fault lies in where it ended up, not in setting it down.",
+   "usage_labels": [],
+   "examples": [
+    "misplaced tickets"
+   ]
+  },
+  {
+   "id": "stray.oewn-01453222-s",
+   "word": "stray",
+   "definition": "(of an animal) having no home or having wandered away from home",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Pity and a touch of nuisance at once, for an animal with no home or one that has wandered off.",
+   "usage_labels": [],
+   "examples": [
+    "a stray calf",
+    "a stray dog"
+   ]
+  }
+ ]
+}

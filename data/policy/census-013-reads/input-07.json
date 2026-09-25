@@ -1,0 +1,374 @@
+{
+ "packet": 7,
+ "count": 28,
+ "entries": [
+  {
+   "id": "inexplicit.oewn-00944754-a",
+   "word": "inexplicit",
+   "definition": "implied though not directly expressed; inherent in the nature of something",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Built as 'not explicit', it sees the telling as falling short, where *implicit* sees a quality of the thing itself.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "unverbalized.oewn-00945649-s",
+   "word": "unverbalized",
+   "definition": "not made explicit",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Sounds clinical: the gap is a failure to put something into words, not a silence with any weight to it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "clean.oewn-00959923-s",
+   "word": "clean",
+   "definition": "exhibiting or calling for sportsmanship or fair play",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Praises by what is missing - nothing foul in the play - where *sportsmanlike* names the good quality directly.",
+   "usage_labels": [],
+   "examples": [
+    "a clean fight"
+   ]
+  },
+  {
+   "id": "fair.oewn-00959321-a",
+   "word": "fair",
+   "definition": "free from favoritism or self-interest or bias or deception; conforming with established standards or rules",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Plain approval no one can argue with: it confirms nobody was favored or tricked, without the weight of principle *just* carries.",
+   "usage_labels": [],
+   "examples": [
+    "a fair referee",
+    "fair deal",
+    "on a fair footing",
+    "a fair fight",
+    "by fair means or foul"
+   ]
+  },
+  {
+   "id": "odd.oewn-00971199-s",
+   "word": "odd",
+   "definition": "beyond or deviating from the usual or expected",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Flatly notes that something strays from the usual or expected, with none of *peculiar*'s second look.",
+   "usage_labels": [],
+   "examples": [
+    "had an odd name"
+   ]
+  },
+  {
+   "id": "approbative.oewn-00999508-s",
+   "word": "approbative",
+   "definition": "expressing or manifesting praise or approval",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Formal to the point of stiffness - the same praise as *approving*, raised into official language.",
+   "usage_labels": [],
+   "examples": [
+    "approbative criticism"
+   ]
+  },
+  {
+   "id": "indulgent.oewn-00999762-s",
+   "word": "indulgent",
+   "definition": "being favorably inclined",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "The mildest here: a leaning in someone's favour, not praise, so nothing has to be shown as it does with *approving*.",
+   "usage_labels": [],
+   "examples": [
+    "an indulgent attitude"
+   ]
+  },
+  {
+   "id": "infelicitous.oewn-01004300-a",
+   "word": "infelicitous",
+   "definition": "not appropriate in application; defective",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Formal and softened: it calls a thing unsuited to its use and faulty, while sounding sorry about it, where *inept* simply condemns.",
+   "usage_labels": [],
+   "examples": [
+    "an infelicitous remark",
+    "infelicitous phrasing",
+    "the infelicitous typesetting was due to illegible copy"
+   ]
+  },
+  {
+   "id": "unfinished.oewn-01009264-a",
+   "word": "unfinished",
+   "definition": "not brought to the desired final state",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Faintly disapproving: it measures the thing against the final state that was wanted, so it records falling short, not just a stage.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "free-and-easy.oewn-01048429-s",
+   "word": "free-and-easy",
+   "definition": "natural and unstudied",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Approving, and sounds like easy talk: it praises being natural rather than put on, where *informal* only notes what is missing.",
+   "usage_labels": [],
+   "examples": [
+    "lectured in a free-and-easy style"
+   ]
+  },
+  {
+   "id": "unceremonious.oewn-01048766-s",
+   "word": "unceremonious",
+   "definition": "without ceremony or formality",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Pictures the ceremony or formality as stripped off, with an abrupt, blunt edge that *casual* never carries.",
+   "usage_labels": [],
+   "examples": [
+    "an unceremonious speech"
+   ]
+  },
+  {
+   "id": "better_off.oewn-01051901-s",
+   "word": "better off",
+   "definition": "in a more fortunate or prosperous condition",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Built as a comparison - it always means better than something, and never says what.",
+   "usage_labels": [],
+   "examples": [
+    "she would have been better off if she had stuck with teaching",
+    "is better off than his classmate"
+   ]
+  },
+  {
+   "id": "heaven-sent.oewn-01052675-s",
+   "word": "heaven-sent",
+   "definition": "peculiarly fortunate or appropriate; as if by divine intervention",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Deeply thankful - the timing was so right it tempts you to say heaven stepped in.",
+   "usage_labels": [],
+   "examples": [
+    "a heaven-sent rain saved the crops"
+   ]
+  },
+  {
+   "id": "abject.oewn-01053640-s",
+   "word": "abject",
+   "definition": "most unfortunate or miserable",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Holds nothing back - misfortune or misery as bad as it gets, where *unfortunate* only notes that luck ran out.",
+   "usage_labels": [],
+   "examples": [
+    "the most abject slaves joined in the revolt",
+    "abject poverty"
+   ]
+  },
+  {
+   "id": "fateful.oewn-01053787-s",
+   "word": "fateful",
+   "definition": "(of events) having extremely unfortunate or dire consequences; bringing ruin",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Makes the ruin feel bound to happen, as though the outcome were fixed before the event - a heavy seriousness *disastrous* never claims.",
+   "usage_labels": [],
+   "examples": [
+    "a fateful error"
+   ]
+  },
+  {
+   "id": "homeless.oewn-01054302-s",
+   "word": "homeless",
+   "definition": "physically or spiritually homeless or deprived of security",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain word, for someone without a roof or without inner security, with none of the sense of being wronged in *dispossessed*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "cedar-scented.oewn-01059862-s",
+   "word": "cedar-scented",
+   "definition": "smelling like cedar",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Takes its smell from a wood and names the whole tree, where *balsam-scented* narrows to a resin.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "cinnamon-scented.oewn-01059941-s",
+   "word": "cinnamon-scented",
+   "definition": "smelling of cinnamon",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "Warm where *mint-scented* is cool, but the warmth belongs to the spice, not the word, which names the smell flatly.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "odorous.oewn-01058772-a",
+   "word": "odorous",
+   "definition": "having odor or a characteristic odor",
+   "part_of_speech": "adjective",
+   "label": "neutral",
+   "score": null,
+   "tone": "The base word: having a smell, or a smell of its own, and the only one here that never says which smell.",
+   "usage_labels": [],
+   "examples": [
+    "odorous jasmine flowers",
+    "odorous garbage",
+    "fresh odorous bread"
+   ]
+  },
+  {
+   "id": "cold.oewn-01073210-s",
+   "word": "cold",
+   "definition": "having lost freshness through passage of time",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Understated, almost a gentler way to say *stale*: it notes only that time has passed and taken the freshness with it.",
+   "usage_labels": [],
+   "examples": [
+    "a cold trail",
+    "dogs attempting to catch a cold scent"
+   ]
+  },
+  {
+   "id": "hard.oewn-01073471-s",
+   "word": "hard",
+   "definition": "dried out",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Names lost moisture, not foulness: a fault of texture, with none of the disgust in *rotten* or *rancid*.",
+   "usage_labels": [],
+   "examples": [
+    "hard dry rolls left over from the day before"
+   ]
+  },
+  {
+   "id": "maggoty.oewn-01073579-s",
+   "word": "maggoty",
+   "definition": "spoiled and covered with eggs and larvae of flies",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The same eggs and larvae as *flyblown*, but with the crawling maggots right in front of you - the harder word to hear.",
+   "usage_labels": [],
+   "examples": [
+    "a sack of maggoty apricots"
+   ]
+  },
+  {
+   "id": "musty.oewn-01073758-s",
+   "word": "musty",
+   "definition": "covered with or smelling of mold",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The gentlest of the three words for mold seen on the food or smelled off it, with none of *moldy*'s bluntness.",
+   "usage_labels": [],
+   "examples": [
+    "a moldy (or musty) odor"
+   ]
+  },
+  {
+   "id": "rancid.oewn-01073991-s",
+   "word": "rancid",
+   "definition": "(used of decomposing oils or fats) having a rank smell or taste usually due to a chemical change or decomposition",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the strong, foul smell or taste of decaying fats and oils - an accusation from the senses, not *bad*'s bare ruling.",
+   "usage_labels": [],
+   "examples": [
+    "rancid butter",
+    "rancid bacon"
+   ]
+  },
+  {
+   "id": "stale.oewn-01072500-a",
+   "word": "stale",
+   "definition": "lacking freshness, palatability, or showing deterioration from age",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The plainest word for lost freshness - taste gone, or condition gone with age - where *bad* goes further: unfit to eat.",
+   "usage_labels": [],
+   "examples": [
+    "stale bread",
+    "the beer was stale"
+   ]
+  },
+  {
+   "id": "interference.oewn-01075919-n",
+   "word": "interference",
+   "definition": "the act of hindering or obstructing or impeding",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The broadest of the three, covering holding back, blocking and slowing alike, and picturing the act as a course disrupted from outside.",
+   "usage_labels": [],
+   "examples": [
+    "She looked at her father to entreat his interference, lest Mary should be singing all night.",
+    "never had she before been so much disposed to pardon his interference in the views of his friend"
+   ]
+  },
+  {
+   "id": "amiss.oewn-01096064-s",
+   "word": "amiss",
+   "definition": "not functioning properly",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "The gentlest word here — it notes that something is off without saying how far or how badly.",
+   "usage_labels": [],
+   "examples": [
+    "something is amiss"
+   ]
+  },
+  {
+   "id": "close.oewn-01116967-s",
+   "word": "close",
+   "definition": "giving or spending with reluctance",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "A softer word: *close with money* is what you say when you do not want to say *stingy*.",
+   "usage_labels": [
+    "euphemistic"
+   ],
+   "examples": [
+    "very close (or near) with his money"
+   ]
+  }
+ ]
+}

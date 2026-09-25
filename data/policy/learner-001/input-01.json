@@ -1,0 +1,1523 @@
+{
+ "packet": 1,
+ "notes": [
+  {
+   "id": "accident-prone.oewn-01296172-s",
+   "word": "accident-prone",
+   "gloss": "having more than the average number of accidents",
+   "note": "Mildly blaming - it turns a count of accidents into a fixed quality, so they seem caused by whatever it describes, not by chance."
+  },
+  {
+   "id": "target.oewn-05990115-n",
+   "word": "target",
+   "gloss": "the goal intended to be attained (and which is believed to be attainable)",
+   "note": "The sharpest of these: the reachable outcome becomes a thing to hit, so falling short counts as a miss."
+  },
+  {
+   "id": "astounding.oewn-00648878-s",
+   "word": "astounding",
+   "gloss": "bewildering or striking dumb with wonder",
+   "note": "The heaviest impact here, falling on the person instead of rating the claim: thrown into confusion or struck silent with wonder."
+  },
+  {
+   "id": "fineable.oewn-01325573-s",
+   "word": "fineable",
+   "gloss": "liable to a fine",
+   "note": "As dry as *finable*: a penalty applies, and nothing is said about the wrong or the person who did it."
+  },
+  {
+   "id": "downhearted.oewn-00707060-s",
+   "word": "downhearted",
+   "gloss": "filled with melancholy and despondency",
+   "note": "Gentle and sympathetic, placing the low spirits in the heart and inviting comfort where *grim* rules it out."
+  },
+  {
+   "id": "uncomely.oewn-01887000-s",
+   "word": "uncomely",
+   "gloss": "not in keeping with accepted standards of what is right or proper in polite society",
+   "note": "Faint and formal - it treats falling short of accepted standards as unattractive rather than shocking, staying well back from *indecent*."
+  },
+  {
+   "id": "stiff.oewn-01997735-s",
+   "word": "stiff",
+   "gloss": "marked by firm determination or resolution; not shakable",
+   "note": "Not to be shaken, but because it does not bend - the resolve seems unbending as much as strong."
+  },
+  {
+   "id": "tranquillity.oewn-04911529-n",
+   "word": "tranquillity",
+   "gloss": "a disposition free from stress or emotion",
+   "note": "Soothing rather than lofty: a nature free of stress, praised as restful, where *serenity* raises it higher."
+  },
+  {
+   "id": "avarice.oewn-00759878-n",
+   "word": "avarice",
+   "gloss": "reprehensible acquisitiveness; insatiable desire for wealth (personified as one of the deadly sins)",
+   "note": "Condemns while it defines: a shameful greed for getting things, and a hunger for wealth that nothing can fill."
+  },
+  {
+   "id": "unruffled.oewn-00303750-s",
+   "word": "unruffled",
+   "gloss": "(of a body of water) free from disturbance by heavy waves",
+   "note": "Its *un-* means not a ripple raised, so it hints at water that held its surface, where *smooth* just describes one."
+  },
+  {
+   "id": "undue.oewn-01538069-s",
+   "word": "undue",
+   "gloss": "beyond normal limits",
+   "note": "Faults the excess for not being justified rather than for its size - the quietest complaint of the words meaning beyond normal limits."
+  },
+  {
+   "id": "bionic.oewn-01576402-s",
+   "word": "bionic",
+   "gloss": "having particular physiological functions augmented or replaced by electronic or electromechanical components",
+   "note": "Strictly technical — body functions boosted or replaced by machines, without the sense of lack the other words here attach to made things."
+  },
+  {
+   "id": "fateful.oewn-01053787-s",
+   "word": "fateful",
+   "gloss": "(of events) having extremely unfortunate or dire consequences; bringing ruin",
+   "note": "Makes the ruin feel bound to happen, as though the outcome were fixed before the event - a heavy seriousness *disastrous* never claims."
+  },
+  {
+   "id": "discrepant.oewn-00580874-s",
+   "word": "discrepant",
+   "gloss": "not compatible with other facts",
+   "note": "Formal and measuring - it notes the mismatch with the facts coolly, where *incompatible* passes judgement on it."
+  },
+  {
+   "id": "hard.oewn-01073471-s",
+   "word": "hard",
+   "gloss": "dried out",
+   "note": "Names lost moisture, not foulness: a fault of texture, with none of the disgust in *rotten* or *rancid*."
+  },
+  {
+   "id": "blameable.oewn-01324481-s",
+   "word": "blameable",
+   "gloss": "deserving blame or censure as being wrong or evil or injurious",
+   "note": "Like *blamable*, it shows no personal feeling, treating the wrong, the evil and the merely harmful alike, in one steady tone."
+  },
+  {
+   "id": "well-spoken.oewn-00152204-s",
+   "word": "well-spoken",
+   "gloss": "speaking or spoken fittingly or pleasingly",
+   "note": "Approves speech that fits the occasion or pleases the ear, where *fluent* asks only that the words come easily."
+  },
+  {
+   "id": "burdensome.oewn-01192652-s",
+   "word": "burdensome",
+   "gloss": "not easily borne; wearing",
+   "note": "The difficulty sits in the thing: a load fixed on you that must be carried, not merely a strain that tires."
+  },
+  {
+   "id": "silvery-bodied.oewn-00631617-s",
+   "word": "silvery-bodied",
+   "gloss": "having a silver-colored body",
+   "note": "The -y ending softens the colour to 'like silver' - a sheen hinted at where *silver-bodied* names the shade outright."
+  },
+  {
+   "id": "excuse.oewn-06754000-n",
+   "word": "excuse",
+   "gloss": "a defense of some offensive behavior or some failure to keep a promise etc.",
+   "note": "Admits the fault while covering it - what it defends is already offensive behaviour or a broken promise, where *defence* assumes no wrong."
+  },
+  {
+   "id": "rigorous.oewn-00714525-s",
+   "word": "rigorous",
+   "gloss": "demanding strict attention to rules and procedures",
+   "note": "Approving - the strictness comes across as discipline worth having, where *tight* only pinches."
+  },
+  {
+   "id": "clean.oewn-00959923-s",
+   "word": "clean",
+   "gloss": "exhibiting or calling for sportsmanship or fair play",
+   "note": "Praises by what is missing - nothing foul in the play - where *sportsmanlike* names the good quality directly."
+  },
+  {
+   "id": "obtrusive.oewn-01290974-s",
+   "word": "obtrusive",
+   "gloss": "undesirably noticeable",
+   "note": "The one word here that judges: as noticeable as it gets, and unwanted, where *marked* only measures how much."
+  },
+  {
+   "id": "long-bodied.oewn-00631273-s",
+   "word": "long-bodied",
+   "gloss": "having a relatively long body",
+   "note": "Pure measurement in one direction - long compared with other bodies, with no praise or fault in it."
+  },
+  {
+   "id": "buy.oewn-00685589-v",
+   "word": "buy",
+   "gloss": "accept as true",
+   "note": "Blunt and informal where *believe* is plain: it treats a claim as something on offer, so accepting it sounds weighed, not simply held."
+  },
+  {
+   "id": "indifference.oewn-07498922-n",
+   "word": "indifference",
+   "gloss": "apathy demonstrated by an absence of emotional reactions",
+   "note": "The restrained word: it reports only that no emotional reaction came, where *stolidity* sees the same blankness as dullness in the person."
+  },
+  {
+   "id": "weak.oewn-02332106-a",
+   "word": "weak",
+   "gloss": "wanting in physical strength",
+   "note": "The flat, basic word here: it names missing physical strength and stops, where sharper words add an attitude to it."
+  },
+  {
+   "id": "intrusive.oewn-01354915-a",
+   "word": "intrusive",
+   "gloss": "tending to intrude (especially upon privacy)",
+   "note": "The plain word for the fault: it names the pushing-in itself, without the scorn in *meddlesome*."
+  },
+  {
+   "id": "adorable.oewn-01462677-s",
+   "word": "adorable",
+   "gloss": "lovable especially in a childlike or naive way",
+   "note": "Praise at full strength, where *lovable* only describes: you cannot help loving it for being naive or like a child."
+  },
+  {
+   "id": "confusion.oewn-00073293-n",
+   "word": "confusion",
+   "gloss": "a mistake that results from taking one thing to be another",
+   "note": "Names how it happened - one thing taken for another - which lets the mistake sound explainable rather than someone's fault."
+  },
+  {
+   "id": "odds-on.oewn-00896411-s",
+   "word": "odds-on",
+   "gloss": "having a better than even chance of success",
+   "note": "The only word here where the imbalance is good news: a better than even chance of success, an advantage rather than a fault."
+  },
+  {
+   "id": "woman.oewn-10808492-n",
+   "word": "woman",
+   "gloss": "a female person who plays a significant role (wife or mistress or girlfriend) in the life of a particular man",
+   "note": "Defines her by her tie to one man, whether wife, mistress or girlfriend: a possessive edge *female* has none of."
+  },
+  {
+   "id": "name.oewn-14462254-n",
+   "word": "name",
+   "gloss": "a person's reputation",
+   "note": "The plainest word for how others see a person, neither good nor bad itself: it takes whatever *character* or disgrace gets attached."
+  },
+  {
+   "id": "appreciative.oewn-00778235-s",
+   "word": "appreciative",
+   "gloss": "having or showing appreciation or a favorable critical judgment or opinion",
+   "note": "Warm rather than cool: it names plain appreciation or a favourable judgment, where *discriminating* says only that the judgment is sharp."
+  },
+  {
+   "id": "misplaced.oewn-01452757-s",
+   "word": "misplaced",
+   "gloss": "lost temporarily; as especially put in an unaccustomed or forgotten place",
+   "note": "The same temporary loss as *mislaid*, but the fault lies in where it ended up, not in setting it down."
+  },
+  {
+   "id": "ingratiating.oewn-01813809-s",
+   "word": "ingratiating",
+   "gloss": "capable of winning favor",
+   "note": "Measures pleasing by the favour won, not the pleasure given, so it leans away from praising the thing at all, unlike *charming*."
+  },
+  {
+   "id": "busted.oewn-00683423-s",
+   "word": "busted",
+   "gloss": "out of working order (‘busted’ is an informal substitute for ‘broken’)",
+   "note": "The informal word for *broken*, and the casual tone makes the same failure sound offhand rather than serious."
+  },
+  {
+   "id": "harum-scarum.oewn-02005360-s",
+   "word": "harum-scarum",
+   "gloss": "cheerfully irresponsible",
+   "note": "Its sing-song rhyme makes the cheer sound silly and disorganized, tipping into criticism where *happy-go-lucky* stays fond."
+  },
+  {
+   "id": "decisive.oewn-00687757-a",
+   "word": "decisive",
+   "gloss": "determining or having the power to determine an outcome",
+   "note": "The plain word, covering what settles an outcome and what only has the power to, with no view on how it turns out."
+  },
+  {
+   "id": "unmethodical.oewn-01674152-s",
+   "word": "unmethodical",
+   "gloss": "not efficient or methodical",
+   "note": "The calmest criticism here: it blames missing method and the wasted effort that follows, picturing no wreckage at all."
+  },
+  {
+   "id": "consummate.oewn-01754870-s",
+   "word": "consummate",
+   "gloss": "perfect and complete in every respect; having all necessary qualities",
+   "note": "Formal where *complete* is plain, and it turns having every needed quality into the highest kind of praise."
+  },
+  {
+   "id": "ignorant.oewn-00834520-s",
+   "word": "ignorant",
+   "gloss": "uneducated in the fundamentals of a given art or branch of learning; lacking knowledge of a specific field",
+   "note": "Blunt and accusing: it blames the person for not knowing a field's basics, where *untutored* blames a lack of schooling."
+  },
+  {
+   "id": "swallow.oewn-00603054-v",
+   "word": "swallow",
+   "gloss": "believe or accept without questioning or challenge",
+   "note": "Looks down on the believer, not the claim: to swallow something is to accept it without question or challenge."
+  },
+  {
+   "id": "inferior.oewn-02348283-a",
+   "word": "inferior",
+   "gloss": "of or characteristic of low rank or importance",
+   "note": "Puts a thing below others and lets that ranking carry the sting, where *humble* names the same low place without ranking it."
+  },
+  {
+   "id": "polite.oewn-00645401-a",
+   "word": "polite",
+   "gloss": "not rude; marked by satisfactory (or especially minimal) adherence to social usages and sufficient but not noteworthy consideration for others",
+   "note": "Credits the social rules as kept, not merely rudeness avoided."
+  },
+  {
+   "id": "native.oewn-01913172-s",
+   "word": "native",
+   "gloss": "as found in nature in the elemental form",
+   "note": "Simply describes: the thing is found in nature already in its elemental form, and no credit is given for that."
+  },
+  {
+   "id": "distinct.oewn-00782933-a",
+   "word": "distinct",
+   "gloss": "easy to perceive; especially clearly outlined",
+   "note": "The plain starting point here: something can be told apart, with no claim about how fine or admirable its edge is."
+  },
+  {
+   "id": "small.oewn-02348528-s",
+   "word": "small",
+   "gloss": "low or inferior in station or quality",
+   "note": "Shrinks rather than ranks: the low quality comes across as being unimportant, not as a place on a ladder."
+  },
+  {
+   "id": "bodied.oewn-00630690-a",
+   "word": "bodied",
+   "gloss": "having a body or a body of a specified kind; often used in combination",
+   "note": "The neutral base of the set: just a body, or a body of whatever kind the word before it names."
+  },
+  {
+   "id": "betray.oewn-00856102-v",
+   "word": "betray",
+   "gloss": "cause someone to believe an untruth",
+   "note": "The same planting of a false belief as *deceive*, but seen as breaking the trust that made the believing possible."
+  },
+  {
+   "id": "intellectual.oewn-01784888-s",
+   "word": "intellectual",
+   "gloss": "of or associated with or requiring the use of the mind",
+   "note": "Points at the mind as the thing being used, in a higher style than *mental*, passing no judgment on the work done."
+  },
+  {
+   "id": "stung.oewn-01811355-s",
+   "word": "stung",
+   "gloss": "aroused to impatience or anger",
+   "note": "Something landed, and the feeling is the sudden pull back from it, where *irritated* only wears on."
+  },
+  {
+   "id": "disciplinary.oewn-01303596-s",
+   "word": "disciplinary",
+   "gloss": "designed to promote discipline",
+   "note": "Names correction or punishment in neutral, official language."
+  },
+  {
+   "id": "stranger.oewn-10680441-n",
+   "word": "stranger",
+   "gloss": "anyone who does not belong in the environment in which they are found",
+   "note": "Neutral: it says only that the person does not belong here, and allows they may belong elsewhere just as normally."
+  },
+  {
+   "id": "viable.oewn-01828067-s",
+   "word": "viable",
+   "gloss": "capable of being done with means at hand and circumstances as they are",
+   "note": "The strongest backing here: it calls a plan solid enough to go ahead as things stand, where *workable* says only it will work."
+  },
+  {
+   "id": "halal.oewn-01885994-s",
+   "word": "halal",
+   "gloss": "proper or legitimate according to Muslim law",
+   "note": "A label, not praise: something is proper or legitimate under Muslim law, and the approval is the law's, not the speaker's."
+  },
+  {
+   "id": "longanimous.oewn-01740820-s",
+   "word": "longanimous",
+   "gloss": "showing patient and unruffled self-control and restraint under adversity; slow to retaliate or express resentment",
+   "note": "Patience when provoked, in the most formal word for it."
+  },
+  {
+   "id": "unperceived.oewn-01613725-s",
+   "word": "unperceived",
+   "gloss": "not perceived or commented on",
+   "note": "Formal and abstract, covering both not noticing a thing and saying nothing of it, with the weight on the noticing."
+  },
+  {
+   "id": "older.oewn-01648667-s",
+   "word": "older",
+   "gloss": "advanced in years; (‘aged’ is pronounced as two syllables)",
+   "note": "An *-er* form used as plain description, which makes it the softest word here: it suggests a scale rather than naming a state."
+  },
+  {
+   "id": "brisk.oewn-00877534-s",
+   "word": "brisk",
+   "gloss": "quick and energetic",
+   "note": "Crisp and practical - the pace wins approval for its efficiency alone, with none of the lightness *merry* adds."
+  },
+  {
+   "id": "vanity.oewn-07524235-n",
+   "word": "vanity",
+   "gloss": "feelings of excessive pride",
+   "note": "Cuts the pride down to size: the same excess as *conceit*, but a soft self-admiration, faintly ridiculous rather than offensive."
+  },
+  {
+   "id": "knowledgeable.oewn-00833590-s",
+   "word": "knowledgeable",
+   "gloss": "highly educated; having extensive information or understanding",
+   "note": "Praises the sheer amount someone knows - everyday and plain, where *learned* is solemn."
+  },
+  {
+   "id": "spite.oewn-04849746-n",
+   "word": "spite",
+   "gloss": "malevolence by virtue of being malicious or spiteful or nasty",
+   "note": "Ill will that covers plain nastiness as well as a real wish to harm, so it can bite without the threat *malice* carries."
+  },
+  {
+   "id": "vulnerable.oewn-02533434-a",
+   "word": "vulnerable",
+   "gloss": "susceptible to attack",
+   "note": "The flat, basic word here: it notes that an attack could land, without saying anything is missing or anyone is at fault."
+  },
+  {
+   "id": "astounding.oewn-01286247-s",
+   "word": "astounding",
+   "gloss": "so surprisingly impressive as to stun or overwhelm",
+   "note": "A heavier landing than *astonishing* - the surprise is not just noticed, it takes the ground out from under you."
+  },
+  {
+   "id": "higher-ranking.oewn-02107846-s",
+   "word": "higher-ranking",
+   "gloss": "having a higher rank",
+   "note": "Means just what it says - higher in rank than another - and implies nothing past the position itself."
+  },
+  {
+   "id": "best.oewn-00229099-a",
+   "word": "best",
+   "gloss": "(superlative of ‘good’) having the most positive qualities",
+   "note": "The highest form itself - it ends the comparison rather than making one."
+  },
+  {
+   "id": "worth.oewn-05145473-n",
+   "word": "worth",
+   "gloss": "the quality that renders something desirable or valuable or useful",
+   "note": "Plainly positive and broad, covering what makes a thing desirable, valuable or just useful, without *price*'s claim that the quality is great."
+  },
+  {
+   "id": "hurtful.oewn-01164603-s",
+   "word": "hurtful",
+   "gloss": "harmful to living things",
+   "note": "The plain-spoken one of its three, naming the same damage to living things in everyday language that *deleterious* and *injurious* refuse."
+  },
+  {
+   "id": "ferine.oewn-02398088-s",
+   "word": "ferine",
+   "gloss": "wild and menacing",
+   "note": "Holds the same menace as *feral*, but in stiffer, more formal language."
+  },
+  {
+   "id": "obscenely.oewn-00414231-r",
+   "word": "obscenely",
+   "gloss": "to an obscene degree",
+   "note": "The adverb of *obscene*: the heaviest charge in the family: not merely offensive but built to incite indecency or lust, design rather than effect."
+  },
+  {
+   "id": "defence.oewn-06753339-n",
+   "word": "defence",
+   "gloss": "the justification for some act or belief",
+   "note": "The plain word for justifying an act or belief, saying nothing of whether it succeeds and, unlike *excuse*, assuming no wrong."
+  },
+  {
+   "id": "sharpness.oewn-04650456-n",
+   "word": "sharpness",
+   "gloss": "harshness of manner",
+   "note": "The plain word for the same harshness, felt as a cutting edge in how someone treats you, not *asperity*'s formal verdict on them."
+  },
+  {
+   "id": "commonplace.oewn-01693210-s",
+   "word": "commonplace",
+   "gloss": "repeated too often; overfamiliar through overuse",
+   "note": "Puts the fault in being ordinary, not damaged: the thing is found everywhere, where *threadbare* sees it worn thin."
+  },
+  {
+   "id": "light-headed.oewn-02128108-s",
+   "word": "light-headed",
+   "gloss": "lacking seriousness; given to frivolity",
+   "note": "The same fault as *giddy*, stated as a quality of the head rather than a mood."
+  },
+  {
+   "id": "imperfect.oewn-01756665-a",
+   "word": "imperfect",
+   "gloss": "not perfect; defective or inadequate",
+   "note": "The plain word for falling short of perfect - it stops there, without *defective*'s suggestion that something inside has gone wrong."
+  },
+  {
+   "id": "unsupportable.oewn-02445449-s",
+   "word": "unsupportable",
+   "gloss": "not able to be supported or defended",
+   "note": "Moves the fault from what cannot be borne to what cannot be defended: the weakness is the thing's own, not anyone's strain."
+  },
+  {
+   "id": "tough.oewn-00480301-s",
+   "word": "tough",
+   "gloss": "feeling physical discomfort or pain (‘tough’ is occasionally used colloquially for ‘bad’)",
+   "note": "The informal version of *bad*, looser and more casual about the same felt discomfort."
+  },
+  {
+   "id": "exaggerate.oewn-00841513-v",
+   "word": "exaggerate",
+   "gloss": "to enlarge beyond bounds or the truth",
+   "note": "The plain accusation of overstating - past reasonable limits or past the truth - always implying the real size is smaller."
+  },
+  {
+   "id": "imprudence.oewn-04901232-n",
+   "word": "imprudence",
+   "gloss": "a lack of caution in practical affairs",
+   "note": "Names a fault by what is missing - caution not brought to practical matters - where *rashness* accuses someone of charging ahead."
+  },
+  {
+   "id": "straying.oewn-01453386-s",
+   "word": "straying",
+   "gloss": "unable to find your way",
+   "note": "Only the passing trouble of not finding your way, with no blame in it - unlike the lasting state *stray* describes."
+  },
+  {
+   "id": "perturbing.oewn-01192929-s",
+   "word": "perturbing",
+   "gloss": "causing distress or worry or anxiety",
+   "note": "It stirs a settled mind out of its calm - a lighter, briefer trouble than the unease *disturbing* keeps up."
+  },
+  {
+   "id": "empty.oewn-01501421-s",
+   "word": "empty",
+   "gloss": "devoid of significance or force",
+   "note": "Takes the air out of a thing, saying only that nothing of weight is there, and leaves the insult to *vacuous*."
+  },
+  {
+   "id": "reproach.oewn-14465180-n",
+   "word": "reproach",
+   "gloss": "disgrace or shame",
+   "note": "Names the disgrace or shame as laid at someone's door, so blame is heard in it where *shame* only records the state."
+  },
+  {
+   "id": "intimate.oewn-09974118-n",
+   "word": "intimate",
+   "gloss": "someone to whom private matters are confided",
+   "note": "Defines the friend entirely by what you can tell them, so closeness means trusted secrets, not time spent together as with *companion*."
+  },
+  {
+   "id": "tender.oewn-01654003-s",
+   "word": "tender",
+   "gloss": "young and immature",
+   "note": "Youth felt as softness: being not fully grown is something easily broken, not something admired."
+  },
+  {
+   "id": "jingoistic.oewn-01744607-s",
+   "word": "jingoistic",
+   "gloss": "fanatically patriotic",
+   "note": "The sharpest word in the group, hearing the extreme patriotism as eagerness to fight rather than just too much enthusiasm."
+  },
+  {
+   "id": "sticky.oewn-00749659-s",
+   "word": "sticky",
+   "gloss": "hard to deal with; especially causing pain or embarrassment",
+   "note": "Informal - you are caught in the trouble and cannot step cleanly out, lighter in tone than *unenviable* but no easier to escape."
+  },
+  {
+   "id": "cedar-scented.oewn-01059862-s",
+   "word": "cedar-scented",
+   "gloss": "smelling like cedar",
+   "note": "Takes its smell from a wood and names the whole tree, where *balsam-scented* narrows to a resin."
+  },
+  {
+   "id": "awing.oewn-01285602-s",
+   "word": "awing",
+   "gloss": "inspiring awe or admiration or wonder",
+   "note": "A flat word that states the effect and stops, with none of the speaker's own delight that *awesome* shows openly."
+  },
+  {
+   "id": "feasible.oewn-01828067-s",
+   "word": "feasible",
+   "gloss": "capable of being done with means at hand and circumstances as they are",
+   "note": "A practical judgement, not a hope: the thing can be done with what is at hand now, a test *possible* never applies."
+  },
+  {
+   "id": "indulgent.oewn-00999762-s",
+   "word": "indulgent",
+   "gloss": "being favorably inclined",
+   "note": "The mildest here: a leaning in someone's favour, not praise, so nothing has to be shown as it does with *approving*."
+  },
+  {
+   "id": "unstudied.oewn-00835442-s",
+   "word": "unstudied",
+   "gloss": "lacking knowledge gained by study often in a particular field",
+   "note": "A flat report that knowledge was not gained by study, in a field or in general, with none of *ignorant*'s blame."
+  },
+  {
+   "id": "prim.oewn-01886245-s",
+   "word": "prim",
+   "gloss": "exaggeratedly proper",
+   "note": "The mildest fault here: a sense of what is proper held so tightly it goes stiff, mocked rather than condemned."
+  },
+  {
+   "id": "odd.oewn-00971199-s",
+   "word": "odd",
+   "gloss": "beyond or deviating from the usual or expected",
+   "note": "Flatly notes that something strays from the usual or expected, with none of *peculiar*'s second look."
+  },
+  {
+   "id": "rousing.oewn-01903674-s",
+   "word": "rousing",
+   "gloss": "rousing to activity or heightened action as by spurring or goading",
+   "note": "The one welcome stirring here, though the push behind it keeps an edge of being driven to act rather than persuaded."
+  },
+  {
+   "id": "mismatched.oewn-00896066-s",
+   "word": "mismatched",
+   "gloss": "(of a contest or contestants) not fairly matched as opponents",
+   "note": "Of a contest or its contestants, it blames the pairing itself: these two should never have been set against each other."
+  },
+  {
+   "id": "indifference.oewn-04680827-n",
+   "word": "indifference",
+   "gloss": "the trait of remaining calm and seeming not to care; a casual lack of concern",
+   "note": "Stresses not caring over staying calm, so the calm looks like something missing, and carries a faint blame that *unconcern* avoids."
+  },
+  {
+   "id": "used.oewn-02505376-s",
+   "word": "used",
+   "gloss": "(of persons) taken advantage of",
+   "note": "Bare and cutting: the word alone reduces the person to a tool, saying far less than *exploited* and landing colder for it."
+  },
+  {
+   "id": "scramble.oewn-00557179-n",
+   "word": "scramble",
+   "gloss": "rushing about hastily in an undignified way",
+   "note": "The undignified hurry as a clumsy, messy struggle, where *scamper* is just quick and silly."
+  },
+  {
+   "id": "insoluble.oewn-01233601-s",
+   "word": "insoluble",
+   "gloss": "without hope of solution",
+   "note": "Aimed at the problem, not at anyone: a flat statement that no solution can be hoped for, with no blame in it."
+  },
+  {
+   "id": "anicteric.oewn-01175499-s",
+   "word": "anicteric",
+   "gloss": "not affected by jaundice",
+   "note": "A medical word that says only that jaundice is absent, with none of the approval the other words here carry."
+  },
+  {
+   "id": "hurt.oewn-01321683-s",
+   "word": "hurt",
+   "gloss": "suffering from physical injury especially that suffered in battle",
+   "note": "The softest word here for real physical injury: it carries its lean toward battle lightly and shows nothing of the wound."
+  },
+  {
+   "id": "frivolity.oewn-00514412-n",
+   "word": "frivolity",
+   "gloss": "acting like a clown or buffoon",
+   "note": "Aimed at clowning and playing the fool - silly performance rather than the bad judgement *folly* names, so the disapproval comes with amusement."
+  },
+  {
+   "id": "sloppy.oewn-00313416-s",
+   "word": "sloppy",
+   "gloss": "marked by great carelessness",
+   "note": "The everyday version, mild enough to say to someone's face."
+  },
+  {
+   "id": "graciousness.oewn-04920745-n",
+   "word": "graciousness",
+   "gloss": "excellence of manners or social conduct",
+   "note": "Not just meeting the standard of manners but excelling at it - the highest of these words, where *civility* is the lowest."
+  },
+  {
+   "id": "arrant.oewn-01524174-s",
+   "word": "arrant",
+   "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+   "note": "Openly scornful, not just total - it sneers at the very thing it strengthens, where *complete* only measures it."
+  },
+  {
+   "id": "barefaced.oewn-01709541-s",
+   "word": "barefaced",
+   "gloss": "with no effort to conceal",
+   "note": "Accusing where *bald* is only blunt: not trying to hide it shows nerve, something they should have been ashamed to show."
+  },
+  {
+   "id": "implicit.oewn-00944754-a",
+   "word": "implicit",
+   "gloss": "implied though not directly expressed; inherent in the nature of something",
+   "note": "Neutral, covering both a meaning never spelled out and one that sits in a thing's nature, where *unspoken* covers only the first."
+  },
+  {
+   "id": "best-known.oewn-01378472-s",
+   "word": "best-known",
+   "gloss": "most familiar or renowned",
+   "note": "Ranks one above all the rest for being known, but claims nothing grander than that first place."
+  },
+  {
+   "id": "noticeable.oewn-01289803-a",
+   "word": "noticeable",
+   "gloss": "capable or worthy of being noticed",
+   "note": "The plain word: able to be noticed or worth noticing, without saying whether that is welcome, which is what *obtrusive* adds."
+  },
+  {
+   "id": "guise.oewn-04686265-n",
+   "word": "guise",
+   "gloss": "an artful or simulated semblance",
+   "note": "Like *pretence*, a cunning or faked appearance, but pictured as something put on and worn, so the deceit lies in taking it on."
+  },
+  {
+   "id": "gross.oewn-00686808-s",
+   "word": "gross",
+   "gloss": "conspicuously and tastelessly indecent",
+   "note": "Shows disgust rather than disapproval: the thing is so coarse it makes you feel sick, and the word itself is the shudder."
+  },
+  {
+   "id": "distinguish.oewn-00924409-v",
+   "word": "distinguish",
+   "gloss": "make conspicuous or noteworthy",
+   "note": "The only one here that lifts the thing up, making it stand out or worth noticing, where *mark* just labels it."
+  },
+  {
+   "id": "rattling.oewn-00877534-s",
+   "word": "rattling",
+   "gloss": "quick and energetic",
+   "note": "More emphasis than description, pushing quickness toward a flat-out rush in a way *brisk* never does."
+  },
+  {
+   "id": "niceness.oewn-04920159-n",
+   "word": "niceness",
+   "gloss": "a courteous manner that respects accepted social usage",
+   "note": "The plainest name for behaviour that respects accepted social custom, so mild that the approval barely feels like praise beside *politeness*."
+  },
+  {
+   "id": "livid.oewn-01321272-s",
+   "word": "livid",
+   "gloss": "discolored by coagulation of blood beneath the skin",
+   "note": "The same bruising, but heavy and grim, as if something has gone badly wrong under the skin, where *black-and-blue* stays almost homely."
+  },
+  {
+   "id": "straight.oewn-00610234-s",
+   "word": "straight",
+   "gloss": "rigidly conventional or old-fashioned",
+   "note": "Flat slang for the same stiff or old-fashioned ways, naming rather than mocking, so it lands softer than *square*."
+  },
+  {
+   "id": "envy.oewn-00759688-n",
+   "word": "envy",
+   "gloss": "spite and resentment at seeing the success of another (personified as one of the deadly sins)",
+   "note": "Not simply wanting what another has: spite and resentment at their success are the meaning itself."
+  },
+  {
+   "id": "ruined.oewn-02342313-s",
+   "word": "ruined",
+   "gloss": "doomed to extinction",
+   "note": "Grave rather than informal: the ending is total and stated with no pleasure in it, where *washed-up* shows scorn."
+  },
+  {
+   "id": "prospering.oewn-02339849-s",
+   "word": "prospering",
+   "gloss": "very lively and profitable",
+   "note": "The *-ing* form keeps the gain in motion - still climbing, where *prosperous* names a state already reached."
+  },
+  {
+   "id": "painful.oewn-01715524-a",
+   "word": "painful",
+   "gloss": "causing physical or psychological pain",
+   "note": "The plain word: it says something hurts, in the body or the mind, without saying how sharply or how much."
+  },
+  {
+   "id": "bedraggled.oewn-00682984-s",
+   "word": "bedraggled",
+   "gloss": "in deplorable condition",
+   "note": "Wears its awful state on the surface, so it invites pity rather than shame, where *derelict* makes it a matter for blame."
+  },
+  {
+   "id": "utterly.oewn-00009459-r",
+   "word": "utterly",
+   "gloss": "completely and without qualification; used informally as intensifiers",
+   "note": "The adverb of *utter*: flat and absolute - it allows no remainder, and unlike *arrant* it supplies no sneer of its own."
+  },
+  {
+   "id": "deleterious.oewn-01164603-s",
+   "word": "deleterious",
+   "gloss": "harmful to living things",
+   "note": "Formal and clinical, it records damage to living things as a finding, not a complaint, cooling what *hurtful* says plainly."
+  },
+  {
+   "id": "emergent.oewn-01147340-s",
+   "word": "emergent",
+   "gloss": "occurring unexpectedly and requiring urgent action",
+   "note": "Flat and practical beside *explosive*: the unexpected counts only because it demands urgent action, not because it startles."
+  },
+  {
+   "id": "plain.oewn-01913300-s",
+   "word": "plain",
+   "gloss": "not mixed with extraneous elements",
+   "note": "The flattest word here: it says nothing that does not belong is mixed in, and neither praises nor criticizes that."
+  },
+  {
+   "id": "obliterated.oewn-00738632-s",
+   "word": "obliterated",
+   "gloss": "reduced to nothingness",
+   "note": "Formal and cold beside *blotted out*: the *-ed* ending points back to an act, and nothing is left, not something hidden."
+  },
+  {
+   "id": "dearest.oewn-09869006-n",
+   "word": "dearest",
+   "gloss": "a beloved person; used as terms of endearment",
+   "note": "The *-est* ending does the work: it does not just call the person dear but sets them above everyone else."
+  },
+  {
+   "id": "rational.oewn-01784888-s",
+   "word": "rational",
+   "gloss": "of or associated with or requiring the use of the mind",
+   "note": "Points at the mind as what is doing the work, not at whether its results are sound: a label, not a judgment."
+  },
+  {
+   "id": "steadfast.oewn-00586061-s",
+   "word": "steadfast",
+   "gloss": "firm and dependable especially in loyalty",
+   "note": "Heavier than *constant*, because it adds being reliable: the firmness becomes something others can lean on."
+  },
+  {
+   "id": "crumpled.oewn-00683272-s",
+   "word": "crumpled",
+   "gloss": "of metal e.g.",
+   "note": "Damage to the shape across the whole thing, not along one line - more thorough than *bent*, but judging just as little."
+  },
+  {
+   "id": "patron.oewn-10427699-n",
+   "word": "patron",
+   "gloss": "someone who supports or champions something",
+   "note": "Approving, but the praise is for backing or speaking up for something, not for getting a person out of trouble."
+  },
+  {
+   "id": "unfinished.oewn-01009264-a",
+   "word": "unfinished",
+   "gloss": "not brought to the desired final state",
+   "note": "Faintly disapproving: it measures the thing against the final state that was wanted, so it records falling short, not just a stage."
+  },
+  {
+   "id": "aspirant.oewn-00105332-s",
+   "word": "aspirant",
+   "gloss": "desiring or striving for recognition or advancement",
+   "note": "Formal and cool: it notes the reaching for recognition or advancement without judging it, where *aspiring* sounds warm."
+  },
+  {
+   "id": "silly.oewn-02128108-s",
+   "word": "silly",
+   "gloss": "lacking seriousness; given to frivolity",
+   "note": "The plainest, most forgiving word: it names the fault without picturing the head, and leaves room for fondness that *airheaded* shuts out."
+  },
+  {
+   "id": "stray.oewn-01453222-s",
+   "word": "stray",
+   "gloss": "(of an animal) having no home or having wandered away from home",
+   "note": "Pity and a touch of nuisance at once, for an animal with no home or one that has wandered off."
+  },
+  {
+   "id": "rushing.oewn-00556685-n",
+   "word": "rushing",
+   "gloss": "the act of moving hurriedly and in a careless manner",
+   "note": "The *-ing* form keeps the careless speed going on as an activity, not the single finished act *rush* names."
+  },
+  {
+   "id": "curious.oewn-00667636-a",
+   "word": "curious",
+   "gloss": "eager to investigate and learn or learn more (sometimes about others' concerns)",
+   "note": "Approves of the eager mind, a little wary of the manner - the meaning allows both."
+  },
+  {
+   "id": "gloomy.oewn-00707060-s",
+   "word": "gloomy",
+   "gloss": "filled with melancholy and despondency",
+   "note": "Spreads rather than strikes - the low, hopeless mood hangs around the person like settled weather, where *deflated* feels like one blow."
+  },
+  {
+   "id": "appearance.oewn-00756620-n",
+   "word": "appearance",
+   "gloss": "pretending that something is the case in order to make a good impression",
+   "note": "The mildest word here for faking it: the fault is the wish to look good, where *pretence* blames the falseness itself."
+  },
+  {
+   "id": "delectable.oewn-00736942-s",
+   "word": "delectable",
+   "gloss": "capable of arousing sexual desire",
+   "note": "Enjoys the sexual desire the thing stirs, where the cooler *sexually attractive* only reports it."
+  },
+  {
+   "id": "blaze.oewn-00923996-v",
+   "word": "blaze",
+   "gloss": "indicate by marking trees with blazes",
+   "note": "Literal where *mark* is not: the sign is really cut into trees, so the word names its method and judges nothing."
+  },
+  {
+   "id": "serious.oewn-00654061-s",
+   "word": "serious",
+   "gloss": "causing fear or anxiety by threatening great harm",
+   "note": "The flattest word here: it insists the threatened harm is real, without making its force dramatic as *severe* does."
+  },
+  {
+   "id": "at_fault.oewn-01324381-s",
+   "word": "at fault",
+   "gloss": "deserving blame",
+   "note": "The mildest blame word: it says where blame lies but not what kind of act it was, while *guilty* calls the act wrong."
+  },
+  {
+   "id": "mistress.oewn-10343410-n",
+   "word": "mistress",
+   "gloss": "an adulterous woman; a woman who has an ongoing extramarital sexual relationship with a man",
+   "note": "The blame is built into the word: a woman in an ongoing affair outside marriage, where *concubine* names only a shared household."
+  },
+  {
+   "id": "highbrowed.oewn-01335859-s",
+   "word": "highbrowed",
+   "gloss": "highly cultured or educated",
+   "note": "The same claim to being highly cultured as *highbrow*, but the *-ed* ending makes it sit heavier and stiffer."
+  },
+  {
+   "id": "semblance.oewn-04685309-n",
+   "word": "semblance",
+   "gloss": "an outward or token appearance or form that is deliberately misleading",
+   "note": "The barest word here, naming only the outward or token form and leaving the deceit unsaid, where *pretence* puts the trick on show."
+  },
+  {
+   "id": "tawdry.oewn-02354846-s",
+   "word": "tawdry",
+   "gloss": "made of inferior workmanship and materials",
+   "note": "Cheapness trying to look flashy - which is what makes it worth scorn, not merely poor."
+  },
+  {
+   "id": "approbative.oewn-00999508-s",
+   "word": "approbative",
+   "gloss": "expressing or manifesting praise or approval",
+   "note": "Formal to the point of stiffness - the same praise as *approving*, raised into official language."
+  },
+  {
+   "id": "senescent.oewn-01649151-s",
+   "word": "senescent",
+   "gloss": "growing old",
+   "note": "Clinical and detached: the same growing old as *aging*, in a style that feels nothing about it."
+  },
+  {
+   "id": "cold.oewn-01073210-s",
+   "word": "cold",
+   "gloss": "having lost freshness through passage of time",
+   "note": "Understated, almost a gentler way to say *stale*: it notes only that time has passed and taken the freshness with it."
+  },
+  {
+   "id": "raw.oewn-01322003-s",
+   "word": "raw",
+   "gloss": "having the surface exposed and painful",
+   "note": "Reports pain where the jagged-edge words report shape: the covering is gone, leaving what lies under it exposed and stinging."
+  },
+  {
+   "id": "near.oewn-01116967-s",
+   "word": "near",
+   "gloss": "giving or spending with reluctance",
+   "note": "A gentler word for stinginess, softening it into just being *close* with money."
+  },
+  {
+   "id": "feeble.oewn-02332825-s",
+   "word": "feeble",
+   "gloss": "lacking strength or vigor",
+   "note": "Harsher than *faint*: the lack invites pity, and the pity slides into a judgement that it could never be enough."
+  },
+  {
+   "id": "noetic.oewn-01784888-s",
+   "word": "noetic",
+   "gloss": "of or associated with or requiring the use of the mind",
+   "note": "The most abstract and academic of the set, naming mind-work in a high style where *mental* stays flat."
+  },
+  {
+   "id": "civility.oewn-04921310-n",
+   "word": "civility",
+   "gloss": "formal or perfunctory politeness",
+   "note": "The lowest here: politeness as outward form, done correctly or gone through without interest, so it approves far less warmly than *graciousness*."
+  },
+  {
+   "id": "pride.oewn-00759528-n",
+   "word": "pride",
+   "gloss": "unreasonable and inordinate self-esteem (personified as one of the deadly sins)",
+   "note": "Here a fault, not a virtue: self-esteem grown too big and past all reason, serious enough to be one of the deadly sins."
+  },
+  {
+   "id": "burnt.oewn-00738880-s",
+   "word": "burnt",
+   "gloss": "destroyed or badly damaged by fire",
+   "note": "The shorter form reads as a state the thing is now in, where *burned* reports what happened to it."
+  },
+  {
+   "id": "discreetness.oewn-05623283-n",
+   "word": "discreetness",
+   "gloss": "knowing how to avoid embarrassment or distress",
+   "note": "Mild approval for the knack of heading off embarrassment or distress, a plain quality where *discretion* sounds like a virtue you are praised for."
+  },
+  {
+   "id": "untutored.oewn-00835235-s",
+   "word": "untutored",
+   "gloss": "lacking in schooling",
+   "note": "Mild, almost taking the blame off the person: the lack is in the schooling they never had, not in their mind."
+  },
+  {
+   "id": "fail.oewn-01803246-v",
+   "word": "fail",
+   "gloss": "disappoint, prove undependable to; abandon, forsake",
+   "note": "Not being there when relied on, whether by proving unreliable or by walking away, but framed as a lapse rather than a wrong."
+  },
+  {
+   "id": "avant-garde.oewn-01691548-s",
+   "word": "avant-garde",
+   "gloss": "radically new or original",
+   "note": "Approval for newness pushed to its edge, where breaking with what came before is everything - a bigger claim than *fresh* makes."
+  },
+  {
+   "id": "challenging.oewn-00749254-s",
+   "word": "challenging",
+   "gloss": "requiring full use of your abilities or resources",
+   "note": "Turns the demand on everything you have into an invitation to rise to it, where *problematic* treats the demand as a fault."
+  },
+  {
+   "id": "criminal.oewn-02043172-s",
+   "word": "criminal",
+   "gloss": "bringing or deserving severe rebuke or censure",
+   "note": "Puts the weight of a legal charge behind blame that is moral, not legal - an outcry where *condemnable* is a ruling."
+  },
+  {
+   "id": "charged.oewn-01903291-s",
+   "word": "charged",
+   "gloss": "capable of producing violent emotion or arousing controversy",
+   "note": "A load waiting to go off: violent feeling or controversy stored up, where *inflammatory* is already at work."
+  },
+  {
+   "id": "impoverished.oewn-00738739-s",
+   "word": "impoverished",
+   "gloss": "destroyed financially",
+   "note": "Formal, naming the poverty left behind rather than the break itself - a settled state, where *broken* sounds like a moment."
+  },
+  {
+   "id": "chapfallen.oewn-00706899-s",
+   "word": "chapfallen",
+   "gloss": "brought low in spirit",
+   "note": "Same sense as *chopfallen*, and like it stresses the fall: a spirit brought down from a height, not one always low."
+  },
+  {
+   "id": "wild.oewn-02398903-a",
+   "word": "wild",
+   "gloss": "marked by extreme lack of restraint or control",
+   "note": "Names how extreme the missing restraint is without colouring it, and leans negative only because that lack is extreme rather than partial."
+  },
+  {
+   "id": "put-upon.oewn-02505376-s",
+   "word": "put-upon",
+   "gloss": "(of persons) taken advantage of",
+   "note": "Informal, and seen from the sufferer's side: the person visibly feels the wrong, where *ill-used* and *exploited* only report it."
+  },
+  {
+   "id": "flea-bitten.oewn-02591968-s",
+   "word": "flea-bitten",
+   "gloss": "worn and broken down by hard use",
+   "note": "Scornful and vivid - it adds filth to simple wear and tear."
+  },
+  {
+   "id": "subject.oewn-00072167-s",
+   "word": "subject",
+   "gloss": "likely to be affected by something",
+   "note": "Names exposure, not outcome: nothing has landed yet, the thing just stands open to it, unlike every struck-and-overcome word here."
+  },
+  {
+   "id": "possible.oewn-01826770-a",
+   "word": "possible",
+   "gloss": "capable of happening or existing",
+   "note": "The bare minimum: it says only that the thing is not ruled out, promising nothing about anyone managing to do it."
+  },
+  {
+   "id": "sorry.oewn-00365961-s",
+   "word": "sorry",
+   "gloss": "causing dejection",
+   "note": "Gloom mixed with scorn: what it names is not just depressing but pathetic, which *gloomy* never suggests."
+  },
+  {
+   "id": "flaky.oewn-00611168-s",
+   "word": "flaky",
+   "gloss": "conspicuously or grossly unconventional or unusual",
+   "note": "Informal and dismissive — the strangeness is treated as too lightweight to be taken seriously."
+  },
+  {
+   "id": "gaga.oewn-01649738-s",
+   "word": "gaga",
+   "gloss": "mentally or physically infirm with age",
+   "note": "Informal and blunt - the same weakness from age as *doddering*, in a word too jokey to leave the person any dignity."
+  },
+  {
+   "id": "pretence.oewn-00756299-n",
+   "word": "pretence",
+   "gloss": "the act of giving a false appearance",
+   "note": "The flat, general word for putting up a false front, without the wish to impress that softens *appearance*; British spelling."
+  },
+  {
+   "id": "tenable.oewn-01951109-s",
+   "word": "tenable",
+   "gloss": "based on sound reasoning or evidence",
+   "note": "The coolest, most reluctant approval here: the reasoning can be defended, where *well-founded* says its grounds are solid."
+  },
+  {
+   "id": "ultra.oewn-01539365-s",
+   "word": "ultra",
+   "gloss": "(used of opinions and actions) far beyond the norm",
+   "note": "Not just distance but too much: an opinion or action pushed past what its own position would allow, where *far* stays neutral."
+  },
+  {
+   "id": "nonequivalent.oewn-00896269-s",
+   "word": "nonequivalent",
+   "gloss": "not equal or interchangeable in value, quantity, or significance",
+   "note": "A flat denial, not a complaint: the two are not equal or interchangeable in value, quantity or significance."
+  },
+  {
+   "id": "reassured.oewn-00340497-s",
+   "word": "reassured",
+   "gloss": "having confidence restored; freed from anxiety",
+   "note": "The settled calm of confidence handed back as worry lifts, where the rest of the family never mentions it having been shaken."
+  },
+  {
+   "id": "hazardous.oewn-02067215-s",
+   "word": "hazardous",
+   "gloss": "involving risk or danger",
+   "note": "Formal and classifying - it records danger as a feature to be measured, cooler than *risky*, which sounds like advice."
+  },
+  {
+   "id": "self-explanatory.oewn-01623785-s",
+   "word": "self-explanatory",
+   "gloss": "needing no explanation",
+   "note": "The thing explains itself, so nothing needs to be added - where *obvious* only says it is easy to grasp."
+  },
+  {
+   "id": "helpless.oewn-01233489-s",
+   "word": "helpless",
+   "gloss": "unable to function; without help",
+   "note": "Two failures at once, unable to function and no help at hand, so it sounds like a plea, not *hopeless*'s verdict."
+  },
+  {
+   "id": "alternative.oewn-00611045-s",
+   "word": "alternative",
+   "gloss": "pertaining to unconventional choices",
+   "note": "Treats the break from the usual as something chosen, and a choice can be described without being condemned."
+  },
+  {
+   "id": "contrastive.oewn-02073546-s",
+   "word": "contrastive",
+   "gloss": "strikingly different; tending to contrast",
+   "note": "The same striking difference as *contrasting*, but framed as a quality a thing has rather than an effect it produces."
+  },
+  {
+   "id": "breakneck.oewn-02066684-s",
+   "word": "breakneck",
+   "gloss": "moving at very high speed",
+   "note": "The danger is in the picture, not a verdict: a pace fast enough to break a neck, which can sound thrilling or reckless."
+  },
+  {
+   "id": "cosy.oewn-00454806-s",
+   "word": "cosy",
+   "gloss": "suggesting connivance",
+   "note": "The British spelling of *cozy*, with the same accusation of secret cooperation in wrongdoing - warmth named in order to be distrusted."
+  },
+  {
+   "id": "unhopeful.oewn-01232308-s",
+   "word": "unhopeful",
+   "gloss": "showing utter resignation or hopelessness",
+   "note": "Simply “not hopeful”: the same utter resignation or hopelessness as *abject*, but without the scorn, saying less than it means."
+  },
+  {
+   "id": "partiality.oewn-06210871-n",
+   "word": "partiality",
+   "gloss": "an inclination to favor one group or view or opinion over alternatives",
+   "note": "The plain name for leaning toward one side: the scales are tipped, but unlike *prejudice* it does not say the case is closed."
+  },
+  {
+   "id": "precedential.oewn-02107656-s",
+   "word": "precedential",
+   "gloss": "having precedence (especially because of longer service)",
+   "note": "Formal and procedural: it turns seniority into a right to go first, a right *senior* leaves unsaid."
+  },
+  {
+   "id": "flat.oewn-01920312-s",
+   "word": "flat",
+   "gloss": "not modified or restricted by reservations",
+   "note": "A blunt single syllable that shuts the door on reservations, where *categorical* refuses them like a formal declaration."
+  },
+  {
+   "id": "bloodguilty.oewn-01324891-s",
+   "word": "bloodguilty",
+   "gloss": "guilty of murder or bloodshed",
+   "note": "The most serious here: guilt for killing, which the word treats as a stain carried rather than a charge answered."
+  },
+  {
+   "id": "divergent.oewn-02074066-s",
+   "word": "divergent",
+   "gloss": "diverging from another or from a standard",
+   "note": "Makes difference a moving apart - from another thing or from a standard - where *disparate* simply finds two things unlike."
+  },
+  {
+   "id": "standing.oewn-01760020-s",
+   "word": "standing",
+   "gloss": "not created for a particular occasion",
+   "note": "Describes without judging: it marks a thing as kept ready for whatever comes, instead of set up for one occasion."
+  },
+  {
+   "id": "desperate.oewn-02067030-s",
+   "word": "desperate",
+   "gloss": "(of persons) dangerously reckless or violent as from urgency or despair",
+   "note": "Said of a person, not a situation: past caution and likely to turn violent; the despair behind it does not soften the warning."
+  },
+  {
+   "id": "consummate.oewn-01524174-s",
+   "word": "consummate",
+   "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+   "note": "Makes the quality total as if it were a finished achievement, and that mismatch gives it a dry humour *utter* lacks."
+  },
+  {
+   "id": "free-and-easy.oewn-01048429-s",
+   "word": "free-and-easy",
+   "gloss": "natural and unstudied",
+   "note": "Approving, and sounds like easy talk: it praises being natural rather than put on, where *informal* only notes what is missing."
+  },
+  {
+   "id": "preferable.oewn-00737286-s",
+   "word": "preferable",
+   "gloss": "more desirable than another",
+   "note": "A comparison and nothing more - it rates one thing above another without claiming either is wanted much at all."
+  },
+  {
+   "id": "soiled.oewn-00420808-a",
+   "word": "soiled",
+   "gloss": "soiled or likely to soil with dirt or grime",
+   "note": "Clinical - a softer word, chosen to avoid saying *dirty*."
+  },
+  {
+   "id": "far.oewn-01539576-s",
+   "word": "far",
+   "gloss": "beyond a norm in opinion or actions",
+   "note": "Just a position: it puts an opinion or action past the norm and leaves the judging to others, where *outrageous* is all judgement."
+  },
+  {
+   "id": "detectable.oewn-01290284-s",
+   "word": "detectable",
+   "gloss": "easily seen or detected",
+   "note": "Almost technical in feel: something a look or a test turns up, where *perceptible* is something the senses take in."
+  },
+  {
+   "id": "unadulterated.oewn-01524174-s",
+   "word": "unadulterated",
+   "gloss": "without qualification; used informally as (often pejorative) intensifiers",
+   "note": "The most deliberate of these, spelling out that nothing was mixed in to weaken the quality, where *pure* says it in a breath."
+  },
+  {
+   "id": "wasted.oewn-01453072-s",
+   "word": "wasted",
+   "gloss": "not used to good advantage",
+   "note": "Says that value came to nothing without pointing at anyone to blame, which is what *squandered* adds."
+  },
+  {
+   "id": "retributory.oewn-01373232-s",
+   "word": "retributory",
+   "gloss": "given or inflicted in requital according to merits or deserts",
+   "note": "The same verdict as *retributive*, but more mechanical - it sounds like the machinery of paying back, not the principle behind it."
+  },
+  {
+   "id": "demanding.oewn-00713705-a",
+   "word": "demanding",
+   "gloss": "requiring more than usually expected or thought due; especially great patience and effort and skill",
+   "note": "Plain and calm - it names how much is asked without judging whether that is fair, where *hard-to-please* has already found someone guilty."
+  },
+  {
+   "id": "newsworthy.oewn-01347682-s",
+   "word": "newsworthy",
+   "gloss": "sufficiently interesting to be reported in a newspaper",
+   "note": "A bar to clear, not a compliment: it asks whether something has enough interest to report, where *interesting* describes the pull itself."
+  },
+  {
+   "id": "unaccountable.oewn-02006185-s",
+   "word": "unaccountable",
+   "gloss": "free from control or responsibility",
+   "note": "Simply states where someone stands - there is no one to answer to, and the person is not judged for it."
+  },
+  {
+   "id": "wickedness.oewn-00746935-n",
+   "word": "wickedness",
+   "gloss": "morally objectionable behavior",
+   "note": "Condemns the same conduct with preachy relish, as if the wrong were knowingly enjoyed, not just done: more vivid than the bare *evil*."
+  },
+  {
+   "id": "priggish.oewn-01886245-s",
+   "word": "priggish",
+   "gloss": "exaggeratedly proper",
+   "note": "Scornful: being too proper is taken as smugness, correct behaviour shown off as a mark of being better than others."
+  },
+  {
+   "id": "distinguish.oewn-00653662-v",
+   "word": "distinguish",
+   "gloss": "be a distinctive feature, attribute, or trait; sometimes in a very positive sense",
+   "note": "Leans hardest here on the very positive use: the trait does not just identify the thing, it raises it above others."
+  },
+  {
+   "id": "disgruntled.oewn-00592856-s",
+   "word": "disgruntled",
+   "gloss": "in a state of sulky dissatisfaction",
+   "note": "Makes light of the complaint - the grumpy tone turns it into a mere mood, brushed aside along with the person complaining."
+  },
+  {
+   "id": "disused.oewn-00672257-s",
+   "word": "disused",
+   "gloss": "no longer in use",
+   "note": "States the plain fact of non-use and leaves the reason alone."
+  },
+  {
+   "id": "anile.oewn-01649409-s",
+   "word": "anile",
+   "gloss": "of or like a feeble old woman",
+   "note": "Formal-sounding but withering, covering both being a feeble old woman and merely being like one; the scorn is in the word itself."
+  },
+  {
+   "id": "cozy.oewn-00454806-s",
+   "word": "cozy",
+   "gloss": "suggesting connivance",
+   "note": "Hints at wrongdoing - the closeness is treated as secret cooperation, so the word's comfortable warmth becomes the accusation."
+  },
+  {
+   "id": "insidious.oewn-02105164-s",
+   "word": "insidious",
+   "gloss": "beguiling but harmful",
+   "note": "The warning is in the pairing: the charm is real and is exactly what hides the harm, where *corrupting* names the damage openly."
+  },
+  {
+   "id": "fucked-up.oewn-01673870-s",
+   "word": "fucked-up",
+   "gloss": "snarled or stalled in complete confusion",
+   "note": "Coarse and total - a tangle or dead stop treated as a mess someone made and must answer for; the harshest word here."
+  },
+  {
+   "id": "tool.oewn-09996081-n",
+   "word": "tool",
+   "gloss": "a person who is controlled by others and is used to perform unpleasant or dishonest tasks for someone else",
+   "note": "The coldest of the three: the person is a thing picked up for dirty or merely unpleasant jobs, valued only for being used."
+  },
+  {
+   "id": "faulty.oewn-01757421-s",
+   "word": "faulty",
+   "gloss": "having a defect",
+   "note": "Ordinary and fixable - it finds a fault to be put right rather than writing the thing off the way *defective* does."
+  },
+  {
+   "id": "critical.oewn-00653599-a",
+   "word": "critical",
+   "gloss": "being in or verging on a state of crisis or emergency",
+   "note": "Marks the tipping point, the moment things break one way or the other - cooler and more clinical than *grave*."
+  },
+  {
+   "id": "laureate.oewn-01229682-s",
+   "word": "laureate",
+   "gloss": "worthy of the greatest honor or distinction",
+   "note": "Goes past granting honor to set its subject at the very top of it, where *honorable* only confirms the honor is deserved."
+  },
+  {
+   "id": "awe-inspiring.oewn-01285602-s",
+   "word": "awe-inspiring",
+   "gloss": "inspiring awe or admiration or wonder",
+   "note": "Formal - it describes what a thing does to the people who see it, where *amazing* simply cries out."
+  },
+  {
+   "id": "inspired.oewn-01125269-s",
+   "word": "inspired",
+   "gloss": "being of such surpassing excellence as to suggest inspiration by the gods",
+   "note": "Milder than *divine* and *elysian*: it credits the excellence to something breathed in from outside, but names no gods."
+  },
+  {
+   "id": "catchy.oewn-00750431-s",
+   "word": "catchy",
+   "gloss": "having concealed difficulty",
+   "note": "Warns of a trap - the difficulty stays hidden until you are into it, so the thing is harder than it looks."
+  },
+  {
+   "id": "colour.oewn-04685309-n",
+   "word": "colour",
+   "gloss": "an outward or token appearance or form that is deliberately misleading",
+   "note": "British spelling of the same misleading surface: a respectable tint lent to something so it passes, only a tint, where *disguise* covers."
+  },
+  {
+   "id": "creature.oewn-09996081-n",
+   "word": "creature",
+   "gloss": "a person who is controlled by others and is used to perform unpleasant or dishonest tasks for someone else",
+   "note": "Condemns the person themselves as something another made and can aim at any unpleasant or dishonest job, where *tool* condemns only their usefulness."
+  },
+  {
+   "id": "innocent.oewn-00931219-s",
+   "word": "innocent",
+   "gloss": "completely wanting or lacking",
+   "note": "Light and quietly joking - a complete lack made to sound free of blame, the opposite feeling from *destitute*."
+  },
+  {
+   "id": "sparkly.oewn-00809380-s",
+   "word": "sparkly",
+   "gloss": "marked by high spirits or excitement",
+   "note": "The same flash said in a smaller, prettier way - decorative where *scintillating* is dazzling."
+  },
+  {
+   "id": "dispirited.oewn-00707060-s",
+   "word": "dispirited",
+   "gloss": "filled with melancholy and despondency",
+   "note": "Names the loss rather than the mood - the spirit has been drained out, which comes across as emptiness beside *gloomy*'s heaviness."
+  },
+  {
+   "id": "discontent.oewn-00592317-a",
+   "word": "discontent",
+   "gloss": "showing or experiencing dissatisfaction or restless longing",
+   "note": "Covers dissatisfaction or restless longing like *discontented*, but reads as a fixed state where *discontented* allows a passing mood."
+  },
+  {
+   "id": "astute.oewn-00440649-s",
+   "word": "astute",
+   "gloss": "marked by practical hardheaded intelligence",
+   "note": "Formal praise for judgement that sees through a situation, carrying more weight than *sharp*, which praises speed instead."
+  },
+  {
+   "id": "clear.oewn-01912661-s",
+   "word": "clear",
+   "gloss": "(of sound or color) free from anything that dulls or dims",
+   "note": "Praises a sound or colour that nothing dulls or dims - brightness is the point, not the lack of dirt that *clean* marks."
+  },
+  {
+   "id": "come-at-able.oewn-01827657-s",
+   "word": "come-at-able",
+   "gloss": "capable of being attained or accomplished",
+   "note": "Informal and homely, it makes the thing sound simply within arm's length, where *attainable* makes the reach sound impressive."
+  },
+  {
+   "id": "alive.oewn-00192141-s",
+   "word": "alive",
+   "gloss": "mentally perceptive and responsive",
+   "note": "Shows a sharp, noticing mind as full of life - stirred and answering, rather than simply watchful."
+  },
+  {
+   "id": "abusive.oewn-01164128-s",
+   "word": "abusive",
+   "gloss": "characterized by physical or psychological maltreatment",
+   "note": "The heaviest word here, since the harm is a person treated cruelly in body or mind, not the general damage *harmful* allows."
+  },
+  {
+   "id": "tempting.oewn-02104760-s",
+   "word": "tempting",
+   "gloss": "highly attractive and able to arouse hope or desire",
+   "note": "The desire it raises may be one you argue with yourself over, so the pull feels like pressure, not *enticing*'s clean invitation."
+  },
+  {
+   "id": "flagitious.oewn-01134954-s",
+   "word": "flagitious",
+   "gloss": "shockingly brutal or cruel",
+   "note": "Formal and bookish where *atrocious* is loud: the same charge of brutality, made coldly."
+  },
+  {
+   "id": "sophisticated.oewn-02278101-a",
+   "word": "sophisticated",
+   "gloss": "having or appealing to those having worldly knowledge and refinement and savoir-faire",
+   "note": "Praises worldly knowledge and refinement together, and can describe things made for such people, not just the people - which *urbane* cannot."
+  },
+  {
+   "id": "windless.oewn-00304378-s",
+   "word": "windless",
+   "gloss": "without or almost without wind",
+   "note": "A bare measure - no wind, or almost none - without the approval *tranquil* carries."
+  },
+  {
+   "id": "lacerated.oewn-01321879-s",
+   "word": "lacerated",
+   "gloss": "having edges that are jagged from injury",
+   "note": "The ordinary *-ed* form for that same ragged tearing, felt rather than measured, where *lacerate* stays curt."
+  },
+  {
+   "id": "consummate.oewn-02234724-s",
+   "word": "consummate",
+   "gloss": "having or revealing supreme mastery or skill",
+   "note": "The highest praise - skill carried to its finish with nothing left to add, far above the everyday *proficient*."
+  },
+  {
+   "id": "honour.oewn-04857203-n",
+   "word": "honour",
+   "gloss": "a woman's virtue or chastity",
+   "note": "Makes a woman's chastity her standing, something she is credited with and can be stripped of, where *virtue* only calls it moral."
+  },
+  {
+   "id": "rehabilitative.oewn-00588549-s",
+   "word": "rehabilitative",
+   "gloss": "helping to restore to good condition",
+   "note": "The same approving sense of repair as *reconstructive*, but the longer, more formal word makes the help sound ongoing, not a single fix."
+  },
+  {
+   "id": "unremarked.oewn-01613725-s",
+   "word": "unremarked",
+   "gloss": "not perceived or commented on",
+   "note": "Leans the other way from *unperceived*: the thing may well have been seen, and the point is that nothing was said of it."
+  },
+  {
+   "id": "blue.oewn-00365961-s",
+   "word": "blue",
+   "gloss": "causing dejection",
+   "note": "Informal, and it colours the mood without condemning the thing, where *dismal* passes judgement on it."
+  },
+  {
+   "id": "sanguinary.oewn-00249118-s",
+   "word": "sanguinary",
+   "gloss": "marked by eagerness to resort to violence and bloodshed",
+   "note": "Formal, and its cool tone sits strangely on an eagerness for bloodshed, condemning from a distance where *bloodthirsty* condemns close up."
+  },
+  {
+   "id": "steep.oewn-01538377-s",
+   "word": "steep",
+   "gloss": "greatly exceeding bounds of reason or moderation",
+   "note": "Informal and dry: a big excess becomes a grumble, where *outrageous* turns the same excess into a protest."
+  },
+  {
+   "id": "uneven.oewn-00581013-s",
+   "word": "uneven",
+   "gloss": "lacking consistency",
+   "note": "The mildest of these - it notes variation without deciding that any part of the thing has failed."
+  },
+  {
+   "id": "cuddly.oewn-01463188-s",
+   "word": "cuddly",
+   "gloss": "inviting cuddling or hugging",
+   "note": "Soft, casual and physical: it charms by asking to be cuddled or hugged, not by a good nature as in *sweet*."
+  },
+  {
+   "id": "lover.oewn-09645472-n",
+   "word": "lover",
+   "gloss": "a person who loves someone or is loved by someone",
+   "note": "Works from either side: the one who loves or the one who is loved, stating the relation rather than acting it out."
+  },
+  {
+   "id": "homelike.oewn-00479651-s",
+   "word": "homelike",
+   "gloss": "having a feeling of home; cozy and comfortable",
+   "note": "Praises a place for feeling like home and putting you at ease, where *cozy* praises its warmth."
+  },
+  {
+   "id": "darkened.oewn-01649594-s",
+   "word": "darkened",
+   "gloss": "(of fabrics and paper) grown dark in color over time",
+   "note": "The only word here about what time does to the colour of cloth or paper, not to a life, and it judges nothing."
+  },
+  {
+   "id": "little.oewn-01653473-s",
+   "word": "little",
+   "gloss": "(of children and animals) young, immature",
+   "note": "The warmth is in the smallness: calling a child or young animal little makes it lovable, where *small* only measures."
+  }
+ ]
+}

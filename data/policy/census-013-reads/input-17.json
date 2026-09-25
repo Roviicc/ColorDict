@@ -1,0 +1,352 @@
+{
+ "packet": 17,
+ "count": 28,
+ "entries": [
+  {
+   "id": "imprudence.oewn-04901232-n",
+   "word": "imprudence",
+   "definition": "a lack of caution in practical affairs",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Names a fault by what is missing - caution not brought to practical matters - where *rashness* accuses someone of charging ahead.",
+   "usage_labels": [],
+   "examples": [
+    "Elizabeth had frequently united with Jane in an endeavour to check the imprudence of Catherine and Lydia",
+    "I see the imprudence of it."
+   ]
+  },
+  {
+   "id": "rashness.oewn-04901399-n",
+   "word": "rashness",
+   "definition": "the trait of acting rashly and without prudence",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Heavier, since the fault is a trait of the person, not a gap in a decision: acting without caution, not just lacking it.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "tranquillity.oewn-04911529-n",
+   "word": "tranquillity",
+   "definition": "a disposition free from stress or emotion",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Soothing rather than lofty: a nature free of stress, praised as restful, where *serenity* raises it higher.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "civility.oewn-04921310-n",
+   "word": "civility",
+   "definition": "formal or perfunctory politeness",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The lowest here: politeness as outward form, done correctly or gone through without interest, so it approves far less warmly than *graciousness*.",
+   "usage_labels": [],
+   "examples": [
+    "his formal civility was just what it had been",
+    "hurrying off as if eager to escape from Mrs. Bennet's civilities"
+   ]
+  },
+  {
+   "id": "graciousness.oewn-04920745-n",
+   "word": "graciousness",
+   "definition": "excellence of manners or social conduct",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Not just meeting the standard of manners but excelling at it - the highest of these words, where *civility* is the lowest.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "niceness.oewn-04920159-n",
+   "word": "niceness",
+   "definition": "a courteous manner that respects accepted social usage",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "The plainest name for behaviour that respects accepted social custom, so mild that the approval barely feels like praise beside *politeness*.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "worth.oewn-05145473-n",
+   "word": "worth",
+   "definition": "the quality that renders something desirable or valuable or useful",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Plainly positive and broad, covering what makes a thing desirable, valuable or just useful, without *price*'s claim that the quality is great.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "discreetness.oewn-05623283-n",
+   "word": "discreetness",
+   "definition": "knowing how to avoid embarrassment or distress",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Mild approval for the knack of heading off embarrassment or distress, a plain quality where *discretion* sounds like a virtue you are praised for.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "judgement.oewn-05621958-n",
+   "word": "judgement",
+   "definition": "the mental ability to understand and discriminate between relations",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The flat name for the ability to tell relations apart, saying only that it is there, without the admiration *sagacity* adds.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "maze.oewn-05693684-n",
+   "word": "maze",
+   "definition": "something jumbled or confused",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Makes the mess or confusion something you are inside and lost in, complicated in a way *tangle* does not suggest.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "apology.oewn-05829462-n",
+   "word": "apology",
+   "definition": "a poor example",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Regretful where *excuse* is blunt - the same judgement that it falls short, said with a pained face, not a scornful one.",
+   "usage_labels": [],
+   "examples": [
+    "it was an apology for a meal",
+    "The cold soup and dry bread were an apology for a dinner."
+   ]
+  },
+  {
+   "id": "exception.oewn-05829606-n",
+   "word": "exception",
+   "definition": "an instance that does not conform to a rule or generalization",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Names a case by where it stands - outside the rule - and passes no judgement on it for being there.",
+   "usage_labels": [],
+   "examples": [
+    "all her children were brilliant; the only exception was her last child",
+    "an exception tests the rule"
+   ]
+  },
+  {
+   "id": "bubble.oewn-05904986-n",
+   "word": "bubble",
+   "definition": "an impracticable and illusory idea",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The idea is not only unreal but could never be carried out, and the word holds the picture of it bursting.",
+   "usage_labels": [],
+   "examples": [
+    "he didn't want to burst the newcomer's bubble"
+   ]
+  },
+  {
+   "id": "fancy.oewn-05904666-n",
+   "word": "fancy",
+   "definition": "something many people believe that is false",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The gentlest way to call a common belief false: a passing idea, not an accusation against those who hold it.",
+   "usage_labels": [],
+   "examples": [
+    "The notion that lightning never strikes the same place twice is an old fancy."
+   ]
+  },
+  {
+   "id": "destination.oewn-05990653-n",
+   "word": "destination",
+   "definition": "the ultimate goal for which something is done",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Makes the outcome the final one that everything else serves, and brings the picture of a journey's end that *object* lacks.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "intention.oewn-05991037-n",
+   "word": "intention",
+   "definition": "an anticipated outcome that is intended or that guides your planned actions",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Puts the outcome in the person's own mind, so it holds even if nothing is done, unlike *target*, something that can be hit.",
+   "usage_labels": [],
+   "examples": [
+    "\"We acted with the best intentions.\"",
+    "Thus much for my general intention in favour of matrimony"
+   ]
+  },
+  {
+   "id": "object.oewn-05990115-n",
+   "word": "object",
+   "definition": "the goal intended to be attained (and which is believed to be attainable)",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "Dry and formal: the goal as a definite thing to get, one believed within reach, without *target*'s sense of hit or miss.",
+   "usage_labels": [],
+   "examples": [
+    "the sole object of her trip was to see her children",
+    "The object of the meeting was to settle the dispute."
+   ]
+  },
+  {
+   "id": "purpose.oewn-05991037-n",
+   "word": "purpose",
+   "definition": "an anticipated outcome that is intended or that guides your planned actions",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The weightiest plain word for a wanted outcome: it gives the planned action its reason, where *aim* only gives it a direction.",
+   "usage_labels": [],
+   "examples": [
+    "my mother's purpose will be answered",
+    "She was going to the butcher's, she told me, on purpose to order in some meat on Wednesday"
+   ]
+  },
+  {
+   "id": "target.oewn-05990115-n",
+   "word": "target",
+   "definition": "the goal intended to be attained (and which is believed to be attainable)",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The sharpest of these: the reachable outcome becomes a thing to hit, so falling short counts as a miss.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "partiality.oewn-06210871-n",
+   "word": "partiality",
+   "definition": "an inclination to favor one group or view or opinion over alternatives",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The plain name for leaning toward one side: the scales are tipped, but unlike *prejudice* it does not say the case is closed.",
+   "usage_labels": [],
+   "examples": [
+    "I do not trust my own partiality.",
+    "the strong sisterly partiality which made any admiration of Elizabeth appear perfectly natural"
+   ]
+  },
+  {
+   "id": "provincialism.oewn-06212164-n",
+   "word": "provincialism",
+   "definition": "a partiality for some particular place",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Names the leaning by its object, one particular place, so the narrow view is built in, where *partiality* must spell it out.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "defence.oewn-06753339-n",
+   "word": "defence",
+   "definition": "the justification for some act or belief",
+   "part_of_speech": "noun",
+   "label": "neutral",
+   "score": null,
+   "tone": "The plain word for justifying an act or belief, saying nothing of whether it succeeds and, unlike *excuse*, assuming no wrong.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "excuse.oewn-06754000-n",
+   "word": "excuse",
+   "definition": "a defense of some offensive behavior or some failure to keep a promise etc.",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Admits the fault while covering it - what it defends is already offensive behaviour or a broken promise, where *defence* assumes no wrong.",
+   "usage_labels": [],
+   "examples": [
+    "His pride does not offend me so much as pride often does, because there is an excuse for it.",
+    "She was then but fifteen, which must be her excuse."
+   ]
+  },
+  {
+   "id": "mouth.oewn-06734698-n",
+   "word": "mouth",
+   "definition": "an impudent or insolent rejoinder",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Bluntly scolding - the disrespectful answer reduced to just talk, named by the body part that made it, not by what it said.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "calamity.oewn-07329438-n",
+   "word": "calamity",
+   "definition": "an event resulting in great loss and misfortune",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "Ruin on the scale of *disaster*, but declared in a grander, more ringing way.",
+   "usage_labels": [],
+   "examples": [
+    "the whole city was affected by the irremediable calamity"
+   ]
+  },
+  {
+   "id": "apathy.oewn-07498762-n",
+   "word": "apathy",
+   "definition": "an absence of emotion or enthusiasm",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The flat, general name: it covers missing emotion and missing enthusiasm alike, and treats the whole absence as a failing.",
+   "usage_labels": [],
+   "examples": []
+  },
+  {
+   "id": "indifference.oewn-07498922-n",
+   "word": "indifference",
+   "definition": "apathy demonstrated by an absence of emotional reactions",
+   "part_of_speech": "noun",
+   "label": "negative",
+   "score": null,
+   "tone": "The restrained word: it reports only that no emotional reaction came, where *stolidity* sees the same blankness as dullness in the person.",
+   "usage_labels": [],
+   "examples": [
+    "She heard the news with complete indifference, and her face never changed."
+   ]
+  },
+  {
+   "id": "dignity.oewn-04894076-n",
+   "word": "dignity",
+   "definition": "the quality of being worthy of esteem or respect",
+   "part_of_speech": "noun",
+   "label": "positive",
+   "score": null,
+   "tone": "Highest and steadiest here: not a feeling about oneself but a worth that earns respect, so never open to *conceit*'s charge of excess.",
+   "usage_labels": [],
+   "examples": [
+    "it was beneath his dignity to cheat",
+    "showed his true dignity when under pressure"
+   ]
+  }
+ ]
+}
