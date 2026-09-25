@@ -1,7 +1,7 @@
 {
   "plan": "docs/BUILD-PLAN.md",
   "approved": true,
-  "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes. Stages 9-12 proposed 2026-09-05. Stage 9 approved and closed by the author 2026-09-26 on its step-9 done-check. Stage 9b (plain words) approved 2026-09-26: max 24 words, no minimum, run cap 4 ticks; closed by the author 2026-09-26 05:40 UTC+8 on its step-10 done-check. Stages 10-12 NOT yet approved: 10 needs its approval and a spend cap (book one is reachable from the cloud since 2026-09-26 and hashes to its recorded id), 12 exists only if a mechanism is found.",
+  "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes. Stages 9-12 proposed 2026-09-05. Stage 9 approved and closed by the author 2026-09-26 on its step-9 done-check. Stage 9b (plain words) approved 2026-09-26: max 24 words, no minimum, run cap 4 ticks; closed by the author 2026-09-26 05:40 UTC+8 on its step-10 done-check. Stage 10 approved by the author 2026-09-26 06:22 UTC+8 with a cap of 4 rounds a night, stop by 08:00 UTC+8, nothing to main; it runs on the author's next go (book one is reachable from the cloud since 2026-09-26 and hashes to its recorded id). Stages 11-12 NOT yet approved; 12 exists only if a mechanism is found.",
   "stages": [
     {
       "stage": "0",
@@ -478,6 +478,7 @@
         "models": "orchestrator Opus 5.5 at max effort (this session); writers per their files (opus), readers per theirs (fable = claude-fable-5-1, unchanged, which keeps census rates comparable)",
         "gutenberg": "allowed, and measured from the cloud 2026-09-26: www.gutenberg.org and cdn.jsdelivr.net answer, and https://www.gutenberg.org/cache/epub/1342/pg1342.txt (772,386 bytes) hashes to book one's id 3f6bb9d6f78e0293. Stage 10 no longer waits on the host; it still waits on its own approval and spend cap",
         "census_floor": "author, 2026-09-26 03:34 UTC+8 (\"resume, add the floor\"): the 5% stop decides only from 50 read senses up. Below 50, every fault is repaired third-hand and re-read blind and the run continues; the rate is recorded either way. Prompted by census 014, where one fault in 13 read 7.7%.",
+        "followups": "author, 2026-09-26 06:22 UTC+8, picked from four questions: (1) inherited adverb notes lose the 'The adverb of *X*:' prefix from the note and show the adjective as a label above it instead - 133 of 516 ran over 24 words only because of the prefix (0 without it; a 1-word prefix would leave 17 over, a 2-word one 46); (2) one learner-reader on the 20 changed notes never read for ease (tick 1's 13 and 7 census-013 repairs); (3) tone_lint tuned: catch 'usual' as it catches 'usually', and stop flagging 'comes from' and 'no one' where they carry the meaning. Not chosen: a blind recheck of unaccountable's charge.",
         "close": "author, 2026-09-26 05:40 UTC+8: \"Close 9b, and go clean-up!\" - stage 9b closed on its step-10 done-check",
         "cleanup": "author, 2026-09-26 05:40 UTC+8, same message: (1) a second simplifier round on the 12 rewrites learner-001 read hard; (2) a repairer on asleep/pass, both 'the gentlest' way to say dead; (3) a repairer looks at the 5 tone_lint flags the pass added (15 -> 20), fixing or declining each; (4) status.py follows the census floor. Every changed note is read blind again for truth (census-reader) and ease (learner-reader); below 50 read senses, faults are repaired third-hand and re-read, per the floor",
         "author_can_help": "name words whose notes confused them (they go first in the pass); confirm the timezone if not UTC+8; optionally read 5 before/after pairs in the morning"
@@ -566,7 +567,13 @@
       "spend": "the loop at full width",
       "state": "not_started",
       "proposed_on": "2026-09-05",
-      "approved": false,
+      "approved": true,
+      "approved_on": "2026-09-26",
+      "author_decisions_2026_09_26": {
+        "approve": "author, 06:22 UTC+8, asked what the next night should run: 'Stage 10, capped'",
+        "cap": "4 rounds a night; stop by 08:00 UTC+8; nothing to main, no tag, no release",
+        "start": "the next night, on the author's go - the overnight runbook still starts only on 'go' or /overnight"
+      },
       "closed_on": null,
       "closed_by_commit": null,
       "done_when": "no sense on a book-one word lacks a connotation verdict someone made - null is a claim, not a default",
