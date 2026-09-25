@@ -1,140 +1,294 @@
-{"packet": 1, "entries": [
- {"word": "eye", "pos": "noun",
-  "senses": {
-   "oewn-05318579-n": {"learner": "the part of the body that you see with",
-                       "examples": ["Her father lifted up his eyes, Jane was distressed, Elizabeth looked expressively at Lydia"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05711254-n": {"learner": "the attention you give to what you are looking at",
-                       "examples": ["He waved his hand to catch her eye across the room.", "A red hat in the shop window caught my eye."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-08540894-n": {"learner": "an area that is near the middle of a larger area",
-                       "examples": ["The little boat was caught in the eye of the storm."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03313242-n": {"learner": "a small hole or loop, like the one in a needle",
-                       "examples": ["She could not get the thread through the eye of the needle."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "glad", "pos": "adjective",
-  "senses": {
-   "oewn-01364330-a": {"learner": "feeling, showing, or bringing joy and pleasure, especially made happy by something",
-                       "examples": ["I am glad you are come, for there is such fun here!", "I am glad it occurred to me to mention it"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02576313-s": {"learner": "willing and eager to do something or to help",
-                       "examples": ["I would be glad to help you carry those bags."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "temptation", "pos": "noun",
-  "senses": {
-   "oewn-05702756-n": {"learner": "something that pulls you toward it and makes you want it, or that has the power to do so",
-                       "examples": ["His temptation is not adequate to the risk.", "he was not likely to be proof against the temptation of immediate relief."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "set against the plain neighbour 'attraction'"}},
-   "oewn-07500421-n": {"learner": "a wish to have or do something that you know you should not",
-                       "examples": ["She felt a strong temptation to eat the last piece of cake."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00160440-n": {"learner": "the act of trying to influence someone by making them hope for or want something",
-                       "examples": ["The painting shows the temptation of Christ in the desert."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "set against the plain neighbour 'persuasion'"}}
-  }},
- {"word": "half", "pos": "adverb",
-  "senses": {
-   "oewn-00008300-r": {"learner": "partly, or to the amount of one half",
-                       "examples": ["but the portrait is only half alive, and is felt to be even a little unnatural.", "In ran Mrs. Bennet to her daughters' room, in her dressing-gown, and with her hair half finished"],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "converse", "pos": "verb",
-  "senses": {
-   "oewn-00966726-v": {"learner": "to talk with someone and keep the talk going",
-                       "examples": ["they are very pleasing women when you converse with them.", "if he wished to converse with her, he might have better success."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "extent", "pos": "noun",
-  "senses": {
-   "oewn-13964158-n": {"learner": "how far or how much something reaches",
-                       "examples": ["the kindness of the late Mr. Darcy, though she had not before known its extent, agreed equally well with his own words."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05130681-n": {"learner": "the length, area, or amount of space that something covers",
-                       "examples": ["They entered it in one of its lowest points, and drove for some time through a beautiful wood stretching over a wide extent."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "hasten", "pos": "verb",
-  "senses": {
-   "oewn-02062918-v": {"learner": "to move somewhere quickly",
-                       "examples": ["On the following morning he hastened to Rosings to pay his respects.", "She then hastened away to her mother"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00460453-v": {"learner": "to do something quickly",
-                       "examples": ["She hastened to explain that she had meant no harm."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02554590-v": {"learner": "to make something go forward faster, or to make it easier",
-                       "examples": ["when that apprehension first got abroad, it hastened his journey."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01648064-v": {"learner": "to make something happen quickly",
-                       "examples": ["The doctor gave her a drug to hasten the birth."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "hurt", "pos": "verb",
-  "senses": {
-   "oewn-01797206-v": {"learner": "to upset someone's feelings",
-                       "examples": ["You wish to think all the world respectable, and are hurt if I speak ill of anybody.", "though his pride was hurt, he suffered in no other way."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01796596-v": {"learner": "to cause someone great pain of the mind, or to make them miserable",
-                       "examples": ["Losing the farm hurt him so badly that he could not sleep for weeks."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00064414-v": {"learner": "to cause trouble or pain to someone or something",
-                       "examples": ["Those tight shoes will hurt your feet."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02126629-v": {"learner": "to be the thing that is causing pain",
-                       "examples": ["My tooth hurts when I drink cold water."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00261356-v": {"learner": "to cause damage to something, or to have a bad effect on it",
-                       "examples": ["Bad reviews hurt sales of the book."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00064841-v": {"learner": "to feel pain",
-                       "examples": ["After the long walk I hurt all over."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "unfortunate", "pos": "adjective",
-  "senses": {
-   "oewn-00178121-a": {"learner": "seeming to show that bad things will happen",
-                       "examples": ["The sailors thought it an unfortunate sign to set sail on a Friday."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "urge", "pos": "verb",
-  "senses": {
-   "oewn-00876672-v": {"learner": "to push hard for something to be done",
-                       "examples": ["Bingley urged Mr. Jones's being sent for immediately"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00767694-v": {"learner": "to push or drive someone or something in a certain direction",
-                       "examples": ["The farmer urged the cows through the gate."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00860463-v": {"learner": "to push someone on or encourage them, especially by cheering and shouting",
-                       "examples": ["The crowd urged the runners on with loud cheers."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 1,
+ "entries": [
+  {
+   "word": "eye",
+   "pos": "noun",
+   "senses": {
+    "oewn-05318579-n": {
+     "learner": "the part of the body that you see with",
+     "examples": [
+      "Her father lifted up his eyes, Jane was distressed, Elizabeth looked expressively at Lydia"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05711254-n": {
+     "learner": "the attention you give to what you are looking at",
+     "examples": [
+      "He waved his hand to catch her eye across the room.",
+      "A red hat in the shop window caught my eye."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-08540894-n": {
+     "learner": "an area that is near the middle of a larger area",
+     "examples": [
+      "The little boat was caught in the eye of the storm."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03313242-n": {
+     "learner": "a small hole or loop, like the one in a needle",
+     "examples": [
+      "She could not get the thread through the eye of the needle."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "glad",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01364330-a": {
+     "learner": "feeling, showing, or bringing joy and pleasure, especially made happy by something",
+     "examples": [
+      "I am glad you are come, for there is such fun here!",
+      "I am glad it occurred to me to mention it"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02576313-s": {
+     "learner": "willing and eager to do something or to help",
+     "examples": [
+      "I would be glad to help you carry those bags."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "temptation",
+   "pos": "noun",
+   "senses": {
+    "oewn-05702756-n": {
+     "learner": "something that pulls you toward it and makes you want it, or that has the power to do so",
+     "examples": [
+      "His temptation is not adequate to the risk.",
+      "he was not likely to be proof against the temptation of immediate relief."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "set against the plain neighbour 'attraction'"
+     }
+    },
+    "oewn-07500421-n": {
+     "learner": "a wish to have or do something that you know you should not",
+     "examples": [
+      "She felt a strong temptation to eat the last piece of cake."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00160440-n": {
+     "learner": "the act of trying to influence someone by making them hope for or want something",
+     "examples": [
+      "The painting shows the temptation of Christ in the desert."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "set against the plain neighbour 'persuasion'"
+     }
+    }
+   }
+  },
+  {
+   "word": "half",
+   "pos": "adverb",
+   "senses": {
+    "oewn-00008300-r": {
+     "learner": "partly, or to the amount of one half",
+     "examples": [
+      "but the portrait is only half alive, and is felt to be even a little unnatural.",
+      "In ran Mrs. Bennet to her daughters' room, in her dressing-gown, and with her hair half finished"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "converse",
+   "pos": "verb",
+   "senses": {
+    "oewn-00966726-v": {
+     "learner": "to talk with someone and keep the talk going",
+     "examples": [
+      "they are very pleasing women when you converse with them.",
+      "if he wished to converse with her, he might have better success."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "extent",
+   "pos": "noun",
+   "senses": {
+    "oewn-13964158-n": {
+     "learner": "how far or how much something reaches",
+     "examples": [
+      "the kindness of the late Mr. Darcy, though she had not before known its extent, agreed equally well with his own words."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05130681-n": {
+     "learner": "the length, area, or amount of space that something covers",
+     "examples": [
+      "They entered it in one of its lowest points, and drove for some time through a beautiful wood stretching over a wide extent."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "hasten",
+   "pos": "verb",
+   "senses": {
+    "oewn-02062918-v": {
+     "learner": "to move somewhere quickly",
+     "examples": [
+      "On the following morning he hastened to Rosings to pay his respects.",
+      "She then hastened away to her mother"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00460453-v": {
+     "learner": "to do something quickly",
+     "examples": [
+      "She hastened to explain that she had meant no harm."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02554590-v": {
+     "learner": "to make something go forward faster, or to make it easier",
+     "examples": [
+      "when that apprehension first got abroad, it hastened his journey."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01648064-v": {
+     "learner": "to make something happen quickly",
+     "examples": [
+      "The doctor gave her a drug to hasten the birth."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "hurt",
+   "pos": "verb",
+   "senses": {
+    "oewn-01797206-v": {
+     "learner": "to upset someone's feelings",
+     "examples": [
+      "You wish to think all the world respectable, and are hurt if I speak ill of anybody.",
+      "though his pride was hurt, he suffered in no other way."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01796596-v": {
+     "learner": "to cause someone great pain of the mind, or to make them miserable",
+     "examples": [
+      "Losing the farm hurt him so badly that he could not sleep for weeks."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00064414-v": {
+     "learner": "to cause trouble or pain to someone or something",
+     "examples": [
+      "Those tight shoes will hurt your feet."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02126629-v": {
+     "learner": "to be the thing that is causing pain",
+     "examples": [
+      "My tooth hurts when I drink cold water."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00261356-v": {
+     "learner": "to cause damage to something, or to have a bad effect on it",
+     "examples": [
+      "Bad reviews hurt sales of the book."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00064841-v": {
+     "learner": "to feel pain",
+     "examples": [
+      "After the long walk I hurt all over."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "unfortunate",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00178121-a": {
+     "learner": "seeming to show that bad things will happen",
+     "examples": [
+      "The sailors thought it an unfortunate sign to set sail on a Friday."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "urge",
+   "pos": "verb",
+   "senses": {
+    "oewn-00876672-v": {
+     "learner": "to try hard to get something done or accepted",
+     "examples": [
+      "Bingley urged Mr. Jones's being sent for immediately"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00767694-v": {
+     "learner": "to push or drive someone or something in a certain direction",
+     "examples": [
+      "The farmer urged the cows through the gate."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00860463-v": {
+     "learner": "to push someone on or encourage them, especially by cheering and shouting",
+     "examples": [
+      "The crowd urged the runners on with loud cheers."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

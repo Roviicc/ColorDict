@@ -1,32 +1,112 @@
-{"packet": 3, "entries": [
- {"word": "cordial", "pos": "adjective",
-  "order": ["oewn-01078866-s", "oewn-02541527-s", "oewn-02187428-s"],
-  "met": ["oewn-01078866-s"]},
- {"word": "eloquence", "pos": "noun",
-  "order": ["oewn-07083250-n"],
-  "met": ["oewn-07083250-n"]},
- {"word": "offended", "pos": "adjective",
-  "order": ["oewn-01812324-s"],
-  "met": ["oewn-01812324-s"]},
- {"word": "presumption", "pos": "noun",
-  "order": ["oewn-04845958-n", "oewn-05901963-n", "oewn-01228051-n", "oewn-05789344-n"],
-  "met": ["oewn-04845958-n"]},
- {"word": "rapid", "pos": "adjective",
-  "order": ["oewn-00983053-s", "oewn-00982888-s"],
-  "met": ["oewn-00983053-s"]},
- {"word": "supply", "pos": "noun",
-  "order": ["oewn-13799556-n", "oewn-13584725-n", "oewn-01059124-n"],
-  "met": ["oewn-13799556-n"]},
- {"word": "writer", "pos": "noun",
-  "order": ["oewn-10820913-n", "oewn-10813654-n"],
-  "met": ["oewn-10820913-n"]},
- {"word": "finer", "pos": "adjective",
-  "order": ["oewn-00232532-s"],
-  "met": ["oewn-00232532-s"]},
- {"word": "obliging", "pos": "adjective",
-  "order": ["oewn-00021147-s"],
-  "met": ["oewn-00021147-s"]},
- {"word": "mercenary", "pos": "noun",
-  "order": ["oewn-10329281-n"],
-  "met": []}
-]}
+{
+ "packet": 3,
+ "entries": [
+  {
+   "word": "cordial",
+   "pos": "adjective",
+   "order": [
+    "oewn-01078866-s",
+    "oewn-02541527-s",
+    "oewn-02187428-s"
+   ],
+   "met": [
+    "oewn-01078866-s"
+   ]
+  },
+  {
+   "word": "eloquence",
+   "pos": "noun",
+   "order": [
+    "oewn-07083250-n"
+   ],
+   "met": [
+    "oewn-07083250-n"
+   ]
+  },
+  {
+   "word": "offended",
+   "pos": "adjective",
+   "order": [
+    "oewn-01812324-s"
+   ],
+   "met": [
+    "oewn-01812324-s"
+   ]
+  },
+  {
+   "word": "presumption",
+   "pos": "noun",
+   "order": [
+    "oewn-04845958-n",
+    "oewn-05901963-n",
+    "oewn-01228051-n",
+    "oewn-05789344-n"
+   ],
+   "met": [
+    "oewn-04845958-n"
+   ]
+  },
+  {
+   "word": "rapid",
+   "pos": "adjective",
+   "order": [
+    "oewn-00983053-s",
+    "oewn-00982888-s"
+   ],
+   "met": [
+    "oewn-00983053-s"
+   ]
+  },
+  {
+   "word": "supply",
+   "pos": "noun",
+   "order": [
+    "oewn-13799556-n",
+    "oewn-13584725-n",
+    "oewn-01059124-n"
+   ],
+   "met": [
+    "oewn-13799556-n"
+   ]
+  },
+  {
+   "word": "writer",
+   "pos": "noun",
+   "order": [
+    "oewn-10820913-n",
+    "oewn-10813654-n"
+   ],
+   "met": [
+    "oewn-10820913-n"
+   ]
+  },
+  {
+   "word": "finer",
+   "pos": "adjective",
+   "order": [
+    "oewn-00232532-s"
+   ],
+   "met": [
+    "oewn-00232532-s"
+   ]
+  },
+  {
+   "word": "obliging",
+   "pos": "adjective",
+   "order": [
+    "oewn-00021147-s"
+   ],
+   "met": [
+    "oewn-00021147-s"
+   ]
+  },
+  {
+   "word": "mercenary",
+   "pos": "noun",
+   "order": [
+    "oewn-10329281-n"
+   ],
+   "met": []
+  }
+ ]
+}

@@ -1,0 +1,637 @@
+{
+ "kind": "new",
+ "population": "data/policy/stage10/population-r3.json",
+ "counts": {
+  "book_words": 4779,
+  "book_senses": 17705,
+  "open": {
+   "words": 4162,
+   "senses": 14260
+  },
+  "open_ranked": {
+   "words": 528,
+   "senses": 2820
+  },
+  "open_never_opened": {
+   "words": 3634,
+   "senses": 11440
+  },
+  "open_stop_words": {
+   "words": 118,
+   "senses": 628
+  },
+  "unserved_records": 1
+ },
+ "pool": 998,
+ "skipped": {
+  "function word": 71,
+  "over 8 senses": 193,
+  "under 3 usable sentences": 2372
+ },
+ "n": 100,
+ "strata": 4,
+ "seed": 14,
+ "max_open": 8,
+ "words": [
+  {
+   "word": "high",
+   "pos": "adjective",
+   "occurrences": 32,
+   "open": 6
+  },
+  {
+   "word": "anxious",
+   "pos": "adjective",
+   "occurrences": 26,
+   "open": 1
+  },
+  {
+   "word": "common",
+   "pos": "adjective",
+   "occurrences": 25,
+   "open": 8
+  },
+  {
+   "word": "noble",
+   "pos": "adjective",
+   "occurrences": 13,
+   "open": 2
+  },
+  {
+   "word": "comfortable",
+   "pos": "adjective",
+   "occurrences": 12,
+   "open": 3
+  },
+  {
+   "word": "low",
+   "pos": "adjective",
+   "occurrences": 12,
+   "open": 6
+  },
+  {
+   "word": "desirable",
+   "pos": "adjective",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "worth",
+   "pos": "adjective",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "boast",
+   "pos": "verb",
+   "occurrences": 10,
+   "open": 1
+  },
+  {
+   "word": "sincerely",
+   "pos": "adverb",
+   "occurrences": 9,
+   "open": 1
+  },
+  {
+   "word": "spar",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 4
+  },
+  {
+   "word": "consent",
+   "pos": "noun",
+   "occurrences": 8,
+   "open": 1
+  },
+  {
+   "word": "delicate",
+   "pos": "adjective",
+   "occurrences": 8,
+   "open": 6
+  },
+  {
+   "word": "gallantry",
+   "pos": "noun",
+   "occurrences": 8,
+   "open": 2
+  },
+  {
+   "word": "oppose",
+   "pos": "verb",
+   "occurrences": 8,
+   "open": 6
+  },
+  {
+   "word": "quarrel",
+   "pos": "verb",
+   "occurrences": 8,
+   "open": 1
+  },
+  {
+   "word": "renew",
+   "pos": "verb",
+   "occurrences": 8,
+   "open": 2
+  },
+  {
+   "word": "sex",
+   "pos": "noun",
+   "occurrences": 8,
+   "open": 4
+  },
+  {
+   "word": "strongly",
+   "pos": "adverb",
+   "occurrences": 8,
+   "open": 2
+  },
+  {
+   "word": "unknown",
+   "pos": "adjective",
+   "occurrences": 8,
+   "open": 5
+  },
+  {
+   "word": "usually",
+   "pos": "adverb",
+   "occurrences": 8,
+   "open": 1
+  },
+  {
+   "word": "wretched",
+   "pos": "adjective",
+   "occurrences": 8,
+   "open": 4
+  },
+  {
+   "word": "anticipate",
+   "pos": "verb",
+   "occurrences": 7,
+   "open": 6
+  },
+  {
+   "word": "distinction",
+   "pos": "noun",
+   "occurrences": 7,
+   "open": 4
+  },
+  {
+   "word": "governess",
+   "pos": "noun",
+   "occurrences": 7,
+   "open": 1
+  },
+  {
+   "word": "meditate",
+   "pos": "verb",
+   "occurrences": 7,
+   "open": 2
+  },
+  {
+   "word": "quest",
+   "pos": "noun",
+   "occurrences": 7,
+   "open": 2
+  },
+  {
+   "word": "trace",
+   "pos": "verb",
+   "occurrences": 7,
+   "open": 8
+  },
+  {
+   "word": "vary",
+   "pos": "verb",
+   "occurrences": 7,
+   "open": 4
+  },
+  {
+   "word": "abhorrence",
+   "pos": "noun",
+   "occurrences": 6,
+   "open": 1
+  },
+  {
+   "word": "abominable",
+   "pos": "adjective",
+   "occurrences": 6,
+   "open": 1
+  },
+  {
+   "word": "arrange",
+   "pos": "verb",
+   "occurrences": 6,
+   "open": 7
+  },
+  {
+   "word": "boy",
+   "pos": "noun",
+   "occurrences": 6,
+   "open": 4
+  },
+  {
+   "word": "condition",
+   "pos": "noun",
+   "occurrences": 6,
+   "open": 8
+  },
+  {
+   "word": "denial",
+   "pos": "noun",
+   "occurrences": 6,
+   "open": 5
+  },
+  {
+   "word": "emotion",
+   "pos": "noun",
+   "occurrences": 6,
+   "open": 1
+  },
+  {
+   "word": "express",
+   "pos": "noun",
+   "occurrences": 6,
+   "open": 3
+  },
+  {
+   "word": "falsehood",
+   "pos": "noun",
+   "occurrences": 6,
+   "open": 2
+  },
+  {
+   "word": "rid",
+   "pos": "verb",
+   "occurrences": 6,
+   "open": 1
+  },
+  {
+   "word": "shop",
+   "pos": "noun",
+   "occurrences": 6,
+   "open": 3
+  },
+  {
+   "word": "suspense",
+   "pos": "noun",
+   "occurrences": 6,
+   "open": 3
+  },
+  {
+   "word": "violently",
+   "pos": "adverb",
+   "occurrences": 6,
+   "open": 1
+  },
+  {
+   "word": "witness",
+   "pos": "verb",
+   "occurrences": 6,
+   "open": 2
+  },
+  {
+   "word": "acutely",
+   "pos": "adverb",
+   "occurrences": 5,
+   "open": 4
+  },
+  {
+   "word": "affected",
+   "pos": "adjective",
+   "occurrences": 5,
+   "open": 2
+  },
+  {
+   "word": "discretion",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 4
+  },
+  {
+   "word": "discussion",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 2
+  },
+  {
+   "word": "flow",
+   "pos": "verb",
+   "occurrences": 5,
+   "open": 7
+  },
+  {
+   "word": "hearing",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 6
+  },
+  {
+   "word": "inn",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 1
+  },
+  {
+   "word": "narrow",
+   "pos": "adjective",
+   "occurrences": 5,
+   "open": 4
+  },
+  {
+   "word": "reading",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 7
+  },
+  {
+   "word": "reconcile",
+   "pos": "verb",
+   "occurrences": 5,
+   "open": 4
+  },
+  {
+   "word": "result",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 4
+  },
+  {
+   "word": "temper",
+   "pos": "verb",
+   "occurrences": 5,
+   "open": 5
+  },
+  {
+   "word": "unjust",
+   "pos": "adjective",
+   "occurrences": 5,
+   "open": 3
+  },
+  {
+   "word": "agitated",
+   "pos": "adjective",
+   "occurrences": 4,
+   "open": 2
+  },
+  {
+   "word": "copse",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 1
+  },
+  {
+   "word": "decidedly",
+   "pos": "adverb",
+   "occurrences": 4,
+   "open": 1
+  },
+  {
+   "word": "discourage",
+   "pos": "verb",
+   "occurrences": 4,
+   "open": 3
+  },
+  {
+   "word": "entitle",
+   "pos": "verb",
+   "occurrences": 4,
+   "open": 3
+  },
+  {
+   "word": "loud",
+   "pos": "adjective",
+   "occurrences": 4,
+   "open": 3
+  },
+  {
+   "word": "luck",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 3
+  },
+  {
+   "word": "luckily",
+   "pos": "adverb",
+   "occurrences": 4,
+   "open": 1
+  },
+  {
+   "word": "nerve",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 3
+  },
+  {
+   "word": "pardon",
+   "pos": "verb",
+   "occurrences": 4,
+   "open": 2
+  },
+  {
+   "word": "passion",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 6
+  },
+  {
+   "word": "path",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 4
+  },
+  {
+   "word": "qualified",
+   "pos": "adjective",
+   "occurrences": 4,
+   "open": 5
+  },
+  {
+   "word": "anecdote",
+   "pos": "noun",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "attorney",
+   "pos": "noun",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "blush",
+   "pos": "noun",
+   "occurrences": 3,
+   "open": 3
+  },
+  {
+   "word": "briefly",
+   "pos": "adverb",
+   "occurrences": 3,
+   "open": 2
+  },
+  {
+   "word": "characteristic",
+   "pos": "adjective",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "cross",
+   "pos": "adjective",
+   "occurrences": 3,
+   "open": 2
+  },
+  {
+   "word": "familiar",
+   "pos": "adjective",
+   "occurrences": 3,
+   "open": 3
+  },
+  {
+   "word": "hither",
+   "pos": "adverb",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "impartial",
+   "pos": "adjective",
+   "occurrences": 3,
+   "open": 2
+  },
+  {
+   "word": "incline",
+   "pos": "verb",
+   "occurrences": 3,
+   "open": 6
+  },
+  {
+   "word": "injury",
+   "pos": "noun",
+   "occurrences": 3,
+   "open": 5
+  },
+  {
+   "word": "insupportable",
+   "pos": "adjective",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "material",
+   "pos": "noun",
+   "occurrences": 3,
+   "open": 5
+  },
+  {
+   "word": "overpower",
+   "pos": "verb",
+   "occurrences": 3,
+   "open": 2
+  },
+  {
+   "word": "poorly",
+   "pos": "adverb",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "punish",
+   "pos": "verb",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "rejection",
+   "pos": "noun",
+   "occurrences": 3,
+   "open": 4
+  },
+  {
+   "word": "repetition",
+   "pos": "noun",
+   "occurrences": 3,
+   "open": 3
+  },
+  {
+   "word": "repine",
+   "pos": "verb",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "disgust",
+   "pos": "verb",
+   "occurrences": 2,
+   "open": 2
+  },
+  {
+   "word": "express",
+   "pos": "adjective",
+   "occurrences": 2,
+   "open": 1
+  },
+  {
+   "word": "grave",
+   "pos": "noun",
+   "occurrences": 2,
+   "open": 3
+  },
+  {
+   "word": "increase",
+   "pos": "noun",
+   "occurrences": 2,
+   "open": 5
+  },
+  {
+   "word": "turning",
+   "pos": "noun",
+   "occurrences": 2,
+   "open": 6
+  },
+  {
+   "word": "believing",
+   "pos": "noun",
+   "occurrences": 1,
+   "open": 1
+  },
+  {
+   "word": "dissatisfy",
+   "pos": "verb",
+   "occurrences": 1,
+   "open": 1
+  },
+  {
+   "word": "hackney",
+   "pos": "noun",
+   "occurrences": 1,
+   "open": 2
+  },
+  {
+   "word": "lake",
+   "pos": "noun",
+   "occurrences": 1,
+   "open": 3
+  },
+  {
+   "word": "plain",
+   "pos": "adverb",
+   "occurrences": 1,
+   "open": 1
+  },
+  {
+   "word": "real",
+   "pos": "noun",
+   "occurrences": 1,
+   "open": 3
+  },
+  {
+   "word": "waiting",
+   "pos": "noun",
+   "occurrences": 1,
+   "open": 1
+  }
+ ]
+}

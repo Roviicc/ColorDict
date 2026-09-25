@@ -1,32 +1,132 @@
-{"packet": 2, "entries": [
- {"word": "history", "pos": "noun",
-  "order": ["oewn-06526084-n", "oewn-15146348-n", "oewn-06165265-n", "oewn-15148913-n", "oewn-06166450-n"],
-  "met": ["oewn-06526084-n"]},
- {"word": "induce", "pos": "verb",
-  "order": ["oewn-00772482-v", "oewn-01647592-v", "oewn-01648064-v", "oewn-00638103-v", "oewn-01741298-v"],
-  "met": ["oewn-00772482-v"]},
- {"word": "pain", "pos": "verb",
-  "order": ["oewn-01796596-v", "oewn-00070587-v"],
-  "met": ["oewn-01796596-v"]},
- {"word": "voluntarily", "pos": "adverb",
-  "order": ["oewn-00233496-r"],
-  "met": ["oewn-00233496-r"]},
- {"word": "discuss", "pos": "verb",
-  "order": ["oewn-00815640-v", "oewn-01036184-v"],
-  "met": ["oewn-00815640-v"]},
- {"word": "joke", "pos": "noun",
-  "order": ["oewn-06790941-n", "oewn-00428583-n", "oewn-05180970-n", "oewn-00431990-n"],
-  "met": ["oewn-06790941-n"]},
- {"word": "office", "pos": "noun",
-  "order": ["oewn-00721817-n", "oewn-03847186-n", "oewn-00587299-n", "oewn-13968154-n", "oewn-08369230-n", "oewn-08354251-n", "oewn-01035490-n"],
-  "met": ["oewn-00721817-n"]},
- {"word": "attack", "pos": "verb",
-  "order": ["oewn-00864347-v", "oewn-01121587-v", "oewn-01122487-v", "oewn-01120867-v", "oewn-00348264-v", "oewn-00019785-v"],
-  "met": ["oewn-00864347-v"]},
- {"word": "consistent", "pos": "adjective",
-  "order": ["oewn-00579031-a", "oewn-01203638-s", "oewn-00466504-a", "oewn-01873946-a"],
-  "met": ["oewn-00579031-a"]},
- {"word": "obey", "pos": "verb",
-  "order": ["oewn-02548492-v"],
-  "met": ["oewn-02548492-v"]}
-]}
+{
+ "packet": 2,
+ "entries": [
+  {
+   "word": "history",
+   "pos": "noun",
+   "order": [
+    "oewn-06526084-n",
+    "oewn-15146348-n",
+    "oewn-06165265-n",
+    "oewn-15148913-n",
+    "oewn-06166450-n"
+   ],
+   "met": [
+    "oewn-06526084-n"
+   ]
+  },
+  {
+   "word": "induce",
+   "pos": "verb",
+   "order": [
+    "oewn-00772482-v",
+    "oewn-01647592-v",
+    "oewn-01648064-v",
+    "oewn-00638103-v",
+    "oewn-01741298-v"
+   ],
+   "met": [
+    "oewn-00772482-v"
+   ]
+  },
+  {
+   "word": "pain",
+   "pos": "verb",
+   "order": [
+    "oewn-01796596-v",
+    "oewn-00070587-v"
+   ],
+   "met": [
+    "oewn-01796596-v"
+   ]
+  },
+  {
+   "word": "voluntarily",
+   "pos": "adverb",
+   "order": [
+    "oewn-00233496-r"
+   ],
+   "met": [
+    "oewn-00233496-r"
+   ]
+  },
+  {
+   "word": "discuss",
+   "pos": "verb",
+   "order": [
+    "oewn-00815640-v",
+    "oewn-01036184-v"
+   ],
+   "met": [
+    "oewn-00815640-v"
+   ]
+  },
+  {
+   "word": "joke",
+   "pos": "noun",
+   "order": [
+    "oewn-06790941-n",
+    "oewn-00428583-n",
+    "oewn-05180970-n",
+    "oewn-00431990-n"
+   ],
+   "met": [
+    "oewn-06790941-n"
+   ]
+  },
+  {
+   "word": "office",
+   "pos": "noun",
+   "order": [
+    "oewn-00721817-n",
+    "oewn-03847186-n",
+    "oewn-00587299-n",
+    "oewn-13968154-n",
+    "oewn-08369230-n",
+    "oewn-08354251-n",
+    "oewn-01035490-n"
+   ],
+   "met": [
+    "oewn-00721817-n"
+   ]
+  },
+  {
+   "word": "attack",
+   "pos": "verb",
+   "order": [
+    "oewn-00864347-v",
+    "oewn-01121587-v",
+    "oewn-01122487-v",
+    "oewn-01120867-v",
+    "oewn-00348264-v",
+    "oewn-00019785-v"
+   ],
+   "met": [
+    "oewn-00864347-v"
+   ]
+  },
+  {
+   "word": "consistent",
+   "pos": "adjective",
+   "order": [
+    "oewn-00579031-a",
+    "oewn-01203638-s",
+    "oewn-00466504-a",
+    "oewn-01873946-a"
+   ],
+   "met": [
+    "oewn-00579031-a"
+   ]
+  },
+  {
+   "word": "obey",
+   "pos": "verb",
+   "order": [
+    "oewn-02548492-v"
+   ],
+   "met": [
+    "oewn-02548492-v"
+   ]
+  }
+ ]
+}
