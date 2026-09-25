@@ -1,0 +1,91 @@
+{
+ "batch": "draft-019r",
+ "families": [
+  {
+   "id": "family-10008828-n",
+   "axis": "polite respect → praise of fine manners",
+   "_head": [
+    "dame",
+    "madam",
+    "ma'am",
+    "lady"
+   ],
+   "_definition": "a woman of refinement",
+   "members": [
+    {
+     "word": "lady",
+     "synset": "oewn-10008828-n",
+     "charge": 2,
+     "tone": "The plainest word for a woman of grace and good manners, and warmer than *gentlewoman*.",
+     "_gloss": "a woman of refinement"
+    },
+    {
+     "word": "ma'am",
+     "synset": "oewn-10008828-n",
+     "charge": 1,
+     "tone": "A shortened *madam*: the same respect for a refined woman, said more softly and briefly.",
+     "_gloss": "a woman of refinement"
+    },
+    {
+     "word": "madam",
+     "synset": "oewn-10008828-n",
+     "charge": 1,
+     "tone": "Formal and respectful, it names a refined woman while keeping more distance than *lady*.",
+     "_gloss": "a woman of refinement"
+    },
+    {
+     "word": "dame",
+     "synset": "oewn-10008828-n",
+     "charge": 1,
+     "tone": "Stately and formal, it gives a refined woman more weight and dignity than *lady* does.",
+     "_gloss": "a woman of refinement"
+    },
+    {
+     "word": "gentlewoman",
+     "synset": "oewn-10008828-n",
+     "charge": 2,
+     "tone": "It spells out the gentle manners that *lady* only suggests, in a more formal voice.",
+     "_gloss": "a woman of refinement"
+    }
+   ]
+  },
+  {
+   "id": "family-05911139-n",
+   "axis": "one set move in a game → a line of action a person or group takes on",
+   "_head": [
+    "plan of action"
+   ],
+   "_definition": "a plan for actively doing something",
+   "members": [
+    {
+     "word": "scheme",
+     "synset": "oewn-05913942-n",
+     "charge": 0,
+     "tone": "Stresses size and order: a plan with many worked-out parts, more elaborate than a plain *plan*.",
+     "_gloss": "an elaborate and systematic plan of action"
+    },
+    {
+     "word": "play",
+     "synset": "oewn-00558625-n",
+     "charge": 0,
+     "tone": "A plan set in advance that a sports team runs during a game, far narrower than a *scheme*.",
+     "_gloss": "a preset plan of action in team sports"
+    },
+    {
+     "word": "system",
+     "synset": "oewn-05911466-n",
+     "charge": 0,
+     "tone": "Puts the weight on method: the steps or process you follow to reach a goal.",
+     "_gloss": "a procedure or process for obtaining an objective"
+    },
+    {
+     "word": "policy",
+     "synset": "oewn-05910115-n",
+     "charge": 0,
+     "tone": "A plan a person or group has chosen and taken on as their own; the stress is on that choice.",
+     "_gloss": "a plan of action adopted by an individual or social group"
+    }
+   ]
+  }
+ ]
+}

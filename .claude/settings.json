@@ -1,5 +1,15 @@
 {
   "permissions": {
     "deny": ["Edit(.claude/agents/**)", "Write(.claude/agents/**)"]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "compact",
+        "hooks": [
+          {"type": "command", "command": "python tools/status.py --quick"}
+        ]
+      }
+    ]
   }
 }
