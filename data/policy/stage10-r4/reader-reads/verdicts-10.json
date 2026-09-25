@@ -1,0 +1,30 @@
+{"packet": 10, "verdicts": [
+ {"word": "lake", "pos": "noun",
+  "rank": "right", "why": "All four sentences refer to 'the Lakes' as a body of water surrounded by land (the Lake District), matching the first sense.",
+  "senses": [
+   {"synset": "oewn-09351810-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss plainly, the example uses the headword in the water-body sense, and null connotation is correct for a neutral geographic term."},
+   {"synset": "oewn-15015571-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the 'yellow lake' example uses the headword in the pigment sense, 'technical' is justified, and null connotation is correct for a neutral pigment term."},
+   {"synset": "oewn-15015673-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss (lac/cochineal purplish-red pigment), the example uses the headword in this sense, 'technical' is justified, and null connotation is correct."}
+  ]
+ },
+ {"word": "plain", "pos": "adverb",
+  "rank": "wrong", "why": "All four sentences use 'plain' as an adjective (unattractive-looking, or evident/obvious), not as the adverb 'unmistakably' that is the only sense listed.",
+  "senses": [
+   {"synset": "oewn-00039730-r", "verdict": "right", "fault": null, "why": "The learner line, example ('just plain wrong'), 'informal' label (supported by the gloss's own parenthetical), and null connotation all agree with the gloss, even though the book sentences do not illustrate this sense."}
+  ]
+ },
+ {"word": "real", "pos": "noun",
+  "rank": "wrong", "why": "All six sentences use 'real' as an adjective meaning genuine/actual, not any of the three noun senses listed (real number, Brazilian currency, Spanish coin).",
+  "senses": [
+   {"synset": "oewn-13752012-n", "verdict": "right", "fault": null, "why": "Learner line faithfully paraphrases 'rational or irrational number' via the fraction property, the Pi example uses the headword as a noun in this sense, and null connotation is correct for a math term."},
+   {"synset": "oewn-13690013-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss exactly, the bus-ticket example uses the headword as the currency noun, and null connotation is correct."},
+   {"synset": "oewn-13410750-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the example uses 'reals' (a form of the headword) in this coin sense, and null connotation is correct."}
+  ]
+ },
+ {"word": "waiting", "pos": "noun",
+  "rank": "right", "why": "Sentences split between 'the act of remaining inactive expecting something' (waiting for arguments, the interval of waiting, kept waiting for dinner) and the idiomatic 'waiting on/waiting-woman' (attending, visiting); the listed sense covers part of that split.",
+  "senses": [
+   {"synset": "oewn-01065863-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss plainly, the example ('the interval of waiting appeared very long') uses the headword in this exact sense, and null connotation is correct for a neutral act."}
+  ]
+ }
+]}

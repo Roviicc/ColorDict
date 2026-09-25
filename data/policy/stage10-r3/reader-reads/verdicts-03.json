@@ -1,0 +1,80 @@
+{"packet": 3, "verdicts": [
+ {"word": "lose", "pos": "verb",
+  "rank": "right", "why": "The sentences split across several senses of losing (a state, a possession, a chance), and the first sense (failing to keep or maintain a state) best fits 'my good opinion once lost is lost for ever.'",
+  "senses": [
+   {"synset": "oewn-01799093-v", "verdict": "right", "fault": null, "why": "Learner line and the example 'She lost her father when she was ten' match suffering the loss of a person through death or removal, and null connotation is fair for this neutral, factual verb."},
+   {"synset": "oewn-02201537-v", "verdict": "right", "fault": null, "why": "The example 'lose the crowds' fits letting something go out of sight, matching the gloss, and null connotation is reasonable for a descriptive verb."},
+   {"synset": "oewn-02293000-v", "verdict": "right", "fault": null, "why": "'Lost the chance to study abroad' matches failing to get or obtain something, with a faithful learner line and fair null connotation."},
+   {"synset": "oewn-02132318-v", "verdict": "right", "fault": null, "why": "'Lost part of what she said' matches failing to catch something with the senses or mind, with a faithful learner line and fair null connotation."},
+   {"synset": "oewn-00497220-v", "verdict": "right", "fault": null, "why": "'Lost himself in his music' matches withdrawing from reality, with a faithful learner line and fair null connotation."},
+   {"synset": "oewn-02293733-v", "verdict": "right", "fault": null, "why": "'The shop lost money every month' matches failing to make money in a business, with a faithful learner line and fair null connotation."},
+   {"synset": "oewn-00205234-v", "verdict": "right", "fault": null, "why": "'The small farmers lose most' matches being set at a disadvantage, with a faithful learner line and fair null connotation."}
+  ]},
+ {"word": "afraid", "pos": "adjective",
+  "rank": "right", "why": "The sentences split between literal fear, the 'I am afraid that...' softening formula, and reluctance, and the first sense (filled with fear or apprehension) fits the first sentence ('I am not afraid... I'm the tallest').",
+  "senses": [
+   {"synset": "oewn-01296519-s", "verdict": "right", "fault": null, "why": "The learner line keeps both alternatives from the gloss (dislike/unwillingness), the example 'never been afraid of hard work' is the idiomatic case, and calling it a connotation candidate is defensible since 'afraid' frames plain unwillingness as timidity rather than describing neutrally."}
+  ]},
+ {"word": "sort", "pos": "noun",
+  "rank": "right", "why": "The sentences split between 'sort' as a category of thing ('sort of conversation') and 'sort' as a person of a particular nature ('a good sort of girl', 'one good sort of man'), and the first sense is a genuine strand of that split.",
+  "senses": [
+   {"synset": "oewn-13579899-n", "verdict": "right", "fault": null, "why": "The example 'ran a sort on the list' matches the technical sorting-operation sense, with a faithful learner line and fair null connotation."}
+  ]},
+ {"word": "walk", "pos": "noun",
+  "rank": "right", "why": "The sentences split between 'walk' as a garden path ('every walk and cross walk', 'her favourite walk') and 'walk' as the act or distance of walking ('within a short walk', 'beyond a walk'), and the first sense (a path for walking) fits at least two of them.",
+  "senses": [
+   {"synset": "oewn-05010255-n", "verdict": "right", "fault": null, "why": "'His slow, heavy walk' matches manner of walking, with a faithful learner line and fair null connotation."},
+   {"synset": "oewn-00585285-n", "verdict": "right", "fault": null, "why": "'Every walk of life' faithfully instantiates careers in general, with fair null connotation."},
+   {"synset": "oewn-00287986-n", "verdict": "right", "fault": null, "why": "'Slowed her horse to a walk' matches the horse-gait sense, with a faithful learner line and fair null connotation."},
+   {"synset": "oewn-00128106-n", "verdict": "right", "fault": null, "why": "'Gave up a walk to the next batter' matches the baseball sense, with a faithful learner line and fair null connotation."}
+  ]},
+ {"word": "length", "pos": "noun",
+  "rank": "right", "why": "All six sentences use the idiom 'at length' meaning eventually, which matches the first sense, continuance in time.",
+  "senses": [
+   {"synset": "oewn-05136830-n", "verdict": "right", "fault": null, "why": "'The length of the shortest path between the two houses' matches the gap-between-places sense, with a faithful learner line and fair null connotation."},
+   {"synset": "oewn-03661557-n", "verdict": "right", "fault": null, "why": "'A length of rope' is the classic case of a long, narrow section of something, with fair null connotation."}
+  ]},
+ {"word": "open", "pos": "verb",
+  "rank": "right", "why": "The sentences overwhelmingly use 'open/opened/opening' to mean causing something to become open (lips, pianoforte, eyes, door), matching the first sense.",
+  "senses": [
+   {"synset": "oewn-02430309-v", "verdict": "right", "fault": null, "why": "'The mayor opened the meeting' matches beginning a meeting or speech, with fair null connotation."},
+   {"synset": "oewn-01582662-v", "verdict": "right", "fault": null, "why": "'Opened the map' matches spreading something out from a folded state, with fair null connotation."},
+   {"synset": "oewn-00541016-v", "verdict": "right", "fault": null, "why": "'Opened its old records to researchers' matches making something available, with fair null connotation."},
+   {"synset": "oewn-00541181-v", "verdict": "right", "fault": null, "why": "'A place on the course opened' matches becoming available, with fair null connotation."},
+   {"synset": "oewn-02750526-v", "verdict": "right", "fault": null, "why": "'The kitchen opens onto the garden' matches having an outlet or passage, with fair null connotation."},
+   {"synset": "oewn-02145103-v", "verdict": "right", "fault": null, "why": "'Open the file' matches displaying file contents on a computer, with fair null connotation."},
+   {"synset": "oewn-01080280-v", "verdict": "right", "fault": null, "why": "'The player with the white pieces always opens' matches making the opening move in chess, with fair null connotation."}
+  ]},
+ {"word": "head", "pos": "verb",
+  "rank": "wrong", "why": "All five sentences are 'Heading to Chapter X' captions from the list of illustrations, matching the sense 'be in front of or on top of' (whose own example is 'a short poem heads each chapter'), not the first-listed sense 'to go or travel towards', which no sentence uses.",
+  "senses": [
+   {"synset": "oewn-01935739-v", "verdict": "right", "fault": null, "why": "'Headed the boat toward the shore' matches steering or determining direction, with fair null connotation."},
+   {"synset": "oewn-02734898-v", "verdict": "right", "fault": null, "why": "'Our school heads the league again' matches leading a group and excelling, with fair null connotation."},
+   {"synset": "oewn-02700129-v", "verdict": "right", "fault": null, "why": "'A short poem heads each chapter of the book' matches being at the front of or on top of something, mirroring the book's own 'Heading to Chapter X' pattern."},
+   {"synset": "oewn-02630209-v", "verdict": "wrong", "fault": "other", "why": "The learner line ('to form a head, or to come or grow to a head') just repeats the gloss's own use of 'head' without explaining the plant sense of 'head', so it fails to plainly clarify the meaning for a learner."},
+   {"synset": "oewn-02760338-v", "verdict": "right", "fault": null, "why": "'These rivers head in the high mountains' matches taking its rise or having a source, with fair null connotation."},
+   {"synset": "oewn-01593836-v", "verdict": "right", "fault": null, "why": "'She headed the fish before cooking them' matches removing the head of something, using the familiar body-part sense of 'head' rather than a circular one, with fair null connotation."}
+  ]},
+ {"word": "promise", "pos": "verb",
+  "rank": "wrong", "why": "Nearly all sentences follow the pattern 'promised to do/give something', which precisely matches the lower-ranked sense 'promise to undertake or give', while the first sense 'make a promise or commitment' is not the best fit for any single sentence.",
+  "senses": [
+   {"synset": "oewn-00919743-v", "verdict": "right", "fault": null, "why": "'Old Tom... promised a storm by evening' matches making a prediction or telling in advance, with fair null connotation."}
+  ]},
+ {"word": "view", "pos": "noun",
+  "rank": "right", "why": "The sentences split between 'view' as sight or range of the eye ('bring it in view', 'within view of the lodges') and 'view' as intention or purpose ('her views on the stranger'), and the first sense (range of the eye) is a clear strand of that split.",
+  "senses": [
+   {"synset": "oewn-06218486-n", "verdict": "right", "fault": null, "why": "'From a business view, the plan makes good sense' matches a way of regarding a topic, with fair null connotation."},
+   {"synset": "oewn-05954491-n", "verdict": "right", "fault": null, "why": "'In my view, he is the better player' matches a personal, unproven belief, with fair null connotation."},
+   {"synset": "oewn-06794876-n", "verdict": "right", "fault": null, "why": "'She wrote to the newspaper to set out her views' matches a message expressing a firmly held belief, with fair null connotation."},
+   {"synset": "oewn-00883327-n", "verdict": "right", "fault": null, "why": "'Get a better view of the fight' fits the act of looking or observing, with fair null connotation."},
+   {"synset": "oewn-04682218-n", "verdict": "right", "fault": null, "why": "'To outward view, the house was quiet' matches outward appearance, with fair null connotation."},
+   {"synset": "oewn-05135047-n", "verdict": "right", "fault": null, "why": "'Outside the view of this report' matches the range of interest or activity anticipated, with fair null connotation."},
+   {"synset": "oewn-04151847-n", "verdict": "right", "fault": null, "why": "'A small painted view of the harbour' matches a graphic representation of a visual scene, with fair null connotation."}
+  ]},
+ {"word": "information", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'information' to mean a message or news received, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-07252221-n", "verdict": "right", "fault": null, "why": "'Filed an information against him for theft' matches a formal criminal accusation, and 'technical' is a fair label for this legal usage, with fair null connotation."},
+   {"synset": "oewn-05098731-n", "verdict": "right", "fault": null, "why": "'One bit of information' from a coin toss matches the communication-theory sense, and 'technical' is a fair label, with fair null connotation."}
+  ]}
+]}
