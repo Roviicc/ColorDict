@@ -1,0 +1,75 @@
+{"packet": 2, "verdicts": [
+ {"word": "acknowledge", "pos": "verb",
+  "rank": "right", "why": "Most sentences use 'declare/admit to be true' (1,2,3,4,5), which is listed first.",
+  "senses": [
+   {"synset": "oewn-00594278-v", "verdict": "right", "fault": null, "why": "Learner line covers both accepting a claim and accepting authority, matching the gloss, and the example (nations refusing to acknowledge a king) fits."},
+   {"synset": "oewn-00894219-v", "verdict": "right", "fault": null, "why": "Learner line matches 'report the receipt of' and the example clearly uses this sense."},
+   {"synset": "oewn-00742454-v", "verdict": "right", "fault": null, "why": "Learner line matches 'accept as legally binding' and the example (deed before a judge) fits this sense."}
+  ]},
+ {"word": "expectation", "pos": "noun",
+  "rank": "right", "why": "Sentences split between 'belief about the future' and 'anticipating with confidence', and the first-listed sense is one of those.",
+  "senses": [
+   {"synset": "oewn-06033638-n", "verdict": "right", "fault": null, "why": "Learner line matches the statistical-mean gloss and the die-roll example and 'technical' label are appropriate."}
+  ]},
+ {"word": "proper", "pos": "adjective",
+  "rank": "right", "why": "Most sentences use 'suitable/appropriate', matching the first-listed sense (or its close neighbor).",
+  "senses": [
+   {"synset": "oewn-01108582-s", "verdict": "right", "fault": null, "why": "Learner line matches 'limited to the thing specified' and 'city proper' is the standard example of this sense."}
+  ]},
+ {"word": "admit", "pos": "verb",
+  "rank": "right", "why": "Senses tie/split across sentences (declare true, have room, allow entry, afford possibility) and the first-listed sense is part of that split.",
+  "senses": [
+   {"synset": "oewn-02241406-v", "verdict": "right", "fault": null, "why": "Learner line matches 'admit into a group' and the club-membership example fits."},
+   {"synset": "oewn-02454712-v", "verdict": "right", "fault": null, "why": "Learner line matches the gloss about rights/functions/responsibilities and the medical-profession example fits."},
+   {"synset": "oewn-02677068-v", "verdict": "right", "fault": null, "why": "Learner line matches 'serve as a means of entrance' and the ticket example fits this sense."},
+   {"synset": "oewn-02747557-v", "verdict": "right", "fault": null, "why": "Learner line matches 'give access or entrance to' and the side-door example fits."}
+  ]},
+ {"word": "intelligence", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'information about events/news', matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00983916-n", "verdict": "right", "fault": null, "why": "Learner line matches 'operation of gathering information about an enemy' and the example fits."},
+   {"synset": "oewn-08356381-n", "verdict": "right", "fault": null, "why": "Learner line matches 'unit responsible for gathering and interpreting' information and the military-intelligence example fits."}
+  ]},
+ {"word": "loss", "pos": "noun",
+  "rank": "right", "why": "The 'act of losing someone or something' sense (loss of time, of Sir William, of the regiment) dominates the matchable sentences and is listed first.",
+  "senses": [
+   {"synset": "oewn-13530399-n", "verdict": "right", "fault": null, "why": "Learner line matches 'gradual decline in amount or activity' and the trade example fits."},
+   {"synset": "oewn-07302177-n", "verdict": "right", "fault": null, "why": "Learner line matches the bereavement gloss and the example (grieving the loss of her mother) fits."},
+   {"synset": "oewn-13348253-n", "verdict": "right", "fault": null, "why": "Learner line matches the business-loss gloss and the example fits."},
+   {"synset": "oewn-07348249-n", "verdict": "right", "fault": null, "why": "Learner line and 'euphemistic' label match the gloss, and the example uses 'loss' as a stand-in for the doctor's death."},
+   {"synset": "oewn-07355325-n", "verdict": "right", "fault": null, "why": "Learner line matches 'military personnel lost by death or capture' and the battle-casualties example fits."}
+  ]},
+ {"word": "tone", "pos": "noun",
+  "rank": "right", "why": "Most sentences ('in a softened/ill-natured/lively/gayer tone', 'tone of gentleness') use 'quality of a person's voice', matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-04966407-n", "verdict": "right", "fault": null, "why": "Learner line matches the color-shade gloss and the example (soft tones of green) fits."},
+   {"synset": "oewn-04994869-n", "verdict": "right", "fault": null, "why": "Learner line matches the timbre gloss and the violin example fits."},
+   {"synset": "oewn-06878395-n", "verdict": "right", "fault": null, "why": "Learner line matches the musical-notation gloss and the example fits; 'technical' label is justified."},
+   {"synset": "oewn-14568274-n", "verdict": "right", "fault": null, "why": "Learner line matches the muscle-tone gloss and the swimming example fits."},
+   {"synset": "oewn-06872106-n", "verdict": "right", "fault": null, "why": "Learner line matches the whole-tone-interval gloss and the C-to-D example fits; 'technical' label is justified."},
+   {"synset": "oewn-05727552-n", "verdict": "right", "fault": null, "why": "Learner line matches 'steady sound without overtones' and the machine example fits."},
+   {"synset": "oewn-04994132-n", "verdict": "right", "fault": null, "why": "Learner line matches the tonal-language gloss and the Mandarin example fits; 'technical' label is justified."}
+  ]},
+ {"word": "observation", "pos": "noun",
+  "rank": "wrong", "why": "Most sentences (Charlotte's observation, leisure for observation, the observation of a few minutes) use 'the act of observing/watching', which sits below the 'remark' sense used by only two sentences.",
+  "senses": [
+   {"synset": "oewn-05826885-n", "verdict": "right", "fault": null, "why": "Learner line matches 'facts learned by observing' and the bird-migration example fits."},
+   {"synset": "oewn-01004898-n", "verdict": "right", "fault": null, "why": "Learner line matches 'act of making and recording a measurement' and the weather-station example fits."}
+  ]},
+ {"word": "law", "pos": "noun",
+  "rank": "right", "why": "Excluding the '-in-law' kinship sentences, the remaining two sentences split evenly between 'legal system' and 'legal profession', and the first-listed sense is part of that split.",
+  "senses": [
+   {"synset": "oewn-05881589-n", "verdict": "right", "fault": null, "why": "Learner line matches the natural-generalization gloss and the gravity example fits."},
+   {"synset": "oewn-08226608-n", "verdict": "right", "fault": null, "why": "Learner line matches 'force of policemen and officers' and the 'informal' label and example (running from the law) fit."},
+   {"synset": "oewn-05879538-n", "verdict": "right", "fault": null, "why": "Learner line preserves both 'inherent in human nature' and 'binding upon society', matching the gloss, and the example fits."},
+   {"synset": "oewn-06171434-n", "verdict": "right", "fault": null, "why": "Learner line matches the jurisprudence gloss and the philosophy-class example ties 'law' to why courts decide as they do."}
+  ]},
+ {"word": "single", "pos": "adjective",
+  "rank": "right", "why": "Most sentences ('a single man', 'single, my dear', 'other four are single') use 'not married', matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-02160589-s", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both examples (single room, single bed) fit."},
+   {"synset": "oewn-00541609-s", "verdict": "right", "fault": null, "why": "Learner line matches 'not divided among more than one objective' and the devotion example fits."},
+   {"synset": "oewn-01973805-s", "verdict": "right", "fault": null, "why": "Learner line matches 'having uniform application' and the single-code example fits."},
+   {"synset": "oewn-02228429-a", "verdict": "right", "fault": null, "why": "Learner line matches the flower-petal gloss and the example fits."}
+  ]}
+]}
