@@ -1,0 +1,18 @@
+{
+ "entries_read": 30,
+ "entries_with_a_fault": 2,
+ "entry_defect_rate": 0.0667,
+ "senses_read": 81,
+ "senses_wrong": 1,
+ "sense_defect_rate": 0.0123,
+ "rank_wrong": 1,
+ "unsure": 1,
+ "faults": {
+  "learner-narrowed": 1,
+  "rank-wrong": 1
+ },
+ "wrong": [
+  "urge/oewn-00876672-v learner-narrowed: The gloss's bare 'something' covers pushing for a claim to be accepted (as in 'it has been urged that...', 'objections...urged'), but the learner line's 'something to be done' narrows this to actions and would exclude those very book uses.",
+  "mercenary/noun rank: All five sentences use 'mercenary' as an adjective meaning motivated by money ('think our friend mercenary', 'he is mercenary', 'views... solely and hatefully mercenary'), never the noun 'hired soldier' sense that is the only one listed."
+ ]
+}

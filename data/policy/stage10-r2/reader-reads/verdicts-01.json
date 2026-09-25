@@ -1,0 +1,79 @@
+{"packet": 1, "verdicts": [
+ {"word": "eye", "pos": "noun",
+  "rank": "right", "why": "Most sentences use eye as the physical organ (lifted his/her eyes, eyes wandering), matching the first sense, with the rest genuinely split across the discernment and attention senses already listed below it.",
+  "senses": [
+   {"synset": "oewn-05318579-n", "verdict": "right", "fault": null, "why": "Learner line and example both plainly render 'the organ of sight'; null connotation fits a body part with no built-in judgment."},
+   {"synset": "oewn-05711254-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and both invented examples use 'catch my/her eye' correctly for attention; null connotation is fair for a neutral idiom."},
+   {"synset": "oewn-08540894-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the 'eye of the storm' example is a correct instance of the central-area sense; null connotation fits a spatial description."},
+   {"synset": "oewn-03313242-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the needle example is a correct instance of the hole/loop sense; null connotation fits."}
+  ]
+ },
+ {"word": "glad", "pos": "adjective",
+  "rank": "right", "why": "Nearly all sentences use 'glad' for feeling or showing joy/pleasure, matching the first listed sense.",
+  "senses": [
+   {"synset": "oewn-01364330-a", "verdict": "right", "fault": null, "why": "Learner line restates the gloss plainly and both examples (drawn from the book) show 'glad' expressing happiness; null connotation is fair since the word only reports the speaker's own feeling."},
+   {"synset": "oewn-02576313-s", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the invented example ('glad to help') correctly shows willingness to serve; null connotation fits a polite, non-judging offer."}
+  ]
+ },
+ {"word": "temptation", "pos": "noun",
+  "rank": "right", "why": "The sentences split between 'something that seduces' (his temptation, so slight a temptation, temptation of immediate relief) and the desire sense, and the first listed sense covers the majority.",
+  "senses": [
+   {"synset": "oewn-05702756-n", "verdict": "right", "fault": null, "why": "Learner line preserves both halves of the gloss and both examples are drawn straight from the book in this sense; candidate is defensible since 'temptation' frames its object as ensnaring, unlike a neutral word like 'attraction'."},
+   {"synset": "oewn-07500421-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and the invented cake example fits the desire sense; null is defensible since this describes an ordinary internal urge rather than casting extra judgment beyond what the gloss already states."},
+   {"synset": "oewn-00160440-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and 'the temptation of Christ' is a standard instance of this act sense; candidate is defensible since the word implies steering someone toward something ill-advised, unlike a neutral 'persuasion'."}
+  ]
+ },
+ {"word": "half", "pos": "adverb",
+  "rank": "right", "why": "It is the only sense listed and it covers the clear adverbial instances in the sentences (only half alive, hair half finished).",
+  "senses": [
+   {"synset": "oewn-00008300-r", "verdict": "right", "fault": null, "why": "Learner line restates the gloss plainly, both examples contain 'half' used adverbially, and null connotation fits a purely quantitative word."}
+  ]
+ },
+ {"word": "converse", "pos": "verb",
+  "rank": "right", "why": "It is the only sense listed and every sentence uses 'converse'/'conversing' to mean talking with someone.",
+  "senses": [
+   {"synset": "oewn-00966726-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and both examples are drawn from the book using 'converse' in this sense; null connotation fits a neutral verb."}
+  ]
+ },
+ {"word": "extent", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'extent' for a degree or amount (its extent, common extent of accomplishments), matching the first sense, with one sentence using the spatial sense already listed second.",
+  "senses": [
+   {"synset": "oewn-13964158-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and the example (Mr. Darcy's kindness) matches the degree sense; null connotation fits a purely descriptive noun."},
+   {"synset": "oewn-05130681-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and the example (wood stretching over a wide extent) matches the spatial sense; null connotation fits."}
+  ]
+ },
+ {"word": "hasten", "pos": "verb",
+  "rank": "right", "why": "Most sentences show literal hurried movement (hastening away, hastened to Rosings), matching the first listed sense.",
+  "senses": [
+   {"synset": "oewn-02062918-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and both examples, drawn from the book, show literal hurried movement."},
+   {"synset": "oewn-00460453-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and the invented example ('hastened to explain') matches acting quickly."},
+   {"synset": "oewn-02554590-v", "verdict": "unsure", "fault": null, "why": "The example 'it hastened his journey' could plausibly belong here (speeding up its progress) or to the next sense (causing it to occur sooner, like the birth example there); genuinely hard to place with confidence."},
+   {"synset": "oewn-01648064-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and the birth-inducing example squarely matches causing something to happen rapidly."}
+  ]
+ },
+ {"word": "hurt", "pos": "verb",
+  "rank": "right", "why": "Most sentences show 'hurt' meaning hurt feelings/pride, matching the first listed sense, with the other senses each matching only one sentence or an invented example.",
+  "senses": [
+   {"synset": "oewn-01797206-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and both examples, drawn from the book, show pride/feelings being hurt; null connotation fits a description of an emotional effect."},
+   {"synset": "oewn-01796596-v", "verdict": "right", "fault": null, "why": "Learner line preserves both halves of the gloss and the invented example (losing the farm) matches severe emotional anguish, distinct from the milder feelings sense above."},
+   {"synset": "oewn-00064414-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and the tight-shoes example matches giving physical pain."},
+   {"synset": "oewn-02126629-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and the toothache example matches being the source of pain."},
+   {"synset": "oewn-00261356-v", "verdict": "right", "fault": null, "why": "Learner line preserves both halves of the gloss and the book-sales example matches a negative effect rather than physical or emotional pain."},
+   {"synset": "oewn-00064841-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and the 'hurt all over' example matches the intransitive being-in-pain sense."}
+  ]
+ },
+ {"word": "unfortunate", "pos": "adjective",
+  "rank": "right", "why": "The sentences split between 'unsuitable/regrettable' (an unfortunate connection, most ill-judged thing) and 'marked by ill fortune' (console the unfortunate), and the first listed sense is part of that split.",
+  "senses": [
+   {"synset": "oewn-00178121-a", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and the invented sailors'-omen example correctly matches the boding-ill sense; null connotation is defensible since it describes a sign's character rather than judging a person."}
+  ]
+ },
+ {"word": "urge", "pos": "verb",
+  "rank": "right", "why": "None of the sentences show literal physical direction or cheering-on, so the push-for-something sense listed first is the best available fit for all four uses.",
+  "senses": [
+   {"synset": "oewn-00876672-v", "verdict": "wrong", "fault": "learner-narrowed", "why": "The gloss's bare 'something' covers pushing for a claim to be accepted (as in 'it has been urged that...', 'objections...urged'), but the learner line's 'something to be done' narrows this to actions and would exclude those very book uses."},
+   {"synset": "oewn-00767694-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and the cattle example matches literal physical direction; null connotation fits."},
+   {"synset": "oewn-00860463-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and the crowd example matches encouraging via cheers; null connotation fits."}
+  ]
+ }
+]}
