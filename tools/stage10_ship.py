@@ -41,6 +41,15 @@ def main():
 
     false_nulls = {f"{slug(x['word'])}.{x['synset']}": x for x in verdicts(run / "null-reads")
                    if x.get("verdict") == "null-wrong"}
+    # The entry reader asks the connotation question too, and a false null it
+    # finds is the same finding the auditor's would be.
+    for e in verdicts(run / "reader-reads"):
+        for syn, v in (e.get("senses") or {}).items() if isinstance(e.get("senses"), dict) else (
+                (v.get("synset"), v) for v in e.get("senses") or []):
+            if v.get("fault") == "false-null":
+                false_nulls.setdefault(f"{slug(e['word'])}.{syn}",
+                                       {"word": e["word"], "pos": e.get("pos"), "synset": syn,
+                                        "why": v.get("why"), "verdict": "null-wrong"})
     results = json.loads((run / "results.json").read_text(encoding="utf-8"))
     candidates = []
     for e in results["entries"]:
