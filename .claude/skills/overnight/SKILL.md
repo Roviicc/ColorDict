@@ -78,13 +78,31 @@ Stage 10 needs book one, which the cloud cannot fetch; do not work around that.
 - `census_apply.py` the decisions, `family_apply.py` every shard,
   `dict_pipeline.py --no-build`, then a blind re-read of every changed note by
   a fresh `census-reader` that found none of them.
-- **The 2 stale axes (dame's family, scheme's family) are not night work.** No
-  mechanism lands them: the repairer may not touch a family, census_apply has
-  no axis action, and family_merge writes whole shards, so re-merging
-  annotated-018 would undo the stage 9 repairs already applied to it. Carry them
-  to the morning report; the fix is a design decision for the author.
+- **The 2 stale axes are re-authored from scratch** (the author's decision,
+  2026-09-26). They cannot be patched in place: the repairer may not touch a
+  family, census_apply has no axis action, and re-merging annotated-018 would
+  undo the stage 9 repairs applied to it. So the two families move to a shard
+  of their own:
+  1. Copy `family-10008828-n` (lady, ma'am, madam, dame, gentlewoman) and
+     `family-05911139-n` (scheme, play, system, policy) from
+     `data/families/draft-018.json` into a new `draft-019r.json`, same shape.
+  2. Remove both from `annotated-018.json` with a script, and prove the rest
+     untouched: 87 families become 85, every other family byte-identical.
+  3. `family_packets.py --draft data/families/draft-019r.json --out
+     data/families/packets-019r`, one `family-author` each, `family_merge.py`
+     into `annotated-019r.json`, then tone_lint and `plain_lint --max-long 0`.
+  4. `family_apply.py` on 018 and 019r, `dict_pipeline.py --no-build`,
+     `census_draw.py --shard data/families/annotated-019r.json`, and a blind
+     read of every note in it. They are gendered forms of address, so read
+     the draw for §5.3 first, as for any tick.
 
 ### Tick 2 - the plain-words pass
+
+**Offer the author a pilot first** if they are awake: one simplifier packet
+(~15 notes), shown to them as before/after. The author is the reader these
+notes are for and asked to be the test reader; their "easy" or "still hard"
+is the one check no agent can give. If they are asleep, run the full pass - it
+is one commit, and it can be reverted.
 
 ```
 python tools/plain_packets.py draw --out data/policy/plain-001

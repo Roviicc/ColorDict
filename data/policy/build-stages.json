@@ -468,6 +468,16 @@
       "why": "The census asks whether a note is TRUE against its gloss. Nothing had ever asked whether the learner can READ it, and the notes drifted without anyone deciding they should: shards 001-009 median ~12 words, 010-018 median ~20. The author reported notes that were not simple enough to understand.",
       "measured_2026_09_26": "plain_lint.py --all on 3,420 notes: 517 flagged (15%) in 232 of 328 families - too-long 274, hard-words 127, grammar 146; median 18 words, longest 36. Shards 001-009 flag 1-11%; 010-018 flag 11-28%, annotated-018 highest at 28%.",
       "baseline": "family-author.md and repairer.md gained the plain-words rule and simplifier.md was placed, so the next authored tick is a NEW BASELINE for anything compared across ticks. census-reader.md is deliberately unchanged: the reader measures truth, not ease, so census rates before and after this stage stay comparable because that ruler did not move.",
+      "author_decisions_2026_09_26": {
+        "rule": "max 24 words, no minimum (chosen over a strict 16-24 band and over max 20)",
+        "cap": "4 ticks a night; stop by 08:00 UTC+8; nothing to main, no release",
+        "run": "NOT started. The overnight run waits for the author's explicit go ('go' or /overnight) - planning only on 2026-09-26",
+        "pilot": "offered, not yet chosen: before the full pass, one simplifier packet (~15 notes) shown to the author as before/after. The author is the reader these notes are for and asked to help; a pilot costs one agent",
+        "from_scratch": "author: 'if we can start from scratch as long as our approach is efficient we can do it'. Applied to the 2 stale-axis families (2 authors + a small blind read). NOT applied to the whole corpus: re-authoring 3,420 notes is ~12 ticks, ~10x the targeted pass, and discards notes read blind at ~2%; if the passing notes still read hard to the author, tighten the rule and rerun the targeted pass instead",
+        "models": "orchestrator Opus 5.5 at max effort (this session); writers per their files (opus), readers per theirs (fable = claude-fable-5-1, unchanged, which keeps census rates comparable)",
+        "gutenberg": "author will allow www.gutenberg.org from another session; stage 10 waits on it and on its own approval and spend cap",
+        "author_can_help": "be the test reader for the pilot; name words whose notes confused them (they go first in the pass); allow the host; confirm the timezone if not UTC+8"
+      },
       "done_when": "every note plain_lint flags is rewritten or kept with a stated reason; plain_lint --all reports 0 notes over 24 words other than listed keeps; and a complete blind census of the rewrites reads under 5%",
       "stop": "a census over 5% on the rewrites stops the pass - it would mean simplifying changes meaning, a method problem before a batch problem",
       "steps": [
@@ -497,7 +507,7 @@
           "step": "The six carried faults, before any rewrite touches their families",
           "owner": "repairer / family-author / census-reader",
           "state": "not_started",
-          "note": "4 superlative collisions go to the repairer as lint findings - repairer.md already names the repair ('name one neighbour instead of ranking all of them') and may decline, since superlative-collision flags a pair of which only one half may be the fault. Every changed note is then read blind by a census-reader. The 2 stale axes (dame's family, scheme's family) have no mechanism that lands them and wait for the author: the repairer may not touch a family, census_apply has no axis action, and family_merge writes whole shards, so re-merging annotated-018 would undo the stage 9 repairs already applied to it."
+          "note": "4 superlative collisions go to the repairer as lint findings - repairer.md already names the repair ('name one neighbour instead of ranking all of them') and may decline, since superlative-collision flags a pair of which only one half may be the fault. Every changed note is then read blind by a census-reader. The 2 stale axes cannot be patched in place - the repairer may not touch a family, census_apply has no axis action, and re-merging annotated-018 would undo the stage 9 repairs applied to it - so, on the author's decision of 2026-09-26, both families are re-authored FROM SCRATCH: family-10008828-n (lady, ma'am, madam, dame, gentlewoman; axis 'offhand courtesy -> stately dignity') and family-05911139-n (scheme, play, system, policy; all at 0). They move out of annotated-018.json into a new draft-019r.json / annotated-019r.json, get one family-author each under the new plain-words rule, and every note is read blind. Runbook: .claude/skills/overnight/SKILL.md, tick 1."
         },
         {
           "n": 5,
