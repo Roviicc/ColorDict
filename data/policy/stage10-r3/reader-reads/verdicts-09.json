@@ -1,0 +1,83 @@
+{"packet": 9, "verdicts": [
+ {"word": "coach", "pos": "noun",
+  "rank": "right", "why": "All sentences use 'coach' as the horse-drawn carriage (including hackney coach), matching the first sense.",
+  "senses": [
+   {"synset": "oewn-09950876-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the example 'voice coach' uses this sense correctly, and connotation null is appropriate for a neutral role."},
+   {"synset": "oewn-03901563-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss and the example correctly uses 'coach' as a train car with no judgment involved."}
+  ]
+ },
+ {"word": "embarrassment", "pos": "noun",
+  "rank": "right", "why": "The sentences use embarrassment as the feeling of shame/self-consciousness, which the first sense (shame from exposed inadequacy or guilt) reasonably covers.",
+  "senses": [
+   {"synset": "oewn-05127416-n", "verdict": "right", "fault": null, "why": "Learner line matches 'extreme excess', the example 'embarrassment of fresh fruit' uses this idiomatic sense correctly, and null connotation is defensible since the idiom is not clearly judging."}
+  ]
+ },
+ {"word": "feature", "pos": "noun",
+  "rank": "right", "why": "Nearly all sentences refer to facial features, matching the first sense directly.",
+  "senses": [
+   {"synset": "oewn-06279437-n", "verdict": "right", "fault": null, "why": "Learner line and example both correctly render the newspaper/magazine article sense with no added judgment."},
+   {"synset": "oewn-03330714-n", "verdict": "right", "fault": null, "why": "Learner line and example correctly match the promoted-merchandise sense, neutrally described."},
+   {"synset": "oewn-05858739-n", "verdict": "right", "fault": null, "why": "Learner line matches the linguistics gloss, the example correctly illustrates it, and the 'technical' label is justified by the explicit linguistics tag."}
+  ]
+ },
+ {"word": "preference", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'preference' as favor/advantage shown to one person over another, matching the first sense ('giving her/him the preference').",
+  "senses": [
+   {"synset": "oewn-05799460-n", "verdict": "right", "fault": null, "why": "Learner line is a near-verbatim, faithful paraphrase and the example 'if I had my preference' fits the right-to-choose sense."}
+  ]
+ },
+ {"word": "establish", "pos": "verb",
+  "rank": "right", "why": "Sentences split between establishing the validity of a view ('established his strictest notions') and building an abstract reputation ('re-establish a character'), and the first sense (validity) is part of that genuine split.",
+  "senses": [
+   {"synset": "oewn-02431950-v", "verdict": "right", "fault": null, "why": "Learner line matches 'set up or found' and the school-founding example fits this sense with no added judgment."},
+   {"synset": "oewn-01650771-v", "verdict": "right", "fault": null, "why": "Learner line matches 'set up or lay the groundwork for' and the department example fits this sense."},
+   {"synset": "oewn-00667394-v", "verdict": "right", "fault": null, "why": "Learner line matches 'institute, enact, or establish' and the council-rule example correctly illustrates it."},
+   {"synset": "oewn-01651214-v", "verdict": "right", "fault": null, "why": "Learner line matches 'bring about' and the treaty-peace example fits this sense."},
+   {"synset": "oewn-00638550-v", "verdict": "right", "fault": null, "why": "Learner line captures 'use as a basis for; found on' and the argument example fits the pattern of founding X on Y."}
+  ]
+ },
+ {"word": "excite", "pos": "verb",
+  "rank": "right", "why": "Sentences use excite to mean arousing a feeling (concern, respect, gratitude, attention), matching the first sense.",
+  "senses": [
+   {"synset": "oewn-01766380-v", "verdict": "right", "fault": null, "why": "Learner line matches 'cause to be agitated, excited, or roused' and the horses-and-thunder example fits."},
+   {"synset": "oewn-00504245-v", "verdict": "right", "fault": null, "why": "Learner line matches 'act as a stimulant' and the coffee example correctly illustrates it."},
+   {"synset": "oewn-01766135-v", "verdict": "right", "fault": null, "why": "Learner line matches 'evoke sexual feelings' and the perfume example fits without adding judgment."},
+   {"synset": "oewn-00560179-v", "verdict": "right", "fault": null, "why": "Learner line matches 'raise to a higher energy level', the atoms example fits, and 'technical' is justified for a physics term."},
+   {"synset": "oewn-00560040-v", "verdict": "right", "fault": null, "why": "Learner line matches 'produce a magnetic field in', the motor-coil example fits, and 'technical' is justified."}
+  ]
+ },
+ {"word": "formal", "pos": "adjective",
+  "rank": "right", "why": "Most sentences describe formal manners or civility, matching the first sense ('in accord with established forms and conventions').",
+  "senses": [
+   {"synset": "oewn-01048915-a", "verdict": "right", "fault": null, "why": "Learner line matches the gloss on formal language and the bank-letter example fits correctly."},
+   {"synset": "oewn-01987861-s", "verdict": "right", "fault": null, "why": "Learner line matches 'represented in simplified or symbolic form' and the triangle-drawing example fits this sense."},
+   {"synset": "oewn-01433501-s", "verdict": "right", "fault": null, "why": "Learner line reasonably renders 'logically deductive', the theorem-proof example fits, and 'technical' is justified for a logic/math term."}
+  ]
+ },
+ {"word": "language", "pos": "noun",
+  "rank": "right", "why": "The sentences ('animated language', 'your language too strong', 'such language as this') refer to manner of speech, which fits the first sense of communication by word of mouth.",
+  "senses": [
+   {"synset": "oewn-06315049-n", "verdict": "right", "fault": null, "why": "Learner line matches the discipline-specific vocabulary gloss and the medicine example fits."},
+   {"synset": "oewn-05816565-n", "verdict": "right", "fault": null, "why": "Learner line matches the cognitive-processes gloss and the example fits this sense of lacking the means to express feelings."},
+   {"synset": "oewn-07066015-n", "verdict": "right", "fault": null, "why": "Learner line matches the song-lyrics gloss and the example correctly refers to a song's words."}
+  ]
+ },
+ {"word": "occupy", "pos": "verb",
+  "rank": "right", "why": "Several sentences show 'occupied in/by' meaning kept busy or engaged, matching the first sense, though a couple of sentences ('occupy the chief of their three weeks') lean toward the time/space sense listed later.",
+  "senses": [
+   {"synset": "oewn-02654741-v", "verdict": "right", "fault": null, "why": "Learner line matches 'live (in a certain place)' and the farmhouse example fits."},
+   {"synset": "oewn-02399325-v", "verdict": "right", "fault": null, "why": "Learner line matches 'assume, as of positions or roles' and the throne example fits."},
+   {"synset": "oewn-02684248-v", "verdict": "right", "fault": null, "why": "Learner line matches 'be on the mind of' and the sick-mother example fits."},
+   {"synset": "oewn-02655144-v", "verdict": "right", "fault": null, "why": "Learner line matches 'occupy the whole of' and the crowded-hall example fits."},
+   {"synset": "oewn-01128786-v", "verdict": "right", "fault": null, "why": "Learner line matches the military-occupation gloss, the troops example fits, and connotation null is defensible since 'occupy' is the standard descriptive term rather than an inherently judging one."}
+  ]
+ },
+ {"word": "unite", "pos": "verb",
+  "rank": "right", "why": "Sentences use 'unite/united' for joining people, efforts, or qualities together, matching the general first sense 'join or combine'.",
+  "senses": [
+   {"synset": "oewn-02609063-v", "verdict": "right", "fault": null, "why": "Learner line matches 'bring together for a common purpose...' and the war/country example fits."},
+   {"synset": "oewn-00368338-v", "verdict": "right", "fault": null, "why": "Learner line matches 'become one' and the water-drops example fits."},
+   {"synset": "oewn-02637244-v", "verdict": "right", "fault": null, "why": "Learner line matches 'have or possess in combination' and the reused book quotation correctly illustrates qualities united in one person."}
+  ]
+ }
+]}
