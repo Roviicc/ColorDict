@@ -1,0 +1,50 @@
+{
+ "sample": "census-015-reread",
+ "pre_registered": "2026-09-25",
+ "status": "population drawn; read not started",
+ "why": "The fix round of the 9b clean-up: census 015's one fault (lacerated) repaired third-hand, and fair rewritten after learner 002 read it hard. Both changed notes are read blind, as repairs are.",
+ "instruments": {
+  "author": ".claude/agents/simplifier.md (plain-003), .claude/agents/repairer.md (census-015-repairs)",
+  "reader": ".claude/agents/census-reader.md",
+  "repairer": ".claude/agents/repairer.md",
+  "rule": "census-reader.md unchanged from censuses 007-012: the reader measures truth, not ease, so this rate compares with theirs; the instrument gate must pass before grading"
+ },
+ "stop_condition": "over 5% stops the run from 50 read senses up (the author's floor, 2026-09-26); under it, every fault is repaired third-hand and re-read blind",
+ "read_design": "complete read of every rewrite; census_packets.py slices contiguously; reader sees gloss, charge label and note, never the old note or that it was rewritten",
+ "scope": "every tone decision in plain-003/decisions.json and data/policy/census-015-repairs.json",
+ "population": 2,
+ "drawn": 2,
+ "entries": [
+  {
+   "id": "fair.oewn-00959321-a",
+   "word": "fair",
+   "definition": "free from favoritism or self-interest or bias or deception; conforming with established standards or rules",
+   "part_of_speech": "adjective",
+   "label": "positive",
+   "score": null,
+   "tone": "Plain approval that nobody was favored or tricked and the rules were kept - lighter than *just*, which carries the weight of principle.",
+   "usage_labels": [],
+   "examples": [
+    "a fair referee",
+    "fair deal",
+    "on a fair footing",
+    "a fair fight",
+    "by fair means or foul"
+   ],
+   "_family": "family-00959321-a"
+  },
+  {
+   "id": "lacerated.oewn-01321879-s",
+   "word": "lacerated",
+   "definition": "having edges that are jagged from injury",
+   "part_of_speech": "adjective",
+   "label": "negative",
+   "score": null,
+   "tone": "Sounds formal, almost medical, beside *torn*, and looks harder at the wound, bringing its jagged, ripped edges into sharp view.",
+   "usage_labels": [],
+   "examples": [],
+   "_family": "family-01320916-a"
+  }
+ ],
+ "read_order": "sorted by family so a packet carries a family's rewrites together"
+}

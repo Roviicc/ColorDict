@@ -1,0 +1,16 @@
+{
+ "pass": "plain-003",
+ "also": [
+  "data/policy/census-015-repairs.json"
+ ],
+ "instrument": ".claude/agents/learner-reader.md",
+ "seed": 2026,
+ "key": {
+  "fair.oewn-00959321-a": "rewrite",
+  "lacerated.oewn-01321879-s": "rewrite",
+  "better_off.oewn-01051901-s": "control-hard",
+  "drab.oewn-00365961-s": "control-hard",
+  "omniscient.oewn-02580010-s": "control-easy",
+  "perish.oewn-00359085-v": "control-easy"
+ }
+}
