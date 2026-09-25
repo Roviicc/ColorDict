@@ -21,6 +21,8 @@ docs/BUILD-PLAN.md; `python tools/status.py` measures where it stands.
 - Agents write their output to disk and return one line. Do not paste their
   results or big files into the conversation; that is what fills the context.
 - Never `git add -A`; stage explicit paths. Commit and push after every tick.
-- A census over 5% stops the run.
+- A census over 5% stops the run - from 50 read senses up. Below 50, every
+  fault is repaired third-hand and re-read blind, and the run goes on (the
+  author's floor, 2026-09-26).
 - A decision the author makes goes into `data/policy/build-stages.json` the same
   hour. The next session cannot see this conversation.
