@@ -59,8 +59,7 @@ EMPHASIS = re.compile(r"\*([^*]+)\*")
 
 def prose_html(text):
     """Escaped prose, with *word* rendered as italics - the only markup the
-    tone notes use. adverb_inherit.py writes it when it names the adjective an
-    adverb inherited from ("the adverb of *cordial*")."""
+    tone notes use, when a note names a neighbour."""
     return EMPHASIS.sub(r"<i>\1</i>", escape(text))
 
 
@@ -182,6 +181,10 @@ def sense_html(word, sense, number):
             row.append(f' <span class="cn {css}">{label}</span>')
         for ul in usage:
             row.append(f' <span class="ul">{escape(ul)}</span>')
+        if tone and conn.get("tone_from"):
+            # An inherited adverb carries its adjective's note; the label says
+            # whose, and taps through to it.
+            row.append(f' <span class="ul">from {bword(conn["tone_from"])}</span>')
         prose = " ".join(p for p in (tone, explanation) if p)
         if prose:
             row.append(f' <span class="cx">{prose_html(prose)}</span>')

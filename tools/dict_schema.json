@@ -77,6 +77,10 @@
               "type": ["string", "null"],
               "description": "Register/association description (e.g. 'Formal and academic; suggests reasoning before experience'). Allowed on any label - unlike explanation it makes no positive/negative claim."
             },
+            "tone_from": {
+              "type": ["string", "null"],
+              "description": "An inherited adverb's note is its adjective's: this names that adjective, shown as a label before the note (adverb_inherit.py; the author, 2026-09-26)."
+            },
             "usage_labels": {
               "type": "array",
               "items": {

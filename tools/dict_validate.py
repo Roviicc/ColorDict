@@ -142,7 +142,8 @@ def check_connotation(rep, where, sense):
     if not isinstance(conn, dict):
         rep.error(where, "missing 'connotation' object")
         return
-    unknown = set(conn) - {"label", "score", "explanation", "usage_labels", "tone"}
+    unknown = set(conn) - {"label", "score", "explanation", "usage_labels", "tone",
+                           "tone_from"}
     if unknown:
         rep.error(where, f"connotation has unknown fields {sorted(unknown)}")
     label = conn.get("label")
@@ -166,6 +167,8 @@ def check_connotation(rep, where, sense):
     tone = conn.get("tone")
     if tone is not None and (not isinstance(tone, str) or not tone.strip()):
         rep.error(where, "connotation tone must be null or a non-empty string")
+    if conn.get("tone_from") is not None and not tone:
+        rep.error(where, "tone_from names whose note this is, so it needs a tone")
     # The mirror of the fabrication rule above. That rule stops a neutral sense
     # explaining a charge it does not have; this one stops a charged sense
     # asserting one with nothing behind it. A reader shown a bare 'negative'

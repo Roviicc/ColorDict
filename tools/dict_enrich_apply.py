@@ -186,7 +186,7 @@ def apply_overlay(entry, rec, problems):
             problems.append(f"{word}: overlay names unknown sense id {sid}")
             continue
         unknown = set(patch) - {"explanation", "examples", "usage_labels", "tone",
-                                "label", "family", "rank", "learner"}
+                                "tone_from", "label", "family", "rank", "learner"}
         if unknown:
             problems.append(f"{word}/{sid}: overlay patch has unknown fields {sorted(unknown)}")
         if is_authored(patch):
@@ -224,6 +224,9 @@ def apply_overlay(entry, rec, problems):
             # Register/association description — allowed on any label; unlike
             # 'explanation' it makes no positive/negative claim.
             conn["tone"] = patch["tone"]
+        if patch.get("tone_from"):
+            # An inherited adverb's note is its adjective's, named beside it.
+            conn["tone_from"] = patch["tone_from"]
         if patch.get("usage_labels"):
             conn["usage_labels"] = extend_unique(
                 list(conn.get("usage_labels") or []), patch["usage_labels"])

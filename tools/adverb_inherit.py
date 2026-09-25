@@ -10,9 +10,10 @@ Morphology does the job instead: English adverbs are overwhelmingly an
 adjective plus -ly, and 91% of the -ly adverbs in our corpus have their base
 adjective present. `harshly` should carry what `harsh` carries.
 
-So an annotated adjective lends its charge, tone and register to its adverb,
-with the tone reworded from "X is ..." to "the adverb of X". Nothing is
-invented: an adverb whose adjective was never annotated is simply skipped.
+So an annotated adjective lends its charge, tone and register to its adverb.
+The tone travels as written, and the adjective it belongs to travels beside it
+as `tone_from`, which the dictionary shows as a label before the note. Nothing
+is invented: an adverb whose adjective was never annotated is simply skipped.
 
 Morphology names the lemma, not the sense. WordNet's `pertainym` relation names
 the sense, so where it exists it decides: an adverb inherits only if the
@@ -91,28 +92,16 @@ def lend(patch_from, source):
         patch["family"] = family
         patch["label"] = ("positive" if family["charge"] >= 1
                           else "negative" if family["charge"] <= -1 else "neutral")
-    tone = adverbise(patch_from.get("tone"), source)
+    # The note used to open "The adverb of *X*:", and those four words put 133
+    # of 516 adverb notes over the 24-word rule that none of their adjectives
+    # broke. The author moved the name into a label (2026-09-26).
+    tone = patch_from.get("tone")
     if tone:
         patch["tone"] = tone
+        patch["tone_from"] = source
     if patch_from.get("usage_labels"):
         patch["usage_labels"] = patch_from["usage_labels"]
     return patch
-
-
-# Notes that open with a register label keep their capital: "The adverb of
-# *chirpy*: british and small-scale" is wrong, and audit 005 read it.
-PROPER = {"american", "australian", "biblical", "british", "church", "english",
-          "french", "german", "irish", "latin", "latinate", "scots", "scottish",
-          "shakespearean", "victorian", "yiddish"}
-
-
-def adverbise(tone, adjective):
-    """Reword an adjective's note so it reads correctly of the adverb."""
-    if not tone:
-        return None
-    head = tone.split(None, 1)[0].rstrip(",.;:-").lower()
-    first = tone if head in PROPER else tone[0].lower() + tone[1:]
-    return f"The adverb of *{adjective}*: {first}"
 
 
 def main():
@@ -231,6 +220,7 @@ def main():
                    else dict(patch))
             if position:
                 one.pop("tone", None)
+                one.pop("tone_from", None)
             if one:
                 sense_patches[sense["id"]] = one
         if not sense_patches:

@@ -29,7 +29,7 @@ ROOT = Path(__file__).resolve().parent.parent
 # What a reader is allowed to see. Anything not on this list is withheld, so a
 # field added to the population later cannot leak into a packet by accident.
 VISIBLE = ("id", "word", "definition", "part_of_speech", "label", "score",
-           "tone", "usage_labels", "examples")
+           "tone", "tone_from", "usage_labels", "examples")
 
 
 def main():
