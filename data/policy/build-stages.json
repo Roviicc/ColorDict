@@ -621,7 +621,7 @@
           "step": "The held words - function words, words with many open senses, words with under 3 usable sentences: the author decides how they are judged",
           "owner": "author",
           "state": "not_started",
-          "measured": "After r4: 118 function words / 628 senses; 259 words with more than 8 open senses / 3,335 senses (make, give); 2,372 never-opened words with under 3 usable sentences. What the loop can still draw: 301 ranked words / 1,007 senses (Enricher only, about 3 rounds of 100) and 898 never-opened words (Ranker then Enricher). Two ingest follow-ups the reads found: spaCy POS and lemma errors (hop, spar, drawing, mercenary, material, plain, real, poorly, hearing, want, stay) and senses OEWN lacks (insupportable)."
+          "measured": "After r4: 118 function words / 628 senses; 259 words with more than 8 open senses / 3,335 senses (make, give); 2,372 never-opened words / 5,920 senses with under 3 usable sentences. What the loop can still draw: 301 ranked words / 1,007 senses (Enricher only, about 3 rounds of 100) and 898 never-opened words / 2,716 senses (Ranker then Enricher). The five parts sum to the 13,606 open senses. Two ingest follow-ups the reads found: spaCy POS and lemma errors (hop, spar, drawing, mercenary, material, plain, real, poorly, hearing, want, stay) and senses OEWN lacks (insupportable)."
         }
       ],
       "note": "6,914 senses on 1,785 book-one words with no verdict: 2,817 ranked but never judged (Enricher only), 4,097 never opened (rank + enrich). Draw by book frequency but screen for whether the sense can judge at all - so/say/now head the list and are correctly plain."
