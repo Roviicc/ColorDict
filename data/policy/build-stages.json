@@ -1,7 +1,7 @@
 {
   "plan": "docs/BUILD-PLAN.md",
   "approved": true,
-  "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes. Stages 9-12 proposed 2026-09-05. Stage 9 approved and closed by the author 2026-09-26 on its step-9 done-check. Stage 9b (plain words) approved 2026-09-26: max 24 words, no minimum, run cap 4 ticks; closed by the author 2026-09-26 05:40 UTC+8 on its step-10 done-check. Stage 10 approved by the author 2026-09-26 06:22 UTC+8 with a cap of 4 rounds a night, stop by 08:00 UTC+8, nothing to main; it runs on the author's next go (book one is reachable from the cloud since 2026-09-26 and hashes to its recorded id). Stages 11-12 NOT yet approved; 12 exists only if a mechanism is found.",
+  "note": "Approved 2026-09-03 for stages 0-3. Order: everything free first, ship before generate. A stage is done only when its done-check passes. Stages 9-12 proposed 2026-09-05. Stage 9 approved and closed by the author 2026-09-26 on its step-9 done-check. Stage 9b (plain words) approved 2026-09-26: max 24 words, no minimum, run cap 4 ticks; closed by the author 2026-09-26 05:40 UTC+8 on its step-10 done-check. Stage 10 approved by the author 2026-09-26 06:22 UTC+8 with a cap of 4 rounds a night, stop by 08:00 UTC+8, nothing to main; its first 4 rounds ran on the author's go in a daytime run, 2026-09-26 06:35-07:58 UTC+8, entry reader on Sonnet: all four passed and shipped (734 senses, 0.8% wrong), and the rest waits for the next go (book one is reachable from the cloud since 2026-09-26 and hashes to its recorded id). Stages 11-12 NOT yet approved; 12 exists only if a mechanism is found.",
   "stages": [
     {
       "stage": "0",
@@ -604,21 +604,24 @@
         },
         {
           "n": 4,
-          "step": "Round r2: never-opened words, Ranker then Enricher, the same reads",
+          "step": "Rounds r2-r4, to the cap of 4: r2 and r4 never-opened words (Ranker then Enricher), r3 ranked words (Enricher only); the same reads, third-hand repairs, blind re-reads",
           "owner": "sense-ranker / enricher",
-          "state": "not_started"
+          "state": "done",
+          "measured": "Daytime run 2026-09-26, 06:35-07:58 UTC+8; the cap of 4 rounds reached, all four passed the per-sense gate and shipped. Entry read on Sonnet throughout (the new baseline). r2: 30 never-opened words (pool 1,028); 30 accepted, 81 senses (72 null / 9 candidate); null audit 72 read, 3 false = 4.2% (finer, obliging, unfortunate); entry read 81 senses, 1 wrong = 1.2% (urge, learner-narrowed; repaired by a fresh enricher, re-read right); rank wrong 1 (mercenary: spaCy tagged the book's adjective a noun). r3: 100 ranked words (pool 383, 4 bands, seed 13); 90 accepted, 10 rejected by the validator (gloss repeats, 2-word lines); 301 senses (292 null / 9 candidate); null audit 292 read, 2 false = 0.7% (suffer, tempt); entry read 301 senses, 3 wrong = 1.0% (natural and suffer false nulls; head's learner line repeating the gloss, repaired, re-read right). 9 rank faults, none r3's own: 5 on older rankings went to a fresh sense-ranker, which changed promise (stage7-book1-run.rerank-002, re-read right) and kept stay, head and expose; time was read in a copied, unshipped order - its shipped order re-read right; 4 are ingest artifacts (hop = hope, drawing = drawing-room, want (n), stay (n)). r4: 100 never-opened words (pool 998); 94 accepted, 6 rejected; 272 senses (248 null / 24 candidate); null audit 248 read, 2 false = 0.8% (gallantry, rid); entry read 272 senses, 2 wrong = 0.7% (trace learner-narrowed, repaired, re-read right; abhorrence false null); rank wrong 4 of 94 entries (high, trace, hearing, disgust), all kept by a fresh sense-ranker; 6 more no ranking can fix - spar = spare, material (n), plain (adv), real (n), poorly (adv) are spaCy POS or lemma errors, insupportable ('unbearable') is not in OEWN. Totals: 242 entries, 734 senses written; 6 wrong of 734 read = 0.8%; null audit 10 false of 689 = 1.5%; about 3.0M tokens. Open after r4 (population-r5.json): 3,948 words / 13,606 senses (was 4,190 / 14,340) - exactly the 242 words and 734 senses shipped. A rank from a round that only copied it never ships (stage10_ship.py strips it); stage10_draw.py takes the ranking that ships, and after a round ships its rejected words can be drawn again."
         },
         {
           "n": 5,
           "step": "Candidates the Enricher raises go to the join (candidate_families.py) and the family path",
           "owner": "manager / family-author",
-          "state": "not_started"
+          "state": "not_started",
+          "measured": "57 candidates wait in stage10-r1..r4/candidates.json: 45 the Enricher raised, 12 senses the null audit or the entry read found not plain (evening, love, loss, finer, obliging, unfortunate, natural, suffer, tempt, gallantry, rid, abhorrence). The false nulls ship without the Enricher's neutral label, keeping the learner line and examples the entry reader passed. The join has not run."
         },
         {
           "n": 6,
           "step": "The held words - function words, words with many open senses, words with under 3 usable sentences: the author decides how they are judged",
           "owner": "author",
-          "state": "not_started"
+          "state": "not_started",
+          "measured": "After r4: 118 function words / 628 senses; 259 words with more than 8 open senses / 3,335 senses (make, give); 2,372 never-opened words with under 3 usable sentences. What the loop can still draw: 301 ranked words / 1,007 senses (Enricher only, about 3 rounds of 100) and 898 never-opened words (Ranker then Enricher). Two ingest follow-ups the reads found: spaCy POS and lemma errors (hop, spar, drawing, mercenary, material, plain, real, poorly, hearing, want, stay) and senses OEWN lacks (insupportable)."
         }
       ],
       "note": "6,914 senses on 1,785 book-one words with no verdict: 2,817 ranked but never judged (Enricher only), 4,097 never opened (rank + enrich). Draw by book frequency but screen for whether the sense can judge at all - so/say/now head the list and are correctly plain."

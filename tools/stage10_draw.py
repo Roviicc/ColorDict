@@ -64,10 +64,14 @@ def runs_holding():
 
 
 def drawn_before():
-    """Words an earlier round already drew: a parked round's words still read as
-    open until it ships, and must not be drawn twice."""
+    """Words a round still parked already drew: they read as open until it ships,
+    and must not be drawn twice. Once a round ships, the population says what is
+    open, so the words its validator rejected (*answer*, *introduction*) can be
+    drawn again."""
     seen = set()
     for draw in (ROOT / "data/policy").glob("stage10-r*/draw.json"):
+        if (ROOT / "data/entries/overlays" / f"{draw.parent.name}.overlay.jsonl").exists():
+            continue
         for w in json.loads(draw.read_text(encoding="utf-8"))["words"]:
             seen.add((w["word"].lower(), w["pos"]))
     return seen
