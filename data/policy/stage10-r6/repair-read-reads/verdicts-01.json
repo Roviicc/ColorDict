@@ -1,0 +1,42 @@
+{"packet": 1, "verdicts": [
+ {"word": "short", "pos": "adjective",
+  "rank": "right", "why": "Every sentence is 'short pause/silence/period', the limited-duration sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-02344882-s", "verdict": "right", "fault": null, "why": "Learner restates 'insufficient quantity to meet a need' plainly; example uses short for money being too little; null is fine."},
+   {"synset": "oewn-00643682-s", "verdict": "right", "fault": null, "why": "Learner covers both 'rude' and 'peremptory' and the brevity; example fits; candidate is justified because the gloss itself says rude."},
+   {"synset": "oewn-02345399-s", "verdict": "right", "fault": null, "why": "Learner keeps 'right, legal, or full amount' and 'often on purpose'; example 'short weight' fits; describes without judging."},
+   {"synset": "oewn-01902113-s", "verdict": "right", "fault": null, "why": "Learner covers both foresight and scope; example 'a short view' fits; candidate is reasonable since the sense faults the thinking."},
+   {"synset": "oewn-02013127-a", "verdict": "right", "fault": null, "why": "Learner keeps both retentiveness and range; example 'short memories' fits; word describes a property, so null is defensible."},
+   {"synset": "oewn-01447121-a", "verdict": "right", "fault": null, "why": "Learner matches gloss; 'short vowel' is the right sense; technical label is justified by the phonetic gloss."},
+   {"synset": "oewn-01447511-a", "verdict": "right", "fault": null, "why": "Learner matches the short-selling gloss; example 'short in oil' fits; technical label is justified by the finance gloss."},
+   {"synset": "oewn-00712466-s", "verdict": "right", "fault": null, "why": "'Shortening' rendered as 'a lot of fat' is faithful; example about pastry fits; null is fine."}
+  ]},
+ {"word": "real", "pos": "adjective",
+  "rank": "right", "why": "Sentences ('real superiority', 'real concern', 'real regard', 'real character') carry the first two genuine/worthy-of-the-name senses, and the first listed is one of them.",
+  "senses": [
+   {"synset": "oewn-02126996-s", "verdict": "right", "fault": null, "why": "Learner restates 'not to be taken lightly' faithfully; example 'real problem' fits; null is fine."},
+   {"synset": "oewn-00013681-s", "verdict": "right", "fault": null, "why": "Learner restates 'capable of being treated as fact'; 'real benefits' fits this sense; null is fine."},
+   {"synset": "oewn-00628097-a", "verdict": "right", "fault": null, "why": "Learner keeps both 'having substance' and 'treated as fact; not imaginary'; dream example fits."},
+   {"synset": "oewn-01948221-s", "verdict": "right", "fault": null, "why": "Learner restates 'coinciding with reality'; example of a true-to-life picture fits."},
+   {"synset": "oewn-01946213-a", "verdict": "right", "fault": null, "why": "Learner matches the inflation-corrected gloss; 'real wages' fits; technical label is justified by the economic gloss."},
+   {"synset": "oewn-02400973-s", "verdict": "right", "fault": null, "why": "Learner matches 'fixed or immovable' for property; 'real property' fits; technical label is justified by the legal-property sense."}
+  ]},
+ {"word": "society", "pos": "noun",
+  "rank": "right", "why": "Most sentences ('his society was irksome', 'such society', 'not for society') mean being in someone's company, which is the first sense listed.",
+  "senses": [
+   {"synset": "oewn-08404661-n", "verdict": "right", "fault": null, "why": "Learner restates 'the fashionable elite' plainly; example 'London society' fits; describes a group without judging, so null is fine."}
+  ]},
+ {"word": "actually", "pos": "adverb",
+  "rank": "right", "why": "Most sentences ('he actually danced with her twice', 'actually taken the trouble') carry the surprising-fact sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00151061-r", "verdict": "wrong", "fault": "example-wrong-sense", "why": "In 'the song that is actually playing', the present time comes from 'is playing' and 'actually' just means 'in fact', so the example shows the 'in actual fact' sense, not 'at present'."}
+  ]},
+ {"word": "application", "pos": "noun",
+  "rank": "right", "why": "Four of six sentences use application as a request (the first-listed sense) and two use diligent effort, so the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-00036782-n", "verdict": "right", "fault": null, "why": "Learner restates 'putting something into operation'; brake example fits; null is fine."},
+   {"synset": "oewn-06582286-n", "verdict": "right", "fault": null, "why": "Learner matches the computer-program gloss; photo-editing example fits."},
+   {"synset": "oewn-00713478-n", "verdict": "right", "fault": null, "why": "Learner glosses 'the work of applying something' as putting on cream or paint, which is the sense the example uses; it gives illustrations without excluding others."},
+   {"synset": "oewn-03696454-n", "verdict": "right", "fault": null, "why": "Learner keeps soothing, antiseptic and medicinal actions and the skin; example of a cooling application on a burn fits."}
+  ]}
+]}
