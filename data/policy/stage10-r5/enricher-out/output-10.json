@@ -1,176 +1,381 @@
-{"packet": 10, "entries": [
- {"word": "reject", "pos": "verb",
-  "senses": {
-   "oewn-00798638-v": {"learner": "to refuse or turn away something or someone with contempt.",
-                       "examples": ["She rejected his apology with a cold laugh and turned her back on him."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "refusal made with contempt for what is refused"}},
-   "oewn-00808840-v": {"learner": "to judge that something is wrong or not suitable.",
-                       "examples": ["Her parents rejected the rude way he spoke to the servants."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02508565-v": {"learner": "to not let someone come in or become a member.",
-                       "examples": ["The club rejected him because he was too young to join."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02760892-v": {"learner": "(of a body) to fight against, with its defences against disease, a tissue or organ put into it from outside.",
-                       "examples": ["His body rejected the new kidney."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "style", "pos": "noun",
-  "senses": {
-   "oewn-05852632-n": {"learner": "a particular kind of thing, as judged by how it looks.",
-                       "examples": ["She bought the same style of hat in blue."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05758160-n": {"learner": "what most people like at a certain time.",
-                       "examples": ["Wide trousers were the style that summer."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06802072-n": {"learner": "the rules an editor gives for spelling, punctuation, capital letters and how the text looks on the page.",
-                       "examples": ["The newspaper's style is to spell out numbers below ten."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-04353589-n": {"learner": "a pointed tool used for writing, drawing or cutting lines into a surface.",
-                       "examples": ["The scribe pressed the style into the soft wax."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-11697710-n": {"learner": "in a flower, the narrow, long part of the pistil that lies between the ovary and the stigma.",
-                       "examples": ["Pollen grows down through the style to reach the ovary."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-01903854-n": {"learner": "a thin part, shaped like a bristle or a tube, that sticks out from a body.",
-                       "examples": ["The insect has a short style at the tip of its body."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "couple", "pos": "noun",
-  "senses": {
-   "oewn-08002070-n": {"learner": "two people who spend time with each other or are linked together.",
-                       "examples": ["The couple met every Sunday to walk by the river."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-09280469-n": {"learner": "something held together by two equal forces that push in opposite directions along parallel lines.",
-                       "examples": ["The two hands turning the wheel act on it as a couple."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "distinguish", "pos": "verb",
-  "senses": {
-   "oewn-00654017-v": {"learner": "to identify what something is, in the way a scientist who studies plants or animals does.",
-                       "examples": ["Using the key at the back of the book, he distinguished the plant as a wild orchid."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "divide", "pos": "verb",
-  "senses": {
-   "oewn-02035003-v": {"learner": "to make a division or a split.",
-                       "examples": ["Just past the bridge, the road divides."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01560556-v": {"learner": "to move apart, or to break apart.",
-                       "examples": ["The crowd divided to let the doctor through."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00643760-v": {"learner": "to do a division sum, working out how many times one number goes into another.",
-                       "examples": ["If you divide twelve by three, you get four."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "fire", "pos": "noun",
-  "senses": {
-   "oewn-13502051-n": {"learner": "the burning of things that catch fire easily, which gives off heat and light and often smoke.",
-                       "examples": ["Most wild animals are afraid of fire."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-14710347-n": {"learner": "burning fuel that is used to cook food on.",
-                       "examples": ["She set the pot of soup on the fire."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00989024-n": {"learner": "the act of shooting guns or big guns at an enemy.",
-                       "examples": ["The soldiers came under heavy fire from the hill."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06724098-n": {"learner": "very strong, hostile criticism.",
-                       "examples": ["The minister faced fire from his own party over the new tax."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07435035-n": {"learner": "a very hard experience that tests a person.",
-                       "examples": ["He had come through the fire of war a changed man."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-14867017-n": {"learner": "one of the four elements that people, following Empedocles, once thought made up the universe, linked with the body fluid called bile.",
-                       "examples": ["The old thinkers held that everything was made of earth, air, water and fire."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "obligation", "pos": "noun",
-  "senses": {
-   "oewn-06785951-n": {"learner": "a legal agreement that says what must be paid or done, and what the penalty is if it is not.",
-                       "examples": ["The firm signed an obligation to deliver the goods by May, with a fine for each day of delay."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13419414-n": {"learner": "a written promise to pay back money that is owed.",
-                       "examples": ["The bank bought the town's obligations, to be repaid within ten years."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "propose", "pos": "verb",
-  "senses": {
-   "oewn-00708009-v": {"learner": "to put something forward so that others can think about it, examine it, criticise it, and so on.",
-                       "examples": ["The scientist proposed a new theory of how the moon was formed."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02406665-v": {"learner": "to put someone forward as a choice for a public office, an honour or a position.",
-                       "examples": ["I propose Mrs. Hill as our new treasurer."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "boy", "pos": "noun",
-  "senses": {
-   "oewn-10305010-n": {"learner": "a young male person.",
-                       "examples": ["he was always the sweetest tempered, most generous-hearted boy in the world.", "The boy protested that she should not"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-10643436-n": {"learner": "a person's son.",
-                       "examples": ["She was proud of her boy, now a grown man with children of his own."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-09890332-n": {"learner": "a friendly, casual way of speaking about or to a grown man.",
-                       "examples": ["He's out tonight with the boys from work."],
-                       "usage_labels": ["informal"],
-                       "connotation": {"candidate": true, "why": "calls a grown man a boy, with familiarity"}},
-   "oewn-84496658-n": {"learner": "an insulting word for a Black man, used as a racial slur.",
-                       "examples": ["Calling a Black man \"boy\" was meant to deny him the respect owed to an adult."],
-                       "usage_labels": ["offensive", "derogatory"],
-                       "connotation": {"candidate": true, "why": "racial slur that demeans its target"}}
-  }},
- {"word": "passion", "pos": "noun",
-  "senses": {
-   "oewn-07496036-n": {"learner": "a strong feeling or emotion.",
-                       "examples": ["My objections to the marriage were not merely those which I last night acknowledged to have required the utmost force of passion to put aside"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07503928-n": {"learner": "a feeling of strong sexual desire.",
-                       "examples": ["how little of permanent happiness could belong to a couple who were only brought together because their passions were stronger than their virtue"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05821331-n": {"learner": "anything that you love warmly or are deeply devoted to.",
-                       "examples": ["Music was her great passion."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04635549-n": {"learner": "the quality of having very strong feelings.",
-                       "examples": ["Her passion made her quick to love and quick to anger."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-14062661-n": {"learner": "something that you want very much.",
-                       "examples": ["Owning a horse had become her passion, and she saved every penny for one."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-09204454-n": {"learner": "a reason for believing or doing something that makes no sense but that you cannot resist.",
-                       "examples": ["Gambling had become a passion he could not master, though he knew it would ruin him."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "calls the motive irrational"}}
-  }}
-]}
+{
+ "packet": 10,
+ "entries": [
+  {
+   "word": "reject",
+   "pos": "verb",
+   "senses": {
+    "oewn-00798638-v": {
+     "learner": "to refuse or turn away something or someone with contempt.",
+     "examples": [
+      "She rejected his apology with a cold laugh and turned her back on him."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "refusal made with contempt for what is refused"
+     }
+    },
+    "oewn-00808840-v": {
+     "learner": "to judge that something is wrong or not suitable.",
+     "examples": [
+      "Her parents rejected the rude way he spoke to the servants."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02508565-v": {
+     "learner": "to not let someone come in or become a member.",
+     "examples": [
+      "The club rejected him because he was too young to join."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02760892-v": {
+     "learner": "(of a body) to fight against, with its defences against disease, a tissue or organ put into it from outside.",
+     "examples": [
+      "His body rejected the new kidney."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "style",
+   "pos": "noun",
+   "senses": {
+    "oewn-05852632-n": {
+     "learner": "a particular kind of thing, as judged by how it looks.",
+     "examples": [
+      "She bought the same style of hat in blue."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05758160-n": {
+     "learner": "what most people like at a certain time.",
+     "examples": [
+      "Wide trousers were the style that summer."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06802072-n": {
+     "learner": "the rules an editor gives for spelling, punctuation, capital letters and how the text looks on the page.",
+     "examples": [
+      "The newspaper's style is to spell out numbers below ten."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-04353589-n": {
+     "learner": "a pointed tool used for writing, drawing or cutting lines into a surface.",
+     "examples": [
+      "The scribe pressed the style into the soft wax."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-11697710-n": {
+     "learner": "in a flower, the narrow, long part of the pistil that lies between the ovary and the stigma.",
+     "examples": [
+      "Pollen grows down through the style to reach the ovary."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-01903854-n": {
+     "learner": "a thin part, shaped like a bristle or a tube, that sticks out from a body.",
+     "examples": [
+      "The insect has a short style at the tip of its body."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "couple",
+   "pos": "noun",
+   "senses": {
+    "oewn-08002070-n": {
+     "learner": "two people who spend time with each other or are linked together.",
+     "examples": [
+      "The couple met every Sunday to walk by the river."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-09280469-n": {
+     "learner": "something held together by two equal forces that push in opposite directions along parallel lines.",
+     "examples": [
+      "The two hands turning the wheel act on it as a couple."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "distinguish",
+   "pos": "verb",
+   "senses": {
+    "oewn-00654017-v": {
+     "learner": "to identify what something is, in the way a scientist who studies plants or animals does.",
+     "examples": [
+      "Using the key at the back of the book, he distinguished the plant as a wild orchid."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "divide",
+   "pos": "verb",
+   "senses": {
+    "oewn-02035003-v": {
+     "learner": "to make a division or a split.",
+     "examples": [
+      "Just past the bridge, the road divides."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01560556-v": {
+     "learner": "to move apart, or to break apart.",
+     "examples": [
+      "The crowd divided to let the doctor through."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00643760-v": {
+     "learner": "to do a division sum, working out how many times one number goes into another.",
+     "examples": [
+      "If you divide twelve by three, you get four."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "fire",
+   "pos": "noun",
+   "senses": {
+    "oewn-13502051-n": {
+     "learner": "the burning of things that catch fire easily, which gives off heat and light and often smoke.",
+     "examples": [
+      "Most wild animals are afraid of fire."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-14710347-n": {
+     "learner": "burning fuel that is used to cook food on.",
+     "examples": [
+      "She set the pot of soup on the fire."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00989024-n": {
+     "learner": "the act of shooting guns or big guns at an enemy.",
+     "examples": [
+      "The soldiers came under heavy fire from the hill."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06724098-n": {
+     "learner": "very strong, hostile criticism.",
+     "examples": [
+      "The minister faced fire from his own party over the new tax."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07435035-n": {
+     "learner": "a very hard experience that tests a person.",
+     "examples": [
+      "He had come through the fire of war a changed man."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-14867017-n": {
+     "learner": "one of the four elements that people, following Empedocles, once thought made up the universe, linked with the body fluid called bile.",
+     "examples": [
+      "The old thinkers held that everything was made of earth, air, water and fire."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "obligation",
+   "pos": "noun",
+   "senses": {
+    "oewn-06785951-n": {
+     "learner": "a legal agreement that says what must be paid or done, and what the penalty is if it is not.",
+     "examples": [
+      "The firm signed an obligation to deliver the goods by May, with a fine for each day of delay."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13419414-n": {
+     "learner": "a written promise to pay back money that is owed.",
+     "examples": [
+      "The bank bought the town's obligations, to be repaid within ten years."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "propose",
+   "pos": "verb",
+   "senses": {
+    "oewn-00708009-v": {
+     "learner": "to put something forward so that others can think about it, examine it, criticise it, and so on.",
+     "examples": [
+      "The scientist proposed a new theory of how the moon was formed."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02406665-v": {
+     "learner": "to put someone forward, or to name them as a choice for an office, an honour or a position.",
+     "examples": [
+      "She proposed her friend for the post of club secretary."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "boy",
+   "pos": "noun",
+   "senses": {
+    "oewn-10305010-n": {
+     "learner": "a young male person.",
+     "examples": [
+      "he was always the sweetest tempered, most generous-hearted boy in the world.",
+      "The boy protested that she should not"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-10643436-n": {
+     "learner": "a person's son.",
+     "examples": [
+      "She was proud of her boy, now a grown man with children of his own."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-09890332-n": {
+     "learner": "a friendly, casual way of speaking about or to a grown man.",
+     "examples": [
+      "He's out tonight with the boys from work."
+     ],
+     "usage_labels": [
+      "informal"
+     ],
+     "connotation": {
+      "candidate": true,
+      "why": "calls a grown man a boy, with familiarity"
+     }
+    },
+    "oewn-84496658-n": {
+     "learner": "an insulting word for a Black man, used as a racial slur.",
+     "examples": [
+      "Calling a Black man \"boy\" was meant to deny him the respect owed to an adult."
+     ],
+     "usage_labels": [
+      "offensive",
+      "derogatory"
+     ],
+     "connotation": {
+      "candidate": true,
+      "why": "racial slur that demeans its target"
+     }
+    }
+   }
+  },
+  {
+   "word": "passion",
+   "pos": "noun",
+   "senses": {
+    "oewn-07496036-n": {
+     "learner": "a strong feeling or emotion.",
+     "examples": [
+      "My objections to the marriage were not merely those which I last night acknowledged to have required the utmost force of passion to put aside"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07503928-n": {
+     "learner": "a feeling of strong sexual desire.",
+     "examples": [
+      "how little of permanent happiness could belong to a couple who were only brought together because their passions were stronger than their virtue"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05821331-n": {
+     "learner": "anything that you love warmly or are deeply devoted to.",
+     "examples": [
+      "Music was her great passion."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04635549-n": {
+     "learner": "the quality of having very strong feelings.",
+     "examples": [
+      "Her passion made her quick to love and quick to anger."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-14062661-n": {
+     "learner": "something that you want very much.",
+     "examples": [
+      "Owning a horse had become her passion, and she saved every penny for one."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-09204454-n": {
+     "learner": "a reason for believing or doing something that makes no sense but that you cannot resist.",
+     "examples": [
+      "Gambling had become a passion he could not master, though he knew it would ruin him."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "calls the motive irrational"
+     }
+    }
+   }
+  }
+ ]
+}

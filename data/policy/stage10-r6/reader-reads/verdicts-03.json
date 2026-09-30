@@ -1,0 +1,83 @@
+{"packet": 3, "verdicts": [
+ {"word": "short", "pos": "adjective",
+  "rank": "right", "why": "Every sentence uses short of time (short periods, pauses, silences), and the temporal sense is listed first.",
+  "senses": [
+   {"synset": "oewn-02344882-s", "verdict": "right", "fault": null, "why": "Learner line matches 'insufficient quantity to meet a need', the example is in this sense, and null is fair for a plain description."},
+   {"synset": "oewn-00643682-s", "verdict": "right", "fault": null, "why": "Learner line keeps both 'rude' and 'peremptory', the example is in this sense, and the candidate is right because the word itself judges the manner."},
+   {"synset": "oewn-02345399-s", "verdict": "wrong", "fault": "false-candidate", "why": "The word describes a shortfall in amount (the gloss says only 'often' deliberate); the cheating belongs to the referent, not to a judgement carried by 'short', so a candidate is not warranted."},
+   {"synset": "oewn-01902113-s", "verdict": "right", "fault": null, "why": "Learner line covers both foresight and scope, the example fits, and the word does fault the thinking it describes."},
+   {"synset": "oewn-02013127-a", "verdict": "right", "fault": null, "why": "Learner line covers retentiveness and range, the example is a short memory, and the word describes a limit of the faculty without a separate verdict, so null holds."},
+   {"synset": "oewn-01447121-a", "verdict": "right", "fault": null, "why": "Learner line matches, 'short vowel' is this sense, and the technical label is justified by the phonetic gloss."},
+   {"synset": "oewn-01447511-a", "verdict": "right", "fault": null, "why": "Learner line restates the short-selling gloss faithfully, the example fits, and the technical label is justified."},
+   {"synset": "oewn-00712466-s", "verdict": "right", "fault": null, "why": "Learner line matches the crumbly-pastry gloss, the example is in this sense, and null is correct."}
+  ]},
+ {"word": "minute", "pos": "noun",
+  "rank": "right", "why": "The sentences use 'ten minutes', 'a few minutes' and 'five minutes', which is the unit-of-time sense listed first.",
+  "senses": [
+   {"synset": "oewn-06518306-n", "verdict": "right", "fault": null, "why": "'A short written message' is faithful to 'a short note' and the example is a memo in this sense."},
+   {"synset": "oewn-05138288-n", "verdict": "right", "fault": null, "why": "Learner line matches distance counted in travel time, and 'ten minutes from here on foot' is exactly that."},
+   {"synset": "oewn-13632810-n", "verdict": "right", "fault": null, "why": "Learner line matches the one-sixtieth-of-a-degree gloss, the example is angular, and the technical label is justified."}
+  ]},
+ {"word": "understand", "pos": "verb",
+  "rank": "right", "why": "Most sentences (understand his character, instantly understood it, let me understand it) carry 'know and comprehend', listed first.",
+  "senses": [
+   {"synset": "oewn-00595453-v", "verdict": "right", "fault": null, "why": "Learner line renders 'be understanding of' faithfully and the example ('I understand' about a missed party) is in this sense."},
+   {"synset": "oewn-00595247-v", "verdict": "right", "fault": null, "why": "Learner line and the French example both match 'make sense of a language'."}
+  ]},
+ {"word": "officer", "pos": "noun",
+  "rank": "right", "why": "The sentences are about the militia officers, which is the armed-services sense listed first.",
+  "senses": [
+   {"synset": "oewn-10391440-n", "verdict": "right", "fault": null, "why": "Learner line matches the vessel-authority gloss and the first-officer example is in this sense."}
+  ]},
+ {"word": "attend", "pos": "verb",
+  "rank": "right", "why": "The sentences split between giving heed, accompanying and being present, and the first-listed 'give heed' is used in two of them.",
+  "senses": [
+   {"synset": "oewn-02555278-v", "verdict": "right", "fault": null, "why": "Learner line matches 'take charge of or deal with' and 'attend to' business is this sense."},
+   {"synset": "oewn-02546367-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'work for' and 'be a servant to', and the maids example fits."}
+  ]},
+ {"word": "respect", "pos": "noun",
+  "rank": "right", "why": "Half the sentences (in every respect, in that respect, in many respects) use the detail-or-point sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-07560785-n", "verdict": "right", "fault": null, "why": "Learner line renders friendship and esteem faithfully and the warm-respect example is in this sense."},
+   {"synset": "oewn-14461018-n", "verdict": "right", "fault": null, "why": "Learner line matches 'the condition of being honored' and 'held in great respect' is this sense."},
+   {"synset": "oewn-01135185-n", "verdict": "right", "fault": null, "why": "Learner line matches behaviour meant to please parents and the example shows rule-keeping done for that purpose."}
+  ]},
+ {"word": "help", "pos": "verb",
+  "rank": "right", "why": "Every sentence is 'cannot help' plus a verb, which is the abstain sense listed first.",
+  "senses": [
+   {"synset": "oewn-00081834-v", "verdict": "right", "fault": null, "why": "Learner line matches 'improve the condition of' and the sick-boy example is in this sense."},
+   {"synset": "oewn-02561142-v", "verdict": "right", "fault": null, "why": "Learner line matches 'contribute to the furtherance of' and the road-and-trade example fits."},
+   {"synset": "oewn-00207406-v", "verdict": "right", "fault": null, "why": "Learner line matches 'improve; change for the better' and the rug example fits."},
+   {"synset": "oewn-01183592-v", "verdict": "right", "fault": null, "why": "Learner line covers food and drink and the potatoes example is in this sense."},
+   {"synset": "oewn-01196102-v", "verdict": "right", "fault": null, "why": "Learner line matches 'take or use' and 'help yourself to a pen' is this sense."}
+  ]},
+ {"word": "matter", "pos": "noun",
+  "rank": "right", "why": "Sentences such as 'such matters as these', 'a matter of confidence' and 'money matters' fit the vaguely specified concern listed first.",
+  "senses": [
+   {"synset": "oewn-05176769-n", "verdict": "right", "fault": null, "why": "Learner line keeps both the meaning and the negation condition, and 'no matter' in the example is this sense."},
+   {"synset": "oewn-00021007-n", "verdict": "right", "fault": null, "why": "Learner line matches the physical-matter gloss and the example fits."},
+   {"synset": "oewn-06376912-n", "verdict": "right", "fault": null, "why": "Learner line matches the written-works gloss and 'reading matter' is this sense."}
+  ]},
+ {"word": "try", "pos": "verb",
+  "rank": "right", "why": "Most sentences (try to get, tried to unite, try to discover) are attempts, the sense listed first.",
+  "senses": [
+   {"synset": "oewn-02506927-v", "verdict": "right", "fault": null, "why": "Learner line keeps both putting on trial and sitting as judge, and the example fits."},
+   {"synset": "oewn-00047034-v", "verdict": "right", "fault": null, "why": "Learner line matches the garment gloss and 'tried the coat on' is this sense."},
+   {"synset": "oewn-02506551-v", "verdict": "right", "fault": null, "why": "Learner line keeps both examining evidence and hearing a case, and the example fits."},
+   {"synset": "oewn-01802793-v", "verdict": "right", "fault": null, "why": "Learner line matches 'give pain or trouble to' and the illness example is in this sense."},
+   {"synset": "oewn-01802463-v", "verdict": "right", "fault": null, "why": "Learner line matches 'test the limits of' and 'tried her patience' is this sense."},
+   {"synset": "oewn-00445930-v", "verdict": "right", "fault": null, "why": "Learner line matches the fat-rendering gloss ('impurities' as 'unclean parts') and the lard example fits."}
+  ]},
+ {"word": "pay", "pos": "verb",
+  "rank": "right", "why": "Most sentences (pay a visit, pay deference, pay my respects, pay addresses) carry the convey-or-bestow sense listed first.",
+  "senses": [
+   {"synset": "oewn-02256551-v", "verdict": "right", "fault": null, "why": "Learner line matches 'give money, usually in exchange' and the example fits."},
+   {"synset": "oewn-02257739-v", "verdict": "right", "fault": null, "why": "Learner line matches cancelling a debt and 'paid up' is this sense."},
+   {"synset": "oewn-00739889-v", "verdict": "right", "fault": null, "why": "Learner line matches bearing a cost or penalty for an action and 'pay for his rudeness' is this sense."},
+   {"synset": "oewn-00734247-v", "verdict": "right", "fault": null, "why": "Learner line matches 'dedicate' and 'paid careful attention' is this sense."},
+   {"synset": "oewn-02258264-v", "verdict": "right", "fault": null, "why": "Learner line matches doing or giving something in return and the free-meal example fits."},
+   {"synset": "oewn-02349239-v", "verdict": "right", "fault": null, "why": "Learner line matches 'make a compensation for' and 'pay back such a kindness' is this sense."},
+   {"synset": "oewn-02738167-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss without addition and 'it pays to be honest' is this sense."},
+   {"synset": "oewn-02296669-v", "verdict": "right", "fault": null, "why": "Learner line matches 'bring in' and the savings-account interest example fits."}
+  ]}
+]}

@@ -1,180 +1,370 @@
-{"packet": 3, "entries": [
- {"word": "people", "pos": "noun",
-  "senses": {
-   "oewn-08197108-n": {"learner": "ordinary people in general, taken all together.",
-                       "examples": ["The new law was meant to give more power to the people."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "home", "pos": "noun",
-  "senses": {
-   "oewn-08507209-n": {"learner": "the country, state or city where you live.",
-                       "examples": ["His home is Chicago, but he works in New York."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-08094856-n": {"learner": "a group of people who live together as one unit.",
-                       "examples": ["The whole home was up early, from the grandparents to the baby."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-08602685-n": {"learner": "the place where something started and then grew strong.",
-                       "examples": ["Italy is the home of opera."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03533280-n": {"learner": "a place where people who need care are looked after.",
-                       "examples": ["Her grandfather moved into a home for the elderly."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "softer word than 'institution'; 'put in a home' can sting"}},
-   "oewn-08507412-n": {"learner": "the place where you are based, where your missions start and end.",
-                       "examples": ["The ship's home is a port in Virginia, and every voyage starts and ends there."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03534081-n": {"learner": "in baseball, the rubber slab where the batter stands, which a runner must touch to score.",
-                       "examples": ["He slid into home just ahead of the throw."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "business", "pos": "noun",
-  "senses": {
-   "oewn-08077878-n": {"learner": "a company that trades or makes goods, together with the people who make it up.",
-                       "examples": ["She runs a small business that sells bread."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00583425-n": {"learner": "the main work you do in your life to earn money.",
-                       "examples": ["He has been in the building business for twenty years."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01098150-n": {"learner": "how much buying and selling is going on.",
-                       "examples": ["Business was slow at the shop this week."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07983541-n": {"learner": "companies and firms, taken all together as a group.",
-                       "examples": ["Government and business could not agree on the new tax."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-08418511-n": {"learner": "customers, taken all together as a group.",
-                       "examples": ["The new cafe across the street took away much of our business."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00551378-n": {"learner": "small extra actions an actor does on stage to add to the drama.",
-                       "examples": ["His business with the cane made the whole audience laugh."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "heart", "pos": "noun",
-  "senses": {
-   "oewn-08540894-n": {"learner": "the part that is roughly in the middle of a larger area.",
-                       "examples": ["Their hotel was in the heart of the city."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07560035-n": {"learner": "a warm feeling of liking someone or something.",
-                       "examples": ["The puppy soon won everyone's heart."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04864721-n": {"learner": "the courage to keep going.",
-                       "examples": ["After the third defeat, the team began to lose heart."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04632183-n": {"learner": "a leaning or tendency of a certain kind.",
-                       "examples": ["He had a change of heart and decided to stay."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13888525-n": {"learner": "a flat shape whose rounded sides curve in at the top and meet in a point at the bottom, as used on playing cards and valentines.",
-                       "examples": ["She drew a heart at the bottom of the birthday note."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03512192-n": {"learner": "a playing card of the hearts, a major suit, with one or more red heart shapes on it.",
-                       "examples": ["She played a heart and won the trick."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07667514-n": {"learner": "an animal's heart eaten as meat, which is firm and rather dry and usually comes from a cow or calf.",
-                       "examples": ["The butcher sold us a beef heart for the stew."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "live", "pos": "verb",
-  "senses": {
-   "oewn-02620422-v": {"learner": "to have a certain kind of life, or to live in a certain style.",
-                       "examples": ["they will settle so quietly, and live in so rational a manner", "After the war they had to live very simply."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02624202-v": {"learner": "to stay alive and not die.",
-                       "examples": ["The doctors doubted she would live, but she got better."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02621023-v": {"learner": "to go after a full and satisfying life.",
-                       "examples": ["Stop working all the time and start to live!"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00598039-v": {"learner": "to know a state, situation, feeling or sensation because you have been through it yourself.",
-                       "examples": ["She had lived that fear herself as a child."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "fortune", "pos": "noun",
-  "senses": {
-   "oewn-11438252-n": {"learner": "the unknown, unpredictable thing that makes an event turn out one way rather than another.",
-                       "examples": ["Whether we win or lose is now up to fortune."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "forget", "pos": "verb",
-  "senses": {
-   "oewn-00614532-v": {"learner": "to leave something behind without meaning to.",
-                       "examples": ["I forgot my umbrella on the train."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "question", "pos": "noun",
-  "senses": {
-   "oewn-04764777-n": {"learner": "doubt about whether something is true, real, or exists.",
-                       "examples": ["There is no question that she told the truth."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07176710-n": {"learner": "an informal way of talking about asking someone to marry you.",
-                       "examples": ["He finally popped the question over dinner."],
-                       "usage_labels": ["informal"],
-                       "connotation": null},
-   "oewn-07178244-n": {"learner": "a formal suggestion for action put to a meeting or council, to be discussed and voted on.",
-                       "examples": ["The chair put the question to a vote."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "resolve", "pos": "verb",
-  "senses": {
-   "oewn-00735067-v": {"learner": "to find the solution to something.",
-                       "examples": ["She resolved the puzzle in ten minutes."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00637185-v": {"learner": "to understand what something means.",
-                       "examples": ["Scholars have never fully resolved what the poem's last line means."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02198058-v": {"learner": "to make something clearly visible.",
-                       "examples": ["The stronger lens resolved the tiny cells on the slide."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00448264-v": {"learner": "to make a substance go into a solution, as when it dissolves in a liquid.",
-                       "examples": ["The heat slowly resolved the salt into the water."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "night", "pos": "noun",
-  "senses": {
-   "oewn-15192521-n": {"learner": "the time you spend sleeping.",
-                       "examples": ["The baby had a bad night and woke four times."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-15194806-n": {"learner": "a short word for nightfall, the time when it gets dark.",
-                       "examples": ["We must reach the village before night."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-14007202-n": {"learner": "darkness.",
-                       "examples": ["The rider vanished into the night."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-15192624-n": {"learner": "a time of ignorance, of being backward, or of gloom.",
-                       "examples": ["The country slowly came out of its long night of war and fear."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "casts a period as dark, ignorant or backward"}}
-  }}
-]}
+{
+ "packet": 3,
+ "entries": [
+  {
+   "word": "people",
+   "pos": "noun",
+   "senses": {
+    "oewn-08197108-n": {
+     "learner": "ordinary people in general, taken all together.",
+     "examples": [
+      "The new law was meant to give more power to the people."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "home",
+   "pos": "noun",
+   "senses": {
+    "oewn-08507209-n": {
+     "learner": "the country, state or city where you live.",
+     "examples": [
+      "His home is Chicago, but he works in New York."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-08094856-n": {
+     "learner": "a group of people who live together as one unit.",
+     "examples": [
+      "The whole home was up early, from the grandparents to the baby."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-08602685-n": {
+     "learner": "the place where something started and then grew strong.",
+     "examples": [
+      "Italy is the home of opera."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03533280-n": {
+     "learner": "a place where people who need care are looked after.",
+     "examples": [
+      "Her grandfather moved into a home for the elderly."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "softer word than 'institution'; 'put in a home' can sting"
+     }
+    },
+    "oewn-08507412-n": {
+     "learner": "the place where you are based, where your missions start and end.",
+     "examples": [
+      "The ship's home is a port in Virginia, and every voyage starts and ends there."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03534081-n": {
+     "learner": "in baseball, the rubber slab where the batter stands, which a runner must touch to score.",
+     "examples": [
+      "He slid into home just ahead of the throw."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "business",
+   "pos": "noun",
+   "senses": {
+    "oewn-08077878-n": {
+     "learner": "a company that trades or makes goods, together with the people who make it up.",
+     "examples": [
+      "She runs a small business that sells bread."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00583425-n": {
+     "learner": "the main work you do in your life to earn money.",
+     "examples": [
+      "He has been in the building business for twenty years."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01098150-n": {
+     "learner": "how much buying and selling is going on.",
+     "examples": [
+      "Business was slow at the shop this week."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07983541-n": {
+     "learner": "companies and firms, taken all together as a group.",
+     "examples": [
+      "Government and business could not agree on the new tax."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-08418511-n": {
+     "learner": "customers, taken all together as a group.",
+     "examples": [
+      "The new cafe across the street took away much of our business."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00551378-n": {
+     "learner": "small extra actions an actor does on stage to add to the drama.",
+     "examples": [
+      "His business with the cane made the whole audience laugh."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "heart",
+   "pos": "noun",
+   "senses": {
+    "oewn-08540894-n": {
+     "learner": "the part that is roughly in the middle of a larger area.",
+     "examples": [
+      "Their hotel was in the heart of the city."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07560035-n": {
+     "learner": "a warm feeling of liking someone or something.",
+     "examples": [
+      "The puppy soon won everyone's heart."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04864721-n": {
+     "learner": "the courage to keep going.",
+     "examples": [
+      "After the third defeat, the team began to lose heart."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04632183-n": {
+     "learner": "a leaning or tendency of a certain kind.",
+     "examples": [
+      "He had a change of heart and decided to stay."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13888525-n": {
+     "learner": "a flat shape whose rounded sides curve in at the top and meet in a point at the bottom, as used on playing cards and valentines.",
+     "examples": [
+      "She drew a heart at the bottom of the birthday note."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03512192-n": {
+     "learner": "a playing card of the hearts, a major suit, with one or more red heart shapes on it.",
+     "examples": [
+      "She played a heart and won the trick."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07667514-n": {
+     "learner": "an animal's heart eaten as meat, which is firm and rather dry and usually comes from a cow or calf.",
+     "examples": [
+      "The butcher sold us a beef heart for the stew."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "live",
+   "pos": "verb",
+   "senses": {
+    "oewn-02620422-v": {
+     "learner": "to have a certain kind of life, or to live in a certain style.",
+     "examples": [
+      "they will settle so quietly, and live in so rational a manner",
+      "After the war they had to live very simply."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02624202-v": {
+     "learner": "to stay alive and not die.",
+     "examples": [
+      "The doctors doubted she would live, but she got better."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02621023-v": {
+     "learner": "to go after a full and satisfying life.",
+     "examples": [
+      "Stop working all the time and start to live!"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00598039-v": {
+     "learner": "to know a state, situation, feeling or sensation because you have been through it yourself.",
+     "examples": [
+      "She had lived that fear herself as a child."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "fortune",
+   "pos": "noun",
+   "senses": {
+    "oewn-11438252-n": {
+     "learner": "the unknown, unpredictable thing that makes an event turn out one way rather than another.",
+     "examples": [
+      "Whether we win or lose is now up to fortune."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "forget",
+   "pos": "verb",
+   "senses": {
+    "oewn-00614532-v": {
+     "learner": "to leave something behind without meaning to.",
+     "examples": [
+      "I forgot my umbrella on the train."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "question",
+   "pos": "noun",
+   "senses": {
+    "oewn-04764777-n": {
+     "learner": "doubt about whether something is true, real, or exists.",
+     "examples": [
+      "There is no question that she told the truth."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07176710-n": {
+     "learner": "an informal way of talking about asking someone to marry you.",
+     "examples": [
+      "He finally popped the question over dinner."
+     ],
+     "usage_labels": [
+      "informal"
+     ],
+     "connotation": null
+    },
+    "oewn-07178244-n": {
+     "learner": "a formal suggestion for action put to a meeting or council, to be discussed and voted on.",
+     "examples": [
+      "The chair put the question to a vote."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "resolve",
+   "pos": "verb",
+   "senses": {
+    "oewn-00735067-v": {
+     "learner": "to find the solution to something.",
+     "examples": [
+      "She resolved the puzzle in ten minutes."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00637185-v": {
+     "learner": "to understand what something means.",
+     "examples": [
+      "Scholars have never fully resolved what the poem's last line means."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02198058-v": {
+     "learner": "to make something clearly visible.",
+     "examples": [
+      "The stronger lens resolved the tiny cells on the slide."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00448264-v": {
+     "learner": "to make a substance go into a solution, as when it dissolves in a liquid.",
+     "examples": [
+      "The heat slowly resolved the salt into the water."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "night",
+   "pos": "noun",
+   "senses": {
+    "oewn-15192521-n": {
+     "learner": "the time you spend sleeping.",
+     "examples": [
+      "The baby had a bad night and woke four times."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-15194806-n": {
+     "learner": "a short word for nightfall, the time when it gets dark.",
+     "examples": [
+      "We must reach the village before night."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-14007202-n": {
+     "learner": "darkness.",
+     "examples": [
+      "The rider vanished into the night."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-15192624-n": {
+     "learner": "a time of ignorance, of being backward, or of gloom.",
+     "examples": [
+      "The country slowly came out of its long night of war and fear."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "casts a period as dark, ignorant or backward"
+     }
+    }
+   }
+  }
+ ]
+}

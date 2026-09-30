@@ -1,0 +1,79 @@
+{"packet": 5, "verdicts": [
+ {"word": "address", "pos": "verb",
+  "rank": "right", "why": "Most sentences (addressed her, addressed the mother, address her) carry 'speak to', which is listed first.",
+  "senses": [
+   {"synset": "oewn-00991233-v", "verdict": "right", "fault": null, "why": "Learner line restates 'give a speech to', the example is a speech to a crowd, and null fits a neutral verb."},
+   {"synset": "oewn-01035399-v", "verdict": "right", "fault": null, "why": "'Deal with a subject in words or art' is a plain rendering of the gloss, and the paintings example is this sense."},
+   {"synset": "oewn-02607453-v", "verdict": "right", "fault": null, "why": "Learner keeps form of words, title or name, and 'addressed her as Your Ladyship' is exactly this sense."},
+   {"synset": "oewn-00992844-v", "verdict": "right", "fault": null, "why": "Learner and example both put an address on an envelope, as the gloss says."},
+   {"synset": "oewn-01153447-v", "verdict": "right", "fault": null, "why": "Directing a question at a particular person matches the gloss and the example."},
+   {"synset": "oewn-02253826-v", "verdict": "right", "fault": null, "why": "Learner matches the gloss, the memory example is this computing sense, and the technical label is justified by the sense."},
+   {"synset": "oewn-00465600-v", "verdict": "right", "fault": null, "why": "Learner covers adjusting and aiming at the ball before the hit, the example is the golf stance, and the technical label fits a golf term."}
+  ]},
+ {"word": "inclination", "pos": "noun",
+  "rank": "right", "why": "Four of six sentences use the attitude or liking sense listed first and two use the bend of the head, so the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-07514093-n", "verdict": "right", "fault": null, "why": "'Something that you tend to like' matches the gloss, and the music example uses inclination as the thing liked."},
+   {"synset": "oewn-04951225-n", "verdict": "right", "fault": null, "why": "Learner keeps likelihood and natural leaning and condition, character or effect, and the soil example is a natural tendency."},
+   {"synset": "oewn-13912295-n", "verdict": "right", "fault": null, "why": "Geometry angle to the x-axis, counterclockwise, is faithfully kept, and the technical label is justified by the (geometry) tag."},
+   {"synset": "oewn-13912536-n", "verdict": "right", "fault": null, "why": "Orbit plane against ecliptic in degrees is faithfully kept, and the example and technical label fit."},
+   {"synset": "oewn-13915590-n", "verdict": "right", "fault": null, "why": "Magnetic needle angle with the horizon is faithfully kept, and the example and technical label fit."}
+  ]},
+ {"word": "proceed", "pos": "verb",
+  "rank": "right", "why": "The walking and going-on sentences (proceeding directly to her walk, proceeded in silence along the walk) carry 'move ahead', which is listed first, while others split among later senses.",
+  "senses": [
+   {"synset": "oewn-00342215-v", "verdict": "right", "fault": null, "why": "'Go along a certain course' restates the gloss, and 'the talks proceeded smoothly' is a course being followed."},
+   {"synset": "oewn-02690747-v", "verdict": "right", "fault": null, "why": "'Keep on in a certain state, condition, or activity' matches the gloss, and 'the work proceeded' is continuing."}
+  ]},
+ {"word": "refuse", "pos": "verb",
+  "rank": "right", "why": "Every sentence is declining to do or accept something, which is 'show unwillingness towards', listed first.",
+  "senses": [
+   {"synset": "oewn-02508565-v", "verdict": "right", "fault": null, "why": "Learner covers both not letting in and not admitting to membership, and the club example is this sense."},
+   {"synset": "oewn-02713660-v", "verdict": "right", "fault": null, "why": "Learner keeps eluding in a baffling way, and a puzzle resisting every attempt is this defy-like sense."},
+   {"synset": "oewn-02760892-v", "verdict": "right", "fault": null, "why": "Learner keeps the body fighting a foreign tissue or organ, the kidney example fits, and the technical label is justified by 'immunologically'."}
+  ]},
+ {"word": "agree", "pos": "verb",
+  "rank": "right", "why": "Four of six sentences are being in accord (agree with you, agreeing that) and the rest are consent, so the first sense is correct.",
+  "senses": [
+   {"synset": "oewn-01037402-v", "verdict": "right", "fault": null, "why": "'Come to share the same opinion, feeling, or purpose' matches the gloss, and agreeing on a price is this sense."},
+   {"synset": "oewn-02296096-v", "verdict": "right", "fault": null, "why": "'Pleasant or suitable for someone' matches the gloss, and 'rich food does not agree with him' is this sense."},
+   {"synset": "oewn-02705946-v", "verdict": "right", "fault": null, "why": "Learner repeats the gloss, and music and dancing going together is this sense."},
+   {"synset": "oewn-02747668-v", "verdict": "right", "fault": null, "why": "Matching in grammar is the gloss, the verb and subject example is this sense, and the technical label is justified by 'grammatical'."}
+  ]},
+ {"word": "chapter", "pos": "noun",
+  "rank": "right", "why": "Every sentence is a heading to a numbered chapter of the book, which is the subdivision of a written work listed first.",
+  "senses": [
+   {"synset": "oewn-07321790-n", "verdict": "right", "fault": null, "why": "Learner restates connected events making one episode, and 'a chapter of accidents' is this sense."},
+   {"synset": "oewn-08245759-n", "verdict": "right", "fault": null, "why": "Learner keeps the monks of a monastery and the canons of a church, and the abbot example is this sense."}
+  ]},
+ {"word": "library", "pos": "noun",
+  "rank": "right", "why": "Most sentences are a room in a house where books are kept (his library, the library at Pemberley), which is listed first.",
+  "senses": [
+   {"synset": "oewn-03665990-n", "verdict": "right", "fault": null, "why": "Learner keeps a place built to hold books and materials for reading and study, and the example is a library built for scholars."},
+   {"synset": "oewn-07994015-n", "verdict": "right", "fault": null, "why": "Learner keeps standard programs and routines ready to use, the maths library example fits, and the technical label is justified by (computing)."}
+  ]},
+ {"word": "scene", "pos": "noun",
+  "rank": "right", "why": "The sentences split among incidents (distressing scenes), sights (the whole scene) and setting (change of scene), and the incident sense listed first is one of them.",
+  "senses": [
+   {"synset": "oewn-08585785-n", "verdict": "right", "fault": null, "why": "Learner restates surroundings and situation, and 'change of scene' fits context and environment."},
+   {"synset": "oewn-07022924-n", "verdict": "right", "fault": null, "why": "Learner keeps a part of an act, and the ghost in the second scene is this sense."},
+   {"synset": "oewn-14429707-n", "verdict": "right", "fault": null, "why": "Learner says a time when bad temper is shown, 'made a scene' is this sense, and the candidate is sound because the phrase casts the outburst as an embarrassing display."},
+   {"synset": "oewn-13960108-n", "verdict": "right", "fault": null, "why": "Learner keeps a situation seen as a whole thing, and 'the music scene' is this sense."},
+   {"synset": "oewn-06627082-n", "verdict": "right", "fault": null, "why": "Learner keeps a run of film pictures showing one unit of action, and the chase scene is this sense."},
+   {"synset": "oewn-04152121-n", "verdict": "right", "fault": null, "why": "Learner keeps painted stage pieces that suggest a place, and the shifted painted forest is this sense."},
+   {"synset": "oewn-04151847-n", "verdict": "right", "fault": null, "why": "Learner keeps a drawn or photographed picture of something as seen, and the painted winter scene is this sense."}
+  ]},
+ {"word": "trouble", "pos": "noun",
+  "rank": "right", "why": "Every sentence is the inconvenient effort (give the trouble, took the trouble), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-07539481-n", "verdict": "right", "fault": null, "why": "'A strong feeling of worry' matches strong anxiety, and the example shows it on a face."},
+   {"synset": "oewn-07387165-n", "verdict": "right", "fault": null, "why": "Learner says a disturbance in which people are angry, and trouble outside the ground after a match is this sense."},
+   {"synset": "oewn-14070233-n", "verdict": "right", "fault": null, "why": "Learner keeps an unwanted pregnancy, the example is this sense, the euphemistic label is justified by the word standing in for pregnancy, and the candidate is sound as it frames the pregnancy as misfortune."}
+  ]},
+ {"word": "affect", "pos": "verb",
+  "rank": "right", "why": "Most sentences (affected your admiration, affected me, news does not affect me with pleasure or pain) are emotional or cognitive impact, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00019441-v", "verdict": "right", "fault": null, "why": "Learner keeps acting on something physically and having an effect on it, and the disease and lungs example is this sense."},
+   {"synset": "oewn-02682907-v", "verdict": "unsure", "fault": null, "why": "The learner line and example fit the gloss (though 'someone' slightly narrows 'connect closely'), but I could not decide whether the candidate is sound, since the implied guilt is part of the sense itself rather than a judgement the word passes on its target."}
+  ]}
+]}

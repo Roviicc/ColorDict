@@ -1,0 +1,65 @@
+{"packet": 7, "verdicts": [
+ {"word": "escape", "pos": "verb",
+  "rank": "right", "why": "Four of six sentences (escaped my notice, escaped her observation, escaped her before, did not escape her) carry the 'escape understanding/notice' sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00812219-v", "verdict": "right", "fault": null, "why": "Learner line restates 'fail to experience' plainly, the storm example uses that sense, and a neutral null verdict fits."},
+   {"synset": "oewn-02079296-v", "verdict": "right", "fault": null, "why": "Learner line matches 'flee', the Elizabeth-about-to-escape example uses that sense, and the word describes without judging."},
+   {"synset": "oewn-02605001-v", "verdict": "right", "fault": null, "why": "Learner line keeps both the familiar-environment and the pleasure-or-change parts of the gloss, and the August cottage example fits."},
+   {"synset": "oewn-00531097-v", "verdict": "right", "fault": null, "why": "Learner line and gas-leak example both match 'issue or leak from a small opening'; null is right."}
+  ]},
+ {"word": "interrupt", "pos": "verb",
+  "rank": "right", "why": "Every sentence is someone breaking in on another's talk, which is 'interfere in someone else's activity', listed first.",
+  "senses": [
+   {"synset": "oewn-00364717-v", "verdict": "right", "fault": null, "why": "Learner line matches 'terminate or end', the war-ended-his-studies example uses that sense, and null is right."}
+  ]},
+ {"word": "picture", "pos": "noun",
+  "rank": "right", "why": "Most sentences are about painted pictures or portraits (Elizabeth's picture, looking at a picture, the pictures at Pemberley), and the painting sense is listed first.",
+  "senses": [
+   {"synset": "oewn-05945422-n", "verdict": "right", "fault": null, "why": "Learner line carries 'clear and telling mental image' and the childhood-house example is a mental image."},
+   {"synset": "oewn-03931348-n", "verdict": "right", "fault": null, "why": "Learner line keeps the printed, slide and digital forms, and the photo-of-children example fits."},
+   {"synset": "oewn-06626039-n", "verdict": "right", "fault": null, "why": "Learner line restates the film gloss faithfully and the cinema example uses that sense."},
+   {"synset": "oewn-05774074-n", "verdict": "right", "fault": null, "why": "Learner line matches 'typical example of some state or quality' and 'the picture of health' uses that sense."},
+   {"synset": "oewn-13960108-n", "verdict": "right", "fault": null, "why": "Learner line matches 'situation treated as an observable object' and the economic picture example fits."},
+   {"synset": "oewn-07012096-n", "verdict": "right", "fault": null, "why": "Learner line keeps both decorate and explain, and the textbook pictures example fits."},
+   {"synset": "oewn-06288456-n", "verdict": "right", "fault": null, "why": "Learner line matches the visible part of a television transmission and the flickering example fits."}
+  ]},
+ {"word": "consideration", "pos": "noun",
+  "rank": "right", "why": "The sentences split between kind regard (mention with consideration, due consideration for, want of proper consideration) and a factor to weigh, and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-07153623-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a discussion of a topic (as in a meeting)' and the committee example uses that sense."},
+   {"synset": "oewn-13344335-n", "verdict": "right", "fault": null, "why": "Learner line renders 'fee paid in advance to retain services' faithfully and the retainer example fits."}
+  ]},
+ {"word": "difference", "pos": "noun",
+  "rank": "right", "why": "Most sentences (great difference between us, difference between the motives, the difference was great) mean being unlike, which is listed first.",
+  "senses": [
+   {"synset": "oewn-07380889-n", "verdict": "right", "fault": null, "why": "Learner line matches 'variation that deviates from the standard', and the approved-design example uses that sense."},
+   {"synset": "oewn-13751346-n", "verdict": "right", "fault": null, "why": "Learner line restates both halves of the subtraction gloss and the 10 minus 7 example fits."}
+  ]},
+ {"word": "offend", "pos": "verb",
+  "rank": "right", "why": "The sentences show resentment and hurt feelings (does not offend me, much offended, offending and insulting me), and the first sense, cause resentment, is one of those.",
+  "senses": [
+   {"synset": "oewn-02572443-v", "verdict": "right", "fault": null, "why": "Learner line and the 'offends against these rules' example match the gloss, and the verb frames rule-breaking as an offence, so the candidate verdict stands."}
+  ]},
+ {"word": "possibility", "pos": "noun",
+  "rank": "right", "why": "The sentences use possibility as the capability of happening or being true (possibility of all this, possibility of meeting Mr. Darcy), which is listed first.",
+  "senses": [
+   {"synset": "oewn-05897536-n", "verdict": "right", "fault": null, "why": "Learner line matches the unverified-explanatory-idea gloss, and the example uses possibility as that kind of idea, though the phrasing is stilted."}
+  ]},
+ {"word": "wonder", "pos": "noun",
+  "rank": "right", "why": "The one noun use in the sentences ('in quest of this wonder') is something that causes wonder, which is listed first; the other sentences are the verb.",
+  "senses": [
+   {"synset": "oewn-10146463-n", "verdict": "right", "fault": null, "why": "Learner line matches 'exceptional intellectual ability and originality', the example fits, and the word praises the person, so the candidate verdict stands."}
+  ]},
+ {"word": "immediate", "pos": "adjective",
+  "rank": "right", "why": "All four sentences (the effect was immediate, immediate assistance, immediate relief, immediate conviction) mean with no delay, which is listed first.",
+  "senses": [
+   {"synset": "oewn-01736131-s", "verdict": "right", "fault": null, "why": "Learner line matches 'of the present time and place' and the immediate-worry example uses that sense."},
+   {"synset": "oewn-00773875-a", "verdict": "right", "fault": null, "why": "Learner line matches 'no intervening medium' and the example contrasts direct experience with letters."}
+  ]},
+ {"word": "interference", "pos": "noun",
+  "rank": "right", "why": "The sentences are all meddling in someone's affairs, and the first listed sense (the act of hindering or impeding) is the closest of the glosses, since the country-level policy sense does not fit.",
+  "senses": [
+   {"synset": "oewn-07444811-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss with signals or sounds for activity, which is fair, and the radio example fits."},
+   {"synset": "oewn-00563680-n", "verdict": "right", "fault": null, "why": "Learner line keeps the American football and body-blocking parts, and 'ran interference' uses that sense."}
+  ]}
+]}

@@ -1,0 +1,92 @@
+{"packet": 5, "verdicts": [
+ {"word": "match", "pos": "noun",
+  "rank": "right", "why": "The sentences are all about a marriage union or an eligible prospect, and the first sense (a pair of people living together) and the second (a good matrimonial prospect) are the two nearest, so the first is one of the split.",
+  "senses": [
+   {"synset": "oewn-07485811-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the tennis example uses the contest sense, and null is right for a descriptive word."},
+   {"synset": "oewn-03734302-n", "verdict": "right", "fault": null, "why": "Learner line says 'exactly the same', the example is a perfect match of a painting, and the verdict null is fine."},
+   {"synset": "oewn-05703985-n", "verdict": "right", "fault": null, "why": "Learner covers both 'looks like' and 'goes well with', the shoes-and-dress example fits, and null is fine."},
+   {"synset": "oewn-09649426-n", "verdict": "right", "fault": null, "why": "Learner line restates 'equal standing in a group', the 'no match at chess' example is this sense, and null is fine."},
+   {"synset": "oewn-03734473-n", "verdict": "right", "fault": null, "why": "Learner line says on fire for burning, the lit match example fits, and null is fine."},
+   {"synset": "oewn-13617916-n", "verdict": "right", "fault": null, "why": "Learner line follows the gloss, 'game, set and match' is the tennis winning-score use, and null is fine."}
+  ]},
+ {"word": "arise", "pos": "verb",
+  "rank": "right", "why": "Most sentences use arise for things coming into being or resulting (a thousand things may arise, engagements arose), and 'originate or come into being' is listed first.",
+  "senses": [
+   {"synset": "oewn-01972576-v", "verdict": "right", "fault": null, "why": "'To move up' matches 'move upward', the smoke example is literal upward movement, and null is fine."},
+   {"synset": "oewn-01987278-v", "verdict": "right", "fault": null, "why": "Learner line matches 'rise to one's feet' and the example of everyone standing for the judge is this sense."},
+   {"synset": "oewn-00018151-v", "verdict": "right", "fault": null, "why": "Learner line repeats the gloss in plain words and the example of arising at six is this sense."},
+   {"synset": "oewn-02589224-v", "verdict": "right", "fault": null, "why": "Learner keeps both alternatives (rebel, or turn against former loyalty) and the example of the people rising against the king fits."}
+  ]},
+ {"word": "reach", "pos": "verb",
+  "rank": "right", "why": "Most sentences are about reaching a place (reached Mr. Gardiner's house, reached Longbourn) and 'reach a destination' is first.",
+  "senses": [
+   {"synset": "oewn-00745330-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'be in touch' and 'get in touch', and the phone example is this sense."},
+   {"synset": "oewn-02691488-v", "verdict": "right", "fault": null, "why": "Learner says stretch as far as a point and the garden-to-the-river example is the extend sense."},
+   {"synset": "oewn-02026014-v", "verdict": "right", "fault": null, "why": "Learner line follows the gloss and the example of reaching a goal of becoming a doctor fits."},
+   {"synset": "oewn-02531751-v", "verdict": "right", "fault": null, "why": "'Get something by working hard for it' matches 'gain with effort' and reaching an agreement after long talks fits."},
+   {"synset": "oewn-02235554-v", "verdict": "right", "fault": null, "why": "'Put into someone's hands or care' matches the gloss and 'reach me that book' is the hand-over use."},
+   {"synset": "oewn-01148517-v", "verdict": "right", "fault": null, "why": "Learner line matches 'exert much effort or energy' and the example pairs reaching with straining to finish a climb, which carries the effort sense."}
+  ]},
+ {"word": "term", "pos": "noun",
+  "rank": "right", "why": "The sentences split between term as a word (the term miniature, exclaimed at the term) and terms as conditions (terms of the bequest, terms must be complied with), and the word sense is first.",
+  "senses": [
+   {"synset": "oewn-15251247-n", "verdict": "right", "fault": null, "why": "Learner line restates end of pregnancy when birth is near and the 'born at term' example is this sense."},
+   {"synset": "oewn-05864488-n", "verdict": "right", "fault": null, "why": "Learner line matches the polynomial gloss, the 3x + 2 example is this sense, and the technical label is justified by the mathematical sense."},
+   {"synset": "oewn-06764688-n", "verdict": "right", "fault": null, "why": "Learner line renders 'substantive phrases in a logical proposition' in plainer words, the subject-term example is this sense, and the technical label fits."},
+   {"synset": "oewn-04420858-n", "verdict": "right", "fault": null, "why": "Learner line keeps the statue, head and shoulders, or animal on a square pillar and the Roman boundary marker, the example fits, and the technical label is justified by '(architecture)'."}
+  ]},
+ {"word": "address", "pos": "noun",
+  "rank": "right", "why": "Most sentences use address for a person's manner (pleasing address, in person and address, courtesy and address), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-06800007-n", "verdict": "right", "fault": null, "why": "Learner line follows the gloss about written details on letters or parcels and the envelope example is this sense."},
+   {"synset": "oewn-06807073-n", "verdict": "right", "fault": null, "why": "Learner line follows the gloss about a sign in front of a house or business and the address over the shop door fits."},
+   {"synset": "oewn-06367922-n", "verdict": "right", "fault": null, "why": "Learner line matches the computing gloss, the memory-address example is this sense, and the technical label is justified by '(computer science)'."},
+   {"synset": "oewn-04849463-n", "verdict": "right", "fault": null, "why": "Learner line says skill of doing or saying what is right for the occasion, and handling awkward guests with great address is this sense."},
+   {"synset": "oewn-05089855-n", "verdict": "right", "fault": null, "why": "Learner line matches the golf stance gloss, the example is the golfer's stance, and the technical label is justified by the golf sense."}
+  ]},
+ {"word": "company", "pos": "noun",
+  "rank": "right", "why": "Most sentences use company for being with someone (in company with him, much in company, favour of your company), which is the first sense, with 'oblige the company' as a gathering.",
+  "senses": [
+   {"synset": "oewn-09907302-n", "verdict": "right", "fault": null, "why": "Learner line keeps both social and business reasons for a visitor and 'we are having company tonight' is this sense."},
+   {"synset": "oewn-08281818-n", "verdict": "right", "fault": null, "why": "Learner line matches 'band of people associated temporarily in some activity' and the company of travellers fits."},
+   {"synset": "oewn-08203951-n", "verdict": "right", "fault": null, "why": "Learner line keeps performers and associated staff, especially in theatre, and the theatre company example is this sense."},
+   {"synset": "oewn-08231193-n", "verdict": "right", "fault": null, "why": "Learner line matches the small military unit of two or three platoons and the example fits."},
+   {"synset": "oewn-08235980-n", "verdict": "right", "fault": null, "why": "Learner line says all the people working on a ship including officers and the ship's company example fits."},
+   {"synset": "oewn-08094547-n", "verdict": "right", "fault": null, "why": "Learner line matches firefighters with their equipment and the fire companies example is this sense."}
+  ]},
+ {"word": "window", "pos": "noun",
+  "rank": "right", "why": "Every sentence uses window as the glazed opening in a wall, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-15325026-n", "verdict": "right", "fault": null, "why": "Learner line follows the time-period gloss and the window to plant before frost is this sense."},
+   {"synset": "oewn-04596042-n", "verdict": "right", "fault": null, "why": "Learner line matches the computing gloss and 'close that window' is the screen sense."},
+   {"synset": "oewn-04596289-n", "verdict": "right", "fault": null, "why": "Learner line keeps light, air and serving customers, and paying at the window is this sense."},
+   {"synset": "oewn-09503207-n", "verdict": "right", "fault": null, "why": "Learner line keeps both resemblance in appearance and in function and the window in the clouds fits."},
+   {"synset": "oewn-04595890-n", "verdict": "right", "fault": null, "why": "Learner line matches the clear panel in opaque material and the envelope window example is this sense."}
+  ]},
+ {"word": "apply", "pos": "verb",
+  "rank": "right", "why": "Most sentences use apply to for asking someone (applied to Miss Bingley, applied to for their consent), with one 'applies to books' use, and 'ask (for something)' is first.",
+  "senses": [
+   {"synset": "oewn-01366351-v", "verdict": "right", "fault": null, "why": "Learner line keeps coat, cover or smear and the paint example is this sense."},
+   {"synset": "oewn-02565990-v", "verdict": "right", "fault": null, "why": "Learner line says make sure laws and rules are obeyed and the referee example fits."},
+   {"synset": "oewn-02601520-v", "verdict": "right", "fault": null, "why": "Learner line matches 'apply oneself to' and the studying example is this sense."},
+   {"synset": "oewn-01028567-v", "verdict": "right", "fault": null, "why": "Learner line matches referring a word or name to a person or thing and the critics applying 'genius' fits."},
+   {"synset": "oewn-02567247-v", "verdict": "right", "fault": null, "why": "Learner line matches 'avail oneself to' and applying the principle of honesty in one's own life fits."},
+   {"synset": "oewn-02713289-v", "verdict": "right", "fault": null, "why": "Learner line keeps 'be applicable to' with the analysis comparison and the reading-method example fits."},
+   {"synset": "oewn-02314145-v", "verdict": "right", "fault": null, "why": "Learner line matches giving or conveying physically and applying pressure to a cut is this sense."}
+  ]},
+ {"word": "notice", "pos": "noun",
+  "rank": "right", "why": "Most sentences use notice for attention paid to someone (drew her notice, Mr. Darcy's further notice, obtruded on my notice), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-07227272-n", "verdict": "right", "fault": null, "why": "Learner line keeps advance, usually written, and intention to leave an arrangement or contract, and the landlord example fits."},
+   {"synset": "oewn-06806283-n", "verdict": "right", "fault": null, "why": "Learner line matches a sign posted in a public place to advertise and the shop window example is this sense."},
+   {"synset": "oewn-06422419-n", "verdict": "right", "fault": null, "why": "Learner line matches a short critical review and 'good notices in the papers' is this sense."},
+   {"synset": "oewn-07200328-n", "verdict": "right", "fault": null, "why": "Learner line matches a request for payment and the bank's notice about debt fits."}
+  ]},
+ {"word": "effect", "pos": "noun",
+  "rank": "right", "why": "Every sentence uses effect for a result that follows a cause, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-14334775-n", "verdict": "right", "fault": null, "why": "Learner line says a sign or feeling in the body caused by an illness or drug and the sleepiness example fits."},
+   {"synset": "oewn-04816894-n", "verdict": "right", "fault": null, "why": "Learner line matches a law being legally valid and 'comes into effect next month' is this sense."},
+   {"synset": "oewn-06616419-n", "verdict": "right", "fault": null, "why": "Learner line matches the main meaning or theme of a speech or writing and 'to the effect that' is this sense."}
+  ]}
+]}

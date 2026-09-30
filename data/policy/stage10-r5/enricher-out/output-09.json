@@ -1,116 +1,242 @@
-{"packet": 9, "entries": [
- {"word": "art", "pos": "noun",
-  "senses": {
-   "oewn-07011408-n": {"learner": "the photographs or other pictures that appear in a printed publication such as a magazine or book",
-                       "examples": ["The magazine's editor chose the art for each article, mostly photographs and drawings."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "note", "pos": "noun",
-  "senses": {
-   "oewn-07097011-n": {"learner": "a sound in the way someone speaks that shows what they are feeling",
-                       "examples": ["There was a note of fear in her voice when she answered the door."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06775984-n": {"learner": "a comment or instruction, usually one that is added to something else",
-                       "examples": ["The editor added a note at the bottom of the page to explain the old word."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04734952-n": {"learner": "a feeling or mood that is typical of something",
-                       "examples": ["The long meeting ended on a friendly note."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13414935-n": {"learner": "a piece of paper money, especially one made by a country's central bank",
-                       "examples": ["He paid for the tickets with a twenty-pound note."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-14458911-n": {"learner": "a high position or importance that comes from being clearly better than others",
-                       "examples": ["She was a scientist of some note, known in every university in the country."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13419642-n": {"learner": "a promise to pay a stated amount of money when it is asked for or at a set time",
-                       "examples": ["The bank would not lend him the money unless his father also signed the note."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "prefer", "pos": "verb",
-  "senses": {
-   "oewn-02405393-v": {"learner": "to put one person you owe money to ahead of another",
-                       "examples": ["Before it closed, the company preferred one creditor over all the others."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "seldom", "pos": "adverb",
-  "senses": {
-   "oewn-00035772-r": {"learner": "not often",
-                       "examples": ["He seldom appeared really animated.", "She seldom listened to anybody for more than half a minute, and never attended to Mary at all."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "steady", "pos": "adjective",
-  "senses": {
-   "oewn-00922559-s": {"learner": "not easily made excited or upset",
-                       "examples": ["With steady nerves, she walked out onto the stage in front of a thousand people."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01070692-s": {"learner": "used of a person who does something regularly",
-                       "examples": ["He has been a steady customer at the little shop for twenty years."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02299068-s": {"learner": "not likely to go up and down, and especially not likely to go down",
-                       "examples": ["Share prices stayed steady all week in spite of the bad news."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "wood", "pos": "noun",
-  "senses": {
-   "oewn-04604393-n": {"learner": "a golf club with a long handle that is used to hit the ball a long way; at first these clubs had heads made of wood",
-                       "examples": ["She took a wood from her bag to hit the ball down the long hole."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "employment", "pos": "noun",
-  "senses": {
-   "oewn-01220349-n": {"learner": "the act of giving someone a job",
-                       "examples": ["The school board approved the employment of two new teachers."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "examine", "pos": "verb",
-  "senses": {
-   "oewn-00788478-v": {"learner": "to ask someone questions in a close and careful way",
-                       "examples": ["The lawyer examined the witness about where he had been that night."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02537291-v": {"learner": "to test something to find out how good it is, or to try it out to see how it works",
-                       "examples": ["The engineers examined the new engine by running it for a week without stopping."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "habit", "pos": "noun",
-  "senses": {
-   "oewn-03479089-n": {"learner": "the special clothes worn by a member of a religious order, such as a nun or a monk",
-                       "examples": ["The nun wore a long black habit."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03479290-n": {"learner": "clothes worn for riding a horse, especially clothes for a woman",
-                       "examples": ["She changed into her riding habit before walking down to the stables."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13512112-n": {"learner": "the general shape or way in which something grows, especially a plant or a crystal",
-                       "examples": ["This shrub has a low, spreading habit."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "memory", "pos": "noun",
-  "senses": {
-   "oewn-03749767-n": {"learner": "an electronic device that stores information",
-                       "examples": ["He replaced the broken memory in his computer."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-06149719-n": {"learner": "the part of the study of the mind and thinking that looks at how people remember",
-                       "examples": ["She taught a university course on learning and memory."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 9,
+ "entries": [
+  {
+   "word": "art",
+   "pos": "noun",
+   "senses": {
+    "oewn-07011408-n": {
+     "learner": "the photographs or other pictures that appear in a printed publication such as a magazine or book",
+     "examples": [
+      "The magazine's editor chose the art for each article, mostly photographs and drawings."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "note",
+   "pos": "noun",
+   "senses": {
+    "oewn-07097011-n": {
+     "learner": "a sound in the way someone speaks that shows what they are feeling",
+     "examples": [
+      "There was a note of fear in her voice when she answered the door."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06775984-n": {
+     "learner": "a comment or instruction, usually one that is added to something else",
+     "examples": [
+      "The editor added a note at the bottom of the page to explain the old word."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04734952-n": {
+     "learner": "a feeling or mood that is typical of something",
+     "examples": [
+      "The long meeting ended on a friendly note."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13414935-n": {
+     "learner": "a piece of paper money, especially one made by a country's central bank",
+     "examples": [
+      "He paid for the tickets with a twenty-pound note."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-14458911-n": {
+     "learner": "a high position or importance that comes from being clearly better than others",
+     "examples": [
+      "She was a scientist of some note, known in every university in the country."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13419642-n": {
+     "learner": "a promise to pay a stated amount of money when it is asked for or at a set time",
+     "examples": [
+      "The bank would not lend him the money unless his father also signed the note."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "prefer",
+   "pos": "verb",
+   "senses": {
+    "oewn-02405393-v": {
+     "learner": "to put one person you owe money to ahead of another",
+     "examples": [
+      "Before it closed, the company preferred one creditor over all the others."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "seldom",
+   "pos": "adverb",
+   "senses": {
+    "oewn-00035772-r": {
+     "learner": "not often",
+     "examples": [
+      "He seldom appeared really animated.",
+      "She seldom listened to anybody for more than half a minute, and never attended to Mary at all."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "steady",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00922559-s": {
+     "learner": "not easily made excited or upset",
+     "examples": [
+      "With steady nerves, she walked out onto the stage in front of a thousand people."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01070692-s": {
+     "learner": "used of a person who does something regularly",
+     "examples": [
+      "He has been a steady customer at the little shop for twenty years."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02299068-s": {
+     "learner": "not likely to go up and down, and especially not likely to go down",
+     "examples": [
+      "Share prices stayed steady all week in spite of the bad news."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "wood",
+   "pos": "noun",
+   "senses": {
+    "oewn-04604393-n": {
+     "learner": "a golf club with a long handle that is used to hit the ball a long way; at first these clubs had heads made of wood",
+     "examples": [
+      "She took a wood from her bag to hit the ball down the long hole."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "employment",
+   "pos": "noun",
+   "senses": {
+    "oewn-01220349-n": {
+     "learner": "the act of giving someone a job",
+     "examples": [
+      "The school board approved the employment of two new teachers."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "examine",
+   "pos": "verb",
+   "senses": {
+    "oewn-00788478-v": {
+     "learner": "to ask someone questions in a close and careful way",
+     "examples": [
+      "The lawyer examined the witness about where he had been that night."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02537291-v": {
+     "learner": "to test something to find out how good it is, or to try it out to see how it works",
+     "examples": [
+      "The engineers examined the new engine by running it for a week without stopping."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "habit",
+   "pos": "noun",
+   "senses": {
+    "oewn-03479089-n": {
+     "learner": "the special clothes worn by a member of a religious order, such as a nun or a monk",
+     "examples": [
+      "The nun wore a long black habit."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03479290-n": {
+     "learner": "clothes worn for riding a horse, especially clothes for a woman",
+     "examples": [
+      "She changed into her riding habit before walking down to the stables."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13512112-n": {
+     "learner": "the general shape or way in which something grows, especially a plant or a crystal",
+     "examples": [
+      "This shrub has a low, spreading habit."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "memory",
+   "pos": "noun",
+   "senses": {
+    "oewn-03749767-n": {
+     "learner": "an electronic device that stores information",
+     "examples": [
+      "He replaced the broken memory in his computer."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-06149719-n": {
+     "learner": "the part of the study of the mind and thinking that looks at how people remember",
+     "examples": [
+      "She taught a university course on learning and memory."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

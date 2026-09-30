@@ -1,0 +1,80 @@
+{"packet": 1, "verdicts": [
+ {"word": "know", "pos": "verb",
+  "rank": "right", "why": "Most sentences (know that, longed to know what, do not know how long) carry the first sense, knowing a fact or piece of information, and it is listed first.",
+  "senses": [
+   {"synset": "oewn-00597527-v", "verdict": "right", "fault": null, "why": "Learner line matches 'have fixed in the mind'; both examples (a poem by heart, Latin and Greek) are things held in memory; null is right for a plain descriptive verb."},
+   {"synset": "oewn-00598039-v", "verdict": "right", "fault": null, "why": "Learner line restates firsthand knowledge of states and sensations without loss; the hunger example is in this sense; null is right."},
+   {"synset": "oewn-00609926-v", "verdict": "right", "fault": null, "why": "Learner line says perceive something and find it familiar, which matches the gloss; 'knew her voice' is recognition; null is right."},
+   {"synset": "oewn-00610224-v", "verdict": "right", "fault": null, "why": "Learner line 'understand what someone is really like' matches 'know the nature or character of'; the example uses that sense; null is right."},
+   {"synset": "oewn-00610056-v", "verdict": "right", "fault": null, "why": "Learner line 'tell things apart' matches the gloss; 'know a rose from a tulip' is distinguishing; null is right."},
+   {"synset": "oewn-00594278-v", "verdict": "right", "fault": null, "why": "Learner line keeps both alternatives (accept what they claim, or accept their power and authority); 'know no master' fits; null is right."},
+   {"synset": "oewn-01429048-v", "verdict": "right", "fault": null, "why": "Learner line 'have sex with' matches the gloss; the example is the biblical use; the archaic and euphemistic labels are accurate for this sense and the example's 'old text' framing supports them; null is right since the word describes rather than judges."}
+  ]},
+ {"word": "young", "pos": "adjective",
+  "rank": "right", "why": "Every sentence (young ladies, young man, young men) uses the first sense, in an early period of life, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00941001-s", "verdict": "right", "fault": null, "why": "Learner line restates 'not tried or tested by experience' faithfully; the example is 'young in the ways of the world', which is this sense; null is right."},
+   {"synset": "oewn-00821577-s", "verdict": "right", "fault": null, "why": "Learner line keeps 'of crops', the early stage and the before-maturity clause; 'young corn' is this sense; null is right."}
+  ]},
+ {"word": "letter", "pos": "noun",
+  "rank": "right", "why": "All six sentences are about written messages sent or received, and 'a written message addressed to a person' is listed first.",
+  "senses": [
+   {"synset": "oewn-06719443-n", "verdict": "right", "fault": null, "why": "Learner line restates an award earned for taking part in a school sport; the example earns a letter in basketball; null is right."},
+   {"synset": "oewn-10274904-n", "verdict": "right", "fault": null, "why": "Learner line keeps the owner who lets something (usually housing) for hire, rendered as payment; the example uses 'letter' as the one who lets rooms; null is right."}
+  ]},
+ {"word": "talk", "pos": "verb",
+  "rank": "right", "why": "Most sentences are people conversing (talked to Elizabeth, continued talking together), which is the first sense, exchange thoughts.",
+  "senses": [
+   {"synset": "oewn-00954873-v", "verdict": "right", "fault": null, "why": "Learner line restates 'reveal information' faithfully; the driver telling the police what he saw is this sense; null is right."},
+   {"synset": "oewn-00832422-v", "verdict": "right", "fault": null, "why": "Learner line matches 'deliver a lecture or talk'; the example is a talk on poetry to students; null is right."}
+  ]},
+ {"word": "subject", "pos": "noun",
+  "rank": "right", "why": "Every sentence uses 'on the subject' for the matter of a conversation, which is the first listed sense.",
+  "senses": [
+   {"synset": "oewn-10688105-n", "verdict": "right", "fault": null, "why": "Learner line keeps both halves of the gloss (tested or watched in a study, being investigated); the example is a study participant; null is right."},
+   {"synset": "oewn-09648571-n", "verdict": "right", "fault": null, "why": "Learner line 'owes loyalty to a nation' matches 'owes allegiance'; 'British subject' is this sense; null is right."},
+   {"synset": "oewn-06320921-n", "verdict": "right", "fault": null, "why": "Learner line matches the grammar gloss (main part of a sentence, what the rest says something about); the example correctly names the subject; null is right."},
+   {"synset": "oewn-04354303-n", "verdict": "right", "fault": null, "why": "Learner line matches the artist's or photographer's chosen person, object or scene; the portrait example fits; null is right."},
+   {"synset": "oewn-06321115-n", "verdict": "right", "fault": null, "why": "Learner line matches the logic gloss; the example names the subject term correctly; the technical label is justified by the '(logic)' domain in the gloss; null is right."}
+  ]},
+ {"word": "appear", "pos": "verb",
+  "rank": "right", "why": "Most sentences (appeared very remarkable, did not appear affected, appear to think ill) are the seem sense listed first, and 'appear at once on the stage' is the come-into-view neighbour, so the first sense is among those the sentences use.",
+  "senses": [
+   {"synset": "oewn-00426024-v", "verdict": "right", "fault": null, "why": "Learner line keeps both alternatives (begin to exist, arrive on the scene); the example is life appearing on Earth; null is right."},
+   {"synset": "oewn-00426920-v", "verdict": "right", "fault": null, "why": "Learner line 'be published or put out' matches 'issued or published'; the novel example is this sense; null is right."},
+   {"synset": "oewn-02603759-v", "verdict": "right", "fault": null, "why": "Learner line 'come formally before an authority, such as a court' matches the gloss; the judge example fits; null is right."},
+   {"synset": "oewn-01725046-v", "verdict": "right", "fault": null, "why": "Learner line keeps both alternatives (play a character on stage, or take part in a play or similar show); the Juliet example fits; null is right."}
+  ]},
+ {"word": "assure", "pos": "verb",
+  "rank": "right", "why": "The sentences are all 'I assure you' telling someone with confidence, which the first sense (inform positively and with certainty) carries; the second is a close neighbour and the first is one of the split.",
+  "senses": [
+   {"synset": "oewn-00664507-v", "verdict": "right", "fault": null, "why": "Learner line keeps both halves of the gloss (take care to do, or make certain of); the example uses 'assure that every window was shut' in the ensure sense; null is right."},
+   {"synset": "oewn-00885532-v", "verdict": "right", "fault": null, "why": "Learner line keeps both alternatives (promise, or commit yourself); the example is a promise to return, so it carries the commitment sense; null is right."}
+  ]},
+ {"word": "bring", "pos": "verb",
+  "rank": "right", "why": "Several sentences (brings a curious consequence, brings gaieties, brought on by himself) use the first sense, cause to happen, and the others (brought my bonnet, brought it with him) are the listed-second take-along sense, so the first is one of the split.",
+  "senses": [
+   {"synset": "oewn-01435927-v", "verdict": "right", "fault": null, "why": "Learner line matches 'go or come after and bring or take back'; the dog fetching the stick is this sense; null is right."},
+   {"synset": "oewn-01436773-v", "verdict": "right", "fault": null, "why": "Learner line 'have someone or something come along with you' matches 'be accompanied by'; bringing a cousin to dinner fits; null is right."},
+   {"synset": "oewn-00135665-v", "verdict": "right", "fault": null, "why": "Learner line matches 'bring into a different state'; 'brought him into debt' is a change of state; null is right."},
+   {"synset": "oewn-00769379-v", "verdict": "right", "fault": null, "why": "Learner line 'cause or persuade someone to do something' matches 'induce or persuade'; 'bring her to speak of it' is this sense; null is right."},
+   {"synset": "oewn-02329474-v", "verdict": "right", "fault": null, "why": "Learner line 'give a quality to something' matches 'bestow a quality on'; 'brought great skill to the role' is this sense; null is right."},
+   {"synset": "oewn-02252172-v", "verdict": "right", "fault": null, "why": "Learner line restates 'be sold for a certain price' with nothing added; the house example fits; null is right."},
+   {"synset": "oewn-01621566-v", "verdict": "right", "fault": null, "why": "Learner line 'put something forward in a court of law' matches the gloss; 'bring a case against the company' fits; null is right."},
+   {"synset": "oewn-01812185-v", "verdict": "right", "fault": null, "why": "Learner line 'catch the attention of someone' matches the gloss; the cries bringing the neighbours is this sense; null is right."}
+  ]},
+ {"word": "world", "pos": "noun",
+  "rank": "right", "why": "The sentences split across senses (the ways of the world, the convenience of the world, that part of the world), and the idiomatic 'in the world' (heart or chance in the world) carries the first sense's everywhere-that-exists reading, so the first is one of the split.",
+  "senses": [
+   {"synset": "oewn-02475618-n", "verdict": "right", "fault": null, "why": "Learner line 'all the people living on the earth' matches the gloss; 'half the world now lives in cities' is this sense; null is right."},
+   {"synset": "oewn-05817904-n", "verdict": "right", "fault": null, "why": "Learner line restates 'all of your experiences that determine how things appear to you' without loss; 'his whole world fell apart' is this sense; null is right."},
+   {"synset": "oewn-09503939-n", "verdict": "right", "fault": null, "why": "Learner line 'a part of the earth that can be thought about on its own' matches the gloss; the underwater world is such a part; null is right."},
+   {"synset": "oewn-05678816-n", "verdict": "right", "fault": null, "why": "Learner line matches 'concerns of this life as distinguished from heaven and the afterlife'; leaving the world for a convent is this sense; null is right."}
+  ]},
+ {"word": "party", "pos": "noun",
+  "rank": "right", "why": "Most sentences (the party entered, the whole party, our family party) are a band of people together, which is the first listed sense.",
+  "senses": [
+   {"synset": "oewn-08273889-n", "verdict": "right", "fault": null, "why": "Learner line restates 'an organization to gain political power' faithfully; the example is voting for a party; null is right."},
+   {"synset": "oewn-10422569-n", "verdict": "right", "fault": null, "why": "Learner line 'a person involved in a legal case' matches the gloss; 'both parties in the lawsuit' is this sense; null is right."}
+  ]}
+]}

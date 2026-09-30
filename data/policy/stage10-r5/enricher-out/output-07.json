@@ -1,132 +1,273 @@
-{"packet": 7, "entries": [
- {"word": "prevail", "pos": "verb",
-  "senses": {
-   "oewn-02653599-v": {"learner": "to keep on existing.",
-                       "examples": ["That belief has prevailed in the village for hundreds of years."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02654604-v": {"learner": "to be valid, to apply, or to be true.",
-                       "examples": ["The conditions that prevailed at the time made travel slow and hard."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "step", "pos": "noun",
-  "senses": {
-   "oewn-13779389-n": {"learner": "the distance you move when you take one step.",
-                       "examples": ["The table stood three steps from the window."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07398423-n": {"learner": "the sound a person's foot makes as they walk.",
-                       "examples": ["I knew her step in the hall at once."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-14453034-n": {"learner": "a place or level in a series of things that are ranked in order.",
-                       "examples": ["Her new job is a step up from her old one."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13784719-n": {"learner": "a short distance.",
-                       "examples": ["The shop is only a step from our house."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06657802-n": {"learner": "a mark left by a foot or a shoe on a surface.",
-                       "examples": ["We could see his steps in the fresh snow."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00534959-n": {"learner": "a set of foot movements, one after another, that make up a particular dance.",
-                       "examples": ["She practised the new step until she knew it well."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06872106-n": {"learner": "in music, a gap in pitch between two notes that is equal to two semitones.",
-                       "examples": ["The notes C and D are a step apart."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-04322323-n": {"learner": "a solid block fixed to a ship's beams, in which the bottom end of a mast or capstan is set.",
-                       "examples": ["The foot of the mast sits firmly in its step."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "age", "pos": "noun",
-  "senses": {
-   "oewn-15278839-n": {"learner": "a period in history that has some special feature of its own.",
-                       "examples": ["We live in an age of machines."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-15267766-n": {"learner": "a long period of time.",
-                       "examples": ["It took an age to get there."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "ease", "pos": "noun",
-  "senses": {
-   "oewn-01066072-n": {"learner": "being free from activity, such as work, strain or duties.",
-                       "examples": ["He longed for a few days of ease, with no work to do."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-14515473-n": {"learner": "being free from money problems, so that you can live in comfort.",
-                       "examples": ["They lived a life of ease on her father's money."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "fact", "pos": "noun",
-  "senses": {
-   "oewn-05898503-n": {"learner": "an idea that can be proved to be true.",
-                       "examples": ["Until the idea is proved, it is a theory and not a fact."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "indifference", "pos": "noun",
-  "senses": {
-   "oewn-07520915-n": {"learner": "a fair lack of personal concern, so that you do not favour either side.",
-                       "examples": ["The judge weighed both claims with the indifference of someone who had nothing to gain."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "against 'impartiality', can suggest not caring rather than being fair"}}
-  }},
- {"word": "gain", "pos": "verb",
-  "senses": {
-   "oewn-00157270-v": {"learner": "to increase, or to develop.",
-                       "examples": ["The storm gained strength as it moved over the sea."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01113439-v": {"learner": "to get an advantage, such as points.",
-                       "examples": ["Our team gained two points on the leaders this week.", "The runner in second place was gaining on the leader."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02294200-v": {"learner": "to earn money from a business deal, or to earn it as pay for work.",
-                       "examples": ["She gained a large sum from the sale of the house."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00045868-v": {"learner": "to put on body weight.",
-                       "examples": ["He gained five pounds over the winter."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00158030-v": {"learner": "to go up in rate or price.",
-                       "examples": ["The company's shares gained three percent today."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02024442-v": {"learner": "to reach a place, whether a real place or a goal in the mind.",
-                       "examples": ["The climbers gained the top of the hill before dark."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "alarm", "pos": "noun",
-  "senses": {
-   "oewn-02697285-n": {"learner": "a device that warns you when something bad has happened.",
-                       "examples": ["They fitted an alarm to the back door."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "dining", "pos": "noun",
-  "senses": {
-   "oewn-00842178-n": {"learner": "the act of eating dinner.",
-                       "examples": ["Dining with friends is her favourite part of the week."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "apprehension", "pos": "noun",
-  "senses": {
-   "oewn-05813483-n": {"learner": "the state of a person who understands something.",
-                       "examples": ["He had only a dim apprehension of what the teacher meant."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 7,
+ "entries": [
+  {
+   "word": "prevail",
+   "pos": "verb",
+   "senses": {
+    "oewn-02653599-v": {
+     "learner": "to keep on existing.",
+     "examples": [
+      "That belief has prevailed in the village for hundreds of years."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02654604-v": {
+     "learner": "to be valid, to apply, or to be true.",
+     "examples": [
+      "The conditions that prevailed at the time made travel slow and hard."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "step",
+   "pos": "noun",
+   "senses": {
+    "oewn-13779389-n": {
+     "learner": "the distance you move when you take one step.",
+     "examples": [
+      "The table stood three steps from the window."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07398423-n": {
+     "learner": "the sound a person's foot makes as they walk.",
+     "examples": [
+      "I knew her step in the hall at once."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-14453034-n": {
+     "learner": "a place or level in a series of things that are ranked in order.",
+     "examples": [
+      "Her new job is a step up from her old one."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13784719-n": {
+     "learner": "a short distance.",
+     "examples": [
+      "The shop is only a step from our house."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06657802-n": {
+     "learner": "a mark left by a foot or a shoe on a surface.",
+     "examples": [
+      "We could see his steps in the fresh snow."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00534959-n": {
+     "learner": "a set of foot movements, one after another, that make up a particular dance.",
+     "examples": [
+      "She practised the new step until she knew it well."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06872106-n": {
+     "learner": "in music, a gap in pitch between two notes that is equal to two semitones.",
+     "examples": [
+      "The notes C and D are a step apart."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-04322323-n": {
+     "learner": "a solid block fixed to a ship's beams, in which the bottom end of a mast or capstan is set.",
+     "examples": [
+      "The foot of the mast sits firmly in its step."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "age",
+   "pos": "noun",
+   "senses": {
+    "oewn-15278839-n": {
+     "learner": "a period in history that has some special feature of its own.",
+     "examples": [
+      "We live in an age of machines."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-15267766-n": {
+     "learner": "a long period of time.",
+     "examples": [
+      "It took an age to get there."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "ease",
+   "pos": "noun",
+   "senses": {
+    "oewn-01066072-n": {
+     "learner": "being free from activity, such as work, strain or duties.",
+     "examples": [
+      "He longed for a few days of ease, with no work to do."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-14515473-n": {
+     "learner": "being free from money problems, so that you can live in comfort.",
+     "examples": [
+      "They lived a life of ease on her father's money."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "fact",
+   "pos": "noun",
+   "senses": {
+    "oewn-05898503-n": {
+     "learner": "an idea that can be proved to be true.",
+     "examples": [
+      "Until the idea is proved, it is a theory and not a fact."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "indifference",
+   "pos": "noun",
+   "senses": {
+    "oewn-07520915-n": {
+     "learner": "a fair lack of personal concern, so that you do not favour either side.",
+     "examples": [
+      "The judge weighed both claims with the indifference of someone who had nothing to gain."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "against 'impartiality', can suggest not caring rather than being fair"
+     }
+    }
+   }
+  },
+  {
+   "word": "gain",
+   "pos": "verb",
+   "senses": {
+    "oewn-00157270-v": {
+     "learner": "to increase, or to develop.",
+     "examples": [
+      "The storm gained strength as it moved over the sea."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01113439-v": {
+     "learner": "to get an advantage, such as points.",
+     "examples": [
+      "Our team gained two points on the leaders this week.",
+      "The runner in second place was gaining on the leader."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02294200-v": {
+     "learner": "to earn money from a business deal, or to earn it as pay for work.",
+     "examples": [
+      "She gained a large sum from the sale of the house."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00045868-v": {
+     "learner": "to put on body weight.",
+     "examples": [
+      "He gained five pounds over the winter."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00158030-v": {
+     "learner": "to go up in rate or price.",
+     "examples": [
+      "The company's shares gained three percent today."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02024442-v": {
+     "learner": "to reach a place, whether a real place or a goal in the mind.",
+     "examples": [
+      "The climbers gained the top of the hill before dark."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "alarm",
+   "pos": "noun",
+   "senses": {
+    "oewn-02697285-n": {
+     "learner": "a device that warns you when something bad has happened.",
+     "examples": [
+      "They fitted an alarm to the back door."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "dining",
+   "pos": "noun",
+   "senses": {
+    "oewn-00842178-n": {
+     "learner": "the act of eating dinner.",
+     "examples": [
+      "Dining with friends is her favourite part of the week."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "apprehension",
+   "pos": "noun",
+   "senses": {
+    "oewn-05813483-n": {
+     "learner": "the state of a person who understands something.",
+     "examples": [
+      "He had only a dim apprehension of what the teacher meant."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

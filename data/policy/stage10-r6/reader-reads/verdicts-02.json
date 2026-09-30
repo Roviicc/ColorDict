@@ -1,0 +1,76 @@
+{"packet": 2, "verdicts": [
+ {"word": "mean", "pos": "verb",
+  "rank": "right", "why": "The sentences are almost all the noun 'means' or 'meaning', so no verb sense below the first is plainly used over it, and 'distrust their meaning' sits closest to the first sense (convey or express).",
+  "senses": [
+   {"synset": "oewn-02641270-v", "verdict": "right", "fault": null, "why": "Learner line restates 'have as a logical consequence' faithfully, the example ('missing the last bus means walking home') is this sense, and null is right since it only describes."},
+   {"synset": "oewn-02748357-v", "verdict": "right", "fault": null, "why": "Learner line matches 'have a specified degree of importance', the example ('meant a great deal to me') is this sense, and null is right."},
+   {"synset": "oewn-00710669-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'destine' and 'designate', the example ('meant for guests') is this sense, and null is right."},
+   {"synset": "oewn-00732037-v", "verdict": "right", "fault": null, "why": "Learner line matches 'intend to refer to', the example ('I meant you') is this sense, and null is right."}
+  ]},
+ {"word": "allow", "pos": "verb",
+  "rank": "right", "why": "The sentences split between concede, allow for, and permit, and the first sense (allow for a possibility; concede) is one of the split.",
+  "senses": [
+   {"synset": "oewn-00804608-v", "verdict": "right", "fault": null, "why": "Learner line keeps both the presence and the activity alternatives, the example ('allows dogs inside') fits, and null is right."},
+   {"synset": "oewn-02727313-v", "verdict": "right", "fault": null, "why": "Learner line covers both 'make possible or give a chance' and 'be reached or remain', the example ('allows time for questions') fits, and null is right."},
+   {"synset": "oewn-02751361-v", "verdict": "right", "fault": null, "why": "Learner line matches 'afford possibility', the example ('the facts allow only one explanation') fits, and null is right."},
+   {"synset": "oewn-02260270-v", "verdict": "right", "fault": null, "why": "Learner line matches 'let have', the example ('allowed each child two sweets') fits, and null is right."},
+   {"synset": "oewn-00726112-v", "verdict": "right", "fault": null, "why": "Learner line matches 'give or assign a resource', the example (a council allowing a sum for roads) fits, and null is right."},
+   {"synset": "oewn-02324649-v", "verdict": "right", "fault": null, "why": "Learner line keeps both the discount and the in-exchange alternatives, the trade-in example fits, and null is right."},
+   {"synset": "oewn-02428446-v", "verdict": "right", "fault": null, "why": "Learner line matches the baseball gloss, the example (pitcher allowed three runs) fits, and null is right."}
+  ]},
+ {"word": "idea", "pos": "noun",
+  "rank": "right", "why": "Most sentences use idea as the thing one has in mind ('idea of proposals', 'an idea so destructive'), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-05811387-n", "verdict": "right", "fault": null, "why": "Learner line restates 'approximate calculation of quantity or degree or worth' keeping all three alternatives, the example (idea of the cost) fits, and null is right."},
+   {"synset": "oewn-07042734-n", "verdict": "right", "fault": null, "why": "Learner line matches the music gloss, the example (opening idea returning in the violins) fits, the 'technical' label is supported by the (music) domain tag, and null is right."}
+  ]},
+ {"word": "wish", "pos": "noun",
+  "rank": "right", "why": "The one noun use in the sentences ('no wish of denying') is a specific feeling of desire, the first sense, and the rest are the verb.",
+  "senses": [
+   {"synset": "oewn-06643134-n", "verdict": "right", "fault": null, "why": "Learner line matches the polite-expression-of-welfare gloss including 'usually plural', the example ('best wishes') fits, and null is right."}
+  ]},
+ {"word": "behaviour", "pos": "noun",
+  "rank": "right", "why": "The sentences split between behaviour toward others and manner of acting or self-control, and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-14031827-n", "verdict": "right", "fault": null, "why": "Learner line matches 'action or reaction of something under specified circumstances', the example (behaviour of metal when heated) fits, and null is right."}
+  ]},
+ {"word": "hope", "pos": "noun",
+  "rank": "right", "why": "The sentences are mostly the verb, and the noun use ('in the hope of giving') is a specific instance of feeling hopeful, the first sense.",
+  "senses": [
+   {"synset": "oewn-04855493-n", "verdict": "right", "fault": null, "why": "Learner line says hope as one of the three Christian virtues, the example ('faith, hope and charity') is this sense, and null is right because the word names a category without judging."}
+  ]},
+ {"word": "read", "pos": "verb",
+  "rank": "right", "why": "Nearly all the sentences use read for interpreting written or printed text, the first sense.",
+  "senses": [
+   {"synset": "oewn-02736688-v", "verdict": "right", "fault": null, "why": "Learner line keeps both the wording and the form alternatives, the example (sign read 'No entry') fits, and null is right."},
+   {"synset": "oewn-00626148-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'understand in a certain way' and 'give a certain meaning or impression', both examples fit, and null is right."},
+   {"synset": "oewn-00595247-v", "verdict": "right", "fault": null, "why": "Learner line matches 'make sense of a language', the example (read Latin) fits, and null is right."},
+   {"synset": "oewn-00601387-v", "verdict": "right", "fault": null, "why": "Learner line matches 'be a student of a certain subject', the example (read history at university) fits, and null is right."},
+   {"synset": "oewn-00924838-v", "verdict": "right", "fault": null, "why": "Learner line matches the gauges and instruments gloss, the thermometer example fits, and null is right."},
+   {"synset": "oewn-00621911-v", "verdict": "right", "fault": null, "why": "Learner line matches 'to hear and understand', the example ('Do you read me?') fits, and null is right."},
+   {"synset": "oewn-00629157-v", "verdict": "right", "fault": null, "why": "Learner line matches 'obtain data from magnetic tapes or other digital sources', the disks example fits, and null is right."},
+   {"synset": "oewn-01722614-v", "verdict": "right", "fault": null, "why": "Learner line matches the audition gloss, the example (read for the part of Juliet) fits, and null is right."}
+  ]},
+ {"word": "join", "pos": "verb",
+  "rank": "right", "why": "Most sentences use join as coming into someone's company ('join the group', 'joined them', 'joined by Mary and Kitty'), the first sense.",
+  "senses": [
+   {"synset": "oewn-02628315-v", "verdict": "right", "fault": null, "why": "Learner line matches 'be or become joined or united or linked', the example (broken bone joined together) fits, and null is right."},
+   {"synset": "oewn-01293672-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'touch' and 'come together', the example (two paths join) fits, and null is right."}
+  ]},
+ {"word": "power", "pos": "noun",
+  "rank": "right", "why": "Most sentences use power as the ability to do something ('power of choice', 'in her power'), the first sense.",
+  "senses": [
+   {"synset": "oewn-10480990-n", "verdict": "right", "fault": null, "why": "Learner line matches 'one possessing or exercising power or influence or authority', the example (an evil power at work) fits, and null is right because the word describes without judging."},
+   {"synset": "oewn-05037846-n", "verdict": "right", "fault": null, "why": "Learner line matches 'physical strength', the example (power in his arms) fits, and null is right."},
+   {"synset": "oewn-11470903-n", "verdict": "right", "fault": null, "why": "Learner line matches the electric-charge gloss, the example (power went out in the storm) fits, and null is right."},
+   {"synset": "oewn-08194510-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a state powerful enough to influence events throughout the world', the world power example fits, and null is right."},
+   {"synset": "oewn-11473433-n", "verdict": "right", "fault": null, "why": "Learner line matches the physics gloss with watts, the example (motor of 500 watts) fits, the 'technical' label is supported by the (physics) tag, and null is right."},
+   {"synset": "oewn-06825275-n", "verdict": "right", "fault": null, "why": "Learner line restates the exponent notation gloss (the word 'small' is an incidental descriptor that does not change the sense), the example ('two to the power of three') fits, and null is right."},
+   {"synset": "oewn-09859605-n", "verdict": "right", "fault": null, "why": "Learner line keeps both 'very rich' and 'powerful' in business, the example (a power in the steel business) fits, and null is right."}
+  ]},
+ {"word": "circumstance", "pos": "noun",
+  "rank": "right", "why": "The sentences use circumstance for a condition or fact bearing on events ('circumstances which may have alienated them', 'delayed by any circumstance'), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-07465938-n", "verdict": "right", "fault": null, "why": "Learner line matches 'formal ceremony about important occasions', the example ('pomp and circumstance') is this sense, and null is right."}
+  ]}
+]}

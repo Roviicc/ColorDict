@@ -1,128 +1,265 @@
-{"packet": 8, "entries": [
- {"word": "lay", "pos": "verb",
-  "senses": {
-   "oewn-01655514-v": {"learner": "To get something ready or put it in place so that it can be used or can start working.",
-                       "examples": ["He laid the fire in the evening so it would be ready to light in the morning."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01547861-v": {"learner": "To produce eggs from the body.",
-                       "examples": ["The old hen still lays an egg almost every day."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "share", "pos": "noun",
-  "senses": {
-   "oewn-13363150-n": {"learner": "One of the equal parts into which a company's owned money is divided, where an official paper shows who owns each part.",
-                       "examples": ["She bought a hundred shares in the railway company."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03974120-n": {"learner": "A sharp steel wedge that cuts through and loosens the top layer of soil.",
-                       "examples": ["The farmer sharpened the share of his plough before working the field."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "bow", "pos": "noun",
-  "senses": {
-   "oewn-02883550-n": {"learner": "Ribbons tied or woven together to make a decoration.",
-                       "examples": ["She wore a large red bow in her hair."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02883250-n": {"learner": "The front part of a ship, boat or aircraft.",
-                       "examples": ["Waves broke over the bow of the ship."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02882759-n": {"learner": "A slightly bent piece of springy wood with tight strands of horsehair, used to play some string instruments.",
-                       "examples": ["He tightened the hair on his bow before picking up the violin."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13918793-n": {"learner": "Anything that has a curved shape.",
-                       "examples": ["The branches met overhead in a bow above the path."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07244001-n": {"learner": "A time when performers come back in front of the audience at the end of a play or concert to accept the clapping.",
-                       "examples": ["After the last song the band came back on stage for another bow while the crowd cheered."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00548802-n": {"learner": "One movement across the strings of an instrument with a bow, the curved stick with tight horsehair used to play it.",
-                       "examples": ["Play all four notes in a single bow."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "contempt", "pos": "noun",
-  "senses": {
-   "oewn-01182690-n": {"learner": "Deliberately disobeying, or showing no respect for, the authority of a court or a law-making body.",
-                       "examples": ["The witness who refused to answer was fined for contempt of court."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "horse", "pos": "noun",
-  "senses": {
-   "oewn-03629976-n": {"learner": "A chess piece shaped like a horse's head, which moves two squares across and one up or down, or two up or down and one across.",
-                       "examples": ["He moved his horse to protect the queen."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03543217-n": {"learner": "A padded piece of gym equipment that stands on legs.",
-                       "examples": ["She ran, jumped and swung her legs over the horse."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "tall", "pos": "adjective",
-  "senses": {
-   "oewn-00752176-s": {"learner": "So difficult that it is impressive.",
-                       "examples": ["Finishing the whole house by Friday is a tall order."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02024935-s": {"learner": "Grand and high-sounding in style.",
-                       "examples": ["He was fond of tall talk about honour and glory."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "can mark a style as puffed up, against plain 'elevated'"}}
-  }},
- {"word": "delicacy", "pos": "noun",
-  "senses": {
-   "oewn-07572730-n": {"learner": "A food that people think of as especially fine to eat.",
-                       "examples": ["Oysters were served at the dinner as a great delicacy."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05048657-n": {"learner": "The state of not being physically strong.",
-                       "examples": ["Because of the boy's delicacy, he was kept indoors all winter."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05114516-n": {"learner": "The quality of being slim and thin.",
-                       "examples": ["The thread was so fine that its delicacy made it almost invisible."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04640223-n": {"learner": "A light quality in the way someone moves or behaves.",
-                       "examples": ["She crossed the room with the delicacy of a dancer."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "enjoy", "pos": "verb",
-  "senses": {
-   "oewn-01195043-v": {"learner": "To get some good or advantage out of something.",
-                       "examples": ["Members enjoy special privileges, such as free entry."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02115276-v": {"learner": "To have something that is good for you or works in your favour.",
-                       "examples": ["She has always enjoyed good health."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "music", "pos": "noun",
-  "senses": {
-   "oewn-05726503-n": {"learner": "Any sounds that are pleasing and go well together.",
-                       "examples": ["We fell asleep to the music of the waves on the shore."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "calls a sound pleasing, against plain 'sound'"}},
-   "oewn-01165019-n": {"learner": "The punishment you get for what you have done.",
-                       "examples": ["He knew he would have to face the music when his father got home."],
-                       "usage_labels": ["informal"],
-                       "connotation": null}
-  }},
- {"word": "naturally", "pos": "adverb",
-  "senses": {
-   "oewn-00141437-r": {"learner": "In the way nature does it, by natural means, without help from anything made by people.",
-                       "examples": ["The water in the pool is naturally warmed by hot springs below."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 8,
+ "entries": [
+  {
+   "word": "lay",
+   "pos": "verb",
+   "senses": {
+    "oewn-01655514-v": {
+     "learner": "To get something ready or put it in place so that it can be used or can start working.",
+     "examples": [
+      "He laid the fire in the evening so it would be ready to light in the morning."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01547861-v": {
+     "learner": "To produce eggs from the body.",
+     "examples": [
+      "The old hen still lays an egg almost every day."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "share",
+   "pos": "noun",
+   "senses": {
+    "oewn-13363150-n": {
+     "learner": "One of the equal parts into which a company's owned money is divided, where an official paper shows who owns each part.",
+     "examples": [
+      "She bought a hundred shares in the railway company."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03974120-n": {
+     "learner": "A sharp steel wedge that cuts through and loosens the top layer of soil.",
+     "examples": [
+      "The farmer sharpened the share of his plough before working the field."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "bow",
+   "pos": "noun",
+   "senses": {
+    "oewn-02883550-n": {
+     "learner": "Ribbons tied or woven together to make a decoration.",
+     "examples": [
+      "She wore a large red bow in her hair."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02883250-n": {
+     "learner": "The front part of a ship, boat or aircraft.",
+     "examples": [
+      "Waves broke over the bow of the ship."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02882759-n": {
+     "learner": "A slightly bent piece of springy wood with tight strands of horsehair, used to play some string instruments.",
+     "examples": [
+      "He tightened the hair on his bow before picking up the violin."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13918793-n": {
+     "learner": "Anything that has a curved shape.",
+     "examples": [
+      "The branches met overhead in a bow above the path."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07244001-n": {
+     "learner": "A time when performers come back in front of the audience at the end of a play or concert to accept the clapping.",
+     "examples": [
+      "After the last song the band came back on stage for another bow while the crowd cheered."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00548802-n": {
+     "learner": "One movement across the strings of an instrument with a bow, the curved stick with tight horsehair used to play it.",
+     "examples": [
+      "Play all four notes in a single bow."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "contempt",
+   "pos": "noun",
+   "senses": {
+    "oewn-01182690-n": {
+     "learner": "Deliberately disobeying, or showing no respect for, the authority of a court or a law-making body.",
+     "examples": [
+      "The witness who refused to answer was fined for contempt of court."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "horse",
+   "pos": "noun",
+   "senses": {
+    "oewn-03629976-n": {
+     "learner": "A chess piece shaped like a horse's head, which moves two squares across and one up or down, or two up or down and one across.",
+     "examples": [
+      "He moved his horse to protect the queen."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03543217-n": {
+     "learner": "A padded piece of gym equipment that stands on legs.",
+     "examples": [
+      "She ran, jumped and swung her legs over the horse."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "tall",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00752176-s": {
+     "learner": "So difficult that it is impressive.",
+     "examples": [
+      "Finishing the whole house by Friday is a tall order."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02024935-s": {
+     "learner": "Grand and high-sounding in style.",
+     "examples": [
+      "He was fond of tall talk about honour and glory."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "can mark a style as puffed up, against plain 'elevated'"
+     }
+    }
+   }
+  },
+  {
+   "word": "delicacy",
+   "pos": "noun",
+   "senses": {
+    "oewn-07572730-n": {
+     "learner": "A food that people think of as especially fine to eat.",
+     "examples": [
+      "Oysters were served at the dinner as a great delicacy."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05048657-n": {
+     "learner": "The state of not being physically strong.",
+     "examples": [
+      "Because of the boy's delicacy, he was kept indoors all winter."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05114516-n": {
+     "learner": "The quality of being slim and thin.",
+     "examples": [
+      "The thread was so fine that its delicacy made it almost invisible."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04640223-n": {
+     "learner": "A light quality in the way someone moves or behaves.",
+     "examples": [
+      "She crossed the room with the delicacy of a dancer."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "enjoy",
+   "pos": "verb",
+   "senses": {
+    "oewn-01195043-v": {
+     "learner": "To get some good or advantage out of something.",
+     "examples": [
+      "Members enjoy special privileges, such as free entry."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02115276-v": {
+     "learner": "To have something that is good for you or works in your favour.",
+     "examples": [
+      "She has always enjoyed good health."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "music",
+   "pos": "noun",
+   "senses": {
+    "oewn-05726503-n": {
+     "learner": "Any sounds that are pleasing and go well together.",
+     "examples": [
+      "We fell asleep to the music of the waves on the shore."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "calls a sound pleasing, against plain 'sound'"
+     }
+    },
+    "oewn-01165019-n": {
+     "learner": "The punishment you get for what you have done.",
+     "examples": [
+      "He knew he would have to face the music when his father got home."
+     ],
+     "usage_labels": [
+      "informal"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "naturally",
+   "pos": "adverb",
+   "senses": {
+    "oewn-00141437-r": {
+     "learner": "In the way nature does it, by natural means, without help from anything made by people.",
+     "examples": [
+      "The water in the pool is naturally warmed by hot springs below."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

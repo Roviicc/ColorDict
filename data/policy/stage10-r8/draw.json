@@ -1,0 +1,637 @@
+{
+ "kind": "new",
+ "population": "data/policy/stage10/population-r6.json",
+ "counts": {
+  "book_words": 4772,
+  "book_senses": 17679,
+  "open": {
+   "words": 3949,
+   "senses": 13607
+  },
+  "open_ranked": {
+   "words": 414,
+   "senses": 2467
+  },
+  "open_never_opened": {
+   "words": 3535,
+   "senses": 11140
+  },
+  "open_stop_words": {
+   "words": 118,
+   "senses": 628
+  },
+  "unserved_records": 1
+ },
+ "pool": 710,
+ "skipped": {
+  "function word": 71,
+  "over 8 senses": 193,
+  "under 3 usable sentences": 2561
+ },
+ "n": 100,
+ "strata": 4,
+ "seed": 18,
+ "max_open": 8,
+ "words": [
+  {
+   "word": "proud",
+   "pos": "adjective",
+   "occurrences": 21,
+   "open": 1
+  },
+  {
+   "word": "superior",
+   "pos": "adjective",
+   "occurrences": 21,
+   "open": 5
+  },
+  {
+   "word": "angry",
+   "pos": "adjective",
+   "occurrences": 17,
+   "open": 2
+  },
+  {
+   "word": "determined",
+   "pos": "adjective",
+   "occurrences": 17,
+   "open": 3
+  },
+  {
+   "word": "fond",
+   "pos": "adjective",
+   "occurrences": 16,
+   "open": 3
+  },
+  {
+   "word": "aware",
+   "pos": "adjective",
+   "occurrences": 14,
+   "open": 1
+  },
+  {
+   "word": "difficult",
+   "pos": "adjective",
+   "occurrences": 14,
+   "open": 1
+  },
+  {
+   "word": "near",
+   "pos": "adjective",
+   "occurrences": 13,
+   "open": 4
+  },
+  {
+   "word": "silly",
+   "pos": "adjective",
+   "occurrences": 13,
+   "open": 2
+  },
+  {
+   "word": "dreadful",
+   "pos": "adjective",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "strange",
+   "pos": "adjective",
+   "occurrences": 11,
+   "open": 2
+  },
+  {
+   "word": "violent",
+   "pos": "adjective",
+   "occurrences": 10,
+   "open": 4
+  },
+  {
+   "word": "humble",
+   "pos": "adjective",
+   "occurrences": 9,
+   "open": 2
+  },
+  {
+   "word": "material",
+   "pos": "adjective",
+   "occurrences": 9,
+   "open": 6
+  },
+  {
+   "word": "disposed",
+   "pos": "adjective",
+   "occurrences": 8,
+   "open": 1
+  },
+  {
+   "word": "entail",
+   "pos": "verb",
+   "occurrences": 8,
+   "open": 3
+  },
+  {
+   "word": "future",
+   "pos": "adjective",
+   "occurrences": 8,
+   "open": 4
+  },
+  {
+   "word": "grave",
+   "pos": "adjective",
+   "occurrences": 8,
+   "open": 2
+  },
+  {
+   "word": "guess",
+   "pos": "verb",
+   "occurrences": 8,
+   "open": 3
+  },
+  {
+   "word": "indignation",
+   "pos": "noun",
+   "occurrences": 8,
+   "open": 1
+  },
+  {
+   "word": "reserve",
+   "pos": "noun",
+   "occurrences": 8,
+   "open": 6
+  },
+  {
+   "word": "solicitude",
+   "pos": "noun",
+   "occurrences": 8,
+   "open": 1
+  },
+  {
+   "word": "uneasy",
+   "pos": "adjective",
+   "occurrences": 8,
+   "open": 4
+  },
+  {
+   "word": "warm",
+   "pos": "adjective",
+   "occurrences": 8,
+   "open": 7
+  },
+  {
+   "word": "actual",
+   "pos": "adjective",
+   "occurrences": 7,
+   "open": 5
+  },
+  {
+   "word": "announce",
+   "pos": "verb",
+   "occurrences": 7,
+   "open": 4
+  },
+  {
+   "word": "exercise",
+   "pos": "noun",
+   "occurrences": 7,
+   "open": 6
+  },
+  {
+   "word": "mere",
+   "pos": "adjective",
+   "occurrences": 7,
+   "open": 2
+  },
+  {
+   "word": "novel",
+   "pos": "noun",
+   "occurrences": 7,
+   "open": 2
+  },
+  {
+   "word": "obtain",
+   "pos": "verb",
+   "occurrences": 7,
+   "open": 3
+  },
+  {
+   "word": "renewal",
+   "pos": "noun",
+   "occurrences": 7,
+   "open": 3
+  },
+  {
+   "word": "resemblance",
+   "pos": "noun",
+   "occurrences": 7,
+   "open": 1
+  },
+  {
+   "word": "travel",
+   "pos": "verb",
+   "occurrences": 7,
+   "open": 6
+  },
+  {
+   "word": "unexpected",
+   "pos": "adjective",
+   "occurrences": 7,
+   "open": 1
+  },
+  {
+   "word": "accomplish",
+   "pos": "verb",
+   "occurrences": 6,
+   "open": 2
+  },
+  {
+   "word": "accomplished",
+   "pos": "adjective",
+   "occurrences": 6,
+   "open": 2
+  },
+  {
+   "word": "alive",
+   "pos": "adjective",
+   "occurrences": 6,
+   "open": 4
+  },
+  {
+   "word": "benefit",
+   "pos": "noun",
+   "occurrences": 6,
+   "open": 3
+  },
+  {
+   "word": "exist",
+   "pos": "verb",
+   "occurrences": 6,
+   "open": 2
+  },
+  {
+   "word": "frighten",
+   "pos": "verb",
+   "occurrences": 6,
+   "open": 1
+  },
+  {
+   "word": "honourable",
+   "pos": "adjective",
+   "occurrences": 6,
+   "open": 1
+  },
+  {
+   "word": "independence",
+   "pos": "noun",
+   "occurrences": 6,
+   "open": 2
+  },
+  {
+   "word": "lessen",
+   "pos": "verb",
+   "occurrences": 6,
+   "open": 3
+  },
+  {
+   "word": "motif",
+   "pos": "noun",
+   "occurrences": 6,
+   "open": 3
+  },
+  {
+   "word": "nice",
+   "pos": "adjective",
+   "occurrences": 6,
+   "open": 3
+  },
+  {
+   "word": "overlook",
+   "pos": "verb",
+   "occurrences": 6,
+   "open": 5
+  },
+  {
+   "word": "permission",
+   "pos": "noun",
+   "occurrences": 6,
+   "open": 2
+  },
+  {
+   "word": "plainly",
+   "pos": "adverb",
+   "occurrences": 6,
+   "open": 1
+  },
+  {
+   "word": "ruin",
+   "pos": "verb",
+   "occurrences": 6,
+   "open": 6
+  },
+  {
+   "word": "sick",
+   "pos": "adjective",
+   "occurrences": 6,
+   "open": 7
+  },
+  {
+   "word": "bitterness",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 3
+  },
+  {
+   "word": "complacency",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 1
+  },
+  {
+   "word": "convenient",
+   "pos": "adjective",
+   "occurrences": 5,
+   "open": 2
+  },
+  {
+   "word": "defer",
+   "pos": "verb",
+   "occurrences": 5,
+   "open": 2
+  },
+  {
+   "word": "disdain",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 2
+  },
+  {
+   "word": "economy",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 4
+  },
+  {
+   "word": "enable",
+   "pos": "verb",
+   "occurrences": 5,
+   "open": 1
+  },
+  {
+   "word": "hasty",
+   "pos": "adjective",
+   "occurrences": 5,
+   "open": 2
+  },
+  {
+   "word": "imagination",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 3
+  },
+  {
+   "word": "mercenary",
+   "pos": "adjective",
+   "occurrences": 5,
+   "open": 3
+  },
+  {
+   "word": "proportion",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 5
+  },
+  {
+   "word": "sad",
+   "pos": "adjective",
+   "occurrences": 5,
+   "open": 3
+  },
+  {
+   "word": "subsist",
+   "pos": "verb",
+   "occurrences": 5,
+   "open": 1
+  },
+  {
+   "word": "sum",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 6
+  },
+  {
+   "word": "tranquillity",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 2
+  },
+  {
+   "word": "trifling",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 1
+  },
+  {
+   "word": "vestibule",
+   "pos": "noun",
+   "occurrences": 5,
+   "open": 2
+  },
+  {
+   "word": "abominably",
+   "pos": "adverb",
+   "occurrences": 4,
+   "open": 2
+  },
+  {
+   "word": "activity",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 6
+  },
+  {
+   "word": "animation",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 6
+  },
+  {
+   "word": "arm",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 6
+  },
+  {
+   "word": "branch",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 6
+  },
+  {
+   "word": "content",
+   "pos": "verb",
+   "occurrences": 4,
+   "open": 2
+  },
+  {
+   "word": "defend",
+   "pos": "verb",
+   "occurrences": 4,
+   "open": 7
+  },
+  {
+   "word": "ensue",
+   "pos": "verb",
+   "occurrences": 4,
+   "open": 1
+  },
+  {
+   "word": "execution",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 7
+  },
+  {
+   "word": "honestly",
+   "pos": "adverb",
+   "occurrences": 4,
+   "open": 2
+  },
+  {
+   "word": "imprudent",
+   "pos": "adjective",
+   "occurrences": 4,
+   "open": 2
+  },
+  {
+   "word": "inconvenient",
+   "pos": "adjective",
+   "occurrences": 4,
+   "open": 2
+  },
+  {
+   "word": "nervous",
+   "pos": "adjective",
+   "occurrences": 4,
+   "open": 5
+  },
+  {
+   "word": "owner",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 2
+  },
+  {
+   "word": "pause",
+   "pos": "verb",
+   "occurrences": 4,
+   "open": 2
+  },
+  {
+   "word": "purchase",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 4
+  },
+  {
+   "word": "restraint",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 6
+  },
+  {
+   "word": "size",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 5
+  },
+  {
+   "word": "boast",
+   "pos": "noun",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "date",
+   "pos": "verb",
+   "occurrences": 3,
+   "open": 5
+  },
+  {
+   "word": "deep",
+   "pos": "adverb",
+   "occurrences": 3,
+   "open": 3
+  },
+  {
+   "word": "deign",
+   "pos": "verb",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "hand",
+   "pos": "verb",
+   "occurrences": 3,
+   "open": 2
+  },
+  {
+   "word": "incivility",
+   "pos": "noun",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "mantel",
+   "pos": "noun",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "misunderstand",
+   "pos": "verb",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "odious",
+   "pos": "adjective",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "privilege",
+   "pos": "noun",
+   "occurrences": 3,
+   "open": 3
+  },
+  {
+   "word": "silently",
+   "pos": "adverb",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "speedy",
+   "pos": "adjective",
+   "occurrences": 3,
+   "open": 2
+  },
+  {
+   "word": "view",
+   "pos": "verb",
+   "occurrences": 3,
+   "open": 3
+  },
+  {
+   "word": "wonderful",
+   "pos": "adjective",
+   "occurrences": 3,
+   "open": 1
+  },
+  {
+   "word": "worthy",
+   "pos": "adjective",
+   "occurrences": 3,
+   "open": 2
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{"packet": 9, "verdicts": [
+ {"word": "reject", "pos": "verb",
+  "rank": "right", "why": "Most sentences (petition, suit, rejected him, rejected many situations) carry 'not accept something given or offered', which is listed first, with 'not accept as true' (reject it as false) second.",
+  "senses": [
+   {"synset": "oewn-00798638-v", "verdict": "right", "fault": null, "why": "Learner line keeps 'refuse' and 'contempt'; the example is a contemptuous refusal; the candidate verdict fits a sense whose meaning includes contempt for what is refused."},
+   {"synset": "oewn-00808840-v", "verdict": "right", "fault": null, "why": "'Judge that something is wrong or not suitable' matches 'deem wrong or inappropriate'; the example (parents reject his rudeness) uses this sense; null is fair since the word reports a judgment without itself loading it."},
+   {"synset": "oewn-02508565-v", "verdict": "right", "fault": null, "why": "Learner covers both entrance and membership; the club example fits; the word describes a refusal neutrally."},
+   {"synset": "oewn-02760892-v", "verdict": "right", "fault": null, "why": "Learner line faithfully restates immunological resistance to foreign tissue or organ; the kidney example is this sense; null is correct for a medical term."}
+  ]},
+ {"word": "style", "pos": "noun",
+  "rank": "right", "why": "The sentences split between a characteristic way of expressing (style of writing, pompous in his style) and manner of doing something, and the first-listed 'way of expressing something characteristic of a person' is one of that split.",
+  "senses": [
+   {"synset": "oewn-05852632-n", "verdict": "right", "fault": null, "why": "'A particular kind of thing, as judged by how it looks' restates 'a particular kind (as to appearance)'; the hat example fits."},
+   {"synset": "oewn-05758160-n", "verdict": "right", "fault": null, "why": "'What most people like at a certain time' is a plain rendering of 'popular taste at a given time'; the trousers example fits."},
+   {"synset": "oewn-06802072-n", "verdict": "right", "fault": null, "why": "Learner keeps spelling, punctuation, capitals and page layout; the 'technical' label is justified by the editorial/typographic domain of the gloss; the newspaper example fits."},
+   {"synset": "oewn-04353589-n", "verdict": "right", "fault": null, "why": "Learner keeps writing, drawing and engraving ('cutting lines into a surface'); the scribe and wax example fits."},
+   {"synset": "oewn-11697710-n", "verdict": "right", "fault": null, "why": "Learner faithfully restates the pistil part between ovary and stigma; 'technical' is justified by the (botany) tag in the gloss; example fits."},
+   {"synset": "oewn-01903854-n", "verdict": "right", "fault": null, "why": "Learner restates 'slender bristlelike or tubular process' plainly; the insect example is this sense and the 'technical' label is justified by the anatomical vocabulary of the gloss."}
+  ]},
+ {"word": "couple", "pos": "noun",
+  "rank": "right", "why": "Half the sentences (a couple of hours, dances, sisters) use 'a small indefinite number', with the rest split between the pair-of-people sense and 'two items', so the first sense is among the senses the sentences use.",
+  "senses": [
+   {"synset": "oewn-08002070-n", "verdict": "right", "fault": null, "why": "'Two people who spend time with each other or are linked together' is a faithful plain version of 'a pair who associate'; the example (meeting on Sundays, not living together) fits this sense rather than the live-together one."},
+   {"synset": "oewn-09280469-n", "verdict": "right", "fault": null, "why": "Learner follows the gloss (two equal, opposite forces along parallel lines); 'technical' is justified by the (physics) tag; the two-hands-on-a-wheel example is this sense."}
+  ]},
+ {"word": "distinguish", "pos": "verb",
+  "rank": "right", "why": "The sentences split between perceiving/making out (distinguishing the ladies, the solicitude) and making conspicuous or singling out (distinguished by his sisters, distinguish Elizabeth), and the first-listed 'detect with the senses' is one of the split.",
+  "senses": [
+   {"synset": "oewn-00654017-v", "verdict": "right", "fault": null, "why": "Learner keeps both botany and biology ('plants or animals') and the act of identifying; the orchid example is this sense; dropping 'for example' is a marginal tightening but not a dropped alternative."}
+  ]},
+ {"word": "divide", "pos": "verb",
+  "rank": "right", "why": "Sentences 1 to 4 (divided between feelings, divide an advantage, divided amongst the latter) carry 'separate into parts or portions', listed first, with the barrier sense used in the last two.",
+  "senses": [
+   {"synset": "oewn-02035003-v", "verdict": "right", "fault": null, "why": "Learner restates the gloss closely; the road that divides is a loose but acceptable instance of making a division or separation."},
+   {"synset": "oewn-01560556-v", "verdict": "right", "fault": null, "why": "'Move apart, or break apart' keeps both alternatives of the gloss; the crowd-parting example fits."},
+   {"synset": "oewn-00643760-v", "verdict": "right", "fault": null, "why": "Learner explains arithmetical division plainly and the twelve-by-three example is this sense."}
+  ]},
+ {"word": "fire", "pos": "noun",
+  "rank": "right", "why": "Three of four sentences (piling up, stirring, gathering round the fire) use the hearth-fire sense listed first, and the fourth ('fire and independence of his character') is the warmth/intensity sense listed second.",
+  "senses": [
+   {"synset": "oewn-13502051-n", "verdict": "right", "fault": null, "why": "Learner faithfully restates combustion producing heat, light and often smoke; the animals example fits; null is right for a descriptive word."},
+   {"synset": "oewn-14710347-n", "verdict": "right", "fault": null, "why": "'Burning fuel used to cook food on' matches 'fuel that is burning and used as a means for cooking'; the soup-pot example fits."},
+   {"synset": "oewn-00989024-n", "verdict": "right", "fault": null, "why": "Learner renders 'firing weapons or artillery at an enemy' plainly; the heavy-fire example fits."},
+   {"synset": "oewn-06724098-n", "verdict": "right", "fault": null, "why": "'Very strong, hostile criticism' is a fair plain restatement of 'intense adverse criticism'; the example is this sense; the word names the criticism rather than judging its target, so null holds."},
+   {"synset": "oewn-07435035-n", "verdict": "right", "fault": null, "why": "'A very hard experience that tests a person' matches 'a severe trial'; the fire-of-war example fits."},
+   {"synset": "oewn-14867017-n", "verdict": "right", "fault": null, "why": "Learner keeps Empedocles, the four elements and the bile humour; the example lists fire among the elements."}
+  ]},
+ {"word": "obligation", "pos": "noun",
+  "rank": "right", "why": "All five sentences (sense of obligation, obligations laid under, under obligations to a person) use the indebtedness-for-a-favour sense listed first.",
+  "senses": [
+   {"synset": "oewn-06785951-n", "verdict": "right", "fault": null, "why": "Learner keeps the legal agreement, what must be paid or done, and the penalty for failure; the firm-and-fine example fits."},
+   {"synset": "oewn-13419414-n", "verdict": "right", "fault": null, "why": "'A written promise to pay back money owed' matches the gloss; the town-bonds example fits; 'technical' is justified by the financial-instrument sense."}
+  ]},
+ {"word": "propose", "pos": "verb",
+  "rank": "right", "why": "Most sentences (I propose to show, she had fully proposed being engaged, tour they proposed taking, what could you propose by it) use 'propose or intend', listed first.",
+  "senses": [
+   {"synset": "oewn-00708009-v", "verdict": "right", "fault": null, "why": "Learner keeps put forward, think about, examine and criticise; the new-theory example fits."},
+   {"synset": "oewn-02406665-v", "verdict": "wrong", "fault": "learner-narrowed", "why": "The gloss says nomination 'to an office or an honor or position' but the learner line restricts it to 'a public office', which the treasurer example itself does not support."}
+  ]},
+ {"word": "boy", "pos": "noun",
+  "rank": "right", "why": "All three sentences (the boy, the boys, sweetest tempered boy) use 'a youthful male person', listed first.",
+  "senses": [
+   {"synset": "oewn-10305010-n", "verdict": "right", "fault": null, "why": "'A young male person' restates the gloss; both examples use boy in this sense and contain the headword."},
+   {"synset": "oewn-10643436-n", "verdict": "right", "fault": null, "why": "'A person's son' matches 'male human offspring'; the proud-mother example fits."},
+   {"synset": "oewn-09890332-n", "verdict": "right", "fault": null, "why": "Learner keeps friendly, casual and grown man; the 'informal' label is in the gloss; the candidate verdict is defensible because the word treats a man as a boy, affectionately, and a learner needs to know it can land as patronising outside a friendly group."},
+   {"synset": "oewn-84496658-n", "verdict": "right", "fault": null, "why": "Learner faithfully renders an offensive racial slur; the 'offensive' and 'derogatory' labels are in the gloss; the example uses the word in this sense; candidate is plainly correct."}
+  ]}
+]}

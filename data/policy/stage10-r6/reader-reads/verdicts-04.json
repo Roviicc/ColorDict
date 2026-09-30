@@ -1,0 +1,73 @@
+{"packet": 4, "verdicts": [
+ {"word": "real", "pos": "adjective",
+  "rank": "right", "why": "The sentences (real character, real regard, real concern, real superiority) carry genuine/worthy-of-the-name meanings, and the first three senses cover exactly that range with the first one among them.",
+  "senses": [
+   {"synset": "oewn-02126996-s", "verdict": "right", "fault": null, "why": "Learner line restates 'not to be taken lightly' faithfully, the loneliness example uses it in that sense, no label, and the word describes without judging."},
+   {"synset": "oewn-00013681-s", "verdict": "wrong", "fault": "example-wrong-sense", "why": "'No real results, only promises' uses real to mean substantial or worthy of the name, not 'capable of being treated as fact', so the example illustrates a neighbouring sense."},
+   {"synset": "oewn-00628097-a", "verdict": "right", "fault": null, "why": "Learner line tracks the gloss (substance, treatable as fact, not imagined) and the dream example is squarely 'not imaginary'."},
+   {"synset": "oewn-01948221-s", "verdict": "right", "fault": null, "why": "Learner line and the 'true in every detail' picture example both match 'coinciding with reality'."},
+   {"synset": "oewn-01946213-a", "verdict": "right", "fault": null, "why": "Inflation-adjusted amounts are faithfully restated, the real-wages example fits, and 'technical' is justified by the economic gloss."},
+   {"synset": "oewn-02400973-s", "verdict": "right", "fault": null, "why": "Fixed-and-immovable property is restated faithfully, the real-property example fits, and 'technical' is justified by the legal-term gloss."}
+  ]},
+ {"word": "society", "pos": "noun",
+  "rank": "right", "why": "Most sentences (such society, his society was irksome, the society of the neighbourhood) mean being in company, which is listed first.",
+  "senses": [
+   {"synset": "oewn-08404661-n", "verdict": "wrong", "fault": "false-candidate", "why": "Learner line and example are faithful, but 'society' for the fashionable elite names a group without itself judging it; the snobbery belongs to the referent, not the word, so a candidate is not warranted."}
+  ]},
+ {"word": "comfort", "pos": "noun",
+  "rank": "right", "why": "Every sentence uses comfort as relief from worry or distress, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-14468845-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and the fireside example uses this sense; null is fair."},
+   {"synset": "oewn-14515473-n", "verdict": "right", "fault": null, "why": "Learner line restates freedom from financial difficulty and the lived-in-comfort example fits."},
+   {"synset": "oewn-04040471-n", "verdict": "right", "fault": null, "why": "Learner line restates the quilted-bedding gloss and the example uses comfort as a bed cover."},
+   {"synset": "oewn-01213675-n", "verdict": "right", "fault": null, "why": "Learner line keeps the 'such as' structure of the gloss, the enemy example fits, and the word describes the aid while any judgement comes from the referent."}
+  ]},
+ {"word": "learn", "pos": "verb",
+  "rank": "right", "why": "The sentences split between gaining knowledge or skill and finding something out, and the first sense (gain knowledge or skills) is one of the split.",
+  "senses": [
+   {"synset": "oewn-00601387-v", "verdict": "right", "fault": null, "why": "Learner line restates 'be a student of a subject' and the French-at-school example fits."},
+   {"synset": "oewn-00605971-v", "verdict": "right", "fault": null, "why": "Learner line restates 'commit to memory; learn by heart' and the poem example fits."},
+   {"synset": "oewn-00830768-v", "verdict": "right", "fault": null, "why": "Learner line restates 'impart skills or knowledge' and the example uses it in that sense; the 'dialect' label is justified by the gloss, which gives the opposite of standard 'learn', and by the example's non-standard 'learn you'."}
+  ]},
+ {"word": "pain", "pos": "noun",
+  "rank": "right", "why": "The sentences (inflict pain on her, the pain she gives me) use emotional distress, which is listed first.",
+  "senses": [
+   {"synset": "oewn-05838383-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss, the 'real pain' example fits, 'informal' is justified by the usage, and the nuisance-labelling candidate reason is sound."}
+  ]},
+ {"word": "scheme", "pos": "noun",
+  "rank": "right", "why": "The sentences use scheme as a plan or project, and the first sense (an elaborate and systematic plan of action) carries that.",
+  "senses": [
+   {"synset": "oewn-05936599-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss about an internal, revisable representation, the child-and-fox example fits, and 'technical' is justified."},
+   {"synset": "oewn-06769391-n", "verdict": "right", "fault": null, "why": "Learner line restates the evasive-by-trickery gloss, the dodge example fits, and the candidate reason is sound because the word casts a reply as a trick."}
+  ]},
+ {"word": "event", "pos": "noun",
+  "rank": "right", "why": "Most sentences use event as something that happened, matching the first sense, with 'event of an evening' leaning to outcome, which is listed second.",
+  "senses": [
+   {"synset": "oewn-11474277-n", "verdict": "right", "fault": null, "why": "Learner line restates the space-time point and relativity gloss, the example fits, and 'technical' is justified."}
+  ]},
+ {"word": "form", "pos": "verb",
+  "rank": "right", "why": "The verb uses (form no idea, formed no expectation, form such a design, an engagement was formed) are all creating something, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-02629987-v", "verdict": "right", "fault": null, "why": "Learner line is a plain restatement of 'develop into a distinctive entity' and the farms-into-a-town example fits."},
+   {"synset": "oewn-01663142-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and the wire-hook example makes something for a function."},
+   {"synset": "oewn-00144670-v", "verdict": "right", "fault": null, "why": "Learner line restates 'assume a form or shape' and the dough example fits."},
+   {"synset": "oewn-02435769-v", "verdict": "right", "fault": null, "why": "Learner line restates 'establish or impress firmly in the mind' and the example, though somewhat stiff, uses form for an impression fixed in the mind."}
+  ]},
+ {"word": "quit", "pos": "verb",
+  "rank": "right", "why": "Every sentence has quit meaning to leave a place (room, Netherfield, house, town), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-01085437-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'beaten' and 'no hope' from the gloss and the never-quit team example fits."},
+   {"synset": "oewn-02232269-v", "verdict": "right", "fault": null, "why": "Learner line restates 'turn away from; give up' and the example of giving up a claim fits."}
+  ]},
+ {"word": "introduce", "pos": "verb",
+  "rank": "right", "why": "All sentences are introducing a person to others, matching the first sense (cause to come to know personally).",
+  "senses": [
+   {"synset": "oewn-01645979-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss and the new-way-of-keeping-accounts example fits."},
+   {"synset": "oewn-01067137-v", "verdict": "right", "fault": null, "why": "Learner line keeps the first-time-to-the-public meaning and the new-song example fits."},
+   {"synset": "oewn-00708522-v", "verdict": "right", "fault": null, "why": "Learner line restates 'put before a body' as an official group and the senator's bill example fits."},
+   {"synset": "oewn-00903562-v", "verdict": "right", "fault": null, "why": "Learner line restates 'furnish with a preface' and the book-with-a-note example fits."},
+   {"synset": "oewn-00187671-v", "verdict": "right", "fault": null, "why": "Learner line restates place, fit or thrust into another thing and the tube-into-the-vein example fits."},
+   {"synset": "oewn-01424276-v", "verdict": "right", "fault": null, "why": "Learner line restates 'put into something' and the jokes-into-a-speech example fits."},
+   {"synset": "oewn-00350246-v", "verdict": "right", "fault": null, "why": "Learner line restates 'be a precursor of' and the steam-engine-introduced-an-age example fits."}
+  ]}
+]}

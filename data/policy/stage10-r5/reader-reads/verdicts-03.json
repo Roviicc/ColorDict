@@ -1,0 +1,83 @@
+{"packet": 3, "verdicts": [
+ {"word": "heart", "pos": "noun",
+  "rank": "right", "why": "Nearly every sentence uses heart as the seat of feelings (Bingley's heart, with all my heart, her heart was divided, touched, whole heart), which is the first-listed gloss.",
+  "senses": [
+   {"synset": "oewn-08540894-n", "verdict": "right", "fault": null, "why": "Learner line restates 'approximately central within a larger region' plainly; the example 'heart of the city' uses this sense; null is right as the word only locates."},
+   {"synset": "oewn-07560035-n", "verdict": "right", "fault": null, "why": "'Warm feeling of liking' is a plain rendering of 'positive feeling of liking'; 'won everyone's heart' uses this sense; describes without judging."},
+   {"synset": "oewn-04864721-n", "verdict": "right", "fault": null, "why": "'Courage to keep going' matches 'courage to carry on'; 'lose heart' is this sense; null is fine."},
+   {"synset": "oewn-04632183-n", "verdict": "right", "fault": null, "why": "'Leaning or tendency of a certain kind' matches the gloss; 'change of heart' is a change of inclination and is acceptable here; null is fine."},
+   {"synset": "oewn-13888525-n", "verdict": "right", "fault": null, "why": "Learner line keeps every element of the gloss (rounded sides, curve in at top, point at bottom, cards and valentines); the drawn-heart example is this sense."},
+   {"synset": "oewn-03512192-n", "verdict": "right", "fault": null, "why": "Learner line follows the gloss (hearts suit, major suit, red hearts); 'played a heart and won the trick' is the card sense."},
+   {"synset": "oewn-07667514-n", "verdict": "right", "fault": null, "why": "Learner line keeps 'firm, rather dry, usually beef or veal' in plainer words; 'beef heart for the stew' is this sense."}
+  ]},
+ {"word": "live", "pos": "verb",
+  "rank": "right", "why": "Reside is used in four of the six sentences (live with, lives near Cheapside, lives with them) and is listed first, with be-alive and support-oneself following.",
+  "senses": [
+   {"synset": "oewn-02620422-v", "verdict": "right", "fault": null, "why": "Learner line keeps both halves of the gloss (kind of life, style of living) and both examples use live in that sense; null is right."},
+   {"synset": "oewn-02624202-v", "verdict": "right", "fault": null, "why": "'Stay alive and not die' matches 'continue to live and avoid dying'; the example about doctors doubting she would live is this sense."},
+   {"synset": "oewn-02621023-v", "verdict": "right", "fault": null, "why": "'Go after a full and satisfying life' matches 'pursue a positive and satisfying existence'; 'start to live!' is this sense."},
+   {"synset": "oewn-00598039-v", "verdict": "right", "fault": null, "why": "Learner line restates firsthand knowledge of a state or sensation plainly; 'had lived that fear herself' is this sense."}
+  ]},
+ {"word": "fortune", "pos": "noun",
+  "rank": "right", "why": "Five of six sentences use fortune as wealth (good fortune, large fortune, little fortune, women of fortune), matching the first-listed gloss.",
+  "senses": [
+   {"synset": "oewn-11438252-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss about an unpredictable thing deciding how an event turns out, nothing added or dropped; the example 'up to fortune' fits; null is right."}
+  ]},
+ {"word": "forget", "pos": "verb",
+  "rank": "right", "why": "Most sentences carry 'dismiss from the mind; stop remembering' (cannot forget the follies, endeavoured to forget, past imprudence forgotten), with the forget-to-do sense as the other strand, and the first sense is listed first.",
+  "senses": [
+   {"synset": "oewn-00614532-v", "verdict": "right", "fault": null, "why": "'Leave something behind without meaning to' matches 'leave behind unintentionally'; 'forgot my umbrella on the train' is exactly this sense; null is right."}
+  ]},
+ {"word": "question", "pos": "noun",
+  "rank": "right", "why": "Most sentences use question as a sentence of inquiry (the last question, repeated the question, asked questions), which is listed first.",
+  "senses": [
+   {"synset": "oewn-04764777-n", "verdict": "right", "fault": null, "why": "'Doubt about whether something is true, real, or exists' matches the gloss; 'There is no question that...' is this sense; null is right."},
+   {"synset": "oewn-07176710-n", "verdict": "right", "fault": null, "why": "Learner line restates an informal reference to a marriage proposal; the informal label is justified by the gloss itself; 'popped the question' is this sense."},
+   {"synset": "oewn-07178244-n", "verdict": "right", "fault": null, "why": "Learner line keeps formal, proposal for action, meeting, discussion and vote; 'put the question to a vote' is this sense; null is right."}
+  ]},
+ {"word": "resolve", "pos": "verb",
+  "rank": "right", "why": "Every sentence uses resolve as 'reach a decision' (resolve to quit, resolved to follow, resolved on remaining), which is listed first.",
+  "senses": [
+   {"synset": "oewn-00735067-v", "verdict": "right", "fault": null, "why": "'Find the solution to something' matches the gloss; 'resolved the puzzle' is this sense; null is right."},
+   {"synset": "oewn-00637185-v", "verdict": "right", "fault": null, "why": "'Understand what something means' matches the gloss; the example about resolving what the poem's last line means is acceptable for this sense."},
+   {"synset": "oewn-02198058-v", "verdict": "right", "fault": null, "why": "'Make something clearly visible' matches the gloss; the lens resolving the cells is this sense."},
+   {"synset": "oewn-00448264-v", "verdict": "right", "fault": null, "why": "'Make a substance go into a solution, as when it dissolves' restates 'cause to go into a solution' without dropping anything material; the salt-into-water example fits."}
+  ]},
+ {"word": "remember", "pos": "verb",
+  "rank": "right", "why": "Most sentences carry 'recall knowledge from memory' (I remember, she remembered that, remember at night), and that sense is first, with keep-in-mind as the other strand.",
+  "senses": [
+   {"synset": "oewn-00613356-v", "verdict": "right", "fault": null, "why": "Learner line keeps both halves (use your memory, or have the power to use it); the example of finding it harder to remember as she grew older is this sense."},
+   {"synset": "oewn-00613035-v", "verdict": "right", "fault": null, "why": "Learner line keeps 'call to mind' and 'keep the memory alive, for example in a ceremony'; the November gathering example is this sense."},
+   {"synset": "oewn-00884044-v", "verdict": "right", "fault": null, "why": "Learner line restates mentioning someone as a greeting or sign of friendship; 'remember me to your parents' is exactly this sense."},
+   {"synset": "oewn-00884323-v", "verdict": "right", "fault": null, "why": "Learner line restates 'mention favorably, as in prayer'; 'remember him in her prayers' is this sense."},
+   {"synset": "oewn-02361566-v", "verdict": "right", "fault": null, "why": "'Show someone you value them and are thankful' is a fair plain rendering of 'show appreciation to'; the gift-in-a-will example is this sense."}
+  ]},
+ {"word": "repeat", "pos": "verb",
+  "rank": "right", "why": "Every sentence has someone saying something again (thanks, apologies, contents, a question), matching the first-listed 'to say, state, or perform again'.",
+  "senses": [
+   {"synset": "oewn-00959711-v", "verdict": "right", "fault": null, "why": "Learner line keeps both alternatives (say again, or copy what someone says); the parrot example uses both."},
+   {"synset": "oewn-02601659-v", "verdict": "right", "fault": null, "why": "'Do something over again' matches 'do over'; repeating a failed course is this sense."},
+   {"synset": "oewn-01731369-v", "verdict": "right", "fault": null, "why": "Learner line restates bringing back an earlier theme of a composition; the symphony example is this sense."}
+  ]},
+ {"word": "air", "pos": "noun",
+  "rank": "right", "why": "Five of six sentences use air as a distinctive manner or quality of a person (air of fashion, air of gallantry, her air, his air), matching the first-listed gloss; one is the melody sense.",
+  "senses": [
+   {"synset": "oewn-08670889-n", "verdict": "right", "fault": null, "why": "'The space above the ground' restates 'region above the ground'; throwing a ball into the air is this sense."},
+   {"synset": "oewn-11451868-n", "verdict": "right", "fault": null, "why": "'A light wind, usually one that feels fresh' matches 'a slight wind (usually refreshing)'; the cool air off the river is this sense."},
+   {"synset": "oewn-08516085-n", "verdict": "right", "fault": null, "why": "'All the air that surrounds the Earth' matches the gloss; smoke spreading through the air around the Earth is this sense."},
+   {"synset": "oewn-06265931-n", "verdict": "right", "fault": null, "why": "Learner line restates the broadcasting medium; 'goes on the air at nine' is this sense."},
+   {"synset": "oewn-00301267-n", "verdict": "right", "fault": null, "why": "'Travel in an aircraft' matches 'travel via aircraft'; 'go by air rather than by train' is this sense."},
+   {"synset": "oewn-14866873-n", "verdict": "right", "fault": null, "why": "Learner line keeps the four elements, Empedocles and the link to blood as a humour; the example about earth, water, fire and air is this sense."}
+  ]},
+ {"word": "master", "pos": "noun",
+  "rank": "right", "why": "The sentences use master as one with authority over others (his own master, your master, her master, its master), matching the first-listed general-authority gloss.",
+  "senses": [
+   {"synset": "oewn-10183826-n", "verdict": "right", "fault": null, "why": "'The person in charge of a school' restates 'presiding officer of a school'; the grammar school example is this sense; null is right."},
+   {"synset": "oewn-10318314-n", "verdict": "right", "fault": null, "why": "Learner line matches 'directs the work of others'; the farm workers' master fits; the candidate verdict is justified because master in this sense does cast those directed as servants and a learner needs to know how it lands."},
+   {"synset": "oewn-10772598-n", "verdict": "right", "fault": null, "why": "'A fighter able to beat their rivals' matches the gloss; 'met his master' is this sense; null is right."},
+   {"synset": "oewn-10318465-n", "verdict": "right", "fault": null, "why": "Learner line restates holder of a master's degree from a university; 'master of science' is this sense."},
+   {"synset": "oewn-10318579-n", "verdict": "right", "fault": null, "why": "Learner line restates an officer licensed to command a merchant ship; the cargo ship example is this sense."},
+   {"synset": "oewn-03902681-n", "verdict": "right", "fault": null, "why": "'A key that lets you get in everywhere' matches the gloss; the caretaker's master key example is this sense."},
+   {"synset": "oewn-03732765-n", "verdict": "right", "fault": null, "why": "Learner line keeps original recording from which copies are made; the studio example is this sense."}
+  ]}
+]}

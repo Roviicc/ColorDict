@@ -1,0 +1,23 @@
+{
+ "entries_read": 89,
+ "entries_with_a_fault": 5,
+ "entry_defect_rate": 0.0562,
+ "senses_read": 276,
+ "senses_wrong": 6,
+ "sense_defect_rate": 0.0217,
+ "rank_wrong": 0,
+ "unsure": 1,
+ "faults": {
+  "false-candidate": 3,
+  "example-wrong-sense": 2,
+  "learner-narrowed": 1
+ },
+ "wrong": [
+  "man/oewn-02475618-n false-candidate: Man in the sense of all humanity describes the species without judging it; the gendered-generic issue is a register or usage matter, not a loaded word aimed at its referent.",
+  "man/oewn-02474924-n false-candidate: Early man as the family Hominidae is a neutral taxonomic description; the male-word-for-species complaint is not a judgment the word makes about what it names.",
+  "use/oewn-01167359-v false-candidate: The verb here just describes taking or consuming something regularly; any stigma comes from the referent (drugs), not from the word 'use', so it should be null.",
+  "look/oewn-14549784-n example-wrong-sense: 'From the look of things' means judging by outward appearance or signs, not the atmosphere of a place and its effect on people, so the example uses a neighbouring sense.",
+  "understanding/oewn-06208877-n example-wrong-sense: 'Thank you for your understanding while I was ill' shows patient, sympathetic tolerance of someone's circumstances, not an inclination to support, be loyal to, or agree with an opinion as the gloss says.",
+  "propose/oewn-02406665-v learner-narrowed: The gloss says nomination 'to an office or an honor or position' but the learner line restricts it to 'a public office', which the treasurer example itself does not support."
+ ]
+}

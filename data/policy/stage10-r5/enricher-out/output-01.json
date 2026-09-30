@@ -1,164 +1,340 @@
-{"packet": 1, "entries": [
- {"word": "man", "pos": "noun",
-  "senses": {
-   "oewn-10308837-n": {"learner": "a man who works under another person and takes orders from them",
-                       "examples": ["The boss sent two of his men to collect the money."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-10308424-n": {"learner": "a grown male who has a manly character: strong, brave and able to do things well",
-                       "examples": ["Two years at sea made a man of him."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "praises a male as properly strong and brave, not just adult"}},
-   "oewn-02475618-n": {"learner": "all the people living on the earth, taken together",
-                       "examples": ["Pollution is a danger that man has brought upon the whole planet."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "a male word standing for all people, against plain 'humanity'"}},
-   "oewn-87754171-n": {"learner": "a man who serves in the armed forces; a member of a fighting force",
-                       "examples": ["Five thousand men were killed in the battle."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02474924-n": {"learner": "any member, living or extinct, of the family of animals that humans belong to, marked by high intelligence, clear speech and standing upright",
-                       "examples": ["Early man made tools from stone."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "a male word standing for the whole human species, against plain 'human'"}},
-   "oewn-03721866-n": {"learner": "an object used as a playing piece in certain board games",
-                       "examples": ["She set up the men on the chessboard before her father came in."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-10765000-n": {"learner": "a male servant whose job is to look after his employer in person",
-                       "examples": ["His man laid out his clothes for dinner."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "hear", "pos": "verb",
-  "senses": {
-   "oewn-02111896-v": {"learner": "to get a message or other news from someone",
-                       "examples": ["We have not heard from her since she moved away."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02506551-v": {"learner": "to examine or listen to evidence or a case as part of a court's legal process",
-                       "examples": ["The judge will hear the case next week."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "friend", "pos": "noun",
-  "senses": {
-   "oewn-10697152-n": {"learner": "a person who supports a politician, a team, or something similar",
-                       "examples": ["The senator has many friends in the farming towns who vote for him every time."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "mother", "pos": "noun",
-  "senses": {
-   "oewn-10352574-n": {"learner": "a name used when speaking to a mother superior, the woman who is head of a convent",
-                       "examples": ["Every nun in the convent addressed the abbess as mother."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-15131241-n": {"learner": "a stringy, slimy substance made of yeast and bacteria that forms when something ferments, and is added to cider or wine to turn it into vinegar",
-                       "examples": ["Add a spoonful of mother to the cider to start the vinegar."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "pleasure", "pos": "noun",
-  "senses": {
-   "oewn-05798457-n": {"learner": "the word as used in a formal set phrase",
-                       "examples": ["The minister holds office at the pleasure of the king."],
-                       "usage_labels": ["formal"],
-                       "connotation": null},
-   "oewn-00847956-n": {"learner": "the satisfaction of sexual desire",
-                       "examples": ["He took his pleasure and left before dawn."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "attention", "pos": "noun",
-  "senses": {
-   "oewn-05658424-n": {"learner": "the ability or power of the mind to stay fixed on something",
-                       "examples": ["Lack of sleep weakens your attention."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00656128-n": {"learner": "the work of giving treatment to someone or something, or of looking after them",
-                       "examples": ["The wounded soldiers needed medical attention."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05089997-n": {"learner": "a way of standing still and straight with your arms at your sides and your feet together, used by soldiers during drill or inspection",
-                       "examples": ["The soldiers stood at attention while the general passed."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "walk", "pos": "verb",
-  "senses": {
-   "oewn-01916886-v": {"learner": "to go along or across a place or distance on foot",
-                       "examples": ["We walked the whole length of the beach."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01910816-v": {"learner": "to make someone or something walk",
-                       "examples": ["She walks the dog every morning."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02524505-v": {"learner": "to live or behave in a particular way",
-                       "examples": ["For years they walked in fear of the secret police."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02475941-v": {"learner": "to be joined with someone, or to act together with them",
-                       "examples": ["She chose to walk with the poor all her life."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01963635-v": {"learner": "to move along at a walking pace",
-                       "examples": ["Let the horse walk for a while before you trot again."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01115898-v": {"learner": "in baseball, to get to first base because the pitcher has thrown four balls",
-                       "examples": ["The batter walked in the ninth inning."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01143080-v": {"learner": "in baseball, to let a batter go to first base by throwing four balls",
-                       "examples": ["The pitcher walked two batters in a row."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "suppose", "pos": "verb",
-  "senses": {
-   "oewn-00718436-v": {"learner": "to treat something as already true, or to assume it in advance",
-                       "examples": ["Your question supposes that I was there, but I was not."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00718250-v": {"learner": "to need something to be true or to happen first, as a condition",
-                       "examples": ["Winning a race supposes that you entered it."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "write", "pos": "verb",
-  "senses": {
-   "oewn-01694952-v": {"learner": "to put words or symbols on a surface by marking or tracing them",
-                       "examples": ["She wrote her name in the sand with a stick."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01703755-v": {"learner": "to put down or say the letters that make up the usual form of a word or part of a word",
-                       "examples": ["In Britain you write 'colour' with a u."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01709353-v": {"learner": "to create music by writing it",
-                       "examples": ["Mozart wrote his first symphony when he was eight."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01000931-v": {"learner": "to record information on a computer",
-                       "examples": ["The program writes the results to a file."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01696729-v": {"learner": "to create code; to make a computer program",
-                       "examples": ["She wrote a small program to sort the list."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "far", "pos": "adverb",
-  "senses": {
-   "oewn-00102205-r": {"learner": "to a stage or point that is well along",
-                       "examples": ["She is clever and will go far."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00101751-r": {"learner": "a long way away in time",
-                       "examples": ["These events lie far in the past."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 1,
+ "entries": [
+  {
+   "word": "man",
+   "pos": "noun",
+   "senses": {
+    "oewn-10308837-n": {
+     "learner": "a man who works under another person and takes orders from them",
+     "examples": [
+      "The boss sent two of his men to collect the money."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-10308424-n": {
+     "learner": "a grown male who has a manly character: strong, brave and able to do things well",
+     "examples": [
+      "Two years at sea made a man of him."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "praises a male as properly strong and brave, not just adult"
+     }
+    },
+    "oewn-02475618-n": {
+     "learner": "all of the people who are living on the earth.",
+     "examples": [
+      "The disease was a danger to man in every country on earth."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "a male word standing for all living people"
+     }
+    },
+    "oewn-87754171-n": {
+     "learner": "a man who serves in the armed forces; a member of a fighting force",
+     "examples": [
+      "Five thousand men were killed in the battle."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02474924-n": {
+     "learner": "any member, living or extinct, of the human family of animals, marked by great intelligence, clear speech and walking upright.",
+     "examples": [
+      "Early man made simple tools from stone."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "a male word standing for the whole human kind"
+     }
+    },
+    "oewn-03721866-n": {
+     "learner": "an object used as a playing piece in certain board games",
+     "examples": [
+      "She set up the men on the chessboard before her father came in."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-10765000-n": {
+     "learner": "a male servant whose job is to look after his employer in person",
+     "examples": [
+      "His man laid out his clothes for dinner."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "hear",
+   "pos": "verb",
+   "senses": {
+    "oewn-02111896-v": {
+     "learner": "to get a message or other news from someone",
+     "examples": [
+      "We have not heard from her since she moved away."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02506551-v": {
+     "learner": "to examine or listen to evidence or a case as part of a court's legal process",
+     "examples": [
+      "The judge will hear the case next week."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "friend",
+   "pos": "noun",
+   "senses": {
+    "oewn-10697152-n": {
+     "learner": "a person who supports a politician, a team, or something similar",
+     "examples": [
+      "The senator has many friends in the farming towns who vote for him every time."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "mother",
+   "pos": "noun",
+   "senses": {
+    "oewn-10352574-n": {
+     "learner": "a name used when speaking to a mother superior, the woman who is head of a convent",
+     "examples": [
+      "Every nun in the convent addressed the abbess as mother."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-15131241-n": {
+     "learner": "a stringy, slimy substance made of yeast and bacteria that forms when something ferments, and is added to cider or wine to turn it into vinegar",
+     "examples": [
+      "Add a spoonful of mother to the cider to start the vinegar."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "pleasure",
+   "pos": "noun",
+   "senses": {
+    "oewn-05798457-n": {
+     "learner": "the word as used in a formal set phrase",
+     "examples": [
+      "The minister holds office at the pleasure of the king."
+     ],
+     "usage_labels": [
+      "formal"
+     ],
+     "connotation": null
+    },
+    "oewn-00847956-n": {
+     "learner": "the satisfaction of sexual desire",
+     "examples": [
+      "He took his pleasure and left before dawn."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "attention",
+   "pos": "noun",
+   "senses": {
+    "oewn-05658424-n": {
+     "learner": "the ability or power of the mind to stay fixed on something",
+     "examples": [
+      "Lack of sleep weakens your attention."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00656128-n": {
+     "learner": "the work of giving treatment to someone or something, or of looking after them",
+     "examples": [
+      "The wounded soldiers needed medical attention."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05089997-n": {
+     "learner": "a way of standing still and straight with your arms at your sides and your feet together, used by soldiers during drill or inspection",
+     "examples": [
+      "The soldiers stood at attention while the general passed."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "walk",
+   "pos": "verb",
+   "senses": {
+    "oewn-01916886-v": {
+     "learner": "to go along or across a place or distance on foot",
+     "examples": [
+      "We walked the whole length of the beach."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01910816-v": {
+     "learner": "to make someone or something walk",
+     "examples": [
+      "She walks the dog every morning."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02524505-v": {
+     "learner": "to live or behave in a particular way",
+     "examples": [
+      "For years they walked in fear of the secret police."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02475941-v": {
+     "learner": "to be joined with someone, or to act together with them",
+     "examples": [
+      "She chose to walk with the poor all her life."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01963635-v": {
+     "learner": "to move along at a walking pace",
+     "examples": [
+      "Let the horse walk for a while before you trot again."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01115898-v": {
+     "learner": "in baseball, to get to first base because the pitcher has thrown four balls",
+     "examples": [
+      "The batter walked in the ninth inning."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01143080-v": {
+     "learner": "in baseball, to let a batter go to first base by throwing four balls",
+     "examples": [
+      "The pitcher walked two batters in a row."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "suppose",
+   "pos": "verb",
+   "senses": {
+    "oewn-00718436-v": {
+     "learner": "to treat something as already true, or to assume it in advance",
+     "examples": [
+      "Your question supposes that I was there, but I was not."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00718250-v": {
+     "learner": "to need something to be true or to happen first, as a condition",
+     "examples": [
+      "Winning a race supposes that you entered it."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "write",
+   "pos": "verb",
+   "senses": {
+    "oewn-01694952-v": {
+     "learner": "to put words or symbols on a surface by marking or tracing them",
+     "examples": [
+      "She wrote her name in the sand with a stick."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01703755-v": {
+     "learner": "to put down or say the letters that make up the usual form of a word or part of a word",
+     "examples": [
+      "In Britain you write 'colour' with a u."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01709353-v": {
+     "learner": "to create music by writing it",
+     "examples": [
+      "Mozart wrote his first symphony when he was eight."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01000931-v": {
+     "learner": "to record information on a computer",
+     "examples": [
+      "The program writes the results to a file."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01696729-v": {
+     "learner": "to create code; to make a computer program",
+     "examples": [
+      "She wrote a small program to sort the list."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "far",
+   "pos": "adverb",
+   "senses": {
+    "oewn-00102205-r": {
+     "learner": "to a stage or point that is well along",
+     "examples": [
+      "She is clever and will go far."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00101751-r": {
+     "learner": "a long way away in time",
+     "examples": [
+      "These events lie far in the past."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

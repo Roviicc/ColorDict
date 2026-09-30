@@ -1,0 +1,75 @@
+{"packet": 1, "verdicts": [
+ {"word": "man", "pos": "noun",
+  "rank": "right", "why": "Every sentence uses man for an adult male (an agreeable man, a gentlemanlike man), and that gloss is listed first.",
+  "senses": [
+   {"synset": "oewn-10308837-n", "verdict": "right", "fault": null, "why": "Learner line, example (boss's men) and null verdict all match 'a male subordinate'."},
+   {"synset": "oewn-10308424-n", "verdict": "right", "fault": null, "why": "Learner line keeps the manly-character sense, the example fits, and the word does praise a male as strong and brave, so a candidate is justified."},
+   {"synset": "oewn-02475618-n", "verdict": "wrong", "fault": "false-candidate", "why": "Man in the sense of all humanity describes the species without judging it; the gendered-generic issue is a register or usage matter, not a loaded word aimed at its referent."},
+   {"synset": "oewn-87754171-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss, the example (men killed in battle) is the military sense, and the word describes without judging."},
+   {"synset": "oewn-02474924-n", "verdict": "wrong", "fault": "false-candidate", "why": "Early man as the family Hominidae is a neutral taxonomic description; the male-word-for-species complaint is not a judgment the word makes about what it names."},
+   {"synset": "oewn-03721866-n", "verdict": "right", "fault": null, "why": "Learner line and the chessboard example match the game-piece gloss, and null is correct."},
+   {"synset": "oewn-10765000-n", "verdict": "right", "fault": null, "why": "Learner line restates the manservant gloss, the example (his man laid out his clothes) is that sense, and null is correct."}
+  ]},
+ {"word": "hear", "pos": "verb",
+  "rank": "right", "why": "Most sentences (we hear nothing about her looks, she had heard that Miss Darcy was proud) carry 'get to know or become aware of', which is listed first.",
+  "senses": [
+   {"synset": "oewn-02111896-v", "verdict": "right", "fault": null, "why": "Learner line and the 'heard from her' example match 'receive a communication from someone', and null is correct."},
+   {"synset": "oewn-02506551-v", "verdict": "right", "fault": null, "why": "Learner line keeps both examine and hear, the judge example is the judicial sense, and null is correct."}
+  ]},
+ {"word": "friend", "pos": "noun",
+  "rank": "right", "why": "The sentences use friend for a close, trusted person (dear friend, my friend has an excellent understanding), matching the first gloss.",
+  "senses": [
+   {"synset": "oewn-10697152-n", "verdict": "right", "fault": null, "why": "Learner line restates 'backs a politician or a team', the senator example is that sense, and null is correct."}
+  ]},
+ {"word": "mother", "pos": "noun",
+  "rank": "right", "why": "Every sentence uses mother for a woman who has given birth to a child, which is the first gloss.",
+  "senses": [
+   {"synset": "oewn-10352574-n", "verdict": "right", "fault": null, "why": "Learner line restates the address-to-a-mother-superior gloss (the clause about a convent only explains the term), the abbess example is that sense, and null is correct."},
+   {"synset": "oewn-15131241-n", "verdict": "right", "fault": null, "why": "Learner line follows the gloss closely, the vinegar example uses mother in that sense, and null is correct."}
+  ]},
+ {"word": "pleasure", "pos": "noun",
+  "rank": "right", "why": "The sentences (pleasure in talking, pleasures of youth, pleasure or pain) mostly carry the feeling sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-05798457-n", "verdict": "right", "fault": null, "why": "Learner line stays within 'a formal expression', the 'at the pleasure of the king' example fits, and the formal label is justified by the gloss."},
+   {"synset": "oewn-00847956-n", "verdict": "right", "fault": null, "why": "Learner line restates 'sexual gratification', the example is that sense, and the word describes without judging."}
+  ]},
+ {"word": "attention", "pos": "noun",
+  "rank": "right", "why": "The sentences split between courtesies (very great attentions, his attentions to Miss King) and concentration or notice, and the first sense, a courteous act, is one of those uses.",
+  "senses": [
+   {"synset": "oewn-05658424-n", "verdict": "right", "fault": null, "why": "Learner line restates 'faculty or power of mental concentration', the lack-of-sleep example fits, and null is correct."},
+   {"synset": "oewn-00656128-n", "verdict": "right", "fault": null, "why": "Learner line keeps both treating and looking after, the medical-attention example is that sense, and null is correct."},
+   {"synset": "oewn-05089997-n", "verdict": "right", "fault": null, "why": "Learner line restates the military stance in plainer words (inspection for review is a fair plain rendering), the example is that sense, and null is correct."}
+  ]},
+ {"word": "walk", "pos": "verb",
+  "rank": "right", "why": "The sentences (walked back with them, walking slowly towards the house) mostly carry 'use one's feet to advance', which is listed first.",
+  "senses": [
+   {"synset": "oewn-01916886-v", "verdict": "right", "fault": null, "why": "Learner line and the beach-length example match 'traverse or cover by walking', and null is correct."},
+   {"synset": "oewn-01910816-v", "verdict": "right", "fault": null, "why": "Learner line restates 'make walk' and the walks-the-dog example is that sense."},
+   {"synset": "oewn-02524505-v", "verdict": "right", "fault": null, "why": "Learner line restates 'live or behave in a specified manner' and the walked-in-fear example is that sense."},
+   {"synset": "oewn-02475941-v", "verdict": "right", "fault": null, "why": "Learner line keeps both be joined and act together, and the walk-with-the-poor example fits."},
+   {"synset": "oewn-01963635-v", "verdict": "right", "fault": null, "why": "Learner line restates 'walk at a pace' and the horse-walking example fits."},
+   {"synset": "oewn-01115898-v", "verdict": "right", "fault": null, "why": "Learner line explains the baseball walk faithfully to 'obtain a base on balls', and the example is that sense."},
+   {"synset": "oewn-01143080-v", "verdict": "right", "fault": null, "why": "Learner line explains 'give a base on balls to' faithfully, and the pitcher-walked-batters example is that sense."}
+  ]},
+ {"word": "suppose", "pos": "verb",
+  "rank": "right", "why": "Sentences such as 'I suppose' and 'Do you suppose them to be in London' carry 'expect, believe, or suppose', which is listed first.",
+  "senses": [
+   {"synset": "oewn-00718436-v", "verdict": "right", "fault": null, "why": "Learner line keeps both taking for granted and assuming in advance, the example fits, and null is correct."},
+   {"synset": "oewn-00718250-v", "verdict": "right", "fault": null, "why": "Learner line restates 'require as a necessary antecedent', the race example is that sense, and null is correct."}
+  ]},
+ {"word": "write", "pos": "verb",
+  "rank": "right", "why": "Most sentences (Elizabeth wrote to her mother, Write to me very often) carry 'contact in writing', which is listed first.",
+  "senses": [
+   {"synset": "oewn-01694952-v", "verdict": "right", "fault": null, "why": "Learner line restates 'mark or trace words or symbols on a surface' and the name-in-the-sand example is that sense."},
+   {"synset": "oewn-01703755-v", "verdict": "right", "fault": null, "why": "Learner line keeps both write and name the letters, and the 'colour' spelling example is that sense."},
+   {"synset": "oewn-01709353-v", "verdict": "right", "fault": null, "why": "Learner line restates 'write music' and the Mozart example is that sense."},
+   {"synset": "oewn-01000931-v", "verdict": "right", "fault": null, "why": "Learner line restates 'record data on a computer' and the write-results-to-a-file example is that sense."},
+   {"synset": "oewn-01696729-v", "verdict": "right", "fault": null, "why": "Learner line restates 'create code, write a computer program' and the example is that sense."}
+  ]},
+ {"word": "far", "pos": "adverb",
+  "rank": "right", "why": "Far from requiring, so far from right and by far too much carry 'to a considerable degree', which is listed first.",
+  "senses": [
+   {"synset": "oewn-00102205-r", "verdict": "right", "fault": null, "why": "Learner line restates 'to an advanced stage or point' and the will-go-far example is that sense."},
+   {"synset": "oewn-00101751-r", "verdict": "right", "fault": null, "why": "Learner line restates 'remote in time' and the far-in-the-past example is that sense."}
+  ]}
+]}

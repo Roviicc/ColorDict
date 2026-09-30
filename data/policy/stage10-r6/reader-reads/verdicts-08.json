@@ -1,0 +1,70 @@
+{"packet": 8, "verdicts": [
+ {"word": "story", "pos": "noun",
+  "rank": "right", "why": "The first three sentences use story as the plot of a work of fiction, which is the first-listed gloss, and the remaining sentences (anecdote, lie) sit in the next two senses.",
+  "senses": [
+   {"synset": "oewn-06526084-n", "verdict": "right", "fault": null, "why": "Learner restates the gloss faithfully, the example is about a narrative of past events, and null is right for a neutral descriptive sense."},
+   {"synset": "oewn-06694296-n", "verdict": "right", "fault": null, "why": "Learner matches 'a short account of the news', the example is a news story, and the word describes without judging."},
+   {"synset": "oewn-03370837-n", "verdict": "right", "fault": null, "why": "Learner keeps both the room-or-rooms and the single-height parts of the gloss, and the example uses the floor-of-a-building sense."}
+  ]},
+ {"word": "actually", "pos": "adverb",
+  "rank": "right", "why": "The sentences ('he actually danced with her twice', 'had actually taken the trouble') carry the surprising-fact sense or slight emphasis, and the first listed sense is the surprise sense.",
+  "senses": [
+   {"synset": "oewn-00151061-r", "verdict": "wrong", "fault": "example-wrong-sense", "why": "In the example 'actually recording at this moment' the present-time meaning is supplied by 'at this moment' and 'actually' reads as plain 'in fact', so the example does not clearly show the 'at present' sense; the learner line and null verdict are fine."}
+  ]},
+ {"word": "application", "pos": "noun",
+  "rank": "right", "why": "Four of the six sentences use application as a request (an 'application' that surprises, is ill-judged, or is looked forward to) and the first sense is the request sense, with diligence in the other two.",
+  "senses": [
+   {"synset": "oewn-00036782-n", "verdict": "right", "fault": null, "why": "Learner says the gloss in plainer words and the brakes example is putting something into operation."},
+   {"synset": "oewn-06582286-n", "verdict": "right", "fault": null, "why": "Learner carries the whole gloss (program, instructions, tools for a task) and the photo-editing example fits."},
+   {"synset": "oewn-00713478-n", "verdict": "wrong", "fault": "learner-narrowed", "why": "The gloss is the general 'work of applying something' but the learner line restricts it to putting or spreading something onto a surface, which the gloss does not say."},
+   {"synset": "oewn-03696454-n", "verdict": "right", "fault": null, "why": "Learner keeps soothing, antiseptic and medicinal, applied to the skin, and the burn example uses the preparation sense."}
+  ]},
+ {"word": "colour", "pos": "noun",
+  "rank": "right", "why": "The sentences speak of the colour of eyes and of faces changing colour, which sits closest to the first gloss, a visual attribute from light, and the other senses listed first are not plainly used.",
+  "senses": [
+   {"synset": "oewn-15009532-n", "verdict": "right", "fault": null, "why": "Learner restates 'any material used for its color' faithfully and the painter's colours example is the pigment sense."},
+   {"synset": "oewn-05200606-n", "verdict": "right", "fault": null, "why": "Learner keeps interesting, varied and intense, and the example uses colour as vividness added to a dull evening."},
+   {"synset": "oewn-04995727-n", "verdict": "right", "fault": null, "why": "Learner renders timbre as the particular quality of a musical sound, and the cello example uses the sound sense."},
+   {"synset": "oewn-05853190-n", "verdict": "right", "fault": null, "why": "Learner matches the physics gloss, the quark example uses the sense, and the technical label is justified by the '(physics)' tag."}
+  ]},
+ {"word": "education", "pos": "noun",
+  "rank": "right", "why": "Most sentences use education as the activity of instructing or the schooling someone receives ('superintends her education', 'nothing is to be done in education'), which is the first gloss.",
+  "senses": [
+   {"synset": "oewn-04929077-n", "verdict": "right", "fault": null, "why": "Learner tracks the gloss (result of good upbringing, especially knowing how to behave), the example shows manners, and the approving candidate verdict is fair for a sense that praises breeding."},
+   {"synset": "oewn-00612720-n", "verdict": "right", "fault": null, "why": "Learner matches the profession-of-teaching gloss with the school, college or university scope kept, and the example fits with null verdict."}
+  ]},
+ {"word": "hall", "pos": "noun",
+  "rank": "right", "why": "The sentences are about the entrance hall of a country house (steps to the hall, hall door, passing through the hall), which is the first-listed entrance-room sense.",
+  "senses": [
+   {"synset": "oewn-03483839-n", "verdict": "right", "fault": null, "why": "Learner restates 'large building for meetings or entertainment' faithfully and the concert hall example fits."},
+   {"synset": "oewn-03724592-n", "verdict": "right", "fault": null, "why": "'A big, grand house' is a plain rendering of 'large and imposing house' and the example uses the house sense."},
+   {"synset": "oewn-03724120-n", "verdict": "right", "fault": null, "why": "Learner matches the gloss for the large room of a manor or castle and the example is that room."},
+   {"synset": "oewn-03229596-n", "verdict": "right", "fault": null, "why": "Learner keeps college or university building where students live and the example is a residence hall."},
+   {"synset": "oewn-03484204-n", "verdict": "right", "fault": null, "why": "Learner keeps teaching or research use by a college or university and the science hall example fits."}
+  ]},
+ {"word": "use", "pos": "noun",
+  "rank": "right", "why": "The noun uses in the sentences ('of great use and comfort', 'be of use to us', 'no use to us') are usefulness or service, which the first sense covers, and the others are verb uses.",
+  "senses": [
+   {"synset": "oewn-00415192-n", "verdict": "right", "fault": null, "why": "Learner carries the automatic pattern, inherited or acquired by repetition, and 'long use had hardened him' is the habit sense."},
+   {"synset": "oewn-05197374-n", "verdict": "right", "fault": null, "why": "Learner restates the legal right to enjoy property, the boat example is being given the use of someone's property, and the technical label is justified by the '(law)' tag."},
+   {"synset": "oewn-13472977-n", "verdict": "right", "fault": null, "why": "Learner covers meeting needs or making other things, the water-use example is economic utilisation, and the technical label is justified by '(economics)'."},
+   {"synset": "oewn-00159005-n", "verdict": "right", "fault": null, "why": "Learner keeps clever or sly and advantage for oneself, the example is using people for gain, and a candidate verdict is right because 'devious' judges the conduct."}
+  ]},
+ {"word": "pretend", "pos": "verb",
+  "rank": "right", "why": "The sentences split between make-believe to deceive ('pretending not to hear', 'pretended regard') and claiming ('do not pretend to be anything extraordinary'), and the first sense is the make-believe one.",
+  "senses": [
+   {"synset": "oewn-00758694-v", "verdict": "right", "fault": null, "why": "Learner says the gloss 'state insincerely' plainly, the example is an insincere statement, and the candidate reason (marks speech as insincere) holds."},
+   {"synset": "oewn-01725433-v", "verdict": "right", "fault": null, "why": "Learner covers unnatural and affected as 'not natural, or false, put-on', the example fits, and the candidate verdict is justified as the word calls the behaviour false."},
+   {"synset": "oewn-02280644-v", "verdict": "right", "fault": null, "why": "Learner restates the claim-of-right gloss, the throne example uses the claim sense, and null is defensible as the gloss itself only asserts a claim."}
+  ]},
+ {"word": "pursue", "pos": "verb",
+  "rank": "right", "why": "Most sentences are about carrying out or following through a measure, course or way ('pursue any measure', 'pursued the accustomed circuit'), which the first sense, carry out an activity, covers.",
+  "senses": [
+   {"synset": "oewn-01320193-v", "verdict": "right", "fault": null, "why": "Learner keeps both alternatives, go in search of or hunt for, and the lost-city example uses the search sense."}
+  ]},
+ {"word": "utter", "pos": "verb",
+  "rank": "right", "why": "The verb sentences ('utter a syllable', 'uttered more than the occasional exclamation') are about articulating or expressing in speech, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-02047744-v", "verdict": "right", "fault": null, "why": "Learner restates 'put into circulation' as putting something out so it passes from person to person, and the false banknotes example is the circulation sense."}
+  ]}
+]}

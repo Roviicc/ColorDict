@@ -1,0 +1,637 @@
+{
+ "kind": "ranked",
+ "population": "data/policy/stage10/population-r6.json",
+ "counts": {
+  "book_words": 4772,
+  "book_senses": 17679,
+  "open": {
+   "words": 3949,
+   "senses": 13607
+  },
+  "open_ranked": {
+   "words": 414,
+   "senses": 2467
+  },
+  "open_never_opened": {
+   "words": 3535,
+   "senses": 11140
+  },
+  "open_stop_words": {
+   "words": 118,
+   "senses": 628
+  },
+  "unserved_records": 1
+ },
+ "pool": 101,
+ "skipped": {
+  "function word": 47,
+  "over 8 open senses": 66,
+  "no earlier run holds it": 0
+ },
+ "n": 100,
+ "strata": 4,
+ "seed": 17,
+ "max_open": 8,
+ "words": [
+  {
+   "word": "room",
+   "pos": "noun",
+   "occurrences": 163,
+   "open": 1
+  },
+  {
+   "word": "family",
+   "pos": "noun",
+   "occurrences": 160,
+   "open": 5
+  },
+  {
+   "word": "father",
+   "pos": "noun",
+   "occurrences": 132,
+   "open": 2
+  },
+  {
+   "word": "wish",
+   "pos": "verb",
+   "occurrences": 125,
+   "open": 2
+  },
+  {
+   "word": "ask",
+   "pos": "verb",
+   "occurrences": 86,
+   "open": 4
+  },
+  {
+   "word": "meet",
+   "pos": "verb",
+   "occurrences": 82,
+   "open": 8
+  },
+  {
+   "word": "morning",
+   "pos": "noun",
+   "occurrences": 81,
+   "open": 1
+  },
+  {
+   "word": "begin",
+   "pos": "verb",
+   "occurrences": 78,
+   "open": 7
+  },
+  {
+   "word": "sit",
+   "pos": "verb",
+   "occurrences": 72,
+   "open": 7
+  },
+  {
+   "word": "year",
+   "pos": "noun",
+   "occurrences": 71,
+   "open": 1
+  },
+  {
+   "word": "want",
+   "pos": "verb",
+   "occurrences": 67,
+   "open": 2
+  },
+  {
+   "word": "hour",
+   "pos": "noun",
+   "occurrences": 65,
+   "open": 1
+  },
+  {
+   "word": "enter",
+   "pos": "verb",
+   "occurrences": 62,
+   "open": 6
+  },
+  {
+   "word": "mind",
+   "pos": "noun",
+   "occurrences": 55,
+   "open": 4
+  },
+  {
+   "word": "ill",
+   "pos": "adjective",
+   "occurrences": 54,
+   "open": 2
+  },
+  {
+   "word": "express",
+   "pos": "verb",
+   "occurrences": 52,
+   "open": 4
+  },
+  {
+   "word": "general",
+   "pos": "adjective",
+   "occurrences": 52,
+   "open": 3
+  },
+  {
+   "word": "engage",
+   "pos": "verb",
+   "occurrences": 50,
+   "open": 7
+  },
+  {
+   "word": "object",
+   "pos": "noun",
+   "occurrences": 50,
+   "open": 2
+  },
+  {
+   "word": "spirit",
+   "pos": "noun",
+   "occurrences": 50,
+   "open": 5
+  },
+  {
+   "word": "answer",
+   "pos": "verb",
+   "occurrences": 49,
+   "open": 7
+  },
+  {
+   "word": "carriage",
+   "pos": "noun",
+   "occurrences": 49,
+   "open": 2
+  },
+  {
+   "word": "send",
+   "pos": "verb",
+   "occurrences": 48,
+   "open": 5
+  },
+  {
+   "word": "pride",
+   "pos": "noun",
+   "occurrences": 45,
+   "open": 2
+  },
+  {
+   "word": "regard",
+   "pos": "noun",
+   "occurrences": 44,
+   "open": 4
+  },
+  {
+   "word": "table",
+   "pos": "noun",
+   "occurrences": 41,
+   "open": 3
+  },
+  {
+   "word": "child",
+   "pos": "noun",
+   "occurrences": 39,
+   "open": 1
+  },
+  {
+   "word": "situation",
+   "pos": "noun",
+   "occurrences": 39,
+   "open": 2
+  },
+  {
+   "word": "accept",
+   "pos": "verb",
+   "occurrences": 38,
+   "open": 8
+  },
+  {
+   "word": "book",
+   "pos": "noun",
+   "occurrences": 38,
+   "open": 6
+  },
+  {
+   "word": "long",
+   "pos": "adjective",
+   "occurrences": 38,
+   "open": 6
+  },
+  {
+   "word": "relate",
+   "pos": "verb",
+   "occurrences": 38,
+   "open": 2
+  },
+  {
+   "word": "rest",
+   "pos": "noun",
+   "occurrences": 38,
+   "open": 4
+  },
+  {
+   "word": "thought",
+   "pos": "noun",
+   "occurrences": 37,
+   "open": 1
+  },
+  {
+   "word": "account",
+   "pos": "noun",
+   "occurrences": 36,
+   "open": 7
+  },
+  {
+   "word": "deal",
+   "pos": "noun",
+   "occurrences": 35,
+   "open": 6
+  },
+  {
+   "word": "appearance",
+   "pos": "noun",
+   "occurrences": 34,
+   "open": 3
+  },
+  {
+   "word": "determine",
+   "pos": "verb",
+   "occurrences": 33,
+   "open": 5
+  },
+  {
+   "word": "concern",
+   "pos": "noun",
+   "occurrences": 32,
+   "open": 2
+  },
+  {
+   "word": "news",
+   "pos": "noun",
+   "occurrences": 31,
+   "open": 2
+  },
+  {
+   "word": "disposition",
+   "pos": "noun",
+   "occurrences": 29,
+   "open": 1
+  },
+  {
+   "word": "humour",
+   "pos": "noun",
+   "occurrences": 27,
+   "open": 3
+  },
+  {
+   "word": "strong",
+   "pos": "adjective",
+   "occurrences": 27,
+   "open": 7
+  },
+  {
+   "word": "truth",
+   "pos": "noun",
+   "occurrences": 27,
+   "open": 1
+  },
+  {
+   "word": "beg",
+   "pos": "verb",
+   "occurrences": 26,
+   "open": 1
+  },
+  {
+   "word": "declare",
+   "pos": "verb",
+   "occurrences": 26,
+   "open": 5
+  },
+  {
+   "word": "prove",
+   "pos": "verb",
+   "occurrences": 26,
+   "open": 6
+  },
+  {
+   "word": "early",
+   "pos": "adjective",
+   "occurrences": 25,
+   "open": 5
+  },
+  {
+   "word": "directly",
+   "pos": "adverb",
+   "occurrences": 23,
+   "open": 1
+  },
+  {
+   "word": "mile",
+   "pos": "noun",
+   "occurrences": 22,
+   "open": 5
+  },
+  {
+   "word": "avoid",
+   "pos": "verb",
+   "occurrences": 21,
+   "open": 2
+  },
+  {
+   "word": "favour",
+   "pos": "noun",
+   "occurrences": 21,
+   "open": 1
+  },
+  {
+   "word": "occur",
+   "pos": "verb",
+   "occurrences": 20,
+   "open": 3
+  },
+  {
+   "word": "require",
+   "pos": "verb",
+   "occurrences": 20,
+   "open": 1
+  },
+  {
+   "word": "chance",
+   "pos": "noun",
+   "occurrences": 19,
+   "open": 2
+  },
+  {
+   "word": "work",
+   "pos": "noun",
+   "occurrences": 19,
+   "open": 4
+  },
+  {
+   "word": "act",
+   "pos": "verb",
+   "occurrences": 18,
+   "open": 6
+  },
+  {
+   "word": "connect",
+   "pos": "verb",
+   "occurrences": 18,
+   "open": 8
+  },
+  {
+   "word": "judge",
+   "pos": "verb",
+   "occurrences": 18,
+   "open": 2
+  },
+  {
+   "word": "shake",
+   "pos": "verb",
+   "occurrences": 18,
+   "open": 6
+  },
+  {
+   "word": "speech",
+   "pos": "noun",
+   "occurrences": 18,
+   "open": 5
+  },
+  {
+   "word": "success",
+   "pos": "noun",
+   "occurrences": 18,
+   "open": 1
+  },
+  {
+   "word": "meeting",
+   "pos": "noun",
+   "occurrences": 17,
+   "open": 3
+  },
+  {
+   "word": "sight",
+   "pos": "noun",
+   "occurrences": 17,
+   "open": 5
+  },
+  {
+   "word": "discover",
+   "pos": "verb",
+   "occurrences": 16,
+   "open": 3
+  },
+  {
+   "word": "accompany",
+   "pos": "verb",
+   "occurrences": 15,
+   "open": 1
+  },
+  {
+   "word": "attach",
+   "pos": "verb",
+   "occurrences": 14,
+   "open": 2
+  },
+  {
+   "word": "delighted",
+   "pos": "adjective",
+   "occurrences": 14,
+   "open": 2
+  },
+  {
+   "word": "finish",
+   "pos": "verb",
+   "occurrences": 14,
+   "open": 3
+  },
+  {
+   "word": "quality",
+   "pos": "noun",
+   "occurrences": 14,
+   "open": 2
+  },
+  {
+   "word": "rank",
+   "pos": "noun",
+   "occurrences": 14,
+   "open": 2
+  },
+  {
+   "word": "charm",
+   "pos": "noun",
+   "occurrences": 13,
+   "open": 1
+  },
+  {
+   "word": "profession",
+   "pos": "noun",
+   "occurrences": 13,
+   "open": 1
+  },
+  {
+   "word": "right",
+   "pos": "noun",
+   "occurrences": 13,
+   "open": 5
+  },
+  {
+   "word": "suspicion",
+   "pos": "noun",
+   "occurrences": 13,
+   "open": 1
+  },
+  {
+   "word": "treat",
+   "pos": "verb",
+   "occurrences": 13,
+   "open": 5
+  },
+  {
+   "word": "secure",
+   "pos": "verb",
+   "occurrences": 12,
+   "open": 3
+  },
+  {
+   "word": "stop",
+   "pos": "verb",
+   "occurrences": 12,
+   "open": 7
+  },
+  {
+   "word": "unhappy",
+   "pos": "adjective",
+   "occurrences": 12,
+   "open": 1
+  },
+  {
+   "word": "account",
+   "pos": "verb",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "confidence",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 2
+  },
+  {
+   "word": "fault",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 4
+  },
+  {
+   "word": "instrument",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 3
+  },
+  {
+   "word": "notion",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "order",
+   "pos": "verb",
+   "occurrences": 11,
+   "open": 6
+  },
+  {
+   "word": "principal",
+   "pos": "adjective",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "private",
+   "pos": "adjective",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "relationship",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "addition",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 3
+  },
+  {
+   "word": "church",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 1
+  },
+  {
+   "word": "eat",
+   "pos": "verb",
+   "occurrences": 10,
+   "open": 3
+  },
+  {
+   "word": "vex",
+   "pos": "verb",
+   "occurrences": 10,
+   "open": 2
+  },
+  {
+   "word": "dispose",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 2
+  },
+  {
+   "word": "relieve",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 8
+  },
+  {
+   "word": "save",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 7
+  },
+  {
+   "word": "sing",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 1
+  },
+  {
+   "word": "delicate",
+   "pos": "adjective",
+   "occurrences": 8,
+   "open": 6
+  },
+  {
+   "word": "unknown",
+   "pos": "adjective",
+   "occurrences": 8,
+   "open": 5
+  },
+  {
+   "word": "briefly",
+   "pos": "adverb",
+   "occurrences": 3,
+   "open": 2
+  },
+  {
+   "word": "turning",
+   "pos": "noun",
+   "occurrences": 2,
+   "open": 6
+  }
+ ]
+}

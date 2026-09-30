@@ -1,0 +1,36 @@
+{"packet": 1, "verdicts": [
+ {"word": "man", "pos": "noun",
+  "rank": "right", "why": "The sentences (agreeable man, charming man, gentlemanlike man) all use the adult-male sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-10308837-n", "verdict": "right", "fault": null, "why": "Learner line restates 'male subordinate' faithfully, the example uses men as subordinates, and describing without judging makes null correct."},
+   {"synset": "oewn-10308424-n", "verdict": "right", "fault": null, "why": "Learner line keeps the manly-character sense (strong, brave, able), the example fits it, and the word plainly praises, so the candidate is justified."},
+   {"synset": "oewn-02475618-n", "verdict": "wrong", "fault": "false-candidate", "why": "Generic 'man' for all people describes humankind without judging what it is aimed at; the stated reason ('a male word standing for all') is a fact about the word's form, not a judgment, so null fits better."},
+   {"synset": "oewn-87754171-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the example uses men as soldiers, and the word describes without judging."},
+   {"synset": "oewn-02474924-n", "verdict": "wrong", "fault": "false-candidate", "why": "Learner line and example are faithful, but 'man' for the species (Hominidae) is descriptive and the reason ('a male word standing for the whole human kind') names no judgment of the referent."},
+   {"synset": "oewn-03721866-n", "verdict": "right", "fault": null, "why": "Learner line and example both use the board-game piece sense, and null is correct for a plain object word."},
+   {"synset": "oewn-10765000-n", "verdict": "right", "fault": null, "why": "Learner line matches the manservant gloss, the example uses 'his man' as attendant, and null is correct."}
+  ]},
+ {"word": "use", "pos": "verb",
+  "rank": "right", "why": "The sentences split between 'used to' (habitual) and putting something into service, and the first-listed habitual sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-01159815-v", "verdict": "right", "fault": null, "why": "Learner line restates 'use up resources or materials', the heater example is that consuming sense, and null is correct."},
+   {"synset": "oewn-02606487-v", "verdict": "right", "fault": null, "why": "Learner line covers both seeking and achieving an end by taking advantage, the example fits, and 'use someone' does judge as exploitation so the candidate is justified."},
+   {"synset": "oewn-01167359-v", "verdict": "wrong", "fault": "false-candidate", "why": "Learner line and example are faithful, but 'use drugs' in the take-or-consume-regularly sense describes habit without the word itself judging; any stigma belongs to the referent (drugs), not the word."}
+  ]},
+ {"word": "look", "pos": "noun",
+  "rank": "right", "why": "The sentences split between facial expression ('a look expressive of her wonder') and appearance ('his looks'), and the first-listed expression sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-14549784-n", "verdict": "right", "fault": null, "why": "Learner line restates the atmosphere-of-a-place gloss without loss, the 'gloomy look' example uses that sense, and null is correct."}
+  ]},
+ {"word": "understanding", "pos": "noun",
+  "rank": "right", "why": "Most sentences (mean understanding, excellent understanding, use of my understanding) carry the capacity-for-rational-thought sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-06208877-n", "verdict": "right", "fault": null, "why": "Learner line keeps support, loyalty and agreement, the 'count on her understanding' example is the sympathetic-support sense, and null is correct."}
+  ]},
+ {"word": "propose", "pos": "verb",
+  "rank": "right", "why": "Most sentences (I propose to show, had proposed being engaged, proposed taking) carry the 'propose or intend' sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00708009-v", "verdict": "right", "fault": null, "why": "Learner line restates 'present for consideration, examination, criticism' faithfully, the theory example fits, and null is correct."},
+   {"synset": "oewn-02406665-v", "verdict": "right", "fault": null, "why": "Learner line covers putting forward and naming for an office, honour or position, the club-secretary example is the nominating sense, and null is correct."}
+  ]}
+]}
