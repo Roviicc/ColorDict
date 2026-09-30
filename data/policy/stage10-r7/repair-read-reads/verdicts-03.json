@@ -1,0 +1,20 @@
+{"packet": 3, "verdicts": [
+ {"word": "answer", "pos": "verb",
+  "rank": "right", "why": "Nearly every sentence uses answer as a verbal reply (answered in the affirmative, answered him, made no answer), which is the first-listed gloss 'react verbally'.",
+  "senses": [
+   {"synset": "oewn-02675578-v", "verdict": "right",
+    "fault": null, "why": "Learner line keeps both 'sufficient' and 'adequate' and both quality and quantity; example 'A few kind words will answer' uses the sense; null is fine."},
+   {"synset": "oewn-01186429-v", "verdict": "right",
+    "fault": null, "why": "Learner line covers 'satisfactory for', 'meet the requirements' and 'serve the purpose'; example 'will answer our needs' fits; null is fine."},
+   {"synset": "oewn-02751892-v", "verdict": "right",
+    "fault": null, "why": "Learner line renders 'liable or accountable' as responsible / must explain and face consequences; 'answer for what he has done' fits; describes without judging."},
+   {"synset": "oewn-00816833-v", "verdict": "right",
+    "fault": null, "why": "Learner line keeps both 'defence' and 'refutation' of a charge or argument; example 'answered the charges against her' uses the sense; null is fine."},
+   {"synset": "oewn-02664648-v", "verdict": "right",
+    "fault": null, "why": "'Match or correspond' is rendered as match / be in agreement with; 'answered to the description of the thief' is the same sense; null is fine."},
+   {"synset": "oewn-00720232-v", "verdict": "right",
+    "fault": null, "why": "Learner line covers both stimulus and command; 'The horse answered the rein' is a react-to-stimulus use; null is fine."},
+   {"synset": "oewn-00637185-v", "verdict": "wrong",
+    "fault": "example-wrong-sense", "why": "The example's answer takes a question ('what his last words had meant') as its object, which reads as resolving or giving the answer to a question (the neighbouring 'give the correct answer or solution to' sense) rather than plainly 'understand the meaning of'; a learner would be taught 'answer = understand' from a sentence that shows answering a question. The learner line itself is faithful, and this is a borderline call."}
+  ]}
+]}

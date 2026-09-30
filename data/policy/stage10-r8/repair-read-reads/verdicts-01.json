@@ -1,0 +1,39 @@
+{"packet": 1, "verdicts": [
+ {"word": "future", "pos": "adjective",
+  "rank": "right", "why": "All four sentences (future property, life, wealth, situation) carry 'yet to be or coming', which is listed first.",
+  "senses": [
+   {"synset": "oewn-01736519-a", "verdict": "right", "fault": null, "why": "Learner line restates 'yet to be or coming' plainly; both examples use future in this sense; null is fine."},
+   {"synset": "oewn-01890452-s", "verdict": "right", "fault": null, "why": "Learner covers both 'taking effect later' and 'looking toward the future'; the 'future planning' example fits."},
+   {"synset": "oewn-03004422-a", "verdict": "right", "fault": null, "why": "Learner matches the verb-tense gloss; the example is the grammatical sense; 'technical' is justified by the grammar-metalanguage gloss."},
+   {"synset": "oewn-01298098-s", "verdict": "right", "fault": null, "why": "Learner says 'chosen but not yet in office', which is faithful to 'elected but not yet serving'; the mayor example fits."}
+  ]},
+ {"word": "warm", "pos": "adjective",
+  "rank": "right", "why": "Warm affection, warm in admiration and warmest gratitude carry 'characterized by strong enthusiasm', which is listed first; only the temper sentence belongs to a lower sense.",
+  "senses": [
+   {"synset": "oewn-00922132-s", "verdict": "right", "fault": null, "why": "Learner is faithful to 'easily aroused or excited'; the example is the book's warm-temper sentence; the candidate is defensible because 'warm temper' implies flaring up too easily."},
+   {"synset": "oewn-02541266-a", "verdict": "right", "fault": null, "why": "Learner says friendly and ready to respond with feeling, which matches 'friendly and responsive'; both examples fit; null is acceptable as a trait description."},
+   {"synset": "oewn-02539669-a", "verdict": "right", "fault": null, "why": "Learner keeps both the producing-heat and keeping-heat alternatives; the room and coat examples cover both."},
+   {"synset": "oewn-00809957-s", "verdict": "right", "fault": null, "why": "Learner restates 'liveliness or excitement or disagreement' with all three alternatives; the warm debate example fits."},
+   {"synset": "oewn-02542324-a", "verdict": "right", "fault": null, "why": "Learner keeps the colour restriction and the reds, oranges and yellows; 'feeling of heat' for 'impression of warmth' is a minor but acceptable plaining."},
+   {"synset": "oewn-00447342-s", "verdict": "right", "fault": null, "why": "Learner says a searcher is close to what they seek, which is faithful; the 'getting warm' example is this sense."},
+   {"synset": "oewn-01072383-s", "verdict": "right", "fault": null, "why": "Learner 'made or left only a short time ago' matches 'freshly made or left'; the warm trail example fits."}
+  ]},
+ {"word": "alive", "pos": "adjective",
+  "rank": "wrong", "why": "Most sentences (dead-alive, half alive, perfectly alive, curiosity all alive, alive and imperishable) use the full-of-life-and-spirit or vigor senses, which sit below 'aware of' and 'possessing life'; only the last sentence uses 'aware of'.",
+  "senses": [
+   {"synset": "oewn-02113646-s", "verdict": "right", "fault": null, "why": "Learner restates 'aware of' with the to/of pattern; the example is the book's 'alive to the disgrace' sentence."},
+   {"synset": "oewn-00095301-a", "verdict": "right", "fault": null, "why": "'having life; living' is faithful to 'possessing life'; the bird example is literal life."},
+   {"synset": "oewn-00930614-s", "verdict": "right", "fault": null, "why": "Learner 'working or going on; in use' matches 'in operation'; 'kept alive' for a custom fits the sense."},
+   {"synset": "oewn-00041710-s", "verdict": "right", "fault": null, "why": "Learner 'able to erupt' matches 'capable of erupting'; the volcano example fits."}
+  ]},
+ {"word": "ruin", "pos": "verb",
+  "rank": "right", "why": "All four sentences (ruin your happiness, ruined every hope, ruin him for ever, ruin him in opinion) carry 'destroy or cause to fail', which is listed first.",
+  "senses": [
+   {"synset": "oewn-02564777-v", "verdict": "right", "fault": null, "why": "Learner keeps both 'destroy' and 'make it fail'; both examples are book sentences in this sense; null is fine for a word that describes the result."},
+   {"synset": "oewn-01566925-v", "verdict": "right", "fault": null, "why": "Learner keeps both 'destroy completely' and 'damage irreparably'; the flood example fits."},
+   {"synset": "oewn-02323145-v", "verdict": "right", "fault": null, "why": "Learner restates bankruptcy as losing all money and being unable to pay debts; the failed-bank example is financial ruin."},
+   {"synset": "oewn-01569271-v", "verdict": "right", "fault": null, "why": "Learner says to break down until only ruins are left, which matches 'reduce to ruins'; the bombed church example fits."},
+   {"synset": "oewn-00580070-v", "verdict": "right", "fault": null, "why": "Learner 'fall into a broken and wrecked state' matches 'fall into ruin'; the intransitive castle example fits."},
+   {"synset": "oewn-01431014-v", "verdict": "right", "fault": null, "why": "Learner is faithful to 'deprive of virginity'; the example is this sense; the candidate is sound because the word frames the loss as destruction of the person."}
+  ]}
+]}

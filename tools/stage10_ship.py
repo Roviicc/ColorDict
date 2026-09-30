@@ -68,7 +68,7 @@ def main():
     # copy, and ranks shipped from it would override the run that made them.
     draw = json.loads((run / "draw.json").read_text(encoding="utf-8"))
     copied_ranks = draw.get("kind") == "ranked"
-    out_lines, relabelled = [], 0
+    out_lines, relabelled, already, seen = [], 0, 0, set()
     for line in (run / "parked.overlay.jsonl").open(encoding="utf-8"):
         if not line.strip():
             continue
@@ -79,18 +79,33 @@ def main():
                 if not patch:
                     del rec["senses"][sid]
                     continue
-            if sid in false_nulls and patch.get("label") == "neutral":
-                del patch["label"]
-                relabelled += 1
+            seen.add(sid)
+            if sid in false_nulls:
+                if patch.get("label") == "neutral":
+                    del patch["label"]
+                    relabelled += 1
+                else:
+                    # A false null the entry read found was repaired by a
+                    # third hand that made it a candidate: nothing to unlabel,
+                    # and results.json already lists it among the candidates.
+                    already += 1
         out_lines.append(json.dumps(rec, ensure_ascii=False, separators=(",", ":")))
-    if relabelled != len(false_nulls):
-        sys.exit(f"{len(false_nulls)} false nulls but {relabelled} neutral labels found")
+    # A false null on a sense the overlay no longer carries (an entry held out
+    # of the ship) is not shipped and is not a fault; anything else must have
+    # been unlabelled or already a candidate.
+    missing = sorted(sid for sid in false_nulls if sid not in seen)
+    if relabelled + already + len(missing) != len(false_nulls):
+        sys.exit(f"{len(false_nulls)} false nulls but {relabelled} unlabelled, "
+                 f"{already} already candidates, {len(missing)} not in the overlay")
+    if missing:
+        print(f"not shipped (entry held out): {', '.join(missing)}")
     dest = ROOT / "data/entries/overlays" / f"{run.name}.overlay.jsonl"
     dest.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
     (run / "candidates.json").write_text(json.dumps(candidates, indent=1, ensure_ascii=False)
                                          + "\n", encoding="utf-8")
     print(f"shipped {len(out_lines)} entries -> {dest.relative_to(ROOT)}; "
-          f"{relabelled} false nulls unlabelled; {len(candidates)} candidates -> "
+          f"{relabelled} false nulls unlabelled, {already} already candidates; "
+          f"{len(candidates)} candidates -> "
           f"{run / 'candidates.json'}")
 
 
