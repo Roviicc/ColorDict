@@ -1,0 +1,22 @@
+{
+ "entries_read": 92,
+ "entries_with_a_fault": 5,
+ "entry_defect_rate": 0.0543,
+ "senses_read": 316,
+ "senses_wrong": 5,
+ "sense_defect_rate": 0.0158,
+ "rank_wrong": 0,
+ "unsure": 1,
+ "faults": {
+  "false-candidate": 2,
+  "example-wrong-sense": 2,
+  "learner-narrowed": 1
+ },
+ "wrong": [
+  "short/oewn-02345399-s false-candidate: The word describes a shortfall in amount (the gloss says only 'often' deliberate); the cheating belongs to the referent, not to a judgement carried by 'short', so a candidate is not warranted.",
+  "real/oewn-00013681-s example-wrong-sense: 'No real results, only promises' uses real to mean substantial or worthy of the name, not 'capable of being treated as fact', so the example illustrates a neighbouring sense.",
+  "society/oewn-08404661-n false-candidate: Learner line and example are faithful, but 'society' for the fashionable elite names a group without itself judging it; the snobbery belongs to the referent, not the word, so a candidate is not warranted.",
+  "actually/oewn-00151061-r example-wrong-sense: In the example 'actually recording at this moment' the present-time meaning is supplied by 'at this moment' and 'actually' reads as plain 'in fact', so the example does not clearly show the 'at present' sense; the learner line and null verdict are fine.",
+  "application/oewn-00713478-n learner-narrowed: The gloss is the general 'work of applying something' but the learner line restricts it to putting or spreading something onto a surface, which the gloss does not say."
+ ]
+}
