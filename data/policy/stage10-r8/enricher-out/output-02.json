@@ -1,144 +1,324 @@
-{"packet": 2, "entries": [
- {"word": "strange", "pos": "adjective",
-  "senses": {
-   "oewn-00969942-s": {"learner": "not known to you before.",
-                       "examples": ["The town was full of strange faces, and she knew no one."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01038139-a": {"learner": "belonging to, coming from, or typical of another place or part of the world.",
-                       "examples": ["He spoke a strange language from a land far across the sea."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "may cast what is foreign as odd, against plain 'foreign'"}}
-  }},
- {"word": "violent", "pos": "adjective",
-  "senses": {
-   "oewn-01515606-s": {"learner": "full of very strong feelings or beliefs, or quick to react with great force.",
-                       "examples": ["The general prejudice against Mr. Darcy is so violent", "Amongst the most violent against him was Mrs. Bennet"],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "suggests feeling beyond control, against 'vehement' or 'fervent'"}},
-   "oewn-02520937-a": {"learner": "acting with, showing, or caused by great force, great energy, or very strong feeling.",
-                       "examples": ["accompanied by a violent yawn.", "The storm brought violent winds that tore the roof off the barn."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "implies harmful force, against plain 'forceful'"}},
-   "oewn-01575140-s": {"learner": "caused by force or injury, not by natural causes.",
-                       "examples": ["He died a violent death at the hands of robbers."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01518224-s": {"learner": "of colours or sounds: very bright and strong, or very loud.",
-                       "examples": ["She wore a dress of a violent pink that hurt the eyes."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "may judge a colour or sound as too harsh, against 'vivid'"}}
-  }},
- {"word": "humble", "pos": "adjective",
-  "senses": {
-   "oewn-01597282-s": {"learner": "born into, or holding, a low place in society.",
-                       "examples": ["Though he was of humble birth, he married a rich man's daughter."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "gentler than 'base' or 'lowborn' for the same station"}},
-   "oewn-02237706-s": {"learner": "describing simple work that needs no special skill, especially work done in a house.",
-                       "examples": ["She took humble jobs, washing floors and scrubbing pots."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "softer than 'menial' for the same work"}}
-  }},
- {"word": "material", "pos": "adjective",
-  "senses": {
-   "oewn-01490990-a": {"learner": "directly connected to the matter being dealt with, especially a case in a court of law.",
-                       "examples": ["The judge ruled that the letter was material to the case.", "He kept back facts that were material to the inquiry."],
-                       "usage_labels": ["formal"],
-                       "connotation": null},
-   "oewn-02588172-s": {"learner": "having to do with the things of this world rather than with matters of the spirit.",
-                       "examples": ["The monks turned away from material things to seek God."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00632838-a": {"learner": "having a real physical form or substance.",
-                       "examples": ["Angels were thought to have no material body."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01783738-s": {"learner": "having to do with or affecting the well-being of the body, as opposed to the well-being of the mind or feelings.",
-                       "examples": ["Food and shelter are our most basic material needs."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00629641-a": {"learner": "made of, or coming from, matter.",
-                       "examples": ["Stars and planets are part of the material universe."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00628097-a": {"learner": "having real substance, or able to be treated as fact; not imagined.",
-                       "examples": ["The danger was material, not something he had dreamed up."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "disposed", "pos": "adjective",
-  "senses": {
-   "oewn-02576155-s": {"learner": "having got everything ready; prepared.",
-                       "examples": ["The army stood disposed for the attack, every man in his place."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "entail", "pos": "verb",
-  "senses": {
-   "oewn-02368233-v": {"learner": "to limit who can inherit a piece of property to one particular group of heirs.",
-                       "examples": ["There is no knowing how estates will go when once they come to be entailed.", "Your father's estate is entailed on Mr. Collins, I think?"],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-02640889-v": {"learner": "to force, include, or suggest something as a part or result that must come along with it.",
-                       "examples": ["The new job will entail a lot of travel."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02641270-v": {"learner": "to have something as a result that follows by logic.",
-                       "examples": ["Being a square entails having four sides."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "future", "pos": "adjective",
-  "senses": {
-   "oewn-01736519-a": {"learner": "still to come or still to exist; not here yet.",
-                       "examples": ["his prospects of future wealth were exceedingly fair.", "I singled you out as the companion of my future life."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01890452-s": {"learner": "taking effect later on, or looking ahead to the time to come.",
-                       "examples": ["The new rule applies only to future contracts, not to those already signed."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03004422-a": {"learner": "used of a verb tense or other form that talks about things that have not happened yet.",
-                       "examples": ["In 'she will sing', the verb is in the future tense."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-01298098-s": {"learner": "of a person chosen in an election: chosen but not yet in office.",
-                       "examples": ["The future mayor, elected last week, will take office in January."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "grave", "pos": "adjective",
-  "senses": {
-   "oewn-02126493-s": {"learner": "serious, dignified and solemn in manner or character, and careful to keep your promises.",
-                       "examples": ["His air was grave and stately, and his manners were very formal.", "her husband looked impenetrably grave"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01281533-s": {"learner": "very serious or very important, and needing careful thought.",
-                       "examples": ["She had to make a grave choice between her family and her work."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "guess", "pos": "verb",
-  "senses": {
-   "oewn-00637723-v": {"learner": "to guess the right answer; to work something out by guessing.",
-                       "examples": ["if you cannot guess with who, I shall think you a simpleton", "Elizabeth, immediately recognizing the livery, guessed what it meant"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00674352-v": {"learner": "to judge without being sure, or to roughly work out, an amount or a length of time.",
-                       "examples": ["She guessed the distance at about two miles."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00918880-v": {"learner": "to offer a guess even though it may be shown to be wrong.",
-                       "examples": ["Nobody knew the answer, so I guessed, knowing I might be wrong."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "indignation", "pos": "noun",
-  "senses": {
-   "oewn-07532976-n": {"learner": "anger that you feel because you believe something is wrong or unfair.",
-                       "examples": ["Elizabeth made no answer, and walked on, her heart swelling with indignation.", "heard it in silent indignation."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "frames the anger as morally in the right, against plain 'anger'"}}
-  }}
-]}
+{
+ "packet": 2,
+ "entries": [
+  {
+   "word": "strange",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00969942-s": {
+     "learner": "not known to you before.",
+     "examples": [
+      "The town was full of strange faces, and she knew no one."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01038139-a": {
+     "learner": "belonging to, coming from, or typical of another place or part of the world.",
+     "examples": [
+      "He spoke a strange language from a land far across the sea."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "may cast what is foreign as odd, against plain 'foreign'"
+     }
+    }
+   }
+  },
+  {
+   "word": "violent",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01515606-s": {
+     "learner": "full of very strong feelings or beliefs, or quick to react with great force.",
+     "examples": [
+      "The general prejudice against Mr. Darcy is so violent",
+      "Amongst the most violent against him was Mrs. Bennet"
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "suggests feeling beyond control, against 'vehement' or 'fervent'"
+     }
+    },
+    "oewn-02520937-a": {
+     "learner": "acting with, showing, or caused by great force, great energy, or very strong feeling.",
+     "examples": [
+      "accompanied by a violent yawn.",
+      "The storm brought violent winds that tore the roof off the barn."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "implies harmful force, against plain 'forceful'"
+     }
+    },
+    "oewn-01575140-s": {
+     "learner": "caused by force or injury, not by natural causes.",
+     "examples": [
+      "He died a violent death at the hands of robbers."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01518224-s": {
+     "learner": "of colours or sounds: very bright and strong, or very loud.",
+     "examples": [
+      "She wore a dress of a violent pink that hurt the eyes."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "may judge a colour or sound as too harsh, against 'vivid'"
+     }
+    }
+   }
+  },
+  {
+   "word": "humble",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01597282-s": {
+     "learner": "born into, or holding, a low place in society.",
+     "examples": [
+      "Though he was of humble birth, he married a rich man's daughter."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "gentler than 'base' or 'lowborn' for the same station"
+     }
+    },
+    "oewn-02237706-s": {
+     "learner": "describing simple work that needs no special skill, especially work done in a house.",
+     "examples": [
+      "She took humble jobs, washing floors and scrubbing pots."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "softer than 'menial' for the same work"
+     }
+    }
+   }
+  },
+  {
+   "word": "material",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01490990-a": {
+     "learner": "directly connected to the matter being dealt with, especially a case in a court of law.",
+     "examples": [
+      "The judge ruled that the letter was material to the case.",
+      "He kept back facts that were material to the inquiry."
+     ],
+     "usage_labels": [
+      "formal"
+     ],
+     "connotation": null
+    },
+    "oewn-02588172-s": {
+     "learner": "having to do with the things of this world rather than with matters of the spirit.",
+     "examples": [
+      "The monks turned away from material things to seek God."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00632838-a": {
+     "learner": "having a real physical form or substance.",
+     "examples": [
+      "Angels were thought to have no material body."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01783738-s": {
+     "learner": "having to do with or affecting the well-being of the body, as opposed to the well-being of the mind or feelings.",
+     "examples": [
+      "Food and shelter are our most basic material needs."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00629641-a": {
+     "learner": "made of, or coming from, matter.",
+     "examples": [
+      "Stars and planets are part of the material universe."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00628097-a": {
+     "learner": "having real substance, or able to be treated as fact; not imagined.",
+     "examples": [
+      "The danger was material, not something he had dreamed up."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "disposed",
+   "pos": "adjective",
+   "senses": {
+    "oewn-02576155-s": {
+     "learner": "having got everything ready; prepared.",
+     "examples": [
+      "The army stood disposed for the attack, every man in his place."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "entail",
+   "pos": "verb",
+   "senses": {
+    "oewn-02368233-v": {
+     "learner": "to limit who can inherit a piece of property to one particular group of heirs.",
+     "examples": [
+      "There is no knowing how estates will go when once they come to be entailed.",
+      "Your father's estate is entailed on Mr. Collins, I think?"
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-02640889-v": {
+     "learner": "to force, include, or suggest something as a part or result that must come along with it.",
+     "examples": [
+      "The new job will entail a lot of travel."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02641270-v": {
+     "learner": "to have something as a result that follows by logic.",
+     "examples": [
+      "Being a square entails having four sides."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "future",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01736519-a": {
+     "learner": "still to come or still to exist; not here yet.",
+     "examples": [
+      "his prospects of future wealth were exceedingly fair.",
+      "I singled you out as the companion of my future life."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01890452-s": {
+     "learner": "taking effect later on, or looking ahead to the time that is still to come",
+     "examples": [
+      "The team spent the whole morning on future planning."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03004422-a": {
+     "learner": "used of a verb tense or other form that talks about things that have not happened yet.",
+     "examples": [
+      "In 'she will sing', the verb is in the future tense."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-01298098-s": {
+     "learner": "of a person chosen in an election: chosen but not yet in office.",
+     "examples": [
+      "The future mayor, elected last week, will take office in January."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "grave",
+   "pos": "adjective",
+   "senses": {
+    "oewn-02126493-s": {
+     "learner": "serious, dignified and solemn in manner or character, and careful to keep your promises.",
+     "examples": [
+      "His air was grave and stately, and his manners were very formal.",
+      "her husband looked impenetrably grave"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01281533-s": {
+     "learner": "very serious or very important, and needing careful thought.",
+     "examples": [
+      "She had to make a grave choice between her family and her work."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "guess",
+   "pos": "verb",
+   "senses": {
+    "oewn-00637723-v": {
+     "learner": "to guess the right answer; to work something out by guessing.",
+     "examples": [
+      "if you cannot guess with who, I shall think you a simpleton",
+      "Elizabeth, immediately recognizing the livery, guessed what it meant"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00674352-v": {
+     "learner": "to judge without being sure, or to roughly work out, an amount or a length of time.",
+     "examples": [
+      "She guessed the distance at about two miles."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00918880-v": {
+     "learner": "to offer a guess even though it may be shown to be wrong.",
+     "examples": [
+      "Nobody knew the answer, so I guessed, knowing I might be wrong."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "indignation",
+   "pos": "noun",
+   "senses": {
+    "oewn-07532976-n": {
+     "learner": "anger that you feel because you believe something is wrong or unfair.",
+     "examples": [
+      "Elizabeth made no answer, and walked on, her heart swelling with indignation.",
+      "heard it in silent indignation."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "frames the anger as morally in the right, against plain 'anger'"
+     }
+    }
+   }
+  }
+ ]
+}

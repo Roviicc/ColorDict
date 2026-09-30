@@ -1,32 +1,133 @@
-{"packet": 8, "entries": [
- {"word": "arm", "pos": "noun",
-  "order": ["oewn-05571403-n", "oewn-04572661-n", "oewn-02740665-n", "oewn-02740838-n", "oewn-08418205-n", "oewn-04243483-n"],
-  "met": ["oewn-05571403-n"]},
- {"word": "branch", "pos": "noun",
-  "order": ["oewn-08418205-n", "oewn-13184148-n", "oewn-09251231-n", "oewn-13936864-n", "oewn-11435835-n", "oewn-02740838-n"],
-  "met": ["oewn-08418205-n"]},
- {"word": "content", "pos": "verb",
-  "order": ["oewn-01196771-v", "oewn-01820811-v"],
-  "met": ["oewn-01196771-v"]},
- {"word": "defend", "pos": "verb",
-  "order": ["oewn-00896689-v", "oewn-01132302-v", "oewn-01130221-v", "oewn-01151604-v", "oewn-01093838-v", "oewn-02587760-v", "oewn-01019652-v"],
-  "met": ["oewn-00896689-v"]},
- {"word": "ensue", "pos": "verb",
-  "order": ["oewn-02640346-v"],
-  "met": []},
- {"word": "execution", "pos": "noun",
-  "order": ["oewn-00098324-n", "oewn-01129700-n", "oewn-01166269-n", "oewn-13498665-n", "oewn-06566069-n", "oewn-06565837-n", "oewn-00221389-n"],
-  "met": ["oewn-00098324-n"]},
- {"word": "honestly", "pos": "adverb",
-  "order": ["oewn-00315777-r", "oewn-00316228-r"],
-  "met": ["oewn-00315777-r"]},
- {"word": "imprudent", "pos": "adjective",
-  "order": ["oewn-01905427-a", "oewn-00777014-s"],
-  "met": ["oewn-01905427-a"]},
- {"word": "inconvenient", "pos": "adjective",
-  "order": ["oewn-00607505-a", "oewn-01666849-s"],
-  "met": ["oewn-00607505-a"]},
- {"word": "nervous", "pos": "adjective",
-  "order": ["oewn-02915824-a", "oewn-02465209-s", "oewn-02415704-s", "oewn-00922927-s", "oewn-00922269-s"],
-  "met": ["oewn-02915824-a"]}
-]}
+{
+ "packet": 8,
+ "entries": [
+  {
+   "word": "arm",
+   "pos": "noun",
+   "order": [
+    "oewn-05571403-n",
+    "oewn-04572661-n",
+    "oewn-02740665-n",
+    "oewn-02740838-n",
+    "oewn-08418205-n",
+    "oewn-04243483-n"
+   ],
+   "met": [
+    "oewn-05571403-n"
+   ]
+  },
+  {
+   "word": "branch",
+   "pos": "noun",
+   "order": [
+    "oewn-08418205-n",
+    "oewn-13184148-n",
+    "oewn-09251231-n",
+    "oewn-13936864-n",
+    "oewn-11435835-n",
+    "oewn-02740838-n"
+   ],
+   "met": [
+    "oewn-08418205-n"
+   ]
+  },
+  {
+   "word": "content",
+   "pos": "verb",
+   "order": [
+    "oewn-01196771-v",
+    "oewn-01820811-v"
+   ],
+   "met": [
+    "oewn-01196771-v"
+   ]
+  },
+  {
+   "word": "defend",
+   "pos": "verb",
+   "order": [
+    "oewn-00896689-v",
+    "oewn-01132302-v",
+    "oewn-01130221-v",
+    "oewn-01151604-v",
+    "oewn-01093838-v",
+    "oewn-02587760-v",
+    "oewn-01019652-v"
+   ],
+   "met": [
+    "oewn-00896689-v"
+   ]
+  },
+  {
+   "word": "ensue",
+   "pos": "verb",
+   "order": [
+    "oewn-02640346-v"
+   ],
+   "met": []
+  },
+  {
+   "word": "execution",
+   "pos": "noun",
+   "order": [
+    "oewn-00098324-n",
+    "oewn-01129700-n",
+    "oewn-01166269-n",
+    "oewn-13498665-n",
+    "oewn-06566069-n",
+    "oewn-06565837-n",
+    "oewn-00221389-n"
+   ],
+   "met": [
+    "oewn-00098324-n"
+   ]
+  },
+  {
+   "word": "honestly",
+   "pos": "adverb",
+   "order": [
+    "oewn-00315777-r",
+    "oewn-00316228-r"
+   ],
+   "met": [
+    "oewn-00315777-r"
+   ]
+  },
+  {
+   "word": "imprudent",
+   "pos": "adjective",
+   "order": [
+    "oewn-01905427-a",
+    "oewn-00777014-s"
+   ],
+   "met": [
+    "oewn-01905427-a"
+   ]
+  },
+  {
+   "word": "inconvenient",
+   "pos": "adjective",
+   "order": [
+    "oewn-00607505-a",
+    "oewn-01666849-s"
+   ],
+   "met": [
+    "oewn-00607505-a"
+   ]
+  },
+  {
+   "word": "nervous",
+   "pos": "adjective",
+   "order": [
+    "oewn-02915824-a",
+    "oewn-02465209-s",
+    "oewn-02415704-s",
+    "oewn-00922927-s",
+    "oewn-00922269-s"
+   ],
+   "met": [
+    "oewn-02915824-a"
+   ]
+  }
+ ]
+}

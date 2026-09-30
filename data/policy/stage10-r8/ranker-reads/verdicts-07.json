@@ -1,32 +1,126 @@
-{"packet": 7, "entries": [
- {"word": "proportion", "pos": "noun",
-  "order": ["oewn-13837661-n", "oewn-13837954-n", "oewn-05098398-n", "oewn-05083996-n", "oewn-13921008-n"],
-  "met": ["oewn-13837661-n"]},
- {"word": "sad", "pos": "adjective",
-  "order": ["oewn-01130672-s", "oewn-01364779-a", "oewn-01369193-s"],
-  "met": ["oewn-01130672-s"]},
- {"word": "subsist", "pos": "verb",
-  "order": ["oewn-02622766-v"],
-  "met": []},
- {"word": "sum", "pos": "noun",
-  "order": ["oewn-13352213-n", "oewn-05869651-n", "oewn-04360881-n", "oewn-07975630-n", "oewn-05929717-n", "oewn-08015154-n"],
-  "met": ["oewn-13352213-n"]},
- {"word": "tranquillity", "pos": "noun",
-  "order": ["oewn-04911529-n", "oewn-13992548-n", "oewn-07530799-n"],
-  "met": ["oewn-04911529-n"]},
- {"word": "trifling", "pos": "noun",
-  "order": ["oewn-01069743-n"],
-  "met": []},
- {"word": "vestibule", "pos": "noun",
-  "order": ["oewn-02718424-n", "oewn-05312102-n"],
-  "met": ["oewn-02718424-n"]},
- {"word": "abominably", "pos": "adverb",
-  "order": ["oewn-00055639-r", "oewn-00311025-r"],
-  "met": ["oewn-00055639-r"]},
- {"word": "activity", "pos": "noun",
-  "order": ["oewn-04642461-n", "oewn-00408356-n", "oewn-14030430-n", "oewn-13540166-n", "oewn-13461236-n", "oewn-14554805-n"],
-  "met": ["oewn-04642461-n"]},
- {"word": "animation", "pos": "noun",
-  "order": ["oewn-04639057-n", "oewn-00553473-n", "oewn-00910103-n", "oewn-01050390-n", "oewn-13984978-n", "oewn-05012993-n"],
-  "met": ["oewn-04639057-n"]}
-]}
+{
+ "packet": 7,
+ "entries": [
+  {
+   "word": "proportion",
+   "pos": "noun",
+   "order": [
+    "oewn-13837661-n",
+    "oewn-13837954-n",
+    "oewn-05098398-n",
+    "oewn-05083996-n",
+    "oewn-13921008-n"
+   ],
+   "met": [
+    "oewn-13837661-n"
+   ]
+  },
+  {
+   "word": "sad",
+   "pos": "adjective",
+   "order": [
+    "oewn-01130672-s",
+    "oewn-01364779-a",
+    "oewn-01369193-s"
+   ],
+   "met": [
+    "oewn-01130672-s"
+   ]
+  },
+  {
+   "word": "subsist",
+   "pos": "verb",
+   "order": [
+    "oewn-02622766-v"
+   ],
+   "met": []
+  },
+  {
+   "word": "sum",
+   "pos": "noun",
+   "order": [
+    "oewn-13352213-n",
+    "oewn-05869651-n",
+    "oewn-04360881-n",
+    "oewn-07975630-n",
+    "oewn-05929717-n",
+    "oewn-08015154-n"
+   ],
+   "met": [
+    "oewn-13352213-n"
+   ]
+  },
+  {
+   "word": "tranquillity",
+   "pos": "noun",
+   "order": [
+    "oewn-04911529-n",
+    "oewn-13992548-n",
+    "oewn-07530799-n"
+   ],
+   "met": [
+    "oewn-04911529-n"
+   ]
+  },
+  {
+   "word": "trifling",
+   "pos": "noun",
+   "order": [
+    "oewn-01069743-n"
+   ],
+   "met": []
+  },
+  {
+   "word": "vestibule",
+   "pos": "noun",
+   "order": [
+    "oewn-02718424-n",
+    "oewn-05312102-n"
+   ],
+   "met": [
+    "oewn-02718424-n"
+   ]
+  },
+  {
+   "word": "abominably",
+   "pos": "adverb",
+   "order": [
+    "oewn-00055639-r",
+    "oewn-00311025-r"
+   ],
+   "met": [
+    "oewn-00055639-r"
+   ]
+  },
+  {
+   "word": "activity",
+   "pos": "noun",
+   "order": [
+    "oewn-04642461-n",
+    "oewn-00408356-n",
+    "oewn-14030430-n",
+    "oewn-13540166-n",
+    "oewn-13461236-n",
+    "oewn-14554805-n"
+   ],
+   "met": [
+    "oewn-04642461-n"
+   ]
+  },
+  {
+   "word": "animation",
+   "pos": "noun",
+   "order": [
+    "oewn-04639057-n",
+    "oewn-00553473-n",
+    "oewn-00910103-n",
+    "oewn-01050390-n",
+    "oewn-13984978-n",
+    "oewn-05012993-n"
+   ],
+   "met": [
+    "oewn-04639057-n"
+   ]
+  }
+ ]
+}

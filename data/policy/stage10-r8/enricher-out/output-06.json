@@ -1,124 +1,292 @@
-{"packet": 6, "entries": [
- {"word": "bitterness", "pos": "noun",
-  "senses": {
-   "oewn-04650754-n": {"learner": "a rough, sharp and bitter way of speaking or acting.",
-                       "examples": ["She spoke with such bitterness that nobody dared to answer her."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "sour, hostile manner set against plain sharpness or tartness"}},
-   "oewn-05725062-n": {"learner": "the taste you get when something like strong coffee or quinine medicine is in your mouth.",
-                       "examples": ["The bitterness of the black coffee made her face twist."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05002002-n": {"learner": "the quality of having a harsh, unpleasant taste.",
-                       "examples": ["The bitterness of these wild lemons makes them hard to eat."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "complacency", "pos": "noun",
-  "senses": {
-   "oewn-07547101-n": {"learner": "the feeling you have when you are pleased and satisfied with yourself.",
-                       "examples": ["After the easy first win, his complacency showed in every move he made."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "self-satisfaction set against plain contentment"}}
-  }},
- {"word": "convenient", "pos": "adjective",
-  "senses": {
-   "oewn-00607261-a": {"learner": "fitting well with your comfort, your purpose, or your needs.",
-                       "examples": ["Elizabeth saw what he was doing, and at the first convenient pause turned to him with an arch smile", "It was rather small, but well built and convenient"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00477986-a": {"learner": "large, with plenty of room.",
-                       "examples": ["The house was very convenient, with wide halls and many large rooms."],
-                       "usage_labels": ["archaic"],
-                       "connotation": null}
-  }},
- {"word": "defer", "pos": "verb",
-  "senses": {
-   "oewn-02648898-v": {"learner": "to put something off until a later time.",
-                       "examples": ["and till the morrow their going was deferred.", "perhaps I may defer it till Kitty runs away."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00879879-v": {"learner": "to give way to what someone else wants or thinks.",
-                       "examples": ["On questions of law, she always deferred to her older brother."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "yielding framed as respect, set against give in or submit"}}
-  }},
- {"word": "disdain", "pos": "noun",
-  "senses": {
-   "oewn-07518219-n": {"learner": "a feeling of having no respect for someone or something, together with a strong dislike.",
-                       "examples": ["said Elizabeth, colouring with astonishment and disdain", "with an expression of civil disdain, thus accosted her"],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "set against contempt, scorn and plain dislike"}},
-   "oewn-06732153-n": {"learner": "something said or written to a person that shows no respect for them by talking down to them.",
-                       "examples": ["His letter was polite disdain from start to finish, explaining simple things to her as if to a child."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "set against condescension and patronage"}}
-  }},
- {"word": "economy", "pos": "noun",
-  "senses": {
-   "oewn-04900982-n": {"learner": "being careful not to spend more money or use more things than you need.",
-                       "examples": ["Mrs. Bennet had no turn for economy", "When first Mr. Bennet had married, economy was held to be perfectly useless"],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "careful spending set against thrift, stinginess and meanness"}},
-   "oewn-08383680-n": {"learner": "the whole system by which goods are made, shared out, and used.",
-                       "examples": ["The country's economy grew quickly after the war."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05652572-n": {"learner": "using what you have well, without waste.",
-                       "examples": ["The old dancer moved with great economy, never wasting a step."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00193462-n": {"learner": "something done to save money; a cut in what something costs.",
-                       "examples": ["Walking to work every day was one small economy she made."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "enable", "pos": "verb",
-  "senses": {
-   "oewn-00513958-v": {"learner": "to make someone or something able to do a task.",
-                       "examples": ["Nothing but concern for Elizabeth could enable Bingley to keep his countenance.", "these four evenings have enabled them to ascertain that they both like Vingt-un better than Commerce"],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "hasty", "pos": "adjective",
-  "senses": {
-   "oewn-01273978-s": {"learner": "done very fast and without enough careful thought.",
-                       "examples": ["I would wish not to be hasty in censuring anyone", "It was a hasty decision, and she soon regretted it."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "speed blamed as thoughtless, set against quick"}},
-   "oewn-01273814-s": {"learner": "much too quick.",
-                       "examples": ["Elizabeth jumped out; and after giving each of them a hasty kiss, hurried into the vestibule"],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "too quick, set against quick or brief"}}
-  }},
- {"word": "imagination", "pos": "noun",
-  "senses": {
-   "oewn-05775730-n": {"learner": "the power of your mind to make pictures of things or events.",
-                       "examples": ["Lakes, mountains, and rivers, shall not be jumbled together in our imaginations"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05633248-n": {"learner": "making a picture in your mind of something that is not real and not there for your senses.",
-                       "examples": ["indulge your imagination in every possible flight which the subject will afford", "In Lydia's imagination, a visit to Brighton comprised every possibility of earthly happiness."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05641705-n": {"learner": "the ability to find clever ways to deal with problems that are not usual.",
-                       "examples": ["Mending the boat with only a rope and an old shoe took real imagination."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "mercenary", "pos": "adjective",
-  "senses": {
-   "oewn-02588345-s": {"learner": "caring most about money and the things it can buy.",
-                       "examples": ["I should be sorry to think our friend mercenary.", "He shall be mercenary, and she shall be foolish."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "money-minded, set against prudent or materialistic"}},
-   "oewn-00485804-s": {"learner": "aimed at making a profit.",
-                       "examples": ["The little village fair had turned into a mercenary enterprise."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "set against commercial or moneymaking"}},
-   "oewn-01713534-s": {"learner": "fighting for pay in the army of a country that is not your own.",
-                       "examples": ["The king hired mercenary soldiers from abroad."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "hired soldier set against freelance"}}
-  }}
-]}
+{
+ "packet": 6,
+ "entries": [
+  {
+   "word": "bitterness",
+   "pos": "noun",
+   "senses": {
+    "oewn-04650754-n": {
+     "learner": "a rough, sharp and bitter way of speaking or acting.",
+     "examples": [
+      "She spoke with such bitterness that nobody dared to answer her."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "sour, hostile manner set against plain sharpness or tartness"
+     }
+    },
+    "oewn-05725062-n": {
+     "learner": "the taste you get when something like strong coffee or quinine medicine is in your mouth.",
+     "examples": [
+      "The bitterness of the black coffee made her face twist."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05002002-n": {
+     "learner": "the quality of having a harsh, unpleasant taste.",
+     "examples": [
+      "The bitterness of these wild lemons makes them hard to eat."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "complacency",
+   "pos": "noun",
+   "senses": {
+    "oewn-07547101-n": {
+     "learner": "the feeling you have when you are pleased and satisfied with yourself.",
+     "examples": [
+      "After the easy first win, his complacency showed in every move he made."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "self-satisfaction set against plain contentment"
+     }
+    }
+   }
+  },
+  {
+   "word": "convenient",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00607261-a": {
+     "learner": "fitting well with your comfort, your purpose, or your needs.",
+     "examples": [
+      "Elizabeth saw what he was doing, and at the first convenient pause turned to him with an arch smile",
+      "It was rather small, but well built and convenient"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00477986-a": {
+     "learner": "large, with plenty of room.",
+     "examples": [
+      "The house was very convenient, with wide halls and many large rooms."
+     ],
+     "usage_labels": [
+      "archaic"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "defer",
+   "pos": "verb",
+   "senses": {
+    "oewn-02648898-v": {
+     "learner": "to put something off until a later time.",
+     "examples": [
+      "and till the morrow their going was deferred.",
+      "perhaps I may defer it till Kitty runs away."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00879879-v": {
+     "learner": "to give way to what someone else wants or thinks.",
+     "examples": [
+      "On questions of law, she always deferred to her older brother."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "yielding framed as respect, set against give in or submit"
+     }
+    }
+   }
+  },
+  {
+   "word": "disdain",
+   "pos": "noun",
+   "senses": {
+    "oewn-07518219-n": {
+     "learner": "a feeling of having no respect for someone or something, together with a strong dislike.",
+     "examples": [
+      "said Elizabeth, colouring with astonishment and disdain",
+      "with an expression of civil disdain, thus accosted her"
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "set against contempt, scorn and plain dislike"
+     }
+    },
+    "oewn-06732153-n": {
+     "learner": "something said or written to a person that shows no respect for them by talking down to them.",
+     "examples": [
+      "His letter was polite disdain from start to finish, explaining simple things to her as if to a child."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "set against condescension and patronage"
+     }
+    }
+   }
+  },
+  {
+   "word": "economy",
+   "pos": "noun",
+   "senses": {
+    "oewn-04900982-n": {
+     "learner": "being careful not to spend more money or use more things than you need.",
+     "examples": [
+      "Mrs. Bennet had no turn for economy",
+      "When first Mr. Bennet had married, economy was held to be perfectly useless"
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "careful spending set against thrift, stinginess and meanness"
+     }
+    },
+    "oewn-08383680-n": {
+     "learner": "the whole system by which goods are made, shared out, and used.",
+     "examples": [
+      "The country's economy grew quickly after the war."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05652572-n": {
+     "learner": "using what you have well, without waste.",
+     "examples": [
+      "The old dancer moved with great economy, never wasting a step."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00193462-n": {
+     "learner": "something done to save money; a cut in what something costs.",
+     "examples": [
+      "Walking to work every day was one small economy she made."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "enable",
+   "pos": "verb",
+   "senses": {
+    "oewn-00513958-v": {
+     "learner": "to make someone or something able to do a task.",
+     "examples": [
+      "Nothing but concern for Elizabeth could enable Bingley to keep his countenance.",
+      "these four evenings have enabled them to ascertain that they both like Vingt-un better than Commerce"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "hasty",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01273978-s": {
+     "learner": "done very fast and without enough careful thought.",
+     "examples": [
+      "I would wish not to be hasty in censuring anyone",
+      "It was a hasty decision, and she soon regretted it."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "speed blamed as thoughtless, set against quick"
+     }
+    },
+    "oewn-01273814-s": {
+     "learner": "much too quick.",
+     "examples": [
+      "Elizabeth jumped out; and after giving each of them a hasty kiss, hurried into the vestibule"
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "too quick, set against quick or brief"
+     }
+    }
+   }
+  },
+  {
+   "word": "imagination",
+   "pos": "noun",
+   "senses": {
+    "oewn-05775730-n": {
+     "learner": "the power of your mind to make pictures of things or events.",
+     "examples": [
+      "Lakes, mountains, and rivers, shall not be jumbled together in our imaginations"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05633248-n": {
+     "learner": "making a picture in your mind of something that is not real and not there for your senses.",
+     "examples": [
+      "indulge your imagination in every possible flight which the subject will afford",
+      "In Lydia's imagination, a visit to Brighton comprised every possibility of earthly happiness."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05641705-n": {
+     "learner": "the ability to find clever ways to deal with problems that are not usual.",
+     "examples": [
+      "Mending the boat with only a rope and an old shoe took real imagination."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "mercenary",
+   "pos": "adjective",
+   "senses": {
+    "oewn-02588345-s": {
+     "learner": "caring most about money and the things it can buy.",
+     "examples": [
+      "I should be sorry to think our friend mercenary.",
+      "He shall be mercenary, and she shall be foolish."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "money-minded, set against prudent or materialistic"
+     }
+    },
+    "oewn-00485804-s": {
+     "learner": "aimed at making a profit.",
+     "examples": [
+      "The little village fair had turned into a mercenary enterprise."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "set against commercial or moneymaking"
+     }
+    },
+    "oewn-01713534-s": {
+     "learner": "fighting for pay in the army of a country that is not your own.",
+     "examples": [
+      "The king hired mercenary soldiers from abroad."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "hired soldier set against freelance"
+     }
+    }
+   }
+  }
+ ]
+}

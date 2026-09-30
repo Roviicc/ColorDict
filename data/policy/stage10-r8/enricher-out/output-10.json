@@ -1,96 +1,204 @@
-{"packet": 10, "entries": [
- {"word": "incivility", "pos": "noun",
-  "senses": {
-   "oewn-04922542-n": {"learner": "rudeness that someone shows on purpose",
-                       "examples": ["Consoled by this resolution, she was the better able to bear her husband's incivility.", "Was not this some excuse for incivility, if I was uncivil?"],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "mantel", "pos": "noun",
-  "senses": {
-   "oewn-03724882-n": {"learner": "a shelf that sticks out from the wall above a fireplace",
-                       "examples": ["She put the old clock back on the mantel above the fire."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "misunderstand", "pos": "verb",
-  "senses": {
-   "oewn-00621541-v": {"learner": "to take the wrong meaning from what someone says or does",
-                       "examples": ["\"Sir, you quite misunderstand me,\" said Mrs. Bennet, alarmed.", "\"And yours,\" he replied, with a smile, \"is wilfully to misunderstand them.\""],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "odious", "pos": "adjective",
-  "senses": {
-   "oewn-01463601-s": {"learner": "so hateful that there is no doubt about it",
-                       "examples": ["Pray do not talk of that odious man.", "The sight of Miss Lucas was odious to her."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "condemns its target as deserving hatred, beyond plain dislike"}}
-  }},
- {"word": "privilege", "pos": "noun",
-  "senses": {
-   "oewn-05165679-n": {"learner": "a special advantage, freedom from a rule, or benefit that not everyone has",
-                       "examples": ["No one admitted to the privilege of hearing you can think anything wanting."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05186242-n": {"learner": "a right that belongs only to one person or group, especially one that comes from their family or their official position",
-                       "examples": ["Do not be afraid of my running into any excess, of my encroaching on your privilege of universal good-will."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05187094-n": {"learner": "in law, the right to refuse to tell information that you learned in a private relationship of trust",
-                       "examples": ["The lawyer claimed privilege and would not say what her client had told her."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "silently", "pos": "adverb",
-  "senses": {
-   "oewn-00112833-r": {"learner": "without saying anything",
-                       "examples": ["Darcy professed a great curiosity to see the view from the Mount, and Elizabeth silently consented.", "Elizabeth silently attended her."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "speedy", "pos": "adjective",
-  "senses": {
-   "oewn-00982557-s": {"learner": "done quickly and without any delay",
-                       "examples": ["Mr. Bennet, who could by no means wish for so speedy a return, immediately said", "request that he will satisfy the various creditors of Mr. Wickham in and near Brighton with assurances of speedy payment"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00983053-s": {"learner": "fast; moving, or able to move, very quickly",
-                       "examples": ["The speedy little dog soon caught up with the ball."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "view", "pos": "verb",
-  "senses": {
-   "oewn-02155378-v": {"learner": "to see or watch something",
-                       "examples": ["Millions of people viewed the match on television."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00692380-v": {"learner": "to think of someone or something as being a certain thing",
-                       "examples": ["but for the mortifying supposition of his viewing it all as his own future property."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02134765-v": {"learner": "to look at something carefully, or to think about it carefully",
-                       "examples": ["Before deciding, she viewed the problem from every side."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "wonderful", "pos": "adjective",
-  "senses": {
-   "oewn-01681111-s": {"learner": "extremely good or great, often said just to make your words stronger",
-                       "examples": ["We had a wonderful time at the party."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "worthy", "pos": "adjective",
-  "senses": {
-   "oewn-01024736-s": {"learner": "having qualities or abilities that deserve some kind of notice or response",
-                       "examples": ["You showed me how insufficient were all my pretensions to please a woman worthy of being pleased."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00855376-s": {"learner": "good enough to be chosen, especially as a husband or wife",
-                       "examples": ["I could not have parted with you, my Lizzy, to anyone less worthy.", "Her parents agreed that he was a worthy husband for her."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 10,
+ "entries": [
+  {
+   "word": "incivility",
+   "pos": "noun",
+   "senses": {
+    "oewn-04922542-n": {
+     "learner": "rudeness that someone shows on purpose",
+     "examples": [
+      "Consoled by this resolution, she was the better able to bear her husband's incivility.",
+      "Was not this some excuse for incivility, if I was uncivil?"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "mantel",
+   "pos": "noun",
+   "senses": {
+    "oewn-03724882-n": {
+     "learner": "a shelf that sticks out from the wall above a fireplace",
+     "examples": [
+      "She put the old clock back on the mantel above the fire."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "misunderstand",
+   "pos": "verb",
+   "senses": {
+    "oewn-00621541-v": {
+     "learner": "to take the wrong meaning from what someone says or does",
+     "examples": [
+      "\"Sir, you quite misunderstand me,\" said Mrs. Bennet, alarmed.",
+      "\"And yours,\" he replied, with a smile, \"is wilfully to misunderstand them.\""
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "odious",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01463601-s": {
+     "learner": "so hateful that there is no doubt about it",
+     "examples": [
+      "Pray do not talk of that odious man.",
+      "The sight of Miss Lucas was odious to her."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "condemns its target as deserving hatred, beyond plain dislike"
+     }
+    }
+   }
+  },
+  {
+   "word": "privilege",
+   "pos": "noun",
+   "senses": {
+    "oewn-05165679-n": {
+     "learner": "a special advantage, freedom from a rule, or benefit that not everyone has",
+     "examples": [
+      "No one admitted to the privilege of hearing you can think anything wanting."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05186242-n": {
+     "learner": "a right that belongs only to one person or group, especially one that comes from their family or their official position",
+     "examples": [
+      "Do not be afraid of my running into any excess, of my encroaching on your privilege of universal good-will."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05187094-n": {
+     "learner": "in law, the right to refuse to tell information that you learned in a private relationship of trust",
+     "examples": [
+      "The lawyer claimed privilege and would not say what her client had told her."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "silently",
+   "pos": "adverb",
+   "senses": {
+    "oewn-00112833-r": {
+     "learner": "without saying anything",
+     "examples": [
+      "Darcy professed a great curiosity to see the view from the Mount, and Elizabeth silently consented.",
+      "Elizabeth silently attended her."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "speedy",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00982557-s": {
+     "learner": "done quickly and without any delay",
+     "examples": [
+      "Mr. Bennet, who could by no means wish for so speedy a return, immediately said",
+      "request that he will satisfy the various creditors of Mr. Wickham in and near Brighton with assurances of speedy payment"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00983053-s": {
+     "learner": "fast; moving, or able to move, very quickly",
+     "examples": [
+      "The speedy little dog soon caught up with the ball."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "view",
+   "pos": "verb",
+   "senses": {
+    "oewn-02155378-v": {
+     "learner": "to see or watch something",
+     "examples": [
+      "Millions of people viewed the match on television."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00692380-v": {
+     "learner": "to think of someone or something as being a certain thing",
+     "examples": [
+      "but for the mortifying supposition of his viewing it all as his own future property."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02134765-v": {
+     "learner": "to look at something carefully, or to think about it carefully",
+     "examples": [
+      "Before deciding, she viewed the problem from every side."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "wonderful",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01681111-s": {
+     "learner": "extremely good or great, often said just to make your words stronger",
+     "examples": [
+      "We had a wonderful time at the party."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "worthy",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01024736-s": {
+     "learner": "having qualities or abilities that deserve some kind of notice or response",
+     "examples": [
+      "You showed me how insufficient were all my pretensions to please a woman worthy of being pleased."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00855376-s": {
+     "learner": "good enough to be chosen, especially as a husband or wife",
+     "examples": [
+      "I could not have parted with you, my Lizzy, to anyone less worthy.",
+      "Her parents agreed that he was a worthy husband for her."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

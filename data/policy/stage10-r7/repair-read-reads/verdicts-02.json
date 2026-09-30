@@ -1,0 +1,13 @@
+{"packet": 2, "verdicts": [
+ {"word": "answer", "pos": "verb",
+  "rank": "right", "why": "The verb uses in the sentences (\"She answered in the affirmative\", \"She answered him in the usual way\") are spoken replies, which is the first sense 'react verbally'.",
+  "senses": [
+   {"synset": "oewn-02675578-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'enough' and 'good enough' and both quantity and quality; the example uses 'will answer' in the be-sufficient sense."},
+   {"synset": "oewn-01186429-v", "verdict": "right", "fault": null, "why": "Learner line covers 'satisfactory for', 'meet requirements' and 'serve the purpose'; the example 'will answer our needs' fits."},
+   {"synset": "oewn-02751892-v", "verdict": "right", "fault": null, "why": "Responsible or must explain and face what follows is a fair plain rendering of liable or accountable; 'answer for' fits, and null connotation is acceptable as the sense describes a duty."},
+   {"synset": "oewn-00816833-v", "verdict": "right", "fault": null, "why": "Learner line keeps both defence and refutation of a charge or argument; the example answers charges one by one in that sense."},
+   {"synset": "oewn-02664648-v", "verdict": "right", "fault": null, "why": "'Match, or be in agreement with' renders 'match or correspond'; 'answered to the description' is the correct sense."},
+   {"synset": "oewn-00720232-v", "verdict": "right", "fault": null, "why": "Clumsy but faithful to 'react to a stimulus or command'; the horse answering the rein is a reaction to a stimulus."},
+   {"synset": "oewn-00637185-v", "verdict": "wrong", "fault": "example-wrong-sense", "why": "The example 'could answer it in her own mind' after puzzling over behaviour reads as solving or resolving a puzzle (the give-the-solution sense), not 'understand the meaning of'; the learner line itself is faithful."}
+  ]}
+]}

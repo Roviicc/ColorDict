@@ -1,32 +1,111 @@
-{"packet": 10, "entries": [
- {"word": "incivility", "pos": "noun",
-  "order": ["oewn-04922542-n"],
-  "met": ["oewn-04922542-n"]},
- {"word": "mantel", "pos": "noun",
-  "order": ["oewn-03724882-n"],
-  "met": ["oewn-03724882-n"]},
- {"word": "misunderstand", "pos": "verb",
-  "order": ["oewn-00621541-v"],
-  "met": ["oewn-00621541-v"]},
- {"word": "odious", "pos": "adjective",
-  "order": ["oewn-01463601-s"],
-  "met": ["oewn-01463601-s"]},
- {"word": "privilege", "pos": "noun",
-  "order": ["oewn-05165679-n", "oewn-05186242-n", "oewn-05187094-n"],
-  "met": ["oewn-05165679-n"]},
- {"word": "silently", "pos": "adverb",
-  "order": ["oewn-00112833-r"],
-  "met": ["oewn-00112833-r"]},
- {"word": "speedy", "pos": "adjective",
-  "order": ["oewn-00982557-s", "oewn-00983053-s"],
-  "met": ["oewn-00982557-s"]},
- {"word": "view", "pos": "verb",
-  "order": ["oewn-02155378-v", "oewn-00692380-v", "oewn-02134765-v"],
-  "met": ["oewn-02155378-v", "oewn-00692380-v"]},
- {"word": "wonderful", "pos": "adjective",
-  "order": ["oewn-01681111-s"],
-  "met": []},
- {"word": "worthy", "pos": "adjective",
-  "order": ["oewn-01024736-s", "oewn-02595419-a", "oewn-00855376-s"],
-  "met": ["oewn-01024736-s"]}
-]}
+{
+ "packet": 10,
+ "entries": [
+  {
+   "word": "incivility",
+   "pos": "noun",
+   "order": [
+    "oewn-04922542-n"
+   ],
+   "met": [
+    "oewn-04922542-n"
+   ]
+  },
+  {
+   "word": "mantel",
+   "pos": "noun",
+   "order": [
+    "oewn-03724882-n"
+   ],
+   "met": [
+    "oewn-03724882-n"
+   ]
+  },
+  {
+   "word": "misunderstand",
+   "pos": "verb",
+   "order": [
+    "oewn-00621541-v"
+   ],
+   "met": [
+    "oewn-00621541-v"
+   ]
+  },
+  {
+   "word": "odious",
+   "pos": "adjective",
+   "order": [
+    "oewn-01463601-s"
+   ],
+   "met": [
+    "oewn-01463601-s"
+   ]
+  },
+  {
+   "word": "privilege",
+   "pos": "noun",
+   "order": [
+    "oewn-05165679-n",
+    "oewn-05186242-n",
+    "oewn-05187094-n"
+   ],
+   "met": [
+    "oewn-05165679-n"
+   ]
+  },
+  {
+   "word": "silently",
+   "pos": "adverb",
+   "order": [
+    "oewn-00112833-r"
+   ],
+   "met": [
+    "oewn-00112833-r"
+   ]
+  },
+  {
+   "word": "speedy",
+   "pos": "adjective",
+   "order": [
+    "oewn-00982557-s",
+    "oewn-00983053-s"
+   ],
+   "met": [
+    "oewn-00982557-s"
+   ]
+  },
+  {
+   "word": "view",
+   "pos": "verb",
+   "order": [
+    "oewn-02155378-v",
+    "oewn-00692380-v",
+    "oewn-02134765-v"
+   ],
+   "met": [
+    "oewn-02155378-v",
+    "oewn-00692380-v"
+   ]
+  },
+  {
+   "word": "wonderful",
+   "pos": "adjective",
+   "order": [
+    "oewn-01681111-s"
+   ],
+   "met": []
+  },
+  {
+   "word": "worthy",
+   "pos": "adjective",
+   "order": [
+    "oewn-01024736-s",
+    "oewn-02595419-a",
+    "oewn-00855376-s"
+   ],
+   "met": [
+    "oewn-01024736-s"
+   ]
+  }
+ ]
+}
