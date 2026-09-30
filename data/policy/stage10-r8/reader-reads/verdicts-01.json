@@ -1,0 +1,66 @@
+{"packet": 1, "verdicts": [
+ {"word": "proud", "pos": "adjective",
+  "rank": "right", "why": "Most sentences are 'proud of' (pleasure in something one measures self-worth by), which is the first-listed gloss; the haughty uses are a minor strand.",
+  "senses": [
+   {"synset": "oewn-01288228-s", "verdict": "right", "fault": null, "why": "Learner line matches the dignity/nobility gloss, the mountains example fits, no labels, and the candidate verdict is fair since the word grants dignity rather than merely describing."}
+  ]},
+ {"word": "superior", "pos": "adjective",
+  "rank": "right", "why": "Sentences (superior dancing, far superior to, infinitely superior to) mostly carry the high-quality sense listed first.",
+  "senses": [
+   {"synset": "oewn-02349336-a", "verdict": "right", "fault": null, "why": "Learner covers quality and performance, both examples use the quality sense, and null is acceptable for plain quality grading."},
+   {"synset": "oewn-00073044-s", "verdict": "right", "fault": null, "why": "Learner matches 'above being affected or influenced by' and the 'superior to fear' example fits."},
+   {"synset": "oewn-00796324-s", "verdict": "right", "fault": null, "why": "Learner matches 'not subject to or influenced by' and the 'superior to the law' example fits."},
+   {"synset": "oewn-02358224-a", "verdict": "right", "fault": null, "why": "Learner restates the typographic gloss in plain words (character rendered as letter or number), example is a superior figure, and the technical label is justified by the printing sense."},
+   {"synset": "oewn-02357021-a", "verdict": "right", "fault": null, "why": "Learner and Mars example match the orbit gloss, and the technical label is justified by the astronomical sense."}
+  ]},
+ {"word": "angry", "pos": "adjective",
+  "rank": "right", "why": "Every sentence uses 'feeling or showing anger', which is listed first.",
+  "senses": [
+   {"synset": "oewn-00304943-s", "verdict": "right", "fault": null, "why": "Learner spells out 'the elements' as wind, sea, sky, weather; the angry clouds example fits; null is fine."},
+   {"synset": "oewn-01177241-s", "verdict": "right", "fault": null, "why": "Learner (badly swollen, sore, hurting a lot) carries the severely inflamed and painful gloss and the angry red cut example fits."}
+  ]},
+ {"word": "determined", "pos": "adjective",
+  "rank": "right", "why": "The sentences are mostly 'determined to/never to' (resolved), and 'characterized by great determination' is the nearest listed gloss and is first.",
+  "senses": [
+   {"synset": "oewn-02336100-s", "verdict": "right", "fault": null, "why": "Learner matches 'devoting full strength and concentrated attention', and the determined effort example fits."},
+   {"synset": "oewn-02137288-s", "verdict": "right", "fault": null, "why": "Learner matches 'decided upon as by an authority' and the date-and-place example fits."},
+   {"synset": "oewn-01614867-a", "verdict": "right", "fault": null, "why": "Learner matches 'learned or found especially by investigation' and the cause-of-the-fire example fits."}
+  ]},
+ {"word": "fond", "pos": "adjective",
+  "rank": "right", "why": "Most sentences are 'fond of' a thing or activity (strong liking), matching the first gloss, with some affection uses that fall under the second sense.",
+  "senses": [
+   {"synset": "oewn-01467633-s", "verdict": "right", "fault": null, "why": "Learner matches 'warmth or affection', both examples show affection, and null is fine."},
+   {"synset": "oewn-01467366-s", "verdict": "right", "fault": null, "why": "Learner keeps both 'extravagantly or foolishly' and 'indulgent', the spoiled-boy example fits, and the candidate is justified since the word judges the love as excessive."},
+   {"synset": "oewn-02582341-s", "verdict": "right", "fault": null, "why": "Learner matches 'absurd or silly because unlikely', the fond hopes example fits, and the candidate is justified since the word treats the hope as foolish."}
+  ]},
+ {"word": "aware", "pos": "adjective",
+  "rank": "right", "why": "Sentences use 'aware of' in the sense of having knowledge or realization, which is the first gloss.",
+  "senses": [
+   {"synset": "oewn-01984219-a", "verdict": "right", "fault": null, "why": "Learner matches 'bearing in mind; attentive to' and the needs-of-others example fits; null is fine."}
+  ]},
+ {"word": "near", "pos": "adjective",
+  "rank": "right", "why": "Most sentences (nearer aspect, near enough, if that had been nearer) carry the not-far-distant sense listed first, with a minor close-relation strand.",
+  "senses": [
+   {"synset": "oewn-00446553-a", "verdict": "right", "fault": null, "why": "Learner covers place, time, amount and situation, and both examples fit."},
+   {"synset": "oewn-00454916-s", "verdict": "right", "fault": null, "why": "Learner matches 'close or intimate relationship' and the near-relation example fits."},
+   {"synset": "oewn-01578155-s", "verdict": "right", "fault": null, "why": "Learner matches 'closely resembling the genuine article' and the near silk example fits."},
+   {"synset": "oewn-02040963-s", "verdict": "right", "fault": null, "why": "Learner and near-side-of-the-horse example match the 'on the left side' gloss."}
+  ]},
+ {"word": "silly", "pos": "adjective",
+  "rank": "right", "why": "Sentences (silly and ignorant, silliest girls, silly man, silly cause) carry 'ludicrous, foolish', which is listed first.",
+  "senses": [
+   {"synset": "oewn-00756368-s", "verdict": "right", "fault": null, "why": "Learner captures both the pity and the looking down of 'scornful pity', the old-man example is acceptable, and the candidate is justified since the word adds scorn."},
+   {"synset": "oewn-00438938-s", "verdict": "right", "fault": null, "why": "Learner matches 'dazed from or as if from repeated blows' and the knocked-silly example fits; null is fine."}
+  ]},
+ {"word": "dreadful", "pos": "adjective",
+  "rank": "right", "why": "Sentences (dreadful news, dreadful disposition, attics dreadful) carry 'exceptionally bad or displeasing', which is listed first.",
+  "senses": [
+   {"synset": "oewn-00090922-s", "verdict": "wrong", "fault": "false-null", "why": "Learner and example match the gloss, but 'dreadful' meaning extremely disagreeable is a strongly negative, emphatic judgment of what it describes, so null understates how it lands."}
+  ]},
+ {"word": "strange", "pos": "adjective",
+  "rank": "right", "why": "Sentences (very strange creature, very strange that he should come, how strange must it appear) carry 'out of the ordinary, odd', which is listed first.",
+  "senses": [
+   {"synset": "oewn-00969942-s", "verdict": "right", "fault": null, "why": "Learner matches 'not known before' and the strange-faces example fits; null is fine."},
+   {"synset": "oewn-01038139-a", "verdict": "right", "fault": null, "why": "Learner keeps all three of 'belonging to, coming from, or typical of' another place, the example is anchored by 'from a land far across the sea', and the candidate is defensible since 'strange' frames the foreign as alien."}
+  ]}
+]}

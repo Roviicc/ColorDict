@@ -1,0 +1,43 @@
+{"packet": 10, "verdicts": [
+ {"word": "odious", "pos": "adjective",
+  "rank": "right", "why": "Only one sense is listed and the sentences (odious man, sight of Miss Lucas odious to her) use it.",
+  "senses": [
+   {"synset": "oewn-01463601-s", "verdict": "right", "fault": null, "why": "Learner line restates 'unequivocally detestable' plainly, both examples use odious in this sense, and the candidate verdict is right because the word condemns its target as deserving hatred."}
+  ]},
+ {"word": "privilege", "pos": "noun",
+  "rank": "right", "why": "The sentences split between a special benefit (privilege of hearing you) and an exclusive right or prerogative (privilege of good-will, refusing a privilege), and the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-05165679-n", "verdict": "right", "fault": null, "why": "Learner line covers advantage, immunity (as freedom from a rule) and benefit not everyone has; the example uses this sense; null is fair because the word describes a status without judging."},
+   {"synset": "oewn-05186242-n", "verdict": "right", "fault": null, "why": "Learner line keeps the exclusive right and the hereditary-or-official alternative; the Austen example reads as an exclusive prerogative; null is fair."},
+   {"synset": "oewn-05187094-n", "verdict": "right", "fault": null, "why": "Learner line matches the (law) gloss, the example is the legal sense, and the 'technical' label is justified by the '(law)' marker in the gloss."}
+  ]},
+ {"word": "silently", "pos": "adverb",
+  "rank": "right", "why": "Single sense 'without speaking' is what all three sentences carry.",
+  "senses": [
+   {"synset": "oewn-00112833-r", "verdict": "right", "fault": null, "why": "Learner line is a plain restatement, both examples contain silently in this sense, and the word describes manner without judging."}
+  ]},
+ {"word": "speedy", "pos": "adjective",
+  "rank": "right", "why": "The sentences (speedy return, speedy payment, speediest intelligence) carry 'rapidly and without delay', which is listed first.",
+  "senses": [
+   {"synset": "oewn-00982557-s", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, both examples use speedy in the done-without-delay sense, null is fair."},
+   {"synset": "oewn-00983053-s", "verdict": "right", "fault": null, "why": "Learner line keeps both 'moving' and 'able to move' quickly, the dog example is the high-speed sense, null is fair."}
+  ]},
+ {"word": "view", "pos": "verb",
+  "rank": "right", "why": "The sentences split: 'viewing the place' is see/look at (the first sense), while 'viewing it all as his own property' and 'viewing them as a stranger' are 'deem to be'; the first sense is one of the split, though the majority (2 of 3) sit on the second sense.",
+  "senses": [
+   {"synset": "oewn-02155378-v", "verdict": "right", "fault": null, "why": "Learner line matches 'see or watch', the television example is this sense, null is fair."},
+   {"synset": "oewn-00692380-v", "verdict": "right", "fault": null, "why": "Learner line restates 'deem to be' plainly, the Austen example is the regard-as sense, null is fair."},
+   {"synset": "oewn-02134765-v", "verdict": "right", "fault": null, "why": "Learner line keeps both the looking-carefully and thinking-carefully halves, the example uses the examine-mentally sense, null is fair."}
+  ]},
+ {"word": "wonderful", "pos": "adjective",
+  "rank": "wrong", "why": "All three sentences use the older 'causing wonder, surprising, remarkable' sense (it is wonderful that pride has been his best friend; wonderful how many families), not 'extraordinarily good or great', and that sense is not listed at all, so the lone first sense is not the one the sentences use.",
+  "senses": [
+   {"synset": "oewn-01681111-s", "verdict": "wrong", "fault": "false-null", "why": "The learner line and example match the gloss, but 'extraordinarily good', used as a praising intensifier, plainly judges its target favourably, so a null verdict is wrong and it should be a candidate."}
+  ]},
+ {"word": "worthy", "pos": "adjective",
+  "rank": "right", "why": "Two sentences (worthy of being the mistress of Hunsford, a woman worthy of being pleased) carry 'qualities that merit recognition', which is first, and the third is the spouse sense, so the first sense is used.",
+  "senses": [
+   {"synset": "oewn-01024736-s", "verdict": "wrong", "fault": "false-null", "why": "Learner line and example fit the gloss, but calling someone worthy judges them as deserving recognition, the mirror of odious (which is marked as deserving hatred), so null is wrong and it should be a candidate."},
+   {"synset": "oewn-00855376-s", "verdict": "wrong", "fault": "false-null", "why": "Learner line and both examples fit the spouse sense, but 'worthy of being chosen' approves of the person it describes, so null is wrong and it should be a candidate."}
+  ]}
+]}

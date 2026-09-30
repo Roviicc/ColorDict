@@ -1,0 +1,79 @@
+{"packet": 3, "verdicts": [
+ {"word": "solicitude", "pos": "noun",
+  "rank": "right", "why": "Only one sense is listed and the sentences use the word for caring concern about someone, which it is the nearest to.",
+  "senses": [
+   {"synset": "oewn-07520446-n", "verdict": "unsure", "fault": null, "why": "The learner line matches the gloss 'excessive concern' and the candidate rests on 'excessive', but both examples and every book sentence ('affectionate solicitude', 'affection and solicitude') show plain warm concern with no sense of excess or judgment, so I cannot tell whether the examples and candidate verdict illustrate the glossed sense or a neighbouring one."}
+  ]},
+ {"word": "uneasy", "pos": "adjective",
+  "rank": "wrong", "why": "Every sentence shows worry or anxiety ('anxious, uneasy', 'do not make yourself uneasy', 'uneasy for her'), which is the anxiety sense listed second, while the first-listed 'lacking a sense of security' (not feeling safe) is not what the characters feel.",
+  "senses": [
+   {"synset": "oewn-00826017-a", "verdict": "right", "fault": null, "why": "Learner line covers both 'lacking security' and 'affording no ease or reassurance'; example and null verdict fit."},
+   {"synset": "oewn-02465209-s", "verdict": "right", "fault": null, "why": "Learner line keeps all three alternatives (causing, full of, showing), and both examples use 'uneasy' in the anxiety sense; null is fine."},
+   {"synset": "oewn-00482429-s", "verdict": "right", "fault": null, "why": "Learner line says socially uncomfortable plus unsure and stiff, matching the gloss; example is on sense."},
+   {"synset": "oewn-01928961-a", "verdict": "right", "fault": null, "why": "Learner line keeps body or mind and the 'not letting you rest' alternative; 'uneasy sleep' example is on sense."}
+  ]},
+ {"word": "warm", "pos": "adjective",
+  "rank": "right", "why": "The sentences (warm affection, warm in admiration, warmest gratitude) carry the first-listed 'strong enthusiasm' sense, with 'warm temper' a minor second use.",
+  "senses": [
+   {"synset": "oewn-00922132-s", "verdict": "right", "fault": null, "why": "Learner line matches 'easily aroused or excited', the example is the book's 'warm temper', and the candidate is defensible as a mildly judging disposition word."},
+   {"synset": "oewn-02541266-a", "verdict": "right", "fault": null, "why": "Learner line says friendly and responsive with feeling; both examples are on sense; describes without judging."},
+   {"synset": "oewn-02539669-a", "verdict": "right", "fault": null, "why": "Learner line keeps both 'comfortable heat' and 'imparting or keeping heat'; examples (warm kitchen, warm coat) cover both."},
+   {"synset": "oewn-00809957-s", "verdict": "right", "fault": null, "why": "Learner line keeps life, excitement, or disagreement; 'warm debate' example is on sense."},
+   {"synset": "oewn-02542324-a", "verdict": "right", "fault": null, "why": "Learner line keeps the colour restriction to reds, oranges and yellows; 'feeling of heat' is a slight paraphrase of 'impression of warmth' but not a different sense; example is on sense."},
+   {"synset": "oewn-00447342-s", "verdict": "wrong", "fault": "label-unjustified", "why": "The 'informal' label is supported by nothing in the gloss or sentences (no packet sentence uses this sense), and the learner line also adds 'or guessing' to 'of a seeker'."},
+   {"synset": "oewn-01072383-s", "verdict": "right", "fault": null, "why": "Learner line 'made or left only a short time ago' matches 'freshly made or left'; 'warm trail' example is on sense."}
+  ]},
+ {"word": "actual", "pos": "adjective",
+  "rank": "right", "why": "Sentences use 'actual' for real as opposed to merely possible ('actual blame', 'actual complaint', 'an actual Mr. Collins'), which the first two listed senses cover.",
+  "senses": [
+   {"synset": "oewn-00043985-a", "verdict": "right", "fault": null, "why": "Learner line keeps 'existing now' and 'not just potential'; example is on sense; null fits."},
+   {"synset": "oewn-01940178-s", "verdict": "right", "fault": null, "why": "'Real fact or real deed' covers 'act or fact'; example is the book sentence in this sense."},
+   {"synset": "oewn-02470192-s", "verdict": "right", "fault": null, "why": "Learner line matches 'essential or genuine character'; 'actual motive' example is on sense."},
+   {"synset": "oewn-01939967-s", "verdict": "right", "fault": null, "why": "Learner line 'not acted out or copied' matches 'not pretended or imitated'; wedding example is on sense."},
+   {"synset": "oewn-00669833-s", "verdict": "right", "fault": null, "why": "Learner line matches 'at the present moment'; ship position example is on sense."}
+  ]},
+ {"word": "announce", "pos": "verb",
+  "rank": "right", "why": "Most sentences use it for making something known ('announce their safe arrival', 'announce to Lady Catherine'), which is the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00976399-v", "verdict": "right", "fault": null, "why": "Learner line covers making known and giving out news; both examples are book uses in this sense."},
+   {"synset": "oewn-00967903-v", "verdict": "right", "fault": null, "why": "Learner line keeps 'publicly or officially'; government example is on sense."},
+   {"synset": "oewn-00976205-v", "verdict": "right", "fault": null, "why": "'Early sign of something coming' matches 'foreshadow or presage'; storm example is on sense."},
+   {"synset": "oewn-00977459-v", "verdict": "right", "fault": null, "why": "Learner line matches 'give the names of'; butler example is on sense."}
+  ]},
+ {"word": "exercise", "pos": "noun",
+  "rank": "right", "why": "Most sentences use exercise as physical activity for health and complexion (air and exercise, brightened by the exercise), the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00625978-n", "verdict": "right", "fault": null, "why": "Learner line matches 'exerting muscles to keep fit'; example is the book sentence in this sense."},
+   {"synset": "oewn-00948944-n", "verdict": "right", "fault": null, "why": "Learner line and 'exercise of a right' example match 'the act of using'."},
+   {"synset": "oewn-00731217-n", "verdict": "right", "fault": null, "why": "Learner line matches task or problem to develop skill; chapter exercises example is on sense."},
+   {"synset": "oewn-00034873-n", "verdict": "right", "fault": null, "why": "Learner line renders 'used negatively and without consequences' as pointless and leading to nothing; 'exercise in futility' is on sense and the candidate follows the gloss."},
+   {"synset": "oewn-00896250-n", "verdict": "right", "fault": null, "why": "Learner line matches 'training by multiple repetitions'; team example is on sense."},
+   {"synset": "oewn-07469062-n", "verdict": "right", "fault": null, "why": "Learner line keeps processions, speeches and the usually-plural note; graduation exercises example is on sense."}
+  ]},
+ {"word": "mere", "pos": "adjective",
+  "rank": "right", "why": "The sentences split between 'nothing more than' (mere pretence, no mere sensibility) and 'the mere X alone' (mere stateliness, mere purpose), and the first-listed sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-01797082-s", "verdict": "wrong", "fault": "false-null", "why": "Its own example ('the mere stateliness of money and rank she thought she could witness without trepidation') shows 'mere' diminishing what it names, the same belittling the second sense is flagged for, so null understates how the word lands."},
+   {"synset": "oewn-01103400-s", "verdict": "right", "fault": null, "why": "Learner line matches 'nothing more than specified', the example is on sense, and the belittling candidate is justified."}
+  ]},
+ {"word": "novel", "pos": "noun",
+  "rank": "right", "why": "Sentences use 'novel' for the fictional work in prose, the first-listed sense, with the printed-book sense a close neighbour.",
+  "senses": [
+   {"synset": "oewn-06379324-n", "verdict": "right", "fault": null, "why": "Learner line matches extended fictional prose usually telling a story; example is a book sentence in this sense."},
+   {"synset": "oewn-03838605-n", "verdict": "right", "fault": null, "why": "Learner line matches 'printed and bound book' of fiction; train-seat example uses the physical book."}
+  ]},
+ {"word": "obtain", "pos": "verb",
+  "rank": "right", "why": "Every sentence uses obtain for coming to possess something (intelligence, a word, affections), the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-02242867-v", "verdict": "right", "fault": null, "why": "Learner line 'come to have something' matches the gloss; both examples are book uses in this sense."},
+   {"synset": "oewn-00523831-v", "verdict": "right", "fault": null, "why": "Learner line renders '(abstract)' as 'not a physical thing'; approval-received example fits the gloss."},
+   {"synset": "oewn-02654604-v", "verdict": "right", "fault": null, "why": "Learner line keeps valid, applicable, true; 'rules no longer obtain' example is on sense."}
+  ]},
+ {"word": "renewal", "pos": "noun",
+  "rank": "right", "why": "All sentences use renewal for the act of renewing or resuming (renewal of tenderness, offers, love), the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-01251399-n", "verdict": "right", "fault": null, "why": "Learner line unpacks 'act of renewing' as starting again or making new again; both examples are book uses in this sense."},
+   {"synset": "oewn-13569128-n", "verdict": "right", "fault": null, "why": "Learner line matches 'filling again by supplying what has been used up'; camp supplies example is on sense."},
+   {"synset": "oewn-00269862-n", "verdict": "right", "fault": null, "why": "Learner line keeps waste land turned into land for living or crops; riverside example is on sense."}
+  ]}
+]}

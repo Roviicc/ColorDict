@@ -1,0 +1,74 @@
+{"packet": 2, "verdicts": [
+ {"word": "violent", "pos": "adjective",
+  "rank": "right", "why": "Most sentences (violent against him, violent in abuse, prejudice so violent, irritation as violent) carry intense emotion, which is sense 1; the cold and the yawn carry sense 2, so the split includes the first sense.",
+  "senses": [
+   {"synset": "oewn-01515606-s", "verdict": "right", "fault": null, "why": "Learner line keeps both the strong-feeling and quick-to-react-with-force halves of the gloss, both examples use the emotional sense, and the candidate verdict is fair for a word that implies loss of control."},
+   {"synset": "oewn-02520937-a", "verdict": "right", "fault": null, "why": "Learner line matches the force/energy/emotional-intensity gloss, both examples use that sense, and the word does colour the force as harmful."},
+   {"synset": "oewn-01575140-s", "verdict": "right", "fault": null, "why": "Learner line restates the gloss faithfully, the example is a death by force, and null is fair since the phrase describes a cause of death."},
+   {"synset": "oewn-01518224-s", "verdict": "right", "fault": null, "why": "Learner line covers colours or sounds, vivid/bright and loud; the example is a colour; candidate is fair because violent pink implies too harsh."}
+  ]},
+ {"word": "humble", "pos": "adjective",
+  "rank": "right", "why": "The sentences (humble abode, humble parsonage, humble respects) sit between low in quality/station and modest self-deprecation, and the first two listed senses are exactly that pair.",
+  "senses": [
+   {"synset": "oewn-01597282-s", "verdict": "right", "fault": null, "why": "Learner line says low place in society, which matches low birth or station; example uses humble birth; candidate is fair as humble softens the judgment of low rank."},
+   {"synset": "oewn-02237706-s", "verdict": "right", "fault": null, "why": "Learner line keeps unskilled work and especially domestic, example is domestic drudgery, and candidate versus menial is fair."}
+  ]},
+ {"word": "material", "pos": "adjective",
+  "rank": "right", "why": "The sentences use an 'important/considerable' sense (material service, advantage, relief, step) that no listed gloss states exactly; sense 1 (relevant, of consequence) is the nearest, and sense 6 (substantial) is the only rival, so the first sense is one of the plausible split.",
+  "senses": [
+   {"synset": "oewn-01490990-a", "verdict": "right", "fault": null, "why": "Learner line keeps directly connected and especially a court case, examples are in a legal setting, and the formal label is supported by the law-case register."},
+   {"synset": "oewn-02588172-s", "verdict": "right", "fault": null, "why": "Learner line restates worldly versus spiritual faithfully and the example uses that contrast; null is fair as the word describes."},
+   {"synset": "oewn-00632838-a", "verdict": "right", "fault": null, "why": "Learner line matches having physical form or substance and the angels example fits."},
+   {"synset": "oewn-01783738-s", "verdict": "right", "fault": null, "why": "Learner line covers physical versus intellectual or psychological (mind or feelings) well-being, and the example of food and shelter fits."},
+   {"synset": "oewn-00629641-a", "verdict": "right", "fault": null, "why": "Learner line restates composed of or derived from matter and the material universe example fits."},
+   {"synset": "oewn-00628097-a", "verdict": "right", "fault": null, "why": "Learner line keeps real substance or able to be treated as fact, not imagined, and the example contrasts real with dreamed-up danger."}
+  ]},
+ {"word": "disposed", "pos": "adjective",
+  "rank": "right", "why": "Every sentence uses disposed to/as to in the sense of inclined, which is the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-02576155-s", "verdict": "right", "fault": null, "why": "Learner line 'having got everything ready; prepared' is a plain restatement of having made preparations and the army example shows being set in readiness, with no label or connotation problem."}
+  ]},
+ {"word": "entail", "pos": "verb",
+  "rank": "right", "why": "All six sentences are about entailing an estate, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-02368233-v", "verdict": "right", "fault": null, "why": "Learner line faithfully restates limiting inheritance to a class of heirs, examples are the book's own entail uses, and technical is justified by the legal-inheritance gloss."},
+   {"synset": "oewn-02640889-v", "verdict": "right", "fault": null, "why": "Learner line maps impose/involve/imply to force/include/suggest without dropping an alternative, and the example shows involve."},
+   {"synset": "oewn-02641270-v", "verdict": "right", "fault": null, "why": "Learner line restates logical consequence and the square example is a logical entailment."}
+  ]},
+ {"word": "future", "pos": "adjective",
+  "rank": "right", "why": "All four sentences (future property, future life, future wealth, future situation) mean yet to come, the first sense.",
+  "senses": [
+   {"synset": "oewn-01736519-a", "verdict": "right", "fault": null, "why": "Learner line restates yet to be or coming and both examples are from the book in that sense."},
+   {"synset": "oewn-01890452-s", "verdict": "wrong", "fault": "example-wrong-sense", "why": "The example 'future contracts, not those already signed' just means contracts yet to be made, which is sense 1, and does not show the distinct effective-in-or-looking-toward-the-future sense (low confidence, since the rule's forward effect is arguable)."},
+   {"synset": "oewn-03004422-a", "verdict": "right", "fault": null, "why": "Learner line restates the grammatical gloss, example is the future tense, and technical is justified by the grammar gloss."},
+   {"synset": "oewn-01298098-s", "verdict": "right", "fault": null, "why": "Learner line keeps chosen in an election but not yet in office and the future mayor example fits."}
+  ]},
+ {"word": "grave", "pos": "adjective",
+  "rank": "right", "why": "The sentences (grave propriety, grave and stately, impenetrably grave, grave reflection) all describe solemn, dignified manner, the first sense.",
+  "senses": [
+   {"synset": "oewn-02126493-s", "verdict": "right", "fault": null, "why": "Learner line keeps dignified, solemn manner and keeping promises, and both examples are the book's solemn-manner uses."},
+   {"synset": "oewn-01281533-s", "verdict": "right", "fault": null, "why": "Learner line restates very serious/important needing careful thought and the example of a grave choice fits."}
+  ]},
+ {"word": "guess", "pos": "verb",
+  "rank": "right", "why": "The sentences (guess the subject, guessed what it meant, cannot guess with who) are about working something out by guessing, the first sense.",
+  "senses": [
+   {"synset": "oewn-00637723-v", "verdict": "right", "fault": null, "why": "Learner line restates guessing correctly or solving by guessing and both examples are from the book in that sense."},
+   {"synset": "oewn-00674352-v", "verdict": "right", "fault": null, "why": "Learner line keeps judging without being sure or roughly estimating an amount or time, and the distance example is an estimate of a quantity."},
+   {"synset": "oewn-00918880-v", "verdict": "right", "fault": null, "why": "Learner line restates offering a guess despite possible refutation and the example shows it."}
+  ]},
+ {"word": "indignation", "pos": "noun",
+  "rank": "right", "why": "Single sense, and the sentences all show anger at perceived wrong.",
+  "senses": [
+   {"synset": "oewn-07532976-n", "verdict": "right", "fault": null, "why": "Learner line conveys righteous anger as anger at something believed wrong or unfair, examples use it, and the candidate is fair since the word frames the anger as justified."}
+  ]},
+ {"word": "reserve", "pos": "noun",
+  "rank": "right", "why": "The sentences (his usual reserve, no reserves from you, his reserve and want of consideration) use the trait of being uncommunicative, the first sense.",
+  "senses": [
+   {"synset": "oewn-04659795-n", "verdict": "right", "fault": null, "why": "Learner line restates the uncommunicative trait faithfully, the example is from the book, and candidate is fair as the word weighs holding back."},
+   {"synset": "oewn-13389225-n", "verdict": "right", "fault": null, "why": "Learner line restates something kept back for later or a special purpose and the oil example fits."},
+   {"synset": "oewn-08604729-n", "verdict": "right", "fault": null, "why": "Learner line 'an area of land kept for a particular purpose' is a plain restatement of a reserved district and the nature reserve example fits."},
+   {"synset": "oewn-08223381-n", "verdict": "right", "fault": null, "why": "Learner line restates forces not on active duty but callable in an emergency and the example fits."},
+   {"synset": "oewn-10690481-n", "verdict": "right", "fault": null, "why": "Learner line restates a substitute athlete and the bench example fits."},
+   {"synset": "oewn-13781913-n", "verdict": "right", "fault": null, "why": "Learner line restates the medical capacity to respond, the example is medical, and technical is justified by the (medicine) tag."}
+  ]}
+]}

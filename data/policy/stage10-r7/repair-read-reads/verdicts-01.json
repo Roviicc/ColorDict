@@ -1,0 +1,86 @@
+{"packet": 1, "verdicts": [
+ {"word": "family", "pos": "noun",
+  "rank": "right", "why": "The sentences use family for a household or kin group (her family, the Longbourn family, De Bourgh's family), which the first three senses cover, so the first sense is one of a genuine split.",
+  "senses": [
+   {"synset": "oewn-10256001-n", "verdict": "right", "fault": null, "why": "Learner line says 'related to you or to other people' for 'kinship with another or others'; example 'you're family' fits; null is fine."},
+   {"synset": "oewn-08244837-n", "verdict": "right", "fault": null, "why": "Learner and school-family example match the gloss; describes without judging."},
+   {"synset": "oewn-08014145-n", "verdict": "right", "fault": null, "why": "Learner and 'family of languages' example match the gloss; null is fine."},
+   {"synset": "oewn-08124465-n", "verdict": "right", "fault": null, "why": "Learner restates the taxonomic gloss faithfully, the cat-family example fits, and the 'technical' label is supported by the '(biology)' tag in the gloss."},
+   {"synset": "oewn-08263223-n", "verdict": "wrong", "fault": "false-candidate", "why": "In 'crime family' the word is a neutral term of art naming a mafia organisation and passes no judgment on it; the criminal referent is bad but the word does not judge, and the reason given only notes the warm word for kin."}
+  ]},
+ {"word": "want", "pos": "verb",
+  "rank": "right", "why": "Nearly every sentence uses want as feeling a desire (want to silence, want papa to take us), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-00711034-v", "verdict": "right", "fault": null, "why": "Learner covers both 'wish' and 'ask that they come' for 'wish or demand the presence of'; the office example fits."},
+   {"synset": "oewn-01319724-v", "verdict": "right", "fault": null, "why": "Learner keeps both 'hunt or look for' and 'want for a particular reason'; the wanted-by-police example uses this sense; null is fine."}
+  ]},
+ {"word": "engage", "pos": "verb",
+  "rank": "right", "why": "The sentences split between being involved in an activity (engaged in the office of pointing out, engaged by the river) and having one's attention taken up, and the first sense is the participate/be involved one.",
+  "senses": [
+   {"synset": "oewn-02414542-v", "verdict": "right", "fault": null, "why": "Learner 'hire someone to do work' matches the gloss and the cook example uses it."},
+   {"synset": "oewn-02381180-v", "verdict": "right", "fault": null, "why": "Learner matches 'carry on wars, battles, campaigns'; the battle example is a little stiff but uses the sense and the headword."},
+   {"synset": "oewn-02244933-v", "verdict": "right", "fault": null, "why": "Learner 'hire someone to do work for you or to help you' matches 'hire for work or assistance'; the extra-help example fits."},
+   {"synset": "oewn-02213319-v", "verdict": "right", "fault": null, "why": "Learner 'hire or rent something for a period set by an agreement' matches the contract-term gloss; the carriage-for-a-week example fits."},
+   {"synset": "oewn-01513459-v", "verdict": "right", "fault": null, "why": "'Keep engaged' is realised as gears meshing and staying locked, and the engaged-the-gears example uses that sense."},
+   {"synset": "oewn-02406541-v", "verdict": "right", "fault": null, "why": "Learner 'ask a lawyer to speak and act for you' matches 'ask to represent; of legal counsel'; example fits."},
+   {"synset": "oewn-00220541-v", "verdict": "right", "fault": null, "why": "Learner 'get caught and held in place' is a fair plain rendering of 'get caught'; the latch example fits."}
+  ]},
+ {"word": "answer", "pos": "verb",
+  "rank": "right", "why": "The sentences use answer as replying (she answered in the affirmative, made no answer, received an answer), matching the first sense 'react verbally'.",
+  "senses": [
+   {"synset": "oewn-02675578-v", "verdict": "right", "fault": null, "why": "Learner keeps 'sufficient or adequate' and 'quantity or quality' from the gloss; the kind-words example fits."},
+   {"synset": "oewn-01186429-v", "verdict": "right", "fault": null, "why": "Learner covers both 'satisfactory for' and 'meet requirements or serve the purpose'; the small-room example fits."},
+   {"synset": "oewn-02751892-v", "verdict": "right", "fault": null, "why": "Learner 'be responsible ... or must explain it and face what follows' spells out 'liable or accountable'; 'answer for what he has done' fits."},
+   {"synset": "oewn-00816833-v", "verdict": "right", "fault": null, "why": "Learner covers defending against a charge or argument and showing it wrong (refutation); the charges example fits."},
+   {"synset": "oewn-02664648-v", "verdict": "wrong", "fault": "learner-unfaithful", "why": "The second half, 'to be like it in the way it should be', is muddled and adds a 'should' the gloss 'match or correspond' does not carry."},
+   {"synset": "oewn-00720232-v", "verdict": "right", "fault": null, "why": "Learner 'act in reply to something that acts on you, or to an order' matches 'react to a stimulus or command'; the horse-and-rein example fits."},
+   {"synset": "oewn-00637185-v", "verdict": "wrong", "fault": "example-wrong-sense", "why": "'He could not answer what it meant' reads as giving an answer to a question, which is the neighbouring 'give the correct answer' sense, and does not show 'understand the meaning of'."}
+  ]},
+ {"word": "beg", "pos": "verb",
+  "rank": "right", "why": "The sentences are entreaty and urgent request (I beg you will not, beg that you may stay, begged very hard for balls), covered by the first two senses, so the first sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-00811888-v", "verdict": "right", "fault": null, "why": "Learner keeps all three alternatives (get around, avoid answering, treat as settled); the begs-the-question example fits, and the candidate is justified because calling an argument 'begging the question' criticises it."}
+  ]},
+ {"word": "early", "pos": "adjective",
+  "rank": "right", "why": "Most sentences use early as near the beginning or before others (among the earliest, early age, earliest tidings, earliest hours), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-00816521-a", "verdict": "right", "fault": null, "why": "Learner keeps both the 'at or near the beginning' and 'before the usual or expected time' alternatives; both examples fit."},
+   {"synset": "oewn-00820993-a", "verdict": "right", "fault": null, "why": "Learner matches 'early stage of development'; the illness-stages example fits."},
+   {"synset": "oewn-01733616-s", "verdict": "right", "fault": null, "why": "Learner 'belonging to a time long ago' matches 'distant past'; example fits."},
+   {"synset": "oewn-00823421-a", "verdict": "right", "fault": null, "why": "Learner matches the language/literature-stage gloss; the Early Modern English example fits."},
+   {"synset": "oewn-01737207-s", "verdict": "right", "fault": null, "why": "Learner 'expected to happen soon' matches the gloss; the early-end-to-the-war example fits."}
+  ]},
+ {"word": "shake", "pos": "verb",
+  "rank": "right", "why": "Three of the six sentences are shaking the head to communicate a feeling or state, matching the first sense.",
+  "senses": [
+   {"synset": "oewn-01893603-v", "verdict": "right", "fault": null, "why": "Learner covers both 'move' and 'cause to move' back and forth; the bottle example fits."},
+   {"synset": "oewn-00014027-v", "verdict": "right", "fault": null, "why": "Learner 'tremble, or move as if trembling' matches the gloss; hands-shook example fits."},
+   {"synset": "oewn-01879288-v", "verdict": "right", "fault": null, "why": "Learner matches 'back and forth or sideways'; the boat example fits."},
+   {"synset": "oewn-01765558-v", "verdict": "right", "fault": null, "why": "Learner covers 'feelings, emotions, or peace'; the news-shook-the-town example fits; null is fine."},
+   {"synset": "oewn-00560633-v", "verdict": "right", "fault": null, "why": "Learner matches 'bring to a condition by shaking'; both examples fit."},
+   {"synset": "oewn-01895631-v", "verdict": "right", "fault": null, "why": "Learner 'shake or vibrate fast and hard' matches the gloss; washing-machine example fits."}
+  ]},
+ {"word": "discover", "pos": "verb",
+  "rank": "right", "why": "Most sentences are about becoming aware of or finding out something (discover it, coincidence of feeling was discovered, discover at what house), matching the first sense.",
+  "senses": [
+   {"synset": "oewn-02291532-v", "verdict": "right", "fault": null, "why": "Learner 'find something without expecting to' matches 'find unexpectedly'; the coin example fits."},
+   {"synset": "oewn-02132531-v", "verdict": "right", "fault": null, "why": "Learner keeps 'see for the first time' and 'find something new'; the island example fits."},
+   {"synset": "oewn-00654017-v", "verdict": "right", "fault": null, "why": "Learner explains 'identify' with the plant/animal case given as an example, and the field-guide example uses this sense."}
+  ]},
+ {"word": "order", "pos": "verb",
+  "rank": "right", "why": "The verb uses in the sentences are requesting goods (ordered her carriage, ordered a good dinner), matching the first sense 'make a request for something'.",
+  "senses": [
+   {"synset": "oewn-00277653-v", "verdict": "right", "fault": null, "why": "Learner 'put things in a particular order' matches the gloss; the A-to-Z example fits."},
+   {"synset": "oewn-00278429-v", "verdict": "right", "fault": null, "why": "Learner 'make something tidy and organized where it was not before' matches 'bring order to'; storeroom example fits."},
+   {"synset": "oewn-00737576-v", "verdict": "right", "fault": null, "why": "Learner matches 'arrange thoughts, ideas, temporal events'; the order-his-thoughts example fits."},
+   {"synset": "oewn-00659723-v", "verdict": "right", "fault": null, "why": "Learner 'give something a rank or a rating' matches the gloss; the judges example fits."},
+   {"synset": "oewn-02517217-v", "verdict": "right", "fault": null, "why": "Learner keeps both 'make something follow rules, principles, custom' and 'put rules in place'; the strict-laws example fits."},
+   {"synset": "oewn-02391154-v", "verdict": "right", "fault": null, "why": "Learner 'appoint someone to a job as a priest or other church official' matches 'appoint to clerical posts'; the bishop example fits."}
+  ]},
+ {"word": "ill", "pos": "adjective",
+  "rank": "wrong", "why": "No sentence uses ill as sick; they use ill in ill-humour, ill-nature, ill-natured, ill-mannered and 'think ill of', which sit closer to the hostility sense (3) listed below the 'impairment of function' first sense.",
+  "senses": [
+   {"synset": "oewn-01248878-s", "verdict": "right", "fault": null, "why": "Learner keeps both 'unfriendly' and 'hates' for 'hostility or enmity'; the ill-feeling example fits; null is fine since the word names the feeling rather than judging."},
+   {"synset": "oewn-00179426-s", "verdict": "right", "fault": null, "why": "Learner 'warning that bad luck is coming' matches 'presaging ill fortune'; the ill-omen example fits."}
+  ]}
+]}

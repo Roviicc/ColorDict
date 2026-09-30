@@ -1,0 +1,77 @@
+{"packet": 5, "verdicts": [
+ {"word": "independence", "pos": "noun",
+  "rank": "right", "why": "Every sentence uses independence as freedom from others' control or influence, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-14017633-n", "verdict": "right", "fault": null, "why": "Learner restates the gloss faithfully, both examples use the freedom sense, and the null verdict fits a descriptive word."},
+   {"synset": "oewn-07489146-n", "verdict": "right", "fault": null, "why": "Learner matches the gloss, the example refers to the post-Revolution United States, and null fits."}
+  ]},
+ {"word": "lessen", "pos": "verb",
+  "rank": "right", "why": "The sentences use lessen transitively as make smaller (chance, honour, astonishment, weight), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-00442400-v", "verdict": "right", "fault": null, "why": "Learner matches the gloss and both examples are transitive uses of lessen."},
+   {"synset": "oewn-00151509-v", "verdict": "right", "fault": null, "why": "Learner covers size, extent and range, and the intransitive example fits."},
+   {"synset": "oewn-00233328-v", "verdict": "right", "fault": null, "why": "Learner captures wearing off or dying down, and the storm example fits."}
+  ]},
+ {"word": "motif", "pos": "noun",
+  "rank": "unsure", "why": "The sentences contain 'motives' (a different word, motive), not motif, so no listed sense is used by them and the first-sense question cannot be answered from this packet.",
+  "senses": [
+   {"synset": "oewn-05928866-n", "verdict": "right", "fault": null, "why": "Learner restates the gloss and the example uses motif in the literary sense."},
+   {"synset": "oewn-03794547-n", "verdict": "right", "fault": null, "why": "Learner matches the gloss and the leaf-motif example is a decorative design."},
+   {"synset": "oewn-07043169-n", "verdict": "right", "fault": null, "why": "Learner matches the gloss and the example is a musical motif."}
+  ]},
+ {"word": "nice", "pos": "adjective",
+  "rank": "right", "why": "The sentences (nice game, nice little ponies, nice long walk) all use the pleasant, agreeable sense listed first.",
+  "senses": [
+   {"synset": "oewn-01590750-a", "verdict": "right", "fault": null, "why": "Learner matches the gloss, both examples use the pleasant sense, and null is defensible for a mild general-approval word."},
+   {"synset": "oewn-02000490-s", "verdict": "right", "fault": null, "why": "Learner covers both refined and virtuous, the example fits, and the candidate flag is justified because it measures people against social propriety."},
+   {"synset": "oewn-00987524-s", "verdict": "right", "fault": null, "why": "Learner keeps both fussy and easily disgusted, the example fits, and the candidate flag is justified by 'excessively'."}
+  ]},
+ {"word": "overlook", "pos": "verb",
+  "rank": "right", "why": "The sentences use overlook for not noticing or disregarding an offence or motive, which is closest to the first sense, 'look past, fail to notice'.",
+  "senses": [
+   {"synset": "oewn-02170805-v", "verdict": "right", "fault": null, "why": "Learner keeps both look past and fail to notice, and the example fits."},
+   {"synset": "oewn-00616690-v", "verdict": "right", "fault": null, "why": "Learner keeps both leave undone and leave out, and the locking example is a neglected action."},
+   {"synset": "oewn-02727841-v", "verdict": "right", "fault": null, "why": "Learner matches the gloss and the windows example shows facing a direction."},
+   {"synset": "oewn-02701971-v", "verdict": "right", "fault": null, "why": "Learner reads 'look down on' in its physical sense, and the castle-over-valley example fits."},
+   {"synset": "oewn-02170692-v", "verdict": "right", "fault": null, "why": "Learner matches the gloss and the teacher-watching-children example fits."}
+  ]},
+ {"word": "permission", "pos": "noun",
+  "rank": "right", "why": "Every sentence uses permission as approval to do something, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-06702042-n", "verdict": "right", "fault": null, "why": "Learner matches the gloss and both examples are straightforward approval."},
+   {"synset": "oewn-01141515-n", "verdict": "right", "fault": null, "why": "Learner keeps the formal act and the 'usually in writing' qualifier, and the planning-permission example fits."}
+  ]},
+ {"word": "plainly", "pos": "adverb",
+  "rank": "right", "why": "The sentences (plainly saw, plainly expressed, speak plainly) carry the clear or unmistakable sense listed first.",
+  "senses": [
+   {"synset": "oewn-00005436-r", "verdict": "right", "fault": null, "why": "Learner matches the gloss, the furnished-room example fits, and null fits a descriptive adverb."}
+  ]},
+ {"word": "ruin", "pos": "verb",
+  "rank": "right", "why": "The sentences use ruin as destroy or cause to fail (happiness, hope, reputation), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-02564777-v", "verdict": "right", "fault": null, "why": "Learner keeps both destroy and cause to fail, the examples are from the text, and null is fine because the badness is in the referent."},
+   {"synset": "oewn-01566925-v", "verdict": "right", "fault": null, "why": "Learner matches both parts of the gloss and the flood example fits."},
+   {"synset": "oewn-02323145-v", "verdict": "right", "fault": null, "why": "Learner restates bankruptcy plainly and the failed-bank example fits."},
+   {"synset": "oewn-01569271-v", "verdict": "right", "fault": null, "why": "Learner matches the gloss and the bombed-church example fits."},
+   {"synset": "oewn-00580070-v", "verdict": "wrong", "fault": "example-wrong-sense", "why": "The example 'left to ruin' uses ruin as a noun, not the intransitive verb 'fall into ruin' this sense describes."},
+   {"synset": "oewn-01431014-v", "verdict": "right", "fault": null, "why": "Learner matches the gloss, the example fits, and the candidate flag is justified because the word frames the loss as destruction of the person."}
+  ]},
+ {"word": "sick", "pos": "adjective",
+  "rank": "right", "why": "Three of four sentences use 'sick of' meaning fed up from surfeit, which is the first sense, and the fourth is the ill sense.",
+  "senses": [
+   {"synset": "oewn-01811926-s", "verdict": "right", "fault": null, "why": "Learner captures strong distaste from having had too much, both examples are 'sick of', and the candidate flag is justified."},
+   {"synset": "oewn-02552072-a", "verdict": "right", "fault": null, "why": "Learner restates physical or mental impairment as 'ill' and the sick-lady example fits."},
+   {"synset": "oewn-02556459-s", "verdict": "right", "fault": null, "why": "Learner matches the nausea gloss and the boat example fits."},
+   {"synset": "oewn-01564558-s", "verdict": "right", "fault": null, "why": "Learner matches the gloss and 'sick with worry' fits."},
+   {"synset": "oewn-00197276-s", "verdict": "right", "fault": null, "why": "Learner matches the horror and repellent gloss, the sick-joke example fits, and the candidate flag is justified by the moral disgust."},
+   {"synset": "oewn-02082451-s", "verdict": "right", "fault": null, "why": "Learner matches the insanity gloss, the example fits, and the candidate flag is justified because the word labels the mind itself."},
+   {"synset": "oewn-02333753-s", "verdict": "right", "fault": null, "why": "Learner matches the dim or feeble gloss for light, the example fits, and the candidate flag is plausible because the word adds an unwholesome tinge to plain dimness."}
+  ]},
+ {"word": "bitterness", "pos": "noun",
+  "rank": "right", "why": "The sentences (bitterness of spirit, of woe, began in bitterness) carry the feeling of deep anger and ill-will listed first.",
+  "senses": [
+   {"synset": "oewn-04650754-n", "verdict": "right", "fault": null, "why": "Learner restates 'manner' as a way of speaking or acting, the example fits, and the candidate flag is justified by the hostile, sour manner."},
+   {"synset": "oewn-05725062-n", "verdict": "right", "fault": null, "why": "Learner matches the taste-experience gloss and the coffee example fits."},
+   {"synset": "oewn-05002002-n", "verdict": "right", "fault": null, "why": "Learner matches the property-of-harsh-taste gloss and the wild-lemons example fits."}
+  ]}
+]}

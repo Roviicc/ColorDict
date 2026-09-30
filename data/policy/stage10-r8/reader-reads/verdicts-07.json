@@ -1,0 +1,77 @@
+{"packet": 7, "verdicts": [
+ {"word": "sad", "pos": "adjective",
+  "rank": "right", "why": "Every sentence says 'sad business/affair/exercise' meaning bad or unfortunate, which is the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-01130672-s", "verdict": "right", "fault": null, "why": "Learner 'Bad, or unlucky' matches 'bad; unfortunate'; both examples are the book's sad affair/business; the candidate verdict is fair since the word calls the situation regrettable."},
+   {"synset": "oewn-01364779-a", "verdict": "right", "fault": null, "why": "Learner restates the gloss; example uses sad for a person's feeling; null fits a word that describes a feeling."},
+   {"synset": "oewn-01369193-s", "verdict": "right", "fault": null, "why": "Learner 'Making you feel sorrow' matches 'of things that make you feel sad'; 'a sad story' is the right sense; null is fine."}
+  ]},
+ {"word": "subsist", "pos": "verb",
+  "rank": "wrong", "why": "All four sentences use subsist for a feeling or relation continuing to exist between people ('subsisted between Mr. Darcy and herself'), but the only listed sense is 'support oneself', which none of them use.",
+  "senses": [
+   {"synset": "oewn-02622766-v", "verdict": "right", "fault": null, "why": "Taken alone, the learner line is a fair plain paraphrase of 'support oneself', the example uses it in that sense, and null is fine; the fault is the missing 'exist' sense, not this writing."}
+  ]},
+ {"word": "sum", "pos": "noun",
+  "rank": "right", "why": "All three sentences are about a sum of money, and the money sense is listed first.",
+  "senses": [
+   {"synset": "oewn-13352213-n", "verdict": "right", "fault": null, "why": "Learner matches 'a quantity of money' and both examples are money sums."},
+   {"synset": "oewn-05869651-n", "verdict": "right", "fault": null, "why": "Learner and example are the arithmetic total; faithful."},
+   {"synset": "oewn-04360881-n", "verdict": "right", "fault": null, "why": "'The whole amount of something' matches the gloss and the example uses the whole-of-parts sense."},
+   {"synset": "oewn-07975630-n", "verdict": "right", "fault": null, "why": "Learner 'final total that everything adds up to' fits 'the final aggregate'; the example fits."},
+   {"synset": "oewn-05929717-n", "verdict": "right", "fault": null, "why": "Learner tracks 'choicest or most essential or most vital part'; the example uses sum as the gist, which fits this synset."},
+   {"synset": "oewn-08015154-n", "verdict": "right", "fault": null, "why": "Learner restates the set-union gloss; the 'technical' label is justified by the mathematical set-theory gloss; example is apt."}
+  ]},
+ {"word": "trifling", "pos": "noun",
+  "rank": "wrong", "why": "Every sentence uses trifling as an adjective meaning trivial or petty ('little trifling colds', 'no trifling nature'), but the only listed sense is the noun for deliberately delaying and playing instead of working.",
+  "senses": [
+   {"synset": "oewn-01069743-n", "verdict": "right", "fault": null, "why": "Taken alone, the learner line matches the gloss, the example uses the noun in this sense, and the candidate verdict is fair since the word frames the play as wasted time; the fault is the missing adjective sense, not this writing."}
+  ]},
+ {"word": "vestibule", "pos": "noun",
+  "rank": "right", "why": "All four sentences are the entrance hall of a house, which is the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-02718424-n", "verdict": "right", "fault": null, "why": "Learner covers both the entrance and reception alternatives; both examples are book sentences in this sense."},
+   {"synset": "oewn-05312102-n", "verdict": "right", "fault": null, "why": "Learner restates the bodily-cavity gloss; 'technical' is justified by the anatomical gloss; example uses the inner ear."}
+  ]},
+ {"word": "abominably", "pos": "adverb",
+  "rank": "right", "why": "Three of four sentences use abominably as a strong intensifier for bad or terrible ('abominably rude'), matching the first sense; the fourth is the second sense, so the first is at least one of the split.",
+  "senses": [
+   {"synset": "oewn-00055639-r", "verdict": "right", "fault": null, "why": "Learner 'In a terrible way' matches the gloss; both 'abominably rude' examples fit; candidate is fair for a word of strong disapproval."},
+   {"synset": "oewn-00311025-r", "verdict": "right", "fault": null, "why": "Learner tracks 'offensive and hateful manner' ('hateful' can mean full of hate), the 'abusing you so abominably' example fits, and the candidate verdict is fair."}
+  ]},
+ {"word": "animation", "pos": "noun",
+  "rank": "right", "why": "All four sentences use animation as liveliness or spirit, matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-04639057-n", "verdict": "right", "fault": null, "why": "Learner matches the gloss and the example is the book's 'lost much of its animation'."},
+   {"synset": "oewn-00553473-n", "verdict": "right", "fault": null, "why": "'Movement and activity going on in general' fits 'general activity and motion'; example fits."},
+   {"synset": "oewn-00910103-n", "verdict": "right", "fault": null, "why": "Learner and example are the cartoon-making sense."},
+   {"synset": "oewn-01050390-n", "verdict": "right", "fault": null, "why": "Learner 'act of giving life and energy' matches the gloss; example of livening a dull party fits."},
+   {"synset": "oewn-13984978-n", "verdict": "right", "fault": null, "why": "Learner 'state of being alive' matches the gloss; example of a sign of life fits."},
+   {"synset": "oewn-05012993-n", "verdict": "right", "fault": null, "why": "'The power to stay alive and grow' fits 'able to survive and grow'; the seed-viability example fits."}
+  ]},
+ {"word": "arm", "pos": "noun",
+  "rank": "right", "why": "All three sentences are about a person's arm, the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-05571403-n", "verdict": "right", "fault": null, "why": "Learner keeps both the whole-limb and strict shoulder-to-elbow readings; examples are from the book."},
+   {"synset": "oewn-04572661-n", "verdict": "right", "fault": null, "why": "Learner restates the weapon gloss; 'lay down their arms' is this sense."},
+   {"synset": "oewn-02740665-n", "verdict": "right", "fault": null, "why": "Learner and example both concern the arm of a chair or sofa."},
+   {"synset": "oewn-02740838-n", "verdict": "right", "fault": null, "why": "Learner faithful; 'arm of the sea' fits a projection resembling an arm."},
+   {"synset": "oewn-08418205-n", "verdict": "right", "fault": null, "why": "Learner matches the organization-division gloss; example of a company's new arm fits."},
+   {"synset": "oewn-04243483-n", "verdict": "right", "fault": null, "why": "Learner restates the garment-sleeve gloss; example uses the coat's arm."}
+  ]},
+ {"word": "branch", "pos": "noun",
+  "rank": "right", "why": "The sentences split between 'another branch of the subject' (a division, nearest the first sense) and the olive-branch uses (plant), so the first-listed division sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-08418205-n", "verdict": "right", "fault": null, "why": "Learner matches the organization-division gloss; the bank-branch example fits."},
+   {"synset": "oewn-13184148-n", "verdict": "right", "fault": null, "why": "Learner is a plain paraphrase of the plant-stem gloss (covers both the division and the secondary stem); the bird-on-a-branch example fits."},
+   {"synset": "oewn-09251231-n", "verdict": "right", "fault": null, "why": "Learner and river-branch example match the gloss."},
+   {"synset": "oewn-13936864-n", "verdict": "right", "fault": null, "why": "Learner matches 'part of a forked or branching shape'; the road-splits example fits."},
+   {"synset": "oewn-11435835-n", "verdict": "right", "fault": null, "why": "Learner 'comes about naturally as something else grows' matches 'natural consequence of development'; the business-from-hobby example reads as an outgrowth."},
+   {"synset": "oewn-02740838-n", "verdict": "right", "fault": null, "why": "Learner matches the arm-like projection gloss; the pipe-branch example fits."}
+  ]},
+ {"word": "content", "pos": "verb",
+  "rank": "right", "why": "The sentences use 'contented herself/himself with' (satisfied in a limited way) and 'contented with'/'be contented', so the first-listed limited-satisfaction sense is used and the sentences lean toward it.",
+  "senses": [
+   {"synset": "oewn-01196771-v", "verdict": "right", "fault": null, "why": "Learner keeps 'satisfy' and 'limited'; 'often yourself' is a usage note from the reflexive pattern, not a change of sense; example is the book's 'contented himself with'."},
+   {"synset": "oewn-01820811-v", "verdict": "right", "fault": null, "why": "Learner 'make someone happy and satisfied' matches 'make content'; example uses content as a verb in this sense."}
+  ]}
+]}

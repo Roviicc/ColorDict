@@ -1,0 +1,76 @@
+{"packet": 8, "verdicts": [
+ {"word": "defend", "pos": "verb",
+  "rank": "right", "why": "The three sentences (Jane would have defended either, You shall not defend her, defend yourself) carry the argue-or-speak-in-defense sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00896689-v", "verdict": "right", "fault": null, "why": "Learner line unpacks 'in defense of' plainly, the example is the book sentence in this sense, and null fits."},
+   {"synset": "oewn-01132302-v", "verdict": "right", "fault": null, "why": "Learner line and the bridge example both match 'protect against a challenge or attack'."},
+   {"synset": "oewn-01130221-v", "verdict": "right", "fault": null, "why": "'Be on the defensive' is kept and the sports example uses defend in the act-against-an-attack sense."},
+   {"synset": "oewn-01151604-v", "verdict": "right", "fault": null, "why": "'Champion' becomes 'chosen supporter' and the rights-of-the-poor example fits."},
+   {"synset": "oewn-01093838-v", "verdict": "right", "fault": null, "why": "Learner line restates fight against or resist strongly, and the villagers example resists strongly."},
+   {"synset": "oewn-02587760-v", "verdict": "right", "fault": null, "why": "Lawyer speaking for someone on trial matches the gloss, and the court example fits."},
+   {"synset": "oewn-01019652-v", "verdict": "right", "fault": null, "why": "Learner line restates 'state or assert' and the example asserts an idea."}
+  ]},
+ {"word": "ensue", "pos": "verb",
+  "rank": "right", "why": "Only one sense is listed and the sentences (a pause ensued, such a consequence should ensue) fit it well enough, so nothing plainly used sits below it.",
+  "senses": [
+   {"synset": "oewn-02640346-v", "verdict": "right", "fault": null, "why": "Learner line keeps both halves (come out as a result, end in a certain way), the book example uses ensue in this result sense, and 'formal' is supported by the register of the sentences."}
+  ]},
+ {"word": "execution", "pos": "noun",
+  "rank": "right", "why": "Sentences 1-3 (carelessness of execution, superior execution, instructions on execution and taste) carry the act-of-performing sense listed first, and sentence 4 carries the next sense.",
+  "senses": [
+   {"synset": "oewn-00098324-n", "verdict": "right", "fault": null, "why": "Learner line covers performing, doing it well, and using knowledge rather than just having it, and both examples use this sense."},
+   {"synset": "oewn-01129700-n", "verdict": "right", "fault": null, "why": "Accomplishing an aim or carrying out an order is stated plainly and the book example fits."},
+   {"synset": "oewn-01166269-n", "verdict": "right", "fault": null, "why": "Killing of a person sentenced to death matches the gloss, the example fits, and null is correct for a descriptive sense."},
+   {"synset": "oewn-13498665-n", "verdict": "right", "fault": null, "why": "'Technical' is justified by the (computer science) tag and the example is in the computing sense."},
+   {"synset": "oewn-06566069-n", "verdict": "right", "fault": null, "why": "Signing and sealing to make a legal paper binding is preserved, the deed example fits, and 'technical' is justified by (law)."},
+   {"synset": "oewn-06565837-n", "verdict": "right", "fault": null, "why": "Learner line keeps the court order, the judgment, and the sheriff, and the example uses the sense."},
+   {"synset": "oewn-00221389-n", "verdict": "right", "fault": null, "why": "Planned unlawful killing is faithful to the gloss, the example reads as a murder, and a candidate verdict is reasonable for a loaded word used for an unlawful killing."}
+  ]},
+ {"word": "honestly", "pos": "adverb",
+  "rank": "right", "why": "The sentences (honestly telling her, honestly and heartily expressed) are mostly the manner sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-00315777-r", "verdict": "right", "fault": null, "why": "'In an honest way' is faithful and the book example is this sense."},
+   {"synset": "oewn-00316228-r", "verdict": "right", "fault": null, "why": "Learner line restates the sincere-intensifier gloss and the example is a sentence-initial intensifier."}
+  ]},
+ {"word": "imprudent", "pos": "adjective",
+  "rank": "right", "why": "Sentences 1-3 (very imprudent, it would be imprudent) are 'not prudent or wise', listed first, and sentence 4 is the second sense.",
+  "senses": [
+   {"synset": "oewn-01905427-a", "verdict": "wrong", "fault": "false-null", "why": "Learner line and examples are fine, but calling a choice imprudent plainly judges it negatively (deserved to lose Mr. Darcy's regard), so null is wrong."},
+   {"synset": "oewn-00777014-s", "verdict": "wrong", "fault": "false-null", "why": "Learner line and example are fine, but 'lacking wise self-restraint' (imprudent and extravagant) is a criticism of the person, so null is wrong."}
+  ]},
+ {"word": "inconvenient", "pos": "adjective",
+  "rank": "right", "why": "Most sentences (inconvenient distance, inconvenient sitting-room) carry the not-suited-to-comfort-or-needs sense listed first, and 'if inconvenient' may carry the timing sense.",
+  "senses": [
+   {"synset": "oewn-00607505-a", "verdict": "right", "fault": null, "why": "Learner line keeps comfort, purpose, and needs, the sitting-room example fits, and null is acceptable for a mild practical description."},
+   {"synset": "oewn-01666849-s", "verdict": "right", "fault": null, "why": "'At a time that does not suit you' is faithful and the example is about bad timing."}
+  ]},
+ {"word": "nervous", "pos": "adjective",
+  "rank": "right", "why": "The sentences split between nervous complaints (nervous system) and anxious nervousness, and the first listed sense is one of the split.",
+  "senses": [
+   {"synset": "oewn-02915824-a", "verdict": "right", "fault": null, "why": "Learner line is a plain restatement of 'of or relating to the nervous system' and the book example (nervous complaints) fits."},
+   {"synset": "oewn-02465209-s", "verdict": "right", "fault": null, "why": "Causing, full of, or showing worry covers all three parts of the gloss and the book example fits."},
+   {"synset": "oewn-02415704-s", "verdict": "right", "fault": null, "why": "'Easily upset or stirred up' restates 'easily agitated' and the example shows it."},
+   {"synset": "oewn-00922927-s", "verdict": "right", "fault": null, "why": "Excited while waiting is faithful and the children example matches."},
+   {"synset": "oewn-00922269-s", "verdict": "right", "fault": null, "why": "Unpredictable excitability and the horse emphasis are both kept, and the mare example fits."}
+  ]},
+ {"word": "owner", "pos": "noun",
+  "rank": "right", "why": "All three sentences use the plain person-who-owns-something sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-10409097-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss without circularity and both examples are book uses of owner."},
+   {"synset": "oewn-10408623-n", "verdict": "right", "fault": null, "why": "Learner line keeps the legal ownership of a business and the bakery example fits."}
+  ]},
+ {"word": "pause", "pos": "verb",
+  "rank": "right", "why": "The sentences (paused, then continued or replied) are temporary interruption before continuing, which is listed first.",
+  "senses": [
+   {"synset": "oewn-02647119-v", "verdict": "right", "fault": null, "why": "Learner line keeps stopping briefly and then going on, and both examples are book uses in this sense."},
+   {"synset": "oewn-00781106-v", "verdict": "right", "fault": null, "why": "'Stop an action for a short time' is faithful and the example uses pause that way."}
+  ]},
+ {"word": "purchase", "pos": "noun",
+  "rank": "right", "why": "Sentences 1-2 (make your purchase, get Pemberley by purchase) are the act of acquiring for payment listed first, and sentence 3 is the next sense.",
+  "senses": [
+   {"synset": "oewn-00079838-n", "verdict": "right", "fault": null, "why": "'Act of getting something by paying' is faithful and the book example fits."},
+   {"synset": "oewn-13274511-n", "verdict": "right", "fault": null, "why": "'A thing that someone has bought' matches the gloss and the coat example is a thing bought."},
+   {"synset": "oewn-11435456-n", "verdict": "right", "fault": null, "why": "Influence or advantage is kept and the lawyers example fits."},
+   {"synset": "oewn-11493538-n", "verdict": "right", "fault": null, "why": "'Extra force when in a position to use a lever' is a reasonable plain restatement of mechanical advantage and the example uses a bar as a lever."}
+  ]}
+]}
