@@ -1,0 +1,1513 @@
+{
+ "cap": 20,
+ "min_members": 2,
+ "runs": [
+  "stage10-r1",
+  "stage10-r2",
+  "stage10-r3",
+  "stage10-r4",
+  "stage10-r5",
+  "stage10-r6",
+  "stage10-r7",
+  "stage10-r8"
+ ],
+ "candidates": 169,
+ "routed": 125,
+ "held": 44,
+ "worksheets": 118,
+ "senses_to_author": 521,
+ "senses_by_pos": {
+  "adjective": 153,
+  "noun": 215,
+  "verb": 153
+ },
+ "guards": {
+  "members_already_toned_left_out": [
+   "abominable.oewn-01130122-s",
+   "apt.oewn-01337910-s",
+   "awful.oewn-01130122-s",
+   "bad.oewn-01129296-a",
+   "bright.oewn-01338411-s",
+   "clever.oewn-01337910-s",
+   "dreadful.oewn-01130122-s",
+   "fellow.oewn-09890770-n",
+   "intelligent.oewn-01337350-a",
+   "naughty.oewn-01132237-s",
+   "quick.oewn-01338856-s",
+   "secrecy.oewn-04659534-n",
+   "smart.oewn-01338411-s",
+   "steal.oewn-02326737-v",
+   "uncle.oewn-10755916-n"
+  ],
+  "duplicate_rows_resolved": 5,
+  "members_dropped_no_gloss": 0,
+  "members_pre_skipped_undefinable": 0
+ },
+ "routing": {
+  "oewn-01283088-a": [
+   {
+    "word": "little",
+    "pos": "adjective",
+    "synset": "oewn-01284018-s",
+    "why": "treats the thing as too small to matter",
+    "run": "stage10-r1"
+   }
+  ],
+  "oewn-06742248-n": [
+   {
+    "word": "claim",
+    "pos": "noun",
+    "synset": "oewn-06743312-n",
+    "why": "set against 'statement', may leave the truth open to doubt",
+    "run": "stage10-r1"
+   }
+  ],
+  "oewn-05702756-n": [
+   {
+    "word": "temptation",
+    "pos": "noun",
+    "synset": "oewn-05702756-n",
+    "why": "set against the plain neighbour 'attraction'",
+    "run": "stage10-r2"
+   }
+  ],
+  "oewn-00160440-n": [
+   {
+    "word": "temptation",
+    "pos": "noun",
+    "synset": "oewn-00160440-n",
+    "why": "set against the plain neighbour 'persuasion'",
+    "run": "stage10-r2"
+   }
+  ],
+  "oewn-05180732-n": [
+   {
+    "word": "joke",
+    "pos": "noun",
+    "synset": "oewn-05180970-n",
+    "why": "dismisses its target as not worth taking seriously",
+    "run": "stage10-r2"
+   }
+  ],
+  "oewn-00864347-v": [
+   {
+    "word": "attack",
+    "pos": "verb",
+    "synset": "oewn-00864347-v",
+    "why": "frames criticism as hostile aggression",
+    "run": "stage10-r2"
+   }
+  ],
+  "oewn-02541266-a": [
+   {
+    "word": "cordial",
+    "pos": "adjective",
+    "synset": "oewn-02541527-s",
+    "why": "polite warmth that may stop short of real closeness",
+    "run": "stage10-r2"
+   },
+   {
+    "word": "warm",
+    "pos": "adjective",
+    "synset": "oewn-02541266-a",
+    "why": "Approving and affectionate: calling a person or their manner 'warm' signals the speaker's own liking, where 'friendly' can be said flatly even of someone one dislikes.",
+    "run": "hand:stage10-r8 null audit"
+   }
+  ],
+  "oewn-07080699-n": [
+   {
+    "word": "eloquence",
+    "pos": "noun",
+    "synset": "oewn-07083250-n",
+    "why": "admires the speaker's skill where 'speech' would not",
+    "run": "stage10-r2"
+   }
+  ],
+  "oewn-01226520-n": [
+   {
+    "word": "presumption",
+    "pos": "noun",
+    "synset": "oewn-01228051-n",
+    "why": "names the act as a breach of manners",
+    "run": "stage10-r2"
+   }
+  ],
+  "oewn-01296281-a": [
+   {
+    "word": "afraid",
+    "pos": "adjective",
+    "synset": "oewn-01296519-s",
+    "why": "frames plain unwillingness as fear, against 'unwilling' or 'reluctant'",
+    "run": "stage10-r3"
+   }
+  ],
+  "oewn-05653442-n": [
+   {
+    "word": "folly",
+    "pos": "noun",
+    "synset": "oewn-05655001-n",
+    "why": "names conduct as foolish, a verdict built into the word",
+    "run": "stage10-r3"
+   }
+  ],
+  "oewn-01342187-v": [
+   {
+    "word": "expose",
+    "pos": "verb",
+    "synset": "oewn-01342187-v",
+    "why": "implies an indecent display, not plain undressing",
+    "run": "stage10-r3"
+   }
+  ],
+  "oewn-00853615-v": [
+   {
+    "word": "expose",
+    "pos": "verb",
+    "synset": "oewn-00854877-v",
+    "why": "casts the target as false or pretentious",
+    "run": "stage10-r3"
+   }
+  ],
+  "oewn-01766135-v": [
+   {
+    "word": "tempt",
+    "pos": "verb",
+    "synset": "oewn-01811737-v",
+    "why": "frames the attraction as leading toward wrongdoing",
+    "run": "stage10-r3"
+   }
+  ],
+  "oewn-00768463-v": [
+   {
+    "word": "tempt",
+    "pos": "verb",
+    "synset": "oewn-00786231-v",
+    "why": "casts the risk-taking as overconfident presumption",
+    "run": "stage10-r3"
+   }
+  ],
+  "oewn-01597049-a": [
+   {
+    "word": "common",
+    "pos": "adjective",
+    "synset": "oewn-01597504-s",
+    "why": "class word; neighbours plebeian and unwashed, against plain 'ordinary'",
+    "run": "stage10-r4"
+   },
+   {
+    "word": "humble",
+    "pos": "adjective",
+    "synset": "oewn-01597282-s",
+    "why": "gentler than 'base' or 'lowborn' for the same station",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-02636270-v": [
+   {
+    "word": "boast",
+    "pos": "verb",
+    "synset": "oewn-02637740-v",
+    "why": "showy display, against plain 'wear' or 'show'",
+    "run": "stage10-r4"
+   }
+  ],
+  "oewn-00775477-v": [
+   {
+    "word": "quarrel",
+    "pos": "verb",
+    "synset": "oewn-00777201-v",
+    "why": "set against plain 'disagree' or 'argue'",
+    "run": "stage10-r4"
+   }
+  ],
+  "oewn-14458911-n": [
+   {
+    "word": "distinction",
+    "pos": "noun",
+    "synset": "oewn-14458911-n",
+    "why": "honours the one it is given to, against plain 'status'",
+    "run": "stage10-r4"
+   }
+  ],
+  "oewn-01463343-a": [
+   {
+    "word": "abominable",
+    "pos": "adjective",
+    "synset": "oewn-01463601-s",
+    "why": "condemns its target outright, against a plain 'bad' or 'unpleasant'",
+    "run": "stage10-r4"
+   },
+   {
+    "word": "odious",
+    "pos": "adjective",
+    "synset": "oewn-01463601-s",
+    "why": "condemns its target as deserving hatred, beyond plain dislike",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-13480525-n": [
+   {
+    "word": "denial",
+    "pos": "noun",
+    "synset": "oewn-13483154-n",
+    "why": "said of a person, against a plain 'does not accept it'",
+    "run": "stage10-r4"
+   }
+  ],
+  "oewn-00073656-a": [
+   {
+    "word": "affected",
+    "pos": "adjective",
+    "synset": "oewn-00073656-a",
+    "why": "calls the behaviour put-on and false, not just unusual",
+    "run": "stage10-r4"
+   }
+  ],
+  "oewn-00288506-a": [
+   {
+    "word": "narrow",
+    "pos": "adjective",
+    "synset": "oewn-00288506-a",
+    "why": "faults a person's mind or views, against plain 'firm' or 'traditional'",
+    "run": "stage10-r4"
+   }
+  ],
+  "oewn-00960366-a": [
+   {
+    "word": "unjust",
+    "pos": "adjective",
+    "synset": "oewn-00960366-a",
+    "why": "condemns an act as morally wrong, weightier than plain 'unfair'",
+    "run": "stage10-r4"
+   }
+  ],
+  "oewn-02401968-a": [
+   {
+    "word": "loud",
+    "pos": "adjective",
+    "synset": "oewn-02402358-s",
+    "why": "judges bright colours or showy style as lacking taste, unlike 'bright' or 'colourful'",
+    "run": "stage10-r4"
+   }
+  ],
+  "oewn-04845441-n": [
+   {
+    "word": "nerve",
+    "pos": "noun",
+    "synset": "oewn-04845441-n",
+    "why": "judges boldness as rude, unlike 'boldness' or 'courage'",
+    "run": "stage10-r4"
+   }
+  ],
+  "oewn-01726477-a": [
+   {
+    "word": "insupportable",
+    "pos": "adjective",
+    "synset": "oewn-01726584-s",
+    "why": "condemns a claim or act as having no defence, against plain 'unexplained'",
+    "run": "stage10-r4"
+   }
+  ],
+  "oewn-02199359-v": [
+   {
+    "word": "disgust",
+    "pos": "verb",
+    "synset": "oewn-02199359-v",
+    "why": "marks the thing as repellent, against plain 'displease'",
+    "run": "stage10-r4"
+   }
+  ],
+  "oewn-01812341-v": [
+   {
+    "word": "disgust",
+    "pos": "verb",
+    "synset": "oewn-01812341-v",
+    "why": "condemns the thing as morally offensive, against plain 'upset'",
+    "run": "stage10-r4"
+   }
+  ],
+  "oewn-09647338-n": [
+   {
+    "word": "man",
+    "pos": "noun",
+    "synset": "oewn-10308424-n",
+    "why": "praises a male as properly strong and brave, not just adult",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-02474924-n": [
+   {
+    "word": "man",
+    "pos": "noun",
+    "synset": "oewn-02475618-n",
+    "why": "a male word standing for all living people",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-02474393-n": [
+   {
+    "word": "man",
+    "pos": "noun",
+    "synset": "oewn-02474924-n",
+    "why": "a male word standing for the whole human kind",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-10306910-n": [
+   {
+    "word": "brother",
+    "pos": "noun",
+    "synset": "oewn-86559942-n",
+    "why": "claims family-like closeness and loyalty, against plain 'friend'",
+    "run": "stage10-r5"
+   },
+   {
+    "word": "boy",
+    "pos": "noun",
+    "synset": "oewn-09890332-n",
+    "why": "calls a grown man a boy, with familiarity",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-09628463-n": [
+   {
+    "word": "character",
+    "pos": "noun",
+    "synset": "oewn-09928518-n",
+    "why": "marks the person as odd or eccentric",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-10074465-n": [
+   {
+    "word": "master",
+    "pos": "noun",
+    "synset": "oewn-10318314-n",
+    "why": "casts those directed as servants rather than employees",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-01165070-v": [
+   {
+    "word": "use",
+    "pos": "verb",
+    "synset": "oewn-02606487-v",
+    "why": "implies selfish exploitation of a person",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-01159300-v": [
+   {
+    "word": "use",
+    "pos": "verb",
+    "synset": "oewn-01167359-v",
+    "why": "suggests a drug habit rather than plain taking",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-02512195-v": [
+   {
+    "word": "force",
+    "pos": "verb",
+    "synset": "oewn-00749422-v",
+    "why": "marks what is imposed as pushed on people who did not want it",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-07533371-n": [
+   {
+    "word": "scene",
+    "pos": "noun",
+    "synset": "oewn-14429707-n",
+    "why": "frames an outburst as an embarrassing display rather than plain anger",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-02682907-v": [
+   {
+    "word": "affect",
+    "pos": "verb",
+    "synset": "oewn-02682907-v",
+    "why": "often implies guilt in the person it links",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-07520777-n": [
+   {
+    "word": "indifference",
+    "pos": "noun",
+    "synset": "oewn-07520915-n",
+    "why": "against 'impartiality', can suggest not caring rather than being fair",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-02023749-a": [
+   {
+    "word": "tall",
+    "pos": "adjective",
+    "synset": "oewn-02024935-s",
+    "why": "can mark a style as puffed up, against plain 'elevated'",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-05726201-n": [
+   {
+    "word": "music",
+    "pos": "noun",
+    "synset": "oewn-05726503-n",
+    "why": "calls a sound pleasing, against plain 'sound'",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-00798638-v": [
+   {
+    "word": "reject",
+    "pos": "verb",
+    "synset": "oewn-00798638-v",
+    "why": "refusal made with contempt for what is refused",
+    "run": "stage10-r5"
+   }
+  ],
+  "oewn-00643305-a": [
+   {
+    "word": "short",
+    "pos": "adjective",
+    "synset": "oewn-00643682-s",
+    "why": "calls a brief manner rude where 'brief' would not",
+    "run": "stage10-r6"
+   }
+  ],
+  "oewn-05838383-n": [
+   {
+    "word": "pain",
+    "pos": "noun",
+    "synset": "oewn-05838383-n",
+    "why": "labels a person or thing a nuisance rather than a problem",
+    "run": "stage10-r6"
+   }
+  ],
+  "oewn-06769118-n": [
+   {
+    "word": "scheme",
+    "pos": "noun",
+    "synset": "oewn-06769391-n",
+    "why": "casts an answer as a trick rather than a reply",
+    "run": "stage10-r6"
+   }
+  ],
+  "oewn-10211562-n": [
+   {
+    "word": "card",
+    "pos": "noun",
+    "synset": "oewn-10782010-n",
+    "why": "fond, indulgent label for a person, set against plain 'joker' or 'wit'",
+    "run": "stage10-r6"
+   }
+  ],
+  "oewn-02463257-v": [
+   {
+    "word": "offend",
+    "pos": "verb",
+    "synset": "oewn-02572443-v",
+    "why": "frames rule-breaking as a wrong done, against plain 'break'",
+    "run": "stage10-r6"
+   }
+  ],
+  "oewn-10146463-n": [
+   {
+    "word": "wonder",
+    "pos": "noun",
+    "synset": "oewn-10146463-n",
+    "why": "admires a person's mind beyond calling them clever",
+    "run": "stage10-r6"
+   }
+  ],
+  "oewn-04928931-n": [
+   {
+    "word": "education",
+    "pos": "noun",
+    "synset": "oewn-04929077-n",
+    "why": "approves of refined manners from a good upbringing",
+    "run": "stage10-r6"
+   }
+  ],
+  "oewn-00157901-n": [
+   {
+    "word": "use",
+    "pos": "noun",
+    "synset": "oewn-00159005-n",
+    "why": "implies working on people slyly for one's own advantage",
+    "run": "stage10-r6"
+   }
+  ],
+  "oewn-00758383-v": [
+   {
+    "word": "pretend",
+    "pos": "verb",
+    "synset": "oewn-00758694-v",
+    "why": "marks what someone says as insincere",
+    "run": "stage10-r6"
+   }
+  ],
+  "oewn-01725433-v": [
+   {
+    "word": "pretend",
+    "pos": "verb",
+    "synset": "oewn-01725433-v",
+    "why": "suggests the behaviour is false or put on",
+    "run": "stage10-r6"
+   },
+   {
+    "word": "act",
+    "pos": "verb",
+    "synset": "oewn-01725433-v",
+    "why": "marks the behaviour as false rather than simply describing it",
+    "run": "stage10-r7"
+   }
+  ],
+  "oewn-02534950-v": [
+   {
+    "word": "neglect",
+    "pos": "verb",
+    "synset": "oewn-02534950-v",
+    "why": "suggests a duty left undone, against plain 'not do' or 'forget'",
+    "run": "stage10-r6"
+   }
+  ],
+  "oewn-09204454-n": [
+   {
+    "word": "possession",
+    "pos": "noun",
+    "synset": "oewn-09205421-n",
+    "why": "frames a single interest as a mania, against plain 'interest' or 'passion'",
+    "run": "stage10-r6"
+   }
+  ],
+  "oewn-00811316-v": [
+   {
+    "word": "beg",
+    "pos": "verb",
+    "synset": "oewn-00811888-v",
+    "why": "names a fault in an argument, against plain 'assume'",
+    "run": "stage10-r7"
+   },
+   {
+    "word": "beg",
+    "pos": "verb",
+    "synset": "oewn-00811888-v",
+    "why": "Learner line and example are faithful, but 'beg the question/point' as dodging or taking for granted is a criticism of an argument or speaker, so a learner needs to know it lands as a rebuke, not neutrally.",
+    "run": "hand:stage10-r7 null audit"
+   }
+  ],
+  "oewn-06726869-n": [
+   {
+    "word": "speech",
+    "pos": "noun",
+    "synset": "oewn-06726869-n",
+    "why": "casts a scolding as long-winded talk",
+    "run": "stage10-r7"
+   }
+  ],
+  "oewn-13970595-n": [
+   {
+    "word": "quality",
+    "pos": "noun",
+    "synset": "oewn-13971206-n",
+    "why": "equates high rank with worth",
+    "run": "stage10-r7"
+   }
+  ],
+  "oewn-04902968-n": [
+   {
+    "word": "suspicion",
+    "pos": "noun",
+    "synset": "oewn-04903174-n",
+    "why": "names a distrustful temperament, against plain caution or wariness",
+    "run": "stage10-r7"
+   }
+  ],
+  "oewn-09835195-n": [
+   {
+    "word": "instrument",
+    "pos": "noun",
+    "synset": "oewn-10229217-n",
+    "why": "casts a person as a mere tool that someone else uses",
+    "run": "stage10-r7"
+   }
+  ],
+  "oewn-02211401-v": [
+   {
+    "word": "relieve",
+    "pos": "verb",
+    "synset": "oewn-02317862-v",
+    "why": "polite-sounding word used in place of steal",
+    "run": "stage10-r7"
+   }
+  ],
+  "oewn-01466898-a": [
+   {
+    "word": "fond",
+    "pos": "adjective",
+    "synset": "oewn-01467366-s",
+    "why": "calls the love excessive where 'loving' would not",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-00755913-a": [
+   {
+    "word": "silly",
+    "pos": "adjective",
+    "synset": "oewn-00756368-s",
+    "why": "adds scorn where 'sad' would only ask for pity",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-01513206-a": [
+   {
+    "word": "violent",
+    "pos": "adjective",
+    "synset": "oewn-01515606-s",
+    "why": "suggests feeling beyond control, against 'vehement' or 'fervent'",
+    "run": "stage10-r8"
+   },
+   {
+    "word": "violent",
+    "pos": "adjective",
+    "synset": "oewn-01518224-s",
+    "why": "may judge a colour or sound as too harsh, against 'vivid'",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-02520937-a": [
+   {
+    "word": "violent",
+    "pos": "adjective",
+    "synset": "oewn-02520937-a",
+    "why": "implies harmful force, against plain 'forceful'",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-07531593-n": [
+   {
+    "word": "indignation",
+    "pos": "noun",
+    "synset": "oewn-07532976-n",
+    "why": "frames the anger as morally in the right, against plain 'anger'",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-04659141-n": [
+   {
+    "word": "reserve",
+    "pos": "noun",
+    "synset": "oewn-04659795-n",
+    "why": "sits among reticence, taciturnity and secretiveness, which differ in how they weigh holding back",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-07520080-n": [
+   {
+    "word": "solicitude",
+    "pos": "noun",
+    "synset": "oewn-07520446-n",
+    "why": "the gloss marks the concern as excessive, against plain concern or care",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-00921893-a": [
+   {
+    "word": "warm",
+    "pos": "adjective",
+    "synset": "oewn-00922132-s",
+    "why": "a milder neighbour of hot-tempered and excitable for the same quickness to flare up",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-02000222-a": [
+   {
+    "word": "nice",
+    "pos": "adjective",
+    "synset": "oewn-02000490-s",
+    "why": "measures a person against social standards of propriety",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-00987053-a": [
+   {
+    "word": "nice",
+    "pos": "adjective",
+    "synset": "oewn-00987524-s",
+    "why": "calls the fussiness excessive where 'particular' would not",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-01431486-v": [
+   {
+    "word": "ruin",
+    "pos": "verb",
+    "synset": "oewn-01431014-v",
+    "why": "frames loss of virginity as destruction of the person",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-02081496-a": [
+   {
+    "word": "sick",
+    "pos": "adjective",
+    "synset": "oewn-02082451-s",
+    "why": "used of a person's mind in place of neutral 'mentally ill'",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-04650578-n": [
+   {
+    "word": "bitterness",
+    "pos": "noun",
+    "synset": "oewn-04650754-n",
+    "why": "sour, hostile manner set against plain sharpness or tartness",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-07546643-n": [
+   {
+    "word": "complacency",
+    "pos": "noun",
+    "synset": "oewn-07547101-n",
+    "why": "self-satisfaction set against plain contentment",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-00806138-v": [
+   {
+    "word": "defer",
+    "pos": "verb",
+    "synset": "oewn-00879879-v",
+    "why": "yielding framed as respect, set against give in or submit",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-07516784-n": [
+   {
+    "word": "disdain",
+    "pos": "noun",
+    "synset": "oewn-07518219-n",
+    "why": "set against contempt, scorn and plain dislike",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-06730109-n": [
+   {
+    "word": "disdain",
+    "pos": "noun",
+    "synset": "oewn-06732153-n",
+    "why": "set against condescension and patronage",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-01273285-a": [
+   {
+    "word": "hasty",
+    "pos": "adjective",
+    "synset": "oewn-01273814-s",
+    "why": "too quick, set against quick or brief",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-02587499-a": [
+   {
+    "word": "mercenary",
+    "pos": "adjective",
+    "synset": "oewn-02588345-s",
+    "why": "money-minded, set against prudent or materialistic",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-01129296-a": [
+   {
+    "word": "sad",
+    "pos": "adjective",
+    "synset": "oewn-01130672-s",
+    "why": "calls a situation regrettably bad rather than just describing it",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-01068087-n": [
+   {
+    "word": "trifling",
+    "pos": "noun",
+    "synset": "oewn-01069743-n",
+    "why": "frames play as time wasted when work is due",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-00220890-n": [
+   {
+    "word": "execution",
+    "pos": "noun",
+    "synset": "oewn-00221389-n",
+    "why": "chosen over plain 'murder' or 'killing' for an unlawful killing",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-07244190-n": [
+   {
+    "word": "boast",
+    "pos": "noun",
+    "synset": "oewn-07244190-n",
+    "why": "frames self-description as vain against a plain claim or statement",
+    "run": "stage10-r8"
+   }
+  ],
+  "oewn-01429048-v": [
+   {
+    "word": "love",
+    "pos": "verb",
+    "synset": "oewn-01429048-v",
+    "why": "Chosen over 'have sex with', 'love' is a tender, romanticising euphemism that casts the act as affectionate.",
+    "run": "hand:stage10-r1 null audit"
+   }
+  ],
+  "oewn-07370091-n": [
+   {
+    "word": "loss",
+    "pos": "noun",
+    "synset": "oewn-07348249-n",
+    "why": "The gloss itself marks it euphemistic: choosing 'loss' over 'death' softens the blow and signals tact and sympathy toward the bereaved, which a learner needs to be told.",
+    "run": "hand:stage10-r1 null audit"
+   }
+  ],
+  "oewn-00020824-a": [
+   {
+    "word": "obliging",
+    "pos": "adjective",
+    "synset": "oewn-00021147-s",
+    "why": "Approving: it praises a person's courteous readiness to help, warmer than the plain 'helpful' and the opposite in tone to 'compliant'.",
+    "run": "hand:stage10-r2 null audit"
+   }
+  ],
+  "oewn-02725274-v": [
+   {
+    "word": "suffer",
+    "pos": "verb",
+    "synset": "oewn-02725682-v",
+    "why": "Saying someone suffers from a tendency rather than has one casts the habit as an affliction, a defect to be pitied or deplored, which is a judgement beyond the gloss be given to.",
+    "run": "hand:stage10-r3 null audit"
+   }
+  ],
+  "oewn-00778568-v": [
+   {
+    "word": "tempt",
+    "pos": "verb",
+    "synset": "oewn-00778568-v",
+    "why": "Against 'persuade' or 'induce', 'tempt' frames the inducement as a lure to desire and the act as a yielding rather than a decision, faintly suggesting it is unwise or indulgent.",
+    "run": "hand:stage10-r3 null audit"
+   }
+  ],
+  "oewn-01337350-a": [
+   {
+    "word": "natural",
+    "pos": "adjective",
+    "synset": "oewn-01338661-s",
+    "why": "Calling someone 'a natural leader' praises an innate gift, so the word judges favorably rather than merely describing, contrary to the null verdict.",
+    "run": "hand:stage10-r3 null audit"
+   }
+  ],
+  "oewn-04864314-n": [
+   {
+    "word": "gallantry",
+    "pos": "noun",
+    "synset": "oewn-04864969-n",
+    "why": "Admiring and honorific: chosen over 'bravery' it ennobles the courage as chivalrous and dashing, the word of medal citations.",
+    "run": "hand:stage10-r4 null audit"
+   }
+  ],
+  "oewn-02355171-v": [
+   {
+    "word": "rid",
+    "pos": "verb",
+    "synset": "oewn-02355171-v",
+    "why": "To get rid of someone casts them as a nuisance to be disposed of; 'got rid of her two most deserving daughters' is ironic precisely because the word is dismissive, and a learner choosing it over 'part with' or 'send away' is signalling contempt for the thing removed.",
+    "run": "hand:stage10-r4 null audit"
+   }
+  ],
+  "oewn-07561835-n": [
+   {
+    "word": "abhorrence",
+    "pos": "noun",
+    "synset": "oewn-07518669-n",
+    "why": "Abhorrence names an intensely condemnatory attitude (hate plus disgust) toward its object, directly parallel to 'abominable' which this same packet correctly marks a connotation candidate, so a learner needs to know it signals strong condemnation rather than neutral description.",
+    "run": "hand:stage10-r4 null audit"
+   }
+  ],
+  "oewn-07176392-n": [
+   {
+    "word": "question",
+    "pos": "noun",
+    "synset": "oewn-07176710-n",
+    "why": "Coy and jocular: 'the question' for a proposal treats it with an affectionate wink rather than naming it plainly.",
+    "run": "hand:stage10-r5 null audit"
+   }
+  ],
+  "oewn-05047429-n": [
+   {
+    "word": "delicacy",
+    "pos": "noun",
+    "synset": "oewn-05048657-n",
+    "why": "Chosen over 'weakness' or 'frailty' it softens and refines the condition, a tactful, faintly genteel and sympathetic framing of poor health.",
+    "run": "hand:stage10-r5 null audit"
+   }
+  ],
+  "oewn-05113933-n": [
+   {
+    "word": "delicacy",
+    "pos": "noun",
+    "synset": "oewn-05114516-n",
+    "why": "Chosen over 'thinness' or 'slenderness' it admires: the slightness is presented as fine, refined and graceful.",
+    "run": "hand:stage10-r5 null audit"
+   }
+  ],
+  "oewn-04639514-n": [
+   {
+    "word": "delicacy",
+    "pos": "noun",
+    "synset": "oewn-04640223-n",
+    "why": "Chosen over 'lightness' it approves: the touch or manner is presented as refined, tactful and skilled.",
+    "run": "hand:stage10-r5 null audit"
+   }
+  ],
+  "oewn-01162829-n": [
+   {
+    "word": "music",
+    "pos": "noun",
+    "synset": "oewn-01165019-n",
+    "why": "In 'face the music' it is a wry, ironic understatement that frames the consequences as one's own doing and long avoided; a learner should know it is not a plain word for punishment.",
+    "run": "hand:stage10-r5 null audit"
+   }
+  ],
+  "oewn-02589224-v": [
+   {
+    "word": "arise",
+    "pos": "verb",
+    "synset": "oewn-02589224-v",
+    "why": "Chosen over 'rebel' or 'revolt', 'arise' casts the rising as stirring and righteous, a people throwing off oppression rather than subjects breaking allegiance; the speaker sides with the risers.",
+    "run": "hand:stage10-r6 null audit"
+   }
+  ],
+  "oewn-08066153-n": [
+   {
+    "word": "family",
+    "pos": "noun",
+    "synset": "oewn-08244837-n",
+    "why": "Calling a non-kin group a 'family' (the company family) is a warm, affectionate framing that claims closeness and loyalty beyond what 'organization' or 'association' says.",
+    "run": "hand:stage10-r7 null audit"
+   }
+  ],
+  "oewn-01900825-a": [
+   {
+    "word": "long",
+    "pos": "adjective",
+    "synset": "oewn-01901363-s",
+    "why": "Approving: calling planning 'prudent' or a planner farsighted endorses their judgement, where a plain 'long-term' or 'forward' would merely describe the horizon.",
+    "run": "hand:stage10-r7 null audit"
+   }
+  ],
+  "oewn-13985834-n": [
+   {
+    "word": "rest",
+    "pos": "noun",
+    "synset": "oewn-13986101-n",
+    "why": "Gentle and reverent: choosing 'rest' over 'death' casts the death as peaceful repose and signals the speaker's tenderness toward the dead.",
+    "run": "hand:stage10-r7 null audit"
+   }
+  ],
+  "oewn-01159815-v": [
+   {
+    "word": "eat",
+    "pos": "verb",
+    "synset": "oewn-01159815-v",
+    "why": "Choosing 'eats' over 'uses' (a car that eats gas, meetings that eat the morning) casts the consumer as greedy and the loss as unwelcome.",
+    "run": "hand:stage10-r7 null audit"
+   }
+  ],
+  "oewn-00709335-a": [
+   {
+    "word": "delicate",
+    "pos": "adjective",
+    "synset": "oewn-00709335-a",
+    "why": "Admiring: choosing 'delicate' over 'thin', 'faint' or 'small' praises the thing as finely and pleasingly made, as 'slender' does against 'skinny'.",
+    "run": "hand:stage10-r7 null audit"
+   }
+  ],
+  "oewn-00072600-a": [
+   {
+    "word": "superior",
+    "pos": "adjective",
+    "synset": "oewn-00073044-s",
+    "why": "Approving: 'superior to' flattery or petty concerns credits the subject with moral elevation, where 'unaffected by' or 'immune to' would only state the fact.",
+    "run": "hand:stage10-r8 null audit"
+   }
+  ],
+  "oewn-00090040-a": [
+   {
+    "word": "dreadful",
+    "pos": "adjective",
+    "synset": "oewn-00090922-s",
+    "why": "Emotive, hyperbolic disapproval: over 'very bad' it performs the speaker's revulsion or exasperation, so a learner should know it lands as a heated verdict rather than an assessment.",
+    "run": "hand:stage10-r8 null audit"
+   }
+  ],
+  "oewn-01796420-a": [
+   {
+    "word": "mere",
+    "pos": "adjective",
+    "synset": "oewn-01797082-s",
+    "why": "'Mere' belittles what it modifies as nothing more than that and not much ('a mere pretence', 'the mere stateliness of money and rank'); a learner choosing it over 'only' or 'simple' is expressing dismissal.",
+    "run": "hand:stage10-r8 null audit"
+   }
+  ],
+  "oewn-02622766-v": [
+   {
+    "word": "exist",
+    "pos": "verb",
+    "synset": "oewn-02622766-v",
+    "why": "Chosen over 'live' for how someone gets by, it diminishes the life to bare, joyless survival ('merely exist on that wage'), and a learner should know it sounds bleak.",
+    "run": "hand:stage10-r8 null audit"
+   }
+  ],
+  "oewn-02042235-a": [
+   {
+    "word": "honourable",
+    "pos": "adjective",
+    "synset": "oewn-02042493-s",
+    "why": "It praises: choosing it over 'ethical' or 'principled' expresses esteem and admiration for the person's integrity, which is why it is so readily used ironically.",
+    "run": "hand:stage10-r8 null audit"
+   }
+  ],
+  "oewn-01590750-a": [
+   {
+    "word": "nice",
+    "pos": "adjective",
+    "synset": "oewn-01590750-a",
+    "why": "The word is almost pure attitude - warm, casual, mild approval ('nice little pair of ponies', 'nice long walk') - and a learner needs to know it lands as friendly and informal, and outside such warmth can sound bland or like faint praise.",
+    "run": "hand:stage10-r8 null audit"
+   }
+  ],
+  "oewn-01905427-a": [
+   {
+    "word": "imprudent",
+    "pos": "adjective",
+    "synset": "oewn-01905427-a",
+    "why": "Mild, genteel disapproval: it blames the actor for failing to weigh consequences where risky or ill-advised would only describe the action.",
+    "run": "hand:stage10-r8 null audit"
+   }
+  ],
+  "oewn-00776668-a": [
+   {
+    "word": "imprudent",
+    "pos": "adjective",
+    "synset": "oewn-00777014-s",
+    "why": "Measured censure of a lapse in self-restraint; paired with extravagant in the text as a character fault, it lands as blame rather than description.",
+    "run": "hand:stage10-r8 null audit"
+   }
+  ],
+  "oewn-04704615-n": [
+   {
+    "word": "restraint",
+    "pos": "noun",
+    "synset": "oewn-04704790-n",
+    "why": "Calling lack of ornamentation restraint frames the plainness as tasteful, deliberate discipline rather than bareness or poverty; approving, unlike plainness or austerity.",
+    "run": "hand:stage10-r8 null audit"
+   }
+  ],
+  "oewn-01679784-a": [
+   {
+    "word": "wonderful",
+    "pos": "adjective",
+    "synset": "oewn-01681111-s",
+    "why": "It is not a measurement of goodness but the speaker's delight and admiration; it lands as warm, effusive, and (as in Lady Catherine's 'wonderful how many families') easily gushing or ironic.",
+    "run": "hand:stage10-r8 null audit"
+   }
+  ],
+  "oewn-01024009-a": [
+   {
+    "word": "worthy",
+    "pos": "adjective",
+    "synset": "oewn-01024736-s",
+    "why": "Confers moral esteem and respectability on its target rather than just stating desert; a learner should know it sounds formal, approving, and in modern attributive use faintly patronising ('worthy but dull').",
+    "run": "hand:stage10-r8 null audit"
+   }
+  ],
+  "oewn-00854923-a": [
+   {
+    "word": "worthy",
+    "pos": "adjective",
+    "synset": "oewn-00855376-s",
+    "why": "Against the neutral 'eligible', calling someone worthy of being chosen expresses the speaker's esteem for them (Mr. Bennet's 'anyone less worthy'), and Austen can turn it ironic for the same reason.",
+    "run": "hand:stage10-r8 null audit"
+   }
+  ],
+  "oewn-04921469-n": [
+   {
+    "word": "incivility",
+    "pos": "noun",
+    "synset": "oewn-04922542-n",
+    "why": "Learner and examples are faithful, but incivility is a fault-word that itself condemns deliberate rudeness, so null understates how it lands.",
+    "run": "hand:stage10-r8 null audit"
+   }
+  ]
+ },
+ "held_candidates": [
+  {
+   "run": "stage10-r1",
+   "word": "little",
+   "pos": "adjective",
+   "synset": "oewn-00858857-s",
+   "why": "smallness used to show fondness or its opposite",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r2",
+   "word": "presumption",
+   "pos": "noun",
+   "synset": "oewn-04845958-n",
+   "why": "condemns someone for overstepping their place",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r2",
+   "word": "mercenary",
+   "pos": "noun",
+   "synset": "oewn-10329281-n",
+   "why": "fighting for pay rather than loyalty, against plain 'soldier'",
+   "held_because": "mercenary/noun does not occur in any ingested book"
+  },
+  {
+   "run": "stage10-r3",
+   "word": "girl",
+   "pos": "noun",
+   "synset": "oewn-10149967-n",
+   "why": "a word for a child used of a grown woman, against plain 'woman'",
+   "held_because": "smallest book-restricted family is 23 members (cap 20)"
+  },
+  {
+   "run": "stage10-r3",
+   "word": "civil",
+   "pos": "adjective",
+   "synset": "oewn-00413432-s",
+   "why": "ranks some peoples as ordered and others by implication as wild",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r3",
+   "word": "shortly",
+   "pos": "adverb",
+   "synset": "oewn-00298575-r",
+   "why": "casts the speaker's brevity as rude",
+   "held_because": "synset is in no family"
+  },
+  {
+   "run": "stage10-r4",
+   "word": "common",
+   "pos": "adjective",
+   "synset": "oewn-02355096-s",
+   "why": "quality word borrowed from social rank, against plain 'cheap'",
+   "held_because": "every fitting family is already authored: oewn-02353767-a in annotated-008.json"
+  },
+  {
+   "run": "stage10-r4",
+   "word": "low",
+   "pos": "adjective",
+   "synset": "oewn-01957830-s",
+   "why": "neighbours coarse and vulgar, set against refined",
+   "held_because": "every fitting family is already authored: oewn-01955971-a in annotated-007.json"
+  },
+  {
+   "run": "stage10-r4",
+   "word": "gallantry",
+   "pos": "noun",
+   "synset": "oewn-01231281-n",
+   "why": "chosen over plain 'politeness' to mark attention paid to women",
+   "held_because": "synset is in no family"
+  },
+  {
+   "run": "stage10-r4",
+   "word": "wretched",
+   "pos": "adjective",
+   "synset": "oewn-02355625-s",
+   "why": "condemns quality with feeling, against plain 'poor'",
+   "held_because": "every fitting family is already authored: oewn-02353767-a in annotated-008.json"
+  },
+  {
+   "run": "stage10-r4",
+   "word": "wretched",
+   "pos": "adjective",
+   "synset": "oewn-01136517-s",
+   "why": "condemns a person's morals, against plain 'bad'",
+   "held_because": "every fitting family is already authored: oewn-01134543-a in annotated-015.json"
+  },
+  {
+   "run": "stage10-r4",
+   "word": "wretched",
+   "pos": "adjective",
+   "synset": "oewn-01054589-s",
+   "why": "casts the one described as pitiful, against plain 'unlucky'",
+   "held_because": "every fitting family is already authored: oewn-01053161-a in annotated-015.json"
+  },
+  {
+   "run": "stage10-r4",
+   "word": "unjust",
+   "pos": "adjective",
+   "synset": "oewn-01373517-a",
+   "why": "condemns a judge or act as wrong, against neutral 'unlawful' or 'harsh'",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r4",
+   "word": "unjust",
+   "pos": "adjective",
+   "synset": "oewn-00961901-a",
+   "why": "judges a sharing as wrong, against plain 'unequal'",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r4",
+   "word": "material",
+   "pos": "noun",
+   "synset": "oewn-10320321-n",
+   "why": "rates a person as fit for a place or job, against plain 'candidate'",
+   "held_because": "material/noun does not occur in any ingested book"
+  },
+  {
+   "run": "stage10-r4",
+   "word": "repine",
+   "pos": "verb",
+   "synset": "oewn-00912844-v",
+   "why": "discontent voiced as fretting, against plain 'complain'",
+   "held_because": "every fitting family is already authored: oewn-00909100-v in annotated-005.json"
+  },
+  {
+   "run": "stage10-r5",
+   "word": "home",
+   "pos": "noun",
+   "synset": "oewn-03533280-n",
+   "why": "softer word than 'institution'; 'put in a home' can sting",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r5",
+   "word": "trouble",
+   "pos": "noun",
+   "synset": "oewn-14070233-n",
+   "why": "names a pregnancy as a misfortune or disgrace",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r5",
+   "word": "boy",
+   "pos": "noun",
+   "synset": "oewn-84496658-n",
+   "why": "racial slur that demeans its target",
+   "held_because": "synset is in no family"
+  },
+  {
+   "run": "stage10-r6",
+   "word": "short",
+   "pos": "adjective",
+   "synset": "oewn-01902113-s",
+   "why": "faults the thinking as lacking foresight",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r7",
+   "word": "family",
+   "pos": "noun",
+   "synset": "oewn-08263223-n",
+   "why": "calls a criminal gang by the warm word for kin, against plain 'syndicate'",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "proud",
+   "pos": "adjective",
+   "synset": "oewn-01288228-s",
+   "why": "grants dignity where 'tall' or 'upright' would only describe",
+   "held_because": "every fitting family is already authored: oewn-01285124-a in annotated-012.json"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "fond",
+   "pos": "adjective",
+   "synset": "oewn-02582341-s",
+   "why": "treats the hope as foolish where 'hopeful' would not",
+   "held_because": "every fitting family is already authored: oewn-02580838-a in annotated-015.json"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "strange",
+   "pos": "adjective",
+   "synset": "oewn-01038139-a",
+   "why": "may cast what is foreign as odd, against plain 'foreign'",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "humble",
+   "pos": "adjective",
+   "synset": "oewn-02237706-s",
+   "why": "softer than 'menial' for the same work",
+   "held_because": "every fitting family is already authored: oewn-02236080-a in annotated-016.json"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "exercise",
+   "pos": "noun",
+   "synset": "oewn-00034873-n",
+   "why": "the gloss says it is often used negatively of the action it names",
+   "held_because": "smallest book-restricted family is 22 members (cap 20)"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "mere",
+   "pos": "adjective",
+   "synset": "oewn-01103400-s",
+   "why": "belittles what it names, set against plain just or only",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "sick",
+   "pos": "adjective",
+   "synset": "oewn-01811926-s",
+   "why": "stronger distaste toward the thing than 'tired of'",
+   "held_because": "every fitting family is already authored: oewn-01811138-a in annotated-015.json"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "sick",
+   "pos": "adjective",
+   "synset": "oewn-00197276-s",
+   "why": "passes moral disgust on the thing, beyond 'gruesome'",
+   "held_because": "every fitting family is already authored: oewn-00194616-a in annotated-014.json"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "sick",
+   "pos": "adjective",
+   "synset": "oewn-02333753-s",
+   "why": "suggests illness where 'dim' is neutral",
+   "held_because": "every fitting family is already authored: oewn-02332106-a in annotated-016.json"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "economy",
+   "pos": "noun",
+   "synset": "oewn-04900982-n",
+   "why": "careful spending set against thrift, stinginess and meanness",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "mercenary",
+   "pos": "adjective",
+   "synset": "oewn-00485804-s",
+   "why": "set against commercial or moneymaking",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "mercenary",
+   "pos": "adjective",
+   "synset": "oewn-01713534-s",
+   "why": "hired soldier set against freelance",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "abominably",
+   "pos": "adverb",
+   "synset": "oewn-00055639-r",
+   "why": "strong disapproval where 'badly' or 'very' would be plain",
+   "held_because": "synset is in no family"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "abominably",
+   "pos": "adverb",
+   "synset": "oewn-00311025-r",
+   "why": "brands the behaviour as hateful, not just bad",
+   "held_because": "synset is in no family"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "deign",
+   "pos": "verb",
+   "synset": "oewn-02597468-v",
+   "why": "casts the doer as acting from felt superiority, against plain agree or do",
+   "held_because": "smallest book-restricted family is 166 members (cap 20)"
+  },
+  {
+   "run": "hand:stage10-r1 null audit",
+   "word": "evening",
+   "pos": "noun",
+   "synset": "oewn-15292923-n",
+   "why": "Calling a concluding period an 'evening' is a wistful, elegiac softening that frames a decline as a gentle natural waning rather than a mere end.",
+   "held_because": "smallest book-restricted family is 36 members (cap 20)"
+  },
+  {
+   "run": "hand:stage10-r2 null audit",
+   "word": "unfortunate",
+   "pos": "adjective",
+   "synset": "oewn-00178121-a",
+   "why": "Chosen over 'bad' or 'disastrous', it softens: it expresses polite regret and lays the fault on luck rather than on anyone, so 'a most unfortunate affair' is a well-bred understatement a learner should recognise as such.",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "hand:stage10-r2 null audit",
+   "word": "finer",
+   "pos": "adjective",
+   "synset": "oewn-00232532-s",
+   "why": "Approving: 'a finer county', 'finer symptoms' are praise, and a learner choosing it over 'better' signals admiration with a note of refinement and taste.",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "hand:stage10-r5 null audit",
+   "word": "live",
+   "pos": "verb",
+   "synset": "oewn-02621023-v",
+   "why": "Approving: chosen over 'exist', this sense endorses the way of life as real living against mere getting by ('you haven't lived until...').",
+   "held_because": "smallest book-restricted family is 50 members (cap 20)"
+  },
+  {
+   "run": "hand:stage10-r5 null audit",
+   "word": "steady",
+   "pos": "adjective",
+   "synset": "oewn-00922559-s",
+   "why": "Of a person's temperament, chosen over 'calm' or 'unexcitable' it commends: dependability and self-command are presented as a virtue, as 'Charlotte's prudent, steady character' shows.",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "hand:stage10-r7 null audit",
+   "word": "delicate",
+   "pos": "adjective",
+   "synset": "oewn-01955211-s",
+   "why": "Applied to humour, satire or craft it is praise for refinement; 'delicate irony' approves where 'subtle irony' merely describes.",
+   "held_because": "every fitting family is already authored: oewn-01953883-a in annotated-005.json"
+  },
+  {
+   "run": "hand:stage10-r8 null audit",
+   "word": "superior",
+   "pos": "adjective",
+   "synset": "oewn-00796324-s",
+   "why": "Approving: 'superior to temptation' frames the subject as too high or too good for it, an admiration that 'not subject to' does not carry.",
+   "held_because": "largest book-restricted family has 1 member(s) (min 2)"
+  },
+  {
+   "run": "stage10-r8",
+   "word": "hasty",
+   "pos": "adjective",
+   "synset": "oewn-01273978-s",
+   "why": "speed blamed as thoughtless, set against quick",
+   "held_because": "hasty is also a candidate under oewn-01273814-s in oewn-01273285-a, and a worksheet carries one row per word; that sense took the row"
+  }
+ ]
+}

@@ -1,0 +1,299 @@
+{
+ "purpose": "Stage 10 false nulls: senses the null-auditor or the entry reader found not plain, in rounds r1-r8. Built from stage10-r*/candidates.json (source != enricher) for the join; the part of speech is taken from the round's selected.json, since a null verdict does not record it.",
+ "candidates": [
+  {
+   "word": "evening",
+   "pos": "noun",
+   "synset": "oewn-15292923-n",
+   "why": "Calling a concluding period an 'evening' is a wistful, elegiac softening that frames a decline as a gentle natural waning rather than a mere end.",
+   "source": "stage10-r1 null audit"
+  },
+  {
+   "word": "love",
+   "pos": "verb",
+   "synset": "oewn-01429048-v",
+   "why": "Chosen over 'have sex with', 'love' is a tender, romanticising euphemism that casts the act as affectionate.",
+   "source": "stage10-r1 null audit"
+  },
+  {
+   "word": "loss",
+   "pos": "noun",
+   "synset": "oewn-07348249-n",
+   "why": "The gloss itself marks it euphemistic: choosing 'loss' over 'death' softens the blow and signals tact and sympathy toward the bereaved, which a learner needs to be told.",
+   "source": "stage10-r1 null audit"
+  },
+  {
+   "word": "unfortunate",
+   "pos": "adjective",
+   "synset": "oewn-00178121-a",
+   "why": "Chosen over 'bad' or 'disastrous', it softens: it expresses polite regret and lays the fault on luck rather than on anyone, so 'a most unfortunate affair' is a well-bred understatement a learner should recognise as such.",
+   "source": "stage10-r2 null audit"
+  },
+  {
+   "word": "finer",
+   "pos": "adjective",
+   "synset": "oewn-00232532-s",
+   "why": "Approving: 'a finer county', 'finer symptoms' are praise, and a learner choosing it over 'better' signals admiration with a note of refinement and taste.",
+   "source": "stage10-r2 null audit"
+  },
+  {
+   "word": "obliging",
+   "pos": "adjective",
+   "synset": "oewn-00021147-s",
+   "why": "Approving: it praises a person's courteous readiness to help, warmer than the plain 'helpful' and the opposite in tone to 'compliant'.",
+   "source": "stage10-r2 null audit"
+  },
+  {
+   "word": "suffer",
+   "pos": "verb",
+   "synset": "oewn-02725682-v",
+   "why": "Saying someone suffers from a tendency rather than has one casts the habit as an affliction, a defect to be pitied or deplored, which is a judgement beyond the gloss be given to.",
+   "source": "stage10-r3 null audit"
+  },
+  {
+   "word": "tempt",
+   "pos": "verb",
+   "synset": "oewn-00778568-v",
+   "why": "Against 'persuade' or 'induce', 'tempt' frames the inducement as a lure to desire and the act as a yielding rather than a decision, faintly suggesting it is unwise or indulgent.",
+   "source": "stage10-r3 null audit"
+  },
+  {
+   "word": "natural",
+   "pos": "adjective",
+   "synset": "oewn-01338661-s",
+   "why": "Calling someone 'a natural leader' praises an innate gift, so the word judges favorably rather than merely describing, contrary to the null verdict.",
+   "source": "stage10-r3 null audit"
+  },
+  {
+   "word": "gallantry",
+   "pos": "noun",
+   "synset": "oewn-04864969-n",
+   "why": "Admiring and honorific: chosen over 'bravery' it ennobles the courage as chivalrous and dashing, the word of medal citations.",
+   "source": "stage10-r4 null audit"
+  },
+  {
+   "word": "rid",
+   "pos": "verb",
+   "synset": "oewn-02355171-v",
+   "why": "To get rid of someone casts them as a nuisance to be disposed of; 'got rid of her two most deserving daughters' is ironic precisely because the word is dismissive, and a learner choosing it over 'part with' or 'send away' is signalling contempt for the thing removed.",
+   "source": "stage10-r4 null audit"
+  },
+  {
+   "word": "abhorrence",
+   "pos": "noun",
+   "synset": "oewn-07518669-n",
+   "why": "Abhorrence names an intensely condemnatory attitude (hate plus disgust) toward its object, directly parallel to 'abominable' which this same packet correctly marks a connotation candidate, so a learner needs to know it signals strong condemnation rather than neutral description.",
+   "source": "stage10-r4 null audit"
+  },
+  {
+   "word": "live",
+   "pos": "verb",
+   "synset": "oewn-02621023-v",
+   "why": "Approving: chosen over 'exist', this sense endorses the way of life as real living against mere getting by ('you haven't lived until...').",
+   "source": "stage10-r5 null audit"
+  },
+  {
+   "word": "question",
+   "pos": "noun",
+   "synset": "oewn-07176710-n",
+   "why": "Coy and jocular: 'the question' for a proposal treats it with an affectionate wink rather than naming it plainly.",
+   "source": "stage10-r5 null audit"
+  },
+  {
+   "word": "delicacy",
+   "pos": "noun",
+   "synset": "oewn-05048657-n",
+   "why": "Chosen over 'weakness' or 'frailty' it softens and refines the condition, a tactful, faintly genteel and sympathetic framing of poor health.",
+   "source": "stage10-r5 null audit"
+  },
+  {
+   "word": "delicacy",
+   "pos": "noun",
+   "synset": "oewn-05114516-n",
+   "why": "Chosen over 'thinness' or 'slenderness' it admires: the slightness is presented as fine, refined and graceful.",
+   "source": "stage10-r5 null audit"
+  },
+  {
+   "word": "delicacy",
+   "pos": "noun",
+   "synset": "oewn-04640223-n",
+   "why": "Chosen over 'lightness' it approves: the touch or manner is presented as refined, tactful and skilled.",
+   "source": "stage10-r5 null audit"
+  },
+  {
+   "word": "music",
+   "pos": "noun",
+   "synset": "oewn-01165019-n",
+   "why": "In 'face the music' it is a wry, ironic understatement that frames the consequences as one's own doing and long avoided; a learner should know it is not a plain word for punishment.",
+   "source": "stage10-r5 null audit"
+  },
+  {
+   "word": "steady",
+   "pos": "adjective",
+   "synset": "oewn-00922559-s",
+   "why": "Of a person's temperament, chosen over 'calm' or 'unexcitable' it commends: dependability and self-command are presented as a virtue, as 'Charlotte's prudent, steady character' shows.",
+   "source": "stage10-r5 null audit"
+  },
+  {
+   "word": "arise",
+   "pos": "verb",
+   "synset": "oewn-02589224-v",
+   "why": "Chosen over 'rebel' or 'revolt', 'arise' casts the rising as stirring and righteous, a people throwing off oppression rather than subjects breaking allegiance; the speaker sides with the risers.",
+   "source": "stage10-r6 null audit"
+  },
+  {
+   "word": "family",
+   "pos": "noun",
+   "synset": "oewn-08244837-n",
+   "why": "Calling a non-kin group a 'family' (the company family) is a warm, affectionate framing that claims closeness and loyalty beyond what 'organization' or 'association' says.",
+   "source": "stage10-r7 null audit"
+  },
+  {
+   "word": "long",
+   "pos": "adjective",
+   "synset": "oewn-01901363-s",
+   "why": "Approving: calling planning 'prudent' or a planner farsighted endorses their judgement, where a plain 'long-term' or 'forward' would merely describe the horizon.",
+   "source": "stage10-r7 null audit"
+  },
+  {
+   "word": "rest",
+   "pos": "noun",
+   "synset": "oewn-13986101-n",
+   "why": "Gentle and reverent: choosing 'rest' over 'death' casts the death as peaceful repose and signals the speaker's tenderness toward the dead.",
+   "source": "stage10-r7 null audit"
+  },
+  {
+   "word": "eat",
+   "pos": "verb",
+   "synset": "oewn-01159815-v",
+   "why": "Choosing 'eats' over 'uses' (a car that eats gas, meetings that eat the morning) casts the consumer as greedy and the loss as unwelcome.",
+   "source": "stage10-r7 null audit"
+  },
+  {
+   "word": "delicate",
+   "pos": "adjective",
+   "synset": "oewn-00709335-a",
+   "why": "Admiring: choosing 'delicate' over 'thin', 'faint' or 'small' praises the thing as finely and pleasingly made, as 'slender' does against 'skinny'.",
+   "source": "stage10-r7 null audit"
+  },
+  {
+   "word": "delicate",
+   "pos": "adjective",
+   "synset": "oewn-01955211-s",
+   "why": "Applied to humour, satire or craft it is praise for refinement; 'delicate irony' approves where 'subtle irony' merely describes.",
+   "source": "stage10-r7 null audit"
+  },
+  {
+   "word": "beg",
+   "pos": "verb",
+   "synset": "oewn-00811888-v",
+   "why": "Learner line and example are faithful, but 'beg the question/point' as dodging or taking for granted is a criticism of an argument or speaker, so a learner needs to know it lands as a rebuke, not neutrally.",
+   "source": "stage10-r7 null audit"
+  },
+  {
+   "word": "superior",
+   "pos": "adjective",
+   "synset": "oewn-00073044-s",
+   "why": "Approving: 'superior to' flattery or petty concerns credits the subject with moral elevation, where 'unaffected by' or 'immune to' would only state the fact.",
+   "source": "stage10-r8 null audit"
+  },
+  {
+   "word": "superior",
+   "pos": "adjective",
+   "synset": "oewn-00796324-s",
+   "why": "Approving: 'superior to temptation' frames the subject as too high or too good for it, an admiration that 'not subject to' does not carry.",
+   "source": "stage10-r8 null audit"
+  },
+  {
+   "word": "dreadful",
+   "pos": "adjective",
+   "synset": "oewn-00090922-s",
+   "why": "Emotive, hyperbolic disapproval: over 'very bad' it performs the speaker's revulsion or exasperation, so a learner should know it lands as a heated verdict rather than an assessment.",
+   "source": "stage10-r8 null audit"
+  },
+  {
+   "word": "warm",
+   "pos": "adjective",
+   "synset": "oewn-02541266-a",
+   "why": "Approving and affectionate: calling a person or their manner 'warm' signals the speaker's own liking, where 'friendly' can be said flatly even of someone one dislikes.",
+   "source": "stage10-r8 null audit"
+  },
+  {
+   "word": "mere",
+   "pos": "adjective",
+   "synset": "oewn-01797082-s",
+   "why": "'Mere' belittles what it modifies as nothing more than that and not much ('a mere pretence', 'the mere stateliness of money and rank'); a learner choosing it over 'only' or 'simple' is expressing dismissal.",
+   "source": "stage10-r8 null audit"
+  },
+  {
+   "word": "exist",
+   "pos": "verb",
+   "synset": "oewn-02622766-v",
+   "why": "Chosen over 'live' for how someone gets by, it diminishes the life to bare, joyless survival ('merely exist on that wage'), and a learner should know it sounds bleak.",
+   "source": "stage10-r8 null audit"
+  },
+  {
+   "word": "honourable",
+   "pos": "adjective",
+   "synset": "oewn-02042493-s",
+   "why": "It praises: choosing it over 'ethical' or 'principled' expresses esteem and admiration for the person's integrity, which is why it is so readily used ironically.",
+   "source": "stage10-r8 null audit"
+  },
+  {
+   "word": "nice",
+   "pos": "adjective",
+   "synset": "oewn-01590750-a",
+   "why": "The word is almost pure attitude - warm, casual, mild approval ('nice little pair of ponies', 'nice long walk') - and a learner needs to know it lands as friendly and informal, and outside such warmth can sound bland or like faint praise.",
+   "source": "stage10-r8 null audit"
+  },
+  {
+   "word": "imprudent",
+   "pos": "adjective",
+   "synset": "oewn-01905427-a",
+   "why": "Mild, genteel disapproval: it blames the actor for failing to weigh consequences where risky or ill-advised would only describe the action.",
+   "source": "stage10-r8 null audit"
+  },
+  {
+   "word": "imprudent",
+   "pos": "adjective",
+   "synset": "oewn-00777014-s",
+   "why": "Measured censure of a lapse in self-restraint; paired with extravagant in the text as a character fault, it lands as blame rather than description.",
+   "source": "stage10-r8 null audit"
+  },
+  {
+   "word": "restraint",
+   "pos": "noun",
+   "synset": "oewn-04704790-n",
+   "why": "Calling lack of ornamentation restraint frames the plainness as tasteful, deliberate discipline rather than bareness or poverty; approving, unlike plainness or austerity.",
+   "source": "stage10-r8 null audit"
+  },
+  {
+   "word": "wonderful",
+   "pos": "adjective",
+   "synset": "oewn-01681111-s",
+   "why": "It is not a measurement of goodness but the speaker's delight and admiration; it lands as warm, effusive, and (as in Lady Catherine's 'wonderful how many families') easily gushing or ironic.",
+   "source": "stage10-r8 null audit"
+  },
+  {
+   "word": "worthy",
+   "pos": "adjective",
+   "synset": "oewn-01024736-s",
+   "why": "Confers moral esteem and respectability on its target rather than just stating desert; a learner should know it sounds formal, approving, and in modern attributive use faintly patronising ('worthy but dull').",
+   "source": "stage10-r8 null audit"
+  },
+  {
+   "word": "worthy",
+   "pos": "adjective",
+   "synset": "oewn-00855376-s",
+   "why": "Against the neutral 'eligible', calling someone worthy of being chosen expresses the speaker's esteem for them (Mr. Bennet's 'anyone less worthy'), and Austen can turn it ironic for the same reason.",
+   "source": "stage10-r8 null audit"
+  },
+  {
+   "word": "incivility",
+   "pos": "noun",
+   "synset": "oewn-04922542-n",
+   "why": "Learner and examples are faithful, but incivility is a fault-word that itself condemns deliberate rudeness, so null understates how it lands.",
+   "source": "stage10-r8 null audit"
+  }
+ ]
+}
