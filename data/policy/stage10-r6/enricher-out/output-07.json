@@ -1,172 +1,351 @@
-{"packet": 7, "entries": [
- {"word": "recover", "pos": "verb",
-  "senses": {
-   "oewn-00529419-v": {"learner": "to get back to the state you were in before after losing money.",
-                       "examples": ["After the crash, it took the company's shares three years to recover."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02231615-v": {"learner": "to take materials out of waste so that they can be used again.",
-                       "examples": ["The plant recovers glass and metal from household rubbish."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01339223-v": {"learner": "to put a new cover on something.",
-                       "examples": ["She had the old armchair recovered in blue cloth."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "taste", "pos": "noun",
-  "senses": {
-   "oewn-07594444-n": {"learner": "a small amount of food or drink that you eat or drink.",
-                       "examples": ["Have a taste of the soup before you add more salt."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07302729-n": {"learner": "a short experience of something.",
-                       "examples": ["The summer job gave him his first taste of hard work."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05666071-n": {"learner": "the ability to tell sweet, sour, bitter and salty things apart in your mouth.",
-                       "examples": ["After her illness she lost her sense of taste for a month."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00884380-n": {"learner": "a kind of sensing in which you tell things apart by using your taste buds.",
-                       "examples": ["The cook named the hidden spice by taste alone."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "card", "pos": "noun",
-  "senses": {
-   "oewn-03037971-n": {"learner": "a board with electronic circuits printed on it that you push into a slot in a computer so the computer can do more.",
-                       "examples": ["He fitted a new sound card to his computer."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-14824204-n": {"learner": "thin cardboard, usually cut in a rectangle.",
-                       "examples": ["The children cut stars out of a sheet of gold card."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06645712-n": {"learner": "a printed or written greeting that you leave behind to show that you came to visit.",
-                       "examples": ["Finding no one at home, she left her card with the servant."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06806283-n": {"learner": "a sign put up in a public place to advertise something.",
-                       "examples": ["A card in the shop window advertised a room to let."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06519932-n": {"learner": "a record of the scores in a game, as in golf.",
-                       "examples": ["After the last hole, each player signed his card and handed it in."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-10782010-n": {"learner": "a funny, clever person who makes jokes.",
-                       "examples": ["Uncle Joe is a real card and keeps everyone laughing at dinner."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "fond, indulgent label for a person, set against plain 'joker' or 'wit'"}},
-   "oewn-06504930-n": {"learner": "a list of the dishes you can order at a restaurant.",
-                       "examples": ["Everything on the card looked good, so we asked the waiter to choose."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06497998-n": {"learner": "in baseball, the list of batters in the order in which they will bat.",
-                       "examples": ["The manager put his fastest runner first on the card."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "distance", "pos": "noun",
-  "senses": {
-   "oewn-07521110-n": {"learner": "a lack of interest or feeling for others, shown by keeping yourself apart from them.",
-                       "examples": ["After the quarrel there was a new distance in the way she spoke to him."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-15197470-n": {"learner": "a point that is far away in time.",
-                       "examples": ["At this distance in time, few people remember why the war began."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-15197259-n": {"learner": "the amount of time between two moments.",
-                       "examples": ["The distance between his two visits was barely a week."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "escape", "pos": "verb",
-  "senses": {
-   "oewn-00812219-v": {"learner": "to not experience something, so that it does not happen to you.",
-                       "examples": ["Our village escaped the storm that flooded the towns to the south."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02079296-v": {"learner": "to run away quickly from a person or place.",
-                       "examples": ["And upon Elizabeth's seeming really, with vexed and embarrassed looks, about to escape, she added, \"Lizzy, I insist upon your staying and hearing Mr. Collins.\""],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02605001-v": {"learner": "to leave the place and life you are used to for a while, usually to enjoy yourself or have a change.",
-                       "examples": ["Every August they escape to a small cottage by the sea."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00531097-v": {"learner": "to come out or leak, as through a small hole.",
-                       "examples": ["Gas was escaping from a crack in the pipe."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "interrupt", "pos": "verb",
-  "senses": {
-   "oewn-00364717-v": {"learner": "to bring something to an end.",
-                       "examples": ["The war interrupted his studies, and he never went back to them."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "picture", "pos": "noun",
-  "senses": {
-   "oewn-05945422-n": {"learner": "a clear image in your mind that shows a lot about something.",
-                       "examples": ["I still have a clear picture of the house where I grew up."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03931348-n": {"learner": "an image of a person or scene made as a photo, whether printed, on a slide, or stored on a computer.",
-                       "examples": ["She took a picture of the children on the beach."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06626039-n": {"learner": "a film: a story told with sound and a run of images that seem to move.",
-                       "examples": ["We went to see a picture at the cinema last night."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05774074-n": {"learner": "a person or thing that is a typical example of some state or quality.",
-                       "examples": ["After his holiday he looked the picture of health."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13960108-n": {"learner": "a situation, thought of as something you can look at.",
-                       "examples": ["The economic picture looks brighter than it did a year ago."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07012096-n": {"learner": "drawings or other images used to decorate or explain a piece of writing.",
-                       "examples": ["The pictures in this textbook explain each step of the experiment."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06288456-n": {"learner": "the part of a television broadcast that you can see.",
-                       "examples": ["The sound was fine, but the picture kept flickering."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "consideration", "pos": "noun",
-  "senses": {
-   "oewn-07153623-n": {"learner": "a discussion of a subject, as in a meeting.",
-                       "examples": ["The committee's consideration of the budget took up the whole afternoon."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13344335-n": {"learner": "money paid ahead of time so that someone will keep working for you when needed.",
-                       "examples": ["In return for a yearly consideration paid in advance, the lawyer stayed ready to act for the firm."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "difference", "pos": "noun",
-  "senses": {
-   "oewn-07380889-n": {"learner": "a way in which something departs from the usual standard or rule.",
-                       "examples": ["Any difference from the approved design must be reported to the engineer."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13751346-n": {"learner": "the number left when you take one number away from another; added to the number you took away, it gives the first number.",
-                       "examples": ["The difference between 10 and 7 is 3."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "offend", "pos": "verb",
-  "senses": {
-   "oewn-02572443-v": {"learner": "to act against a law, rule, contract or promise.",
-                       "examples": ["Anyone who offends against these rules will be asked to leave."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "frames rule-breaking as a wrong done, against plain 'break'"}}
-  }}
-]}
+{
+ "packet": 7,
+ "entries": [
+  {
+   "word": "recover",
+   "pos": "verb",
+   "senses": {
+    "oewn-00529419-v": {
+     "learner": "to get back to the state you were in before after losing money.",
+     "examples": [
+      "After the crash, it took the company's shares three years to recover."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02231615-v": {
+     "learner": "to take materials out of waste so that they can be used again.",
+     "examples": [
+      "The plant recovers glass and metal from household rubbish."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01339223-v": {
+     "learner": "to put a new cover on something.",
+     "examples": [
+      "She had the old armchair recovered in blue cloth."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "taste",
+   "pos": "noun",
+   "senses": {
+    "oewn-07594444-n": {
+     "learner": "a small amount of food or drink that you eat or drink.",
+     "examples": [
+      "Have a taste of the soup before you add more salt."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07302729-n": {
+     "learner": "a short experience of something.",
+     "examples": [
+      "The summer job gave him his first taste of hard work."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05666071-n": {
+     "learner": "the ability to tell sweet, sour, bitter and salty things apart in your mouth.",
+     "examples": [
+      "After her illness she lost her sense of taste for a month."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00884380-n": {
+     "learner": "a kind of sensing in which you tell things apart by using your taste buds.",
+     "examples": [
+      "The cook named the hidden spice by taste alone."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "card",
+   "pos": "noun",
+   "senses": {
+    "oewn-03037971-n": {
+     "learner": "a board with electronic circuits printed on it that you push into a slot in a computer so the computer can do more.",
+     "examples": [
+      "He fitted a new sound card to his computer."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-14824204-n": {
+     "learner": "thin cardboard, usually cut in a rectangle.",
+     "examples": [
+      "The children cut stars out of a sheet of gold card."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06645712-n": {
+     "learner": "a printed or written greeting that you leave behind to show that you came to visit.",
+     "examples": [
+      "Finding no one at home, she left her card with the servant."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06806283-n": {
+     "learner": "a sign put up in a public place to advertise something.",
+     "examples": [
+      "A card in the shop window advertised a room to let."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06519932-n": {
+     "learner": "a record of the scores in a game, as in golf.",
+     "examples": [
+      "After the last hole, each player signed his card and handed it in."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-10782010-n": {
+     "learner": "a funny, clever person who makes jokes.",
+     "examples": [
+      "Uncle Joe is a real card and keeps everyone laughing at dinner."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "fond, indulgent label for a person, set against plain 'joker' or 'wit'"
+     }
+    },
+    "oewn-06504930-n": {
+     "learner": "a list of the dishes you can order at a restaurant.",
+     "examples": [
+      "Everything on the card looked good, so we asked the waiter to choose."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06497998-n": {
+     "learner": "in baseball, the list of batters in the order in which they will bat.",
+     "examples": [
+      "The manager put his fastest runner first on the card."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "distance",
+   "pos": "noun",
+   "senses": {
+    "oewn-07521110-n": {
+     "learner": "a lack of interest or feeling for others, shown by keeping yourself apart from them.",
+     "examples": [
+      "After the quarrel there was a new distance in the way she spoke to him."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-15197470-n": {
+     "learner": "a point that is far away in time.",
+     "examples": [
+      "At this distance in time, few people remember why the war began."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-15197259-n": {
+     "learner": "the amount of time between two moments.",
+     "examples": [
+      "The distance between his two visits was barely a week."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "escape",
+   "pos": "verb",
+   "senses": {
+    "oewn-00812219-v": {
+     "learner": "to not experience something, so that it does not happen to you.",
+     "examples": [
+      "Our village escaped the storm that flooded the towns to the south."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02079296-v": {
+     "learner": "to run away quickly from a person or place.",
+     "examples": [
+      "And upon Elizabeth's seeming really, with vexed and embarrassed looks, about to escape, she added, \"Lizzy, I insist upon your staying and hearing Mr. Collins.\""
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02605001-v": {
+     "learner": "to leave the place and life you are used to for a while, usually to enjoy yourself or have a change.",
+     "examples": [
+      "Every August they escape to a small cottage by the sea."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00531097-v": {
+     "learner": "to come out or leak, as through a small hole.",
+     "examples": [
+      "Gas was escaping from a crack in the pipe."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "interrupt",
+   "pos": "verb",
+   "senses": {
+    "oewn-00364717-v": {
+     "learner": "to bring something to an end.",
+     "examples": [
+      "The war interrupted his studies, and he never went back to them."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "picture",
+   "pos": "noun",
+   "senses": {
+    "oewn-05945422-n": {
+     "learner": "a clear image in your mind that shows a lot about something.",
+     "examples": [
+      "I still have a clear picture of the house where I grew up."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03931348-n": {
+     "learner": "an image of a person or scene made as a photo, whether printed, on a slide, or stored on a computer.",
+     "examples": [
+      "She took a picture of the children on the beach."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06626039-n": {
+     "learner": "a film: a story told with sound and a run of images that seem to move.",
+     "examples": [
+      "We went to see a picture at the cinema last night."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05774074-n": {
+     "learner": "a person or thing that is a typical example of some state or quality.",
+     "examples": [
+      "After his holiday he looked the picture of health."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13960108-n": {
+     "learner": "a situation, thought of as something you can look at.",
+     "examples": [
+      "The economic picture looks brighter than it did a year ago."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07012096-n": {
+     "learner": "drawings or other images used to decorate or explain a piece of writing.",
+     "examples": [
+      "The pictures in this textbook explain each step of the experiment."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06288456-n": {
+     "learner": "the part of a television broadcast that you can see.",
+     "examples": [
+      "The sound was fine, but the picture kept flickering."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "consideration",
+   "pos": "noun",
+   "senses": {
+    "oewn-07153623-n": {
+     "learner": "a discussion of a subject, as in a meeting.",
+     "examples": [
+      "The committee's consideration of the budget took up the whole afternoon."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13344335-n": {
+     "learner": "money paid ahead of time so that someone will keep working for you when needed.",
+     "examples": [
+      "In return for a yearly consideration paid in advance, the lawyer stayed ready to act for the firm."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "difference",
+   "pos": "noun",
+   "senses": {
+    "oewn-07380889-n": {
+     "learner": "a way in which something departs from the usual standard or rule.",
+     "examples": [
+      "Any difference from the approved design must be reported to the engineer."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13751346-n": {
+     "learner": "the number left when you take one number away from another; added to the number you took away, it gives the first number.",
+     "examples": [
+      "The difference between 10 and 7 is 3."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "offend",
+   "pos": "verb",
+   "senses": {
+    "oewn-02572443-v": {
+     "learner": "to act against a law, rule, contract or promise.",
+     "examples": [
+      "Anyone who offends against these rules will be asked to leave."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "frames rule-breaking as a wrong done, against plain 'break'"
+     }
+    }
+   }
+  }
+ ]
+}

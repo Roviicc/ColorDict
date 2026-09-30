@@ -1,132 +1,273 @@
-{"packet": 8, "entries": [
- {"word": "possibility", "pos": "noun",
-  "senses": {
-   "oewn-05897536-n": {"learner": "an idea about the natural world that has not yet been proved but that would explain certain facts if it were true",
-                       "examples": ["The team's possibility, that the birds steer by the earth's magnetic field, still has to be tested."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "wonder", "pos": "noun",
-  "senses": {
-   "oewn-10146463-n": {"learner": "a person who is unusually clever and has ideas of their own that no one has had before",
-                       "examples": ["The boy was a wonder who could think of ideas no scientist had tried."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "admires a person's mind beyond calling them clever"}}
-  }},
- {"word": "immediate", "pos": "adjective",
-  "senses": {
-   "oewn-01736131-s": {"learner": "belonging to the time and place you are in now",
-                       "examples": ["Our immediate worry is where we will sleep tonight."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00773875-a": {"learner": "direct, with nothing coming in between",
-                       "examples": ["She learned of it by immediate experience, not through letters or other people."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "interference", "pos": "noun",
-  "senses": {
-   "oewn-07444811-n": {"learner": "electrical signals or sounds that can disturb communication",
-                       "examples": ["The radio call was lost in a burst of interference."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00563680-n": {"learner": "in American football, blocking another player's path with your body",
-                       "examples": ["Two big linemen ran interference for the quarterback."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "story", "pos": "noun",
-  "senses": {
-   "oewn-06526084-n": {"learner": "a record or description of things that happened in the past",
-                       "examples": ["The museum shows the story of the town from its first farms to its factories."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06694296-n": {"learner": "a short report of a piece of news",
-                       "examples": ["The fire was the main story on the evening news."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03370837-n": {"learner": "one level of a building, made up of the room or rooms at that height",
-                       "examples": ["Her office is on the top story of the building."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "actually", "pos": "adverb",
-  "senses": {
-   "oewn-00151061-r": {"learner": "at the present time; now",
-                       "examples": ["The red light shows which camera is actually recording at this moment."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "application", "pos": "noun",
-  "senses": {
-   "oewn-00036782-n": {"learner": "the act of putting something into use so that it works",
-                       "examples": ["The application of the brakes brought the train to a stop."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06582286-n": {"learner": "a computer program that tells the computer what to do so that you have tools to get a task done",
-                       "examples": ["I downloaded a new application for editing photos."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00713478-n": {"learner": "the work of putting or spreading something onto a surface",
-                       "examples": ["The doctor ordered a daily application of the cream to the rash."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03696454-n": {"learner": "a liquid mixture that you put on your skin to soothe it, to kill germs, or to act as a medicine",
-                       "examples": ["She rubbed a cooling application onto the burn."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "colour", "pos": "noun",
-  "senses": {
-   "oewn-15009532-n": {"learner": "any substance that is used for the colour it gives",
-                       "examples": ["The painter mixed his colours on a wooden board."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05200606-n": {"learner": "the quality of being interesting, varied and intense",
-                       "examples": ["Her tales of life at sea added colour to the dull evening."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04995727-n": {"learner": "the particular quality or character of a musical sound",
-                       "examples": ["The cello gave a warm, dark colour to the music."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05853190-n": {"learner": "in physics, the property of quarks that decides their part in the strong interaction",
-                       "examples": ["Every quark has one of three values of colour, called red, green and blue."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "education", "pos": "noun",
-  "senses": {
-   "oewn-04929077-n": {"learner": "what a good upbringing gives a person, especially knowing how to behave properly with other people",
-                       "examples": ["Her quiet, polite manners showed her good education."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "approves of refined manners from a good upbringing"}},
-   "oewn-00612720-n": {"learner": "the job of teaching, especially in a school, college or university",
-                       "examples": ["He worked in education for thirty years before he retired."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "hall", "pos": "noun",
-  "senses": {
-   "oewn-03483839-n": {"learner": "a big building where people hold meetings or are entertained",
-                       "examples": ["The town built a new hall for concerts and meetings."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03724592-n": {"learner": "a big, grand house",
-                       "examples": ["The family lived at the hall on the hill, the biggest house for miles."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03724120-n": {"learner": "the large room of a manor house or castle",
-                       "examples": ["The lord and his servants ate together in the hall of the castle."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03229596-n": {"learner": "a college or university building where students live",
-                       "examples": ["In her first year at university she lived in a hall near the library."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-03484204-n": {"learner": "a large building that a college or university uses for teaching or research",
-                       "examples": ["The chemistry lectures are held in the science hall."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 8,
+ "entries": [
+  {
+   "word": "possibility",
+   "pos": "noun",
+   "senses": {
+    "oewn-05897536-n": {
+     "learner": "an idea about the natural world that has not yet been proved but that would explain certain facts if it were true",
+     "examples": [
+      "The team's possibility, that the birds steer by the earth's magnetic field, still has to be tested."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "wonder",
+   "pos": "noun",
+   "senses": {
+    "oewn-10146463-n": {
+     "learner": "a person who is unusually clever and has ideas of their own that no one has had before",
+     "examples": [
+      "The boy was a wonder who could think of ideas no scientist had tried."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "admires a person's mind beyond calling them clever"
+     }
+    }
+   }
+  },
+  {
+   "word": "immediate",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01736131-s": {
+     "learner": "belonging to the time and place you are in now",
+     "examples": [
+      "Our immediate worry is where we will sleep tonight."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00773875-a": {
+     "learner": "direct, with nothing coming in between",
+     "examples": [
+      "She learned of it by immediate experience, not through letters or other people."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "interference",
+   "pos": "noun",
+   "senses": {
+    "oewn-07444811-n": {
+     "learner": "electrical signals or sounds that can disturb communication",
+     "examples": [
+      "The radio call was lost in a burst of interference."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00563680-n": {
+     "learner": "in American football, blocking another player's path with your body",
+     "examples": [
+      "Two big linemen ran interference for the quarterback."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "story",
+   "pos": "noun",
+   "senses": {
+    "oewn-06526084-n": {
+     "learner": "a record or description of things that happened in the past",
+     "examples": [
+      "The museum shows the story of the town from its first farms to its factories."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06694296-n": {
+     "learner": "a short report of a piece of news",
+     "examples": [
+      "The fire was the main story on the evening news."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03370837-n": {
+     "learner": "one level of a building, made up of the room or rooms at that height",
+     "examples": [
+      "Her office is on the top story of the building."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "actually",
+   "pos": "adverb",
+   "senses": {
+    "oewn-00151061-r": {
+     "learner": "at the present time; now.",
+     "examples": [
+      "The screen shows the song that is actually playing on the radio."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "application",
+   "pos": "noun",
+   "senses": {
+    "oewn-00036782-n": {
+     "learner": "the act of putting something into use so that it works",
+     "examples": [
+      "The application of the brakes brought the train to a stop."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06582286-n": {
+     "learner": "a computer program that tells the computer what to do so that you have tools to get a task done",
+     "examples": [
+      "I downloaded a new application for editing photos."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00713478-n": {
+     "learner": "the work of putting something on, such as a cream on the skin or paint on a wall.",
+     "examples": [
+      "The wall needed two applications of paint."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03696454-n": {
+     "learner": "a liquid mixture that you put on your skin to soothe it, to kill germs, or to act as a medicine",
+     "examples": [
+      "She rubbed a cooling application onto the burn."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "colour",
+   "pos": "noun",
+   "senses": {
+    "oewn-15009532-n": {
+     "learner": "any substance that is used for the colour it gives",
+     "examples": [
+      "The painter mixed his colours on a wooden board."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05200606-n": {
+     "learner": "the quality of being interesting, varied and intense",
+     "examples": [
+      "Her tales of life at sea added colour to the dull evening."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04995727-n": {
+     "learner": "the particular quality or character of a musical sound",
+     "examples": [
+      "The cello gave a warm, dark colour to the music."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05853190-n": {
+     "learner": "in physics, the property of quarks that decides their part in the strong interaction",
+     "examples": [
+      "Every quark has one of three values of colour, called red, green and blue."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "education",
+   "pos": "noun",
+   "senses": {
+    "oewn-04929077-n": {
+     "learner": "what a good upbringing gives a person, especially knowing how to behave properly with other people",
+     "examples": [
+      "Her quiet, polite manners showed her good education."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "approves of refined manners from a good upbringing"
+     }
+    },
+    "oewn-00612720-n": {
+     "learner": "the job of teaching, especially in a school, college or university",
+     "examples": [
+      "He worked in education for thirty years before he retired."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "hall",
+   "pos": "noun",
+   "senses": {
+    "oewn-03483839-n": {
+     "learner": "a big building where people hold meetings or are entertained",
+     "examples": [
+      "The town built a new hall for concerts and meetings."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03724592-n": {
+     "learner": "a big, grand house",
+     "examples": [
+      "The family lived at the hall on the hill, the biggest house for miles."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03724120-n": {
+     "learner": "the large room of a manor house or castle",
+     "examples": [
+      "The lord and his servants ate together in the hall of the castle."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03229596-n": {
+     "learner": "a college or university building where students live",
+     "examples": [
+      "In her first year at university she lived in a hall near the library."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-03484204-n": {
+     "learner": "a large building that a college or university uses for teaching or research",
+     "examples": [
+      "The chemistry lectures are held in the science hall."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

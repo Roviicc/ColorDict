@@ -1,132 +1,285 @@
-{"packet": 9, "entries": [
- {"word": "use", "pos": "noun",
-  "senses": {
-   "oewn-00415192-n": {"learner": "a way of acting that you fall into without thinking in a certain situation, which you may be born with or may learn by doing it again and again",
-                       "examples": ["Long use had hardened him to the cold of the early mornings."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05197374-n": {"learner": "the act of using your legal right to enjoy the good things that come from owning property",
-                       "examples": ["We were given the use of his boat for the summer."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-13472977-n": {"learner": "the using up of goods to meet people's needs, or to make other things",
-                       "examples": ["Water use in the town rises sharply every summer."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-00159005-n": {"learner": "using clever or sly ways to control people, especially to get something for yourself",
-                       "examples": ["He was skilled in the use of other people for his own gain."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "implies working on people slyly for one's own advantage"}}
-  }},
- {"word": "introduction", "pos": "noun",
-  "senses": {
-   "oewn-07232009-n": {"learner": "the act of formally making a person known to someone else, or to the public",
-                       "examples": ["I should have judged better had I sought an introduction, but I am ill-qualified to recommend myself to strangers.", "Miss Darcy and her brother appeared, and this formidable introduction took place."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06408573-n": {"learner": "the first part of something that is written or said",
-                       "examples": ["The introduction of the book explains why the author wrote it."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00238889-n": {"learner": "the act of starting something new",
-                       "examples": ["The introduction of the new menu brought more people into the cafe."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00241051-n": {"learner": "the act of starting something for the first time; bringing in something new",
-                       "examples": ["The introduction of free schools changed life in the town."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07177626-n": {"learner": "a new plan or idea that someone puts forward",
-                       "examples": ["They resisted the introduction of impractical alternatives."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06426492-n": {"learner": "a simple book or text that teaches the first, basic things about a subject",
-                       "examples": ["She bought a short introduction to French grammar."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00321678-n": {"learner": "the act of putting one thing into another",
-                       "examples": ["The introduction of air into the pipe stopped the flow of water."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "pretend", "pos": "verb",
-  "senses": {
-   "oewn-00758694-v": {"learner": "to say something that you do not really mean",
-                       "examples": ["He pretended he was happy for her, but he did not mean a word of it."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "marks what someone says as insincere"}},
-   "oewn-01725433-v": {"learner": "to behave in a way that is not natural, or in a false, put-on way",
-                       "examples": ["Stop pretending and just talk to us the way you always do."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "suggests the behaviour is false or put on"}},
-   "oewn-02280644-v": {"learner": "to claim that you have a right to something, or that it belongs to you",
-                       "examples": ["The young prince pretended to the throne his uncle held."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "pursue", "pos": "verb",
-  "senses": {
-   "oewn-01320193-v": {"learner": "to go looking for something, or to hunt for it",
-                       "examples": ["He spent years pursuing the lost city deep in the jungle."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "twice", "pos": "adverb",
-  "senses": {
-   "oewn-00065694-r": {"learner": "two times",
-                       "examples": ["Mr. Bingley had danced with her twice", "We dine at Rosings twice every week, and are never allowed to walk home."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00083743-r": {"learner": "to double the amount or degree",
-                       "examples": ["This box is twice as heavy as that one."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "utter", "pos": "verb",
-  "senses": {
-   "oewn-02047744-v": {"learner": "to put something out so that it passes from person to person",
-                       "examples": ["He was sent to prison for uttering false banknotes."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "argument", "pos": "noun",
-  "senses": {
-   "oewn-05781046-n": {"learner": "a line of careful thinking meant to show that something is true or false; the step-by-step process of thinking logically",
-                       "examples": ["Her argument moved step by step from the facts to a clear conclusion."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06479351-n": {"learner": "a short account of the subject or the story of a book, poem, play or film",
-                       "examples": ["The editor added the argument to the poem."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06367706-n": {"learner": "a value, or a reference to one, that is passed to a function, command or program in computing",
-                       "examples": ["This function takes two arguments and returns their sum."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-05866365-n": {"learner": "a variable in a logic or maths expression whose value decides the value of the variable that depends on it",
-                       "examples": ["In the expression sin x, x is the argument of the function."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "guard", "pos": "verb",
-  "senses": {
-   "oewn-01132302-v": {"learner": "to protect something against a challenge or an attack",
-                       "examples": ["The champion guarded her title against every challenger."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "little", "pos": "adverb",
-  "senses": {
-   "oewn-00100552-r": {"learner": "not much",
-                       "examples": ["He slept little the night before the exam.", "She cared little for what the neighbours thought."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "notice", "pos": "verb",
-  "senses": {
-   "oewn-01060446-v": {"learner": "to say or write a comment about something",
-                       "examples": ["The critics noticed the play only briefly in their reviews."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 9,
+ "entries": [
+  {
+   "word": "use",
+   "pos": "noun",
+   "senses": {
+    "oewn-00415192-n": {
+     "learner": "a way of acting that you fall into without thinking in a certain situation, which you may be born with or may learn by doing it again and again",
+     "examples": [
+      "Long use had hardened him to the cold of the early mornings."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05197374-n": {
+     "learner": "the act of using your legal right to enjoy the good things that come from owning property",
+     "examples": [
+      "We were given the use of his boat for the summer."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-13472977-n": {
+     "learner": "the using up of goods to meet people's needs, or to make other things",
+     "examples": [
+      "Water use in the town rises sharply every summer."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-00159005-n": {
+     "learner": "using clever or sly ways to control people, especially to get something for yourself",
+     "examples": [
+      "He was skilled in the use of other people for his own gain."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "implies working on people slyly for one's own advantage"
+     }
+    }
+   }
+  },
+  {
+   "word": "introduction",
+   "pos": "noun",
+   "senses": {
+    "oewn-07232009-n": {
+     "learner": "the act of formally making a person known to someone else, or to the public",
+     "examples": [
+      "I should have judged better had I sought an introduction, but I am ill-qualified to recommend myself to strangers.",
+      "Miss Darcy and her brother appeared, and this formidable introduction took place."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06408573-n": {
+     "learner": "the first part of something that is written or said",
+     "examples": [
+      "The introduction of the book explains why the author wrote it."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00238889-n": {
+     "learner": "the act of starting something new",
+     "examples": [
+      "The introduction of the new menu brought more people into the cafe."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00241051-n": {
+     "learner": "the act of starting something for the first time; bringing in something new",
+     "examples": [
+      "The introduction of free schools changed life in the town."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07177626-n": {
+     "learner": "a new plan or idea that someone puts forward",
+     "examples": [
+      "They resisted the introduction of impractical alternatives."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06426492-n": {
+     "learner": "a simple book or text that teaches the first, basic things about a subject",
+     "examples": [
+      "She bought a short introduction to French grammar."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00321678-n": {
+     "learner": "the act of putting one thing into another",
+     "examples": [
+      "The introduction of air into the pipe stopped the flow of water."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "pretend",
+   "pos": "verb",
+   "senses": {
+    "oewn-00758694-v": {
+     "learner": "to say something that you do not really mean",
+     "examples": [
+      "He pretended he was happy for her, but he did not mean a word of it."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "marks what someone says as insincere"
+     }
+    },
+    "oewn-01725433-v": {
+     "learner": "to behave in a way that is not natural, or in a false, put-on way",
+     "examples": [
+      "Stop pretending and just talk to us the way you always do."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "suggests the behaviour is false or put on"
+     }
+    },
+    "oewn-02280644-v": {
+     "learner": "to claim that you have a right to something, or that it belongs to you",
+     "examples": [
+      "The young prince pretended to the throne his uncle held."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "pursue",
+   "pos": "verb",
+   "senses": {
+    "oewn-01320193-v": {
+     "learner": "to go looking for something, or to hunt for it",
+     "examples": [
+      "He spent years pursuing the lost city deep in the jungle."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "twice",
+   "pos": "adverb",
+   "senses": {
+    "oewn-00065694-r": {
+     "learner": "two times",
+     "examples": [
+      "Mr. Bingley had danced with her twice",
+      "We dine at Rosings twice every week, and are never allowed to walk home."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00083743-r": {
+     "learner": "to double the amount or degree",
+     "examples": [
+      "This box is twice as heavy as that one."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "utter",
+   "pos": "verb",
+   "senses": {
+    "oewn-02047744-v": {
+     "learner": "to put something out so that it passes from person to person",
+     "examples": [
+      "He was sent to prison for uttering false banknotes."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "argument",
+   "pos": "noun",
+   "senses": {
+    "oewn-05781046-n": {
+     "learner": "a line of careful thinking meant to show that something is true or false; the step-by-step process of thinking logically",
+     "examples": [
+      "Her argument moved step by step from the facts to a clear conclusion."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06479351-n": {
+     "learner": "a short account of the subject or the story of a book, poem, play or film",
+     "examples": [
+      "The editor added the argument to the poem."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06367706-n": {
+     "learner": "a value, or a reference to one, that is passed to a function, command or program in computing",
+     "examples": [
+      "This function takes two arguments and returns their sum."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-05866365-n": {
+     "learner": "a variable in a logic or maths expression whose value decides the value of the variable that depends on it",
+     "examples": [
+      "In the expression sin x, x is the argument of the function."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "guard",
+   "pos": "verb",
+   "senses": {
+    "oewn-01132302-v": {
+     "learner": "to protect something against a challenge or an attack",
+     "examples": [
+      "The champion guarded her title against every challenger."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "little",
+   "pos": "adverb",
+   "senses": {
+    "oewn-00100552-r": {
+     "learner": "not much",
+     "examples": [
+      "He slept little the night before the exam.",
+      "She cared little for what the neighbours thought."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "notice",
+   "pos": "verb",
+   "senses": {
+    "oewn-01060446-v": {
+     "learner": "to say or write a comment about something",
+     "examples": [
+      "The critics noticed the play only briefly in their reviews."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

@@ -787,15 +787,12 @@
      }
     },
     "oewn-02345399-s": {
-     "learner": "less than the right, legal or full amount, often on purpose",
+     "learner": "less than the right, legal, or full amount, often on purpose.",
      "examples": [
-      "The inspector caught the grocer giving short weight to his customers."
+      "The baker was fined for selling bread of short weight."
      ],
      "usage_labels": [],
-     "connotation": {
-      "candidate": true,
-      "why": "suggests deliberate cheating on the amount"
-     }
+     "connotation": null
     },
     "oewn-01902113-s": {
      "learner": "not thinking far enough ahead, or not taking in enough of the problem",
@@ -1199,9 +1196,9 @@
      "connotation": null
     },
     "oewn-00013681-s": {
-     "learner": "Able to be treated as a fact.",
+     "learner": "able to be treated as a fact.",
      "examples": [
-      "The talks produced no real results, only promises."
+      "The new law brought few real benefits to the poor."
      ],
      "usage_labels": [],
      "connotation": null
@@ -1251,15 +1248,12 @@
    "why": null,
    "senses": {
     "oewn-08404661-n": {
-     "learner": "The small group of fashionable people at the top of the social world.",
+     "learner": "the small group of fashionable people at the top of social life.",
      "examples": [
-      "She was introduced to society at a grand ball in London."
+      "She was the most admired young woman in London society that season."
      ],
      "usage_labels": [],
-     "connotation": {
-      "candidate": true,
-      "why": "treats the fashionable few as the only people who count"
-     }
+     "connotation": null
     }
    }
   },
@@ -2753,9 +2747,9 @@
    "why": null,
    "senses": {
     "oewn-00151061-r": {
-     "learner": "at the present time; now",
+     "learner": "at the present time; now.",
      "examples": [
-      "The red light shows which camera is actually recording at this moment."
+      "The screen shows the song that is actually playing on the radio."
      ],
      "usage_labels": [],
      "connotation": null
@@ -2785,9 +2779,9 @@
      "connotation": null
     },
     "oewn-00713478-n": {
-     "learner": "the work of putting or spreading something onto a surface",
+     "learner": "the work of putting something on, such as a cream on the skin or paint on a wall.",
      "examples": [
-      "The doctor ordered a daily application of the cream to the rash."
+      "The wall needed two applications of paint."
      ],
      "usage_labels": [],
      "connotation": null
@@ -3426,8 +3420,8 @@
  "counts": {
   "accepted": 92,
   "senses_written": 316,
-  "null": 301,
+  "null": 303,
   "rejected": 8,
-  "candidate": 15
+  "candidate": 13
  }
 }

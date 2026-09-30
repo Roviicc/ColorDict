@@ -1,208 +1,424 @@
-{"packet": 1, "entries": [
- {"word": "know", "pos": "verb",
-  "senses": {
-   "oewn-00597527-v": {"learner": "To have something fixed in your memory.",
-                       "examples": ["She knows the whole poem by heart.", "He knows Latin and Greek."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00598039-v": {"learner": "To have felt or lived through a state, situation, feeling or sensation yourself.",
-                       "examples": ["Few of them had ever known real hunger."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00609926-v": {"learner": "To see, hear or notice something and find that it is familiar.",
-                       "examples": ["I knew her voice the moment she spoke."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00610224-v": {"learner": "To understand what someone or something is really like.",
-                       "examples": ["We all knew him as a quiet and careful man."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00610056-v": {"learner": "To be able to tell things apart and see that they are different.",
-                       "examples": ["He doesn't know a rose from a tulip."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00594278-v": {"learner": "To accept that someone is what they claim to be, or to accept their power and authority.",
-                       "examples": ["The villagers would know no master but the old lord."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01429048-v": {"learner": "To have sex with someone.",
-                       "examples": ["The old text says that Adam knew Eve."],
-                       "usage_labels": ["archaic", "euphemistic"],
-                       "connotation": null}
-  }},
- {"word": "young", "pos": "adjective",
-  "senses": {
-   "oewn-00941001-s": {"learner": "Not yet tried or tested by experience.",
-                       "examples": ["They are young in the ways of the world"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00821577-s": {"learner": "Of crops: picked at an early stage, before they have fully matured.",
-                       "examples": ["We ate young corn straight from the field."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "letter", "pos": "noun",
-  "senses": {
-   "oewn-06719443-n": {"learner": "A prize you earn for taking part in a school sport.",
-                       "examples": ["She earned a letter in basketball in her second year."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-10274904-n": {"learner": "An owner who lets another person use something, usually a house or rooms, for payment.",
-                       "examples": ["The letter of the rooms came to collect the rent every month."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "away", "pos": "adverb",
-  "senses": {
-   "oewn-00236681-r": {"learner": "In a different direction.",
-                       "examples": ["He glanced away when she looked at him."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00237168-r": {"learner": "So that something is removed or got rid of.",
-                       "examples": ["The rotten boards had to be torn away."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00236800-r": {"learner": "In or into the right place, especially so that something is stored or kept safe.",
-                       "examples": ["Put your books away before dinner.", "Her jewels were locked away in a safe."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00235026-r": {"learner": "Out of your possession, so that you no longer have it.",
-                       "examples": ["She gave away all her old clothes."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00236477-r": {"learner": "Used to show that an action keeps going, without a break or at a steady pace.",
-                       "examples": ["He worked away at his letters all afternoon."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00235782-r": {"learner": "Out of the way, especially out of your thoughts.",
-                       "examples": ["She pushed the worry away and went on reading."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00235417-r": {"learner": "Kept back to be used later, not now.",
-                       "examples": ["She kept a little money tucked away for later."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00237300-r": {"learner": "Freely, or as much and whenever you want.",
-                       "examples": ["Ask away, and I will answer anything."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "talk", "pos": "verb",
-  "senses": {
-   "oewn-00954873-v": {"learner": "To give out information, so that it becomes known.",
-                       "examples": ["The police hoped the driver would talk and tell them what he had seen."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00832422-v": {"learner": "To give a lecture or a talk.",
-                       "examples": ["She talked on modern poetry to a hall full of students."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "subject", "pos": "noun",
-  "senses": {
-   "oewn-10688105-n": {"learner": "A person who is tested or watched in an experiment or other study; someone who is being investigated.",
-                       "examples": ["Each subject in the study was asked to sleep for eight hours."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-09648571-n": {"learner": "A person who owes loyalty to a nation.",
-                       "examples": ["He was born a British subject."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06320921-n": {"learner": "In grammar, one of the two main parts of a sentence: the part that the rest of the sentence says something about.",
-                       "examples": ["In the sentence 'The dog barked', the subject is 'the dog'."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04354303-n": {"learner": "A person, object or scene that an artist or photographer chooses to show in a picture.",
-                       "examples": ["The painter chose his own mother as the subject of the portrait."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06321115-n": {"learner": "In logic, the first term of a proposition.",
-                       "examples": ["In the proposition 'All men are mortal', the subject is 'men'."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "appear", "pos": "verb",
-  "senses": {
-   "oewn-00426024-v": {"learner": "To begin to exist, or to arrive on the scene.",
-                       "examples": ["Life first appeared on Earth billions of years ago."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00426920-v": {"learner": "To be published or put out.",
-                       "examples": ["Her first novel appeared in 1811."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02603759-v": {"learner": "To come formally before an authority, such as a court.",
-                       "examples": ["He must appear before the judge on Monday."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01725046-v": {"learner": "To play a character on stage, or to take part in a play or a similar show.",
-                       "examples": ["She appeared as Juliet in the school play."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "assure", "pos": "verb",
-  "senses": {
-   "oewn-00664507-v": {"learner": "To take care to do something, or to make certain of something.",
-                       "examples": ["The guard walked round the house to assure that every window was shut."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00885532-v": {"learner": "To make a promise, or to commit yourself to something.",
-                       "examples": ["He assured her that he would come back for her before winter."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "bring", "pos": "verb",
-  "senses": {
-   "oewn-01435927-v": {"learner": "To go after something or someone and bring or take them back.",
-                       "examples": ["The dog ran off to bring back the stick."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01436773-v": {"learner": "To have someone or something come along with you.",
-                       "examples": ["Can I bring my cousin to the dinner?"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00135665-v": {"learner": "To put someone or something into a different state.",
-                       "examples": ["His gambling brought him into debt."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00769379-v": {"learner": "To cause or persuade someone to do something.",
-                       "examples": ["Nothing could bring her to speak of it again."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02329474-v": {"learner": "To give a quality to something.",
-                       "examples": ["She brought great skill to the role."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02252172-v": {"learner": "To be sold for a certain price.",
-                       "examples": ["The old house brought a good price."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01621566-v": {"learner": "To put something forward in a court of law.",
-                       "examples": ["They decided to bring a case against the company."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01812185-v": {"learner": "To catch the attention of someone.",
-                       "examples": ["The cries brought the neighbours running."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "world", "pos": "noun",
-  "senses": {
-   "oewn-02475618-n": {"learner": "All the people living on the earth.",
-                       "examples": ["Half the world now lives in cities."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05817904-n": {"learner": "Everything you have lived through, which shapes how things seem to you.",
-                       "examples": ["When his father died, his whole world fell apart."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-09503939-n": {"learner": "A part of the earth that can be thought about on its own.",
-                       "examples": ["The underwater world is full of strange fish."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05678816-n": {"learner": "The matters of life on earth, as opposed to heaven and life after death.",
-                       "examples": ["She left the world behind and entered a convent."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 1,
+ "entries": [
+  {
+   "word": "know",
+   "pos": "verb",
+   "senses": {
+    "oewn-00597527-v": {
+     "learner": "To have something fixed in your memory.",
+     "examples": [
+      "She knows the whole poem by heart.",
+      "He knows Latin and Greek."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00598039-v": {
+     "learner": "To have felt or lived through a state, situation, feeling or sensation yourself.",
+     "examples": [
+      "Few of them had ever known real hunger."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00609926-v": {
+     "learner": "To see, hear or notice something and find that it is familiar.",
+     "examples": [
+      "I knew her voice the moment she spoke."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00610224-v": {
+     "learner": "To understand what someone or something is really like.",
+     "examples": [
+      "We all knew him as a quiet and careful man."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00610056-v": {
+     "learner": "To be able to tell things apart and see that they are different.",
+     "examples": [
+      "He doesn't know a rose from a tulip."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00594278-v": {
+     "learner": "To accept that someone is what they claim to be, or to accept their power and authority.",
+     "examples": [
+      "The villagers would know no master but the old lord."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01429048-v": {
+     "learner": "To have sex with someone.",
+     "examples": [
+      "The old text says that Adam knew Eve."
+     ],
+     "usage_labels": [
+      "archaic",
+      "euphemistic"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "young",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00941001-s": {
+     "learner": "Not yet tried or tested by experience.",
+     "examples": [
+      "They are young in the ways of the world"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00821577-s": {
+     "learner": "Of crops: picked at an early stage, before they have fully matured.",
+     "examples": [
+      "We ate young corn straight from the field."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "letter",
+   "pos": "noun",
+   "senses": {
+    "oewn-06719443-n": {
+     "learner": "A prize you earn for taking part in a school sport.",
+     "examples": [
+      "She earned a letter in basketball in her second year."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-10274904-n": {
+     "learner": "An owner who lets another person use something, usually a house or rooms, for payment.",
+     "examples": [
+      "The letter of the rooms came to collect the rent every month."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "away",
+   "pos": "adverb",
+   "senses": {
+    "oewn-00236681-r": {
+     "learner": "In a different direction.",
+     "examples": [
+      "He glanced away when she looked at him."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00237168-r": {
+     "learner": "So that something is removed or got rid of.",
+     "examples": [
+      "The rotten boards had to be torn away."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00236800-r": {
+     "learner": "In or into the right place, especially so that something is stored or kept safe.",
+     "examples": [
+      "Put your books away before dinner.",
+      "Her jewels were locked away in a safe."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00235026-r": {
+     "learner": "Out of your possession, so that you no longer have it.",
+     "examples": [
+      "She gave away all her old clothes."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00236477-r": {
+     "learner": "Used to show that an action keeps going, without a break or at a steady pace.",
+     "examples": [
+      "He worked away at his letters all afternoon."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00235782-r": {
+     "learner": "Out of the way, especially out of your thoughts.",
+     "examples": [
+      "She pushed the worry away and went on reading."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00235417-r": {
+     "learner": "Kept back to be used later, not now.",
+     "examples": [
+      "She kept a little money tucked away for later."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00237300-r": {
+     "learner": "Freely, or as much and whenever you want.",
+     "examples": [
+      "Ask away, and I will answer anything."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "talk",
+   "pos": "verb",
+   "senses": {
+    "oewn-00954873-v": {
+     "learner": "To give out information, so that it becomes known.",
+     "examples": [
+      "The police hoped the driver would talk and tell them what he had seen."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00832422-v": {
+     "learner": "To give a lecture or a talk.",
+     "examples": [
+      "She talked on modern poetry to a hall full of students."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "subject",
+   "pos": "noun",
+   "senses": {
+    "oewn-10688105-n": {
+     "learner": "A person who is tested or watched in an experiment or other study; someone who is being investigated.",
+     "examples": [
+      "Each subject in the study was asked to sleep for eight hours."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-09648571-n": {
+     "learner": "A person who owes loyalty to a nation.",
+     "examples": [
+      "He was born a British subject."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06320921-n": {
+     "learner": "In grammar, one of the two main parts of a sentence: the part that the rest of the sentence says something about.",
+     "examples": [
+      "In the sentence 'The dog barked', the subject is 'the dog'."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04354303-n": {
+     "learner": "A person, object or scene that an artist or photographer chooses to show in a picture.",
+     "examples": [
+      "The painter chose his own mother as the subject of the portrait."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06321115-n": {
+     "learner": "In logic, the first term of a proposition.",
+     "examples": [
+      "In the proposition 'All men are mortal', the subject is 'men'."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "appear",
+   "pos": "verb",
+   "senses": {
+    "oewn-00426024-v": {
+     "learner": "To begin to exist, or to arrive on the scene.",
+     "examples": [
+      "Life first appeared on Earth billions of years ago."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00426920-v": {
+     "learner": "To be published or put out.",
+     "examples": [
+      "Her first novel appeared in 1811."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02603759-v": {
+     "learner": "To come formally before an authority, such as a court.",
+     "examples": [
+      "He must appear before the judge on Monday."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01725046-v": {
+     "learner": "To play a character on stage, or to take part in a play or a similar show.",
+     "examples": [
+      "She appeared as Juliet in the school play."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "assure",
+   "pos": "verb",
+   "senses": {
+    "oewn-00664507-v": {
+     "learner": "To take care to do something, or to make certain of something.",
+     "examples": [
+      "The guard walked round the house to assure that every window was shut."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00885532-v": {
+     "learner": "To make a promise, or to commit yourself to something.",
+     "examples": [
+      "He assured her that he would come back for her before winter."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "bring",
+   "pos": "verb",
+   "senses": {
+    "oewn-01435927-v": {
+     "learner": "To go after something or someone and bring or take them back.",
+     "examples": [
+      "The dog ran off to bring back the stick."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01436773-v": {
+     "learner": "To have someone or something come along with you.",
+     "examples": [
+      "Can I bring my cousin to the dinner?"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00135665-v": {
+     "learner": "To put someone or something into a different state.",
+     "examples": [
+      "His gambling brought him into debt."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00769379-v": {
+     "learner": "To cause or persuade someone to do something.",
+     "examples": [
+      "Nothing could bring her to speak of it again."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02329474-v": {
+     "learner": "To give a quality to something.",
+     "examples": [
+      "She brought great skill to the role."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02252172-v": {
+     "learner": "To be sold for a certain price.",
+     "examples": [
+      "The old house brought a good price."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01621566-v": {
+     "learner": "To put something forward in a court of law.",
+     "examples": [
+      "They decided to bring a case against the company."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01812185-v": {
+     "learner": "To catch the attention of someone.",
+     "examples": [
+      "The cries brought the neighbours running."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "world",
+   "pos": "noun",
+   "senses": {
+    "oewn-02475618-n": {
+     "learner": "All the people living on the earth.",
+     "examples": [
+      "Half the world now lives in cities."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05817904-n": {
+     "learner": "Everything you have lived through, which shapes how things seem to you.",
+     "examples": [
+      "When his father died, his whole world fell apart."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-09503939-n": {
+     "learner": "A part of the earth that can be thought about on its own.",
+     "examples": [
+      "The underwater world is full of strange fish."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05678816-n": {
+     "learner": "The matters of life on earth, as opposed to heaven and life after death.",
+     "examples": [
+      "She left the world behind and entered a convent."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

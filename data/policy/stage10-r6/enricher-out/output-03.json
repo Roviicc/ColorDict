@@ -1,172 +1,359 @@
-{"packet": 3, "entries": [
- {"word": "power", "pos": "noun",
-  "senses": {
-   "oewn-10480990-n": {"learner": "a person or thing that has or uses power, influence or authority",
-                       "examples": ["She felt that some evil power was at work in the old house."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05037846-n": {"learner": "strength of the body",
-                       "examples": ["He hit the ball with all the power in his arms."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-11470903-n": {"learner": "energy you get when electricity flows through a wire or other material that carries it",
-                       "examples": ["The power went out during the storm, and the house went dark."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-08194510-n": {"learner": "a country strong enough to change what happens all over the world",
-                       "examples": ["After the war the country grew into a world power."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-11473433-n": {"learner": "in physics, how fast work is done, measured in watts (joules each second)",
-                       "examples": ["The motor has a power of 500 watts."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-06825275-n": {"learner": "a small number written in maths to show how many times a number is multiplied by itself",
-                       "examples": ["Two to the power of three is eight."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-09859605-n": {"learner": "a very rich or powerful person in business",
-                       "examples": ["He was a power in the steel business, rich enough to buy the whole town."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "circumstance", "pos": "noun",
-  "senses": {
-   "oewn-07465938-n": {"learner": "formal ceremony held for important occasions",
-                       "examples": ["The new queen was crowned with great pomp and circumstance."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "short", "pos": "adjective",
-  "senses": {
-   "oewn-02344882-s": {"learner": "too little to give what is needed",
-                       "examples": ["Money was short that winter, so the family ate less meat."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00643682-s": {"learner": "saying very little in a way that is rude, or that sounds like an order no one may question",
-                       "examples": ["When he asked a third time, she was short with him."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "calls a brief manner rude where 'brief' would not"}},
-   "oewn-02345399-s": {"learner": "less than the right, legal or full amount, often on purpose",
-                       "examples": ["The inspector caught the grocer giving short weight to his customers."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "suggests deliberate cheating on the amount"}},
-   "oewn-01902113-s": {"learner": "not thinking far enough ahead, or not taking in enough of the problem",
-                       "examples": ["Selling the farm to pay one bill was a short view of their troubles."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "faults the thinking as lacking foresight"}},
-   "oewn-02013127-a": {"learner": "used of memory: not good at keeping things, or not reaching very far",
-                       "examples": ["Voters have short memories, and the scandal was soon forgotten."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01447121-a": {"learner": "used of speech sounds or syllables: taking less time to say than others",
-                       "examples": ["The 'a' in 'cat' is a short vowel."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-01447511-a": {"learner": "not owning the shares or goods you are selling, because you expect their price to fall",
-                       "examples": ["Traders who were short in oil made money when the price fell."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-00712466-s": {"learner": "tending to crumble or break into flakes because it is made with a lot of fat",
-                       "examples": ["Her pastry was short and melted in the mouth."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "minute", "pos": "noun",
-  "senses": {
-   "oewn-06518306-n": {"learner": "a short written message",
-                       "examples": ["He sent a minute to the manager about the broken lift."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05138288-n": {"learner": "how far away something is, counted by how long it takes to get there",
-                       "examples": ["The station is ten minutes from here on foot."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13632810-n": {"learner": "a unit for measuring angles, equal to one sixtieth of a degree",
-                       "examples": ["The ship's position was given to the nearest minute of latitude."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "understand", "pos": "verb",
-  "senses": {
-   "oewn-00595453-v": {"learner": "to feel for someone and accept their feelings or reasons",
-                       "examples": ["Don't worry about missing the party; I understand."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00595247-v": {"learner": "to know what the words of a language mean",
-                       "examples": ["She understands French but cannot speak it."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "officer", "pos": "noun",
-  "senses": {
-   "oewn-10391440-n": {"learner": "a person given the right to hold a position of authority on a ship",
-                       "examples": ["The ship's first officer took the wheel while the captain slept."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "attend", "pos": "verb",
-  "senses": {
-   "oewn-02555278-v": {"learner": "to take care of something or deal with it",
-                       "examples": ["I have some business to attend to before lunch."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02546367-v": {"learner": "to work for someone, or to be their servant",
-                       "examples": ["Two maids attended the old lady day and night."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "respect", "pos": "noun",
-  "senses": {
-   "oewn-07560785-n": {"learner": "a feeling of friendship together with a high opinion of someone",
-                       "examples": ["Over the years the two old rivals came to feel a warm respect for each other."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-14461018-n": {"learner": "the state of being honoured or thought well of",
-                       "examples": ["The old doctor was held in great respect in the village."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01135185-n": {"learner": "behaviour meant to please your parents",
-                       "examples": ["The boy kept every rule at home out of respect for his parents."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "help", "pos": "verb",
-  "senses": {
-   "oewn-00081834-v": {"learner": "to make the condition of someone or something better",
-                       "examples": ["Fresh air and sleep helped the sick boy more than any medicine."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02561142-v": {"learner": "to add to the progress of something",
-                       "examples": ["The new road helped the growth of trade in the town."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00207406-v": {"learner": "to make something better; to change it for the better",
-                       "examples": ["A new rug will really help this dull room."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01183592-v": {"learner": "to serve someone some food, or give them food or drink",
-                       "examples": ["May I help you to some more potatoes?"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01196102-v": {"learner": "to take something or make use of it",
-                       "examples": ["Help yourself to a pen from the box on my desk."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "matter", "pos": "noun",
-  "senses": {
-   "oewn-05176769-n": {"learner": "importance; used with 'no' or 'not'",
-                       "examples": ["It is no matter if you are late; we will wait."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00021007-n": {"learner": "anything that has mass and takes up space",
-                       "examples": ["Everything around us, from air to stone, is made of matter."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06376912-n": {"learner": "written works, especially in books or magazines",
-                       "examples": ["She packed plenty of reading matter for the long train journey."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 3,
+ "entries": [
+  {
+   "word": "power",
+   "pos": "noun",
+   "senses": {
+    "oewn-10480990-n": {
+     "learner": "a person or thing that has or uses power, influence or authority",
+     "examples": [
+      "She felt that some evil power was at work in the old house."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05037846-n": {
+     "learner": "strength of the body",
+     "examples": [
+      "He hit the ball with all the power in his arms."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-11470903-n": {
+     "learner": "energy you get when electricity flows through a wire or other material that carries it",
+     "examples": [
+      "The power went out during the storm, and the house went dark."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-08194510-n": {
+     "learner": "a country strong enough to change what happens all over the world",
+     "examples": [
+      "After the war the country grew into a world power."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-11473433-n": {
+     "learner": "in physics, how fast work is done, measured in watts (joules each second)",
+     "examples": [
+      "The motor has a power of 500 watts."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-06825275-n": {
+     "learner": "a small number written in maths to show how many times a number is multiplied by itself",
+     "examples": [
+      "Two to the power of three is eight."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-09859605-n": {
+     "learner": "a very rich or powerful person in business",
+     "examples": [
+      "He was a power in the steel business, rich enough to buy the whole town."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "circumstance",
+   "pos": "noun",
+   "senses": {
+    "oewn-07465938-n": {
+     "learner": "formal ceremony held for important occasions",
+     "examples": [
+      "The new queen was crowned with great pomp and circumstance."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "short",
+   "pos": "adjective",
+   "senses": {
+    "oewn-02344882-s": {
+     "learner": "too little to give what is needed",
+     "examples": [
+      "Money was short that winter, so the family ate less meat."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00643682-s": {
+     "learner": "saying very little in a way that is rude, or that sounds like an order no one may question",
+     "examples": [
+      "When he asked a third time, she was short with him."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "calls a brief manner rude where 'brief' would not"
+     }
+    },
+    "oewn-02345399-s": {
+     "learner": "less than the right, legal, or full amount, often on purpose.",
+     "examples": [
+      "The baker was fined for selling bread of short weight."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01902113-s": {
+     "learner": "not thinking far enough ahead, or not taking in enough of the problem",
+     "examples": [
+      "Selling the farm to pay one bill was a short view of their troubles."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "faults the thinking as lacking foresight"
+     }
+    },
+    "oewn-02013127-a": {
+     "learner": "used of memory: not good at keeping things, or not reaching very far",
+     "examples": [
+      "Voters have short memories, and the scandal was soon forgotten."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01447121-a": {
+     "learner": "used of speech sounds or syllables: taking less time to say than others",
+     "examples": [
+      "The 'a' in 'cat' is a short vowel."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-01447511-a": {
+     "learner": "not owning the shares or goods you are selling, because you expect their price to fall",
+     "examples": [
+      "Traders who were short in oil made money when the price fell."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-00712466-s": {
+     "learner": "tending to crumble or break into flakes because it is made with a lot of fat",
+     "examples": [
+      "Her pastry was short and melted in the mouth."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "minute",
+   "pos": "noun",
+   "senses": {
+    "oewn-06518306-n": {
+     "learner": "a short written message",
+     "examples": [
+      "He sent a minute to the manager about the broken lift."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05138288-n": {
+     "learner": "how far away something is, counted by how long it takes to get there",
+     "examples": [
+      "The station is ten minutes from here on foot."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13632810-n": {
+     "learner": "a unit for measuring angles, equal to one sixtieth of a degree",
+     "examples": [
+      "The ship's position was given to the nearest minute of latitude."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "understand",
+   "pos": "verb",
+   "senses": {
+    "oewn-00595453-v": {
+     "learner": "to feel for someone and accept their feelings or reasons",
+     "examples": [
+      "Don't worry about missing the party; I understand."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00595247-v": {
+     "learner": "to know what the words of a language mean",
+     "examples": [
+      "She understands French but cannot speak it."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "officer",
+   "pos": "noun",
+   "senses": {
+    "oewn-10391440-n": {
+     "learner": "a person given the right to hold a position of authority on a ship",
+     "examples": [
+      "The ship's first officer took the wheel while the captain slept."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "attend",
+   "pos": "verb",
+   "senses": {
+    "oewn-02555278-v": {
+     "learner": "to take care of something or deal with it",
+     "examples": [
+      "I have some business to attend to before lunch."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02546367-v": {
+     "learner": "to work for someone, or to be their servant",
+     "examples": [
+      "Two maids attended the old lady day and night."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "respect",
+   "pos": "noun",
+   "senses": {
+    "oewn-07560785-n": {
+     "learner": "a feeling of friendship together with a high opinion of someone",
+     "examples": [
+      "Over the years the two old rivals came to feel a warm respect for each other."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-14461018-n": {
+     "learner": "the state of being honoured or thought well of",
+     "examples": [
+      "The old doctor was held in great respect in the village."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01135185-n": {
+     "learner": "behaviour meant to please your parents",
+     "examples": [
+      "The boy kept every rule at home out of respect for his parents."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "help",
+   "pos": "verb",
+   "senses": {
+    "oewn-00081834-v": {
+     "learner": "to make the condition of someone or something better",
+     "examples": [
+      "Fresh air and sleep helped the sick boy more than any medicine."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02561142-v": {
+     "learner": "to add to the progress of something",
+     "examples": [
+      "The new road helped the growth of trade in the town."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00207406-v": {
+     "learner": "to make something better; to change it for the better",
+     "examples": [
+      "A new rug will really help this dull room."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01183592-v": {
+     "learner": "to serve someone some food, or give them food or drink",
+     "examples": [
+      "May I help you to some more potatoes?"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01196102-v": {
+     "learner": "to take something or make use of it",
+     "examples": [
+      "Help yourself to a pen from the box on my desk."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "matter",
+   "pos": "noun",
+   "senses": {
+    "oewn-05176769-n": {
+     "learner": "importance; used with 'no' or 'not'",
+     "examples": [
+      "It is no matter if you are late; we will wait."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00021007-n": {
+     "learner": "anything that has mass and takes up space",
+     "examples": [
+      "Everything around us, from air to stone, is made of matter."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06376912-n": {
+     "learner": "written works, especially in books or magazines",
+     "examples": [
+      "She packed plenty of reading matter for the long train journey."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

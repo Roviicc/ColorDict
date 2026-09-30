@@ -1,176 +1,373 @@
-{"packet": 4, "entries": [
- {"word": "try", "pos": "verb",
-  "senses": {
-   "oewn-02506927-v": {"learner": "To put someone on trial, or to sit as the judge at someone's trial.",
-                       "examples": ["He was tried for stealing a car and sent to prison."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00047034-v": {"learner": "To put on a piece of clothing to see whether it fits and looks nice.",
-                       "examples": ["She tried the coat on before she bought it."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02506551-v": {"learner": "To look at the evidence in a case, or to hear a case, in a court of law.",
-                       "examples": ["The case was tried in a court far from the town where the crime happened."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01802793-v": {"learner": "To cause someone pain or trouble.",
-                       "examples": ["She was sorely tried by her long illness."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01802463-v": {"learner": "To test how much something can take before it reaches its limit.",
-                       "examples": ["His endless questions tried her patience."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00445930-v": {"learner": "To melt fat or lard so that the unclean parts can be taken out of it.",
-                       "examples": ["They tried the lard in a big pot over the fire."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "pay", "pos": "verb",
-  "senses": {
-   "oewn-02256551-v": {"learner": "To give money, usually in return for things you buy or work someone does.",
-                       "examples": ["I paid ten pounds for the book."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02257739-v": {"learner": "To clear or cancel a debt by giving what you owe.",
-                       "examples": ["He owed money for months, but at last he paid up."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00739889-v": {"learner": "To suffer a cost or a punishment because of something you did.",
-                       "examples": ["He will pay for his rudeness one day."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00734247-v": {"learner": "To give or devote something, such as your attention, to someone or something.",
-                       "examples": ["For the whole lesson she paid careful attention to the teacher."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02258264-v": {"learner": "To do or give something to someone in return for what they did.",
-                       "examples": ["They paid the boy for his help with a free meal."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02349239-v": {"learner": "To make up for something by giving something back.",
-                       "examples": ["I can never pay back such a kindness."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02738167-v": {"learner": "To be worth it.",
-                       "examples": ["It pays to be honest with your friends."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02296669-v": {"learner": "To bring in an amount, such as money earned.",
-                       "examples": ["The savings account pays five per cent a year."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "real", "pos": "adjective",
-  "senses": {
-   "oewn-02126996-s": {"learner": "Serious enough that it must not be treated as small or unimportant.",
-                       "examples": ["Loneliness is a real problem for many old people."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00013681-s": {"learner": "Able to be treated as a fact.",
-                       "examples": ["The talks produced no real results, only promises."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00628097-a": {"learner": "Having substance, or able to be treated as a fact; not imagined.",
-                       "examples": ["It was only a dream; none of it was real."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01948221-s": {"learner": "Matching what is really there or really true.",
-                       "examples": ["The painter gave a real picture of the harbour, true in every detail."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01946213-a": {"learner": "Describing an amount of money that has been changed to allow for prices rising over time.",
-                       "examples": ["Real wages fell last year, even though people were paid more."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-02400973-s": {"learner": "Of property: fixed in one place and not able to be moved.",
-                       "examples": ["Houses and land are real property."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "society", "pos": "noun",
-  "senses": {
-   "oewn-08404661-n": {"learner": "The small group of fashionable people at the top of the social world.",
-                       "examples": ["She was introduced to society at a grand ball in London."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "treats the fashionable few as the only people who count"}}
-  }},
- {"word": "comfort", "pos": "noun",
-  "senses": {
-   "oewn-14468845-n": {"learner": "The state of being relaxed and not feeling any pain.",
-                       "examples": ["After the long walk, he sat by the fire in comfort."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-14515473-n": {"learner": "Freedom from money troubles, which lets you live comfortably.",
-                       "examples": ["They lived in comfort on the money his father had left."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04040471-n": {"learner": "A bed cover made of two layers of cloth with soft filling, sewn together.",
-                       "examples": ["She pulled the comfort up to her chin."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01213675-n": {"learner": "Help, such as help given to an enemy or to a known criminal.",
-                       "examples": ["The town was accused of giving comfort to the enemy."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "learn", "pos": "verb",
-  "senses": {
-   "oewn-00601387-v": {"learner": "To be a student of a subject.",
-                       "examples": ["She is learning French at school."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00605971-v": {"learner": "To put something into your memory; to learn it by heart.",
-                       "examples": ["The children had to learn the poem by Friday."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00830768-v": {"learner": "To teach someone skills or knowledge.",
-                       "examples": ["I'll learn you to play the fiddle if you like."],
-                       "usage_labels": ["dialect"],
-                       "connotation": null}
-  }},
- {"word": "pain", "pos": "noun",
-  "senses": {
-   "oewn-05838383-n": {"learner": "Someone or something that causes you trouble or makes you unhappy.",
-                       "examples": ["Her little brother can be a real pain."],
-                       "usage_labels": ["informal"],
-                       "connotation": {"candidate": true, "why": "labels a person or thing a nuisance rather than a problem"}}
-  }},
- {"word": "attachment", "pos": "noun",
-  "senses": {
-   "oewn-01215372-n": {"learner": "Loyal support for a cause, a political party or a religion.",
-                       "examples": ["Nothing could shake his attachment to the cause of reform."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00380230-n": {"learner": "The act of fixing or joining one thing onto something else.",
-                       "examples": ["The attachment of a label to each box took an hour."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00148415-n": {"learner": "The act of fastening things together.",
-                       "examples": ["The attachment of the two boards needed only a few nails."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-06566972-n": {"learner": "A written court order that allows property to be taken, because it may be needed to pay what a court decides is owed.",
-                       "examples": ["The bank got an attachment on his house to cover the debt."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "scheme", "pos": "noun",
-  "senses": {
-   "oewn-05936599-n": {"learner": "A picture of the world held in the mind, made of ideas and actions, which can change when you learn new things.",
-                       "examples": ["The child's scheme of how animals behave changed after she saw the fox."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-06769391-n": {"learner": "Something said to avoid answering a question, using cleverness or tricks.",
-                       "examples": ["His reply was a clever scheme to dodge the question."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "casts an answer as a trick rather than a reply"}}
-  }},
- {"word": "event", "pos": "noun",
-  "senses": {
-   "oewn-11474277-n": {"learner": "Something that happens at one single point in space and time; the basic thing observed in relativity theory.",
-                       "examples": ["In relativity, each event has its own place and time."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 4,
+ "entries": [
+  {
+   "word": "try",
+   "pos": "verb",
+   "senses": {
+    "oewn-02506927-v": {
+     "learner": "To put someone on trial, or to sit as the judge at someone's trial.",
+     "examples": [
+      "He was tried for stealing a car and sent to prison."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00047034-v": {
+     "learner": "To put on a piece of clothing to see whether it fits and looks nice.",
+     "examples": [
+      "She tried the coat on before she bought it."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02506551-v": {
+     "learner": "To look at the evidence in a case, or to hear a case, in a court of law.",
+     "examples": [
+      "The case was tried in a court far from the town where the crime happened."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01802793-v": {
+     "learner": "To cause someone pain or trouble.",
+     "examples": [
+      "She was sorely tried by her long illness."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01802463-v": {
+     "learner": "To test how much something can take before it reaches its limit.",
+     "examples": [
+      "His endless questions tried her patience."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00445930-v": {
+     "learner": "To melt fat or lard so that the unclean parts can be taken out of it.",
+     "examples": [
+      "They tried the lard in a big pot over the fire."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "pay",
+   "pos": "verb",
+   "senses": {
+    "oewn-02256551-v": {
+     "learner": "To give money, usually in return for things you buy or work someone does.",
+     "examples": [
+      "I paid ten pounds for the book."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02257739-v": {
+     "learner": "To clear or cancel a debt by giving what you owe.",
+     "examples": [
+      "He owed money for months, but at last he paid up."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00739889-v": {
+     "learner": "To suffer a cost or a punishment because of something you did.",
+     "examples": [
+      "He will pay for his rudeness one day."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00734247-v": {
+     "learner": "To give or devote something, such as your attention, to someone or something.",
+     "examples": [
+      "For the whole lesson she paid careful attention to the teacher."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02258264-v": {
+     "learner": "To do or give something to someone in return for what they did.",
+     "examples": [
+      "They paid the boy for his help with a free meal."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02349239-v": {
+     "learner": "To make up for something by giving something back.",
+     "examples": [
+      "I can never pay back such a kindness."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02738167-v": {
+     "learner": "To be worth it.",
+     "examples": [
+      "It pays to be honest with your friends."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02296669-v": {
+     "learner": "To bring in an amount, such as money earned.",
+     "examples": [
+      "The savings account pays five per cent a year."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "real",
+   "pos": "adjective",
+   "senses": {
+    "oewn-02126996-s": {
+     "learner": "Serious enough that it must not be treated as small or unimportant.",
+     "examples": [
+      "Loneliness is a real problem for many old people."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00013681-s": {
+     "learner": "able to be treated as a fact.",
+     "examples": [
+      "The new law brought few real benefits to the poor."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00628097-a": {
+     "learner": "Having substance, or able to be treated as a fact; not imagined.",
+     "examples": [
+      "It was only a dream; none of it was real."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01948221-s": {
+     "learner": "Matching what is really there or really true.",
+     "examples": [
+      "The painter gave a real picture of the harbour, true in every detail."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01946213-a": {
+     "learner": "Describing an amount of money that has been changed to allow for prices rising over time.",
+     "examples": [
+      "Real wages fell last year, even though people were paid more."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-02400973-s": {
+     "learner": "Of property: fixed in one place and not able to be moved.",
+     "examples": [
+      "Houses and land are real property."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "society",
+   "pos": "noun",
+   "senses": {
+    "oewn-08404661-n": {
+     "learner": "the small group of fashionable people at the top of social life.",
+     "examples": [
+      "She was the most admired young woman in London society that season."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "comfort",
+   "pos": "noun",
+   "senses": {
+    "oewn-14468845-n": {
+     "learner": "The state of being relaxed and not feeling any pain.",
+     "examples": [
+      "After the long walk, he sat by the fire in comfort."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-14515473-n": {
+     "learner": "Freedom from money troubles, which lets you live comfortably.",
+     "examples": [
+      "They lived in comfort on the money his father had left."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04040471-n": {
+     "learner": "A bed cover made of two layers of cloth with soft filling, sewn together.",
+     "examples": [
+      "She pulled the comfort up to her chin."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01213675-n": {
+     "learner": "Help, such as help given to an enemy or to a known criminal.",
+     "examples": [
+      "The town was accused of giving comfort to the enemy."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "learn",
+   "pos": "verb",
+   "senses": {
+    "oewn-00601387-v": {
+     "learner": "To be a student of a subject.",
+     "examples": [
+      "She is learning French at school."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00605971-v": {
+     "learner": "To put something into your memory; to learn it by heart.",
+     "examples": [
+      "The children had to learn the poem by Friday."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00830768-v": {
+     "learner": "To teach someone skills or knowledge.",
+     "examples": [
+      "I'll learn you to play the fiddle if you like."
+     ],
+     "usage_labels": [
+      "dialect"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "pain",
+   "pos": "noun",
+   "senses": {
+    "oewn-05838383-n": {
+     "learner": "Someone or something that causes you trouble or makes you unhappy.",
+     "examples": [
+      "Her little brother can be a real pain."
+     ],
+     "usage_labels": [
+      "informal"
+     ],
+     "connotation": {
+      "candidate": true,
+      "why": "labels a person or thing a nuisance rather than a problem"
+     }
+    }
+   }
+  },
+  {
+   "word": "attachment",
+   "pos": "noun",
+   "senses": {
+    "oewn-01215372-n": {
+     "learner": "Loyal support for a cause, a political party or a religion.",
+     "examples": [
+      "Nothing could shake his attachment to the cause of reform."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00380230-n": {
+     "learner": "The act of fixing or joining one thing onto something else.",
+     "examples": [
+      "The attachment of a label to each box took an hour."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00148415-n": {
+     "learner": "The act of fastening things together.",
+     "examples": [
+      "The attachment of the two boards needed only a few nails."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-06566972-n": {
+     "learner": "A written court order that allows property to be taken, because it may be needed to pay what a court decides is owed.",
+     "examples": [
+      "The bank got an attachment on his house to cover the debt."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "scheme",
+   "pos": "noun",
+   "senses": {
+    "oewn-05936599-n": {
+     "learner": "A picture of the world held in the mind, made of ideas and actions, which can change when you learn new things.",
+     "examples": [
+      "The child's scheme of how animals behave changed after she saw the fox."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-06769391-n": {
+     "learner": "Something said to avoid answering a question, using cleverness or tricks.",
+     "examples": [
+      "His reply was a clever scheme to dodge the question."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "casts an answer as a trick rather than a reply"
+     }
+    }
+   }
+  },
+  {
+   "word": "event",
+   "pos": "noun",
+   "senses": {
+    "oewn-11474277-n": {
+     "learner": "Something that happens at one single point in space and time; the basic thing observed in relativity theory.",
+     "examples": [
+      "In relativity, each event has its own place and time."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}
