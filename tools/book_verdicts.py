@@ -52,8 +52,7 @@ def main():
     from spacy.lang.en.stop_words import STOP_WORDS
 
     meta = json.loads((args.book / "meta.json").read_text(encoding="utf-8"))
-    records = [json.loads(l) for l in (args.book / "lemmas.jsonl").open(encoding="utf-8")
-               if l.strip()]
+    records = bi.load_lemmas(args.book)
     lookup = bi.wordnet_index()
     records = [r for r in records
                if r["part_of_speech"] in UPOS_TO_POS and lookup(r["lemma"], r["part_of_speech"])]

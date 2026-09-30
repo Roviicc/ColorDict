@@ -147,12 +147,11 @@ def cmd_new(args):
     title = meta.get("title") or meta.get("source_filename")
     sentences = [json.loads(l) for l in (args.book / "sentences.jsonl").open(encoding="utf-8")
                  if l.strip()]
+    import book_ingest as bi
     forms = {}
-    for line in (args.book / "lemmas.jsonl").open(encoding="utf-8"):
-        if line.strip():
-            r = json.loads(line)
-            if r["part_of_speech"] in ep.UPOS_TO_POS:
-                forms[(r["lemma"].lower(), ep.UPOS_TO_POS[r["part_of_speech"]])] = r
+    for r in bi.load_lemmas(args.book):
+        if r["part_of_speech"] in ep.UPOS_TO_POS:
+            forms[(r["lemma"].lower(), ep.UPOS_TO_POS[r["part_of_speech"]])] = r
     pool, skipped = [], {"function word": 0, f"over {args.max_open} senses": 0,
                          f"under {ep.MIN_SENTENCES} usable sentences": 0}
     samples, before = {}, drawn_before()
@@ -166,7 +165,7 @@ def cmd_new(args):
             skipped[f"over {args.max_open} senses"] += 1
             continue
         rec = forms[(w["word"].lower(), w["pos"])]
-        sample = ep.sample_sentences(sentences, list(rec["corpus"]["forms"]))
+        sample = ep.sample_sentences(sentences, list(rec["corpus"]["forms"]), rec.get("sentences"))
         if len(sample) < ep.MIN_SENTENCES:
             skipped[f"under {ep.MIN_SENTENCES} usable sentences"] += 1
             continue

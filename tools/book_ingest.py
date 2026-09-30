@@ -65,10 +65,17 @@ WN_POS = {"NOUN": "n", "VERB": "v", "ADJ": "a", "ADV": "r"}
 # The lexicon this dictionary actually ships (plan 0.3), not nltk's PWN 3.0.
 BULK = ROOT / "data/entries/derived-bulk.jsonl"
 
-# How many example sentences to remember per lemma+POS. The Sense Ranker wants a
-# handful of real usages; it does not want the whole book, and storing every
-# occurrence of *the* would be a gigabyte of nothing.
-SENTENCES_PER_LEMMA = 6
+# How many sentence ids to remember per lemma+POS, spread across the book. They
+# are the sentences the tagger saw this lemma in THIS part of speech, so a
+# packet for *want* the noun can show "in want of a wife" and not "I want to
+# speak": a sample matched by spelling alone showed the verb, and two rounds of
+# readers called the noun an artifact (stage 10, r3-r4). Spread, not the first
+# few, because in a Gutenberg text the first few are the preface. Only content
+# words are kept, so this is not the whole book.
+SENTENCES_PER_LEMMA = 24
+
+# Hand corrections to the tagger's records, applied on every read (load_lemmas).
+CORRECTIONS = ROOT / "data/policy/ingest-corrections.json"
 COVERAGE_POINTS = (0.80, 0.90, 0.95, 0.98)
 
 
@@ -280,6 +287,77 @@ def already_annotated():
     return done
 
 
+def spread_ids(ids, n):
+    """Up to n of the ids, spread evenly over the list, first and last kept."""
+    if len(ids) <= n:
+        return list(ids)
+    step = (len(ids) - 1) / (n - 1)
+    return [ids[round(i * step)] for i in range(n)]
+
+
+def tagger_versions():
+    try:
+        import spacy
+        import en_core_web_sm
+        return {"spacy": spacy.__version__, "en_core_web_sm": en_core_web_sm.__version__}
+    except Exception:  # noqa: BLE001 - provenance only
+        return None
+
+
+def load_lemmas(book_dir, corrections=None):
+    """The book's lemma+POS records with the hand corrections applied.
+
+    The tagger gets a few records wrong in ways no ranking can repair: it
+    lemmatises *hoped* to *hop*, tags 'so material a step' a noun, splits
+    'drawing-room' in two. Those are listed in data/policy/ingest-corrections.json
+    with the reason and who found them, and applied here on every read: a
+    record is merged into the one it belongs to (occurrences, forms and
+    sentence ids combined, the target keeps a note of it) or dropped. The
+    tagger's file on disk is never edited, so a book id still names one
+    occurrence set. Every tool that reads lemmas.jsonl reads it through here.
+    """
+    book_dir = Path(book_dir)
+    with (book_dir / "lemmas.jsonl").open(encoding="utf-8") as fh:
+        records = [json.loads(line) for line in fh if line.strip()]
+    path = Path(corrections) if corrections else CORRECTIONS
+    if not path.exists():
+        return records
+    spec = json.loads(path.read_text(encoding="utf-8"))
+    if spec.get("book") not in (None, book_dir.name):
+        return records
+    by_key = {(r["lemma"], r["part_of_speech"]): r for r in records}
+    lookup = None
+    for c in spec.get("corrections", []):
+        rec = by_key.pop((c["lemma"], c["pos"]), None)
+        if rec is None:
+            continue
+        note = {"from": f"{c['lemma']}/{c['pos']}", "action": c["action"], "why": c["why"]}
+        if c["action"] == "drop":
+            continue
+        if c["action"] != "merge":
+            sys.exit(f"{path}: unknown action {c['action']!r} for {c['lemma']}/{c['pos']}")
+        tl, tp = c["into"]["lemma"], c["into"]["pos"]
+        target = by_key.get((tl, tp))
+        if target is None:
+            if lookup is None:
+                lookup = wordnet_index()
+            syns = lookup(tl, tp)
+            rec.update({"lemma": tl, "part_of_speech": tp,
+                        "wordnet": {"found": bool(syns), "synsets": syns[:12],
+                                    "sense_count": len(syns)},
+                        "already_annotated": (tl, tp) in already_annotated()})
+            by_key[(tl, tp)] = target = rec
+        else:
+            target["corpus"]["total_occurrences"] += rec["corpus"]["total_occurrences"]
+            forms = Counter(target["corpus"]["forms"])
+            forms.update(rec["corpus"]["forms"])
+            target["corpus"]["forms"] = dict(forms)
+            target["sentences"] = spread_ids(
+                sorted(set(target["sentences"]) | set(rec["sentences"])), SENTENCES_PER_LEMMA)
+        target.setdefault("corrections", []).append(note)
+    return sorted(by_key.values(), key=lambda r: -r["corpus"]["total_occurrences"])
+
+
 def anomaly_bucket(lemma, upos, count):
     """Why a content word has no WordNet entry. The buckets are the plan's
     section 9 list; they tell you whether the tagger is misfiring or the book is
@@ -371,7 +449,7 @@ def main():
                 forms[key][surface] += 1
                 totals[key] += 1
                 content_tokens += 1
-                if len(samples[key]) < SENTENCES_PER_LEMMA:
+                if not samples[key] or samples[key][-1] != sid:
                     samples[key].append(sid)
             elif upos in ("PROPN",):
                 other_tokens += 1
@@ -398,7 +476,7 @@ def main():
             "wordnet": {"found": bool(syns), "synsets": syns[:12],
                         "sense_count": len(syns)},
             "already_annotated": (lemma, upos) in done,
-            "sentences": samples[(lemma, upos)],
+            "sentences": spread_ids(samples[(lemma, upos)], SENTENCES_PER_LEMMA),
         })
 
     sorted_totals = [r["corpus"]["total_occurrences"] for r in records]
@@ -429,6 +507,8 @@ def main():
         "unique_lemma_pos": len(records),
         "pipeline": "extract -> clean -> sentencize -> tag -> contextual lemma -> aggregate",
         "tagger": "spacy en_core_web_sm, parser and NER excluded, rule sentencizer",
+        "tagger_versions": tagger_versions(),
+        "sentences_per_lemma": SENTENCES_PER_LEMMA,
     }
     report = {
         "meta": meta,

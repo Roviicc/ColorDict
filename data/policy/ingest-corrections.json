@@ -1,0 +1,28 @@
+{
+ "rule": "Hand corrections to a book's lemma+POS records, applied by book_ingest.load_lemmas on every read. The tagger's output on disk is never edited, so a book id still names one occurrence set; what the dictionary treats as the book's vocabulary is the tagger's records with these corrections on top. A record is merged into the record it belongs to, or dropped, and each line says why and who found it. 'checked' lists records a reader called artifacts that turned out to be right: they stay.",
+ "book": "3f6bb9d6f78e0293",
+ "corrections": [
+  {"lemma": "hop", "pos": "VERB", "action": "merge", "into": {"lemma": "hope", "pos": "VERB"},
+   "why": "lemma error: all 24 occurrences are 'hoped' (20) and 'hoping' (4), which spaCy lemmatises to hop", "found": "stage10-r3 entry read"},
+  {"lemma": "spar", "pos": "VERB", "action": "merge", "into": {"lemma": "spare", "pos": "VERB"},
+   "why": "lemma error: all 9 occurrences are 'spared'", "found": "stage10-r4 sense ranker"},
+  {"lemma": "drawing", "pos": "NOUN", "action": "drop",
+   "why": "19 of 20 occurrences are the compound 'drawing-room', which the tokenizer splits; the one true use (music, singing, drawing) is under the 3-sentence rule. Keeping hyphenated compounds whole is a follow-up for the ingest", "found": "stage10-r3 entry read"},
+  {"lemma": "material", "pos": "NOUN", "action": "merge", "into": {"lemma": "material", "pos": "ADJ"},
+   "why": "POS error: all 3 are attributive adjectives ('so material a step', 'material relief', 'material advantage')", "found": "stage10-r4 entry read"},
+  {"lemma": "plain", "pos": "ADV", "action": "merge", "into": {"lemma": "plain", "pos": "ADJ"},
+   "why": "POS error: 'Charlotte so very plain' is the adjective", "found": "stage10-r4 entry read"},
+  {"lemma": "mercenary", "pos": "NOUN", "action": "merge", "into": {"lemma": "mercenary", "pos": "ADJ"},
+   "why": "POS error: 'between the mercenary and the prudent motive' is the adjective; the book has no hired soldier", "found": "stage10-r2 entry read"},
+  {"lemma": "real", "pos": "NOUN", "action": "merge", "into": {"lemma": "real", "pos": "ADJ"},
+   "why": "POS error: 'the real, the worst objections' is the adjective", "found": "stage10-r4 entry read"},
+  {"lemma": "poorly", "pos": "ADV", "action": "merge", "into": {"lemma": "poorly", "pos": "ADJ"},
+   "why": "POS error in 2 of 3: 'still very poorly' and 'nervous and poorly' are the adjective (ill); 'could but poorly express' is the adverb and goes with the majority", "found": "stage10-r4 entry read"}
+ ],
+ "checked": [
+  {"lemma": "want", "pos": "NOUN", "why": "tagged right: 'in want of a wife', 'want of presence of mind'. The read saw verb sentences because the sampler matched the spelling; fixed by sampling the attested sentences", "found": "stage10-r3 entry read"},
+  {"lemma": "stay", "pos": "NOUN", "why": "tagged right: 'her stay', 'during your stay here'. Same sampler cause", "found": "stage10-r3 entry read"},
+  {"lemma": "hearing", "pos": "NOUN", "why": "tagged right in 3 of 5 ('give them a hearing', 'in your hearing', 'the pleasure of hearing'); the gerunds are arguable. Same sampler cause", "found": "stage10-r4 entry read"},
+  {"lemma": "insupportable", "pos": "ADJ", "why": "not an ingest fault: OEWN 2025 has no 'unbearable' sense; the record stays and the gap is the lexicon's", "found": "stage10-r4 entry read"}
+ ]
+}

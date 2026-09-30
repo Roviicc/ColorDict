@@ -69,6 +69,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
+import book_ingest as bi  # noqa: E402
 from family_apply import slug  # noqa: E402
 from gloss_lint import undefinable  # noqa: E402
 
@@ -87,12 +88,10 @@ def load_books(books_dir):
     """(lemma, pos) -> total occurrences across every ingested book."""
     freq = collections.Counter()
     for path in sorted(books_dir.glob("*/lemmas.jsonl")):
-        with path.open(encoding="utf-8") as fh:
-            for line in fh:
-                rec = json.loads(line)
-                pos = BOOK_POS.get(rec["part_of_speech"])
-                if pos:
-                    freq[(rec["lemma"].lower(), pos)] += rec["corpus"]["total_occurrences"]
+        for rec in bi.load_lemmas(path.parent):
+            pos = BOOK_POS.get(rec["part_of_speech"])
+            if pos:
+                freq[(rec["lemma"].lower(), pos)] += rec["corpus"]["total_occurrences"]
     return freq
 
 

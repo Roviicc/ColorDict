@@ -90,19 +90,38 @@ def spread(items, n):
     return [items[int(i * step)] for i in range(n)]
 
 
-def sample_sentences(sentences, forms):
+def usable(text):
+    if "[" in text or "]" in text:
+        return None
+    text = clean_sentence(text)
+    if not (MIN_SENTENCE_CHARS <= len(text) <= MAX_SENTENCE_CHARS):
+        return None
+    return text
+
+
+def sample_sentences(sentences, forms, attested=None):
+    """Up to SENTENCES usable sentences for a word, spread across the book.
+
+    `attested` is the list of sentence ids the ingest tagged with this lemma in
+    THIS part of speech (the record's "sentences"). When it is given, the sample
+    is drawn from those only: a scan by spelling shows *want* the noun in "I want
+    to speak", and two rounds of readers called the noun an artifact for it
+    (stage 10, r3-r4). There is no fallback to the scan: a word attested in
+    fewer than MIN_SENTENCES usable sentences in its part of speech is a word
+    with fewer than MIN_SENTENCES usable sentences. The scan by spelling remains
+    for records that carry no ids.
+    """
+    if attested is not None:
+        by_id = {s["sent_id"]: s["text"] for s in sentences if "sent_id" in s}
+        hits = [t for t in (usable(by_id[sid]) for sid in attested if sid in by_id) if t]
+        return spread(hits, SENTENCES)
     pat = form_pattern(forms)
     if pat is None:
         return []
     hits = []
     for s in sentences:
-        text = s["text"]
-        if "[" in text or "]" in text:
-            continue
-        text = clean_sentence(text)
-        if not (MIN_SENTENCE_CHARS <= len(text) <= MAX_SENTENCE_CHARS):
-            continue
-        if pat.search(text):
+        text = usable(s["text"])
+        if text and pat.search(text):
             hits.append(text)
     return spread(hits, SENTENCES)
 
@@ -134,11 +153,7 @@ def cmd_select(args):
     lookup = bi.wordnet_index()
     done = bi.already_annotated()
 
-    records = []
-    with (book / "lemmas.jsonl").open(encoding="utf-8") as fh:
-        for line in fh:
-            if line.strip():
-                records.append(json.loads(line))
+    records = bi.load_lemmas(book)
 
     candidates = []
     for r in records:
@@ -168,7 +183,7 @@ def cmd_select(args):
         if not senses:
             skipped.append((lemma, upos, "no sense of that POS"))
             continue
-        sample = sample_sentences(sentences, list(r["corpus"]["forms"]))
+        sample = sample_sentences(sentences, list(r["corpus"]["forms"]), r.get("sentences"))
         if len(sample) < MIN_SENTENCES:
             skipped.append((lemma, upos, f"only {len(sample)} usable sentences"))
             continue
