@@ -1,0 +1,78 @@
+{"packet": 2, "verdicts": [
+ {"word": "want", "pos": "verb",
+  "rank": "right", "why": "Most sentences (want to silence, want to think, want papa to take us, used to want to go, wants our society) carry the first sense, feel or have a desire for.",
+  "senses": [
+   {"synset": "oewn-00711034-v", "verdict": "right", "fault": null, "why": "Learner covers both wishing for someone's presence and asking that they come; the example uses want in that sense; null connotation is fine."},
+   {"synset": "oewn-01319724-v", "verdict": "wrong", "fault": "learner-narrowed", "why": "The gloss 'hunt or look for; want for a particular reason' names no kind of object, but the learner line restricts it to 'someone' and rewrites 'want' as 'need them'."}
+  ]},
+ {"word": "hour", "pos": "noun",
+  "rank": "right", "why": "Nearly every sentence (half an hour, quarter of an hour, half an hour ago) uses the first sense, a period equal to 1/24th of a day.",
+  "senses": [
+   {"synset": "oewn-05138288-n", "verdict": "right", "fault": null, "why": "Learner restates 'distance measured by the time taken to cover it' faithfully, the example fits, and there is no judgement in the word."}
+  ]},
+ {"word": "enter", "pos": "verb",
+  "rank": "right", "why": "Most sentences (entered Meryton, entered the paddock, entered it in one of its lowest points) carry the first sense, to come or go into.",
+  "senses": [
+   {"synset": "oewn-02476750-v", "verdict": "right", "fault": null, "why": "Learner and example both match registering formally as a participant or member."},
+   {"synset": "oewn-02728082-v", "verdict": "right", "fault": null, "why": "Learner matches 'be or play a part of or in', and the example 'enters into comparison' uses that sense."},
+   {"synset": "oewn-01424276-v", "verdict": "right", "fault": null, "why": "Learner and example match 'put or introduce into something'."},
+   {"synset": "oewn-01724519-v", "verdict": "right", "fault": null, "why": "Learner and example match 'come on stage'."},
+   {"synset": "oewn-02386539-v", "verdict": "right", "fault": null, "why": "Learner keeps both the office and the duties, and the example 'entered office as mayor' fits."},
+   {"synset": "oewn-00348906-v", "verdict": "right", "fault": null, "why": "Learner restates 'set out on an enterprise or subject of study' without dropping an alternative, and the example 'entered upon the study of law' fits."}
+  ]},
+ {"word": "mind", "pos": "noun",
+  "rank": "right", "why": "The noun uses (her mind, delicacy of mind, female minds, absence of mind, her mind opened) all carry the first sense, the seat of thought and feeling; 'not mind my waking' is the verb.",
+  "senses": [
+   {"synset": "oewn-05991800-n", "verdict": "right", "fault": null, "why": "Learner 'what you plan or mean to do' matches 'your intention'; the example 'had a mind to visit' fits."},
+   {"synset": "oewn-05711903-n", "verdict": "right", "fault": null, "why": "Learner and example ('paid no mind') match 'attention'."},
+   {"synset": "oewn-05626632-n", "verdict": "right", "fault": null, "why": "Learner covers both knowledge and ability to think, and the example 'a quick mind' fits."},
+   {"synset": "oewn-10727941-n", "verdict": "right", "fault": null, "why": "Learner matches 'an important intellectual' and the example 'one of the finest minds' fits; any praise comes from 'finest', so null is acceptable."}
+  ]},
+ {"word": "ill", "pos": "adjective",
+  "rank": "wrong", "why": "The sentences (ill-mannered, ill-humour, ill-nature, ill-natured look, think ill of) never use 'distressing', 'sick' or 'resulting in suffering'; the nearest listed sense, hostility/ill-will, is fourth.",
+  "senses": [
+   {"synset": "oewn-01248878-s", "verdict": "right", "fault": null, "why": "Learner (unfriendly toward or hating another) matches 'hostility or enmity', the example 'ill feeling' fits, and the word describes the feeling without judging a target."},
+   {"synset": "oewn-00179426-s", "verdict": "right", "fault": null, "why": "Learner 'warning that bad luck is coming' matches 'presaging ill fortune', and the example 'ill omen' fits."}
+  ]},
+ {"word": "express", "pos": "verb",
+  "rank": "right", "why": "The sentences (expressing himself, expressed her fears, expressed a wish, expressed her sorrow, expressed her delight) fit the first sense, give expression to.",
+  "senses": [
+   {"synset": "oewn-01063503-v", "verdict": "right", "fault": null, "why": "Learner and example ('expressed as a fraction') match indicating through a symbol or formula."},
+   {"synset": "oewn-01033789-v", "verdict": "right", "fault": null, "why": "Learner keeps both fast transport and special messenger, and the example matches."},
+   {"synset": "oewn-01354457-v", "verdict": "right", "fault": null, "why": "Learner uses 'for example by pressing' so it does not restrict the gloss, and the example of oil pressed from seeds fits."},
+   {"synset": "oewn-02148923-v", "verdict": "right", "fault": null, "why": "Learner matches the gene-expression gloss, the example fits, and the 'technical' label is justified by the genetics subject matter."}
+  ]},
+ {"word": "general", "pos": "adjective",
+  "rank": "right", "why": "Sentences such as 'more general topics', 'general character' and 'general disappointment' fit the first sense, applying to all or most of a group.",
+  "senses": [
+   {"synset": "oewn-01845578-s", "verdict": "right", "fault": null, "why": "Learner 'a little vague and not exact' matches 'somewhat indefinite', and the example 'a general idea' fits."},
+   {"synset": "oewn-00529364-s", "verdict": "right", "fault": null, "why": "Learner 'reaching or applying to the whole world' matches 'worldwide scope or applicability', and the example 'general war' fits."},
+   {"synset": "oewn-01428950-a", "verdict": "right", "fault": null, "why": "Learner and example ('general anaesthetic') match 'affecting the entire body'."}
+  ]},
+ {"word": "engage", "pos": "verb",
+  "rank": "right", "why": "The sentences split between occupied/involved senses ('engaged in the office', 'engaged by the river', attention engaged), and the first sense, carry out or be involved in an activity, is one of them.",
+  "senses": [
+   {"synset": "oewn-02414542-v", "verdict": "right", "fault": null, "why": "Learner 'to hire someone to do work' matches 'engage or hire for work', and the example fits."},
+   {"synset": "oewn-02381180-v", "verdict": "right", "fault": null, "why": "Learner restates 'carry on wars, battles, or campaigns' with all three, and the example uses engage with battle."},
+   {"synset": "oewn-02244933-v", "verdict": "wrong", "fault": "learner-unfaithful", "why": "'Get someone to give you work or help' drops 'hire' and reads as the speaker receiving work, which reverses the gloss 'hire for work or assistance'; the example itself is correct."},
+   {"synset": "oewn-02213319-v", "verdict": "right", "fault": null, "why": "Learner (hire or rent for a period set by an agreement) matches 'engage for service under a term of contract', and the example fits."},
+   {"synset": "oewn-01513459-v", "verdict": "unsure", "fault": null, "why": "The gloss 'keep engaged' is bare and circular, so it neither supports nor contradicts the learner's machine-gears framing ('make ... fit together and stay locked'); the example is consistent with that framing."},
+   {"synset": "oewn-02406541-v", "verdict": "right", "fault": null, "why": "Learner and example match 'ask to represent; of legal counsel'."},
+   {"synset": "oewn-00220541-v", "verdict": "right", "fault": null, "why": "Learner 'get caught and held in place' matches 'get caught' closely enough, and the latch example fits."}
+  ]},
+ {"word": "object", "pos": "noun",
+  "rank": "right", "why": "Most sentences (object of affection, of admiration, of her curiosity, grateful object) carry the first sense, the focus of cognitions or feelings.",
+  "senses": [
+   {"synset": "oewn-06321227-n", "verdict": "right", "fault": null, "why": "Learner and example match the grammar sense, and the 'technical' label is justified by the '(grammar)' tag in the gloss."},
+   {"synset": "oewn-06142175-n", "verdict": "right", "fault": null, "why": "Learner faithfully restates the computing gloss, the example fits, and the 'technical' label is justified by '(computing)'."}
+  ]},
+ {"word": "spirit", "pos": "noun",
+  "rank": "right", "why": "Most sentences (her spirits returned, studying her spirits, her spirits are shaken, recover her spirits) carry the first sense, the state of a person's emotions; the rest carry the energy sense listed second.",
+  "senses": [
+   {"synset": "oewn-09568453-n", "verdict": "right", "fault": null, "why": "Learner matches the supernatural-being gloss, and the haunting example fits."},
+   {"synset": "oewn-04627915-n", "verdict": "right", "fault": null, "why": "Learner restates the fundamental emotional and activating principle of character, and the example 'never broke his spirit' fits."},
+   {"synset": "oewn-14549784-n", "verdict": "right", "fault": null, "why": "Learner matches the atmosphere-of-a-place gloss, and the festival example fits."},
+   {"synset": "oewn-06618250-n", "verdict": "right", "fault": null, "why": "Learner 'what a message is really meant to say' matches 'intended meaning of a communication', and the example fits."},
+   {"synset": "oewn-04632183-n", "verdict": "right", "fault": null, "why": "Learner matches 'an inclination or tendency of a certain kind', and the example 'spirit of friendship' fits."}
+  ]}
+]}

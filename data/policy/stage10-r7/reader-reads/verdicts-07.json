@@ -1,0 +1,67 @@
+{"packet": 7, "verdicts": [
+ {"word": "sight", "pos": "noun",
+  "rank": "right", "why": "The sentences split between an instance of seeing (a sight of the ladies, the sight of Miss Lucas, the sight of such rooms) and range of vision (avoid his sight, out of their sight), and the first-listed sense is the instance-of-perception one.",
+  "senses": [
+   {"synset": "oewn-06901994-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss plainly, the example uses 'sight' for a thing seen, and null is fine since the word only describes."},
+   {"synset": "oewn-82981785-n", "verdict": "right", "fault": null, "why": "Learner line keeps 'interesting' and 'especially for visitors', and the example 'the sights of London' is this sense."},
+   {"synset": "oewn-00883327-n", "verdict": "right", "fault": null, "why": "Learner line matches 'act of looking or seeing or observing', and the example, though slightly stiff, uses 'sight' for the act of looking over the valley."},
+   {"synset": "oewn-06220699-n", "verdict": "right", "fault": null, "why": "Learner line is a plain paraphrase of 'range of mental vision' (a little loose with 'judge' and 'way of seeing'), and 'in the sight of the law' is this sense."},
+   {"synset": "oewn-13796604-n", "verdict": "right", "fault": null, "why": "Learner line covers 'large number or amount or extent'. The 'informal' label is not in the gloss, but 'a sight of money' is informal in ordinary usage, so I accepted it."}
+  ]},
+ {"word": "discover", "pos": "verb",
+  "rank": "wrong", "why": "Every sentence is about becoming aware of something or finding it (discover her regard, discover at what house, able to discover them), none is about seeing with the eyes, yet the eyes-perception sense is first, above the 'get to know or become aware of' and 'make a discovery' senses that the sentences plainly use.",
+  "senses": [
+   {"synset": "oewn-02291532-v", "verdict": "right", "fault": null, "why": "Learner line and the coin-in-the-garden example both carry 'find unexpectedly' faithfully."},
+   {"synset": "oewn-02132531-v", "verdict": "right", "fault": null, "why": "Learner line keeps both alternatives (see for the first time, or find something new), and the island example fits."},
+   {"synset": "oewn-00654017-v", "verdict": "wrong", "fault": "example-wrong-sense", "why": "The gloss is identifying a specimen in botany or biology, but the example ('discovered and described by a young scientist') is about making a new find, which is the make-a-discovery sense."}
+  ]},
+ {"word": "accompany", "pos": "verb",
+  "rank": "right", "why": "The sentences (accompanied him, accompany Sir William, accompany her to Brighton) carry 'go or travel along with', which is listed first.",
+  "senses": [
+   {"synset": "oewn-01732234-v", "verdict": "right", "fault": null, "why": "Learner line is a plain restatement of 'perform an accompaniment to', the piano example uses the sense, and null is fine."}
+  ]},
+ {"word": "attach", "pos": "verb",
+  "rank": "right", "why": "Most sentences (attached to me, become really attached to me, attach herself to anybody) carry 'create social or emotional ties', which is listed first.",
+  "senses": [
+   {"synset": "oewn-01293025-v", "verdict": "right", "fault": null, "why": "Learner line restates 'become attached' plainly, and the seeds-on-socks example is this sense."},
+   {"synset": "oewn-02278138-v", "verdict": "right", "fault": null, "why": "Learner line keeps temporary possession, security and legal power, the 'technical' label is backed by 'legal authority' in the gloss, and the wages example fits."}
+  ]},
+ {"word": "finish", "pos": "verb",
+  "rank": "right", "why": "The sentences (finish his letter, finished her speech, finished the letter) carry 'come or bring to a finish or an end', which is listed first.",
+  "senses": [
+   {"synset": "oewn-01199335-v", "verdict": "right", "fault": null, "why": "Learner line and the plate example match 'finish eating all the food'."},
+   {"synset": "oewn-01268553-v", "verdict": "right", "fault": null, "why": "Learner line restates 'provide with a finish' plainly, and the varnish example fits."},
+   {"synset": "oewn-00352617-v", "verdict": "right", "fault": null, "why": "Learner line restates 'cause to finish a relationship', and the example uses 'finished her with him' in that sense."}
+  ]},
+ {"word": "quality", "pos": "noun",
+  "rank": "right", "why": "All the sentences use 'quality' or 'qualities' for a characteristic or attribute, which is what the first sense says.",
+  "senses": [
+   {"synset": "oewn-13971206-n", "verdict": "right", "fault": null, "why": "Learner line matches 'high social status', the example 'people of quality' is this sense, and the candidate verdict is fair because the word treats rank as worth."},
+   {"synset": "oewn-04994869-n", "verdict": "right", "fault": null, "why": "Learner line restates the distinctive property of a sound, the voice example fits, and null is fine because 'quality' only describes."}
+  ]},
+ {"word": "rank", "pos": "noun",
+  "rank": "right", "why": "Every sentence uses 'rank' for social position (his rank, elevated rank, inferior rank), which is listed first.",
+  "senses": [
+   {"synset": "oewn-08415136-n", "verdict": "right", "fault": null, "why": "Learner line restates the ordinary members of an organization, and 'rank and file' contains the headword in this sense."},
+   {"synset": "oewn-08417922-n", "verdict": "right", "fault": null, "why": "Learner line matches 'the body of members', and the example 'the club's ranks' uses the headword in this sense."}
+  ]},
+ {"word": "charm", "pos": "noun",
+  "rank": "right", "why": "The sentences (personal charm, the secret of that charm, every charm of air and address) carry 'attractiveness that interests or pleases', which is listed first.",
+  "senses": [
+   {"synset": "oewn-05852960-n", "verdict": "right", "fault": null, "why": "Learner line restates the quark gloss, the 'technical' label is backed by '(physics)' in the gloss, and the example uses charm as a quark flavour."}
+  ]},
+ {"word": "profession", "pos": "noun",
+  "rank": "right", "why": "The sentences split between occupation (same profession, the church his profession) and open avowal (professions of concern, of regard), and the first-listed sense is the occupation one.",
+  "senses": [
+   {"synset": "oewn-06697785-n", "verdict": "right", "fault": null, "why": "Learner line restates 'affirmation of acceptance of some religion or faith', and the example is this sense."}
+  ]},
+ {"word": "right", "pos": "noun",
+  "rank": "right", "why": "The noun sentences split between entitlement (a right to the pleasures of youth, no right to suppose) and what accords with justice (the right and proper thing, ideas of right), and the first-listed sense is the entitlement one.",
+  "senses": [
+   {"synset": "oewn-05572970-n", "verdict": "right", "fault": null, "why": "Learner line and the cup-and-spoon example match 'the hand on the right side'."},
+   {"synset": "oewn-00351826-n", "verdict": "right", "fault": null, "why": "Learner line restates 'a turn toward the right side', and 'make a right' is this sense."},
+   {"synset": "oewn-13362771-n", "verdict": "right", "fault": null, "why": "Learner line keeps the law-or-custom claim on an intangible thing and the plural note, and 'film rights' fits."},
+   {"synset": "oewn-08433609-n", "verdict": "right", "fault": null, "why": "Learner line restates the conservative group, the example uses 'the right' politically, and null is fine because the word names a political side."},
+   {"synset": "oewn-04098951-n", "verdict": "right", "fault": null, "why": "Learner line restates the outfield position, and the example 'deep to right' is this sense."}
+  ]}
+]}

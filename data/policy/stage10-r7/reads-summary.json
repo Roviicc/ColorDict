@@ -1,0 +1,32 @@
+{
+ "entries_read": 93,
+ "entries_with_a_fault": 10,
+ "entry_defect_rate": 0.1075,
+ "senses_read": 318,
+ "senses_wrong": 9,
+ "sense_defect_rate": 0.0283,
+ "rank_wrong": 2,
+ "unsure": 1,
+ "faults": {
+  "learner-narrowed": 2,
+  "rank-wrong": 2,
+  "learner-unfaithful": 2,
+  "example-wrong-sense": 2,
+  "false-candidate": 1,
+  "false-null": 1,
+  "label-unjustified": 1
+ },
+ "wrong": [
+  "family/oewn-08263223-n false-candidate: The learner line and example are faithful, but 'family' here only names a gangster organization as kin; it does not judge the gangsters, and the bad referent does not make the word loaded.",
+  "want/oewn-01319724-v learner-narrowed: The gloss 'hunt or look for; want for a particular reason' names no kind of object, but the learner line restricts it to 'someone' and rewrites 'want' as 'need them'.",
+  "ill/adjective rank: The sentences (ill-mannered, ill-humour, ill-nature, ill-natured look, think ill of) never use 'distressing', 'sick' or 'resulting in suffering'; the nearest listed sense, hostility/ill-will, is fourth.",
+  "engage/oewn-02244933-v learner-unfaithful: 'Get someone to give you work or help' drops 'hire' and reads as the speaker receiving work, which reverses the gloss 'hire for work or assistance'; the example itself is correct.",
+  "answer/oewn-00637185-v example-wrong-sense: 'Answer the puzzle of her long silence' reads as solving or explaining a puzzle, the neighbouring 'give the correct answer or solution to' sense, not 'understand the meaning of'.",
+  "beg/oewn-00811888-v false-null: Learner line and example are faithful, but 'beg the question/point' as dodging or taking for granted is a criticism of an argument or speaker, so a learner needs to know it lands as a rebuke, not neutrally.",
+  "early/oewn-00823421-a learner-narrowed: Gloss says 'an early stage' but the learner line says 'the first stage', which narrows it and contradicts its own Early Modern English example, which is not the first stage of English.",
+  "shake/oewn-01893603-v learner-unfaithful: Learner adds 'quickly', which the gloss 'move or cause to move back and forth' does not say, and this duplicates the separate 'rapidly and intensively' sense.",
+  "discover/verb rank: Every sentence is about becoming aware of something or finding it (discover her regard, discover at what house, able to discover them), none is about seeing with the eyes, yet the eyes-perception sense is first, above the 'get to know or become aware of' and 'make a discovery' senses that the sentences plainly use.",
+  "discover/oewn-00654017-v example-wrong-sense: The gloss is identifying a specimen in botany or biology, but the example ('discovered and described by a young scientist') is about making a new find, which is the make-a-discovery sense.",
+  "order/oewn-02391154-v label-unjustified: The 'archaic' label is supported by neither the gloss nor any sentence in the packet; the learner line and example are otherwise faithful."
+ ]
+}

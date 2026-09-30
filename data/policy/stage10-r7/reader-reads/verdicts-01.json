@@ -1,0 +1,80 @@
+{"packet": 1, "verdicts": [
+ {"word": "room", "pos": "noun",
+  "rank": "right", "why": "Every sentence uses a room inside a building (breakfast-room, ball-room, the room), which is the first-listed gloss.",
+  "senses": [
+   {"synset": "oewn-08002390-n", "verdict": "right", "fault": null, "why": "Learner line, example (the whole room laughed), empty labels and null connotation all match the 'people present in a room' gloss."}
+  ]},
+ {"word": "family", "pos": "noun",
+  "rank": "right", "why": "The sentences use family as a household or kin group (her family, the Longbourn family), which the first three senses cover, and the first is one of them.",
+  "senses": [
+   {"synset": "oewn-08014145-n", "verdict": "right", "fault": null, "why": "Learner line and the 'family of languages' example match the 'collection of things sharing an attribute' gloss; null is fine."},
+   {"synset": "oewn-08124465-n", "verdict": "right", "fault": null, "why": "Learner line follows the gloss, the cat-family example is in this sense, and 'technical' is supported by the (biology) taxonomic gloss."},
+   {"synset": "oewn-10256001-n", "verdict": "right", "fault": null, "why": "'A person who is related to you' matches 'person having kinship', and 'you're family' uses the sense; null is fine."},
+   {"synset": "oewn-08244837-n", "verdict": "right", "fault": null, "why": "Learner line and the 'school family' example match the 'association sharing beliefs or activities' gloss; null is fine."},
+   {"synset": "oewn-08263223-n", "verdict": "wrong", "fault": "false-candidate", "why": "The learner line and example are faithful, but 'family' here only names a gangster organization as kin; it does not judge the gangsters, and the bad referent does not make the word loaded."}
+  ]},
+ {"word": "father", "pos": "noun",
+  "rank": "right", "why": "Every sentence uses father as a male parent, which is the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-10101225-n", "verdict": "right", "fault": null, "why": "Learner line follows the gloss, and the 'city fathers' example is this sense; null is fine."},
+   {"synset": "oewn-10045020-n", "verdict": "right", "fault": null, "why": "Learner line matches 'head of an organized crime family' and the example uses father as that leader; null is fine because the word names a role."}
+  ]},
+ {"word": "wish", "pos": "verb",
+  "rank": "right", "why": "Sentences such as 'I sometimes wish that', 'wish for so speedy a return' and 'had long wished to see him' carry the first-listed hope/desire sense.",
+  "senses": [
+   {"synset": "oewn-01828474-v", "verdict": "right", "fault": null, "why": "Learner line covers feeling or saying a hope about someone's fortune, and 'wished him well' is this sense."},
+   {"synset": "oewn-00904886-v", "verdict": "right", "fault": null, "why": "Learner line renders 'invoke upon' as calling good night or luck down on someone, and the example 'wished everyone good night' fits."}
+  ]},
+ {"word": "ask", "pos": "verb",
+  "rank": "right", "why": "The sentences split between request (what you ask, ask for compassion), question and invite, and the first-listed request sense is one of them.",
+  "senses": [
+   {"synset": "oewn-00786389-v", "verdict": "right", "fault": null, "why": "Learner line and the question example match 'put a question, seek an answer'."},
+   {"synset": "oewn-00757790-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'consider obligatory' and 'request and expect', and 'All I ask of you' fits."},
+   {"synset": "oewn-01070587-v", "verdict": "right", "fault": null, "why": "'Want a price or condition in return' matches 'require or ask for as a price or condition', and the asking-price example is in this sense."},
+   {"synset": "oewn-02492311-v", "verdict": "right", "fault": null, "why": "Learner line and 'asked her out to the dance' match 'make a date'; the example contains a form of the headword."}
+  ]},
+ {"word": "meet", "pos": "verb",
+  "rank": "right", "why": "Most sentences are people coming together or encountering each other (met in Kent, meeting him accidentally, meet us at the church), matching 'come together' first.",
+  "senses": [
+   {"synset": "oewn-02492581-v", "verdict": "right", "fault": null, "why": "Learner line and the 'met for coffee' example match 'get together socially or for a purpose'."},
+   {"synset": "oewn-01185870-v", "verdict": "right", "fault": null, "why": "Learner line covers need, wish, rule or limit, matching want, need, condition or restriction; the standard example fits."},
+   {"synset": "oewn-02745355-v", "verdict": "right", "fault": null, "why": "'Get a certain response' matches 'experience as a reaction', and 'met with little support' is this sense; 'from other people' is a mild plain-language gloss of reaction."},
+   {"synset": "oewn-02716276-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'be adjacent' and 'come together', and the two-roads example fits."},
+   {"synset": "oewn-01208316-v", "verdict": "right", "fault": null, "why": "Learner line matches 'direct physical contact', and the glass-meets-floor example is this sense."},
+   {"synset": "oewn-02433771-v", "verdict": "right", "fault": null, "why": "'Gather together in one place' matches 'collect in one place', and the crowd example fits."},
+   {"synset": "oewn-01081873-v", "verdict": "right", "fault": null, "why": "Learner line keeps sport, game and battle, and the teams-meet-in-the-final example fits."},
+   {"synset": "oewn-02114536-v", "verdict": "right", "fault": null, "why": "'Go through something, or suffer it' matches 'undergo or suffer', and 'met a terrible end' fits."}
+  ]},
+ {"word": "morning", "pos": "noun",
+  "rank": "right", "why": "Every sentence uses morning as the part of the day before noon (this morning, the next morning), which is the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-07340708-n", "verdict": "right", "fault": null, "why": "'Earliest part or time of something' matches 'the earliest period', and the 'morning of life' example is this sense; null is fine."}
+  ]},
+ {"word": "begin", "pos": "verb",
+  "rank": "right", "why": "Four sentences use begin as starting to speak (Mr. Collins began,--; Lady Catherine began in the following manner), matching the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-00349400-v", "verdict": "right", "fault": null, "why": "'Make something start' matches 'set in motion, cause to start', and the chairman example fits."},
+   {"synset": "oewn-02532175-v", "verdict": "right", "fault": null, "why": "Learner line matches 'least degree, usually negative', and 'can't begin to thank you' is this sense."},
+   {"synset": "oewn-02614382-v", "verdict": "right", "fault": null, "why": "Learner line keeps time, space and scale, and both examples (path, prices) fit."},
+   {"synset": "oewn-02614858-v", "verdict": "right", "fault": null, "why": "'Start in a particular way' matches the gloss, and 'The day began badly' fits."},
+   {"synset": "oewn-02685037-v", "verdict": "right", "fault": null, "why": "'Be the first thing or point in a series' matches the gloss, and 'The letter A begins the alphabet' fits."},
+   {"synset": "oewn-02606945-v", "verdict": "right", "fault": null, "why": "Learner line explains the implied-activity sense with reading and smoking, and 'began a new book' fits."},
+   {"synset": "oewn-01072799-v", "verdict": "right", "fault": null, "why": "Learner line restates the gloss, and 'began Spanish' fits."}
+  ]},
+ {"word": "sit", "pos": "verb",
+  "rank": "right", "why": "Every sentence uses sit as being seated or taking a seat, which is the first-listed posture sense.",
+  "senses": [
+   {"synset": "oewn-02697056-v", "verdict": "right", "fault": null, "why": "'Be in a certain place' matches 'be located or situated', and the house-on-a-hill example fits."},
+   {"synset": "oewn-02028720-v", "verdict": "right", "fault": null, "why": "'Holding an official meeting' matches 'be in session', and the Parliament example fits."},
+   {"synset": "oewn-01546780-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'show to a seat' and 'assign a seat', and the waiter example fits."},
+   {"synset": "oewn-01097992-v", "verdict": "right", "fault": null, "why": "'Serve in a professional or official role' matches the gloss, and 'sits on the board' fits."},
+   {"synset": "oewn-02147248-v", "verdict": "right", "fault": null, "why": "Learner line matches posing for artistic purposes, and 'sat for the painter' fits."},
+   {"synset": "oewn-01961388-v", "verdict": "right", "fault": null, "why": "Learner line keeps sitting on an animal and guiding it, and 'sits a horse' fits."},
+   {"synset": "oewn-02461692-v", "verdict": "right", "fault": null, "why": "Learner line matches the babysitter gloss, and 'sit for the neighbours' children' fits."}
+  ]},
+ {"word": "year", "pos": "noun",
+  "rank": "right", "why": "Every sentence uses year as a 365-day period (three years, a year, eight years old), which is the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-08255581-n", "verdict": "right", "fault": null, "why": "'Students who finish their studies at the same time' matches 'graduate together', and the year-group trip example is the same body of students."}
+  ]}
+]}

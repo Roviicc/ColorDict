@@ -1,0 +1,80 @@
+{"packet": 6, "verdicts": [
+ {"word": "require", "pos": "verb",
+  "rank": "right", "why": "The sentences split between 'need' and 'demand/request and expect' (e.g. 'persevered in requiring an explanation', 'required information'), and the first sense covers the demand use.",
+  "senses": [
+   {"synset": "oewn-00753573-v", "verdict": "right", "fault": null, "why": "Learner restates the gloss exactly, the example uses 'required' to mean making soldiers do something, and null fits a neutral description."}
+  ]},
+ {"word": "chance", "pos": "noun",
+  "rank": "right", "why": "Sentences split between chance as luck ('a matter of chance', 'all chance in this world') and chance as possibility; the first sense, the luck sense, is one of the split.",
+  "senses": [
+   {"synset": "oewn-00804290-n", "verdict": "right", "fault": null, "why": "Learner matches the gloss, the example uses 'take a chance' as a dangerous risk, and null is fine."},
+   {"synset": "oewn-05098974-n", "verdict": "right", "fault": null, "why": "Learner faithfully plainifies the likelihood/ratio gloss, and the dice example is a true probability use."}
+  ]},
+ {"word": "work", "pos": "noun",
+  "rank": "right", "why": "Sentences split between work as activity ('do their own work', 'setting at work') and work as a product ('best work', 'this work'), and the first sense is the activity sense.",
+  "senses": [
+   {"synset": "oewn-04609402-n", "verdict": "right", "fault": null, "why": "Learner matches 'a place where work is done' and 'at work' in the example fits."},
+   {"synset": "oewn-03846937-n", "verdict": "right", "fault": null, "why": "Learner keeps both 'everything' and 'a large part of it', and the example fits."},
+   {"synset": "oewn-05763880-n", "verdict": "right", "fault": null, "why": "Learner paraphrases the gloss faithfully and the example is study work."},
+   {"synset": "oewn-11473837-n", "verdict": "right", "fault": null, "why": "Learner restates the physics definition, the 'technical' label is justified by the '(physics)' gloss tag, and the example is in sense."}
+  ]},
+ {"word": "act", "pos": "verb",
+  "rank": "right", "why": "Most sentences use act as 'behave' ('act in this way', 'acting wrong', 'acted with the best intentions', 'act against'), which is listed first.",
+  "senses": [
+   {"synset": "oewn-01723161-v", "verdict": "right", "fault": null, "why": "Learner matches 'play a role or part', and the example 'the part which I acted' uses it in that sense."},
+   {"synset": "oewn-00013608-v", "verdict": "right", "fault": null, "why": "Learner says pretend to have a quality or feeling, which fits 'qualities or state of mind', and the example is in sense."},
+   {"synset": "oewn-02531113-v", "verdict": "right", "fault": null, "why": "Learner is a faithful restatement, and the medicine example fits."},
+   {"synset": "oewn-01098310-v", "verdict": "right", "fault": null, "why": "Learner paraphrases 'discharge one's duties' plainly, and the stand-in example fits."},
+   {"synset": "oewn-01725433-v", "verdict": "right", "fault": null, "why": "Learner covers 'unnaturally or affectedly', and the candidate connotation is right because 'affected' behaviour is judged as false."},
+   {"synset": "oewn-02750852-v", "verdict": "right", "fault": null, "why": "Learner matches 'suitable for theatrical performance', and the example is in sense."}
+  ]},
+ {"word": "connect", "pos": "verb",
+  "rank": "right", "why": "Every sentence uses connect as be joined or linked (connected with his family, connects itself with the story), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-02394488-v", "verdict": "right", "fault": null, "why": "Learner and phone-contact example both fit 'establish communication with someone'."},
+   {"synset": "oewn-02394734-v", "verdict": "right", "fault": null, "why": "Learner says friendly understanding or relationship, which fits rapport, and the example is in sense."},
+   {"synset": "oewn-01071212-v", "verdict": "right", "fault": null, "why": "Learner and operator example fit 'join for the purpose of communication'."},
+   {"synset": "oewn-01071413-v", "verdict": "right", "fault": null, "why": "Learner and phone-lines example fit 'join by means of communication equipment'."},
+   {"synset": "oewn-01423776-v", "verdict": "right", "fault": null, "why": "Learner restates 'plug into an outlet' and the TV example fits."},
+   {"synset": "oewn-02753278-v", "verdict": "right", "fault": null, "why": "Learner faithfully explains the scheduling sense and the train example fits."},
+   {"synset": "oewn-01410222-v", "verdict": "right", "fault": null, "why": "Learner and the swing-and-connect example fit 'hit or play a ball successfully'."},
+   {"synset": "oewn-01240325-v", "verdict": "right", "fault": null, "why": "Learner and punch example fit 'land on or hit solidly'."}
+  ]},
+ {"word": "judge", "pos": "verb",
+  "rank": "right", "why": "Sentences use judge as forming an opinion ('judge for themselves', 'judge your father to be a person...'), matching the first sense.",
+  "senses": [
+   {"synset": "oewn-02506927-v", "verdict": "right", "fault": null, "why": "Learner mirrors the gloss and the court example is in sense."},
+   {"synset": "oewn-00674196-v", "verdict": "right", "fault": null, "why": "Learner and contest example fit 'determine the result of a competition'."}
+  ]},
+ {"word": "shake", "pos": "verb",
+  "rank": "right", "why": "Half the sentences are 'shook her head' and similar, the first sense, and the rest are figurative senses like undermine.",
+  "senses": [
+   {"synset": "oewn-01893603-v", "verdict": "wrong", "fault": "learner-unfaithful", "why": "Learner adds 'quickly', which the gloss 'move or cause to move back and forth' does not say, and this duplicates the separate 'rapidly and intensively' sense."},
+   {"synset": "oewn-00014027-v", "verdict": "right", "fault": null, "why": "Learner matches 'move with or as if with a tremor' and the example fits."},
+   {"synset": "oewn-01879288-v", "verdict": "right", "fault": null, "why": "Learner restates the gloss and the boat example fits."},
+   {"synset": "oewn-01765558-v", "verdict": "right", "fault": null, "why": "Learner keeps feelings, emotions and peace, and the example fits."},
+   {"synset": "oewn-00560633-v", "verdict": "right", "fault": null, "why": "Learner is faithful and both examples bring something to a condition by shaking."},
+   {"synset": "oewn-01895631-v", "verdict": "right", "fault": null, "why": "Learner restates 'rapidly and intensively' and the washing machine example fits."}
+  ]},
+ {"word": "speech", "pos": "noun",
+  "rank": "right", "why": "Most sentences use speech as something spoken, or a formal address ('this speech', 'his speech'), and the first sense 'something spoken' covers them.",
+  "senses": [
+   {"synset": "oewn-07123904-n", "verdict": "right", "fault": null, "why": "Learner restates 'communication by word of mouth' with a fair contrast to writing, and the example fits."},
+   {"synset": "oewn-07085523-n", "verdict": "right", "fault": null, "why": "Learner is a faithful plain paraphrase and the example fits."},
+   {"synset": "oewn-07023937-n", "verdict": "right", "fault": null, "why": "Learner matches 'dialogue of a play' and the example is a stage speech."},
+   {"synset": "oewn-05658665-n", "verdict": "right", "fault": null, "why": "Learner matches 'mental faculty of vocal communication' and the example is in sense."},
+   {"synset": "oewn-06726869-n", "verdict": "right", "fault": null, "why": "Learner matches 'a lengthy rebuke', the example is a scolding, and a candidate connotation is reasonable because the word casts the scolding as a long lecture."}
+  ]},
+ {"word": "success", "pos": "noun",
+  "rank": "right", "why": "Sentences use success as a successful attainment or an event that achieves its purpose ('rejoice in my success', 'little success'), and the first sense is an attainment that is successful.",
+  "senses": [
+   {"synset": "oewn-09782244-n", "verdict": "right", "fault": null, "why": "Learner matches 'a person with a record of successes' and the example is in sense."}
+  ]},
+ {"word": "meeting", "pos": "noun",
+  "rank": "right", "why": "The sentences are about encounters ('sudden meeting in the grounds', 'unexpected meeting'), which is the first sense, a casual or unexpected convergence.",
+  "senses": [
+   {"synset": "oewn-01233454-n", "verdict": "right", "fault": null, "why": "Learner matches 'social act of assembling for some common purpose' and the example is in sense."},
+   {"synset": "oewn-00147676-n", "verdict": "right", "fault": null, "why": "Learner restates 'act of joining together as one' and the meeting-of-minds example fits."},
+   {"synset": "oewn-08560197-n", "verdict": "right", "fault": null, "why": "Learner keeps 'join or flow together' and the rivers example fits."}
+  ]}
+]}

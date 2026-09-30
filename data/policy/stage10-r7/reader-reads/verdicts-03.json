@@ -1,0 +1,85 @@
+{"packet": 3, "verdicts": [
+ {"word": "answer", "pos": "verb",
+  "rank": "right", "why": "The sentences use answer as a verbal reply (answered in the affirmative, answered him), which is the first-listed gloss 'react verbally'.",
+  "senses": [
+   {"synset": "oewn-02675578-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'how much' and 'how good'; example uses answer as 'be sufficient'."},
+   {"synset": "oewn-01186429-v", "verdict": "right", "fault": null, "why": "Learner line covers both 'meet what it needs' and 'do the job'; example fits."},
+   {"synset": "oewn-02751892-v", "verdict": "right", "fault": null, "why": "Learner line says responsible or must explain and face what follows, which matches 'liable or accountable'; 'answer for' example fits."},
+   {"synset": "oewn-00816833-v", "verdict": "right", "fault": null, "why": "Learner line covers defending against a charge or argument and showing it is wrong (refutation); example fits."},
+   {"synset": "oewn-02664648-v", "verdict": "right", "fault": null, "why": "Learner line says match or be like; 'answered the description' is this sense."},
+   {"synset": "oewn-00720232-v", "verdict": "right", "fault": null, "why": "Learner line covers reacting to a stimulus or an order; horse answering the rein fits."},
+   {"synset": "oewn-00637185-v", "verdict": "wrong", "fault": "example-wrong-sense", "why": "'Answer the puzzle of her long silence' reads as solving or explaining a puzzle, the neighbouring 'give the correct answer or solution to' sense, not 'understand the meaning of'."}
+  ]},
+ {"word": "carriage", "pos": "noun",
+  "rank": "right", "why": "Every sentence is about a horse-drawn vehicle, which is the first-listed gloss.",
+  "senses": [
+   {"synset": "oewn-02769539-n", "verdict": "right", "fault": null, "why": "Learner line matches the baby-carriage gloss and the example uses that sense."},
+   {"synset": "oewn-02972469-n", "verdict": "right", "fault": null, "why": "Learner line matches the machine-part gloss; typewriter carriage example fits."}
+  ]},
+ {"word": "send", "pos": "verb",
+  "rank": "right", "why": "Sentences use send as causing people or things to go or be conveyed somewhere, which fits the first-listed 'cause to go somewhere'.",
+  "senses": [
+   {"synset": "oewn-01064577-v", "verdict": "right", "fault": null, "why": "Plain learner line for 'transfer'; the example fits."},
+   {"synset": "oewn-01954657-v", "verdict": "right", "fault": null, "why": "Learner line keeps 'goods' and 'as a business'; factory example fits."},
+   {"synset": "oewn-01091334-v", "verdict": "right", "fault": null, "why": "Learner line matches 'assign to a station'; officer-to-a-fort example fits."},
+   {"synset": "oewn-02353564-v", "verdict": "right", "fault": null, "why": "Learner line matches admitting persons to an institution; prison example fits."},
+   {"synset": "oewn-00975088-v", "verdict": "right", "fault": null, "why": "Learner line matches the broadcast gloss; radio-station example fits."}
+  ]},
+ {"word": "regard", "pos": "noun",
+  "rank": "right", "why": "The sentences split between feeling of esteem (regard for Jane, your regard) and 'in/with regard to', and the first-listed sense is the esteem one, which is one side of the split.",
+  "senses": [
+   {"synset": "oewn-06216535-n", "verdict": "right", "fault": null, "why": "Learner line matches admiration or esteem; the example uses that sense, and a null connotation is fine for a feeling word."},
+   {"synset": "oewn-06643134-n", "verdict": "right", "fault": null, "why": "Learner line matches the polite well-wishing gloss; 'give my regards' example fits."},
+   {"synset": "oewn-05710673-n", "verdict": "right", "fault": null, "why": "Learner line keeps special attention and children or helpless people; example fits."},
+   {"synset": "oewn-00880326-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a long fixed look'; example fits."}
+  ]},
+ {"word": "child", "pos": "noun",
+  "rank": "right", "why": "Most sentences use child for someone's offspring (your own children, my children, my own child), the first-listed gloss.",
+  "senses": [
+   {"synset": "oewn-09938220-n", "verdict": "right", "fault": null, "why": "Learner line matches 'member of a clan or tribe'; children of Israel example fits."}
+  ]},
+ {"word": "situation", "pos": "noun",
+  "rank": "right", "why": "Most sentences use situation for a condition or position one is in, matching the first-listed gloss, with one location use.",
+  "senses": [
+   {"synset": "oewn-13950416-n", "verdict": "right", "fault": null, "why": "Learner line restates general state of things or combined circumstances; example fits."},
+   {"synset": "oewn-14434647-n", "verdict": "right", "fault": null, "why": "Learner line keeps complicated, serious, or unusual problem; flood example fits; null is fine since the referent is bad but the word is not loaded."}
+  ]},
+ {"word": "accept", "pos": "verb",
+  "rank": "right", "why": "Sentences use accept for agreeing to an invitation, proposal, or offer, which matches the first-listed gloss (with the second, receiving an offer, nearby).",
+  "senses": [
+   {"synset": "oewn-00721155-v", "verdict": "right", "fault": null, "why": "Learner line keeps both respond well and think right and proper; example fits."},
+   {"synset": "oewn-00670723-v", "verdict": "right", "fault": null, "why": "Learner line covers put up with and adapt to; example fits."},
+   {"synset": "oewn-02241406-v", "verdict": "right", "fault": null, "why": "Learner line matches admitting into a group; college example fits."},
+   {"synset": "oewn-02214718-v", "verdict": "right", "fault": null, "why": "Learner line matches 'make use of or accept for some purpose'; shop-takes-cards example fits."},
+   {"synset": "oewn-02306786-v", "verdict": "right", "fault": null, "why": "Learner line matches taking on another's costs or debts; accept-the-charges example fits."},
+   {"synset": "oewn-02747421-v", "verdict": "right", "fault": null, "why": "Learner line matches 'be designed to hold or take'; lamp-and-bulbs example fits."},
+   {"synset": "oewn-02215404-v", "verdict": "right", "fault": null, "why": "Learner line matches officially receiving a report; board example fits."},
+   {"synset": "oewn-00720413-v", "verdict": "right", "fault": null, "why": "Learner line says a female farm or pet animal is willing to mate; this is slightly plainer than 'domesticated mammal' but is not a real narrowing, and the mare example fits."}
+  ]},
+ {"word": "book", "pos": "noun",
+  "rank": "right", "why": "Sentences are about physical books that are read and collected, matching the first-listed gloss (the second, a published work, is a near neighbour).",
+  "senses": [
+   {"synset": "oewn-13425421-n", "verdict": "right", "fault": null, "why": "Learner line matches the accounts-record gloss; shop's books example fits."},
+   {"synset": "oewn-07970797-n", "verdict": "right", "fault": null, "why": "Learner line matches a set of rules for decisions; 'by the book' example fits."},
+   {"synset": "oewn-02873887-n", "verdict": "right", "fault": null, "why": "Learner line matches sheets bound on one edge; book of stamps example fits."},
+   {"synset": "oewn-06649049-n", "verdict": "right", "fault": null, "why": "Learner line matches a compilation of known facts; police-book example fits."},
+   {"synset": "oewn-07023062-n", "verdict": "right", "fault": null, "why": "Learner line matches the written version of a play, used for preparing to perform; rehearsal example fits."},
+   {"synset": "oewn-07971027-n", "verdict": "right", "fault": null, "why": "Learner line matches cards meeting the rules of a game; the bridge 'book' example fits."}
+  ]},
+ {"word": "long", "pos": "adjective",
+  "rank": "right", "why": "The sentences use long in a time sense (how long, long ago, no longer, as long as), matching the first-listed temporal gloss.",
+  "senses": [
+   {"synset": "oewn-01446913-a", "verdict": "right", "fault": null, "why": "Learner line matches long speech sounds; the boot/book example fits, and 'technical' is justified by the phonetic domain in the gloss."},
+   {"synset": "oewn-00015626-s", "verdict": "right", "fault": null, "why": "Learner line matches 'more than normal or necessary'; 'long on talent' example fits."},
+   {"synset": "oewn-01901363-s", "verdict": "right", "fault": null, "why": "Learner line matches planning prudently for the future; the 'long view' example fits."},
+   {"synset": "oewn-02012852-a", "verdict": "right", "fault": null, "why": "Learner line matches 'good at remembering'; long-memory example fits."},
+   {"synset": "oewn-02282618-s", "verdict": "right", "fault": null, "why": "Learner line matches 'involving substantial risk'; 'long odds' example fits."},
+   {"synset": "oewn-01447325-a", "verdict": "right", "fault": null, "why": "Learner line matches holding securities expecting a price rise; 'technical' is justified by the finance jargon, and the example fits."}
+  ]},
+ {"word": "relate", "pos": "verb",
+  "rank": "right", "why": "Every sentence uses relate as telling or narrating an account, matching the first-listed gloss.",
+  "senses": [
+   {"synset": "oewn-02730292-v", "verdict": "right", "fault": null, "why": "Learner line matches 'be in a relationship with'; parts-of-a-machine example fits."},
+   {"synset": "oewn-02463535-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'have' and 'establish' a relationship; the teacher-and-children example fits."}
+  ]}
+]}

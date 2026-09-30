@@ -39,10 +39,10 @@ def save(p, data):
     Path(p).write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
-def faults(run):
+def faults(run, reads="reader-reads"):
     """(word, pos) -> [synset] the entry read marked wrong."""
     out = {}
-    for p in sorted((run / "reader-reads").glob("verdicts-*.json")):
+    for p in sorted((run / reads).glob("verdicts-*.json")):
         for e in load(p).get("verdicts", []):
             for s in e.get("senses") or []:
                 if s.get("verdict") == "wrong":
@@ -50,8 +50,11 @@ def faults(run):
     return out
 
 
-def cmd_cut(run):
-    wrong = faults(run)
+def cmd_cut(run, attempt=1):
+    """Attempt 1 repairs what the entry read faulted; attempt N>1 repairs what
+    the re-read of attempt N-1 still faulted (a repair is a new note and can
+    fail the same way; it is read blind again either way)."""
+    wrong = faults(run, "reader-reads" if attempt == 1 else "repair-read-reads")
     entries = []
     for p in sorted((run / "enricher-packets").glob("input-*.json")):
         for e in load(p)["entries"]:
@@ -63,28 +66,34 @@ def cmd_cut(run):
             entries.append(e)
     if not entries:
         sys.exit("no faulted senses to repair")
-    save(run / "repair-packets" / "input-01.json", {"packet": 1, "entries": entries})
+    out = run / "repair-packets" / f"input-{attempt:02d}.json"
+    save(out, {"packet": attempt, "entries": entries})
     n = sum(len(v) for v in wrong.values())
-    print(f"repair packet: {len(entries)} entries, {n} senses -> {run / 'repair-packets/input-01.json'}")
+    print(f"repair packet: {len(entries)} entries, {n} senses -> {out}")
 
 
-def cmd_land(run):
-    out = load(run / "repair-out" / "output-01.json")
+def cmd_land(run, attempt=1):
+    out = load(run / "repair-out" / f"output-{attempt:02d}.json")
     senses = []
     for e in out["entries"]:
         for syn, body in e["senses"].items():
             senses.append({"word": e["word"], "pos": e["pos"], "synset": syn,
                            **{k: body[k] for k in ("learner", "examples", "usage_labels",
                                                    "connotation")}})
-    save(run / "repair-out" / "repairs.json", {"senses": senses})
+    repairs = run / "repair-out" / ("repairs.json" if attempt == 1 else f"repairs-{attempt:02d}.json")
+    save(repairs, {"senses": senses})
     subprocess.run([sys.executable, str(ROOT / "tools/enrich_repair_apply.py"), "--out", str(run),
-                    "--file", str(run / "repair-out" / "repairs.json")], check=True)
+                    "--file", str(repairs)], check=True)
 
 
-def cmd_reread(run, batch):
-    applied = load(run / "repair-applied.json")
-    words = {(s["word"], s["pos"]) for s in applied["senses"]}
-    words |= {(r["word"], r["pos"]) for r in applied.get("rankings", [])}
+def cmd_reread(run, batch, attempt=1):
+    if attempt == 1:
+        applied = load(run / "repair-applied.json")
+        words = {(s["word"], s["pos"]) for s in applied["senses"]}
+        words |= {(r["word"], r["pos"]) for r in applied.get("rankings", [])}
+    else:
+        repairs = load(run / "repair-out" / f"repairs-{attempt:02d}.json")
+        words = {(s["word"], s["pos"]) for s in repairs["senses"]}
     scratch = run / "repair-read-scratch"
     subprocess.run([sys.executable, str(ROOT / "tools/enrich_packets.py"), "reader",
                     "--out", str(run), "--batch", str(batch)], check=True, capture_output=True)
@@ -94,8 +103,9 @@ def cmd_reread(run, batch):
     for p in sorted((run / "reader-packets").glob("input-*.json")):
         entries += [e for e in load(p)["entries"] if (e["word"], e["pos"]) in words]
     subprocess.run(["git", "checkout", "--", str(run / "reader-packets")], cwd=ROOT, check=True)
-    save(run / "repair-read-packets" / "input-01.json", {"packet": 1, "entries": entries})
-    print(f"re-read packet: {len(entries)} entries -> {run / 'repair-read-packets/input-01.json'}")
+    out = run / "repair-read-packets" / f"input-{attempt:02d}.json"
+    save(out, {"packet": attempt, "entries": entries})
+    print(f"re-read packet: {len(entries)} entries -> {out}")
 
 
 def main():
@@ -104,15 +114,16 @@ def main():
     for name in ("cut", "land", "reread"):
         s = sub.add_parser(name)
         s.add_argument("--run", type=Path, required=True)
+        s.add_argument("--attempt", type=int, default=1)
         if name == "reread":
             s.add_argument("--batch", type=Path, required=True)
     args = ap.parse_args()
     if args.cmd == "cut":
-        cmd_cut(args.run)
+        cmd_cut(args.run, args.attempt)
     elif args.cmd == "land":
-        cmd_land(args.run)
+        cmd_land(args.run, args.attempt)
     else:
-        cmd_reread(args.run, args.batch)
+        cmd_reread(args.run, args.batch, args.attempt)
 
 
 if __name__ == "__main__":

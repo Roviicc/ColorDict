@@ -1,0 +1,76 @@
+{"packet": 5, "verdicts": [
+ {"word": "strong", "pos": "adjective",
+  "rank": "right", "why": "The sentences split between plain power (\"strong already\"), not faint (\"stronger voice\") and intensity of feeling; the first sense (greater than average strength) covers the first, and no listed sense fits the others better.",
+  "senses": [
+   {"synset": "oewn-02283161-s", "verdict": "right", "fault": null, "why": "Learner line and bridge example match 'good quality and condition; solidly built'; null is fine."},
+   {"synset": "oewn-00845738-s", "verdict": "right", "fault": null, "why": "'Firm and sure, done with force and without shaking or doubt' unpacks 'strong and sure'; the rope-pull example fits."},
+   {"synset": "oewn-01829730-a", "verdict": "right", "fault": null, "why": "'Powerful effect on the body or on other substances' matches the gloss; the cleaner example fits."},
+   {"synset": "oewn-02536283-s", "verdict": "right", "fault": null, "why": "'Cannot be attacked or secretly changed' fits 'immune to attack; incapable of being tampered with'; strong-password example fits."},
+   {"synset": "oewn-01162481-s", "verdict": "right", "fault": null, "why": "Distilled not fermented, high alcohol: faithful; 'strong drink' example contrasts with beer correctly."},
+   {"synset": "oewn-01072383-s", "verdict": "right", "fault": null, "why": "'Fresh, made or left a short time ago' matches; the strong trail example uses this sense."},
+   {"synset": "oewn-01968612-s", "verdict": "right", "fault": null, "why": "Faithful to the gloss about verb inflection; 'technical' is justified by the grammatical-term gloss; 'sing/sang' example fits."}
+  ]},
+ {"word": "truth", "pos": "noun",
+  "rank": "right", "why": "Sentences use 'truth' as a fact or true statement (\"a truth universally acknowledged\", \"ignorant of the truth\"), which the first sense (a verified fact) and second sense cover.",
+  "senses": [
+   {"synset": "oewn-04810156-n", "verdict": "right", "fault": null, "why": "'Close to the real or correct value' matches the gloss; the measurement-accuracy example uses this sense; null is fine."}
+  ]},
+ {"word": "beg", "pos": "verb",
+  "rank": "right", "why": "The sentences are entreaty and urgent request (\"beg leave\", \"begged very hard\"), which the first two senses cover, with entreat listed first.",
+  "senses": [
+   {"synset": "oewn-00811888-v", "verdict": "wrong", "fault": "false-null", "why": "Learner line and example are faithful, but 'beg the question/point' as dodging or taking for granted is a criticism of an argument or speaker, so a learner needs to know it lands as a rebuke, not neutrally."}
+  ]},
+ {"word": "declare", "pos": "verb",
+  "rank": "right", "why": "Most sentences are 'state firmly' (\"declared that they were miserable\", \"declared herself not offended\"), which is listed first.",
+  "senses": [
+   {"synset": "oewn-01012145-v", "verdict": "right", "fault": null, "why": "'Strongly, as someone with power or right to say it' covers emphatically and authoritatively; general example fits."},
+   {"synset": "oewn-00967903-v", "verdict": "right", "fault": null, "why": "Public or official announcement; declared war example fits."},
+   {"synset": "oewn-01012879-v", "verdict": "right", "fault": null, "why": "Customs declaration of dutiable goods paraphrased faithfully; both examples use this sense."},
+   {"synset": "oewn-02449420-v", "verdict": "right", "fault": null, "why": "'Give official approval for paying something out' fits 'authorize payments of'; dividend example fits."},
+   {"synset": "oewn-02305510-v", "verdict": "right", "fault": null, "why": "Bridge-style trump declaration paraphrased faithfully; technical label justified by the card-game gloss; example fits."}
+  ]},
+ {"word": "prove", "pos": "verb",
+  "rank": "right", "why": "The sentences split between establishing validity (\"prove the probability of error\") and being shown/found to be (\"may prove so\"); the first sense is one of these.",
+  "senses": [
+   {"synset": "oewn-02537291-v", "verdict": "right", "fault": null, "why": "'Test something to see how good it is, or try it out' matches the gloss; engine example fits."},
+   {"synset": "oewn-00667548-v", "verdict": "right", "fault": null, "why": "Formal or mathematical proof matches; theorem example fits."},
+   {"synset": "oewn-01987148-v", "verdict": "right", "fault": null, "why": "'Grow bigger and take up more space' matches 'increase in volume'; dough example is this sense."},
+   {"synset": "oewn-01979601-v", "verdict": "right", "fault": null, "why": "'Make something puff up with yeast or similar' matches 'cause to puff up with a leaven'; baker example fits."},
+   {"synset": "oewn-00667689-v", "verdict": "right", "fault": null, "why": "Probate of a will paraphrased faithfully; technical label justified by the legal gloss; example fits."},
+   {"synset": "oewn-01748860-v", "verdict": "right", "fault": null, "why": "'Print a test copy so it can be checked' matches 'take a trial impression of'; technical label justified by printing gloss."}
+  ]},
+ {"word": "early", "pos": "adjective",
+  "rank": "right", "why": "The sentences use 'early' for near the beginning or before the usual time (\"earliest of those\", \"early trees\", \"early age\"), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-00816521-a", "verdict": "right", "fault": null, "why": "Learner line keeps both alternatives of the gloss; both examples are from the book and use this sense."},
+   {"synset": "oewn-00820993-a", "verdict": "right", "fault": null, "why": "'In the first stages of growing or developing' matches; illness example fits."},
+   {"synset": "oewn-01733616-s", "verdict": "right", "fault": null, "why": "'A time long ago' matches 'distant past'; example fits."},
+   {"synset": "oewn-01737207-s", "verdict": "right", "fault": null, "why": "'Expected to happen soon' matches; early end to the war fits."},
+   {"synset": "oewn-00823421-a", "verdict": "wrong", "fault": "learner-narrowed", "why": "Gloss says 'an early stage' but the learner line says 'the first stage', which narrows it and contradicts its own Early Modern English example, which is not the first stage of English."}
+  ]},
+ {"word": "directly", "pos": "adverb",
+  "rank": "right", "why": "Most sentences mean immediately (\"I will speak to her about it myself directly\", \"sent off directly\"), matching the first sense.",
+  "senses": [
+   {"synset": "oewn-00058666-r", "verdict": "right", "fault": null, "why": "'Open and honest way, saying plainly what you mean' matches 'forthright; candidly or frankly'; example fits; null is acceptable."}
+  ]},
+ {"word": "mile", "pos": "noun",
+  "rank": "right", "why": "Every sentence measures distance in statute miles, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-07484465-n", "verdict": "right", "fault": null, "why": "'A running race one mile long' matches the gloss; school sports example fits."},
+   {"synset": "oewn-13682724-n", "verdict": "right", "fault": null, "why": "Learner line restates the old British 6,080 ft unit faithfully; example uses 'nautical mile' in this sense."},
+   {"synset": "oewn-13682973-n", "verdict": "right", "fault": null, "why": "Old British navigation unit of 6,000 ft restated faithfully; sea-mile example fits."},
+   {"synset": "oewn-13677032-n", "verdict": "right", "fault": null, "why": "Ancient Roman unit of 1,620 yards restated faithfully; Roman milestone example fits."},
+   {"synset": "oewn-13676880-n", "verdict": "right", "fault": null, "why": "Swedish unit of 10 km restated faithfully; example fits."}
+  ]},
+ {"word": "avoid", "pos": "verb",
+  "rank": "right", "why": "The sentences are about staying clear of or keeping away from people and things (\"avoiding Mrs. Bennet\", \"trying to avoid her\"), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-01192356-v", "verdict": "right", "fault": null, "why": "'Not eat or drink certain foods or drinks' matches the gloss; coffee and sweets example fits."},
+   {"synset": "oewn-02483482-v", "verdict": "right", "fault": null, "why": "'Say that something is not valid and has no force' matches 'declare invalid'; contract example uses this legal sense."}
+  ]},
+ {"word": "favour", "pos": "noun",
+  "rank": "right", "why": "The sentences split between act of kindness (\"another favour to ask\"), approval (\"in favour of matrimony\"), advantage and regard, and the first sense (act of kindness) is one of them.",
+  "senses": [
+   {"synset": "oewn-03900459-n", "verdict": "right", "fault": null, "why": "'Small gift given to a guest at a party to keep as a reminder' matches 'souvenir ... small gift'; party favours example fits; null is fine."}
+  ]}
+]}

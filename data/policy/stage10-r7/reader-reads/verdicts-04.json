@@ -1,0 +1,76 @@
+{"packet": 4, "verdicts": [
+ {"word": "rest", "pos": "noun",
+  "rank": "right", "why": "Five of the six sentences use 'the rest' meaning what remains, which matches the first sense; the sixth is the verb 'rest assured'.",
+  "senses": [
+   {"synset": "oewn-14035972-n", "verdict": "right", "fault": null, "why": "Learner line and the 'at rest' example both match 'a state of inaction'; null connotation is correct."},
+   {"synset": "oewn-13986101-n", "verdict": "right", "fault": null, "why": "Euphemism gloss justifies the 'euphemistic' label; 'laid to rest' uses the sense, and the learner line carries the bed analogy plainly."},
+   {"synset": "oewn-04088156-n", "verdict": "right", "fault": null, "why": "Learner line restates 'a support on which things can be put'; the gun-rest example is this sense."},
+   {"synset": "oewn-06878227-n", "verdict": "right", "fault": null, "why": "Learner line matches the musical-notation gloss, the example uses the musical rest, and 'technical' is a fair domain label for it."}
+  ]},
+ {"word": "thought", "pos": "noun",
+  "rank": "right", "why": "Only the first sentence is a noun use ('the thought will doubtless seem heretical'), which is the content of cognition, listed first; the others are the verb.",
+  "senses": [
+   {"synset": "oewn-05963348-n", "verdict": "right", "fault": null, "why": "Learner line matches 'organized beliefs of a period or group or individual' and keeps all three holders; 'Greek thought' example fits; null is correct."}
+  ]},
+ {"word": "account", "pos": "noun",
+  "rank": "right", "why": "Most sentences ('accounts of you', 'an account of all their little parties', 'his account of the objections') carry a report or narrative of events, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-06694296-n", "verdict": "right", "fault": null, "why": "Learner line restates 'a short account of the news' and the newspaper example uses it."},
+   {"synset": "oewn-13952070-n", "verdict": "right", "fault": null, "why": "Learner line matches the banking-relationship gloss and the example uses a bank account."},
+   {"synset": "oewn-06528946-n", "verdict": "right", "fault": null, "why": "Itemized statement of money owed is restated faithfully; the coal-bill example is this sense."},
+   {"synset": "oewn-13376000-n", "verdict": "right", "fault": null, "why": "Learner line covers recent transactions and the balance; the monthly statement example fits."},
+   {"synset": "oewn-05176564-n", "verdict": "right", "fault": null, "why": "'Importance or worth' matches the gloss, and 'of little account' is this sense."},
+   {"synset": "oewn-07232584-n", "verdict": "right", "fault": null, "why": "Learner line matches 'act of informing by verbal report'; the Lady Catherine quote is a hearing of a spoken report."},
+   {"synset": "oewn-05165115-n", "verdict": "right", "fault": null, "why": "Learner line conveys gaining an advantage from something, and 'to good account' is the idiom for this sense."}
+  ]},
+ {"word": "deal", "pos": "noun",
+  "rank": "right", "why": "Every sentence is 'a good/great deal (of)', meaning a large amount, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-07307886-n", "verdict": "right", "fault": null, "why": "Learner line matches 'type of treatment received, especially from an agreement'; 'unfair deal' example fits."},
+   {"synset": "oewn-01087261-n", "verdict": "right", "fault": null, "why": "Handing out playing cards is faithful to the gloss and the example uses it."},
+   {"synset": "oewn-07973501-n", "verdict": "right", "fault": null, "why": "Learner line restates the cards a player holds; the example uses 'deal' for that hand."},
+   {"synset": "oewn-01086561-n", "verdict": "right", "fault": null, "why": "Sharing out or handing out something matches 'apportioning or distributing'; the food-distribution example fits."},
+   {"synset": "oewn-15127189-n", "verdict": "right", "fault": null, "why": "A board of soft wood such as fir or pine matches the gloss; 'rough deals nailed side by side' uses the plank sense."},
+   {"synset": "oewn-15124824-n", "verdict": "right", "fault": null, "why": "Learner line matches 'wood that is easy to saw from conifers'; 'plain deal' table example fits the material sense."}
+  ]},
+ {"word": "appearance", "pos": "noun",
+  "rank": "right", "why": "The sentences split among outward aspect (gentlemanlike appearance), coming into sight (her/his appearance) and seeming/pretence, and the first-listed outward aspect is one of the split.",
+  "senses": [
+   {"synset": "oewn-00051015-n", "verdict": "right", "fault": null, "why": "Learner line matches 'act of appearing in public view' and the stage-appearance example uses it."},
+   {"synset": "oewn-05948150-n", "verdict": "right", "fault": null, "why": "'A picture held in the mind' fairly restates 'a mental representation'; the memory example fits."},
+   {"synset": "oewn-01236192-n", "verdict": "right", "fault": null, "why": "Learner line covers a party in a legal case formally coming to court or a hearing; the example matches."}
+  ]},
+ {"word": "determine", "pos": "verb",
+  "rank": "right", "why": "Most sentences ('could scarcely determine', 'Elizabeth was determined') mean making a decision, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-00949109-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'decide on' and 'fix definitely'; the ticket-price example fits."},
+   {"synset": "oewn-00701581-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'final' and 'authoritatively'; the Lady Catherine sentence is this sense."},
+   {"synset": "oewn-00922307-v", "verdict": "right", "fault": null, "why": "Learner line matches 'find out with certainty by inquiry or effort'; the station-call example fits."},
+   {"synset": "oewn-00702474-v", "verdict": "right", "fault": null, "why": "Learner line covers both scope and limits; the contract example uses the sense."},
+   {"synset": "oewn-00765444-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'settle finally' and 'reach an agreement'; 'determine the quarrel' fits."}
+  ]},
+ {"word": "concern", "pos": "noun",
+  "rank": "right", "why": "Most sentences ('concern for Elizabeth', 'concern for her sister', 'lively concern for the welfare of his friend') carry the feeling of care for someone, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-05840588-n", "verdict": "right", "fault": null, "why": "Learner line keeps both worry and unhappiness, and both something and someone; the son's-health example fits."},
+   {"synset": "oewn-08077878-n", "verdict": "right", "fault": null, "why": "'Business or factory plus its people' is a plain restatement of a commercial or industrial enterprise; the printing-concern example fits."}
+  ]},
+ {"word": "news", "pos": "noun",
+  "rank": "right", "why": "The sentences are personal or social news, which fits either of the first two senses, and the first-listed 'information about recent and important events' is one of them.",
+  "senses": [
+   {"synset": "oewn-06632357-n", "verdict": "right", "fault": null, "why": "Learner line matches a programme on current events with interviews and commentary; the example fits."},
+   {"synset": "oewn-05200165-n", "verdict": "right", "fault": null, "why": "Learner line restates being interesting enough to be reported; 'no longer news' uses this sense."}
+  ]},
+ {"word": "disposition", "pos": "noun",
+  "rank": "right", "why": "Every sentence uses disposition for a person's temperament, matching the first sense (usual mood) and the third (characteristic tendency).",
+  "senses": [
+   {"synset": "oewn-00044347-n", "verdict": "right", "fault": null, "why": "Learner line keeps both the act and the means of getting rid of something; the rubbish example fits."}
+  ]},
+ {"word": "humour", "pos": "noun",
+  "rank": "right", "why": "Five of six sentences (good-humour, ill-humour, 'in no humour') use humour as a state of feeling, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-04657558-n", "verdict": "right", "fault": null, "why": "Learner line covers both enjoying and expressing the funny; 'sense of humour' example fits."},
+   {"synset": "oewn-05612290-n", "verdict": "right", "fault": null, "why": "Learner line keeps the Middle Ages setting, the four fluids and the effect on mind and body; the example matches."},
+   {"synset": "oewn-05404811-n", "verdict": "right", "fault": null, "why": "'Any of the liquids found in the body' restates the gloss; the eye-humour example uses this sense."}
+  ]}
+]}
