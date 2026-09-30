@@ -1,0 +1,637 @@
+{
+ "kind": "ranked",
+ "population": "data/policy/stage10/population-r6.json",
+ "counts": {
+  "book_words": 4772,
+  "book_senses": 17679,
+  "open": {
+   "words": 3949,
+   "senses": 13607
+  },
+  "open_ranked": {
+   "words": 414,
+   "senses": 2467
+  },
+  "open_never_opened": {
+   "words": 3535,
+   "senses": 11140
+  },
+  "open_stop_words": {
+   "words": 118,
+   "senses": 628
+  },
+  "unserved_records": 1
+ },
+ "pool": 301,
+ "skipped": {
+  "function word": 47,
+  "over 8 open senses": 66,
+  "no earlier run holds it": 0
+ },
+ "n": 100,
+ "strata": 4,
+ "seed": 15,
+ "max_open": 8,
+ "words": [
+  {
+   "word": "man",
+   "pos": "noun",
+   "occurrences": 194,
+   "open": 7
+  },
+  {
+   "word": "hear",
+   "pos": "verb",
+   "occurrences": 180,
+   "open": 2
+  },
+  {
+   "word": "friend",
+   "pos": "noun",
+   "occurrences": 169,
+   "open": 1
+  },
+  {
+   "word": "mother",
+   "pos": "noun",
+   "occurrences": 136,
+   "open": 2
+  },
+  {
+   "word": "pleasure",
+   "pos": "noun",
+   "occurrences": 99,
+   "open": 2
+  },
+  {
+   "word": "attention",
+   "pos": "noun",
+   "occurrences": 97,
+   "open": 3
+  },
+  {
+   "word": "walk",
+   "pos": "verb",
+   "occurrences": 91,
+   "open": 7
+  },
+  {
+   "word": "suppose",
+   "pos": "verb",
+   "occurrences": 88,
+   "open": 2
+  },
+  {
+   "word": "write",
+   "pos": "verb",
+   "occurrences": 87,
+   "open": 5
+  },
+  {
+   "word": "far",
+   "pos": "adverb",
+   "occurrences": 86,
+   "open": 2
+  },
+  {
+   "word": "let",
+   "pos": "verb",
+   "occurrences": 83,
+   "open": 3
+  },
+  {
+   "word": "love",
+   "pos": "noun",
+   "occurrences": 83,
+   "open": 3
+  },
+  {
+   "word": "word",
+   "pos": "noun",
+   "occurrences": 81,
+   "open": 8
+  },
+  {
+   "word": "brother",
+   "pos": "noun",
+   "occurrences": 80,
+   "open": 1
+  },
+  {
+   "word": "character",
+   "pos": "noun",
+   "occurrences": 75,
+   "open": 6
+  },
+  {
+   "word": "opinion",
+   "pos": "noun",
+   "occurrences": 75,
+   "open": 3
+  },
+  {
+   "word": "course",
+   "pos": "noun",
+   "occurrences": 55,
+   "open": 6
+  },
+  {
+   "word": "able",
+   "pos": "adjective",
+   "occurrences": 54,
+   "open": 1
+  },
+  {
+   "word": "reason",
+   "pos": "noun",
+   "occurrences": 54,
+   "open": 3
+  },
+  {
+   "word": "answer",
+   "pos": "noun",
+   "occurrences": 51,
+   "open": 2
+  },
+  {
+   "word": "people",
+   "pos": "noun",
+   "occurrences": 50,
+   "open": 1
+  },
+  {
+   "word": "home",
+   "pos": "noun",
+   "occurrences": 49,
+   "open": 6
+  },
+  {
+   "word": "business",
+   "pos": "noun",
+   "occurrences": 47,
+   "open": 6
+  },
+  {
+   "word": "heart",
+   "pos": "noun",
+   "occurrences": 46,
+   "open": 7
+  },
+  {
+   "word": "live",
+   "pos": "verb",
+   "occurrences": 46,
+   "open": 4
+  },
+  {
+   "word": "fortune",
+   "pos": "noun",
+   "occurrences": 40,
+   "open": 1
+  },
+  {
+   "word": "forget",
+   "pos": "verb",
+   "occurrences": 39,
+   "open": 1
+  },
+  {
+   "word": "question",
+   "pos": "noun",
+   "occurrences": 38,
+   "open": 3
+  },
+  {
+   "word": "resolve",
+   "pos": "verb",
+   "occurrences": 38,
+   "open": 4
+  },
+  {
+   "word": "night",
+   "pos": "noun",
+   "occurrences": 35,
+   "open": 4
+  },
+  {
+   "word": "remember",
+   "pos": "verb",
+   "occurrences": 34,
+   "open": 5
+  },
+  {
+   "word": "engagement",
+   "pos": "noun",
+   "occurrences": 32,
+   "open": 4
+  },
+  {
+   "word": "repeat",
+   "pos": "verb",
+   "occurrences": 32,
+   "open": 3
+  },
+  {
+   "word": "air",
+   "pos": "noun",
+   "occurrences": 31,
+   "open": 6
+  },
+  {
+   "word": "master",
+   "pos": "noun",
+   "occurrences": 29,
+   "open": 7
+  },
+  {
+   "word": "satisfaction",
+   "pos": "noun",
+   "occurrences": 28,
+   "open": 2
+  },
+  {
+   "word": "absence",
+   "pos": "noun",
+   "occurrences": 27,
+   "open": 1
+  },
+  {
+   "word": "forward",
+   "pos": "adverb",
+   "occurrences": 27,
+   "open": 2
+  },
+  {
+   "word": "interest",
+   "pos": "noun",
+   "occurrences": 27,
+   "open": 4
+  },
+  {
+   "word": "use",
+   "pos": "verb",
+   "occurrences": 27,
+   "open": 3
+  },
+  {
+   "word": "dance",
+   "pos": "noun",
+   "occurrences": 26,
+   "open": 1
+  },
+  {
+   "word": "look",
+   "pos": "noun",
+   "occurrences": 26,
+   "open": 1
+  },
+  {
+   "word": "care",
+   "pos": "noun",
+   "occurrences": 25,
+   "open": 3
+  },
+  {
+   "word": "design",
+   "pos": "noun",
+   "occurrences": 24,
+   "open": 4
+  },
+  {
+   "word": "force",
+   "pos": "verb",
+   "occurrences": 24,
+   "open": 5
+  },
+  {
+   "word": "address",
+   "pos": "verb",
+   "occurrences": 23,
+   "open": 7
+  },
+  {
+   "word": "inclination",
+   "pos": "noun",
+   "occurrences": 23,
+   "open": 5
+  },
+  {
+   "word": "proceed",
+   "pos": "verb",
+   "occurrences": 22,
+   "open": 2
+  },
+  {
+   "word": "refuse",
+   "pos": "verb",
+   "occurrences": 22,
+   "open": 3
+  },
+  {
+   "word": "agree",
+   "pos": "verb",
+   "occurrences": 21,
+   "open": 4
+  },
+  {
+   "word": "chapter",
+   "pos": "noun",
+   "occurrences": 21,
+   "open": 2
+  },
+  {
+   "word": "library",
+   "pos": "noun",
+   "occurrences": 21,
+   "open": 2
+  },
+  {
+   "word": "scene",
+   "pos": "noun",
+   "occurrences": 21,
+   "open": 7
+  },
+  {
+   "word": "trouble",
+   "pos": "noun",
+   "occurrences": 20,
+   "open": 3
+  },
+  {
+   "word": "affect",
+   "pos": "verb",
+   "occurrences": 19,
+   "open": 2
+  },
+  {
+   "word": "change",
+   "pos": "noun",
+   "occurrences": 19,
+   "open": 7
+  },
+  {
+   "word": "living",
+   "pos": "noun",
+   "occurrences": 19,
+   "open": 1
+  },
+  {
+   "word": "reflection",
+   "pos": "noun",
+   "occurrences": 19,
+   "open": 5
+  },
+  {
+   "word": "understanding",
+   "pos": "noun",
+   "occurrences": 19,
+   "open": 1
+  },
+  {
+   "word": "capable",
+   "pos": "adjective",
+   "occurrences": 18,
+   "open": 2
+  },
+  {
+   "word": "prevail",
+   "pos": "verb",
+   "occurrences": 18,
+   "open": 2
+  },
+  {
+   "word": "step",
+   "pos": "noun",
+   "occurrences": 18,
+   "open": 8
+  },
+  {
+   "word": "age",
+   "pos": "noun",
+   "occurrences": 17,
+   "open": 2
+  },
+  {
+   "word": "ease",
+   "pos": "noun",
+   "occurrences": 17,
+   "open": 2
+  },
+  {
+   "word": "fact",
+   "pos": "noun",
+   "occurrences": 17,
+   "open": 1
+  },
+  {
+   "word": "indifference",
+   "pos": "noun",
+   "occurrences": 17,
+   "open": 1
+  },
+  {
+   "word": "gain",
+   "pos": "verb",
+   "occurrences": 16,
+   "open": 6
+  },
+  {
+   "word": "alarm",
+   "pos": "noun",
+   "occurrences": 15,
+   "open": 1
+  },
+  {
+   "word": "dining",
+   "pos": "noun",
+   "occurrences": 15,
+   "open": 1
+  },
+  {
+   "word": "apprehension",
+   "pos": "noun",
+   "occurrences": 14,
+   "open": 1
+  },
+  {
+   "word": "lay",
+   "pos": "verb",
+   "occurrences": 14,
+   "open": 2
+  },
+  {
+   "word": "share",
+   "pos": "noun",
+   "occurrences": 14,
+   "open": 2
+  },
+  {
+   "word": "bow",
+   "pos": "noun",
+   "occurrences": 13,
+   "open": 6
+  },
+  {
+   "word": "contempt",
+   "pos": "noun",
+   "occurrences": 13,
+   "open": 1
+  },
+  {
+   "word": "horse",
+   "pos": "noun",
+   "occurrences": 13,
+   "open": 2
+  },
+  {
+   "word": "tall",
+   "pos": "adjective",
+   "occurrences": 13,
+   "open": 2
+  },
+  {
+   "word": "delicacy",
+   "pos": "noun",
+   "occurrences": 12,
+   "open": 4
+  },
+  {
+   "word": "enjoy",
+   "pos": "verb",
+   "occurrences": 12,
+   "open": 2
+  },
+  {
+   "word": "music",
+   "pos": "noun",
+   "occurrences": 12,
+   "open": 2
+  },
+  {
+   "word": "naturally",
+   "pos": "adverb",
+   "occurrences": 12,
+   "open": 1
+  },
+  {
+   "word": "art",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "note",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 6
+  },
+  {
+   "word": "prefer",
+   "pos": "verb",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "seldom",
+   "pos": "adverb",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "steady",
+   "pos": "adjective",
+   "occurrences": 11,
+   "open": 3
+  },
+  {
+   "word": "wood",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "employment",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 1
+  },
+  {
+   "word": "examine",
+   "pos": "verb",
+   "occurrences": 10,
+   "open": 2
+  },
+  {
+   "word": "habit",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 3
+  },
+  {
+   "word": "memory",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 2
+  },
+  {
+   "word": "reject",
+   "pos": "verb",
+   "occurrences": 10,
+   "open": 4
+  },
+  {
+   "word": "style",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 6
+  },
+  {
+   "word": "couple",
+   "pos": "noun",
+   "occurrences": 9,
+   "open": 2
+  },
+  {
+   "word": "distinguish",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 1
+  },
+  {
+   "word": "divide",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 3
+  },
+  {
+   "word": "fire",
+   "pos": "noun",
+   "occurrences": 9,
+   "open": 6
+  },
+  {
+   "word": "obligation",
+   "pos": "noun",
+   "occurrences": 9,
+   "open": 2
+  },
+  {
+   "word": "propose",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 2
+  },
+  {
+   "word": "boy",
+   "pos": "noun",
+   "occurrences": 6,
+   "open": 4
+  },
+  {
+   "word": "passion",
+   "pos": "noun",
+   "occurrences": 4,
+   "open": 6
+  }
+ ]
+}

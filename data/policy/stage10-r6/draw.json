@@ -1,0 +1,637 @@
+{
+ "kind": "ranked",
+ "population": "data/policy/stage10/population-r6.json",
+ "counts": {
+  "book_words": 4772,
+  "book_senses": 17679,
+  "open": {
+   "words": 3949,
+   "senses": 13607
+  },
+  "open_ranked": {
+   "words": 414,
+   "senses": 2467
+  },
+  "open_never_opened": {
+   "words": 3535,
+   "senses": 11140
+  },
+  "open_stop_words": {
+   "words": 118,
+   "senses": 628
+  },
+  "unserved_records": 1
+ },
+ "pool": 201,
+ "skipped": {
+  "function word": 47,
+  "over 8 open senses": 66,
+  "no earlier run holds it": 0
+ },
+ "n": 100,
+ "strata": 4,
+ "seed": 16,
+ "max_open": 8,
+ "words": [
+  {
+   "word": "know",
+   "pos": "verb",
+   "occurrences": 393,
+   "open": 7
+  },
+  {
+   "word": "young",
+   "pos": "adjective",
+   "occurrences": 177,
+   "open": 2
+  },
+  {
+   "word": "letter",
+   "pos": "noun",
+   "occurrences": 135,
+   "open": 2
+  },
+  {
+   "word": "away",
+   "pos": "adverb",
+   "occurrences": 114,
+   "open": 8
+  },
+  {
+   "word": "talk",
+   "pos": "verb",
+   "occurrences": 107,
+   "open": 2
+  },
+  {
+   "word": "subject",
+   "pos": "noun",
+   "occurrences": 95,
+   "open": 5
+  },
+  {
+   "word": "appear",
+   "pos": "verb",
+   "occurrences": 75,
+   "open": 4
+  },
+  {
+   "word": "assure",
+   "pos": "verb",
+   "occurrences": 73,
+   "open": 2
+  },
+  {
+   "word": "bring",
+   "pos": "verb",
+   "occurrences": 73,
+   "open": 8
+  },
+  {
+   "word": "world",
+   "pos": "noun",
+   "occurrences": 72,
+   "open": 4
+  },
+  {
+   "word": "party",
+   "pos": "noun",
+   "occurrences": 71,
+   "open": 2
+  },
+  {
+   "word": "mean",
+   "pos": "verb",
+   "occurrences": 69,
+   "open": 4
+  },
+  {
+   "word": "allow",
+   "pos": "verb",
+   "occurrences": 65,
+   "open": 7
+  },
+  {
+   "word": "idea",
+   "pos": "noun",
+   "occurrences": 64,
+   "open": 2
+  },
+  {
+   "word": "wish",
+   "pos": "noun",
+   "occurrences": 63,
+   "open": 1
+  },
+  {
+   "word": "behaviour",
+   "pos": "noun",
+   "occurrences": 55,
+   "open": 1
+  },
+  {
+   "word": "hope",
+   "pos": "noun",
+   "occurrences": 54,
+   "open": 1
+  },
+  {
+   "word": "read",
+   "pos": "verb",
+   "occurrences": 54,
+   "open": 8
+  },
+  {
+   "word": "join",
+   "pos": "verb",
+   "occurrences": 52,
+   "open": 2
+  },
+  {
+   "word": "hardly",
+   "pos": "adverb",
+   "occurrences": 50,
+   "open": 1
+  },
+  {
+   "word": "power",
+   "pos": "noun",
+   "occurrences": 48,
+   "open": 7
+  },
+  {
+   "word": "circumstance",
+   "pos": "noun",
+   "occurrences": 47,
+   "open": 1
+  },
+  {
+   "word": "short",
+   "pos": "adjective",
+   "occurrences": 47,
+   "open": 8
+  },
+  {
+   "word": "minute",
+   "pos": "noun",
+   "occurrences": 45,
+   "open": 3
+  },
+  {
+   "word": "understand",
+   "pos": "verb",
+   "occurrences": 45,
+   "open": 2
+  },
+  {
+   "word": "officer",
+   "pos": "noun",
+   "occurrences": 40,
+   "open": 1
+  },
+  {
+   "word": "attend",
+   "pos": "verb",
+   "occurrences": 38,
+   "open": 2
+  },
+  {
+   "word": "respect",
+   "pos": "noun",
+   "occurrences": 38,
+   "open": 3
+  },
+  {
+   "word": "help",
+   "pos": "verb",
+   "occurrences": 37,
+   "open": 5
+  },
+  {
+   "word": "matter",
+   "pos": "noun",
+   "occurrences": 36,
+   "open": 3
+  },
+  {
+   "word": "try",
+   "pos": "verb",
+   "occurrences": 35,
+   "open": 6
+  },
+  {
+   "word": "pay",
+   "pos": "verb",
+   "occurrences": 34,
+   "open": 8
+  },
+  {
+   "word": "real",
+   "pos": "adjective",
+   "occurrences": 34,
+   "open": 6
+  },
+  {
+   "word": "society",
+   "pos": "noun",
+   "occurrences": 32,
+   "open": 1
+  },
+  {
+   "word": "comfort",
+   "pos": "noun",
+   "occurrences": 31,
+   "open": 4
+  },
+  {
+   "word": "learn",
+   "pos": "verb",
+   "occurrences": 29,
+   "open": 3
+  },
+  {
+   "word": "pain",
+   "pos": "noun",
+   "occurrences": 29,
+   "open": 1
+  },
+  {
+   "word": "attachment",
+   "pos": "noun",
+   "occurrences": 28,
+   "open": 4
+  },
+  {
+   "word": "scheme",
+   "pos": "noun",
+   "occurrences": 28,
+   "open": 2
+  },
+  {
+   "word": "event",
+   "pos": "noun",
+   "occurrences": 27,
+   "open": 1
+  },
+  {
+   "word": "form",
+   "pos": "verb",
+   "occurrences": 27,
+   "open": 4
+  },
+  {
+   "word": "quit",
+   "pos": "verb",
+   "occurrences": 26,
+   "open": 2
+  },
+  {
+   "word": "introduce",
+   "pos": "verb",
+   "occurrences": 24,
+   "open": 7
+  },
+  {
+   "word": "match",
+   "pos": "noun",
+   "occurrences": 24,
+   "open": 6
+  },
+  {
+   "word": "arise",
+   "pos": "verb",
+   "occurrences": 23,
+   "open": 4
+  },
+  {
+   "word": "reach",
+   "pos": "verb",
+   "occurrences": 23,
+   "open": 6
+  },
+  {
+   "word": "term",
+   "pos": "noun",
+   "occurrences": 23,
+   "open": 4
+  },
+  {
+   "word": "address",
+   "pos": "noun",
+   "occurrences": 22,
+   "open": 5
+  },
+  {
+   "word": "company",
+   "pos": "noun",
+   "occurrences": 22,
+   "open": 6
+  },
+  {
+   "word": "window",
+   "pos": "noun",
+   "occurrences": 22,
+   "open": 5
+  },
+  {
+   "word": "apply",
+   "pos": "verb",
+   "occurrences": 21,
+   "open": 7
+  },
+  {
+   "word": "notice",
+   "pos": "noun",
+   "occurrences": 21,
+   "open": 4
+  },
+  {
+   "word": "effect",
+   "pos": "noun",
+   "occurrences": 20,
+   "open": 3
+  },
+  {
+   "word": "invite",
+   "pos": "verb",
+   "occurrences": 20,
+   "open": 5
+  },
+  {
+   "word": "change",
+   "pos": "verb",
+   "occurrences": 19,
+   "open": 7
+  },
+  {
+   "word": "danger",
+   "pos": "noun",
+   "occurrences": 19,
+   "open": 1
+  },
+  {
+   "word": "report",
+   "pos": "noun",
+   "occurrences": 18,
+   "open": 4
+  },
+  {
+   "word": "vanity",
+   "pos": "noun",
+   "occurrences": 18,
+   "open": 1
+  },
+  {
+   "word": "direction",
+   "pos": "noun",
+   "occurrences": 17,
+   "open": 6
+  },
+  {
+   "word": "period",
+   "pos": "noun",
+   "occurrences": 17,
+   "open": 4
+  },
+  {
+   "word": "recover",
+   "pos": "verb",
+   "occurrences": 17,
+   "open": 3
+  },
+  {
+   "word": "taste",
+   "pos": "noun",
+   "occurrences": 17,
+   "open": 4
+  },
+  {
+   "word": "card",
+   "pos": "noun",
+   "occurrences": 16,
+   "open": 8
+  },
+  {
+   "word": "distance",
+   "pos": "noun",
+   "occurrences": 16,
+   "open": 3
+  },
+  {
+   "word": "escape",
+   "pos": "verb",
+   "occurrences": 16,
+   "open": 4
+  },
+  {
+   "word": "interrupt",
+   "pos": "verb",
+   "occurrences": 16,
+   "open": 1
+  },
+  {
+   "word": "picture",
+   "pos": "noun",
+   "occurrences": 16,
+   "open": 7
+  },
+  {
+   "word": "consideration",
+   "pos": "noun",
+   "occurrences": 15,
+   "open": 2
+  },
+  {
+   "word": "difference",
+   "pos": "noun",
+   "occurrences": 15,
+   "open": 2
+  },
+  {
+   "word": "offend",
+   "pos": "verb",
+   "occurrences": 14,
+   "open": 1
+  },
+  {
+   "word": "possibility",
+   "pos": "noun",
+   "occurrences": 14,
+   "open": 1
+  },
+  {
+   "word": "wonder",
+   "pos": "noun",
+   "occurrences": 14,
+   "open": 1
+  },
+  {
+   "word": "immediate",
+   "pos": "adjective",
+   "occurrences": 13,
+   "open": 2
+  },
+  {
+   "word": "interference",
+   "pos": "noun",
+   "occurrences": 13,
+   "open": 2
+  },
+  {
+   "word": "story",
+   "pos": "noun",
+   "occurrences": 13,
+   "open": 3
+  },
+  {
+   "word": "actually",
+   "pos": "adverb",
+   "occurrences": 12,
+   "open": 1
+  },
+  {
+   "word": "application",
+   "pos": "noun",
+   "occurrences": 12,
+   "open": 4
+  },
+  {
+   "word": "colour",
+   "pos": "noun",
+   "occurrences": 12,
+   "open": 4
+  },
+  {
+   "word": "education",
+   "pos": "noun",
+   "occurrences": 12,
+   "open": 2
+  },
+  {
+   "word": "hall",
+   "pos": "noun",
+   "occurrences": 12,
+   "open": 5
+  },
+  {
+   "word": "use",
+   "pos": "noun",
+   "occurrences": 12,
+   "open": 4
+  },
+  {
+   "word": "introduction",
+   "pos": "noun",
+   "occurrences": 11,
+   "open": 7
+  },
+  {
+   "word": "pretend",
+   "pos": "verb",
+   "occurrences": 11,
+   "open": 3
+  },
+  {
+   "word": "pursue",
+   "pos": "verb",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "twice",
+   "pos": "adverb",
+   "occurrences": 11,
+   "open": 2
+  },
+  {
+   "word": "utter",
+   "pos": "verb",
+   "occurrences": 11,
+   "open": 1
+  },
+  {
+   "word": "argument",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 4
+  },
+  {
+   "word": "guard",
+   "pos": "verb",
+   "occurrences": 10,
+   "open": 1
+  },
+  {
+   "word": "little",
+   "pos": "adverb",
+   "occurrences": 10,
+   "open": 1
+  },
+  {
+   "word": "notice",
+   "pos": "verb",
+   "occurrences": 10,
+   "open": 1
+  },
+  {
+   "word": "source",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 6
+  },
+  {
+   "word": "writing",
+   "pos": "noun",
+   "occurrences": 10,
+   "open": 2
+  },
+  {
+   "word": "buy",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 2
+  },
+  {
+   "word": "death",
+   "pos": "noun",
+   "occurrences": 9,
+   "open": 4
+  },
+  {
+   "word": "effort",
+   "pos": "noun",
+   "occurrences": 9,
+   "open": 1
+  },
+  {
+   "word": "end",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 1
+  },
+  {
+   "word": "impression",
+   "pos": "noun",
+   "occurrences": 9,
+   "open": 6
+  },
+  {
+   "word": "influence",
+   "pos": "noun",
+   "occurrences": 9,
+   "open": 2
+  },
+  {
+   "word": "neglect",
+   "pos": "verb",
+   "occurrences": 9,
+   "open": 1
+  },
+  {
+   "word": "possession",
+   "pos": "noun",
+   "occurrences": 9,
+   "open": 4
+  }
+ ]
+}

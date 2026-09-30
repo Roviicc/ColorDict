@@ -1,0 +1,65 @@
+{"packet": 7, "verdicts": [
+ {"word": "alarm", "pos": "noun",
+  "rank": "right", "why": "Nearly every sentence uses alarm as fear at awareness of danger, and that gloss is listed first.",
+  "senses": [
+   {"synset": "oewn-02697285-n", "verdict": "right", "fault": null, "why": "Learner line matches the gloss, the back-door example is the device sense, and a neutral null fits a describing word."}
+  ]},
+ {"word": "apprehension", "pos": "noun",
+  "rank": "right", "why": "The sentences mostly carry fearful or anxious expectation, which is the first gloss.",
+  "senses": [
+   {"synset": "oewn-05813483-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss faithfully, the example uses apprehension as understanding, and null fits."}
+  ]},
+ {"word": "lay", "pos": "verb",
+  "rank": "right", "why": "Most sentences (laid aside, laid down, laid by, stress laid on) are put-into-a-place or abstract location, listed first, with impose-a-burden as the other strand.",
+  "senses": [
+   {"synset": "oewn-01655514-v", "verdict": "right", "fault": null, "why": "Learner line covers prepare or position for operation, and laying a fire is that sense."},
+   {"synset": "oewn-01547861-v", "verdict": "right", "fault": null, "why": "Learner line and the hen example both match lay eggs, and null fits."}
+  ]},
+ {"word": "share", "pos": "noun",
+  "rank": "right", "why": "The sentences use share as a portion due to a person (of respect, beauty, society, blame), and the first sense, assets due to an individual, is one of the closely related portion senses.",
+  "senses": [
+   {"synset": "oewn-13363150-n", "verdict": "right", "fault": null, "why": "Learner line keeps the equal parts of company capital and the certificate of ownership, and the railway-shares example is the stock sense."},
+   {"synset": "oewn-03974120-n", "verdict": "right", "fault": null, "why": "Learner line restates the ploughshare gloss and the example uses share as that part of a plough."}
+  ]},
+ {"word": "bow", "pos": "noun",
+  "rank": "right", "why": "Every sentence is the bending of the body in greeting or deference, which is listed first.",
+  "senses": [
+   {"synset": "oewn-02883550-n", "verdict": "right", "fault": null, "why": "Learner line matches the ribbon decoration gloss and the hair-bow example fits."},
+   {"synset": "oewn-02883250-n", "verdict": "right", "fault": null, "why": "Learner line and the ship example match the front of a vessel or aircraft."},
+   {"synset": "oewn-02882759-n", "verdict": "right", "fault": null, "why": "Learner line restates the horsehair bow gloss and the violin example uses that sense."},
+   {"synset": "oewn-13918793-n", "verdict": "right", "fault": null, "why": "Learner line matches something curved in shape and the branches-in-a-curve example fits."},
+   {"synset": "oewn-07244001-n", "verdict": "right", "fault": null, "why": "Learner line keeps performers returning to acknowledge applause and the curtain-call example is this sense."},
+   {"synset": "oewn-00548802-n", "verdict": "right", "fault": null, "why": "Learner line covers one stroke of the bow across strings and the single-bow example uses the stroke sense."}
+  ]},
+ {"word": "contempt", "pos": "noun",
+  "rank": "right", "why": "The sentences carry disrespect with dislike or scorn, matching the first gloss.",
+  "senses": [
+   {"synset": "oewn-01182690-n", "verdict": "right", "fault": null, "why": "Learner line keeps both disobedience and disrespect toward a court or legislature, the example is contempt of court, and null is fine for this legal term."}
+  ]},
+ {"word": "horse", "pos": "noun",
+  "rank": "right", "why": "Every sentence is the domestic animal, listed first.",
+  "senses": [
+   {"synset": "oewn-03629976-n", "verdict": "right", "fault": null, "why": "Learner line restates the chess-piece gloss including both move patterns, and the example uses horse as the chessman."},
+   {"synset": "oewn-03543217-n", "verdict": "right", "fault": null, "why": "Learner line matches the padded gymnastic apparatus and the vaulting example uses that sense."}
+  ]},
+ {"word": "tall", "pos": "adjective",
+  "rank": "right", "why": "Every sentence uses tall for stature, which is the first gloss.",
+  "senses": [
+   {"synset": "oewn-00752176-s", "verdict": "right", "fault": null, "why": "Learner line says so difficult it is impressive, matching the gloss, and tall order is the sense."},
+   {"synset": "oewn-02024935-s", "verdict": "right", "fault": null, "why": "Learner line matches lofty in style, tall talk uses that sense, and the candidate reason (can mark a style as puffed up) is fair."}
+  ]},
+ {"word": "delicacy", "pos": "noun",
+  "rank": "right", "why": "The sentences use delicacy as refined taste, tact and sensitivity of feeling, matching the first gloss.",
+  "senses": [
+   {"synset": "oewn-07572730-n", "verdict": "right", "fault": null, "why": "Learner line restates choice food and the oysters example fits."},
+   {"synset": "oewn-05048657-n", "verdict": "right", "fault": null, "why": "Learner line matches lack of physical strength and the boy kept indoors fits."},
+   {"synset": "oewn-05114516-n", "verdict": "right", "fault": null, "why": "Learner line matches slenderness and the fine-thread example fits."},
+   {"synset": "oewn-04640223-n", "verdict": "right", "fault": null, "why": "Learner line matches lightness in movement or manner and the dancer example fits."}
+  ]},
+ {"word": "enjoy", "pos": "verb",
+  "rank": "right", "why": "Every sentence is taking pleasure in something, which is the first gloss.",
+  "senses": [
+   {"synset": "oewn-01195043-v", "verdict": "right", "fault": null, "why": "Learner line matches have benefit from and the special-privileges example uses that sense."},
+   {"synset": "oewn-02115276-v", "verdict": "right", "fault": null, "why": "Learner line matches have for one's benefit and enjoyed good health is that sense."}
+  ]}
+]}

@@ -1,0 +1,68 @@
+{"packet": 4, "verdicts": [
+ {"word": "satisfaction", "pos": "noun",
+  "rank": "right", "why": "Nearly every sentence uses the contentment/gratification sense, which is listed first.",
+  "senses": [
+   {"synset": "oewn-13313810-n", "verdict": "right", "fault": null, "why": "Learner line restates 'compensation for a wrong' faithfully; the example (demanding satisfaction for an insult) uses that sense; null is right since the word describes redress without judging."},
+   {"synset": "oewn-13371012-n", "verdict": "right", "fault": null, "why": "Learner line keeps both the debt payment and the obligation fulfilment; the example is the legal sense; 'technical' is justified by the (law) tag in the gloss; null is right."}
+  ]},
+ {"word": "absence", "pos": "noun",
+  "rank": "right", "why": "The sentences use the state of being away or lacking (including 'absence of mind'), which matches the first-listed gloss.",
+  "senses": [
+   {"synset": "oewn-14111894-n", "verdict": "right", "fault": null, "why": "Learner line carries every element of the medical gloss (sudden, brief, not remembered, twitching or fluttering eyelids, petit mal); the example is a petit mal absence; 'clinical' is justified by the gloss; null is right."}
+  ]},
+ {"word": "forward", "pos": "adverb",
+  "rank": "right", "why": "The sentences split between toward the front ('stepping forward') and toward the future ('look forward'), and the first sense is one of those.",
+  "senses": [
+   {"synset": "oewn-00104546-r", "verdict": "right", "fault": null, "why": "Learner line keeps all three alternatives (time, order, degree); the example ('talks have moved forward') uses this sense; null is right."},
+   {"synset": "oewn-00277124-r", "verdict": "right", "fault": null, "why": "Learner line restates the ship and aircraft-cockpit gloss without adding anything; the example is a nautical use of 'forward'; null is right."}
+  ]},
+ {"word": "interest", "pos": "noun",
+  "rank": "right", "why": "The sentences split across the attention-holding sense, concern/curiosity, and money charged on a loan, and the first-listed sense is one of them.",
+  "senses": [
+   {"synset": "oewn-05150324-n", "verdict": "right", "fault": null, "why": "Learner line restates the gloss; the example ('in the interest of safety') gives safety as the reason for the closure; null is right."},
+   {"synset": "oewn-13307824-n", "verdict": "right", "fault": null, "why": "Learner line keeps both the legal share/right and the financial stake; the example ('sold her interest in the family business') fits; null is right."},
+   {"synset": "oewn-00432492-n", "verdict": "right", "fault": null, "why": "Learner line restates the pleasant time-filling activity; the example (gardening as her main interest) fits; null is right."},
+   {"synset": "oewn-07984994-n", "verdict": "right", "fault": null, "why": "Learner line keeps control of a field, shared aims and the plural usage; the example ('big oil interests') fits; the word itself names a group without judging, so null stands."}
+  ]},
+ {"word": "use", "pos": "verb",
+  "rank": "right", "why": "The sentences split between habitual 'used to' and employing something ('use the term', 'what arts did he use'), and the habitual sense listed first is one of them.",
+  "senses": [
+   {"synset": "oewn-01159815-v", "verdict": "right", "fault": null, "why": "Learner line restates 'use up resources or materials'; the electricity example uses this sense; null is right."},
+   {"synset": "oewn-02606487-v", "verdict": "right", "fault": null, "why": "Learner line covers both seeking and achieving an end by taking advantage; the example is exploitation of a person; the candidate is justified because 'use someone' judges the user as exploitative."},
+   {"synset": "oewn-01167359-v", "verdict": "wrong", "fault": "false-candidate", "why": "The verb here just describes taking or consuming something regularly; any stigma comes from the referent (drugs), not from the word 'use', so it should be null."}
+  ]},
+ {"word": "dance", "pos": "noun",
+  "rank": "right", "why": "'the first dance', 'four dances', 'two first dances' are instances of the rhythmical-steps-to-music sense listed first.",
+  "senses": [
+   {"synset": "oewn-07033652-n", "verdict": "right", "fault": null, "why": "Learner line restates 'artistic form of nonverbal communication' faithfully; the example ('studied dance') uses the art-form sense; null is right."}
+  ]},
+ {"word": "look", "pos": "noun",
+  "rank": "right", "why": "The noun uses split between facial expression ('a look expressive of her wonder') and physical appearance ('looks and behaviour'), and the first sense is one of them.",
+  "senses": [
+   {"synset": "oewn-14549784-n", "verdict": "wrong", "fault": "example-wrong-sense", "why": "'From the look of things' means judging by outward appearance or signs, not the atmosphere of a place and its effect on people, so the example uses a neighbouring sense."}
+  ]},
+ {"word": "care", "pos": "noun",
+  "rank": "right", "why": "The noun uses ('care of the Pemberley property', 'under his sole care') carry the responsibility-for-safety sense listed first.",
+  "senses": [
+   {"synset": "oewn-07539768-n", "verdict": "right", "fault": null, "why": "'A feeling of worry' restates 'an anxious feeling'; the example (care wearing lines into a face) fits; null is right."},
+   {"synset": "oewn-00268366-n", "verdict": "right", "fault": null, "why": "Learner line restates the maintenance gloss; the bicycle example uses that sense; null is right."},
+   {"synset": "oewn-07520286-n", "verdict": "right", "fault": null, "why": "Learner line restates 'a cause for feeling concern'; 'Money was her greatest care' uses that sense; null is right."}
+  ]},
+ {"word": "design", "pos": "noun",
+  "rank": "right", "why": "Nearly all the sentences use design as an intention or plan, which is the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-03183448-n", "verdict": "right", "fault": null, "why": "Learner line restates 'decorative or artistic work'; the painted-plate example fits; null is right."},
+   {"synset": "oewn-03183984-n", "verdict": "right", "fault": null, "why": "Learner line restates the preliminary-sketch gloss; the architect example fits; null is right."},
+   {"synset": "oewn-05910921-n", "verdict": "right", "fault": null, "why": "Learner line restates 'something intended as a guide'; the dress-pattern example fits; null is right."},
+   {"synset": "oewn-05641230-n", "verdict": "right", "fault": null, "why": "Learner line restates 'the creation of something in the mind'; the example (a game she dreamed up) fits; null is right."}
+  ]},
+ {"word": "force", "pos": "verb",
+  "rank": "right", "why": "The verb uses ('forced his younger sister to be civil', 'was forced to give in') are compulsion through pressure, the first-listed sense.",
+  "senses": [
+   {"synset": "oewn-01353131-v", "verdict": "right", "fault": null, "why": "Learner line restates 'do forcibly; exert force'; the stuck-lid example fits; null is right."},
+   {"synset": "oewn-01875972-v", "verdict": "right", "fault": null, "why": "Learner line restates 'move with force'; forcing a door open with the shoulder is an acceptable use; null is right."},
+   {"synset": "oewn-00749422-v", "verdict": "right", "fault": null, "why": "Learner line keeps the urgent, repeated or unstoppable imposition; the example (forcing opinions on everyone) fits; the candidate is justified because the word marks what is imposed as unwelcome."},
+   {"synset": "oewn-01589521-v", "verdict": "right", "fault": null, "why": "Learner line restates 'take by force'; the mountain-pass example fits; null is right."},
+   {"synset": "oewn-01530059-v", "verdict": "right", "fault": null, "why": "Learner line restates the wedge-into-a-tight-space gloss; the crowded-shelf example fits; null is right."}
+  ]}
+]}

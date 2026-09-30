@@ -1,0 +1,65 @@
+{"packet": 6, "verdicts": [
+ {"word": "living", "pos": "noun",
+  "rank": "right", "why": "Most sentences use 'living' as a clergyman's benefice, a source of income, which the first gloss (financial means whereby one lives) covers best.",
+  "senses": [
+   {"synset": "oewn-07962404-n", "verdict": "right", "fault": null, "why": "Learner line 'people who are still alive' matches the gloss, the example uses 'the living' as the living people, and null is right for a descriptive word."}
+  ]},
+ {"word": "reflection", "pos": "noun",
+  "rank": "right", "why": "The sentences mostly use reflection as calm, extended thought (with one remark-like use), and the first sense is that consideration.",
+  "senses": [
+   {"synset": "oewn-11523478-n", "verdict": "right", "fault": null, "why": "Learner line is faithful, the echo example is wave reflection, and the null verdict is right."},
+   {"synset": "oewn-06893299-n", "verdict": "right", "fault": null, "why": "Learner line says 'shown without words', which matches the gloss, and the tired-face example shows something expressed without words."},
+   {"synset": "oewn-04754355-n", "verdict": "right", "fault": null, "why": "Learner line keeps the left-right swap, and the b/d example is a reversed likeness."},
+   {"synset": "oewn-05017811-n", "verdict": "right", "fault": null, "why": "Learner line matches the ability to throw back beams or rays, and the snow example uses that sense."},
+   {"synset": "oewn-13807616-n", "verdict": "right", "fault": null, "why": "The 'technical' label is justified by the '(mathematics)' gloss, the learner line is faithful, and the y-axis example is a true reflection."}
+  ]},
+ {"word": "understanding", "pos": "noun",
+  "rank": "right", "why": "Five of the six sentences use understanding as the capacity for reasoning or intelligence, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-06208877-n", "verdict": "wrong", "fault": "example-wrong-sense", "why": "'Thank you for your understanding while I was ill' shows patient, sympathetic tolerance of someone's circumstances, not an inclination to support, be loyal to, or agree with an opinion as the gloss says."}
+  ]},
+ {"word": "capable", "pos": "adjective",
+  "rank": "right", "why": "The sentences split between ability (capable of giving information) and inclination (capable of it, of such an attempt), and the first sense, ability, is one of the two.",
+  "senses": [
+   {"synset": "oewn-00051593-s", "verdict": "right", "fault": null, "why": "Learner line matches 'having the requisite qualities for', the example uses that sense, and null is right."},
+   {"synset": "oewn-02370095-s", "verdict": "right", "fault": null, "why": "Learner line matches 'possibly accepting or permitting', and 'capable of more than one reading' is that sense."}
+  ]},
+ {"word": "prevail", "pos": "verb",
+  "rank": "right", "why": "Every sentence is 'prevail(ed) on' someone to do something, which is the first sense, persuading successfully.",
+  "senses": [
+   {"synset": "oewn-02653599-v", "verdict": "right", "fault": null, "why": "Learner line 'to keep on existing' matches the gloss, and the belief that has lasted for centuries fits it."},
+   {"synset": "oewn-02654604-v", "verdict": "right", "fault": null, "why": "Learner line keeps all three alternatives (valid, apply, true), and 'conditions that prevailed at the time' is that sense."}
+  ]},
+ {"word": "age", "pos": "noun",
+  "rank": "right", "why": "Most sentences give a person's age in years, meaning how long they have lived, which is the first sense.",
+  "senses": [
+   {"synset": "oewn-15278839-n", "verdict": "right", "fault": null, "why": "Learner line matches 'an era of history having some distinctive feature', and 'an age of machines' fits."},
+   {"synset": "oewn-15267766-n", "verdict": "right", "fault": null, "why": "Learner line matches 'a prolonged period of time', and 'took an age' is that sense."}
+  ]},
+ {"word": "ease", "pos": "noun",
+  "rank": "right", "why": "The sentences split between comfort and freedom from embarrassment ('at ease', 'good spirits') and freedom from difficulty ('write with ease'), and the first sense, freedom from constraint or embarrassment, is one of the split.",
+  "senses": [
+   {"synset": "oewn-01066072-n", "verdict": "right", "fault": null, "why": "Learner line covers work, strain and duties, and the example is about rest from work."},
+   {"synset": "oewn-14515473-n", "verdict": "right", "fault": null, "why": "Learner line matches freedom from money worries living in comfort, and the example shows a comfortable life on someone's money."}
+  ]},
+ {"word": "fact", "pos": "noun",
+  "rank": "right", "why": "The sentences use 'in fact' and 'the fact is', which fit the first sense, a piece of information about circumstances that exist.",
+  "senses": [
+   {"synset": "oewn-05898503-n", "verdict": "right", "fault": null, "why": "Learner line 'an idea that can be proved to be true' matches the gloss, and the theory-versus-fact example uses that sense."}
+  ]},
+ {"word": "indifference", "pos": "noun",
+  "rank": "right", "why": "The sentences use indifference as a calm, unconcerned manner or seeming not to care, which the first sense describes.",
+  "senses": [
+   {"synset": "oewn-07520915-n", "verdict": "right", "fault": null, "why": "Learner line matches 'unbiased impartial unconcern', the judge example uses that sense, and the candidate verdict is reasonable because calling impartiality 'indifference' can come across as coldness, which a learner should know."}
+  ]},
+ {"word": "gain", "pos": "verb",
+  "rank": "right", "why": "The sentences use gain as winning or obtaining something through effort (victory, a point, attention, news), which is the first sense.",
+  "senses": [
+   {"synset": "oewn-00157270-v", "verdict": "right", "fault": null, "why": "Learner line keeps both 'increase' and 'develop', and 'the storm gained strength' fits."},
+   {"synset": "oewn-01113439-v", "verdict": "right", "fault": null, "why": "Learner line matches 'obtain advantages such as points', and both examples show a gain in points or position over a rival."},
+   {"synset": "oewn-02294200-v", "verdict": "right", "fault": null, "why": "Learner line keeps both the business-profit and the wages alternatives, and the sale-of-house example is a commercial gain."},
+   {"synset": "oewn-00045868-v", "verdict": "right", "fault": null, "why": "Learner line 'to put on body weight' matches the gloss, and the example is faithful."},
+   {"synset": "oewn-00158030-v", "verdict": "right", "fault": null, "why": "Learner line matches 'rise in rate or price', and the shares example uses that sense."},
+   {"synset": "oewn-02024442-v", "verdict": "right", "fault": null, "why": "Learner line keeps both the real and abstract destination, and 'gained the top of the hill' is that sense."}
+  ]}
+]}

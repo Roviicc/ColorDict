@@ -1,0 +1,776 @@
+{
+ "packet": 6,
+ "entries": [
+  {
+   "word": "chapter",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "Tailpiece to Chapter V. 26",
+    "Heading to Chapter XVIII.",
+    "Heading to Chapter XXXII.",
+    "Heading to Chapter XXXIV.",
+    "Heading to Chapter XXXVI."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-06407785-n",
+     "gloss": "a subdivision of a written work; usually numbered and titled",
+     "wordnet_examples": [
+      "he read a chapter every night before falling asleep"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-15277718-n",
+     "gloss": "any distinct period in history or in a person's life",
+     "wordnet_examples": [
+      "the industrial revolution opened a new chapter in British history",
+      "the divorce was an ugly chapter in their relationship"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-08245586-n",
+     "gloss": "a local branch of some fraternity or association",
+     "wordnet_examples": [
+      "he joined the Atlanta chapter"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-07321790-n",
+     "gloss": "a series of related events forming an episode",
+     "wordnet_examples": [
+      "a chapter of disasters"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-08245759-n",
+     "gloss": "an ecclesiastical assembly of the monks in a monastery or even of the canons of a church",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": true
+    }
+   ]
+  },
+  {
+   "word": "library",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "In a few days Mr. Bingley returned Mr. Bennet's visit, and sat about ten minutes with him in his library.",
+    "What a delightful library you have at Pemberley, Mr. Darcy!\"",
+    "Mr. Collins readily assented, and a book was produced; but on beholding it (for everything announced it to be from a circulating library) he started back, and, begging pardon, protested that he never read novels.",
+    "I told you in the library, you know, that I should never speak to you again, and you will find me as good as my word.",
+    "Their father then went to the library to write, and the girls walked into the breakfast-room.",
+    "Mary petitioned for the use of the library at Netherfield; and Kitty begged very hard for a few balls there every winter."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-03666235-n",
+     "gloss": "a room where books are kept",
+     "wordnet_examples": [
+      "they had brandy in the library"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-07994293-n",
+     "gloss": "a collection of literary documents or records kept for reference or borrowing",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-03666369-n",
+     "gloss": "a building that houses a collection of books and other materials",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-03665990-n",
+     "gloss": "a depository built to contain books and other materials for reading and study",
+     "wordnet_examples": [],
+     "synonyms": [
+      "depository library"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-07994015-n",
+     "gloss": "(computing) a collection of standard programs and subroutines that are stored and available for immediate use",
+     "wordnet_examples": [],
+     "synonyms": [
+      "program library",
+      "subroutine library"
+     ],
+     "write": true
+    }
+   ]
+  },
+  {
+   "word": "scene",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "\"The present always occupies you in such scenes--does it?\"",
+    "Mr. Bennet, in equal silence, was enjoying the scene.",
+    "Change of scene might be of service--and perhaps a little relief from home may be as useful as anything.\"",
+    "Lakes, mountains, and rivers, shall not be jumbled together in our imaginations; nor, when we attempt to describe any particular scene, will we begin quarrelling about its relative situation.",
+    "Every disposition of the ground was good; and she looked on the whole scene, the river, the trees scattered on its banks, and the winding of the valley, as far as she could trace it, with delight.",
+    "I am truly glad, dearest Lizzy, that you have been spared something of these distressing scenes; but now, as the first shock is over, shall I own that I long for your return?"
+   ],
+   "senses": [
+    {
+     "synset": "oewn-07375441-n",
+     "gloss": "an incident (real or imaginary)",
+     "wordnet_examples": [
+      "their parting was a sad scene"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-05941982-n",
+     "gloss": "the visual percept of a region",
+     "wordnet_examples": [],
+     "synonyms": [
+      "view",
+      "aspect",
+      "prospect",
+      "vista",
+      "panorama"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-08663538-n",
+     "gloss": "the place where some action occurs",
+     "wordnet_examples": [
+      "the police returned to the scene of the crime"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-08585785-n",
+     "gloss": "the context and environment in which something is set",
+     "wordnet_examples": [],
+     "synonyms": [
+      "setting"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-07022924-n",
+     "gloss": "a subdivision of an act of a play or performance",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-14429707-n",
+     "gloss": "a display of bad temper",
+     "wordnet_examples": [
+      "he made a scene"
+     ],
+     "synonyms": [
+      "fit",
+      "tantrum",
+      "conniption"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-13960108-n",
+     "gloss": "a situation treated as an observable object",
+     "wordnet_examples": [
+      "the religious scene in England has changed in the last century"
+     ],
+     "synonyms": [
+      "picture"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-06627082-n",
+     "gloss": "a consecutive series of pictures that constitutes a unit of action in a film",
+     "wordnet_examples": [],
+     "synonyms": [
+      "shot"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-04152121-n",
+     "gloss": "the painted structures of a stage set that are intended to suggest a particular locale",
+     "wordnet_examples": [],
+     "synonyms": [
+      "scenery"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-04151847-n",
+     "gloss": "graphic art consisting of the graphic or photographic representation of a visual percept",
+     "wordnet_examples": [],
+     "synonyms": [
+      "view"
+     ],
+     "write": true
+    }
+   ]
+  },
+  {
+   "word": "trouble",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "Mrs. Bennet wondered at their coming, and thought them very wrong to give so much trouble, and was sure Jane would have caught cold again.",
+    "It is because he will not give himself the trouble.\"",
+    "Does your charge give you much trouble?",
+    "\"Let me write for you,\" said Jane, \"if you dislike the trouble yourself.\"",
+    "\"If you believed it impossible to be true,\" said Elizabeth, colouring with astonishment and disdain, \"I wonder you took the trouble of coming so far.",
+    "It will save me a world of trouble and economy."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00625102-n",
+     "gloss": "an effort that is inconvenient",
+     "wordnet_examples": [
+      "I went to a lot of trouble",
+      "he won without any trouble"
+     ],
+     "synonyms": [
+      "difficulty"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-05695143-n",
+     "gloss": "a source of difficulty",
+     "wordnet_examples": [
+      "one trouble after another delayed the job"
+     ],
+     "synonyms": [
+      "problem"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-07303737-n",
+     "gloss": "an event causing distress or pain",
+     "wordnet_examples": [
+      "what is the trouble?",
+      "heart trouble"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-07539481-n",
+     "gloss": "a strong feeling of anxiety",
+     "wordnet_examples": [],
+     "synonyms": [
+      "worry"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-07387165-n",
+     "gloss": "an angry disturbance",
+     "wordnet_examples": [
+      "they had labor trouble"
+     ],
+     "synonyms": [
+      "fuss",
+      "bother",
+      "hassle"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-14070233-n",
+     "gloss": "an unwanted pregnancy",
+     "wordnet_examples": [
+      "he got several girls in trouble"
+     ],
+     "synonyms": [],
+     "write": true
+    }
+   ]
+  },
+  {
+   "word": "affect",
+   "pos": "verb",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "\"I am afraid, Mr. Darcy,\" observed Miss Bingley, in a half whisper, \"that this adventure has rather affected your admiration of her fine eyes.\"",
+    "Mary's powers were by no means fitted for such a display; her voice was weak, and her manner affected.",
+    "To interrupt a silence which might make him fancy her affected with what had passed, she soon afterwards said,--",
+    "\"You are mistaken, Mr. Darcy, if you suppose that the mode of your declaration affected me in any other way than as it spared me the concern which I might have felt in refusing you, had you behaved in a more gentlemanlike manner.\"",
+    "He had certainly formed such a plan; and without meaning that it should affect his endeavour to separate him from Miss Bennet, it is probable that it might add something to his lively concern for the welfare of his friend.",
+    "I do assure you that the news does not affect me either with pleasure or pain."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-01771801-v",
+     "gloss": "have an emotional or cognitive impact upon",
+     "wordnet_examples": [],
+     "synonyms": [
+      "impress",
+      "move",
+      "strike"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-00137133-v",
+     "gloss": "have an effect upon",
+     "wordnet_examples": [
+      "Will the new rules affect me?"
+     ],
+     "synonyms": [
+      "impact",
+      "bear upon",
+      "bear on",
+      "touch on",
+      "touch"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-00839722-v",
+     "gloss": "make believe with the intent to deceive",
+     "wordnet_examples": [],
+     "synonyms": [
+      "feign",
+      "sham",
+      "pretend",
+      "dissemble"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-00019441-v",
+     "gloss": "act physically on; have an effect upon",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-02682907-v",
+     "gloss": "connect closely and often incriminatingly",
+     "wordnet_examples": [],
+     "synonyms": [
+      "involve",
+      "regard"
+     ],
+     "write": true
+    }
+   ]
+  },
+  {
+   "word": "change",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "Nothing in even our author is finer and more delicately touched than the change of his demeanour at the sudden meeting in the grounds of Pemberley.",
+    "Mr. Collins had only to change from Jane to Elizabeth--and it was soon done--done while Mrs. Bennet was stirring the fire.",
+    "You shall not, for the sake of one individual, change the meaning of principle and integrity, nor endeavour to persuade yourself or me, that selfishness is prudence, and insensibility of danger security for happiness.\"",
+    "There was novelty in the scheme; and as, with such a mother and such uncompanionable sisters, home could not be faultless, a little change was not unwelcome for its own sake.",
+    "My reproofs at Hunsford could not work such a change as this.",
+    "If gratitude and esteem are good foundations of affection, Elizabeth's change of sentiment will be neither improbable nor faulty."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-07311046-n",
+     "gloss": "an event that occurs when something passes from one state or phase to another",
+     "wordnet_examples": [
+      "the change was intended to increase sales",
+      "this storm is certainly a change for the worse"
+     ],
+     "synonyms": [
+      "alteration",
+      "modification"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-04759289-n",
+     "gloss": "a difference that is usually pleasant",
+     "wordnet_examples": [
+      "it is a refreshing change to meet a woman mechanic"
+     ],
+     "synonyms": [
+      "variety"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-00191991-n",
+     "gloss": "the action of changing something",
+     "wordnet_examples": [
+      "the change of government had no impact on the economy",
+      "his change on abortion cost him the election"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-13881240-n",
+     "gloss": "a relational difference between states; especially between states before and after some event",
+     "wordnet_examples": [
+      "he attributed the change to their marriage"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-11432841-n",
+     "gloss": "the result of alteration or modification",
+     "wordnet_examples": [
+      "there had been no change in the mountains"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-13409284-n",
+     "gloss": "coins of small denomination regarded collectively",
+     "wordnet_examples": [
+      "he had a pocketful of change"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-13408862-n",
+     "gloss": "the balance of money received when the amount you tender is greater than the amount due",
+     "wordnet_examples": [
+      "I paid with a twenty and pocketed the change"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-13408652-n",
+     "gloss": "money received in return for its equivalent in a larger denomination or a different currency",
+     "wordnet_examples": [
+      "he got change for a twenty and used it to pay the taxi driver"
+     ],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-03009524-n",
+     "gloss": "a thing that is different",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": true
+    },
+    {
+     "synset": "oewn-03009373-n",
+     "gloss": "a different or fresh set of clothes",
+     "wordnet_examples": [
+      "she brought a change in her overnight bag"
+     ],
+     "synonyms": [],
+     "write": true
+    }
+   ]
+  },
+  {
+   "word": "living",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "The church ought to have been my profession--I was brought up for the church; and I should at this time have been in possession of a most valuable living, had it pleased the gentleman we were speaking of just now.\"",
+    "He meant to provide for me amply, and thought he had done it; but when the living fell, it was given elsewhere.\"",
+    "But what does he say of the living?\"",
+    "For about three years I heard little of him; but on the decease of the incumbent of the living which had been designed for him, he applied to me again by letter for the presentation.",
+    "It was not known that Wickham had a single relation with whom he kept up any connection, and it was certain that he had no near one living.",
+    "\"I mention it because it is the living which I ought to have had."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-13386459-n",
+     "gloss": "the financial means whereby one lives",
+     "wordnet_examples": [],
+     "synonyms": [
+      "support",
+      "keep",
+      "livelihood",
+      "bread and butter",
+      "sustenance"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-05818587-n",
+     "gloss": "the experience of being alive; the course of human events and activities",
+     "wordnet_examples": [],
+     "synonyms": [
+      "life"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-13984978-n",
+     "gloss": "the condition of living or the state of being alive",
+     "wordnet_examples": [],
+     "synonyms": [
+      "animation",
+      "life",
+      "aliveness"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-07962404-n",
+     "gloss": "people who are still living",
+     "wordnet_examples": [
+      "save your pity for the living"
+     ],
+     "synonyms": [],
+     "write": true
+    }
+   ]
+  },
+  {
+   "word": "reflection",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "For you are a young lady of deep reflection, I know, and read great books, and make extracts.\"",
+    "Miss Bingley immediately fixed her eyes on his face, and desired he would tell her what lady had the credit of inspiring such reflections.",
+    "It was a subject, in short, on which reflection would be long indulged, and must be unavailing.",
+    "Elizabeth disdained the appearance of noticing this civil reflection, but its meaning did not escape, nor was it likely to conciliate her.",
+    "Reflection must be reserved for solitary hours: whenever she was alone, she gave way to it as the greatest relief; and not a day went by without a solitary walk, in which she might indulge in all the delight of unpleasant recollections.",
+    "She was roused from her seat and her reflections, by someone's approach; and, before she could strike into another path, she was overtaken by Wickham."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-05793513-n",
+     "gloss": "a calm, lengthy, intent consideration",
+     "wordnet_examples": [],
+     "synonyms": [
+      "contemplation",
+      "reflexion",
+      "rumination",
+      "musing",
+      "thoughtfulness"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-06779826-n",
+     "gloss": "a remark expressing careful consideration",
+     "wordnet_examples": [],
+     "synonyms": [
+      "observation",
+      "reflexion"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-04076088-n",
+     "gloss": "the image of something as reflected by a mirror (or other reflective material)",
+     "wordnet_examples": [
+      "he studied his reflection in the mirror"
+     ],
+     "synonyms": [
+      "reflexion"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-11523478-n",
+     "gloss": "the phenomenon of a propagating wave (light or sound) being thrown back from a surface",
+     "wordnet_examples": [],
+     "synonyms": [
+      "reflexion"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-06893299-n",
+     "gloss": "expression without words",
+     "wordnet_examples": [
+      "the pulse is a reflection of the heart's condition"
+     ],
+     "synonyms": [
+      "expression",
+      "manifestation",
+      "reflexion"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-04754355-n",
+     "gloss": "a likeness in which left and right are reversed",
+     "wordnet_examples": [],
+     "synonyms": [
+      "mirror image",
+      "reflexion"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-05017811-n",
+     "gloss": "the ability to reflect beams or rays",
+     "wordnet_examples": [],
+     "synonyms": [
+      "reflexion",
+      "reflectivity"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-13807616-n",
+     "gloss": "(mathematics) a transformation in which the direction of one axis is reversed",
+     "wordnet_examples": [],
+     "synonyms": [],
+     "write": true
+    }
+   ]
+  },
+  {
+   "word": "understanding",
+   "pos": "noun",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "She was a woman of mean understanding, little information, and uncertain temper.",
+    "\"To yield without conviction is no compliment to the understanding of either.\"",
+    "I have faults enough, but they are not, I hope, of understanding.",
+    "First, that you will allow me the free use of my understanding on the present occasion; and, secondly, of my room.",
+    "Her understanding excellent, her mind improved, and her manners captivating.",
+    "But when they had withdrawn, he said to her, \"Mrs. Bennet, before you take any, or all of these houses, for your son and daughter, let us come to a right understanding."
+   ],
+   "senses": [
+    {
+     "synset": "oewn-05659525-n",
+     "gloss": "the capacity for rational thought or inference or discrimination",
+     "wordnet_examples": [],
+     "synonyms": [
+      "reason",
+      "intellect"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-06783066-n",
+     "gloss": "the statement (oral or written) of an exchange of promises",
+     "wordnet_examples": [
+      "there was an understanding between management and the workers"
+     ],
+     "synonyms": [
+      "agreement"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-05813483-n",
+     "gloss": "the cognitive condition of someone who understands",
+     "wordnet_examples": [
+      "he has virtually no understanding of social cause and effect"
+     ],
+     "synonyms": [
+      "apprehension",
+      "discernment",
+      "savvy"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-06208877-n",
+     "gloss": "an inclination to support or be loyal to or to agree with an opinion",
+     "wordnet_examples": [
+      "I knew I could count on his understanding"
+     ],
+     "synonyms": [
+      "sympathy"
+     ],
+     "write": true
+    }
+   ]
+  },
+  {
+   "word": "capable",
+   "pos": "adjective",
+   "book": "Pride and Prejudice",
+   "sentences": [
+    "You could not have met with a person more capable of giving you certain information on that head than myself--for I have been connected with his family, in a particular manner, from my infancy.\"",
+    "No man of common humanity, no man who had any value for his character, could be capable of it.",
+    "She saw her in idea settled in that very house, in all the felicity which a marriage of true affection could bestow; and she felt capable, under such circumstances, of endeavouring even to like Bingley's two sisters.",
+    "Nor was Darcy's vindication, though grateful to her feelings, capable of consoling her for such discovery.",
+    "But of every other neglect I can believe him capable.",
+    "And who is there, whatever might be their former conduct, that she would believe capable of such an attempt, till it were proved against them?"
+   ],
+   "senses": [
+    {
+     "synset": "oewn-00307112-a",
+     "gloss": "(usually followed by ‘of’) having capacity or ability",
+     "wordnet_examples": [
+      "capable of winning",
+      "capable of hard work"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-00308813-a",
+     "gloss": "(followed by ‘of’) having the temperament or inclination for",
+     "wordnet_examples": [
+      "no one believed her capable of murder"
+     ],
+     "synonyms": [],
+     "write": false
+    },
+    {
+     "synset": "oewn-00512273-s",
+     "gloss": "have the skills and qualifications to do things well",
+     "wordnet_examples": [
+      "a capable administrator",
+      "children as young as 14 can be extremely capable and dependable"
+     ],
+     "synonyms": [
+      "able"
+     ],
+     "write": false
+    },
+    {
+     "synset": "oewn-00051593-s",
+     "gloss": "having the requisite qualities for",
+     "wordnet_examples": [],
+     "synonyms": [
+      "adequate to",
+      "equal to",
+      "up to"
+     ],
+     "write": true
+    },
+    {
+     "synset": "oewn-02370095-s",
+     "gloss": "possibly accepting or permitting",
+     "wordnet_examples": [
+      "a passage capable of misinterpretation"
+     ],
+     "synonyms": [
+      "open",
+      "subject"
+     ],
+     "write": true
+    }
+   ]
+  }
+ ]
+}
