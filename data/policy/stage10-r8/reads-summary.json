@@ -1,0 +1,35 @@
+{
+ "entries_read": 97,
+ "entries_with_a_fault": 14,
+ "entry_defect_rate": 0.1443,
+ "senses_read": 284,
+ "senses_wrong": 12,
+ "sense_defect_rate": 0.0423,
+ "rank_wrong": 5,
+ "unsure": 3,
+ "faults": {
+  "false-null": 9,
+  "rank-wrong": 5,
+  "example-wrong-sense": 2,
+  "label-unjustified": 1
+ },
+ "wrong": [
+  "dreadful/oewn-00090922-s false-null: Learner and example match the gloss, but 'dreadful' meaning extremely disagreeable is a strongly negative, emphatic judgment of what it describes, so null understates how it lands.",
+  "future/oewn-01890452-s example-wrong-sense: The example 'future contracts, not those already signed' just means contracts yet to be made, which is sense 1, and does not show the distinct effective-in-or-looking-toward-the-future sense (low confidence, since the rule's forward effect is arguable).",
+  "uneasy/adjective rank: Every sentence shows worry or anxiety ('anxious, uneasy', 'do not make yourself uneasy', 'uneasy for her'), which is the anxiety sense listed second, while the first-listed 'lacking a sense of security' (not feeling safe) is not what the characters feel.",
+  "warm/oewn-00447342-s label-unjustified: The 'informal' label is supported by nothing in the gloss or sentences (no packet sentence uses this sense), and the learner line also adds 'or guessing' to 'of a seeker'.",
+  "mere/oewn-01797082-s false-null: Its own example ('the mere stateliness of money and rank she thought she could witness without trepidation') shows 'mere' diminishing what it names, the same belittling the second sense is flagged for, so null understates how the word lands.",
+  "alive/adjective rank: Five of the six sentences carry having life, vigor or spirit (dead-alive, alive and imperishable, half alive, perfectly alive, curiosity all alive) and that sense sits second, below 'aware of', which only the last sentence uses.",
+  "honourable/oewn-02042493-s false-null: Calling someone or their conduct honourable is praise, so the word in this sense judges what it is aimed at and a learner would need to know it lands as approval, yet the verdict is null; learner line and examples are otherwise faithful.",
+  "ruin/oewn-00580070-v example-wrong-sense: The example 'left to ruin' uses ruin as a noun, not the intransitive verb 'fall into ruin' this sense describes.",
+  "subsist/verb rank: All four sentences use subsist for a feeling or relation continuing to exist between people ('subsisted between Mr. Darcy and herself'), but the only listed sense is 'support oneself', which none of them use.",
+  "trifling/noun rank: Every sentence uses trifling as an adjective meaning trivial or petty ('little trifling colds', 'no trifling nature'), but the only listed sense is the noun for deliberately delaying and playing instead of working.",
+  "imprudent/oewn-01905427-a false-null: Learner line and examples are fine, but calling a choice imprudent plainly judges it negatively (deserved to lose Mr. Darcy's regard), so null is wrong.",
+  "imprudent/oewn-00777014-s false-null: Learner line and example are fine, but 'lacking wise self-restraint' (imprudent and extravagant) is a criticism of the person, so null is wrong.",
+  "incivility/oewn-04922542-n false-null: Learner and examples are faithful, but incivility is a fault-word that itself condemns deliberate rudeness, so null understates how it lands.",
+  "wonderful/adjective rank: All three sentences use the older 'causing wonder, surprising, remarkable' sense (it is wonderful that pride has been his best friend; wonderful how many families), not 'extraordinarily good or great', and that sense is not listed at all, so the lone first sense is not the one the sentences use.",
+  "wonderful/oewn-01681111-s false-null: The learner line and example match the gloss, but 'extraordinarily good', used as a praising intensifier, plainly judges its target favourably, so a null verdict is wrong and it should be a candidate.",
+  "worthy/oewn-01024736-s false-null: Learner line and example fit the gloss, but calling someone worthy judges them as deserving recognition, the mirror of odious (which is marked as deserving hatred), so null is wrong and it should be a candidate.",
+  "worthy/oewn-00855376-s false-null: Learner line and both examples fit the spouse sense, but 'worthy of being chosen' approves of the person it describes, so null is wrong and it should be a candidate."
+ ]
+}
