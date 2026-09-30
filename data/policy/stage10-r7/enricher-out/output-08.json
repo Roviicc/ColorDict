@@ -1,140 +1,287 @@
-{"packet": 8, "entries": [
- {"word": "rank", "pos": "noun",
-  "senses": {
-   "oewn-08415136-n": {"learner": "the ordinary members of an organization, such as the common soldiers of an army.",
-                       "examples": ["The new plan was popular with the rank and file of the union."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-08417922-n": {"learner": "all the people who belong to an organization or group.",
-                       "examples": ["The club's ranks have grown to more than two hundred people."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "charm", "pos": "noun",
-  "senses": {
-   "oewn-05852960-n": {"learner": "in physics, one of the six kinds of quark, the third heaviest of them all.",
-                       "examples": ["The six flavours of quark are up, down, strange, charm, top and bottom."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "profession", "pos": "noun",
-  "senses": {
-   "oewn-06697785-n": {"learner": "a statement that you accept and believe in a religion or faith.",
-                       "examples": ["She made a public profession of her Christian faith."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "right", "pos": "noun",
-  "senses": {
-   "oewn-05572970-n": {"learner": "the hand on the right side of your body.",
-                       "examples": ["She held the cup in her left and the spoon in her right."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00351826-n": {"learner": "a turn toward your right-hand side.",
-                       "examples": ["Make a right after the bridge."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13362771-n": {"learner": "a claim that the law or custom gives you to something that cannot be touched, often used in the plural.",
-                       "examples": ["The studio bought the film rights to her novel."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-08433609-n": {"learner": "the people who support conservative ideas in politics, society, or the economy, and who think things are better left as they are.",
-                       "examples": ["The new tax plan was attacked by the right."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04098951-n": {"learner": "in baseball, the part of the outfield on the catcher's right.",
-                       "examples": ["He hit the ball deep to right."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "suspicion", "pos": "noun",
-  "senses": {
-   "oewn-04903174-n": {"learner": "the quality of being a person who tends to suspect or distrust others.",
-                       "examples": ["Detection could not be in your power, and suspicion certainly not in your inclination."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "names a distrustful temperament, against plain caution or wariness"}}
-  }},
- {"word": "treat", "pos": "verb",
-  "senses": {
-   "oewn-00652816-v": {"learner": "to regard or think of something in a particular way.",
-                       "examples": ["Mr. Bennet treated the matter differently.", "They treated his warning as a joke."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01035399-v": {"learner": "to deal with a subject in words or in some kind of art.",
-                       "examples": ["Her book treats the subject of marriage with great wit."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00516235-v": {"learner": "to put something through a process to make it ready for a use, to improve it, or to fix a problem with it.",
-                       "examples": ["The wood was treated to protect it from rot."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01178529-v": {"learner": "to give someone very good food or drink, or plenty of it.",
-                       "examples": ["Our hosts treated us to a feast of roast meats and fine wines."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00764765-v": {"learner": "to talk with another side in order to reach an agreement.",
-                       "examples": ["The rebels refused to treat with the government."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "secure", "pos": "verb",
-  "senses": {
-   "oewn-02354702-v": {"learner": "to make sure that something will be paid.",
-                       "examples": ["The loan is secured against the house."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01425540-v": {"learner": "to fill or close something tightly with a plug, or with something that works like a plug.",
-                       "examples": ["They secured the gaps in the wall with rags so no wind came through."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01309085-v": {"learner": "to fit something with battens, which are narrow strips of wood or metal.",
-                       "examples": ["The crew secured the hatches with battens before the storm."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "stop", "pos": "verb",
-  "senses": {
-   "oewn-02686624-v": {"learner": "to bring a state or an activity to an end.",
-                       "examples": ["She stopped smoking last year."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02565578-v": {"learner": "to keep something from happening or from growing.",
-                       "examples": ["Quick action stopped the fire from spreading."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02615799-v": {"learner": "to come to an end, in time, in space, or in amount, whether really or in a figurative way.",
-                       "examples": ["The path stops at the edge of the wood."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01133899-v": {"learner": "to hold back a danger or an enemy, or to keep something from spreading or gaining more power.",
-                       "examples": ["The army stopped the enemy at the river."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00363263-v": {"learner": "to stop and wait, as if waiting for more orders or for something to happen.",
-                       "examples": ["Stop right there until I tell you to move on."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01442997-v": {"learner": "to catch or take hold of something while it is on its way somewhere.",
-                       "examples": ["The guard stopped the letter before it reached the prisoner."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01480632-v": {"learner": "to make a road or way impossible to pass along.",
-                       "examples": ["A heap of fallen trees stopped the lane."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "unhappy", "pos": "adjective",
-  "senses": {
-   "oewn-01055513-s": {"learner": "full of unhappiness, or causing unhappiness.",
-                       "examples": ["The soldiers began an unhappy march through rain and mud."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "account", "pos": "verb",
-  "senses": {
-   "oewn-02270039-v": {"learner": "to keep a record of something.",
-                       "examples": ["The clerk accounts the money that comes in each day."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 8,
+ "entries": [
+  {
+   "word": "rank",
+   "pos": "noun",
+   "senses": {
+    "oewn-08415136-n": {
+     "learner": "the ordinary members of an organization, such as the common soldiers of an army.",
+     "examples": [
+      "The new plan was popular with the rank and file of the union."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-08417922-n": {
+     "learner": "all the people who belong to an organization or group.",
+     "examples": [
+      "The club's ranks have grown to more than two hundred people."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "charm",
+   "pos": "noun",
+   "senses": {
+    "oewn-05852960-n": {
+     "learner": "in physics, one of the six kinds of quark, the third heaviest of them all.",
+     "examples": [
+      "The six flavours of quark are up, down, strange, charm, top and bottom."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "profession",
+   "pos": "noun",
+   "senses": {
+    "oewn-06697785-n": {
+     "learner": "a statement that you accept and believe in a religion or faith.",
+     "examples": [
+      "She made a public profession of her Christian faith."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "right",
+   "pos": "noun",
+   "senses": {
+    "oewn-05572970-n": {
+     "learner": "the hand on the right side of your body.",
+     "examples": [
+      "She held the cup in her left and the spoon in her right."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00351826-n": {
+     "learner": "a turn toward your right-hand side.",
+     "examples": [
+      "Make a right after the bridge."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13362771-n": {
+     "learner": "a claim that the law or custom gives you to something that cannot be touched, often used in the plural.",
+     "examples": [
+      "The studio bought the film rights to her novel."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-08433609-n": {
+     "learner": "the people who support conservative ideas in politics, society, or the economy, and who think things are better left as they are.",
+     "examples": [
+      "The new tax plan was attacked by the right."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04098951-n": {
+     "learner": "in baseball, the part of the outfield on the catcher's right.",
+     "examples": [
+      "He hit the ball deep to right."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "suspicion",
+   "pos": "noun",
+   "senses": {
+    "oewn-04903174-n": {
+     "learner": "the quality of being a person who tends to suspect or distrust others.",
+     "examples": [
+      "Detection could not be in your power, and suspicion certainly not in your inclination."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "names a distrustful temperament, against plain caution or wariness"
+     }
+    }
+   }
+  },
+  {
+   "word": "treat",
+   "pos": "verb",
+   "senses": {
+    "oewn-00652816-v": {
+     "learner": "to regard or think of something in a particular way.",
+     "examples": [
+      "Mr. Bennet treated the matter differently.",
+      "They treated his warning as a joke."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01035399-v": {
+     "learner": "to deal with a subject in words or in some kind of art.",
+     "examples": [
+      "Her book treats the subject of marriage with great wit."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00516235-v": {
+     "learner": "to put something through a process to make it ready for a use, to improve it, or to fix a problem with it.",
+     "examples": [
+      "The wood was treated to protect it from rot."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01178529-v": {
+     "learner": "to give someone very good food or drink, or plenty of it.",
+     "examples": [
+      "Our hosts treated us to a feast of roast meats and fine wines."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00764765-v": {
+     "learner": "to talk with another side in order to reach an agreement.",
+     "examples": [
+      "The rebels refused to treat with the government."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "secure",
+   "pos": "verb",
+   "senses": {
+    "oewn-02354702-v": {
+     "learner": "to make sure that something will be paid.",
+     "examples": [
+      "The loan is secured against the house."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01425540-v": {
+     "learner": "to fill or close something tightly with a plug, or with something that works like a plug.",
+     "examples": [
+      "They secured the gaps in the wall with rags so no wind came through."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01309085-v": {
+     "learner": "to fit something with battens, which are narrow strips of wood or metal.",
+     "examples": [
+      "The crew secured the hatches with battens before the storm."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "stop",
+   "pos": "verb",
+   "senses": {
+    "oewn-02686624-v": {
+     "learner": "to bring a state or an activity to an end.",
+     "examples": [
+      "She stopped smoking last year."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02565578-v": {
+     "learner": "to keep something from happening or from growing.",
+     "examples": [
+      "Quick action stopped the fire from spreading."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02615799-v": {
+     "learner": "to come to an end, in time, in space, or in amount, whether really or in a figurative way.",
+     "examples": [
+      "The path stops at the edge of the wood."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01133899-v": {
+     "learner": "to hold back a danger or an enemy, or to keep something from spreading or gaining more power.",
+     "examples": [
+      "The army stopped the enemy at the river."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00363263-v": {
+     "learner": "to stop and wait, as if waiting for more orders or for something to happen.",
+     "examples": [
+      "Stop right there until I tell you to move on."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01442997-v": {
+     "learner": "to catch or take hold of something while it is on its way somewhere.",
+     "examples": [
+      "The guard stopped the letter before it reached the prisoner."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01480632-v": {
+     "learner": "to make a road or way impossible to pass along.",
+     "examples": [
+      "A heap of fallen trees stopped the lane."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "unhappy",
+   "pos": "adjective",
+   "senses": {
+    "oewn-01055513-s": {
+     "learner": "full of unhappiness, or causing unhappiness.",
+     "examples": [
+      "The soldiers began an unhappy march through rain and mud."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "account",
+   "pos": "verb",
+   "senses": {
+    "oewn-02270039-v": {
+     "learner": "to keep a record of something.",
+     "examples": [
+      "The clerk accounts the money that comes in each day."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

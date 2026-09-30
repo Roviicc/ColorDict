@@ -1,200 +1,406 @@
-{"packet": 10, "entries": [
- {"word": "eat", "pos": "verb",
-  "senses": {
-   "oewn-01159815-v": {"learner": "to use up resources or materials.",
-                       "examples": ["The old car eats a lot of petrol on long trips."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01770125-v": {"learner": "to keep worrying someone or making them anxious.",
-                       "examples": ["Something was eating him, but he would not say what it was."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00275082-v": {"learner": "to make something get worse or break down through the action of water, air, or an acid.",
-                       "examples": ["The acid ate through the metal pipe."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "vex", "pos": "verb",
-  "senses": {
-   "oewn-01422127-v": {"learner": "to change how something is arranged or where it is.",
-                       "examples": ["Strong winds vexed the surface of the sea."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00814544-v": {"learner": "to examine, discuss, or think about something for a long time.",
-                       "examples": ["Scholars have vexed the question for many years without agreeing."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "dispose", "pos": "verb",
-  "senses": {
-   "oewn-01499136-v": {"learner": "to put things in a certain order or arrangement.",
-                       "examples": ["She disposed the chairs in a circle around the fire."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00301542-v": {"learner": "to make someone or something fit or ready.",
-                       "examples": ["Good food and a night's rest disposed the troops for the long march."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "relieve", "pos": "verb",
-  "senses": {
-   "oewn-00082316-v": {"learner": "to bring help or ease to someone or something in trouble.",
-                       "examples": ["it has often led him to be liberal and generous; to give his money freely, to display hospitality, to assist his tenants, and relieve the poor."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02417305-v": {"learner": "to free someone from their duties for a period of time.",
-                       "examples": ["At midnight another guard came to relieve him."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00895399-v": {"learner": "to excuse or release someone from something.",
-                       "examples": ["A note from the doctor relieved her from sports for a week."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02570061-v": {"learner": "to let someone off from following a rule or meeting a requirement.",
-                       "examples": ["Poor farmers were relieved from paying the new tax."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00199442-v": {"learner": "to lessen or remove pressure or stress, or to make something less hard to bear.",
-                       "examples": ["A valve in the pipe relieves the pressure when it gets too high."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02556565-v": {"learner": "to save something from being ruined, destroyed, or harmed.",
-                       "examples": ["An army marched north to relieve the town under siege."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02317862-v": {"learner": "to steal something from someone.",
-                       "examples": ["A pickpocket relieved him of his wallet on the train."],
-                       "usage_labels": [],
-                       "connotation": {"candidate": true, "why": "polite-sounding word used in place of steal"}},
-   "oewn-00938680-v": {"learner": "to free yourself of troubling information by telling it to someone.",
-                       "examples": ["She relieved herself of the secret by telling her sister everything."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "save", "pos": "verb",
-  "senses": {
-   "oewn-02270824-v": {"learner": "to put money aside so that you have it to use later.",
-                       "examples": ["She saves ten dollars every week for a new bike."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02271765-v": {"learner": "to spend less money, or to pay a lower price for something.",
-                       "examples": ["You save twenty percent if you buy the tickets online."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02557529-v": {"learner": "to bring someone or something into a safe place or state.",
-                       "examples": ["The captain saved the crew by steering the ship into the harbour."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02470006-v": {"learner": "to choose not to hurt someone or something.",
-                       "examples": ["The hunter saved the young deer and let it run away."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02557299-v": {"learner": "to free someone from their sins.",
-                       "examples": ["They believed that faith would save their souls."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01000931-v": {"learner": "to store information on a computer.",
-                       "examples": ["Save the file before you close the program."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02288561-v": {"learner": "to keep your right to have or use something.",
-                       "examples": ["Could you save my place in the queue while I get a drink?"],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "sing", "pos": "verb",
-  "senses": {
-   "oewn-01045759-v": {"learner": "to make a whining, ringing, or whistling sound.",
-                       "examples": ["The kettle sang on the stove.", "A stone sang past his head."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "delicate", "pos": "adjective",
-  "senses": {
-   "oewn-00750606-s": {"learner": "hard to deal with and needing great care not to upset anyone.",
-                       "examples": ["And, if I may mention so delicate a subject, endeavour to check that little something, bordering on conceit and impertinence, which your lady possesses."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00712660-s": {"learner": "easy to break, damage, or destroy.",
-                       "examples": ["Be careful with that glass vase; it is very delicate."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00709335-a": {"learner": "very fine, subtle, and pleasing, and also easily harmed.",
-                       "examples": ["She served the tea in delicate china cups."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02457397-s": {"learner": "easy to hurt.",
-                       "examples": ["Use a mild soap on a baby's delicate skin."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01955211-s": {"learner": "made or worked out in a very fine and subtle way.",
-                       "examples": ["The characteristics of Miss Austen's humour are so subtle and delicate that they are, perhaps, at all times easier to apprehend than to express"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02111262-s": {"learner": "of a tool or device: able to measure very small differences or changes exactly.",
-                       "examples": ["Only a very delicate instrument could detect such a small change."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "unknown", "pos": "adjective",
-  "senses": {
-   "oewn-00969942-s": {"learner": "not known to you before.",
-                       "examples": ["Mr. Philips visited them all, and this opened to his nieces a source of felicity unknown before."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01379820-a": {"learner": "not known.",
-                       "examples": ["The cause of the fire is still unknown."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01126357-s": {"learner": "not famous or widely praised.",
-                       "examples": ["The film starred an unknown young actor."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00121594-s": {"learner": "coming from someone or something whose name is not known or not given.",
-                       "examples": ["The money was given by an unknown donor."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02379193-s": {"learner": "not known to be there at all.",
-                       "examples": ["The divers found a kind of fish unknown to science."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "briefly", "pos": "adverb",
-  "senses": {
-   "oewn-00291174-r": {"learner": "in a short way, using only a few words.",
-                       "examples": ["These causes must be stated, though briefly.", "To Mr. Bennet's acknowledgments he briefly replied, with assurances of his eagerness to promote the welfare of any of his family"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00034576-r": {"learner": "for a short time.",
-                       "examples": ["We met briefly last summer."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "turning", "pos": "noun",
-  "senses": {
-   "oewn-00350856-n": {"learner": "the act of changing direction, or of going back the opposite way.",
-                       "examples": ["The turning of the big ship took several minutes."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-07366212-n": {"learner": "a movement in a new direction.",
-                       "examples": ["The sudden turning of the wind blew smoke into our faces."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00196264-n": {"learner": "the act of changing the way things are usually done.",
-                       "examples": ["The town's turning away from its old customs was slow."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00927993-n": {"learner": "the work of shaping something on a lathe, a machine that spins it while it is cut.",
-                       "examples": ["He learned wood turning at evening classes."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-04507799-n": {"learner": "an object made by shaping something on a lathe.",
-                       "examples": ["The shop sold bowls and other wooden turnings."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-09487228-n": {"learner": "a thin piece that comes off when something is shaped on a lathe.",
-                       "examples": ["Metal turnings piled up on the floor under the lathe."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 10,
+ "entries": [
+  {
+   "word": "eat",
+   "pos": "verb",
+   "senses": {
+    "oewn-01159815-v": {
+     "learner": "to use up resources or materials.",
+     "examples": [
+      "The old car eats a lot of petrol on long trips."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01770125-v": {
+     "learner": "to keep worrying someone or making them anxious.",
+     "examples": [
+      "Something was eating him, but he would not say what it was."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00275082-v": {
+     "learner": "to make something get worse or break down through the action of water, air, or an acid.",
+     "examples": [
+      "The acid ate through the metal pipe."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "vex",
+   "pos": "verb",
+   "senses": {
+    "oewn-01422127-v": {
+     "learner": "to change how something is arranged or where it is.",
+     "examples": [
+      "Strong winds vexed the surface of the sea."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00814544-v": {
+     "learner": "to examine, discuss, or think about something for a long time.",
+     "examples": [
+      "Scholars have vexed the question for many years without agreeing."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "dispose",
+   "pos": "verb",
+   "senses": {
+    "oewn-01499136-v": {
+     "learner": "to put things in a certain order or arrangement.",
+     "examples": [
+      "She disposed the chairs in a circle around the fire."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00301542-v": {
+     "learner": "to make someone or something fit or ready.",
+     "examples": [
+      "Good food and a night's rest disposed the troops for the long march."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "relieve",
+   "pos": "verb",
+   "senses": {
+    "oewn-00082316-v": {
+     "learner": "to bring help or ease to someone or something in trouble.",
+     "examples": [
+      "it has often led him to be liberal and generous; to give his money freely, to display hospitality, to assist his tenants, and relieve the poor."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02417305-v": {
+     "learner": "to free someone from their duties for a period of time.",
+     "examples": [
+      "At midnight another guard came to relieve him."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00895399-v": {
+     "learner": "to excuse or release someone from something.",
+     "examples": [
+      "A note from the doctor relieved her from sports for a week."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02570061-v": {
+     "learner": "to let someone off from following a rule or meeting a requirement.",
+     "examples": [
+      "Poor farmers were relieved from paying the new tax."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00199442-v": {
+     "learner": "to lessen or remove pressure or stress, or to make something less hard to bear.",
+     "examples": [
+      "A valve in the pipe relieves the pressure when it gets too high."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02556565-v": {
+     "learner": "to save something from being ruined, destroyed, or harmed.",
+     "examples": [
+      "An army marched north to relieve the town under siege."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02317862-v": {
+     "learner": "to steal something from someone.",
+     "examples": [
+      "A pickpocket relieved him of his wallet on the train."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "polite-sounding word used in place of steal"
+     }
+    },
+    "oewn-00938680-v": {
+     "learner": "to free yourself of troubling information by telling it to someone.",
+     "examples": [
+      "She relieved herself of the secret by telling her sister everything."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "save",
+   "pos": "verb",
+   "senses": {
+    "oewn-02270824-v": {
+     "learner": "to put money aside so that you have it to use later.",
+     "examples": [
+      "She saves ten dollars every week for a new bike."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02271765-v": {
+     "learner": "to spend less money, or to pay a lower price for something.",
+     "examples": [
+      "You save twenty percent if you buy the tickets online."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02557529-v": {
+     "learner": "to bring someone or something into a safe place or state.",
+     "examples": [
+      "The captain saved the crew by steering the ship into the harbour."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02470006-v": {
+     "learner": "to choose not to hurt someone or something.",
+     "examples": [
+      "The hunter saved the young deer and let it run away."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02557299-v": {
+     "learner": "to free someone from their sins.",
+     "examples": [
+      "They believed that faith would save their souls."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01000931-v": {
+     "learner": "to store information on a computer.",
+     "examples": [
+      "Save the file before you close the program."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02288561-v": {
+     "learner": "to keep your right to have or use something.",
+     "examples": [
+      "Could you save my place in the queue while I get a drink?"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "sing",
+   "pos": "verb",
+   "senses": {
+    "oewn-01045759-v": {
+     "learner": "to make a whining, ringing, or whistling sound.",
+     "examples": [
+      "The kettle sang on the stove.",
+      "A stone sang past his head."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "delicate",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00750606-s": {
+     "learner": "hard to deal with and needing great care not to upset anyone.",
+     "examples": [
+      "And, if I may mention so delicate a subject, endeavour to check that little something, bordering on conceit and impertinence, which your lady possesses."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00712660-s": {
+     "learner": "easy to break, damage, or destroy.",
+     "examples": [
+      "Be careful with that glass vase; it is very delicate."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00709335-a": {
+     "learner": "very fine, subtle, and pleasing, and also easily harmed.",
+     "examples": [
+      "She served the tea in delicate china cups."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02457397-s": {
+     "learner": "easy to hurt.",
+     "examples": [
+      "Use a mild soap on a baby's delicate skin."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01955211-s": {
+     "learner": "made or worked out in a very fine and subtle way.",
+     "examples": [
+      "The characteristics of Miss Austen's humour are so subtle and delicate that they are, perhaps, at all times easier to apprehend than to express"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02111262-s": {
+     "learner": "of a tool or device: able to measure very small differences or changes exactly.",
+     "examples": [
+      "Only a very delicate instrument could detect such a small change."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "unknown",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00969942-s": {
+     "learner": "not known to you before.",
+     "examples": [
+      "Mr. Philips visited them all, and this opened to his nieces a source of felicity unknown before."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01379820-a": {
+     "learner": "not known.",
+     "examples": [
+      "The cause of the fire is still unknown."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01126357-s": {
+     "learner": "not famous or widely praised.",
+     "examples": [
+      "The film starred an unknown young actor."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00121594-s": {
+     "learner": "coming from someone or something whose name is not known or not given.",
+     "examples": [
+      "The money was given by an unknown donor."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02379193-s": {
+     "learner": "not known to be there at all.",
+     "examples": [
+      "The divers found a kind of fish unknown to science."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "briefly",
+   "pos": "adverb",
+   "senses": {
+    "oewn-00291174-r": {
+     "learner": "in a short way, using only a few words.",
+     "examples": [
+      "These causes must be stated, though briefly.",
+      "To Mr. Bennet's acknowledgments he briefly replied, with assurances of his eagerness to promote the welfare of any of his family"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00034576-r": {
+     "learner": "for a short time.",
+     "examples": [
+      "We met briefly last summer."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "turning",
+   "pos": "noun",
+   "senses": {
+    "oewn-00350856-n": {
+     "learner": "the act of changing direction, or of going back the opposite way.",
+     "examples": [
+      "The turning of the big ship took several minutes."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-07366212-n": {
+     "learner": "a movement in a new direction.",
+     "examples": [
+      "The sudden turning of the wind blew smoke into our faces."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00196264-n": {
+     "learner": "the act of changing the way things are usually done.",
+     "examples": [
+      "The town's turning away from its old customs was slow."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00927993-n": {
+     "learner": "the work of shaping something on a lathe, a machine that spins it while it is cut.",
+     "examples": [
+      "He learned wood turning at evening classes."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-04507799-n": {
+     "learner": "an object made by shaping something on a lathe.",
+     "examples": [
+      "The shop sold bowls and other wooden turnings."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-09487228-n": {
+     "learner": "a thin piece that comes off when something is shaped on a lathe.",
+     "examples": [
+      "Metal turnings piled up on the floor under the lathe."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}

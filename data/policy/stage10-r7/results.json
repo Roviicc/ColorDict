@@ -57,14 +57,14 @@
      "connotation": null
     },
     "oewn-08263223-n": {
-     "learner": "A loose group of gangsters who run organized crime.",
+     "learner": "a loose group of gangsters who together run organized crime.",
      "examples": [
-      "He was the youngest son of a powerful crime family."
+      "The police arrested three members of a powerful crime family."
      ],
      "usage_labels": [],
      "connotation": {
       "candidate": true,
-      "why": "names a criminal gang as if it were a group of close relatives"
+      "why": "calls a criminal gang by the warm word for kin, against plain 'syndicate'"
      }
     }
    }
@@ -405,9 +405,9 @@
      "connotation": null
     },
     "oewn-01319724-v": {
-     "learner": "to hunt or look for someone because you need them for a particular reason.",
+     "learner": "to hunt or look for someone, or to want them for a particular reason.",
      "examples": [
-      "The police want him for questioning about the fire."
+      "The man is wanted by the police for questioning about the robbery."
      ],
      "usage_labels": [],
      "connotation": null
@@ -647,9 +647,9 @@
      "connotation": null
     },
     "oewn-02244933-v": {
-     "learner": "to get someone to give you work or help.",
+     "learner": "to hire someone to do work for you or to help you.",
      "examples": [
-      "We engaged the help of a local guide."
+      "The farmer engaged extra help for the harvest."
      ],
      "usage_labels": [],
      "connotation": null
@@ -821,7 +821,7 @@
     "oewn-00637185-v": {
      "learner": "to understand what something means.",
      "examples": [
-      "He could not answer the puzzle of her long silence."
+      "He read the old letter again and again, but he could not answer what it meant."
      ],
      "usage_labels": [],
      "connotation": null
@@ -1651,12 +1651,15 @@
    "why": null,
    "senses": {
     "oewn-00811888-v": {
-     "learner": "To dodge a question or avoid answering it, or to take something for granted without showing it is true.",
+     "learner": "to get around a question or point, to avoid answering it, or to treat it as already settled.",
      "examples": [
-      "He begged the point and started talking about something else."
+      "Your argument begs the question, because it assumes the very thing it sets out to prove."
      ],
      "usage_labels": [],
-     "connotation": null
+     "connotation": {
+      "candidate": true,
+      "why": "names a fault in an argument, against plain 'assume'"
+     }
     }
    }
   },
@@ -1811,13 +1814,11 @@
      "connotation": null
     },
     "oewn-00823421-a": {
-     "learner": "Belonging to the first stage in the growth of a language or of its writings.",
+     "learner": "from an early stage in the growth of a language or of its writings.",
      "examples": [
-      "This poem is written in Early Modern English."
+      "Shakespeare wrote in Early Modern English."
      ],
-     "usage_labels": [
-      "technical"
-     ],
+     "usage_labels": [],
      "connotation": null
     }
    }
@@ -2177,7 +2178,7 @@
    "why": null,
    "senses": {
     "oewn-01893603-v": {
-     "learner": "to move quickly back and forth, or to make something do this.",
+     "learner": "to move back and forth, or to make something move back and forth.",
      "examples": [
       "Shake the bottle well before you open it."
      ],
@@ -2399,9 +2400,9 @@
      "connotation": null
     },
     "oewn-00654017-v": {
-     "learner": "to recognise and name a kind of plant, animal, or other thing, as is done in the study of living things",
+     "learner": "to identify what something is, as when you work out what kind of plant or animal you have found.",
      "examples": [
-      "The beetle was discovered and described by a young scientist in 1850."
+      "Using the key in her field guide, she discovered the plant to be a kind of wild orchid."
      ],
      "usage_labels": [],
      "connotation": null
@@ -2984,13 +2985,11 @@
      "connotation": null
     },
     "oewn-02391154-v": {
-     "learner": "to give someone an official position as a priest or minister in the church",
+     "learner": "to appoint someone to a job as a priest or other church official.",
      "examples": [
-      "He was ordered priest by the bishop in the spring."
+      "The bishop ordered him deacon the following spring."
      ],
-     "usage_labels": [
-      "archaic"
-     ],
+     "usage_labels": [],
      "connotation": null
     }
    }
@@ -3409,8 +3408,8 @@
  "counts": {
   "accepted": 93,
   "senses_written": 318,
-  "null": 311,
-  "candidate": 7,
+  "null": 310,
+  "candidate": 8,
   "rejected": 7
  }
 }

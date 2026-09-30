@@ -1,172 +1,358 @@
-{"packet": 5, "entries": [
- {"word": "disposition", "pos": "noun",
-  "senses": {
-   "oewn-00044347-n": {"learner": "The act of getting rid of something, or the way you get rid of it.",
-                       "examples": ["The town had to plan the disposition of all its old rubbish."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "humour", "pos": "noun",
-  "senses": {
-   "oewn-04657558-n": {"learner": "The ability to enjoy funny things and to be funny yourself.",
-                       "examples": ["She has a good sense of humour and can laugh at her own mistakes."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05612290-n": {"learner": "In the Middle Ages, one of four liquids in the body that people believed controlled how a person felt in mind and body.",
-                       "examples": ["Doctors in the Middle Ages thought too much of one humour could make a person sad or angry."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-05404811-n": {"learner": "Any of the liquids found in the body.",
-                       "examples": ["The eye is filled with a clear humour that helps it keep its shape."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "strong", "pos": "adjective",
-  "senses": {
-   "oewn-02283161-s": {"learner": "In good condition and well made, so that it is solid.",
-                       "examples": ["The old bridge is still strong enough to walk across."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00845738-s": {"learner": "Firm and sure, done with force and without shaking or doubt.",
-                       "examples": ["She gave a strong pull on the rope."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01829730-a": {"learner": "Having a powerful effect on the body or on other substances.",
-                       "examples": ["Wear gloves, because this cleaner is strong enough to burn your skin."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02536283-s": {"learner": "So well protected that it cannot be attacked or secretly changed.",
-                       "examples": ["Use a strong password so that no one can break into your account."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01162481-s": {"learner": "Made by distilling rather than by fermenting, with a lot of alcohol in it.",
-                       "examples": ["He drank a little beer but never touched strong drink."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01072383-s": {"learner": "Fresh, because it was made or left only a short time ago.",
-                       "examples": ["The hunters followed a strong trail into the woods."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01968612-s": {"learner": "Of a verb, changing its form in a way that does not follow the usual rules.",
-                       "examples": ["'Sing' is a strong verb, because its past tense is 'sang'."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "truth", "pos": "noun",
-  "senses": {
-   "oewn-04810156-n": {"learner": "The quality of being close to the real or correct value.",
-                       "examples": ["The scientist checked the truth of her measurements on a second scale."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "beg", "pos": "verb",
-  "senses": {
-   "oewn-00811888-v": {"learner": "To dodge a question or avoid answering it, or to take something for granted without showing it is true.",
-                       "examples": ["He begged the point and started talking about something else."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "declare", "pos": "verb",
-  "senses": {
-   "oewn-01012145-v": {"learner": "To say something strongly, as someone who has the power or right to say it.",
-                       "examples": ["The general declared that no soldier would leave the camp that night."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00967903-v": {"learner": "To make something known to the public, or to say it officially.",
-                       "examples": ["The country declared war on its neighbour."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01012879-v": {"learner": "To tell a customs officer about goods you are bringing in that you may have to pay tax on.",
-                       "examples": ["Do you have anything to declare?", "He declared the watch he had bought abroad."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02449420-v": {"learner": "To give official approval for paying something out.",
-                       "examples": ["The company declared a dividend of two dollars a share."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-02305510-v": {"learner": "In a card game, to choose the trump suit, or to choose to play with no trumps, by making the last bid of a hand.",
-                       "examples": ["After the bidding was over, she declared spades."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "prove", "pos": "verb",
-  "senses": {
-   "oewn-02537291-v": {"learner": "To test something to see how good it is, or to try it out.",
-                       "examples": ["The engineers proved the new engine on a long drive before selling it."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00667548-v": {"learner": "To show that something is true by a formal proof, as in mathematics.",
-                       "examples": ["The student proved the theorem in just three lines."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01987148-v": {"learner": "To grow bigger and take up more space.",
-                       "examples": ["Leave the dough in a warm place to prove for an hour."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01979601-v": {"learner": "To make something puff up by adding yeast or something that works like it.",
-                       "examples": ["The baker proves the bread with yeast overnight."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00667689-v": {"learner": "To get a court to officially accept a will as valid.",
-                       "examples": ["The family had to prove the will before they could sell the house."],
-                       "usage_labels": ["technical"],
-                       "connotation": null},
-   "oewn-01748860-v": {"learner": "To print a test copy of something so that it can be checked.",
-                       "examples": ["The printer proved the page before printing a thousand copies."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "early", "pos": "adjective",
-  "senses": {
-   "oewn-00816521-a": {"learner": "Happening at or near the start of a time or a series of events, or before the usual or expected time.",
-                       "examples": ["Mr. Bennet was among the earliest of those who waited on Mr. Bingley.", "Mrs. Bennet, through the assistance of servants, contrived to have the earliest tidings of it"],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00820993-a": {"learner": "Being in, or happening in, the first stages of growing or developing.",
-                       "examples": ["The illness is easier to treat in its early stages."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01733616-s": {"learner": "Belonging to a time long ago.",
-                       "examples": ["The early people of the island built their houses of stone."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-01737207-s": {"learner": "Expected to happen soon.",
-                       "examples": ["Both sides are hoping for an early end to the war."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-00823421-a": {"learner": "Belonging to the first stage in the growth of a language or of its writings.",
-                       "examples": ["This poem is written in Early Modern English."],
-                       "usage_labels": ["technical"],
-                       "connotation": null}
-  }},
- {"word": "directly", "pos": "adverb",
-  "senses": {
-   "oewn-00058666-r": {"learner": "In an open and honest way, saying plainly what you mean.",
-                       "examples": ["I asked her a simple question, but she would not answer directly."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }},
- {"word": "mile", "pos": "noun",
-  "senses": {
-   "oewn-07484465-n": {"learner": "A running race that is one mile long.",
-                       "examples": ["She won the mile at the school sports day."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13682724-n": {"learner": "An old British unit of length equal to 6,080 feet (1,853.184 meters), which is 800 feet longer than an ordinary mile.",
-                       "examples": ["By the old British measure, this nautical mile was 6,080 feet long."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13682973-n": {"learner": "An old British unit of length once used for finding the way at sea, equal to 6,000 feet (1828.8 meters).",
-                       "examples": ["British sailors once counted a sea mile as 6,000 feet."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13677032-n": {"learner": "A unit of length used in ancient Rome, equal to 1,620 yards.",
-                       "examples": ["The Romans set a stone beside the road at every mile."],
-                       "usage_labels": [],
-                       "connotation": null},
-   "oewn-13676880-n": {"learner": "A Swedish unit of length equal to 10 kilometres.",
-                       "examples": ["In Sweden a mile is ten kilometres, so the trip was only three miles."],
-                       "usage_labels": [],
-                       "connotation": null}
-  }}
-]}
+{
+ "packet": 5,
+ "entries": [
+  {
+   "word": "disposition",
+   "pos": "noun",
+   "senses": {
+    "oewn-00044347-n": {
+     "learner": "The act of getting rid of something, or the way you get rid of it.",
+     "examples": [
+      "The town had to plan the disposition of all its old rubbish."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "humour",
+   "pos": "noun",
+   "senses": {
+    "oewn-04657558-n": {
+     "learner": "The ability to enjoy funny things and to be funny yourself.",
+     "examples": [
+      "She has a good sense of humour and can laugh at her own mistakes."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05612290-n": {
+     "learner": "In the Middle Ages, one of four liquids in the body that people believed controlled how a person felt in mind and body.",
+     "examples": [
+      "Doctors in the Middle Ages thought too much of one humour could make a person sad or angry."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-05404811-n": {
+     "learner": "Any of the liquids found in the body.",
+     "examples": [
+      "The eye is filled with a clear humour that helps it keep its shape."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "strong",
+   "pos": "adjective",
+   "senses": {
+    "oewn-02283161-s": {
+     "learner": "In good condition and well made, so that it is solid.",
+     "examples": [
+      "The old bridge is still strong enough to walk across."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00845738-s": {
+     "learner": "Firm and sure, done with force and without shaking or doubt.",
+     "examples": [
+      "She gave a strong pull on the rope."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01829730-a": {
+     "learner": "Having a powerful effect on the body or on other substances.",
+     "examples": [
+      "Wear gloves, because this cleaner is strong enough to burn your skin."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02536283-s": {
+     "learner": "So well protected that it cannot be attacked or secretly changed.",
+     "examples": [
+      "Use a strong password so that no one can break into your account."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01162481-s": {
+     "learner": "Made by distilling rather than by fermenting, with a lot of alcohol in it.",
+     "examples": [
+      "He drank a little beer but never touched strong drink."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01072383-s": {
+     "learner": "Fresh, because it was made or left only a short time ago.",
+     "examples": [
+      "The hunters followed a strong trail into the woods."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01968612-s": {
+     "learner": "Of a verb, changing its form in a way that does not follow the usual rules.",
+     "examples": [
+      "'Sing' is a strong verb, because its past tense is 'sang'."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "truth",
+   "pos": "noun",
+   "senses": {
+    "oewn-04810156-n": {
+     "learner": "The quality of being close to the real or correct value.",
+     "examples": [
+      "The scientist checked the truth of her measurements on a second scale."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "beg",
+   "pos": "verb",
+   "senses": {
+    "oewn-00811888-v": {
+     "learner": "to get around a question or point, to avoid answering it, or to treat it as already settled.",
+     "examples": [
+      "Your argument begs the question, because it assumes the very thing it sets out to prove."
+     ],
+     "usage_labels": [],
+     "connotation": {
+      "candidate": true,
+      "why": "names a fault in an argument, against plain 'assume'"
+     }
+    }
+   }
+  },
+  {
+   "word": "declare",
+   "pos": "verb",
+   "senses": {
+    "oewn-01012145-v": {
+     "learner": "To say something strongly, as someone who has the power or right to say it.",
+     "examples": [
+      "The general declared that no soldier would leave the camp that night."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00967903-v": {
+     "learner": "To make something known to the public, or to say it officially.",
+     "examples": [
+      "The country declared war on its neighbour."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01012879-v": {
+     "learner": "To tell a customs officer about goods you are bringing in that you may have to pay tax on.",
+     "examples": [
+      "Do you have anything to declare?",
+      "He declared the watch he had bought abroad."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02449420-v": {
+     "learner": "To give official approval for paying something out.",
+     "examples": [
+      "The company declared a dividend of two dollars a share."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-02305510-v": {
+     "learner": "In a card game, to choose the trump suit, or to choose to play with no trumps, by making the last bid of a hand.",
+     "examples": [
+      "After the bidding was over, she declared spades."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "prove",
+   "pos": "verb",
+   "senses": {
+    "oewn-02537291-v": {
+     "learner": "To test something to see how good it is, or to try it out.",
+     "examples": [
+      "The engineers proved the new engine on a long drive before selling it."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00667548-v": {
+     "learner": "To show that something is true by a formal proof, as in mathematics.",
+     "examples": [
+      "The student proved the theorem in just three lines."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01987148-v": {
+     "learner": "To grow bigger and take up more space.",
+     "examples": [
+      "Leave the dough in a warm place to prove for an hour."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01979601-v": {
+     "learner": "To make something puff up by adding yeast or something that works like it.",
+     "examples": [
+      "The baker proves the bread with yeast overnight."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00667689-v": {
+     "learner": "To get a court to officially accept a will as valid.",
+     "examples": [
+      "The family had to prove the will before they could sell the house."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    },
+    "oewn-01748860-v": {
+     "learner": "To print a test copy of something so that it can be checked.",
+     "examples": [
+      "The printer proved the page before printing a thousand copies."
+     ],
+     "usage_labels": [
+      "technical"
+     ],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "early",
+   "pos": "adjective",
+   "senses": {
+    "oewn-00816521-a": {
+     "learner": "Happening at or near the start of a time or a series of events, or before the usual or expected time.",
+     "examples": [
+      "Mr. Bennet was among the earliest of those who waited on Mr. Bingley.",
+      "Mrs. Bennet, through the assistance of servants, contrived to have the earliest tidings of it"
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00820993-a": {
+     "learner": "Being in, or happening in, the first stages of growing or developing.",
+     "examples": [
+      "The illness is easier to treat in its early stages."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01733616-s": {
+     "learner": "Belonging to a time long ago.",
+     "examples": [
+      "The early people of the island built their houses of stone."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-01737207-s": {
+     "learner": "Expected to happen soon.",
+     "examples": [
+      "Both sides are hoping for an early end to the war."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-00823421-a": {
+     "learner": "from an early stage in the growth of a language or of its writings.",
+     "examples": [
+      "Shakespeare wrote in Early Modern English."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "directly",
+   "pos": "adverb",
+   "senses": {
+    "oewn-00058666-r": {
+     "learner": "In an open and honest way, saying plainly what you mean.",
+     "examples": [
+      "I asked her a simple question, but she would not answer directly."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  },
+  {
+   "word": "mile",
+   "pos": "noun",
+   "senses": {
+    "oewn-07484465-n": {
+     "learner": "A running race that is one mile long.",
+     "examples": [
+      "She won the mile at the school sports day."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13682724-n": {
+     "learner": "An old British unit of length equal to 6,080 feet (1,853.184 meters), which is 800 feet longer than an ordinary mile.",
+     "examples": [
+      "By the old British measure, this nautical mile was 6,080 feet long."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13682973-n": {
+     "learner": "An old British unit of length once used for finding the way at sea, equal to 6,000 feet (1828.8 meters).",
+     "examples": [
+      "British sailors once counted a sea mile as 6,000 feet."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13677032-n": {
+     "learner": "A unit of length used in ancient Rome, equal to 1,620 yards.",
+     "examples": [
+      "The Romans set a stone beside the road at every mile."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    },
+    "oewn-13676880-n": {
+     "learner": "A Swedish unit of length equal to 10 kilometres.",
+     "examples": [
+      "In Sweden a mile is ten kilometres, so the trip was only three miles."
+     ],
+     "usage_labels": [],
+     "connotation": null
+    }
+   }
+  }
+ ]
+}
