@@ -1,12 +1,13 @@
-/* Fills in the download button from the newest GitHub release, so publishing a
-   release updates this page with no redeploy. Everything degrades to a plain
-   link to the releases page if the API is unreachable or rate-limited. */
+/* Fills in the download button from release.json, written beside the APK by
+   tools/web_release.py, so the APK is served from this site's own origin.
+   If release.json cannot be read, the button falls back to the GitHub
+   releases page, and the rest of the page is unaffected. */
 (function () {
     "use strict";
 
     var REPO = "Roviicc/ColorDict";
     var RELEASES_URL = "https://github.com/" + REPO + "/releases";
-    var API_URL = "https://api.github.com/repos/" + REPO + "/releases/latest";
+    var META_URL = "release.json";
 
     var button = document.getElementById("primary-btn");
     var meta = document.getElementById("release-meta");
@@ -26,10 +27,6 @@
             { year: "numeric", month: "long", day: "numeric" });
     }
 
-    function isDebug(name) {
-        return /debug/i.test(name);
-    }
-
     function fallback(message) {
         button.href = RELEASES_URL;
         button.textContent = "Download from GitHub";
@@ -38,47 +35,34 @@
     }
 
     function render(release) {
-        var apks = (release.assets || []).filter(function (a) {
-            return /\.apk$/i.test(a.name);
-        });
-        if (apks.length === 0) {
-            fallback("No APK attached to " + (release.tag_name || "the latest release") + ".");
+        if (!release || !release.file) {
+            fallback("Open the releases page to download.");
             return;
         }
 
-        // Prefer the debug build: it is signed and installs directly.
-        var primary = apks.filter(function (a) { return isDebug(a.name); })[0] || apks[0];
-
-        button.href = primary.browser_download_url;
-        button.textContent = "Download " + (release.tag_name || "APK");
+        button.href = release.file;
+        button.textContent = "Download " + (release.tag || "APK");
         button.setAttribute("download", "");
 
         var parts = [];
-        if (release.tag_name) parts.push(release.tag_name);
-        parts.push(formatSize(primary.size));
+        if (release.tag) parts.push(release.tag);
+        parts.push(formatSize(release.size));
         var published = formatDate(release.published_at);
         if (published) parts.push("released " + published);
         meta.textContent = parts.join(" · ");
         meta.className = "meta";
 
-        // List any other builds (the unsigned release APK) underneath.
-        var others = apks.filter(function (a) { return a !== primary; });
-        if (others.length > 0) {
+        // The unsigned release APK and the full notes stay on GitHub.
+        if (release.releases_url) {
             var list = document.createElement("ul");
             list.className = "assets";
-            others.forEach(function (a) {
-                var li = document.createElement("li");
-                var link = document.createElement("a");
-                link.href = a.browser_download_url;
-                link.textContent = a.name;
-                link.setAttribute("download", "");
-                var size = document.createElement("span");
-                size.className = "size";
-                size.textContent = " (" + formatSize(a.size) + ")";
-                li.appendChild(link);
-                li.appendChild(size);
-                list.appendChild(li);
-            });
+            var li = document.createElement("li");
+            var link = document.createElement("a");
+            link.href = release.releases_url;
+            link.rel = "noopener";
+            link.textContent = "Release notes and the unsigned APK on GitHub";
+            li.appendChild(link);
+            list.appendChild(li);
             container.appendChild(list);
         }
     }
@@ -88,13 +72,13 @@
         return;
     }
 
-    fetch(API_URL, { headers: { Accept: "application/vnd.github+json" } })
+    fetch(META_URL, { cache: "no-cache" })
         .then(function (response) {
             if (!response.ok) throw new Error("HTTP " + response.status);
             return response.json();
         })
         .then(render)
         .catch(function () {
-            fallback("Could not reach GitHub just now — open the releases page.");
+            fallback("Could not read the release just now — open the releases page.");
         });
 }());

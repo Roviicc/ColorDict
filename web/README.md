@@ -3,11 +3,21 @@
 The download page for **Pop Up Dictionary**, offering the latest APK. It is plain HTML, CSS and one small
 script — no framework, no build step, nothing to install.
 
-The download button is filled in at page load from the
-[GitHub Releases API](https://api.github.com/repos/Roviicc/ColorDict/releases/latest),
-so **publishing a new release updates the site automatically** with no redeploy.
-If the API is unreachable or rate-limited, the button falls back to the
-repository's releases page, and the rest of the page is unaffected.
+The APK is served from this folder, so the site is the download, not a
+pointer to GitHub. `colordict-debug.apk` sits beside the page and
+`release.json` (version, size, date, sha256) fills in the button at page load.
+If `release.json` cannot be read, the button falls back to the repository's
+releases page, and the rest of the page is unaffected.
+
+**After every release**, run
+
+```bash
+python3 tools/web_release.py            # fetches the latest release's debug APK
+git add web/colordict-debug.apk web/release.json
+```
+
+and commit; Vercel redeploys from `main` and serves the new file. The unsigned
+release APK and the full notes stay on GitHub Releases, linked under the button.
 
 ## Deploying to Vercel
 
