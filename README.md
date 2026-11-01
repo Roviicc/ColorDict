@@ -1,157 +1,105 @@
-# ColorDict (open-source clone)
+# ColorDict
 
-A free, open-source, offline multi-dictionary viewer for Android, inspired by
-the classic **ColorDict** app: type a word once and see color-coded results
-from *every* enabled dictionary at the same time.
+A clean English dictionary for Android with a quick-lookup popup. Every entry
+(pronunciation, meanings, examples, synonyms, **connotation**, origin) is
+written on demand by Claude through a small server you deploy yourself, then
+kept on the phone so words open instantly and work offline the next time.
 
-> This is an independent re-implementation written from scratch. It is **not
-> affiliated with or endorsed by** the authors of the original ColorDict
-> application.
+| Word | Popup | Home | Dark |
+|---|---|---|---|
+| ![Word](docs/screenshots/word.png) | ![Popup](docs/screenshots/popup.png) | ![Home](docs/screenshots/home.png) | ![Dark](docs/screenshots/word_night.png) |
 
-## Features
-
-- **StarDict dictionary support** — the de-facto standard free dictionary
-  format:
-  - `.ifo` / `.idx` / `.dict` (and gzip-compressed `.idx.gz`)
-  - **dictzip** `.dict.dz` files with true random access (no full decompression)
-  - `.syn` synonym files, 32-bit and 64-bit index offsets
-  - all common article types: plain text, HTML, XDXF, Pango markup, phonetics,
-    MediaWiki text, WordNet, and typed multi-block articles
-- **Aggregated, color-coded results** — every enabled dictionary answers at
-  once; each result card carries its dictionary's color, and suggestions show
-  a colored dot per dictionary that knows the word
-- **Fast incremental search** with case-insensitive prefix matching, synonym
-  matching, and "similar words" when nothing matches exactly
-- **Dictionary manager** — import via the system file picker (single files or
-  whole folders), enable/disable, reorder priority, recolor, inspect, delete
-- **History & bookmarks**, with configurable history size
-- **Cross-reference links** (`bword://`) inside articles jump to the linked word
-- **Text-to-speech** pronunciation, clipboard, share, and Wikipedia/Wiktionary/
-  web search shortcuts
-- **Third-party lookup API** compatible with the well-known ColorDict intent
-  (see below) — e-book readers that support ColorDict popups work out of the box
-- **Light/dark theme**, adjustable definition text size
-- **Zero dependencies, no ads, no network permission** — the app never touches
-  the internet except when *you* tap a web link
-- Ships with a tiny built-in sample glossary so the UI works on first launch
-
-## Getting dictionaries
-
-The app reads dictionaries in StarDict format. Many free dictionaries are
-available on the web (e.g. conversions of FreeDict, Wiktionary, GCIDE, and
-WordNet). A dictionary is a set of files sharing one base name:
+## How it fits together
 
 ```
-mydict.ifo        metadata (required)
-mydict.idx        word index (or mydict.idx.gz)
-mydict.dict       articles  (or mydict.dict.dz)
-mydict.syn        synonyms  (optional)
+Android app ──GET /api/define?word=serene──▶ Vercel function ──▶ Claude API
+     ▲                                         (api/define.ts)
+     └───────────── JSON dictionary entry ◀────────┘
 ```
 
-Add them in **⋮ → Dictionaries → Import dictionary files…** (or *Import
-folder…*), or copy the files with `adb push` to the app's dictionary folder
-(shown under *How to add dictionaries* in the app) and tap *Rescan storage*.
+- **`api/define.ts`** is a single serverless function. It asks Claude for one
+  entry using structured outputs, so the reply always matches a fixed JSON
+  schema, and Vercel's CDN caches each word for 30 days. Your Anthropic API
+  key stays on the server; it is never in the APK.
+- **`app/`** is the Android app: plain Java with no libraries (the APK is
+  under 100 KB).
 
-## Lookup API for other apps
+## 1. Deploy the dictionary server
 
-Any app can request a floating definition popup:
+1. Import this repository in [Vercel](https://vercel.com/new). The defaults
+   work: no build command and no root directory to set.
+2. Under **Settings → Environment Variables**, add:
+
+   | Variable | Required | Value |
+   |---|---|---|
+   | `ANTHROPIC_API_KEY` | yes | Your key from the [Claude Console](https://platform.claude.com/) |
+   | `CLAUDE_MODEL` | no | Model ID, default `claude-opus-5-5` |
+   | `CLAUDE_EFFORT` | no | `low` (default), `medium` or `high`. Lower is faster and cheaper |
+   | `APP_TOKEN` | no | Any random string. The app must send the same value (see below) |
+
+3. Redeploy, then open `https://<your-app>.vercel.app/api/define?word=serene`.
+   You should get a JSON entry back.
+
+Opus is the default for entry quality. For faster, much cheaper lookups set
+`CLAUDE_MODEL=claude-haiku-5-5`. Policy declines are retried on Anthropic's
+recommended fallback model (`fallbacks: "default"`).
+
+The endpoint is public, so put a spend limit on your Anthropic key. You can
+also turn on Vercel's firewall rate limiting for `/api/define`. `APP_TOKEN`
+keeps casual callers out, but anyone who unpacks the APK can read it.
+
+## 2. Build the app with your server address
+
+```bash
+./gradlew assembleDebug -PdictApiUrl=https://<your-app>.vercel.app
+# optional, if you set APP_TOKEN on the server:
+#   -PdictAppToken=<same value>
+```
+
+The APK is written to `app/build/outputs/apk/debug/`. The address can also be
+set later in the app under **Settings → Server address**.
+
+For CI-built APKs (GitHub Actions and tagged releases), add a repository
+variable `DICT_API_URL` under **Settings → Secrets and variables → Actions →
+Variables**. Push a `v*` tag to publish a release with installable APKs.
+
+## The popup
+
+Select text in any app and tap **Define**, or share text to ColorDict, and a
+bottom sheet opens over what you're reading. Tap a synonym to look it up in
+place, tap the expand icon for the full entry, and swipe down to close.
+
+E-book readers that support the classic ColorDict lookup intent keep working:
 
 ```java
 Intent intent = new Intent("colordict.intent.action.SEARCH");
-intent.putExtra("EXTRA_QUERY", "hello");
-// optional:
-intent.putExtra("EXTRA_FULLSCREEN", false);   // true opens the full app
-intent.putExtra("EXTRA_WIDTH", widthPx);      // popup geometry
+intent.putExtra("EXTRA_QUERY", "serene");
+// optional
+intent.putExtra("EXTRA_FULLSCREEN", false);       // true opens the full entry
+intent.putExtra("EXTRA_GRAVITY", Gravity.BOTTOM); // TOP / CENTER float as a card
+intent.putExtra("EXTRA_WIDTH", widthPx);
 intent.putExtra("EXTRA_HEIGHT", heightPx);
-intent.putExtra("EXTRA_GRAVITY", Gravity.BOTTOM);
-intent.putExtra("EXTRA_MARGIN_BOTTOM", marginPx);
+intent.putExtra("EXTRA_MARGIN_BOTTOM", marginPx); // also _LEFT, _TOP, _RIGHT
 startActivity(intent);
 ```
 
-Selected text in any app also gets a **Define** entry (Android's
-process-text menu), and plain text can be shared to the app.
-
-## Installing on a phone
-
-Grab the ready-to-install **debug APK** from the
-[Releases page](https://github.com/roviicc/colordict/releases) (or from any
-CI run's artifacts), allow installing from unknown sources, and open it.
-Pushing a `v*` tag builds and publishes a new release automatically.
-
-## Trying it on a computer
-
-### With Android Studio (the full app)
-
-1. **File → Open** and select this folder, then let Gradle sync (it downloads
-   the Android Gradle Plugin and SDK pieces on first run).
-2. If it asks for an SDK, install **Android SDK Platform 35** via
-   *Tools → SDK Manager*.
-3. Create an emulator in *Tools → Device Manager* (any device image, API 24+),
-   then press **Run ▶**.
-4. To test the popup API that other apps use, run this against the emulator:
-
-   ```bash
-   adb shell am start -a colordict.intent.action.SEARCH -e EXTRA_QUERY serene
-   ```
-
-Hardware acceleration matters: on Linux the emulator needs KVM
-(`ls /dev/kvm`), and on Windows/macOS it uses the platform hypervisor. If the
-emulator will not start, plug in a real phone with USB debugging instead —
-`./gradlew installDebug` puts the app on it.
-
-### Without the Android SDK (desktop harness)
-
-`run-desktop.sh` runs the **same StarDict engine and color-coded renderer**
-the app uses, in a small Swing window. It needs nothing but a **JDK 17+** —
-no Android SDK, no Gradle, no emulator — so it is the quickest way to check
-dictionary parsing and lookups, or to try a dictionary file before copying it
-to your phone.
+## Development
 
 ```bash
-./run-desktop.sh                        # window, with the bundled sample glossary
-./run-desktop.sh --dict ~/my-dicts      # also load your own dictionaries
-./run-desktop.sh --lookup serene        # print one definition in the terminal
-./run-desktop.sh --list                 # list the dictionaries that loaded
+npm install && npm run typecheck && npm test   # server
+./gradlew test assembleDebug                    # app (JDK 17+, Android SDK 35)
 ```
 
-Windows: use `run-desktop.bat` with the same options.
-
-## Building from the command line
-
-```bash
-./gradlew assembleDebug     # installable APK at app/build/outputs/apk/debug/
-./gradlew test              # StarDict engine unit tests (pure JVM)
 ```
-
-Requirements: JDK 17+ and the Android SDK (compileSdk 35). CI builds a
-ready-to-install debug APK on every push — grab it from the workflow run's
-artifacts. Release builds are unsigned; sign with your own key to distribute.
-
-## Project layout
-
-```
+api/define.ts        serverless function: validation, prompt, schema, caching
+test/                server tests (node --test)
 app/src/main/java/io/github/roviicc/colordict/
-  engine/   Pure-Java StarDict engine (no Android imports, unit-tested):
-            .ifo/.idx/.syn parsing, StarDict collation + binary search,
-            dictzip random access, article parsing, and the color-coded
-            definition renderer shared with the desktop harness
-  data/     Repository, registry (order/color/enabled), history store, prefs
-  ui/       Activities and views (Android framework only, no libraries)
-desktop/    Swing harness that runs the engine on a PC with only a JDK
-tools/      Python utilities: build/verify StarDict files, generate the
-            bundled sample glossary, test fixtures, and launcher icons
-```
-
-Development conveniences:
-
-```bash
-python3 tools/stardict_make.py words.tsv out/ mydict --bookname "My Dict"
-python3 tools/verify_stardict.py out/mydict.ifo --dump 10
-python3 tools/gen_fixtures.py     # regenerate test fixtures + sample glossary
+  data/              Entry model, HTTP client, on-device entry cache, word lists
+  ui/                Home, Word, Popup and Settings screens; EntryRenderer
+                     draws the word view shared by the page and the popup
 ```
 
 ## License
 
-[MIT](LICENSE). The bundled sample glossary was written for this project.
-"StarDict" refers to the open dictionary file format; all trademarks belong
-to their respective owners.
+[MIT](LICENSE). Dictionary entries are generated by Claude and can contain
+mistakes.

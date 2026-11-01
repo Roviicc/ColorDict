@@ -14,3 +14,8 @@ local.properties
 # Signing
 *.jks
 *.keystore
+
+# Node (dictionary API)
+node_modules/
+.vercel/
+.env*

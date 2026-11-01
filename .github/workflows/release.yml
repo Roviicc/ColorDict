@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TAG: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
+      # Baked into the APK as the default dictionary server (repository variable).
+      DICT_API_URL: ${{ vars.DICT_API_URL }}
     steps:
       - name: Check out
         uses: actions/checkout@v4
@@ -41,7 +43,7 @@ jobs:
           cp app/build/outputs/apk/release/app-release-unsigned.apk \
              "colordict-${TAG}-release-unsigned.apk"
           # Stable filenames too, so /releases/latest/download/colordict-debug.apk
-          # keeps working as versions change (used by the download site).
+          # keeps working as versions change.
           cp app/build/outputs/apk/debug/app-debug.apk colordict-debug.apk
           cp app/build/outputs/apk/release/app-release-unsigned.apk \
              colordict-release-unsigned.apk

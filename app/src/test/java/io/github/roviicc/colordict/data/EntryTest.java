@@ -1,0 +1,71 @@
+package io.github.roviicc.colordict.data;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+public class EntryTest {
+
+    static final String SERENE = "{\"word\":\"serene\",\"found\":true,\"phonetic\":\"/səˈriːn/\","
+            + "\"syllables\":\"se·rene\",\"senses\":[{\"part_of_speech\":\"adjective\","
+            + "\"definition\":\"Calm, peaceful, and untroubled.\",\"examples\":[\"A serene smile.\"],"
+            + "\"synonyms\":[\"calm\",\"tranquil\"],\"antonyms\":[\"agitated\"],\"register\":\"\"},"
+            + "{\"part_of_speech\":\"adjective\",\"definition\":\"Clear and bright (of the sky).\","
+            + "\"examples\":[],\"synonyms\":[],\"antonyms\":[],\"register\":\"literary\"}],"
+            + "\"connotation\":{\"tone\":\"positive\",\"summary\":\"Gentle and admiring.\"},"
+            + "\"usage_note\":\"\",\"etymology\":\"From Latin serenus.\","
+            + "\"related_forms\":[\"serenely\",\"serenity\"],\"suggestions\":[]}";
+
+    @Test
+    public void parsesFullEntry() throws Exception {
+        Entry e = Entry.fromJson(SERENE);
+        assertEquals("serene", e.word);
+        assertTrue(e.hasSenses());
+        assertEquals("/səˈriːn/", e.phonetic);
+        assertEquals(2, e.senses.size());
+        assertEquals("adjective", e.senses.get(0).partOfSpeech);
+        assertEquals(2, e.senses.get(0).synonyms.size());
+        assertEquals("literary", e.senses.get(1).register);
+        assertEquals(Entry.Tone.POSITIVE, e.tone);
+        assertEquals("Gentle and admiring.", e.connotation);
+        assertEquals("adjective · Calm, peaceful, and untroubled.", e.preview());
+    }
+
+    @Test
+    public void roundTripsThroughJson() throws Exception {
+        Entry e = Entry.fromJson(Entry.fromJson(SERENE).toJson());
+        assertEquals("serene", e.word);
+        assertEquals(2, e.senses.size());
+    }
+
+    @Test
+    public void toleratesMissingFieldsAndUnknownTone() throws Exception {
+        Entry e = Entry.fromJson("{\"word\":\"x\",\"senses\":[{\"definition\":\"d\"},{}],"
+                + "\"connotation\":{\"tone\":\"sarcastic\"}}");
+        assertEquals(1, e.senses.size());
+        assertEquals("", e.senses.get(0).partOfSpeech);
+        assertTrue(e.senses.get(0).examples.isEmpty());
+        assertEquals(Entry.Tone.NEUTRAL, e.tone);
+        assertEquals("", e.etymology);
+    }
+
+    @Test
+    public void notFoundEntryHasNoSensesButSuggestions() throws Exception {
+        Entry e = Entry.fromJson("{\"word\":\"recieve\",\"found\":false,\"senses\":[],"
+                + "\"suggestions\":[\"receive\"]}");
+        assertFalse(e.hasSenses());
+        assertEquals("receive", e.suggestions.get(0));
+        assertEquals("", e.preview());
+    }
+
+    @Test
+    public void plainTextGroupsByPartOfSpeech() throws Exception {
+        String text = Entry.fromJson(SERENE).toPlainText();
+        assertTrue(text.startsWith("serene  /səˈriːn/"));
+        assertTrue(text.contains("adjective\n1. Calm"));
+        assertTrue(text.contains("\n2. Clear and bright"));
+        assertTrue(text.contains("Connotation: Gentle and admiring."));
+    }
+}

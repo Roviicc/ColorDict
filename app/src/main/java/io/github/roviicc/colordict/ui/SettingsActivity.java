@@ -1,148 +1,192 @@
 package io.github.roviicc.colordict.ui;
 
 import android.app.AlertDialog;
-import android.content.ActivityNotFoundException;
-import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.net.Uri;
 import android.os.Bundle;
-import android.view.MenuItem;
+import android.text.InputType;
+import android.view.Gravity;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.FrameLayout;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import io.github.roviicc.colordict.BuildConfig;
 import io.github.roviicc.colordict.R;
-import io.github.roviicc.colordict.data.Prefs;
+import io.github.roviicc.colordict.data.Dictionary;
 
-/** App settings, kept deliberately small: theme, text size, list limits. */
+/** Theme, server address, and data controls. Built in code: it is a short list. */
 public class SettingsActivity extends BaseActivity {
 
-    private static final String REPO_URL = "https://github.com/roviicc/colordict";
-
-    private static final int[] ZOOM_VALUES = {85, 100, 115, 130, 150};
-    private static final int[] SUGGESTION_VALUES = {20, 50, 100, 200};
-    private static final int[] HISTORY_VALUES = {50, 200, 500, 1000};
+    private LinearLayout list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_settings);
-        setTitle(R.string.settings);
-        if (getActionBar() != null) {
-            getActionBar().setDisplayHomeAsUpEnabled(true);
-        }
+        LinearLayout root = new LinearLayout(this);
+        root.setOrientation(LinearLayout.VERTICAL);
 
-        findViewById(R.id.rowTheme).setOnClickListener(v -> pickTheme());
-        findViewById(R.id.rowTextSize).setOnClickListener(v -> pickFromValues(
-                R.string.pref_text_size, ZOOM_VALUES, Prefs.textZoom(this),
-                value -> Prefs.setTextZoom(this, value)));
-        findViewById(R.id.rowSuggestions).setOnClickListener(v -> pickFromValues(
-                R.string.pref_max_suggestions, SUGGESTION_VALUES, Prefs.maxSuggestions(this),
-                value -> Prefs.setMaxSuggestions(this, value)));
-        findViewById(R.id.rowHistoryLimit).setOnClickListener(v -> pickFromValues(
-                R.string.pref_history_limit, HISTORY_VALUES, Prefs.historyLimit(this),
-                value -> Prefs.setHistoryLimit(this, value)));
-        findViewById(R.id.rowClearHistory).setOnClickListener(v -> confirmClear(
-                R.string.clear_history_confirm, () -> repo().history().clearHistory()));
-        findViewById(R.id.rowClearBookmarks).setOnClickListener(v -> confirmClear(
-                R.string.clear_bookmarks_confirm, () -> repo().history().clearBookmarks()));
-        findViewById(R.id.rowAbout).setOnClickListener(v -> showAbout());
+        LinearLayout bar = new LinearLayout(this);
+        bar.setGravity(Gravity.CENTER_VERTICAL);
+        bar.setPadding(Ui.dp(this, 4), 0, Ui.dp(this, 4), 0);
+        ImageButton back = new ImageButton(this);
+        back.setImageResource(R.drawable.ic_back);
+        back.setContentDescription(getString(R.string.back));
+        android.util.TypedValue bg = new android.util.TypedValue();
+        getTheme().resolveAttribute(android.R.attr.selectableItemBackgroundBorderless, bg, true);
+        back.setBackgroundResource(bg.resourceId);
+        back.setOnClickListener(v -> finish());
+        int s = Ui.dp(this, 48);
+        bar.addView(back, new LinearLayout.LayoutParams(s, s));
+        TextView title = Ui.text(this, 22, R.color.textPrimary);
+        title.setTypeface(Ui.serifBold());
+        title.setText(R.string.settings);
+        LinearLayout.LayoutParams tp = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        tp.setMarginStart(Ui.dp(this, 4));
+        bar.addView(title, tp);
+        root.addView(bar, new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT, Ui.dp(this, 56)));
 
-        refreshSummaries();
+        ScrollView scroll = new ScrollView(this);
+        list = new LinearLayout(this);
+        list.setOrientation(LinearLayout.VERTICAL);
+        list.setPadding(Ui.dp(this, 16), 0, Ui.dp(this, 16), Ui.dp(this, 32));
+        scroll.addView(list);
+        root.addView(scroll, new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT, 0, 1));
+
+        setContentView(root);
+        Ui.onInsets(root, (l, t, r, b) -> root.setPadding(l, t, r, b));
+        build();
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            finish();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
+    private void build() {
+        list.removeAllViews();
+        Dictionary d = dictionary();
+
+        section(R.string.settings_appearance);
+        LinearLayout appearance = card();
+        String[] themes = {getString(R.string.theme_system), getString(R.string.theme_light),
+                getString(R.string.theme_dark)};
+        row(appearance, getString(R.string.settings_theme), themes[d.theme()], v ->
+                new AlertDialog.Builder(this)
+                        .setTitle(R.string.settings_theme)
+                        .setSingleChoiceItems(themes, d.theme(), (dialog, which) -> {
+                            dialog.dismiss();
+                            if (which != d.theme()) {
+                                d.setTheme(which);
+                                recreate();
+                            }
+                        })
+                        .show());
+
+        section(R.string.settings_server);
+        LinearLayout server = card();
+        String custom = d.customServerUrl();
+        String summary = !custom.isEmpty() ? custom
+                : BuildConfig.API_BASE_URL.isEmpty() ? getString(R.string.settings_server_none)
+                : getString(R.string.settings_server_default, BuildConfig.API_BASE_URL);
+        row(server, getString(R.string.settings_server_url), summary, v -> editServer());
+
+        section(R.string.settings_data);
+        LinearLayout data = card();
+        row(data, getString(R.string.settings_clear_recent), null, v -> {
+            d.recent().clear();
+            Toast.makeText(this, R.string.done, Toast.LENGTH_SHORT).show();
+        });
+        divider(data);
+        row(data, getString(R.string.settings_clear_cache),
+                getString(R.string.settings_clear_cache_summary), v -> {
+                    int n = d.store().clear();
+                    Toast.makeText(this, getString(R.string.settings_cache_cleared, n),
+                            Toast.LENGTH_SHORT).show();
+                });
+
+        section(R.string.settings_about);
+        TextView about = Ui.text(this, 14, R.color.textSecondary);
+        about.setText(getString(R.string.settings_about_body, BuildConfig.VERSION_NAME));
+        about.setLineSpacing(Ui.dp(this, 3), 1f);
+        about.setPadding(Ui.dp(this, 4), 0, Ui.dp(this, 4), 0);
+        list.addView(about);
     }
 
-    private void refreshSummaries() {
-        String[] themes = getResources().getStringArray(R.array.theme_names);
-        ((TextView) findViewById(R.id.summaryTheme)).setText(themes[Prefs.themeMode(this)]);
-        ((TextView) findViewById(R.id.summaryTextSize)).setText(
-                getString(R.string.percent_value, Prefs.textZoom(this)));
-        ((TextView) findViewById(R.id.summarySuggestions)).setText(
-                String.valueOf(Prefs.maxSuggestions(this)));
-        ((TextView) findViewById(R.id.summaryHistoryLimit)).setText(
-                String.valueOf(Prefs.historyLimit(this)));
-        ((TextView) findViewById(R.id.summaryAbout)).setText(
-                getString(R.string.version_value, versionName()));
-    }
-
-    private String versionName() {
-        try {
-            PackageInfo info = getPackageManager().getPackageInfo(getPackageName(), 0);
-            return info.versionName == null ? "?" : info.versionName;
-        } catch (PackageManager.NameNotFoundException e) {
-            return "?";
-        }
-    }
-
-    private void pickTheme() {
-        String[] themes = getResources().getStringArray(R.array.theme_names);
+    private void editServer() {
+        Dictionary d = dictionary();
+        EditText field = new EditText(this);
+        field.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_URI);
+        field.setSingleLine(true);
+        field.setHint(R.string.settings_server_hint);
+        field.setText(d.customServerUrl());
+        FrameLayout wrap = new FrameLayout(this);
+        int p = Ui.dp(this, 20);
+        wrap.setPadding(p, Ui.dp(this, 8), p, 0);
+        wrap.addView(field);
         new AlertDialog.Builder(this)
-                .setTitle(R.string.pref_theme)
-                .setSingleChoiceItems(themes, Prefs.themeMode(this), (dialog, which) -> {
-                    Prefs.setThemeMode(this, which);
-                    dialog.dismiss();
-                    recreate(); // other activities catch up in BaseActivity.onResume
+                .setTitle(R.string.settings_server_url)
+                .setView(wrap)
+                .setPositiveButton(R.string.done, (dialog, w) -> {
+                    d.setCustomServerUrl(field.getText().toString());
+                    build();
                 })
-                .setNegativeButton(android.R.string.cancel, null)
+                .setNeutralButton(R.string.settings_server_reset, (dialog, w) -> {
+                    d.setCustomServerUrl("");
+                    build();
+                })
+                .setNegativeButton(R.string.cancel, null)
                 .show();
     }
 
-    private interface IntSetter {
-        void set(int value);
+    private void section(int title) {
+        TextView label = Ui.label(this, getString(title));
+        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        lp.topMargin = Ui.dp(this, 24);
+        lp.bottomMargin = Ui.dp(this, 8);
+        label.setPadding(Ui.dp(this, 4), 0, 0, 0);
+        list.addView(label, lp);
     }
 
-    private void pickFromValues(int titleRes, int[] values, int current, IntSetter setter) {
-        String[] labels = new String[values.length];
-        int checked = -1;
-        for (int i = 0; i < values.length; i++) {
-            labels[i] = String.valueOf(values[i]);
-            if (values[i] == current) {
-                checked = i;
-            }
+    private LinearLayout card() {
+        LinearLayout card = new LinearLayout(this);
+        card.setOrientation(LinearLayout.VERTICAL);
+        card.setBackground(Ui.outlined(Ui.color(this, R.color.surface),
+                Ui.color(this, R.color.outline), Ui.dp(this, 1), Ui.dp(this, 16)));
+        card.setClipToOutline(true);
+        list.addView(card);
+        return card;
+    }
+
+    private void row(LinearLayout card, String title, String summary, View.OnClickListener click) {
+        LinearLayout row = new LinearLayout(this);
+        row.setOrientation(LinearLayout.VERTICAL);
+        row.setPadding(Ui.dp(this, 16), Ui.dp(this, 14), Ui.dp(this, 16), Ui.dp(this, 14));
+        android.util.TypedValue tv = new android.util.TypedValue();
+        getTheme().resolveAttribute(android.R.attr.selectableItemBackground, tv, true);
+        row.setBackgroundResource(tv.resourceId);
+        row.setOnClickListener(click);
+        TextView t = Ui.text(this, 16, R.color.textPrimary);
+        t.setText(title);
+        row.addView(t);
+        if (summary != null) {
+            TextView s = Ui.text(this, 14, R.color.textSecondary);
+            s.setText(summary);
+            LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+            lp.topMargin = Ui.dp(this, 2);
+            row.addView(s, lp);
         }
-        new AlertDialog.Builder(this)
-                .setTitle(titleRes)
-                .setSingleChoiceItems(labels, checked, (dialog, which) -> {
-                    setter.set(values[which]);
-                    dialog.dismiss();
-                    refreshSummaries();
-                })
-                .setNegativeButton(android.R.string.cancel, null)
-                .show();
+        card.addView(row);
     }
 
-    private void confirmClear(int messageRes, Runnable action) {
-        new AlertDialog.Builder(this)
-                .setTitle(R.string.action_clear)
-                .setMessage(messageRes)
-                .setPositiveButton(R.string.action_clear, (d, w) -> {
-                    action.run();
-                    Toast.makeText(this, R.string.cleared, Toast.LENGTH_SHORT).show();
-                })
-                .setNegativeButton(android.R.string.cancel, null)
-                .show();
-    }
-
-    private void showAbout() {
-        new AlertDialog.Builder(this)
-                .setTitle(getString(R.string.app_name))
-                .setMessage(getString(R.string.about_text, versionName()))
-                .setPositiveButton(android.R.string.ok, null)
-                .setNeutralButton(R.string.source_code, (d, w) -> {
-                    try {
-                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(REPO_URL)));
-                    } catch (ActivityNotFoundException e) {
-                        Toast.makeText(this, R.string.no_browser, Toast.LENGTH_SHORT).show();
-                    }
-                })
-                .show();
+    private void divider(LinearLayout card) {
+        View line = new View(this);
+        line.setBackgroundColor(Ui.color(this, R.color.outline));
+        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT, 1);
+        lp.setMarginStart(Ui.dp(this, 16));
+        card.addView(line, lp);
     }
 }

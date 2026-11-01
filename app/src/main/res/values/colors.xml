@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#455A64</color>
-    <color name="colorPrimaryDark">#263238</color>
-    <color name="colorAccent">#1E88E5</color>
-    <color name="searchBarBackground">#FFFFFF</color>
-    <color name="windowBackground">#FAFAFA</color>
+    <!-- Warm paper palette (light). Night overrides live in values-night. -->
+    <color name="bg">#FBFAF7</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surfaceMuted">#F2F0EB</color>
+    <color name="outline">#E7E4DD</color>
+    <color name="textPrimary">#1B1B19</color>
+    <color name="textSecondary">#5F5E5A</color>
+    <color name="textTertiary">#9A988F</color>
+    <color name="accent">#3451C6</color>
+    <color name="accentSoft">#EAEEFC</color>
+    <color name="scrim">#66000000</color>
+    <color name="skeleton">#ECE9E2</color>
+
+    <!-- Connotation tones: text color + chip background -->
+    <color name="tonePositive">#2B8A3E</color>
+    <color name="tonePositiveBg">#E8F6EC</color>
+    <color name="toneNegative">#C92A2A</color>
+    <color name="toneNegativeBg">#FCEBEB</color>
+    <color name="toneNeutral">#5F5E5A</color>
+    <color name="toneNeutralBg">#F0EEE9</color>
+    <color name="toneMixed">#B35C00</color>
+    <color name="toneMixedBg">#FDF0E1</color>
+
     <color name="ic_launcher_background">#263238</color>
 </resources>

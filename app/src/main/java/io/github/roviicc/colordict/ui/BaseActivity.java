@@ -3,48 +3,51 @@ package io.github.roviicc.colordict.ui;
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.Configuration;
+import android.os.Bundle;
 
-import io.github.roviicc.colordict.App;
-import io.github.roviicc.colordict.data.DictRepository;
-import io.github.roviicc.colordict.data.Prefs;
+import io.github.roviicc.colordict.data.Dictionary;
 
-/**
- * Applies the user's light/dark override by patching the configuration's
- * night mode before resources are created — works on every supported API
- * level without any support library.
- */
-public abstract class BaseActivity extends Activity {
+/** Applies the chosen light/dark theme and edge-to-edge drawing to every screen. */
+abstract class BaseActivity extends Activity {
 
-    private int appliedThemeMode = Prefs.THEME_SYSTEM;
+    private Speaker speaker;
 
     @Override
-    protected void attachBaseContext(Context newBase) {
-        appliedThemeMode = Prefs.themeMode(newBase);
-        if (appliedThemeMode != Prefs.THEME_SYSTEM) {
-            Configuration override =
-                    new Configuration(newBase.getResources().getConfiguration());
-            int night = appliedThemeMode == Prefs.THEME_DARK
-                    ? Configuration.UI_MODE_NIGHT_YES : Configuration.UI_MODE_NIGHT_NO;
-            override.uiMode = night | (override.uiMode & ~Configuration.UI_MODE_NIGHT_MASK);
-            newBase = newBase.createConfigurationContext(override);
+    protected void attachBaseContext(Context base) {
+        int theme = Dictionary.get(base).theme();
+        if (theme == Dictionary.THEME_SYSTEM) {
+            super.attachBaseContext(base);
+            return;
         }
-        super.attachBaseContext(newBase);
+        Configuration config = new Configuration(base.getResources().getConfiguration());
+        int night = theme == Dictionary.THEME_DARK
+                ? Configuration.UI_MODE_NIGHT_YES : Configuration.UI_MODE_NIGHT_NO;
+        config.uiMode = (config.uiMode & ~Configuration.UI_MODE_NIGHT_MASK) | night;
+        super.attachBaseContext(base.createConfigurationContext(config));
     }
 
     @Override
-    protected void onResume() {
-        super.onResume();
-        if (appliedThemeMode != Prefs.themeMode(this)) {
-            recreate();
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Ui.edgeToEdge(getWindow());
+    }
+
+    Dictionary dictionary() {
+        return Dictionary.get(this);
+    }
+
+    void speak(String word) {
+        if (speaker == null) {
+            speaker = new Speaker(this);
         }
+        speaker.speak(word);
     }
 
-    protected DictRepository repo() {
-        return App.get(this).repo();
-    }
-
-    protected boolean isNightMode() {
-        return (getResources().getConfiguration().uiMode
-                & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES;
+    @Override
+    protected void onDestroy() {
+        if (speaker != null) {
+            speaker.shutdown();
+        }
+        super.onDestroy();
     }
 }

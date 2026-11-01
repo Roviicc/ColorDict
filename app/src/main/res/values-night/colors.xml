@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="searchBarBackground">#2C2C2C</color>
-    <color name="windowBackground">#121212</color>
+    <color name="bg">#141413</color>
+    <color name="surface">#1F1F1D</color>
+    <color name="surfaceMuted">#2A2A27</color>
+    <color name="outline">#34342F</color>
+    <color name="textPrimary">#F2F1EC</color>
+    <color name="textSecondary">#B8B6AE</color>
+    <color name="textTertiary">#85837B</color>
+    <color name="accent">#9AAEFF</color>
+    <color name="accentSoft">#262C45</color>
+    <color name="scrim">#99000000</color>
+    <color name="skeleton">#2C2C29</color>
+
+    <color name="tonePositive">#8CE99A</color>
+    <color name="tonePositiveBg">#1E3324</color>
+    <color name="toneNegative">#FFA8A8</color>
+    <color name="toneNegativeBg">#3A2020</color>
+    <color name="toneNeutral">#C9C7BF</color>
+    <color name="toneNeutralBg">#2C2C29</color>
+    <color name="toneMixed">#FFC078</color>
+    <color name="toneMixedBg">#3A2C1A</color>
 </resources>
