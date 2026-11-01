@@ -1,4 +1,4 @@
-package io.github.roviicc.colordict.data;
+package io.github.roviicc.colordict.data.connotation;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

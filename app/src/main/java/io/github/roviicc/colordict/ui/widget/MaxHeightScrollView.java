@@ -1,4 +1,4 @@
-package io.github.roviicc.colordict.ui;
+package io.github.roviicc.colordict.ui.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -17,7 +17,7 @@ public final class MaxHeightScrollView extends ScrollView {
         super(context, attrs);
     }
 
-    void setMaxHeight(int px) {
+    public void setMaxHeight(int px) {
         maxHeight = px;
         requestLayout();
     }

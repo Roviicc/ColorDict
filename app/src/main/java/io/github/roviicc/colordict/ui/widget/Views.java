@@ -1,5 +1,7 @@
-package io.github.roviicc.colordict.ui;
+package io.github.roviicc.colordict.ui.widget;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.Typeface;
@@ -13,42 +15,47 @@ import android.view.Window;
 import android.view.WindowInsets;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.Locale;
+
+import io.github.roviicc.colordict.R;
 
 /** Small view helpers shared by every screen (the app has no UI libraries). */
-final class Ui {
+public final class Views {
 
-    private Ui() {
+    private Views() {
     }
 
-    static int dp(Context c, float dp) {
+    public static int dp(Context c, float dp) {
         return Math.round(TypedValue.applyDimension(
                 TypedValue.COMPLEX_UNIT_DIP, dp, c.getResources().getDisplayMetrics()));
     }
 
-    static int color(Context c, int res) {
+    public static int color(Context c, int res) {
         return c.getColor(res);
     }
 
-    static GradientDrawable rounded(int fill, float radiusPx) {
+    public static GradientDrawable rounded(int fill, float radiusPx) {
         GradientDrawable d = new GradientDrawable();
         d.setColor(fill);
         d.setCornerRadius(radiusPx);
         return d;
     }
 
-    static GradientDrawable outlined(int fill, int stroke, int strokePx, float radiusPx) {
+    public static GradientDrawable outlined(int fill, int stroke, int strokePx, float radiusPx) {
         GradientDrawable d = rounded(fill, radiusPx);
         d.setStroke(strokePx, stroke);
         return d;
     }
 
     /** Wraps a background in a ripple clipped to the same shape. */
-    static Drawable pressable(Context c, Drawable content, float radiusPx) {
-        int ripple = (color(c, io.github.roviicc.colordict.R.color.textPrimary) & 0x00FFFFFF) | 0x1F000000;
+    public static Drawable pressable(Context c, Drawable content, float radiusPx) {
+        int ripple = (color(c, R.color.textPrimary) & 0x00FFFFFF) | 0x1F000000;
         return new RippleDrawable(ColorStateList.valueOf(ripple), content, rounded(0xFF000000, radiusPx));
     }
 
-    static TextView text(Context c, float sp, int colorRes) {
+    public static TextView text(Context c, float sp, int colorRes) {
         TextView t = new TextView(c);
         t.setTextSize(TypedValue.COMPLEX_UNIT_SP, sp);
         t.setTextColor(color(c, colorRes));
@@ -56,20 +63,42 @@ final class Ui {
     }
 
     /** Small all-caps section label, e.g. "EXAMPLES". */
-    static TextView label(Context c, String s) {
-        TextView t = text(c, 11, io.github.roviicc.colordict.R.color.textTertiary);
-        t.setText(s.toUpperCase(java.util.Locale.ROOT));
+    public static TextView label(Context c, String s) {
+        TextView t = text(c, 11, R.color.textTertiary);
+        t.setText(s.toUpperCase(Locale.ROOT));
         t.setLetterSpacing(0.1f);
-        t.setTypeface(Typeface.create("sans-serif-medium", Typeface.NORMAL));
+        t.setTypeface(medium());
         return t;
     }
 
-    static Typeface serifBold() {
+    public static Typeface serifBold() {
         return Typeface.create(Typeface.SERIF, Typeface.BOLD);
     }
 
+    /** The medium-weight sans-serif used for labels and buttons. */
+    public static Typeface medium() {
+        return Typeface.create("sans-serif-medium", Typeface.NORMAL);
+    }
+
+    /** The theme's ripple background for tappable rows (borderless for icon buttons). */
+    public static int selectableBackground(Context c, boolean borderless) {
+        TypedValue tv = new TypedValue();
+        c.getTheme().resolveAttribute(borderless
+                ? android.R.attr.selectableItemBackgroundBorderless
+                : android.R.attr.selectableItemBackground, tv, true);
+        return tv.resourceId;
+    }
+
+    public static void copyToClipboard(Context c, String text) {
+        ClipboardManager cm = (ClipboardManager) c.getSystemService(Context.CLIPBOARD_SERVICE);
+        if (cm != null) {
+            cm.setPrimaryClip(ClipData.newPlainText(text, text));
+            Toast.makeText(c, R.string.copied, Toast.LENGTH_SHORT).show();
+        }
+    }
+
     /** Sets an icon button's image and tint. */
-    static void icon(ImageButton b, int drawable, int tint) {
+    public static void icon(ImageButton b, int drawable, int tint) {
         b.setImageResource(drawable);
         b.setImageTintList(ColorStateList.valueOf(tint));
     }
@@ -80,7 +109,7 @@ final class Ui {
      * edge-to-edge mode. Callers pad their root view with {@link #onInsets}.
      */
     @SuppressWarnings("deprecation")
-    static void edgeToEdge(Window window) {
+    public static void edgeToEdge(Window window) {
         if (Build.VERSION.SDK_INT >= 30) {
             window.setDecorFitsSystemWindows(false);
         } else {
@@ -92,13 +121,13 @@ final class Ui {
         }
     }
 
-    interface InsetsListener {
+    public interface InsetsListener {
         void onInsets(int left, int top, int right, int bottom);
     }
 
     /** Reports system bar + keyboard insets (keyboard included in bottom). */
     @SuppressWarnings("deprecation")
-    static void onInsets(View root, InsetsListener listener) {
+    public static void onInsets(View root, InsetsListener listener) {
         root.setOnApplyWindowInsetsListener((v, insets) -> {
             if (Build.VERSION.SDK_INT >= 30) {
                 android.graphics.Insets bars = insets.getInsets(

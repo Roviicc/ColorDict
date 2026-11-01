@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * One dictionary entry. Definitions come from the built-in dictionary
- * ({@link BuiltInDictionary}, built from Open English WordNet); the
+ * (see {@code data.dictionary.BuiltInDictionary}, built from Open English WordNet); the
  * connotation is optional, written by Claude only when the user asks for it
  * and then stored per word so it shows up automatically from then on.
  * Parsing is lenient: missing fields become empty values.
@@ -108,7 +108,7 @@ public final class Entry {
     }
 
     /** Part-of-speech names by the index stored in dictionary rows (see tools/build_dictionary.py). */
-    static final String[] POS = {"", "noun", "verb", "adjective", "adverb"};
+    private static final String[] POS = {"", "noun", "verb", "adjective", "adverb"};
 
     /**
      * Expands a compact built-in dictionary row:

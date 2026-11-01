@@ -12,7 +12,7 @@ import org.junit.Test;
 
 public class EntryTest {
 
-    static final String SERENE = "{\"word\":\"serene\",\"found\":true,\"phonetic\":\"/səˈriːn/\","
+    public static final String SERENE = "{\"word\":\"serene\",\"found\":true,\"phonetic\":\"/səˈriːn/\","
             + "\"syllables\":\"se·rene\",\"senses\":[{\"part_of_speech\":\"adjective\","
             + "\"definition\":\"Calm, peaceful, and untroubled.\",\"examples\":[\"A serene smile.\"],"
             + "\"synonyms\":[\"calm\",\"tranquil\"],\"antonyms\":[\"agitated\"],\"register\":\"\"},"

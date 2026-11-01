@@ -1,4 +1,4 @@
-package io.github.roviicc.colordict.ui;
+package io.github.roviicc.colordict.ui.widget;
 
 import android.content.Context;
 import android.speech.tts.TextToSpeech;
@@ -9,7 +9,7 @@ import java.util.Locale;
 import io.github.roviicc.colordict.R;
 
 /** Lazily started text-to-speech for pronouncing headwords. */
-final class Speaker implements TextToSpeech.OnInitListener {
+public final class Speaker implements TextToSpeech.OnInitListener {
 
     private final Context context;
     private final TextToSpeech tts;
@@ -17,7 +17,7 @@ final class Speaker implements TextToSpeech.OnInitListener {
     private boolean failed;
     private String pending;
 
-    Speaker(Context context) {
+    public Speaker(Context context) {
         this.context = context.getApplicationContext();
         tts = new TextToSpeech(this.context, this);
     }
@@ -41,7 +41,7 @@ final class Speaker implements TextToSpeech.OnInitListener {
         }
     }
 
-    void speak(String word) {
+    public void speak(String word) {
         if (failed) {
             Toast.makeText(context, R.string.tts_unavailable, Toast.LENGTH_SHORT).show();
         } else if (!ready) {
@@ -51,7 +51,7 @@ final class Speaker implements TextToSpeech.OnInitListener {
         }
     }
 
-    void shutdown() {
+    public void shutdown() {
         tts.stop();
         tts.shutdown();
     }

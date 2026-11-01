@@ -9,6 +9,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import io.github.roviicc.colordict.data.dictionary.Words;
+
 /**
  * An ordered, de-duplicated list of words (most recent first) persisted in
  * SharedPreferences. Used for both "Recent" and "Saved".

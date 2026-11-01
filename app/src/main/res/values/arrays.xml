@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Order matches Settings.THEME_SYSTEM / THEME_LIGHT / THEME_DARK. -->
+    <string-array name="themes">
+        <item>@string/theme_system</item>
+        <item>@string/theme_light</item>
+        <item>@string/theme_dark</item>
+    </string-array>
+
+    <!-- Order matches ConnotationClient.MODELS. -->
+    <string-array name="models">
+        <item>@string/model_opus</item>
+        <item>@string/model_sonnet</item>
+        <item>@string/model_haiku</item>
+    </string-array>
+</resources>

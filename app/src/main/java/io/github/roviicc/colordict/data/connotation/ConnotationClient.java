@@ -1,4 +1,4 @@
-package io.github.roviicc.colordict.data;
+package io.github.roviicc.colordict.data.connotation;
 
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
@@ -27,6 +27,10 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import io.github.roviicc.colordict.data.Entry;
+import io.github.roviicc.colordict.data.LookupError;
+import io.github.roviicc.colordict.data.LookupError.Fix;
+
 /**
  * Talks to the Claude API directly from the phone with the user's own API
  * key. Used for one thing: a word's connotation, only when the user taps
@@ -34,22 +38,11 @@ import java.util.Map;
  * reply is constrained to a JSON schema with structured outputs so it always
  * parses. Blocking: call from a background thread.
  */
-public final class ClaudeDictionary {
+public final class ConnotationClient {
 
-    /** A failed request, with a message that is safe to show to the user. */
-    public static final class LookupException extends Exception {
-        public final boolean retryable;
-        /** True when the fix is in Settings (missing or rejected API key). */
-        public final boolean needsSettings;
-
-        LookupException(String message, boolean retryable, boolean needsSettings) {
-            super(message);
-            this.retryable = retryable;
-            this.needsSettings = needsSettings;
-        }
-    }
-
-    public static final String DEFAULT_MODEL = "claude-opus-5-5";
+    /** Models offered in Settings, in the order of the {@code models} string array. */
+    public static final String[] MODELS = {"claude-opus-5-5", "claude-sonnet-5-5", "claude-haiku-5-5"};
+    public static final String DEFAULT_MODEL = MODELS[0];
 
     static final String CONNOTATION_PROMPT = "You explain the connotation of English words for a "
             + "dictionary app: the emotional and social colouring a word carries beyond its literal "
@@ -71,12 +64,12 @@ public final class ClaudeDictionary {
     private final AnthropicClient client;
     private final String model;
 
-    public ClaudeDictionary(String apiKey, String model) {
+    public ConnotationClient(String apiKey, String model) {
         this(apiKey, model, null);
     }
 
     /** baseUrl override is for tests; null means the real API. */
-    ClaudeDictionary(String apiKey, String model, String baseUrl) {
+    ConnotationClient(String apiKey, String model, String baseUrl) {
         AnthropicOkHttpClient.Builder b = AnthropicOkHttpClient.builder()
                 .apiKey(apiKey)
                 .timeout(Duration.ofSeconds(60))
@@ -89,7 +82,7 @@ public final class ClaudeDictionary {
     }
 
     /** Returns the connotation object to merge into the entry with {@link Entry#withConnotation}. */
-    public JSONObject connotation(String word, Entry context) throws LookupException {
+    public JSONObject connotation(String word, Entry context) throws LookupError.Exception {
         String json = request(CONNOTATION_PROMPT, connotationSchema(), userMessage(word, context));
         try {
             JSONObject o = new JSONObject(json);
@@ -98,7 +91,7 @@ public final class ClaudeDictionary {
             }
             return o;
         } catch (JSONException e) {
-            throw new LookupException("Claude sent a connotation the app can't read. Try again.", true, false);
+            throw new LookupError.Exception("Claude sent a connotation the app can't read. Try again.", Fix.RETRY);
         }
     }
 
@@ -124,7 +117,7 @@ public final class ClaudeDictionary {
     }
 
     private String request(String system, Map<String, Object> schema, String userMessage)
-            throws LookupException {
+            throws LookupError.Exception {
         MessageCreateParams.Builder params = MessageCreateParams.builder()
                 .model(model)
                 .maxTokens(16000L)
@@ -147,40 +140,40 @@ public final class ClaudeDictionary {
         try {
             response = client.beta().messages().create(params.build());
         } catch (UnauthorizedException e) {
-            throw new LookupException("Your Claude API key was rejected. Check it in Settings.", false, true);
+            throw new LookupError.Exception("Your Claude API key was rejected. Check it in Settings.", Fix.OPEN_SETTINGS);
         } catch (PermissionDeniedException e) {
-            throw new LookupException("Your API key isn't allowed to use this model. "
-                    + "Pick another model in Settings.", false, true);
+            throw new LookupError.Exception("Your API key isn't allowed to use this model. "
+                    + "Pick another model in Settings.", Fix.OPEN_SETTINGS);
         } catch (NotFoundException e) {
-            throw new LookupException("This model isn't available to your account. "
-                    + "Pick another model in Settings.", false, true);
+            throw new LookupError.Exception("This model isn't available to your account. "
+                    + "Pick another model in Settings.", Fix.OPEN_SETTINGS);
         } catch (RateLimitException e) {
-            throw new LookupException("Claude is rate-limiting your key. Wait a moment and try again.", true, false);
+            throw new LookupError.Exception("Claude is rate-limiting your key. Wait a moment and try again.", Fix.RETRY);
         } catch (BadRequestException e) {
             String msg = e.getMessage() == null ? "" : e.getMessage();
             if (msg.contains("credit balance")) {
-                throw new LookupException("Your Anthropic account is out of credits.", false, false);
+                throw new LookupError.Exception("Your Anthropic account is out of credits.", Fix.NONE);
             }
-            throw new LookupException("Claude couldn't handle this request.", false, false);
+            throw new LookupError.Exception("Claude couldn't handle this request.", Fix.NONE);
         } catch (InternalServerException e) {
-            throw new LookupException("Claude is having trouble right now. Try again.", true, false);
+            throw new LookupError.Exception("Claude is having trouble right now. Try again.", Fix.RETRY);
         } catch (AnthropicServiceException e) {
             if (e.statusCode() == 402) {
-                throw new LookupException("Your Anthropic account needs billing set up or more credits.", false, false);
+                throw new LookupError.Exception("Your Anthropic account needs billing set up or more credits.", Fix.NONE);
             }
-            throw new LookupException("Claude returned an error (" + e.statusCode() + ").", true, false);
+            throw new LookupError.Exception("Claude returned an error (" + e.statusCode() + ").", Fix.RETRY);
         } catch (AnthropicIoException e) {
-            throw new LookupException("You're offline or Claude can't be reached. Try again.", true, false);
+            throw new LookupError.Exception("You're offline or Claude can't be reached. Try again.", Fix.RETRY);
         } catch (RuntimeException e) {
-            throw new LookupException("Something went wrong talking to Claude.", true, false);
+            throw new LookupError.Exception("Something went wrong talking to Claude.", Fix.RETRY);
         }
 
         BetaStopReason stop = response.stopReason().orElse(null);
         if (BetaStopReason.REFUSAL.equals(stop)) {
-            throw new LookupException("Claude declined to answer for this word.", false, false);
+            throw new LookupError.Exception("Claude declined to answer for this word.", Fix.NONE);
         }
         if (BetaStopReason.MAX_TOKENS.equals(stop)) {
-            throw new LookupException("Claude's answer was cut off. Try again.", true, false);
+            throw new LookupError.Exception("Claude's answer was cut off. Try again.", Fix.RETRY);
         }
         StringBuilder text = new StringBuilder();
         for (BetaContentBlock block : response.content()) {

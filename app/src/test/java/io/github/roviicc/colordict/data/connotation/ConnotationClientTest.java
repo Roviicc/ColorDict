@@ -1,10 +1,14 @@
-package io.github.roviicc.colordict.data;
+package io.github.roviicc.colordict.data.connotation;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
+
+import io.github.roviicc.colordict.data.Entry;
+import io.github.roviicc.colordict.data.EntryTest;
+import io.github.roviicc.colordict.data.LookupError;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -19,7 +23,7 @@ import okhttp3.mockwebserver.MockWebServer;
 import okhttp3.mockwebserver.RecordedRequest;
 
 /** Runs the real SDK client against a local fake of the Messages API. */
-public class ClaudeDictionaryTest {
+public class ConnotationClientTest {
 
     private MockWebServer server;
     private String baseUrl;
@@ -72,7 +76,7 @@ public class ClaudeDictionaryTest {
     public void asksForConnotationWithTheUsersKeyAndTheMeanings() throws Exception {
         reply = message(CONNOTATION, "end_turn");
         Entry serene = Entry.fromJson(EntryTest.SERENE);
-        JSONObject c = new ClaudeDictionary("sk-ant-user-key", "claude-opus-5-5", baseUrl)
+        JSONObject c = new ConnotationClient("sk-ant-user-key", "claude-opus-5-5", baseUrl)
                 .connotation("serene", serene);
 
         assertEquals("positive", c.getString("tone"));
@@ -96,7 +100,7 @@ public class ClaudeDictionaryTest {
     @Test
     public void haikuRequestsSkipServerFallbacks() throws Exception {
         reply = message(CONNOTATION, "end_turn");
-        new ClaudeDictionary("k", "claude-haiku-5-5", baseUrl).connotation("serene", null);
+        new ConnotationClient("k", "claude-haiku-5-5", baseUrl).connotation("serene", null);
         JSONObject body = new JSONObject(lastBody);
         assertEquals("claude-haiku-5-5", body.getString("model"));
         assertFalse(body.has("fallbacks"));
@@ -107,11 +111,10 @@ public class ClaudeDictionaryTest {
         status = 401;
         reply = "{\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"}}";
         try {
-            new ClaudeDictionary("bad", "claude-opus-5-5", baseUrl).connotation("serene", null);
-            fail("expected LookupException");
-        } catch (ClaudeDictionary.LookupException e) {
-            assertTrue(e.needsSettings);
-            assertFalse(e.retryable);
+            new ConnotationClient("bad", "claude-opus-5-5", baseUrl).connotation("serene", null);
+            fail("expected LookupError.Exception");
+        } catch (LookupError.Exception e) {
+            assertEquals(LookupError.Fix.OPEN_SETTINGS, e.error.fix);
         }
     }
 
@@ -119,16 +122,16 @@ public class ClaudeDictionaryTest {
     public void refusalIsReportedNotParsed() throws Exception {
         reply = message("", "refusal");
         try {
-            new ClaudeDictionary("k", "claude-opus-5-5", baseUrl).connotation("x", null);
-            fail("expected LookupException");
-        } catch (ClaudeDictionary.LookupException e) {
-            assertFalse(e.retryable);
+            new ConnotationClient("k", "claude-opus-5-5", baseUrl).connotation("x", null);
+            fail("expected LookupError.Exception");
+        } catch (LookupError.Exception e) {
+            assertEquals(LookupError.Fix.NONE, e.error.fix);
         }
     }
 
     @Test
     public void everySchemaPropertyIsRequired() throws Exception {
-        assertAllRequired(new JSONObject(ClaudeDictionary.connotationSchema()));
+        assertAllRequired(new JSONObject(ConnotationClient.connotationSchema()));
     }
 
     private static void assertAllRequired(JSONObject schema) throws Exception {

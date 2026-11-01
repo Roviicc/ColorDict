@@ -68,14 +68,25 @@ python3 tools/build_dictionary.py --fetch    # rebuild the dictionary database
 ```
 
 ```
-tools/build_dictionary.py   WordNet + CMUdict → assets/dictionary.db.gz
+tools/build_dictionary.py        WordNet + CMUdict → assets/dictionary.db.gz
 app/src/main/java/io/github/roviicc/colordict/
-  data/BuiltInDictionary    offline lookups, base forms, suggestions (SQLite)
-  data/ClaudeDictionary     connotation requests to Claude (prompt, schema, errors)
-  data/Dictionary           lookups, saved connotations, settings
-  ui/                       Home, Word, Popup and Settings; EntryRenderer draws
-                            the word view shared by the page and the popup
+  App.java                       creates Settings and DictionaryRepository once
+  data/
+    DictionaryRepository.java    what screens call: lookups, suggestions, connotations, word lists
+    Entry.java                   a dictionary entry (+ optional connotation)
+    LookupError.java             user-facing error + the fix to offer (retry / settings)
+    Settings.java, WordList.java theme, API key, model; Recent and Saved lists
+    dictionary/                  offline dictionary (SQLite), base forms, spelling suggestions
+    connotation/                 Claude connotation requests and the per-word store
+  ui/
+    MainActivity, WordActivity, PopupActivity, SettingsActivity   the four screens
+    entry/                       the word view: EntryController (shared by the word page and
+                                 popup), EntryRenderer, ConnotationSlot
+    widget/                      small reusable views and helpers (CardList, FlowLayout, ...)
 ```
+
+Feature ideas from a Mobbin survey of dictionary and vocabulary apps are in
+[docs/feature-ideas.md](docs/feature-ideas.md).
 
 ## License
 

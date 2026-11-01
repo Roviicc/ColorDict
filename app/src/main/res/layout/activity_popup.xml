@@ -81,7 +81,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <io.github.roviicc.colordict.ui.MaxHeightScrollView
+        <io.github.roviicc.colordict.ui.widget.MaxHeightScrollView
             android:id="@+id/scroll"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -97,7 +97,7 @@
                 android:paddingTop="4dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="12dp" />
-        </io.github.roviicc.colordict.ui.MaxHeightScrollView>
+        </io.github.roviicc.colordict.ui.widget.MaxHeightScrollView>
 
         <LinearLayout
             android:id="@+id/openFull"

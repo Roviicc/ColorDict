@@ -1,4 +1,4 @@
-package io.github.roviicc.colordict.data;
+package io.github.roviicc.colordict.data.connotation;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -13,6 +13,8 @@ import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Locale;
+
+import io.github.roviicc.colordict.data.dictionary.Words;
 
 /**
  * Saved connotations, one small JSON file per word. Once the user has checked

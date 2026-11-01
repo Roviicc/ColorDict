@@ -43,6 +43,8 @@
     <string name="connotation_caution">Careful: %1$s</string>
     <string name="no_api_key">Add your Claude API key in Settings to check connotations.</string>
     <string name="open_settings">Open Settings</string>
+    <string name="error_dictionary_unavailable">The built-in dictionary couldn\'t be opened. Free up some storage and try again.</string>
+    <string name="error_connotation_save">Couldn\'t save the connotation. Try again.</string>
     <string name="generated_note">Definitions: Open English WordNet (CC BY 4.0). Connotations are written by Claude and can occasionally be wrong.</string>
     <string name="pronounce">Pronounce %1$s</string>
     <string name="copied">Copied</string>

@@ -1,4 +1,4 @@
-package io.github.roviicc.colordict.data;
+package io.github.roviicc.colordict.data.dictionary;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -16,6 +16,7 @@ import java.util.Collections;
 import java.util.List;
 
 import io.github.roviicc.colordict.BuildConfig;
+import io.github.roviicc.colordict.data.Entry;
 
 /**
  * The offline dictionary bundled with the app: about 150,000 English words
@@ -23,8 +24,8 @@ import io.github.roviicc.colordict.BuildConfig;
  * CMU Pronouncing Dictionary. Built by tools/build_dictionary.py and shipped
  * as assets/dictionary.db.gz, which is copied out of the APK once on first use.
  *
- * Methods block (first call may take a few seconds to unpack); call them off
- * the main thread unless {@link #isReady()}.
+ * Methods block (the first call may take a few seconds to unpack the
+ * database); call them off the main thread unless {@link #isReady()}.
  */
 public final class BuiltInDictionary {
 
@@ -47,46 +48,47 @@ public final class BuiltInDictionary {
         return db != null;
     }
 
-    /** True when the next call has to unpack the database first. */
-    public boolean needsInstall() {
-        return !isReady() && !dbFile().isFile();
-    }
-
     private File dbFile() {
         // Versioned by app build so an updated dictionary replaces the old one.
         return new File(context.getNoBackupFilesDir(), "dictionary-" + BuildConfig.VERSION_CODE + ".db");
     }
 
-    private synchronized SQLiteDatabase open() throws IOException {
+    /** Opens the database, copying it out of the APK first if needed. */
+    public synchronized SQLiteDatabase open() throws IOException {
         if (db != null) {
             return db;
         }
         File file = dbFile();
         if (!file.isFile()) {
-            File[] old = context.getNoBackupFilesDir().listFiles(
-                    (dir, name) -> name.startsWith("dictionary-") && name.endsWith(".db"));
-            if (old != null) {
-                for (File f : old) {
-                    //noinspection ResultOfMethodCallIgnored
-                    f.delete();
-                }
-            }
-            File tmp = new File(file.getPath() + ".tmp");
-            try (InputStream in = context.getAssets().open(ASSET);
-                 OutputStream out = new FileOutputStream(tmp)) {
-                byte[] buf = new byte[1 << 16];
-                int n;
-                while ((n = in.read(buf)) > 0) {
-                    out.write(buf, 0, n);
-                }
-            }
-            if (!tmp.renameTo(file)) {
-                throw new IOException("could not install dictionary");
-            }
+            install(file);
         }
         db = SQLiteDatabase.openDatabase(file.getPath(), null,
                 SQLiteDatabase.OPEN_READONLY | SQLiteDatabase.NO_LOCALIZED_COLLATORS);
         return db;
+    }
+
+    /** Copies the database out of the APK, removing any older version first. */
+    private void install(File file) throws IOException {
+        File[] old = context.getNoBackupFilesDir().listFiles(
+                (dir, name) -> name.startsWith("dictionary-") && name.endsWith(".db"));
+        if (old != null) {
+            for (File f : old) {
+                //noinspection ResultOfMethodCallIgnored
+                f.delete();
+            }
+        }
+        File tmp = new File(file.getPath() + ".tmp");
+        try (InputStream in = context.getAssets().open(ASSET);
+             OutputStream out = new FileOutputStream(tmp)) {
+            byte[] buf = new byte[1 << 16];
+            int n;
+            while ((n = in.read(buf)) > 0) {
+                out.write(buf, 0, n);
+            }
+        }
+        if (!tmp.renameTo(file)) {
+            throw new IOException("could not install dictionary");
+        }
     }
 
     /**

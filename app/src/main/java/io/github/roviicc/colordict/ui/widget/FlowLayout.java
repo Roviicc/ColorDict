@@ -1,16 +1,16 @@
-package io.github.roviicc.colordict.ui;
+package io.github.roviicc.colordict.ui.widget;
 
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 
 /** Lays children out left-to-right, wrapping onto new lines (for chips). */
-final class FlowLayout extends ViewGroup {
+public final class FlowLayout extends ViewGroup {
 
     private final int hGap;
     private final int vGap;
 
-    FlowLayout(Context context, int hGapPx, int vGapPx) {
+    public FlowLayout(Context context, int hGapPx, int vGapPx) {
         super(context);
         hGap = hGapPx;
         vGap = vGapPx;

@@ -1,4 +1,4 @@
-package io.github.roviicc.colordict.data;
+package io.github.roviicc.colordict.data.dictionary;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
