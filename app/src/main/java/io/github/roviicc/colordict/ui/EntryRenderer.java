@@ -13,6 +13,7 @@ import android.text.style.ForegroundColorSpan;
 import android.text.style.StyleSpan;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -42,6 +43,9 @@ final class EntryRenderer {
 
         /** The pronunciation pill was tapped. */
         void onSpeak(String word);
+
+        /** "Check connotation" was tapped (only shown while the entry has none). */
+        void onConnotationRequested();
     }
 
     private static final int COMPACT_SENSES = 3;
@@ -49,6 +53,8 @@ final class EntryRenderer {
 
     private final Context c;
     private final Listener listener;
+    /** Holds the connotation card or the button that fetches it. */
+    private FrameLayout connotationSlot;
 
     EntryRenderer(Context context, Listener listener) {
         this.c = context;
@@ -66,9 +72,13 @@ final class EntryRenderer {
         into.addView(headword(e.word, compact));
         into.addView(pronunciationRow(e), gap(compact ? 8 : 12));
 
-        if (!e.connotation.isEmpty()) {
-            into.addView(connotation(e), gap(compact ? 16 : 24));
+        connotationSlot = new FrameLayout(c);
+        if (e.connotation != null) {
+            connotationSlot.addView(connotation(e.connotation));
+        } else {
+            showConnotationButton();
         }
+        into.addView(connotationSlot, gap(compact ? 16 : 24));
 
         String lastPos = null;
         int number = 0;
@@ -131,17 +141,110 @@ final class EntryRenderer {
         into.addView(hint, gap(compact ? 18 : 28));
     }
 
-    void renderError(LinearLayout into, String word, String message, boolean retryable,
-                     Runnable retry) {
+    /** Error state; actionLabel/action add a button (e.g. "Try again", "Open Settings"). */
+    void renderError(LinearLayout into, String word, String message, String actionLabel,
+                     Runnable action) {
         into.removeAllViews();
         into.addView(headword(word, true));
         TextView msg = body(message, 16, R.color.textSecondary);
         into.addView(msg, gap(12));
-        if (retryable && retry != null) {
-            TextView button = pillButton(c.getString(R.string.try_again));
-            button.setOnClickListener(v -> retry.run());
+        if (actionLabel != null && action != null) {
+            TextView button = pillButton(actionLabel);
+            button.setOnClickListener(v -> action.run());
             into.addView(button, wrap(gap(18)));
         }
+    }
+
+    // ------------------------------------------------------- connotation slot
+
+    private void showConnotationButton() {
+        connotationSlot.removeAllViews();
+        LinearLayout button = new LinearLayout(c);
+        button.setOrientation(LinearLayout.HORIZONTAL);
+        button.setGravity(Gravity.CENTER_VERTICAL);
+        int pad = Ui.dp(c, 14);
+        button.setPadding(pad, Ui.dp(c, 12), Ui.dp(c, 10), Ui.dp(c, 12));
+        float r = Ui.dp(c, 14);
+        button.setBackground(Ui.pressable(c, Ui.outlined(Ui.color(c, R.color.surface),
+                Ui.color(c, R.color.outline), Ui.dp(c, 1), r), r));
+        button.setContentDescription(c.getString(R.string.check_connotation));
+
+        TextView glyph = Ui.text(c, 18, R.color.accent);
+        glyph.setText("\u2726");
+        glyph.setGravity(Gravity.CENTER);
+        int g = Ui.dp(c, 36);
+        glyph.setBackground(Ui.rounded(Ui.color(c, R.color.accentSoft), g / 2f));
+        button.addView(glyph, new LinearLayout.LayoutParams(g, g));
+
+        LinearLayout col = new LinearLayout(c);
+        col.setOrientation(LinearLayout.VERTICAL);
+        TextView title = Ui.text(c, 15, R.color.textPrimary);
+        title.setText(R.string.check_connotation);
+        title.setTypeface(Typeface.create("sans-serif-medium", Typeface.NORMAL));
+        col.addView(title);
+        TextView sub = Ui.text(c, 13, R.color.textSecondary);
+        sub.setText(R.string.check_connotation_hint);
+        col.addView(sub);
+        LinearLayout.LayoutParams cp = new LinearLayout.LayoutParams(0,
+                LinearLayout.LayoutParams.WRAP_CONTENT, 1);
+        cp.setMarginStart(Ui.dp(c, 12));
+        button.addView(col, cp);
+
+        ImageView chevron = new ImageView(c);
+        chevron.setImageResource(R.drawable.ic_chevron_right);
+        int s = Ui.dp(c, 20);
+        button.addView(chevron, new LinearLayout.LayoutParams(s, s));
+
+        button.setOnClickListener(v -> {
+            showConnotationLoading();
+            listener.onConnotationRequested();
+        });
+        connotationSlot.addView(button);
+    }
+
+    private void showConnotationLoading() {
+        connotationSlot.removeAllViews();
+        LinearLayout box = new LinearLayout(c);
+        box.setOrientation(LinearLayout.VERTICAL);
+        int pad = Ui.dp(c, 14);
+        box.setPadding(pad, Ui.dp(c, 14), pad, Ui.dp(c, 14));
+        box.setBackground(Ui.rounded(Ui.color(c, R.color.surfaceMuted), Ui.dp(c, 14)));
+        TextView t = Ui.text(c, 12, R.color.textTertiary);
+        t.setText(c.getString(R.string.checking_connotation).toUpperCase(Locale.ROOT));
+        t.setLetterSpacing(0.08f);
+        box.addView(t);
+        addBar(box, -1, 12, 6, 10);
+        addBar(box, 180, 12, 6, 8);
+        connotationSlot.addView(box);
+    }
+
+    /** Called by the screen when the connotation request failed. */
+    void showConnotationError(String message, String actionLabel, Runnable action) {
+        if (connotationSlot == null) {
+            return;
+        }
+        connotationSlot.removeAllViews();
+        LinearLayout box = new LinearLayout(c);
+        box.setOrientation(LinearLayout.VERTICAL);
+        int pad = Ui.dp(c, 14);
+        box.setPadding(pad, Ui.dp(c, 12), pad, Ui.dp(c, 12));
+        box.setBackground(Ui.outlined(Ui.color(c, R.color.surface),
+                Ui.color(c, R.color.outline), Ui.dp(c, 1), Ui.dp(c, 14)));
+        box.addView(body(message, 14, R.color.textSecondary));
+        TextView link = Ui.text(c, 14, R.color.accent);
+        link.setText(actionLabel != null ? actionLabel : c.getString(R.string.try_again));
+        link.setTypeface(Typeface.create("sans-serif-medium", Typeface.NORMAL));
+        link.setPadding(0, Ui.dp(c, 8), 0, 0);
+        link.setOnClickListener(v -> {
+            if (action != null) {
+                action.run();
+            } else {
+                showConnotationLoading();
+                listener.onConnotationRequested();
+            }
+        });
+        box.addView(link);
+        connotationSlot.addView(box);
     }
 
     private void renderNotFound(LinearLayout into, String word, List<String> suggestions,
@@ -211,11 +314,11 @@ final class EntryRenderer {
         return row;
     }
 
-    private View connotation(Entry e) {
+    private View connotation(Entry.Connotation con) {
         int fg;
         int bg;
         int label;
-        switch (e.tone) {
+        switch (con.tone) {
             case POSITIVE:
                 fg = R.color.tonePositive;
                 bg = R.color.tonePositiveBg;
@@ -260,8 +363,25 @@ final class EntryRenderer {
         head.addView(title, tp);
         box.addView(head);
 
-        TextView summary = body(e.connotation, 15, R.color.textPrimary);
-        box.addView(summary, gap(6));
+        box.addView(body(con.summary, 15, R.color.textPrimary), gap(6));
+
+        if (!con.feelsLike.isEmpty()) {
+            FlowLayout tags = new FlowLayout(c, Ui.dp(c, 6), Ui.dp(c, 6));
+            for (String f : con.feelsLike.subList(0, Math.min(4, con.feelsLike.size()))) {
+                TextView tag = Ui.text(c, 12, fg);
+                tag.setText(f);
+                tag.setPadding(Ui.dp(c, 10), Ui.dp(c, 3), Ui.dp(c, 10), Ui.dp(c, 4));
+                tag.setBackground(Ui.outlined(0, (Ui.color(c, fg) & 0x00FFFFFF) | 0x55000000,
+                        Ui.dp(c, 1), Ui.dp(c, 999)));
+                tags.addView(tag);
+            }
+            box.addView(tags, gap(10));
+        }
+        if (!con.caution.isEmpty()) {
+            TextView caution = body(c.getString(R.string.connotation_caution, con.caution),
+                    13, R.color.textSecondary);
+            box.addView(caution, gap(10));
+        }
         return box;
     }
 

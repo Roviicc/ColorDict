@@ -36,6 +36,16 @@ abstract class BaseActivity extends Activity {
         return Dictionary.get(this);
     }
 
+    /** Message for a failed lookup; a null message means no API key is set yet. */
+    String errorText(String message) {
+        return message != null ? message : getString(io.github.roviicc.colordict.R.string.no_api_key);
+    }
+
+    void openSettings() {
+        startActivity(new android.content.Intent(this, SettingsActivity.class)
+                .addFlags(android.content.Intent.FLAG_ACTIVITY_NEW_TASK));
+    }
+
     void speak(String word) {
         if (speaker == null) {
             speaker = new Speaker(this);

@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<full-backup-content />
+<!-- Never back up the user's API key (Android 11 and lower). -->
+<full-backup-content>
+    <exclude domain="sharedpref" path="secrets.xml" />
+</full-backup-content>

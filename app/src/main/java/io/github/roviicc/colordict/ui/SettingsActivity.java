@@ -17,7 +17,7 @@ import io.github.roviicc.colordict.BuildConfig;
 import io.github.roviicc.colordict.R;
 import io.github.roviicc.colordict.data.Dictionary;
 
-/** Theme, server address, and data controls. Built in code: it is a short list. */
+/** Theme, Claude API key and model, and data controls. Built in code: it is a short list. */
 public class SettingsActivity extends BaseActivity {
 
     private LinearLayout list;
@@ -83,13 +83,30 @@ public class SettingsActivity extends BaseActivity {
                         })
                         .show());
 
-        section(R.string.settings_server);
-        LinearLayout server = card();
-        String custom = d.customServerUrl();
-        String summary = !custom.isEmpty() ? custom
-                : BuildConfig.API_BASE_URL.isEmpty() ? getString(R.string.settings_server_none)
-                : getString(R.string.settings_server_default, BuildConfig.API_BASE_URL);
-        row(server, getString(R.string.settings_server_url), summary, v -> editServer());
+        section(R.string.settings_claude);
+        LinearLayout claude = card();
+        row(claude, getString(R.string.settings_api_key),
+                d.hasApiKey() ? d.maskedApiKey() : getString(R.string.settings_api_key_none),
+                v -> editApiKey());
+        divider(claude);
+        String[] modelLabels = {getString(R.string.model_opus), getString(R.string.model_sonnet),
+                getString(R.string.model_haiku)};
+        int current = java.util.Arrays.asList(Dictionary.MODELS).indexOf(d.model());
+        row(claude, getString(R.string.settings_model),
+                current >= 0 ? modelLabels[current] : d.model(), v ->
+                        new AlertDialog.Builder(this)
+                                .setTitle(R.string.settings_model)
+                                .setSingleChoiceItems(modelLabels, current, (dialog, which) -> {
+                                    dialog.dismiss();
+                                    d.setModel(Dictionary.MODELS[which]);
+                                    build();
+                                })
+                                .show());
+        TextView keyNote = Ui.text(this, 13, R.color.textTertiary);
+        keyNote.setText(R.string.settings_api_key_note);
+        keyNote.setLineSpacing(Ui.dp(this, 2), 1f);
+        keyNote.setPadding(Ui.dp(this, 4), Ui.dp(this, 8), Ui.dp(this, 4), 0);
+        list.addView(keyNote);
 
         section(R.string.settings_data);
         LinearLayout data = card();
@@ -113,28 +130,33 @@ public class SettingsActivity extends BaseActivity {
         list.addView(about);
     }
 
-    private void editServer() {
+    private void editApiKey() {
         Dictionary d = dictionary();
         EditText field = new EditText(this);
-        field.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_URI);
+        field.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
         field.setSingleLine(true);
-        field.setHint(R.string.settings_server_hint);
-        field.setText(d.customServerUrl());
+        field.setHint(R.string.settings_api_key_hint);
+        field.setText(d.apiKey());
+        field.setSelection(field.getText().length());
         FrameLayout wrap = new FrameLayout(this);
         int p = Ui.dp(this, 20);
         wrap.setPadding(p, Ui.dp(this, 8), p, 0);
         wrap.addView(field);
         new AlertDialog.Builder(this)
-                .setTitle(R.string.settings_server_url)
+                .setTitle(R.string.settings_api_key)
+                .setMessage(R.string.settings_api_key_help)
                 .setView(wrap)
-                .setPositiveButton(R.string.done, (dialog, w) -> {
-                    d.setCustomServerUrl(field.getText().toString());
+                .setPositiveButton(R.string.save_key, (dialog, w) -> {
+                    String key = field.getText().toString().trim();
+                    d.setApiKey(key);
+                    if (!key.isEmpty() && !key.startsWith("sk-ant-")) {
+                        Toast.makeText(this, R.string.settings_api_key_odd, Toast.LENGTH_LONG).show();
+                    }
                     build();
                 })
-                .setNeutralButton(R.string.settings_server_reset, (dialog, w) -> {
-                    d.setCustomServerUrl("");
-                    build();
-                })
+                .setNeutralButton(R.string.settings_get_key, (dialog, w) -> startActivity(
+                        new android.content.Intent(android.content.Intent.ACTION_VIEW,
+                                android.net.Uri.parse("https://platform.claude.com/settings/keys"))))
                 .setNegativeButton(R.string.cancel, null)
                 .show();
     }

@@ -2,29 +2,17 @@ plugins {
     id("com.android.application")
 }
 
-// Address of the dictionary server (the Vercel deployment of api/define.ts).
-// Set it with -PdictApiUrl=https://… or the DICT_API_URL environment variable.
-// Users can also change it in the app's Settings.
-val dictApiUrl: String = (findProperty("dictApiUrl") as String?)
-    ?: System.getenv("DICT_API_URL") ?: ""
-// Optional shared token; must match APP_TOKEN on the server when that is set.
-val dictAppToken: String = (findProperty("dictAppToken") as String?)
-    ?: System.getenv("DICT_APP_TOKEN") ?: ""
-
-fun quoted(s: String) = "\"" + s.replace("\\", "\\\\").replace("\"", "\\\"") + "\""
-
 android {
     namespace = "io.github.roviicc.colordict"
     compileSdk = 35
 
     defaultConfig {
         applicationId = "io.github.roviicc.colordict"
-        minSdk = 24
+        // 26+: the Claude Java SDK uses java.time.
+        minSdk = 26
         targetSdk = 35
         versionCode = 2
         versionName = "2.0.0"
-        buildConfigField("String", "API_BASE_URL", quoted(dictApiUrl))
-        buildConfigField("String", "APP_TOKEN", quoted(dictAppToken))
     }
 
     buildFeatures {
@@ -51,14 +39,24 @@ android {
         unitTests.isReturnDefaultValues = true
     }
 
+    packaging {
+        resources {
+            excludes += setOf("META-INF/versions/9/OSGI-INF/MANIFEST.MF", "META-INF/{AL2.0,LGPL2.1}",
+                "META-INF/DEPENDENCIES", "META-INF/LICENSE*", "META-INF/NOTICE*")
+        }
+    }
+
     lint {
         abortOnError = false
     }
 }
 
 dependencies {
-    // The app itself is dependency-free: framework APIs only.
+    // Official Claude SDK; the app calls the API directly with the user's own key.
+    implementation("com.anthropic:anthropic-java:3.3.0")
     testImplementation("junit:junit:4.13.2")
     // Real org.json for JVM unit tests (Android's copy is stubbed off-device).
     testImplementation("org.json:json:20250517")
+    // Local fake of the Claude API for ClaudeDictionaryTest (same OkHttp as the SDK).
+    testImplementation("com.squareup.okhttp3:mockwebserver:4.12.0")
 }

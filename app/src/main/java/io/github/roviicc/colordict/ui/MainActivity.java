@@ -43,6 +43,7 @@ public class MainActivity extends BaseActivity {
     private TextView emptyTitle;
     private TextView emptyBody;
     private boolean showingSaved;
+    private View keyBanner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -106,6 +107,10 @@ public class MainActivity extends BaseActivity {
             return false;
         });
 
+        keyBanner = buildKeyBanner();
+        LinearLayout root2 = (LinearLayout) root;
+        root2.addView(keyBanner, root2.indexOfChild(findViewById(R.id.searchBox)) + 1);
+
         selectTab(false);
         handleIntent(getIntent());
     }
@@ -119,7 +124,42 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        keyBanner.setVisibility(dictionary().hasApiKey() ? View.GONE : View.VISIBLE);
         refresh();
+    }
+
+    /** First-run card asking for the user's own Claude API key. */
+    private View buildKeyBanner() {
+        LinearLayout card = new LinearLayout(this);
+        card.setOrientation(LinearLayout.VERTICAL);
+        int pad = Ui.dp(this, 16);
+        card.setPadding(pad, pad, pad, pad);
+        float r = Ui.dp(this, 16);
+        card.setBackground(Ui.pressable(this, Ui.rounded(Ui.color(this, R.color.accentSoft), r), r));
+        TextView title = Ui.text(this, 16, R.color.textPrimary);
+        title.setText(R.string.key_banner_title);
+        title.setTypeface(Typeface.create("sans-serif-medium", Typeface.NORMAL));
+        card.addView(title);
+        TextView body = Ui.text(this, 14, R.color.textSecondary);
+        body.setText(R.string.key_banner_body);
+        body.setLineSpacing(Ui.dp(this, 2), 1f);
+        LinearLayout.LayoutParams bp = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        bp.topMargin = Ui.dp(this, 4);
+        card.addView(body, bp);
+        TextView action = Ui.text(this, 14, R.color.accent);
+        action.setText(R.string.key_banner_action);
+        action.setTypeface(Typeface.create("sans-serif-medium", Typeface.NORMAL));
+        LinearLayout.LayoutParams ap = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        ap.topMargin = Ui.dp(this, 10);
+        card.addView(action, ap);
+        card.setOnClickListener(v -> startActivity(new Intent(this, SettingsActivity.class)));
+        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        lp.setMargins(Ui.dp(this, 16), Ui.dp(this, 12), Ui.dp(this, 16), 0);
+        card.setLayoutParams(lp);
+        return card;
     }
 
     /** Text shared to the app ("Share → ColorDict") opens that word. */

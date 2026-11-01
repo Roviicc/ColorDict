@@ -9,9 +9,11 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * One dictionary entry as returned by the server's /api/define endpoint
- * (see api/define.ts for the schema). Parsing is lenient: missing fields
- * become empty values so an older or newer server never crashes the app.
+ * One dictionary entry, as written by Claude (see {@link ClaudeDictionary}
+ * for the schemas). The connotation is optional: it is fetched only when the
+ * user asks for it, then stored inside the same entry so it shows up
+ * automatically from then on. Parsing is lenient: missing fields become
+ * empty values so an entry saved by an older version never crashes the app.
  */
 public final class Entry {
 
@@ -36,13 +38,28 @@ public final class Entry {
         }
     }
 
+    /** How a word feels in use. Present only once the user has asked for it. */
+    public static final class Connotation {
+        public final Tone tone;
+        public final String summary;
+        public final List<String> feelsLike;
+        public final String caution;
+
+        Connotation(Tone tone, String summary, List<String> feelsLike, String caution) {
+            this.tone = tone;
+            this.summary = summary;
+            this.feelsLike = feelsLike;
+            this.caution = caution;
+        }
+    }
+
     public final String word;
     public final boolean found;
     public final String phonetic;
     public final String syllables;
     public final List<Sense> senses;
-    public final Tone tone;
-    public final String connotation;
+    /** Null until the user taps "Check connotation". */
+    public final Connotation connotation;
     public final String usageNote;
     public final String etymology;
     public final List<String> relatedForms;
@@ -78,9 +95,7 @@ public final class Entry {
             }
         }
         senses = Collections.unmodifiableList(list);
-        JSONObject c = o.optJSONObject("connotation");
-        tone = parseTone(c == null ? null : c.optString("tone", null));
-        connotation = c == null ? "" : c.optString("summary", "");
+        connotation = parseConnotation(o.optJSONObject("connotation"));
         usageNote = o.optString("usage_note", "");
         etymology = o.optString("etymology", "");
         relatedForms = strings(o.optJSONArray("related_forms"));
@@ -94,6 +109,25 @@ public final class Entry {
 
     public String toJson() {
         return json;
+    }
+
+    /** A copy of this entry with the given connotation (as returned by Claude) attached. */
+    public Entry withConnotation(JSONObject connotationJson) throws JSONException {
+        JSONObject o = new JSONObject(json);
+        o.put("connotation", connotationJson);
+        return new Entry(o);
+    }
+
+    private static Connotation parseConnotation(JSONObject c) {
+        if (c == null) {
+            return null;
+        }
+        String summary = c.optString("summary", "").trim();
+        if (summary.isEmpty()) {
+            return null;
+        }
+        return new Connotation(parseTone(c.optString("tone", null)), summary,
+                strings(c.optJSONArray("feels_like")), c.optString("caution", "").trim());
     }
 
     /** True when there is at least one definition to show. */
@@ -126,8 +160,8 @@ public final class Entry {
             }
             sb.append("\n").append(++n).append(". ").append(s.definition);
         }
-        if (!connotation.isEmpty()) {
-            sb.append("\n\nConnotation: ").append(connotation);
+        if (connotation != null) {
+            sb.append("\n\nConnotation: ").append(connotation.summary);
         }
         return sb.toString();
     }

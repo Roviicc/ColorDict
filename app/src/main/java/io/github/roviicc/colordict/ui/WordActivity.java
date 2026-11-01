@@ -98,11 +98,56 @@ public class WordActivity extends BaseActivity implements EntryRenderer.Listener
             }
 
             @Override
-            public void onError(String message, boolean retryable) {
+            public void onError(String message, boolean retryable, boolean needsSettings) {
                 if (id != requestId || isDestroyed()) {
                     return;
                 }
-                renderer.renderError(content, word, message, retryable, WordActivity.this::load);
+                if (needsSettings) {
+                    renderer.renderError(content, word, errorText(message),
+                            getString(R.string.open_settings), WordActivity.this::openSettings);
+                } else {
+                    renderer.renderError(content, word, message,
+                            retryable ? getString(R.string.try_again) : null, WordActivity.this::load);
+                }
+            }
+        });
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        // Back from Settings with a key: retry a lookup that failed for lack of one.
+        if (entry == null && dictionary().hasApiKey()) {
+            load();
+        }
+    }
+
+    @Override
+    public void onConnotationRequested() {
+        if (entry == null) {
+            return;
+        }
+        final int id = requestId;
+        dictionary().checkConnotation(word, entry, new Dictionary.Callback() {
+            @Override
+            public void onEntry(Entry e) {
+                if (id != requestId || isDestroyed()) {
+                    return;
+                }
+                entry = e;
+                int y = ((ScrollView) findViewById(R.id.scroll)).getScrollY();
+                renderer.renderEntry(content, e, false);
+                findViewById(R.id.scroll).post(() -> findViewById(R.id.scroll).scrollTo(0, y));
+            }
+
+            @Override
+            public void onError(String message, boolean retryable, boolean needsSettings) {
+                if (id != requestId || isDestroyed()) {
+                    return;
+                }
+                renderer.showConnotationError(errorText(message),
+                        needsSettings ? getString(R.string.open_settings) : null,
+                        needsSettings ? WordActivity.this::openSettings : null);
             }
         });
     }

@@ -155,11 +155,52 @@ public class PopupActivity extends BaseActivity implements EntryRenderer.Listene
             }
 
             @Override
-            public void onError(String message, boolean retryable) {
+            public void onError(String message, boolean retryable, boolean needsSettings) {
                 if (id != requestId || isDestroyed()) {
                     return;
                 }
-                renderer.renderError(content, query, message, retryable, () -> define(query));
+                if (needsSettings) {
+                    renderer.renderError(content, query, errorText(message),
+                            getString(R.string.open_settings), () -> {
+                                openSettings();
+                                finish();
+                            });
+                } else {
+                    renderer.renderError(content, query, message,
+                            retryable ? getString(R.string.try_again) : null, () -> define(query));
+                }
+            }
+        });
+    }
+
+    @Override
+    public void onConnotationRequested() {
+        if (entry == null) {
+            return;
+        }
+        final int id = requestId;
+        final String query = word;
+        dictionary().checkConnotation(query, entry, new Dictionary.Callback() {
+            @Override
+            public void onEntry(Entry e) {
+                if (id != requestId || isDestroyed()) {
+                    return;
+                }
+                entry = e;
+                renderer.renderEntry(content, e, true);
+            }
+
+            @Override
+            public void onError(String message, boolean retryable, boolean needsSettings) {
+                if (id != requestId || isDestroyed()) {
+                    return;
+                }
+                renderer.showConnotationError(errorText(message),
+                        needsSettings ? getString(R.string.open_settings) : null,
+                        needsSettings ? () -> {
+                            openSettings();
+                            finish();
+                        } : null);
             }
         });
     }

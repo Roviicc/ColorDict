@@ -18,8 +18,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TAG: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
-      # Baked into the APK as the default dictionary server (repository variable).
-      DICT_API_URL: ${{ vars.DICT_API_URL }}
     steps:
       - name: Check out
         uses: actions/checkout@v4

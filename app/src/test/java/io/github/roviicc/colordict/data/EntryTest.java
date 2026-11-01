@@ -4,6 +4,10 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+
+import org.json.JSONObject;
 import org.junit.Test;
 
 public class EntryTest {
@@ -14,7 +18,6 @@ public class EntryTest {
             + "\"synonyms\":[\"calm\",\"tranquil\"],\"antonyms\":[\"agitated\"],\"register\":\"\"},"
             + "{\"part_of_speech\":\"adjective\",\"definition\":\"Clear and bright (of the sky).\","
             + "\"examples\":[],\"synonyms\":[],\"antonyms\":[],\"register\":\"literary\"}],"
-            + "\"connotation\":{\"tone\":\"positive\",\"summary\":\"Gentle and admiring.\"},"
             + "\"usage_note\":\"\",\"etymology\":\"From Latin serenus.\","
             + "\"related_forms\":[\"serenely\",\"serenity\"],\"suggestions\":[]}";
 
@@ -28,9 +31,23 @@ public class EntryTest {
         assertEquals("adjective", e.senses.get(0).partOfSpeech);
         assertEquals(2, e.senses.get(0).synonyms.size());
         assertEquals("literary", e.senses.get(1).register);
-        assertEquals(Entry.Tone.POSITIVE, e.tone);
-        assertEquals("Gentle and admiring.", e.connotation);
+        assertNull("connotation is only fetched on request", e.connotation);
         assertEquals("adjective · Calm, peaceful, and untroubled.", e.preview());
+    }
+
+    @Test
+    public void connotationIsAttachedAndSurvivesStorage() throws Exception {
+        Entry e = Entry.fromJson(SERENE).withConnotation(new JSONObject(
+                "{\"tone\":\"positive\",\"summary\":\"Gentle and admiring.\","
+                        + "\"feels_like\":[\"calm\",\"approving\"],\"caution\":\"\"}"));
+        Entry reloaded = Entry.fromJson(e.toJson());
+        assertNotNull(reloaded.connotation);
+        assertEquals(Entry.Tone.POSITIVE, reloaded.connotation.tone);
+        assertEquals("Gentle and admiring.", reloaded.connotation.summary);
+        assertEquals(2, reloaded.connotation.feelsLike.size());
+        assertEquals("", reloaded.connotation.caution);
+        assertEquals(2, reloaded.senses.size());
+        assertTrue(reloaded.toPlainText().contains("Connotation: Gentle and admiring."));
     }
 
     @Test
@@ -43,11 +60,11 @@ public class EntryTest {
     @Test
     public void toleratesMissingFieldsAndUnknownTone() throws Exception {
         Entry e = Entry.fromJson("{\"word\":\"x\",\"senses\":[{\"definition\":\"d\"},{}],"
-                + "\"connotation\":{\"tone\":\"sarcastic\"}}");
+                + "\"connotation\":{\"tone\":\"sarcastic\",\"summary\":\"s\"}}");
         assertEquals(1, e.senses.size());
         assertEquals("", e.senses.get(0).partOfSpeech);
         assertTrue(e.senses.get(0).examples.isEmpty());
-        assertEquals(Entry.Tone.NEUTRAL, e.tone);
+        assertEquals(Entry.Tone.NEUTRAL, e.connotation.tone);
         assertEquals("", e.etymology);
     }
 
@@ -66,6 +83,5 @@ public class EntryTest {
         assertTrue(text.startsWith("serene  /səˈriːn/"));
         assertTrue(text.contains("adjective\n1. Calm"));
         assertTrue(text.contains("\n2. Clear and bright"));
-        assertTrue(text.contains("Connotation: Gentle and admiring."));
     }
 }

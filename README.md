@@ -1,67 +1,37 @@
 # ColorDict
 
-A clean English dictionary for Android with a quick-lookup popup. Every entry
-(pronunciation, meanings, examples, synonyms, **connotation**, origin) is
-written on demand by Claude through a small server you deploy yourself, then
-kept on the phone so words open instantly and work offline the next time.
+A clean English dictionary for Android with a quick-lookup popup. Entries
+(pronunciation, meanings, examples, synonyms, origin) are written by Claude
+using **your own Anthropic API key**. Connotation is on demand: tap **Check
+connotation** once and it's saved with the word, so it shows automatically
+every time after that.
 
-| Word | Popup | Home | Dark |
+| Popup | After "Check connotation" | First run | Dark |
 |---|---|---|---|
-| ![Word](docs/screenshots/word.png) | ![Popup](docs/screenshots/popup.png) | ![Home](docs/screenshots/home.png) | ![Dark](docs/screenshots/word_night.png) |
+| ![Popup](docs/screenshots/popup_button.png) | ![Connotation](docs/screenshots/popup_connotation.png) | ![Home](docs/screenshots/home_nokey.png) | ![Dark](docs/screenshots/word_night.png) |
 
-## How it fits together
+## How it works
 
-```
-Android app ──GET /api/define?word=serene──▶ Vercel function ──▶ Claude API
-     ▲                                         (api/define.ts)
-     └───────────── JSON dictionary entry ◀────────┘
-```
-
-- **`api/define.ts`** is a single serverless function. It asks Claude for one
-  entry using structured outputs, so the reply always matches a fixed JSON
-  schema, and Vercel's CDN caches each word for 30 days. Your Anthropic API
-  key stays on the server; it is never in the APK.
-- **`app/`** is the Android app: plain Java with no libraries (the APK is
-  under 100 KB).
-
-## 1. Deploy the dictionary server
-
-1. Import this repository in [Vercel](https://vercel.com/new). The defaults
-   work: no build command and no root directory to set.
-2. Under **Settings → Environment Variables**, add:
-
-   | Variable | Required | Value |
-   |---|---|---|
-   | `ANTHROPIC_API_KEY` | yes | Your key from the [Claude Console](https://platform.claude.com/) |
-   | `CLAUDE_MODEL` | no | Model ID, default `claude-opus-5-5` |
-   | `CLAUDE_EFFORT` | no | `low` (default), `medium` or `high`. Lower is faster and cheaper |
-   | `APP_TOKEN` | no | Any random string. The app must send the same value (see below) |
-
-3. Redeploy, then open `https://<your-app>.vercel.app/api/define?word=serene`.
-   You should get a JSON entry back.
-
-Opus is the default for entry quality. For faster, much cheaper lookups set
-`CLAUDE_MODEL=claude-haiku-5-5`. Policy declines are retried on Anthropic's
-recommended fallback model (`fallbacks: "default"`).
-
-The endpoint is public, so put a spend limit on your Anthropic key. You can
-also turn on Vercel's firewall rate limiting for `/api/define`. `APP_TOKEN`
-keeps casual callers out, but anyone who unpacks the APK can read it.
-
-## 2. Build the app with your server address
-
-```bash
-./gradlew assembleDebug -PdictApiUrl=https://<your-app>.vercel.app
-# optional, if you set APP_TOKEN on the server:
-#   -PdictAppToken=<same value>
-```
-
-The APK is written to `app/build/outputs/apk/debug/`. The address can also be
-set later in the app under **Settings → Server address**.
-
-For CI-built APKs (GitHub Actions and tagged releases), add a repository
-variable `DICT_API_URL` under **Settings → Secrets and variables → Actions →
-Variables**. Push a `v*` tag to publish a release with installable APKs.
+- **Bring your own key.** Paste an Anthropic API key in **Settings → API
+  key** ([get one](https://platform.claude.com/settings/keys)). The app calls
+  the Claude API directly from the phone with the official
+  [Claude Java SDK](https://github.com/anthropics/anthropic-sdk-java). There
+  is no app server. The key is stored only on the device and is excluded from
+  Android backups and device transfers. Lookups are billed to your own
+  account.
+- **One request per new word.** The first lookup asks Claude for the entry
+  using structured outputs, so the reply always matches a fixed JSON schema.
+  The entry is saved on the phone, so opening the word again is instant, free
+  and works offline.
+- **Connotation on request.** Connotation is a separate, smaller request
+  that runs only when you tap **Check connotation**. The answer (overall tone,
+  a short explanation, a few descriptors, and when the word can come across
+  differently) is saved into that word's entry. From then on it appears
+  automatically and the button is gone.
+- **Model choice.** In Settings: Claude Opus 5.5 (default, best entries),
+  Sonnet 5.5, or Haiku 5.5 (fastest and cheapest). Requests use low effort to
+  keep lookups quick. On Opus and Sonnet, policy declines are retried on
+  Anthropic's recommended fallback model.
 
 ## The popup
 
@@ -83,21 +53,30 @@ intent.putExtra("EXTRA_MARGIN_BOTTOM", marginPx); // also _LEFT, _TOP, _RIGHT
 startActivity(intent);
 ```
 
+## Install
+
+Grab the debug APK from the
+[Releases page](https://github.com/roviicc/colordict/releases) (pushing a
+`v*` tag builds one) or from any CI run's artifacts. Android 8.0+.
+
 ## Development
 
 ```bash
-npm install && npm run typecheck && npm test   # server
-./gradlew test assembleDebug                    # app (JDK 17+, Android SDK 35)
+./gradlew test assembleDebug   # JDK 17+, Android SDK 35
 ```
 
 ```
-api/define.ts        serverless function: validation, prompt, schema, caching
-test/                server tests (node --test)
 app/src/main/java/io/github/roviicc/colordict/
-  data/              Entry model, HTTP client, on-device entry cache, word lists
-  ui/                Home, Word, Popup and Settings screens; EntryRenderer
-                     draws the word view shared by the page and the popup
+  data/ClaudeDictionary   Claude API calls: prompts, JSON schemas, error mapping
+  data/Dictionary         settings (key, model), lookups, save-once connotation
+  data/Entry, EntryStore  entry model and on-device storage
+  ui/                     Home, Word, Popup and Settings screens; EntryRenderer
+                          draws the word view shared by the page and the popup
 ```
+
+`ClaudeDictionaryTest` runs the real SDK client against a local fake of the
+Messages API, so request shape, parsing and error handling are tested without
+a key.
 
 ## License
 

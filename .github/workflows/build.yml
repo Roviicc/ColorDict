@@ -5,34 +5,9 @@ on:
   pull_request:
 
 jobs:
-  api:
-    name: Dictionary API
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out
-        uses: actions/checkout@v4
-
-      - name: Set up Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "22"
-          cache: npm
-
-      - name: Install
-        run: npm ci
-
-      - name: Typecheck
-        run: npm run typecheck
-
-      - name: Tests
-        run: npm test
-
   android:
     name: Android app
     runs-on: ubuntu-latest
-    env:
-      # Repository variable (Settings → Secrets and variables → Actions → Variables).
-      DICT_API_URL: ${{ vars.DICT_API_URL }}
     steps:
       - name: Check out
         uses: actions/checkout@v4
