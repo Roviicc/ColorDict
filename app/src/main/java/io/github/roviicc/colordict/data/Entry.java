@@ -9,11 +9,11 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * One dictionary entry, as written by Claude (see {@link ClaudeDictionary}
- * for the schemas). The connotation is optional: it is fetched only when the
- * user asks for it, then stored inside the same entry so it shows up
- * automatically from then on. Parsing is lenient: missing fields become
- * empty values so an entry saved by an older version never crashes the app.
+ * One dictionary entry. Definitions come from the built-in dictionary
+ * ({@link BuiltInDictionary}, built from Open English WordNet); the
+ * connotation is optional, written by Claude only when the user asks for it
+ * and then stored per word so it shows up automatically from then on.
+ * Parsing is lenient: missing fields become empty values.
  */
 public final class Entry {
 
@@ -105,6 +105,49 @@ public final class Entry {
 
     public static Entry fromJson(String json) throws JSONException {
         return new Entry(new JSONObject(json));
+    }
+
+    /** Part-of-speech names by the index stored in dictionary rows (see tools/build_dictionary.py). */
+    static final String[] POS = {"", "noun", "verb", "adjective", "adverb"};
+
+    /**
+     * Expands a compact built-in dictionary row:
+     * {@code [phonetic, [related...], [[posIndex, definition, [examples], [synonyms], [antonyms]], ...]]}.
+     */
+    public static Entry fromDictionaryRow(String word, String compactJson) throws JSONException {
+        JSONArray row = new JSONArray(compactJson);
+        JSONArray senses = new JSONArray();
+        JSONArray rows = row.getJSONArray(2);
+        for (int i = 0; i < rows.length(); i++) {
+            JSONArray r = rows.getJSONArray(i);
+            int pos = r.optInt(0, 0);
+            senses.put(new JSONObject()
+                    .put("part_of_speech", pos >= 0 && pos < POS.length ? POS[pos] : "")
+                    .put("definition", r.getString(1))
+                    .put("examples", r.getJSONArray(2))
+                    .put("synonyms", r.getJSONArray(3))
+                    .put("antonyms", r.getJSONArray(4))
+                    .put("register", ""));
+        }
+        return new Entry(new JSONObject()
+                .put("word", word)
+                .put("found", true)
+                .put("phonetic", row.optString(0, ""))
+                .put("senses", senses)
+                .put("related_forms", row.getJSONArray(1)));
+    }
+
+    /** An entry for a word the dictionary doesn't have, with spelling suggestions. */
+    public static Entry notFound(String word, List<String> suggestions) {
+        try {
+            return new Entry(new JSONObject()
+                    .put("word", word)
+                    .put("found", false)
+                    .put("senses", new JSONArray())
+                    .put("suggestions", new JSONArray(suggestions)));
+        } catch (JSONException e) {
+            throw new AssertionError(e);
+        }
     }
 
     public String toJson() {

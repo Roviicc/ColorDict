@@ -30,9 +30,9 @@ public final class WordList {
     }
 
     public synchronized boolean contains(String word) {
-        String k = EntryStore.key(word);
+        String k = Words.key(word);
         for (String w : read()) {
-            if (EntryStore.key(w).equals(k)) {
+            if (Words.key(w).equals(k)) {
                 return true;
             }
         }
@@ -42,7 +42,7 @@ public final class WordList {
     /** Adds (or moves) the word to the top of the list. */
     public synchronized void add(String word) {
         List<String> list = read();
-        removeKey(list, EntryStore.key(word));
+        removeKey(list, Words.key(word));
         list.add(0, word);
         while (list.size() > limit) {
             list.remove(list.size() - 1);
@@ -52,7 +52,7 @@ public final class WordList {
 
     public synchronized void remove(String word) {
         List<String> list = read();
-        removeKey(list, EntryStore.key(word));
+        removeKey(list, Words.key(word));
         write(list);
     }
 
@@ -72,7 +72,7 @@ public final class WordList {
 
     private static void removeKey(List<String> list, String key) {
         for (int i = list.size() - 1; i >= 0; i--) {
-            if (EntryStore.key(list.get(i)).equals(key)) {
+            if (Words.key(list.get(i)).equals(key)) {
                 list.remove(i);
             }
         }

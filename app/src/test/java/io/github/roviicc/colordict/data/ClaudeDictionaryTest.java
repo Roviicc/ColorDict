@@ -65,24 +65,29 @@ public class ClaudeDictionaryTest {
                 .toString();
     }
 
-    @Test
-    public void definesAWordWithTheUsersKeyAndASchema() throws Exception {
-        reply = message(EntryTest.SERENE, "end_turn");
-        Entry e = new ClaudeDictionary("sk-ant-user-key", "claude-opus-5-5", baseUrl).define("serene");
+    private static final String CONNOTATION =
+            "{\"tone\":\"positive\",\"summary\":\"Gentle and admiring.\",\"feels_like\":[\"calm\"],\"caution\":\"\"}";
 
-        assertEquals("serene", e.word);
-        assertEquals(2, e.senses.size());
+    @Test
+    public void asksForConnotationWithTheUsersKeyAndTheMeanings() throws Exception {
+        reply = message(CONNOTATION, "end_turn");
+        Entry serene = Entry.fromJson(EntryTest.SERENE);
+        JSONObject c = new ClaudeDictionary("sk-ant-user-key", "claude-opus-5-5", baseUrl)
+                .connotation("serene", serene);
+
+        assertEquals("positive", c.getString("tone"));
         assertEquals("sk-ant-user-key", lastKey);
 
         JSONObject body = new JSONObject(lastBody);
         assertEquals("claude-opus-5-5", body.getString("model"));
-        assertEquals("<headword>serene</headword>",
-                body.getJSONArray("messages").getJSONObject(0).getString("content"));
+        String user = body.getJSONArray("messages").getJSONObject(0).getString("content");
+        assertTrue(user.startsWith("<headword>serene</headword>"));
+        assertTrue("meanings give Claude context", user.contains("(adjective) Calm, peaceful, and untroubled."));
         JSONObject format = body.getJSONObject("output_config").getJSONObject("format");
         assertEquals("json_schema", format.getString("type"));
-        JSONObject props = format.getJSONObject("schema").getJSONObject("properties");
-        assertTrue(props.has("senses"));
-        assertFalse("definitions must not include connotation", props.has("connotation"));
+        assertEquals(new JSONArray("[\"positive\",\"negative\",\"neutral\",\"mixed\"]").toString(),
+                format.getJSONObject("schema").getJSONObject("properties").getJSONObject("tone")
+                        .getJSONArray("enum").toString());
         assertEquals("low", body.getJSONObject("output_config").getString("effort"));
         assertEquals("default", body.getString("fallbacks"));
         assertTrue(lastBeta.contains("server-side-fallback-2026-07-01"));
@@ -90,23 +95,11 @@ public class ClaudeDictionaryTest {
 
     @Test
     public void haikuRequestsSkipServerFallbacks() throws Exception {
-        reply = message(EntryTest.SERENE, "end_turn");
-        new ClaudeDictionary("k", "claude-haiku-5-5", baseUrl).define("serene");
+        reply = message(CONNOTATION, "end_turn");
+        new ClaudeDictionary("k", "claude-haiku-5-5", baseUrl).connotation("serene", null);
         JSONObject body = new JSONObject(lastBody);
         assertEquals("claude-haiku-5-5", body.getString("model"));
         assertFalse(body.has("fallbacks"));
-    }
-
-    @Test
-    public void fetchesConnotationSeparately() throws Exception {
-        reply = message("{\"tone\":\"negative\",\"summary\":\"Sounds dismissive.\","
-                + "\"feels_like\":[\"curt\"],\"caution\":\"\"}", "end_turn");
-        JSONObject c = new ClaudeDictionary("k", "claude-opus-5-5", baseUrl).connotation("curt");
-        assertEquals("negative", c.getString("tone"));
-        JSONObject schema = new JSONObject(lastBody).getJSONObject("output_config")
-                .getJSONObject("format").getJSONObject("schema");
-        assertEquals(new JSONArray("[\"positive\",\"negative\",\"neutral\",\"mixed\"]").toString(),
-                schema.getJSONObject("properties").getJSONObject("tone").getJSONArray("enum").toString());
     }
 
     @Test
@@ -114,7 +107,7 @@ public class ClaudeDictionaryTest {
         status = 401;
         reply = "{\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"}}";
         try {
-            new ClaudeDictionary("bad", "claude-opus-5-5", baseUrl).define("serene");
+            new ClaudeDictionary("bad", "claude-opus-5-5", baseUrl).connotation("serene", null);
             fail("expected LookupException");
         } catch (ClaudeDictionary.LookupException e) {
             assertTrue(e.needsSettings);
@@ -126,7 +119,7 @@ public class ClaudeDictionaryTest {
     public void refusalIsReportedNotParsed() throws Exception {
         reply = message("", "refusal");
         try {
-            new ClaudeDictionary("k", "claude-opus-5-5", baseUrl).define("x");
+            new ClaudeDictionary("k", "claude-opus-5-5", baseUrl).connotation("x", null);
             fail("expected LookupException");
         } catch (ClaudeDictionary.LookupException e) {
             assertFalse(e.retryable);
@@ -135,7 +128,6 @@ public class ClaudeDictionaryTest {
 
     @Test
     public void everySchemaPropertyIsRequired() throws Exception {
-        assertAllRequired(new JSONObject(ClaudeDictionary.entrySchema()));
         assertAllRequired(new JSONObject(ClaudeDictionary.connotationSchema()));
     }
 

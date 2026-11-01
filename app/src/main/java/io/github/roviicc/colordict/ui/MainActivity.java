@@ -25,7 +25,7 @@ import java.util.Map;
 
 import io.github.roviicc.colordict.R;
 import io.github.roviicc.colordict.data.Entry;
-import io.github.roviicc.colordict.data.EntryStore;
+import io.github.roviicc.colordict.data.Words;
 import io.github.roviicc.colordict.data.WordList;
 
 /** Home: search field, then Recent / Saved words in a grouped card list. */
@@ -43,7 +43,6 @@ public class MainActivity extends BaseActivity {
     private TextView emptyTitle;
     private TextView emptyBody;
     private boolean showingSaved;
-    private View keyBanner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -107,9 +106,8 @@ public class MainActivity extends BaseActivity {
             return false;
         });
 
-        keyBanner = buildKeyBanner();
-        LinearLayout root2 = (LinearLayout) root;
-        root2.addView(keyBanner, root2.indexOfChild(findViewById(R.id.searchBox)) + 1);
+        // Open the built-in dictionary early so previews and lookups are instant.
+        dictionary().warmUp(this::refresh);
 
         selectTab(false);
         handleIntent(getIntent());
@@ -124,42 +122,7 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        keyBanner.setVisibility(dictionary().hasApiKey() ? View.GONE : View.VISIBLE);
         refresh();
-    }
-
-    /** First-run card asking for the user's own Claude API key. */
-    private View buildKeyBanner() {
-        LinearLayout card = new LinearLayout(this);
-        card.setOrientation(LinearLayout.VERTICAL);
-        int pad = Ui.dp(this, 16);
-        card.setPadding(pad, pad, pad, pad);
-        float r = Ui.dp(this, 16);
-        card.setBackground(Ui.pressable(this, Ui.rounded(Ui.color(this, R.color.accentSoft), r), r));
-        TextView title = Ui.text(this, 16, R.color.textPrimary);
-        title.setText(R.string.key_banner_title);
-        title.setTypeface(Typeface.create("sans-serif-medium", Typeface.NORMAL));
-        card.addView(title);
-        TextView body = Ui.text(this, 14, R.color.textSecondary);
-        body.setText(R.string.key_banner_body);
-        body.setLineSpacing(Ui.dp(this, 2), 1f);
-        LinearLayout.LayoutParams bp = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-        bp.topMargin = Ui.dp(this, 4);
-        card.addView(body, bp);
-        TextView action = Ui.text(this, 14, R.color.accent);
-        action.setText(R.string.key_banner_action);
-        action.setTypeface(Typeface.create("sans-serif-medium", Typeface.NORMAL));
-        LinearLayout.LayoutParams ap = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-        ap.topMargin = Ui.dp(this, 10);
-        card.addView(action, ap);
-        card.setOnClickListener(v -> startActivity(new Intent(this, SettingsActivity.class)));
-        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-        lp.setMargins(Ui.dp(this, 16), Ui.dp(this, 12), Ui.dp(this, 16), 0);
-        card.setLayoutParams(lp);
-        return card;
     }
 
     /** Text shared to the app ("Share → ColorDict") opens that word. */
@@ -225,30 +188,48 @@ public class MainActivity extends BaseActivity {
         list.addView(card);
     }
 
-    /** While typing: a "Look up …" row plus matching recent/saved words. */
+    /** While typing: matching words from the built-in dictionary, recent and saved first. */
     private void showMatches(String query) {
         empty.setVisibility(View.GONE);
         listScroll.setVisibility(View.VISIBLE);
         clearAll.setVisibility(View.GONE);
         listTitle.setText(R.string.matches);
 
-        String key = EntryStore.key(query);
-        Map<String, String> matches = new LinkedHashMap<>();
+        String key = Words.key(query);
+        Map<String, String> mine = new LinkedHashMap<>();
         List<String> pool = new ArrayList<>(dictionary().recent().all());
         pool.addAll(dictionary().saved().all());
         for (String w : pool) {
-            String k = EntryStore.key(w);
-            if (k.startsWith(key) && !k.equals(key) && !matches.containsKey(k) && matches.size() < 8) {
-                matches.put(k, w);
+            String k = Words.key(w);
+            if (k.startsWith(key) && !mine.containsKey(k) && mine.size() < 3) {
+                mine.put(k, w);
             }
         }
+        renderMatches(query, mine, new ArrayList<>());
+        dictionary().suggest(query, 10, words -> {
+            if (!query.equals(input.getText().toString().trim())) {
+                return; // the user kept typing
+            }
+            renderMatches(query, mine, words);
+        });
+    }
 
+    private void renderMatches(String query, Map<String, String> mine, List<String> fromDictionary) {
+        list.removeAllViews();
         LinearLayout card = card();
-        View lookUpRow = row(getString(R.string.look_up_query, query), null, R.drawable.ic_search);
-        lookUpRow.setOnClickListener(v -> lookUp(query));
-        card.addView(lookUpRow);
-        for (String w : matches.values()) {
-            addDivider(card);
+        Map<String, String> all = new LinkedHashMap<>(mine);
+        for (String w : fromDictionary) {
+            if (all.size() >= 10) {
+                break;
+            }
+            all.putIfAbsent(Words.key(w), w);
+        }
+        if (!all.containsKey(Words.key(query))) {
+            View lookUpRow = row(getString(R.string.look_up_query, query), null, R.drawable.ic_search);
+            lookUpRow.setOnClickListener(v -> lookUp(query));
+            card.addView(lookUpRow);
+        }
+        for (String w : all.values()) {
             addRow(card, w, false, null);
         }
         list.addView(card);
@@ -258,7 +239,7 @@ public class MainActivity extends BaseActivity {
         if (card.getChildCount() > 0) {
             addDivider(card);
         }
-        Entry cached = dictionary().cached(word);
+        Entry cached = dictionary().peek(word);
         View row = row(word, cached == null ? null : cached.preview(), 0);
         row.setOnClickListener(v -> lookUp(word));
         if (removable) {

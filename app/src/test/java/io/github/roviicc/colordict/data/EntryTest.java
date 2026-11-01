@@ -51,6 +51,33 @@ public class EntryTest {
     }
 
     @Test
+    public void expandsCompactDictionaryRows() throws Exception {
+        Entry e = Entry.fromDictionaryRow("serene", "[\"/səˈriːn/\",[\"serenity\"],"
+                + "[[3,\"Not agitated.\",[\"He remained serene.\"],[\"calm\",\"tranquil\"],[]],"
+                + "[1,\"A title.\",[],[],[\"agitation\"]]]]");
+        assertEquals("serene", e.word);
+        assertTrue(e.hasSenses());
+        assertEquals("/səˈriːn/", e.phonetic);
+        assertEquals("adjective", e.senses.get(0).partOfSpeech);
+        assertEquals("noun", e.senses.get(1).partOfSpeech);
+        assertEquals("tranquil", e.senses.get(0).synonyms.get(1));
+        assertEquals("agitation", e.senses.get(1).antonyms.get(0));
+        assertEquals("serenity", e.relatedForms.get(0));
+        assertNull(e.connotation);
+        // A saved connotation attaches to a built-in entry.
+        Entry withC = e.withConnotation(new JSONObject("{\"tone\":\"positive\",\"summary\":\"Calm.\"}"));
+        assertEquals(Entry.Tone.POSITIVE, withC.connotation.tone);
+    }
+
+    @Test
+    public void notFoundCarriesSuggestions() {
+        Entry e = Entry.notFound("recieve", java.util.Arrays.asList("receive", "relieve"));
+        assertFalse(e.hasSenses());
+        assertEquals("recieve", e.word);
+        assertEquals(2, e.suggestions.size());
+    }
+
+    @Test
     public void roundTripsThroughJson() throws Exception {
         Entry e = Entry.fromJson(Entry.fromJson(SERENE).toJson());
         assertEquals("serene", e.word);

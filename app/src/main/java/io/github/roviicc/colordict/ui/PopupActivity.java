@@ -139,7 +139,7 @@ public class PopupActivity extends BaseActivity implements EntryRenderer.Listene
         openFull.setVisibility(View.GONE);
         scroll.scrollTo(0, 0);
         updateSaveIcon();
-        if (dictionary().cached(query) == null) {
+        if (!dictionary().isReady()) {
             renderer.renderLoading(content, query, true);
         }
         dictionary().define(query, new Dictionary.Callback() {

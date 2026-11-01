@@ -117,7 +117,7 @@ public class SettingsActivity extends BaseActivity {
         divider(data);
         row(data, getString(R.string.settings_clear_cache),
                 getString(R.string.settings_clear_cache_summary), v -> {
-                    int n = d.store().clear();
+                    int n = d.connotations().clear();
                     Toast.makeText(this, getString(R.string.settings_cache_cleared, n),
                             Toast.LENGTH_SHORT).show();
                 });

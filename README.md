@@ -1,37 +1,38 @@
 # ColorDict
 
-A clean English dictionary for Android with a quick-lookup popup. Entries
-(pronunciation, meanings, examples, synonyms, origin) are written by Claude
-using **your own Anthropic API key**. Connotation is on demand: tap **Check
-connotation** once and it's saved with the word, so it shows automatically
-every time after that.
+A clean English dictionary for Android with a quick-lookup popup.
 
-| Popup | After "Check connotation" | First run | Dark |
+- **Built-in dictionary.** About 150,000 English words with pronunciations,
+  numbered meanings, examples, synonyms and antonyms, all inside the app.
+  Lookups are instant, offline and free.
+- **Connotation when you want it.** Tap **Check connotation** on any word and
+  Claude explains how it feels to people, using your own Anthropic API key.
+  The answer is saved with the word, so next time it's already there.
+
+| Popup with saved connotation | Word page | Search as you type | Misspelling |
 |---|---|---|---|
-| ![Popup](docs/screenshots/popup_button.png) | ![Connotation](docs/screenshots/popup_connotation.png) | ![Home](docs/screenshots/home_nokey.png) | ![Dark](docs/screenshots/word_night.png) |
+| ![Popup](docs/screenshots/popup_serene_connotation.png) | ![Word](docs/screenshots/word_running.png) | ![Search](docs/screenshots/home_typing.png) | ![Not found](docs/screenshots/popup_notfound.png) |
 
 ## How it works
 
-- **Bring your own key.** Paste an Anthropic API key in **Settings → API
-  key** ([get one](https://platform.claude.com/settings/keys)). The app calls
-  the Claude API directly from the phone with the official
-  [Claude Java SDK](https://github.com/anthropics/anthropic-sdk-java). There
-  is no app server. The key is stored only on the device and is excluded from
-  Android backups and device transfers. Lookups are billed to your own
-  account.
-- **One request per new word.** The first lookup asks Claude for the entry
-  using structured outputs, so the reply always matches a fixed JSON schema.
-  The entry is saved on the phone, so opening the word again is instant, free
-  and works offline.
-- **Connotation on request.** Connotation is a separate, smaller request
-  that runs only when you tap **Check connotation**. The answer (overall tone,
-  a short explanation, a few descriptors, and when the word can come across
-  differently) is saved into that word's entry. From then on it appears
-  automatically and the button is gone.
-- **Model choice.** In Settings: Claude Opus 5.5 (default, best entries),
-  Sonnet 5.5, or Haiku 5.5 (fastest and cheapest). Requests use low effort to
-  keep lookups quick. On Opus and Sonnet, policy declines are retried on
-  Anthropic's recommended fallback model.
+- **Definitions** come from a SQLite database bundled in the APK
+  (`app/src/main/assets/dictionary.db.gz`, built from Open English WordNet 2024
+  and the CMU Pronouncing Dictionary; see [NOTICE.md](NOTICE.md)). It is
+  copied out of the APK on first launch (a few seconds), then every lookup
+  reads it directly. Inflected forms find their base word ("geese" → goose,
+  "ran" → run, "cities" → city), and misspellings get "Did you mean"
+  suggestions.
+- **Connotation** is the only thing that uses the network. Paste an Anthropic
+  API key in **Settings → API key**
+  ([get one](https://platform.claude.com/settings/keys)). Tapping **Check
+  connotation** sends that word and its dictionary meanings to Claude through
+  the official [Claude Java SDK](https://github.com/anthropics/anthropic-sdk-java)
+  and gets back the tone, a short explanation, a few descriptors and when the
+  word can come across differently. It's saved on the phone per word, so each
+  word costs one request, once. The key stays on the device and is excluded
+  from backups.
+- **Model choice** (Settings): Claude Opus 5.5 (default), Sonnet 5.5, or
+  Haiku 5.5 (fastest and cheapest).
 
 ## The popup
 
@@ -62,23 +63,21 @@ Grab the debug APK from the
 ## Development
 
 ```bash
-./gradlew test assembleDebug   # JDK 17+, Android SDK 35
+./gradlew test assembleDebug                 # JDK 17+, Android SDK 35
+python3 tools/build_dictionary.py --fetch    # rebuild the dictionary database
 ```
 
 ```
+tools/build_dictionary.py   WordNet + CMUdict → assets/dictionary.db.gz
 app/src/main/java/io/github/roviicc/colordict/
-  data/ClaudeDictionary   Claude API calls: prompts, JSON schemas, error mapping
-  data/Dictionary         settings (key, model), lookups, save-once connotation
-  data/Entry, EntryStore  entry model and on-device storage
-  ui/                     Home, Word, Popup and Settings screens; EntryRenderer
-                          draws the word view shared by the page and the popup
+  data/BuiltInDictionary    offline lookups, base forms, suggestions (SQLite)
+  data/ClaudeDictionary     connotation requests to Claude (prompt, schema, errors)
+  data/Dictionary           lookups, saved connotations, settings
+  ui/                       Home, Word, Popup and Settings; EntryRenderer draws
+                            the word view shared by the page and the popup
 ```
-
-`ClaudeDictionaryTest` runs the real SDK client against a local fake of the
-Messages API, so request shape, parsing and error handling are tested without
-a key.
 
 ## License
 
-[MIT](LICENSE). Dictionary entries are generated by Claude and can contain
-mistakes.
+Code: [MIT](LICENSE). Dictionary data: Open English WordNet (CC BY 4.0) and
+the CMU Pronouncing Dictionary (BSD); see [NOTICE.md](NOTICE.md).

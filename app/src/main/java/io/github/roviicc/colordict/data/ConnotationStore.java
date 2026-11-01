@@ -1,5 +1,8 @@
 package io.github.roviicc.colordict.data;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -12,23 +15,19 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Locale;
 
 /**
- * Keeps every entry the app has fetched as a small JSON file, so looking a
- * word up again (or opening a saved word) is instant and works offline.
+ * Saved connotations, one small JSON file per word. Once the user has checked
+ * a word's connotation it is read from here on every later lookup, so Claude
+ * is asked only once per word.
  */
-public final class EntryStore {
+public final class ConnotationStore {
 
     private final File dir;
 
-    public EntryStore(File dir) {
+    public ConnotationStore(File dir) {
         this.dir = dir;
     }
 
-    /** Lookups are case-insensitive: "Serene" and "serene" share one entry. */
-    public static String key(String word) {
-        return word.trim().replaceAll("\\s+", " ").toLowerCase(Locale.ROOT);
-    }
-
-    public synchronized Entry get(String word) {
+    public synchronized JSONObject get(String word) {
         File f = file(word);
         if (!f.isFile()) {
             return null;
@@ -43,22 +42,22 @@ public final class EntryStore {
                 }
                 off += n;
             }
-            return Entry.fromJson(new String(data, 0, off, StandardCharsets.UTF_8));
-        } catch (IOException | org.json.JSONException e) {
+            return new JSONObject(new String(data, 0, off, StandardCharsets.UTF_8));
+        } catch (IOException | JSONException e) {
             //noinspection ResultOfMethodCallIgnored
             f.delete();
             return null;
         }
     }
 
-    public synchronized void put(String word, Entry entry) {
+    public synchronized void put(String word, JSONObject connotation) {
         if (!dir.isDirectory() && !dir.mkdirs()) {
             return;
         }
         File f = file(word);
         File tmp = new File(dir, f.getName() + ".tmp");
         try (OutputStream out = new FileOutputStream(tmp)) {
-            out.write(entry.toJson().getBytes(StandardCharsets.UTF_8));
+            out.write(connotation.toString().getBytes(StandardCharsets.UTF_8));
         } catch (IOException e) {
             //noinspection ResultOfMethodCallIgnored
             tmp.delete();
@@ -68,7 +67,7 @@ public final class EntryStore {
         tmp.renameTo(f);
     }
 
-    /** Removes every cached entry; returns how many were deleted. */
+    /** Removes every saved connotation; returns how many were deleted. */
     public synchronized int clear() {
         File[] files = dir.listFiles();
         int n = 0;
@@ -83,7 +82,7 @@ public final class EntryStore {
     }
 
     private File file(String word) {
-        return new File(dir, sha1(key(word)) + ".json");
+        return new File(dir, sha1(Words.key(word)) + ".json");
     }
 
     private static String sha1(String s) {

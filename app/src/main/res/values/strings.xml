@@ -12,7 +12,7 @@
     <string name="matches">Matches</string>
     <string name="look_up_query">Look up “%1$s”</string>
     <string name="empty_recent_title">Look up any word</string>
-    <string name="empty_recent_body">Words you look up appear here. Tip: select text in any app and tap Define to get the quick popup.</string>
+    <string name="empty_recent_body">Search above. The dictionary is built in, so it works offline. Tip: select text in any app and tap Define to get the quick popup.</string>
     <string name="empty_saved_title">No saved words yet</string>
     <string name="empty_saved_body">Tap the bookmark on any word to keep it here.</string>
     <string name="removed">Removed “%1$s”</string>
@@ -34,19 +34,16 @@
     <string name="tone_neutral">Neutral</string>
     <string name="tone_mixed">Mixed</string>
     <string name="pos_unknown">meaning</string>
-    <string name="not_found">No dictionary entry for this word.</string>
-    <string name="loading_hint">Claude is writing the entry…</string>
+    <string name="not_found">This word isn\'t in the built-in dictionary.</string>
+    <string name="loading_hint">Preparing the built-in dictionary (first launch only)…</string>
     <string name="try_again">Try again</string>
     <string name="check_connotation">Check connotation</string>
     <string name="check_connotation_hint">How does this word feel to people?</string>
     <string name="checking_connotation">Checking connotation…</string>
     <string name="connotation_caution">Careful: %1$s</string>
-    <string name="no_api_key">Add your Claude API key in Settings to start looking up words.</string>
+    <string name="no_api_key">Add your Claude API key in Settings to check connotations.</string>
     <string name="open_settings">Open Settings</string>
-    <string name="key_banner_title">Add your Claude API key</string>
-    <string name="key_banner_body">This dictionary uses your own Anthropic API key to write entries. It stays on your phone.</string>
-    <string name="key_banner_action">Add key</string>
-    <string name="generated_note">Entry written by Claude. It can occasionally be wrong.</string>
+    <string name="generated_note">Definitions: Open English WordNet (CC BY 4.0). Connotations are written by Claude and can occasionally be wrong.</string>
     <string name="pronounce">Pronounce %1$s</string>
     <string name="copied">Copied</string>
     <string name="tts_unavailable">Text-to-speech isn\'t available on this device.</string>
@@ -76,7 +73,7 @@
     <string name="settings_api_key_hint">sk-ant-…</string>
     <string name="settings_api_key_help">Paste your Anthropic API key. It stays on this phone and is only sent to Anthropic.</string>
     <string name="settings_api_key_odd">That doesn\'t look like an Anthropic key (they start with sk-ant-). Saved anyway.</string>
-    <string name="settings_api_key_note">Lookups are billed to your own Anthropic account. Every word you look up is saved on this phone, so opening it again is free.</string>
+    <string name="settings_api_key_note">Only used when you tap Check connotation, billed to your own Anthropic account. Each word\'s connotation is saved on this phone, so it\'s only paid for once.</string>
     <string name="settings_get_key">Get a key</string>
     <string name="save_key">Save</string>
     <string name="settings_model">Model</string>
@@ -85,10 +82,10 @@
     <string name="model_haiku">Claude Haiku 5.5 (fastest, cheapest)</string>
     <string name="settings_data">Data</string>
     <string name="settings_clear_recent">Clear recent searches</string>
-    <string name="settings_clear_cache">Clear saved entries</string>
-    <string name="settings_clear_cache_summary">Entries and connotations are kept on your phone so words open instantly and work offline. Clearing means looking them up again.</string>
-    <string name="settings_cache_cleared">Removed %1$d entries</string>
+    <string name="settings_clear_cache">Clear saved connotations</string>
+    <string name="settings_clear_cache_summary">Connotations you checked are kept on your phone so they show automatically. Clearing means checking them again.</string>
+    <string name="settings_cache_cleared">Removed %1$d connotations</string>
     <string name="settings_about">About</string>
-    <string name="settings_about_body">Definitions, examples and connotations are written by Claude using your own API key. Version %1$s.</string>
+    <string name="settings_about_body">Built-in dictionary: Open English WordNet 2024 (CC BY 4.0, en-word.net) with pronunciations from the CMU Pronouncing Dictionary. Connotations are written by Claude using your own API key. Version %1$s.</string>
     <string name="done">Done</string>
 </resources>

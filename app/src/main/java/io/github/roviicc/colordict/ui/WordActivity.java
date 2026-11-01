@@ -79,8 +79,7 @@ public class WordActivity extends BaseActivity implements EntryRenderer.Listener
     private void load() {
         final int id = ++requestId;
         toolbarTitle.setText(word);
-        Entry cached = dictionary().cached(word);
-        if (cached == null) {
+        if (!dictionary().isReady()) {
             renderer.renderLoading(content, word, false);
         }
         dictionary().define(word, new Dictionary.Callback() {
