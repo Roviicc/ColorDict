@@ -12,8 +12,8 @@ android {
         minSdk = 26
         targetSdk = 35
         // Must keep increasing: v1.4.1 shipped with versionCode 6.
-        versionCode = 8
-        versionName = "2.1.0"
+        versionCode = 9
+        versionName = "2.1.1"
     }
 
     signingConfigs {
@@ -49,6 +49,15 @@ android {
 
     testOptions {
         unitTests.isReturnDefaultValues = true
+        // Robolectric (UI gesture tests) needs the merged resources and assets.
+        unitTests.isIncludeAndroidResources = true
+        unitTests.all {
+            it.maxHeapSize = "2g"
+            // Optional mirror for Robolectric's Android runtime download.
+            System.getenv("ROBOLECTRIC_REPO_URL")?.let { url ->
+                it.systemProperty("robolectric.dependency.repo.url", url)
+            }
+        }
     }
 
     packaging {
@@ -69,6 +78,8 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     // Real org.json for JVM unit tests (Android's copy is stubbed off-device).
     testImplementation("org.json:json:20250517")
+    // Runs Android UI code on the JVM for the popup gesture tests.
+    testImplementation("org.robolectric:robolectric:4.14.1")
     // Local fake of the Claude API for ClaudeDictionaryTest (same OkHttp as the SDK).
     testImplementation("com.squareup.okhttp3:mockwebserver:4.12.0")
 }

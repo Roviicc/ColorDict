@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<io.github.roviicc.colordict.ui.widget.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -19,7 +19,8 @@
         android:clickable="true"
         android:elevation="16dp"
         android:focusable="false"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:visibility="invisible">
 
         <LinearLayout
             android:id="@+id/dragArea"
@@ -100,4 +101,4 @@
         </io.github.roviicc.colordict.ui.widget.MaxHeightScrollView>
 
     </LinearLayout>
-</FrameLayout>
+</io.github.roviicc.colordict.ui.widget.BottomSheetLayout>

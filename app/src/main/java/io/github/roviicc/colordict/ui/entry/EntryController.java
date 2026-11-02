@@ -64,13 +64,6 @@ public final class EntryController implements EntryRenderer.Listener {
         renderer.setFullEntryLink(show);
     }
 
-    /** Switches between the short and full layout, re-rendering in place. */
-    public void setCompact(boolean compact) {
-        renderer.setCompact(compact);
-        if (entry != null) {
-            rerenderInPlace(entry);
-        }
-    }
 
     /** The word as the user asked for it. */
     public String word() {

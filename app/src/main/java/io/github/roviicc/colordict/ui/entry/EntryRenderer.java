@@ -53,7 +53,7 @@ public final class EntryRenderer {
 
     private final Context c;
     private final Listener listener;
-    private boolean compact;
+    private final boolean compact;
     private boolean fullEntryLink;
     /** The slot waiting on Claude (connotation or look-up), for showing its errors. */
     private ClaudeSlot activeSlot;
@@ -65,10 +65,6 @@ public final class EntryRenderer {
         this.compact = compact;
     }
 
-    /** Switches between the short (popup) and full layout; takes effect on the next render. */
-    public void setCompact(boolean compact) {
-        this.compact = compact;
-    }
 
     /** Whether to end entries with a "See full entry" link. */
     public void setFullEntryLink(boolean show) {

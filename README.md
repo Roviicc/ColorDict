@@ -39,9 +39,10 @@ A clean English dictionary for Android with a quick-lookup popup.
 ## The popup
 
 Select text in any app and tap **Define**, or share text to ColorDict, and a
-bottom sheet opens over what you're reading with the top meanings. Scroll up
-and it expands to the full entry, still over your page; drag the handle down
-to shrink it, then to close. Tap a synonym to look it up in place, or "See
+bottom sheet opens over what you're reading with the top of the entry. Swipe
+up and the sheet rises until fully open, then the entry scrolls, in one
+continuous gesture; swipe down and the entry scrolls back to its top, then the
+sheet lowers to its short position, and another swipe down closes it. Tap a synonym to look it up in place, or "See
 full entry" at the end to open the word page.
 
 E-book readers that support the classic ColorDict lookup intent keep working:
