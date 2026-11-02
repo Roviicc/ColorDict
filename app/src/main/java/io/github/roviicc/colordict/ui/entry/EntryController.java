@@ -13,8 +13,8 @@ import io.github.roviicc.colordict.ui.widget.Views;
 
 /**
  * Shows one word in a screen (the full word page or the popup): looks it up,
- * renders the entry or an error, runs "Check connotation", and keeps the
- * bookmark button in sync. Results for a word the user has already moved on
+ * renders the entry or an error, runs the Claude requests ("Check
+ * connotation", "Look up with Claude"), and keeps the bookmark button in sync. Results for a word the user has already moved on
  * from are ignored.
  */
 public final class EntryController implements EntryRenderer.Listener {
@@ -30,6 +30,10 @@ public final class EntryController implements EntryRenderer.Listener {
         void speak(String word);
 
         void openSettings();
+
+        /** The "See full entry" link was tapped (enable it with {@link #showFullEntryLink}). */
+        default void onOpenFullEntry() {
+        }
     }
 
     private final Activity activity;
@@ -53,6 +57,19 @@ public final class EntryController implements EntryRenderer.Listener {
         this.scroll = scroll;
         this.host = host;
         this.renderer = new EntryRenderer(activity, this, compact);
+    }
+
+    /** Ends entries with a "See full entry" link that calls {@link Host#onOpenFullEntry}. */
+    public void showFullEntryLink(boolean show) {
+        renderer.setFullEntryLink(show);
+    }
+
+    /** Switches between the short and full layout, re-rendering in place. */
+    public void setCompact(boolean compact) {
+        renderer.setCompact(compact);
+        if (entry != null) {
+            rerenderInPlace(entry);
+        }
     }
 
     /** The word as the user asked for it. */
@@ -133,28 +150,60 @@ public final class EntryController implements EntryRenderer.Listener {
         repository.checkConnotation(word, entry, new DictionaryRepository.Callback<Entry>() {
             @Override
             public void onResult(Entry e) {
-                if (!isCurrent(id)) {
-                    return;
+                if (isCurrent(id)) {
+                    rerenderInPlace(e);
                 }
-                // Re-render in place, keeping the reader where they were.
-                int y = scroll.getScrollY();
-                entry = e;
-                renderer.renderEntry(content, e);
-                scroll.post(() -> scroll.scrollTo(0, y));
-                host.onEntryShown(e);
             }
 
             @Override
             public void onError(LookupError error) {
-                if (!isCurrent(id)) {
-                    return;
+                if (isCurrent(id)) {
+                    showClaudeError(error);
                 }
-                boolean settings = error.fix == LookupError.Fix.OPEN_SETTINGS;
-                renderer.showConnotationError(error.message,
-                        settings ? activity.getString(R.string.open_settings) : null,
-                        settings ? host::openSettings : null);
             }
         });
+    }
+
+    /** A word the dictionary doesn't have: ask Claude for its meaning and connotation. */
+    @Override
+    public void onLookUpWithClaude() {
+        final int id = generation;
+        repository.lookUpWithClaude(word, new DictionaryRepository.Callback<Entry>() {
+            @Override
+            public void onResult(Entry e) {
+                if (isCurrent(id)) {
+                    show(e);
+                }
+            }
+
+            @Override
+            public void onError(LookupError error) {
+                if (isCurrent(id)) {
+                    showClaudeError(error);
+                }
+            }
+        });
+    }
+
+    private void showClaudeError(LookupError error) {
+        boolean settings = error.fix == LookupError.Fix.OPEN_SETTINGS;
+        renderer.showClaudeError(error.message,
+                settings ? activity.getString(R.string.open_settings) : null,
+                settings ? host::openSettings : null);
+    }
+
+    /** Re-renders the entry keeping the reader's scroll position. */
+    private void rerenderInPlace(Entry e) {
+        int y = scroll.getScrollY();
+        entry = e;
+        renderer.renderEntry(content, e);
+        scroll.post(() -> scroll.scrollTo(0, y));
+        host.onEntryShown(e);
+    }
+
+    @Override
+    public void onOpenFullEntry() {
+        host.onOpenFullEntry();
     }
 
     @Override

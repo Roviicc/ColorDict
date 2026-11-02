@@ -17,6 +17,11 @@ public final class Words {
         return word.trim().replaceAll("\\s+", " ").toLowerCase(Locale.ROOT);
     }
 
+    /** True when two spellings share a lookup key ("Serene" and "serene "). */
+    public static boolean sameKey(String a, String b) {
+        return key(a).equals(key(b));
+    }
+
     // WordNet's "morphy" detachment rules: suffix -> replacement, nouns, verbs, adjectives.
     private static final String[][] RULES = {
             {"'s", ""}, {"’s", ""},

@@ -16,20 +16,38 @@ import io.github.roviicc.colordict.ui.widget.FlowLayout;
 import io.github.roviicc.colordict.ui.widget.Views;
 
 /**
- * The connotation area of an entry. Shows the saved connotation card, or the
- * "Check connotation" button, which switches to a loading state when tapped
- * and to an inline error if the request fails.
+ * A place in the entry where Claude can be asked something: shows a button
+ * ("Check connotation", "Look up with Claude"), which switches to a loading
+ * state when tapped and to an inline error if the request fails. For
+ * connotations it also shows the saved connotation card.
  */
-final class ConnotationSlot {
+final class ClaudeSlot {
 
     private final Context c;
     private final FrameLayout slot;
+    private final int title;
+    private final int hint;
+    private final int loading;
     private final Runnable onRequested;
 
-    ConnotationSlot(Context context, Runnable onRequested) {
+    /** title / hint: the button text; loading: the label shown while waiting. */
+    ClaudeSlot(Context context, int title, int hint, int loading, Runnable onRequested) {
         this.c = context;
         this.slot = new FrameLayout(context);
+        this.title = title;
+        this.hint = hint;
+        this.loading = loading;
         this.onRequested = onRequested;
+    }
+
+    static ClaudeSlot forConnotation(Context context, Runnable onRequested) {
+        return new ClaudeSlot(context, R.string.check_connotation, R.string.check_connotation_hint,
+                R.string.checking_connotation, onRequested);
+    }
+
+    static ClaudeSlot forLookUp(Context context, Runnable onRequested) {
+        return new ClaudeSlot(context, R.string.look_up_with_claude, R.string.look_up_with_claude_hint,
+                R.string.looking_up_with_claude, onRequested);
     }
 
     View view() {
@@ -48,7 +66,7 @@ final class ConnotationSlot {
         float r = Views.dp(c, 14);
         button.setBackground(Views.pressable(c, Views.outlined(Views.color(c, R.color.surface),
                 Views.color(c, R.color.outline), Views.dp(c, 1), r), r));
-        button.setContentDescription(c.getString(R.string.check_connotation));
+        button.setContentDescription(c.getString(title));
 
         TextView glyph = Views.text(c, 18, R.color.accent);
         glyph.setText("✦");
@@ -59,13 +77,13 @@ final class ConnotationSlot {
 
         LinearLayout text = new LinearLayout(c);
         text.setOrientation(LinearLayout.VERTICAL);
-        TextView title = Views.text(c, 15, R.color.textPrimary);
-        title.setText(R.string.check_connotation);
-        title.setTypeface(Views.medium());
-        text.addView(title);
-        TextView hint = Views.text(c, 13, R.color.textSecondary);
-        hint.setText(R.string.check_connotation_hint);
-        text.addView(hint);
+        TextView titleView = Views.text(c, 15, R.color.textPrimary);
+        titleView.setText(title);
+        titleView.setTypeface(Views.medium());
+        text.addView(titleView);
+        TextView hintView = Views.text(c, 13, R.color.textSecondary);
+        hintView.setText(hint);
+        text.addView(hintView);
         LinearLayout.LayoutParams tp = new LinearLayout.LayoutParams(0,
                 LinearLayout.LayoutParams.WRAP_CONTENT, 1);
         tp.setMarginStart(Views.dp(c, 12));
@@ -105,7 +123,7 @@ final class ConnotationSlot {
     private void request() {
         LinearLayout box = box(R.color.surfaceMuted, false);
         TextView label = Views.text(c, 12, R.color.textTertiary);
-        label.setText(c.getString(R.string.checking_connotation).toUpperCase(Locale.ROOT));
+        label.setText(c.getString(loading).toUpperCase(Locale.ROOT));
         label.setLetterSpacing(0.08f);
         box.addView(label);
         Skeleton.addBar(box, -1, 12, 6, 10);
@@ -126,15 +144,15 @@ final class ConnotationSlot {
         dot.setBackground(Views.rounded(fg, Views.dp(c, 4)));
         int d = Views.dp(c, 8);
         head.addView(dot, new LinearLayout.LayoutParams(d, d));
-        TextView title = Views.text(c, 12, tone.foreground);
-        title.setText(c.getString(R.string.connotation_title, c.getString(tone.label))
+        TextView heading = Views.text(c, 12, tone.foreground);
+        heading.setText(c.getString(R.string.connotation_title, c.getString(tone.label))
                 .toUpperCase(Locale.ROOT));
-        title.setLetterSpacing(0.08f);
-        title.setTypeface(Views.medium());
+        heading.setLetterSpacing(0.08f);
+        heading.setTypeface(Views.medium());
         LinearLayout.LayoutParams tp = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         tp.setMarginStart(Views.dp(c, 8));
-        head.addView(title, tp);
+        head.addView(heading, tp);
         box.addView(head);
 
         box.addView(EntryRenderer.body(c, con.summary, 15, R.color.textPrimary), topGap(6));

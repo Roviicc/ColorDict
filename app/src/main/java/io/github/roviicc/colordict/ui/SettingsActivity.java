@@ -20,7 +20,7 @@ import java.util.Arrays;
 import io.github.roviicc.colordict.BuildConfig;
 import io.github.roviicc.colordict.R;
 import io.github.roviicc.colordict.data.Settings;
-import io.github.roviicc.colordict.data.connotation.ConnotationClient;
+import io.github.roviicc.colordict.data.claude.ClaudeClient;
 import io.github.roviicc.colordict.ui.widget.CardList;
 import io.github.roviicc.colordict.ui.widget.Views;
 
@@ -91,10 +91,10 @@ public class SettingsActivity extends BaseActivity {
                 settings.hasApiKey() ? settings.maskedApiKey() : getString(R.string.settings_api_key_none),
                 v -> editApiKey());
         String[] models = getResources().getStringArray(R.array.models);
-        int model = Arrays.asList(ConnotationClient.MODELS).indexOf(settings.model());
+        int model = Arrays.asList(ClaudeClient.MODELS).indexOf(settings.model());
         addRow(claude, R.string.settings_model, model >= 0 ? models[model] : settings.model(), v ->
                 choose(R.string.settings_model, models, model, which -> {
-                    settings.setModel(ConnotationClient.MODELS[which]);
+                    settings.setModel(ClaudeClient.MODELS[which]);
                     build();
                 }));
         addNote(R.string.settings_api_key_note, 13, R.color.textTertiary, 8);
@@ -105,7 +105,7 @@ public class SettingsActivity extends BaseActivity {
             Toast.makeText(this, R.string.done, Toast.LENGTH_SHORT).show();
         });
         addRow(data, R.string.settings_clear_cache, getString(R.string.settings_clear_cache_summary), v -> {
-            int n = repository().clearConnotations();
+            int n = repository().clearClaudeAnswers();
             Toast.makeText(this, getString(R.string.settings_cache_cleared, n), Toast.LENGTH_SHORT).show();
         });
 

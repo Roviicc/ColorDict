@@ -8,6 +8,8 @@ A clean English dictionary for Android with a quick-lookup popup.
 - **Connotation when you want it.** Tap **Check connotation** on any word and
   Claude explains how it feels to people, using your own Anthropic API key.
   The answer is saved with the word, so next time it's already there.
+- **Words the dictionary lacks** (slang, new words, names) get a **Look up
+  with Claude** button for the meaning and connotation, also saved.
 
 | Popup with saved connotation | Word page | Search as you type | Misspelling |
 |---|---|---|---|
@@ -37,8 +39,10 @@ A clean English dictionary for Android with a quick-lookup popup.
 ## The popup
 
 Select text in any app and tap **Define**, or share text to ColorDict, and a
-bottom sheet opens over what you're reading. Tap a synonym to look it up in
-place, tap the expand icon for the full entry, and swipe down to close.
+bottom sheet opens over what you're reading with the top meanings. Scroll up
+and it expands to the full entry, still over your page; drag the handle down
+to shrink it, then to close. Tap a synonym to look it up in place, or "See
+full entry" at the end to open the word page.
 
 E-book readers that support the classic ColorDict lookup intent keep working:
 
@@ -77,11 +81,11 @@ app/src/main/java/io/github/roviicc/colordict/
     LookupError.java             user-facing error + the fix to offer (retry / settings)
     Settings.java, WordList.java theme, API key, model; Recent and Saved lists
     dictionary/                  offline dictionary (SQLite), base forms, spelling suggestions
-    connotation/                 Claude connotation requests and the per-word store
+    claude/                      Claude requests (connotations, meanings of missing words) and saved answers
   ui/
     MainActivity, WordActivity, PopupActivity, SettingsActivity   the four screens
     entry/                       the word view: EntryController (shared by the word page and
-                                 popup), EntryRenderer, ConnotationSlot
+                                 popup), EntryRenderer, ClaudeSlot
     widget/                      small reusable views and helpers (CardList, FlowLayout, ...)
 ```
 

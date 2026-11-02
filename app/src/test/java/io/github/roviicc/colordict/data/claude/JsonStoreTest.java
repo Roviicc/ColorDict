@@ -1,4 +1,4 @@
-package io.github.roviicc.colordict.data.connotation;
+package io.github.roviicc.colordict.data.claude;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -9,14 +9,14 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
 
-public class ConnotationStoreTest {
+public class JsonStoreTest {
 
     @Rule
     public TemporaryFolder tmp = new TemporaryFolder();
 
     @Test
     public void savesConnotationsPerWordCaseInsensitively() throws Exception {
-        ConnotationStore store = new ConnotationStore(tmp.newFolder("connotations"));
+        JsonStore store = new JsonStore(tmp.newFolder("connotations"));
         assertNull(store.get("serene"));
         store.put("Serene", new JSONObject("{\"tone\":\"positive\",\"summary\":\"Calm.\"}"));
         JSONObject c = store.get("  SERENE ");

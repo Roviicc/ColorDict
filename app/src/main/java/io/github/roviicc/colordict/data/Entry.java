@@ -53,6 +53,9 @@ public final class Entry {
         }
     }
 
+    /** Value of the {@code "source"} field for entries written by Claude. */
+    public static final String SOURCE_CLAUDE = "claude";
+
     public final String word;
     public final boolean found;
     public final String phonetic;
@@ -64,6 +67,8 @@ public final class Entry {
     public final String etymology;
     public final List<String> relatedForms;
     public final List<String> suggestions;
+    /** True when the meanings came from Claude (word not in the built-in dictionary). */
+    public final boolean fromClaude;
 
     /** The raw JSON, kept so the entry can be cached exactly as received. */
     private final String json;
@@ -100,6 +105,7 @@ public final class Entry {
         etymology = o.optString("etymology", "");
         relatedForms = strings(o.optJSONArray("related_forms"));
         suggestions = strings(o.optJSONArray("suggestions"));
+        fromClaude = SOURCE_CLAUDE.equals(o.optString("source", ""));
         json = o.toString();
     }
 

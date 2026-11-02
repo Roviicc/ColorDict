@@ -96,36 +96,8 @@
                 android:paddingStart="20dp"
                 android:paddingTop="4dp"
                 android:paddingEnd="20dp"
-                android:paddingBottom="12dp" />
+                android:paddingBottom="20dp" />
         </io.github.roviicc.colordict.ui.widget.MaxHeightScrollView>
 
-        <LinearLayout
-            android:id="@+id/openFull"
-            android:layout_width="match_parent"
-            android:layout_height="52dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="12dp"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:visibility="gone">
-
-            <TextView
-                android:id="@+id/openFullText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/open_full_entry"
-                android:textColor="@color/textPrimary"
-                android:textSize="15sp" />
-
-            <ImageView
-                android:id="@+id/openFullChevron"
-                android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:layout_marginStart="4dp"
-                android:importantForAccessibility="no"
-                android:src="@drawable/ic_chevron_right" />
-        </LinearLayout>
     </LinearLayout>
 </FrameLayout>

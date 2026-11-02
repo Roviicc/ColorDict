@@ -1,4 +1,4 @@
-package io.github.roviicc.colordict.data.connotation;
+package io.github.roviicc.colordict.data.claude;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -17,15 +17,15 @@ import java.util.Locale;
 import io.github.roviicc.colordict.data.dictionary.Words;
 
 /**
- * Saved connotations, one small JSON file per word. Once the user has checked
- * a word's connotation it is read from here on every later lookup, so Claude
- * is asked only once per word.
+ * Saved Claude answers, one small JSON file per word (connotations, and
+ * meanings of words the built-in dictionary lacks). Once saved, they are read
+ * from here on every later lookup, so Claude is asked only once per word.
  */
-public final class ConnotationStore {
+public final class JsonStore {
 
     private final File dir;
 
-    public ConnotationStore(File dir) {
+    public JsonStore(File dir) {
         this.dir = dir;
     }
 
@@ -69,7 +69,7 @@ public final class ConnotationStore {
         tmp.renameTo(f);
     }
 
-    /** Removes every saved connotation; returns how many were deleted. */
+    /** Removes every saved answer; returns how many were deleted. */
     public synchronized int clear() {
         File[] files = dir.listFiles();
         int n = 0;

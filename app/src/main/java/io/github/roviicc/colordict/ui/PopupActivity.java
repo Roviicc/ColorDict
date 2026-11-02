@@ -1,15 +1,16 @@
 package io.github.roviicc.colordict.ui;
 
 import android.content.Intent;
-import android.content.res.ColorStateList;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
+import android.transition.ChangeBounds;
+import android.transition.TransitionManager;
 import android.util.DisplayMetrics;
 import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import io.github.roviicc.colordict.R;
@@ -22,19 +23,29 @@ import io.github.roviicc.colordict.ui.widget.Views;
 /**
  * The quick-lookup popup: a bottom sheet (or floating card) over whatever app
  * the user is in. See {@link PopupRequest} for how other apps open it.
+ *
+ * A docked sheet opens short, with the top meanings. Scrolling or dragging up
+ * expands it to nearly full screen with the full entry, still over the other
+ * app; dragging the handle down shrinks it again, then closes it. The entry
+ * ends with a "See full entry" link to the word page.
  */
 public class PopupActivity extends BaseActivity implements EntryController.Host {
 
-    /** Space taken by the header and footer; the entry scrolls in the rest. */
-    private static final int CHROME_DP = 130;
+    /** Height of the handle and header row above the entry. */
+    private static final int HEADER_DP = 64;
+    /** Scrim left visible above an expanded sheet, so it still reads as a popup. */
+    private static final int EXPANDED_GAP_DP = 24;
 
+    private View root;
     private View scrim;
     private LinearLayout sheet;
     private MaxHeightScrollView scroll;
-    private View openFull;
     private EntryController entry;
     private PopupRequest request;
+    private boolean expanded;
     private boolean dismissing;
+    private int insetTop;
+    private int insetBottom;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,43 +62,46 @@ public class PopupActivity extends BaseActivity implements EntryController.Host 
         }
 
         setContentView(R.layout.activity_popup);
+        root = findViewById(R.id.root);
         scrim = findViewById(R.id.scrim);
         sheet = findViewById(R.id.sheet);
         scroll = findViewById(R.id.scroll);
-        openFull = findViewById(R.id.openFull);
         entry = new EntryController(this, repository(), findViewById(R.id.content), scroll, true, this);
+        entry.showFullEntryLink(true);
+        entry.bindSaveButton(findViewById(R.id.saveButton));
 
-        styleSheet();
+        findViewById(R.id.handle).setBackground(
+                Views.rounded(Views.color(this, R.color.outline), Views.dp(this, 2)));
         applyGeometry();
 
         scrim.setOnClickListener(v -> dismiss());
         findViewById(R.id.closeButton).setOnClickListener(v -> dismiss());
-        findViewById(R.id.expandButton).setOnClickListener(v -> openInApp());
-        openFull.setOnClickListener(v -> openInApp());
-        entry.bindSaveButton(findViewById(R.id.saveButton));
+        findViewById(R.id.expandButton).setOnClickListener(v -> onOpenFullEntry());
         if (request.anchoredBottom()) {
-            DragToDismiss.attach(findViewById(R.id.dragArea), sheet, this::dismiss);
+            DragToDismiss.attach(findViewById(R.id.dragArea), sheet, this::onDraggedDown, this::expand);
+            scroll.setOnPullUpListener(this::expand);
         }
 
-        show(request.query);
+        entry.load(request.query);
         animateIn();
-    }
-
-    private void show(String word) {
-        openFull.setVisibility(View.GONE);
-        entry.load(word);
     }
 
     // ------------------------------------------------------- EntryController.Host
 
     @Override
     public void onEntryShown(Entry e) {
-        openFull.setVisibility(e.hasSenses() ? View.VISIBLE : View.GONE);
     }
 
     @Override
     public void onWordTapped(String word) {
-        show(word);
+        entry.load(word);
+    }
+
+    @Override
+    public void onOpenFullEntry() {
+        startActivity(WordActivity.intent(this, entry.headword()).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+        finish();
+        overridePendingTransition(0, 0);
     }
 
     @Override
@@ -96,24 +110,46 @@ public class PopupActivity extends BaseActivity implements EntryController.Host 
         finish();
     }
 
-    private void openInApp() {
-        startActivity(WordActivity.intent(this, entry.headword()).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-        finish();
-        overridePendingTransition(0, 0);
+    // ------------------------------------------------------- expand / collapse
+
+    /** Grows the sheet to nearly full screen and shows the full entry. */
+    private void expand() {
+        if (expanded || dismissing) {
+            return;
+        }
+        expanded = true;
+        scroll.setOnPullUpListener(null);
+        animateResize();
+        entry.setCompact(false);
+        applyHeights();
+    }
+
+    private void collapse() {
+        expanded = false;
+        scroll.setOnPullUpListener(this::expand);
+        sheet.animate().translationY(0).setDuration(180).start();
+        animateResize();
+        entry.setCompact(true);
+        applyHeights();
+        scroll.scrollTo(0, 0);
+    }
+
+    /** Dragging the handle down shrinks an expanded sheet; a short one closes. */
+    private void onDraggedDown() {
+        if (expanded) {
+            collapse();
+        } else {
+            dismiss();
+        }
+    }
+
+    private void animateResize() {
+        TransitionManager.beginDelayedTransition((ViewGroup) root, new ChangeBounds().setDuration(220));
     }
 
     // ---------------------------------------------------------------- layout
 
-    private void styleSheet() {
-        findViewById(R.id.handle).setBackground(
-                Views.rounded(Views.color(this, R.color.outline), Views.dp(this, 2)));
-        float r = Views.dp(this, 999);
-        openFull.setBackground(Views.pressable(this, Views.rounded(Views.color(this, R.color.surfaceMuted), r), r));
-        ((ImageView) findViewById(R.id.openFullChevron)).setImageTintList(
-                ColorStateList.valueOf(Views.color(this, R.color.textPrimary)));
-    }
-
-    /** Applies the caller's requested size, gravity and margins. */
+    /** Applies the caller's requested width, gravity and margins, and the sheet's shape. */
     private void applyGeometry() {
         DisplayMetrics dm = getResources().getDisplayMetrics();
         boolean docked = request.anchoredBottom();
@@ -131,41 +167,56 @@ public class PopupActivity extends BaseActivity implements EntryController.Host 
         }
         lp.leftMargin = request.marginLeft;
         lp.rightMargin = request.marginRight;
-        lp.topMargin = request.marginTop;
-        lp.bottomMargin = request.marginBottom;
         sheet.setLayoutParams(lp);
 
         // Rounded top corners when docked to the bottom edge; a card otherwise.
-        boolean flushBottom = docked && request.marginBottom == 0;
         float r = Views.dp(this, 24);
         GradientDrawable bg = new GradientDrawable();
         bg.setColor(Views.color(this, R.color.surface));
-        bg.setCornerRadii(flushBottom
+        bg.setCornerRadii(flushBottom()
                 ? new float[]{r, r, r, r, 0, 0, 0, 0}
                 : new float[]{r, r, r, r, r, r, r, r});
         sheet.setBackground(bg);
         sheet.setClipToOutline(true);
 
-        int maxSheet = request.height > 0 ? Math.min(request.height, dm.heightPixels) : dm.heightPixels * 62 / 100;
-        Views.onInsets(findViewById(R.id.root), (left, top, right, bottom) -> {
-            FrameLayout.LayoutParams p = (FrameLayout.LayoutParams) sheet.getLayoutParams();
-            if (flushBottom) {
-                sheet.setPadding(0, 0, 0, bottom); // extend behind the navigation bar
-            } else {
-                p.bottomMargin = request.marginBottom + bottom + (docked ? 0 : Views.dp(this, 16));
-            }
-            if (!docked) {
-                p.topMargin = request.marginTop + top + Views.dp(this, 16);
-            }
-            sheet.setLayoutParams(p);
-
-            int chrome = Views.dp(this, CHROME_DP) + bottom;
-            scroll.setMaxHeight(Math.max(Views.dp(this, 120),
-                    Math.min(maxSheet, dm.heightPixels - top - Views.dp(this, 48)) - chrome));
-            if (request.height > 0) {
-                scroll.getLayoutParams().height = maxSheet - chrome;
-            }
+        Views.onInsets(root, (left, top, right, bottom) -> {
+            insetTop = top;
+            insetBottom = bottom;
+            applyHeights();
         });
+    }
+
+    private boolean flushBottom() {
+        return request.anchoredBottom() && request.marginBottom == 0;
+    }
+
+    /** Sizes the sheet for its state (short or expanded) and the system bars. */
+    private void applyHeights() {
+        int screen = getResources().getDisplayMetrics().heightPixels;
+        boolean docked = request.anchoredBottom();
+        FrameLayout.LayoutParams p = (FrameLayout.LayoutParams) sheet.getLayoutParams();
+        if (flushBottom()) {
+            sheet.setPadding(0, 0, 0, insetBottom); // extend behind the navigation bar
+            p.bottomMargin = 0;
+        } else {
+            p.bottomMargin = request.marginBottom + insetBottom + (docked ? 0 : Views.dp(this, 16));
+        }
+        p.topMargin = docked ? 0 : request.marginTop + insetTop + Views.dp(this, 16);
+        sheet.setLayoutParams(p);
+
+        int chrome = Views.dp(this, HEADER_DP) + insetBottom;
+        int available = screen - insetTop - Views.dp(this, EXPANDED_GAP_DP) - chrome;
+        ViewGroup.LayoutParams sp = scroll.getLayoutParams();
+        if (expanded) {
+            scroll.setMaxHeight(available);
+            sp.height = available; // fill the screen even when the entry is short
+        } else {
+            int maxSheet = request.height > 0 ? Math.min(request.height, screen) : screen * 62 / 100;
+            int shortHeight = Math.max(Views.dp(this, 120), Math.min(maxSheet - chrome, available));
+            scroll.setMaxHeight(shortHeight);
+            sp.height = request.height > 0 ? shortHeight : ViewGroup.LayoutParams.WRAP_CONTENT;
+        }
+        scroll.setLayoutParams(sp);
     }
 
     // ------------------------------------------------------------ animations
@@ -204,6 +255,10 @@ public class PopupActivity extends BaseActivity implements EntryController.Host 
     @Override
     @SuppressWarnings("deprecation")
     public void onBackPressed() {
-        dismiss();
+        if (expanded) {
+            collapse();
+        } else {
+            dismiss();
+        }
     }
 }

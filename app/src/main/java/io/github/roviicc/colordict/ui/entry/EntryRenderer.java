@@ -40,6 +40,12 @@ public final class EntryRenderer {
 
         /** "Check connotation" was tapped (only shown while the entry has none). */
         void onConnotationRequested();
+
+        /** "Look up with Claude" was tapped on a word the dictionary doesn't have. */
+        void onLookUpWithClaude();
+
+        /** The "See full entry" link at the end was tapped (only shown when enabled). */
+        void onOpenFullEntry();
     }
 
     private static final int COMPACT_SENSES = 3;
@@ -47,8 +53,10 @@ public final class EntryRenderer {
 
     private final Context c;
     private final Listener listener;
-    private final boolean compact;
-    private ConnotationSlot connotation;
+    private boolean compact;
+    private boolean fullEntryLink;
+    /** The slot waiting on Claude (connotation or look-up), for showing its errors. */
+    private ClaudeSlot activeSlot;
 
     /** compact: the popup's shorter layout (top senses, one example each). */
     public EntryRenderer(Context context, Listener listener, boolean compact) {
@@ -57,23 +65,39 @@ public final class EntryRenderer {
         this.compact = compact;
     }
 
+    /** Switches between the short (popup) and full layout; takes effect on the next render. */
+    public void setCompact(boolean compact) {
+        this.compact = compact;
+    }
+
+    /** Whether to end entries with a "See full entry" link. */
+    public void setFullEntryLink(boolean show) {
+        this.fullEntryLink = show;
+    }
+
     // ---------------------------------------------------------------- states
 
     public void renderEntry(LinearLayout into, Entry e) {
         into.removeAllViews();
-        connotation = null;
+        activeSlot = null;
         if (!e.hasSenses()) {
             renderNotFound(into, e);
             return;
         }
         into.addView(headword(e.word));
         into.addView(pronunciation(e), gap(compact ? 8 : 12));
+        if (e.fromClaude) {
+            TextView source = Views.text(c, 12, R.color.textTertiary);
+            source.setText(R.string.meaning_by_claude);
+            into.addView(source, gap(8));
+        }
 
-        connotation = new ConnotationSlot(c, listener::onConnotationRequested);
+        ClaudeSlot connotation = ClaudeSlot.forConnotation(c, listener::onConnotationRequested);
         if (e.connotation != null) {
             connotation.showCard(e.connotation);
         } else {
             connotation.showButton();
+            activeSlot = connotation;
         }
         into.addView(connotation.view(), gap(compact ? 16 : 24));
 
@@ -85,6 +109,7 @@ public final class EntryRenderer {
                 into.addView(Views.label(c, c.getString(R.string.label_similar)), gap(18));
                 into.addView(chips(synonyms), gap(8));
             }
+            addFullEntryLink(into);
             return;
         }
         if (!e.usageNote.isEmpty()) {
@@ -98,15 +123,46 @@ public final class EntryRenderer {
             into.addView(Views.label(c, c.getString(R.string.label_related)), gap(28));
             into.addView(chips(e.relatedForms), gap(8));
         }
+        addFullEntryLink(into);
         TextView footer = Views.text(c, 12, R.color.textTertiary);
-        footer.setText(R.string.generated_note);
-        into.addView(footer, gap(36));
+        footer.setText(e.fromClaude ? R.string.claude_entry_note : R.string.generated_note);
+        into.addView(footer, gap(fullEntryLink ? 20 : 36));
+    }
+
+    /** "See full entry ›" at the end of the meanings, when enabled. */
+    private void addFullEntryLink(LinearLayout into) {
+        if (!fullEntryLink) {
+            return;
+        }
+        LinearLayout link = new LinearLayout(c);
+        link.setOrientation(LinearLayout.HORIZONTAL);
+        link.setGravity(Gravity.CENTER_VERTICAL);
+        link.setPadding(0, Views.dp(c, 12), 0, Views.dp(c, 12));
+        link.setBackgroundResource(Views.selectableBackground(c, false));
+        TextView text = Views.text(c, 15, R.color.accent);
+        text.setText(R.string.open_full_entry);
+        text.setTypeface(Views.medium());
+        link.addView(text);
+        ImageView chevron = new ImageView(c);
+        chevron.setImageResource(R.drawable.ic_chevron_right);
+        chevron.setImageTintList(android.content.res.ColorStateList.valueOf(Views.color(c, R.color.accent)));
+        int s = Views.dp(c, 18);
+        LinearLayout.LayoutParams cp = new LinearLayout.LayoutParams(s, s);
+        cp.setMarginStart(Views.dp(c, 2));
+        link.addView(chevron, cp);
+        link.setOnClickListener(v -> listener.onOpenFullEntry());
+
+        View line = new View(c);
+        line.setBackgroundColor(Views.color(c, R.color.outline));
+        into.addView(line, new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1));
+        ((LinearLayout.LayoutParams) line.getLayoutParams()).topMargin = Views.dp(c, 24);
+        into.addView(link, gap(4));
     }
 
     /** Skeleton shown while the dictionary is unpacked on first launch. */
     public void renderLoading(LinearLayout into, String word) {
         into.removeAllViews();
-        connotation = null;
+        activeSlot = null;
         into.addView(headword(word));
         Skeleton.addBar(into, 110, 28, 999, 12);
         Skeleton.addBar(into, 72, 12, 6, compact ? 22 : 30);
@@ -127,7 +183,7 @@ public final class EntryRenderer {
     public void renderError(LinearLayout into, String word, String message, String actionLabel,
                             Runnable action) {
         into.removeAllViews();
-        connotation = null;
+        activeSlot = null;
         into.addView(headword(word));
         into.addView(body(c, message, 16, R.color.textSecondary), gap(12));
         if (actionLabel != null && action != null) {
@@ -139,16 +195,20 @@ public final class EntryRenderer {
         }
     }
 
-    /** Shows a failed connotation request in place of the loading state. */
-    public void showConnotationError(String message, String actionLabel, Runnable action) {
-        if (connotation != null) {
-            connotation.showError(message, actionLabel, action);
+    /** Shows a failed Claude request (connotation or look-up) in place of its loading state. */
+    public void showClaudeError(String message, String actionLabel, Runnable action) {
+        if (activeSlot != null) {
+            activeSlot.showError(message, actionLabel, action);
         }
     }
 
+    /** Not in the built-in dictionary: offer Claude, then spelling suggestions. */
     private void renderNotFound(LinearLayout into, Entry e) {
         into.addView(headword(e.word));
         into.addView(body(c, c.getString(R.string.not_found), 16, R.color.textSecondary), gap(10));
+        activeSlot = ClaudeSlot.forLookUp(c, listener::onLookUpWithClaude);
+        activeSlot.showButton();
+        into.addView(activeSlot.view(), gap(16));
         if (!e.suggestions.isEmpty()) {
             into.addView(Views.label(c, c.getString(R.string.label_did_you_mean)), gap(22));
             into.addView(chips(e.suggestions), gap(8));

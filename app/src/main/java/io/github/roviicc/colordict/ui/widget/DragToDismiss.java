@@ -6,26 +6,34 @@ import android.view.View;
 
 /**
  * Lets the user swipe a bottom sheet down by its handle area. Past a quarter
- * of the sheet's height (or on a quick fling) the sheet is dismissed;
- * otherwise it springs back.
+ * of the sheet's height (or on a quick fling) {@code onDismiss} runs;
+ * otherwise the sheet springs back. An upward drag runs {@code onPullUp}.
  */
 public final class DragToDismiss implements View.OnTouchListener {
 
     private final View sheet;
     private final Runnable onDismiss;
+    private final Runnable onPullUp;
     private final float flingVelocityPx;
+    private final float pullUpPx;
     private float startY;
     private VelocityTracker velocity;
 
-    private DragToDismiss(View sheet, Runnable onDismiss) {
+    private DragToDismiss(View sheet, Runnable onDismiss, Runnable onPullUp) {
         this.sheet = sheet;
         this.onDismiss = onDismiss;
+        this.onPullUp = onPullUp;
         this.flingVelocityPx = Views.dp(sheet.getContext(), 1000);
+        this.pullUpPx = Views.dp(sheet.getContext(), 24);
     }
 
-    /** Makes dragging {@code handle} move {@code sheet}; {@code onDismiss} runs when let go far enough. */
-    public static void attach(View handle, View sheet, Runnable onDismiss) {
-        handle.setOnTouchListener(new DragToDismiss(sheet, onDismiss));
+    /**
+     * Makes dragging {@code handle} move {@code sheet}. {@code onDismiss} runs
+     * when it is let go far enough down; {@code onPullUp} (may be null) when
+     * dragged up.
+     */
+    public static void attach(View handle, View sheet, Runnable onDismiss, Runnable onPullUp) {
+        handle.setOnTouchListener(new DragToDismiss(sheet, onDismiss, onPullUp));
     }
 
     @Override
@@ -54,6 +62,8 @@ public final class DragToDismiss implements View.OnTouchListener {
                 }
                 if (sheet.getTranslationY() > sheet.getHeight() * 0.25f || vy > flingVelocityPx) {
                     onDismiss.run();
+                } else if (onPullUp != null && startY - ev.getRawY() > pullUpPx) {
+                    onPullUp.run();
                 } else {
                     sheet.animate().translationY(0).setDuration(180).start();
                 }

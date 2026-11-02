@@ -3,7 +3,7 @@ package io.github.roviicc.colordict.data;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import io.github.roviicc.colordict.data.connotation.ConnotationClient;
+import io.github.roviicc.colordict.data.claude.ClaudeClient;
 
 /** User settings: theme, and the Claude API key and model used for connotations. */
 public final class Settings {
@@ -61,9 +61,9 @@ public final class Settings {
         return k.substring(0, 7) + "…" + k.substring(k.length() - 4);
     }
 
-    /** One of {@link ConnotationClient#MODELS}. */
+    /** One of {@link ClaudeClient#MODELS}. */
     public String model() {
-        return prefs.getString(KEY_MODEL, ConnotationClient.DEFAULT_MODEL);
+        return prefs.getString(KEY_MODEL, ClaudeClient.DEFAULT_MODEL);
     }
 
     public void setModel(String model) {

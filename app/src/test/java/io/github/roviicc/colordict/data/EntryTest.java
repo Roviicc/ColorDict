@@ -32,6 +32,7 @@ public class EntryTest {
         assertEquals(2, e.senses.get(0).synonyms.size());
         assertEquals("literary", e.senses.get(1).register);
         assertNull("connotation is only fetched on request", e.connotation);
+        assertFalse("built-in entries aren't marked as Claude's", e.fromClaude);
         assertEquals("adjective · Calm, peaceful, and untroubled.", e.preview());
     }
 
