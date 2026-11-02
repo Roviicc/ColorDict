@@ -50,6 +50,12 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          # Release notes: docs/releases/<tag>.md when present, else a short default.
+          NOTES="docs/releases/${TAG}.md"
+          if [ ! -f "$NOTES" ]; then
+            NOTES="$(mktemp)"
+            echo "Ready-to-install **debug APK** (install this one directly on your device) and an unsigned release APK (sign it with your own key before distributing)." > "$NOTES"
+          fi
           gh release create "${TAG}" \
             "colordict-${TAG}-debug.apk" \
             "colordict-${TAG}-release-unsigned.apk" \
@@ -57,5 +63,5 @@ jobs:
             "colordict-release-unsigned.apk" \
             --target "${GITHUB_SHA}" \
             --title "ColorDict ${TAG}" \
-            --notes "Ready-to-install **debug APK** (install this one directly on your device) and an unsigned release APK (sign it with your own key before distributing)." \
+            --notes-file "$NOTES" \
             --repo "${GITHUB_REPOSITORY}"

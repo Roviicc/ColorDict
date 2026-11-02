@@ -11,8 +11,20 @@ android {
         // 26+: the Claude Java SDK uses java.time.
         minSdk = 26
         targetSdk = 35
-        versionCode = 2
+        // Must keep increasing: v1.4.1 shipped with versionCode 6.
+        versionCode = 7
         versionName = "2.0.0"
+    }
+
+    signingConfigs {
+        // A fixed, public debug key (password "android") so every CI build and
+        // release is signed the same way and installs as an update over the last.
+        getByName("debug") {
+            storeFile = file("debug.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
     }
 
     buildFeatures {
