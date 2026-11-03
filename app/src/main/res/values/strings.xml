@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Pop Dictionary</string>
+    <string name="app_name">PopUp Dictionary</string>
     <string name="define_label">Define</string>
 
     <!-- Home -->
@@ -93,6 +93,6 @@
     <string name="settings_clear_cache_summary">Connotations and meanings from Claude are kept on your phone so they show automatically. Clearing means asking again.</string>
     <string name="settings_cache_cleared">Removed %1$d saved answers</string>
     <string name="settings_about">About</string>
-    <string name="settings_about_body">Built-in dictionary: Open English WordNet 2024 (CC BY 4.0, en-word.net) with pronunciations from the CMU Pronouncing Dictionary. Connotations are written by Claude using your own API key. Version %1$s.</string>
+    <string name="settings_about_body">Built-in dictionary: Open English WordNet 2024 (CC BY 4.0, en-word.net) with pronunciations from the CMU Pronouncing Dictionary. Icons: Hugeicons (MIT). Connotations are written by Claude using your own API key. Version %1$s.</string>
     <string name="done">Done</string>
 </resources>

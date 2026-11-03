@@ -1,4 +1,4 @@
-# Pop Dictionary
+# PopUp Dictionary
 
 A clean English dictionary for Android with a quick-lookup popup.
 
@@ -38,7 +38,7 @@ A clean English dictionary for Android with a quick-lookup popup.
 
 ## The popup
 
-Select text in any app and tap **Define**, or share text to Pop Dictionary, and a
+Select text in any app and tap **Define**, or share text to PopUp Dictionary, and a
 bottom sheet opens over what you're reading with the top of the entry. Swipe
 up and the sheet rises until fully open, then the entry scrolls, in one
 continuous gesture; swipe down and the entry scrolls back to its top, then the

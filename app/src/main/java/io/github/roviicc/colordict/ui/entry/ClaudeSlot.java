@@ -68,10 +68,12 @@ final class ClaudeSlot {
                 Views.color(c, R.color.outline), Views.dp(c, 1), r), r));
         button.setContentDescription(c.getString(title));
 
-        TextView glyph = Views.text(c, 18, R.color.accent);
-        glyph.setText("✦");
-        glyph.setGravity(Gravity.CENTER);
+        ImageView glyph = new ImageView(c);
+        glyph.setImageResource(R.drawable.ic_sparkle);
+        glyph.setImageTintList(android.content.res.ColorStateList.valueOf(Views.color(c, R.color.accent)));
         int g = Views.dp(c, 36);
+        int inset = Views.dp(c, 8);
+        glyph.setPadding(inset, inset, inset, inset);
         glyph.setBackground(Views.rounded(Views.color(c, R.color.accentSoft), g / 2f));
         button.addView(glyph, new LinearLayout.LayoutParams(g, g));
 

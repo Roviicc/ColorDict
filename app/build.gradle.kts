@@ -12,8 +12,8 @@ android {
         minSdk = 26
         targetSdk = 35
         // Must keep increasing: v1.4.1 shipped with versionCode 6.
-        versionCode = 10
-        versionName = "2.1.2"
+        versionCode = 11
+        versionName = "2.2.0"
     }
 
     signingConfigs {
